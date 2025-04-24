@@ -11,30 +11,36 @@
 <body>
     <div class="main-container">
 
-        <div id="selection-area"> <div id="theme-selection-container"> <h2>Escolha um Tema:</h2>
+        <div id="selection-area">
+            <div id="theme-selection-container">
+                <h2>Escolha um Tema:</h2>
                 <div id="theme-buttons" class="theme-buttons">
                     <p>Carregando temas...</p>
                 </div>
             </div>
 
-            <div id="subtheme-selection-container" class="hide"> <h2 id="subtheme-title">Escolha um Subtema:</h2>
+            <div id="subtheme-selection-container" class="hide">
+                <h2 id="subtheme-title">Escolha um Subtema:</h2>
                 <div id="subtheme-buttons" class="theme-buttons"></div>
                 <button id="back-to-themes-btn" class="control-btn back-btn">Voltar aos Temas</button>
             </div>
         </div>
 
-        <div id="question-count-selection" class="hide" style="margin-top: 20px; padding: 20px; background-color: #e9ecef; border-radius: 8px;"> <h2 id="question-count-title">Quantidade de Questões</h2>
+        <div id="question-count-selection" class="hide" style="margin-top: 20px; padding: 20px; background-color: #e9ecef; border-radius: 8px;">
+            <h2 id="question-count-title">Quantidade de Questões</h2>
             <p>Este quiz tem <strong id="max-questions-info">N/A</strong> questões disponíveis.</p>
             <p>Selecione a quantidade desejada:</p>
-
             <div id="question-count-buttons" style="margin-top: 15px; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
                 </div>
-
-            <div style="margin-top: 20px;"> <button id="back-to-selection-from-count-btn" class="control-btn back-btn">Voltar</button>
+            <div style="margin-top: 20px;">
+                 <button id="back-to-selection-from-count-btn" class="control-btn back-btn">Voltar</button>
             </div>
             <div id="question-count-message" class="message-area hide"></div>
         </div>
-        <div id="quiz-container" class="quiz-container hide"> <h1 id="quiz-title">Quiz</h1>
+
+
+        <div id="quiz-container" class="quiz-container hide">
+             <h1 id="quiz-title">Quiz</h1>
             <div id="progress-container" class="hide">
                 <div id="progress-bar-container">
                     <div id="progress-bar-indicator"></div>
@@ -53,7 +59,7 @@
             </div>
             <div id="score-container" class="hide">
                 <span id="points-score-display">Pontuação: <span id="score-value">0</span></span>
-                <span id="percentage-score-display" class="hide">Percentual: <span id="score-percentage">0</span></span>
+                <span id="percentage-score-display" class="hide">Percentual: <span id="score-percentage">0</span>%</span>
             </div>
             <div id="result-container" class="hide"></div>
         </div>
