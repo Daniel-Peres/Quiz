@@ -23,19 +23,17 @@
             </div>
         </div>
 
-        <div id="question-count-selection" class="hide" style="margin-top: 20px; padding: 20px; background-color: #e9ecef; border-radius: 8px;"> <h2 id="question-count-title">Quantas questões?</h2>
+        <div id="question-count-selection" class="hide" style="margin-top: 20px; padding: 20px; background-color: #e9ecef; border-radius: 8px;"> <h2 id="question-count-title">Quantidade de Questões</h2>
             <p>Este quiz tem <strong id="max-questions-info">N/A</strong> questões disponíveis.</p>
-            <div>
-                <label for="question-count-input">Escolha o número de questões (1-<span id="max-questions-label">N/A</span>):</label>
-                <input type="number" id="question-count-input" min="1" value="5" style="width: 60px; padding: 8px; margin: 0 10px;">
-            </div>
-            <div style="margin-top: 15px;">
-                 <button id="start-quiz-with-count-btn" class="control-btn" style="background-color: #28a745;">Iniciar Quiz</button>
-                 <button id="back-to-selection-from-count-btn" class="control-btn back-btn">Voltar</button>
+            <p>Selecione a quantidade desejada:</p>
+
+            <div id="question-count-buttons" style="margin-top: 15px; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+                </div>
+
+            <div style="margin-top: 20px;"> <button id="back-to-selection-from-count-btn" class="control-btn back-btn">Voltar</button>
             </div>
             <div id="question-count-message" class="message-area hide"></div>
         </div>
-
         <div id="quiz-container" class="quiz-container hide"> <h1 id="quiz-title">Quiz</h1>
             <div id="progress-container" class="hide">
                 <div id="progress-bar-container">
@@ -55,7 +53,7 @@
             </div>
             <div id="score-container" class="hide">
                 <span id="points-score-display">Pontuação: <span id="score-value">0</span></span>
-                <span id="percentage-score-display" class="hide">Percentual: <span id="score-percentage">0</span>%</span>
+                <span id="percentage-score-display" class="hide">Percentual: <span id="score-percentage">0</span></span>
             </div>
             <div id="result-container" class="hide"></div>
         </div>

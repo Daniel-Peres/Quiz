@@ -1,401 +1,119 @@
-/* Estilos gerais */
-body {
-    font-family: sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 20px;
-    box-sizing: border-box;
+/* === Estilos Globais e Variáveis === */
+:root {
+    --primary-color: #007bff; --primary-hover: #0056b3;
+    --secondary-color: #6c757d; --secondary-hover: #5a6268;
+    --success-color: #28a745; --success-hover: #218838;
+    --danger-color: #dc3545; --warning-color: #ffc107; --warning-hover: #e0a800;
+    --light-bg: #f8f9fa; --medium-bg: #e9ecef; --dark-text: #333;
+    --light-text: #fff; --border-color: #dee2e6; --shadow-color: rgba(0, 0, 0, 0.1);
+    --base-font-size: 16px; --container-padding: 20px;
+    --card-border-radius: 8px; --button-border-radius: 5px;
 }
-.main-container {
-    width: 100%;
-    /* max-width: 600px; */ /* Removido/comentado para ocupar tela cheia, se desejado */
-    min-height: 100vh; /* Garante altura mínima */
-    background-color: white;
-    padding: 30px;
-    /* border-radius: 10px; */ /* Opcional remover em tela cheia */
-    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */ /* Opcional remover em tela cheia */
-    text-align: center;
-    box-sizing: border-box; /* Inclui padding na largura/altura total */
-}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { font-size: var(--base-font-size); scroll-behavior: smooth; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; background-color: #f0f0f0; color: var(--dark-text); display: flex; justify-content: center; align-items: flex-start; min-height: 100vh; padding: var(--container-padding); }
 
-/* --- ESTILOS PARA SELEÇÃO DE TEMA/SUBTEMA --- */
-#selection-area {
-    max-width: 600px; /* Limita largura da área de seleção mesmo em tela cheia */
-    margin: 0 auto 20px auto; /* Centraliza e adiciona margem inferior */
-    padding: 20px;
-    background-color: #f8f9fa;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
-#theme-selection-container,
-#subtheme-selection-container {
-    margin-bottom: 20px;
-}
-#theme-selection-container h2,
-#subtheme-selection-container h2 {
-    color: #333;
-    margin-bottom: 20px;
-}
-.theme-buttons {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-}
-.theme-btn {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 12px 18px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 1em;
-    text-align: left;
-    transition: background-color 0.2s ease, transform 0.1s ease;
-}
-.theme-btn .description {
-    display: block;
-    font-size: 0.8em;
-    opacity: 0.8;
-    margin-top: 4px;
-}
-.theme-btn:hover {
-    background-color: #0056b3;
-}
-.theme-btn:active {
-    transform: scale(0.98);
-}
-.back-btn {
-    margin-top: 20px;
-    background-color: #6c757d;
-    font-size: 0.9em;
-    padding: 10px 20px;
-}
-.back-btn:hover {
-    background-color: #5a6268;
-}
-/* --- FIM ESTILOS SELEÇÃO --- */
+/* === Containers Principais === */
+.main-container { width: 100%; min-height: calc(100vh - (2 * var(--container-padding))); background-color: var(--light-text); padding: var(--container-padding); }
+#selection-area, #question-count-selection { max-width: 700px; margin: 0 auto 2rem auto; padding: 1.5rem; background-color: var(--light-bg); border-radius: var(--card-border-radius); box-shadow: 0 2px 6px var(--shadow-color); text-align: center; }
+.quiz-container { max-width: 1100px; margin: 1rem auto 0 auto; padding: 0; }
 
+/* === Títulos === */
+h1, h2 { color: var(--dark-text); margin-bottom: 1.2rem; text-align: center; }
 
-/* --- ESTILOS PARA SELEÇÃO DE QUANTIDADE --- */
-/* Estilos adicionados/modificados para a seção de contagem */
-#question-count-selection {
-    max-width: 600px; /* Limita largura */
-    margin: 20px auto; /* Centraliza */
-    padding: 25px;
-    background-color: #e9ecef;
-    border-radius: 8px;
-    text-align: center;
-}
-#question-count-selection h2 {
-    margin-top: 0;
-    margin-bottom: 15px;
-    color: #333;
-}
-#question-count-selection p {
-    margin-bottom: 20px;
-    color: #555;
-}
-#question-count-selection label {
-    margin-right: 5px;
-    color: #333;
-}
-#question-count-selection input[type=number] {
-    width: 70px;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    text-align: center;
-    font-size: 1em;
-}
-#question-count-selection .control-btn {
-    margin: 15px 5px 0; /* Ajusta margem */
-}
-/* --- FIM ESTILOS SELEÇÃO QUANTIDADE --- */
+/* === Seleção Tema/Subtema === */
+#theme-selection-container, #subtheme-selection-container { margin-bottom: 1.5rem; }
+.theme-buttons { display: flex; flex-direction: column; gap: 0.8rem; }
+.theme-btn { background-color: var(--primary-color); color: var(--light-text); border: none; padding: 0.8rem 1.2rem; border-radius: var(--button-border-radius); cursor: pointer; font-size: 1rem; text-align: left; transition: background-color 0.2s ease, transform 0.1s ease; }
+.theme-btn:hover { background-color: var(--primary-hover); }
+.theme-btn:active { transform: scale(0.98); }
+.theme-btn .description { display: block; font-size: 0.8em; opacity: 0.85; margin-top: 0.3rem; font-weight: normal; }
+.back-btn { background-color: var(--secondary-color); }
+.back-btn:hover { background-color: var(--secondary-hover); }
 
+/* === Seleção de Quantidade === */
+#question-count-selection p { margin-bottom: 0.8rem; color: #555; }
+#question-count-buttons { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 1.5rem; margin-bottom: 1rem; }
+.count-btn { background-color: var(--secondary-color); color: var(--light-text); font-size: 0.9rem; min-width: 120px; text-align: center; flex-grow: 1; flex-basis: 120px; /* Herda padding/border-radius de .control-btn via classe */ }
+.count-btn:hover { background-color: var(--secondary-hover); transform: translateY(-2px); }
 
-/* --- ESTILOS QUIZ PRINCIPAL --- */
-.quiz-container {
-    max-width: 800px; /* Aumenta um pouco a largura máxima para o quiz */
-    margin: 20px auto 0 auto; /* Centraliza e adiciona margem superior */
-}
-.quiz-container h1 {
-    color: #333;
-    margin-bottom: 20px;
-}
+/* === Quiz Principal === */
+#progress-container { width: 100%; margin-bottom: 1.8rem; }
+#progress-bar-container { width: 100%; height: 12px; background-color: var(--medium-bg); border-radius: 6px; overflow: hidden; }
+#progress-bar-indicator { height: 100%; width: 0%; background-color: var(--primary-color); border-radius: 6px; transition: width 0.4s ease-out; }
+#progress-text { text-align: center; margin-top: 0.6rem; font-size: 0.9rem; color: #555; }
+#question-text { font-size: 1.3rem; color: var(--dark-text); margin-bottom: 2rem; min-height: 3em; line-height: 1.5; text-align: center; }
+.options-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; perspective: 1000px; }
+.option-frame { border: 3px solid transparent; padding: 0; border-radius: var(--card-border-radius); cursor: pointer; font-size: 1rem; position: relative; min-height: 130px; transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease; transform-style: preserve-3d; box-shadow: 0 2px 5px var(--shadow-color); background-color: var(--light-bg); }
+.option-frame .front-face, .option-frame .back-face { position: absolute; top: 0; left: 0; width: 100%; height: 100%; box-sizing: border-box; border-radius: calc(var(--card-border-radius) - 3px); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; backface-visibility: hidden; -webkit-backface-visibility: hidden; transition: background-color 0.3s ease; padding: 0.8rem; }
+.option-frame .front-face { background-color: var(--primary-color); color: var(--light-text); z-index: 2; font-weight: 500; }
+.option-frame .back-face { background-color: var(--secondary-color); color: var(--light-text); transform: rotateY(180deg); font-size: 0.85rem; overflow: auto; align-items: flex-start; text-align: left; justify-content: flex-start; padding: 0.6rem; }
+.explanation { display: block; width: 100%; max-height: 100%; overflow-wrap: break-word; word-wrap: break-word; white-space: normal; line-height: 1.45; color: inherit; }
+.option-frame:hover:not(.disabled):not(.selected) { transform: translateY(-5px) scale(1.02); z-index: 10; box-shadow: 0 6px 12px rgba(0,0,0,0.15); }
+.option-frame.selected { border-color: var(--warning-color); transform: scale(1.03); z-index: 5; box-shadow: 0 6px 12px rgba(0,0,0,0.2); }
+.option-frame.selected:not(.reveal) .front-face { background-color: var(--primary-hover); }
+.option-frame.reveal { animation: flip 0.7s forwards ease-in-out; } @keyframes flip { from { transform: rotateY(0deg); } to { transform: rotateY(180deg); } }
+.option-frame.correct .back-face { background-color: var(--success-color); }
+.option-frame.incorrect .back-face { background-color: var(--danger-color); }
+.option-frame.selected.disabled, .option-frame.selected.reveal { outline: 3px solid var(--dark-text); outline-offset: 2px; }
 
-/* Barra de Progresso */
-#progress-container {
-    width: 100%;
-    margin-top: 15px;
-    margin-bottom: 25px;
-}
-#progress-bar-container {
-    width: 100%;
-    height: 10px;
-    background-color: #e0e0e0;
-    border-radius: 5px;
-    overflow: hidden;
-}
-#progress-bar-indicator {
-    height: 100%;
-    width: 0%; /* Inicia em 0% */
-    background-color: #007bff;
-    border-radius: 5px;
-    transition: width 0.4s ease-out;
-}
-#progress-text {
-    text-align: center;
-    margin-top: 8px;
-    font-size: 0.9em;
-    color: #555;
-}
-
-/* Texto da Pergunta */
-#question-text {
-    font-size: 1.2em;
-    color: #333;
-    margin-bottom: 25px;
-    min-height: 3em; /* Dá um espaço mínimo para a pergunta */
-    line-height: 1.5;
-}
-
-
-/* Opções e Quadros */
-.options-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Layout responsivo */
-    gap: 15px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    perspective: 1000px;
-}
-.option-frame {
-    border: 3px solid transparent;
-    padding: 0; /* Padding será aplicado nas faces */
-    border-radius: 8px;
-    cursor: pointer;
-    font-size: 1em;
-    position: relative;
-    min-height: 120px; /* Aumenta altura mínima */
-    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
-    transform-style: preserve-3d;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-    background-color: #f8f9fa; /* Cor de fundo para o frame */
-}
-.option-frame .front-face,
-.option-frame .back-face {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    box-sizing: border-box; /* Importante */
-    border-radius: 6px; /* Menor que o pai para caber dentro */
-    display: flex;
-    flex-direction: column; /* Permite empilhar conteúdo se necessário */
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-     transition: background-color 0.3s ease;
-     padding: 15px; /* Padding interno */
-}
-
-.option-frame .front-face {
-    background-color: #007bff;
-    color: white;
-    z-index: 2; /* Fica na frente inicialmente */
-}
-
-/* --- MODIFICAÇÕES PARA OVERFLOW --- */
-.option-frame .back-face {
-    background-color: #6c757d;
-    color: white;
-    transform: rotateY(180deg);
-    font-size: 0.9em; /* Reduz um pouco para caber mais texto */
-    /* Controle de Overflow */
-    overflow: auto; /* Adiciona barra de rolagem se conteúdo exceder */
-    /* Alternativa: overflow-y: auto; (apenas vertical) */
-    align-items: flex-start; /* Alinha conteúdo no topo */
-    text-align: left; /* Alinha texto à esquerda */
-    padding: 10px; /* Reduz padding para mais espaço */
-    justify-content: flex-start; /* Conteúdo começa do topo */
-}
-
-.explanation {
-    display: block; /* Garante que o span ocupe a largura */
-    width: 100%;
-    max-height: 100%; /* Ajuda no cálculo do overflow do pai */
-    overflow-wrap: break-word; /* Quebra palavras longas */
-    word-wrap: break-word; /* Compatibilidade */
-    white-space: normal; /* Permite quebra de linha */
-    line-height: 1.4; /* Espaçamento entre linhas */
-    color: white; /* Garante cor do texto */
-}
-/* --- FIM MODIFICAÇÕES PARA OVERFLOW --- */
-
-
-/* Efeitos de Interação */
-.option-frame:hover:not(.disabled):not(.selected) {
-    transform: scale(1.03); /* Reduzido levemente */
-    z-index: 10;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
-}
-.option-frame.selected {
-    border-color: #ffc107;
-    transform: scale(1.05); /* Reduzido levemente */
-    z-index: 5;
-    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
-}
-.option-frame.selected:not(.reveal) .front-face {
-     background-color: #0056b3; /* Escurece um pouco ao selecionar */
-}
-
-/* Animação e Feedback */
-.option-frame.reveal { animation: flip 0.8s forwards; }
-@keyframes flip { from { transform: rotateY(0deg); } to { transform: rotateY(180deg); } }
-
-.option-frame.correct .back-face { background-color: #28a745; } /* Verde para correto */
-.option-frame.incorrect .back-face { background-color: #dc3545; } /* Vermelho para incorreto */
-
-.option-frame.selected.disabled {
-    border-color: #ffc107; /* Mantém borda amarela se foi selecionado */
-    transform: scale(1); /* Volta ao tamanho normal após revelar */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-}
-/* Destaque para a opção selecionada após revelação */
-.option-frame.selected.reveal,
-.option-frame.selected.disabled {
-    outline: 3px solid #333; /* Ou outra cor de destaque */
-    outline-offset: 3px;
-}
-
-
-/* Controles e Utilitários */
-.controls {
-    margin-top: 30px; /* Mais espaço acima dos botões */
-    padding-top: 20px; /* Espaço interno */
-    border-top: 1px solid #eee; /* Linha divisória */
-}
-.control-btn {
-    background-color: #5a6268;
-    color: white;
-    border: none;
-    padding: 12px 25px;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1em;
-    margin: 5px; /* Espaço entre botões */
-    transition: background-color 0.2s ease, transform 0.1s ease, opacity 0.2s ease;
-}
-.control-btn:hover:not(:disabled) { background-color: #495057; }
+/* === Controles (Botões) === */
+.controls { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); text-align: center; }
+.control-btn { background-color: var(--secondary-color); color: var(--light-text); border: none; padding: 0.8rem 1.8rem; border-radius: var(--button-border-radius); cursor: pointer; font-size: 1rem; margin: 0.5rem; transition: background-color 0.2s ease, transform 0.1s ease, opacity 0.2s ease; display: inline-block; }
+.control-btn:hover:not(:disabled) { background-color: var(--secondary-hover); }
 .control-btn:active:not(:disabled) { transform: scale(0.98); }
-.control-btn:disabled { background-color: #adb5bd; cursor: not-allowed; opacity: 0.7; }
+.control-btn:disabled { background-color: #adb5bd; cursor: not-allowed; opacity: 0.65; }
+#confirm-btn { background-color: var(--primary-color); } #confirm-btn:hover:not(:disabled) { background-color: var(--primary-hover); }
+#next-btn { background-color: var(--success-color); } #next-btn:hover:not(:disabled) { background-color: var(--success-hover); }
+#finish-btn { background-color: var(--warning-color); color: var(--dark-text); } #finish-btn:hover:not(:disabled) { background-color: var(--warning-hover); }
+/* Foco Acessibilidade */
+.theme-btn:focus-visible, .control-btn:focus-visible, .option-frame:focus-visible { outline: 3px solid var(--primary-color); outline-offset: 2px; }
+input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outline-offset: 1px; border-color: var(--primary-color); }
 
-#confirm-btn { background-color: #007bff; }
-#confirm-btn:hover:not(:disabled) { background-color: #0056b3; }
-#next-btn { background-color: #28a745; }
-#next-btn:hover:not(:disabled) { background-color: #218838; }
-#finish-btn { background-color: #ffc107; color: #333; }
-#finish-btn:hover:not(:disabled) { background-color: #e0a800; }
-
-/* Classe para esconder elementos */
+/* === Utilitários === */
 .hide { display: none !important; }
-/* Classe para desabilitar visualmente e interativamente */
-.disabled {
-    cursor: default;
-    pointer-events: none; /* Impede cliques */
-    /* A aparência de desabilitado pode ser controlada pelo estado (reveal, etc) */
-}
-.option-frame.disabled:hover {
-    transform: none; /* Remove efeito hover */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Reset box-shadow */
-}
+.disabled { cursor: default !important; pointer-events: none !important; user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;}
+.option-frame.disabled:hover { transform: none; box-shadow: 0 2px 5px var(--shadow-color); }
 
+/* === Pontuação e Mensagens === */
+#score-container { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color); font-size: 1.1rem; font-weight: bold; color: var(--dark-text); text-align: center; }
+#score-container > span { display: inline-block; margin: 0 0.5rem; }
+#score-container span span { margin-left: 0.3rem; background-color: var(--medium-bg); padding: 0.1rem 0.4rem; border-radius: var(--button-border-radius); font-weight: bold; }
+#score-container #percentage-score-display::after { content: '%'; margin-left: 1px; }
+.message-area { font-weight: 500; min-height: 1.5em; padding: 0.6rem 1rem; margin-top: 1rem; margin-bottom: 0.5rem; border-radius: var(--button-border-radius); border: 1px solid transparent; opacity: 1; transition: opacity 0.3s ease, transform 0.3s ease; transform: translateY(0); }
+.message-area.hide { opacity: 0; transform: translateY(-10px); pointer-events: none; margin-top: -1.5em; margin-bottom: 0; min-height: 0; padding-top: 0; padding-bottom: 0; border-width: 0; overflow: hidden; }
+.message-area.error { color: #721c24; background-color: #f8d7da; border-color: #f5c6cb; }
+.message-area.success { color: #155724; background-color: #d4edda; border-color: #c3e6cb; }
 
-/* Pontuação e Mensagens */
-#score-container {
-    margin-top: 25px;
-    padding-top: 15px;
-    border-top: 1px solid #eee;
-    font-size: 1.1em;
-    font-weight: bold;
-    color: #333;
-}
-#score-container span span { /* Valor da pontuação */
-     margin-left: 5px;
-     background-color: #e9ecef;
-     padding: 2px 6px;
-     border-radius: 4px;
-}
-#score-container #percentage-score-display::after {
-    content: '%'; /* Adiciona o % visualmente */
-    margin-left: 1px;
-}
+/* === Tela de Resultado Final === */
+#result-container { margin-top: 2rem; padding: 2rem; background-color: var(--medium-bg); border-radius: var(--card-border-radius); border: 1px solid var(--border-color); text-align: center; }
+#result-container h2 { margin-top: 0; margin-bottom: 1rem; }
+#result-container p { font-size: 1.1rem; color: #555; margin-bottom: 0.8rem; line-height: 1.6; }
+#result-container p strong { color: var(--primary-hover); font-weight: 600;}
+#result-container button#choose-another-theme-btn { margin-top: 1.5rem; padding: 0.8rem 2rem; font-size: 1.1rem; background-color: var(--primary-color); color: var(--light-text); }
+#result-container button#choose-another-theme-btn:hover { background-color: var(--primary-hover); }
 
-/* Mensagens de erro/sucesso */
-.message-area {
-    color: #dc3545; /* Cor padrão (erro) */
-    margin-top: 15px;
-    margin-bottom: 10px; /* Ajusta espaço */
-    font-weight: bold;
-    min-height: 1.2em;
-    padding: 8px 12px;
-    border-radius: 4px;
-    border: 1px solid transparent;
-    transition: opacity 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
-    opacity: 1; /* Inicia visível */
+/* === Media Queries === */
+@media (max-width: 600px) {
+    html { font-size: 15px; } body { padding: 10px; }
+    .main-container { padding: 15px; min-height: calc(100vh - 20px); }
+    #selection-area, #question-count-selection, .quiz-container { max-width: 100%; }
+    #selection-area, #question-count-selection { padding: 1rem; }
+    h1 { font-size: 1.6rem; } h2 { font-size: 1.3rem; } #question-text { font-size: 1.1rem; }
+    .options-grid { grid-template-columns: 1fr; gap: 0.8rem; } /* 1 coluna */
+    .option-frame { min-height: 90px; } .option-frame .front-face { font-size: 0.95rem; } .option-frame .back-face { font-size: 0.8rem; }
+    .control-btn { padding: 0.7rem 1.2rem; font-size: 0.95rem; width: calc(50% - 10px); margin: 5px; }
+    .count-btn { min-width: 100px; flex-basis: 100px; padding: 0.6rem 0.8rem; font-size: 0.85rem; }
+    #confirm-btn, #result-container button#choose-another-theme-btn { width: calc(100% - 10px); }
+     /* Estilo antigo, remover se não usar input */
+     /* #question-count-selection input[type=number] { margin: 0 auto; display: block; } */
 }
-.message-area.hide {
-    opacity: 0;
-    /* transition: opacity 0.3s ease 1s; */ /* Atraso para esconder pode ser útil */
-    pointer-events: none; /* Impede interação quando escondido */
-    margin-bottom: -1.2em; /* Tenta compensar altura quando escondido (pode ser instável) */
-    min-height: 0;
-    padding: 0 12px;
-    border-width: 0;
+@media (min-width: 601px) and (max-width: 992px) {
+    .options-grid { gap: 1rem; /* auto-fit deve gerar 2-3 colunas */ }
+    .quiz-container { max-width: 850px; } #question-text { font-size: 1.2rem; }
 }
-.message-area.error {
-    color: #721c24;
-    background-color: #f8d7da;
-    border-color: #f5c6cb;
-}
-.message-area.success {
-    color: #155724;
-    background-color: #d4edda;
-    border-color: #c3e6cb;
-}
-
-
-/* Estilos para Resultado Final */
-#result-container {
-    margin-top: 25px;
-    padding: 25px;
-    background-color: #e9ecef;
-    border-radius: 8px;
-    border: 1px solid #dee2e6;
-}
-#result-container h2 {
-    margin-top: 0;
-    margin-bottom: 15px;
-    color: #333;
-}
-#result-container p {
-    font-size: 1.1em;
-    color: #555;
-    margin-bottom: 10px;
-    line-height: 1.6;
-}
-#result-container p strong {
-    color: #0056b3; /* Destaca números */
-}
-#result-container button#choose-another-theme-btn {
-    margin-top: 20px;
-    padding: 12px 30px; /* Botão maior */
-    font-size: 1.1em;
+@media (min-width: 993px) {
+     html { font-size: 16px; }
+    .options-grid { gap: 1.2rem; /* auto-fit pode gerar 3+ colunas */ }
+    /* quiz-container max-width: 1100px; já definido */
 }
