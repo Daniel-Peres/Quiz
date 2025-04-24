@@ -40,7 +40,6 @@
 
 
         <div id="quiz-container" class="quiz-container hide">
-            <button id="back-to-main-menu-btn" class="control-btn back-btn hide" style="position: absolute; top: 10px; left: 10px; z-index: 10; padding: 5px 10px; font-size: 0.8em;">Menu</button>
             <h1 id="quiz-title">Quiz</h1>
             <div id="progress-container" class="hide">
                 <div id="progress-bar-container">
@@ -54,14 +53,16 @@
                 <div id="message-area" class="message-area hide"></div>
             </div>
             <div class="controls hide">
+                <button id="quiz-back-btn" class="control-btn back-btn hide">Voltar</button>
+                <button id="quiz-main-menu-btn" class="control-btn back-btn hide">Menu Principal</button>
                 <button id="confirm-btn" class="control-btn hide" disabled>Confirmar Resposta</button>
                 <button id="next-btn" class="control-btn hide">Próxima</button>
                 <button id="end-quiz-early-btn" class="control-btn danger-btn hide">Finalizar Agora</button>
-                <button id="finish-btn" class="control-btn hide">Finalizar Quiz</button> </div>
+                <button id="finish-btn" class="control-btn hide">Finalizar Quiz</button>
+            </div>
             <div id="score-container" class="hide">
                 <span id="points-score-display">Pontuação: <span id="score-value">0</span></span>
-                <span id="percentage-score-display" class="hide">Percentual: <span id="score-percentage">0</span>%</span>
-            </div>
+                <span id="percentage-score-display" class="hide">Percentual: <span id="score-percentage">0</span></span> </div>
             <div id="result-container" class="hide"></div>
         </div>
 
