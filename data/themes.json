@@ -1,0 +1,40 @@
+[
+    {
+        "id": "conhecimentos_gerais",
+        "name": "Conhecimentos Gerais",
+        "file": "conhecimentosgerais/conhecimentosgerais.json",
+        "description": "Perguntas sobre diversos assuntos."
+    },
+    {
+        "id": "sistema_solar",
+        "name": "Sistema Solar",
+        "file": "universo/planetas.json",
+        "description": "Teste seus conhecimentos sobre nossos vizinhos cósmicos."
+    },
+    {
+        "id": "aws",
+        "name": "AWS Web Services",
+        "description": "Desafios sobre a nuvem da Amazon.",
+        "subThemes": [
+            {
+                "id": "aws_saa_c03",
+                "name": "Solutions Architect Associate (SAA-C03)",
+                "file": "aws/aws-saa-c03.json",
+                "description": "Questões nível Associado para SAA-C03."
+            },
+            {
+                "id": "aws_clf_c02",
+                "name": "Cloud Practitioner Foundational (CLF-C02)",
+                "file": "aws/aws-clf-c02.json",
+                "description": "Questões nível Fundamental para CLF-C02."
+            },
+            {
+                "id": "aws_aif_c01",
+                "name": "AI Practitioner (AIF-C01)",
+                "file": "aws/aws-aif-c01.json",
+                "description": "Questões sobre IA/ML e serviços AWS relacionados (AIF-C01)."
+            }
+        ]
+    }
+    
+]

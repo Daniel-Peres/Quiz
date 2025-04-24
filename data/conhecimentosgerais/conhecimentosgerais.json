@@ -1,0 +1,54 @@
+{
+    "config": {
+      "theme": "Conhecimentos Gerais",
+      "totalPoints": 100,
+      "scoring": "percentage"
+    },
+    "data": [
+      {
+        "question": "Qual é a capital da França?",
+        "options": [
+          { "text": "Berlim", "isCorrect": false, "explanation": "Incorreto. Berlim é a capital da Alemanha." },
+          { "text": "Madri", "isCorrect": false, "explanation": "Incorreto. Madri é a capital da Espanha." },
+          { "text": "Paris", "isCorrect": true, "explanation": "Correto! Paris é a famosa capital da França." },
+          { "text": "Roma", "isCorrect": false, "explanation": "Incorreto. Roma é a capital da Itália." }
+        ]
+      },
+      {
+        "question": "Qual oceano é o maior do mundo?",
+        "options": [
+            { "text": "Atlântico", "isCorrect": false, "explanation": "Incorreto. O Atlântico é o segundo maior." },
+            { "text": "Índico", "isCorrect": false, "explanation": "Incorreto. O Índico é o terceiro maior." },
+            { "text": "Ártico", "isCorrect": false, "explanation": "Incorreto. O Ártico é o menor." },
+            { "text": "Pacífico", "isCorrect": true, "explanation": "Correto! O Oceano Pacífico é o maior em área." }
+        ]
+      },
+      {
+          "question": "Em que ano o homem pisou na Lua pela primeira vez?",
+          "options": [
+              { "text": "1965", "isCorrect": false, "explanation": "Incorreto. Foi um pouco depois." },
+              { "text": "1969", "isCorrect": true, "explanation": "Correto! A missão Apollo 11 pousou na Lua em julho de 1969." },
+              { "text": "1972", "isCorrect": false, "explanation": "Incorreto. A última missão Apollo à Lua foi em 1972, mas a primeira foi antes." },
+              { "text": "1959", "isCorrect": false, "explanation": "Incorreto. A corrida espacial estava começando, mas o pouso lunar foi depois." }
+          ]
+      },
+      {
+          "question": "Qual artista pintou a Mona Lisa?",
+          "options": [
+              { "text": "Michelangelo", "isCorrect": false, "explanation": "Incorreto. Michelangelo é famoso por esculturas como Davi e a pintura da Capela Sistina." },
+              { "text": "Raphael", "isCorrect": false, "explanation": "Incorreto. Raphael foi outro mestre da Renascença, conhecido por suas Madonas." },
+              { "text": "Donatello", "isCorrect": false, "explanation": "Incorreto. Donatello foi um importante escultor do início da Renascença." },
+              { "text": "Leonardo da Vinci", "isCorrect": true, "explanation": "Correto! Leonardo da Vinci, um gênio da Renascença, pintou a Mona Lisa." }
+          ]
+      },
+      {
+          "question": "Qual é o maior deserto quente do mundo?",
+          "options": [
+              { "text": "Deserto da Arábia", "isCorrect": false, "explanation": "Incorreto. É um dos maiores, mas não o maior." },
+              { "text": "Deserto de Gobi", "isCorrect": false, "explanation": "Incorreto. Gobi é um deserto frio/temperado na Ásia." },
+              { "text": "Deserto do Saara", "isCorrect": true, "explanation": "Correto! O Saara, no norte da África, é o maior deserto quente." },
+              { "text": "Deserto da Antártida", "isCorrect": false, "explanation": "Incorreto. A Antártida é o maior deserto (polar) do mundo, mas não é quente." }
+          ]
+      }
+    ]
+  }

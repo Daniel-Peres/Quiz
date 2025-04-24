@@ -1,0 +1,54 @@
+{
+    "config": {
+      "theme": "Sistema Solar",
+      "totalPoints": 50,
+      "scoring": "points"
+    },
+    "data": [
+      {
+        "question": "Qual planeta é conhecido como Planeta Vermelho?",
+        "options": [
+          { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. Júpiter é um gigante gasoso." },
+          { "text": "Marte", "isCorrect": true, "explanation": "Correto! Devido ao óxido de ferro em sua superfície." },
+          { "text": "Vênus", "isCorrect": false, "explanation": "Incorreto. Vênus tem uma atmosfera densa." },
+          { "text": "Terra", "isCorrect": false, "explanation": "Incorreto. Terra é onde vivemos." }
+        ]
+      },
+      {
+          "question": "Qual é o maior planeta do Sistema Solar?",
+          "options": [
+              { "text": "Saturno", "isCorrect": false, "explanation": "Incorreto. Saturno é famoso pelos anéis, mas não é o maior." },
+              { "text": "Netuno", "isCorrect": false, "explanation": "Incorreto. Netuno é um gigante de gelo." },
+              { "text": "Júpiter", "isCorrect": true, "explanation": "Correto! Júpiter é o maior planeta gasoso." },
+              { "text": "Urano", "isCorrect": false, "explanation": "Incorreto. Urano também é um gigante de gelo." }
+        ]
+      },
+      {
+          "question": "Qual planeta possui os anéis mais famosos?",
+          "options": [
+              { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. Júpiter tem anéis, mas são muito tênues." },
+              { "text": "Urano", "isCorrect": false, "explanation": "Incorreto. Urano também tem anéis, mas não são tão proeminentes." },
+              { "text": "Saturno", "isCorrect": true, "explanation": "Correto! Saturno é mundialmente famoso por seus impressionantes anéis." },
+              { "text": "Netuno", "isCorrect": false, "explanation": "Incorreto. Netuno possui anéis fracos." }
+          ]
+      },
+      {
+          "question": "Qual é o planeta mais próximo do Sol?",
+          "options": [
+              { "text": "Vênus", "isCorrect": false, "explanation": "Incorreto. Vênus é o segundo planeta a partir do Sol." },
+              { "text": "Terra", "isCorrect": false, "explanation": "Incorreto. A Terra é o terceiro planeta." },
+              { "text": "Marte", "isCorrect": false, "explanation": "Incorreto. Marte é o quarto planeta." },
+              { "text": "Mercúrio", "isCorrect": true, "explanation": "Correto! Mercúrio é o planeta mais interno do Sistema Solar." }
+          ]
+      },
+      {
+          "question": "Qual planeta é conhecido por ter uma 'Grande Mancha Vermelha'?",
+          "options": [
+              { "text": "Marte", "isCorrect": false, "explanation": "Incorreto. Marte é vermelho, mas a 'Grande Mancha Vermelha' é de outro planeta." },
+              { "text": "Júpiter", "isCorrect": true, "explanation": "Correto! A Grande Mancha Vermelha é uma enorme tempestade anticiclônica em Júpiter." },
+              { "text": "Saturno", "isCorrect": false, "explanation": "Incorreto. Saturno não tem uma mancha vermelha proeminente." },
+              { "text": "Netuno", "isCorrect": false, "explanation": "Incorreto. Netuno teve uma 'Grande Mancha Escura', mas não vermelha." }
+          ]
+      }
+    ]
+  }

@@ -1,0 +1,54 @@
+{
+    "config": {
+      "theme": "AWS CLF-C02",
+      "totalPoints": 50,
+      "scoring": "points"
+    },
+    "data": [
+      {
+        "question": "Qual é um benefício chave da computação em nuvem AWS?",
+        "options": [
+          { "text": "Comprar hardware físico dedicado", "isCorrect": false, "explanation": "A nuvem visa substituir a necessidade de comprar hardware." },
+          { "text": "Pagar apenas pelo que usar (Pay-as-you-go)", "isCorrect": true, "explanation": "Este é um dos principais benefícios econômicos da nuvem." },
+          { "text": "Ter controle total sobre a infraestrutura do data center", "isCorrect": false, "explanation": "Na nuvem pública, o provedor gerencia a infraestrutura física." },
+          { "text": "Necessidade de contratos de longo prazo", "isCorrect": false, "explanation": "A AWS geralmente oferece flexibilidade sem contratos longos." }
+        ]
+      },
+      {
+          "question": "Qual serviço da AWS fornece capacidade computacional redimensionável (máquinas virtuais)?",
+          "options": [
+            { "text": "S3", "isCorrect": false, "explanation": "S3 é armazenamento de objetos." },
+            { "text": "EC2", "isCorrect": true, "explanation": "EC2 (Elastic Compute Cloud) oferece servidores virtuais." },
+            { "text": "Lambda", "isCorrect": false, "explanation": "Lambda é computação sem servidor." },
+            { "text": "RDS", "isCorrect": false, "explanation": "RDS é banco de dados relacional." }
+          ]
+        },
+        {
+          "question": "O que significa 'disponibilidade' (Availability) no contexto da nuvem AWS?",
+          "options": [
+            { "text": "A capacidade de escalar recursos para cima ou para baixo", "isCorrect": false, "explanation": "Isso é elasticidade ou escalabilidade." },
+            { "text": "A capacidade de um sistema permanecer operacional e acessível", "isCorrect": true, "explanation": "Disponibilidade refere-se ao tempo que um sistema está funcionando conforme esperado." },
+            { "text": "A proteção de dados contra acesso não autorizado", "isCorrect": false, "explanation": "Isso está relacionado à segurança." },
+            { "text": "A distribuição global de data centers", "isCorrect": false, "explanation": "Isso se refere à presença global da AWS." }
+          ]
+        },
+        {
+          "question": "Qual componente da Infraestrutura Global da AWS representa uma localização geográfica física com múltiplos data centers isolados?",
+          "options": [
+            { "text": "Região (Region)", "isCorrect": true, "explanation": "Uma Região é uma área geográfica física onde a AWS tem múltiplos data centers." },
+            { "text": "Zona de Disponibilidade (Availability Zone)", "isCorrect": false, "explanation": "Uma AZ é um ou mais data centers *dentro* de uma Região." },
+            { "text": "Ponto de Presença (Edge Location)", "isCorrect": false, "explanation": "Edge Locations são usadas principalmente pelo CloudFront (CDN)." },
+            { "text": "Data Center", "isCorrect": false, "explanation": "Data Center é a instalação física, mas a unidade lógica maior é a Região ou AZ." }
+          ]
+        },
+        {
+          "question": "Qual serviço da AWS NÃO é um serviço de computação?",
+          "options": [
+            { "text": "EC2", "isCorrect": false, "explanation": "EC2 fornece poder de computação (VMs)." },
+            { "text": "Lambda", "isCorrect": false, "explanation": "Lambda executa código (computação sem servidor)." },
+            { "text": "Elastic Beanstalk", "isCorrect": false, "explanation": "Beanstalk orquestra outros serviços, incluindo EC2, para rodar aplicações." },
+            { "text": "S3", "isCorrect": true, "explanation": "S3 (Simple Storage Service) é primariamente um serviço de ARMAZENAMENTO." }
+          ]
+        }
+    ]
+  }

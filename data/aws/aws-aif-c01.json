@@ -1,0 +1,54 @@
+{
+    "config": {
+      "theme": "AWS AI Practitioner (AIF-C01)",
+      "totalPoints": 50,
+      "scoring": "points"
+    },
+    "data": [
+      {
+        "question": "Qual tipo de aprendizado de máquina (ML) envolve treinar um modelo usando dados rotulados, onde a resposta correta já é conhecida?",
+        "options": [
+          { "text": "Aprendizado Não Supervisionado", "isCorrect": false, "explanation": "Não Supervisionado usa dados não rotulados para encontrar padrões, como agrupamento (clustering)." },
+          { "text": "Aprendizado por Reforço", "isCorrect": false, "explanation": "Por Reforço treina um agente para tomar decisões aprendendo com recompensas ou punições." },
+          { "text": "Aprendizado Supervisionado", "isCorrect": true, "explanation": "Supervisionado usa pares de entrada-saída (dados rotulados) para treinar o modelo a fazer previsões (ex: classificação, regressão)." },
+          { "text": "Deep Learning", "isCorrect": false, "explanation": "Deep Learning é um subtipo de ML que usa redes neurais com muitas camadas, podendo ser supervisionado ou não." }
+        ]
+      },
+      {
+        "question": "Qual serviço AWS é uma plataforma totalmente gerenciada para construir, treinar e implantar modelos de Machine Learning em escala?",
+        "options": [
+          { "text": "AWS Lambda", "isCorrect": false, "explanation": "Lambda é um serviço de computação sem servidor para executar código." },
+          { "text": "Amazon Rekognition", "isCorrect": false, "explanation": "Rekognition é um serviço de análise de imagem e vídeo baseado em IA." },
+          { "text": "Amazon SageMaker", "isCorrect": true, "explanation": "SageMaker fornece um ambiente integrado para todo o ciclo de vida de ML." },
+          { "text": "AWS Glue", "isCorrect": false, "explanation": "Glue é um serviço de ETL (Extração, Transformação e Carga) para preparação de dados." }
+        ]
+      },
+      {
+        "question": "Qual conceito de IA Generativa se refere à técnica de fornecer instruções ou contexto cuidadoso a um modelo de linguagem grande (LLM) para obter a resposta desejada?",
+        "options": [
+          { "text": "Fine-tuning (Ajuste Fino)", "isCorrect": false, "explanation": "Ajuste Fino envolve retreinar um modelo pré-treinado com dados específicos para uma tarefa." },
+          { "text": "Prompt Engineering (Engenharia de Prompt)", "isCorrect": true, "explanation": "Engenharia de Prompt é a arte de criar entradas (prompts) eficazes para guiar a saída de modelos generativos." },
+          { "text": "Embeddings (Incorporações)", "isCorrect": false, "explanation": "Embeddings são representações numéricas de palavras ou conceitos usadas por modelos." },
+          { "text": "Reinforcement Learning from Human Feedback (RLHF)", "isCorrect": false, "explanation": "RLHF é uma técnica para alinhar modelos de linguagem com preferências humanas." }
+        ]
+      },
+      {
+        "question": "Qual dos seguintes é um pilar chave da IA Responsável, focando em garantir que os modelos de IA não discriminem injustamente grupos específicos?",
+        "options": [
+          { "text": "Transparência (Transparency)", "isCorrect": false, "explanation": "Transparência se refere à capacidade de entender como um modelo toma decisões." },
+          { "text": "Privacidade (Privacy)", "isCorrect": false, "explanation": "Privacidade se concentra na proteção dos dados usados para treinar ou interagir com modelos." },
+          { "text": "Justiça/Equidade (Fairness)", "isCorrect": true, "explanation": "Justiça ou Equidade visa mitigar vieses e garantir tratamento imparcial entre diferentes grupos." },
+          { "text": "Robustez (Robustness)", "isCorrect": false, "explanation": "Robustez se refere à capacidade do modelo de funcionar bem mesmo com dados inesperados ou ruidosos." }
+        ]
+      },
+      {
+        "question": "Qual serviço AWS de IA Generativa permite aos usuários interagir e experimentar com diferentes modelos de fundação (Foundation Models) através de uma API unificada?",
+        "options": [
+          { "text": "Amazon Comprehend", "isCorrect": false, "explanation": "Comprehend é um serviço de Processamento de Linguagem Natural (PLN) para extrair insights de texto." },
+          { "text": "Amazon Polly", "isCorrect": false, "explanation": "Polly converte texto em fala (Text-to-Speech)." },
+          { "text": "Amazon Bedrock", "isCorrect": true, "explanation": "Bedrock oferece acesso a uma variedade de modelos de fundação de ponta por meio de uma única API, simplificando a criação de aplicações de IA generativa." },
+          { "text": "Amazon Transcribe", "isCorrect": false, "explanation": "Transcribe converte fala em texto (Speech-to-Text)." }
+        ]
+      }
+    ]
+  }

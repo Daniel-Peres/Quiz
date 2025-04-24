@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Interativo</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="main-container">
+
+        <div id="selection-area">
+            <div id="theme-selection-container">
+                <h2>Escolha um Tema:</h2>
+                <div id="theme-buttons" class="theme-buttons">
+                    <p>Carregando temas...</p>
+                </div>
+            </div>
+
+            <div id="subtheme-selection-container" class="hide">
+                <h2 id="subtheme-title">Escolha um Subtema:</h2>
+                <div id="subtheme-buttons" class="theme-buttons">
+                </div>
+                <button id="back-to-themes-btn" class="control-btn back-btn">Voltar aos Temas</button>
+            </div>
+        </div>
+
+
+        <div id="quiz-container" class="quiz-container hide">
+            <h1 id="quiz-title">Quiz</h1>
+            <div id="progress-container">
+                <div id="progress-bar-container">
+                    <div id="progress-bar-indicator"></div>
+                </div>
+                <div id="progress-text">Questão 0 de 0</div>
+            </div>
+            <div id="question-container" class="hide">
+                <div id="question-text">Aqui vai a pergunta</div>
+                <div id="answer-options" class="options-grid"></div>
+                <div id="message-area" class="message-area hide"></div>
+            </div>
+            <div class="controls">
+                <button id="confirm-btn" class="control-btn hide" disabled>Confirmar Resposta</button>
+                <button id="next-btn" class="control-btn hide">Próxima</button>
+                <button id="finish-btn" class="control-btn hide">Finalizar Quiz</button>
+            </div>
+            <div id="score-container" class="hide">
+                <span id="points-score-display">Pontuação: <span id="score-value">0</span></span>
+                <span id="percentage-score-display" class="hide">Percentual: <span
+                        id="score-percentage">0</span>%</span>
+            </div>
+            <div id="result-container" class="hide"></div>
+        </div>
+
+    </div> <script src="js/script.js"></script>
+</body>
+
+</html>

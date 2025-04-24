@@ -1,0 +1,144 @@
+{
+  "config": {
+    "theme": "AWS SAA-C03",
+    "totalPoints": 100, 
+    "scoring": "percentage"
+  },
+  "data": [
+    {
+      "question": "Qual serviço é ideal para desacoplar componentes de uma aplicação usando filas de mensagens?",
+      "options": [
+        { "text": "SNS", "isCorrect": false, "explanation": "SNS é para notificações publish/subscribe." },
+        { "text": "SQS", "isCorrect": true, "explanation": "SQS (Simple Queue Service) é o serviço de filas gerenciado." },
+        { "text": "Kinesis Data Streams", "isCorrect": false, "explanation": "Kinesis é para streaming de dados em tempo real." },
+        { "text": "Lambda", "isCorrect": false, "explanation": "Lambda executa código, mas SQS desacopla." }
+      ]
+    },
+    {
+        "question": "Para fornecer acesso seguro e temporário a recursos AWS sem usar chaves de acesso, qual serviço você usaria?",
+        "options": [
+          { "text": "IAM Users", "isCorrect": false, "explanation": "IAM Users têm credenciais de longo prazo." },
+          { "text": "IAM Roles", "isCorrect": true, "explanation": "IAM Roles fornecem credenciais temporárias assumíveis por entidades confiáveis." },
+          { "text": "AWS Organizations", "isCorrect": false, "explanation": "Organizations gerencia múltiplas contas." },
+          { "text": "Security Groups", "isCorrect": false, "explanation": "Security Groups atuam como firewalls." }
+        ]
+    },
+    {
+      "question": "Qual banco de dados da AWS é um serviço totalmente gerenciado e compatível com MySQL e PostgreSQL?",
+      "options": [
+        { "text": "DynamoDB", "isCorrect": false, "explanation": "DynamoDB é NoSQL." },
+        { "text": "Redshift", "isCorrect": false, "explanation": "Redshift é Data Warehouse." },
+        { "text": "RDS", "isCorrect": true, "explanation": "RDS (Relational Database Service) suporta vários motores SQL, incluindo MySQL e PostgreSQL." },
+        { "text": "DocumentDB", "isCorrect": false, "explanation": "DocumentDB é compatível com MongoDB." }
+      ]
+    },
+    {
+        "question": "Como você pode garantir que objetos recém-carregados no S3 sejam automaticamente criptografados no lado do servidor?",
+        "options": [
+          { "text": "Habilitando Versionamento no bucket", "isCorrect": false, "explanation": "Versionamento protege contra exclusões, não garante criptografia." },
+          { "text": "Configurando uma política de bucket para exigir 'x-amz-server-side-encryption'", "isCorrect": true, "explanation": "Uma política de bucket pode impor o uso de cabeçalhos de criptografia no upload." },
+          { "text": "Usando Listas de Controle de Acesso (ACLs)", "isCorrect": false, "explanation": "ACLs controlam permissões de acesso, não criptografia padrão." },
+          { "text": "Ativando o S3 Transfer Acceleration", "isCorrect": false, "explanation": "Transfer Acceleration otimiza uploads/downloads, não criptografia." }
+        ]
+    },
+     {
+        "question": "Qual serviço permite criar uma rede privada isolada na nuvem AWS?",
+        "options": [
+          { "text": "Direct Connect", "isCorrect": false, "explanation": "Direct Connect é uma conexão física dedicada." },
+          { "text": "Route 53", "isCorrect": false, "explanation": "Route 53 é DNS." },
+          { "text": "VPC", "isCorrect": true, "explanation": "VPC (Virtual Private Cloud) permite provisionar uma seção logicamente isolada da Nuvem AWS." },
+          { "text": "CloudFront", "isCorrect": false, "explanation": "CloudFront é CDN." }
+        ]
+      },
+    {
+      "question": "Uma empresa de e-commerce está experienciando picos de tráfego imprevisíveis em sua aplicação web rodando em EC2. Para garantir a disponibilidade e escalar eficientemente, qual combinação de serviços é a MAIS adequada?",
+      "options": [
+        { "text": "Aumentar manualmente o tamanho das instâncias EC2 antes dos picos.", "isCorrect": false, "explanation": "Ineficiente e não lida com picos imprevisíveis." },
+        { "text": "Usar um Application Load Balancer (ALB) com um EC2 Auto Scaling Group configurado com políticas de Target Tracking Scaling baseadas em CPU.", "isCorrect": true, "explanation": "ALB distribui o tráfego e o Auto Scaling ajusta dinamicamente a capacidade com base na demanda (CPU), garantindo performance e custo-efetividade." },
+        { "text": "Utilizar Route 53 com verificação de saúde apontando para múltiplas instâncias EC2 fixas.", "isCorrect": false, "explanation": "Não escala automaticamente a capacidade computacional, apenas redireciona tráfego." },
+        { "text": "Implementar a aplicação em uma única instância EC2 grande com Multi-AZ ativado.", "isCorrect": false, "explanation": "Multi-AZ no EC2 não existe; RDS Multi-AZ é para banco de dados. Uma única instância não escala bem." }
+      ]
+    },
+    {
+      "question": "Uma startup precisa armazenar logs de aplicação gerados por várias instâncias EC2. Os logs devem ser armazenados de forma durável, de baixo custo e serem acessíveis para análise posterior (mas não necessariamente em tempo real). Qual serviço AWS é o MAIS indicado?",
+      "options": [
+        { "text": "Amazon EBS (Elastic Block Store) anexado a cada instância.", "isCorrect": false, "explanation": "EBS é armazenamento de bloco, não ideal para logs agregados e durabilidade de longo prazo a baixo custo." },
+        { "text": "Amazon S3 (Simple Storage Service) Standard.", "isCorrect": true, "explanation": "S3 oferece alta durabilidade, baixo custo e é ideal para armazenar grandes volumes de dados como logs para análise posterior." },
+        { "text": "Amazon EFS (Elastic File System) montado em todas as instâncias.", "isCorrect": false, "explanation": "EFS é um sistema de arquivos compartilhado, geralmente mais caro que S3 para armazenamento de logs em massa." },
+        { "text": "Amazon CloudWatch Logs.", "isCorrect": false, "explanation": "CloudWatch Logs é bom para monitoramento e análise em tempo real, mas S3 é mais custo-efetivo para armazenamento de longo prazo e análise batch." }
+      ]
+    },
+    {
+      "question": "Uma aplicação web precisa de um banco de dados relacional com alta disponibilidade. Se a instância primária falhar, o failover para uma instância de standby em outra Zona de Disponibilidade (AZ) deve ocorrer automaticamente com o mínimo de interrupção. Qual configuração do Amazon RDS atende a esse requisito?",
+      "options": [
+        { "text": "RDS com Read Replicas em outra AZ.", "isCorrect": false, "explanation": "Read Replicas melhoram a performance de leitura e oferecem alguma redundância, mas não fornecem failover automático para escrita." },
+        { "text": "RDS Single-AZ.", "isCorrect": false, "explanation": "Single-AZ não oferece alta disponibilidade contra falhas de AZ." },
+        { "text": "RDS Multi-AZ.", "isCorrect": true, "explanation": "A configuração Multi-AZ mantém uma réplica síncrona em outra AZ e gerencia o failover automaticamente em caso de falha da instância primária." },
+        { "text": "RDS rodando em uma instância EC2 com um snapshot diário.", "isCorrect": false, "explanation": "Isso não oferece alta disponibilidade nem failover automático; snapshots são para backup/restore." }
+      ]
+    },
+    {
+      "question": "Uma empresa deseja migrar seu data warehouse on-premises para a AWS para melhorar a performance de consultas analíticas complexas em grandes volumes de dados. Qual serviço AWS é projetado especificamente para data warehousing?",
+      "options": [
+        { "text": "Amazon RDS", "isCorrect": false, "explanation": "RDS é para bancos de dados transacionais (OLTP), não otimizado para consultas analíticas complexas (OLAP)." },
+        { "text": "Amazon DynamoDB", "isCorrect": false, "explanation": "DynamoDB é um banco de dados NoSQL chave-valor, não um data warehouse." },
+        { "text": "Amazon Redshift", "isCorrect": true, "explanation": "Redshift é um serviço de data warehouse totalmente gerenciado, otimizado para performance em consultas analíticas em escala de petabytes." },
+        { "text": "Amazon S3 com Athena", "isCorrect": false, "explanation": "S3 com Athena permite consultas SQL em dados no S3 (data lake), mas Redshift é um data warehouse dedicado com otimizações específicas." }
+      ]
+    },
+    {
+      "question": "Para garantir que apenas usuários autenticados possam acessar arquivos específicos em um bucket S3, mas sem gerenciar infraestrutura de servidores web, qual método é o mais seguro e apropriado?",
+      "options": [
+        { "text": "Tornar o bucket S3 público e usar nomes de arquivos complexos.", "isCorrect": false, "explanation": "Inseguro, qualquer um pode adivinhar ou encontrar os nomes." },
+        { "text": "Usar URLs Pré-assinadas (Pre-signed URLs) do S3 geradas pela aplicação.", "isCorrect": true, "explanation": "URLs pré-assinadas concedem acesso temporário a objetos específicos usando as credenciais de quem as gerou, ideal para acesso controlado." },
+        { "text": "Configurar uma política de bucket permitindo acesso anônimo (`Principal: '*'`).", "isCorrect": false, "explanation": "Isso torna os objetos públicos, não autenticados." },
+        { "text": "Utilizar S3 Access Points com acesso restrito a uma VPC.", "isCorrect": false, "explanation": "Restringe o acesso à rede, mas não autentica usuários individuais para objetos específicos sem lógica adicional." }
+      ]
+    },
+    {
+      "question": "Uma aplicação precisa enviar notificações para múltiplos endpoints (ex: e-mail, SMS, SQS, Lambda) sempre que um novo pedido é processado. Qual serviço facilita esse padrão publish/subscribe?",
+      "options": [
+        { "text": "Amazon SQS (Simple Queue Service)", "isCorrect": false, "explanation": "SQS é para filas (um remetente, um consumidor por mensagem), não para broadcast pub/sub." },
+        { "text": "Amazon SNS (Simple Notification Service)", "isCorrect": true, "explanation": "SNS usa tópicos para permitir que múltiplos assinantes (endpoints) recebam a mesma mensagem publicada no tópico." },
+        { "text": "AWS Step Functions", "isCorrect": false, "explanation": "Step Functions orquestra fluxos de trabalho, mas não é primariamente um serviço pub/sub." },
+        { "text": "Amazon EventBridge", "isCorrect": false, "explanation": "EventBridge é um barramento de eventos, similar ao SNS mas mais focado em eventos entre serviços AWS e SaaS, embora também possa fazer pub/sub." }
+      ]
+    },
+    {
+      "question": "Uma empresa precisa conectar sua rede on-premises à sua VPC na AWS de forma privada e consistente, sem passar pela internet pública. A latência e a largura de banda devem ser previsíveis. Qual serviço é o MAIS adequado?",
+      "options": [
+        { "text": "AWS Site-to-Site VPN", "isCorrect": false, "explanation": "VPN estabelece uma conexão segura sobre a internet pública, a performance pode variar." },
+        { "text": "VPC Peering", "isCorrect": false, "explanation": "VPC Peering conecta duas VPCs na AWS, não uma rede on-premises." },
+        { "text": "AWS Direct Connect", "isCorrect": true, "explanation": "Direct Connect fornece uma conexão de rede física dedicada e privada entre o on-premises e a AWS, oferecendo performance consistente." },
+        { "text": "NAT Gateway", "isCorrect": false, "explanation": "NAT Gateway permite que instâncias em subnets privadas acessem a internet, não conecta redes on-premises." }
+      ]
+    },
+    {
+      "question": "Para otimizar custos de instâncias EC2 que rodam tarefas de processamento batch que podem ser interrompidas sem problemas e reiniciadas posteriormente, qual opção de compra é a MAIS econômica?",
+      "options": [
+        { "text": "Instâncias On-Demand", "isCorrect": false, "explanation": "On-Demand são flexíveis mas não as mais baratas." },
+        { "text": "Instâncias Reservadas (Standard)", "isCorrect": false, "explanation": "Reservadas oferecem desconto por compromisso, não ideal para cargas de trabalho interrompíveis." },
+        { "text": "Instâncias Spot", "isCorrect": true, "explanation": "Instâncias Spot oferecem os maiores descontos utilizando capacidade EC2 ociosa, mas podem ser terminadas pela AWS com aviso prévio, ideal para cargas tolerantes a falhas." },
+        { "text": "Savings Plans (Compute)", "isCorrect": false, "explanation": "Savings Plans oferecem descontos por compromisso de gasto em computação, mas não são tão baratos quanto Spot para cargas interrompíveis." }
+      ]
+    },
+    {
+        "question": "Uma aplicação crítica requer recuperação de desastres em outra Região AWS. Os dados são armazenados em um banco de dados Amazon RDS. Qual estratégia oferece o menor RPO (Recovery Point Objective) e RTO (Recovery Time Objective) para o banco de dados?",
+        "options": [
+            { "text": "Criar Snapshots manuais do RDS e copiá-los para a outra Região diariamente.", "isCorrect": false, "explanation": "RPO seria de até 24h e RTO seria alto devido ao tempo de restauração." },
+            { "text": "Habilitar Backups Automáticos no RDS com cópia entre regiões.", "isCorrect": false, "explanation": "Melhora o RPO em relação a snapshots manuais, mas o RTO ainda envolve restauração." },
+            { "text": "Configurar uma Read Replica do RDS na Região de recuperação e promovê-la manualmente em caso de desastre.", "isCorrect": false, "explanation": "RPO é baixo (replicação assíncrona), mas RTO envolve promoção manual." },
+            { "text": "Utilizar Amazon Aurora Global Database.", "isCorrect": true, "explanation": "Aurora Global Database fornece replicação de baixa latência entre regiões com failover gerenciado rápido (baixo RPO e RTO) para recuperação de desastres." }
+        ]
+    },
+    {
+        "question": "Uma empresa está migrando uma aplicação legada que requer acesso a um sistema de arquivos compartilhado (baseado em NFS) por múltiplas instâncias EC2 Linux simultaneamente. Qual serviço de armazenamento AWS atende a esse requisito?",
+        "options": [
+            { "text": "Amazon S3", "isCorrect": false, "explanation": "S3 é armazenamento de objetos, não um sistema de arquivos POSIX montável via NFS." },
+            { "text": "Amazon EBS Multi-Attach", "isCorrect": false, "explanation": "EBS Multi-Attach permite que um volume io1/io2 seja anexado a múltiplas instâncias na mesma AZ, mas não é um sistema de arquivos compartilhado tradicional (requer cluster-aware FS)." },
+            { "text": "Amazon EFS (Elastic File System)", "isCorrect": true, "explanation": "EFS fornece um sistema de arquivos NFS elástico e totalmente gerenciado que pode ser montado por múltiplas instâncias EC2 em diferentes AZs." },
+            { "text": "AWS Storage Gateway (File Gateway)", "isCorrect": false, "explanation": "File Gateway fornece acesso NFS/SMB a arquivos armazenados no S3, mas o armazenamento primário é S3, não um FS dedicado na nuvem." }
+        ]
+    }
+  ]
+}
