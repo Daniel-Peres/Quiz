@@ -1,54 +1,189 @@
 {
-    "config": {
-      "theme": "Conhecimentos Gerais",
-      "totalPoints": 100,
-      "scoring": "points"
+  "config": {
+    "theme": "Conhecimentos Gerais",
+    "totalPoints": 1000,
+    "scoring": "points"
+  },
+  "data": [
+    {
+      "question": "Qual é a capital da França?",
+      "options": [
+        { "text": "Berlim", "isCorrect": false, "explanation": "Incorreto. Berlim é a capital da Alemanha." },
+        { "text": "Madri", "isCorrect": false, "explanation": "Incorreto. Madri é a capital da Espanha." },
+        { "text": "Paris", "isCorrect": true, "explanation": "Correto! Paris é a famosa capital da França." },
+        { "text": "Roma", "isCorrect": false, "explanation": "Incorreto. Roma é a capital da Itália." }
+      ]
     },
-    "data": [
-      {
-        "question": "Qual é a capital da França?",
+    {
+      "question": "Qual oceano é o maior do mundo?",
+      "options": [
+          { "text": "Atlântico", "isCorrect": false, "explanation": "Incorreto. O Atlântico é o segundo maior." },
+          { "text": "Índico", "isCorrect": false, "explanation": "Incorreto. O Índico é o terceiro maior." },
+          { "text": "Ártico", "isCorrect": false, "explanation": "Incorreto. O Ártico é o menor." },
+          { "text": "Pacífico", "isCorrect": true, "explanation": "Correto! O Oceano Pacífico é o maior em área." }
+      ]
+    },
+    {
+        "question": "Em que ano o homem pisou na Lua pela primeira vez?",
         "options": [
-          { "text": "Berlim", "isCorrect": false, "explanation": "Incorreto. Berlim é a capital da Alemanha." },
-          { "text": "Madri", "isCorrect": false, "explanation": "Incorreto. Madri é a capital da Espanha." },
-          { "text": "Paris", "isCorrect": true, "explanation": "Correto! Paris é a famosa capital da França." },
-          { "text": "Roma", "isCorrect": false, "explanation": "Incorreto. Roma é a capital da Itália." }
+            { "text": "1965", "isCorrect": false, "explanation": "Incorreto. Foi um pouco depois." },
+            { "text": "1969", "isCorrect": true, "explanation": "Correto! A missão Apollo 11 pousou na Lua em julho de 1969." },
+            { "text": "1972", "isCorrect": false, "explanation": "Incorreto. A última missão Apollo à Lua foi em 1972, mas a primeira foi antes." },
+            { "text": "1959", "isCorrect": false, "explanation": "Incorreto. A corrida espacial estava começando, mas o pouso lunar foi depois." }
         ]
-      },
-      {
-        "question": "Qual oceano é o maior do mundo?",
+    },
+    {
+        "question": "Qual artista pintou a Mona Lisa?",
         "options": [
-            { "text": "Atlântico", "isCorrect": false, "explanation": "Incorreto. O Atlântico é o segundo maior." },
-            { "text": "Índico", "isCorrect": false, "explanation": "Incorreto. O Índico é o terceiro maior." },
-            { "text": "Ártico", "isCorrect": false, "explanation": "Incorreto. O Ártico é o menor." },
-            { "text": "Pacífico", "isCorrect": true, "explanation": "Correto! O Oceano Pacífico é o maior em área." }
+            { "text": "Michelangelo", "isCorrect": false, "explanation": "Incorreto. Michelangelo é famoso por esculturas como Davi e a pintura da Capela Sistina." },
+            { "text": "Raphael", "isCorrect": false, "explanation": "Incorreto. Raphael foi outro mestre da Renascença, conhecido por suas Madonas." },
+            { "text": "Donatello", "isCorrect": false, "explanation": "Incorreto. Donatello foi um importante escultor do início da Renascença." },
+            { "text": "Leonardo da Vinci", "isCorrect": true, "explanation": "Correto! Leonardo da Vinci, um gênio da Renascença, pintou a Mona Lisa." }
         ]
-      },
-      {
-          "question": "Em que ano o homem pisou na Lua pela primeira vez?",
-          "options": [
-              { "text": "1965", "isCorrect": false, "explanation": "Incorreto. Foi um pouco depois." },
-              { "text": "1969", "isCorrect": true, "explanation": "Correto! A missão Apollo 11 pousou na Lua em julho de 1969." },
-              { "text": "1972", "isCorrect": false, "explanation": "Incorreto. A última missão Apollo à Lua foi em 1972, mas a primeira foi antes." },
-              { "text": "1959", "isCorrect": false, "explanation": "Incorreto. A corrida espacial estava começando, mas o pouso lunar foi depois." }
-          ]
-      },
-      {
-          "question": "Qual artista pintou a Mona Lisa?",
-          "options": [
-              { "text": "Michelangelo", "isCorrect": false, "explanation": "Incorreto. Michelangelo é famoso por esculturas como Davi e a pintura da Capela Sistina." },
-              { "text": "Raphael", "isCorrect": false, "explanation": "Incorreto. Raphael foi outro mestre da Renascença, conhecido por suas Madonas." },
-              { "text": "Donatello", "isCorrect": false, "explanation": "Incorreto. Donatello foi um importante escultor do início da Renascença." },
-              { "text": "Leonardo da Vinci", "isCorrect": true, "explanation": "Correto! Leonardo da Vinci, um gênio da Renascença, pintou a Mona Lisa." }
-          ]
-      },
-      {
-          "question": "Qual é o maior deserto quente do mundo?",
-          "options": [
-              { "text": "Deserto da Arábia", "isCorrect": false, "explanation": "Incorreto. É um dos maiores, mas não o maior." },
-              { "text": "Deserto de Gobi", "isCorrect": false, "explanation": "Incorreto. Gobi é um deserto frio/temperado na Ásia." },
-              { "text": "Deserto do Saara", "isCorrect": true, "explanation": "Correto! O Saara, no norte da África, é o maior deserto quente." },
-              { "text": "Deserto da Antártida", "isCorrect": false, "explanation": "Incorreto. A Antártida é o maior deserto (polar) do mundo, mas não é quente." }
-          ]
-      }
-    ]
-  }
+    },
+    {
+        "question": "Qual é o maior deserto quente do mundo?",
+        "options": [
+            { "text": "Deserto da Arábia", "isCorrect": false, "explanation": "Incorreto. É um dos maiores, mas não o maior." },
+            { "text": "Deserto de Gobi", "isCorrect": false, "explanation": "Incorreto. Gobi é um deserto frio/temperado na Ásia." },
+            { "text": "Deserto do Saara", "isCorrect": true, "explanation": "Correto! O Saara, no norte da África, é o maior deserto quente." },
+            { "text": "Deserto da Antártida", "isCorrect": false, "explanation": "Incorreto. A Antártida é o maior deserto (polar) do mundo, mas não é quente." }
+        ]
+    },
+    {
+      "question": "Qual país é o maior em área territorial?",
+      "options": [
+          { "text": "China", "isCorrect": false, "explanation": "Incorreto. A China é grande, mas não a maior." },
+          { "text": "Canadá", "isCorrect": false, "explanation": "Incorreto. O Canadá é o segundo maior." },
+          { "text": "Estados Unidos", "isCorrect": false, "explanation": "Incorreto. Os EUA estão entre os maiores, mas não o primeiro." },
+          { "text": "Rússia", "isCorrect": true, "explanation": "Correto! A Rússia é o maior país do mundo em área." }
+      ]
+    },
+    {
+        "question": "Qual montanha é a mais alta do mundo?",
+        "options": [
+            { "text": "K2", "isCorrect": false, "explanation": "Incorreto. K2 é a segunda mais alta." },
+            { "text": "Monte Everest", "isCorrect": true, "explanation": "Correto! O Monte Everest, no Himalaia, é a montanha mais alta acima do nível do mar." },
+            { "text": "Kangchenjunga", "isCorrect": false, "explanation": "Incorreto. Kangchenjunga é a terceira mais alta." },
+            { "text": "Makalu", "isCorrect": false, "explanation": "Incorreto. Makalu é a quinta mais alta." }
+        ]
+    },
+    {
+        "question": "Quem escreveu 'Dom Quixote'?",
+        "options": [
+            { "text": "William Shakespeare", "isCorrect": false, "explanation": "Incorreto. Shakespeare escreveu muitas peças famosas, mas não 'Dom Quixote'." },
+            { "text": "Victor Hugo", "isCorrect": false, "explanation": "Incorreto. Victor Hugo escreveu 'Os Miseráveis'." },
+            { "text": "Miguel de Cervantes", "isCorrect": true, "explanation": "Correto! Miguel de Cervantes é o autor desta obra clássica da literatura espanhola." },
+            { "text": "Leo Tolstoy", "isCorrect": false, "explanation": "Incorreto. Tolstoy escreveu 'Guerra e Paz'." }
+        ]
+    },
+    {
+        "question": "Qual é o rio mais longo do mundo?",
+        "options": [
+            { "text": "Rio Nilo", "isCorrect": true, "explanation": "Correto! O Nilo, na África, é tradicionalmente considerado o rio mais longo." },
+            { "text": "Rio Amazonas", "isCorrect": false, "explanation": "Incorreto. O Amazonas é o maior em volume de água e há debates sobre ser o mais longo, mas o Nilo ainda é frequentemente citado como o mais longo." },
+            { "text": "Rio Mississippi", "isCorrect": false, "explanation": "Incorreto. O Mississippi é o principal rio da América do Norte, mas não o mais longo do mundo." },
+            { "text": "Rio Yangtzé", "isCorrect": false, "explanation": "Incorreto. O Yangtzé é o rio mais longo da Ásia." }
+        ]
+    },
+    {
+        "question": "Qual elemento químico tem o símbolo 'O'?",
+        "options": [
+            { "text": "Ouro", "isCorrect": false, "explanation": "Incorreto. O símbolo do Ouro é 'Au'." },
+            { "text": "Oxigênio", "isCorrect": true, "explanation": "Correto! 'O' é o símbolo do Oxigênio." },
+            { "text": "Ósmio", "isCorrect": false, "explanation": "Incorreto. O símbolo do Ósmio é 'Os'." },
+            { "text": "Hidrogênio", "isCorrect": false, "explanation": "Incorreto. O símbolo do Hidrogênio é 'H'." }
+        ]
+    },
+    {
+      "question": "Em qual continente fica o Egito?",
+      "options": [
+        { "text": "Ásia", "isCorrect": false, "explanation": "Incorreto. A maior parte do Egito está na África, com uma pequena parte (Península do Sinai) na Ásia." },
+        { "text": "África", "isCorrect": true, "explanation": "Correto! O Egito está localizado no nordeste da África." },
+        { "text": "Europa", "isCorrect": false, "explanation": "Incorreto. O Egito não fica na Europa." },
+        { "text": "América do Sul", "isCorrect": false, "explanation": "Incorreto. O Egito não fica na América do Sul." }
+      ]
+    },
+    {
+      "question": "Qual é a moeda oficial do Japão?",
+      "options": [
+        { "text": "Won", "isCorrect": false, "explanation": "Incorreto. Won é a moeda da Coreia do Sul." },
+        { "text": "Yuan", "isCorrect": false, "explanation": "Incorreto. Yuan é a moeda da China." },
+        { "text": "Iene", "isCorrect": true, "explanation": "Correto! O Iene (Yen) é a moeda oficial do Japão." },
+        { "text": "Euro", "isCorrect": false, "explanation": "Incorreto. Euro é a moeda de muitos países da União Europeia." }
+      ]
+    },
+    {
+      "question": "Quem foi o primeiro presidente dos Estados Unidos?",
+      "options": [
+        { "text": "Thomas Jefferson", "isCorrect": false, "explanation": "Incorreto. Jefferson foi o terceiro presidente." },
+        { "text": "Abraham Lincoln", "isCorrect": false, "explanation": "Incorreto. Lincoln foi o décimo sexto presidente." },
+        { "text": "Benjamin Franklin", "isCorrect": false, "explanation": "Incorreto. Franklin foi um importante fundador, mas nunca foi presidente." },
+        { "text": "George Washington", "isCorrect": true, "explanation": "Correto! George Washington foi o primeiro presidente dos EUA." }
+      ]
+    },
+    {
+      "question": "Qual desses animais é um mamífero?",
+      "options": [
+        { "text": "Pinguim", "isCorrect": false, "explanation": "Incorreto. Pinguins são aves." },
+        { "text": "Baleia", "isCorrect": true, "explanation": "Correto! Baleias são mamíferos marinhos." },
+        { "text": "Tubarão", "isCorrect": false, "explanation": "Incorreto. Tubarões são peixes cartilaginosos." },
+        { "text": "Crocodilo", "isCorrect": false, "explanation": "Incorreto. Crocodilos são répteis." }
+      ]
+    },
+    {
+      "question": "Qual a fórmula química da água?",
+      "options": [
+        { "text": "CO2", "isCorrect": false, "explanation": "Incorreto. CO2 é dióxido de carbono." },
+        { "text": "H2O", "isCorrect": true, "explanation": "Correto! H2O representa dois átomos de hidrogênio e um de oxigênio." },
+        { "text": "NaCl", "isCorrect": false, "explanation": "Incorreto. NaCl é cloreto de sódio (sal de cozinha)." },
+        { "text": "O2", "isCorrect": false, "explanation": "Incorreto. O2 é oxigênio molecular." }
+      ]
+    },
+    {
+      "question": "Qual esporte usa raquete, rede e uma bola amarela?",
+      "options": [
+        { "text": "Futebol", "isCorrect": false, "explanation": "Incorreto. Futebol usa uma bola e os pés." },
+        { "text": "Basquete", "isCorrect": false, "explanation": "Incorreto. Basquete usa uma bola laranja e cestas." },
+        { "text": "Tênis", "isCorrect": true, "explanation": "Correto! Tênis é jogado com raquetes, rede e uma bola." },
+        { "text": "Vôlei", "isCorrect": false, "explanation": "Incorreto. Vôlei usa uma bola e rede, mas não raquetes." }
+      ]
+    },
+    {
+      "question": "Qual o nome do processo pelo qual as plantas produzem seu próprio alimento usando a luz solar?",
+      "options": [
+        { "text": "Respiração", "isCorrect": false, "explanation": "Incorreto. Respiração é o processo de troca gasosa." },
+        { "text": "Transpiração", "isCorrect": false, "explanation": "Incorreto. Transpiração é a perda de água pela planta." },
+        { "text": "Fotossíntese", "isCorrect": true, "explanation": "Correto! Fotossíntese converte luz solar, água e CO2 em energia." },
+        { "text": "Digestão", "isCorrect": false, "explanation": "Incorreto. Digestão é a quebra de alimentos nos animais." }
+      ]
+    },
+    {
+      "question": "Qual cidade sediou os Jogos Olímpicos de Verão de 2016?",
+      "options": [
+        { "text": "Londres", "isCorrect": false, "explanation": "Incorreto. Londres sediou em 2012." },
+        { "text": "Tóquio", "isCorrect": false, "explanation": "Incorreto. Tóquio sediou em 2020 (realizado em 2021)." },
+        { "text": "Rio de Janeiro", "isCorrect": true, "explanation": "Correto! O Rio de Janeiro, Brasil, sediou as Olimpíadas de 2016." },
+        { "text": "Pequim", "isCorrect": false, "explanation": "Incorreto. Pequim sediou em 2008." }
+      ]
+    },
+    {
+      "question": "Qual é o maior órgão do corpo humano?",
+      "options": [
+        { "text": "Cérebro", "isCorrect": false, "explanation": "Incorreto. O cérebro é vital, mas não o maior." },
+        { "text": "Fígado", "isCorrect": false, "explanation": "Incorreto. O fígado é o maior órgão interno." },
+        { "text": "Pele", "isCorrect": true, "explanation": "Correto! A pele é o maior órgão em área e peso." },
+        { "text": "Coração", "isCorrect": false, "explanation": "Incorreto. O coração é um músculo vital, mas relativamente pequeno." }
+      ]
+    },
+    {
+      "question": "Qual invenção é frequentemente atribuída a Thomas Edison?",
+      "options": [
+        { "text": "Telefone", "isCorrect": false, "explanation": "Incorreto. O telefone foi patenteado por Alexander Graham Bell." },
+        { "text": "Lâmpada incandescente (comercialmente viável)", "isCorrect": true, "explanation": "Correto! Edison melhorou e comercializou a lâmpada incandescente." },
+        { "text": "Avião", "isCorrect": false, "explanation": "Incorreto. Os irmãos Wright são creditados pelo primeiro voo motorizado." },
+        { "text": "Rádio", "isCorrect": false, "explanation": "Incorreto. Marconi e Tesla foram pioneiros no rádio." }
+      ]
+    }
+  ]
+}

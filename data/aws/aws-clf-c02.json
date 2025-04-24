@@ -1,7 +1,7 @@
 {
     "config": {
       "theme": "AWS CLF-C02",
-      "totalPoints": 50,
+      "totalPoints": 1000,
       "scoring": "points"
     },
     "data": [

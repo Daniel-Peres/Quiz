@@ -1,8 +1,8 @@
 {
   "config": {
     "theme": "AWS SAA-C03",
-    "totalPoints": 100, 
-    "scoring": "percentage"
+    "totalPoints": 1000,
+    "scoring": "points"
   },
   "data": [
     {
@@ -139,6 +139,177 @@
             { "text": "Amazon EFS (Elastic File System)", "isCorrect": true, "explanation": "EFS fornece um sistema de arquivos NFS elástico e totalmente gerenciado que pode ser montado por múltiplas instâncias EC2 em diferentes AZs." },
             { "text": "AWS Storage Gateway (File Gateway)", "isCorrect": false, "explanation": "File Gateway fornece acesso NFS/SMB a arquivos armazenados no S3, mas o armazenamento primário é S3, não um FS dedicado na nuvem." }
         ]
-    }
+    },
+    {
+        "question": "Um arquiteto precisa projetar uma solução para distribuir conteúdo estático (imagens, vídeos, CSS) globalmente com baixa latência para usuários finais de uma aplicação web. Qual serviço AWS é o MAIS adequado para essa finalidade?",
+        "options": [
+          { "text": "Amazon S3 Transfer Acceleration", "isCorrect": false, "explanation": "Otimiza uploads/downloads para o S3, mas não é uma CDN completa para entrega global." },
+          { "text": "Elastic Load Balancing (ELB)", "isCorrect": false, "explanation": "Distribui tráfego para instâncias EC2, não otimizado para cache de conteúdo estático global." },
+          { "text": "Amazon CloudFront", "isCorrect": true, "explanation": "CloudFront é a Rede de Entrega de Conteúdo (CDN) da AWS, que armazena em cache o conteúdo em locais de borda próximos aos usuários finais, reduzindo a latência." },
+          { "text": "AWS Global Accelerator", "isCorrect": false, "explanation": "Melhora a disponibilidade e performance de aplicações usando a rede global da AWS, mas não faz cache de conteúdo como uma CDN." }
+        ]
+    },
+    {
+        "question": "Uma aplicação precisa de um banco de dados NoSQL chave-valor com latência de milissegundos de um dígito em qualquer escala. Qual serviço AWS atende a esses requisitos?",
+        "options": [
+          { "text": "Amazon RDS", "isCorrect": false, "explanation": "RDS é relacional e pode não garantir latência de milissegundos de um dígito em alta escala." },
+          { "text": "Amazon Redshift", "isCorrect": false, "explanation": "Redshift é um data warehouse otimizado para consultas analíticas, não para buscas chave-valor de baixa latência." },
+          { "text": "Amazon DynamoDB", "isCorrect": true, "explanation": "DynamoDB é um serviço de banco de dados NoSQL chave-valor e de documentos totalmente gerenciado, projetado para performance de baixa latência em escala." },
+          { "text": "Amazon ElastiCache", "isCorrect": false, "explanation": "ElastiCache é um serviço de cache em memória (Redis/Memcached), usado para acelerar o acesso a dados, mas DynamoDB é o banco de dados persistente chave-valor." }
+        ]
+    },
+    {
+        "question": "Como um administrador pode garantir que as instâncias EC2 em uma subnet privada possam acessar a internet para atualizações de software, sem permitir conexões de entrada da internet para essas instâncias?",
+        "options": [
+          { "text": "Anexando um Internet Gateway (IGW) diretamente à subnet privada.", "isCorrect": false, "explanation": "IGW permite comunicação bidirecional com a internet e é anexado a subnets públicas." },
+          { "text": "Configurando um NAT Gateway em uma subnet pública e ajustando as tabelas de rotas da subnet privada para usar o NAT Gateway.", "isCorrect": true, "explanation": "Um NAT Gateway permite tráfego de saída da subnet privada para a internet, mas bloqueia conexões de entrada não solicitadas." },
+          { "text": "Atribuindo Endereços IP Elásticos (EIP) a cada instância na subnet privada.", "isCorrect": false, "explanation": "EIPs são endereços IP públicos que permitem acesso direto da internet, o que não é desejado." },
+          { "text": "Configurando um VPC Endpoint para o serviço de atualização.", "isCorrect": false, "explanation": "VPC Endpoints permitem acesso privado a serviços AWS, mas não acesso geral à internet para atualizações de qualquer fonte." }
+        ]
+    },
+    {
+        "question": "Uma organização deseja centralizar o gerenciamento de múltiplas contas AWS, aplicar políticas de controle (SCPs) e consolidar o faturamento. Qual serviço AWS permite isso?",
+        "options": [
+          { "text": "AWS IAM (Identity and Access Management)", "isCorrect": false, "explanation": "IAM gerencia usuários, grupos e permissões dentro de uma única conta." },
+          { "text": "AWS Config", "isCorrect": false, "explanation": "AWS Config monitora e avalia configurações de recursos AWS." },
+          { "text": "AWS Organizations", "isCorrect": true, "explanation": "Organizations permite gerenciar centralmente múltiplas contas, aplicar SCPs e consolidar faturamento." },
+          { "text": "AWS Control Tower", "isCorrect": false, "explanation": "Control Tower ajuda a configurar e governar um ambiente multi-contas seguro usando Organizations, mas Organizations é o serviço fundamental." }
+        ]
+    },
+    {
+        "question": "Qual política de roteamento do Route 53 deve ser usada para direcionar o tráfego para múltiplos recursos em proporções específicas (ex: 80% para uma versão, 20% para outra)?",
+        "options": [
+          { "text": "Simples (Simple)", "isCorrect": false, "explanation": "Roteamento simples não permite distribuição ponderada." },
+          { "text": "Failover", "isCorrect": false, "explanation": "Roteamento de failover direciona o tráfego para um recurso secundário se o primário falhar." },
+          { "text": "Ponderada (Weighted)", "isCorrect": true, "explanation": "Roteamento ponderado permite associar pesos aos registros para distribuir o tráfego entre recursos em proporções definidas." },
+          { "text": "Latência (Latency)", "isCorrect": false, "explanation": "Roteamento por latência direciona os usuários para o recurso com a menor latência." }
+        ]
+    },
+    {
+        "question": "Uma aplicação serverless usa API Gateway, Lambda e DynamoDB. Para depurar e rastrear solicitações que passam por esses serviços, qual serviço AWS fornece um mapa visual e detalhes de latência?",
+        "options": [
+          { "text": "Amazon CloudWatch Logs", "isCorrect": false, "explanation": "CloudWatch Logs armazena logs, mas não fornece um mapa de rastreamento visual por padrão." },
+          { "text": "AWS CloudTrail", "isCorrect": false, "explanation": "CloudTrail registra chamadas de API para auditoria, não rastreamento de performance de solicitações." },
+          { "text": "AWS X-Ray", "isCorrect": true, "explanation": "X-Ray ajuda desenvolvedores a analisar e depurar aplicações distribuídas, fornecendo rastreamento ponta-a-ponta e mapas de serviço." },
+          { "text": "AWS Config", "isCorrect": false, "explanation": "AWS Config rastreia mudanças de configuração de recursos." }
+        ]
+    },
+    {
+        "question": "Uma empresa precisa armazenar backups de longo prazo que raramente são acessados (uma ou duas vezes por ano) com o menor custo possível. O tempo de recuperação de várias horas é aceitável. Qual classe de armazenamento do S3 é a MAIS apropriada?",
+        "options": [
+          { "text": "S3 Standard", "isCorrect": false, "explanation": "Custo mais alto, projetado para acesso frequente." },
+          { "text": "S3 Intelligent-Tiering", "isCorrect": false, "explanation": "Otimiza custos movendo dados entre camadas de acesso, mas não é o mais barato para arquivamento de longo prazo." },
+          { "text": "S3 Standard-Infrequent Access (S3 Standard-IA)", "isCorrect": false, "explanation": "Custo menor que Standard, mas mais caro que Glacier para acesso muito infrequente." },
+          { "text": "S3 Glacier Deep Archive", "isCorrect": true, "explanation": "Oferece o menor custo de armazenamento na nuvem, projetado para arquivamento de longo prazo com tempos de recuperação de horas." }
+        ]
+    },
+    {
+        "question": "Qual serviço AWS pode ser usado para provisionar e gerenciar infraestrutura como código (IaC) usando linguagens como JSON ou YAML?",
+        "options": [
+          { "text": "AWS CodeDeploy", "isCorrect": false, "explanation": "CodeDeploy automatiza implantações de software." },
+          { "text": "AWS OpsWorks", "isCorrect": false, "explanation": "OpsWorks é um serviço de gerenciamento de configuração (Chef/Puppet)." },
+          { "text": "AWS CloudFormation", "isCorrect": true, "explanation": "CloudFormation permite modelar e provisionar recursos AWS usando templates (JSON/YAML)." },
+          { "text": "AWS Elastic Beanstalk", "isCorrect": false, "explanation": "Elastic Beanstalk é um serviço PaaS para implantar e escalar aplicações web." }
+        ]
+    },
+    {
+        "question": "Uma aplicação requer um cache em memória para reduzir a latência de acesso a um banco de dados RDS. Qual serviço AWS fornece um cache gerenciado compatível com Redis ou Memcached?",
+        "options": [
+          { "text": "Amazon DynamoDB Accelerator (DAX)", "isCorrect": false, "explanation": "DAX é um cache específico para DynamoDB." },
+          { "text": "Amazon S3", "isCorrect": false, "explanation": "S3 é armazenamento de objetos, não um cache em memória." },
+          { "text": "Amazon ElastiCache", "isCorrect": true, "explanation": "ElastiCache oferece instâncias de cache gerenciadas compatíveis com Redis e Memcached." },
+          { "text": "Amazon RDS Read Replica", "isCorrect": false, "explanation": "Read Replicas melhoram a performance de leitura do banco de dados, mas não são um cache em memória separado." }
+        ]
+    },
+    {
+        "question": "Para proteger uma aplicação web hospedada em EC2 por trás de um ALB contra ataques comuns como injeção de SQL e Cross-Site Scripting (XSS), qual serviço AWS deve ser usado?",
+        "options": [
+          { "text": "AWS Shield Standard", "isCorrect": false, "explanation": "Shield Standard protege contra ataques DDoS comuns na camada de rede/transporte, mas não ataques na camada de aplicação como SQL Injection." },
+          { "text": "Network ACLs (NACLs)", "isCorrect": false, "explanation": "NACLs atuam como firewall na camada de subnet (rede), não inspecionam tráfego de aplicação." },
+          { "text": "Security Groups", "isCorrect": false, "explanation": "Security Groups atuam como firewall na camada da instância (estado), não inspecionam tráfego de aplicação." },
+          { "text": "AWS WAF (Web Application Firewall)", "isCorrect": true, "explanation": "WAF protege aplicações web contra exploits comuns que podem afetar a disponibilidade, comprometer a segurança ou consumir recursos excessivos, incluindo SQL injection e XSS." }
+        ]
+    },
+    {
+        "question": "Uma empresa deseja executar contêineres Docker em produção na AWS sem gerenciar a infraestrutura de servidores EC2 subjacente. Qual serviço de computação é a melhor escolha?",
+        "options": [
+          { "text": "Amazon EC2 com Docker instalado manualmente", "isCorrect": false, "explanation": "Requer gerenciamento das instâncias EC2." },
+          { "text": "Amazon ECS (Elastic Container Service) com tipo de lançamento EC2", "isCorrect": false, "explanation": "Requer gerenciamento do cluster de instâncias EC2." },
+          { "text": "Amazon ECS com tipo de lançamento Fargate", "isCorrect": true, "explanation": "Fargate permite executar contêineres sem gerenciar servidores ou clusters (serverless para contêineres)." },
+          { "text": "AWS Lambda", "isCorrect": false, "explanation": "Lambda executa código ou imagens de contêiner, mas é mais voltado para funções event-driven, enquanto ECS/Fargate é para orquestração de contêineres." }
+        ]
+    },
+    {
+        "question": "Qual serviço AWS fornece um inventário dos recursos AWS, histórico de configuração e permite avaliar configurações em relação a regras desejadas?",
+        "options": [
+          { "text": "Amazon CloudWatch", "isCorrect": false, "explanation": "CloudWatch é para monitoramento de performance e logs." },
+          { "text": "AWS CloudTrail", "isCorrect": false, "explanation": "CloudTrail registra chamadas de API para auditoria." },
+          { "text": "AWS Config", "isCorrect": true, "explanation": "AWS Config fornece inventário de recursos, histórico de configuração e avaliação de conformidade com regras." },
+          { "text": "AWS Systems Manager", "isCorrect": false, "explanation": "Systems Manager fornece visibilidade e controle operacional da infraestrutura." }
+        ]
+    },
+    {
+        "question": "Uma equipe precisa compartilhar um conjunto de dados armazenado em um volume EBS entre várias instâncias EC2 simultaneamente dentro da mesma Zona de Disponibilidade. Qual tipo de volume EBS suporta isso?",
+        "options": [
+          { "text": "gp2 / gp3 (General Purpose SSD)", "isCorrect": false, "explanation": "Volumes de propósito geral não suportam anexação múltipla." },
+          { "text": "st1 (Throughput Optimized HDD)", "isCorrect": false, "explanation": "Volumes otimizados para throughput não suportam anexação múltipla." },
+          { "text": "sc1 (Cold HDD)", "isCorrect": false, "explanation": "Volumes HDD frios não suportam anexação múltipla." },
+          { "text": "io1 / io2 (Provisioned IOPS SSD) com Multi-Attach habilitado", "isCorrect": true, "explanation": "Volumes io1 e io2 podem ter o recurso Multi-Attach habilitado para permitir anexação a múltiplas instâncias na mesma AZ (requer sistema de arquivos cluster-aware)." }
+        ]
+    },
+    {
+        "question": "Qual serviço AWS pode ser usado para coordenar múltiplos serviços AWS em um fluxo de trabalho visual, gerenciando a lógica de estado, tratamento de erros e novas tentativas?",
+        "options": [
+          { "text": "Amazon SQS", "isCorrect": false, "explanation": "SQS é para filas de mensagens, não para orquestração de fluxos de trabalho complexos." },
+          { "text": "Amazon SNS", "isCorrect": false, "explanation": "SNS é para notificações pub/sub." },
+          { "text": "AWS Lambda", "isCorrect": false, "explanation": "Lambda executa código, mas não gerencia fluxos de trabalho complexos por si só." },
+          { "text": "AWS Step Functions", "isCorrect": true, "explanation": "Step Functions permite coordenar componentes de aplicações distribuídas e microsserviços usando fluxos de trabalho visuais." }
+        ]
+    },
+     {
+        "question": "Para proteger dados sensíveis em repouso no Amazon S3 usando chaves de criptografia gerenciadas pela AWS, mas controladas pelo cliente no AWS KMS, qual opção de criptografia do lado do servidor (SSE) deve ser usada?",
+        "options": [
+          { "text": "SSE-S3", "isCorrect": false, "explanation": "SSE-S3 usa chaves gerenciadas pelo S3." },
+          { "text": "SSE-C", "isCorrect": false, "explanation": "SSE-C usa chaves fornecidas pelo cliente no upload." },
+          { "text": "SSE-KMS", "isCorrect": true, "explanation": "SSE-KMS usa chaves gerenciadas no AWS Key Management Service (KMS), oferecendo controle e auditoria sobre as chaves." },
+          { "text": "Criptografia do lado do cliente", "isCorrect": false, "explanation": "A criptografia do lado do cliente ocorre antes do upload para o S3." }
+        ]
+    },
+     {
+        "question": "Uma empresa precisa analisar terabytes de dados de clickstream armazenados no S3 usando consultas SQL padrão, sem a necessidade de provisionar ou gerenciar servidores. Qual serviço é o MAIS adequado?",
+        "options": [
+          { "text": "Amazon Redshift Spectrum", "isCorrect": false, "explanation": "Redshift Spectrum permite consultar dados no S3 a partir de um cluster Redshift, mas requer um cluster." },
+          { "text": "Amazon EMR", "isCorrect": false, "explanation": "EMR é para processamento de big data (Spark, Hadoop), geralmente mais complexo que apenas consultas SQL." },
+          { "text": "Amazon Athena", "isCorrect": true, "explanation": "Athena é um serviço de consulta interativo que facilita a análise de dados no S3 usando SQL padrão. É serverless, pagando apenas pelas consultas executadas." },
+          { "text": "Amazon QuickSight", "isCorrect": false, "explanation": "QuickSight é um serviço de BI para visualização de dados, que pode usar Athena como fonte, mas Athena executa as consultas SQL." }
+        ]
+    },
+    {
+        "question": "Qual recurso da VPC permite que instâncias em subnets privadas acessem serviços AWS específicos (como S3 ou DynamoDB) sem atravessar a internet pública ou usar um NAT Gateway?",
+        "options": [
+          { "text": "Internet Gateway (IGW)", "isCorrect": false, "explanation": "IGW fornece acesso à internet pública." },
+          { "text": "NAT Instance", "isCorrect": false, "explanation": "NAT Instance (ou Gateway) permite acesso à internet, não acesso privado direto a serviços." },
+          { "text": "VPC Peering", "isCorrect": false, "explanation": "VPC Peering conecta duas VPCs." },
+          { "text": "VPC Endpoints (Gateway ou Interface)", "isCorrect": true, "explanation": "VPC Endpoints fornecem conectividade privada entre a VPC e serviços AWS suportados, mantendo o tráfego na rede da AWS." }
+        ]
+    },
+     {
+        "question": "Para implantar automaticamente atualizações de uma aplicação em instâncias EC2 existentes, minimizando o tempo de inatividade e permitindo reversão fácil, qual serviço de implantação é recomendado?",
+        "options": [
+          { "text": "AWS CloudFormation", "isCorrect": false, "explanation": "CloudFormation provisiona infraestrutura, não gerencia implantações de código em instâncias existentes diretamente." },
+          { "text": "AWS Elastic Beanstalk", "isCorrect": false, "explanation": "Elastic Beanstalk gerencia o ambiente completo; CodeDeploy foca na implantação do código." },
+          { "text": "AWS CodeDeploy", "isCorrect": true, "explanation": "CodeDeploy automatiza implantações de código em instâncias EC2 (ou on-premises), Lambda e ECS, com estratégias como in-place ou blue/green." },
+          { "text": "AWS OpsWorks", "isCorrect": false, "explanation": "OpsWorks gerencia configuração e implantação, mas CodeDeploy é mais focado e flexível para implantações em EC2/Lambda/ECS." }
+        ]
+    },
+    {
+        "question": "Uma aplicação precisa de acesso de baixa latência a dados de perfil de usuário frequentemente acessados. O banco de dados principal é RDS. Qual estratégia é MAIS eficaz para reduzir a carga no RDS e melhorar a performance de leitura?",
+        "options": [
+          { "text": "Aumentar o tamanho da instância RDS.", "isCorrect": false, "explanation": "Pode ajudar, mas não é a solução mais eficiente ou escalável para leituras de baixa latência." },
+          { "text": "Implementar Amazon ElastiCache (Redis ou Memcached) para armazenar em cache os dados de perfil.", "isCorrect": true, "explanation": "Um cache em memória como ElastiCache fornece acesso de baixíssima latência aos dados frequentemente acessados, reduzindo a carga no banco de dados." },
+          { "text": "Usar S3 para armazenar os perfis de usuário.", "isCorrect": false, "explanation": "S3 não oferece a mesma performance de baixa latência que um cache em memória." },
+          { "text": "Configurar Multi-AZ no RDS.", "isCorrect": false, "explanation": "Multi-AZ fornece alta disponibilidade, não melhora a performance de leitura primária (exceto failover)." }
+        ]
+      }
   ]
 }

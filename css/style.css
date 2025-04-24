@@ -44,11 +44,11 @@ h1, h2 { color: var(--dark-text); margin-bottom: 1.2rem; text-align: center; }
 #question-count-selection .back-btn { margin-top: 0; display: block; margin-left: auto; margin-right: auto; width: fit-content; }
 
 /* === Quiz Principal === */
-#progress-container { width: 100%; margin-bottom: 1.8rem; padding-top: 0; /* Removido padding extra */ }
+#progress-container { width: 100%; margin-bottom: 1.8rem; padding-top: 0; }
 #progress-bar-container { width: 100%; height: 12px; background-color: var(--medium-bg); border-radius: 6px; overflow: hidden; }
 #progress-bar-indicator { height: 100%; width: 0%; background-color: var(--primary-color); border-radius: 6px; transition: width 0.4s ease-out; }
 #progress-text { text-align: center; margin-top: 0.6rem; font-size: 0.9rem; color: #555; }
-#question-text { font-size: 1.3rem; color: var(--dark-text); margin-bottom: 2rem; min-height: 3em; line-height: 1.5; text-align: center; padding-top: 20px; /* Espaço para botões no topo, se voltarem */ }
+#question-text { font-size: 1.3rem; color: var(--dark-text); margin-bottom: 2rem; min-height: 3em; line-height: 1.5; text-align: center; padding-top: 20px; }
 .options-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; perspective: 1000px; }
 .option-frame { border: 3px solid transparent; padding: 0; border-radius: var(--card-border-radius); cursor: pointer; font-size: 1rem; position: relative; min-height: 130px; transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease; transform-style: preserve-3d; box-shadow: 0 2px 5px var(--shadow-color); background-color: var(--light-bg); }
 .option-frame .front-face, .option-frame .back-face { position: absolute; top: 0; left: 0; width: 100%; height: 100%; box-sizing: border-box; border-radius: calc(var(--card-border-radius) - 3px); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; backface-visibility: hidden; -webkit-backface-visibility: hidden; transition: background-color 0.3s ease; padding: 0.8rem; }
@@ -66,17 +66,18 @@ h1, h2 { color: var(--dark-text); margin-bottom: 1.2rem; text-align: center; }
 /* === Controles (Botões) === */
 .controls { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); }
 .control-btn {
-    background-color: var(--primary-color); color: var(--light-text); border: none;
+    background-color: var(--primary-color); color: var(--light-text);
+    border: none; /* Removido border: 3px solid transparent; - Adicionado abaixo */
     padding: 0.8rem 1.8rem; border-radius: var(--button-border-radius);
-    cursor: pointer; font-size: 1rem; transition: background-color 0.2s ease, transform 0.1s ease, opacity 0.2s ease, border-color 0.2s ease; /* Adicionado border-color */
+    cursor: pointer; font-size: 1rem; transition: background-color 0.2s ease, transform 0.1s ease, opacity 0.2s ease, border-color 0.2s ease;
     display: inline-block; font-weight: 500; flex-grow: 0; flex-shrink: 0; margin: 0;
-    border: 3px solid transparent; /* <<< BORDA TRANSPARENTE ADICIONADA */
+    border: 3px solid transparent; /* Borda transparente para reservar espaço */
 }
-.control-btn:hover:not(:disabled) { background-color: var(--primary-hover); } /* Hover padrão */
+.control-btn:hover:not(:disabled) { background-color: var(--primary-hover); }
 .control-btn:active:not(:disabled) { transform: scale(0.98); }
-.control-btn:disabled { background-color: #adb5bd; cursor: not-allowed; opacity: 0.65; border-color: transparent !important; /* Garante sem borda quando desabilitado */ }
+.control-btn:disabled { background-color: #adb5bd; cursor: not-allowed; opacity: 0.65; border-color: transparent !important; }
 
-/* Estilo para botão confirmar ativo */
+/* << NOVA REGRA >> Estilo para botão confirmar ativo */
 .control-btn.confirm-active:not(:disabled) {
     border-color: var(--success-color); /* Borda verde */
 }
@@ -84,7 +85,6 @@ h1, h2 { color: var(--dark-text); margin-bottom: 1.2rem; text-align: center; }
 /* Botões específicos (Cores e Hovers) */
 #confirm-btn { background-color: var(--primary-color); }
 #confirm-btn:hover:not(:disabled) { background-color: var(--primary-hover); }
-/* #confirm-btn.confirm-active:hover:not(:disabled) { background-color: var(--primary-hover); } */ /* Hover opcional para confirmar ativo */
 
 .back-btn { background-color: var(--secondary-color); } /* Cor cinza para Voltar/Menu */
 .back-btn:hover:not(:disabled) { background-color: var(--secondary-hover); }
@@ -97,7 +97,6 @@ h1, h2 { color: var(--dark-text); margin-bottom: 1.2rem; text-align: center; }
 
 .danger-btn { background-color: var(--danger-color); }
 .danger-btn:hover:not(:disabled) { background-color: var(--danger-hover); }
-
 
 /* Foco Acessibilidade */
 .theme-btn:focus-visible, .control-btn:focus-visible, .option-frame:focus-visible { outline: 3px solid var(--primary-color); outline-offset: 2px; }
@@ -112,7 +111,7 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
 #score-container { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color); font-size: 1.1rem; font-weight: bold; color: var(--dark-text); text-align: center; }
 #score-container > span { display: inline-block; margin: 0 0.5rem; }
 #score-container span span { margin-left: 0.3rem; background-color: var(--medium-bg); padding: 0.1rem 0.4rem; border-radius: var(--button-border-radius); font-weight: bold; }
-#score-container #percentage-score-display::after { content: '%'; margin-left: 1px; }
+#score-container #percentage-score-display::after { content: '%'; margin-left: 1px; } /* Adiciona % via CSS */
 .message-area { font-weight: 500; min-height: 1.5em; padding: 0.6rem 1rem; margin-top: 1rem; margin-bottom: 0.5rem; border-radius: var(--button-border-radius); border: 1px solid transparent; opacity: 1; transition: opacity 0.3s ease, transform 0.3s ease; transform: translateY(0); }
 .message-area.hide { opacity: 0; transform: translateY(-10px); pointer-events: none; margin-top: -1.5em; margin-bottom: 0; min-height: 0; padding-top: 0; padding-bottom: 0; border-width: 0; overflow: hidden; }
 .message-area.error { color: #721c24; background-color: #f8d7da; border-color: #f5c6cb; }
@@ -133,13 +132,12 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
     .main-container { padding: 15px; min-height: calc(100vh - 20px); }
     #selection-area, #question-count-selection, .quiz-container { max-width: 100%; }
     #selection-area, #question-count-selection { padding: 1rem; }
-    h1 { font-size: 1.6rem; } h2 { font-size: 1.3rem; } #question-text { font-size: 1.1rem; padding-top: 5px; } /* Reduz padding topo */
-    .options-grid { grid-template-columns: 1fr; gap: 0.8rem; } /* 1 coluna */
+    h1 { font-size: 1.6rem; } h2 { font-size: 1.3rem; } #question-text { font-size: 1.1rem; padding-top: 5px; }
+    .options-grid { grid-template-columns: 1fr; gap: 0.8rem; }
     .option-frame { min-height: 90px; } .option-frame .front-face { font-size: 0.95rem; } .option-frame .back-face { font-size: 0.8rem; }
-    /* Ajuste para botões em telas pequenas */
-    .controls { flex-direction: column; align-items: center; gap: 8px; } /* Empilha botões de controle */
-    .control-btn { padding: 0.7rem 1rem; font-size: 0.95rem; width: 90%; max-width: 300px; margin: 0; display: block; } /* Botões ocupam largura, mas com max */
-    /* .controls .control-btn { width: auto; } */ /* Tira width se quiser inline no flex */
+    .controls { flex-direction: column; align-items: center; gap: 8px; }
+    .control-btn { padding: 0.7rem 1rem; font-size: 0.95rem; width: 90%; max-width: 300px; margin: 0; display: block; }
+    /* .controls .control-btn { width: auto; } */ /* Descomente se preferir largura automática nos controles */
     .count-btn { flex-basis: calc(50% - 10px); min-width: 100px; padding: 0.6rem 0.8rem; font-size: 0.85rem; display: inline-block; width: auto; }
 }
 @media (min-width: 601px) and (max-width: 992px) {

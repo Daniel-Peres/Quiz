@@ -1,54 +1,189 @@
 {
-    "config": {
-      "theme": "Sistema Solar",
-      "totalPoints": 50,
-      "scoring": "points"
+  "config": {
+    "theme": "Sistema Solar",
+    "totalPoints": 1000,
+    "scoring": "points"
+  },
+  "data": [
+    {
+      "question": "Qual planeta é conhecido como Planeta Vermelho?",
+      "options": [
+        { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. Júpiter é um gigante gasoso." },
+        { "text": "Marte", "isCorrect": true, "explanation": "Correto! Devido ao óxido de ferro em sua superfície." },
+        { "text": "Vênus", "isCorrect": false, "explanation": "Incorreto. Vênus tem uma atmosfera densa." },
+        { "text": "Terra", "isCorrect": false, "explanation": "Incorreto. Terra é onde vivemos." }
+      ]
     },
-    "data": [
-      {
-        "question": "Qual planeta é conhecido como Planeta Vermelho?",
+    {
+        "question": "Qual é o maior planeta do Sistema Solar?",
         "options": [
-          { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. Júpiter é um gigante gasoso." },
-          { "text": "Marte", "isCorrect": true, "explanation": "Correto! Devido ao óxido de ferro em sua superfície." },
-          { "text": "Vênus", "isCorrect": false, "explanation": "Incorreto. Vênus tem uma atmosfera densa." },
-          { "text": "Terra", "isCorrect": false, "explanation": "Incorreto. Terra é onde vivemos." }
+            { "text": "Saturno", "isCorrect": false, "explanation": "Incorreto. Saturno é famoso pelos anéis, mas não é o maior." },
+            { "text": "Netuno", "isCorrect": false, "explanation": "Incorreto. Netuno é um gigante de gelo." },
+            { "text": "Júpiter", "isCorrect": true, "explanation": "Correto! Júpiter é o maior planeta gasoso." },
+            { "text": "Urano", "isCorrect": false, "explanation": "Incorreto. Urano também é um gigante de gelo." }
+      ]
+    },
+    {
+        "question": "Qual planeta possui os anéis mais famosos?",
+        "options": [
+            { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. Júpiter tem anéis, mas são muito tênues." },
+            { "text": "Urano", "isCorrect": false, "explanation": "Incorreto. Urano também tem anéis, mas não são tão proeminentes." },
+            { "text": "Saturno", "isCorrect": true, "explanation": "Correto! Saturno é mundialmente famoso por seus impressionantes anéis." },
+            { "text": "Netuno", "isCorrect": false, "explanation": "Incorreto. Netuno possui anéis fracos." }
         ]
-      },
-      {
-          "question": "Qual é o maior planeta do Sistema Solar?",
-          "options": [
-              { "text": "Saturno", "isCorrect": false, "explanation": "Incorreto. Saturno é famoso pelos anéis, mas não é o maior." },
-              { "text": "Netuno", "isCorrect": false, "explanation": "Incorreto. Netuno é um gigante de gelo." },
-              { "text": "Júpiter", "isCorrect": true, "explanation": "Correto! Júpiter é o maior planeta gasoso." },
-              { "text": "Urano", "isCorrect": false, "explanation": "Incorreto. Urano também é um gigante de gelo." }
+    },
+    {
+        "question": "Qual é o planeta mais próximo do Sol?",
+        "options": [
+            { "text": "Vênus", "isCorrect": false, "explanation": "Incorreto. Vênus é o segundo planeta a partir do Sol." },
+            { "text": "Terra", "isCorrect": false, "explanation": "Incorreto. A Terra é o terceiro planeta." },
+            { "text": "Marte", "isCorrect": false, "explanation": "Incorreto. Marte é o quarto planeta." },
+            { "text": "Mercúrio", "isCorrect": true, "explanation": "Correto! Mercúrio é o planeta mais interno do Sistema Solar." }
         ]
-      },
-      {
-          "question": "Qual planeta possui os anéis mais famosos?",
-          "options": [
-              { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. Júpiter tem anéis, mas são muito tênues." },
-              { "text": "Urano", "isCorrect": false, "explanation": "Incorreto. Urano também tem anéis, mas não são tão proeminentes." },
-              { "text": "Saturno", "isCorrect": true, "explanation": "Correto! Saturno é mundialmente famoso por seus impressionantes anéis." },
-              { "text": "Netuno", "isCorrect": false, "explanation": "Incorreto. Netuno possui anéis fracos." }
-          ]
-      },
-      {
-          "question": "Qual é o planeta mais próximo do Sol?",
-          "options": [
-              { "text": "Vênus", "isCorrect": false, "explanation": "Incorreto. Vênus é o segundo planeta a partir do Sol." },
-              { "text": "Terra", "isCorrect": false, "explanation": "Incorreto. A Terra é o terceiro planeta." },
-              { "text": "Marte", "isCorrect": false, "explanation": "Incorreto. Marte é o quarto planeta." },
-              { "text": "Mercúrio", "isCorrect": true, "explanation": "Correto! Mercúrio é o planeta mais interno do Sistema Solar." }
-          ]
-      },
-      {
-          "question": "Qual planeta é conhecido por ter uma 'Grande Mancha Vermelha'?",
-          "options": [
-              { "text": "Marte", "isCorrect": false, "explanation": "Incorreto. Marte é vermelho, mas a 'Grande Mancha Vermelha' é de outro planeta." },
-              { "text": "Júpiter", "isCorrect": true, "explanation": "Correto! A Grande Mancha Vermelha é uma enorme tempestade anticiclônica em Júpiter." },
-              { "text": "Saturno", "isCorrect": false, "explanation": "Incorreto. Saturno não tem uma mancha vermelha proeminente." },
-              { "text": "Netuno", "isCorrect": false, "explanation": "Incorreto. Netuno teve uma 'Grande Mancha Escura', mas não vermelha." }
-          ]
-      }
-    ]
-  }
+    },
+    {
+        "question": "Qual planeta é conhecido por ter uma 'Grande Mancha Vermelha'?",
+        "options": [
+            { "text": "Marte", "isCorrect": false, "explanation": "Incorreto. Marte é vermelho, mas a 'Grande Mancha Vermelha' é de outro planeta." },
+            { "text": "Júpiter", "isCorrect": true, "explanation": "Correto! A Grande Mancha Vermelha é uma enorme tempestade anticiclônica em Júpiter." },
+            { "text": "Saturno", "isCorrect": false, "explanation": "Incorreto. Saturno não tem uma mancha vermelha proeminente." },
+            { "text": "Netuno", "isCorrect": false, "explanation": "Incorreto. Netuno teve uma 'Grande Mancha Escura', mas não vermelha." }
+        ]
+    },
+    {
+        "question": "Qual planeta é o mais quente do Sistema Solar, apesar de não ser o mais próximo do Sol?",
+        "options": [
+            { "text": "Mercúrio", "isCorrect": false, "explanation": "Incorreto. Mercúrio é o mais próximo, mas Vênus é mais quente devido ao efeito estufa." },
+            { "text": "Vênus", "isCorrect": true, "explanation": "Correto! A densa atmosfera de Vênus causa um efeito estufa extremo, tornando-o o planeta mais quente." },
+            { "text": "Terra", "isCorrect": false, "explanation": "Incorreto. A Terra tem temperaturas moderadas." },
+            { "text": "Marte", "isCorrect": false, "explanation": "Incorreto. Marte é um planeta frio." }
+        ]
+    },
+    {
+        "question": "Qual o nome da nossa galáxia?",
+        "options": [
+            { "text": "Andrômeda", "isCorrect": false, "explanation": "Incorreto. Andrômeda é a galáxia espiral mais próxima da nossa." },
+            { "text": "Galáxia do Sombrero", "isCorrect": false, "explanation": "Incorreto. É outra galáxia conhecida." },
+            { "text": "Via Láctea", "isCorrect": true, "explanation": "Correto! Nosso Sistema Solar está localizado na Via Láctea." },
+            { "text": "Galáxia do Triângulo", "isCorrect": false, "explanation": "Incorreto. É a terceira maior galáxia do Grupo Local." }
+        ]
+    },
+    {
+        "question": "Quantas luas tem a Terra?",
+        "options": [
+            { "text": "Zero", "isCorrect": false, "explanation": "Incorreto." },
+            { "text": "Uma", "isCorrect": true, "explanation": "Correto! A Terra tem apenas uma lua natural, chamada Lua." },
+            { "text": "Duas", "isCorrect": false, "explanation": "Incorreto. Marte tem duas luas." },
+            { "text": "Muitas", "isCorrect": false, "explanation": "Incorreto. Planetas como Júpiter e Saturno têm muitas luas." }
+        ]
+    },
+    {
+        "question": "Qual planeta gira 'de lado' em relação ao seu plano orbital?",
+        "options": [
+            { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. Júpiter tem uma inclinação axial pequena." },
+            { "text": "Saturno", "isCorrect": false, "explanation": "Incorreto. Saturno tem uma inclinação semelhante à da Terra." },
+            { "text": "Urano", "isCorrect": true, "explanation": "Correto! Urano tem uma inclinação axial de cerca de 98 graus, fazendo-o girar 'de lado'." },
+            { "text": "Netuno", "isCorrect": false, "explanation": "Incorreto. Netuno tem uma inclinação axial moderada." }
+        ]
+    },
+    {
+        "question": "O que é o Cinturão de Asteroides?",
+        "options": [
+            { "text": "Uma região entre Marte e Júpiter com muitos asteroides", "isCorrect": true, "explanation": "Correto! É a localização da maioria dos asteroides do Sistema Solar." },
+            { "text": "Os anéis de Saturno", "isCorrect": false, "explanation": "Incorreto. Os anéis de Saturno são feitos de gelo e poeira." },
+            { "text": "Uma coleção de cometas além de Netuno", "isCorrect": false, "explanation": "Incorreto. Isso descreve o Cinturão de Kuiper ou a Nuvem de Oort." },
+            { "text": "Uma região perto do Sol", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+    },
+    {
+      "question": "Qual é o nome do maior vulcão conhecido no Sistema Solar, localizado em Marte?",
+      "options": [
+          { "text": "Monte Everest", "isCorrect": false, "explanation": "Incorreto. Monte Everest é a montanha mais alta da Terra." },
+          { "text": "Mauna Kea", "isCorrect": false, "explanation": "Incorreto. Mauna Kea é um vulcão no Havaí." },
+          { "text": "Olympus Mons", "isCorrect": true, "explanation": "Correto! Olympus Mons (Monte Olimpo) em Marte é um gigantesco vulcão escudo." },
+          { "text": "Monte Kilimanjaro", "isCorrect": false, "explanation": "Incorreto. Kilimanjaro é um vulcão na Tanzânia." }
+      ]
+    },
+    {
+        "question": "Qual planeta anão já foi considerado o nono planeta do Sistema Solar?",
+        "options": [
+            { "text": "Ceres", "isCorrect": false, "explanation": "Incorreto. Ceres é o maior objeto no Cinturão de Asteroides." },
+            { "text": "Eris", "isCorrect": false, "explanation": "Incorreto. Eris é um planeta anão massivo no Sistema Solar externo." },
+            { "text": "Makemake", "isCorrect": false, "explanation": "Incorreto. Makemake é outro planeta anão no Cinturão de Kuiper." },
+            { "text": "Plutão", "isCorrect": true, "explanation": "Correto! Plutão foi reclassificado como planeta anão em 2006." }
+        ]
+    },
+    {
+        "question": "O que causa as fases da Lua?",
+        "options": [
+            { "text": "A sombra da Terra na Lua", "isCorrect": false, "explanation": "Incorreto. Isso causa eclipses lunares." },
+            { "text": "A rotação da Lua", "isCorrect": false, "explanation": "Incorreto. A rotação da Lua é sincronizada com sua órbita." },
+            { "text": "A posição relativa da Lua, Terra e Sol", "isCorrect": true, "explanation": "Correto! Vemos diferentes porções da face iluminada da Lua enquanto ela orbita a Terra." },
+            { "text": "Nuvens na atmosfera terrestre", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+    },
+    {
+        "question": "Qual o nome da força que mantém os planetas em órbita ao redor do Sol?",
+        "options": [
+            { "text": "Força Magnética", "isCorrect": false, "explanation": "Incorreto. O magnetismo não é a força dominante nas órbitas." },
+            { "text": "Força Elétrica", "isCorrect": false, "explanation": "Incorreto." },
+            { "text": "Força Gravitacional", "isCorrect": true, "explanation": "Correto! A gravidade do Sol atrai os planetas, mantendo-os em suas órbitas." },
+            { "text": "Força Centrífuga", "isCorrect": false, "explanation": "Incorreto. A força centrífuga é uma força aparente em referenciais rotativos." }
+        ]
+    },
+    {
+        "question": "Quais são os dois principais gases que compõem a atmosfera de Júpiter?",
+        "options": [
+            { "text": "Oxigênio e Nitrogênio", "isCorrect": false, "explanation": "Incorreto. Esses são os principais gases da atmosfera da Terra." },
+            { "text": "Hidrogênio e Hélio", "isCorrect": true, "explanation": "Correto! Assim como o Sol, Júpiter é composto principalmente por hidrogênio e hélio." },
+            { "text": "Dióxido de Carbono e Nitrogênio", "isCorrect": false, "explanation": "Incorreto." },
+            { "text": "Metano e Amônia", "isCorrect": false, "explanation": "Incorreto. Esses gases estão presentes, mas não são os principais." }
+        ]
+    },
+    {
+        "question": "Qual o nome da missão espacial que levou os primeiros humanos à Lua?",
+        "options": [
+            { "text": "Voyager", "isCorrect": false, "explanation": "Incorreto. As missões Voyager exploraram o Sistema Solar exterior." },
+            { "text": "Apollo 11", "isCorrect": true, "explanation": "Correto! A Apollo 11 foi a missão da NASA que realizou o primeiro pouso lunar tripulado em 1969." },
+            { "text": "Sputnik", "isCorrect": false, "explanation": "Incorreto. Sputnik foi o primeiro satélite artificial, lançado pela União Soviética." },
+            { "text": "Mars Rover", "isCorrect": false, "explanation": "Incorreto. Rovers exploram a superfície de Marte." }
+        ]
+    },
+    {
+        "question": "Qual planeta tem o dia mais longo (período de rotação)?",
+        "options": [
+            { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. Júpiter tem o dia mais curto, cerca de 10 horas." },
+            { "text": "Terra", "isCorrect": false, "explanation": "Incorreto. O dia da Terra tem 24 horas." },
+            { "text": "Mercúrio", "isCorrect": false, "explanation": "Incorreto. O dia de Mercúrio é longo (59 dias terrestres), mas Vênus tem o mais longo." },
+            { "text": "Vênus", "isCorrect": true, "explanation": "Correto! Um dia em Vênus (rotação completa) dura cerca de 243 dias terrestres, mais longo que seu ano." }
+        ]
+    },
+    {
+        "question": "O que é um cometa?",
+        "options": [
+            { "text": "Uma rocha espacial que orbita entre Marte e Júpiter", "isCorrect": false, "explanation": "Incorreto. Isso descreve um asteroide." },
+            { "text": "Um pequeno corpo gelado que desenvolve uma cauda ao se aproximar do Sol", "isCorrect": true, "explanation": "Correto! Cometas são feitos de gelo, poeira e rocha, e o calor do Sol vaporiza o gelo, formando uma coma e caudas." },
+            { "text": "Um planeta muito pequeno", "isCorrect": false, "explanation": "Incorreto. Essa é a definição de planeta anão." },
+            { "text": "Uma estrela cadente", "isCorrect": false, "explanation": "Incorreto. Estrelas cadentes são meteoroides queimando na atmosfera da Terra." }
+        ]
+    },
+    {
+        "question": "Qual planeta é conhecido como a 'Joia do Sistema Solar'?",
+        "options": [
+            { "text": "Terra", "isCorrect": false, "explanation": "Incorreto. A Terra é o 'Planeta Azul'." },
+            { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. Júpiter é o 'Rei dos Planetas'." },
+            { "text": "Marte", "isCorrect": false, "explanation": "Incorreto. Marte é o 'Planeta Vermelho'." },
+            { "text": "Saturno", "isCorrect": true, "explanation": "Correto! Saturno é frequentemente chamado assim devido aos seus magníficos anéis." }
+        ]
+    },
+    {
+        "question": "Qual é a estrela no centro do nosso Sistema Solar?",
+        "options": [
+            { "text": "Sirius", "isCorrect": false, "explanation": "Incorreto. Sirius é a estrela mais brilhante no céu noturno." },
+            { "text": "Alpha Centauri", "isCorrect": false, "explanation": "Incorreto. Alpha Centauri é o sistema estelar mais próximo do nosso." },
+            { "text": "Sol", "isCorrect": true, "explanation": "Correto! O Sol é a estrela que fornece luz e calor para o nosso Sistema Solar." },
+            { "text": "Betelgeuse", "isCorrect": false, "explanation": "Incorreto. Betelgeuse é uma supergigante vermelha na constelação de Órion." }
+        ]
+    }
+  ]
+}
