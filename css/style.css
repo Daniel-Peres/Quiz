@@ -12,49 +12,52 @@ body {
 }
 .main-container {
     width: 100%;
-    /* max-width: 600px; */ /* Linha removida ou comentada */
+    /* max-width: 600px; */ /* Removido/comentado para ocupar tela cheia, se desejado */
+    min-height: 100vh; /* Garante altura mínima */
     background-color: white;
     padding: 30px;
-    border-radius: 10px; /* Talvez você queira remover isso em tela cheia */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Talvez você queira remover isso */
-    text-align: center;;
-    min-height: 100vh; /* Adicionado para garantir que ocupe a altura */
-    box-sizing: border-box; /* Garante que padding não aumente o tamanho total */
+    /* border-radius: 10px; */ /* Opcional remover em tela cheia */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */ /* Opcional remover em tela cheia */
+    text-align: center;
+    box-sizing: border-box; /* Inclui padding na largura/altura total */
 }
 
 /* --- ESTILOS PARA SELEÇÃO DE TEMA/SUBTEMA --- */
-#selection-area { /* Container geral da seleção */
-    /* Pode adicionar padding ou margem se necessário */
+#selection-area {
+    max-width: 600px; /* Limita largura da área de seleção mesmo em tela cheia */
+    margin: 0 auto 20px auto; /* Centraliza e adiciona margem inferior */
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
 #theme-selection-container,
 #subtheme-selection-container {
-    /* Estilos comuns se houver */
-    margin-bottom: 20px; /* Espaço abaixo de cada seção */
+    margin-bottom: 20px;
 }
 #theme-selection-container h2,
 #subtheme-selection-container h2 {
     color: #333;
     margin-bottom: 20px;
 }
-.theme-buttons { /* Container para os botões (tema ou subtema) */
+.theme-buttons {
     display: flex;
     flex-direction: column;
-    gap: 12px; /* Espaço entre botões */
+    gap: 12px;
 }
-.theme-btn { /* Estilo para botões de tema/subtema */
+.theme-btn {
     background-color: #007bff;
     color: white;
     border: none;
-    padding: 12px 18px; /* Padding ajustado */
+    padding: 12px 18px;
     border-radius: 8px;
     cursor: pointer;
-    font-size: 1em; /* Tamanho ajustado */
-    text-align: left; /* Alinha texto à esquerda dentro do botão */
+    font-size: 1em;
+    text-align: left;
     transition: background-color 0.2s ease, transform 0.1s ease;
 }
-/* Descrição opcional dentro do botão */
 .theme-btn .description {
-    display: block; /* Faz a descrição ocupar linha própria */
+    display: block;
     font-size: 0.8em;
     opacity: 0.8;
     margin-top: 4px;
@@ -65,10 +68,9 @@ body {
 .theme-btn:active {
     transform: scale(0.98);
 }
-/* Botão Voltar */
 .back-btn {
-    margin-top: 20px; /* Espaço acima do botão voltar */
-    background-color: #6c757d; /* Cinza */
+    margin-top: 20px;
+    background-color: #6c757d;
     font-size: 0.9em;
     padding: 10px 20px;
 }
@@ -77,7 +79,49 @@ body {
 }
 /* --- FIM ESTILOS SELEÇÃO --- */
 
-/* Container do Quiz */
+
+/* --- ESTILOS PARA SELEÇÃO DE QUANTIDADE --- */
+/* Estilos adicionados/modificados para a seção de contagem */
+#question-count-selection {
+    max-width: 600px; /* Limita largura */
+    margin: 20px auto; /* Centraliza */
+    padding: 25px;
+    background-color: #e9ecef;
+    border-radius: 8px;
+    text-align: center;
+}
+#question-count-selection h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #333;
+}
+#question-count-selection p {
+    margin-bottom: 20px;
+    color: #555;
+}
+#question-count-selection label {
+    margin-right: 5px;
+    color: #333;
+}
+#question-count-selection input[type=number] {
+    width: 70px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 1em;
+}
+#question-count-selection .control-btn {
+    margin: 15px 5px 0; /* Ajusta margem */
+}
+/* --- FIM ESTILOS SELEÇÃO QUANTIDADE --- */
+
+
+/* --- ESTILOS QUIZ PRINCIPAL --- */
+.quiz-container {
+    max-width: 800px; /* Aumenta um pouco a largura máxima para o quiz */
+    margin: 20px auto 0 auto; /* Centraliza e adiciona margem superior */
+}
 .quiz-container h1 {
     color: #333;
     margin-bottom: 20px;
@@ -98,7 +142,7 @@ body {
 }
 #progress-bar-indicator {
     height: 100%;
-    width: 0%;
+    width: 0%; /* Inicia em 0% */
     background-color: #007bff;
     border-radius: 5px;
     transition: width 0.4s ease-out;
@@ -110,10 +154,20 @@ body {
     color: #555;
 }
 
+/* Texto da Pergunta */
+#question-text {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 25px;
+    min-height: 3em; /* Dá um espaço mínimo para a pergunta */
+    line-height: 1.5;
+}
+
+
 /* Opções e Quadros */
 .options-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Layout responsivo */
     gap: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -121,15 +175,16 @@ body {
 }
 .option-frame {
     border: 3px solid transparent;
-    padding: 0;
+    padding: 0; /* Padding será aplicado nas faces */
     border-radius: 8px;
     cursor: pointer;
     font-size: 1em;
     position: relative;
-    min-height: 100px;
+    min-height: 120px; /* Aumenta altura mínima */
     transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
     transform-style: preserve-3d;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #f8f9fa; /* Cor de fundo para o frame */
 }
 .option-frame .front-face,
 .option-frame .back-face {
@@ -138,52 +193,95 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    padding: 15px;
-    box-sizing: border-box;
-    border-radius: 6px;
+    box-sizing: border-box; /* Importante */
+    border-radius: 6px; /* Menor que o pai para caber dentro */
     display: flex;
+    flex-direction: column; /* Permite empilhar conteúdo se necessário */
     justify-content: center;
     align-items: center;
     text-align: center;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
      transition: background-color 0.3s ease;
+     padding: 15px; /* Padding interno */
 }
+
 .option-frame .front-face {
     background-color: #007bff;
     color: white;
-    z-index: 2;
+    z-index: 2; /* Fica na frente inicialmente */
 }
+
+/* --- MODIFICAÇÕES PARA OVERFLOW --- */
 .option-frame .back-face {
     background-color: #6c757d;
     color: white;
     transform: rotateY(180deg);
-    font-size: 0.9em;
+    font-size: 0.9em; /* Reduz um pouco para caber mais texto */
+    /* Controle de Overflow */
+    overflow: auto; /* Adiciona barra de rolagem se conteúdo exceder */
+    /* Alternativa: overflow-y: auto; (apenas vertical) */
+    align-items: flex-start; /* Alinha conteúdo no topo */
+    text-align: left; /* Alinha texto à esquerda */
+    padding: 10px; /* Reduz padding para mais espaço */
+    justify-content: flex-start; /* Conteúdo começa do topo */
 }
+
+.explanation {
+    display: block; /* Garante que o span ocupe a largura */
+    width: 100%;
+    max-height: 100%; /* Ajuda no cálculo do overflow do pai */
+    overflow-wrap: break-word; /* Quebra palavras longas */
+    word-wrap: break-word; /* Compatibilidade */
+    white-space: normal; /* Permite quebra de linha */
+    line-height: 1.4; /* Espaçamento entre linhas */
+    color: white; /* Garante cor do texto */
+}
+/* --- FIM MODIFICAÇÕES PARA OVERFLOW --- */
+
 
 /* Efeitos de Interação */
 .option-frame:hover:not(.disabled):not(.selected) {
-    transform: scale(1.05);
+    transform: scale(1.03); /* Reduzido levemente */
     z-index: 10;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 .option-frame.selected {
     border-color: #ffc107;
-    transform: scale(1.08);
+    transform: scale(1.05); /* Reduzido levemente */
     z-index: 5;
-    box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+.option-frame.selected:not(.reveal) .front-face {
+     background-color: #0056b3; /* Escurece um pouco ao selecionar */
 }
 
 /* Animação e Feedback */
 .option-frame.reveal { animation: flip 0.8s forwards; }
-@keyframes flip { from { transform: rotateY(0deg) scale(1); } to { transform: rotateY(180deg) scale(1); } }
-.option-frame.correct .back-face { background-color: #28a745; color: white; }
-.option-frame.incorrect .back-face { background-color: #dc3545; color: white; }
-.explanation { color: white; }
-.option-frame.selected.disabled { border-color: #ffc107; transform: scale(1); box-shadow: 0 4px 8px rgba(0,0,0,0.2); }
-.option-frame.selected.reveal, .option-frame.selected.disabled { outline: 3px solid rgba(0, 0, 0, 0.7); outline-offset: 3px; }
+@keyframes flip { from { transform: rotateY(0deg); } to { transform: rotateY(180deg); } }
+
+.option-frame.correct .back-face { background-color: #28a745; } /* Verde para correto */
+.option-frame.incorrect .back-face { background-color: #dc3545; } /* Vermelho para incorreto */
+
+.option-frame.selected.disabled {
+    border-color: #ffc107; /* Mantém borda amarela se foi selecionado */
+    transform: scale(1); /* Volta ao tamanho normal após revelar */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+/* Destaque para a opção selecionada após revelação */
+.option-frame.selected.reveal,
+.option-frame.selected.disabled {
+    outline: 3px solid #333; /* Ou outra cor de destaque */
+    outline-offset: 3px;
+}
+
 
 /* Controles e Utilitários */
+.controls {
+    margin-top: 30px; /* Mais espaço acima dos botões */
+    padding-top: 20px; /* Espaço interno */
+    border-top: 1px solid #eee; /* Linha divisória */
+}
 .control-btn {
     background-color: #5a6268;
     color: white;
@@ -192,12 +290,13 @@ body {
     border-radius: 5px;
     cursor: pointer;
     font-size: 1em;
-    margin: 15px 5px 0;
+    margin: 5px; /* Espaço entre botões */
     transition: background-color 0.2s ease, transform 0.1s ease, opacity 0.2s ease;
 }
 .control-btn:hover:not(:disabled) { background-color: #495057; }
 .control-btn:active:not(:disabled) { transform: scale(0.98); }
 .control-btn:disabled { background-color: #adb5bd; cursor: not-allowed; opacity: 0.7; }
+
 #confirm-btn { background-color: #007bff; }
 #confirm-btn:hover:not(:disabled) { background-color: #0056b3; }
 #next-btn { background-color: #28a745; }
@@ -205,46 +304,98 @@ body {
 #finish-btn { background-color: #ffc107; color: #333; }
 #finish-btn:hover:not(:disabled) { background-color: #e0a800; }
 
+/* Classe para esconder elementos */
 .hide { display: none !important; }
-.disabled { cursor: default; }
-.option-frame.disabled { pointer-events: none; }
-.option-frame.disabled:hover { transform: none; }
+/* Classe para desabilitar visualmente e interativamente */
+.disabled {
+    cursor: default;
+    pointer-events: none; /* Impede cliques */
+    /* A aparência de desabilitado pode ser controlada pelo estado (reveal, etc) */
+}
+.option-frame.disabled:hover {
+    transform: none; /* Remove efeito hover */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Reset box-shadow */
+}
+
 
 /* Pontuação e Mensagens */
-#score-container { margin-top: 20px; font-size: 1.1em; font-weight: bold; }
-#score-container span span { margin-left: 5px; }
-.message-area { color: #dc3545; margin-top: 15px; margin-bottom: -5px; font-weight: bold; min-height: 1.2em; transition: opacity 0.3s ease; opacity: 0; pointer-events: none; }
-.message-area:not(.hide) { opacity: 1; }
-.message-area.hide { opacity: 0; }
-.message-area.success { color: #28a745; }
+#score-container {
+    margin-top: 25px;
+    padding-top: 15px;
+    border-top: 1px solid #eee;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #333;
+}
+#score-container span span { /* Valor da pontuação */
+     margin-left: 5px;
+     background-color: #e9ecef;
+     padding: 2px 6px;
+     border-radius: 4px;
+}
+#score-container #percentage-score-display::after {
+    content: '%'; /* Adiciona o % visualmente */
+    margin-left: 1px;
+}
 
-/* Estilos para Resultado Final - Adicione se necessário */
+/* Mensagens de erro/sucesso */
+.message-area {
+    color: #dc3545; /* Cor padrão (erro) */
+    margin-top: 15px;
+    margin-bottom: 10px; /* Ajusta espaço */
+    font-weight: bold;
+    min-height: 1.2em;
+    padding: 8px 12px;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    transition: opacity 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+    opacity: 1; /* Inicia visível */
+}
+.message-area.hide {
+    opacity: 0;
+    /* transition: opacity 0.3s ease 1s; */ /* Atraso para esconder pode ser útil */
+    pointer-events: none; /* Impede interação quando escondido */
+    margin-bottom: -1.2em; /* Tenta compensar altura quando escondido (pode ser instável) */
+    min-height: 0;
+    padding: 0 12px;
+    border-width: 0;
+}
+.message-area.error {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+.message-area.success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+
+/* Estilos para Resultado Final */
 #result-container {
-    /* Exemplo: */
-    /* margin-top: 25px;
-    padding: 20px;
+    margin-top: 25px;
+    padding: 25px;
     background-color: #e9ecef;
-    border-radius: 8px; */
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
 }
 #result-container h2 {
-    /* Exemplo: */
-    /* margin-top: 0;
-    color: #333; */
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #333;
 }
 #result-container p {
-     /* Exemplo: */
-    /* font-size: 1.1em;
+    font-size: 1.1em;
     color: #555;
-    margin-bottom: 15px; */
+    margin-bottom: 10px;
+    line-height: 1.6;
 }
-#choose-another-theme-btn { /* Estilo para o botão de escolher outro tema no final */
-     /* Exemplo: */
-    /* background-color: #007bff; */
+#result-container p strong {
+    color: #0056b3; /* Destaca números */
 }
-#choose-another-theme-btn:hover {
-     /* Exemplo: */
-    /* background-color: #0056b3; */
+#result-container button#choose-another-theme-btn {
+    margin-top: 20px;
+    padding: 12px 30px; /* Botão maior */
+    font-size: 1.1em;
 }
-
-.message-area.error { color: #dc3545; /* Vermelho */ }
-.message-area.success { color: #28a745; /* Verde */ }
