@@ -1,189 +1,1125 @@
 {
-  "config": {
-    "theme": "Sistema Solar",
-    "totalPoints": 1000,
-    "scoring": "points"
-  },
-  "data": [
-    {
-      "question": "Qual planeta é conhecido como Planeta Vermelho?",
-      "options": [
-        { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. Júpiter é um gigante gasoso." },
-        { "text": "Marte", "isCorrect": true, "explanation": "Correto! Devido ao óxido de ferro em sua superfície." },
-        { "text": "Vênus", "isCorrect": false, "explanation": "Incorreto. Vênus tem uma atmosfera densa." },
-        { "text": "Terra", "isCorrect": false, "explanation": "Incorreto. Terra é onde vivemos." }
-      ]
+    "config": {
+      "theme": "Sistema Solar",
+      "totalPoints": 1000,
+      "scoring": "points"
     },
-    {
-        "question": "Qual é o maior planeta do Sistema Solar?",
+    "data": [
+      {
+        "question": "Qual planeta é conhecido como Planeta Vermelho?",
         "options": [
-            { "text": "Saturno", "isCorrect": false, "explanation": "Incorreto. Saturno é famoso pelos anéis, mas não é o maior." },
-            { "text": "Netuno", "isCorrect": false, "explanation": "Incorreto. Netuno é um gigante de gelo." },
-            { "text": "Júpiter", "isCorrect": true, "explanation": "Correto! Júpiter é o maior planeta gasoso." },
-            { "text": "Urano", "isCorrect": false, "explanation": "Incorreto. Urano também é um gigante de gelo." }
-      ]
-    },
-    {
-        "question": "Qual planeta possui os anéis mais famosos?",
-        "options": [
-            { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. Júpiter tem anéis, mas são muito tênues." },
-            { "text": "Urano", "isCorrect": false, "explanation": "Incorreto. Urano também tem anéis, mas não são tão proeminentes." },
-            { "text": "Saturno", "isCorrect": true, "explanation": "Correto! Saturno é mundialmente famoso por seus impressionantes anéis." },
-            { "text": "Netuno", "isCorrect": false, "explanation": "Incorreto. Netuno possui anéis fracos." }
+          { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. Júpiter é o maior planeta, um gigante gasoso com faixas e uma Grande Mancha Vermelha." },
+          { "text": "Marte", "isCorrect": true, "explanation": "Correto! Marte tem essa cor devido à presença abundante de óxido de ferro (ferrugem) em sua superfície rochosa." },
+          { "text": "Vênus", "isCorrect": false, "explanation": "Incorreto. Vênus é amarelado/esbranquiçado devido à sua densa atmosfera de ácido sulfúrico, que o torna o planeta mais quente." },
+          { "text": "Terra", "isCorrect": false, "explanation": "Incorreto. Nosso lar é o 'Planeta Azul', devido aos vastos oceanos de água líquida." }
         ]
-    },
-    {
-        "question": "Qual é o planeta mais próximo do Sol?",
-        "options": [
-            { "text": "Vênus", "isCorrect": false, "explanation": "Incorreto. Vênus é o segundo planeta a partir do Sol." },
-            { "text": "Terra", "isCorrect": false, "explanation": "Incorreto. A Terra é o terceiro planeta." },
-            { "text": "Marte", "isCorrect": false, "explanation": "Incorreto. Marte é o quarto planeta." },
-            { "text": "Mercúrio", "isCorrect": true, "explanation": "Correto! Mercúrio é o planeta mais interno do Sistema Solar." }
+      },
+      {
+          "question": "Qual é o maior planeta do Sistema Solar?",
+          "options": [
+              { "text": "Saturno", "isCorrect": false, "explanation": "Incorreto. Saturno é o segundo maior, famoso por seus anéis espetaculares feitos de gelo e rocha." },
+              { "text": "Netuno", "isCorrect": false, "explanation": "Incorreto. Netuno é o quarto maior, um gigante de gelo azulado com os ventos mais rápidos do Sistema Solar." },
+              { "text": "Júpiter", "isCorrect": true, "explanation": "Correto! Júpiter é tão massivo que sua massa é mais que o dobro da de todos os outros planetas somados. Caberiam mais de 1.300 Terras dentro dele!" },
+              { "text": "Urano", "isCorrect": false, "explanation": "Incorreto. Urano é o terceiro maior, um gigante de gelo azul-esverdeado que gira 'deitado'." }
         ]
-    },
-    {
-        "question": "Qual planeta é conhecido por ter uma 'Grande Mancha Vermelha'?",
+      },
+      {
+          "question": "Qual planeta possui os anéis mais famosos e visíveis?",
+          "options": [
+              { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. Júpiter tem anéis, mas são muito tênues e escuros, descobertos apenas por sondas espaciais." },
+              { "text": "Urano", "isCorrect": false, "explanation": "Incorreto. Urano também tem anéis, mas são estreitos, escuros e difíceis de ver da Terra." },
+              { "text": "Saturno", "isCorrect": true, "explanation": "Correto! Os anéis de Saturno são largos, brilhantes (compostos principalmente de gelo) e visíveis até com pequenos telescópios, sendo sua característica mais marcante." },
+              { "text": "Netuno", "isCorrect": false, "explanation": "Incorreto. Netuno possui anéis finos e irregulares, com partes mais densas chamadas 'arcos'." }
+          ]
+      },
+      {
+          "question": "Qual é o planeta mais próximo do Sol?",
+          "options": [
+              { "text": "Vênus", "isCorrect": false, "explanation": "Incorreto. Vênus é o segundo planeta a partir do Sol." },
+              { "text": "Terra", "isCorrect": false, "explanation": "Incorreto. A Terra é o terceiro planeta." },
+              { "text": "Marte", "isCorrect": false, "explanation": "Incorreto. Marte é o quarto planeta." },
+              { "text": "Mercúrio", "isCorrect": true, "explanation": "Correto! Mercúrio orbita o Sol em apenas 88 dias terrestres e, por não ter atmosfera significativa, tem temperaturas superficiais extremas." }
+          ]
+      },
+      {
+          "question": "Qual planeta é conhecido por ter uma 'Grande Mancha Vermelha'?",
+          "options": [
+              { "text": "Marte", "isCorrect": false, "explanation": "Incorreto. Marte é o Planeta Vermelho, mas a 'Grande Mancha Vermelha' é uma tempestade específica em outro planeta." },
+              { "text": "Júpiter", "isCorrect": true, "explanation": "Correto! A Grande Mancha Vermelha é uma gigantesca tempestade anticiclônica em Júpiter, maior que a Terra e observada há séculos." },
+              { "text": "Saturno", "isCorrect": false, "explanation": "Incorreto. Saturno tem tempestades impressionantes, mas nenhuma tão icônica quanto a de Júpiter." },
+              { "text": "Netuno", "isCorrect": false, "explanation": "Incorreto. Netuno teve uma 'Grande Mancha Escura', mas era um fenômeno diferente e temporário." }
+          ]
+      },
+      {
+          "question": "Qual planeta é o mais quente do Sistema Solar, apesar de não ser o mais próximo do Sol?",
+          "options": [
+              { "text": "Mercúrio", "isCorrect": false, "explanation": "Incorreto. Mercúrio é o mais próximo, mas sem atmosfera para reter calor, sua temperatura varia muito. Vênus é consistentemente mais quente." },
+              { "text": "Vênus", "isCorrect": true, "explanation": "Correto! Sua densa atmosfera de dióxido de carbono cria um efeito estufa descontrolado, elevando a temperatura média para cerca de 465°C, suficiente para derreter chumbo." },
+              { "text": "Terra", "isCorrect": false, "explanation": "Incorreto. A Terra possui um efeito estufa moderado que permite a vida." },
+              { "text": "Marte", "isCorrect": false, "explanation": "Incorreto. Marte é um planeta frio, com temperaturas médias bem abaixo de zero." }
+          ]
+      },
+      {
+          "question": "Qual o nome da nossa galáxia?",
+          "options": [
+              { "text": "Andrômeda", "isCorrect": false, "explanation": "Incorreto. Andrômeda (M31) é a grande galáxia espiral mais próxima, visível a olho nu em céus escuros." },
+              { "text": "Galáxia do Sombrero", "isCorrect": false, "explanation": "Incorreto. M104 é uma bela galáxia na constelação de Virgem, assim chamada por sua aparência." },
+              { "text": "Via Láctea", "isCorrect": true, "explanation": "Correto! Nosso lar galáctico, uma enorme galáxia espiral barrada com centenas de bilhões de estrelas, incluindo nosso Sol." },
+              { "text": "Galáxia do Triângulo", "isCorrect": false, "explanation": "Incorreto. M33 é outra galáxia espiral próxima, membro do Grupo Local junto com a Via Láctea e Andrômeda." }
+          ]
+      },
+      {
+          "question": "Quantas luas tem a Terra?",
+          "options": [
+              { "text": "Zero", "isCorrect": false, "explanation": "Incorreto. Mercúrio e Vênus são os planetas sem luas naturais." },
+              { "text": "Uma", "isCorrect": true, "explanation": "Correto! A Terra tem apenas um satélite natural, a Lua, que tem um papel crucial nas marés e na estabilização do eixo terrestre." },
+              { "text": "Duas", "isCorrect": false, "explanation": "Incorreto. Marte possui duas pequenas luas irregulares, Fobos e Deimos, provavelmente asteroides capturados." },
+              { "text": "Muitas", "isCorrect": false, "explanation": "Incorreto. Gigantes gasosos como Júpiter e Saturno possuem dezenas (até centenas) de luas descobertas." }
+          ]
+      },
+      {
+          "question": "Qual planeta gira 'de lado' em relação ao seu plano orbital?",
+          "options": [
+              { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. Júpiter tem a menor inclinação axial entre os planetas (cerca de 3 graus)." },
+              { "text": "Saturno", "isCorrect": false, "explanation": "Incorreto. A inclinação de Saturno (cerca de 27 graus) é semelhante à da Terra, responsável pelas estações." },
+              { "text": "Urano", "isCorrect": true, "explanation": "Correto! Urano tem uma inclinação axial extrema (cerca de 98 graus), possivelmente devido a uma colisão antiga. Isso causa estações muito longas e extremas." },
+              { "text": "Netuno", "isCorrect": false, "explanation": "Incorreto. Netuno tem uma inclinação moderada de cerca de 28 graus." }
+          ]
+      },
+      {
+          "question": "O que é o Cinturão de Asteroides?",
+          "options": [
+              { "text": "Uma região entre Marte e Júpiter com muitos asteroides", "isCorrect": true, "explanation": "Correto! É uma vasta área onde orbitam milhões de corpos rochosos, remanescentes da formação do Sistema Solar, incluindo o planeta anão Ceres." },
+              { "text": "Os anéis de Saturno", "isCorrect": false, "explanation": "Incorreto. Os anéis de Saturno são compostos principalmente de gelo e orbitam o planeta." },
+              { "text": "Uma coleção de cometas além de Netuno", "isCorrect": false, "explanation": "Incorreto. Isso descreve melhor o Cinturão de Kuiper ou a mais distante Nuvem de Oort." },
+              { "text": "A faixa de poeira que causa chuvas de meteoros", "isCorrect": false, "explanation": "Incorreto. Chuvas de meteoros ocorrem quando a Terra cruza detritos deixados por cometas." }
+          ]
+      },
+      {
+        "question": "Qual é o nome do maior vulcão conhecido no Sistema Solar, localizado em Marte?",
         "options": [
-            { "text": "Marte", "isCorrect": false, "explanation": "Incorreto. Marte é vermelho, mas a 'Grande Mancha Vermelha' é de outro planeta." },
-            { "text": "Júpiter", "isCorrect": true, "explanation": "Correto! A Grande Mancha Vermelha é uma enorme tempestade anticiclônica em Júpiter." },
-            { "text": "Saturno", "isCorrect": false, "explanation": "Incorreto. Saturno não tem uma mancha vermelha proeminente." },
-            { "text": "Netuno", "isCorrect": false, "explanation": "Incorreto. Netuno teve uma 'Grande Mancha Escura', mas não vermelha." }
+            { "text": "Monte Everest", "isCorrect": false, "explanation": "Incorreto. O Everest é a montanha mais alta da Terra, formada por processos tectônicos, não vulcânicos." },
+            { "text": "Mauna Kea", "isCorrect": false, "explanation": "Incorreto. Mauna Kea é um vulcão gigante no Havaí, o mais alto da Terra medido desde sua base submarina." },
+            { "text": "Olympus Mons", "isCorrect": true, "explanation": "Correto! Olympus Mons (Monte Olimpo) em Marte é um vulcão-escudo colossal, quase três vezes mais alto que o Everest." },
+            { "text": "Monte Kilimanjaro", "isCorrect": false, "explanation": "Incorreto. Kilimanjaro é a montanha mais alta da África, formada por três cones vulcânicos." }
         ]
-    },
-    {
-        "question": "Qual planeta é o mais quente do Sistema Solar, apesar de não ser o mais próximo do Sol?",
+      },
+      {
+          "question": "Qual planeta anão já foi considerado o nono planeta do Sistema Solar?",
+          "options": [
+              { "text": "Ceres", "isCorrect": false, "explanation": "Incorreto. Ceres foi descoberto em 1801 e brevemente considerado planeta, mas logo reclassificado como asteroide (e hoje planeta anão)." },
+              { "text": "Eris", "isCorrect": false, "explanation": "Incorreto. A descoberta de Eris em 2005, maior em massa que Plutão, foi crucial para a redefinição de 'planeta'." },
+              { "text": "Makemake", "isCorrect": false, "explanation": "Incorreto. Makemake é outro grande objeto no Cinturão de Kuiper, classificado como planeta anão." },
+              { "text": "Plutão", "isCorrect": true, "explanation": "Correto! Descoberto em 1930, Plutão foi o nono planeta até a redefinição da União Astronômica Internacional em 2006." }
+          ]
+      },
+      {
+          "question": "O que causa as fases da Lua?",
+          "options": [
+              { "text": "A sombra da Terra na Lua", "isCorrect": false, "explanation": "Incorreto. A sombra da Terra causa eclipses lunares. As fases são sobre a iluminação da Lua pelo Sol." },
+              { "text": "A rotação da Lua", "isCorrect": false, "explanation": "Incorreto. A rotação sincronizada da Lua faz com que vejamos sempre a mesma face, mas não explica as fases." },
+              { "text": "A posição relativa da Lua, Terra e Sol", "isCorrect": true, "explanation": "Correto! Conforme a Lua orbita a Terra, a porção de sua face iluminada pelo Sol que vemos daqui muda, criando as fases." },
+              { "text": "Nuvens na atmosfera terrestre", "isCorrect": false, "explanation": "Incorreto. Nuvens podem obstruir a visão, mas não alteram a fase lunar." }
+          ]
+      },
+      {
+          "question": "Qual o nome da força que mantém os planetas em órbita ao redor do Sol?",
+          "options": [
+              { "text": "Força Magnética", "isCorrect": false, "explanation": "Incorreto. Campos magnéticos são importantes, mas a gravidade é a força dominante nas órbitas planetárias." },
+              { "text": "Força Nuclear Forte", "isCorrect": false, "explanation": "Incorreto. Atua dentro do núcleo atômico." },
+              { "text": "Força Gravitacional", "isCorrect": true, "explanation": "Correto! A atração mútua de massa entre o Sol e os planetas (gravidade) os mantém em suas trajetórias elípticas." },
+              { "text": "Força Centrífuga", "isCorrect": false, "explanation": "Incorreto. É uma força inercial (aparente) percebida em referenciais não inerciais (em rotação)." }
+          ]
+      },
+      {
+          "question": "Quais são os dois principais gases que compõem a atmosfera de Júpiter?",
+          "options": [
+              { "text": "Oxigênio e Nitrogênio", "isCorrect": false, "explanation": "Incorreto. Estes são os principais componentes da atmosfera terrestre." },
+              { "text": "Hidrogênio e Hélio", "isCorrect": true, "explanation": "Correto! Assim como o Sol, Júpiter é majoritariamente composto por H (cerca de 90%) e He (cerca de 10%), os elementos mais leves." },
+              { "text": "Dióxido de Carbono e Nitrogênio", "isCorrect": false, "explanation": "Incorreto. CO2 é abundante em Vênus e Marte." },
+              { "text": "Metano e Amônia", "isCorrect": false, "explanation": "Incorreto. Metano e amônia estão presentes e formam nuvens visíveis, mas não são os gases mais abundantes." }
+          ]
+      },
+      {
+          "question": "Qual o nome da missão espacial que levou os primeiros humanos à Lua?",
+          "options": [
+              { "text": "Voyager", "isCorrect": false, "explanation": "Incorreto. As missões Voyager 1 e 2 foram lançadas para explorar Júpiter, Saturno, Urano e Netuno." },
+              { "text": "Apollo 11", "isCorrect": true, "explanation": "Correto! Parte do Programa Apollo da NASA, a Apollo 11 realizou o primeiro pouso lunar tripulado em 20 de julho de 1969." },
+              { "text": "Sputnik", "isCorrect": false, "explanation": "Incorreto. Sputnik 1 (1957) foi o primeiro satélite artificial da Terra, lançado pela União Soviética." },
+              { "text": "Mars Rover", "isCorrect": false, "explanation": "Incorreto. Nome genérico para veículos que exploram Marte (ex: Curiosity, Perseverance)." }
+          ]
+      },
+      {
+          "question": "Qual planeta tem o dia mais longo (período de rotação)?",
+          "options": [
+              { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. Júpiter tem o dia mais curto, girando em menos de 10 horas." },
+              { "text": "Terra", "isCorrect": false, "explanation": "Incorreto. O dia da Terra tem aproximadamente 24 horas." },
+              { "text": "Mercúrio", "isCorrect": false, "explanation": "Incorreto. O dia de Mercúrio é longo (59 dias terrestres), mas Vênus tem um dia ainda mais longo." },
+              { "text": "Vênus", "isCorrect": true, "explanation": "Correto! Um dia sideral em Vênus dura 243 dias terrestres, mais longo que seu próprio ano (225 dias). Além disso, Vênus tem rotação retrógrada." }
+          ]
+      },
+      {
+          "question": "O que é um cometa?",
+          "options": [
+              { "text": "Uma rocha espacial que orbita entre Marte e Júpiter", "isCorrect": false, "explanation": "Incorreto. Isso descreve um asteroide típico do Cinturão Principal." },
+              { "text": "Um pequeno corpo gelado que desenvolve uma cauda ao se aproximar do Sol", "isCorrect": true, "explanation": "Correto! Cometas são 'bolas de neve suja' (gelo, poeira, rocha) que sublimam perto do Sol, formando uma coma (atmosfera) e caudas." },
+              { "text": "Um planeta muito pequeno", "isCorrect": false, "explanation": "Incorreto. Planetas anões (como Plutão) são objetos esféricos que não limparam sua órbita." },
+              { "text": "Uma estrela cadente", "isCorrect": false, "explanation": "Incorreto. Estrelas cadentes (meteoros) são pequenos detritos (meteoroides) queimando ao entrar na atmosfera da Terra." }
+          ]
+      },
+      {
+          "question": "Qual planeta é conhecido como a 'Joia do Sistema Solar'?",
+          "options": [
+              { "text": "Terra", "isCorrect": false, "explanation": "Incorreto. A Terra é frequentemente chamada de 'Planeta Azul' ou 'Pálido Ponto Azul'." },
+              { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. Júpiter é às vezes chamado de 'Rei dos Planetas'." },
+              { "text": "Marte", "isCorrect": false, "explanation": "Incorreto. Marte é o 'Planeta Vermelho'." },
+              { "text": "Saturno", "isCorrect": true, "explanation": "Correto! Saturno recebe este apelido devido à beleza estonteante de seu sistema de anéis quando visto por telescópios." }
+          ]
+      },
+      {
+          "question": "Qual é a estrela no centro do nosso Sistema Solar?",
+          "options": [
+              { "text": "Sirius", "isCorrect": false, "explanation": "Incorreto. Sirius é a estrela mais brilhante vista da Terra (após o Sol), na constelação do Cão Maior." },
+              { "text": "Alpha Centauri", "isCorrect": false, "explanation": "Incorreto. Alpha Centauri é o sistema estelar mais próximo do nosso, a cerca de 4,3 anos-luz." },
+              { "text": "Sol", "isCorrect": true, "explanation": "Correto! O Sol é uma estrela de tamanho médio (tipo G), responsável por quase toda a massa e energia do Sistema Solar." },
+              { "text": "Betelgeuse", "isCorrect": false, "explanation": "Incorreto. Betelgeuse é uma supergigante vermelha na constelação de Órion, candidata a explodir como supernova." }
+          ]
+      },
+      {
+          "question": "Qual a ordem correta dos planetas a partir do Sol?",
+          "options": [
+              { "text": "Mercúrio, Vênus, Terra, Marte, Júpiter, Saturno, Urano, Netuno", "isCorrect": true, "explanation": "Correto! Esta é a sequência dos 8 planetas, dos mais internos (rochosos) aos mais externos (gasosos e de gelo)." },
+              { "text": "Terra, Vênus, Marte, Mercúrio, Júpiter, Saturno, Netuno, Urano", "isCorrect": false, "explanation": "Incorreto. A ordem está misturada." },
+              { "text": "Mercúrio, Terra, Vênus, Marte, Saturno, Júpiter, Urano, Netuno", "isCorrect": false, "explanation": "Incorreto. Vênus e Terra estão trocados, assim como Júpiter e Saturno." },
+              { "text": "Mercúrio, Vênus, Terra, Marte, Júpiter, Saturno, Netuno, Urano", "isCorrect": false, "explanation": "Incorreto. Urano e Netuno estão na ordem inversa." }
+          ]
+      },
+      {
+          "question": "Qual planeta tem a maior lua do Sistema Solar (Ganimedes)?",
+          "options": [
+              { "text": "Terra", "isCorrect": false, "explanation": "Incorreto. Nossa Lua é a quinta maior do Sistema Solar." },
+              { "text": "Saturno", "isCorrect": false, "explanation": "Incorreto. Titã, a maior lua de Saturno, é a segunda maior do Sistema Solar." },
+              { "text": "Júpiter", "isCorrect": true, "explanation": "Correto! Ganimedes, uma das Luas Galileanas de Júpiter, é maior que o planeta Mercúrio." },
+              { "text": "Netuno", "isCorrect": false, "explanation": "Incorreto. Tritão, a maior lua de Netuno, é a sétima maior do Sistema Solar." }
+          ]
+      },
+      {
+          "question": "O que é a 'Zona Habitável' de um sistema estelar?",
+          "options": [
+              { "text": "A região onde existem planetas rochosos.", "isCorrect": false, "explanation": "Incorreto. Planetas rochosos podem existir fora da zona habitável." },
+              { "text": "A região ao redor de uma estrela onde a temperatura permite a existência de água líquida na superfície de um planeta.", "isCorrect": true, "explanation": "Correto! É a faixa orbital considerada ideal para a vida como a conhecemos, onde a água não congela nem evapora completamente." },
+              { "text": "A área onde a gravidade da estrela é mais forte.", "isCorrect": false, "explanation": "Incorreto. A gravidade é mais forte perto da estrela." },
+              { "text": "A região protegida do vento solar pelo campo magnético da estrela.", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "Qual corpo celeste é o centro do modelo geocêntrico do universo?",
+          "options": [
+              { "text": "Sol", "isCorrect": false, "explanation": "Incorreto. O Sol é o centro do modelo heliocêntrico (proposto por Copérnico)." },
+              { "text": "Lua", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Terra", "isCorrect": true, "explanation": "Correto! No modelo geocêntrico (Ptolomeu, Aristóteles), acreditava-se que a Terra era o centro fixo do universo." },
+              { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "Qual o nome do fenômeno luminoso causado pela entrada de pequenas partículas na atmosfera terrestre?",
+          "options": [
+              { "text": "Aurora Boreal/Austral", "isCorrect": false, "explanation": "Incorreto. Auroras são causadas por partículas carregadas do Sol interagindo com o campo magnético terrestre nos polos." },
+              { "text": "Meteoro ('Estrela Cadente')", "isCorrect": true, "explanation": "Correto! O brilho visível é o rastro deixado pelo meteoroide aquecido pela fricção com o ar." },
+              { "text": "Cometa", "isCorrect": false, "explanation": "Incorreto. Cometas são corpos gelados que orbitam o Sol." },
+              { "text": "Eclipse", "isCorrect": false, "explanation": "Incorreto. Eclipse é o bloqueio da luz de um corpo celeste por outro." }
+          ]
+      },
+      {
+          "question": "Qual o nome da grande nuvem de gás e poeira onde nascem as estrelas?",
+          "options": [
+              { "text": "Aglomerado Globular", "isCorrect": false, "explanation": "Incorreto. São aglomerados densos de estrelas velhas." },
+              { "text": "Nebulosa", "isCorrect": true, "explanation": "Correto! Nebulosas (como a de Órion) são 'berçários estelares', onde a gravidade agrupa matéria para formar novas estrelas." },
+              { "text": "Galáxia", "isCorrect": false, "explanation": "Incorreto. Galáxias são estruturas imensas que contêm estrelas, nebulosas, etc." },
+              { "text": "Quasar", "isCorrect": false, "explanation": "Incorreto. Quasares são núcleos galácticos ativos extremamente luminosos." }
+          ]
+      },
+      {
+          "question": "Qual planeta é famoso por ter um sistema de cânions gigantesco chamado Valles Marineris?",
+          "options": [
+              { "text": "Terra", "isCorrect": false, "explanation": "Incorreto. A Terra tem o Grand Canyon, mas Valles Marineris é muito maior." },
+              { "text": "Vênus", "isCorrect": false, "explanation": "Incorreto. Vênus tem topografia variada, mas não este sistema específico." },
+              { "text": "Marte", "isCorrect": true, "explanation": "Correto! Valles Marineris se estende por mais de 4.000 km, sendo muito mais longo e profundo que o Grand Canyon." },
+              { "text": "Mercúrio", "isCorrect": false, "explanation": "Incorreto. Mercúrio é coberto por crateras." }
+          ]
+      },
+      {
+          "question": "O que é um ano-luz?",
+          "options": [
+              { "text": "O tempo que a luz leva para dar uma volta no Sol.", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "A distância que a luz percorre no vácuo em um ano.", "isCorrect": true, "explanation": "Correto! É uma unidade de distância usada em astronomia, equivalente a cerca de 9,46 trilhões de quilômetros." },
+              { "text": "A velocidade da luz.", "isCorrect": false, "explanation": "Incorreto. A velocidade da luz é de aproximadamente 300.000 km/s." },
+              { "text": "Um período de tempo de 365 dias medido em anos terrestres.", "isCorrect": false, "explanation": "Incorreto. É uma medida de distância, não de tempo." }
+          ]
+      },
+      {
+          "question": "Qual a lua de Saturno conhecida por ter uma atmosfera densa e lagos de metano/etano líquidos?",
+          "options": [
+              { "text": "Europa (Júpiter)", "isCorrect": false, "explanation": "Incorreto. Europa é uma lua gelada de Júpiter com um possível oceano subterrâneo." },
+              { "text": "Ganimedes (Júpiter)", "isCorrect": false, "explanation": "Incorreto. Ganimedes é a maior lua, com campo magnético próprio." },
+              { "text": "Titã", "isCorrect": true, "explanation": "Correto! Titã é a maior lua de Saturno e a única lua com atmosfera espessa, rica em nitrogênio e metano, e com líquidos na superfície." },
+              { "text": "Encélado (Saturno)", "isCorrect": false, "explanation": "Incorreto. Encélado é uma lua gelada com gêiseres de água, indicando um oceano subsuperficial." }
+          ]
+      },
+      {
+          "question": "Qual a diferença entre um meteoro, um meteoroide e um meteorito?",
+          "options": [
+              { "text": "São nomes diferentes para a mesma coisa.", "isCorrect": false, "explanation": "Incorreto. Representam diferentes estágios." },
+              { "text": "Meteoroide (espaço) -> Meteoro (atmosfera) -> Meteorito (solo)", "isCorrect": true, "explanation": "Correto! Meteoroide é o fragmento no espaço; Meteoro é o rastro luminoso na atmosfera; Meteorito é o fragmento que sobrevive e atinge o solo." },
+              { "text": "Meteorito (espaço) -> Meteoroide (atmosfera) -> Meteoro (solo)", "isCorrect": false, "explanation": "Incorreto. A ordem está errada." },
+              { "text": "Meteoro (espaço) -> Meteorito (atmosfera) -> Meteoroide (solo)", "isCorrect": false, "explanation": "Incorreto. A ordem está errada." }
+          ]
+      },
+      {
+          "question": "Qual astrônomo polonês propôs o modelo heliocêntrico no século XVI?",
+          "options": [
+              { "text": "Galileu Galilei", "isCorrect": false, "explanation": "Incorreto. Galileu defendeu e forneceu evidências para o heliocentrismo, mas Copérnico o propôs antes." },
+              { "text": "Johannes Kepler", "isCorrect": false, "explanation": "Incorreto. Kepler formulou as leis do movimento planetário (órbitas elípticas)." },
+              { "text": "Nicolau Copérnico", "isCorrect": true, "explanation": "Correto! Em sua obra 'De revolutionibus orbium coelestium', Copérnico apresentou o modelo com o Sol no centro." },
+              { "text": "Tycho Brahe", "isCorrect": false, "explanation": "Incorreto. Brahe propôs um modelo híbrido (planetas giram em torno do Sol, que gira em torno da Terra)." }
+          ]
+      },
+      {
+          "question": "Qual planeta tem os ventos mais rápidos do Sistema Solar?",
+          "options": [
+              { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. Júpiter tem ventos fortes, mas Netuno o supera." },
+              { "text": "Saturno", "isCorrect": false, "explanation": "Incorreto. Saturno também tem ventos muito rápidos." },
+              { "text": "Urano", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Netuno", "isCorrect": true, "explanation": "Correto! Os ventos em Netuno podem ultrapassar 2.000 km/h, muito mais rápidos que os furacões mais fortes da Terra." }
+          ]
+      },
+      {
+          "question": "O que é a Oort Cloud (Nuvem de Oort)?",
+          "options": [
+              { "text": "O cinturão de asteroides entre Marte e Júpiter.", "isCorrect": false, "explanation": "Incorreto. Esse é o Cinturão Principal." },
+              { "text": "Uma nuvem de gás na nossa galáxia.", "isCorrect": false, "explanation": "Incorreto. Nuvens de gás são nebulosas." },
+              { "text": "Uma vasta nuvem esférica de cometas nos confins do Sistema Solar.", "isCorrect": true, "explanation": "Correto! Região hipotética muito distante, considerada a fonte dos cometas de longo período." },
+              { "text": "A atmosfera superior de Júpiter.", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "Qual o nome das quatro maiores luas de Júpiter, descobertas por Galileu?",
+          "options": [
+              { "text": "Fobos, Deimos, Titã, Tritão", "isCorrect": false, "explanation": "Incorreto. Fobos/Deimos (Marte), Titã (Saturno), Tritão (Netuno)." },
+              { "text": "Luas Galileanas (Io, Europa, Ganimedes, Calisto)", "isCorrect": true, "explanation": "Correto! Sua descoberta foi crucial para derrubar o modelo geocêntrico, mostrando corpos orbitando outro planeta." },
+              { "text": "Luas Pastorais (cordélia, ofélia)", "isCorrect": false, "explanation": "Incorreto. São pequenas luas de Urano." },
+              { "text": "Luas de Gelo (Encélado, Mimas)", "isCorrect": false, "explanation": "Incorreto. São luas de Saturno." }
+          ]
+      },
+      {
+          "question": "Qual o planeta mais denso do Sistema Solar?",
+          "options": [
+              { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. Júpiter é massivo, mas pouco denso (gigante gasoso)." },
+              { "text": "Saturno", "isCorrect": false, "explanation": "Incorreto. Saturno é o menos denso, flutuaria na água (se houvesse um oceano grande o suficiente!)." },
+              { "text": "Terra", "isCorrect": true, "explanation": "Correto! Devido ao seu núcleo de ferro e níquel e manto rochoso, a Terra tem a maior densidade média (cerca de 5,5 g/cm³)." },
+              { "text": "Mercúrio", "isCorrect": false, "explanation": "Incorreto. Mercúrio é o segundo mais denso, com um núcleo metálico proporcionalmente grande." }
+          ]
+      },
+      {
+          "question": "Como se chama o fenômeno onde a Lua passa diretamente entre o Sol e a Terra, bloqueando a luz solar?",
+          "options": [
+              { "text": "Eclipse Lunar", "isCorrect": false, "explanation": "Incorreto. Ocorre quando a Terra passa entre o Sol e a Lua, projetando sua sombra na Lua." },
+              { "text": "Trânsito Planetário", "isCorrect": false, "explanation": "Incorreto. Ocorre quando um planeta (Mercúrio ou Vênus) passa na frente do Sol, visto da Terra." },
+              { "text": "Eclipse Solar", "isCorrect": true, "explanation": "Correto! Pode ser total, parcial ou anular, dependendo do alinhamento e distâncias." },
+              { "text": "Ocultação", "isCorrect": false, "explanation": "Incorreto. Ocorre quando um corpo celeste passa na frente de outro, bloqueando sua visão." }
+          ]
+      },
+      {
+          "question": "Qual o nome da missão da NASA que pousou os rovers Spirit e Opportunity em Marte em 2004?",
+          "options": [
+              { "text": "Mars Pathfinder", "isCorrect": false, "explanation": "Incorreto. Missão de 1997 com o rover Sojourner." },
+              { "text": "Viking", "isCorrect": false, "explanation": "Incorreto. Missões Viking 1 e 2 pousaram em Marte em 1976." },
+              { "text": "Mars Exploration Rover (MER)", "isCorrect": true, "explanation": "Correto! Os rovers gêmeos MER-A (Spirit) e MER-B (Opportunity) exploraram Marte por anos, muito além de suas missões originais." },
+              { "text": "Mars Science Laboratory (Curiosity)", "isCorrect": false, "explanation": "Incorreto. Missão do rover Curiosity, que pousou em 2012." }
+          ]
+      },
+      {
+        "question": "Qual o nome da estrela mais próxima do Sol?",
         "options": [
-            { "text": "Mercúrio", "isCorrect": false, "explanation": "Incorreto. Mercúrio é o mais próximo, mas Vênus é mais quente devido ao efeito estufa." },
-            { "text": "Vênus", "isCorrect": true, "explanation": "Correto! A densa atmosfera de Vênus causa um efeito estufa extremo, tornando-o o planeta mais quente." },
-            { "text": "Terra", "isCorrect": false, "explanation": "Incorreto. A Terra tem temperaturas moderadas." },
-            { "text": "Marte", "isCorrect": false, "explanation": "Incorreto. Marte é um planeta frio." }
+          { "text": "Sirius", "isCorrect": false, "explanation": "Incorreto. Sirius é a estrela mais brilhante no nosso céu noturno, mas está a cerca de 8,6 anos-luz." },
+          { "text": "Betelgeuse", "isCorrect": false, "explanation": "Incorreto. É uma supergigante vermelha a centenas de anos-luz." },
+          { "text": "Proxima Centauri", "isCorrect": true, "explanation": "Correto! Parte do sistema Alpha Centauri, Proxima Centauri é uma anã vermelha a cerca de 4,24 anos-luz de distância." },
+          { "text": "Barnard's Star", "isCorrect": false, "explanation": "Incorreto. É a quarta estrela mais próxima, a cerca de 6 anos-luz." }
         ]
-    },
-    {
-        "question": "Qual o nome da nossa galáxia?",
+      },
+      {
+        "question": "Qual planeta tem um dia (rotação) muito similar em duração ao da Terra?",
         "options": [
-            { "text": "Andrômeda", "isCorrect": false, "explanation": "Incorreto. Andrômeda é a galáxia espiral mais próxima da nossa." },
-            { "text": "Galáxia do Sombrero", "isCorrect": false, "explanation": "Incorreto. É outra galáxia conhecida." },
-            { "text": "Via Láctea", "isCorrect": true, "explanation": "Correto! Nosso Sistema Solar está localizado na Via Láctea." },
-            { "text": "Galáxia do Triângulo", "isCorrect": false, "explanation": "Incorreto. É a terceira maior galáxia do Grupo Local." }
+          { "text": "Vênus", "isCorrect": false, "explanation": "Incorreto. Vênus tem o dia mais longo, com 243 dias terrestres." },
+          { "text": "Mercúrio", "isCorrect": false, "explanation": "Incorreto. Mercúrio tem um dia longo, de 59 dias terrestres." },
+          { "text": "Marte", "isCorrect": true, "explanation": "Correto! Um dia marciano ('sol') dura cerca de 24 horas e 37 minutos, muito próximo das 24 horas da Terra." },
+          { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. Júpiter tem o dia mais curto, com menos de 10 horas." }
         ]
-    },
-    {
-        "question": "Quantas luas tem a Terra?",
+      },
+      {
+        "question": "O que são as 'Luas de Pastor' (Shepherd Moons)?",
         "options": [
-            { "text": "Zero", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Uma", "isCorrect": true, "explanation": "Correto! A Terra tem apenas uma lua natural, chamada Lua." },
-            { "text": "Duas", "isCorrect": false, "explanation": "Incorreto. Marte tem duas luas." },
-            { "text": "Muitas", "isCorrect": false, "explanation": "Incorreto. Planetas como Júpiter e Saturno têm muitas luas." }
+          { "text": "Luas que guiam naves espaciais.", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "As quatro maiores luas de Júpiter.", "isCorrect": false, "explanation": "Incorreto. São as Luas Galileanas." },
+          { "text": "Pequenas luas que orbitam perto de anéis planetários, ajudando a confiná-los.", "isCorrect": true, "explanation": "Correto! Exemplos notáveis são Prometeu e Pandora nos anéis de Saturno, cuja gravidade 'pastoreia' as partículas do anel." },
+          { "text": "Luas que possuem atmosfera.", "isCorrect": false, "explanation": "Incorreto. Titã é a única lua com atmosfera densa." }
         ]
-    },
-    {
-        "question": "Qual planeta gira 'de lado' em relação ao seu plano orbital?",
+      },
+      {
+        "question": "Qual o nome do telescópio espacial lançado em 1990 que revolucionou a astronomia?",
         "options": [
-            { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. Júpiter tem uma inclinação axial pequena." },
-            { "text": "Saturno", "isCorrect": false, "explanation": "Incorreto. Saturno tem uma inclinação semelhante à da Terra." },
-            { "text": "Urano", "isCorrect": true, "explanation": "Correto! Urano tem uma inclinação axial de cerca de 98 graus, fazendo-o girar 'de lado'." },
-            { "text": "Netuno", "isCorrect": false, "explanation": "Incorreto. Netuno tem uma inclinação axial moderada." }
+          { "text": "Telescópio Espacial James Webb", "isCorrect": false, "explanation": "Incorreto. Lançado em 2021, é o sucessor do Hubble, operando em infravermelho." },
+          { "text": "Telescópio Espacial Spitzer", "isCorrect": false, "explanation": "Incorreto. Observatório espacial infravermelho lançado em 2003." },
+          { "text": "Telescópio Espacial Hubble", "isCorrect": true, "explanation": "Correto! Orbitando fora da distorção atmosférica, o Hubble forneceu imagens icônicas e dados cruciais por décadas." },
+          { "text": "Observatório de Raios-X Chandra", "isCorrect": false, "explanation": "Incorreto. Telescópio espacial focado em observações de raios-X, lançado em 1999." }
         ]
-    },
-    {
-        "question": "O que é o Cinturão de Asteroides?",
+      },
+      {
+        "question": "Qual planeta anão está localizado no Cinturão de Asteroides?",
         "options": [
-            { "text": "Uma região entre Marte e Júpiter com muitos asteroides", "isCorrect": true, "explanation": "Correto! É a localização da maioria dos asteroides do Sistema Solar." },
-            { "text": "Os anéis de Saturno", "isCorrect": false, "explanation": "Incorreto. Os anéis de Saturno são feitos de gelo e poeira." },
-            { "text": "Uma coleção de cometas além de Netuno", "isCorrect": false, "explanation": "Incorreto. Isso descreve o Cinturão de Kuiper ou a Nuvem de Oort." },
-            { "text": "Uma região perto do Sol", "isCorrect": false, "explanation": "Incorreto." }
+          { "text": "Plutão", "isCorrect": false, "explanation": "Incorreto. Plutão reside no Cinturão de Kuiper, além de Netuno." },
+          { "text": "Eris", "isCorrect": false, "explanation": "Incorreto. Eris também está no Sistema Solar exterior (disco disperso)." },
+          { "text": "Ceres", "isCorrect": true, "explanation": "Correto! Ceres é o maior objeto no Cinturão Principal de Asteroides e o único planeta anão nessa região." },
+          { "text": "Haumea", "isCorrect": false, "explanation": "Incorreto. Haumea é um planeta anão no Cinturão de Kuiper, conhecido por sua forma alongada e rotação rápida." }
         ]
-    },
-    {
-      "question": "Qual é o nome do maior vulcão conhecido no Sistema Solar, localizado em Marte?",
-      "options": [
-          { "text": "Monte Everest", "isCorrect": false, "explanation": "Incorreto. Monte Everest é a montanha mais alta da Terra." },
-          { "text": "Mauna Kea", "isCorrect": false, "explanation": "Incorreto. Mauna Kea é um vulcão no Havaí." },
-          { "text": "Olympus Mons", "isCorrect": true, "explanation": "Correto! Olympus Mons (Monte Olimpo) em Marte é um gigantesco vulcão escudo." },
-          { "text": "Monte Kilimanjaro", "isCorrect": false, "explanation": "Incorreto. Kilimanjaro é um vulcão na Tanzânia." }
-      ]
-    },
-    {
-        "question": "Qual planeta anão já foi considerado o nono planeta do Sistema Solar?",
+      },
+      {
+        "question": "Qual fenômeno causa as auroras (Boreal e Austral)?",
         "options": [
-            { "text": "Ceres", "isCorrect": false, "explanation": "Incorreto. Ceres é o maior objeto no Cinturão de Asteroides." },
-            { "text": "Eris", "isCorrect": false, "explanation": "Incorreto. Eris é um planeta anão massivo no Sistema Solar externo." },
-            { "text": "Makemake", "isCorrect": false, "explanation": "Incorreto. Makemake é outro planeta anão no Cinturão de Kuiper." },
-            { "text": "Plutão", "isCorrect": true, "explanation": "Correto! Plutão foi reclassificado como planeta anão em 2006." }
+          { "text": "Reflexo da luz solar nas calotas polares.", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Partículas carregadas do vento solar interagindo com a magnetosfera e a atmosfera superior da Terra.", "isCorrect": true, "explanation": "Correto! Essas partículas excitam átomos na atmosfera (principalmente oxigênio e nitrogênio), que emitem luz colorida." },
+          { "text": "Meteoros queimando na atmosfera.", "isCorrect": false, "explanation": "Incorreto. Isso causa as 'estrelas cadentes'." },
+          { "text": "Nuvens noctilucentes (nuvens de gelo na mesosfera).", "isCorrect": false, "explanation": "Incorreto. São nuvens visíveis ao entardecer/amanhecer em altas latitudes." }
         ]
-    },
-    {
-        "question": "O que causa as fases da Lua?",
+      },
+      {
+        "question": "Qual a principal composição das calotas polares de Marte?",
         "options": [
-            { "text": "A sombra da Terra na Lua", "isCorrect": false, "explanation": "Incorreto. Isso causa eclipses lunares." },
-            { "text": "A rotação da Lua", "isCorrect": false, "explanation": "Incorreto. A rotação da Lua é sincronizada com sua órbita." },
-            { "text": "A posição relativa da Lua, Terra e Sol", "isCorrect": true, "explanation": "Correto! Vemos diferentes porções da face iluminada da Lua enquanto ela orbita a Terra." },
-            { "text": "Nuvens na atmosfera terrestre", "isCorrect": false, "explanation": "Incorreto." }
+          { "text": "Apenas gelo de água.", "isCorrect": false, "explanation": "Incorreto. Contêm gelo de água, mas também outro componente." },
+          { "text": "Gelo de água e gelo seco (dióxido de carbono congelado).", "isCorrect": true, "explanation": "Correto! As calotas têm uma base permanente de gelo de água e uma camada sazonal de gelo seco que se expande e retrai." },
+          { "text": "Apenas gelo seco.", "isCorrect": false, "explanation": "Incorreto. A camada de gelo seco é sazonal." },
+          { "text": "Metano congelado.", "isCorrect": false, "explanation": "Incorreto." }
         ]
-    },
-    {
-        "question": "Qual o nome da força que mantém os planetas em órbita ao redor do Sol?",
+      },
+      {
+        "question": "Qual missão pousou o módulo Huygens na superfície de Titã, lua de Saturno?",
         "options": [
-            { "text": "Força Magnética", "isCorrect": false, "explanation": "Incorreto. O magnetismo não é a força dominante nas órbitas." },
-            { "text": "Força Elétrica", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Força Gravitacional", "isCorrect": true, "explanation": "Correto! A gravidade do Sol atrai os planetas, mantendo-os em suas órbitas." },
-            { "text": "Força Centrífuga", "isCorrect": false, "explanation": "Incorreto. A força centrífuga é uma força aparente em referenciais rotativos." }
+          { "text": "Voyager 1", "isCorrect": false, "explanation": "Incorreto. Voyager 1 sobrevoou Titã, mas não pousou." },
+          { "text": "Galileo", "isCorrect": false, "explanation": "Incorreto. A missão Galileo orbitou Júpiter." },
+          { "text": "Cassini-Huygens", "isCorrect": true, "explanation": "Correto! A sonda Cassini orbitou Saturno, e o módulo Huygens (da ESA) pousou com sucesso em Titã em 2005." },
+          { "text": "Juno", "isCorrect": false, "explanation": "Incorreto. A sonda Juno orbita Júpiter." }
         ]
-    },
-    {
-        "question": "Quais são os dois principais gases que compõem a atmosfera de Júpiter?",
+      },
+      {
+        "question": "O que significa 'Exoplaneta'?",
         "options": [
-            { "text": "Oxigênio e Nitrogênio", "isCorrect": false, "explanation": "Incorreto. Esses são os principais gases da atmosfera da Terra." },
-            { "text": "Hidrogênio e Hélio", "isCorrect": true, "explanation": "Correto! Assim como o Sol, Júpiter é composto principalmente por hidrogênio e hélio." },
-            { "text": "Dióxido de Carbono e Nitrogênio", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Metano e Amônia", "isCorrect": false, "explanation": "Incorreto. Esses gases estão presentes, mas não são os principais." }
+          { "text": "Um planeta fora da nossa galáxia.", "isCorrect": false, "explanation": "Incorreto. Planetas em outras galáxias são extremamente difíceis de detectar." },
+          { "text": "Um planeta que orbita uma estrela fora do nosso Sistema Solar.", "isCorrect": true, "explanation": "Correto! Milhares de exoplanetas já foram descobertos orbitando outras estrelas na Via Láctea." },
+          { "text": "Um planeta que não orbita nenhuma estrela (planeta órfão).", "isCorrect": false, "explanation": "Incorreto. Embora planetas órfãos existam, 'exoplaneta' geralmente se refere aos que orbitam outras estrelas." },
+          { "text": "Um planeta dentro do nosso Sistema Solar ainda não descoberto.", "isCorrect": false, "explanation": "Incorreto." }
         ]
-    },
-    {
-        "question": "Qual o nome da missão espacial que levou os primeiros humanos à Lua?",
+      },
+      {
+        "question": "Qual é a unidade astronômica (UA) de distância?",
         "options": [
-            { "text": "Voyager", "isCorrect": false, "explanation": "Incorreto. As missões Voyager exploraram o Sistema Solar exterior." },
-            { "text": "Apollo 11", "isCorrect": true, "explanation": "Correto! A Apollo 11 foi a missão da NASA que realizou o primeiro pouso lunar tripulado em 1969." },
-            { "text": "Sputnik", "isCorrect": false, "explanation": "Incorreto. Sputnik foi o primeiro satélite artificial, lançado pela União Soviética." },
-            { "text": "Mars Rover", "isCorrect": false, "explanation": "Incorreto. Rovers exploram a superfície de Marte." }
+          { "text": "A distância da Terra à Lua.", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "A distância média da Terra ao Sol.", "isCorrect": true, "explanation": "Correto! Uma UA equivale a aproximadamente 150 milhões de quilômetros, útil para medir distâncias dentro do Sistema Solar." },
+          { "text": "A distância que a luz percorre em um segundo.", "isCorrect": false, "explanation": "Incorreto. Isso é cerca de 300.000 km." },
+          { "text": "O diâmetro do Sol.", "isCorrect": false, "explanation": "Incorreto. O diâmetro solar é de cerca de 1,4 milhão de km." }
         ]
-    },
-    {
-        "question": "Qual planeta tem o dia mais longo (período de rotação)?",
+      },
+      {
+        "question": "Qual o nome dado às explosões gigantescas que ocorrem na superfície do Sol?",
         "options": [
-            { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. Júpiter tem o dia mais curto, cerca de 10 horas." },
-            { "text": "Terra", "isCorrect": false, "explanation": "Incorreto. O dia da Terra tem 24 horas." },
-            { "text": "Mercúrio", "isCorrect": false, "explanation": "Incorreto. O dia de Mercúrio é longo (59 dias terrestres), mas Vênus tem o mais longo." },
-            { "text": "Vênus", "isCorrect": true, "explanation": "Correto! Um dia em Vênus (rotação completa) dura cerca de 243 dias terrestres, mais longo que seu ano." }
+          { "text": "Manchas solares", "isCorrect": false, "explanation": "Incorreto. São regiões mais frias e escuras na fotosfera, associadas a forte atividade magnética." },
+          { "text": "Vento solar", "isCorrect": false, "explanation": "Incorreto. É um fluxo contínuo de partículas carregadas emitidas pelo Sol." },
+          { "text": "Erupções solares (Flares)", "isCorrect": true, "explanation": "Correto! São liberações súbitas e intensas de energia magnética, emitindo radiação e partículas." },
+          { "text": "Protuberâncias solares", "isCorrect": false, "explanation": "Incorreto. São grandes arcos de gás que se estendem da superfície solar para a corona." }
         ]
-    },
-    {
-        "question": "O que é um cometa?",
+      },
+      {
+        "question": "Qual planeta gasoso não possui anéis?",
         "options": [
-            { "text": "Uma rocha espacial que orbita entre Marte e Júpiter", "isCorrect": false, "explanation": "Incorreto. Isso descreve um asteroide." },
-            { "text": "Um pequeno corpo gelado que desenvolve uma cauda ao se aproximar do Sol", "isCorrect": true, "explanation": "Correto! Cometas são feitos de gelo, poeira e rocha, e o calor do Sol vaporiza o gelo, formando uma coma e caudas." },
-            { "text": "Um planeta muito pequeno", "isCorrect": false, "explanation": "Incorreto. Essa é a definição de planeta anão." },
-            { "text": "Uma estrela cadente", "isCorrect": false, "explanation": "Incorreto. Estrelas cadentes são meteoroides queimando na atmosfera da Terra." }
+          { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. Possui anéis tênues." },
+          { "text": "Saturno", "isCorrect": false, "explanation": "Incorreto. Possui os anéis mais proeminentes." },
+          { "text": "Urano", "isCorrect": false, "explanation": "Incorreto. Possui anéis escuros." },
+          { "text": "Nenhum, todos os gigantes gasosos/de gelo possuem anéis.", "isCorrect": true, "explanation": "Correto! Júpiter, Saturno, Urano e Netuno, todos os quatro gigantes externos, possuem sistemas de anéis, embora variem muito em visibilidade." }
         ]
-    },
-    {
-        "question": "Qual planeta é conhecido como a 'Joia do Sistema Solar'?",
+      },
+      {
+        "question": "O que é um Buraco Negro?",
         "options": [
-            { "text": "Terra", "isCorrect": false, "explanation": "Incorreto. A Terra é o 'Planeta Azul'." },
-            { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. Júpiter é o 'Rei dos Planetas'." },
-            { "text": "Marte", "isCorrect": false, "explanation": "Incorreto. Marte é o 'Planeta Vermelho'." },
-            { "text": "Saturno", "isCorrect": true, "explanation": "Correto! Saturno é frequentemente chamado assim devido aos seus magníficos anéis." }
+          { "text": "Uma estrela muito fria que não emite luz.", "isCorrect": false, "explanation": "Incorreto. Isso descreveria uma anã marrom ou anã negra (hipotética)." },
+          { "text": "Uma região do espaço com gravidade tão intensa que nada, nem mesmo a luz, pode escapar.", "isCorrect": true, "explanation": "Correto! Formam-se pelo colapso de estrelas muito massivas ou por outros processos." },
+          { "text": "Uma nuvem de poeira escura que bloqueia a luz das estrelas.", "isCorrect": false, "explanation": "Incorreto. Isso é uma nebulosa escura." },
+          { "text": "Um tipo especial de planeta gasoso.", "isCorrect": false, "explanation": "Incorreto." }
         ]
-    },
-    {
-        "question": "Qual é a estrela no centro do nosso Sistema Solar?",
+      },
+      {
+        "question": "Qual a lua de Júpiter conhecida por sua intensa atividade vulcânica?",
         "options": [
-            { "text": "Sirius", "isCorrect": false, "explanation": "Incorreto. Sirius é a estrela mais brilhante no céu noturno." },
-            { "text": "Alpha Centauri", "isCorrect": false, "explanation": "Incorreto. Alpha Centauri é o sistema estelar mais próximo do nosso." },
-            { "text": "Sol", "isCorrect": true, "explanation": "Correto! O Sol é a estrela que fornece luz e calor para o nosso Sistema Solar." },
-            { "text": "Betelgeuse", "isCorrect": false, "explanation": "Incorreto. Betelgeuse é uma supergigante vermelha na constelação de Órion." }
+          { "text": "Europa", "isCorrect": false, "explanation": "Incorreto. Europa é gelada, com possível oceano líquido sob a crosta." },
+          { "text": "Ganimedes", "isCorrect": false, "explanation": "Incorreto. Ganimedes é a maior lua, geologicamente diversa, mas não com vulcanismo ativo intenso." },
+          { "text": "Calisto", "isCorrect": false, "explanation": "Incorreto. Calisto é uma lua antiga e cheia de crateras, geologicamente inativa." },
+          { "text": "Io", "isCorrect": true, "explanation": "Correto! Io é o corpo geologicamente mais ativo do Sistema Solar, com centenas de vulcões expelindo enxofre, devido às forças de maré de Júpiter." }
         ]
-    }
-  ]
-}
+      },
+      {
+        "question": "Qual o nome da teoria que explica a formação do Sistema Solar a partir de uma nuvem de gás e poeira em rotação?",
+        "options": [
+          { "text": "Teoria do Big Bang", "isCorrect": false, "explanation": "Incorreto. Explica a origem e expansão do universo." },
+          { "text": "Teoria da Nebulosa Solar (ou Hipótese Nebular)", "isCorrect": true, "explanation": "Correto! Modelo mais aceito, onde uma nuvem interestelar colapsou sob gravidade, formando o Sol no centro e um disco protoplanetário ao redor." },
+          { "text": "Teoria Geocêntrica", "isCorrect": false, "explanation": "Incorreto. Modelo antigo com a Terra no centro." },
+          { "text": "Teoria da Captura", "isCorrect": false, "explanation": "Incorreto. Teoria alternativa (hoje desacreditada) que sugeria que planetas foram capturados pelo Sol." }
+        ]
+      },
+      {
+        "question": "Qual o nome do conjunto de constelações pelo qual o Sol aparenta passar ao longo do ano?",
+        "options": [
+          { "text": "Via Láctea", "isCorrect": false, "explanation": "Incorreto. É a nossa galáxia." },
+          { "text": "Grupo Local", "isCorrect": false, "explanation": "Incorreto. É o grupo de galáxias ao qual pertencemos." },
+          { "text": "Zodíaco", "isCorrect": true, "explanation": "Correto! São as 12 (ou 13, incluindo Ofiúco) constelações que se situam na eclíptica, o caminho aparente do Sol no céu." },
+          { "text": "Cruzeiro do Sul", "isCorrect": false, "explanation": "Incorreto. É uma constelação visível no Hemisfério Sul." }
+        ]
+      },
+      {
+        "question": "Qual planeta tem a rotação mais rápida?",
+        "options": [
+          { "text": "Terra", "isCorrect": false, "explanation": "Incorreto. Rotação em 24 horas." },
+          { "text": "Marte", "isCorrect": false, "explanation": "Incorreto. Rotação pouco mais longa que a da Terra." },
+          { "text": "Júpiter", "isCorrect": true, "explanation": "Correto! Apesar de seu tamanho imenso, Júpiter completa uma rotação em menos de 10 horas." },
+          { "text": "Vênus", "isCorrect": false, "explanation": "Incorreto. Vênus tem a rotação mais lenta." }
+        ]
+      },
+      {
+        "question": "O que são Manchas Solares?",
+        "options": [
+          { "text": "Explosões na superfície do Sol.", "isCorrect": false, "explanation": "Incorreto. Isso são erupções solares (flares)." },
+          { "text": "Regiões temporariamente mais frias e escuras na fotosfera, associadas a forte atividade magnética.", "isCorrect": true, "explanation": "Correto! Elas aparecem em ciclos de aproximadamente 11 anos e podem influenciar o clima espacial." },
+          { "text": "Planetas passando na frente do Sol.", "isCorrect": false, "explanation": "Incorreto. Isso é um trânsito planetário." },
+          { "text": "Ilhas de matéria escura flutuando no Sol.", "isCorrect": false, "explanation": "Incorreto. Conceito ficcional." }
+        ]
+      },
+      {
+        "question": "Qual o nome do maior asteroide conhecido?",
+        "options": [
+          { "text": "Vesta", "isCorrect": false, "explanation": "Incorreto. Vesta é o segundo maior asteroide." },
+          { "text": "Pallas", "isCorrect": false, "explanation": "Incorreto. Pallas é o terceiro maior." },
+          { "text": "Ceres", "isCorrect": true, "explanation": "Correto! Ceres é tão grande (quase 1000 km de diâmetro) que sua própria gravidade o tornou esférico, sendo classificado também como planeta anão." },
+          { "text": "Hygiea", "isCorrect": false, "explanation": "Incorreto. Hygiea é o quarto maior asteroide." }
+        ]
+      },
+      {
+        "question": "Qual planeta possui o maior número conhecido de luas?",
+        "options": [
+          { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. Júpiter tem muitas luas (mais de 90), mas Saturno tem mais confirmadas atualmente." },
+          { "text": "Saturno", "isCorrect": true, "explanation": "Correto! Com mais de 140 luas confirmadas (e muitas outras menores), Saturno ultrapassou Júpiter recentemente." },
+          { "text": "Urano", "isCorrect": false, "explanation": "Incorreto. Urano tem 27 luas conhecidas." },
+          { "text": "Netuno", "isCorrect": false, "explanation": "Incorreto. Netuno tem 14 luas conhecidas." }
+        ]
+      },
+      {
+        "question": "O que é o Periélio?",
+        "options": [
+          { "text": "O ponto da órbita de um planeta mais distante do Sol.", "isCorrect": false, "explanation": "Incorreto. Esse ponto é o Afélio." },
+          { "text": "O ponto da órbita de um planeta mais próximo do Sol.", "isCorrect": true, "explanation": "Correto! Devido às órbitas elípticas, a distância ao Sol varia; no periélio, o planeta se move mais rapidamente." },
+          { "text": "O eixo de rotação de um planeta.", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "O plano orbital de um planeta.", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual a cor predominante de Netuno?",
+        "options": [
+          { "text": "Vermelho", "isCorrect": false, "explanation": "Incorreto. Essa é a cor de Marte." },
+          { "text": "Amarelo/Branco", "isCorrect": false, "explanation": "Incorreto. Cores associadas a Vênus ou Júpiter/Saturno." },
+          { "text": "Azul profundo", "isCorrect": true, "explanation": "Correto! A cor azul de Netuno (e Urano) é devida à absorção da luz vermelha pelo gás metano em sua atmosfera." },
+          { "text": "Verde pálido", "isCorrect": false, "explanation": "Incorreto. Cor mais associada a Urano." }
+        ]
+      },
+      {
+        "question": "Qual o nome da sonda espacial que fez o primeiro sobrevoo de Plutão em 2015?",
+        "options": [
+          { "text": "Voyager 2", "isCorrect": false, "explanation": "Incorreto. Voyager 2 visitou os gigantes gasosos e de gelo, mas não Plutão." },
+          { "text": "New Horizons", "isCorrect": true, "explanation": "Correto! A missão New Horizons da NASA forneceu as primeiras imagens detalhadas de Plutão e suas luas." },
+          { "text": "Cassini", "isCorrect": false, "explanation": "Incorreto. Cassini estudou o sistema de Saturno." },
+          { "text": "Pioneer 10", "isCorrect": false, "explanation": "Incorreto. Pioneer 10 foi a primeira a atravessar o cinturão de asteroides e visitar Júpiter." }
+        ]
+      },
+      {
+        "question": "O que é uma Supernova?",
+        "options": [
+          { "text": "O nascimento de uma nova estrela.", "isCorrect": false, "explanation": "Incorreto. Estrelas nascem em nebulosas." },
+          { "text": "A explosão catastrófica que marca o fim da vida de algumas estrelas.", "isCorrect": true, "explanation": "Correto! Estrelas massivas ou anãs brancas em sistemas binários podem explodir, liberando imensa energia e elementos pesados." },
+          { "text": "Uma galáxia muito brilhante.", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Um tipo raro de cometa.", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+          "question": "Qual a lua de Netuno que possui órbita retrógrada (sentido contrário à rotação do planeta)?",
+          "options": [
+              { "text": "Titã (Saturno)", "isCorrect": false, "explanation": "Incorreto. Titã orbita no mesmo sentido que Saturno." },
+              { "text": "Io (Júpiter)", "isCorrect": false, "explanation": "Incorreto. Io tem órbita prógrada." },
+              { "text": "Tritão", "isCorrect": true, "explanation": "Correto! Tritão é a maior lua de Netuno e sua órbita retrógrada sugere que foi um objeto capturado gravitacionalmente." },
+              { "text": "Fobos (Marte)", "isCorrect": false, "explanation": "Incorreto. Fobos tem órbita prógrada e muito rápida." }
+          ]
+      },
+      {
+          "question": "Qual o nome da camada gasosa que envolve um planeta ou outro corpo celeste?",
+          "options": [
+              { "text": "Litosfera", "isCorrect": false, "explanation": "Incorreto. É a camada rochosa externa de um planeta." },
+              { "text": "Hidrosfera", "isCorrect": false, "explanation": "Incorreto. É o conjunto de toda a água (líquida, sólida, gasosa) de um planeta." },
+              { "text": "Atmosfera", "isCorrect": true, "explanation": "Correto! Composta por gases mantidos pela gravidade, sua composição e densidade variam muito entre os corpos celestes." },
+              { "text": "Magnetosfera", "isCorrect": false, "explanation": "Incorreto. É a região dominada pelo campo magnético de um planeta." }
+          ]
+      },
+      {
+          "question": "Qual astrônomo italiano fez as primeiras observações telescópicas detalhadas da Lua, Júpiter e Vênus?",
+          "options": [
+              { "text": "Nicolau Copérnico", "isCorrect": false, "explanation": "Incorreto. Copérnico propôs o heliocentrismo antes do telescópio ser popularizado." },
+              { "text": "Giordano Bruno", "isCorrect": false, "explanation": "Incorreto. Filósofo que defendeu ideias cosmológicas avançadas, mas não baseado em observações telescópicas." },
+              { "text": "Galileu Galilei", "isCorrect": true, "explanation": "Correto! No início do século XVII, Galileu usou o telescópio para descobrir crateras na Lua, luas em Júpiter e fases em Vênus, apoiando o heliocentrismo." },
+              { "text": "Giovanni Cassini", "isCorrect": false, "explanation": "Incorreto. Cassini fez descobertas importantes sobre Saturno e suas luas mais tarde, no século XVII." }
+          ]
+      },
+      {
+          "question": "Qual o nome da galáxia anã que é a nossa vizinha mais próxima, descoberta recentemente?",
+          "options": [
+              { "text": "Grande Nuvem de Magalhães", "isCorrect": false, "explanation": "Incorreto. É uma vizinha próxima e satélite, mas não a mais próxima." },
+              { "text": "Galáxia Anã de Sagitário", "isCorrect": false, "explanation": "Incorreto. Outra galáxia satélite sendo 'devorada' pela Via Láctea." },
+              { "text": "Galáxia Anã do Cão Maior", "isCorrect": true, "explanation": "Correto! Descoberta em 2003, é considerada a galáxia mais próxima da nossa localização na Via Láctea, embora sua natureza seja debatida." },
+              { "text": "Andrômeda II", "isCorrect": false, "explanation": "Incorreto. Galáxia satélite de Andrômeda." }
+          ]
+      },
+      {
+          "question": "Qual planeta tem o maior período orbital (ano mais longo)?",
+          "options": [
+              { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. O ano de Júpiter dura cerca de 12 anos terrestres." },
+              { "text": "Saturno", "isCorrect": false, "explanation": "Incorreto. O ano de Saturno dura cerca de 29,5 anos terrestres." },
+              { "text": "Urano", "isCorrect": false, "explanation": "Incorreto. O ano de Urano dura cerca de 84 anos terrestres." },
+              { "text": "Netuno", "isCorrect": true, "explanation": "Correto! Sendo o planeta mais distante do Sol, Netuno leva cerca de 165 anos terrestres para completar uma órbita." }
+          ]
+      },
+      {
+          "question": "O que é o Cinturão de Kuiper?",
+          "options": [
+              { "text": "O mesmo que o Cinturão de Asteroides.", "isCorrect": false, "explanation": "Incorreto. O Cinturão de Asteroides fica entre Marte e Júpiter." },
+              { "text": "Uma região além da órbita de Netuno, povoada por corpos gelados.", "isCorrect": true, "explanation": "Correto! É o lar de planetas anões como Plutão, Haumea e Makemake, e a fonte de muitos cometas de curto período." },
+              { "text": "A cauda de poeira de um cometa.", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "O anel principal de Saturno.", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "Qual o nome da lei formulada por Kepler que descreve as órbitas planetárias como elipses?",
+          "options": [
+              { "text": "Lei da Gravitação Universal", "isCorrect": false, "explanation": "Incorreto. Formulada por Newton, descreve a força da gravidade." },
+              { "text": "Primeira Lei de Kepler (Lei das Órbitas)", "isCorrect": true, "explanation": "Correto! Afirma que os planetas se movem em órbitas elípticas com o Sol em um dos focos." },
+              { "text": "Segunda Lei de Kepler (Lei das Áreas)", "isCorrect": false, "explanation": "Incorreto. Descreve que a linha Sol-planeta varre áreas iguais em tempos iguais." },
+              { "text": "Terceira Lei de Kepler (Lei dos Períodos)", "isCorrect": false, "explanation": "Incorreto. Relaciona o período orbital ao semieixo maior da órbita." }
+          ]
+      },
+      {
+          "question": "Qual planeta tem um campo magnético significativamente inclinado em relação ao seu eixo de rotação?",
+          "options": [
+              { "text": "Terra", "isCorrect": false, "explanation": "Incorreto. O campo magnético da Terra é inclinado cerca de 11 graus em relação ao eixo de rotação." },
+              { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. O campo de Júpiter é muito forte e inclinado cerca de 10 graus." },
+              { "text": "Urano e Netuno", "isCorrect": true, "explanation": "Correto! Ambos os gigantes de gelo têm campos magnéticos muito inclinados (cerca de 60° para Urano e 47° para Netuno) e deslocados do centro." },
+              { "text": "Marte", "isCorrect": false, "explanation": "Incorreto. Marte não possui um campo magnético global significativo hoje." }
+          ]
+      },
+      {
+          "question": "O que é o Albedo de um corpo celeste?",
+          "options": [
+              { "text": "Sua temperatura superficial média.", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "A medida de quanto ele reflete a luz solar.", "isCorrect": true, "explanation": "Correto! Um albedo alto (perto de 1) significa que reflete muita luz (ex: Encélado), enquanto um albedo baixo (perto de 0) significa que absorve muita luz (ex: asfalto)." },
+              { "text": "Sua composição química principal.", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Sua velocidade orbital.", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "Qual o nome da missão que enviou as sondas gêmeas Voyager 1 e 2?",
+          "options": [
+              { "text": "Programa Pioneer", "isCorrect": false, "explanation": "Incorreto. Lançou as Pioneer 10 e 11." },
+              { "text": "Programa Mariner", "isCorrect": false, "explanation": "Incorreto. Explorou Mercúrio, Vênus e Marte." },
+              { "text": "Programa Voyager", "isCorrect": true, "explanation": "Correto! Lançadas em 1977, as Voyagers exploraram os planetas externos e continuam viajando pelo espaço interestelar, carregando o 'Golden Record'." },
+              { "text": "Programa Apollo", "isCorrect": false, "explanation": "Incorreto. Focado na exploração lunar tripulada." }
+          ]
+      },
+      {
+          "question": "Qual planeta tem como característica marcante a 'Hexágono Polar Norte'?",
+          "options": [
+              { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. Júpiter tem a Grande Mancha Vermelha." },
+              { "text": "Saturno", "isCorrect": true, "explanation": "Correto! Uma corrente de jato persistente no polo norte de Saturno forma um incrível padrão hexagonal nas nuvens." },
+              { "text": "Urano", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Netuno", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "O que é um Pulsar?",
+          "options": [
+              { "text": "Uma estrela que pulsa em brilho variável.", "isCorrect": false, "explanation": "Incorreto. Isso descreve uma estrela variável como uma Cefeida." },
+              { "text": "Uma estrela de nêutrons em rotação rápida que emite feixes de radiação.", "isCorrect": true, "explanation": "Correto! Se os feixes varrem a Terra, detectamos pulsos regulares de radiação, como um farol cósmico." },
+              { "text": "Um tipo de buraco negro pequeno.", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Uma galáxia com núcleo ativo.", "isCorrect": false, "explanation": "Incorreto. Isso seria um Quasar ou AGN." }
+          ]
+      },
+      {
+        "question": "Qual é a principal fonte de energia do Sol?",
+        "options": [
+          { "text": "Queima de hidrogênio (combustão química).", "isCorrect": false, "explanation": "Incorreto. A combustão química não geraria energia suficiente por tanto tempo." },
+          { "text": "Fissão nuclear.", "isCorrect": false, "explanation": "Incorreto. Fissão é a quebra de núcleos pesados, usada em reatores nucleares." },
+          { "text": "Fusão nuclear de hidrogênio em hélio.", "isCorrect": true, "explanation": "Correto! No núcleo solar, a imensa pressão e temperatura fundem átomos de hidrogênio, liberando energia (luz e calor)." },
+          { "text": "Contração gravitacional.", "isCorrect": false, "explanation": "Incorreto. Foi uma fonte de energia importante no início da formação do Sol, mas a fusão domina agora." }
+        ]
+      },
+      {
+        "question": "Qual planeta é conhecido por ter estações do ano bem definidas, como a Terra, devido à inclinação similar de seu eixo?",
+        "options": [
+          { "text": "Mercúrio", "isCorrect": false, "explanation": "Incorreto. Mercúrio tem inclinação quase zero." },
+          { "text": "Vênus", "isCorrect": false, "explanation": "Incorreto. Vênus tem inclinação muito pequena (e rotação retrógrada)." },
+          { "text": "Marte", "isCorrect": true, "explanation": "Correto! Com inclinação de cerca de 25 graus (Terra ~23.5°), Marte experimenta estações, visíveis no crescimento e retração das calotas polares." },
+          { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. Júpiter tem inclinação muito pequena." }
+        ]
+      },
+      {
+        "question": "O que é o Efeito Doppler na astronomia?",
+        "options": [
+          { "text": "A mudança na cor de uma estrela devido à sua temperatura.", "isCorrect": false, "explanation": "Incorreto. A cor está relacionada à temperatura (Lei de Wien)." },
+          { "text": "A mudança na frequência (ou comprimento de onda) da luz de um objeto devido ao seu movimento em relação ao observador.", "isCorrect": true, "explanation": "Correto! Objetos se afastando têm 'redshift' (luz desviada para o vermelho), objetos se aproximando têm 'blueshift' (luz desviada para o azul)." },
+          { "text": "A distorção da luz pela gravidade (lente gravitacional).", "isCorrect": false, "explanation": "Incorreto. Isso é previsto pela Relatividade Geral." },
+          { "text": "A diminuição do brilho de uma estrela quando um planeta passa na frente.", "isCorrect": false, "explanation": "Incorreto. Esse é o método de trânsito para detectar exoplanetas." }
+        ]
+      },
+      {
+        "question": "Qual o nome da cratera de impacto na Península de Yucatán (México) associada à extinção dos dinossauros?",
+        "options": [
+          { "text": "Cratera de Barringer (Arizona, EUA)", "isCorrect": false, "explanation": "Incorreto. Cratera de impacto relativamente recente e bem preservada." },
+          { "text": "Cratera de Vredefort (África do Sul)", "isCorrect": false, "explanation": "Incorreto. Maior estrutura de impacto conhecida na Terra, mas muito mais antiga." },
+          { "text": "Cratera de Chicxulub", "isCorrect": true, "explanation": "Correto! Formada há 66 milhões de anos, o impacto massivo é a principal causa apontada para a extinção em massa K-Pg." },
+          { "text": "Cratera Manicouagan (Canadá)", "isCorrect": false, "explanation": "Incorreto. Grande e antiga cratera de impacto visível do espaço." }
+        ]
+      },
+      {
+        "question": "Qual é a idade estimada do Sistema Solar?",
+        "options": [
+          { "text": "Cerca de 6.000 anos", "isCorrect": false, "explanation": "Incorreto. Escala de tempo associada a interpretações literais religiosas." },
+          { "text": "Cerca de 1 milhão de anos", "isCorrect": false, "explanation": "Incorreto. Muito recente." },
+          { "text": "Cerca de 4,6 bilhões de anos", "isCorrect": true, "explanation": "Correto! Estimativa baseada na datação radiométrica de meteoritos e rochas lunares e terrestres." },
+          { "text": "Cerca de 13,8 bilhões de anos", "isCorrect": false, "explanation": "Incorreto. Esta é a idade estimada do Universo." }
+        ]
+      },
+      {
+        "question": "O que significa a sigla NASA?",
+        "options": [
+          { "text": "National Association of Space Astronauts", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "North American Space Agency", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "National Aeronautics and Space Administration", "isCorrect": true, "explanation": "Correto! É a agência espacial civil do governo dos Estados Unidos, responsável por programas espaciais e pesquisa aeronáutica." },
+          { "text": "Nuclear And Space Association", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual planeta tem a maior montanha (considerando a altura da base ao pico)?",
+        "options": [
+          { "text": "Terra (Monte Everest)", "isCorrect": false, "explanation": "Incorreto. Everest é o mais alto acima do nível do mar, mas Mauna Kea é mais alto da base ao pico." },
+          { "text": "Marte (Olympus Mons)", "isCorrect": true, "explanation": "Correto! Olympus Mons tem cerca de 22 km de altura total, superando qualquer montanha terrestre." },
+          { "text": "Vênus (Maxwell Montes)", "isCorrect": false, "explanation": "Incorreto. Maxwell Montes é a região mais alta de Vênus, mas menor que Olympus Mons." },
+          { "text": "Io (Boösaule Montes)", "isCorrect": false, "explanation": "Incorreto. Io tem montanhas altas, mas Olympus Mons é maior." }
+        ]
+      },
+      {
+        "question": "O que é um Quasar?",
+        "options": [
+          { "text": "Um tipo de estrela pulsante.", "isCorrect": false, "explanation": "Incorreto. Isso é um Pulsar." },
+          { "text": "Um núcleo galáctico ativo extremamente luminoso e distante.", "isCorrect": true, "explanation": "Correto! Acredita-se que sejam alimentados por buracos negros supermassivos no centro de galáxias jovens." },
+          { "text": "Uma nebulosa planetária.", "isCorrect": false, "explanation": "Incorreto. É a casca de gás ejetada por uma estrela moribunda." },
+          { "text": "Um aglomerado de estrelas jovens.", "isCorrect": false, "explanation": "Incorreto. Isso é um aglomerado aberto." }
+        ]
+      },
+       {
+          "question": "Qual o nome do cinturão de radiação que circunda a Terra, formado por partículas carregadas presas pelo campo magnético?",
+          "options": [
+              { "text": "Cinturão de Asteroides", "isCorrect": false, "explanation": "Incorreto. Região de asteroides entre Marte e Júpiter." },
+              { "text": "Cinturão de Kuiper", "isCorrect": false, "explanation": "Incorreto. Região de corpos gelados além de Netuno." },
+              { "text": "Cinturões de Van Allen", "isCorrect": true, "explanation": "Correto! Descobertos por James Van Allen, são zonas de partículas energéticas (prótons e elétrons) aprisionadas pela magnetosfera terrestre." },
+              { "text": "Anéis Planetários", "isCorrect": false, "explanation": "Incorreto. São discos de poeira e gelo orbitando planetas como Saturno." }
+          ]
+      },
+      {
+          "question": "Qual planeta, além da Terra, tem evidências mais fortes de ter tido água líquida em sua superfície no passado?",
+          "options": [
+              { "text": "Mercúrio", "isCorrect": false, "explanation": "Incorreto. Muito quente e sem atmosfera significativa." },
+              { "text": "Vênus", "isCorrect": false, "explanation": "Incorreto. Embora possa ter tido oceanos muito cedo, hoje é extremamente quente e seco." },
+              { "text": "Marte", "isCorrect": true, "explanation": "Correto! Missões espaciais encontraram formações geológicas (leitos de rios, deltas) e minerais que indicam a presença passada de água líquida abundante." },
+              { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. Júpiter é um gigante gasoso sem superfície sólida definida." }
+          ]
+      },
+      {
+          "question": "O que são 'Planetas Órfãos' ou 'Planetas Errantes'?",
+          "options": [
+              { "text": "Planetas que foram ejetados de seus sistemas estelares.", "isCorrect": true, "explanation": "Correto! São objetos de massa planetária que não orbitam uma estrela, vagando livremente pela galáxia." },
+              { "text": "Luas que se separaram de seus planetas.", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Asteroides muito grandes.", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Planetas em sistemas estelares binários.", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "Qual o nome da teoria que propõe que o universo é apenas um entre muitos universos possíveis?",
+          "options": [
+              { "text": "Teoria do Estado Estacionário", "isCorrect": false, "explanation": "Incorreto. Teoria antiga (hoje desacreditada) que propunha um universo eterno e imutável em larga escala." },
+              { "text": "Teoria do Multiverso", "isCorrect": true, "explanation": "Correto! Conceito hipotético (derivado de algumas teorias como inflação cósmica e teoria das cordas) onde nosso universo seria parte de um conjunto maior de universos." },
+              { "text": "Teoria do Big Crunch", "isCorrect": false, "explanation": "Incorreto. Hipótese (hoje menos provável) de que o universo pararia de expandir e começaria a contrair." },
+              { "text": "Teoria da Panspermia", "isCorrect": false, "explanation": "Incorreto. Hipótese de que a vida se espalha pelo universo através de microrganismos em meteoroides, etc." }
+          ]
+      },
+      {
+          "question": "Qual a lua de Saturno que possui uma gigantesca cratera de impacto, lembrando a 'Estrela da Morte'?",
+          "options": [
+              { "text": "Titã", "isCorrect": false, "explanation": "Incorreto. Titã é conhecida pela atmosfera e lagos de metano." },
+              { "text": "Reia", "isCorrect": false, "explanation": "Incorreto. Segunda maior lua de Saturno." },
+              { "text": "Jápeto", "isCorrect": false, "explanation": "Incorreto. Jápeto é famosa por ter um hemisfério claro e outro escuro." },
+              { "text": "Mimas", "isCorrect": true, "explanation": "Correto! A cratera Herschel em Mimas tem cerca de 130 km de diâmetro, quase um terço do diâmetro da própria lua." }
+          ]
+      },
+      {
+          "question": "Qual o nome do ponto no céu diretamente acima do observador?",
+          "options": [
+              { "text": "Nadir", "isCorrect": false, "explanation": "Incorreto. Nadir é o ponto diretamente abaixo do observador, oposto ao zênite." },
+              { "text": "Horizonte", "isCorrect": false, "explanation": "Incorreto. É a linha que separa o céu da terra/mar." },
+              { "text": "Zênite", "isCorrect": true, "explanation": "Correto! É o ponto mais alto da esfera celeste, a 90 graus do horizonte." },
+              { "text": "Meridiano", "isCorrect": false, "explanation": "Incorreto. É o círculo máximo que passa pelos polos celestes e pelo zênite." }
+          ]
+      },
+      {
+          "question": "Qual planeta tem um campo magnético mais forte?",
+          "options": [
+              { "text": "Terra", "isCorrect": false, "explanation": "Incorreto. O campo magnético terrestre nos protege do vento solar." },
+              { "text": "Marte", "isCorrect": false, "explanation": "Incorreto. Marte perdeu seu campo magnético global." },
+              { "text": "Júpiter", "isCorrect": true, "explanation": "Correto! O campo magnético de Júpiter é quase 20.000 vezes mais forte que o da Terra, criando uma enorme magnetosfera." },
+              { "text": "Vênus", "isCorrect": false, "explanation": "Incorreto. Vênus tem um campo magnético induzido muito fraco." }
+          ]
+      },
+      {
+          "question": "O que é a 'Matéria Escura'?",
+          "options": [
+              { "text": "Nuvens de poeira que bloqueiam a luz.", "isCorrect": false, "explanation": "Incorreto. Isso são nebulosas escuras." },
+              { "text": "Uma forma hipotética de matéria que não interage com a luz, detectada por seus efeitos gravitacionais.", "isCorrect": true, "explanation": "Correto! Compõe a maior parte da matéria do universo, mas sua natureza exata ainda é um mistério." },
+              { "text": "Buracos negros.", "isCorrect": false, "explanation": "Incorreto. Buracos negros são feitos de matéria comum colapsada, embora não emitam luz." },
+              { "text": "Antimatéria.", "isCorrect": false, "explanation": "Incorreto. Antimatéria é matéria com carga oposta, que aniquila a matéria comum." }
+          ]
+      },
+      {
+          "question": "Qual a lua de Urano nomeada em homenagem a uma rainha das fadas da obra de Shakespeare?",
+          "options": [
+              { "text": "Miranda", "isCorrect": false, "explanation": "Incorreto. Miranda é personagem de 'A Tempestade'." },
+              { "text": "Ariel", "isCorrect": false, "explanation": "Incorreto. Ariel é um espírito do ar em 'A Tempestade'." },
+              { "text": "Titânia", "isCorrect": true, "explanation": "Correto! Titânia, a maior lua de Urano, leva o nome da rainha das fadas em 'Sonho de uma Noite de Verão'." },
+              { "text": "Oberon", "isCorrect": false, "explanation": "Incorreto. Oberon, a segunda maior lua, é o rei das fadas na mesma peça." }
+          ]
+      },
+      {
+          "question": "Qual a estrutura em forma de anel que sobrou da explosão de uma estrela como o Sol?",
+          "options": [
+              { "text": "Aglomerado globular", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Nebulosa de emissão", "isCorrect": false, "explanation": "Incorreto. Nuvens de gás ionizado brilhante." },
+              { "text": "Nebulosa planetária", "isCorrect": true, "explanation": "Correto! Apesar do nome, não tem relação com planetas. É a casca de gás ejetada por uma estrela de baixa/média massa em sua fase final, iluminada pela anã branca central." },
+              { "text": "Remanescente de supernova", "isCorrect": false, "explanation": "Incorreto. Nuvem de gás em expansão resultante da explosão de uma estrela massiva." }
+          ]
+      },
+       {
+          "question": "Qual o nome do efeito que faz a frequência de uma onda (como luz ou som) mudar quando a fonte e o observador se movem um em relação ao outro?",
+          "options": [
+              { "text": "Efeito Estufa", "isCorrect": false, "explanation": "Incorreto. Aquecimento de um planeta devido à retenção de calor pela atmosfera." },
+              { "text": "Efeito Coriolis", "isCorrect": false, "explanation": "Incorreto. Influência da rotação da Terra no movimento de fluidos (ar, água)." },
+              { "text": "Efeito Doppler", "isCorrect": true, "explanation": "Correto! Usado em astronomia (redshift/blueshift) e em radares, sonares, etc." },
+              { "text": "Efeito Fotoelétrico", "isCorrect": false, "explanation": "Incorreto. Emissão de elétrons quando a luz atinge um material." }
+          ]
+      },
+      {
+          "question": "Qual planeta anão tem a órbita mais excêntrica e inclinada entre os conhecidos?",
+          "options": [
+              { "text": "Plutão", "isCorrect": false, "explanation": "Incorreto. Plutão tem órbita excêntrica e inclinada, mas Eris supera." },
+              { "text": "Ceres", "isCorrect": false, "explanation": "Incorreto. Ceres tem órbita quase circular no Cinturão de Asteroides." },
+              { "text": "Haumea", "isCorrect": false, "explanation": "Incorreto. Haumea tem órbita moderadamente excêntrica e inclinada." },
+              { "text": "Eris", "isCorrect": true, "explanation": "Correto! Eris tem uma órbita muito alongada (grande excentricidade) e bastante inclinada em relação ao plano do Sistema Solar." }
+          ]
+      },
+      {
+          "question": "O que é um Exocometas?",
+          "options": [
+              { "text": "Cometas que se chocaram com a Terra.", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Cometas localizados fora do Sistema Solar, orbitando outras estrelas.", "isCorrect": true, "explanation": "Correto! Assim como exoplanetas, exocometas são cometas detectados em outros sistemas estelares." },
+              { "text": "Cometas que vêm da Nuvem de Oort.", "isCorrect": false, "explanation": "Incorreto. São cometas do nosso Sistema Solar." },
+              { "text": "Asteroides com cauda.", "isCorrect": false, "explanation": "Incorreto. Alguns asteroides podem exibir atividade cometária, mas exocometa se refere a sistemas externos." }
+          ]
+      },
+      {
+          "question": "Qual a missão espacial que atualmente orbita Júpiter para estudar sua atmosfera, campo magnético e interior?",
+          "options": [
+              { "text": "Galileo", "isCorrect": false, "explanation": "Incorreto. A missão Galileo terminou em 2003." },
+              { "text": "Voyager 1", "isCorrect": false, "explanation": "Incorreto. Fez um sobrevoo em 1979." },
+              { "text": "Juno", "isCorrect": true, "explanation": "Correto! Lançada em 2011, a sonda Juno da NASA chegou a Júpiter em 2016 e realiza órbitas polares elípticas." },
+              { "text": "Cassini", "isCorrect": false, "explanation": "Incorreto. Orbitou Saturno." }
+          ]
+      },
+      {
+          "question": "Onde está localizada a Nebulosa de Órion?",
+          "options": [
+              { "text": "Na galáxia de Andrômeda.", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Na constelação de Órion, abaixo do cinturão ('As Três Marias').", "isCorrect": true, "explanation": "Correto! É uma das nebulosas mais brilhantes e um berçário estelar ativo, visível a olho nu como uma mancha na 'espada' de Órion." },
+              { "text": "Perto do centro da Via Láctea.", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Na Grande Nuvem de Magalhães.", "isCorrect": false, "explanation": "Incorreto. A Nebulosa da Tarântula fica lá." }
+          ]
+      },
+      {
+          "question": "Qual planeta tem a maior obliquidade (inclinação axial)?",
+          "options": [
+              { "text": "Terra", "isCorrect": false, "explanation": "Incorreto. Cerca de 23,5 graus." },
+              { "text": "Marte", "isCorrect": false, "explanation": "Incorreto. Cerca de 25 graus." },
+              { "text": "Saturno", "isCorrect": false, "explanation": "Incorreto. Cerca de 27 graus." },
+              { "text": "Urano", "isCorrect": true, "explanation": "Correto! Com cerca de 98 graus, Urano gira praticamente 'deitado'." }
+          ]
+      },
+      {
+          "question": "O que é um 'Gigante Vermelho' na evolução estelar?",
+          "options": [
+              { "text": "Uma estrela muito jovem e quente.", "isCorrect": false, "explanation": "Incorreto. Estrelas jovens e quentes são geralmente azuis." },
+              { "text": "A fase final de uma estrela massiva antes de explodir.", "isCorrect": false, "explanation": "Incorreto. Estrelas massivas podem se tornar supergigantes vermelhas." },
+              { "text": "Uma fase tardia na vida de estrelas como o Sol, quando se expandem e esfriam.", "isCorrect": true, "explanation": "Correto! Após esgotar o hidrogênio no núcleo, a estrela começa a fundir hidrogênio em uma camada externa, expandindo-se enormemente." },
+              { "text": "Um tipo de planeta gasoso muito grande.", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "Qual o nome da primeira sonda a pousar suavemente em outro planeta (Vênus)?",
+          "options": [
+              { "text": "Mariner 2 (EUA)", "isCorrect": false, "explanation": "Incorreto. Mariner 2 fez o primeiro sobrevoo bem-sucedido de Vênus em 1962." },
+              { "text": "Venera 7 (URSS)", "isCorrect": true, "explanation": "Correto! Em 1970, a Venera 7 tornou-se a primeira sonda a pousar em outro planeta e transmitir dados da superfície." },
+              { "text": "Pioneer Venus Orbiter (EUA)", "isCorrect": false, "explanation": "Incorreto. Orbitou Vênus nos anos 70 e 80." },
+              { "text": "Magellan (EUA)", "isCorrect": false, "explanation": "Incorreto. Mapeou a superfície de Vênus com radar nos anos 90." }
+          ]
+      },
+      {
+          "question": "Qual a lua de Júpiter que pode ter um oceano de água líquida sob sua crosta de gelo?",
+          "options": [
+              { "text": "Io", "isCorrect": false, "explanation": "Incorreto. Io é vulcânica e quente internamente." },
+              { "text": "Europa", "isCorrect": true, "explanation": "Correto! Evidências magnéticas e geológicas sugerem um vasto oceano salgado sob a camada de gelo de Europa, tornando-a um alvo principal na busca por vida." },
+              { "text": "Ganimedes", "isCorrect": false, "explanation": "Incorreto. Ganimedes também pode ter um oceano, mas Europa tem evidências mais fortes e acessíveis." },
+              { "text": "Calisto", "isCorrect": false, "explanation": "Incorreto. Calisto é a menos geologicamente ativa das luas galileanas." }
+          ]
+      },
+      {
+          "question": "O que é a 'Linha de Kármán'?",
+          "options": [
+              { "text": "A órbita geoestacionária.", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "A fronteira convencionalmente aceita entre a atmosfera terrestre e o espaço sideral.", "isCorrect": true, "explanation": "Correto! Geralmente definida a 100 km acima do nível do mar, embora não seja uma fronteira física abrupta." },
+              { "text": "O limite da heliosfera (influência do Sol).", "isCorrect": false, "explanation": "Incorreto. Esse limite é a heliopausa." },
+              { "text": "A distância máxima que um cometa pode se afastar do Sol.", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+       {
+          "question": "Qual o nome da constelação que contém a estrela Polar (Polaris)?",
+          "options": [
+              { "text": "Ursa Maior", "isCorrect": false, "explanation": "Incorreto. A Ursa Maior ajuda a localizar Polaris, mas não a contém." },
+              { "text": "Ursa Menor", "isCorrect": true, "explanation": "Correto! Polaris é a estrela mais brilhante da Ursa Menor e fica muito próxima ao polo norte celeste." },
+              { "text": "Órion", "isCorrect": false, "explanation": "Incorreto. Constelação proeminente no equador celeste." },
+              { "text": "Cassiopeia", "isCorrect": false, "explanation": "Incorreto. Constelação em forma de 'W' ou 'M' no céu do norte." }
+          ]
+      },
+      {
+          "question": "Qual a principal diferença entre um planeta e uma estrela?",
+          "options": [
+              { "text": "Planetas são rochosos e estrelas são gasosas.", "isCorrect": false, "explanation": "Incorreto. Existem planetas gasosos (Júpiter, Saturno) e estrelas em fases finais que não são gasosas (anãs brancas)." },
+              { "text": "Estrelas realizam fusão nuclear em seu núcleo, planetas não.", "isCorrect": true, "explanation": "Correto! A fusão nuclear é o que define uma estrela, gerando sua própria luz e calor. Planetas brilham refletindo a luz de sua estrela." },
+              { "text": "Planetas têm luas, estrelas não.", "isCorrect": false, "explanation": "Incorreto. Muitos planetas têm luas; estrelas podem ter planetas orbitando-as." },
+              { "text": "Estrelas são muito maiores que planetas.", "isCorrect": false, "explanation": "Incorreto. Embora geralmente verdade, existem anãs marrons (objetos intermediários) e anãs brancas (restos de estrelas) menores que alguns planetas." }
+          ]
+      },
+      {
+          "question": "O que causa as marés na Terra?",
+          "options": [
+              { "text": "A rotação da Terra.", "isCorrect": false, "explanation": "Incorreto. A rotação influencia a dinâmica das marés, mas não é a causa primária." },
+              { "text": "Os ventos soprando sobre os oceanos.", "isCorrect": false, "explanation": "Incorreto. Ventos causam ondas, não as marés principais." },
+              { "text": "A atração gravitacional da Lua e, em menor grau, do Sol.", "isCorrect": true, "explanation": "Correto! A diferença na atração gravitacional da Lua (e Sol) sobre diferentes partes da Terra cria 'bojos' de água nos oceanos." },
+              { "text": "O campo magnético da Terra.", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "Qual planeta tem o maior número de vulcões ativos conhecidos?",
+          "options": [
+              { "text": "Terra", "isCorrect": true, "explanation": "Correto! Devido à sua atividade tectônica e ponto quente, a Terra possui centenas de vulcões ativos." },
+              { "text": "Marte", "isCorrect": false, "explanation": "Incorreto. Marte tem vulcões gigantescos, mas são considerados extintos ou adormecidos." },
+              { "text": "Vênus", "isCorrect": false, "explanation": "Incorreto. Vênus tem muitos vulcões, e pode haver atividade recente, mas Io (lua de Júpiter) é mais ativa." },
+              { "text": "Io (lua de Júpiter)", "isCorrect": false, "explanation": "Incorreto. Io é o corpo mais vulcanicamente ativo, mas a pergunta é sobre planetas." }
+          ]
+      },
+      {
+          "question": "Qual a ordem das camadas internas da Terra, do centro para a superfície?",
+          "options": [
+              { "text": "Crosta, Manto, Núcleo Externo, Núcleo Interno", "isCorrect": false, "explanation": "Incorreto. Ordem inversa." },
+              { "text": "Núcleo Interno, Núcleo Externo, Manto, Crosta", "isCorrect": true, "explanation": "Correto! Núcleo Interno (sólido), Núcleo Externo (líquido), Manto (semi-sólido), Crosta (sólida e fina)." },
+              { "text": "Manto, Núcleo Interno, Crosta, Núcleo Externo", "isCorrect": false, "explanation": "Incorreto. Ordem misturada." },
+              { "text": "Núcleo Externo, Manto, Núcleo Interno, Crosta", "isCorrect": false, "explanation": "Incorreto. Ordem misturada." }
+          ]
+      },
+      {
+          "question": "Qual evento marca o início e o fim de um dia solar médio na Terra?",
+          "options": [
+              { "text": "O nascer e o pôr do Sol.", "isCorrect": false, "explanation": "Incorreto. Define o período de luz do dia." },
+              { "text": "Duas passagens consecutivas do Sol pelo meridiano local (meio-dia).", "isCorrect": true, "explanation": "Correto! O dia solar médio tem 24 horas e é baseado na posição aparente do Sol." },
+              { "text": "Duas passagens consecutivas da Lua pelo meridiano local.", "isCorrect": false, "explanation": "Incorreto. Isso definiria um dia lunar." },
+              { "text": "O tempo de uma rotação completa da Terra em relação às estrelas (dia sideral).", "isCorrect": false, "explanation": "Incorreto. O dia sideral é um pouco mais curto (aprox. 23h 56min)." }
+          ]
+      },
+      {
+          "question": "Qual o nome da 'sopa' primordial de partículas que existia logo após o Big Bang?",
+          "options": [
+              { "text": "Plasma de quarks e glúons", "isCorrect": true, "explanation": "Correto! Nos primeiros microssegundos, o universo era tão quente e denso que quarks e glúons existiam livremente antes de formarem prótons e nêutrons." },
+              { "text": "Gás de hidrogênio neutro", "isCorrect": false, "explanation": "Incorreto. Formou-se mais tarde, quando o universo esfriou." },
+              { "text": "Matéria escura", "isCorrect": false, "explanation": "Incorreto. A natureza da matéria escura ainda é desconhecida." },
+              { "text": "Radiação cósmica de fundo", "isCorrect": false, "explanation": "Incorreto. É a 'luz fóssil' do universo primitivo, liberada quando átomos neutros se formaram." }
+          ]
+      },
+      {
+          "question": "Qual o nome do processo pelo qual estrelas massivas criam elementos mais pesados que o ferro?",
+          "options": [
+              { "text": "Fusão nuclear (cadeia próton-próton ou ciclo CNO)", "isCorrect": false, "explanation": "Incorreto. Esses processos criam elementos até o ferro no núcleo das estrelas." },
+              { "text": "Captura de nêutrons (processo-s e processo-r)", "isCorrect": true, "explanation": "Correto! Em fases finais (gigantes vermelhas) ou explosões (supernovas), a captura de nêutrons pelos núcleos existentes forma elementos mais pesados." },
+              { "text": "Decaimento radioativo", "isCorrect": false, "explanation": "Incorreto. Transforma um elemento em outro, mas não cria elementos pesados em larga escala." },
+              { "text": "Fotodesintegração", "isCorrect": false, "explanation": "Incorreto. Quebra de núcleos por fótons de alta energia em supernovas." }
+          ]
+      },
+      {
+          "question": "Qual planeta tem como característica proeminente a Caloris Basin, uma enorme cratera de impacto?",
+          "options": [
+              { "text": "Lua", "isCorrect": false, "explanation": "Incorreto. A Lua tem muitas bacias de impacto, como a Mare Imbrium." },
+              { "text": "Marte", "isCorrect": false, "explanation": "Incorreto. Marte tem a bacia Hellas Planitia." },
+              { "text": "Mercúrio", "isCorrect": true, "explanation": "Correto! A Bacia Caloris é uma das maiores estruturas de impacto do Sistema Solar, com cerca de 1.550 km de diâmetro." },
+              { "text": "Vênus", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "O que é a 'Grande Bomba Tardia' (Late Heavy Bombardment)?",
+          "options": [
+              { "text": "A explosão do Big Bang.", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Um período hipotético (há cerca de 4,1 a 3,8 bilhões de anos) de intenso bombardeio de asteroides e cometas nos planetas internos.", "isCorrect": true, "explanation": "Correto! Evidências vêm da datação de crateras lunares, explicando a formação de muitas grandes bacias de impacto." },
+              { "text": "A formação da Lua.", "isCorrect": false, "explanation": "Incorreto. A hipótese dominante é a do grande impacto entre a Terra e Theia." },
+              { "text": "A extinção dos dinossauros.", "isCorrect": false, "explanation": "Incorreto. Causada pelo impacto de Chicxulub há 66 milhões de anos." }
+          ]
+      },
+       {
+          "question": "Qual a lua de Saturno que se parece com uma 'esponja espacial' devido à sua baixa densidade e superfície cheia de crateras?",
+          "options": [
+              { "text": "Mimas", "isCorrect": false, "explanation": "Incorreto. Mimas tem a cratera da 'Estrela da Morte'." },
+              { "text": "Encélado", "isCorrect": false, "explanation": "Incorreto. Encélado é brilhante e tem gêiseres." },
+              { "text": "Hipérion", "isCorrect": true, "explanation": "Correto! Hipérion tem uma forma irregular, rotação caótica e uma superfície porosa única." },
+              { "text": "Tétis", "isCorrect": false, "explanation": "Incorreto. Tétis possui um enorme vale chamado Ithaca Chasma." }
+          ]
+      },
+      {
+          "question": "Qual o nome do maior cânion submarino conhecido na Terra?",
+          "options": [
+              { "text": "Grand Canyon (EUA)", "isCorrect": false, "explanation": "Incorreto. É um cânion terrestre escavado pelo Rio Colorado." },
+              { "text": "Cânion Zhemchug (Mar de Bering)", "isCorrect": true, "explanation": "Correto! Localizado no Mar de Bering, é mais profundo e tem maior volume que o Grand Canyon." },
+              { "text": "Vale do Rift (África)", "isCorrect": false, "explanation": "Incorreto. É um sistema de fossas tectônicas continentais." },
+              { "text": "Valles Marineris (Marte)", "isCorrect": false, "explanation": "Incorreto. É um sistema de cânions em Marte." }
+          ]
+      },
+      {
+          "question": "O que é um Blazar?",
+          "options": [
+              { "text": "Um tipo de cometa muito rápido.", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Um quasar cujo jato relativístico está apontado diretamente para a Terra.", "isCorrect": true, "explanation": "Correto! Isso faz com que pareçam extremamente brilhantes e variáveis devido aos efeitos relativísticos do jato." },
+              { "text": "Uma estrela anã branca em explosão.", "isCorrect": false, "explanation": "Incorreto. Isso seria uma nova ou supernova tipo Ia." },
+              { "text": "Uma colisão de duas galáxias.", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "Qual planeta tem a atmosfera mais espessa?",
+          "options": [
+              { "text": "Terra", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Marte", "isCorrect": false, "explanation": "Incorreto. A atmosfera de Marte é muito tênue." },
+              { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. A atmosfera de Júpiter é muito profunda, mas Vênus tem maior pressão superficial." },
+              { "text": "Vênus", "isCorrect": true, "explanation": "Correto! A pressão atmosférica na superfície de Vênus é mais de 90 vezes a da Terra." }
+          ]
+      },
+      {
+          "question": "O que é o 'Paradoxo de Fermi'?",
+          "options": [
+              { "text": "A contradição entre a alta probabilidade de existência de vida extraterrestre e a falta de evidências observacionais.", "isCorrect": true, "explanation": "Correto! Questiona 'Onde estão todos?', dada a vastidão do universo e o tempo para civilizações evoluírem." },
+              { "text": "O problema de por que o céu noturno é escuro (Paradoxo de Olbers).", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "A dificuldade em unificar a relatividade geral e a mecânica quântica.", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "A questão de como a vida surgiu na Terra.", "isCorrect": false, "explanation": "Incorreto. Isso é o problema da abiogênese." }
+          ]
+      },
+      {
+          "question": "Qual o nome da unidade de medida de distância equivalente a 3,26 anos-luz?",
+          "options": [
+              { "text": "Unidade Astronômica (UA)", "isCorrect": false, "explanation": "Incorreto. Distância Terra-Sol." },
+              { "text": "Ano-luz", "isCorrect": false, "explanation": "Incorreto. Distância percorrida pela luz em um ano." },
+              { "text": "Parsec (pc)", "isCorrect": true, "explanation": "Correto! Definido pela paralaxe estelar, é comumente usado em astronomia profissional (1 pc ≈ 3.26 ly)." },
+              { "text": "Quilômetro (km)", "isCorrect": false, "explanation": "Incorreto. Unidade terrestre, muito pequena para distâncias astronômicas." }
+          ]
+      },
+       {
+          "question": "Qual é o menor planeta do Sistema Solar?",
+          "options": [
+              { "text": "Marte", "isCorrect": false, "explanation": "Incorreto. Marte é o segundo menor." },
+              { "text": "Vênus", "isCorrect": false, "explanation": "Incorreto. Vênus é similar em tamanho à Terra." },
+              { "text": "Terra", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Mercúrio", "isCorrect": true, "explanation": "Correto! Mercúrio é o menor dos oito planetas, ligeiramente maior que a nossa Lua." }
+          ]
+      },
+      {
+          "question": "O que é um Asteroide Troiano?",
+          "options": [
+              { "text": "Um asteroide que cruza a órbita da Terra.", "isCorrect": false, "explanation": "Incorreto. Esses são Asteroides Próximos da Terra (NEAs)." },
+              { "text": "Um asteroide que compartilha a órbita de um planeta, permanecendo em pontos gravitacionalmente estáveis (Pontos de Lagrange L4 ou L5).", "isCorrect": true, "explanation": "Correto! Júpiter possui os maiores grupos conhecidos de asteroides troianos." },
+              { "text": "Um asteroide com formato muito irregular.", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Um asteroide que se originou fora do Sistema Solar.", "isCorrect": false, "explanation": "Incorreto. Objetos interestelares como 'Oumuamua." }
+          ]
+      },
+      {
+          "question": "Qual planeta tem o dia (rotação) e o ano (órbita) com durações mais próximas?",
+          "options": [
+              { "text": "Mercúrio", "isCorrect": false, "explanation": "Incorreto. Dia longo (59d), ano curto (88d)." },
+              { "text": "Vênus", "isCorrect": true, "explanation": "Correto! O dia de Vênus (243 dias terrestres) é ligeiramente mais longo que seu ano (225 dias terrestres)." },
+              { "text": "Terra", "isCorrect": false, "explanation": "Incorreto. Dia de 24h, ano de 365 dias." },
+              { "text": "Marte", "isCorrect": false, "explanation": "Incorreto. Dia similar à Terra, ano quase o dobro (687 dias)." }
+          ]
+      },
+      {
+          "question": "Qual o nome do processo que causa o brilho das estrelas?",
+          "options": [
+              { "text": "Combustão", "isCorrect": false, "explanation": "Incorreto. Não há oxigênio suficiente para queima química." },
+              { "text": "Reflexão da luz solar", "isCorrect": false, "explanation": "Incorreto. Planetas refletem luz, estrelas produzem a sua." },
+              { "text": "Fusão Nuclear", "isCorrect": true, "explanation": "Correto! A conversão de hidrogênio em hélio (e elementos mais pesados) no núcleo libera enormes quantidades de energia." },
+              { "text": "Fissão Nuclear", "isCorrect": false, "explanation": "Incorreto. Ocorre em reatores e armas nucleares na Terra." }
+          ]
+      },
+      {
+          "question": "Qual destes não é um planeta anão reconhecido pela União Astronômica Internacional?",
+          "options": [
+              { "text": "Plutão", "isCorrect": false, "explanation": "Incorreto. Plutão é o planeta anão mais famoso." },
+              { "text": "Ceres", "isCorrect": false, "explanation": "Incorreto. Ceres é um planeta anão no Cinturão de Asteroides." },
+              { "text": "Sedna", "isCorrect": true, "explanation": "Correto! Sedna é um objeto transnetuniano distante e candidato a planeta anão, mas ainda não classificado oficialmente como tal." },
+              { "text": "Makemake", "isCorrect": false, "explanation": "Incorreto. Makemake é um planeta anão reconhecido no Cinturão de Kuiper." }
+          ]
+      },
+      {
+          "question": "Qual o nome da missão que levou o rover Perseverance a Marte em 2021?",
+          "options": [
+              { "text": "Mars Pathfinder", "isCorrect": false, "explanation": "Incorreto. Missão de 1997." },
+              { "text": "Mars 2020", "isCorrect": true, "explanation": "Correto! A missão Mars 2020 incluiu o rover Perseverance e o helicóptero Ingenuity." },
+              { "text": "ExoMars", "isCorrect": false, "explanation": "Incorreto. Programa da ESA (Agência Espacial Europeia)." },
+              { "text": "InSight", "isCorrect": false, "explanation": "Incorreto. Sonda fixa que estudou o interior de Marte." }
+          ]
+      },
+      {
+          "question": "O que é a 'Radiação Cósmica de Fundo em Micro-ondas' (CMB)?",
+          "options": [
+              { "text": "Radiação emitida por buracos negros.", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "O brilho remanescente do Big Bang, permeando todo o universo.", "isCorrect": true, "explanation": "Correto! É a 'luz fóssil' de quando o universo se tornou transparente, cerca de 380.000 anos após o Big Bang." },
+              { "text": "Interferência de micro-ondas de satélites.", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Luz emitida por estrelas distantes.", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      }
+    ]
+  }

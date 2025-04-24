@@ -55,16 +55,10 @@
                 "description": "Questões gerais sobre Copa do Mundo FIFA."
             },
             {
-                "id": "copa_do_mundo_1930",
-                "name": "Copa do Mundo Fifa 1930",
-                "file": "copa_do_mundo/copa_do_mundo_1930.json",
-                "description": "Questões sobre a Copa do Mundo FIFA 1930."
-            },
-            {
-                "id": "copa_do_mundo_1934",
-                "name": "Copa do Mundo Fifa 1934",
-                "file": "copa_do_mundo/copa_do_mundo_1934.json",
-                "description": "Questões sobre a Copa do Mundo FIFA 1934."
+                "id": "copa_do_mundo_1930_1934_1938",
+                "name": "Copa do Mundo Fifa 1930, 1934 e 1938",
+                "file": "copa_do_mundo/copa_do_mundo_1930_1934_1938.json",
+                "description": "Questões sobre as Copas do Mundo FIFA 1930, 1934 e 1938."
             }
         ]
     },
@@ -84,6 +78,12 @@
                 "name": "Historia do Futebol Brasileiro",
                 "file": "historia/historia_do_futebol_brasileiro.json",
                 "description": "Questões sobre a História do Futebol Brasileiro."
+            },
+            {
+                "id": "historia_das_olimpiadas",
+                "name": "Historia das Olimpíadas",
+                "file": "historia/historia_das_olimpiadas.json",
+                "description": "Questões sobre a História das Olimpíadas."
             }
         ]
     }

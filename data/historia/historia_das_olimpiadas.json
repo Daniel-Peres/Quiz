@@ -1,0 +1,972 @@
+{
+    "config": {
+      "theme": "História das Olimpíadas",
+      "totalPoints": 1000,
+      "scoring": "points"
+    },
+    "data": [
+      {
+        "question": "Em que cidade da Grécia Antiga os Jogos Olímpicos originais eram realizados?",
+        "options": [
+          { "text": "Atenas", "isCorrect": false, "explanation": "Incorreto. Atenas, importante centro cultural e político, sediou os primeiros Jogos Modernos, mas os antigos ocorriam em Olímpia." },
+          { "text": "Esparta", "isCorrect": false, "explanation": "Incorreto. Esparta era a grande rival militar de Atenas, com foco na disciplina militar e não em grandes festivais religiosos como os Jogos." },
+          { "text": "Olímpia", "isCorrect": true, "explanation": "Correto! Os Jogos eram realizados no santuário de Olímpia, na região de Élida, em honra a Zeus. O local deu nome ao evento." },
+          { "text": "Delfos", "isCorrect": false, "explanation": "Incorreto. Delfos sediava os Jogos Píticos em honra a Apolo, famosos por competições musicais e poéticas além das atléticas." }
+        ]
+      },
+      {
+        "question": "Em homenagem a qual deus grego os Jogos Olímpicos antigos eram realizados?",
+        "options": [
+          { "text": "Apolo", "isCorrect": false, "explanation": "Incorreto. Apolo, deus da luz e das artes, era homenageado nos Jogos Píticos em Delfos." },
+          { "text": "Poseidon", "isCorrect": false, "explanation": "Incorreto. Poseidon, deus dos mares, era homenageado nos Jogos Ístmicos, perto de Corinto." },
+          { "text": "Zeus", "isCorrect": true, "explanation": "Correto! Os Jogos de Olímpia eram o mais prestigiado festival pan-helênico, dedicado a Zeus, o rei dos deuses do Olimpo." },
+          { "text": "Hades", "isCorrect": false, "explanation": "Incorreto. Hades era o deus do submundo, não associado a festivais atléticos." }
+        ]
+      },
+      {
+        "question": "Qual evento era a única competição nos primeiros Jogos Olímpicos registrados (776 a.C.)?",
+        "options": [
+          { "text": "Pancrácio", "isCorrect": false, "explanation": "Incorreto. O Pancrácio, uma luta brutal, foi introduzido bem depois." },
+          { "text": "Hoplitódromo", "isCorrect": false, "explanation": "Incorreto. Corrida com armadura de hoplita, introduzida posteriormente." },
+          { "text": "Stadion (Corrida)", "isCorrect": true, "explanation": "Correto! Uma corrida de aproximadamente 192,27 metros, a distância do estádio de Olímpia. O vencedor dava nome à Olimpíada." },
+          { "text": "Pentatlo", "isCorrect": false, "explanation": "Incorreto. O Pentatlo (salto, disco, dardo, corrida e luta) foi introduzido em 708 a.C." }
+        ]
+      },
+      {
+        "question": "O que era a 'Trégua Sagrada' (Ekecheiria) durante os Jogos Olímpicos antigos?",
+        "options": [
+          { "text": "Um juramento de não trapacear.", "isCorrect": false, "explanation": "Incorreto. Os atletas faziam juramentos, mas a trégua era mais ampla." },
+          { "text": "A proibição de competidores estrangeiros.", "isCorrect": false, "explanation": "Incorreto. Os Jogos eram pan-helênicos, abertos a gregos de várias cidades." },
+          { "text": "Uma suspensão de guerras para permitir a passagem segura de atletas e espectadores.", "isCorrect": true, "explanation": "Correto! A Ekecheiria garantia imunidade e livre passagem por territórios em conflito para todos que viajavam para Olímpia." },
+          { "text": "Um ritual religioso antes das competições.", "isCorrect": false, "explanation": "Incorreto. Havia muitos rituais, mas a trégua era um acordo político-religioso." }
+        ]
+      },
+      {
+        "question": "Qual imperador romano aboliu os Jogos Olímpicos antigos em 393 d.C., considerando-os um festival pagão?",
+        "options": [
+          { "text": "Nero", "isCorrect": false, "explanation": "Incorreto. Nero participou (e 'venceu') nos Jogos por volta de 67 d.C., mas não os aboliu." },
+          { "text": "Calígula", "isCorrect": false, "explanation": "Incorreto. Conhecido por sua excentricidade, mas não relacionado ao fim dos Jogos." },
+          { "text": "Constantino", "isCorrect": false, "explanation": "Incorreto. Constantino favoreceu o Cristianismo, mas a proibição veio depois." },
+          { "text": "Teodósio I", "isCorrect": true, "explanation": "Correto! Ao tornar o Cristianismo a religião oficial do Império Romano, Teodósio I suprimiu festivais e práticas pagãs, incluindo os Jogos de Olímpia." }
+        ]
+      },
+      {
+        "question": "Quem é considerado o 'pai' dos Jogos Olímpicos modernos, liderando sua restauração no final do século XIX?",
+        "options": [
+          { "text": "William Penny Brookes", "isCorrect": false, "explanation": "Incorreto. Brookes organizou os Jogos Olímpicos de Wenlock na Inglaterra, que serviram de inspiração para Coubertin." },
+          { "text": "Barão Pierre de Coubertin", "isCorrect": true, "explanation": "Correto! O pedagogo francês acreditava no poder do esporte para a educação e a paz, fundando o COI em 1894 e organizando os Jogos de 1896." },
+          { "text": "Demetrios Vikelas", "isCorrect": false, "explanation": "Incorreto. Vikelas foi um empresário e literato grego, escolhido como o primeiro presidente do COI (1894-1896)." },
+          { "text": "Thomas Edison", "isCorrect": false, "explanation": "Incorreto. Edison foi um grande inventor, sem ligação direta com a restauração dos Jogos." }
+        ]
+      },
+      {
+        "question": "Em que cidade e ano foram realizados os primeiros Jogos Olímpicos da Era Moderna?",
+        "options": [
+          { "text": "Paris, 1900", "isCorrect": false, "explanation": "Incorreto. Paris sediou os segundos Jogos, integrados à Exposição Universal." },
+          { "text": "Londres, 1908", "isCorrect": false, "explanation": "Incorreto. Londres sediou pela primeira vez em 1908." },
+          { "text": "Atenas, 1896", "isCorrect": true, "explanation": "Correto! Em homenagem à Grécia Antiga, Atenas foi a sede da primeira edição, realizada de 6 a 15 de abril de 1896." },
+          { "text": "Roma, 1904", "isCorrect": false, "explanation": "Incorreto. Roma desistiu de sediar em 1908; St. Louis sediou em 1904." }
+        ]
+      },
+      {
+        "question": "Qual o lema olímpico original em latim proposto por Coubertin?",
+        "options": [
+          { "text": "Veni, Vidi, Vici", "isCorrect": false, "explanation": "Incorreto. Famosa frase de Júlio César ('Vim, vi, venci')." },
+          { "text": "Mens sana in corpore sano", "isCorrect": false, "explanation": "Incorreto. Frase do poeta romano Juvenal ('Mente sã em corpo são')." },
+          { "text": "Citius, Altius, Fortius", "isCorrect": true, "explanation": "Correto! Significa 'Mais rápido, mais alto, mais forte'. Recentemente, foi adicionado 'Communiter' (Juntos)." },
+          { "text": "Ad Astra per Aspera", "isCorrect": false, "explanation": "Incorreto. Lema que significa 'Aos astros através das dificuldades'." }
+        ]
+      },
+      {
+        "question": "O que representam os cinco anéis entrelaçados do símbolo olímpico?",
+        "options": [
+          { "text": "As 5 modalidades originais.", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Os 5 continentes habitados (Américas unidas como um).", "isCorrect": true, "explanation": "Correto! Desenhados por Coubertin em 1913, simbolizam a união dos povos através do esporte. As 6 cores (incluindo o fundo branco) representam as cores presentes nas bandeiras de todas as nações." },
+          { "text": "As 5 tentativas em provas de salto/lançamento.", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Os 5 valores olímpicos: amizade, respeito, excelência, coragem, inspiração.", "isCorrect": false, "explanation": "Incorreto. Os valores são importantes, mas não a origem dos anéis." }
+        ]
+      },
+      {
+        "question": "Qual evento marca tradicionalmente o início da cerimônia de abertura dos Jogos Olímpicos?",
+        "options": [
+          { "text": "O acendimento da Pira Olímpica.", "isCorrect": false, "explanation": "Incorreto. O acendimento da pira é o ápice da cerimônia, simbolizando o início oficial dos Jogos." },
+          { "text": "A revoada de pombas (antigamente).", "isCorrect": false, "explanation": "Incorreto. Era um símbolo de paz, mas não o início." },
+          { "text": "O desfile das nações, com a Grécia à frente e o país-sede por último.", "isCorrect": true, "explanation": "Correto! Em honra à origem dos Jogos, a Grécia sempre lidera o desfile das delegações." },
+          { "text": "Discurso do presidente do COI.", "isCorrect": false, "explanation": "Incorreto. Ocorre mais adiante na cerimônia." }
+        ]
+      },
+      {
+        "question": "Em que local histórico a chama olímpica é acesa?",
+        "options": [
+          { "text": "No Monte Olimpo.", "isCorrect": false, "explanation": "Incorreto. O Monte Olimpo era a morada mitológica dos deuses." },
+          { "text": "No Estádio Panatenaico, em Atenas.", "isCorrect": false, "explanation": "Incorreto. Este estádio sediou os Jogos de 1896 e parte da cerimônia de revezamento." },
+          { "text": "Nas ruínas do Templo de Hera, em Olímpia.", "isCorrect": true, "explanation": "Correto! A cerimônia usa luz solar e um espelho parabólico para acender a tocha, que então inicia seu percurso." },
+          { "text": "Na sede do COI, em Lausanne.", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual atleta americano negro ganhou 4 ouros no atletismo em Berlim 1936, desafiando a ideologia nazista?",
+        "options": [
+          { "text": "Ralph Metcalfe", "isCorrect": false, "explanation": "Incorreto. Metcalfe também foi um grande velocista e ganhou ouro no revezamento com Owens." },
+          { "text": "Joe Louis", "isCorrect": false, "explanation": "Incorreto. Lendário boxeador peso-pesado, símbolo contra o nazismo em sua luta contra Max Schmeling." },
+          { "text": "Jesse Owens", "isCorrect": true, "explanation": "Correto! James Cleveland 'Jesse' Owens venceu os 100m (10.3s), 200m (20.7s), salto em distância (8.06m) e revezamento 4x100m." },
+          { "text": "Cornelius Johnson", "isCorrect": false, "explanation": "Incorreto. Ganhou ouro no salto em altura em Berlim." }
+        ]
+      },
+      {
+        "question": "Quais edições dos Jogos Olímpicos de Verão foram canceladas devido às Guerras Mundiais?",
+        "options": [
+          { "text": "1916, 1940", "isCorrect": false, "explanation": "Incorreto. Faltou a edição de 1944." },
+          { "text": "1940, 1944", "isCorrect": false, "explanation": "Incorreto. Faltou a edição de 1916." },
+          { "text": "1916 (Berlim), 1940 (Tóquio/Helsinque), 1944 (Londres)", "isCorrect": true, "explanation": "Correto! A I Guerra Mundial cancelou 1916; a II Guerra Mundial cancelou 1940 (inicialmente Tóquio, depois Helsinque) e 1944." },
+          { "text": "1912, 1936", "isCorrect": false, "explanation": "Incorreto. Estocolmo (1912) e Berlim (1936) ocorreram." }
+        ]
+      },
+      {
+        "question": "Qual maratonista etíope venceu a maratona descalço nas Olimpíadas de Roma em 1960?",
+        "options": [
+          { "text": "Mamo Wolde", "isCorrect": false, "explanation": "Incorreto. Etíope que venceu a maratona em 1968." },
+          { "text": "Miruts Yifter", "isCorrect": false, "explanation": "Incorreto. Etíope campeão dos 5.000m e 10.000m em 1980." },
+          { "text": "Abebe Bikila", "isCorrect": true, "explanation": "Correto! Correndo pelas ruas de Roma à noite, Bikila tornou-se o primeiro negro africano campeão olímpico, completando a prova em 2h15m16s." },
+          { "text": "Gezahegne Abera", "isCorrect": false, "explanation": "Incorreto. Etíope campeão da maratona em 2000." }
+        ]
+      },
+      {
+        "question": "Qual ginasta romena obteve a primeira nota 10 perfeita na história da ginástica olímpica, em Montreal 1976?",
+        "options": [
+          { "text": "Ecaterina Szabo", "isCorrect": false, "explanation": "Incorreto. Romena multicampeã nos Jogos de 1984." },
+          { "text": "Simona Amânar", "isCorrect": false, "explanation": "Incorreto. Romena especialista em salto nos anos 90/2000." },
+          { "text": "Nadia Comăneci", "isCorrect": true, "explanation": "Correto! Aos 14 anos, Comăneci recebeu sete notas 10 (a primeira nas barras assimétricas), um feito que o placar eletrônico nem estava preparado para exibir." },
+          { "text": "Daniela Silivaș", "isCorrect": false, "explanation": "Incorreto. Romena que igualou o recorde de 7 notas 10 de Comaneci em 1988." }
+        ]
+      },
+      {
+        "question": "Qual evento trágico marcou as Olimpíadas de Munique em 1972?",
+        "options": [
+          { "text": "Acidente aéreo com uma delegação.", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "O sequestro e assassinato de 11 membros da delegação israelense por terroristas palestinos.", "isCorrect": true, "explanation": "Correto! O ataque do grupo 'Setembro Negro' chocou o mundo e interrompeu os Jogos temporariamente." },
+          { "text": "Boicote de mais de 50 países.", "isCorrect": false, "explanation": "Incorreto. Grandes boicotes ocorreram em 1976, 1980 e 1984." },
+          { "text": "Colapso de uma estrutura do estádio.", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual nadador americano quebrou o recorde de Mark Spitz ao ganhar 8 ouros em Pequim 2008?",
+        "options": [
+          { "text": "Mark Spitz", "isCorrect": false, "explanation": "Incorreto. Spitz ganhou 7 ouros em Munique 1972." },
+          { "text": "Matt Biondi", "isCorrect": false, "explanation": "Incorreto. Biondi ganhou 7 medalhas (5 ouros) em Seul 1988." },
+          { "text": "Michael Phelps", "isCorrect": true, "explanation": "Correto! Phelps conquistou 8 ouros em Pequim, tornando-se o maior medalhista de uma única edição e, posteriormente, o maior medalhista olímpico da história (28 medalhas, 23 de ouro)." },
+          { "text": "Ryan Lochte", "isCorrect": false, "explanation": "Incorreto. Grande rival e parceiro de Phelps, Lochte tem 12 medalhas olímpicas." }
+        ]
+      },
+      {
+        "question": "Qual velocista jamaicano é tricampeão olímpico dos 100m e 200m rasos?",
+        "options": [
+          { "text": "Donovan Bailey", "isCorrect": false, "explanation": "Incorreto. Canadense (nascido na Jamaica), campeão dos 100m em 1996." },
+          { "text": "Linford Christie", "isCorrect": false, "explanation": "Incorreto. Britânico, campeão dos 100m em 1992." },
+          { "text": "Usain Bolt", "isCorrect": true, "explanation": "Correto! Bolt venceu os 100m e 200m em 2008 (Pequim, 9.69s/19.30s), 2012 (Londres, 9.63s/19.32s) e 2016 (Rio, 9.81s/19.78s), um feito inédito." },
+          { "text": "Yohan Blake", "isCorrect": false, "explanation": "Incorreto. Compatriota e rival de Bolt, prata nos 100m e 200m em 2012." }
+        ]
+      },
+      {
+        "question": "Qual foi a primeira cidade da América do Sul a sediar os Jogos Olímpicos de Verão?",
+        "options": [
+          { "text": "Cidade do México (1968)", "isCorrect": false, "explanation": "Incorreto. Cidade do México foi a primeira da América Latina." },
+          { "text": "Rio de Janeiro (2016)", "isCorrect": true, "explanation": "Correto! O Rio de Janeiro realizou a primeira Olimpíada na América do Sul." },
+          { "text": "São Paulo (candidata)", "isCorrect": false, "explanation": "Incorreto. São Paulo já foi candidata, mas nunca sediou." },
+          { "text": "Buenos Aires (candidata)", "isCorrect": false, "explanation": "Incorreto. Buenos Aires também já foi candidata." }
+        ]
+      },
+      {
+        "question": "Qual o nome do primeiro atleta brasileiro a ganhar uma medalha de ouro olímpica?",
+        "options": [
+          { "text": "Adhemar Ferreira da Silva", "isCorrect": false, "explanation": "Incorreto. Adhemar foi o primeiro bicampeão olímpico do Brasil (salto triplo, 1952 e 1956)." },
+          { "text": "Guilherme Paraense", "isCorrect": true, "explanation": "Correto! O militar Guilherme Paraense conquistou o ouro no tiro (pistola rápida) na Antuérpia 1920, a primeira participação oficial do Brasil." },
+          { "text": "Robert Scheidt", "isCorrect": false, "explanation": "Incorreto. Scheidt conquistou seu primeiro ouro na vela em 1996." },
+          { "text": "Tesourinha", "isCorrect": false, "explanation": "Incorreto. Famoso jogador de futebol, mas não medalhista olímpico." }
+        ]
+      },
+       {
+          "question": "Qual destes esportes estreou no programa olímpico em Tóquio 2020?",
+          "options": [
+              { "text": "Judô", "isCorrect": false, "explanation": "Incorreto. Judô estreou em Tóquio 1964." },
+              { "text": "Taekwondo", "isCorrect": false, "explanation": "Incorreto. Taekwondo estreou em Sydney 2000." },
+              { "text": "Surfe", "isCorrect": true, "explanation": "Correto! Surfe, Skate, Escalada Esportiva e Karatê foram as novidades (além do retorno do Beisebol/Softbol e estreia do Basquete 3x3)." },
+              { "text": "Triatlo", "isCorrect": false, "explanation": "Incorreto. Triatlo estreou em Sydney 2000." }
+          ]
+      },
+      {
+          "question": "Qual cidade sediou os Jogos Olímpicos de Verão que foram boicotados pelos Estados Unidos e seus aliados?",
+          "options": [
+              { "text": "Berlim (1936)", "isCorrect": false, "explanation": "Incorreto. Houve debates sobre boicote, mas ele não se concretizou." },
+              { "text": "Moscou (1980)", "isCorrect": true, "explanation": "Correto! Liderados pelos EUA devido à invasão soviética do Afeganistão, mais de 60 países boicotaram os Jogos na capital da URSS." },
+              { "text": "Los Angeles (1984)", "isCorrect": false, "explanation": "Incorreto. Los Angeles foi boicotada pela URSS e bloco socialista." },
+              { "text": "Montreal (1976)", "isCorrect": false, "explanation": "Incorreto. Montreal sofreu boicote de países africanos." }
+          ]
+      },
+      {
+          "question": "Qual atleta feminina brasileira foi a primeira a ganhar uma medalha de ouro individual?",
+          "options": [
+              { "text": "Maria Lenk (Natação)", "isCorrect": false, "explanation": "Incorreto. Pioneira da natação brasileira, primeira sul-americana a competir, mas não medalhista." },
+              { "text": "Aída dos Santos (Atletismo)", "isCorrect": false, "explanation": "Incorreto. Foi 4ª no salto em altura em 1964, melhor resultado individual feminino até 1996." },
+              { "text": "Sandra Pires (Vôlei de Praia)", "isCorrect": false, "explanation": "Incorreto. Sandra, junto com Jackie Silva, foi a primeira mulher brasileira campeã olímpica, mas em dupla (1996)." },
+              { "text": "Maurren Maggi (Salto em Distância)", "isCorrect": true, "explanation": "Correto! Em Pequim 2008, Maurren saltou 7,04m e conquistou o primeiro ouro individual feminino para o Brasil." }
+          ]
+      },
+      {
+          "question": "Em que ano e cidade foram realizados os primeiros Jogos Olímpicos de Inverno?",
+          "options": [
+              { "text": "St. Moritz (Suíça), 1928", "isCorrect": false, "explanation": "Incorreto. St. Moritz sediou a segunda edição." },
+              { "text": "Lake Placid (EUA), 1932", "isCorrect": false, "explanation": "Incorreto. Lake Placid sediou a terceira edição." },
+              { "text": "Chamonix (França), 1924", "isCorrect": true, "explanation": "Correto! Realizada como 'Semana Internacional de Desportos de Inverno', foi posteriormente reconhecida como a I Olimpíada de Inverno." },
+              { "text": "Oslo (Noruega), 1952", "isCorrect": false, "explanation": "Incorreto. Oslo sediou a sexta edição." }
+          ]
+      },
+      {
+          "question": "Qual país lidera o quadro histórico de medalhas dos Jogos Olímpicos de Verão?",
+          "options": [
+              { "text": "China", "isCorrect": false, "explanation": "Incorreto. A China é uma potência crescente, especialmente desde 2008." },
+              { "text": "Rússia (incluindo URSS/ROC)", "isCorrect": false, "explanation": "Incorreto. Historicamente forte, mas atrás dos EUA no total." },
+              { "text": "Estados Unidos", "isCorrect": true, "explanation": "Correto! Os EUA acumulam mais de 1100 ouros e quase 3000 medalhas no total em Jogos de Verão (até 2021)." },
+              { "text": "Alemanha (incluindo formas anteriores)", "isCorrect": false, "explanation": "Incorreto. Também uma potência, mas com menos medalhas que os EUA." }
+          ]
+      },
+      {
+          "question": "Qual judoca brasileiro foi o primeiro a conquistar três medalhas olímpicas?",
+          "options": [
+              { "text": "Aurélio Miguel", "isCorrect": false, "explanation": "Incorreto. Aurélio foi ouro em 88 e bronze em 96 (duas medalhas)." },
+              { "text": "Tiago Camilo", "isCorrect": false, "explanation": "Incorreto. Tiago também tem 3 medalhas (prata 2000, bronze 2008, bronze 2012)." },
+              { "text": "Leandro Guilheiro", "isCorrect": true, "explanation": "Correto! Guilheiro conquistou bronze em Atenas 2004 e Pequim 2008. Mayra Aguiar, Ketleyn Quadros e Tiago Camilo também têm 3 medalhas." },
+              { "text": "Mayra Aguiar", "isCorrect": false, "explanation": "Incorreto. Mayra também tem 3 medalhas (bronze 2012, 2016, 2020)." }
+          ]
+      },
+       {
+          "question": "Qual cidade americana sediou os Jogos Olímpicos de 1996, marcados pelo atentado no Centennial Olympic Park?",
+          "options": [
+              { "text": "Chicago", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Atlanta", "isCorrect": true, "explanation": "Correto! A explosão de uma bomba caseira durante um show matou uma pessoa e feriu mais de cem, manchando os Jogos do Centenário." },
+              { "text": "Nova Iorque", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Dallas", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "Qual o nome do mascote dos Jogos Olímpicos Rio 2016?",
+          "options": [
+              { "text": "Fuleco", "isCorrect": false, "explanation": "Incorreto. Mascote da Copa do Mundo 2014." },
+              { "text": "Vinicius", "isCorrect": true, "explanation": "Correto! Homenagem a Vinicius de Moraes, representava a diversidade da fauna brasileira (mistura de animais)." },
+              { "text": "Tom", "isCorrect": false, "explanation": "Incorreto. Mascote dos Jogos Paralímpicos Rio 2016." },
+              { "text": "Zabivaka", "isCorrect": false, "explanation": "Incorreto. Mascote da Copa do Mundo 2018." }
+          ]
+      },
+      {
+          "question": "Qual esporte coletivo rendeu ao Brasil a primeira medalha de ouro olímpica?",
+          "options": [
+              { "text": "Futebol Masculino", "isCorrect": false, "explanation": "Incorreto. O ouro veio apenas em 2016." },
+              { "text": "Basquete Masculino", "isCorrect": false, "explanation": "Incorreto. O Brasil tem 3 bronzes no basquete masculino." },
+              { "text": "Voleibol Masculino", "isCorrect": true, "explanation": "Correto! A 'Geração de Ouro' do vôlei masculino conquistou o título em Barcelona 1992." },
+              { "text": "Vôlei de Praia Feminino", "isCorrect": false, "explanation": "Incorreto. O vôlei de praia feminino conquistou o primeiro ouro feminino do Brasil (em dupla) em 1996." }
+          ]
+      },
+      {
+          "question": "Qual a única cidade a sediar os Jogos Olímpicos de Verão por três vezes?",
+          "options": [
+              { "text": "Atenas", "isCorrect": false, "explanation": "Incorreto. Sediou em 1896 e 2004." },
+              { "text": "Paris", "isCorrect": false, "explanation": "Incorreto. Sediará pela terceira vez em 2024 (após 1900 e 1924)." },
+              { "text": "Los Angeles", "isCorrect": false, "explanation": "Incorreto. Sediará pela terceira vez em 2028 (após 1932 e 1984)." },
+              { "text": "Londres", "isCorrect": true, "explanation": "Correto! A capital britânica foi palco dos Jogos em 1908, 1948 (Jogos da Austeridade) e 2012." }
+          ]
+      },
+      {
+          "question": "Qual atleta brasileiro foi bicampeão olímpico no salto triplo (1952, 1956)?",
+          "options": [
+              { "text": "Nelson Prudêncio", "isCorrect": false, "explanation": "Incorreto. Prudêncio foi prata (1968) e bronze (1972)." },
+              { "text": "João Carlos de Oliveira ('João do Pulo')", "isCorrect": false, "explanation": "Incorreto. João do Pulo foi bronze (1976, 1980) e recordista mundial." },
+              { "text": "Adhemar Ferreira da Silva", "isCorrect": true, "explanation": "Correto! Adhemar quebrou recordes mundiais em suas vitórias em Helsinque (16.22m) e Melbourne (16.35m)." },
+              { "text": "Jadel Gregório", "isCorrect": false, "explanation": "Incorreto. Destaque dos anos 2000, mas sem medalha olímpica." }
+          ]
+      },
+      {
+          "question": "Qual foi a primeira edição dos Jogos Olímpicos a incluir mulheres?",
+          "options": [
+              { "text": "Atenas 1896", "isCorrect": false, "explanation": "Incorreto. Os primeiros Jogos foram exclusivamente masculinos." },
+              { "text": "Paris 1900", "isCorrect": true, "explanation": "Correto! Embora de forma limitada e em poucas modalidades (tênis, golfe), Paris marcou a estreia feminina." },
+              { "text": "Londres 1908", "isCorrect": false, "explanation": "Incorreto. A participação aumentou, mas começou em 1900." },
+              { "text": "Amsterdã 1928", "isCorrect": false, "explanation": "Incorreto. Amsterdã marcou a estreia feminina no atletismo e ginástica." }
+          ]
+      },
+      {
+          "question": "O que significa COI?",
+          "options": [
+              { "text": "Confederação Olímpica Internacional", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Comitê Organizador de Integração", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Comitê Olímpico Internacional", "isCorrect": true, "explanation": "Correto! (IOC em inglês) - Órgão máximo do Movimento Olímpico, fundado em 1894." },
+              { "text": "Conselho de Orientação Internacional", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "Qual esporte só foi disputado oficialmente nos Jogos Olímpicos de Paris 1900?",
+          "options": [
+              { "text": "Pelota Basca", "isCorrect": false, "explanation": "Incorreto. Foi disputado em 1900, mas também como demonstração depois." },
+              { "text": "Motonáutica", "isCorrect": false, "explanation": "Incorreto. Disputado em Londres 1908." },
+              { "text": "Críquete", "isCorrect": true, "explanation": "Correto! Apenas uma partida (Grã-Bretanha vs França) foi realizada. O esporte retorna em 2028." },
+              { "text": "Lacrosse", "isCorrect": false, "explanation": "Incorreto. Disputado em 1904 e 1908." }
+          ]
+      },
+       {
+          "question": "Qual velejador brasileiro é o maior medalhista olímpico do país (5 medalhas)?",
+          "options": [
+              { "text": "Lars Grael", "isCorrect": false, "explanation": "Incorreto. Lars tem 2 bronzes (88, 96)." },
+              { "text": "Robert Scheidt", "isCorrect": true, "explanation": "Correto! Scheidt (Laser/Star) tem 2 ouros, 2 pratas e 1 bronze, empatado com Torben Grael como maior medalhista." },
+              { "text": "Torben Grael", "isCorrect": true, "explanation": "Correto! Torben (Soling/Star) também tem 2 ouros, 1 prata e 2 bronzes, empatado com Scheidt." },
+              { "text": "Martine Grael & Kahena Kunze", "isCorrect": false, "explanation": "Incorreto. São bicampeãs olímpicas (16, 20) na 49er FX." }
+          ]
+      },
+      {
+          "question": "Qual ginasta americana, considerada a maior da história, possui 7 medalhas olímpicas?",
+          "options": [
+              { "text": "Mary Lou Retton", "isCorrect": false, "explanation": "Incorreto. Retton ganhou 5 medalhas em 1984 (1 ouro)." },
+              { "text": "Aly Raisman", "isCorrect": false, "explanation": "Incorreto. Raisman tem 6 medalhas olímpicas." },
+              { "text": "Simone Biles", "isCorrect": true, "explanation": "Correto! Biles conquistou 7 medalhas (4 ouros, 1 prata, 2 bronzes) em 2016 e 2020, além de ser a mais condecorada em Mundiais." },
+              { "text": "Nastia Liukin", "isCorrect": false, "explanation": "Incorreto. Liukin ganhou 5 medalhas em 2008 (1 ouro)." }
+          ]
+      },
+       {
+          "question": "Qual foi a primeira cidade asiática a sediar os Jogos Olímpicos de Verão?",
+          "options": [
+              { "text": "Seul (1988)", "isCorrect": false, "explanation": "Incorreto. Seul foi a segunda." },
+              { "text": "Pequim (2008)", "isCorrect": false, "explanation": "Incorreto. Pequim foi a terceira." },
+              { "text": "Tóquio (1964)", "isCorrect": true, "explanation": "Correto! Tóquio marcou a chegada dos Jogos à Ásia, simbolizando a modernização japonesa." },
+              { "text": "Singapura (2010 - Juventude)", "isCorrect": false, "explanation": "Incorreto. Jogos Olímpicos da Juventude." }
+          ]
+      },
+      {
+          "question": "Qual atleta cubano detém o recorde mundial do salto em altura masculino (2,45m)?",
+          "options": [
+              { "text": "Iván Pedroso", "isCorrect": false, "explanation": "Incorreto. Pedroso foi campeão no salto em distância." },
+              { "text": "Javier Sotomayor", "isCorrect": true, "explanation": "Correto! 'Soto' estabeleceu o recorde mundial de 2,45m em 1993, que perdura até hoje." },
+              { "text": "Alberto Juantorena", "isCorrect": false, "explanation": "Incorreto. 'El Caballo', campeão dos 400m e 800m." },
+              { "text": "Silvio Leonard", "isCorrect": false, "explanation": "Incorreto. Velocista cubano." }
+          ]
+      },
+      {
+          "question": "Qual disciplina olímpica combina Adestramento, Cross-Country e Saltos?",
+          "options": [
+              { "text": "Hipismo Clássico", "isCorrect": false, "explanation": "Incorreto. Termo genérico." },
+              { "text": "Concurso Completo de Equitação (CCE)", "isCorrect": true, "explanation": "Correto! O CCE é considerado o 'triatlo' do hipismo, testando a versatilidade do conjunto cavalo/cavaleiro." },
+              { "text": "Volteio", "isCorrect": false, "explanation": "Incorreto. Ginástica sobre um cavalo em movimento (não olímpico atualmente)." },
+              { "text": "Rédeas", "isCorrect": false, "explanation": "Incorreto. Modalidade de equitação western (não olímpica)." }
+          ]
+      },
+      {
+          "question": "Qual atleta conquistou a primeira medalha do Brasil no Boxe olímpico (bronze em 1968)?",
+          "options": [
+              { "text": "Esquiva Falcão", "isCorrect": false, "explanation": "Incorreto. Prata em 2012." },
+              { "text": "Yamaguchi Falcão", "isCorrect": false, "explanation": "Incorreto. Bronze em 2012." },
+              { "text": "Servílio de Oliveira", "isCorrect": true, "explanation": "Correto! Na Cidade do México, Servílio conquistou o bronze na categoria peso mosca." },
+              { "text": "Maguila", "isCorrect": false, "explanation": "Incorreto. Famoso peso-pesado profissional." }
+          ]
+      },
+      {
+          "question": "Em qual cidade foram realizados os Jogos Olímpicos de Verão boicotados pela União Soviética em 1984?",
+          "options": [
+              { "text": "Moscou (1980)", "isCorrect": false, "explanation": "Incorreto. Moscou foi boicotada pelos EUA." },
+              { "text": "Atlanta (1996)", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Los Angeles (1984)", "isCorrect": true, "explanation": "Correto! Em retaliação a 1980, a URSS e 13 nações aliadas boicotaram os Jogos de LA." },
+              { "text": "Barcelona (1992)", "isCorrect": false, "explanation": "Incorreto. Barcelona marcou o fim dos grandes boicotes." }
+          ]
+      },
+      {
+          "question": "Qual modalidade do atletismo envolve lançar um implemento metálico pesado com cabo e alça?",
+          "options": [
+              { "text": "Arremesso de Peso", "isCorrect": false, "explanation": "Incorreto. Lançamento de esfera maciça." },
+              { "text": "Lançamento de Disco", "isCorrect": false, "explanation": "Incorreto. Lançamento de um disco." },
+              { "text": "Lançamento de Martelo", "isCorrect": true, "explanation": "Correto! O atleta gira várias vezes antes de lançar a esfera ('martelo') presa a um cabo de aço com uma alça." },
+              { "text": "Lançamento de Dardo", "isCorrect": false, "explanation": "Incorreto. Lançamento de uma lança." }
+          ]
+      },
+       {
+          "question": "Qual o apelido da seleção masculina de basquete dos EUA em Barcelona 1992?",
+          "options": [
+              { "text": "Redeem Team (Time da Redenção)", "isCorrect": false, "explanation": "Incorreto. Apelido do time de 2008." },
+              { "text": "Dream Team (Time dos Sonhos)", "isCorrect": true, "explanation": "Correto! Com estrelas da NBA como Jordan, Magic e Bird, dominou o torneio e popularizou o basquete globalmente." },
+              { "text": "The Untouchables (Os Intocáveis)", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "USA Basketball", "isCorrect": false, "explanation": "Incorreto. Nome da federação." }
+          ]
+      },
+      {
+          "question": "Qual esporte combina natação, ciclismo e corrida, nesta ordem?",
+          "options": [
+              { "text": "Decatlo", "isCorrect": false, "explanation": "Incorreto. Dez provas de atletismo." },
+              { "text": "Triatlo", "isCorrect": true, "explanation": "Correto! Estreou como esporte olímpico em Sydney 2000." },
+              { "text": "Biatlo", "isCorrect": false, "explanation": "Incorreto. Combina esqui cross-country e tiro (Jogos de Inverno)." },
+              { "text": "Aquatlo", "isCorrect": false, "explanation": "Incorreto. Combina natação e corrida (não olímpico)." }
+          ]
+      },
+       {
+          "question": "Qual cidade australiana sediou os Jogos Olímpicos de Verão em 2000?",
+          "options": [
+              { "text": "Melbourne", "isCorrect": false, "explanation": "Incorreto. Melbourne sediou em 1956." },
+              { "text": "Brisbane", "isCorrect": false, "explanation": "Incorreto. Brisbane sediará os Jogos de 2032." },
+              { "text": "Sydney", "isCorrect": true, "explanation": "Correto! Sydney realizou os 'Jogos do Milênio', conhecidos pela boa organização e atmosfera." },
+              { "text": "Perth", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "Qual atleta brasileiro conquistou o ouro nos 800m em Los Angeles 1984 com recorde olímpico?",
+          "options": [
+              { "text": "Zequinha Barbosa", "isCorrect": false, "explanation": "Incorreto. Grande corredor de 800m, mas sem medalha de ouro." },
+              { "text": "Joaquim Cruz", "isCorrect": true, "explanation": "Correto! Cruz venceu com o tempo de 1:43.00, recorde que durou até 1996." },
+              { "text": "Sanderlei Parrela", "isCorrect": false, "explanation": "Incorreto. Velocista dos 400m, prata em 2000." },
+              { "text": "Claudinei Quirino", "isCorrect": false, "explanation": "Incorreto. Velocista, prata nos 200m em 2000." }
+          ]
+      },
+       {
+          "question": "Qual país lidera o quadro histórico de medalhas dos Jogos Olímpicos de Inverno?",
+          "options": [
+              { "text": "Canadá", "isCorrect": false, "explanation": "Incorreto. Potência em hóquei e patinação, mas atrás da Noruega." },
+              { "text": "Alemanha", "isCorrect": false, "explanation": "Incorreto. Forte em luge, bobsled e biatlo, mas Noruega lidera." },
+              { "text": "Estados Unidos", "isCorrect": false, "explanation": "Incorreto. Segundo colocado no quadro geral." },
+              { "text": "Noruega", "isCorrect": true, "explanation": "Correto! Com grande tradição em esqui cross-country, salto e biatlo, a Noruega lidera com mais de 400 medalhas." }
+          ]
+      },
+      {
+          "question": "Qual foi a primeira edição dos Jogos Olímpicos de Inverno fora da Europa ou América do Norte?",
+          "options": [
+              { "text": "Sapporo (Japão), 1972", "isCorrect": true, "explanation": "Correto! Sapporo foi a primeira cidade asiática a sediar os Jogos de Inverno." },
+              { "text": "Nagano (Japão), 1998", "isCorrect": false, "explanation": "Incorreto. Nagano foi a segunda cidade asiática." },
+              { "text": "Pyeongchang (Coreia do Sul), 2018", "isCorrect": false, "explanation": "Incorreto. Pyeongchang foi a terceira na Ásia." },
+              { "text": "Nunca houve Jogos de Inverno fora da Europa/América do Norte.", "isCorrect": false, "explanation": "Incorreto. Sapporo foi a primeira." }
+          ]
+      },
+      {
+          "question": "Qual nadador australiano foi apelidado de 'Thorpedo'?",
+          "options": [
+              { "text": "Grant Hackett", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Kieren Perkins", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Ian Thorpe", "isCorrect": true, "explanation": "Correto! Combinação de seu nome e sua velocidade na água, além dos pés grandes ('nadadeiras')." },
+              { "text": "Michael Klim", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+       {
+          "question": "Qual o endereço exato na Vila Olímpica de Munique onde ocorreu o ataque terrorista em 1972?",
+          "options": [
+              { "text": "Olympiapark 10", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Connollystraße 31", "isCorrect": true, "explanation": "Correto! O bloco de apartamentos da delegação israelense onde ocorreu a invasão e tomada de reféns." },
+              { "text": "Spiridon-Louis-Ring 21", "isCorrect": false, "explanation": "Incorreto. Endereço do Estádio Olímpico." },
+              { "text": "Werner-Heisenberg-Allee 25", "isCorrect": false, "explanation": "Incorreto. Endereço da Allianz Arena (construída bem depois)." }
+          ]
+      },
+      {
+          "question": "Qual atleta repetiu o feito de Jesse Owens ao ganhar 4 ouros no atletismo em LA 1984?",
+          "options": [
+              { "text": "Ben Johnson", "isCorrect": false, "explanation": "Incorreto. Ganhou os 100m em 88, mas perdeu a medalha por doping." },
+              { "text": "Maurice Greene", "isCorrect": false, "explanation": "Incorreto. Campeão dos 100m em 2000." },
+              { "text": "Carl Lewis", "isCorrect": true, "explanation": "Correto! Lewis venceu os 100m (9.99s), 200m (19.80s), salto em distância (8.54m) e revezamento 4x100m (37.83s, recorde mundial)." },
+              { "text": "Linford Christie", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "Qual edição marcou a primeira vez que os Jogos Paralímpicos ocorreram na mesma cidade e logo após os Jogos Olímpicos?",
+          "options": [
+              { "text": "Barcelona 1992", "isCorrect": false, "explanation": "Incorreto. Embora na mesma cidade, não foram totalmente integrados." },
+              { "text": "Seul 1988", "isCorrect": true, "explanation": "Correto! Seul estabeleceu o modelo de sediar os Jogos Paralímpicos na mesma cidade-sede, utilizando as mesmas instalações, logo após os Jogos Olímpicos." },
+              { "text": "Atlanta 1996", "isCorrect": false, "explanation": "Incorreto. O modelo já estava estabelecido." },
+              { "text": "Sydney 2000", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+       {
+          "question": "Qual brasileiro foi o porta-bandeira na Cerimônia de Abertura dos Jogos do Rio 2016?",
+          "options": [
+              { "text": "Neymar Jr. (Futebol)", "isCorrect": false, "explanation": "Incorreto. Neymar foi o capitão do time de futebol." },
+              { "text": "Robert Scheidt (Vela)", "isCorrect": false, "explanation": "Incorreto. Scheidt foi porta-bandeira em 2008." },
+              { "text": "Yane Marques (Pentatlo Moderno)", "isCorrect": true, "explanation": "Correto! Medalhista de bronze em 2012, Yane foi escolhida por votação popular." },
+              { "text": "Cesar Cielo (Natação)", "isCorrect": false, "explanation": "Incorreto. Cielo foi porta-bandeira em 2012." }
+          ]
+      },
+      {
+          "question": "Qual cidade foi a primeira a sediar tanto os Jogos Olímpicos de Verão quanto os de Inverno?",
+          "options": [
+              { "text": "Paris", "isCorrect": false, "explanation": "Incorreto. Paris sediou apenas Jogos de Verão." },
+              { "text": "Los Angeles", "isCorrect": false, "explanation": "Incorreto. Los Angeles sediou apenas Jogos de Verão." },
+              { "text": "Pequim", "isCorrect": true, "explanation": "Correto! Pequim sediou os Jogos de Verão em 2008 e os Jogos de Inverno em 2022." },
+              { "text": "Londres", "isCorrect": false, "explanation": "Incorreto. Londres sediou apenas Jogos de Verão." }
+          ]
+      },
+       {
+          "question": "Qual skatista brasileira fez história ao ganhar a medalha de prata no street em Tóquio 2020, com apenas 13 anos?",
+          "options": [
+              { "text": "Letícia Bufoni", "isCorrect": false, "explanation": "Incorreto. Letícia é outra grande skatista brasileira, mas não medalhou em Tóquio." },
+              { "text": "Pâmela Rosa", "isCorrect": false, "explanation": "Incorreto. Pâmela também competiu em Tóquio." },
+              { "text": "Rayssa Leal", "isCorrect": true, "explanation": "Correto! A 'Fadinha do Skate' tornou-se a mais jovem medalhista olímpica do Brasil." },
+              { "text": "Karen Jonz", "isCorrect": false, "explanation": "Incorreto. Tetracampeã mundial de skate vertical." }
+          ]
+      },
+      {
+          "question": "Qual esporte de combate de origem coreana estreou como modalidade olímpica em Sydney 2000?",
+          "options": [
+              { "text": "Judô", "isCorrect": false, "explanation": "Incorreto. Judô é japonês e estreou em 1964." },
+              { "text": "Karatê", "isCorrect": false, "explanation": "Incorreto. Karatê é japonês e estreou (e saiu) em 2020." },
+              { "text": "Taekwondo", "isCorrect": true, "explanation": "Correto! Caracterizado por chutes altos e rápidos, tornou-se esporte olímpico oficial em 2000." },
+              { "text": "Boxe", "isCorrect": false, "explanation": "Incorreto. O boxe é olímpico desde 1904." }
+          ]
+      },
+       {
+          "question": "Qual o recorde mundial de Usain Bolt nos 100 metros rasos?",
+          "options": [
+              { "text": "9.69s", "isCorrect": false, "explanation": "Incorreto. Foi seu recorde olímpico em Pequim 2008." },
+              { "text": "9.63s", "isCorrect": false, "explanation": "Incorreto. Foi seu tempo na final de Londres 2012." },
+              { "text": "9.58s", "isCorrect": true, "explanation": "Correto! Bolt estabeleceu o incrível recorde mundial no Campeonato Mundial de Berlim em 2009." },
+              { "text": "9.72s", "isCorrect": false, "explanation": "Incorreto. Foi um recorde mundial anterior de Bolt." }
+          ]
+      },
+      {
+          "question": "Qual o recorde mundial de Usain Bolt nos 200 metros rasos?",
+          "options": [
+              { "text": "19.30s", "isCorrect": false, "explanation": "Incorreto. Foi seu recorde olímpico e mundial em Pequim 2008." },
+              { "text": "19.19s", "isCorrect": true, "explanation": "Correto! Assim como nos 100m, Bolt quebrou o recorde mundial dos 200m no Mundial de Berlim em 2009." },
+              { "text": "19.32s", "isCorrect": false, "explanation": "Incorreto. Foi seu tempo em Londres 2012, igualando o antigo recorde de Michael Johnson." },
+              { "text": "19.26s", "isCorrect": false, "explanation": "Incorreto. Recorde mundial de Yohan Blake por um breve período." }
+          ]
+      },
+      {
+          "question": "Quantas medalhas olímpicas Michael Phelps conquistou ao longo de sua carreira?",
+          "options": [
+              { "text": "22 medalhas (18 ouros)", "isCorrect": false, "explanation": "Incorreto. Número de medalhas após Londres 2012." },
+              { "text": "28 medalhas (23 ouros)", "isCorrect": true, "explanation": "Correto! Phelps é o atleta olímpico mais condecorado da história, com 23 ouros, 3 pratas e 2 bronzes." },
+              { "text": "25 medalhas (20 ouros)", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "30 medalhas (25 ouros)", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+       {
+          "question": "Qual o nome do maratonista brasileiro que foi atacado por um espectador durante a prova em Atenas 2004, mas ainda assim conquistou o bronze?",
+          "options": [
+              { "text": "Ronaldo da Costa", "isCorrect": false, "explanation": "Incorreto. Recordista mundial da maratona em 1998." },
+              { "text": "Marílson Gomes dos Santos", "isCorrect": false, "explanation": "Incorreto. Bicampeão da Maratona de Nova Iorque." },
+              { "text": "Vanderlei Cordeiro de Lima", "isCorrect": true, "explanation": "Correto! Liderava a prova quando foi agarrado por um ex-padre irlandês. Recebeu a Medalha Pierre de Coubertin por seu espírito esportivo." },
+              { "text": "Franck Caldeira", "isCorrect": false, "explanation": "Incorreto. Campeão pan-americano da maratona em 2007." }
+          ]
+      },
+      {
+          "question": "Qual atleta é conhecido como 'O Filho do Vento'?",
+          "options": [
+              { "text": "Jesse Owens", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Usain Bolt", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Carl Lewis", "isCorrect": true, "explanation": "Correto! Frederick Carlton 'Carl' Lewis recebeu o apelido por sua velocidade e leveza nas pistas." },
+              { "text": "Michael Johnson", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "Qual tenista alemã marcou época ao vencer 22 Grand Slams e o Golden Slam Olímpico em 1988?",
+          "options": [
+              { "text": "Martina Navratilova", "isCorrect": false, "explanation": "Incorreto. Lenda tcheco-americana, grande rival de Graf." },
+              { "text": "Chris Evert", "isCorrect": false, "explanation": "Incorreto. Outra grande rival americana de Graf." },
+              { "text": "Steffi Graf", "isCorrect": true, "explanation": "Correto! Em 1988, Graf conquistou os 4 Grand Slams e a medalha de ouro olímpica em Seul, um feito inédito." },
+              { "text": "Monica Seles", "isCorrect": false, "explanation": "Incorreto. Rival de Graf nos anos 90, teve a carreira interrompida por um ataque." }
+          ]
+      },
+       {
+          "question": "Qual o nome do primeiro mascote oficial dos Jogos Olímpicos de Inverno?",
+          "options": [
+              { "text": "Schuss (Grenoble 1968)", "isCorrect": true, "explanation": "Correto! Um esquiador estilizado, considerado o primeiro mascote (não oficial, mas popular)." },
+              { "text": "Schneemann (Innsbruck 1976)", "isCorrect": false, "explanation": "Incorreto. Um boneco de neve, primeiro mascote oficial dos Jogos de Inverno." },
+              { "text": "Roni (Lake Placid 1980)", "isCorrect": false, "explanation": "Incorreto. Um guaxinim." },
+              { "text": "Vučko (Sarajevo 1984)", "isCorrect": false, "explanation": "Incorreto. Um lobo." }
+          ]
+      },
+      {
+          "question": "Qual o nome do principal estádio dos Jogos Olímpicos de Londres 2012?",
+          "options": [
+              { "text": "Estádio de Wembley", "isCorrect": false, "explanation": "Incorreto. Wembley sediou as finais do futebol." },
+              { "text": "Estádio Olímpico de Londres", "isCorrect": true, "explanation": "Correto! Construído para os Jogos, hoje é a casa do West Ham United FC." },
+              { "text": "The O2 Arena", "isCorrect": false, "explanation": "Incorreto. Sediou a ginástica e finais do basquete." },
+              { "text": "Lord's Cricket Ground", "isCorrect": false, "explanation": "Incorreto. Sediou o tiro com arco." }
+          ]
+      },
+       {
+          "question": "Qual foi a primeira cidade a cancelar os Jogos Olímpicos devido à Primeira Guerra Mundial?",
+          "options": [
+              { "text": "Estocolmo (1912)", "isCorrect": false, "explanation": "Incorreto. Estocolmo sediou em 1912." },
+              { "text": "Berlim (1916)", "isCorrect": true, "explanation": "Correto! Berlim havia sido escolhida, mas a Grande Guerra impediu a realização." },
+              { "text": "Antuérpia (1920)", "isCorrect": false, "explanation": "Incorreto. Antuérpia sediou os primeiros Jogos pós-guerra." },
+              { "text": "Paris (1924)", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "Qual atleta feminina detém o recorde mundial do heptatlo?",
+          "options": [
+              { "text": "Carolina Klüft (Suécia)", "isCorrect": false, "explanation": "Incorreto. Klüft dominou a prova nos anos 2000." },
+              { "text": "Jessica Ennis-Hill (Reino Unido)", "isCorrect": false, "explanation": "Incorreto. Campeã olímpica em 2012." },
+              { "text": "Jackie Joyner-Kersee (EUA)", "isCorrect": true, "explanation": "Correto! Considerada uma das maiores atletas de todos os tempos, seu recorde de 7291 pontos (Seul 1988) permanece imbatível." },
+              { "text": "Nafissatou Thiam (Bélgica)", "isCorrect": false, "explanation": "Incorreto. Atual bicampeã olímpica." }
+          ]
+      },
+      {
+          "question": "Qual o nome da cerimônia que marca o fim dos Jogos Olímpicos?",
+          "options": [
+              { "text": "Cerimônia de Premiação", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Cerimônia de Encerramento", "isCorrect": true, "explanation": "Correto! Inclui o desfile dos atletas (mais informal), a passagem da bandeira olímpica para a próxima cidade-sede e a extinção da chama." },
+              { "text": "Desfile da Vitória", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Festival Olímpico", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "Qual esgrimista italiana é a atleta com mais medalhas na história do esporte olímpico?",
+          "options": [
+              { "text": "Giovanna Trillini", "isCorrect": false, "explanation": "Incorreto. Trillini tem 8 medalhas." },
+              { "text": "Valentina Vezzali", "isCorrect": true, "explanation": "Correto! Especialista no florete, Vezzali conquistou 9 medalhas (6 ouros, 1 prata, 2 bronzes) entre 1996 e 2012." },
+              { "text": "Nedo Nadi", "isCorrect": false, "explanation": "Incorreto. Nadi (homem) ganhou 6 ouros, 5 deles em 1920." },
+              { "text": "Edoardo Mangiarotti", "isCorrect": false, "explanation": "Incorreto. Mangiarotti (homem) tem 13 medalhas, recorde na esgrima masculina." }
+          ]
+      },
+       {
+          "question": "Qual o significado original da prova da Maratona?",
+          "options": [
+              { "text": "Homenagear o deus grego da corrida.", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Celebrar a lendária corrida do soldado Fidípides de Maratona a Atenas para anunciar a vitória grega.", "isCorrect": true, "explanation": "Correto! A prova foi criada para os Jogos de 1896 baseada nesta lenda, embora a distância original fosse um pouco menor." },
+              { "text": "Simular o treinamento dos soldados espartanos.", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Ser a prova mais longa e desafiadora dos Jogos Antigos.", "isCorrect": false, "explanation": "Incorreto. A maratona é moderna; provas longas antigas incluíam o dólico." }
+          ]
+      },
+      {
+          "question": "Qual foi a primeira cidade da Oceania a sediar os Jogos Olímpicos de Verão?",
+          "options": [
+              { "text": "Sydney (Austrália), 2000", "isCorrect": false, "explanation": "Incorreto. Sydney foi a segunda." },
+              { "text": "Melbourne (Austrália), 1956", "isCorrect": true, "explanation": "Correto! Melbourne realizou os primeiros Jogos no Hemisfério Sul e na Oceania." },
+              { "text": "Auckland (Nova Zelândia)", "isCorrect": false, "explanation": "Incorreto. Auckland nunca sediou." },
+              { "text": "Brisbane (Austrália)", "isCorrect": false, "explanation": "Incorreto. Brisbane sediará em 2032." }
+          ]
+      },
+      {
+          "question": "Qual atleta de canoagem brasileiro é o maior medalhista do país em uma única edição olímpica?",
+          "options": [
+              { "text": "Erlon Silva", "isCorrect": false, "explanation": "Incorreto. Prata em 2016 com Isaquias." },
+              { "text": "Isaquias Queiroz", "isCorrect": true, "explanation": "Correto! No Rio 2016, Isaquias conquistou 3 medalhas (2 pratas e 1 bronze), tornando-se o primeiro brasileiro a conseguir tal feito numa só Olimpíada." },
+              { "text": "Ronaldo Souza (Ronilson)", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Sebastião Cuattrin", "isCorrect": false, "explanation": "Incorreto. Participou de várias Olimpíadas, mas sem medalha." }
+          ]
+      },
+      {
+          "question": "Qual o nome da organização responsável por combater o doping no esporte mundial?",
+          "options": [
+              { "text": "COI (Comitê Olímpico Internacional)", "isCorrect": false, "explanation": "Incorreto. O COI supervisiona, mas a WADA é a agência específica." },
+              { "text": "FIFA (Federação Internacional de Futebol Association)", "isCorrect": false, "explanation": "Incorreto. Responsável pelo futebol." },
+              { "text": "WADA (Agência Mundial Antidoping)", "isCorrect": true, "explanation": "Correto! World Anti-Doping Agency, criada em 1999 para promover, coordenar e monitorar a luta contra o doping." },
+              { "text": "CAS (Corte Arbitral do Esporte)", "isCorrect": false, "explanation": "Incorreto. Tribunal que julga disputas esportivas, incluindo casos de doping." }
+          ]
+      },
+       {
+          "question": "Qual foi a primeira vez que o Basquete foi incluído como esporte oficial nos Jogos Olímpicos?",
+          "options": [
+              { "text": "St. Louis 1904 (Demonstração)", "isCorrect": false, "explanation": "Incorreto. Foi apresentado como demonstração." },
+              { "text": "Berlim 1936", "isCorrect": true, "explanation": "Correto! O basquete masculino estreou oficialmente em Berlim, com os EUA ganhando o ouro." },
+              { "text": "Londres 1948", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Montreal 1976", "isCorrect": false, "explanation": "Incorreto. Montreal marcou a estreia do basquete feminino." }
+          ]
+      },
+      {
+          "question": "Qual o nome da mascote dos Jogos Olímpicos de Moscou 1980?",
+          "options": [
+              { "text": "Waldi (Dachshund)", "isCorrect": false, "explanation": "Incorreto. Mascote de Munique 1972." },
+              { "text": "Misha (Urso)", "isCorrect": true, "explanation": "Correto! O ursinho Misha se tornou um dos mascotes mais populares e queridos da história olímpica." },
+              { "text": "Sam (Águia)", "isCorrect": false, "explanation": "Incorreto. Mascote de Los Angeles 1984." },
+              { "text": "Hodori (Tigre)", "isCorrect": false, "explanation": "Incorreto. Mascote de Seul 1988." }
+          ]
+      },
+       {
+          "question": "Qual atleta feminina brasileira ganhou duas medalhas de ouro no salto em distância?",
+          "options": [
+              { "text": "Maurren Maggi", "isCorrect": true, "explanation": "Correto! Ganhou ouro em Pequim 2008. (Correção: Maurren ganhou UM ouro. Nenhuma brasileira ganhou dois ouros no salto em distância)." },
+              { "text": "Keila Costa", "isCorrect": false, "explanation": "Incorreto. Participou de várias Olimpíadas." },
+              { "text": "Eliane Martins", "isCorrect": false, "explanation": "Incorreto. Participou do Rio 2016 e Tóquio 2020." },
+              { "text": "Nenhuma brasileira ganhou dois ouros no salto em distância.", "isCorrect": true, "explanation": "Correto! Maurren Maggi foi a única campeã olímpica brasileira na prova (Pequim 2008)." }
+          ]
+      },
+      {
+          "question": "Qual cidade sediará os Jogos Olímpicos de Verão de 2028?",
+          "options": [
+              { "text": "Paris", "isCorrect": false, "explanation": "Incorreto. Paris sediará em 2024." },
+              { "text": "Brisbane", "isCorrect": false, "explanation": "Incorreto. Brisbane sediará em 2032." },
+              { "text": "Los Angeles", "isCorrect": true, "explanation": "Correto! LA sediará pela terceira vez (1932, 1984, 2028)." },
+              { "text": "Madri", "isCorrect": false, "explanation": "Incorreto. Madri foi candidata várias vezes." }
+          ]
+      },
+       {
+          "question": "Qual o nome do complexo esportivo construído para os Jogos Olímpicos Rio 2016 na Barra da Tijuca?",
+          "options": [
+              { "text": "Complexo do Maracanã", "isCorrect": false, "explanation": "Incorreto. Local das cerimônias e futebol." },
+              { "text": "Complexo de Deodoro", "isCorrect": false, "explanation": "Incorreto. Outra área importante, sediou hipismo, tiro, etc." },
+              { "text": "Parque Olímpico da Barra", "isCorrect": true, "explanation": "Correto! Principal centro dos Jogos, abrigou arenas de tênis, basquete, esportes aquáticos, velódromo, etc." },
+              { "text": "Vila Olímpica", "isCorrect": false, "explanation": "Incorreto. Local de alojamento dos atletas." }
+          ]
+      },
+      {
+          "question": "Qual foi o primeiro atleta a correr os 100m rasos abaixo de 10 segundos oficialmente (com cronometragem eletrônica)?",
+          "options": [
+              { "text": "Jesse Owens", "isCorrect": false, "explanation": "Incorreto. O recorde de Owens era 10.2s (manual)." },
+              { "text": "Bob Hayes", "isCorrect": false, "explanation": "Incorreto. Hayes correu 10.06s em 1964." },
+              { "text": "Jim Hines", "isCorrect": true, "explanation": "Correto! Nos Jogos da Cidade do México 1968, Hines venceu com 9.95s, quebrando a barreira dos 10 segundos." },
+              { "text": "Carl Lewis", "isCorrect": false, "explanation": "Incorreto. Lewis correu abaixo dos 10s várias vezes, mas depois de Hines." }
+          ]
+      },
+       {
+          "question": "Qual esporte fez sua estreia olímpica nos Jogos de Inverno de Sochi 2014?",
+          "options": [
+              { "text": "Snowboard Cross", "isCorrect": false, "explanation": "Incorreto. Estreou em 2006." },
+              { "text": "Ski Slopestyle e Halfpipe", "isCorrect": true, "explanation": "Correto! Junto com o Snowboard Slopestyle e Paralelo Slalom, e Salto de Esqui Feminino." },
+              { "text": "Curling Misto", "isCorrect": false, "explanation": "Incorreto. Estreou em 2018." },
+              { "text": "Skeleton", "isCorrect": false, "explanation": "Incorreto. Retornou em 2002 após longa ausência." }
+          ]
+      },
+      {
+          "question": "Qual o nome do juramento feito por um atleta representante de todos os competidores na Cerimônia de Abertura?",
+          "options": [
+              { "text": "Juramento de Coubertin", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Juramento Olímpico", "isCorrect": true, "explanation": "Correto! O atleta jura competir com espírito esportivo, respeitando as regras. Juramentos para árbitros e técnicos foram adicionados depois." },
+              { "text": "Credo Olímpico", "isCorrect": false, "explanation": "Incorreto. O Credo enfatiza a importância de lutar, não apenas vencer." },
+              { "text": "Promessa Solene", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "Qual país conquistou a primeira medalha de ouro no Hóquei no Gelo masculino nos Jogos de Inverno?",
+          "options": [
+              { "text": "Estados Unidos", "isCorrect": false, "explanation": "Incorreto. Os EUA venceram o 'Milagre no Gelo' em 1980." },
+              { "text": "União Soviética", "isCorrect": false, "explanation": "Incorreto. A URSS dominou o esporte por décadas." },
+              { "text": "Canadá", "isCorrect": true, "explanation": "Correto! O Canadá venceu os primeiros torneios olímpicos de hóquei (1920 - Verão, 1924, 1928, 1932 - Inverno)." },
+              { "text": "Suécia", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "Qual o significado da sigla COB?",
+          "options": [
+              { "text": "Comitê Olímpico Brasileiro", "isCorrect": true, "explanation": "Correto! Fundado em 1914 e reconhecido pelo COI em 1935, é a entidade máxima do esporte olímpico no Brasil." },
+              { "text": "Conselho Olímpico do Brasil", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Confederação Olímpica Brasileira", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Comitê Organizador de Brasília", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+       {
+          "question": "Qual cidade foi palco do chamado 'Milagre no Gelo' em 1980, onde a equipe amadora de hóquei dos EUA venceu a poderosa União Soviética?",
+          "options": [
+              { "text": "Sarajevo (1984)", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Calgary (1988)", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Lake Placid (1980)", "isCorrect": true, "explanation": "Correto! A vitória inesperada dos jovens americanos sobre os soviéticos, em plena Guerra Fria, tornou-se um momento icônico." },
+              { "text": "Innsbruck (1976)", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "Qual foi a primeira cidade africana a sediar os Jogos Olímpicos?",
+          "options": [
+              { "text": "Cairo (Egito)", "isCorrect": false, "explanation": "Incorreto. Cairo nunca sediou." },
+              { "text": "Cidade do Cabo (África do Sul)", "isCorrect": false, "explanation": "Incorreto. Foi candidata, mas não sediou." },
+              { "text": "Nenhuma cidade africana sediou os Jogos Olímpicos ainda.", "isCorrect": true, "explanation": "Correto! Até 2024, África é o único continente habitado (excluindo Antártida) que nunca recebeu os Jogos." },
+              { "text": "Nairóbi (Quênia)", "isCorrect": false, "explanation": "Incorreto. Nairóbi nunca sediou." }
+          ]
+      },
+       {
+          "question": "Qual atleta brasileira é a maior medalhista em Jogos Paralímpicos?",
+          "options": [
+              { "text": "Terezinha Guilhermina (Atletismo)", "isCorrect": false, "explanation": "Incorreto. Guilhermina tem 8 medalhas." },
+              { "text": "Daniel Dias (Natação)", "isCorrect": true, "explanation": "Correto! Daniel Dias conquistou incríveis 27 medalhas (14 ouros) entre 2008 e 2020. (Nota: A pergunta pede atleta *brasileira*, mas Daniel é homem. Clodoaldo Silva e Adria Santos também são grandes medalhistas.)" },
+              { "text": "Ádria Santos (Atletismo)", "isCorrect": false, "explanation": "Incorreto. Ádria tem 13 medalhas." },
+              { "text": "Clodoaldo Silva (Natação)", "isCorrect": false, "explanation": "Incorreto. Clodoaldo tem 14 medalhas." }
+          ]
+      },
+      {
+          "question": "Qual modalidade esportiva combina esqui cross-country e tiro com rifle?",
+          "options": [
+              { "text": "Combinado Nórdico", "isCorrect": false, "explanation": "Incorreto. Combina salto de esqui e esqui cross-country." },
+              { "text": "Biatlo", "isCorrect": true, "explanation": "Correto! Esporte de inverno onde os atletas esquiam um percurso e param em estandes para atirar em alvos." },
+              { "text": "Esqui Alpino", "isCorrect": false, "explanation": "Incorreto. Descida de montanhas em velocidade (slalom, downhill, etc.)." },
+              { "text": "Luge", "isCorrect": false, "explanation": "Incorreto. Descida em um pequeno trenó." }
+          ]
+      },
+      {
+        "question": "Qual o recorde mundial de Michael Phelps nos 200m borboleta?",
+        "options": [
+          { "text": "1:51.51", "isCorrect": false, "explanation": "Incorreto. Este foi um recorde anterior de Phelps." },
+          { "text": "1:50.73", "isCorrect": true, "explanation": "Correto! Estabelecido por Kristóf Milák (Hungria) em 2022, quebrando o recorde de Phelps de 1:51.51 (2009)." },
+          { "text": "1:52.03", "isCorrect": false, "explanation": "Incorreto. Tempo da vitória de Phelps em Pequim 2008." },
+          { "text": "1:49.82", "isCorrect": false, "explanation": "Incorreto. Tempo fora da realidade para 200m borboleta." }
+        ]
+      },
+      {
+        "question": "Qual atleta detém o recorde de mais medalhas de ouro em Jogos Olímpicos de Inverno?",
+        "options": [
+          { "text": "Ole Einar Bjørndalen (Noruega, Biatlo)", "isCorrect": false, "explanation": "Incorreto. Bjørndalen é o segundo com mais medalhas no total (13), e tem 8 ouros." },
+          { "text": "Bjørn Dæhlie (Noruega, Cross-Country)", "isCorrect": false, "explanation": "Incorreto. Dæhlie tem 12 medalhas no total e 8 ouros." },
+          { "text": "Marit Bjørgen (Noruega, Cross-Country)", "isCorrect": true, "explanation": "Correto! Bjørgen é a atleta mais condecorada da história dos Jogos de Inverno, com 15 medalhas no total, sendo 8 de ouro." },
+          { "text": "Ireen Wüst (Holanda, Patinação Velocidade)", "isCorrect": false, "explanation": "Incorreto. Wüst tem 13 medalhas (6 ouros)." }
+        ]
+      },
+       {
+        "question": "Em qual edição olímpica ocorreu o famoso 'Black Power salute' no pódio dos 200m rasos?",
+        "options": [
+          { "text": "Roma 1960", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Tóquio 1964", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Cidade do México 1968", "isCorrect": true, "explanation": "Correto! Os velocistas americanos Tommie Smith (ouro) e John Carlos (bronze) ergueram punhos com luvas pretas durante o hino nacional, em protesto contra o racismo." },
+          { "text": "Munique 1972", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual o nome da organização que administra o esporte paralímpico internacionalmente?",
+        "options": [
+          { "text": "COI (Comitê Olímpico Internacional)", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "IPC (Comitê Paralímpico Internacional)", "isCorrect": true, "explanation": "Correto! O International Paralympic Committee (IPC) é o órgão global do Movimento Paralímpico." },
+          { "text": "WADA (Agência Mundial Antidoping)", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Olimpíadas Especiais", "isCorrect": false, "explanation": "Incorreto. Organização para atletas com deficiência intelectual." }
+        ]
+      },
+       {
+        "question": "Qual cidade sediará os Jogos Olímpicos de Inverno de 2026?",
+        "options": [
+          { "text": "Estocolmo-Åre (Suécia)", "isCorrect": false, "explanation": "Incorreto. Foi candidata derrotada." },
+          { "text": "Milão-Cortina d'Ampezzo (Itália)", "isCorrect": true, "explanation": "Correto! Será a terceira vez da Itália sediando os Jogos de Inverno." },
+          { "text": "Pequim (China)", "isCorrect": false, "explanation": "Incorreto. Sediou em 2022." },
+          { "text": "Vancouver (Canadá)", "isCorrect": false, "explanation": "Incorreto. Sediou em 2010." }
+        ]
+      },
+      {
+        "question": "Qual atleta soviética ganhou 18 medalhas olímpicas na ginástica artística, recorde que durou décadas?",
+        "options": [
+          { "text": "Olga Korbut", "isCorrect": false, "explanation": "Incorreto. Korbut encantou em 1972, mas tem menos medalhas." },
+          { "text": "Nellie Kim", "isCorrect": false, "explanation": "Incorreto. Rival de Comaneci, grande medalhista." },
+          { "text": "Larisa Latynina", "isCorrect": true, "explanation": "Correto! Entre 1956 e 1964, Latynina conquistou 18 medalhas (9 ouros), recorde absoluto superado apenas por Michael Phelps." },
+          { "text": "Ludmilla Tourischeva", "isCorrect": false, "explanation": "Incorreto. Outra grande ginasta soviética." }
+        ]
+      },
+      {
+        "question": "Qual foi a primeira Olimpíada a ter uma mascote?",
+        "options": [
+          { "text": "Munique 1972 (Waldi)", "isCorrect": true, "explanation": "Correto! O dachshund Waldi foi o primeiro mascote oficial dos Jogos de Verão. (Schuss de Grenoble 1968 foi não-oficial)." },
+          { "text": "Montreal 1976 (Amik)", "isCorrect": false, "explanation": "Incorreto. Amik, o castor." },
+          { "text": "Moscou 1980 (Misha)", "isCorrect": false, "explanation": "Incorreto. Misha, o urso." },
+          { "text": "Cidade do México 1968 (Pomba/Jaguar - não oficiais)", "isCorrect": false, "explanation": "Incorreto. Não tiveram mascotes oficiais." }
+        ]
+      },
+       {
+        "question": "Qual atleta finlandês ficou conhecido como 'Finlandês Voador' por dominar as corridas de longa distância nos anos 20?",
+        "options": [
+          { "text": "Hannes Kolehmainen", "isCorrect": false, "explanation": "Incorreto. Kolehmainen foi o precursor, ganhando 3 ouros em 1912." },
+          { "text": "Paavo Nurmi", "isCorrect": true, "explanation": "Correto! Nurmi ganhou 9 medalhas de ouro e 3 de prata entre 1920 e 1928, um dos maiores atletas olímpicos." },
+          { "text": "Ville Ritola", "isCorrect": false, "explanation": "Incorreto. Contemporâneo e rival de Nurmi, também multicampeão." },
+          { "text": "Lasse Virén", "isCorrect": false, "explanation": "Incorreto. Outro grande fundista finlandês, bicampeão dos 5k/10k em 72 e 76." }
+        ]
+      },
+      {
+        "question": "Qual o nome da chama que permanece acesa durante os Jogos Olímpicos?",
+        "options": [
+          { "text": "Chama Eterna", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Tocha Olímpica", "isCorrect": false, "explanation": "Incorreto. A tocha transporta a chama durante o revezamento." },
+          { "text": "Pira Olímpica", "isCorrect": true, "explanation": "Correto! A chama acesa em Olímpia é usada para acender a pira na cerimônia de abertura, que arde até o encerramento." },
+          { "text": "Fogo de Zeus", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+       {
+        "question": "Qual foi a primeira cidade dos EUA a sediar os Jogos Olímpicos de Verão?",
+        "options": [
+          { "text": "Los Angeles (1932)", "isCorrect": false, "explanation": "Incorreto. LA foi a segunda." },
+          { "text": "St. Louis (1904)", "isCorrect": true, "explanation": "Correto! Os Jogos de St. Louis foram integrados à Feira Mundial e tiveram pouca participação internacional." },
+          { "text": "Atlanta (1996)", "isCorrect": false, "explanation": "Incorreto. Atlanta foi a terceira." },
+          { "text": "Chicago (candidata)", "isCorrect": false, "explanation": "Incorreto. Chicago foi candidata, mas perdeu." }
+        ]
+      },
+      {
+        "question": "Qual atleta tcheco ganhou 3 medalhas de ouro no atletismo (5k, 10k, maratona) nos Jogos de Helsinque 1952?",
+        "options": [
+          { "text": "Jan Železný", "isCorrect": false, "explanation": "Incorreto. Lenda do lançamento de dardo." },
+          { "text": "Emil Zátopek", "isCorrect": true, "explanation": "Correto! A 'Locomotiva Humana', Zátopek realizou um feito inédito e inigualado ao vencer as três provas de fundo." },
+          { "text": "Věra Čáslavská", "isCorrect": false, "explanation": "Incorreto. Ginasta multicampeã." },
+          { "text": "Dana Zátopková", "isCorrect": false, "explanation": "Incorreto. Esposa de Emil, também campeã olímpica no dardo em 1952." }
+        ]
+      },
+       {
+        "question": "Qual esporte foi retirado do programa olímpico após 2008 e retornou em 2020?",
+        "options": [
+          { "text": "Golfe", "isCorrect": false, "explanation": "Incorreto. Retornou em 2016." },
+          { "text": "Rugby", "isCorrect": false, "explanation": "Incorreto. Retornou em 2016 (Sevens)." },
+          { "text": "Beisebol/Softbol", "isCorrect": true, "explanation": "Correto! Foram excluídos após Pequim 2008 e voltaram em Tóquio 2020, mas foram retirados novamente para 2024 (retornarão em 2028)." },
+          { "text": "Luta Greco-Romana", "isCorrect": false, "explanation": "Incorreto. A luta chegou a ser excluída, mas foi reintegrada rapidamente." }
+        ]
+      },
+      {
+        "question": "Qual o recorde de medalhas de ouro conquistadas por um país em uma única edição dos Jogos de Verão?",
+        "options": [
+          { "text": "China (Pequim 2008) - 48 ouros", "isCorrect": false, "explanation": "Incorreto. A China ganhou 48 ouros em casa, mas não é o recorde." },
+          { "text": "Estados Unidos (Los Angeles 1984) - 83 ouros", "isCorrect": true, "explanation": "Correto! Beneficiados pelo boicote soviético, os EUA tiveram um desempenho recorde em LA." },
+          { "text": "União Soviética (Moscou 1980) - 80 ouros", "isCorrect": false, "explanation": "Incorreto. Também beneficiada por boicote, mas com menos ouros que os EUA em 84." },
+          { "text": "Estados Unidos (Atlanta 1996) - 44 ouros", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual esporte de inverno combina descida em velocidade e saltos?",
+        "options": [
+          { "text": "Esqui Alpino", "isCorrect": false, "explanation": "Incorreto. Foco na velocidade em percursos demarcados." },
+          { "text": "Esqui Freestyle (Moguls/Aerials)", "isCorrect": true, "explanation": "Correto! Modalidades como Moguls (descida em pista com 'lombadas' e saltos) e Aerials (saltos acrobáticos) combinam os elementos." },
+          { "text": "Salto de Esqui", "isCorrect": false, "explanation": "Incorreto. Foco exclusivo no salto para distância e estilo." },
+          { "text": "Snowboard Cross", "isCorrect": false, "explanation": "Incorreto. Corrida de snowboard em percurso com obstáculos." }
+        ]
+      },
+      {
+        "question": "Qual nadadora húngara ganhou 5 medalhas de ouro em uma única Olimpíada (Seul 1988)?",
+        "options": [
+          { "text": "Katinka Hosszú", "isCorrect": false, "explanation": "Incorreto. 'Dama de Ferro', multicampeã nos anos 2010." },
+          { "text": "Krisztina Egerszegi", "isCorrect": true, "explanation": "Correto! Egerszegi, especialista em nado costas e medley, teve um desempenho dominante em Seul aos 14 anos." },
+          { "text": "Janet Evans", "isCorrect": false, "explanation": "Incorreto. Nadadora americana de fundo, rival de Egerszegi." },
+          { "text": "Ágnes Kovács", "isCorrect": false, "explanation": "Incorreto. Nadadora húngara especialista em nado peito." }
+        ]
+      },
+      {
+        "question": "O que são os Jogos Olímpicos da Juventude?",
+        "options": [
+          { "text": "Uma versão reduzida dos Jogos Olímpicos principais.", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Um evento multiesportivo internacional para atletas entre 14 e 18 anos.", "isCorrect": true, "explanation": "Correto! Criados pelo COI, a primeira edição de Verão foi em Singapura (2010) e a de Inverno em Innsbruck (2012)." },
+          { "text": "Os Jogos Paralímpicos para jovens.", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Competições realizadas nas escolas antes das Olimpíadas.", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual país boicotou os Jogos de Montreal 1976 devido à participação da Nova Zelândia (que havia jogado rugby contra a África do Sul do apartheid)?",
+        "options": [
+          { "text": "União Soviética", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Estados Unidos", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Um grupo de 29 países, a maioria africanos.", "isCorrect": true, "explanation": "Correto! Liderados pela Tanzânia, esses países protestaram contra a presença da Nova Zelândia." },
+          { "text": "China", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+       {
+        "question": "Qual o recorde mundial de Florence Griffith-Joyner ('Flo-Jo') nos 100m rasos femininos?",
+        "options": [
+          { "text": "10.62s", "isCorrect": false, "explanation": "Incorreto. Tempo de Elaine Thompson-Herah, segundo melhor da história." },
+          { "text": "10.49s", "isCorrect": true, "explanation": "Correto! Estabelecido em 1988, o recorde de Flo-Jo é um dos mais duradouros e controversos do atletismo." },
+          { "text": "10.75s", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "10.33s", "isCorrect": false, "explanation": "Incorreto. Tempo fora da realidade." }
+        ]
+      },
+      {
+        "question": "Qual cidade canadense sediou os Jogos Olímpicos de Inverno em 1988?",
+        "options": [
+          { "text": "Montreal", "isCorrect": false, "explanation": "Incorreto. Montreal sediou os Jogos de Verão em 1976." },
+          { "text": "Vancouver", "isCorrect": false, "explanation": "Incorreto. Vancouver sediou os Jogos de Inverno em 2010." },
+          { "text": "Calgary", "isCorrect": true, "explanation": "Correto! Calgary, na província de Alberta, sediou os Jogos famosos pela história da equipe jamaicana de bobsled ('Jamaica Abaixo de Zero')." },
+          { "text": "Quebec City", "isCorrect": false, "explanation": "Incorreto. Foi candidata, mas não sediou." }
+        ]
+      },
+       {
+        "question": "Qual atleta brasileiro se tornou o primeiro campeão olímpico da ginástica artística (argolas) em 2012?",
+        "options": [
+          { "text": "Diego Hypólito", "isCorrect": false, "explanation": "Incorreto. Diego foi prata no solo em 2016." },
+          { "text": "Arthur Nory", "isCorrect": false, "explanation": "Incorreto. Nory foi bronze no solo em 2016." },
+          { "text": "Arthur Zanetti", "isCorrect": true, "explanation": "Correto! Zanetti conquistou um ouro inédito para o Brasil nas argolas em Londres 2012 (e prata em 2016)." },
+          { "text": "Francisco Barretto Júnior", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual foi a primeira edição dos Jogos Olímpicos modernos a ser televisionada?",
+        "options": [
+          { "text": "Los Angeles 1932", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Berlim 1936", "isCorrect": true, "explanation": "Correto! Os Jogos de Berlim tiveram as primeiras transmissões de TV ao vivo, embora para um público muito limitado em circuito fechado." },
+          { "text": "Londres 1948", "isCorrect": false, "explanation": "Incorreto. Londres teve maior cobertura televisiva doméstica." },
+          { "text": "Roma 1960", "isCorrect": false, "explanation": "Incorreto. Roma teve ampla cobertura internacional." }
+        ]
+      }
+    ]
+  }

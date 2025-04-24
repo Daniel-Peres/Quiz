@@ -1,0 +1,819 @@
+{
+  "config": {
+    "theme": "Copas do Mundo: 1930, 1934 e 1938",
+    "totalPoints": 1000,
+    "scoring": "points"
+  },
+  "data": [
+    {
+      "question": "Em qual país foi realizada a primeira Copa do Mundo FIFA em 1930?",
+      "options": [
+        { "text": "Itália", "isCorrect": false, "explanation": "Incorreto. A Itália sediou a segunda Copa, em 1934, sob o regime de Mussolini." },
+        { "text": "Brasil", "isCorrect": false, "explanation": "Incorreto. O Brasil só sediou pela primeira vez em 1950, no famoso 'Maracanaço'." },
+        { "text": "França", "isCorrect": false, "explanation": "Incorreto. A França sediou a terceira edição, em 1938, às vésperas da Segunda Guerra." },
+        { "text": "Uruguai", "isCorrect": true, "explanation": "Correto! O Uruguai foi escolhido por ser bicampeão olímpico e celebrar o centenário de sua independência, sediando e vencendo a Copa inaugural." }
+      ]
+    },
+    {
+      "question": "Qual seleção sagrou-se campeã da Copa do Mundo de 1930?",
+      "options": [
+        { "text": "Argentina", "isCorrect": false, "explanation": "Incorreto. A Argentina chegou à final, mas perdeu para os anfitriões uruguaios." },
+        { "text": "Uruguai", "isCorrect": true, "explanation": "Correto! A 'Celeste Olímpica' venceu a emocionante final contra a Argentina por 4 a 2." },
+        { "text": "Estados Unidos", "isCorrect": false, "explanation": "Incorreto. Os EUA fizeram boa campanha e ficaram em terceiro lugar." },
+        { "text": "Iugoslávia", "isCorrect": false, "explanation": "Incorreto. A Iugoslávia foi a melhor seleção europeia, terminando em quarto lugar." }
+      ]
+    },
+    {
+      "question": "Qual foi o placar da final da Copa do Mundo de 1930 entre Uruguai e Argentina?",
+      "options": [
+        { "text": "2 a 1 para o Uruguai", "isCorrect": false, "explanation": "Incorreto. O placar foi mais elástico." },
+        { "text": "3 a 2 para a Argentina", "isCorrect": false, "explanation": "Incorreto. A Argentina chegou a virar o jogo para 2 a 1, mas o Uruguai reverteu." },
+        { "text": "4 a 2 para o Uruguai", "isCorrect": true, "explanation": "Correto! Após estar perdendo por 2 a 1, o Uruguai virou e venceu no Estádio Centenário." },
+        { "text": "1 a 0 para o Uruguai", "isCorrect": false, "explanation": "Incorreto. Foi uma final com muitos gols." }
+      ]
+    },
+    {
+      "question": "Quantas seleções participaram da Copa de 1930?",
+      "options": [
+        { "text": "16", "isCorrect": false, "explanation": "Incorreto. Dezesseis seleções participaram da Copa de 1934." },
+        { "text": "8", "isCorrect": false, "explanation": "Incorreto. Foi um número maior." },
+        { "text": "13", "isCorrect": true, "explanation": "Correto! Devido às dificuldades da viagem, apenas 13 nações (9 das Américas e 4 da Europa) disputaram o torneio inaugural." },
+        { "text": "20", "isCorrect": false, "explanation": "Incorreto." }
+      ]
+    },
+    {
+      "question": "Qual o nome do estádio construído em Montevidéu especialmente para a Copa de 1930?",
+      "options": [
+        { "text": "Estádio Gran Parque Central", "isCorrect": false, "explanation": "Incorreto. Estádio do Nacional, já existente, sediou alguns jogos." },
+        { "text": "Estádio Pocitos", "isCorrect": false, "explanation": "Incorreto. Estádio do Peñarol na época, palco do primeiro gol das Copas, mas não o principal." },
+        { "text": "Estádio Centenário", "isCorrect": true, "explanation": "Correto! Construído em tempo recorde para celebrar os 100 anos da Constituição uruguaia, foi palco da final e é um templo do futebol." },
+        { "text": "Estádio Luis Franzini", "isCorrect": false, "explanation": "Incorreto. Estádio do Defensor Sporting." }
+      ]
+    },
+    {
+      "question": "Qual jogador marcou o primeiro gol da história das Copas do Mundo em 1930?",
+      "options": [
+        { "text": "Guillermo Stábile (Argentina)", "isCorrect": false, "explanation": "Incorreto. Stábile foi o artilheiro da Copa de 1930 com 8 gols." },
+        { "text": "Lucien Laurent (França)", "isCorrect": true, "explanation": "Correto! Laurent marcou aos 19 minutos do primeiro tempo na vitória da França por 4 a 1 sobre o México." },
+        { "text": "Pedro Cea (Uruguai)", "isCorrect": false, "explanation": "Incorreto. Cea foi um dos destaques uruguaios, marcando gol na final." },
+        { "text": "Bert Patenaude (EUA)", "isCorrect": false, "explanation": "Incorreto. Patenaude marcou o primeiro hat-trick (3 gols) da história das Copas." }
+      ]
+    },
+    {
+        "question": "Qual país sediou a segunda Copa do Mundo em 1934?",
+        "options": [
+            { "text": "Uruguai", "isCorrect": false, "explanation": "Incorreto. O Uruguai sediou a primeira Copa em 1930." },
+            { "text": "França", "isCorrect": false, "explanation": "Incorreto. A França sediou a terceira Copa em 1938." },
+            { "text": "Itália", "isCorrect": true, "explanation": "Correto! A Itália fascista de Benito Mussolini sediou e venceu a segunda edição do torneio." },
+            { "text": "Alemanha", "isCorrect": false, "explanation": "Incorreto. A Alemanha sediou pela primeira vez (Ocidental) em 1974." }
+        ]
+      },
+      {
+        "question": "Qual seleção venceu a Copa do Mundo de 1934?",
+        "options": [
+            { "text": "Tchecoslováquia", "isCorrect": false, "explanation": "Incorreto. A Tchecoslováquia fez grande campanha, mas foi vice-campeã." },
+            { "text": "Alemanha", "isCorrect": false, "explanation": "Incorreto. A Alemanha ficou em terceiro lugar, vencendo a Áustria." },
+            { "text": "Itália", "isCorrect": true, "explanation": "Correto! Jogando em casa, a Itália venceu a Tchecoslováquia por 2 a 1 na prorrogação da final em Roma." },
+            { "text": "Áustria ('Wunderteam')", "isCorrect": false, "explanation": "Incorreto. O aclamado 'Wunderteam' austríaco ficou em quarto lugar." }
+        ]
+      },
+      {
+        "question": "Qual foi a principal mudança no formato da Copa de 1934 em relação à de 1930?",
+        "options": [
+            { "text": "Aumento para 24 times.", "isCorrect": false, "explanation": "Incorreto. O número de times aumentou de 13 para 16." },
+            { "text": "Fase de grupos com mais times.", "isCorrect": false, "explanation": "Incorreto. A fase de grupos foi abolida nesta edição." },
+            { "text": "Formato totalmente eliminatório (mata-mata) desde o início.", "isCorrect": true, "explanation": "Correto! A Copa de 1934 foi a única sem fase de grupos; 16 times disputaram oitavas, quartas, semis e final." },
+            { "text": "Introdução da disputa por pênaltis.", "isCorrect": false, "explanation": "Incorreto. Pênaltis só foram introduzidos como desempate décadas depois." }
+        ]
+      },
+      {
+        "question": "Por que o Uruguai, campeão de 1930, não participou da Copa de 1934?",
+        "options": [
+            { "text": "Não conseguiu vaga nas eliminatórias.", "isCorrect": false, "explanation": "Incorreto. Como campeão, não precisaria disputar eliminatórias (embora a Itália, sede, tenha jogado)." },
+            { "text": "Estava suspenso pela FIFA.", "isCorrect": false, "explanation": "Incorreto." },
+            { "text": "Boicotou o torneio em retaliação à ausência de muitas nações europeias em 1930.", "isCorrect": true, "explanation": "Correto! Foi a única vez que o campeão vigente não defendeu seu título." },
+            { "text": "Enfrentava uma guerra civil.", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+       {
+        "question": "Qual país sediou a Copa do Mundo de 1938?",
+        "options": [
+          { "text": "Itália", "isCorrect": false, "explanation": "Incorreto. A Itália sediou a Copa anterior, em 1934." },
+          { "text": "Alemanha", "isCorrect": false, "explanation": "Incorreto. A Alemanha sediaria apenas em 1974 (Ocidental) e 2006." },
+          { "text": "França", "isCorrect": true, "explanation": "Correto! A França foi escolhida para sediar a terceira edição, pouco antes do início da Segunda Guerra Mundial." },
+          { "text": "Suécia", "isCorrect": false, "explanation": "Incorreto. A Suécia sediou a Copa de 1958." }
+        ]
+      },
+      {
+        "question": "Qual seleção venceu a Copa do Mundo de 1938?",
+        "options": [
+          { "text": "Hungria", "isCorrect": false, "explanation": "Incorreto. A Hungria chegou à final, mas foi vice-campeã." },
+          { "text": "Brasil", "isCorrect": false, "explanation": "Incorreto. O Brasil ficou em terceiro lugar, seu melhor resultado até então." },
+          { "text": "França", "isCorrect": false, "explanation": "Incorreto. A anfitriã França foi eliminada nas quartas de final pela campeã Itália." },
+          { "text": "Itália", "isCorrect": true, "explanation": "Correto! A Itália se tornou a primeira seleção bicampeã mundial (e a primeira a vencer fora de casa), derrotando a Hungria por 4 a 2 na final." }
+        ]
+      },
+      {
+        "question": "Qual jogador brasileiro marcou o primeiro gol da Seleção em Copas?",
+        "options": [
+          { "text": "Friedenreich (1930)", "isCorrect": false, "explanation": "Incorreto. Friedenreich não jogou a Copa de 1930." },
+          { "text": "Preguinho (1930)", "isCorrect": true, "explanation": "Correto! João Coelho Neto, o Preguinho, marcou o gol de honra na derrota para a Iugoslávia na estreia brasileira em Copas." },
+          { "text": "Leônidas da Silva (1934)", "isCorrect": false, "explanation": "Incorreto. Leônidas marcou o primeiro gol brasileiro na Copa de 1934, mas Preguinho marcou antes, em 1930." },
+          { "text": "Moderato (1930)", "isCorrect": false, "explanation": "Incorreto. Moderato marcou dois gols contra a Bolívia em 1930, mas depois do gol de Preguinho." }
+        ]
+      },
+      {
+        "question": "Quem foi o artilheiro da Copa de 1930?",
+        "options": [
+          { "text": "Héctor Castro (Uruguai)", "isCorrect": false, "explanation": "Incorreto. 'El Manco' marcou gol na final." },
+          { "text": "Guillermo Stábile (Argentina)", "isCorrect": true, "explanation": "Correto! O atacante argentino marcou 8 gols em apenas 4 jogos." },
+          { "text": "Pedro Cea (Uruguai)", "isCorrect": false, "explanation": "Incorreto. Cea marcou 5 gols." },
+          { "text": "Bert Patenaude (EUA)", "isCorrect": false, "explanation": "Incorreto. Patenaude marcou 4 gols, incluindo o primeiro hat-trick." }
+        ]
+      },
+      {
+        "question": "Quem foi o artilheiro da Copa de 1934?",
+        "options": [
+          { "text": "Giuseppe Meazza (Itália)", "isCorrect": false, "explanation": "Incorreto. Meazza foi craque italiano, mas marcou 2 gols." },
+          { "text": "Angelo Schiavio (Itália)", "isCorrect": false, "explanation": "Incorreto. Schiavio marcou 4 gols, incluindo o da vitória na final." },
+          { "text": "Oldřich Nejedlý (Tchecoslováquia)", "isCorrect": true, "explanation": "Correto! O atacante tcheco marcou 5 gols e foi o artilheiro isolado." },
+          { "text": "Edmund Conen (Alemanha)", "isCorrect": false, "explanation": "Incorreto. Conen marcou 4 gols." }
+        ]
+      },
+      {
+        "question": "Quem foi o artilheiro da Copa de 1938?",
+        "options": [
+          { "text": "Gyula Zsengellér (Hungria)", "isCorrect": false, "explanation": "Incorreto. Zsengellér marcou 5 gols." },
+          { "text": "Silvio Piola (Itália)", "isCorrect": false, "explanation": "Incorreto. Piola marcou 5 gols, incluindo dois na final." },
+          { "text": "Leônidas da Silva (Brasil)", "isCorrect": true, "explanation": "Correto! O 'Diamante Negro' marcou 7 gols (inicialmente creditado com 8) e foi o artilheiro." },
+          { "text": "Perácio (Brasil)", "isCorrect": false, "explanation": "Incorreto. Perácio marcou 3 gols." }
+        ]
+      },
+       {
+        "question": "Qual a única vez que o país-sede precisou jogar as eliminatórias para a Copa?",
+        "options": [
+          { "text": "Uruguai 1930", "isCorrect": false, "explanation": "Incorreto. Sede escolhida, sem eliminatórias." },
+          { "text": "Itália 1934", "isCorrect": true, "explanation": "Correto! Curiosamente, a Itália teve que disputar (e vencer) um jogo eliminatório contra a Grécia para garantir sua vaga como anfitriã." },
+          { "text": "França 1938", "isCorrect": false, "explanation": "Incorreto. França (sede) e Itália (campeã) classificaram-se automaticamente." },
+          { "text": "Brasil 1950", "isCorrect": false, "explanation": "Incorreto. Sede classificada automaticamente." }
+        ]
+      },
+      {
+        "question": "Qual seleção aplicou a maior goleada da Copa de 1938?",
+        "options": [
+          { "text": "Itália (sobre a Noruega)", "isCorrect": false, "explanation": "Incorreto. Itália venceu por 2x1 na prorrogação." },
+          { "text": "Hungria (sobre as Índias Orientais Holandesas)", "isCorrect": true, "explanation": "Correto! A Hungria venceu por 6 a 0. A Suécia também venceu Cuba por 8 a 0." },
+          { "text": "Brasil (sobre a Polônia)", "isCorrect": false, "explanation": "Incorreto. Foi um jogo emocionante de 6 a 5 para o Brasil." },
+          { "text": "Suécia (sobre Cuba)", "isCorrect": false, "explanation": "Incorreto. A Suécia goleou Cuba por 8 a 0, a maior goleada junto com Hungria 6x0 Índias Orientais Holandesas." }
+        ]
+      },
+      {
+        "question": "Qual jogador argentino, vice-campeão em 1930, tornou-se campeão em 1934 pela Itália?",
+        "options": [
+          { "text": "Guillermo Stábile", "isCorrect": false, "explanation": "Incorreto. Stábile foi artilheiro em 1930, mas não jogou em 1934." },
+          { "text": "Luis Monti", "isCorrect": true, "explanation": "Correto! O meio-campista Monti é o único a ter disputado duas finais de Copa por países diferentes." },
+          { "text": "Raimundo Orsi", "isCorrect": false, "explanation": "Incorreto. Orsi, também oriundo, foi campeão em 1934 mas não jogou a final de 1930." },
+          { "text": "Carlos Peucelle", "isCorrect": false, "explanation": "Incorreto. Jogou pela Argentina em 1930." }
+        ]
+      },
+      {
+        "question": "Qual seleção era conhecida como 'Wunderteam' (Time Maravilha) na década de 1930?",
+        "options": [
+          { "text": "Itália", "isCorrect": false, "explanation": "Incorreto. A Itália era forte, mas o apelido era de outra seleção." },
+          { "text": "Hungria", "isCorrect": false, "explanation": "Incorreto. A Hungria teria sua grande geração nos anos 50." },
+          { "text": "Áustria", "isCorrect": true, "explanation": "Correto! Liderada por Matthias Sindelar e treinada por Hugo Meisl, a Áustria praticava um futebol técnico e envolvente." },
+          { "text": "Tchecoslováquia", "isCorrect": false, "explanation": "Incorreto. Foi vice-campeã em 1934." }
+        ]
+      },
+      {
+        "question": "Qual foi a primeira seleção africana a participar de uma Copa do Mundo?",
+        "options": [
+          { "text": "Marrocos (1970)", "isCorrect": false, "explanation": "Incorreto. Marrocos foi o primeiro africano a pontuar (empate em 1970)." },
+          { "text": "Egito (1934)", "isCorrect": true, "explanation": "Correto! O Egito disputou a Copa de 1934 na Itália, sendo eliminado pela Hungria logo na primeira partida." },
+          { "text": "Tunísia (1978)", "isCorrect": false, "explanation": "Incorreto. Tunísia foi a primeira africana a vencer um jogo em Copas." },
+          { "text": "Camarões (1982)", "isCorrect": false, "explanation": "Incorreto. Camarões estreou em 1982." }
+        ]
+      },
+      {
+        "question": "Qual foi a primeira seleção asiática a participar de uma Copa do Mundo?",
+        "options": [
+          { "text": "Japão (1998)", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Coreia do Sul (1954)", "isCorrect": false, "explanation": "Incorreto. A Coreia estreou em 1954." },
+          { "text": "Índias Orientais Holandesas (1938)", "isCorrect": true, "explanation": "Correto! Atual Indonésia, era colônia holandesa e disputou a Copa de 1938, sendo eliminada pela Hungria." },
+          { "text": "China (2002)", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual jogador brasileiro ficou famoso por jogar descalço (ou com meias) em parte de um jogo na Copa de 1938?",
+        "options": [
+          { "text": "Domingos da Guia", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Leônidas da Silva", "isCorrect": true, "explanation": "Correto! Na partida contra a Polônia, sob forte chuva, Leônidas teria perdido uma chuteira e continuado a jogar (e marcar gol) descalço temporariamente." },
+          { "text": "Perácio", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Zezé Procópio", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual o nome do presidente da FIFA que idealizou e deu nome à primeira taça da Copa do Mundo?",
+        "options": [
+          { "text": "Stanley Rous", "isCorrect": false, "explanation": "Incorreto. Inglês, foi presidente da FIFA depois de Rimet." },
+          { "text": "João Havelange", "isCorrect": false, "explanation": "Incorreto. Brasileiro, presidiu a FIFA de 1974 a 1998." },
+          { "text": "Jules Rimet", "isCorrect": true, "explanation": "Correto! Francês, foi o terceiro presidente da FIFA e grande impulsionador da criação da Copa do Mundo, dando nome ao troféu original." },
+          { "text": "Sepp Blatter", "isCorrect": false, "explanation": "Incorreto. Suíço, sucedeu Havelange." }
+        ]
+      },
+      {
+        "question": "Qual controvérsia marcou a final da Copa de 1930 envolvendo as bolas?",
+        "options": [
+          { "text": "A bola estourou durante o jogo.", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Uruguai e Argentina queriam usar bolas diferentes, e jogaram um tempo com cada.", "isCorrect": true, "explanation": "Correto! Não havia bola oficial padronizada. O árbitro belga permitiu usar a bola argentina no 1º tempo e a uruguaia no 2º." },
+          { "text": "A bola usada era muito leve.", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Faltaram bolas para a partida.", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual jogador uruguaio, que havia perdido um braço, marcou o último gol da final de 1930?",
+        "options": [
+          { "text": "José Nasazzi", "isCorrect": false, "explanation": "Incorreto. Nasazzi foi o capitão que recebeu a taça." },
+          { "text": "Pedro Cea", "isCorrect": false, "explanation": "Incorreto. Cea marcou o gol de empate (2-2)." },
+          { "text": "Héctor Castro", "isCorrect": true, "explanation": "Correto! Conhecido como 'El Divino Manco', Castro perdeu parte do braço direito em um acidente, mas marcou o 4º gol uruguaio." },
+          { "text": "Santos Iriarte", "isCorrect": false, "explanation": "Incorreto. Iriarte marcou o gol da virada (3-2)." }
+        ]
+      },
+      {
+        "question": "Qual técnico italiano venceu as Copas de 1934 e 1938?",
+        "options": [
+          { "text": "Enzo Bearzot", "isCorrect": false, "explanation": "Incorreto. Campeão em 1982." },
+          { "text": "Vittorio Pozzo", "isCorrect": true, "explanation": "Correto! Pozzo é o único técnico na história a conquistar duas Copas do Mundo consecutivas." },
+          { "text": "Marcello Lippi", "isCorrect": false, "explanation": "Incorreto. Campeão em 2006." },
+          { "text": "Ferruccio Valcareggi", "isCorrect": false, "explanation": "Incorreto. Técnico vice-campeão em 1970." }
+        ]
+      },
+      {
+        "question": "Qual país, que seria anexado pela Alemanha Nazista em 1938, não pôde disputar a Copa daquele ano?",
+        "options": [
+          { "text": "Polônia", "isCorrect": false, "explanation": "Incorreto. A Polônia disputou a Copa de 1938 (perdendo para o Brasil)." },
+          { "text": "Tchecoslováquia", "isCorrect": false, "explanation": "Incorreto. A Tchecoslováquia disputou e chegou às quartas." },
+          { "text": "Áustria", "isCorrect": true, "explanation": "Correto! A Áustria ('Wunderteam') se classificou, mas foi anexada pela Alemanha (Anschluss) antes do torneio e não competiu como nação independente." },
+          { "text": "Hungria", "isCorrect": false, "explanation": "Incorreto. A Hungria foi vice-campeã." }
+        ]
+      },
+       {
+        "question": "Qual o nome do navio que transportou várias delegações europeias e a Taça Jules Rimet para a Copa de 1930?",
+        "options": [
+          { "text": "RMS Titanic", "isCorrect": false, "explanation": "Incorreto. Navio famoso que naufragou em 1912." },
+          { "text": "Conte Verde", "isCorrect": true, "explanation": "Correto! O transatlântico italiano levou as equipes da França, Bélgica, Romênia, além de Jules Rimet e o troféu, em uma longa viagem." },
+          { "text": "SS Normandie", "isCorrect": false, "explanation": "Incorreto. Famoso transatlântico francês dos anos 30." },
+          { "text": "Queen Mary", "isCorrect": false, "explanation": "Incorreto. Famoso transatlântico britânico." }
+        ]
+      },
+      {
+        "question": "Quantos jogos o Brasil disputou na Copa de 1934?",
+        "options": [
+          { "text": "Três (fase de grupos)", "isCorrect": false, "explanation": "Incorreto. O formato era eliminatório." },
+          { "text": "Apenas um", "isCorrect": true, "explanation": "Correto! Como o torneio era mata-mata desde o início, o Brasil perdeu para a Espanha por 3 a 1 logo na estreia e foi eliminado." },
+          { "text": "Dois", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Quatro (chegou às semifinais)", "isCorrect": false, "explanation": "Incorreto. Isso ocorreu em 1938." }
+        ]
+      },
+      {
+        "question": "Qual foi a primeira Copa do Mundo a ter jogos transmitidos pelo rádio?",
+        "options": [
+          { "text": "1930 (Uruguai)", "isCorrect": false, "explanation": "Incorreto. Houve relatos, mas não transmissões ao vivo." },
+          { "text": "1934 (Itália)", "isCorrect": true, "explanation": "Correto! A Copa da Itália foi a primeira a ter algumas partidas transmitidas ao vivo pelo rádio para diversos países." },
+          { "text": "1938 (França)", "isCorrect": false, "explanation": "Incorreto. As transmissões se ampliaram em 1938." },
+          { "text": "1950 (Brasil)", "isCorrect": false, "explanation": "Incorreto. Em 1950, a TV já começava a aparecer." }
+        ]
+      },
+      {
+        "question": "Qual jogador marcou o primeiro hat-trick (3 gols no mesmo jogo) da história das Copas?",
+        "options": [
+          { "text": "Guillermo Stábile (Argentina, 1930)", "isCorrect": false, "explanation": "Incorreto. Stábile foi artilheiro, mas não fez o primeiro hat-trick." },
+          { "text": "Bert Patenaude (EUA, 1930)", "isCorrect": true, "explanation": "Correto! Embora houvesse disputa sobre um dos gols, a FIFA reconheceu oficialmente Patenaude como autor do primeiro hat-trick contra o Paraguai." },
+          { "text": "Angelo Schiavio (Itália, 1934)", "isCorrect": false, "explanation": "Incorreto. Schiavio fez um hat-trick em 1934, mas não foi o primeiro." },
+          { "text": "Leônidas da Silva (Brasil, 1938)", "isCorrect": false, "explanation": "Incorreto. Leônidas fez hat-trick contra a Polônia em 1938." }
+        ]
+      },
+      {
+        "question": "Qual o placar do jogo mais emocionante da Copa de 1938, entre Brasil e Polônia?",
+        "options": [
+          { "text": "4 a 2 para o Brasil", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "5 a 4 para a Polônia", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "6 a 5 para o Brasil (na prorrogação)", "isCorrect": true, "explanation": "Correto! Jogo épico com 4 gols de Leônidas e 4 gols do polonês Ernest Wilimowski." },
+          { "text": "3 a 3 (Brasil venceu nos pênaltis)", "isCorrect": false, "explanation": "Incorreto. Não havia disputa por pênaltis." }
+        ]
+      },
+      {
+        "question": "Qual jogador italiano foi o capitão nas conquistas de 1934 e 1938?",
+        "options": [
+          { "text": "Giuseppe Meazza", "isCorrect": true, "explanation": "Correto! Meazza foi capitão em 1938. Em 1934, o capitão foi Combi (goleiro), mas Meazza já era estrela. (Refinando: Meazza foi capitão em 38, Combi em 34)." },
+          { "text": "Luis Monti", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Angelo Schiavio", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Silvio Piola", "isCorrect": false, "explanation": "Incorreto. Piola foi destaque em 1938." }
+        ]
+      },
+       {
+        "question": "Quantos países sul-americanos disputaram a Copa de 1938?",
+        "options": [
+          { "text": "Quatro (Brasil, Argentina, Uruguai, Chile)", "isCorrect": false, "explanation": "Incorreto. Argentina e Uruguai não participaram." },
+          { "text": "Apenas um (Brasil)", "isCorrect": true, "explanation": "Correto! Devido a boicotes e desistências, o Brasil foi o único representante da América do Sul na França." },
+          { "text": "Dois (Brasil e Cuba)", "isCorrect": false, "explanation": "Incorreto. Cuba era da América Central/Caribe." },
+          { "text": "Três (Brasil, Peru, Chile)", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual destes países NÃO participou da Copa de 1930?",
+        "options": [
+          { "text": "Estados Unidos", "isCorrect": false, "explanation": "Incorreto. Os EUA participaram e ficaram em 3º lugar." },
+          { "text": "México", "isCorrect": false, "explanation": "Incorreto. O México participou da Copa de 1930." },
+          { "text": "Itália", "isCorrect": true, "explanation": "Correto! A Itália, assim como outras potências europeias, declinou o convite para a longa viagem ao Uruguai." },
+          { "text": "França", "isCorrect": false, "explanation": "Incorreto. A França foi uma das 4 seleções europeias presentes." }
+        ]
+      },
+      {
+        "question": "Qual foi a primeira Copa a ter um jogo de desempate após empate na prorrogação?",
+        "options": [
+          { "text": "1930", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "1934", "isCorrect": true, "explanation": "Correto! O jogo entre Itália e Espanha nas quartas de final terminou 1x1 após prorrogação. Um novo jogo foi realizado no dia seguinte, com vitória italiana por 1x0." },
+          { "text": "1938", "isCorrect": false, "explanation": "Incorreto. Em 1938 também houve jogos de desempate, mas 1934 foi a primeira." },
+          { "text": "1950", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual jogador brasileiro foi poupado na semifinal de 1938 contra a Itália e fez falta na derrota?",
+        "options": [
+          { "text": "Domingos da Guia", "isCorrect": false, "explanation": "Incorreto. Domingos jogou a semifinal." },
+          { "text": "Leônidas da Silva", "isCorrect": true, "explanation": "Correto! O técnico Ademar Pimenta poupou Leônidas, artilheiro do time, pensando na final. O Brasil perdeu por 2 a 1." },
+          { "text": "Perácio", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Batatais (goleiro)", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual foi a média de público estimada na final da Copa de 1930 no Estádio Centenário?",
+        "options": [
+          { "text": "Cerca de 30.000 pessoas", "isCorrect": false, "explanation": "Incorreto. Foi muito maior." },
+          { "text": "Cerca de 50.000 pessoas", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Cerca de 70.000 a 90.000 pessoas", "isCorrect": true, "explanation": "Correto! Os números oficiais variam, mas estima-se algo em torno de 68.000 a 93.000 espectadores." },
+          { "text": "Mais de 150.000 pessoas", "isCorrect": false, "explanation": "Incorreto. Esse número é mais associado à final de 1950 no Maracanã." }
+        ]
+      },
+      {
+        "question": "Qual destes jogadores NÃO era um 'oriundo' (sul-americano naturalizado) na seleção italiana campeã de 1934?",
+        "options": [
+          { "text": "Luis Monti (Argentino)", "isCorrect": false, "explanation": "Incorreto. Monti foi titular da Itália." },
+          { "text": "Raimundo Orsi (Argentino)", "isCorrect": false, "explanation": "Incorreto. Orsi foi titular e marcou gol na final." },
+          { "text": "Enrique Guaita (Argentino)", "isCorrect": false, "explanation": "Incorreto. Guaita também foi titular no ataque." },
+          { "text": "Giuseppe Meazza (Italiano)", "isCorrect": true, "explanation": "Correto! Meazza foi um dos maiores craques italianos da história, nascido em Milão." }
+        ]
+      },
+       {
+        "question": "Qual seleção derrotou a Suécia na semifinal da Copa de 1938?",
+        "options": [
+          { "text": "Itália", "isCorrect": false, "explanation": "Incorreto. A Itália derrotou o Brasil." },
+          { "text": "Hungria", "isCorrect": true, "explanation": "Correto! A Hungria goleou a Suécia por 5 a 1." },
+          { "text": "Brasil", "isCorrect": false, "explanation": "Incorreto. O Brasil disputou o 3º lugar contra a Suécia." },
+          { "text": "Tchecoslováquia", "isCorrect": false, "explanation": "Incorreto. Foi eliminada pelo Brasil nas quartas." }
+        ]
+      },
+      {
+        "question": "Qual o nome do troféu original da Copa do Mundo?",
+        "options": [
+          { "text": "Taça FIFA", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Taça da Vitória", "isCorrect": true, "explanation": "Correto! Inicialmente chamado 'Vitória', foi depois renomeado Taça Jules Rimet em 1946." },
+          { "text": "Taça Stanley Rous", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Taça João Havelange", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Quantos gols foram marcados na final da Copa de 1934 (Itália 2x1 Tchecoslováquia)?",
+        "options": [
+          { "text": "1 gol", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "2 gols", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "3 gols", "isCorrect": true, "explanation": "Correto! Puč abriu o placar para os tchecos, Orsi empatou para a Itália, e Schiavio marcou o gol do título na prorrogação." },
+          { "text": "4 gols", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual seleção teve que jogar uma partida eliminatória contra os EUA *após* chegar à Itália para a Copa de 1934?",
+        "options": [
+          { "text": "Brasil", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Argentina", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Cuba", "isCorrect": false, "explanation": "Incorreto. Cuba jogou eliminatórias, mas não esta." },
+          { "text": "México", "isCorrect": true, "explanation": "Correto! Devido a um problema na inscrição, México e EUA tiveram que disputar uma vaga extra em Roma, com vitória dos EUA." }
+        ]
+      },
+      {
+        "question": "Em que cidade francesa foi disputada a final da Copa de 1938?",
+        "options": [
+          { "text": "Marselha", "isCorrect": false, "explanation": "Incorreto. Marselha sediou uma semifinal." },
+          { "text": "Bordéus", "isCorrect": false, "explanation": "Incorreto. Bordéus sediou uma semifinal." },
+          { "text": "Paris (Colombes)", "isCorrect": true, "explanation": "Correto! A final entre Itália e Hungria foi no Stade Olympique de Colombes, em Paris." },
+          { "text": "Lyon", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual era o apelido do técnico italiano Vittorio Pozzo?",
+        "options": [
+          { "text": "Il Vecchio Maestro (O Velho Mestre)", "isCorrect": true, "explanation": "Correto! Pozzo era conhecido por sua disciplina tática e por liderar a Itália aos títulos de 1934 e 1938." },
+          { "text": "Il Comandante", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Il Professore", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Lo Stratega", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+       {
+        "question": "Qual o número total de jogos disputados na Copa de 1930?",
+        "options": [
+          { "text": "13", "isCorrect": false, "explanation": "Incorreto. Número de participantes." },
+          { "text": "18", "isCorrect": true, "explanation": "Correto! Foram 15 jogos na fase de grupos, 2 semifinais e a final." },
+          { "text": "22", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "16", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual o número total de jogos disputados na Copa de 1934?",
+        "options": [
+          { "text": "16", "isCorrect": false, "explanation": "Incorreto. Número de participantes." },
+          { "text": "17", "isCorrect": true, "explanation": "Correto! Por ser mata-mata, seriam 16 jogos (8 oitavas + 4 quartas + 2 semis + final + 3º lugar), mas houve um jogo de desempate nas quartas." },
+          { "text": "15", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "18", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual o número total de jogos disputados na Copa de 1938?",
+        "options": [
+          { "text": "15", "isCorrect": false, "explanation": "Incorreto. Número de participantes (após desistência da Áustria)." },
+          { "text": "16", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "18", "isCorrect": true, "explanation": "Correto! Com 15 times, houve 7 jogos de oitavas + 1 direto para quartas + 4 quartas (com 3 desempates) + 2 semis + final + 3º lugar = 18 jogos." },
+          { "text": "17", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual foi o primeiro goleiro a ser capitão de uma seleção campeã da Copa?",
+        "options": [
+          { "text": "Lev Yashin (URSS)", "isCorrect": false, "explanation": "Incorreto. Yashin nunca foi campeão da Copa." },
+          { "text": "Gianpiero Combi (Itália, 1934)", "isCorrect": true, "explanation": "Correto! O goleiro da Juventus foi o capitão da primeira conquista italiana." },
+          { "text": "František Plánička (Tchecoslováquia, 1934)", "isCorrect": false, "explanation": "Incorreto. Plánička foi capitão, mas vice-campeão." },
+          { "text": "Dino Zoff (Itália, 1982)", "isCorrect": false, "explanation": "Incorreto. Zoff foi capitão campeão, mas não o primeiro goleiro." }
+        ]
+      },
+       {
+        "question": "Qual jogador marcou o primeiro gol de pênalti na história das Copas do Mundo?",
+        "options": [
+          { "text": "Manuel Rosas (México, 1930)", "isCorrect": true, "explanation": "Correto! O mexicano Rosas marcou contra a Argentina. Curiosamente, ele também marcou o primeiro gol contra da história no mesmo torneio." },
+          { "text": "Guillermo Stábile (Argentina, 1930)", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Raimundo Orsi (Itália, 1934)", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Adolfo Zumelzú (Argentina, 1930)", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual o nome do estádio em Paris que sediou a final da Copa de 1938?",
+        "options": [
+          { "text": "Parc des Princes", "isCorrect": false, "explanation": "Incorreto. Estádio tradicional de Paris, mas a final foi em outro." },
+          { "text": "Stade de France", "isCorrect": false, "explanation": "Incorreto. Construído para a Copa de 1998." },
+          { "text": "Stade Olympique de Colombes (Yves-du-Manoir)", "isCorrect": true, "explanation": "Correto! Principal estádio das Olimpíadas de 1924, sediou a final da Copa." },
+          { "text": "Stade Vélodrome", "isCorrect": false, "explanation": "Incorreto. Estádio localizado em Marselha." }
+        ]
+      },
+       {
+        "question": "Qual foi a maior dificuldade para a organização da Copa de 1930?",
+        "options": [
+          { "text": "Falta de estádios adequados.", "isCorrect": false, "explanation": "Incorreto. O Uruguai construiu o Centenário." },
+          { "text": "Convencer as seleções europeias a fazerem a longa e cara viagem de navio.", "isCorrect": true, "explanation": "Correto! A travessia do Atlântico e a crise econômica afastaram muitas nações da Europa." },
+          { "text": "A instabilidade política no Uruguai.", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "A falta de interesse do público.", "isCorrect": false, "explanation": "Incorreto. A Copa foi um sucesso de público." }
+        ]
+      },
+      {
+        "question": "Qual destes países participou das três primeiras Copas do Mundo (1930, 1934, 1938)?",
+        "options": [
+          { "text": "Uruguai", "isCorrect": false, "explanation": "Incorreto. Boicotou 1934 e 1938." },
+          { "text": "Argentina", "isCorrect": false, "explanation": "Incorreto. Boicotou 1938." },
+          { "text": "Brasil", "isCorrect": true, "explanation": "Correto! O Brasil foi uma das poucas seleções presentes nas três edições iniciais." },
+          { "text": "Itália", "isCorrect": false, "explanation": "Incorreto. Não participou em 1930." }
+        ]
+      },
+       {
+        "question": "Qual foi o resultado do jogo de 3º lugar da Copa de 1938 entre Brasil e Suécia?",
+        "options": [
+          { "text": "Brasil 2 x 1 Suécia", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Suécia 3 x 1 Brasil", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Brasil 4 x 2 Suécia", "isCorrect": true, "explanation": "Correto! O Brasil conquistou o terceiro lugar com gols de Romeu, Leônidas (2) e Perácio." },
+          { "text": "Empate (não houve disputa)", "isCorrect": false, "explanation": "Incorreto. A disputa de 3º lugar ocorreu." }
+        ]
+      },
+      {
+        "question": "Qual seleção eliminou a anfitriã França na Copa de 1938?",
+        "options": [
+          { "text": "Brasil", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Hungria", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Itália", "isCorrect": true, "explanation": "Correto! A Itália venceu a França por 3 a 1 nas quartas de final." },
+          { "text": "Suécia", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual a nacionalidade do árbitro da final da Copa de 1930?",
+        "options": [
+          { "text": "Uruguaio", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Argentino", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Belga (John Langenus)", "isCorrect": true, "explanation": "Correto! Langenus apitou a final usando gravata e calças bombachas." },
+          { "text": "Brasileiro (Gilberto de Almeida Rêgo)", "isCorrect": false, "explanation": "Incorreto. Almeida Rêgo apitou outros jogos." }
+        ]
+      },
+      {
+        "question": "Qual a nacionalidade do árbitro da final da Copa de 1934?",
+        "options": [
+          { "text": "Italiano", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Tcheco", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Suíço (René Mercet)", "isCorrect": false, "explanation": "Incorreto. Mercet teve atuação polêmica no jogo Itália x Espanha." },
+          { "text": "Sueco (Ivan Eklind)", "isCorrect": true, "explanation": "Correto! Eklind também apitou a semifinal entre Itália e Áustria, gerando controvérsia." }
+        ]
+      },
+      {
+        "question": "Qual a nacionalidade do árbitro da final da Copa de 1938?",
+        "options": [
+          { "text": "Francês (Georges Capdeville)", "isCorrect": true, "explanation": "Correto! Capdeville foi o árbitro da decisão entre Itália e Hungria." },
+          { "text": "Italiano", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Húngaro", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Belga (Louis Baert)", "isCorrect": false, "explanation": "Incorreto. Baert apitou outros jogos." }
+        ]
+      },
+       {
+        "question": "Quantas cidades sediaram jogos na Copa de 1930?",
+        "options": [
+          { "text": "Apenas uma (Montevidéu)", "isCorrect": true, "explanation": "Correto! Todos os jogos foram disputados na capital uruguaia, em três estádios (Centenário, Parque Central, Pocitos)." },
+          { "text": "Duas (Montevidéu e Colônia)", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Três (Montevidéu, Colônia e Punta del Este)", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Quatro", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Quantas cidades italianas sediaram jogos na Copa de 1934?",
+        "options": [
+          { "text": "Quatro (Roma, Milão, Turim, Nápoles)", "isCorrect": false, "explanation": "Incorreto. Foram mais cidades." },
+          { "text": "Seis", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Oito (Roma, Milão, Nápoles, Gênova, Turim, Florença, Bolonha, Trieste)", "isCorrect": true, "explanation": "Correto! O torneio foi espalhado por várias cidades italianas." },
+          { "text": "Dez", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Quantas cidades francesas sediaram jogos na Copa de 1938?",
+        "options": [
+          { "text": "Cinco", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Sete", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Dez (Paris, Marselha, Lyon, Toulouse, Bordéus, Estrasburgo, Le Havre, Reims, Antibes, Lille)", "isCorrect": true, "explanation": "Correto! A Copa de 1938 foi distribuída por dez cidades francesas." },
+          { "text": "Doze", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+       {
+        "question": "Qual foi a principal razão para a FIFA escolher o Uruguai como sede da primeira Copa?",
+        "options": [
+          { "text": "Era o único país com estádios prontos.", "isCorrect": false, "explanation": "Incorreto. O Centenário foi construído para a Copa." },
+          { "text": "Ofereceu as melhores condições financeiras à FIFA.", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Era o atual bicampeão olímpico de futebol e celebrava 100 anos de independência.", "isCorrect": true, "explanation": "Correto! Esses fatores pesaram na decisão de Jules Rimet e da FIFA." },
+          { "text": "Pressão política da Argentina.", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual foi a primeira Copa a ter uma bola especialmente fabricada para o evento?",
+        "options": [
+          { "text": "1930 (Modelo T/Tiento)", "isCorrect": false, "explanation": "Incorreto. Havia modelos diferentes, mas não uma bola 'oficial' única." },
+          { "text": "1934 (Federale 102)", "isCorrect": true, "explanation": "Correto! A Itália produziu a Federale 102, embora outras bolas também tenham sido usadas." },
+          { "text": "1938 (Allen)", "isCorrect": false, "explanation": "Incorreto. A Allen foi uma das bolas usadas na França." },
+          { "text": "1950 (Super Duplo T)", "isCorrect": false, "explanation": "Incorreto. Bola usada na Copa do Brasil." }
+        ]
+      },
+       {
+        "question": "Qual foi a maior surpresa da Copa de 1938?",
+        "options": [
+          { "text": "A eliminação do Brasil para a Itália.", "isCorrect": false, "explanation": "Incorreto. A Itália era a atual campeã." },
+          { "text": "A chegada da Hungria à final.", "isCorrect": false, "explanation": "Incorreto. A Hungria tinha um bom time." },
+          { "text": "A vitória de Cuba sobre a Romênia no jogo de desempate.", "isCorrect": true, "explanation": "Correto! Cuba, que só participou devido a desistências, eliminou a Romênia e chegou às quartas de final (onde foi goleada pela Suécia)." },
+          { "text": "A ausência da Áustria.", "isCorrect": false, "explanation": "Incorreto. Embora lamentável, a anexação pela Alemanha era um fato político conhecido." }
+        ]
+      },
+      {
+        "question": "Quantos gols Leônidas da Silva marcou no jogo Brasil 6x5 Polônia em 1938?",
+        "options": [
+          { "text": "2 gols", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "3 gols (hat-trick)", "isCorrect": false, "explanation": "Incorreto. Marcou mais." },
+          { "text": "4 gols", "isCorrect": true, "explanation": "Correto! Leônidas teve uma atuação espetacular neste jogo épico." },
+          { "text": "5 gols", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+       {
+        "question": "Qual destes eventos NÃO aconteceu na Copa de 1934?",
+        "options": [
+          { "text": "A Itália utilizou jogadores 'oriundi'.", "isCorrect": false, "explanation": "Incorreto. Utilizou vários, como Monti, Orsi e Guaita." },
+          { "text": "O torneio teve formato de mata-mata.", "isCorrect": false, "explanation": "Incorreto. Foi o único com este formato desde o início." },
+          { "text": "O campeão anterior (Uruguai) participou.", "isCorrect": true, "explanation": "Correto! O Uruguai boicotou a Copa de 1934." },
+          { "text": "Benito Mussolini usou o evento para propaganda.", "isCorrect": false, "explanation": "Incorreto. O regime fascista utilizou intensamente a Copa." }
+        ]
+      },
+      {
+        "question": "Qual destes países NÃO foi campeão em uma das três primeiras Copas (1930, 1934, 1938)?",
+        "options": [
+          { "text": "Uruguai", "isCorrect": false, "explanation": "Incorreto. Venceu em 1930." },
+          { "text": "Itália", "isCorrect": false, "explanation": "Incorreto. Venceu em 1934 e 1938." },
+          { "text": "Argentina", "isCorrect": true, "explanation": "Correto! A Argentina foi vice em 1930, mas só seria campeã em 1978." },
+          { "text": "Nenhuma das anteriores", "isCorrect": false, "explanation": "Incorreto. A Argentina não foi campeã." }
+        ]
+      },
+       {
+        "question": "Em que fase o Brasil foi eliminado na Copa de 1934?",
+        "options": [
+          { "text": "Fase de Grupos", "isCorrect": false, "explanation": "Incorreto. Não houve fase de grupos." },
+          { "text": "Oitavas de Final", "isCorrect": true, "explanation": "Correto! Perdeu para a Espanha por 3 a 1 no jogo único." },
+          { "text": "Quartas de Final", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Semifinal", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual jogador era a grande estrela do 'Wunderteam' austríaco?",
+        "options": [
+          { "text": "Josef Bican", "isCorrect": false, "explanation": "Incorreto. Bican foi um artilheiro lendário, mas não o símbolo maior do Wunderteam." },
+          { "text": "Matthias Sindelar", "isCorrect": true, "explanation": "Correto! Conhecido como 'O Homem de Papel' pela sua elegância e habilidade, Sindelar era o capitão e craque da equipe." },
+          { "text": "Ernst Ocwirk", "isCorrect": false, "explanation": "Incorreto. Ocwirk foi destaque da Áustria na Copa de 1954." },
+          { "text": "Anton Schall", "isCorrect": false, "explanation": "Incorreto. Outro atacante importante do Wunderteam." }
+        ]
+      },
+       {
+        "question": "Qual foi a primeira Copa do Mundo a ter um hino oficial?",
+        "options": [
+          { "text": "1930 (Uruguai)", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "1934 (Itália)", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "1938 (França)", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "1962 (Chile) - 'El Rock del Mundial'", "isCorrect": true, "explanation": "Correto! A canção da banda chilena Los Ramblers é considerada o primeiro hino oficial de uma Copa." }
+        ]
+      },
+      {
+        "question": "Quem marcou o gol da vitória uruguaia na final de 1930?",
+        "options": [
+          { "text": "Pedro Cea", "isCorrect": false, "explanation": "Incorreto. Cea marcou o gol de empate (2-2)." },
+          { "text": "Santos Iriarte", "isCorrect": false, "explanation": "Incorreto. Iriarte marcou o gol da virada (3-2)." },
+          { "text": "Héctor Castro", "isCorrect": true, "explanation": "Correto! 'El Manco' Castro marcou o quarto gol, selando a vitória por 4 a 2." },
+          { "text": "Héctor Scarone", "isCorrect": false, "explanation": "Incorreto. Scarone era outra estrela do time." }
+        ]
+      },
+      {
+        "question": "Qual destes estádios NÃO foi usado na Copa de 1930?",
+        "options": [
+          { "text": "Estádio Centenário", "isCorrect": false, "explanation": "Incorreto. Foi o principal estádio e palco da final." },
+          { "text": "Estádio Gran Parque Central", "isCorrect": false, "explanation": "Incorreto. Sediou vários jogos." },
+          { "text": "Estádio Pocitos", "isCorrect": false, "explanation": "Incorreto. Sediou os primeiros jogos, incluindo o primeiro gol." },
+          { "text": "Estádio Luis Franzini", "isCorrect": true, "explanation": "Correto! Este estádio do Defensor Sporting não foi utilizado na Copa de 1930." }
+        ]
+      },
+       {
+        "question": "Qual a posição final do Brasil na Copa de 1938?",
+        "options": [
+          { "text": "Campeão", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Vice-campeão", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "3º Lugar", "isCorrect": true, "explanation": "Correto! Após perder para a Itália na semifinal, o Brasil venceu a Suécia por 4 a 2 na disputa pelo bronze." },
+          { "text": "4º Lugar", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual seleção foi derrotada pela Itália na semifinal da Copa de 1934?",
+        "options": [
+          { "text": "Alemanha", "isCorrect": false, "explanation": "Incorreto. A Alemanha perdeu para a Tchecoslováquia." },
+          { "text": "Áustria", "isCorrect": true, "explanation": "Correto! A Itália venceu o 'Wunderteam' austríaco por 1 a 0." },
+          { "text": "Espanha", "isCorrect": false, "explanation": "Incorreto. A Espanha foi eliminada pela Itália nas quartas." },
+          { "text": "Suécia", "isCorrect": false, "explanation": "Incorreto. Eliminada pela Alemanha nas quartas." }
+        ]
+      },
+      {
+        "question": "Qual o nome da taça original da Copa do Mundo, representando a deusa grega da vitória?",
+        "options": [
+          { "text": "Taça Nike", "isCorrect": false, "explanation": "Incorreto. Nike é a deusa, mas não o nome oficial." },
+          { "text": "Taça da Vitória Alada (ou simplesmente Vitória)", "isCorrect": true, "explanation": "Correto! O troféu, desenhado por Abel Lafleur, representava Nike, a deusa grega da vitória." },
+          { "text": "Taça de Ouro", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Taça Jules Rimet", "isCorrect": false, "explanation": "Incorreto. Foi renomeada em 1946 em homenagem ao presidente da FIFA." }
+        ]
+      },
+       {
+        "question": "Qual o significado da sigla FIFA?",
+        "options": [
+          { "text": "Federação Internacional de Futebol Americano", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Federação Internacional de Futebol Association", "isCorrect": true, "explanation": "Correto! Do francês Fédération Internationale de Football Association, é a entidade máxima do futebol mundial." },
+          { "text": "Fórum Internacional de Futebol Amador", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Futebol Internacional: Federação Associada", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Quantos anos se passaram entre a Copa de 1938 e a Copa de 1950?",
+        "options": [
+          { "text": "4 anos", "isCorrect": false, "explanation": "Incorreto. A periodicidade normal foi interrompida." },
+          { "text": "8 anos", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "12 anos", "isCorrect": true, "explanation": "Correto! Devido à Segunda Guerra Mundial (1939-1945) e suas consequências, as Copas de 1942 e 1946 foram canceladas." },
+          { "text": "10 anos", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+       {
+        "question": "Qual destas seleções europeias NÃO esteve presente na Copa de 1930?",
+        "options": [
+          { "text": "França", "isCorrect": false, "explanation": "Incorreto. A França participou." },
+          { "text": "Bélgica", "isCorrect": false, "explanation": "Incorreto. A Bélgica participou." },
+          { "text": "Romênia", "isCorrect": false, "explanation": "Incorreto. A Romênia participou." },
+          { "text": "Espanha", "isCorrect": true, "explanation": "Correto! A Espanha, assim como Itália, Inglaterra e outras potências, não fez a viagem ao Uruguai." }
+        ]
+      },
+      {
+        "question": "Qual foi o primeiro país a se tornar bicampeão mundial?",
+        "options": [
+          { "text": "Uruguai", "isCorrect": false, "explanation": "Incorreto. O Uruguai venceu em 1930 e 1950." },
+          { "text": "Itália", "isCorrect": true, "explanation": "Correto! Ao vencer em 1934 e 1938 consecutivamente." },
+          { "text": "Brasil", "isCorrect": false, "explanation": "Incorreto. O Brasil foi o segundo, vencendo em 1958 e 1962." },
+          { "text": "Alemanha", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+       {
+        "question": "Quem foi o lendário goleiro e capitão da Tchecoslováquia, vice-campeã em 1934?",
+        "options": [
+          { "text": "Oldřich Nejedlý", "isCorrect": false, "explanation": "Incorreto. Foi o artilheiro." },
+          { "text": "Antonín Puč", "isCorrect": false, "explanation": "Incorreto. Marcou gol na final." },
+          { "text": "František Plánička", "isCorrect": true, "explanation": "Correto! Considerado um dos maiores goleiros de sua época, Plánička era o capitão da equipe." },
+          { "text": "Josef Bican", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual foi a primeira Copa do Mundo a ter jogos disputados à noite sob luz artificial?",
+        "options": [
+          { "text": "1934 (Itália)", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "1938 (França)", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "1950 (Brasil)", "isCorrect": true, "explanation": "Correto! Alguns jogos no Brasil foram disputados à noite, um avanço para a época." },
+          { "text": "1954 (Suíça)", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Quantos gols a Itália marcou na final da Copa de 1938 contra a Hungria?",
+        "options": [
+          { "text": "2 gols", "isCorrect": false, "explanation": "Incorreto. A Hungria marcou 2 gols." },
+          { "text": "3 gols", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "4 gols", "isCorrect": true, "explanation": "Correto! A Itália venceu por 4 a 2, com gols de Colaussi (2) e Piola (2)." },
+          { "text": "5 gols", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual era o formato da Copa de 1950, diferente das outras?",
+        "options": [
+          { "text": "Mata-mata desde o início.", "isCorrect": false, "explanation": "Incorreto. Formato de 1934." },
+          { "text": "Fase de grupos seguida de final única.", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Fase de grupos seguida por um quadrangular final.", "isCorrect": true, "explanation": "Correto! Foi a única Copa sem uma 'final' formal; o título foi decidido em um grupo final com Brasil, Uruguai, Suécia e Espanha." },
+          { "text": "Dois grandes grupos e final entre os vencedores.", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+       {
+        "question": "Qual jogador marcou o primeiro gol contra da história das Copas?",
+        "options": [
+          { "text": "Manuel Rosas (México, 1930)", "isCorrect": true, "explanation": "Correto! Na partida contra o Chile, Rosas desviou contra o próprio gol. Ele também marcou o primeiro gol de pênalti." },
+          { "text": "Ernst Lörtscher (Suíça, 1938)", "isCorrect": false, "explanation": "Incorreto. Marcou gol contra em 1938." },
+          { "text": "Jimmy Douglas (EUA, 1930)", "isCorrect": false, "explanation": "Incorreto. Goleiro dos EUA." },
+          { "text": "Luis Monti (Argentina, 1930)", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Por que a Copa de 1934 é considerada controversa em relação à influência política?",
+        "options": [
+          { "text": "Pelo boicote do Uruguai.", "isCorrect": false, "explanation": "Incorreto. Isso foi uma decisão do Uruguai." },
+          { "text": "Pela suspeita de que Mussolini e o regime fascista influenciaram arbitragens para favorecer a Itália.", "isCorrect": true, "explanation": "Correto! Houve muitas críticas à atuação dos árbitros em jogos chave da Itália, especialmente contra Espanha e Áustria." },
+          { "text": "Pela exclusão da Alemanha.", "isCorrect": false, "explanation": "Incorreto. A Alemanha participou e ficou em 3º." },
+          { "text": "Pelo formato eliminatório.", "isCorrect": false, "explanation": "Incorreto. O formato foi uma decisão da FIFA." }
+        ]
+      },
+      {
+        "question": "Qual jogador brasileiro foi expulso na 'Batalha de Bordeaux' contra a Tchecoslováquia em 1938?",
+        "options": [
+          { "text": "Leônidas da Silva", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Domingos da Guia", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Zezé Procópio e Machado", "isCorrect": true, "explanation": "Correto! Neste jogo extremamente violento (que teve um desempate), dois brasileiros e um tcheco foram expulsos." },
+          { "text": "Romeu Pellicciari", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+       {
+        "question": "Quem foi o primeiro presidente da FIFA?",
+        "options": [
+          { "text": "Jules Rimet", "isCorrect": false, "explanation": "Incorreto. Foi o terceiro presidente." },
+          { "text": "Robert Guérin", "isCorrect": true, "explanation": "Correto! O jornalista francês foi o primeiro presidente da FIFA, de 1904 a 1906." },
+          { "text": "Daniel Burley Woolfall", "isCorrect": false, "explanation": "Incorreto. Inglês, foi o segundo presidente." },
+          { "text": "Stanley Rous", "isCorrect": false, "explanation": "Incorreto. Foi presidente nos anos 60." }
+        ]
+      },
+      {
+        "question": "Qual foi o primeiro país a desistir de sediar uma Copa do Mundo (1986)?",
+        "options": [
+          { "text": "México", "isCorrect": false, "explanation": "Incorreto. O México assumiu a sede." },
+          { "text": "Colômbia", "isCorrect": true, "explanation": "Correto! A Colômbia foi escolhida em 1974, mas desistiu em 1982 alegando incapacidade de cumprir as exigências da FIFA." },
+          { "text": "Argentina", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Chile", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+       {
+        "question": "Qual o nome da taça que substituiu a Jules Rimet a partir da Copa de 1974?",
+        "options": [
+          { "text": "Taça da Copa do Mundo da FIFA", "isCorrect": true, "explanation": "Correto! É o troféu atual, feito de ouro maciço, que não fica em posse definitiva do país campeão." },
+          { "text": "Taça da Amizade", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Troféu da Conquista", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Copa Havelange", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      }
+    ]
+}

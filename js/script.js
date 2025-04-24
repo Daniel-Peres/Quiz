@@ -5,6 +5,7 @@ let fullQuizData = [];
 let quizData = [];
 let quizConfig = {};
 let desiredQuestionCount = 0;
+window.quizFilePath = null; // Track the current quiz file path
 
 // --- Variáveis de Estado ---
 let currentQuestionIndex;
@@ -14,6 +15,122 @@ let isAnswered = false;
 let messageTimeout = null;
 let countMessageTimeout = null;
 let quizJustStarted = true;
+
+const QUIZ_STATE_KEY = 'quizGameState'; // Key for localStorage
+
+// --- LocalStorage State Management ---
+
+function saveGameState() {
+    if (typeof currentQuestionIndex === 'undefined' || currentQuestionIndex < 0 || !quizData || !quizConfig || !window.quizFilePath) {
+        // Don't save if the quiz hasn't properly started or essential data is missing
+        console.log("saveGameState: Estado inválido para salvar.");
+        // Ensure any potentially inconsistent state is cleared if we intended to save but couldn't
+        clearGameState(false); // Pass false to avoid infinite loops if called from clearGameState itself
+        return;
+    }
+
+    const state = {
+        quizFilePath: window.quizFilePath, // Store the path to reload data
+        quizConfig: quizConfig,           // Store the config (theme name, scoring)
+        quizData: quizData,               // Store the actual questions for this session
+        currentQuestionIndex: currentQuestionIndex,
+        score: score,
+        timestamp: Date.now() // Optional: Add timestamp for potential expiry logic later
+    };
+    try {
+        localStorage.setItem(QUIZ_STATE_KEY, JSON.stringify(state));
+        console.log("saveGameState: Estado salvo.", state);
+    } catch (e) {
+        console.error("Erro ao salvar estado no localStorage:", e);
+    }
+}
+
+function loadGameState() {
+    try {
+        const savedStateJSON = localStorage.getItem(QUIZ_STATE_KEY);
+        if (!savedStateJSON) {
+            console.log("loadGameState: Nenhum estado salvo encontrado.");
+            return null;
+        }
+
+        console.log("loadGameState: Estado encontrado, tentando carregar...");
+        const savedState = JSON.parse(savedStateJSON);
+
+        // --- Basic Validation ---
+        if (!savedState || typeof savedState !== 'object') throw new Error("Formato inválido.");
+        if (typeof savedState.quizFilePath !== 'string' || !savedState.quizFilePath) throw new Error("quizFilePath ausente ou inválido.");
+        if (!savedState.quizConfig || typeof savedState.quizConfig !== 'object') throw new Error("quizConfig ausente ou inválido.");
+        if (!Array.isArray(savedState.quizData) || savedState.quizData.length === 0) throw new Error("quizData ausente ou inválido.");
+        if (typeof savedState.currentQuestionIndex !== 'number' || savedState.currentQuestionIndex < 0) throw new Error("currentQuestionIndex inválido.");
+        if (typeof savedState.score !== 'number' || savedState.score < 0) throw new Error("score inválido.");
+        // Check if index is valid for the saved quizData length
+        if (savedState.currentQuestionIndex >= savedState.quizData.length) throw new Error("currentQuestionIndex fora dos limites para quizData salvo.");
+
+
+        // Optional: Add timestamp validation (e.g., expire after X days)
+        // const maxAge = 3 * 24 * 60 * 60 * 1000; // 3 days in milliseconds
+        // if (!savedState.timestamp || (Date.now() - savedState.timestamp > maxAge)) {
+        //     console.log("loadGameState: Estado salvo expirado.");
+        //     clearGameState();
+        //     return null;
+        // }
+
+        console.log("loadGameState: Estado carregado e validado com sucesso.", savedState);
+        return savedState;
+
+    } catch (e) {
+        console.error("Erro ao carregar ou validar estado do localStorage:", e);
+        clearGameState(false); // Clear corrupted/invalid state
+        return null;
+    }
+}
+
+function clearGameState(log = true) {
+    if(log) console.log("clearGameState: Limpando estado salvo.");
+    try {
+        localStorage.removeItem(QUIZ_STATE_KEY);
+        // Reset related global variables that indicate an active quiz state outside the saved object
+        window.quizFilePath = null;
+    } catch (e) {
+        console.error("Erro ao limpar estado do localStorage:", e);
+    }
+}
+
+// --- Function to resume a quiz from saved state ---
+function resumeGame(savedState, elements) {
+    console.log("resumeGame: Restaurando quiz...", savedState);
+
+    // Restore global variables from saved state
+    window.quizFilePath = savedState.quizFilePath; // Crucial for context if needed elsewhere
+    quizConfig = savedState.quizConfig;
+    quizData = savedState.quizData; // Use the exact questions from the saved state
+    currentQuestionIndex = savedState.currentQuestionIndex;
+    score = savedState.score;
+    desiredQuestionCount = quizData.length; // Set based on the loaded quiz data
+    fullQuizData = []; // Not needed when resuming, clear to avoid confusion
+
+    // Reset flags
+    isAnswered = false; // Always start the question unanswered when resuming
+    selectedOptionElement = null;
+    quizJustStarted = false; // It's a resumed quiz
+
+    // Setup UI
+    showQuizInterface(elements); // Show the main quiz layout
+    if (elements.quizTitleElement) elements.quizTitleElement.textContent = quizConfig.theme || "Quiz";
+    if (elements.resultContainer) elements.resultContainer.classList.add('hide');
+    if (elements.scoreContainer) elements.scoreContainer.classList.remove('hide'); // Show score container immediately
+    updateScoreDisplay(elements); // Update display with loaded score
+
+    // Hide initial navigation buttons specific to a brand new quiz start
+    if(elements.quizBackBtn) elements.quizBackBtn.classList.add('hide');
+    if(elements.quizMainMenuBtn) elements.quizMainMenuBtn.classList.add('hide');
+
+    // Show the correct question (the showQuestion function already handles button visibility based on isAnswered)
+    showQuestion(quizData[currentQuestionIndex], elements);
+
+    console.log(`Quiz restaurado na questão ${currentQuestionIndex + 1} de ${quizData.length}.`);
+}
+
 
 // --- Funções ---
 
@@ -31,7 +148,16 @@ function showOnly(elementToShow, selectionArea, quizContainer, questionCountSele
 
 function showThemeSelectionScreen(elements) {
     console.log("--- showThemeSelectionScreen INICIADA ---");
+    clearGameState(); // Clear any previous game state when returning to main menu
     currentSelectedTheme = null;
+    window.quizFilePath = null; // Clear the global file path tracker
+    // Reset potentially loaded quiz data from a previous session attempt
+    quizData = [];
+    fullQuizData = [];
+    quizConfig = {};
+    currentQuestionIndex = -1; // Reset index
+    score = 0; // Reset score
+
     showOnly(elements.selectionArea, elements.selectionArea, elements.quizContainer, elements.questionCountSelectionContainer);
     if (elements.themeSelectionContainer) elements.themeSelectionContainer.classList.remove('hide'); else console.error("themeSelectionContainer não encontrado em showThemeSelectionScreen");
     if (elements.subthemeSelectionContainer) elements.subthemeSelectionContainer.classList.add('hide'); else console.error("subthemeSelectionContainer não encontrado em showThemeSelectionScreen");
@@ -40,6 +166,7 @@ function showThemeSelectionScreen(elements) {
         loadThemes(elements);
     } else { console.error("themeButtonsContainer não encontrado em showThemeSelectionScreen"); }
 }
+
 
 function showSubthemeSelectionScreen(theme, elements) {
     console.log("--- showSubthemeSelectionScreen INICIADA ---", "Tema:", theme?.name);
@@ -80,8 +207,11 @@ function populateSubthemeButtons(subThemes, elements) {
 }
 
 async function loadQuizData(filename, elements) {
-    console.log(`loadQuizData: ${filename}`); fullQuizData=[]; quizConfig={}; desiredQuestionCount=0; showOnly(null,elements.selectionArea,elements.quizContainer,elements.questionCountSelectionContainer); let lM=document.getElementById('loading-quiz-msg'); if(!lM&&elements.mainContainer){lM=document.createElement('p');lM.id='loading-quiz-msg';lM.textContent='Carregando...';lM.style.cssText='text-align:center;padding:20px;'; elements.mainContainer.appendChild(lM);}else if(lM){lM.textContent='Carregando...';lM.style.color='inherit';lM.classList.remove('hide');} const eBB=document.getElementById('back-to-themes-btn-error'); if(eBB)eBB.remove(); const qP=`data/${filename}`; try{console.log(`Fetch: ${qP}`); const r=await fetch(qP); if(!r.ok)throw new Error(`HTTP ${r.status}`); const jD=await r.json(); if(!jD||typeof jD!=='object')throw new Error("JSON inválido."); if(!jD.config||typeof jD.config!=='object')throw new Error("Config inválida."); if(!jD.data||!Array.isArray(jD.data))throw new Error("Data inválido."); if(jD.data.length===0)throw new Error("Data vazio."); fullQuizData=jD.data; quizConfig=jD.config; console.log(`Quiz '${quizConfig.theme||'N/A'}' ${fullQuizData.length} Qs.`); if(lM)lM.classList.add('hide'); showQuestionCountSelection(fullQuizData.length,elements);}catch(e){console.error("Falha loadQuizData:",filename,e); if(lM){lM.textContent=`Erro: ${e.message}`; lM.style.color='red';lM.classList.remove('hide');}else if(elements.mainContainer){elements.mainContainer.innerHTML=`<p id="loading-quiz-msg" style="color:red;text-align:center;padding:20px;">Erro: ${e.message}</p>`;lM=document.getElementById('loading-quiz-msg');} if(lM&&!document.getElementById('back-to-themes-btn-error')){const bB=document.createElement('button');bB.textContent='Voltar';bB.id='back-to-themes-btn-error';bB.className='control-btn back-btn';bB.style.cssText='margin-top:20px;display:block;margin-left:auto;margin-right:auto;';bB.onclick=()=>showThemeSelectionScreen(elements); lM.parentNode.insertBefore(bB,lM.nextSibling);} if(elements.quizContainer)elements.quizContainer.classList.add('hide'); if(elements.questionCountSelectionContainer)elements.questionCountSelectionContainer.classList.add('hide');}
+    console.log(`loadQuizData: ${filename}`);
+    window.quizFilePath = filename; // Store filename globally for saving state
+    fullQuizData=[]; quizConfig={}; desiredQuestionCount=0; showOnly(null,elements.selectionArea,elements.quizContainer,elements.questionCountSelectionContainer); let lM=document.getElementById('loading-quiz-msg'); if(!lM&&elements.mainContainer){lM=document.createElement('p');lM.id='loading-quiz-msg';lM.textContent='Carregando...';lM.style.cssText='text-align:center;padding:20px;'; elements.mainContainer.appendChild(lM);}else if(lM){lM.textContent='Carregando...';lM.style.color='inherit';lM.classList.remove('hide');} const eBB=document.getElementById('back-to-themes-btn-error'); if(eBB)eBB.remove(); const qP=`data/${filename}`; try{console.log(`Fetch: ${qP}`); const r=await fetch(qP); if(!r.ok)throw new Error(`HTTP ${r.status}`); const jD=await r.json(); if(!jD||typeof jD!=='object')throw new Error("JSON inválido."); if(!jD.config||typeof jD.config!=='object')throw new Error("Config inválida."); if(!jD.data||!Array.isArray(jD.data))throw new Error("Data inválido."); if(jD.data.length===0)throw new Error("Data vazio."); fullQuizData=jD.data; quizConfig=jD.config; console.log(`Quiz '${quizConfig.theme||'N/A'}' ${fullQuizData.length} Qs.`); if(lM)lM.classList.add('hide'); showQuestionCountSelection(fullQuizData.length,elements);}catch(e){console.error("Falha loadQuizData:",filename,e); window.quizFilePath = null; /* Clear path on error */ if(lM){lM.textContent=`Erro: ${e.message}`; lM.style.color='red';lM.classList.remove('hide');}else if(elements.mainContainer){elements.mainContainer.innerHTML=`<p id="loading-quiz-msg" style="color:red;text-align:center;padding:20px;">Erro: ${e.message}</p>`;lM=document.getElementById('loading-quiz-msg');} if(lM&&!document.getElementById('back-to-themes-btn-error')){const bB=document.createElement('button');bB.textContent='Voltar';bB.id='back-to-themes-btn-error';bB.className='control-btn back-btn';bB.style.cssText='margin-top:20px;display:block;margin-left:auto;margin-right:auto;';bB.onclick=()=>showThemeSelectionScreen(elements); lM.parentNode.insertBefore(bB,lM.nextSibling);} if(elements.quizContainer)elements.quizContainer.classList.add('hide'); if(elements.questionCountSelectionContainer)elements.questionCountSelectionContainer.classList.add('hide');}
 }
+
 
 function handleThemeSelection(event, elements) {
     const tId=event.currentTarget.dataset.themeId; console.log("hTS:",tId); const sT=allThemesData.find(t=>t&&t.id===tId); if(!sT){console.error(`Tema ${tId} não encontrado.`);return;} if(sT.subThemes?.length>0){showSubthemeSelectionScreen(sT,elements);}else if(sT.file){loadQuizData(sT.file,elements);}else{console.error(`Tema ${sT.name} inválido.`); const ea=elements.messageArea||elements.themeButtonsContainer;if(ea)showMessage(ea,`Config inválida: ${sT.name}.`,5000);}
@@ -98,8 +228,11 @@ function showQuestionCountSelection(maxQuestions, elements) {
 }
 
 function startGame(elements) {
-    console.log("startGame: Iniciando..."); quizJustStarted = true; const eb=document.getElementById('back-to-themes-btn-error'); if(eb)eb.remove(); if(!fullQuizData?.length){console.error("ERRO: start sem fullQuizData.");showThemeSelectionScreen(elements);return;} const max=fullQuizData.length; if(desiredQuestionCount<=0||desiredQuestionCount>max)desiredQuestionCount=max; let qs=[...fullQuizData]; shuffleArray(qs); quizData=qs.slice(0,desiredQuestionCount); if(!quizData?.length){console.error("ERRO: quizData vazio.");showThemeSelectionScreen(elements);return;} console.log(`Iniciando com ${quizData.length} de ${max}.`); showQuizInterface(elements); currentQuestionIndex=0; score=0; isAnswered=false; selectedOptionElement=null; if(elements.messageArea)clearMessage(elements.messageArea); if(elements.quizTitleElement)elements.quizTitleElement.textContent=quizConfig.theme||"Quiz"; if(elements.resultContainer)elements.resultContainer.classList.add('hide'); if(elements.scoreContainer)elements.scoreContainer.classList.add('hide'); if(elements.nextBtn)elements.nextBtn.classList.add('hide'); if(elements.finishBtn)elements.finishBtn.classList.add('hide'); if(elements.endQuizEarlyBtn)elements.endQuizEarlyBtn.classList.add('hide'); if(elements.confirmBtn){elements.confirmBtn.classList.remove('hide');elements.confirmBtn.disabled=true;} else console.error("ConfirmBtn não encontrado!"); if(elements.quizBackBtn)elements.quizBackBtn.classList.remove('hide'); else console.warn("#quiz-back-btn não encontrado."); if(elements.quizMainMenuBtn)elements.quizMainMenuBtn.classList.remove('hide'); else console.warn("#quiz-main-menu-btn não encontrado."); showQuestion(quizData[currentQuestionIndex],elements);
+    console.log("startGame: Iniciando..."); quizJustStarted = true; const eb=document.getElementById('back-to-themes-btn-error'); if(eb)eb.remove(); if(!fullQuizData?.length){console.error("ERRO: start sem fullQuizData.");showThemeSelectionScreen(elements);return;} const max=fullQuizData.length; if(desiredQuestionCount<=0||desiredQuestionCount>max)desiredQuestionCount=max; let qs=[...fullQuizData]; shuffleArray(qs); quizData=qs.slice(0,desiredQuestionCount); if(!quizData?.length){console.error("ERRO: quizData vazio.");showThemeSelectionScreen(elements);return;} console.log(`Iniciando com ${quizData.length} de ${max}.`); showQuizInterface(elements); currentQuestionIndex=0; score=0; isAnswered=false; selectedOptionElement=null; if(elements.messageArea)clearMessage(elements.messageArea); if(elements.quizTitleElement)elements.quizTitleElement.textContent=quizConfig.theme||"Quiz"; if(elements.resultContainer)elements.resultContainer.classList.add('hide'); if(elements.scoreContainer)elements.scoreContainer.classList.add('hide'); if(elements.nextBtn)elements.nextBtn.classList.add('hide'); if(elements.finishBtn)elements.finishBtn.classList.add('hide'); if(elements.endQuizEarlyBtn)elements.endQuizEarlyBtn.classList.add('hide'); if(elements.confirmBtn){elements.confirmBtn.classList.remove('hide');elements.confirmBtn.disabled=true;} else console.error("ConfirmBtn não encontrado!"); if(elements.quizBackBtn)elements.quizBackBtn.classList.remove('hide'); else console.warn("#quiz-back-btn não encontrado."); if(elements.quizMainMenuBtn)elements.quizMainMenuBtn.classList.remove('hide'); else console.warn("#quiz-main-menu-btn não encontrado.");
+    showQuestion(quizData[currentQuestionIndex],elements);
+    saveGameState(); // <<< SAVE INITIAL STATE >>>
 }
+
 
 function updateProgressBar(elements) { if(!quizData||!elements.progressBarIndicator||!elements.progressTextElement)return; const t=quizData.length; const c=currentQuestionIndex+1; if(t===0){elements.progressBarIndicator.style.width='0%';elements.progressTextElement.textContent='0/0';return;} const p=Math.min((c/t)*100,100); elements.progressBarIndicator.style.width=`${p}%`; elements.progressTextElement.textContent=`Questão ${c} de ${t}`; }
 
@@ -112,18 +245,23 @@ function selectAnswer(event, elements) {
 }
 
 function confirmAnswer(elements) {
-    console.log('confirmAnswer...'); if(!selectedOptionElement){if(elements.messageArea)showMessage(elements.messageArea,"Selecione.",3000);return;} if(isAnswered){console.warn('Já respondido.');return;} isAnswered=true; quizJustStarted=false; if(elements.quizBackBtn)elements.quizBackBtn.classList.add('hide'); if(elements.quizMainMenuBtn)elements.quizMainMenuBtn.classList.add('hide'); if(elements.confirmBtn){elements.confirmBtn.classList.add('hide');elements.confirmBtn.disabled=true; elements.confirmBtn.classList.remove('confirm-active');} if(elements.messageArea)clearMessage(elements.messageArea); try{const selTxt=selectedOptionElement.dataset.optionText;if(typeof selTxt==='undefined')throw new Error("No dataset");if(!quizData?.[currentQuestionIndex]?.options)throw new Error(`Dados Q ${currentQuestionIndex}`); const opts=quizData[currentQuestionIndex].options; const correctOpt=opts.find(o=>o?.isCorrect===true);if(!correctOpt?.text)throw new Error(`Correta Q ${currentQuestionIndex}`); const correctTxt=correctOpt.text; const isCorrect=(selTxt===correctTxt);if(isCorrect)score++; const allFrames=elements.answerOptionsElement?elements.answerOptionsElement.querySelectorAll('.option-frame'):[];allFrames.forEach(f=>{if(!(f instanceof HTMLElement))return; const fTxt=f.dataset.optionText;if(typeof fTxt==='undefined')return; const oData=opts.find(o=>o?.text===fTxt); f.classList.add('reveal','disabled'); if(oData){f.classList.toggle('correct',oData.isCorrect===true);f.classList.toggle('incorrect',oData.isCorrect!==true);}else f.classList.add('incorrect'); if(f===selectedOptionElement){f.style.outline='3px solid #333';f.style.outlineOffset='2px';}else f.style.outline='none';}); updateScoreDisplay(elements); if(elements.scoreContainer)elements.scoreContainer.classList.remove('hide'); const isLast=currentQuestionIndex>=quizData.length-1; setTimeout(()=>{if(elements.finishBtn)elements.finishBtn.classList.toggle('hide',!isLast); if(elements.nextBtn)elements.nextBtn.classList.toggle('hide',isLast); if(elements.endQuizEarlyBtn)elements.endQuizEarlyBtn.classList.toggle('hide',isLast);},800); }catch(err){console.error("ERRO confirmAnswer:",err);if(elements.messageArea)showMessage(elements.messageArea,`Erro: ${err.message}.`,6000); if(elements.finishBtn)elements.finishBtn.classList.add('hide'); if(elements.nextBtn)elements.nextBtn.classList.add('hide'); if(elements.endQuizEarlyBtn)elements.endQuizEarlyBtn.classList.add('hide'); if(elements.quizBackBtn)elements.quizBackBtn.classList.add('hide'); if(elements.quizMainMenuBtn)elements.quizMainMenuBtn.classList.add('hide');}
+    console.log('confirmAnswer...'); if(!selectedOptionElement){if(elements.messageArea)showMessage(elements.messageArea,"Selecione.",3000);return;} if(isAnswered){console.warn('Já respondido.');return;} isAnswered=true; quizJustStarted=false; if(elements.quizBackBtn)elements.quizBackBtn.classList.add('hide'); if(elements.quizMainMenuBtn)elements.quizMainMenuBtn.classList.add('hide'); if(elements.confirmBtn){elements.confirmBtn.classList.add('hide');elements.confirmBtn.disabled=true; elements.confirmBtn.classList.remove('confirm-active');} if(elements.messageArea)clearMessage(elements.messageArea); try{const selTxt=selectedOptionElement.dataset.optionText;if(typeof selTxt==='undefined')throw new Error("No dataset");if(!quizData?.[currentQuestionIndex]?.options)throw new Error(`Dados Q ${currentQuestionIndex}`); const opts=quizData[currentQuestionIndex].options; const correctOpt=opts.find(o=>o?.isCorrect===true);if(!correctOpt?.text)throw new Error(`Correta Q ${currentQuestionIndex}`); const correctTxt=correctOpt.text; const isCorrect=(selTxt===correctTxt);if(isCorrect)score++; const allFrames=elements.answerOptionsElement?elements.answerOptionsElement.querySelectorAll('.option-frame'):[];allFrames.forEach(f=>{if(!(f instanceof HTMLElement))return; const fTxt=f.dataset.optionText;if(typeof fTxt==='undefined')return; const oData=opts.find(o=>o?.text===fTxt); f.classList.add('reveal','disabled'); if(oData){f.classList.toggle('correct',oData.isCorrect===true);f.classList.toggle('incorrect',oData.isCorrect!==true);}else f.classList.add('incorrect'); if(f===selectedOptionElement){f.style.outline='3px solid #333';f.style.outlineOffset='2px';}else f.style.outline='none';});
+    updateScoreDisplay(elements);
+    saveGameState(); // <<< SAVE STATE AFTER ANSWER CONFIRMATION >>>
+    if(elements.scoreContainer)elements.scoreContainer.classList.remove('hide'); const isLast=currentQuestionIndex>=quizData.length-1; setTimeout(()=>{if(elements.finishBtn)elements.finishBtn.classList.toggle('hide',!isLast); if(elements.nextBtn)elements.nextBtn.classList.toggle('hide',isLast); if(elements.endQuizEarlyBtn)elements.endQuizEarlyBtn.classList.toggle('hide',isLast);},800); }catch(err){console.error("ERRO confirmAnswer:",err);if(elements.messageArea)showMessage(elements.messageArea,`Erro: ${err.message}.`,6000); if(elements.finishBtn)elements.finishBtn.classList.add('hide'); if(elements.nextBtn)elements.nextBtn.classList.add('hide'); if(elements.endQuizEarlyBtn)elements.endQuizEarlyBtn.classList.add('hide'); if(elements.quizBackBtn)elements.quizBackBtn.classList.add('hide'); if(elements.quizMainMenuBtn)elements.quizMainMenuBtn.classList.add('hide');}
 }
+
 
 function nextQuestion(elements) { console.log("nextQuestion",currentQuestionIndex); if(selectedOptionElement?.style)selectedOptionElement.style.outline='none'; currentQuestionIndex++; if(currentQuestionIndex<quizData.length){showQuestion(quizData[currentQuestionIndex],elements);}else{showResults(elements);} }
 
 function showResults(elements) {
+clearGameState(); // <<< CLEAR STATE ON QUIZ FINISH >>>
     console.log("showResults"); if(elements.quizBackBtn)elements.quizBackBtn.classList.add('hide'); if(elements.quizMainMenuBtn)elements.quizMainMenuBtn.classList.add('hide'); showOnly(elements.quizContainer,elements.selectionArea,elements.quizContainer,elements.questionCountSelectionContainer); if(elements.questionContainer)elements.questionContainer.classList.add('hide'); if(elements.progressContainer)elements.progressContainer.classList.add('hide'); if(elements.controlsContainer)elements.controlsContainer.classList.add('hide'); if(elements.messageArea)clearMessage(elements.messageArea); if(!elements.resultContainer){console.error("No result container!");if(elements.scoreContainer)elements.scoreContainer.classList.remove('hide');updateScoreDisplay(elements);return;} elements.resultContainer.classList.remove('hide'); if(elements.scoreContainer)elements.scoreContainer.classList.remove('hide'); const finalScore=calculateFinalScoreString(); const totalQ=quizData.length; elements.resultContainer.innerHTML=`<h2>Quiz '${quizConfig.theme||'Quiz'}' Finalizado!</h2><p>Acertos: <strong>${score}</strong> de <strong>${totalQ}</strong>.</p><p>Pontuação: <strong>${finalScore}</strong></p><button id="choose-another-theme-btn" class="control-btn back-btn" style="background-color:#007bff;color:white;">Jogar Novamente</button>`; const btn=document.getElementById('choose-another-theme-btn'); if(btn){btn.addEventListener('click',()=>{if(elements.resultContainer)elements.resultContainer.classList.add('hide'); if(elements.scoreContainer)elements.scoreContainer.classList.add('hide'); showThemeSelectionScreen(elements);});}else console.error("#choose-another-theme-btn não encontrado."); updateScoreDisplay(elements);
 }
 
 function updateScoreDisplay(elements) { console.log("updateScoreDisplay"); if(!elements.scoreContainer||!elements.pointsDisplayContainer||!elements.percentageDisplayContainer||!elements.scoreValueElement||!elements.scorePercentageElement){console.error("Score elements missing.");return;} if(!quizConfig?.scoring){console.warn("Scoring config missing.");elements.pointsDisplayContainer.classList.add('hide');elements.percentageDisplayContainer.classList.add('hide');elements.scoreContainer.classList.remove('hide');return;} const scoreStr=calculateFinalScoreString(); if(scoreStr==="Erro"||scoreStr==="N/A"){console.warn("Invalid score string.");elements.scoreValueElement.textContent="...";elements.scorePercentageElement.textContent="...";elements.pointsDisplayContainer.classList.add('hide');elements.percentageDisplayContainer.classList.add('hide');elements.scoreContainer.classList.remove('hide');return;} const isPerc=quizConfig.scoring==="percentage"; if(isPerc){elements.scorePercentageElement.textContent=scoreStr.replace('%','');elements.percentageDisplayContainer.classList.remove('hide');elements.pointsDisplayContainer.classList.add('hide');}else{const val=scoreStr.split(' ')[0];elements.scoreValueElement.textContent=val;elements.pointsDisplayContainer.classList.remove('hide');elements.percentageDisplayContainer.classList.add('hide');} elements.scoreContainer.classList.remove('hide'); }
 
-function calculateFinalScoreString() { console.log("calcFinalScoreString"); if(!quizConfig?.scoring||!quizData){return"N/A";} const numQ=quizData.length; if(numQ===0)return"0"; if(typeof score!=='number'||isNaN(score))return"Erro"; let scoreStr="Erro"; try{if(quizConfig.scoring==="percentage"){scoreStr=`${Math.round((score/numQ)*100)}%`;}else{const totPts=quizConfig.totalPoints; const origQ=fullQuizData?.length??0; let currVal; let totStr=''; if(totPts&&typeof totPts==='number'&&totPts>0&&origQ>0){currVal=Math.round(score*(totPts/origQ));totStr=` / ${totPts}`;}else{currVal=score;totStr=` / ${numQ}`;} const unit= " ponto"+(currVal!==1?"s":""); scoreStr=`${currVal}${totStr}${unit}`;}}catch(e){console.error("Erro calc score:",e);scoreStr="Erro";} return scoreStr; }
+function calculateFinalScoreString() { console.log("calcFinalScoreString"); if(!quizConfig?.scoring||!quizData){return"N/A";} const numQ=quizData.length; if(numQ===0)return"0"; if(typeof score!=='number'||isNaN(score))return"Erro"; let scoreStr="Erro"; try{if(quizConfig.scoring==="percentage"){scoreStr=`${Math.round((score/numQ)*100)}%`;}else{const totPts=quizConfig.totalPoints; const origQ=fullQuizData?.length??(quizData?.length ?? 0); /* Estimate original if full isn't loaded */ let currVal; let totStr=''; if(totPts&&typeof totPts==='number'&&totPts>0&&origQ>0){currVal=Math.round(score*(totPts/origQ));totStr=` / ${totPts}`;}else{currVal=score;totStr=` / ${numQ}`;} const unit= " ponto"+(currVal!==1?"s":""); scoreStr=`${currVal}${totStr}${unit}`;}}catch(e){console.error("Erro calc score:",e);scoreStr="Erro";} return scoreStr; }
 
 function showMessage(messageAreaElement, message, duration = 3000, isError = true, useSpecificTimeout = false) { if(!(messageAreaElement instanceof Element)){console.warn("showMessage: Elem inválido.");return;} let timeoutVar=useSpecificTimeout?countMessageTimeout:messageTimeout; const setter=(nT)=>{if(useSpecificTimeout)countMessageTimeout=nT;else messageTimeout=nT;}; if(timeoutVar){clearTimeout(timeoutVar);setter(null);} messageAreaElement.textContent=message; messageAreaElement.className='message-area'; messageAreaElement.classList.add(isError?'error':'success'); messageAreaElement.classList.remove('hide'); const nTID=setTimeout(()=>{messageAreaElement.classList.add('hide');messageAreaElement.textContent='';messageAreaElement.classList.remove('error','success');setter(null);},duration); setter(nTID); }
 
@@ -132,6 +270,8 @@ function clearMessage(messageAreaElement, useSpecificTimeout = false) { if(!(mes
 // --- Inicialização DOMContentLoaded ---
 document.addEventListener('DOMContentLoaded', () => {
     console.log("DOMContentLoaded: Configurando interface...");
+
+    // --- Element Retrieval (Keep original) ---
     const elements = {
         mainContainer: document.querySelector('.main-container'),
         selectionArea: document.getElementById('selection-area'),
@@ -169,20 +309,63 @@ document.addEventListener('DOMContentLoaded', () => {
         pointsDisplayContainer: document.getElementById('points-score-display'),
         percentageDisplayContainer: document.getElementById('percentage-score-display'),
         resultContainer: document.getElementById('result-container')
+        // Add prompt elements if you create them in HTML
+        // resumePromptContainer: document.getElementById('resume-prompt'),
+        // resumeYesBtn: document.getElementById('resume-yes-btn'),
+        // resumeNoBtn: document.getElementById('resume-no-btn'),
     };
+    // --- End Element Retrieval ---
 
-    let missingElementCritical = false; /* ... (verificação igual) ... */ if (missingElementCritical) { /* ... */ return; } else console.log("Verificação OK.");
-    console.log("Aplicando visibilidade inicial..."); /* ... (código igual) ... */ if(elements.subthemeSelectionContainer) elements.subthemeSelectionContainer.classList.add('hide'); if(elements.questionCountSelectionContainer) elements.questionCountSelectionContainer.classList.add('hide'); if(elements.quizContainer) elements.quizContainer.classList.add('hide'); if(elements.selectionArea) elements.selectionArea.classList.remove('hide'); if(elements.themeSelectionContainer) elements.themeSelectionContainer.classList.remove('hide');
 
-    // --- Configuração dos Listeners Estáticos ---
-    if (elements.backToThemesBtn) { elements.backToThemesBtn.addEventListener('click', () => { console.log(">>> Voltar (subtema) CLICADO!"); showThemeSelectionScreen(elements); }); console.log("Listener #back-to-themes-btn OK."); } else console.error("Listener #back-to-themes-btn FALHOU.");
-    if (elements.quizBackBtn) { elements.quizBackBtn.addEventListener('click', () => { console.log("Voltar (quiz->contagem) clicado."); if (fullQuizData?.length > 0) showQuestionCountSelection(fullQuizData.length, elements); else showThemeSelectionScreen(elements); }); console.log("Listener #quiz-back-btn OK."); } else console.warn("#quiz-back-btn não encontrado.");
-    if (elements.quizMainMenuBtn) { elements.quizMainMenuBtn.addEventListener('click', () => { console.log("Menu Principal (quiz) clicado."); showThemeSelectionScreen(elements); }); console.log("Listener #quiz-main-menu-btn OK."); } else console.warn("#quiz-main-menu-btn não encontrado.");
-    if (elements.endQuizEarlyBtn) { elements.endQuizEarlyBtn.addEventListener('click', () => { console.log("'Finalizar Agora' clicado."); if (window.confirm("Finalizar o quiz agora?")) { console.log("Confirmado."); showResults(elements); } else console.log("Cancelado."); }); console.log("Listener #end-quiz-early-btn OK."); } else console.warn("#end-quiz-early-btn não encontrado.");
+    // --- Check for Saved State ---
+    const savedState = loadGameState();
+    if (savedState) {
+        console.log("Estado salvo encontrado. Tentando restaurar...");
+        // ---===[ PROMPT USER ]===---
+        // Ideally, show a prompt here asking the user if they want to continue.
+        // Example (requires corresponding HTML elements):
+        /*
+        elements.selectionArea.classList.add('hide'); // Hide theme selection
+        elements.resumePromptContainer.classList.remove('hide');
+        // Update prompt message: elements.resumePromptContainer.querySelector('p').textContent = `Deseja continuar o quiz anterior sobre '${savedState.quizConfig?.theme || 'desconhecido'}'?`;
+
+        elements.resumeYesBtn.onclick = () => {
+            elements.resumePromptContainer.classList.add('hide');
+            resumeGame(savedState, elements);
+        };
+        elements.resumeNoBtn.onclick = () => {
+            elements.resumePromptContainer.classList.add('hide');
+            clearGameState();
+            showThemeSelectionScreen(elements); // Start fresh
+        };
+        */
+
+        // ---===[ END PROMPT ]===---
+
+        // ---===[ AUTOMATIC RESUME (Simplified for now) ]===---
+        // For this implementation, we'll resume automatically without asking.
+        console.log("Restaurando automaticamente o jogo salvo (sem prompt).");
+        resumeGame(savedState, elements);
+         // ---===[ END AUTOMATIC RESUME ]===---
+
+    } else {
+         console.log("Nenhum estado salvo válido encontrado. Iniciando normalmente.");
+         // Start fresh if no saved state
+         showThemeSelectionScreen(elements);
+    }
+    // --- End Check for Saved State ---
+
+
+    // --- Listener Setup (Keep original, but add clearGameState where appropriate) ---
+    if (elements.backToThemesBtn) { elements.backToThemesBtn.addEventListener('click', () => { console.log(">>> Voltar (subtema) CLICADO!"); showThemeSelectionScreen(elements); /* Already clears state */ }); console.log("Listener #back-to-themes-btn OK."); } else console.error("Listener #back-to-themes-btn FALHOU.");
+    if (elements.quizBackBtn) { elements.quizBackBtn.addEventListener('click', () => { console.log("Voltar (quiz->contagem) clicado."); clearGameState(); /* Clear state when going back */ if (fullQuizData?.length > 0) showQuestionCountSelection(fullQuizData.length, elements); else showThemeSelectionScreen(elements); }); console.log("Listener #quiz-back-btn OK."); } else console.warn("#quiz-back-btn não encontrado.");
+    if (elements.quizMainMenuBtn) { elements.quizMainMenuBtn.addEventListener('click', () => { console.log("Menu Principal (quiz) clicado."); showThemeSelectionScreen(elements); /* Already clears state */ }); console.log("Listener #quiz-main-menu-btn OK."); } else console.warn("#quiz-main-menu-btn não encontrado.");
+    if (elements.endQuizEarlyBtn) { elements.endQuizEarlyBtn.addEventListener('click', () => { console.log("'Finalizar Agora' clicado."); if (window.confirm("Finalizar o quiz agora?")) { console.log("Confirmado."); showResults(elements); /* Already clears state */ } else console.log("Cancelado."); }); console.log("Listener #end-quiz-early-btn OK."); } else console.warn("#end-quiz-early-btn não encontrado.");
     if (elements.confirmBtn) elements.confirmBtn.addEventListener('click', () => confirmAnswer(elements)); else console.error("#confirm-btn não encontrado!");
     if (elements.nextBtn) elements.nextBtn.addEventListener('click', () => nextQuestion(elements)); else console.warn("#next-btn não encontrado.");
     if (elements.finishBtn) elements.finishBtn.addEventListener('click', () => showResults(elements)); else console.warn("#finish-btn não encontrado.");
+    // --- End Listener Setup ---
 
-    console.log("Iniciando aplicação..."); showThemeSelectionScreen(elements);
+    // console.log("Iniciando aplicação..."); // Moved earlier inside state check logic
     const now = new Date(); let options = { hour12: false, timeZone: 'America/Sao_Paulo' }; try { options.timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone; } catch(e) {} console.log(`Interface JS pronta: ${now.toLocaleString('pt-BR', options)} (${options.timeZone})`);
-});
+}); // <-- Added missing closing parenthesis and semicolon here

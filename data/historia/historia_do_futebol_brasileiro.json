@@ -1,963 +1,819 @@
 {
-    "config": {
-      "theme": "História do Futebol Brasileiro",
-      "totalPoints": 1000,
-      "scoring": "points"
-    },
-    "data": [
-      {
-        "question": "Quem é considerado o 'pai' do futebol no Brasil, tendo trazido as primeiras bolas e regras em 1894?",
-        "options": [
-          { "text": "Adolpho Gordo", "isCorrect": false, "explanation": "Incorreto. Foi um político importante no início do século XX." },
-          { "text": "Charles Miller", "isCorrect": true, "explanation": "Correto! Brasileiro de ascendência inglesa, ele estudou na Inglaterra e trouxe o futebol para São Paulo." },
-          { "text": "Oscar Cox", "isCorrect": false, "explanation": "Incorreto. Oscar Cox foi o fundador do Fluminense." },
-          { "text": "Hans Nobiling", "isCorrect": false, "explanation": "Incorreto. Fundador do SC Germânia (atual EC Pinheiros)." }
-        ]
-      },
-      {
-        "question": "Qual foi o primeiro clube de futebol fundado no Brasil exclusivamente para a prática do esporte?",
-        "options": [
-          { "text": "CR Flamengo", "isCorrect": false, "explanation": "Incorreto. O Flamengo começou como um clube de regatas." },
-          { "text": "SC Corinthians Paulista", "isCorrect": false, "explanation": "Incorreto. Fundado em 1910." },
-          { "text": "São Paulo Athletic Club (SPAC)", "isCorrect": false, "explanation": "Incorreto. O SPAC foi onde Charles Miller jogou, mas era um clube social e esportivo mais amplo." },
-          { "text": "Sport Club Rio Grande", "isCorrect": true, "explanation": "Correto! Fundado em 1900 na cidade de Rio Grande (RS), é considerado o 'Vovô' do futebol brasileiro." }
-        ]
-      },
-      {
-        "question": "Qual clube paulista foi fundado por Charles Miller e seus companheiros em 1888, antes mesmo da introdução oficial do futebol?",
-        "options": [
-          { "text": "SC Internacional", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "SC Germânia", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "AA Mackenzie College", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "São Paulo Athletic Club (SPAC)", "isCorrect": true, "explanation": "Correto! O SPAC já existia como clube social e esportivo, e Miller o utilizou para organizar os primeiros jogos." }
-        ]
-      },
-      {
-          "question": "Qual foi o primeiro campeonato de futebol organizado no Brasil, em 1902?",
-          "options": [
-            { "text": "Campeonato Carioca", "isCorrect": false, "explanation": "Incorreto. O Carioca começou em 1906." },
-            { "text": "Campeonato Paulista", "isCorrect": true, "explanation": "Correto! Organizado pela Liga Paulista de Foot-Ball (LPF), teve o SPAC como primeiro campeão." },
-            { "text": "Campeonato Baiano", "isCorrect": false, "explanation": "Incorreto. O Baiano começou em 1905." },
-            { "text": "Campeonato Gaúcho", "isCorrect": false, "explanation": "Incorreto. O Gaúcho começou em 1919." }
-          ]
-        },
-        {
-          "question": "Qual jogador ficou conhecido como 'El Tigre' e foi um dos primeiros grandes ídolos do futebol brasileiro, atuando pelo Botafogo?",
-          "options": [
-            { "text": "Leônidas da Silva", "isCorrect": false, "explanation": "Incorreto. Leônidas era o 'Diamante Negro'." },
-            { "text": "Friedenreich", "isCorrect": true, "explanation": "Correto! Arthur Friedenreich, mulato de olhos verdes, foi um artilheiro lendário nas primeiras décadas do século XX." },
-            { "text": "Domingos da Guia", "isCorrect": false, "explanation": "Incorreto. Domingos era o 'Divino Mestre', um zagueiro clássico." },
-            { "text": "Nilo Murtinho Braga", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual clube carioca foi fundado em 1902 por Oscar Cox?",
-          "options": [
-            { "text": "Botafogo FR", "isCorrect": false, "explanation": "Incorreto. O Botafogo surgiu da fusão de dois clubes em 1904." },
-            { "text": "CR Vasco da Gama", "isCorrect": false, "explanation": "Incorreto. O Vasco começou como clube de regatas em 1898." },
-            { "text": "Fluminense FC", "isCorrect": true, "explanation": "Correto! Oscar Cox organizou a fundação do Fluminense Football Club." },
-            { "text": "America FC", "isCorrect": false, "explanation": "Incorreto. O America foi fundado em 1904." }
-          ]
-        },
-        {
-          "question": "A 'Resposta Histórica' de 1924 foi uma carta de qual clube se recusando a excluir jogadores negros e operários para disputar o campeonato carioca?",
-          "options": [
-            { "text": "Flamengo", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Fluminense", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Bangu", "isCorrect": false, "explanation": "Incorreto. O Bangu teve importância na inclusão, mas a carta é do Vasco." },
-            { "text": "Vasco da Gama", "isCorrect": true, "explanation": "Correto! Após ser campeão em 1923 com um time multirracial, o Vasco se recusou a ceder às pressões elitistas." }
-          ]
-        },
-        {
-          "question": "Qual jogador brasileiro marcou o primeiro gol da Seleção Brasileira em Copas do Mundo, em 1930?",
-          "options": [
-            { "text": "Friedenreich", "isCorrect": false, "explanation": "Incorreto. Friedenreich não foi convocado para a Copa de 1930." },
-            { "text": "Leônidas da Silva", "isCorrect": false, "explanation": "Incorreto. Leônidas jogou as Copas de 1934 e 1938." },
-            { "text": "Preguinho", "isCorrect": true, "explanation": "Correto! João Coelho Neto, o Preguinho, marcou na derrota para a Iugoslávia." },
-            { "text": "Moderato", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Quem foi o artilheiro da Copa do Mundo de 1938, conhecido como 'Diamante Negro'?",
-          "options": [
-            { "text": "Domingos da Guia", "isCorrect": false, "explanation": "Incorreto. Era zagueiro." },
-            { "text": "Leônidas da Silva", "isCorrect": true, "explanation": "Correto! Leônidas marcou 7 gols e encantou o mundo, popularizando a 'bicicleta'." },
-            { "text": "Ademir de Menezes", "isCorrect": false, "explanation": "Incorreto. Ademir foi artilheiro em 1950." },
-            { "text": "Zizinho", "isCorrect": false, "explanation": "Incorreto. Zizinho brilhou na Copa de 1950." }
-          ]
-        },
-        {
-          "question": "Qual episódio trágico marcou a final da Copa do Mundo de 1950 no Brasil?",
-          "options": [
-            { "text": "O 'Maracanaço'", "isCorrect": true, "explanation": "Correto! A derrota de virada do Brasil para o Uruguai por 2 a 1 na final, em um Maracanã lotado." },
-            { "text": "A 'Batalha de Berna'", "isCorrect": false, "explanation": "Incorreto. Jogo violento entre Hungria e Brasil na Copa de 1954." },
-            { "text": "A 'Guerra do Futebol'", "isCorrect": false, "explanation": "Incorreto. Conflito entre Honduras e El Salvador em 1969." },
-            { "text": "O 'Desastre de Munique'", "isCorrect": false, "explanation": "Incorreto. Acidente aéreo com a equipe do Manchester United em 1958." }
-          ]
-        },
-        {
-          "question": "Quem foi o artilheiro da Copa do Mundo de 1950, conhecido como 'Queixada'?",
-          "options": [
-            { "text": "Zizinho", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Jair Rosa Pinto", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Ademir de Menezes", "isCorrect": true, "explanation": "Correto! Ademir marcou 9 gols no torneio." },
-            { "text": "Chico", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-         {
-          "question": "Qual jogador, considerado por muitos o maior de todos os tempos, estreou na Seleção Brasileira aos 16 anos em 1957?",
-          "options": [
-            { "text": "Garrincha", "isCorrect": false, "explanation": "Incorreto. Garrincha estreou antes da Copa de 1958." },
-            { "text": "Zico", "isCorrect": false, "explanation": "Incorreto. Zico é de uma geração posterior." },
-            { "text": "Pelé", "isCorrect": true, "explanation": "Correto! Edson Arantes do Nascimento, o Pelé, marcou em sua estreia contra a Argentina." },
-            { "text": "Romário", "isCorrect": false, "explanation": "Incorreto. Romário é de uma geração bem posterior." }
-          ]
-        },
-        {
-          "question": "Em que ano o Brasil conquistou sua primeira Copa do Mundo?",
-          "options": [
-            { "text": "1950", "isCorrect": false, "explanation": "Incorreto. Foi vice-campeão." },
-            { "text": "1954", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "1958", "isCorrect": true, "explanation": "Correto! Na Suécia, com show de Pelé e Garrincha, vencendo a final contra os donos da casa." },
-            { "text": "1962", "isCorrect": false, "explanation": "Incorreto. Foi o bicampeonato." }
-          ]
-        },
-        {
-          "question": "Qual jogador foi o grande destaque do Brasil na Copa de 1962, após a lesão de Pelé?",
-          "options": [
-            { "text": "Vavá", "isCorrect": false, "explanation": "Incorreto. Vavá foi importante, mas Garrincha foi o destaque." },
-            { "text": "Didi", "isCorrect": false, "explanation": "Incorreto. Didi foi o cérebro em 1958." },
-            { "text": "Amarildo", "isCorrect": false, "explanation": "Incorreto. Amarildo substituiu Pelé bem, mas Garrincha foi o craque." },
-            { "text": "Garrincha", "isCorrect": true, "explanation": "Correto! Garrincha teve atuações antológicas e liderou o Brasil ao bicampeonato." }
-          ]
-        },
-        {
-          "question": "Como ficou conhecida a Seleção Brasileira campeã da Copa do Mundo de 1970 no México?",
-          "options": [
-            { "text": "A Laranja Mecânica", "isCorrect": false, "explanation": "Incorreto. Apelido da Holanda de 1974." },
-            { "text": "O Esquadrão Imortal", "isCorrect": true, "explanation": "Correto! Pela qualidade técnica e futebol vistoso, com jogadores como Pelé, Tostão, Jairzinho, Rivellino e Gerson." },
-            { "text": "A Fúria", "isCorrect": false, "explanation": "Incorreto. Apelido da Espanha." },
-            { "text": "Os Galácticos", "isCorrect": false, "explanation": "Incorreto. Apelido do Real Madrid no início dos anos 2000." }
-          ]
-        },
-        {
-          "question": "Qual jogador brasileiro marcou gol em todas as partidas da Copa de 1970?",
-          "options": [
-            { "text": "Pelé", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Tostão", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Jairzinho", "isCorrect": true, "explanation": "Correto! Jairzinho, o 'Furacão da Copa', realizou este feito inédito." },
-            { "text": "Rivellino", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual clube brasileiro conquistou o bicampeonato da Copa Libertadores e do Mundial Interclubes em 1962 e 1963, liderado por Pelé?",
-          "options": [
-            { "text": "SE Palmeiras", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "CR Flamengo", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Santos FC", "isCorrect": true, "explanation": "Correto! O Santos de Pelé, Coutinho, Pepe e cia marcou época no futebol mundial." },
-            { "text": "São Paulo FC", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual a maior goleada aplicada pela Seleção Brasileira em Copas do Mundo?",
-          "options": [
-            { "text": "Brasil 5 x 2 Suécia (1958)", "isCorrect": false, "explanation": "Incorreto. Foi a final de 1958." },
-            { "text": "Brasil 7 x 1 Suécia (1950)", "isCorrect": true, "explanation": "Correto! Na fase final da Copa de 1950." },
-            { "text": "Brasil 6 x 1 Espanha (1950)", "isCorrect": false, "explanation": "Incorreto. Outra goleada na Copa de 1950." },
-            { "text": "Brasil 4 x 1 Itália (1970)", "isCorrect": false, "explanation": "Incorreto. Foi a final de 1970." }
-          ]
-        },
-        {
-          "question": "Qual técnico comandou a Seleção Brasileira na conquista do tricampeonato em 1970?",
-          "options": [
-            { "text": "Vicente Feola", "isCorrect": false, "explanation": "Incorreto. Técnico em 1958." },
-            { "text": "Aymoré Moreira", "isCorrect": false, "explanation": "Incorreto. Técnico em 1962." },
-            { "text": "Mário Zagallo", "isCorrect": true, "explanation": "Correto! Zagallo, campeão como jogador em 58 e 62, tornou-se o primeiro a vencer como técnico." },
-            { "text": "Telê Santana", "isCorrect": false, "explanation": "Incorreto. Técnico em 1982 e 1986." }
-          ]
-        },
-        {
-          "question": "Qual jogador, ídolo do Flamengo, foi o camisa 10 e maestro da Seleção Brasileira nas Copas de 1982 e 1986?",
-          "options": [
-            { "text": "Sócrates", "isCorrect": false, "explanation": "Incorreto. Sócrates era o 'Doutor', outro craque daquela geração." },
-            { "text": "Falcão", "isCorrect": false, "explanation": "Incorreto. Falcão era o 'Rei de Roma', também destaque." },
-            { "text": "Zico", "isCorrect": true, "explanation": "Correto! Arthur Antunes Coimbra, o Zico, era o grande craque e líder técnico daquelas seleções." },
-            { "text": "Júnior", "isCorrect": false, "explanation": "Incorreto. Júnior era o 'Capacete', lateral e meio-campista." }
-          ]
-        },
-        {
-          "question": "Qual episódio ficou conhecido como a 'Tragédia do Sarriá'?",
-          "options": [
-            { "text": "A derrota do Brasil para a Argentina na Copa de 1990.", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "A derrota do Brasil para a Itália na Copa de 1982.", "isCorrect": true, "explanation": "Correto! No Estádio Sarriá, em Barcelona, a aclamada seleção de Telê Santana perdeu por 3 a 2 para a Itália e foi eliminada." },
-            { "text": "A expulsão de Maradona na Copa de 1982 contra o Brasil.", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "A derrota nos pênaltis para a França na Copa de 1986.", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual clube brasileiro revelou Romário?",
-          "options": [
-            { "text": "Fluminense FC", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "CR Flamengo", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "CR Vasco da Gama", "isCorrect": true, "explanation": "Correto! Romário começou sua carreira profissional no Vasco." },
-            { "text": "Botafogo FR", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Em que ano o Brasil conquistou o tetracampeonato mundial?",
-          "options": [
-            { "text": "1990", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "1994", "isCorrect": true, "explanation": "Correto! Nos Estados Unidos, vencendo a Itália nos pênaltis na final." },
-            { "text": "1998", "isCorrect": false, "explanation": "Incorreto. Foi vice-campeão." },
-            { "text": "2002", "isCorrect": false, "explanation": "Incorreto. Foi o pentacampeonato." }
-          ]
-        },
-        {
-          "question": "Quem foi o capitão da Seleção Brasileira na conquista do tetra em 1994?",
-          "options": [
-            { "text": "Romário", "isCorrect": false, "explanation": "Incorreto. Romário foi o craque do time." },
-            { "text": "Bebeto", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Dunga", "isCorrect": true, "explanation": "Correto! Carlos Caetano Bledorn Verri, o Dunga, levantou a taça." },
-            { "text": "Taffarel", "isCorrect": false, "explanation": "Incorreto. Taffarel foi o goleiro herói nos pênaltis." }
-          ]
-        },
-        {
-          "question": "Qual jogador brasileiro errou o pênalti decisivo na final da Copa de 1994 contra a Itália?",
-          "options": [
-            { "text": "Franco Baresi (Itália)", "isCorrect": false, "explanation": "Incorreto. Baresi também errou, mas pela Itália." },
-            { "text": "Daniele Massaro (Itália)", "isCorrect": false, "explanation": "Incorreto. Massaro também errou pela Itália." },
-            { "text": "Roberto Baggio (Itália)", "isCorrect": true, "explanation": "Correto! O craque italiano isolou a última cobrança, dando o título ao Brasil." },
-            { "text": "Márcio Santos (Brasil)", "isCorrect": false, "explanation": "Incorreto. Márcio Santos errou uma cobrança, mas não a decisiva." }
-          ]
-        },
-        {
-          "question": "Qual fenômeno extracampo marcou a final da Copa de 1998 entre Brasil e França?",
-          "options": [
-            { "text": "Uma briga generalizada entre os jogadores.", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "A convulsão sofrida por Ronaldo horas antes do jogo.", "isCorrect": true, "explanation": "Correto! O episódio gerou polêmica e afetou visivelmente o desempenho do jogador e da equipe." },
-            { "text": "Acusações de suborno contra a arbitragem.", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Uma forte chuva que quase adiou a partida.", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-         {
-          "question": "Qual jogador foi o artilheiro e grande destaque do Brasil na conquista do pentacampeonato em 2002?",
-          "options": [
-            { "text": "Rivaldo", "isCorrect": false, "explanation": "Incorreto. Rivaldo foi fundamental, formando uma dupla letal com Ronaldo." },
-            { "text": "Ronaldinho Gaúcho", "isCorrect": false, "explanation": "Incorreto. Ronaldinho também foi importante, marcando um golaço contra a Inglaterra." },
-            { "text": "Ronaldo Fenômeno", "isCorrect": true, "explanation": "Correto! Após a decepção de 98 e graves lesões, Ronaldo deu a volta por cima e foi o artilheiro com 8 gols." },
-            { "text": "Cafu", "isCorrect": false, "explanation": "Incorreto. Cafu foi o capitão que levantou a taça." }
-          ]
-        },
-        {
-          "question": "Quem foi o técnico do Brasil na conquista do penta em 2002?",
-          "options": [
-            { "text": "Carlos Alberto Parreira", "isCorrect": false, "explanation": "Incorreto. Técnico em 1994 e 2006." },
-            { "text": "Vanderlei Luxemburgo", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Mário Zagallo", "isCorrect": false, "explanation": "Incorreto. Foi coordenador técnico." },
-            { "text": "Luiz Felipe Scolari (Felipão)", "isCorrect": true, "explanation": "Correto! Felipão montou a 'Família Scolari' e levou o Brasil ao título." }
-          ]
-        },
-        {
-          "question": "Qual clube brasileiro conquistou a Copa Libertadores e o Mundial de Clubes da FIFA em 2005?",
-          "options": [
-            { "text": "Santos FC", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "SC Internacional", "isCorrect": false, "explanation": "Incorreto. O Inter venceu em 2006." },
-            { "text": "São Paulo FC", "isCorrect": true, "explanation": "Correto! O São Paulo, comandado por Paulo Autuori e com Rogério Ceni no gol, venceu o Liverpool na final." },
-            { "text": "Grêmio FBPA", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-         {
-          "question": "Qual jogador, ídolo do Corinthians, foi peça chave na conquista da Libertadores e do Mundial de Clubes em 2012?",
-          "options": [
-            { "text": "Ronaldo Fenômeno", "isCorrect": false, "explanation": "Incorreto. Ronaldo jogou no Corinthians, mas antes dessas conquistas." },
-            { "text": "Paulinho", "isCorrect": false, "explanation": "Incorreto. Paulinho foi muito importante, mas Emerson se destacou nas finais." },
-            { "text": "Emerson Sheik", "isCorrect": true, "explanation": "Correto! Emerson marcou os dois gols na final da Libertadores contra o Boca Juniors." },
-            { "text": "Cássio", "isCorrect": false, "explanation": "Incorreto. Cássio foi fundamental no gol, especialmente no Mundial contra o Chelsea." }
-          ]
-        },
-        {
-          "question": "Qual foi o resultado da semifinal da Copa de 2014 entre Brasil e Alemanha?",
-          "options": [
-            { "text": "1 a 0 para a Alemanha", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "2 a 0 para a Alemanha", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "3 a 1 para a Alemanha", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "7 a 1 para a Alemanha", "isCorrect": true, "explanation": "Correto! Uma derrota histórica e vexatória para o Brasil em pleno Mineirão." }
-          ]
-        },
-        {
-          "question": "Qual jogador brasileiro se tornou o mais caro da história do futebol ao se transferir para o Paris Saint-Germain em 2017?",
-          "options": [
-            { "text": "Philippe Coutinho", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Kaká", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Neymar Jr.", "isCorrect": true, "explanation": "Correto! O PSG pagou a multa rescisória de 222 milhões de euros ao Barcelona." },
-            { "text": "Vinícius Jr.", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual título inédito a Seleção Brasileira masculina de futebol conquistou nas Olimpíadas do Rio em 2016?",
-          "options": [
-            { "text": "Medalha de Bronze", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Medalha de Prata", "isCorrect": false, "explanation": "Incorreto. O Brasil já havia sido prata." },
-            { "text": "Medalha de Ouro", "isCorrect": true, "explanation": "Correto! O Brasil venceu a Alemanha nos pênaltis na final no Maracanã, conquistando o ouro olímpico que faltava." },
-            { "text": "Copa das Confederações", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual clube brasileiro conquistou a Copa Libertadores em 2019 e 2021 sob o comando do técnico português Jorge Jesus e depois Abel Ferreira?",
-          "options": [
-            { "text": "SE Palmeiras", "isCorrect": false, "explanation": "Incorreto. O Palmeiras venceu em 2020 e 2021." },
-            { "text": "CR Flamengo", "isCorrect": true, "explanation": "Correto! O Flamengo venceu em 2019 (Jorge Jesus) e 2022 (Dorival Jr.), enquanto o Palmeiras venceu em 2020 e 2021 (Abel Ferreira)." },
-            { "text": "Atlético Mineiro", "isCorrect": false, "explanation": "Incorreto. O Atlético venceu em 2013." },
-            { "text": "Grêmio FBPA", "isCorrect": false, "explanation": "Incorreto. O Grêmio venceu em 2017." }
-          ]
-        },
-         {
-          "question": "Qual jogadora é a maior artilheira da história das Copas do Mundo Femininas e da Seleção Brasileira (masculina e feminina)?",
-          "options": [
-            { "text": "Formiga", "isCorrect": false, "explanation": "Incorreto. Formiga é recordista de participações em Copas e Olimpíadas." },
-            { "text": "Cristiane", "isCorrect": false, "explanation": "Incorreto. Cristiane é outra grande artilheira." },
-            { "text": "Marta", "isCorrect": true, "explanation": "Correto! Marta Vieira da Silva, eleita 6 vezes a melhor do mundo, detém ambos os recordes." },
-            { "text": "Sissi", "isCorrect": false, "explanation": "Incorreto. Sissi foi uma craque de uma geração anterior." }
-          ]
-        },
-        {
-          "question": "Qual foi o primeiro time brasileiro a excursionar pela Europa, em 1925?",
-          "options": [
-            { "text": "SC Corinthians Paulista", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Fluminense FC", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Club Athletico Paulistano", "isCorrect": true, "explanation": "Correto! O Paulistano, com craques como Friedenreich, fez uma excursão vitoriosa pela Europa." },
-            { "text": "CR Vasco da Gama", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Como ficou conhecida a prática de alguns clubes contratarem jogadores estrangeiros (principalmente argentinos e uruguaios) e os naturalizarem para jogar pela seleção italiana nas décadas de 1930 e 1950?",
-          "options": [
-            { "text": "Mercenários", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Legião Estrangeira", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Oriundi", "isCorrect": true, "explanation": "Correto! Jogadores descendentes de italianos ou naturalizados que atuaram pela Azzurra." },
-            { "text": "Estrangeirados", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual foi o primeiro Campeonato Brasileiro oficial unificado pela CBF (Taça Brasil)?",
-          "options": [
-            { "text": "1959", "isCorrect": true, "explanation": "Correto! O Bahia foi o primeiro campeão da Taça Brasil, derrotando o Santos." },
-            { "text": "1967", "isCorrect": false, "explanation": "Incorreto. Neste ano houve a Taça Brasil e o Torneio Roberto Gomes Pedrosa." },
-            { "text": "1971", "isCorrect": false, "explanation": "Incorreto. Foi o início do Campeonato Nacional de Clubes, com o nome 'Campeonato Brasileiro'." },
-            { "text": "1950", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual o nome do torneio que ocorreu entre 1967 e 1970, também considerado campeonato brasileiro pela CBF, que sucedeu a Taça Brasil?",
-          "options": [
-            { "text": "Copa Rio", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Torneio Rio-São Paulo", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Torneio Roberto Gomes Pedrosa ('Robertão')", "isCorrect": true, "explanation": "Correto! O Robertão expandiu o antigo Rio-São Paulo e é reconhecido como título brasileiro." },
-            { "text": "Copa dos Campeões Mundiais", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual clube foi o primeiro campeão do Campeonato Nacional de Clubes em 1971 (considerado o início do 'Brasileirão' moderno)?",
-          "options": [
-            { "text": "SE Palmeiras", "isCorrect": false, "explanation": "Incorreto. O Palmeiras foi campeão em 1972 e 1973." },
-            { "text": "SC Internacional", "isCorrect": false, "explanation": "Incorreto. O Inter foi tricampeão em 1975, 1976 e 1979." },
-            { "text": "Cruzeiro EC", "isCorrect": false, "explanation": "Incorreto. O Cruzeiro venceu a Taça Brasil de 1966." },
-            { "text": "Clube Atlético Mineiro", "isCorrect": true, "explanation": "Correto! O Galo venceu a primeira edição do novo formato." }
-          ]
-        },
-        {
-          "question": "Qual jogador brasileiro foi o primeiro a ganhar o prêmio de Melhor Jogador do Mundo da FIFA em 1994?",
-          "options": [
-            { "text": "Bebeto", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Romário", "isCorrect": true, "explanation": "Correto! Após liderar o Brasil ao tetra, Romário foi eleito o melhor do mundo." },
-            { "text": "Ronaldo", "isCorrect": false, "explanation": "Incorreto. Ronaldo ganhou em 1996, 1997 e 2002." },
-            { "text": "Rivaldo", "isCorrect": false, "explanation": "Incorreto. Rivaldo ganhou em 1999." }
-          ]
-        },
-        {
-          "question": "Qual time ficou conhecido como 'Carrossel Caipira' nos anos 90?",
-          "options": [
-            { "text": "Guarani FC", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "São Paulo FC", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Mogi Mirim EC", "isCorrect": true, "explanation": "Correto! Comandado por Vadão e com Rivaldo e Válber, o time encantou pelo futebol ofensivo no Paulistão de 1992/93." },
-            { "text": "CA Bragantino", "isCorrect": false, "explanation": "Incorreto. O Bragantino foi vice-brasileiro em 1991." }
-          ]
-        },
-        {
-          "question": "Qual clube brasileiro venceu a Copa Libertadores de forma invicta em 1976?",
-          "options": [
-            { "text": "Santos FC", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Cruzeiro EC", "isCorrect": true, "explanation": "Correto! O Cruzeiro de Raul, Piazza, Dirceu Lopes e Palhinha conquistou a América sem derrotas." },
-            { "text": "SC Internacional", "isCorrect": false, "explanation": "Incorreto. O Inter foi campeão invicto em 1979 no Brasileirão, não na Libertadores de 76." },
-            { "text": "São Paulo FC", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Quem é o maior artilheiro da história do Campeonato Brasileiro (desde 1971)?",
-          "options": [
-            { "text": "Romário", "isCorrect": false, "explanation": "Incorreto. Romário tem 154 gols." },
-            { "text": "Edmundo", "isCorrect": false, "explanation": "Incorreto. Edmundo tem 153 gols." },
-            { "text": "Fred", "isCorrect": false, "explanation": "Incorreto. Fred tem 158 gols." },
-            { "text": "Roberto Dinamite", "isCorrect": true, "explanation": "Correto! Ídolo do Vasco, Dinamite marcou 190 gols." }
-          ]
-        },
-        {
-          "question": "Qual jogador ficou conhecido como 'Rei de Roma'?",
-          "options": [
-            { "text": "Toninho Cerezo", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Paulo Roberto Falcão", "isCorrect": true, "explanation": "Correto! Falcão brilhou na Roma nos anos 80, sendo aclamado pela torcida." },
-            { "text": "Zico", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Júnior", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-         {
-          "question": "Qual clube do Nordeste foi o primeiro campeão brasileiro (Taça Brasil 1959)?",
-          "options": [
-            { "text": "Sport Club do Recife", "isCorrect": false, "explanation": "Incorreto. O Sport foi campeão brasileiro em 1987." },
-            { "text": "Santa Cruz FC", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "EC Bahia", "isCorrect": true, "explanation": "Correto! O Bahia venceu o Santos de Pelé na final." },
-            { "text": "EC Vitória", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual jogador foi apelidado de 'Canhotinha de Ouro'?",
-          "options": [
-            { "text": "Rivellino", "isCorrect": false, "explanation": "Incorreto. Rivellino era a 'Patada Atômica'." },
-            { "text": "Gérson", "isCorrect": true, "explanation": "Correto! Gérson Nunes, cérebro da seleção de 1970, era famoso pela precisão de seus lançamentos com a perna esquerda." },
-            { "text": "Tostão", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Dirceu Lopes", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual movimento de jogadores do Corinthians nos anos 80 pregava mais liberdade e participação nas decisões do clube?",
-          "options": [
-            { "text": "Diretas Já", "isCorrect": false, "explanation": "Incorreto. Movimento político nacional." },
-            { "text": "Clube dos 13", "isCorrect": false, "explanation": "Incorreto. Entidade que reunia os principais clubes." },
-            { "text": "Democracia Corinthiana", "isCorrect": true, "explanation": "Correto! Liderado por Sócrates, Casagrande e Wladimir, o movimento foi um marco na relação entre jogadores e dirigentes." },
-            { "text": "Fiel Torcida", "isCorrect": false, "explanation": "Incorreto. Nome da torcida do Corinthians." }
-          ]
-        },
-        {
-          "question": "Qual clube venceu o controverso Campeonato Brasileiro de 1987 (Copa União)?",
-          "options": [
-            { "text": "CR Flamengo", "isCorrect": true, "explanation": "Correto! O Flamengo venceu o Módulo Verde (Copa União), mas a CBF considera o Sport (vencedor do Módulo Amarelo e do cruzamento) como campeão oficial. Há muita polêmica." },
-            { "text": "SC Internacional", "isCorrect": false, "explanation": "Incorreto. Foi vice do Módulo Verde." },
-            { "text": "Sport Club do Recife", "isCorrect": false, "explanation": "Incorreto. Venceu o Módulo Amarelo e o cruzamento, sendo considerado campeão pela CBF, mas não venceu a Copa União (Módulo Verde)." },
-            { "text": "Guarani FC", "isCorrect": false, "explanation": "Incorreto. Foi vice do Módulo Amarelo." }
-          ]
-        },
-        {
-          "question": "Qual técnico implementou o 'Futebol Força' na Seleção Brasileira, priorizando o físico sobre a técnica, nas Copas de 1990 e 1994?",
-          "options": [
-            { "text": "Telê Santana", "isCorrect": false, "explanation": "Incorreto. Telê prezava a técnica." },
-            { "text": "Carlos Alberto Parreira", "isCorrect": false, "explanation": "Incorreto. Parreira foi o técnico do tetra em 94, com um time mais pragmático, mas o termo 'Futebol Força' é mais associado a Lazaroni." },
-            { "text": "Sebastião Lazaroni", "isCorrect": true, "explanation": "Correto! Lazaroni comandou a seleção na Copa de 1990 com um esquema tático (3-5-2) e um estilo de jogo que priorizava a marcação e a força física." },
-            { "text": "Mário Zagallo", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual jogador ficou famoso pela comemoração 'nana nenê' ao marcar um gol contra a Holanda na Copa de 1994?",
-          "options": [
-            { "text": "Romário", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Mazinho", "isCorrect": false, "explanation": "Incorreto. Mazinho participou da comemoração." },
-            { "text": "Bebeto", "isCorrect": true, "explanation": "Correto! Bebeto fez a comemoração em homenagem ao filho recém-nascido, Mattheus." },
-            { "text": "Dunga", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual clube brasileiro foi o primeiro a conquistar a Tríplice Coroa (Campeonato Estadual, Copa do Brasil e Campeonato Brasileiro) no mesmo ano (2003)?",
-          "options": [
-            { "text": "São Paulo FC", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "SE Palmeiras", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Cruzeiro EC", "isCorrect": true, "explanation": "Correto! O Cruzeiro de Vanderlei Luxemburgo e Alex conquistou os três títulos em 2003." },
-            { "text": "SC Corinthians Paulista", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual jogador foi eleito o Melhor do Mundo pela FIFA em 2004 e 2005, atuando pelo Barcelona?",
-          "options": [
-            { "text": "Rivaldo", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Ronaldo", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Kaká", "isCorrect": false, "explanation": "Incorreto. Kaká venceu em 2007." },
-            { "text": "Ronaldinho Gaúcho", "isCorrect": true, "explanation": "Correto! Ronaldinho viveu o auge de sua carreira no Barcelona nesse período." }
-          ]
-        },
-        {
-          "question": "Qual o nome do estádio do Maracanã antes de sua reforma para a Copa de 2014?",
-          "options": [
-            { "text": "Estádio Jornalista Mário Filho", "isCorrect": true, "explanation": "Correto! Esse sempre foi seu nome oficial, embora seja popularmente conhecido como Maracanã." },
-            { "text": "Estádio da Gávea", "isCorrect": false, "explanation": "Incorreto. Estádio do Flamengo." },
-            { "text": "Estádio de São Januário", "isCorrect": false, "explanation": "Incorreto. Estádio do Vasco." },
-            { "text": "Estádio das Laranjeiras", "isCorrect": false, "explanation": "Incorreto. Estádio do Fluminense." }
-          ]
-        },
-        {
-          "question": "Qual jogador, ídolo do São Paulo, é o maior goleiro-artilheiro da história do futebol?",
-          "options": [
-            { "text": "Marcos", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Taffarel", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Rogério Ceni", "isCorrect": true, "explanation": "Correto! Ceni marcou mais de 130 gols na carreira, a maioria de falta e pênalti." },
-            { "text": "Dida", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-         {
-          "question": "Qual o clássico de maior rivalidade no futebol gaúcho?",
-          "options": [
-            { "text": "Juventude x Caxias (Ca-Ju)", "isCorrect": false, "explanation": "Incorreto. Clássico importante da serra gaúcha." },
-            { "text": "Brasil x Pelotas (Bra-Pel)", "isCorrect": false, "explanation": "Incorreto. Clássico da cidade de Pelotas." },
-            { "text": "Grêmio x Internacional (Gre-Nal)", "isCorrect": true, "explanation": "Correto! Considerado um dos maiores clássicos do Brasil e do mundo." },
-            { "text": "Avenida x Santa Cruz (Ave-Cruz)", "isCorrect": false, "explanation": "Incorreto. Clássico de Santa Cruz do Sul." }
-          ]
-        },
-        {
-          "question": "Qual o clássico de maior rivalidade no futebol mineiro?",
-          "options": [
-            { "text": "América x Villa Nova", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Cruzeiro x América", "isCorrect": false, "explanation": "Incorreto. Clássico importante, mas não o de maior rivalidade." },
-            { "text": "Atlético Mineiro x Cruzeiro", "isCorrect": true, "explanation": "Correto! O 'Clássico Mineiro' envolve as duas maiores torcidas do estado." },
-            { "text": "Atlético Mineiro x América", "isCorrect": false, "explanation": "Incorreto. O 'Clássico das Multidões'." }
-          ]
-        },
-        {
-          "question": "Qual o clássico de maior rivalidade no futebol carioca, conhecido como 'Clássico dos Milhões'?",
-          "options": [
-            { "text": "Fluminense x Vasco (Clássico dos Gigantes)", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Botafogo x Fluminense (Clássico Vovô)", "isCorrect": false, "explanation": "Incorreto. É o clássico mais antigo." },
-            { "text": "Flamengo x Fluminense (Fla-Flu)", "isCorrect": false, "explanation": "Incorreto. Outro clássico de grande tradição." },
-            { "text": "Flamengo x Vasco da Gama", "isCorrect": true, "explanation": "Correto! Devido às duas maiores torcidas do Rio de Janeiro." }
-          ]
-        },
-        {
-          "question": "Qual o clássico de maior rivalidade no futebol paulista, conhecido como 'Derby Paulista'?",
-          "options": [
-            { "text": "São Paulo x Palmeiras (Choque-Rei)", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Santos x Corinthians (Clássico Alvinegro)", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Corinthians x Palmeiras", "isCorrect": true, "explanation": "Correto! Considerado um dos maiores dérbis do mundo." },
-            { "text": "Santos x São Paulo (San-São)", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual jogador brasileiro ficou conhecido como 'Animal'?",
-          "options": [
-            { "text": "Romário", "isCorrect": false, "explanation": "Incorreto. Era o 'Baixinho'." },
-            { "text": "Edmundo", "isCorrect": true, "explanation": "Correto! Pelo seu temperamento forte e futebol habilidoso e decisivo." },
-            { "text": "Renato Gaúcho", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Viola", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual foi o primeiro clube brasileiro a utilizar um jogador negro em sua equipe principal?",
-          "options": [
-            { "text": "CR Vasco da Gama", "isCorrect": false, "explanation": "Incorreto. O Vasco foi pioneiro na luta contra o racismo nos anos 20, mas não o primeiro a ter um jogador negro." },
-            { "text": "AA Ponte Preta", "isCorrect": true, "explanation": "Correto! Miguel do Carmo, em 1900, é considerado o primeiro jogador negro a atuar oficialmente por um clube no Brasil." },
-            { "text": "Bangu AC", "isCorrect": false, "explanation": "Incorreto. O Bangu também teve papel importante na inclusão de operários e negros." },
-            { "text": "SC Corinthians Paulista", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual jogador brasileiro foi conhecido como 'Doutor' por ser formado em medicina?",
-          "options": [
-            { "text": "Zico", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Tostão", "isCorrect": false, "explanation": "Incorreto. Tostão também se formou em medicina, mas após encerrar a carreira." },
-            { "text": "Sócrates", "isCorrect": true, "explanation": "Correto! Sócrates Brasileiro Sampaio de Souza Vieira de Oliveira era médico e um intelectual do futebol." },
-            { "text": "Afonsinho", "isCorrect": false, "explanation": "Incorreto. Afonsinho lutou pelo passe livre, mas não era médico." }
-          ]
-        },
-        {
-          "question": "Qual o nome da torcida organizada mais antiga do Brasil, fundada em 1942?",
-          "options": [
-            { "text": "Gaviões da Fiel (Corinthians)", "isCorrect": false, "explanation": "Incorreto. Fundada em 1969." },
-            { "text": "Mancha Verde (Palmeiras)", "isCorrect": false, "explanation": "Incorreto. Fundada em 1983." },
-            { "text": "Torcida Jovem (Santos)", "isCorrect": false, "explanation": "Incorreto. Fundada em 1969." },
-            { "text": "Charanga Rubro-Negra (Flamengo)", "isCorrect": true, "explanation": "Correto! Fundada por Jayme de Carvalho, é considerada a pioneira." }
-          ]
-        },
-        {
-          "question": "Qual foi o primeiro título internacional oficial conquistado por um clube brasileiro?",
-          "options": [
-            { "text": "Copa Libertadores 1962 (Santos)", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Mundial Interclubes 1962 (Santos)", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Copa Rio 1951 (Palmeiras)", "isCorrect": true, "explanation": "Correto! O Palmeiras venceu a Copa Rio, torneio que reuniu grandes clubes mundiais e que a FIFA reconheceu como o primeiro mundial de clubes." },
-            { "text": "Copa Conmebol 1992 (Atlético Mineiro)", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual jogador brasileiro marcou um gol de bicicleta antológico contra a Sérvia na Copa de 2022?",
-          "options": [
-            { "text": "Neymar Jr.", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Vinícius Jr.", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Richarlison", "isCorrect": true, "explanation": "Correto! O gol foi eleito o mais bonito da Copa do Mundo do Catar." },
-            { "text": "Lucas Paquetá", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual o apelido de Manoel Francisco dos Santos, considerado um dos maiores dribladores da história?",
-          "options": [
-            { "text": "Canhotinha de Ouro", "isCorrect": false, "explanation": "Incorreto. Apelido de Gérson." },
-            { "text": "Anjo das Pernas Tortas", "isCorrect": true, "explanation": "Correto! Garrincha era conhecido por seus dribles desconcertantes e suas pernas arqueadas." },
-            { "text": "Diamante Negro", "isCorrect": false, "explanation": "Incorreto. Apelido de Leônidas da Silva." },
-            { "text": "Pé de Valsa", "isCorrect": false, "explanation": "Incorreto. Apelido de Ademir da Guia." }
-          ]
-        },
-        {
-          "question": "Qual técnico brasileiro comandou a seleção portuguesa na Eurocopa de 2004 (vice-campeã)?",
-          "options": [
-            { "text": "Carlos Alberto Parreira", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Vanderlei Luxemburgo", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Luiz Felipe Scolari (Felipão)", "isCorrect": true, "explanation": "Correto! Felipão levou Portugal à final, perdendo para a Grécia." },
-            { "text": "Paulo Autuori", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-         {
-          "question": "Qual jogador, ídolo do Palmeiras, era conhecido como 'Divino'?",
-          "options": [
-            { "text": "Marcos", "isCorrect": false, "explanation": "Incorreto. Era 'São Marcos'." },
-            { "text": "Evair", "isCorrect": false, "explanation": "Incorreto. Era o 'Matador'." },
-            { "text": "Ademir da Guia", "isCorrect": true, "explanation": "Correto! Filho de Domingos da Guia, Ademir era conhecido pela classe e elegância em campo." },
-            { "text": "Djalma Santos", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual o nome da primeira taça da Copa do Mundo, que foi roubada no Brasil em 1983 e nunca recuperada?",
-          "options": [
-            { "text": "Taça da Copa do Mundo da FIFA", "isCorrect": false, "explanation": "Incorreto. Essa é a taça atual." },
-            { "text": "Taça Jules Rimet", "isCorrect": true, "explanation": "Correto! O Brasil ganhou a posse definitiva após o tri em 1970." },
-            { "text": "Taça da Vitória Alada", "isCorrect": false, "explanation": "Incorreto. Nome inspirado na deusa Nike, associado à taça Jules Rimet." },
-            { "text": "Taça Stanley Rous", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual clube foi fundado por dissidentes do Fluminense em 1911 e adotou as cores vermelho e preto?",
-          "options": [
-            { "text": "America FC", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Botafogo FR", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "CR Flamengo", "isCorrect": true, "explanation": "Correto! O departamento de futebol do Flamengo surgiu dessa dissidência." },
-            { "text": "CR Vasco da Gama", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual jogador ficou conhecido como 'Reizinho do Parque' e depois 'Reizinho da Gávea'?",
-          "options": [
-            { "text": "Sócrates", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Rivellino", "isCorrect": false, "explanation": "Incorreto. Rivellino foi 'Reizinho do Parque' (referência ao Parque São Jorge, do Corinthians)." },
-            { "text": "Zico", "isCorrect": true, "explanation": "Correto! Zico herdou o apelido 'Reizinho' de Rivellino ao brilhar no Flamengo (cuja sede é na Gávea)." },
-            { "text": "Pelé", "isCorrect": false, "explanation": "Incorreto. Pelé era o 'Rei'." }
-          ]
-        },
-        {
-          "question": "Qual foi a primeira edição do Mundial de Clubes da FIFA no formato atual, realizada no Brasil em 2000?",
-          "options": [
-            { "text": "Vencida pelo Real Madrid", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Vencida pelo Manchester United", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Vencida pelo Corinthians", "isCorrect": true, "explanation": "Correto! O Corinthians venceu o Vasco na final nos pênaltis." },
-            { "text": "Vencida pelo Vasco da Gama", "isCorrect": false, "explanation": "Incorreto. O Vasco foi vice-campeão." }
-          ]
-        },
-        {
-          "question": "Qual jogador brasileiro ganhou o prêmio Puskás da FIFA de gol mais bonito em 2015?",
-          "options": [
-            { "text": "Neymar", "isCorrect": false, "explanation": "Incorreto. Neymar ganhou em 2011." },
-            { "text": "Wendell Lira", "isCorrect": true, "explanation": "Correto! Wendell, então no Goianésia, venceu Messi e Florenzi com um golaço de voleio." },
-            { "text": "Richarlison", "isCorrect": false, "explanation": "Incorreto. Richarlison ganhou em 2022." },
-            { "text": "Philippe Coutinho", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-         {
-          "question": "Qual desses jogadores NÃO fez parte da 'Seleção de Ouro' campeã em 1970?",
-          "options": [
-            { "text": "Carlos Alberto Torres", "isCorrect": false, "explanation": "Incorreto. Era o capitão." },
-            { "text": "Clodoaldo", "isCorrect": false, "explanation": "Incorreto. Volante titular." },
-            { "text": "Falcão", "isCorrect": true, "explanation": "Correto! Falcão pertenceu à brilhante geração de 1982." },
-            { "text": "Félix", "isCorrect": false, "explanation": "Incorreto. Era o goleiro titular." }
-          ]
-        },
-        {
-          "question": "Qual foi o primeiro técnico estrangeiro a comandar a Seleção Brasileira?",
-          "options": [
-            { "text": "Joreca (Português)", "isCorrect": true, "explanation": "Correto! O português Flávio Rodrigues da Costa, o Joreca, comandou o Brasil em 1944." },
-            { "text": "Filpo Núñez (Argentino)", "isCorrect": false, "explanation": "Incorreto. Filpo comandou o Palmeiras que representou o Brasil em 1965, mas não a seleção diretamente." },
-            { "text": "Otto Glória (Português)", "isCorrect": false, "explanation": "Incorreto. Treinou a seleção portuguesa." },
-            { "text": "Nenhum, todos foram brasileiros.", "isCorrect": false, "explanation": "Incorreto. Houve técnicos estrangeiros." }
-          ]
-        },
-        {
-          "question": "Qual jogador brasileiro foi o primeiro a marcar um gol em final de Champions League (formato atual)?",
-          "options": [
-            { "text": "Romário", "isCorrect": false, "explanation": "Incorreto. Jogou a final de 1994 pelo Barcelona, mas não marcou." },
-            { "text": "Rivaldo", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Jardel", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Lúcio", "isCorrect": true, "explanation": "Correto! Lúcio marcou pelo Bayer Leverkusen na final de 2002 contra o Real Madrid." }
-          ]
-        },
-        {
-          "question": "Qual apelido era dado à dupla de ataque do Santos formada por Pelé e Coutinho?",
-          "options": [
-            { "text": "Dupla Dinâmica", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Ataque dos Sonhos", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Tabela Mortal", "isCorrect": true, "explanation": "Correto! Pela incrível capacidade de tabelar e marcar gols." },
-            { "text": "Reis do Gol", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-         {
-          "question": "Qual jogador, conhecido como 'Poeta da Bola', foi ídolo do Botafogo e da Seleção nos anos 60?",
-          "options": [
-            { "text": "Garrincha", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Jairzinho", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Didi", "isCorrect": true, "explanation": "Correto! Waldir Pereira, o Didi, era famoso pela classe, visão de jogo e pela criação da 'Folha Seca'." },
-            { "text": "Nilton Santos", "isCorrect": false, "explanation": "Incorreto. Nilton Santos era a 'Enciclopédia do Futebol', lateral esquerdo." }
-          ]
-        },
-        {
-          "question": "Qual clube brasileiro foi fundado por operários no bairro do Bom Retiro em São Paulo, em 1910?",
-          "options": [
-            { "text": "SE Palmeiras", "isCorrect": false, "explanation": "Incorreto. Fundado pela colônia italiana como Palestra Itália." },
-            { "text": "São Paulo FC", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Portuguesa de Desportos", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "SC Corinthians Paulista", "isCorrect": true, "explanation": "Correto! Inspirado no Corinthian FC da Inglaterra, foi fundado com a ideia de ser um time do povo." }
-          ]
-        },
-        {
-          "question": "Qual jogador brasileiro foi o primeiro a ser transferido por um milhão de dólares, do Bangu para o Atlético de Madrid em 1957?",
-          "options": [
-            { "text": "Zizinho", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Evaristo de Macedo", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Vavá", "isCorrect": true, "explanation": "Correto! Edvaldo Izidio Neto, o Vavá, protagonizou essa transferência recorde para a época." },
-            { "text": "Didi", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual foi a primeira mulher a arbitrar uma partida de futebol masculino profissional no Brasil?",
-          "options": [
-            { "text": "Ana Paula Oliveira", "isCorrect": false, "explanation": "Incorreto. Foi uma árbitra assistente de destaque." },
-            { "text": "Silvia Regina de Oliveira", "isCorrect": true, "explanation": "Correto! Silvia Regina apitou jogos da Série A do Brasileirão no início dos anos 2000." },
-            { "text": "Edina Alves Batista", "isCorrect": false, "explanation": "Incorreto. Árbitra atual de destaque internacional." },
-            { "text": "Renata Ruel", "isCorrect": false, "explanation": "Incorreto. Árbitra assistente e comentarista." }
-          ]
-        },
-         {
-          "question": "Qual foi o chamado 'Milagre de Berna' na Copa de 1954?",
-          "options": [
-            { "text": "A vitória do Brasil sobre a Hungria.", "isCorrect": false, "explanation": "Incorreto. O Brasil perdeu para a Hungria." },
-            { "text": "A vitória da Alemanha Ocidental sobre a favorita Hungria na final.", "isCorrect": true, "explanation": "Correto! A Hungria era amplamente favorita, mas perdeu a final por 3 a 2." },
-            { "text": "A classificação da Suíça para as semifinais.", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "O primeiro gol televisionado ao vivo.", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual jogador brasileiro, ídolo do Grêmio, marcou o gol do título mundial do clube em 1983?",
-          "options": [
-            { "text": "Tarciso", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Paulo César Caju", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Renato Portaluppi (Renato Gaúcho)", "isCorrect": true, "explanation": "Correto! Renato marcou os dois gols na vitória por 2 a 1 sobre o Hamburgo." },
-            { "text": "Hugo de León", "isCorrect": false, "explanation": "Incorreto. Era o capitão." }
-          ]
-        },
-        {
-          "question": "Qual o nome da bola oficial da Copa do Mundo de 2014 no Brasil?",
-          "options": [
-            { "text": "Jabulani", "isCorrect": false, "explanation": "Incorreto. Bola da Copa de 2010." },
-            { "text": "Teamgeist", "isCorrect": false, "explanation": "Incorreto. Bola da Copa de 2006." },
-            { "text": "Brazuca", "isCorrect": true, "explanation": "Correto! Nome escolhido por votação popular." },
-            { "text": "Telstar 18", "isCorrect": false, "explanation": "Incorreto. Bola da Copa de 2018." }
-          ]
-        },
-        {
-          "question": "Qual jogador brasileiro foi eleito o Melhor do Mundo pela FIFA em 2007, atuando pelo Milan?",
-          "options": [
-            { "text": "Ronaldinho Gaúcho", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Adriano Imperador", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Robinho", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Kaká", "isCorrect": true, "explanation": "Correto! Kaká foi o último brasileiro a receber o prêmio." }
-          ]
-        },
-        {
-          "question": "Qual clube foi o primeiro campeão da Copa do Brasil em 1989?",
-          "options": [
-            { "text": "CR Flamengo", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Grêmio FBPA", "isCorrect": true, "explanation": "Correto! O Grêmio venceu o Sport na final." },
-            { "text": "SC Corinthians Paulista", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Cruzeiro EC", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-         {
-          "question": "Qual jogador detém o recorde de gols pela Seleção Brasileira?",
-          "options": [
-            { "text": "Pelé", "isCorrect": false, "explanation": "Incorreto. Pelé tem 77 gols em jogos oficiais (critério FIFA). Neymar tem mais." },
-            { "text": "Ronaldo", "isCorrect": false, "explanation": "Incorreto. Ronaldo tem 62 gols." },
-            { "text": "Romário", "isCorrect": false, "explanation": "Incorreto. Romário tem 55 gols." },
-            { "text": "Neymar Jr.", "isCorrect": true, "explanation": "Correto! Neymar ultrapassou Pelé em jogos oficiais segundo os critérios da FIFA." }
-          ]
-        },
-        {
-          "question": "Qual técnico levou o São Paulo ao bicampeonato da Libertadores e do Mundial em 1992 e 1993?",
-          "options": [
-            { "text": "Muricy Ramalho", "isCorrect": false, "explanation": "Incorreto. Muricy foi campeão brasileiro pelo SPFC." },
-            { "text": "Carlos Alberto Parreira", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Telê Santana", "isCorrect": true, "explanation": "Correto! Telê montou um time histórico que conquistou o Brasil e o mundo." },
-            { "text": "Paulo Autuori", "isCorrect": false, "explanation": "Incorreto. Autuori foi campeão em 2005." }
-          ]
-        },
-        {
-          "question": "Qual jogador foi conhecido como 'Gasparzinho' e brilhou no Vasco campeão brasileiro de 1974?",
-          "options": [
-            { "text": "Roberto Dinamite", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Ademir", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Alcir Portella", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Zanata", "isCorrect": true, "explanation": "Correto! Carlos Zanata, o Gasparzinho, foi um importante meio-campista daquela conquista." }
-          ]
-        },
-        {
-          "question": "Qual clube brasileiro é conhecido como 'Colorado'?",
-          "options": [
-            { "text": "Athletico Paranaense", "isCorrect": false, "explanation": "Incorreto. É o 'Furacão'." },
-            { "text": "SC Internacional", "isCorrect": true, "explanation": "Correto! Devido à cor vermelha predominante em seu uniforme." },
-            { "text": "EC Bahia", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Vila Nova FC", "isCorrect": false, "explanation": "Incorreto. Também usa vermelho, mas 'Colorado' é mais associado ao Inter." }
-          ]
-        },
-        {
-          "question": "Qual clube brasileiro é conhecido como 'Tricolor Paulista'?",
-          "options": [
-            { "text": "Fluminense FC", "isCorrect": false, "explanation": "Incorreto. É o 'Tricolor das Laranjeiras'." },
-            { "text": "Grêmio FBPA", "isCorrect": false, "explanation": "Incorreto. É o 'Tricolor Gaúcho' ou 'Imortal Tricolor'." },
-            { "text": "São Paulo FC", "isCorrect": true, "explanation": "Correto! Devido às suas cores vermelho, branco e preto." },
-            { "text": "EC Bahia", "isCorrect": false, "explanation": "Incorreto. É o 'Tricolor de Aço'." }
-          ]
-        },
-         {
-          "question": "Qual jogador, ídolo do Internacional, foi o capitão do tricampeonato brasileiro invicto em 1979?",
-          "options": [
-            { "text": "Falcão", "isCorrect": false, "explanation": "Incorreto. Falcão era a estrela, mas não o capitão em 79." },
-            { "text": "Figueroa", "isCorrect": true, "explanation": "Correto! O zagueiro chileno Elías Figueroa foi o capitão e símbolo daquela conquista." },
-            { "text": "Carpegiani", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Manga", "isCorrect": false, "explanation": "Incorreto. Era o goleiro." }
-          ]
-        },
-        {
-          "question": "Qual o nome do primeiro estádio do Palmeiras, antes do Allianz Parque?",
-          "options": [
-            { "text": "Estádio do Pacaembu", "isCorrect": false, "explanation": "Incorreto. O Palmeiras jogou muito no Pacaembu, mas não era seu." },
-            { "text": "Estádio Palestra Itália (Parque Antarctica)", "isCorrect": true, "explanation": "Correto! Foi a casa do clube por décadas antes da modernização." },
-            { "text": "Arena Barueri", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Estádio da Rua Javari", "isCorrect": false, "explanation": "Incorreto. Estádio do Juventus." }
-          ]
-        },
-        {
-          "question": "Qual jogador, ídolo do Cruzeiro, foi conhecido como 'Príncipe'?",
-          "options": [
-            { "text": "Tostão", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Piazza", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Dirceu Lopes", "isCorrect": true, "explanation": "Correto! Pela sua habilidade e elegância em campo." },
-            { "text": "Palhinha", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-         {
-          "question": "Qual o apelido de Sócrates, craque do Corinthians e da Seleção?",
-          "options": [
-            { "text": "Canhotinha de Ouro", "isCorrect": false, "explanation": "Incorreto. Gérson." },
-            { "text": "Rei de Roma", "isCorrect": false, "explanation": "Incorreto. Falcão." },
-            { "text": "Doutor", "isCorrect": true, "explanation": "Correto! Devido à sua formação em medicina e postura intelectualizada." },
-            { "text": "Animal", "isCorrect": false, "explanation": "Incorreto. Edmundo." }
-          ]
-        },
-        {
-          "question": "Qual foi o 'Caranguejo' que marcou época no Fluminense e na Seleção?",
-          "options": [
-            { "text": "Carlos Alberto Torres", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Gérson", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Pinheiro", "isCorrect": true, "explanation": "Correto! Zózimo Alves Calazães, o Pinheiro, zagueiro clássico, campeão em 1958 e 1962." },
-            { "text": "Castilho", "isCorrect": false, "explanation": "Incorreto. Goleiro que amputou um dedo para seguir jogando." }
-          ]
-        },
-         {
-          "question": "Qual jogador do Atlético Mineiro ficou conhecido como 'Rei Dadá'?",
-          "options": [
-            { "text": "Reinaldo", "isCorrect": false, "explanation": "Incorreto. Reinaldo era o 'Rei'." },
-            { "text": "Éder Aleixo", "isCorrect": false, "explanation": "Incorreto. Era o 'Bomba'." },
-            { "text": "Dario", "isCorrect": true, "explanation": "Correto! Dario José dos Santos, folclórico centroavante artilheiro, autor de frases famosas." },
-            { "text": "Toninho Cerezo", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual time ficou conhecido como 'Expressinho do São Paulo' nos anos 90?",
-          "options": [
-            { "text": "O time principal campeão mundial.", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Um time reserva ou de jovens que disputava torneios menores ou simultâneos.", "isCorrect": true, "explanation": "Correto! Comandado por Muricy Ramalho, revelou jogadores e ganhou a Copa Conmebol." },
-            { "text": "O time de futsal do clube.", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "O time de basquete do clube.", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual o nome do incidente em 1969 envolvendo Brasil e Peru nas eliminatórias, que gerou grande comoção e ajudou a classificar o Brasil para a Copa de 70?",
-          "options": [
-            { "text": "A Batalha de Lima", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "O Terremoto de Lima", "isCorrect": true, "explanation": "Correto! Um terremoto real ocorreu no Peru pouco antes do jogo decisivo no Maracanã, criando um clima de solidariedade e comoção." },
-            { "text": "A Guerra do Futebol", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "O Escândalo das Eliminatórias", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual jogador brasileiro foi eleito Melhor Jogador Jovem na Copa do Mundo de 1958?",
-          "options": [
-            { "text": "Garrincha", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Vavá", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Didi", "isCorrect": false, "explanation": "Incorreto. Didi foi eleito o Melhor Jogador da Copa." },
-            { "text": "Pelé", "isCorrect": true, "explanation": "Correto! Com apenas 17 anos, Pelé encantou o mundo e recebeu o prêmio." }
-          ]
-        },
-        {
-          "question": "Qual clube brasileiro detém o recorde de mais títulos do Campeonato Brasileiro (considerando unificação de Taça Brasil e Robertão)?",
-          "options": [
-            { "text": "Santos FC", "isCorrect": false, "explanation": "Incorreto. O Santos tem 8 títulos." },
-            { "text": "SC Corinthians Paulista", "isCorrect": false, "explanation": "Incorreto. O Corinthians tem 7 títulos." },
-            { "text": "SE Palmeiras", "isCorrect": true, "explanation": "Correto! O Palmeiras é o maior campeão nacional, com 12 títulos (até 2023)." },
-            { "text": "São Paulo FC", "isCorrect": false, "explanation": "Incorreto. O São Paulo tem 6 títulos." }
-          ]
-        },
-        {
-          "question": "Qual jogador, ídolo do Flamengo, era conhecido como 'Maestro Júnior'?",
-          "options": [
-            { "text": "Zico", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Adílio", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Leovegildo Lins da Gama Júnior", "isCorrect": true, "explanation": "Correto! Júnior, lateral e meio-campista de extrema classe e liderança." },
-            { "text": "Andrade", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual técnico montou a 'Máquina Tricolor' do Fluminense nos anos 70?",
-          "options": [
-            { "text": "Mário Zagallo", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Telê Santana", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Dino Sani", "isCorrect": true, "explanation": "Correto! Dino Sani comandou o time campeão carioca em 1975 e 1976 e semifinalista brasileiro." },
-            { "text": "Carlos Alberto Parreira", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual estádio paulista é conhecido como 'Canindé'?",
-          "options": [
-            { "text": "Estádio do Pacaembu", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Estádio da Rua Javari", "isCorrect": false, "explanation": "Incorreto. Estádio do Juventus." },
-            { "text": "Estádio Doutor Oswaldo Teixeira Duarte", "isCorrect": true, "explanation": "Correto! É o estádio da Portuguesa de Desportos." },
-            { "text": "Arena Corinthians", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual jogador brasileiro foi conhecido como 'Formiguinha'?",
-          "options": [
-            { "text": "Mauro Silva", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Dunga", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Emerson", "isCorrect": true, "explanation": "Correto! Emerson Ferreira da Rosa, volante de forte marcação e bom passe." },
-            { "text": "César Sampaio", "isCorrect": false, "explanation": "Incorreto." }
-          ]
-        },
-        {
-          "question": "Qual clube carioca é conhecido como 'Gigante da Colina'?",
-          "options": [
-            { "text": "Fluminense FC", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "CR Flamengo", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "Botafogo FR", "isCorrect": false, "explanation": "Incorreto." },
-            { "text": "CR Vasco da Gama", "isCorrect": true, "explanation": "Correto! Devido à localização de seu estádio, São Januário." }
-          ]
-        }
+  "config": {
+    "theme": "História do Futebol Brasileiro",
+    "totalPoints": 1000,
+    "scoring": "points"
+  },
+  "data": [
+    {
+      "question": "Quem é considerado o 'pai' do futebol no Brasil, tendo trazido as primeiras bolas e regras em 1894?",
+      "options": [
+        { "text": "Adolpho Gordo", "isCorrect": false, "explanation": "Incorreto. Adolpho Gordo foi um político influente na República Velha." },
+        { "text": "Charles Miller", "isCorrect": true, "explanation": "Correto! Nascido em São Paulo e educado na Inglaterra, Charles Miller retornou em 1894 trazendo bolas, uniformes e as regras do futebol, organizando os primeiros jogos." },
+        { "text": "Oscar Cox", "isCorrect": false, "explanation": "Incorreto. Oscar Cox, brasileiro descendente de ingleses, foi o principal fundador do Fluminense FC em 1902." },
+        { "text": "Hans Nobiling", "isCorrect": false, "explanation": "Incorreto. Nobiling foi um alemão que ajudou a fundar o SC Germânia (atual EC Pinheiros) e a organizar o futebol em São Paulo." }
       ]
-  }
+    },
+    {
+      "question": "Qual foi o primeiro clube de futebol fundado no Brasil exclusivamente para a prática do esporte?",
+      "options": [
+        { "text": "CR Flamengo", "isCorrect": false, "explanation": "Incorreto. O Flamengo foi fundado em 1895 como clube de regatas, aderindo ao futebol em 1911." },
+        { "text": "SC Corinthians Paulista", "isCorrect": false, "explanation": "Incorreto. O Corinthians foi fundado em 1910 por operários." },
+        { "text": "São Paulo Athletic Club (SPAC)", "isCorrect": false, "explanation": "Incorreto. O SPAC (1888) já existia como clube social poliesportivo antes do futebol ser introduzido por Miller." },
+        { "text": "Sport Club Rio Grande", "isCorrect": true, "explanation": "Correto! Fundado em 19 de julho de 1900 na cidade de Rio Grande (RS), é considerado o 'clube-pai' ou 'Vovô' do futebol brasileiro." }
+      ]
+    },
+    {
+      "question": "Qual clube paulista, onde Charles Miller jogou, foi fundado em 1888?",
+      "options": [
+        { "text": "SC Internacional", "isCorrect": false, "explanation": "Incorreto. Fundado em 1909 por dissidentes do Germânia." },
+        { "text": "SC Germânia", "isCorrect": false, "explanation": "Incorreto. Fundado em 1899 por Hans Nobiling." },
+        { "text": "AA Mackenzie College", "isCorrect": false, "explanation": "Incorreto. Clube ligado à universidade, também pioneiro, mas fundado depois." },
+        { "text": "São Paulo Athletic Club (SPAC)", "isCorrect": true, "explanation": "Correto! O SPAC, fundado em 1888 pela comunidade britânica, foi o clube onde Miller organizou os primeiros jogos e se sagrou campeão." }
+      ]
+    },
+    {
+        "question": "Qual foi o primeiro campeonato de futebol organizado no Brasil, em 1902?",
+        "options": [
+          { "text": "Campeonato Carioca", "isCorrect": false, "explanation": "Incorreto. O Carioca teve sua primeira edição em 1906, vencida pelo Fluminense." },
+          { "text": "Campeonato Paulista", "isCorrect": true, "explanation": "Correto! A Liga Paulista de Foot-Ball (LPF) organizou o primeiro campeonato oficial, vencido pelo São Paulo Athletic Club (SPAC)." },
+          { "text": "Campeonato Baiano", "isCorrect": false, "explanation": "Incorreto. O Baiano iniciou em 1905, com o Internacional de Cricket sendo campeão." },
+          { "text": "Campeonato Gaúcho", "isCorrect": false, "explanation": "Incorreto. O Gaúcho só foi organizado a partir de 1919." }
+        ]
+      },
+      {
+        "question": "Qual jogador ficou conhecido como 'El Tigre' e foi um dos primeiros grandes ídolos do futebol brasileiro?",
+        "options": [
+          { "text": "Leônidas da Silva", "isCorrect": false, "explanation": "Incorreto. Leônidas da Silva era o 'Diamante Negro', famoso pela bicicleta." },
+          { "text": "Friedenreich", "isCorrect": true, "explanation": "Correto! Arthur Friedenreich, filho de alemão com afro-brasileira, foi um artilheiro implacável (mais de 1000 gols não oficiais), ídolo do Paulistano e São Paulo da Floresta." },
+          { "text": "Domingos da Guia", "isCorrect": false, "explanation": "Incorreto. Domingos da Guia foi um zagueiro clássico, o 'Divino Mestre'." },
+          { "text": "Nilo Murtinho Braga", "isCorrect": false, "explanation": "Incorreto. Nilo foi um atacante importante do Botafogo e da seleção nos anos 20 e 30." }
+        ]
+      },
+      {
+        "question": "Qual clube carioca foi fundado em 1902 por Oscar Cox?",
+        "options": [
+          { "text": "Botafogo FR", "isCorrect": false, "explanation": "Incorreto. O Botafogo Football Club foi fundado em 1904 (depois fundido com o Club de Regatas Botafogo)." },
+          { "text": "CR Vasco da Gama", "isCorrect": false, "explanation": "Incorreto. O Vasco da Gama foi fundado em 1898 para o remo, criando seu departamento de futebol em 1915." },
+          { "text": "Fluminense FC", "isCorrect": true, "explanation": "Correto! Após assistir a jogos na Europa, Oscar Cox reuniu amigos e fundou o Fluminense, um dos pioneiros do Rio." },
+          { "text": "America FC", "isCorrect": false, "explanation": "Incorreto. O America foi fundado em 1904 por dissidentes do Fluminense." }
+        ]
+      },
+      {
+        "question": "A 'Resposta Histórica' de 1924 foi uma carta de qual clube se recusando a excluir jogadores negros e operários para disputar o campeonato carioca?",
+        "options": [
+          { "text": "Flamengo", "isCorrect": false, "explanation": "Incorreto. O Flamengo, como outros clubes da elite, inicialmente resistiu à profissionalização e popularização." },
+          { "text": "Fluminense", "isCorrect": false, "explanation": "Incorreto. O Fluminense era um dos clubes que lideravam a liga elitista (AMEA)." },
+          { "text": "Bangu", "isCorrect": false, "explanation": "Incorreto. O Bangu, de origem operária, foi campeão em 1933 e também teve papel importante na inclusão." },
+          { "text": "Vasco da Gama", "isCorrect": true, "explanation": "Correto! Campeão em 1923 com um time multirracial ('Camisas Negras'), o Vasco se negou a dispensar 12 de seus jogadores como exigido pela elitista AMEA, um marco contra o racismo." }
+        ]
+      },
+      {
+        "question": "Qual jogador brasileiro marcou o primeiro gol da Seleção Brasileira em Copas do Mundo, em 1930?",
+        "options": [
+          { "text": "Friedenreich", "isCorrect": false, "explanation": "Incorreto. 'El Tigre' não foi convocado para a primeira Copa devido a um racha entre ligas paulista e carioca." },
+          { "text": "Leônidas da Silva", "isCorrect": false, "explanation": "Incorreto. Leônidas, o 'Diamante Negro', brilharia nas Copas de 1934 e 1938." },
+          { "text": "Preguinho", "isCorrect": true, "explanation": "Correto! João Coelho Neto, o Preguinho (filho do escritor Coelho Neto), marcou o gol de honra na derrota por 2 a 1 para a Iugoslávia." },
+          { "text": "Carvalho Leite", "isCorrect": false, "explanation": "Incorreto. Artilheiro do Botafogo, também esteve na Copa de 1930." }
+        ]
+      },
+      {
+        "question": "Quem foi o artilheiro da Copa do Mundo de 1938, conhecido como 'Diamante Negro'?",
+        "options": [
+          { "text": "Domingos da Guia", "isCorrect": false, "explanation": "Incorreto. Domingos foi o grande zagueiro daquela seleção." },
+          { "text": "Leônidas da Silva", "isCorrect": true, "explanation": "Correto! Leônidas marcou 7 gols (inicialmente creditaram 8) na Copa da França, encantando com sua habilidade e a 'bicicleta'." },
+          { "text": "Perácio", "isCorrect": false, "explanation": "Incorreto. Perácio foi outro atacante importante daquela seleção." },
+          { "text": "Tim", "isCorrect": false, "explanation": "Incorreto. Elba de Pádua Lima, o Tim, também compôs o ataque brasileiro em 1938." }
+        ]
+      },
+      {
+        "question": "Qual episódio trágico marcou a final da Copa do Mundo de 1950 no Brasil?",
+        "options": [
+          { "text": "O 'Maracanaço'", "isCorrect": true, "explanation": "Correto! A inesperada derrota do Brasil para o Uruguai por 2 a 1 na partida decisiva, diante de quase 200 mil pessoas no Maracanã, tornou-se um trauma nacional." },
+          { "text": "A 'Batalha de Santiago'", "isCorrect": false, "explanation": "Incorreto. Jogo extremamente violento entre Chile e Itália na Copa de 1962." },
+          { "text": "A 'Noite das Garrafadas'", "isCorrect": false, "explanation": "Incorreto. Confusão em um jogo entre Brasil e Argentina em 1946." },
+          { "text": "O '7 a 1'", "isCorrect": false, "explanation": "Incorreto. Goleada sofrida para a Alemanha na semifinal da Copa de 2014." }
+        ]
+      },
+      {
+        "question": "Quem foi o artilheiro da Copa do Mundo de 1950, conhecido como 'Queixada'?",
+        "options": [
+          { "text": "Zizinho", "isCorrect": false, "explanation": "Incorreto. Zizinho foi eleito o craque da Copa, mas marcou 2 gols." },
+          { "text": "Jair Rosa Pinto", "isCorrect": false, "explanation": "Incorreto. Meio-campista talentoso, marcou 2 gols." },
+          { "text": "Ademir de Menezes", "isCorrect": true, "explanation": "Correto! O atacante pernambucano Ademir Marques de Menezes marcou 9 gols na Copa de 1950." },
+          { "text": "Friaça", "isCorrect": false, "explanation": "Incorreto. Friaça marcou o gol brasileiro na final contra o Uruguai." }
+        ]
+      },
+       {
+        "question": "Qual jogador, considerado por muitos o maior de todos os tempos, estreou na Seleção Brasileira aos 16 anos em 1957?",
+        "options": [
+          { "text": "Garrincha", "isCorrect": false, "explanation": "Incorreto. Garrincha estreou em 1955, mas só deslanchou na Copa de 1958." },
+          { "text": "Tostão", "isCorrect": false, "explanation": "Incorreto. Tostão surgiu nos anos 60." },
+          { "text": "Pelé", "isCorrect": true, "explanation": "Correto! Edson Arantes do Nascimento, o Pelé, estreou contra a Argentina na Copa Roca e já marcou gol." },
+          { "text": "Rivellino", "isCorrect": false, "explanation": "Incorreto. Rivellino também surgiu nos anos 60." }
+        ]
+      },
+      {
+        "question": "Em que ano o Brasil conquistou sua primeira Copa do Mundo?",
+        "options": [
+          { "text": "1950", "isCorrect": false, "explanation": "Incorreto. Vice-campeão no 'Maracanaço'." },
+          { "text": "1954", "isCorrect": false, "explanation": "Incorreto. Eliminado nas quartas pela Hungria na 'Batalha de Berna'." },
+          { "text": "1958", "isCorrect": true, "explanation": "Correto! Na Suécia, a seleção superou o trauma de 50 e venceu a final por 5 a 2 contra os donos da casa." },
+          { "text": "1962", "isCorrect": false, "explanation": "Incorreto. Foi o bicampeonato no Chile." }
+        ]
+      },
+      {
+        "question": "Qual jogador foi o grande destaque do Brasil na Copa de 1962, após a lesão de Pelé?",
+        "options": [
+          { "text": "Vavá", "isCorrect": false, "explanation": "Incorreto. Vavá foi importante artilheiro nas Copas de 58 e 62." },
+          { "text": "Didi", "isCorrect": false, "explanation": "Incorreto. Didi foi o craque e líder em 1958." },
+          { "text": "Amarildo, 'O Possesso'", "isCorrect": false, "explanation": "Incorreto. Amarildo substituiu Pelé à altura, mas Garrincha foi considerado o craque do torneio." },
+          { "text": "Garrincha", "isCorrect": true, "explanation": "Correto! Manuel Francisco dos Santos, o Garrincha, assumiu o protagonismo com atuações mágicas e decisivas." }
+        ]
+      },
+      {
+        "question": "Como ficou conhecida a Seleção Brasileira campeã da Copa do Mundo de 1970 no México?",
+        "options": [
+          { "text": "A Seleção Canarinho", "isCorrect": false, "explanation": "Incorreto. Apelido geral da seleção brasileira." },
+          { "text": "O Esquadrão Imortal", "isCorrect": true, "explanation": "Correto! Considerada uma das maiores equipes de todos os tempos, reunia Pelé, Tostão, Jairzinho, Rivellino, Gérson, Clodoaldo, Carlos Alberto Torres, etc." },
+          { "text": "A Academia", "isCorrect": false, "explanation": "Incorreto. Apelido dado aos times do Palmeiras nos anos 60 e 70." },
+          { "text": "A Máquina Tricolor", "isCorrect": false, "explanation": "Incorreto. Apelido do Fluminense nos anos 70." }
+        ]
+      },
+      {
+        "question": "Qual jogador brasileiro marcou gol em todas as partidas da Copa de 1970?",
+        "options": [
+          { "text": "Pelé", "isCorrect": false, "explanation": "Incorreto. Pelé marcou 4 gols, incluindo um na final." },
+          { "text": "Tostão", "isCorrect": false, "explanation": "Incorreto. Tostão, o 'vice-rei', marcou 2 gols." },
+          { "text": "Jairzinho", "isCorrect": true, "explanation": "Correto! Jair Ventura Filho, o 'Furacão da Copa', marcou 7 gols, um em cada jogo do Brasil no torneio." },
+          { "text": "Rivellino", "isCorrect": false, "explanation": "Incorreto. Rivellino, a 'Patada Atômica', marcou 3 gols." }
+        ]
+      },
+      {
+        "question": "Qual clube brasileiro conquistou o bicampeonato da Copa Libertadores e do Mundial Interclubes em 1962 e 1963, liderado por Pelé?",
+        "options": [
+          { "text": "SE Palmeiras", "isCorrect": false, "explanation": "Incorreto. O Palmeiras venceu a Libertadores em 1999, 2020 e 2021." },
+          { "text": "CR Flamengo", "isCorrect": false, "explanation": "Incorreto. O Flamengo venceu a Libertadores e o Mundial em 1981 (e outras Libertadores depois)." },
+          { "text": "Santos FC", "isCorrect": true, "explanation": "Correto! O lendário 'Santos de Pelé' derrotou Peñarol e Boca Juniors nas finais da Libertadores, e Benfica e Milan nas finais do Mundial." },
+          { "text": "São Paulo FC", "isCorrect": false, "explanation": "Incorreto. O São Paulo foi bicampeão da Libertadores e Mundial em 1992 e 1993." }
+        ]
+      },
+      {
+        "question": "Qual a maior goleada aplicada pela Seleção Brasileira em Copas do Mundo?",
+        "options": [
+          { "text": "Brasil 6 x 1 Espanha (1950)", "isCorrect": false, "explanation": "Incorreto. Grande goleada, mas houve uma maior." },
+          { "text": "Brasil 7 x 1 Suécia (1950)", "isCorrect": true, "explanation": "Correto! Na fase final da Copa de 1950 (quadrangular), o Brasil aplicou esta goleada impressionante." },
+          { "text": "Brasil 5 x 2 Suécia (1958)", "isCorrect": false, "explanation": "Incorreto. Placar elástico na final de 1958." },
+          { "text": "Brasil 8 x 0 Arábia Saudita (Amistoso)", "isCorrect": false, "explanation": "Incorreto. Foi uma goleada em amistoso, não em Copa do Mundo." }
+        ]
+      },
+      {
+        "question": "Qual técnico comandou a Seleção Brasileira na conquista do tricampeonato em 1970?",
+        "options": [
+          { "text": "Vicente Feola", "isCorrect": false, "explanation": "Incorreto. Feola foi o técnico campeão em 1958." },
+          { "text": "Aymoré Moreira", "isCorrect": false, "explanation": "Incorreto. Aymoré foi o técnico campeão em 1962." },
+          { "text": "Mário Zagallo", "isCorrect": true, "explanation": "Correto! Zagallo, bicampeão como jogador (58/62), assumiu o time pouco antes da Copa e se tornou o primeiro a vencer nas duas funções." },
+          { "text": "João Saldanha", "isCorrect": false, "explanation": "Incorreto. Saldanha montou a base do time ('As Feras do Saldanha') nas eliminatórias, mas foi demitido antes da Copa." }
+        ]
+      },
+      {
+        "question": "Qual jogador, ídolo do Flamengo, foi o camisa 10 e maestro da Seleção Brasileira nas Copas de 1982 e 1986?",
+        "options": [
+          { "text": "Sócrates", "isCorrect": false, "explanation": "Incorreto. Sócrates, o 'Doutor', era outro craque e capitão em 1982." },
+          { "text": "Falcão", "isCorrect": false, "explanation": "Incorreto. Falcão, o 'Rei de Roma', foi destaque em 1982." },
+          { "text": "Zico", "isCorrect": true, "explanation": "Correto! O 'Galinho de Quintino', Arthur Antunes Coimbra, era o símbolo maior daquelas talentosas seleções." },
+          { "text": "Careca", "isCorrect": false, "explanation": "Incorreto. Careca foi o centroavante titular em 1986." }
+        ]
+      },
+      {
+        "question": "Qual episódio ficou conhecido como a 'Tragédia do Sarriá'?",
+        "options": [
+          { "text": "A expulsão de Maradona contra o Brasil em 1982.", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "A derrota do Brasil para a Itália por 3 a 2 na Copa de 1982.", "isCorrect": true, "explanation": "Correto! Considerada uma das maiores seleções brasileiras, o time de Telê Santana foi eliminado pela Itália (que seria campeã) no Estádio Sarriá." },
+          { "text": "A contusão de Pelé na Copa de 1962.", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "A derrota do Brasil para a França nos pênaltis em 1986.", "isCorrect": false, "explanation": "Incorreto. Essa eliminação ocorreu em Guadalajara." }
+        ]
+      },
+      {
+        "question": "Qual clube brasileiro revelou Romário?",
+        "options": [
+          { "text": "Olaria AC", "isCorrect": false, "explanation": "Incorreto. Romário jogou na base do Olaria antes de ir para o Vasco." },
+          { "text": "CR Flamengo", "isCorrect": false, "explanation": "Incorreto. Romário teve passagens marcantes pelo Flamengo, mas foi revelado no rival." },
+          { "text": "CR Vasco da Gama", "isCorrect": true, "explanation": "Correto! Romário de Souza Faria surgiu nas categorias de base do Vasco, profissionalizando-se em 1985." },
+          { "text": "America FC", "isCorrect": false, "explanation": "Incorreto. Romário jogou (e encerrou a carreira) no America, time de coração de seu pai." }
+        ]
+      },
+      {
+        "question": "Em que ano o Brasil conquistou o tetracampeonato mundial?",
+        "options": [
+          { "text": "1990 (Itália)", "isCorrect": false, "explanation": "Incorreto. Eliminado pela Argentina nas oitavas." },
+          { "text": "1994 (EUA)", "isCorrect": true, "explanation": "Correto! Após 24 anos de jejum, o Brasil venceu a Itália nos pênaltis na final no Rose Bowl, em Pasadena." },
+          { "text": "1998 (França)", "isCorrect": false, "explanation": "Incorreto. Perdeu a final para a França." },
+          { "text": "2002 (Coreia/Japão)", "isCorrect": false, "explanation": "Incorreto. Conquistou o pentacampeonato." }
+        ]
+      },
+      {
+        "question": "Quem foi o capitão da Seleção Brasileira na conquista do tetra em 1994?",
+        "options": [
+          { "text": "Romário", "isCorrect": false, "explanation": "Incorreto. Romário foi o craque e Bola de Ouro da Copa." },
+          { "text": "Raí", "isCorrect": false, "explanation": "Incorreto. Raí começou a Copa como capitão, mas perdeu a posição e a faixa durante o torneio." },
+          { "text": "Dunga", "isCorrect": true, "explanation": "Correto! O volante Dunga assumiu a braçadeira e ergueu a taça, tornando-se símbolo daquela conquista." },
+          { "text": "Mauro Silva", "isCorrect": false, "explanation": "Incorreto. Mauro Silva foi o companheiro de Dunga no meio-campo." }
+        ]
+      },
+      {
+        "question": "Qual jogador italiano errou o pênalti decisivo na final da Copa de 1994 contra o Brasil?",
+        "options": [
+          { "text": "Franco Baresi", "isCorrect": false, "explanation": "Incorreto. O capitão Baresi chutou por cima, mas não foi o último." },
+          { "text": "Daniele Massaro", "isCorrect": false, "explanation": "Incorreto. Massaro teve sua cobrança defendida por Taffarel." },
+          { "text": "Roberto Baggio", "isCorrect": true, "explanation": "Correto! O craque italiano, Bola de Ouro em 1993, isolou a cobrança final, selando a vitória brasileira." },
+          { "text": "Paolo Maldini", "isCorrect": false, "explanation": "Incorreto. Maldini não estava entre os cobradores." }
+        ]
+      },
+      {
+        "question": "Qual fenômeno extracampo marcou a final da Copa de 1998 entre Brasil e França?",
+        "options": [
+          { "text": "Ameaças de bomba no estádio.", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "A convulsão sofrida por Ronaldo horas antes do jogo.", "isCorrect": true, "explanation": "Correto! O mal súbito do 'Fenômeno' gerou enorme tensão, especulações e impactou o clima da seleção brasileira." },
+          { "text": "Denúncias de manipulação de resultado.", "isCorrect": false, "explanation": "Incorreto. Surgiram teorias conspiratórias, mas sem provas." },
+          { "text": "Greve de jogadores franceses.", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+       {
+        "question": "Qual jogador foi o artilheiro e grande destaque do Brasil na conquista do pentacampeonato em 2002?",
+        "options": [
+          { "text": "Rivaldo", "isCorrect": false, "explanation": "Incorreto. Rivaldo foi crucial, marcando 5 gols e formando o 'trio R' ofensivo." },
+          { "text": "Ronaldinho Gaúcho", "isCorrect": false, "explanation": "Incorreto. Ronaldinho brilhou, especialmente com o gol antológico contra a Inglaterra." },
+          { "text": "Ronaldo Fenômeno", "isCorrect": true, "explanation": "Correto! Dando a volta por cima após lesões e a final de 98, Ronaldo marcou 8 gols, incluindo os dois da final contra a Alemanha." },
+          { "text": "Cafu", "isCorrect": false, "explanation": "Incorreto. Cafu foi o capitão, o único a jogar três finais de Copa seguidas." }
+        ]
+      },
+      {
+        "question": "Quem foi o técnico do Brasil na conquista do penta em 2002?",
+        "options": [
+          { "text": "Carlos Alberto Parreira", "isCorrect": false, "explanation": "Incorreto. Parreira treinou o Brasil em 1994 e 2006." },
+          { "text": "Mário Zagallo", "isCorrect": false, "explanation": "Incorreto. Zagallo foi coordenador técnico em 2002." },
+          { "text": "Luiz Felipe Scolari (Felipão)", "isCorrect": true, "explanation": "Correto! Felipão formou a 'Família Scolari' e levou uma seleção desacreditada ao título inédito." },
+          { "text": "Émerson Leão", "isCorrect": false, "explanation": "Incorreto. Leão treinou a seleção brevemente antes de Felipão." }
+        ]
+      },
+      {
+        "question": "Qual clube brasileiro conquistou a Copa Libertadores e o Mundial de Clubes da FIFA em 2005?",
+        "options": [
+          { "text": "SC Internacional", "isCorrect": false, "explanation": "Incorreto. O Inter conquistou ambos em 2006." },
+          { "text": "Santos FC", "isCorrect": false, "explanation": "Incorreto. O Santos venceu a Libertadores em 2011, mas perdeu o Mundial." },
+          { "text": "São Paulo FC", "isCorrect": true, "explanation": "Correto! Sob o comando de Paulo Autuori, o São Paulo venceu o Athletico-PR na final da Libertadores e o Liverpool na final do Mundial." },
+          { "text": "Grêmio FBPA", "isCorrect": false, "explanation": "Incorreto. O Grêmio venceu a Libertadores em 2017, mas perdeu o Mundial." }
+        ]
+      },
+       {
+        "question": "Qual jogador, ídolo do Corinthians, foi peça chave na conquista da Libertadores e do Mundial de Clubes em 2012?",
+        "options": [
+          { "text": "Danilo", "isCorrect": false, "explanation": "Incorreto. Danilo foi muito importante no meio-campo." },
+          { "text": "Paulinho", "isCorrect": false, "explanation": "Incorreto. Paulinho marcou gol decisivo contra o Vasco nas quartas." },
+          { "text": "Emerson Sheik", "isCorrect": true, "explanation": "Correto! Emerson marcou os dois gols da vitória sobre o Boca Juniors na final da Libertadores." },
+          { "text": "Guerrero", "isCorrect": false, "explanation": "Incorreto. O peruano Paolo Guerrero marcou o gol do título mundial contra o Chelsea." }
+        ]
+      },
+      {
+        "question": "Qual foi o resultado da semifinal da Copa de 2014 entre Brasil e Alemanha?",
+        "options": [
+          { "text": "3 a 0 para a Alemanha", "isCorrect": false, "explanation": "Incorreto. O placar foi muito pior." },
+          { "text": "5 a 1 para a Alemanha", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "7 a 1 para a Alemanha", "isCorrect": true, "explanation": "Correto! O 'Mineiraço', a maior derrota da história da Seleção Brasileira em Copas." },
+          { "text": "4 a 0 para a Alemanha", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual jogador brasileiro se tornou o mais caro da história do futebol ao se transferir para o Paris Saint-Germain em 2017?",
+        "options": [
+          { "text": "Alisson Becker", "isCorrect": false, "explanation": "Incorreto. Goleiro que teve transferência recorde para sua posição." },
+          { "text": "Philippe Coutinho", "isCorrect": false, "explanation": "Incorreto. Teve transferência muito cara para o Barcelona, mas menor que a de Neymar." },
+          { "text": "Neymar Jr.", "isCorrect": true, "explanation": "Correto! O PSG ativou a multa rescisória de 222 milhões de euros junto ao Barcelona, um recorde mundial." },
+          { "text": "Kaká", "isCorrect": false, "explanation": "Incorreto. Kaká foi um dos 'Galácticos' do Real Madrid, mas sua transferência foi anterior." }
+        ]
+      },
+      {
+        "question": "Qual título inédito a Seleção Brasileira masculina de futebol conquistou nas Olimpíadas do Rio em 2016?",
+        "options": [
+          { "text": "Copa América", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Mundial Sub-20", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Medalha de Ouro Olímpica", "isCorrect": true, "explanation": "Correto! Após três pratas (1984, 1988, 2012), o Brasil finalmente conquistou o ouro em casa, vencendo a Alemanha nos pênaltis." },
+          { "text": "Copa das Confederações", "isCorrect": false, "explanation": "Incorreto. O Brasil já havia vencido este torneio." }
+        ]
+      },
+      {
+        "question": "Qual clube brasileiro conquistou a Copa Libertadores em 2019 e 2022?",
+        "options": [
+          { "text": "SE Palmeiras", "isCorrect": false, "explanation": "Incorreto. O Palmeiras foi bicampeão em 2020 e 2021." },
+          { "text": "CR Flamengo", "isCorrect": true, "explanation": "Correto! O Flamengo venceu em 2019 (vs River Plate) e 2022 (vs Athletico-PR)." },
+          { "text": "Grêmio FBPA", "isCorrect": false, "explanation": "Incorreto. Venceu em 2017." },
+          { "text": "Atlético Mineiro", "isCorrect": false, "explanation": "Incorreto. Venceu em 2013." }
+        ]
+      },
+       {
+        "question": "Qual jogadora é a maior artilheira da história das Copas do Mundo Femininas?",
+        "options": [
+          { "text": "Birgit Prinz (Alemanha)", "isCorrect": false, "explanation": "Incorreto. Prinz marcou 14 gols." },
+          { "text": "Abby Wambach (EUA)", "isCorrect": false, "explanation": "Incorreto. Wambach marcou 14 gols." },
+          { "text": "Marta (Brasil)", "isCorrect": true, "explanation": "Correto! Marta Vieira da Silva marcou 17 gols em 5 edições de Copas do Mundo (até 2023)." },
+          { "text": "Michelle Akers (EUA)", "isCorrect": false, "explanation": "Incorreto. Akers marcou 12 gols." }
+        ]
+      },
+      {
+        "question": "Qual foi o primeiro time brasileiro a excursionar pela Europa, em 1925?",
+        "options": [
+          { "text": "Santos FC", "isCorrect": false, "explanation": "Incorreto. O Santos faria excursões famosas nos anos 60." },
+          { "text": "CR Vasco da Gama", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Club Athletico Paulistano", "isCorrect": true, "explanation": "Correto! Liderado por Friedenreich, o Paulistano fez uma turnê vitoriosa, vencendo 9 de 10 jogos, incluindo a seleção francesa." },
+          { "text": "SC Corinthians Paulista", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Como ficou conhecida a prática de alguns clubes contratarem jogadores sul-americanos (principalmente) e os naturalizarem para jogar pela seleção italiana?",
+        "options": [
+          { "text": "Filhos da Loba", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Legionários", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Oriundi", "isCorrect": true, "explanation": "Correto! Termo italiano para descendentes (ou naturalizados) que defenderam a Azzurra, como Monti, Orsi e Schiavio (campeões em 1934)." },
+          { "text": "Mercenários da Bola", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual foi o primeiro Campeonato Brasileiro oficial, considerando a unificação feita pela CBF?",
+        "options": [
+          { "text": "Taça Brasil de 1959 (Bahia campeão)", "isCorrect": true, "explanation": "Correto! A CBF unificou os títulos da Taça Brasil (1959-1968) e do Torneio Roberto Gomes Pedrosa (1967-1970) aos do Campeonato Brasileiro (1971 em diante)." },
+          { "text": "Torneio Roberto Gomes Pedrosa de 1967 (Palmeiras campeão)", "isCorrect": false, "explanation": "Incorreto. O primeiro foi a Taça Brasil de 1959." },
+          { "text": "Campeonato Nacional de Clubes de 1971 (Atlético-MG campeão)", "isCorrect": false, "explanation": "Incorreto. Foi o primeiro com o nome 'Campeonato Brasileiro', mas não o primeiro título nacional unificado." },
+          { "text": "Copa Rio de 1951 (Palmeiras campeão)", "isCorrect": false, "explanation": "Incorreto. A Copa Rio é reconhecida pela FIFA como primeiro mundial, mas não como título brasileiro." }
+        ]
+      },
+      {
+        "question": "Qual o nome do torneio que ocorreu entre 1967 e 1970, também considerado título brasileiro, que expandiu o Torneio Rio-São Paulo?",
+        "options": [
+          { "text": "Taça Brasil", "isCorrect": false, "explanation": "Incorreto. A Taça Brasil existia em paralelo e antes." },
+          { "text": "Copa dos Campeões Estaduais", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Torneio Roberto Gomes Pedrosa ('Robertão')", "isCorrect": true, "explanation": "Correto! Incluiu clubes de outros estados além de RJ e SP, sendo o embrião do Campeonato Brasileiro iniciado em 1971." },
+          { "text": "Campeonato Sul-Brasileiro", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual clube foi o primeiro campeão do Campeonato Nacional de Clubes em 1971 (formato considerado o início do 'Brasileirão' moderno)?",
+        "options": [
+          { "text": "Cruzeiro EC", "isCorrect": false, "explanation": "Incorreto. O Cruzeiro venceu a Taça Brasil de 1966." },
+          { "text": "SE Palmeiras", "isCorrect": false, "explanation": "Incorreto. O Palmeiras venceu o Robertão de 1967 e 1969, e o Brasileiro de 1972 e 1973." },
+          { "text": "Clube Atlético Mineiro", "isCorrect": true, "explanation": "Correto! O Atlético-MG, com craques como Dario e Telê Santana como técnico (no início), venceu a primeira edição." },
+          { "text": "SC Internacional", "isCorrect": false, "explanation": "Incorreto. O Inter foi tricampeão brasileiro nos anos 70 (75, 76, 79)." }
+        ]
+      },
+      {
+        "question": "Qual jogador brasileiro foi o primeiro a ganhar o prêmio de Melhor Jogador do Mundo da FIFA em 1994?",
+        "options": [
+          { "text": "Bebeto", "isCorrect": false, "explanation": "Incorreto. Bebeto foi fundamental no tetra, mas Romário levou o prêmio." },
+          { "text": "Romário", "isCorrect": true, "explanation": "Correto! Após uma Copa espetacular, o 'Baixinho' foi eleito o melhor do mundo pela FIFA." },
+          { "text": "Dunga", "isCorrect": false, "explanation": "Incorreto. Dunga foi o capitão da conquista." },
+          { "text": "Raí", "isCorrect": false, "explanation": "Incorreto. Raí havia sido eleito melhor sul-americano antes." }
+        ]
+      },
+      {
+        "question": "Qual time ficou conhecido como 'Carrossel Caipira' nos anos 90?",
+        "options": [
+          { "text": "CA Bragantino", "isCorrect": false, "explanation": "Incorreto. O Bragantino de Luxemburgo foi vice-campeão brasileiro em 1991." },
+          { "text": "Guarani FC", "isCorrect": false, "explanation": "Incorreto. O Guarani foi campeão brasileiro em 1978." },
+          { "text": "Mogi Mirim EC", "isCorrect": true, "explanation": "Correto! Treinado por Vadão, o time com Rivaldo, Válber e Leto encantou no Paulistão com um esquema tático inspirado no 'Carrossel Holandês'." },
+          { "text": "São José EC", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual clube brasileiro venceu a Copa Libertadores de forma invicta em 1976?",
+        "options": [
+          { "text": "SC Internacional", "isCorrect": false, "explanation": "Incorreto. O Inter foi bicampeão em 75 e 76, mas não invicto na Libertadores." },
+          { "text": "Cruzeiro EC", "isCorrect": true, "explanation": "Correto! A equipe mineira, com Raul Plassmann, Nelinho, Piazza e Dirceu Lopes, conquistou seu primeiro título continental sem derrotas." },
+          { "text": "SE Palmeiras", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "CA River Plate (Argentina)", "isCorrect": false, "explanation": "Incorreto. O River foi o vice-campeão." }
+        ]
+      },
+      {
+        "question": "Quem é o maior artilheiro da história do Campeonato Brasileiro (pontos corridos, desde 2003)?",
+        "options": [
+          { "text": "Diego Souza", "isCorrect": false, "explanation": "Incorreto. É um dos maiores artilheiros da era dos pontos corridos." },
+          { "text": "Gabigol", "isCorrect": false, "explanation": "Incorreto. Grande artilheiro, mas Fred e Diego Souza marcaram mais nos pontos corridos." },
+          { "text": "Fred", "isCorrect": true, "explanation": "Correto! Fred marcou 158 gols na era dos pontos corridos, superando Roberto Dinamite se considerarmos apenas este formato." },
+          { "text": "Washington 'Coração Valente'", "isCorrect": false, "explanation": "Incorreto. Foi artilheiro em 2004 e 2008." }
+        ]
+      },
+      {
+        "question": "Qual jogador ficou conhecido como 'Rei de Roma'?",
+        "options": [
+          { "text": "Zico", "isCorrect": false, "explanation": "Incorreto. Zico jogou na Udinese, não na Roma." },
+          { "text": "Paulo Roberto Falcão", "isCorrect": true, "explanation": "Correto! O elegante meio-campista brasileiro se tornou ídolo na AS Roma, conquistando o scudetto em 1983." },
+          { "text": "Toninho Cerezo", "isCorrect": false, "explanation": "Incorreto. Cerezo também jogou na Roma e Sampdoria com sucesso." },
+          { "text": "Sócrates", "isCorrect": false, "explanation": "Incorreto. Sócrates jogou na Fiorentina." }
+        ]
+      },
+       {
+        "question": "Qual clube do Nordeste foi o primeiro campeão brasileiro (Taça Brasil 1959)?",
+        "options": [
+          { "text": "Fortaleza EC", "isCorrect": false, "explanation": "Incorreto. O Fortaleza foi vice da Taça Brasil em 1960 e 1968." },
+          { "text": "Sport Club do Recife", "isCorrect": false, "explanation": "Incorreto. O Sport é campeão brasileiro de 1987 (reconhecido pela CBF)." },
+          { "text": "EC Bahia", "isCorrect": true, "explanation": "Correto! O Bahia superou o Santos de Pelé na final, conquistando o primeiro título nacional oficial." },
+          { "text": "Náutico Capibaribe", "isCorrect": false, "explanation": "Incorreto. O Náutico foi vice da Taça Brasil em 1967." }
+        ]
+      },
+      {
+        "question": "Qual jogador foi apelidado de 'Canhotinha de Ouro'?",
+        "options": [
+          { "text": "Rivellino", "isCorrect": false, "explanation": "Incorreto. Rivellino era a 'Patada Atômica' ou 'Reizinho do Parque'." },
+          { "text": "Gérson", "isCorrect": true, "explanation": "Correto! Gérson de Oliveira Nunes, o cérebro da seleção de 70, era famoso pela genialidade e precisão de seus passes de canhota." },
+          { "text": "Éder Aleixo", "isCorrect": false, "explanation": "Incorreto. Éder era o 'Bomba de Vespasiano'." },
+          { "text": "Neto", "isCorrect": false, "explanation": "Incorreto. Neto, ídolo do Corinthians, era 'Xodó da Fiel'." }
+        ]
+      },
+      {
+        "question": "Qual movimento de jogadores do Corinthians nos anos 80 pregava mais liberdade e participação nas decisões do clube?",
+        "options": [
+          { "text": "República do Timão", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Libertadores da Fiel", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Democracia Corinthiana", "isCorrect": true, "explanation": "Correto! Liderado por Sócrates, Casagrande, Wladimir e Zenon, o movimento implementou votações internas e engajamento político." },
+          { "text": "Corinthian-Casuals", "isCorrect": false, "explanation": "Incorreto. Nome do clube inglês que inspirou a fundação do Corinthians." }
+        ]
+      },
+      {
+        "question": "Qual clube venceu o Módulo Verde (Copa União) do Campeonato Brasileiro de 1987?",
+        "options": [
+          { "text": "SC Internacional", "isCorrect": false, "explanation": "Incorreto. O Inter foi vice-campeão do Módulo Verde." },
+          { "text": "CR Flamengo", "isCorrect": true, "explanation": "Correto! O Flamengo, com Zico, Bebeto e Renato Gaúcho, venceu a Copa União, mas se recusou a jogar o cruzamento contra o Sport (campeão do Módulo Amarelo)." },
+          { "text": "Sport Club do Recife", "isCorrect": false, "explanation": "Incorreto. O Sport venceu o Módulo Amarelo e o cruzamento contra o Guarani." },
+          { "text": "Guarani FC", "isCorrect": false, "explanation": "Incorreto. O Guarani foi vice do Módulo Amarelo." }
+        ]
+      },
+      {
+        "question": "Qual técnico ficou conhecido por implementar o esquema 3-5-2 na Seleção Brasileira na Copa de 1990?",
+        "options": [
+          { "text": "Telê Santana", "isCorrect": false, "explanation": "Incorreto. Telê usava esquemas mais ofensivos." },
+          { "text": "Carlos Alberto Parreira", "isCorrect": false, "explanation": "Incorreto. Parreira usou o 4-4-2 em 1994." },
+          { "text": "Sebastião Lazaroni", "isCorrect": true, "explanation": "Correto! Lazaroni introduziu o líbero e o esquema 3-5-2, que gerou controvérsia e acabou não funcionando bem na Copa." },
+          { "text": "Mário Zagallo", "isCorrect": false, "explanation": "Incorreto. Zagallo usou diferentes formações, mas não foi o pioneiro do 3-5-2." }
+        ]
+      },
+      {
+        "question": "Qual jogador ficou famoso pela comemoração 'nana nenê' ao marcar um gol contra a Holanda na Copa de 1994?",
+        "options": [
+          { "text": "Romário", "isCorrect": false, "explanation": "Incorreto. Romário fez outras comemorações marcantes." },
+          { "text": "Zinho", "isCorrect": false, "explanation": "Incorreto. Zinho era o 'Enceradeira'." },
+          { "text": "Bebeto", "isCorrect": true, "explanation": "Correto! Após marcar o segundo gol do Brasil, Bebeto simulou embalar um bebê, homenageando seu filho Mattheus, nascido dias antes." },
+          { "text": "Leonardo", "isCorrect": false, "explanation": "Incorreto. Leonardo foi expulso naquela Copa." }
+        ]
+      },
+      {
+        "question": "Qual clube brasileiro foi o primeiro a conquistar a Tríplice Coroa (Estadual, Copa do Brasil e Brasileiro) no mesmo ano?",
+        "options": [
+          { "text": "Palmeiras (1996)", "isCorrect": false, "explanation": "Incorreto. O Palmeiras ganhou Paulista e Copa do Brasil em 96, mas não o Brasileiro." },
+          { "text": "Flamengo (2019)", "isCorrect": false, "explanation": "Incorreto. Ganhou Carioca, Brasileiro e Libertadores, não a Copa do Brasil." },
+          { "text": "Cruzeiro (2003)", "isCorrect": true, "explanation": "Correto! O Cruzeiro, sob o comando de Luxemburgo, conquistou o Mineiro, a Copa do Brasil e o Brasileiro de forma inédita." },
+          { "text": "Corinthians (1999)", "isCorrect": false, "explanation": "Incorreto. Ganhou Paulista e Brasileiro, mas não a Copa do Brasil." }
+        ]
+      },
+      {
+        "question": "Qual jogador foi eleito o Melhor do Mundo pela FIFA em 2004 e 2005, encantando no Barcelona?",
+        "options": [
+          { "text": "Rivaldo", "isCorrect": false, "explanation": "Incorreto. Rivaldo ganhou em 1999." },
+          { "text": "Kaká", "isCorrect": false, "explanation": "Incorreto. Kaká ganhou em 2007." },
+          { "text": "Ronaldinho Gaúcho", "isCorrect": true, "explanation": "Correto! Com sua magia, dribles e sorriso, R10 viveu o auge no Barça, sendo aplaudido até no Santiago Bernabéu." },
+          { "text": "Adriano Imperador", "isCorrect": false, "explanation": "Incorreto. Adriano brilhou na Inter de Milão, mas não ganhou o prêmio." }
+        ]
+      },
+      {
+        "question": "Qual o nome oficial do estádio do Maracanã?",
+        "options": [
+          { "text": "Estádio Mário Filho", "isCorrect": true, "explanation": "Correto! Nomeado em homenagem ao jornalista Mário Rodrigues Filho, grande incentivador de sua construção." },
+          { "text": "Estádio Governador Magalhães Pinto", "isCorrect": false, "explanation": "Incorreto. Nome oficial do Mineirão." },
+          { "text": "Estádio Cícero Pompeu de Toledo", "isCorrect": false, "explanation": "Incorreto. Nome oficial do Morumbi." },
+          { "text": "Arena Fonte Nova", "isCorrect": false, "explanation": "Incorreto. Nome de estádio em Salvador." }
+        ]
+      },
+      {
+        "question": "Qual jogador, ídolo do São Paulo, é o maior goleiro-artilheiro da história do futebol?",
+        "options": [
+          { "text": "Zetti", "isCorrect": false, "explanation": "Incorreto. Zetti foi um grande goleiro campeão pelo SPFC, mas não artilheiro." },
+          { "text": "Waldir Peres", "isCorrect": false, "explanation": "Incorreto. Goleiro titular na Copa de 1982." },
+          { "text": "Rogério Ceni", "isCorrect": true, "explanation": "Correto! Com 131 gols na carreira (maioria de falta e pênalti), Ceni é um recordista mundial e ídolo tricolor." },
+          { "text": "Leão", "isCorrect": false, "explanation": "Incorreto. Émerson Leão foi goleiro da seleção e técnico." }
+        ]
+      },
+       {
+        "question": "Qual o clássico de maior rivalidade no futebol gaúcho?",
+        "options": [
+          { "text": "Caxias x Juventude (Ca-Ju)", "isCorrect": false, "explanation": "Incorreto. Grande clássico da Serra Gaúcha." },
+          { "text": "Pelotas x Brasil de Pelotas (Bra-Pel)", "isCorrect": false, "explanation": "Incorreto. Clássico tradicional da cidade de Pelotas." },
+          { "text": "Grêmio x Internacional (Gre-Nal)", "isCorrect": true, "explanation": "Correto! Um dos clássicos mais tradicionais e disputados do Brasil, dividindo o estado do Rio Grande do Sul." },
+          { "text": "Novo Hamburgo x Aimoré (Clássico do Vale)", "isCorrect": false, "explanation": "Incorreto. Clássico do Vale do Sinos." }
+        ]
+      },
+      {
+        "question": "Qual o clássico de maior rivalidade no futebol mineiro?",
+        "options": [
+          { "text": "América x Villa Nova (Derby das Multidões)", "isCorrect": false, "explanation": "Incorreto. Clássico antigo de Belo Horizonte e Nova Lima." },
+          { "text": "Cruzeiro x América (Coelho versus Raposa)", "isCorrect": false, "explanation": "Incorreto. Terceiro maior clássico do estado." },
+          { "text": "Atlético Mineiro x Cruzeiro", "isCorrect": true, "explanation": "Correto! O 'Superclássico Mineiro' mobiliza milhões e opõe as maiores torcidas de Minas Gerais." },
+          { "text": "Tupi x Tupynambás (Tu-Tu)", "isCorrect": false, "explanation": "Incorreto. Clássico de Juiz de Fora." }
+        ]
+      },
+      {
+        "question": "Qual o clássico de maior rivalidade no futebol carioca, conhecido como 'Clássico dos Milhões'?",
+        "options": [
+          { "text": "Botafogo x Vasco (Clássico da Amizade - antigo)", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Flamengo x Fluminense (Fla-Flu)", "isCorrect": false, "explanation": "Incorreto. O Fla-Flu é considerado por muitos o clássico mais charmoso." },
+          { "text": "Flamengo x Vasco da Gama", "isCorrect": true, "explanation": "Correto! Devido às enormes torcidas e histórico de confrontos decisivos, é o clássico que mais mobiliza o Rio." },
+          { "text": "Botafogo x Flamengo (Clássico da Rivalidade)", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual o clássico de maior rivalidade no futebol paulista, conhecido como 'Derby Paulista'?",
+        "options": [
+          { "text": "Corinthians x São Paulo (Majestoso)", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Santos x Palmeiras (Clássico da Saudade)", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Corinthians x Palmeiras", "isCorrect": true, "explanation": "Correto! Um dos clássicos mais antigos e intensos do Brasil, marcado por grande rivalidade histórica e social." },
+          { "text": "Santos x São Paulo (San-São)", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual jogador brasileiro foi apelidado de 'Animal'?",
+        "options": [
+          { "text": "Müller", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Edmundo", "isCorrect": true, "explanation": "Correto! Edmundo Alves de Souza Neto ganhou o apelido pelo temperamento explosivo e futebol agressivo e decisivo." },
+          { "text": "Paulo Nunes", "isCorrect": false, "explanation": "Incorreto. Conhecido como 'Diabo Loiro'." },
+          { "text": "Djalminha", "isCorrect": false, "explanation": "Incorreto. Conhecido pela habilidade e temperamento forte." }
+        ]
+      },
+      {
+        "question": "Qual foi o primeiro clube brasileiro a utilizar um jogador negro em sua equipe principal?",
+        "options": [
+          { "text": "CR Vasco da Gama", "isCorrect": false, "explanation": "Incorreto. O Vasco foi um marco na luta contra o racismo nos anos 20, mas a Ponte Preta teve registro anterior." },
+          { "text": "AA Ponte Preta", "isCorrect": true, "explanation": "Correto! Registros indicam que Miguel do Carmo atuou pela Ponte Preta já em 1900, sendo pioneiro." },
+          { "text": "Bangu AC", "isCorrect": false, "explanation": "Incorreto. O Bangu também teve um papel importante na inclusão de operários e negros no início do século XX." },
+          { "text": "SC Corinthians Paulista", "isCorrect": false, "explanation": "Incorreto. O Corinthians também teve jogadores negros desde cedo, mas não foi o primeiro registrado." }
+        ]
+      },
+      {
+        "question": "Qual jogador brasileiro foi conhecido como 'Doutor' por ser formado em medicina?",
+        "options": [
+          { "text": "Júnior", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Tostão", "isCorrect": false, "explanation": "Incorreto. Tostão se formou em medicina após encerrar precocemente a carreira de jogador devido a um problema no olho." },
+          { "text": "Sócrates", "isCorrect": true, "explanation": "Correto! Sócrates se formou em Medicina pela USP de Ribeirão Preto enquanto já era jogador profissional, um feito raro." },
+          { "text": "Casagrande", "isCorrect": false, "explanation": "Incorreto. Companheiro de Sócrates na Democracia Corinthiana." }
+        ]
+      },
+      {
+        "question": "Qual o nome da torcida organizada mais antiga do Brasil em atividade contínua?",
+        "options": [
+          { "text": "Torcida Uniformizada do Palmeiras (TUP)", "isCorrect": false, "explanation": "Incorreto. Fundada em 1970." },
+          { "text": "Força Jovem Vasco", "isCorrect": false, "explanation": "Incorreto. Fundada em 1970." },
+          { "text": "Torcida Jovem do Santos", "isCorrect": false, "explanation": "Incorreto. Fundada em 1969." },
+          { "text": "Torcida Uniformizada do São Paulo (TUSP)", "isCorrect": true, "explanation": "Correto! Fundada em 1940 (algumas fontes citam 1939), é considerada a mais antiga ainda em atividade." }
+        ]
+      },
+      {
+        "question": "Qual foi o primeiro título mundial interclubes oficial reconhecido pela FIFA?",
+        "options": [
+          { "text": "Mundial Interclubes 1960 (Real Madrid campeão)", "isCorrect": false, "explanation": "Incorreto. Este foi o início da Copa Intercontinental (Europa vs América do Sul)." },
+          { "text": "Copa Rio 1951 (Palmeiras campeão)", "isCorrect": true, "explanation": "Correto! Em 2014, a FIFA reconheceu a Copa Rio de 1951, que reuniu campeões de vários continentes, como o primeiro torneio de clubes de nível mundial." },
+          { "text": "Mundial de Clubes da FIFA 2000 (Corinthians campeão)", "isCorrect": false, "explanation": "Incorreto. Foi a primeira edição organizada diretamente pela FIFA no formato atual." },
+          { "text": "Mundial Interclubes 1962 (Santos campeão)", "isCorrect": false, "explanation": "Incorreto. Foi a terceira edição da Copa Intercontinental." }
+        ]
+      },
+      {
+        "question": "Qual jogador brasileiro marcou um gol de bicicleta antológico contra a Sérvia na Copa de 2022?",
+        "options": [
+          { "text": "Neymar Jr.", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Lucas Paquetá", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Richarlison", "isCorrect": true, "explanation": "Correto! O 'Pombo' marcou um golaço de voleio/bicicleta que foi eleito o mais bonito da Copa do Catar." },
+          { "text": "Casemiro", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual o apelido de Manoel Francisco dos Santos, gênio dos dribles e ídolo do Botafogo?",
+        "options": [
+          { "text": "Demônio Loiro", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Anjo das Pernas Tortas", "isCorrect": true, "explanation": "Correto! Garrincha superou problemas físicos (pernas arqueadas, uma mais curta) para se tornar um dos maiores dribladores e jogadores da história." },
+          { "text": "Alegria do Povo", "isCorrect": false, "explanation": "Incorreto. Embora trouxesse alegria, 'Anjo das Pernas Tortas' era seu apelido mais famoso." },
+          { "text": "Flecha Loira", "isCorrect": false, "explanation": "Incorreto. Apelido de Di Stéfano." }
+        ]
+      },
+      {
+        "question": "Qual técnico brasileiro comandou Portugal na Copa do Mundo de 2006 (4º lugar)?",
+        "options": [
+          { "text": "Carlos Alberto Parreira", "isCorrect": false, "explanation": "Incorreto. Parreira comandou o Brasil em 2006." },
+          { "text": "Mário Zagallo", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Luiz Felipe Scolari (Felipão)", "isCorrect": true, "explanation": "Correto! Após ser campeão com o Brasil em 2002, Felipão levou Portugal à semifinal da Copa na Alemanha." },
+          { "text": "Dunga", "isCorrect": false, "explanation": "Incorreto. Dunga comandou o Brasil em 2010." }
+        ]
+      },
+       {
+        "question": "Qual jogador, ídolo do Palmeiras, era conhecido como 'Divino'?",
+        "options": [
+          { "text": "Dudu", "isCorrect": false, "explanation": "Incorreto. Dudu foi um volante símbolo da Academia." },
+          { "text": "Leivinha", "isCorrect": false, "explanation": "Incorreto. Habilidoso atacante da Academia." },
+          { "text": "Ademir da Guia", "isCorrect": true, "explanation": "Correto! Filho de Domingos da Guia ('Divino Mestre'), Ademir herdou a classe e o apelido, sendo o maior ídolo da história do Palmeiras." },
+          { "text": "César Maluco", "isCorrect": false, "explanation": "Incorreto. Centroavante folclórico e artilheiro." }
+        ]
+      },
+      {
+        "question": "Qual o nome da primeira taça da Copa do Mundo, roubada no Brasil em 1983?",
+        "options": [
+          { "text": "Taça Stanley Rous", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Taça Jules Rimet", "isCorrect": true, "explanation": "Correto! O Brasil ganhou a posse definitiva em 1970. Roubada da sede da CBF, acredita-se que foi derretida." },
+          { "text": "Taça Libertadores", "isCorrect": false, "explanation": "Incorreto. Troféu da principal competição de clubes da América do Sul." },
+          { "text": "Taça da FIFA", "isCorrect": false, "explanation": "Incorreto. Nome genérico, o troféu atual chama-se 'Taça da Copa do Mundo da FIFA'." }
+        ]
+      },
+      {
+        "question": "Qual clube foi fundado por dissidentes do Fluminense em 1911, inicialmente para o remo?",
+        "options": [
+          { "text": "São Cristóvão FR", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Botafogo FR", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "CR Flamengo", "isCorrect": true, "explanation": "Correto! Insatisfeitos no Fluminense, um grupo fundou o departamento de futebol do já existente Clube de Regatas do Flamengo." },
+          { "text": "Bonsucesso FC", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual jogador ficou conhecido como 'Reizinho'?",
+        "options": [
+          { "text": "Pelé", "isCorrect": false, "explanation": "Incorreto. Pelé é o 'Rei'." },
+          { "text": "Rivellino", "isCorrect": true, "explanation": "Correto! Roberto Rivellino foi apelidado de 'Reizinho do Parque' no Corinthians. Zico depois seria o 'Reizinho da Gávea'." },
+          { "text": "Zico", "isCorrect": false, "explanation": "Incorreto. Embora chamado de 'Reizinho da Gávea', o apelido original é mais associado a Rivellino." },
+          { "text": "Maradona", "isCorrect": false, "explanation": "Incorreto. Maradona era 'El Pibe de Oro'." }
+        ]
+      },
+      {
+        "question": "Qual foi a primeira edição do Mundial de Clubes da FIFA no formato atual, em 2000?",
+        "options": [
+          { "text": "Vencida pelo Vasco da Gama", "isCorrect": false, "explanation": "Incorreto. O Vasco foi vice, perdendo a final nos pênaltis." },
+          { "text": "Realizada no Japão", "isCorrect": false, "explanation": "Incorreto. Foi realizada no Brasil (Rio e São Paulo)." },
+          { "text": "Vencida pelo Corinthians", "isCorrect": true, "explanation": "Correto! O Corinthians, como representante do país-sede, venceu o Vasco na final no Maracanã." },
+          { "text": "Vencida pelo Manchester United", "isCorrect": false, "explanation": "Incorreto. O Manchester United participou, mas não chegou à final." }
+        ]
+      },
+      {
+        "question": "Qual jogador brasileiro ganhou o prêmio Puskás da FIFA de gol mais bonito em 2015?",
+        "options": [
+          { "text": "Grafite", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Wendell Lira", "isCorrect": true, "explanation": "Correto! Com um golaço de voleio pelo Goianésia no campeonato goiano, Wendell superou Messi e Florenzi." },
+          { "text": "Neymar", "isCorrect": false, "explanation": "Incorreto. Neymar venceu em 2011 com um gol pelo Santos." },
+          { "text": "Richarlison", "isCorrect": false, "explanation": "Incorreto. Venceu em 2022." }
+        ]
+      },
+       {
+        "question": "Qual desses jogadores fez parte da lendária 'Seleção de Ouro' campeã em 1970?",
+        "options": [
+          { "text": "Zico", "isCorrect": false, "explanation": "Incorreto. Zico brilhou nos anos 70 e 80, mas não estava em 1970." },
+          { "text": "Sócrates", "isCorrect": false, "explanation": "Incorreto. Sócrates foi destaque na Copa de 1982." },
+          { "text": "Falcão", "isCorrect": false, "explanation": "Incorreto. Falcão também foi destaque em 1982." },
+          { "text": "Tostão", "isCorrect": true, "explanation": "Correto! Eduardo Gonçalves de Andrade, o Tostão, foi o inteligente centroavante daquele time mágico." }
+        ]
+      },
+      {
+        "question": "Quem foi o primeiro técnico estrangeiro a comandar a Seleção Brasileira Principal em um jogo oficial?",
+        "options": [
+          { "text": "Joreca (Português)", "isCorrect": true, "explanation": "Correto! O português Flávio Costa comandou o Brasil em dois jogos contra o Uruguai em 1944." },
+          { "text": "Filpo Núñez (Argentino)", "isCorrect": false, "explanation": "Incorreto. Comandou o Palmeiras representando o Brasil em 1965." },
+          { "text": "Ramón Platero (Uruguaio)", "isCorrect": false, "explanation": "Incorreto. Treinou o Vasco nos anos 20." },
+          { "text": "Nenhum, nunca houve técnico estrangeiro.", "isCorrect": false, "explanation": "Incorreto. Embora raros, houve estrangeiros no comando." }
+        ]
+      },
+      {
+        "question": "Qual jogador brasileiro marcou o primeiro gol na história da Premier League inglesa (novo formato, 1992)?",
+        "options": [
+          { "text": "Juninho Paulista", "isCorrect": false, "explanation": "Incorreto. Juninho brilhou no Middlesbrough, mas depois." },
+          { "text": "Mirandinha", "isCorrect": true, "explanation": "Correto! Francisco Ernandi Lima da Silva, o Mirandinha, marcou pelo Newcastle United em 1992, sendo o primeiro brasileiro a jogar e marcar na nova liga." },
+          { "text": "Branco", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Isaías", "isCorrect": false, "explanation": "Incorreto. Jogou no Coventry City, mas depois." }
+        ]
+      },
+      {
+        "question": "Qual apelido era dado à dupla de ataque do Flamengo campeão mundial em 1981?",
+        "options": [
+          { "text": "Casal 20", "isCorrect": false, "explanation": "Incorreto. Apelido da dupla Washington e Assis no Fluminense." },
+          { "text": "Dupla Explosiva", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Ataque das Multidões", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Não havia um apelido específico consolidado para a dupla Nunes e Lico/Adílio.", "isCorrect": true, "explanation": "Correto! O time como um todo era muito forte, com Zico como maestro e um ataque poderoso, mas sem um apelido específico para a dupla de frente." }
+        ]
+      },
+       {
+        "question": "Qual jogador, conhecido como 'Poeta da Bola', foi o capitão do Brasil na Copa de 1958?",
+        "options": [
+          { "text": "Djalma Santos", "isCorrect": false, "explanation": "Incorreto. Lendário lateral direito." },
+          { "text": "Nilton Santos", "isCorrect": false, "explanation": "Incorreto. Lendário lateral esquerdo, a 'Enciclopédia'." },
+          { "text": "Didi", "isCorrect": false, "explanation": "Incorreto. Didi era o 'Príncipe Etíope' ou 'Mr. Football', craque do time, mas não o capitão." },
+          { "text": "Bellini", "isCorrect": true, "explanation": "Correto! O zagueiro Hideraldo Luiz Bellini foi o capitão e imortalizou o gesto de erguer a taça sobre a cabeça." }
+        ]
+      },
+      {
+        "question": "Qual clube brasileiro foi fundado pela colônia italiana em São Paulo em 1914?",
+        "options": [
+          { "text": "SC Corinthians Paulista", "isCorrect": false, "explanation": "Incorreto. Fundado por operários." },
+          { "text": "São Paulo FC", "isCorrect": false, "explanation": "Incorreto. Fundado em 1930 (refundado em 1935)." },
+          { "text": "SE Palmeiras (como Palestra Itália)", "isCorrect": true, "explanation": "Correto! Foi fundado como Società Sportiva Palestra Italia, mudando de nome em 1942 devido à Segunda Guerra." },
+          { "text": "Portuguesa de Desportos", "isCorrect": false, "explanation": "Incorreto. Fundada pela colônia portuguesa em 1920." }
+        ]
+      },
+      {
+        "question": "Qual jogador brasileiro foi o primeiro a ser eleito Melhor Jogador do Mundo da FIFA por três vezes?",
+        "options": [
+          { "text": "Romário", "isCorrect": false, "explanation": "Incorreto. Ganhou uma vez (1994)." },
+          { "text": "Rivaldo", "isCorrect": false, "explanation": "Incorreto. Ganhou uma vez (1999)." },
+          { "text": "Ronaldo", "isCorrect": true, "explanation": "Correto! O Fenômeno venceu em 1996, 1997 e 2002." },
+          { "text": "Ronaldinho Gaúcho", "isCorrect": false, "explanation": "Incorreto. Ganhou duas vezes (2004, 2005)." }
+        ]
+      },
+      {
+        "question": "Qual foi a primeira mulher a integrar a comissão técnica da Seleção Brasileira masculina principal?",
+        "options": [
+          { "text": "Pia Sundhage", "isCorrect": false, "explanation": "Incorreto. Foi técnica da seleção feminina." },
+          { "text": "Emily Lima", "isCorrect": false, "explanation": "Incorreto. Foi técnica da seleção feminina." },
+          { "text": "Não houve mulheres na comissão principal ainda.", "isCorrect": false, "explanation": "Incorreto. Uma psicóloga integrou a equipe." },
+          { "text": "Regina Brandão (psicóloga)", "isCorrect": true, "explanation": "Correto! A psicóloga Regina Brandão fez parte da comissão técnica de Felipão na Copa de 2002 e Parreira em 2006 e 2014." }
+        ]
+      },
+       {
+        "question": "Qual o apelido de Roberto Carlos, lateral esquerdo famoso por seus chutes potentes?",
+        "options": [
+          { "text": "Canhão da Vila", "isCorrect": false, "explanation": "Incorreto. Apelido de Pepe, do Santos." },
+          { "text": "Patada Atômica", "isCorrect": false, "explanation": "Incorreto. Apelido de Rivellino." },
+          { "text": "Homem-Bomba", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Não tinha um apelido único e consolidado, mas era conhecido pela potência do chute.", "isCorrect": true, "explanation": "Correto! Embora famoso pela força, não há um apelido único como 'Animal' ou 'Canhotinha'." }
+        ]
+      },
+      {
+        "question": "Qual jogador, ídolo do Grêmio e Fluminense, ficou conhecido como 'Casal 20' ao lado de Washington?",
+        "options": [
+          { "text": "Renato Gaúcho", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Assis", "isCorrect": true, "explanation": "Correto! João Batista de Sales, o Assis (irmão de Ronaldinho Gaúcho), formou a dupla 'Casal 20' com Washington no Atlético-PR e no Fluminense." },
+          { "text": "Ézio", "isCorrect": false, "explanation": "Incorreto. 'Super Ézio', ídolo do Fluminense." },
+          { "text": "De León", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual o nome da bola da Copa de 1986 no México, a primeira totalmente sintética?",
+        "options": [
+          { "text": "Tango España (1982)", "isCorrect": false, "explanation": "Incorreto. Ainda era de couro." },
+          { "text": "Telstar Durlast (1974)", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Azteca", "isCorrect": true, "explanation": "Correto! A Adidas Azteca foi a primeira bola oficial de Copa feita com material sintético, melhorando a impermeabilidade." },
+          { "text": "Etrusco Unico (1990)", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual jogador brasileiro foi o artilheiro da Copa Libertadores de 2019, vencida pelo Flamengo?",
+        "options": [
+          { "text": "Bruno Henrique", "isCorrect": false, "explanation": "Incorreto. Bruno Henrique foi eleito o craque da competição." },
+          { "text": "Gabigol (Gabriel Barbosa)", "isCorrect": true, "explanation": "Correto! Gabigol marcou 9 gols, incluindo os dois da virada histórica na final contra o River Plate." },
+          { "text": "Arrascaeta", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Everton Cebolinha", "isCorrect": false, "explanation": "Incorreto. Everton foi destaque do Grêmio." }
+        ]
+      },
+      {
+        "question": "Qual clube brasileiro é conhecido como 'Furacão'?",
+        "options": [
+          { "text": "Coritiba FC", "isCorrect": false, "explanation": "Incorreto. É o 'Coxa'." },
+          { "text": "Athletico Paranaense", "isCorrect": true, "explanation": "Correto! O apelido surgiu pela força do time campeão estadual em 1949." },
+          { "text": "Atlético Goianiense", "isCorrect": false, "explanation": "Incorreto. É o 'Dragão'." },
+          { "text": "Ceará SC", "isCorrect": false, "explanation": "Incorreto. É o 'Vozão'." }
+        ]
+      },
+       {
+        "question": "Qual jogador, conhecido como 'Enciclopédia do Futebol', foi um lendário lateral-esquerdo do Botafogo e da Seleção?",
+        "options": [
+          { "text": "Djalma Santos", "isCorrect": false, "explanation": "Incorreto. Lendário lateral-direito." },
+          { "text": "Marinho Chagas", "isCorrect": false, "explanation": "Incorreto. Lateral ofensivo da Copa de 74." },
+          { "text": "Nilton Santos", "isCorrect": true, "explanation": "Correto! Bicampeão mundial (58/62), Nilton Santos revolucionou a posição com suas subidas ao ataque." },
+          { "text": "Júnior", "isCorrect": false, "explanation": "Incorreto. Outro grande lateral e meio-campista." }
+        ]
+      },
+      {
+        "question": "Qual o nome do estádio inaugurado para a Copa de 2014 em São Paulo, pertencente ao Corinthians?",
+        "options": [
+          { "text": "Estádio do Pacaembu", "isCorrect": false, "explanation": "Incorreto. Estádio municipal onde o Corinthians jogou por muito tempo." },
+          { "text": "Estádio do Morumbi", "isCorrect": false, "explanation": "Incorreto. Estádio do São Paulo FC." },
+          { "text": "Neo Química Arena (Arena Corinthians)", "isCorrect": true, "explanation": "Correto! Foi palco da abertura da Copa do Mundo de 2014." },
+          { "text": "Allianz Parque", "isCorrect": false, "explanation": "Incorreto. Estádio do Palmeiras." }
+        ]
+      },
+      {
+        "question": "Qual jogador foi o capitão do Brasil na Copa de 1970?",
+        "options": [
+          { "text": "Pelé", "isCorrect": false, "explanation": "Incorreto. Pelé era a estrela maior." },
+          { "text": "Gérson", "isCorrect": false, "explanation": "Incorreto. Gérson era o 'Canhotinha de Ouro'." },
+          { "text": "Carlos Alberto Torres", "isCorrect": true, "explanation": "Correto! O 'Capita', lateral direito, marcou o último gol na final contra a Itália e levantou a Jules Rimet." },
+          { "text": "Tostão", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual o nome da rivalidade entre Cruzeiro e Atlético Mineiro?",
+        "options": [
+          { "text": "Clássico dos Milhões", "isCorrect": false, "explanation": "Incorreto. Flamengo x Vasco." },
+          { "text": "Gre-Nal", "isCorrect": false, "explanation": "Incorreto. Grêmio x Internacional." },
+          { "text": "Superclássico Mineiro", "isCorrect": true, "explanation": "Correto! É o maior clássico de Minas Gerais." },
+          { "text": "Choque-Rei", "isCorrect": false, "explanation": "Incorreto. Palmeiras x São Paulo." }
+        ]
+      }
+    ]
+}
