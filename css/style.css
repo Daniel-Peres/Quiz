@@ -12,12 +12,14 @@ body {
 }
 .main-container {
     width: 100%;
-    max-width: 600px;
+    /* max-width: 600px; */ /* Linha removida ou comentada */
     background-color: white;
     padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
+    border-radius: 10px; /* Talvez você queira remover isso em tela cheia */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Talvez você queira remover isso */
+    text-align: center;;
+    min-height: 100vh; /* Adicionado para garantir que ocupe a altura */
+    box-sizing: border-box; /* Garante que padding não aumente o tamanho total */
 }
 
 /* --- ESTILOS PARA SELEÇÃO DE TEMA/SUBTEMA --- */
@@ -243,3 +245,6 @@ body {
      /* Exemplo: */
     /* background-color: #0056b3; */
 }
+
+.message-area.error { color: #dc3545; /* Vermelho */ }
+.message-area.success { color: #28a745; /* Verde */ }
