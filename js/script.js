@@ -36,7 +36,7 @@ function showOnly(elementToShow, selectionArea, quizContainer, questionCountSele
  * @param {object} elements - Objeto com referências aos elementos do DOM.
  */
 function showThemeSelectionScreen(elements) {
-    console.log("showThemeSelectionScreen");
+    console.log("--- showThemeSelectionScreen INICIADA ---");
     currentSelectedTheme = null; // Limpa tema pai ao voltar aqui
     showOnly(elements.selectionArea, elements.selectionArea, elements.quizContainer, elements.questionCountSelectionContainer);
     if (elements.themeSelectionContainer) elements.themeSelectionContainer.classList.remove('hide');
@@ -48,20 +48,43 @@ function showThemeSelectionScreen(elements) {
 }
 
 /**
- * Mostra a tela de seleção de subtemas para um tema específico.
+ * Mostra a tela de seleção de subtemas para um tema específico. (CORRIGIDA)
  * @param {object} theme - O objeto do tema pai selecionado.
  * @param {object} elements - Objeto com referências aos elementos do DOM.
  */
 function showSubthemeSelectionScreen(theme, elements) {
-    currentSelectedTheme = theme;
-    console.log("showSubthemeSelectionScreen for theme:", theme.name);
+    console.log("--- showSubthemeSelectionScreen INICIADA ---", "Tema:", theme?.name);
+    currentSelectedTheme = theme; // Guarda tema pai
+
+    // <<< CORREÇÃO: Usa showOnly para garantir que só a área de seleção esteja visível >>>
+    showOnly(elements.selectionArea, elements.selectionArea, elements.quizContainer, elements.questionCountSelectionContainer);
+
+    // Dentro da área de seleção, esconde temas e mostra subtemas
     if (elements.themeSelectionContainer) elements.themeSelectionContainer.classList.add('hide');
+    if (elements.subthemeSelectionContainer) {
+         // <<< LOG ANTES DE MOSTRAR >>>
+         console.log("showSubthemeSelectionScreen: Tentando remover 'hide' de subthemeSelectionContainer...");
+         console.log("showSubthemeSelectionScreen: Elemento é:", elements.subthemeSelectionContainer); // Verifica se o elemento é válido
+        elements.subthemeSelectionContainer.classList.remove('hide'); // Mostra container de subtemas
+         // <<< LOG DEPOIS DE MOSTRAR >>>
+         console.log("showSubthemeSelectionScreen: 'hide' REMOVIDO de subthemeSelectionContainer.");
+         try { // Adicionado try-catch para getComputedStyle
+            console.log("showSubthemeSelectionScreen: Visibilidade atual:", window.getComputedStyle(elements.subthemeSelectionContainer).display);
+         } catch (e) {
+            console.warn("Não foi possível obter o estilo computado de subthemeSelectionContainer", e);
+         }
+    } else { console.error("subthemeSelectionContainer não encontrado!"); return; } // Crítico
+
+    // Define o título
     if (elements.subthemeTitleElement) elements.subthemeTitleElement.textContent = `Escolha um Subtema para: ${theme.name}`;
     else { console.warn("subthemeTitleElement não encontrado"); }
+
+    // Preenche os botões de subtema
     populateSubthemeButtons(theme.subThemes, elements);
-    if (elements.subthemeSelectionContainer) elements.subthemeSelectionContainer.classList.remove('hide');
-    else { console.error("subthemeSelectionContainer não encontrado!"); }
+
+    console.log("--- showSubthemeSelectionScreen FINALIZADA ---");
 }
+
 
 /**
  * Mostra a interface principal do quiz (barra, pergunta, opções, controles).
@@ -70,16 +93,11 @@ function showSubthemeSelectionScreen(theme, elements) {
 function showQuizInterface(elements) {
     console.log("showQuizInterface");
     showOnly(elements.quizContainer, elements.selectionArea, elements.quizContainer, elements.questionCountSelectionContainer);
-    if (elements.progressBarIndicator) elements.progressBarIndicator.style.width = '0%';
-    else { console.warn("progressBarIndicator não encontrado"); }
-    if (elements.progressTextElement) elements.progressTextElement.textContent = 'Carregando...';
-    else { console.warn("progressTextElement não encontrado"); }
-    if (elements.progressContainer) elements.progressContainer.classList.remove('hide');
-    else { console.warn("progressContainer não encontrado"); }
-    if (elements.questionContainer) elements.questionContainer.classList.remove('hide');
-    else { console.warn("questionContainer não encontrado"); }
-    if (elements.controlsContainer) elements.controlsContainer.classList.remove('hide');
-    else { console.warn("controlsContainer não encontrado"); }
+    if (elements.progressBarIndicator) elements.progressBarIndicator.style.width = '0%'; else { console.warn("progressBarIndicator não encontrado"); }
+    if (elements.progressTextElement) elements.progressTextElement.textContent = 'Carregando...'; else { console.warn("progressTextElement não encontrado"); }
+    if (elements.progressContainer) elements.progressContainer.classList.remove('hide'); else { console.warn("progressContainer não encontrado"); }
+    if (elements.questionContainer) elements.questionContainer.classList.remove('hide'); else { console.warn("questionContainer não encontrado"); }
+    if (elements.controlsContainer) elements.controlsContainer.classList.remove('hide'); else { console.warn("controlsContainer não encontrado"); }
 }
 
 /**
@@ -98,7 +116,7 @@ async function loadThemes(elements) {
         populateThemeButtons(allThemesData, elements);
     } catch (error) {
         console.error("Falha CRÍTICA ao carregar themes.json:", error);
-        if (elements.themeButtonsContainer) elements.themeButtonsContainer.innerHTML = `<p style="color: red;">Erro ao carregar temas: ${error.message}.</p>`;
+        if (elements.themeButtonsContainer) elements.themeButtonsContainer.innerHTML = `<p style="color: red;">Erro ao carregar temas: ${error.message}. Verifique o console (F12).</p>`;
     }
 }
 
@@ -150,13 +168,7 @@ async function loadQuizData(filename, elements) {
     fullQuizData = []; quizConfig = {}; desiredQuestionCount = 0;
     showOnly(null, elements.selectionArea, elements.quizContainer, elements.questionCountSelectionContainer);
     let loadingMsgElement = document.getElementById('loading-quiz-msg');
-    if (!loadingMsgElement && elements.mainContainer) {
-        loadingMsgElement = document.createElement('p'); loadingMsgElement.id = 'loading-quiz-msg';
-        loadingMsgElement.textContent = 'Carregando dados do quiz...'; loadingMsgElement.style.textAlign = 'center'; loadingMsgElement.style.padding = '20px';
-        elements.mainContainer.appendChild(loadingMsgElement);
-    } else if (loadingMsgElement) {
-         loadingMsgElement.textContent = 'Carregando dados do quiz...'; loadingMsgElement.style.color = 'inherit'; loadingMsgElement.classList.remove('hide');
-    }
+    if (!loadingMsgElement && elements.mainContainer) { /* ...cria msg loading ... */ } else if (loadingMsgElement) { /* ... reutiliza msg loading ... */ }
     const errorBackButton = document.getElementById('back-to-themes-btn-error'); if (errorBackButton) errorBackButton.remove();
     const quizPath = `data/${filename}`; // Caminho relativo à pasta 'data'
     try {
@@ -174,12 +186,8 @@ async function loadQuizData(filename, elements) {
         showQuestionCountSelection(fullQuizData.length, elements); // Chama seleção de quantidade
     } catch (error) {
         console.error("Falha CRÍTICA ao carregar quiz:", filename, error);
-        if (loadingMsgElement) { loadingMsgElement.textContent = `Erro ao carregar '${filename}': ${error.message}. Verifique console e JSON.`; loadingMsgElement.style.color = 'red'; loadingMsgElement.classList.remove('hide'); }
-        else if (elements.mainContainer) { elements.mainContainer.innerHTML = `<p id="loading-quiz-msg" style="color: red; text-align: center; padding: 20px;">Erro ao carregar '${filename}': ${error.message}.</p>`; loadingMsgElement = document.getElementById('loading-quiz-msg'); }
-        if (loadingMsgElement && !document.getElementById('back-to-themes-btn-error')) {
-            const backButton = document.createElement('button'); backButton.textContent = 'Voltar à Seleção'; backButton.id = 'back-to-themes-btn-error'; backButton.className = 'control-btn back-btn'; backButton.style.cssText = 'margin-top: 20px; display: block; margin-left: auto; margin-right: auto;';
-            backButton.onclick = () => showThemeSelectionScreen(elements); loadingMsgElement.parentNode.insertBefore(backButton, loadingMsgElement.nextSibling);
-        }
+        if (loadingMsgElement) { /* ... mostra erro ... */ } else if (elements.mainContainer) { /* ... mostra erro ... */ }
+        if (loadingMsgElement && !document.getElementById('back-to-themes-btn-error')) { /* ... adiciona botão voltar ... */ }
         if(elements.quizContainer) elements.quizContainer.classList.add('hide'); if(elements.questionCountSelectionContainer) elements.questionCountSelectionContainer.classList.add('hide');
     }
 }
@@ -213,11 +221,7 @@ function handleSubthemeSelection(event, elements) {
  * Embaralha os elementos de um array no local (algoritmo Fisher-Yates).
  * @param {Array} array - O array a ser embaralhado.
  */
-function shuffleArray(array) {
-    if (!Array.isArray(array)) return;
-    for (let i = array.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [array[i], array[j]] = [array[j], array[i]]; }
-}
-
+function shuffleArray(array) { if(!Array.isArray(array))return; for(let i=array.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1)); [array[i],array[j]]=[array[j],array[i]];} }
 
 /**
  * Mostra a seção de seleção de quantidade de questões, com botões de porcentagem (25%, 50%, 75%, 100%).
@@ -236,53 +240,38 @@ function showQuestionCountSelection(maxQuestions, elements) {
     // --- Criação dos Botões de Porcentagem (25%, 50%, 75%, 100%) ---
     if (elements.questionCountButtonsContainer) {
         elements.questionCountButtonsContainer.innerHTML = ''; // Limpa
-        const percentages = [0.25, 0.5, 0.75, 1.0]; // <<< NOVAS PORCENTAGENS
+        const percentages = [0.25, 0.5, 0.75, 1.0]; // Percentuais
         const addedCounts = new Set();
-
         percentages.forEach(perc => {
             let count = (perc === 1.0) ? maxQuestions : Math.max(1, Math.round(maxQuestions * perc));
             count = Math.min(count, maxQuestions);
-
             if (count > 0 && (!addedCounts.has(count) || perc === 1.0)) {
                 addedCounts.add(count);
-                const button = document.createElement('button');
-                button.className = 'control-btn count-btn';
+                const button = document.createElement('button'); button.className = 'control-btn count-btn';
                 const percentageText = perc === 1.0 ? "Todas" : `${Math.round(perc * 100)}%`;
-                button.textContent = `${percentageText} (${count} Questões)`;
-                button.dataset.count = count;
+                button.textContent = `${percentageText} (${count} Questões)`; button.dataset.count = count;
                 button.addEventListener('click', () => {
-                    desiredQuestionCount = parseInt(button.dataset.count);
-                    console.log("Número selecionado:", desiredQuestionCount);
+                    desiredQuestionCount = parseInt(button.dataset.count); console.log("Número selecionado:", desiredQuestionCount);
                     if (elements.questionCountSelectionContainer) elements.questionCountSelectionContainer.classList.add('hide');
                     startGame(elements);
                 });
                 elements.questionCountButtonsContainer.appendChild(button);
             }
         });
-        // Não precisa mais do botão Mínimo(1)
-
     } // Fim if (questionCountButtonsContainer)
 
     // --- Botão Voltar (Listener re-adicionado via cloneNode) ---
     if (elements.backToSelectionFromCountBtn) {
-        const oldBackBtn = elements.backToSelectionFromCountBtn;
-        const newBackBtn = oldBackBtn.cloneNode(true);
+        const oldBackBtn = elements.backToSelectionFromCountBtn; const newBackBtn = oldBackBtn.cloneNode(true);
         if(oldBackBtn.parentNode){
-            oldBackBtn.parentNode.replaceChild(newBackBtn, oldBackBtn);
-            elements.backToSelectionFromCountBtn = newBackBtn; // Atualiza referência
+            oldBackBtn.parentNode.replaceChild(newBackBtn, oldBackBtn); elements.backToSelectionFromCountBtn = newBackBtn;
             newBackBtn.addEventListener('click', () => {
-                 console.log("Botão 'Voltar' (da seleção de contagem) CLICADO!");
-                 console.log("Valor de currentSelectedTheme ao clicar Voltar:", currentSelectedTheme);
+                 console.log(">>> Botão 'Voltar' (da contagem) CLICADO!"); console.log("currentSelectedTheme:", currentSelectedTheme);
                  if (elements.questionCountSelectionContainer) elements.questionCountSelectionContainer.classList.add('hide');
-                 if (currentSelectedTheme?.subThemes?.length > 0) {
-                     console.log("Voltando para seleção de subtemas.");
-                     showSubthemeSelectionScreen(currentSelectedTheme, elements);
-                 } else {
-                     console.log("Voltando para seleção de temas principal.");
-                     showThemeSelectionScreen(elements);
-                 }
+                 if (currentSelectedTheme?.subThemes?.length > 0) { console.log("<<< Voltando para SUBTEMAS."); showSubthemeSelectionScreen(currentSelectedTheme, elements); } // Chama a função corrigida
+                 else { console.log("<<< Voltando para TEMAS."); showThemeSelectionScreen(elements); }
             });
-             console.log("Listener 'Voltar' RE-ADICIONADO ao botão clonado.");
+             console.log("Listener 'Voltar' (contagem) RE-ADICIONADO.");
         } else { console.error("Pai do #back-to-selection-from-count-btn não encontrado."); }
     } else { console.error("#back-to-selection-from-count-btn não encontrado."); }
 }
@@ -292,7 +281,7 @@ function showQuestionCountSelection(maxQuestions, elements) {
  * @param {object} elements - Objeto com referências aos elementos do DOM.
  */
 function startGame(elements) {
-    console.log("startGame: Iniciando..."); const eb=document.getElementById('back-to-themes-btn-error'); if(eb) eb.remove(); if(!fullQuizData?.length){console.error("ERRO: fullQuizData vazio.");showThemeSelectionScreen(elements);return;} const max=fullQuizData.length; if(desiredQuestionCount<=0||desiredQuestionCount>max){desiredQuestionCount=max;} let qs=[...fullQuizData]; shuffleArray(qs); quizData=qs.slice(0,desiredQuestionCount); if(!quizData?.length){console.error("ERRO: quizData vazio.");showThemeSelectionScreen(elements);return;} console.log(`Iniciando com ${quizData.length} de ${max}.`); showQuizInterface(elements); currentQuestionIndex=0; score=0; isAnswered=false; selectedOptionElement=null; if(elements.messageArea)clearMessage(elements.messageArea); if(elements.quizTitleElement)elements.quizTitleElement.textContent=quizConfig.theme||"Quiz"; if(elements.resultContainer)elements.resultContainer.classList.add('hide'); if(elements.scoreContainer)elements.scoreContainer.classList.add('hide'); if(elements.nextBtn)elements.nextBtn.classList.add('hide'); if(elements.finishBtn)elements.finishBtn.classList.add('hide'); if(elements.confirmBtn){elements.confirmBtn.classList.remove('hide');elements.confirmBtn.disabled=true;} else {console.error("ConfirmBtn não encontrado!");} showQuestion(quizData[currentQuestionIndex], elements);
+    console.log("startGame: Iniciando..."); const eb=document.getElementById('back-to-themes-btn-error'); if(eb) eb.remove(); if(!fullQuizData?.length){console.error("ERRO: start sem fullQuizData.");showThemeSelectionScreen(elements);return;} const max=fullQuizData.length; if(desiredQuestionCount<=0||desiredQuestionCount>max)desiredQuestionCount=max; let qs=[...fullQuizData]; shuffleArray(qs); quizData=qs.slice(0,desiredQuestionCount); if(!quizData?.length){console.error("ERRO: quizData vazio.");showThemeSelectionScreen(elements);return;} console.log(`Iniciando com ${quizData.length} de ${max}.`); showQuizInterface(elements); currentQuestionIndex=0; score=0; isAnswered=false; selectedOptionElement=null; if(elements.messageArea)clearMessage(elements.messageArea); if(elements.quizTitleElement)elements.quizTitleElement.textContent=quizConfig.theme||"Quiz"; if(elements.resultContainer)elements.resultContainer.classList.add('hide'); if(elements.scoreContainer)elements.scoreContainer.classList.add('hide'); if(elements.nextBtn)elements.nextBtn.classList.add('hide'); if(elements.finishBtn)elements.finishBtn.classList.add('hide'); if(elements.endQuizEarlyBtn)elements.endQuizEarlyBtn.classList.add('hide'); if(elements.confirmBtn){elements.confirmBtn.classList.remove('hide');elements.confirmBtn.disabled=true;}else console.error("ConfirmBtn não encontrado!"); if(elements.backToMainMenuBtn)elements.backToMainMenuBtn.classList.remove('hide'); showQuestion(quizData[currentQuestionIndex],elements);
 }
 
 /**
@@ -309,7 +298,7 @@ function updateProgressBar(elements) {
  * @param {object} elements - Objeto com referências aos elementos do DOM.
  */
 function showQuestion(questionData, elements) {
-    console.log(`showQuestion: Idx ${currentQuestionIndex}`); isAnswered=false; selectedOptionElement=null; if(elements.answerOptionsElement) elements.answerOptionsElement.querySelectorAll('.option-frame').forEach(f=>f.style.outline='none'); if(!questionData?.question){console.error("Questão inválida:",currentQuestionIndex,questionData);if(elements.messageArea)showMessage(elements.messageArea,"Erro questão",5000);showResults(elements);return;} if(elements.questionTextElement)elements.questionTextElement.innerText=questionData.question; else console.error("questionTextElement não encontrado!"); if(elements.answerOptionsElement)elements.answerOptionsElement.innerHTML=''; else {console.error("answerOptionsElement não encontrado!"); return;} if(elements.messageArea)clearMessage(elements.messageArea); if(!questionData.options?.length){console.error("Opções inválidas:",questionData);if(elements.messageArea)showMessage(elements.messageArea,"Erro opções",5000);nextQuestion(elements);return;} let opts=[...questionData.options]; shuffleArray(opts); opts.forEach(opt=>{if(!opt?.text){console.warn("Opção inválida:",opt);return;} const oF=document.createElement('div');oF.className='option-frame';oF.dataset.optionText=opt.text; const fF=document.createElement('div');fF.className='front-face';fF.textContent=opt.text; const bF=document.createElement('div');bF.className='back-face'; const eS=document.createElement('span');eS.className='explanation';eS.textContent=opt.explanation||'Sem explicação.'; bF.appendChild(eS); oF.appendChild(fF);oF.appendChild(bF); oF.addEventListener('click',(e)=>selectAnswer(e,elements)); if(elements.answerOptionsElement)elements.answerOptionsElement.appendChild(oF);}); if(elements.confirmBtn){elements.confirmBtn.classList.remove('hide');elements.confirmBtn.disabled=true;} if(elements.nextBtn)elements.nextBtn.classList.add('hide'); if(elements.finishBtn)elements.finishBtn.classList.add('hide'); if(elements.questionContainer)elements.questionContainer.classList.remove('hide'); else console.error("questionContainer não encontrado!"); updateProgressBar(elements);
+    console.log(`showQ: Idx ${currentQuestionIndex}`); isAnswered=false; selectedOptionElement=null; if(elements.answerOptionsElement) elements.answerOptionsElement.querySelectorAll('.option-frame').forEach(f=>f.style.outline='none'); if(!questionData?.question){console.error("Questão inválida:",currentQuestionIndex,questionData);if(elements.messageArea)showMessage(elements.messageArea,"Erro questão",5000);showResults(elements);return;} if(elements.questionTextElement)elements.questionTextElement.innerText=questionData.question; else console.error("questionTextElement!"); if(elements.answerOptionsElement)elements.answerOptionsElement.innerHTML=''; else{console.error("answerOptionsElement!");return;} if(elements.messageArea)clearMessage(elements.messageArea); if(!questionData.options?.length){console.error("Opções inválidas:",questionData);if(elements.messageArea)showMessage(elements.messageArea,"Erro opções",5000);nextQuestion(elements);return;} let opts=[...questionData.options]; shuffleArray(opts); opts.forEach(opt=>{if(!opt?.text){console.warn("Opção inválida:",opt);return;} const oF=document.createElement('div');oF.className='option-frame';oF.dataset.optionText=opt.text; const fF=document.createElement('div');fF.className='front-face';fF.textContent=opt.text; const bF=document.createElement('div');bF.className='back-face'; const eS=document.createElement('span');eS.className='explanation';eS.textContent=opt.explanation||'Sem explicação.'; bF.appendChild(eS); oF.appendChild(fF);oF.appendChild(bF); oF.addEventListener('click',(e)=>selectAnswer(e,elements)); if(elements.answerOptionsElement)elements.answerOptionsElement.appendChild(oF);}); if(elements.confirmBtn){elements.confirmBtn.classList.remove('hide');elements.confirmBtn.disabled=true;} if(elements.nextBtn)elements.nextBtn.classList.add('hide'); if(elements.finishBtn)elements.finishBtn.classList.add('hide'); if(elements.endQuizEarlyBtn)elements.endQuizEarlyBtn.classList.add('hide'); if(elements.questionContainer)elements.questionContainer.classList.remove('hide'); else console.error("questionContainer!"); updateProgressBar(elements);
 }
 
 /**
@@ -318,7 +307,7 @@ function showQuestion(questionData, elements) {
  * @param {object} elements - Objeto com referências aos elementos do DOM.
  */
 function selectAnswer(event, elements) {
-    if(isAnswered)return; if(elements.messageArea)clearMessage(elements.messageArea); const cF=event.currentTarget; if(!cF)return; if(elements.answerOptionsElement)elements.answerOptionsElement.querySelectorAll('.option-frame').forEach(f=>{if(f!==cF)f.classList.remove('selected');}); cF.classList.toggle('selected'); if(cF.classList.contains('selected')){selectedOptionElement=cF; if(elements.confirmBtn)elements.confirmBtn.disabled=false;console.log('Selecionado');} else {selectedOptionElement=null; if(elements.confirmBtn)elements.confirmBtn.disabled=true;console.log('Desmarcado');}
+    if(isAnswered)return; if(elements.messageArea)clearMessage(elements.messageArea); const cF=event.currentTarget; if(!cF)return; if(elements.answerOptionsElement)elements.answerOptionsElement.querySelectorAll('.option-frame').forEach(f=>{if(f!==cF)f.classList.remove('selected');}); cF.classList.toggle('selected'); if(cF.classList.contains('selected')){selectedOptionElement=cF; if(elements.confirmBtn)elements.confirmBtn.disabled=false;} else {selectedOptionElement=null; if(elements.confirmBtn)elements.confirmBtn.disabled=true;}
 }
 
 /**
@@ -326,7 +315,7 @@ function selectAnswer(event, elements) {
  * @param {object} elements - Objeto com referências aos elementos do DOM.
  */
 function confirmAnswer(elements) {
-    console.log('confirmAnswer...'); if(!selectedOptionElement){if(elements.messageArea)showMessage(elements.messageArea,"Selecione.",3000);return;} if(isAnswered){console.warn('Já respondido.');return;} isAnswered=true; if(elements.confirmBtn){elements.confirmBtn.classList.add('hide');elements.confirmBtn.disabled=true;} if(elements.messageArea)clearMessage(elements.messageArea); try{const selTxt=selectedOptionElement.dataset.optionText; if(typeof selTxt==='undefined')throw new Error("No dataset.optionText"); if(!quizData?.[currentQuestionIndex]?.options)throw new Error(`Dados Q ${currentQuestionIndex} inválidos.`); const opts=quizData[currentQuestionIndex].options; const correctOpt=opts.find(o=>o?.isCorrect===true); if(!correctOpt?.text)throw new Error(`Correta não definida Q ${currentQuestionIndex}.`); const correctTxt=correctOpt.text; const isCorrect=(selTxt===correctTxt); if(isCorrect){score++;console.log("CORRETA");}else{console.log("INCORRETA");} const allFrames=elements.answerOptionsElement?elements.answerOptionsElement.querySelectorAll('.option-frame'):[]; allFrames.forEach(f=>{if(!(f instanceof HTMLElement))return; const fTxt=f.dataset.optionText; if(typeof fTxt==='undefined')return; const oData=opts.find(o=>o?.text===fTxt); f.classList.add('reveal','disabled'); if(oData){f.classList.toggle('correct',oData.isCorrect===true); f.classList.toggle('incorrect',oData.isCorrect!==true);} else {f.classList.add('incorrect');} if(f===selectedOptionElement){f.style.outline='3px solid #333';f.style.outlineOffset='2px';}else{f.style.outline='none';}}); updateScoreDisplay(elements); if(elements.scoreContainer)elements.scoreContainer.classList.remove('hide'); const isLast=currentQuestionIndex>=quizData.length-1; setTimeout(()=>{if(elements.finishBtn)elements.finishBtn.classList.toggle('hide',!isLast); if(elements.nextBtn)elements.nextBtn.classList.toggle('hide',isLast);},800); }catch(err){console.error("ERRO confirmAnswer:",err);if(elements.messageArea)showMessage(elements.messageArea,`Erro: ${err.message}.`,6000); if(elements.finishBtn)elements.finishBtn.classList.add('hide'); if(elements.nextBtn)elements.nextBtn.classList.add('hide');}
+    console.log('confirmAnswer...'); if(!selectedOptionElement){if(elements.messageArea)showMessage(elements.messageArea,"Selecione.",3000);return;} if(isAnswered){console.warn('Já respondido.');return;} isAnswered=true; if(elements.backToMainMenuBtn)elements.backToMainMenuBtn.classList.add('hide'); if(elements.confirmBtn){elements.confirmBtn.classList.add('hide');elements.confirmBtn.disabled=true;} if(elements.messageArea)clearMessage(elements.messageArea); try{const selTxt=selectedOptionElement.dataset.optionText; if(typeof selTxt==='undefined')throw new Error("No dataset.optionText"); if(!quizData?.[currentQuestionIndex]?.options)throw new Error(`Dados Q ${currentQuestionIndex} inválidos.`); const opts=quizData[currentQuestionIndex].options; const correctOpt=opts.find(o=>o?.isCorrect===true); if(!correctOpt?.text)throw new Error(`Correta não definida Q ${currentQuestionIndex}.`); const correctTxt=correctOpt.text; const isCorrect=(selTxt===correctTxt); if(isCorrect)score++; const allFrames=elements.answerOptionsElement?elements.answerOptionsElement.querySelectorAll('.option-frame'):[]; allFrames.forEach(f=>{if(!(f instanceof HTMLElement))return; const fTxt=f.dataset.optionText; if(typeof fTxt==='undefined')return; const oData=opts.find(o=>o?.text===fTxt); f.classList.add('reveal','disabled'); if(oData){f.classList.toggle('correct',oData.isCorrect===true); f.classList.toggle('incorrect',oData.isCorrect!==true);} else f.classList.add('incorrect'); if(f===selectedOptionElement){f.style.outline='3px solid #333';f.style.outlineOffset='2px';}else f.style.outline='none';}); updateScoreDisplay(elements); if(elements.scoreContainer)elements.scoreContainer.classList.remove('hide'); const isLast=currentQuestionIndex>=quizData.length-1; setTimeout(()=>{if(elements.finishBtn)elements.finishBtn.classList.toggle('hide',!isLast); if(elements.nextBtn)elements.nextBtn.classList.toggle('hide',isLast); if(elements.endQuizEarlyBtn)elements.endQuizEarlyBtn.classList.toggle('hide',isLast);},800); }catch(err){console.error("ERRO confirmAnswer:",err);if(elements.messageArea)showMessage(elements.messageArea,`Erro: ${err.message}.`,6000); if(elements.finishBtn)elements.finishBtn.classList.add('hide'); if(elements.nextBtn)elements.nextBtn.classList.add('hide'); if(elements.endQuizEarlyBtn)elements.endQuizEarlyBtn.classList.add('hide');}
 }
 
 /**
@@ -342,7 +331,7 @@ function nextQuestion(elements) {
  * @param {object} elements - Objeto com referências aos elementos do DOM.
  */
 function showResults(elements) {
-    console.log("showResults"); showOnly(elements.quizContainer,elements.selectionArea,elements.quizContainer,elements.questionCountSelectionContainer); if(elements.questionContainer)elements.questionContainer.classList.add('hide'); if(elements.progressContainer)elements.progressContainer.classList.add('hide'); if(elements.controlsContainer)elements.controlsContainer.classList.add('hide'); if(elements.messageArea)clearMessage(elements.messageArea); if(!elements.resultContainer){console.error("No result container!");if(elements.scoreContainer)elements.scoreContainer.classList.remove('hide');updateScoreDisplay(elements);return;} elements.resultContainer.classList.remove('hide'); if(elements.scoreContainer)elements.scoreContainer.classList.remove('hide'); const finalScore=calculateFinalScoreString(); const totalQ=quizData.length; elements.resultContainer.innerHTML=`<h2>Quiz '${quizConfig.theme||'Quiz'}' Finalizado!</h2><p>Acertos: <strong>${score}</strong> de <strong>${totalQ}</strong>.</p><p>Pontuação: <strong>${finalScore}</strong></p><button id="choose-another-theme-btn" class="control-btn back-btn" style="background-color:#007bff;color:white;">Jogar Novamente</button>`; const btn=document.getElementById('choose-another-theme-btn'); if(btn){btn.addEventListener('click',()=>{if(elements.resultContainer)elements.resultContainer.classList.add('hide'); if(elements.scoreContainer)elements.scoreContainer.classList.add('hide'); showThemeSelectionScreen(elements);});}else console.error("#choose-another-theme-btn não encontrado."); updateScoreDisplay(elements);
+    console.log("showResults"); if(elements.backToMainMenuBtn)elements.backToMainMenuBtn.classList.add('hide'); showOnly(elements.quizContainer,elements.selectionArea,elements.quizContainer,elements.questionCountSelectionContainer); if(elements.questionContainer)elements.questionContainer.classList.add('hide'); if(elements.progressContainer)elements.progressContainer.classList.add('hide'); if(elements.controlsContainer)elements.controlsContainer.classList.add('hide'); if(elements.messageArea)clearMessage(elements.messageArea); if(!elements.resultContainer){console.error("No result container!");if(elements.scoreContainer)elements.scoreContainer.classList.remove('hide');updateScoreDisplay(elements);return;} elements.resultContainer.classList.remove('hide'); if(elements.scoreContainer)elements.scoreContainer.classList.remove('hide'); const finalScore=calculateFinalScoreString(); const totalQ=quizData.length; elements.resultContainer.innerHTML=`<h2>Quiz '${quizConfig.theme||'Quiz'}' Finalizado!</h2><p>Acertos: <strong>${score}</strong> de <strong>${totalQ}</strong>.</p><p>Pontuação: <strong>${finalScore}</strong></p><button id="choose-another-theme-btn" class="control-btn back-btn" style="background-color:#007bff;color:white;">Jogar Novamente</button>`; const btn=document.getElementById('choose-another-theme-btn'); if(btn){btn.addEventListener('click',()=>{if(elements.resultContainer)elements.resultContainer.classList.add('hide'); if(elements.scoreContainer)elements.scoreContainer.classList.add('hide'); showThemeSelectionScreen(elements);});}else console.error("#choose-another-theme-btn não encontrado."); updateScoreDisplay(elements);
 }
 
 /**
@@ -395,25 +384,27 @@ document.addEventListener('DOMContentLoaded', () => {
         subthemeSelectionContainer: document.getElementById('subtheme-selection-container'),
         subthemeTitleElement: document.getElementById('subtheme-title'),
         subthemeButtonsContainer: document.getElementById('subtheme-buttons'),
-        backToThemesBtn: document.getElementById('back-to-themes-btn'), // <<< BOTÃO VOLTAR DO SUBTEMA
+        backToThemesBtn: document.getElementById('back-to-themes-btn'), // <<< Voltar de Subtema
         questionCountSelectionContainer: document.getElementById('question-count-selection'),
         questionCountTitleElement: document.getElementById('question-count-title'),
         maxQuestionsInfoElement: document.getElementById('max-questions-info'),
         questionCountButtonsContainer: document.getElementById('question-count-buttons'), // Container para botões %
-        backToSelectionFromCountBtn: document.getElementById('back-to-selection-from-count-btn'), // <<< BOTÃO VOLTAR DA CONTAGEM
+        backToSelectionFromCountBtn: document.getElementById('back-to-selection-from-count-btn'), // <<< Voltar da Contagem
         questionCountMessageArea: document.getElementById('question-count-message'),
         quizContainer: document.getElementById('quiz-container'),
         quizTitleElement: document.getElementById('quiz-title'),
+        backToMainMenuBtn: document.getElementById('back-to-main-menu-btn'), // <<< NOVO: Voltar ao Menu (do Quiz)
         progressContainer: document.getElementById('progress-container'),
         progressBarIndicator: document.getElementById('progress-bar-indicator'),
         progressTextElement: document.getElementById('progress-text'),
         questionContainer: document.getElementById('question-container'),
         questionTextElement: document.getElementById('question-text'),
         answerOptionsElement: document.getElementById('answer-options'),
-        messageArea: document.getElementById('message-area'),
+        messageArea: document.getElementById('message-area'), // Mensagem dentro do quiz
         controlsContainer: document.querySelector('.controls'),
         confirmBtn: document.getElementById('confirm-btn'),
         nextBtn: document.getElementById('next-btn'),
+        endQuizEarlyBtn: document.getElementById('end-quiz-early-btn'), // <<< NOVO: Finalizar Agora
         finishBtn: document.getElementById('finish-btn'),
         scoreContainer: document.getElementById('score-container'),
         scoreValueElement: document.getElementById('score-value'),
@@ -425,8 +416,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Verificação de elementos essenciais
     let missingElementCritical = false;
-    for (const key in elements) { /* ... (verificação igual anterior) ... */ }
-    if (missingElementCritical) { /* ... (mensagem de erro e return) ... */ }
+    for (const key in elements) {
+        if (elements.hasOwnProperty(key) && elements[key] === null) {
+            const criticalIdsForCheck = ['selectionArea', 'quizContainer', 'questionCountSelectionContainer', 'mainContainer', 'confirmBtn', 'answerOptionsElement', 'questionCountButtonsContainer', 'backToThemesBtn', 'backToSelectionFromCountBtn', 'backToMainMenuBtn', 'endQuizEarlyBtn'];
+            let probableSelector = `#${key.replace('Element', '').replace(/([A-Z])/g, '-$1').toLowerCase()}`;
+             if (key === 'controlsContainer' || key === 'mainContainer') probableSelector = `.${key.replace('Container', '-container')}`;
+            console.warn(`Elemento 'elements.${key}' (seletor: ${probableSelector}) não encontrado.`);
+             if (criticalIdsForCheck.includes(key)) { console.error(`ERRO CRÍTICO: Elemento '${key}' não encontrado!`); missingElementCritical = true; }
+        }
+    }
+    if (missingElementCritical) { document.body.innerHTML = '<p style="color:red;text-align:center;padding:30px;">Erro: Elementos HTML essenciais não encontrados.</p>'; return; }
     else { console.log("Verificação de elementos OK."); }
 
     // Aplica estado inicial de visibilidade
@@ -439,7 +438,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Configuração dos Listeners Estáticos ---
 
-    // ===> CORREÇÃO AQUI: Botão Voltar (Subtema -> Tema) <===
+    // Listener para o Botão Voltar (Subtema -> Tema) - CORRIGIDO
     if (elements.backToThemesBtn && elements.subthemeSelectionContainer && elements.themeSelectionContainer) {
         console.log("Adicionando listener ao botão #back-to-themes-btn (Voltar de Subtemas)");
         elements.backToThemesBtn.addEventListener('click', () => {
@@ -449,19 +448,32 @@ document.addEventListener('DOMContentLoaded', () => {
             currentSelectedTheme = null; // Limpa tema pai ao voltar para a lista principal
             console.log("<<< Subtemas escondidos, Temas mostrados.");
         });
-    } else {
-        console.error("Não foi possível adicionar listener ao #back-to-themes-btn.", {
-            backBtnExists: !!elements.backToThemesBtn,
-            subthemeContainerExists: !!elements.subthemeSelectionContainer,
-            themeContainerExists: !!elements.themeSelectionContainer
-        });
-    }
+    } else { console.error("Não foi possível adicionar listener ao #back-to-themes-btn."); }
 
-    // Outros Listeners Estáticos
+    // Listener para o NOVO botão Voltar ao Menu (do Quiz -> Seleção de Temas)
+    if (elements.backToMainMenuBtn) {
+        elements.backToMainMenuBtn.addEventListener('click', () => {
+            console.log("Botão 'Voltar ao Menu' (do quiz) clicado.");
+            // Adicionar confirmação se quiser: if (confirm("Deseja realmente sair do quiz e voltar ao menu?")) { ... }
+            showThemeSelectionScreen(elements);
+        });
+    } else { console.warn("#back-to-main-menu-btn não encontrado."); }
+
+
+    // Listener para o NOVO botão Finalizar Agora
+    if (elements.endQuizEarlyBtn) {
+        elements.endQuizEarlyBtn.addEventListener('click', () => {
+            console.log("Botão 'Finalizar Agora' clicado.");
+             // Adicionar confirmação se quiser: if (confirm("Deseja finalizar o quiz agora?")) { ... }
+            showResults(elements);
+        });
+    } else { console.warn("#end-quiz-early-btn não encontrado."); }
+
+    // Outros Listeners Estáticos (Confirmar, Próxima, Finalizar [original])
     if (elements.confirmBtn) elements.confirmBtn.addEventListener('click', () => confirmAnswer(elements)); else console.error("#confirm-btn não encontrado!");
     if (elements.nextBtn) elements.nextBtn.addEventListener('click', () => nextQuestion(elements)); else console.warn("#next-btn não encontrado.");
     if (elements.finishBtn) elements.finishBtn.addEventListener('click', () => showResults(elements)); else console.warn("#finish-btn não encontrado.");
-    // Listener para backToSelectionFromCountBtn é adicionado dinamicamente em showQuestionCountSelection
+    // Listener para backToSelectionFromCountBtn (Voltar da tela de contagem) é adicionado dinamicamente em showQuestionCountSelection
 
     // Inicia a aplicação
     console.log("Iniciando aplicação...");

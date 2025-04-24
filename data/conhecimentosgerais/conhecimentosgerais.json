@@ -2,7 +2,7 @@
     "config": {
       "theme": "Conhecimentos Gerais",
       "totalPoints": 100,
-      "scoring": "percentage"
+      "scoring": "points"
     },
     "data": [
       {
