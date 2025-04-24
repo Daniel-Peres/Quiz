@@ -1,0 +1,144 @@
+{
+    "config": {
+      "theme": "Copa do Mundo FIFA 1934",
+      "totalPoints": 1000,
+      "scoring": "points"
+    },
+    "data": [
+      {
+        "question": "Qual país sediou a Copa do Mundo FIFA de 1934?",
+        "options": [
+          { "text": "Uruguai", "isCorrect": false, "explanation": "Incorreto. O Uruguai sediou a primeira Copa em 1930." },
+          { "text": "França", "isCorrect": false, "explanation": "Incorreto. A França sediou em 1938." },
+          { "text": "Alemanha", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Itália", "isCorrect": true, "explanation": "Correto! A Itália fascista de Benito Mussolini sediou a segunda edição do torneio." }
+        ]
+      },
+      {
+        "question": "Qual seleção venceu a Copa do Mundo de 1934?",
+        "options": [
+          { "text": "Tchecoslováquia", "isCorrect": false, "explanation": "Incorreto. A Tchecoslováquia foi vice-campeã." },
+          { "text": "Alemanha", "isCorrect": false, "explanation": "Incorreto. A Alemanha ficou em terceiro lugar." },
+          { "text": "Itália", "isCorrect": true, "explanation": "Correto! A Itália venceu a Tchecoslováquia na final por 2 a 1, na prorrogação." },
+          { "text": "Áustria", "isCorrect": false, "explanation": "Incorreto. A Áustria ficou em quarto lugar." }
+        ]
+      },
+      {
+        "question": "Qual foi a principal mudança no formato da Copa de 1934 em relação à de 1930?",
+        "options": [
+          { "text": "Redução no número de times.", "isCorrect": false, "explanation": "Incorreto. O número de times aumentou." },
+          { "text": "Introdução de uma fase de grupos.", "isCorrect": false, "explanation": "Incorreto. A Copa de 1930 teve fase de grupos." },
+          { "text": "Formato totalmente eliminatório (mata-mata) desde o início.", "isCorrect": true, "explanation": "Correto! A Copa de 1934 não teve fase de grupos; todas as partidas eram eliminatórias." },
+          { "text": "Realização de jogos de ida e volta.", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Por que o Uruguai, campeão de 1930, não participou da Copa de 1934?",
+        "options": [
+          { "text": "Não se classificou nas eliminatórias.", "isCorrect": false, "explanation": "Incorreto. Não houve eliminatórias para o campeão anterior." },
+          { "text": "Foi banido pela FIFA.", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Boicotou o torneio em retaliação à ausência de europeus em 1930.", "isCorrect": true, "explanation": "Correto! O Uruguai se recusou a participar como protesto pela baixa adesão europeia à Copa de 1930." },
+          { "text": "Problemas financeiros.", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Quantas seleções participaram da Copa do Mundo de 1934?",
+        "options": [
+          { "text": "13", "isCorrect": false, "explanation": "Incorreto. Foi o número de participantes em 1930." },
+          { "text": "16", "isCorrect": true, "explanation": "Correto! Após uma fase eliminatória inicial, 16 equipes disputaram o torneio na Itália." },
+          { "text": "24", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "12", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual seleção não europeia participou da Copa de 1934?",
+        "options": [
+          { "text": "Apenas Argentina e Brasil.", "isCorrect": true, "explanation": "Correto! Além delas, EUA e Egito (primeiro africano) também participaram." },
+          { "text": "Uruguai", "isCorrect": false, "explanation": "Incorreto. O Uruguai boicotou." },
+          { "text": "México", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Chile", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+       {
+        "question": "Quem foi o técnico da seleção italiana campeã em 1934?",
+        "options": [
+          { "text": "Enzo Bearzot", "isCorrect": false, "explanation": "Incorreto. Bearzot foi técnico da Itália campeã em 1982." },
+          { "text": "Marcello Lippi", "isCorrect": false, "explanation": "Incorreto. Lippi foi técnico da Itália campeã em 2006." },
+          { "text": "Vittorio Pozzo", "isCorrect": true, "explanation": "Correto! Pozzo é o único técnico a vencer duas Copas do Mundo consecutivas (1934 e 1938)." },
+          { "text": "Arrigo Sacchi", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual jogador marcou o gol da vitória da Itália na final da Copa de 1934?",
+        "options": [
+          { "text": "Giuseppe Meazza", "isCorrect": false, "explanation": "Incorreto. Meazza foi uma estrela, mas não marcou o gol decisivo na final." },
+          { "text": "Raimundo Orsi", "isCorrect": false, "explanation": "Incorreto. Orsi marcou o gol de empate da Itália." },
+          { "text": "Angelo Schiavio", "isCorrect": true, "explanation": "Correto! Schiavio marcou o gol da vitória na prorrogação." },
+          { "text": "Luis Monti", "isCorrect": false, "explanation": "Incorreto. Monti jogou a final de 1930 pela Argentina e a de 1934 pela Itália." }
+        ]
+      },
+      {
+        "question": "A Copa de 1934 foi marcada pelo forte uso político feito por qual líder?",
+        "options": [
+          { "text": "Adolf Hitler (Alemanha)", "isCorrect": false, "explanation": "Incorreto. Hitler usaria as Olimpíadas de 1936 para propaganda." },
+          { "text": "Benito Mussolini (Itália)", "isCorrect": true, "explanation": "Correto! Mussolini usou a Copa do Mundo como plataforma para promover o regime fascista italiano." },
+          { "text": "Josef Stalin (União Soviética)", "isCorrect": false, "explanation": "Incorreto. A URSS não participou." },
+          { "text": "Francisco Franco (Espanha)", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual foi a primeira Copa do Mundo a exigir que as seleções passassem por eliminatórias para participar?",
+        "options": [
+          { "text": "1930 (Uruguai)", "isCorrect": false, "explanation": "Incorreto. Em 1930 a participação foi por convite." },
+          { "text": "1934 (Itália)", "isCorrect": true, "explanation": "Correto! Devido ao aumento do interesse, foram necessárias eliminatórias para definir os 16 participantes." },
+          { "text": "1938 (França)", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "1950 (Brasil)", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual jogador argentino disputou a final de 1930 pela Argentina e a final de 1934 pela Itália?",
+        "options": [
+          { "text": "Guillermo Stábile", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Raimundo Orsi", "isCorrect": false, "explanation": "Incorreto. Orsi era argentino naturalizado italiano, mas não jogou a final de 1930." },
+          { "text": "Luis Monti", "isCorrect": true, "explanation": "Correto! Monti é o único jogador a ter disputado duas finais de Copa por países diferentes." },
+          { "text": "Enrique Guaita", "isCorrect": false, "explanation": "Incorreto. Guaita também era um 'oriundo' (argentino naturalizado), mas não jogou a final de 1930." }
+        ]
+      },
+      {
+        "question": "Qual seleção era conhecida como 'Wunderteam' (Time Maravilha) e foi semifinalista em 1934?",
+        "options": [
+          { "text": "Alemanha", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Hungria", "isCorrect": false, "explanation": "Incorreto. A Hungria seria forte mais tarde." },
+          { "text": "Tchecoslováquia", "isCorrect": false, "explanation": "Incorreto. Foi a vice-campeã." },
+          { "text": "Áustria", "isCorrect": true, "explanation": "Correto! A seleção austríaca da época, comandada por Hugo Meisl, era muito elogiada." }
+        ]
+      },
+      {
+        "question": "Quem foi o artilheiro da Copa do Mundo de 1934?",
+        "options": [
+          { "text": "Giuseppe Meazza (Itália)", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Angelo Schiavio (Itália)", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Oldřich Nejedlý (Tchecoslováquia)", "isCorrect": true, "explanation": "Correto! Nejedlý marcou 5 gols no torneio." },
+          { "text": "Edmund Conen (Alemanha)", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "Qual foi a primeira seleção africana a participar de uma Copa do Mundo, em 1934?",
+        "options": [
+          { "text": "Marrocos", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Tunísia", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Egito", "isCorrect": true, "explanation": "Correto! O Egito disputou a Copa de 1934, sendo eliminado pela Hungria na primeira partida." },
+          { "text": "Argélia", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      },
+      {
+        "question": "A final da Copa de 1934, entre Itália e Tchecoslováquia, foi decidida:",
+        "options": [
+          { "text": "No tempo normal (90 minutos).", "isCorrect": false, "explanation": "Incorreto. O jogo terminou empatado em 1 a 1 no tempo normal." },
+          { "text": "Na prorrogação.", "isCorrect": true, "explanation": "Correto! A Itália marcou o gol da vitória durante a prorrogação." },
+          { "text": "Nos pênaltis.", "isCorrect": false, "explanation": "Incorreto. Disputas por pênaltis só foram introduzidas bem mais tarde." },
+          { "text": "Em um jogo de desempate.", "isCorrect": false, "explanation": "Incorreto." }
+        ]
+      }
+    ]
+  }

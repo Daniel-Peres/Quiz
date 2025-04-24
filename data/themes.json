@@ -6,10 +6,17 @@
         "description": "Perguntas sobre diversos assuntos."
     },
     {
-        "id": "sistema_solar",
-        "name": "Sistema Solar",
-        "file": "universo/planetas.json",
-        "description": "Teste seus conhecimentos sobre nossos vizinhos cósmicos."
+        "id": "universo",
+        "name": "Universo",
+        "description": "Desafios sobre o Universo.",
+        "subThemes": [
+            {
+                "id": "sistema_solar",
+                "name": "Sistema Solar",
+                "file": "universo/sistema_solar.json",
+                "description": "Questões gerais sobre o Sistema Solar."
+            }
+        ]
     },
     {
         "id": "aws",
@@ -35,6 +42,49 @@
                 "description": "Questões sobre IA/ML e serviços AWS relacionados (AIF-C01)."
             }
         ]
+    },
+    {
+        "id": "copadomundo",
+        "name": "Copa do Mundo Fifa",
+        "description": "Desafios sobre as Copas do Mundo FIFA.",
+        "subThemes": [
+            {
+                "id": "historia_das_copas_fifa",
+                "name": "Copa do Mundo Fifa Geral",
+                "file": "copa_do_mundo/historia_das_copas_fifa.json",
+                "description": "Questões gerais sobre Copa do Mundo FIFA."
+            },
+            {
+                "id": "copa_do_mundo_1930",
+                "name": "Copa do Mundo Fifa 1930",
+                "file": "copa_do_mundo/copa_do_mundo_1930.json",
+                "description": "Questões sobre a Copa do Mundo FIFA 1930."
+            },
+            {
+                "id": "copa_do_mundo_1934",
+                "name": "Copa do Mundo Fifa 1934",
+                "file": "copa_do_mundo/copa_do_mundo_1934.json",
+                "description": "Questões sobre a Copa do Mundo FIFA 1934."
+            }
+        ]
+    },
+    {
+        "id": "historia",
+        "name": "História",
+        "description": "Desafios sobre a História.",
+        "subThemes": [
+            {
+                "id": "historia_do_brasil",
+                "name": "Historia do Brasil",
+                "file": "historia/historia_do_brasil.json",
+                "description": "Questões sobre História do Brasil."
+            },
+            {
+                "id": "historia_do_futebol_brasileiro",
+                "name": "Historia do Futebol Brasileiro",
+                "file": "historia/historia_do_futebol_brasileiro.json",
+                "description": "Questões sobre a História do Futebol Brasileiro."
+            }
+        ]
     }
-    
 ]

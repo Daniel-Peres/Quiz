@@ -1,0 +1,441 @@
+{
+    "config": {
+      "theme": "História do Brasil",
+      "totalPoints": 50,
+      "scoring": "points"
+    },
+    "data": [
+      {
+        "question": "Em que ano os portugueses chegaram oficialmente ao Brasil?",
+        "options": [
+          { "text": "1492", "isCorrect": false, "explanation": "Incorreto. Este foi o ano da chegada de Colombo à América." },
+          { "text": "1500", "isCorrect": true, "explanation": "Correto! A esquadra de Pedro Álvares Cabral chegou ao litoral brasileiro em 22 de abril de 1500." },
+          { "text": "1530", "isCorrect": false, "explanation": "Incorreto. Este foi o ano do início da colonização efetiva com Martim Afonso de Sousa." },
+          { "text": "1498", "isCorrect": false, "explanation": "Incorreto. Vasco da Gama chegou à Índia neste ano." }
+        ]
+      },
+      {
+        "question": "Quem comandou a expedição portuguesa que chegou ao Brasil em 1500?",
+        "options": [
+          { "text": "Vasco da Gama", "isCorrect": false, "explanation": "Incorreto. Vasco da Gama liderou a expedição que descobriu o caminho marítimo para as Índias." },
+          { "text": "Martim Afonso de Sousa", "isCorrect": false, "explanation": "Incorreto. Martim Afonso liderou a primeira expedição colonizadora em 1530." },
+          { "text": "Pedro Álvares Cabral", "isCorrect": true, "explanation": "Correto! Cabral era o comandante da frota que aportou em Porto Seguro." },
+          { "text": "Duarte Pacheco Pereira", "isCorrect": false, "explanation": "Incorreto. Há teorias sobre Pacheco Pereira ter chegado ao Brasil antes, mas Cabral liderou a chegada oficial." }
+        ]
+      },
+      {
+        "question": "Qual foi o principal produto explorado pelos portugueses nos primeiros anos após a chegada ao Brasil?",
+        "options": [
+          { "text": "Ouro", "isCorrect": false, "explanation": "Incorreto. O ouro só foi descoberto em grandes quantidades no final do século XVII." },
+          { "text": "Cana-de-açúcar", "isCorrect": false, "explanation": "Incorreto. A cana-de-açúcar se tornou a base da economia colonial posteriormente." },
+          { "text": "Pau-brasil", "isCorrect": true, "explanation": "Correto! A madeira avermelhada, usada para tingimento na Europa, foi o primeiro produto de exploração econômica." },
+          { "text": "Café", "isCorrect": false, "explanation": "Incorreto. O café se tornou importante apenas no século XIX." }
+        ]
+      },
+      {
+        "question": "Qual sistema administrativo foi implementado por Portugal em 1534 para iniciar a colonização do Brasil?",
+        "options": [
+          { "text": "Governo-Geral", "isCorrect": false, "explanation": "Incorreto. O Governo-Geral foi implementado em 1549 para centralizar a administração." },
+          { "text": "Capitanias Hereditárias", "isCorrect": true, "explanation": "Correto! O território foi dividido em grandes faixas de terra entregues a donatários." },
+          { "text": "Vice-Reinado", "isCorrect": false, "explanation": "Incorreto. O Brasil foi elevado a Vice-Reinado em 1763." },
+          { "text": "Sistema de Sesmarias", "isCorrect": false, "explanation": "Incorreto. Sesmarias eram lotes de terra menores distribuídos pelos donatários." }
+        ]
+      },
+      {
+        "question": "Qual foi a primeira capital do Brasil Colônia?",
+        "options": [
+          { "text": "Rio de Janeiro", "isCorrect": false, "explanation": "Incorreto. O Rio de Janeiro se tornou capital em 1763." },
+          { "text": "São Vicente", "isCorrect": false, "explanation": "Incorreto. São Vicente foi a primeira vila fundada, mas não a capital." },
+          { "text": "Salvador", "isCorrect": true, "explanation": "Correto! Salvador foi fundada em 1549 para ser a sede do Governo-Geral." },
+          { "text": "Olinda", "isCorrect": false, "explanation": "Incorreto. Olinda foi um importante centro econômico, mas não a primeira capital." }
+        ]
+      },
+      {
+        "question": "Quem foi o primeiro Governador-Geral do Brasil?",
+        "options": [
+          { "text": "Martim Afonso de Sousa", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Duarte da Costa", "isCorrect": false, "explanation": "Incorreto. Foi o segundo Governador-Geral." },
+          { "text": "Mem de Sá", "isCorrect": false, "explanation": "Incorreto. Foi o terceiro Governador-Geral." },
+          { "text": "Tomé de Sousa", "isCorrect": true, "explanation": "Correto! Tomé de Sousa chegou em 1549 e fundou Salvador." }
+        ]
+      },
+      {
+          "question": "Qual ordem religiosa teve papel fundamental na catequização dos indígenas no Brasil Colônia?",
+          "options": [
+              { "text": "Franciscanos", "isCorrect": false, "explanation": "Incorreto. Embora presentes, os jesuítas tiveram maior destaque inicial." },
+              { "text": "Beneditinos", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Jesuítas (Companhia de Jesus)", "isCorrect": true, "explanation": "Correto! Os jesuítas fundaram colégios e missões, sendo figuras centrais na educação e catequese." },
+              { "text": "Dominicanos", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "Qual evento europeu levou à vinda da Família Real Portuguesa para o Brasil em 1808?",
+          "options": [
+              { "text": "Revolução Francesa", "isCorrect": false, "explanation": "Incorreto. A Revolução Francesa ocorreu antes (1789)." },
+              { "text": "Guerras Napoleônicas (Invasão de Portugal por Napoleão)", "isCorrect": true, "explanation": "Correto! Para escapar das tropas de Napoleão, Dom João VI transferiu a corte para o Rio de Janeiro." },
+              { "text": "Guerra dos Cem Anos", "isCorrect": false, "explanation": "Incorreto. Guerra medieval entre França e Inglaterra." },
+              { "text": "Revolução Industrial", "isCorrect": false, "explanation": "Incorreto. Processo econômico e social." }
+          ]
+      },
+      {
+          "question": "Qual foi a principal consequência da vinda da Família Real para o Brasil?",
+          "options": [
+              { "text": "A imediata independência do Brasil.", "isCorrect": false, "explanation": "Incorreto. A independência ocorreria em 1822." },
+              { "text": "A abertura dos portos às nações amigas.", "isCorrect": true, "explanation": "Correto! Essa medida rompeu o pacto colonial e impulsionou o comércio." },
+              { "text": "A expulsão dos franceses do Rio de Janeiro.", "isCorrect": false, "explanation": "Incorreto. Houve luta contra franceses na Guiana, não no Rio." },
+              { "text": "A criação das Capitanias Hereditárias.", "isCorrect": false, "explanation": "Incorreto. As capitanias são do início da colonização." }
+          ]
+      },
+      {
+          "question": "Em que data Dom Pedro I proclamou a Independência do Brasil?",
+          "options": [
+              { "text": "15 de Novembro de 1889", "isCorrect": false, "explanation": "Incorreto. Data da Proclamação da República." },
+              { "text": "21 de Abril de 1792", "isCorrect": false, "explanation": "Incorreto. Data associada a Tiradentes." },
+              { "text": "7 de Setembro de 1822", "isCorrect": true, "explanation": "Correto! Às margens do rio Ipiranga, Dom Pedro bradou 'Independência ou Morte!'." },
+              { "text": "9 de Janeiro de 1822", "isCorrect": false, "explanation": "Incorreto. Data do 'Dia do Fico'." }
+          ]
+      },
+      {
+          "question": "Qual o regime político adotado pelo Brasil após a independência em 1822?",
+          "options": [
+              { "text": "República Presidencialista", "isCorrect": false, "explanation": "Incorreto. A República só viria em 1889." },
+              { "text": "Monarquia Constitucional", "isCorrect": true, "explanation": "Correto! O Brasil se tornou o Império do Brasil, com Dom Pedro I como Imperador." },
+              { "text": "Ditadura Militar", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "República Parlamentarista", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "Qual o nome da primeira Constituição do Brasil, outorgada em 1824?",
+          "options": [
+              { "text": "Constituição da Mandioca", "isCorrect": false, "explanation": "Incorreto. Este foi um projeto de constituição anterior que não vingou." },
+              { "text": "Constituição Imperial de 1824", "isCorrect": true, "explanation": "Correto! Outorgada por Dom Pedro I, estabeleceu o Poder Moderador." },
+              { "text": "Constituição Republicana de 1891", "isCorrect": false, "explanation": "Incorreto. Foi a primeira constituição da República." },
+              { "text": "Constituição Cidadã de 1988", "isCorrect": false, "explanation": "Incorreto. É a constituição atual." }
+          ]
+      },
+      {
+          "question": "O que foi a Confederação do Equador (1824)?",
+          "options": [
+              { "text": "Uma aliança militar com países vizinhos.", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Um movimento separatista republicano no Nordeste.", "isCorrect": true, "explanation": "Correto! Liderado por Pernambuco, criticava o autoritarismo de D. Pedro I e a Constituição de 1824." },
+              { "text": "A união das províncias do Norte para explorar borracha.", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Um acordo comercial entre Brasil e Portugal.", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "Por que Dom Pedro I abdicou do trono brasileiro em 1831?",
+          "options": [
+              { "text": "Para assumir o trono de Portugal.", "isCorrect": false, "explanation": "Incorreto. Ele abdicou em favor de sua filha Maria II em Portugal antes, mas a questão sucessória lá influenciou." },
+              { "text": "Devido a uma grave doença.", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Por pressão popular e desgaste político devido ao autoritarismo e à crise econômica.", "isCorrect": true, "explanation": "Correto! A insatisfação com seu governo e a situação política em Portugal o levaram a abdicar em favor de seu filho." },
+              { "text": "Por causa de uma derrota militar na Guerra da Cisplatina.", "isCorrect": false, "explanation": "Incorreto. A guerra contribuiu para o desgaste, mas não foi a causa direta da abdicação." }
+          ]
+      },
+      {
+          "question": "Como ficou conhecido o período entre a abdicação de Dom Pedro I (1831) e a maioridade de Dom Pedro II (1840)?",
+          "options": [
+              { "text": "Período Joanino", "isCorrect": false, "explanation": "Incorreto. Refere-se à permanência de Dom João VI." },
+              { "text": "Primeiro Reinado", "isCorrect": false, "explanation": "Incorreto. Refere-se ao governo de Dom Pedro I." },
+              { "text": "Período Regencial", "isCorrect": true, "explanation": "Correto! Como Dom Pedro II era menor de idade, o Brasil foi governado por regentes." },
+              { "text": "Segundo Reinado", "isCorrect": false, "explanation": "Incorreto. Refere-se ao governo de Dom Pedro II após atingir a maioridade." }
+          ]
+      },
+      {
+          "question": "Qual foi a principal revolta ocorrida durante o Período Regencial?",
+          "options": [
+              { "text": "Guerra dos Farrapos (Farroupilha)", "isCorrect": true, "explanation": "Correto! Longa revolta separatista no Rio Grande do Sul (1835-1845)." },
+              { "text": "Inconfidência Mineira", "isCorrect": false, "explanation": "Incorreto. Ocorreu no período colonial (1789)." },
+              { "text": "Revolta da Vacina", "isCorrect": false, "explanation": "Incorreto. Ocorreu na República Velha (1904)." },
+              { "text": "Guerra de Canudos", "isCorrect": false, "explanation": "Incorreto. Ocorreu na República Velha (1896-1897)." }
+          ]
+      },
+       {
+          "question": "O que foi o 'Golpe da Maioridade' em 1840?",
+          "options": [
+              { "text": "A deposição dos regentes por militares.", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "A antecipação da maioridade de Dom Pedro II para que ele assumisse o trono.", "isCorrect": true, "explanation": "Correto! Uma manobra política para estabilizar o país em meio às revoltas regenciais, declarando D. Pedro II maior de idade aos 14 anos." },
+              { "text": "A proclamação da República.", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "A revogação da Constituição de 1824.", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "Qual produto se tornou a base da economia brasileira durante o Segundo Reinado?",
+          "options": [
+              { "text": "Açúcar", "isCorrect": false, "explanation": "Incorreto. O açúcar perdeu sua proeminência anterior." },
+              { "text": "Ouro", "isCorrect": false, "explanation": "Incorreto. O ciclo do ouro já havia declinado." },
+              { "text": "Café", "isCorrect": true, "explanation": "Correto! O café, cultivado principalmente no Sudeste, tornou-se o principal produto de exportação e motor da economia." },
+              { "text": "Borracha", "isCorrect": false, "explanation": "Incorreto. A borracha teve um ciclo importante, mas posterior e mais localizado na Amazônia." }
+          ]
+      },
+      {
+          "question": "Qual importante guerra externa o Brasil participou durante o Segundo Reinado (1864-1870)?",
+          "options": [
+              { "text": "Guerra da Cisplatina", "isCorrect": false, "explanation": "Incorreto. Ocorreu no Primeiro Reinado." },
+              { "text": "Guerra do Paraguai", "isCorrect": true, "explanation": "Correto! O Brasil lutou ao lado de Argentina e Uruguai (Tríplice Aliança) contra o Paraguai." },
+              { "text": "Guerra do Pacífico", "isCorrect": false, "explanation": "Incorreto. Guerra entre Chile, Bolívia e Peru." },
+              { "text": "Primeira Guerra Mundial", "isCorrect": false, "explanation": "Incorreto. Ocorreu no século XX." }
+          ]
+      },
+      {
+          "question": "Qual lei aboliu definitivamente a escravidão no Brasil?",
+          "options": [
+              { "text": "Lei Eusébio de Queirós (1850)", "isCorrect": false, "explanation": "Incorreto. Proibiu o tráfico negreiro." },
+              { "text": "Lei do Ventre Livre (1871)", "isCorrect": false, "explanation": "Incorreto. Declarou livres os filhos de escravas nascidos a partir daquela data." },
+              { "text": "Lei dos Sexagenários (1885)", "isCorrect": false, "explanation": "Incorreto. Libertou escravos com mais de 60 anos." },
+              { "text": "Lei Áurea (1888)", "isCorrect": true, "explanation": "Correto! Assinada pela Princesa Isabel, aboliu a escravidão sem indenização aos proprietários." }
+          ]
+      },
+      {
+          "question": "Em que data foi proclamada a República no Brasil?",
+          "options": [
+              { "text": "7 de Setembro de 1822", "isCorrect": false, "explanation": "Incorreto. Data da Independência." },
+              { "text": "13 de Maio de 1888", "isCorrect": false, "explanation": "Incorreto. Data da Lei Áurea." },
+              { "text": "15 de Novembro de 1889", "isCorrect": true, "explanation": "Correto! Um golpe militar liderado pelo Marechal Deodoro da Fonseca derrubou a monarquia." },
+              { "text": "24 de Fevereiro de 1891", "isCorrect": false, "explanation": "Incorreto. Data da promulgação da primeira Constituição Republicana." }
+          ]
+      },
+      {
+          "question": "Quem foi o primeiro presidente da República do Brasil?",
+          "options": [
+              { "text": "Prudente de Morais", "isCorrect": false, "explanation": "Incorreto. Foi o primeiro presidente civil eleito." },
+              { "text": "Floriano Peixoto", "isCorrect": false, "explanation": "Incorreto. Foi o segundo presidente (vice de Deodoro)." },
+              { "text": "Campos Sales", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Marechal Deodoro da Fonseca", "isCorrect": true, "explanation": "Correto! Liderou o golpe e assumiu como chefe do governo provisório e depois primeiro presidente." }
+          ]
+      },
+      {
+          "question": "Como ficou conhecida a primeira fase da República Brasileira (1889-1930)?",
+          "options": [
+              { "text": "Era Vargas", "isCorrect": false, "explanation": "Incorreto. Período posterior (1930-1945)." },
+              { "text": "República Velha (ou Primeira República)", "isCorrect": true, "explanation": "Correto! Caracterizada pela 'política do café com leite' e pelo coronelismo." },
+              { "text": "Estado Novo", "isCorrect": false, "explanation": "Incorreto. Fase ditatorial da Era Vargas (1937-1945)." },
+              { "text": "República Populista", "isCorrect": false, "explanation": "Incorreto. Período de 1945 a 1964." }
+          ]
+      },
+      {
+          "question": "O que foi a 'Política do Café com Leite'?",
+          "options": [
+              { "text": "Um programa de incentivo à produção de café e leite.", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "A alternância de presidentes indicados pelas oligarquias de São Paulo (café) e Minas Gerais (leite).", "isCorrect": true, "explanation": "Correto! Um acordo político que dominou a República Velha." },
+              { "text": "Uma política de exportação desses dois produtos.", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "O nome da primeira grande crise econômica da República.", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "Qual conflito marcou o fim da República Velha e o início da Era Vargas em 1930?",
+          "options": [
+              { "text": "Revolta da Chibata", "isCorrect": false, "explanation": "Incorreto. Revolta de marinheiros em 1910." },
+              { "text": "Guerra de Canudos", "isCorrect": false, "explanation": "Incorreto. Conflito no final do século XIX." },
+              { "text": "Revolução de 1930", "isCorrect": true, "explanation": "Correto! Movimento armado que depôs o presidente Washington Luís e impediu a posse de Júlio Prestes, levando Getúlio Vargas ao poder." },
+              { "text": "Revolução Constitucionalista de 1932", "isCorrect": false, "explanation": "Incorreto. Revolta paulista contra o governo Vargas." }
+          ]
+      },
+      {
+          "question": "Qual o nome do período ditatorial dentro da Era Vargas (1937-1945)?",
+          "options": [
+              { "text": "Governo Provisório", "isCorrect": false, "explanation": "Incorreto. Primeira fase da Era Vargas (1930-1934)." },
+              { "text": "Governo Constitucional", "isCorrect": false, "explanation": "Incorreto. Segunda fase da Era Vargas (1934-1937)." },
+              { "text": "Estado Novo", "isCorrect": true, "explanation": "Correto! Caracterizado pela centralização do poder, censura e repressão política." },
+              { "text": "República Nova", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "Qual importante legislação trabalhista foi criada durante a Era Vargas?",
+          "options": [
+              { "text": "Lei Áurea", "isCorrect": false, "explanation": "Incorreto. Aboliu a escravidão em 1888." },
+              { "text": "Estatuto do Idoso", "isCorrect": false, "explanation": "Incorreto. Criado em 2003." },
+              { "text": "Consolidação das Leis do Trabalho (CLT)", "isCorrect": true, "explanation": "Correto! A CLT, de 1943, unificou a legislação trabalhista brasileira." },
+              { "text": "Código de Defesa do Consumidor", "isCorrect": false, "explanation": "Incorreto. Criado em 1990." }
+          ]
+      },
+      {
+          "question": "Qual presidente brasileiro foi responsável pela construção de Brasília?",
+          "options": [
+              { "text": "Getúlio Vargas", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Juscelino Kubitschek (JK)", "isCorrect": true, "explanation": "Correto! JK governou de 1956 a 1961 sob o lema '50 anos em 5' e transferiu a capital para Brasília em 1960." },
+              { "text": "João Goulart (Jango)", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Eurico Gaspar Dutra", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "Em que ano ocorreu o Golpe Militar que depôs o presidente João Goulart e iniciou a Ditadura Militar no Brasil?",
+          "options": [
+              { "text": "1954", "isCorrect": false, "explanation": "Incorreto. Ano do suicídio de Vargas." },
+              { "text": "1961", "isCorrect": false, "explanation": "Incorreto. Ano da renúncia de Jânio Quadros." },
+              { "text": "1964", "isCorrect": true, "explanation": "Correto! Em 31 de março/1 de abril de 1964, os militares tomaram o poder." },
+              { "text": "1968", "isCorrect": false, "explanation": "Incorreto. Ano do AI-5, endurecimento do regime." }
+          ]
+      },
+      {
+          "question": "Qual o nome do ato institucional que marcou o endurecimento da Ditadura Militar em 1968, suspendendo direitos políticos e garantias constitucionais?",
+          "options": [
+              { "text": "AI-1", "isCorrect": false, "explanation": "Incorreto. Primeiro ato, estabeleceu normas iniciais." },
+              { "text": "AI-2", "isCorrect": false, "explanation": "Incorreto. Extinguiu partidos políticos e instituiu o bipartidarismo." },
+              { "text": "AI-5 (Ato Institucional nº 5)", "isCorrect": true, "explanation": "Correto! Considerado o instrumento mais duro do regime militar." },
+              { "text": "AI-17", "isCorrect": false, "explanation": "Incorreto. Não existiu." }
+          ]
+      },
+      {
+          "question": "Qual movimento popular, ocorrido em 1984, pedia eleições diretas para presidente?",
+          "options": [
+              { "text": "Caras-pintadas", "isCorrect": false, "explanation": "Incorreto. Movimento pelo impeachment de Collor em 1992." },
+              { "text": "Diretas Já", "isCorrect": true, "explanation": "Correto! Grandes manifestações populares que pressionavam pela aprovação da emenda Dante de Oliveira." },
+              { "text": "Queremismo", "isCorrect": false, "explanation": "Incorreto. Movimento pela permanência de Vargas em 1945." },
+              { "text": "Marcha da Família com Deus pela Liberdade", "isCorrect": false, "explanation": "Incorreto. Manifestações que antecederam o golpe de 1964." }
+          ]
+      },
+      {
+          "question": "Quem foi o primeiro presidente civil eleito (indiretamente) após o fim da Ditadura Militar?",
+          "options": [
+              { "text": "José Sarney", "isCorrect": false, "explanation": "Incorreto. Sarney assumiu como vice após a morte de Tancredo." },
+              { "text": "Tancredo Neves", "isCorrect": true, "explanation": "Correto! Tancredo foi eleito pelo Colégio Eleitoral em 1985, mas faleceu antes de tomar posse." },
+              { "text": "Fernando Collor de Mello", "isCorrect": false, "explanation": "Incorreto. Foi o primeiro eleito por voto direto em 1989." },
+              { "text": "Itamar Franco", "isCorrect": false, "explanation": "Incorreto. Assumiu após o impeachment de Collor." }
+          ]
+      },
+      {
+          "question": "Qual o nome da atual Constituição Brasileira, promulgada em 1988?",
+          "options": [
+              { "text": "Constituição do Império", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Constituição Polaca", "isCorrect": false, "explanation": "Incorreto. Apelido da Constituição de 1937." },
+              { "text": "Constituição Cidadã", "isCorrect": true, "explanation": "Correto! Assim chamada por ampliar direitos e garantias individuais e sociais." },
+              { "text": "Constituição de Vargas", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "Quem foi o primeiro presidente eleito por voto direto após a Ditadura Militar?",
+          "options": [
+              { "text": "José Sarney", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Fernando Henrique Cardoso", "isCorrect": false, "explanation": "Incorreto. Foi eleito em 1994." },
+              { "text": "Fernando Collor de Mello", "isCorrect": true, "explanation": "Correto! Eleito em 1989, sofreu impeachment em 1992." },
+              { "text": "Luiz Inácio Lula da Silva", "isCorrect": false, "explanation": "Incorreto. Foi eleito em 2002." }
+          ]
+      },
+      {
+          "question": "Qual plano econômico foi implementado em 1994, durante o governo Itamar Franco, e estabilizou a hiperinflação?",
+          "options": [
+              { "text": "Plano Cruzado", "isCorrect": false, "explanation": "Incorreto. Plano do governo Sarney." },
+              { "text": "Plano Collor", "isCorrect": false, "explanation": "Incorreto. Plano do governo Collor." },
+              { "text": "Plano Real", "isCorrect": true, "explanation": "Correto! Criou a moeda Real e conseguiu controlar a inflação." },
+              { "text": "Plano Bresser", "isCorrect": false, "explanation": "Incorreto. Plano do governo Sarney." }
+          ]
+      },
+      {
+          "question": "Quem foi o presidente do Brasil durante a implementação do Plano Real?",
+          "options": [
+              { "text": "Fernando Collor", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "José Sarney", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Itamar Franco", "isCorrect": true, "explanation": "Correto! Fernando Henrique Cardoso era o Ministro da Fazenda e depois se elegeu presidente." },
+              { "text": "Fernando Henrique Cardoso", "isCorrect": false, "explanation": "Incorreto. FHC era Ministro da Fazenda na implementação, tornou-se presidente depois." }
+          ]
+      },
+      {
+          "question": "Qual presidente foi eleito em 2002, marcando a primeira vez que um partido de esquerda chegou ao poder federal no Brasil?",
+          "options": [
+              { "text": "Fernando Henrique Cardoso", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Dilma Rousseff", "isCorrect": false, "explanation": "Incorreto. Foi eleita em 2010." },
+              { "text": "José Serra", "isCorrect": false, "explanation": "Incorreto. Foi o candidato derrotado." },
+              { "text": "Luiz Inácio Lula da Silva", "isCorrect": true, "explanation": "Correto! Lula (PT) foi eleito presidente em 2002." }
+          ]
+      },
+      {
+          "question": "Qual o nome da operação da Polícia Federal iniciada em 2014 que investigou um grande esquema de corrupção envolvendo a Petrobras?",
+          "options": [
+              { "text": "Operação Satiagraha", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Operação Lava Jato", "isCorrect": true, "explanation": "Correto! Teve grande impacto político e econômico no Brasil." },
+              { "text": "Operação Zelotes", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Operação Acrônimo", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+          "question": "Quem foi a primeira mulher eleita presidente do Brasil?",
+          "options": [
+              { "text": "Marina Silva", "isCorrect": false, "explanation": "Incorreto. Foi candidata." },
+              { "text": "Marta Suplicy", "isCorrect": false, "explanation": "Incorreto." },
+              { "text": "Dilma Rousseff", "isCorrect": true, "explanation": "Correto! Eleita em 2010 e reeleita em 2014, sofreu impeachment em 2016." },
+              { "text": "Luiza Erundina", "isCorrect": false, "explanation": "Incorreto." }
+          ]
+      },
+      {
+        "question": "Qual movimento ocorrido em Minas Gerais no final do século XVIII é considerado um precursor da independência?",
+        "options": [
+          { "text": "Conjuração Baiana", "isCorrect": false, "explanation": "Incorreto. Ocorreu na Bahia em 1798, também com ideais de independência." },
+          { "text": "Guerra dos Mascates", "isCorrect": false, "explanation": "Incorreto. Conflito entre comerciantes do Recife e senhores de engenho de Olinda." },
+          { "text": "Inconfidência Mineira", "isCorrect": true, "explanation": "Correto! Movimento de 1789 que buscava a independência de Minas Gerais e a implantação de uma república." },
+          { "text": "Revolta de Beckman", "isCorrect": false, "explanation": "Incorreto. Ocorreu no Maranhão no século XVII." }
+         ]
+      },
+      {
+        "question": "Quem é considerado o mártir da Inconfidência Mineira?",
+        "options": [
+          { "text": "Cláudio Manuel da Costa", "isCorrect": false, "explanation": "Incorreto. Poeta participante, encontrado morto na prisão." },
+          { "text": "Tomás Antônio Gonzaga", "isCorrect": false, "explanation": "Incorreto. Poeta participante, foi degredado." },
+          { "text": "Joaquim José da Silva Xavier (Tiradentes)", "isCorrect": true, "explanation": "Correto! Foi o único condenado à morte por enforcamento, tornando-se símbolo do movimento." },
+          { "text": "Alvarenga Peixoto", "isCorrect": false, "explanation": "Incorreto. Poeta participante, foi degredado." }
+         ]
+      },
+      {
+        "question": "O que foi a Revolta da Vacina em 1904?",
+        "options": [
+          { "text": "Uma revolta contra a falta de vacinas.", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Uma revolta popular no Rio de Janeiro contra a vacinação obrigatória contra a varíola.", "isCorrect": true, "explanation": "Correto! Imposta por Oswaldo Cruz, a medida gerou forte reação popular." },
+          { "text": "Um movimento de médicos contra o governo.", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Uma campanha para erradicar a febre amarela.", "isCorrect": false, "explanation": "Incorreto. A campanha existia, mas a revolta foi especificamente contra a vacinação obrigatória." }
+         ]
+      },
+      {
+        "question": "Qual o nome do movimento messiânico liderado por Antônio Conselheiro no sertão da Bahia, que resultou em um grande conflito no final do século XIX?",
+        "options": [
+          { "text": "Guerra do Contestado", "isCorrect": false, "explanation": "Incorreto. Conflito no sul do Brasil (PR/SC)." },
+          { "text": "Revolta da Chibata", "isCorrect": false, "explanation": "Incorreto. Revolta de marinheiros no Rio de Janeiro." },
+          { "text": "Guerra de Canudos", "isCorrect": true, "explanation": "Correto! O Arraial de Canudos foi destruído pelo exército republicano em 1897." },
+          { "text": "Cangaço", "isCorrect": false, "explanation": "Incorreto. Cangaço foi um fenômeno de banditismo social no Nordeste." }
+         ]
+      },
+      {
+        "question": "O período de 1945 a 1964, entre o fim do Estado Novo e o início da Ditadura Militar, é conhecido como:",
+        "options": [
+          { "text": "República Velha", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "República da Espada", "isCorrect": false, "explanation": "Incorreto. Primeiros anos da República (Deodoro e Floriano)." },
+          { "text": "República Populista (ou Quarta República)", "isCorrect": true, "explanation": "Correto! Marcado pela redemocratização, industrialização e ascensão de líderes carismáticos." },
+          { "text": "Nova República", "isCorrect": false, "explanation": "Incorreto. Período após a Ditadura Militar (1985 em diante)." }
+         ]
+      },
+      {
+        "question": "Qual presidente brasileiro renunciou em 1961, gerando uma grave crise política?",
+        "options": [
+          { "text": "Juscelino Kubitschek", "isCorrect": false, "explanation": "Incorreto. JK completou seu mandato." },
+          { "text": "Jânio Quadros", "isCorrect": true, "explanation": "Correto! Jânio renunciou após apenas sete meses de governo, alegando 'forças terríveis'." },
+          { "text": "João Goulart", "isCorrect": false, "explanation": "Incorreto. Jango era o vice e assumiu após a renúncia, sendo deposto em 1964." },
+          { "text": "Getúlio Vargas", "isCorrect": false, "explanation": "Incorreto. Vargas cometeu suicídio em 1954." }
+         ]
+      },
+      {
+        "question": "Qual importante evento esportivo mundial o Brasil sediou em 2014?",
+        "options": [
+          { "text": "Jogos Olímpicos de Verão", "isCorrect": false, "explanation": "Incorreto. As Olimpíadas do Rio foram em 2016." },
+          { "text": "Copa do Mundo FIFA", "isCorrect": true, "explanation": "Correto! O Brasil sediou a Copa do Mundo pela segunda vez." },
+          { "text": "Jogos Pan-Americanos", "isCorrect": false, "explanation": "Incorreto. O Rio sediou o Pan em 2007." },
+          { "text": "Campeonato Mundial de Atletismo", "isCorrect": false, "explanation": "Incorreto." }
+         ]
+      },
+      {
+        "question": "As 'Diretas Já' conseguiram aprovar a emenda que permitiria eleições diretas em 1985?",
+        "options": [
+          { "text": "Sim, e Tancredo Neves foi eleito diretamente.", "isCorrect": false, "explanation": "Incorreto. Tancredo foi eleito indiretamente." },
+          { "text": "Não, a emenda foi rejeitada no Congresso Nacional.", "isCorrect": true, "explanation": "Correto! Apesar da enorme pressão popular, a Emenda Dante de Oliveira não alcançou os votos necessários." },
+          { "text": "Sim, mas os militares deram um novo golpe.", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Foi aprovada parcialmente, permitindo eleição direta apenas para governadores.", "isCorrect": false, "explanation": "Incorreto." }
+         ]
+      },
+      {
+        "question": "Qual presidente brasileiro sofreu um processo de impeachment em 2016?",
+        "options": [
+          { "text": "Luiz Inácio Lula da Silva", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Fernando Henrique Cardoso", "isCorrect": false, "explanation": "Incorreto." },
+          { "text": "Dilma Rousseff", "isCorrect": true, "explanation": "Correto! Acusada de crime de responsabilidade fiscal ('pedaladas fiscais')." },
+          { "text": "Michel Temer", "isCorrect": false, "explanation": "Incorreto. Temer era o vice e assumiu após o impeachment." }
+         ]
+      }
+    ]
+  }
