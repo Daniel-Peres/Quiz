@@ -13,7 +13,7 @@
 html { font-size: var(--base-font-size); scroll-behavior: smooth; }
 body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; background-color: #f0f0f0; color: var(--dark-text); display: flex; justify-content: center; align-items: flex-start; min-height: 100vh; padding: var(--container-padding); }
 
-/* === Containers Principais === */
+/* === Container Principal === */
 .main-container { width: 100%; min-height: calc(100vh - (2 * var(--container-padding))); background-color: var(--light-text); padding: var(--container-padding); }
 #selection-area, #question-count-selection { max-width: 700px; margin: 0 auto 2rem auto; padding: 1.5rem; background-color: var(--light-bg); border-radius: var(--card-border-radius); box-shadow: 0 2px 6px var(--shadow-color); text-align: center; }
 .quiz-container { max-width: 1100px; margin: 1rem auto 0 auto; padding: 0; }
@@ -28,14 +28,41 @@ h1, h2 { color: var(--dark-text); margin-bottom: 1.2rem; text-align: center; }
 .theme-btn:hover { background-color: var(--primary-hover); }
 .theme-btn:active { transform: scale(0.98); }
 .theme-btn .description { display: block; font-size: 0.8em; opacity: 0.85; margin-top: 0.3rem; font-weight: normal; }
-.back-btn { background-color: var(--secondary-color); }
-.back-btn:hover { background-color: var(--secondary-hover); }
+
+/* Botão Voltar Geral e Específico de Subtema */
+.back-btn {
+    background-color: var(--secondary-color); /* Cor cinza padrão para Voltar */
+}
+.back-btn:hover:not(:disabled) {
+    background-color: var(--secondary-hover);
+}
 
 /* === Seleção de Quantidade === */
 #question-count-selection p { margin-bottom: 0.8rem; color: #555; }
 #question-count-buttons { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 1.5rem; margin-bottom: 1rem; }
-.count-btn { background-color: var(--secondary-color); color: var(--light-text); font-size: 0.9rem; min-width: 120px; text-align: center; flex-grow: 1; flex-basis: 120px; /* Herda padding/border-radius de .control-btn via classe */ }
-.count-btn:hover { background-color: var(--secondary-hover); transform: translateY(-2px); }
+/* Botões de seleção de quantidade (%) - Usam cor primária */
+.count-btn {
+    /* Herda estilos de .control-btn mas sobrescreve a cor */
+    background-color: var(--primary-color); /* << Azul */
+    color: var(--light-text);
+    font-size: 0.9rem;
+    min-width: 120px;
+    text-align: center;
+    flex-grow: 1;
+    flex-basis: 120px;
+}
+.count-btn:hover:not(:disabled) {
+     background-color: var(--primary-hover); /* << Hover azul escuro */
+     transform: translateY(-2px);
+}
+/* Botão Voltar específico da tela de quantidade (mantém cinza)*/
+#question-count-selection .back-btn {
+    background-color: var(--secondary-color);
+}
+#question-count-selection .back-btn:hover:not(:disabled) {
+     background-color: var(--secondary-hover);
+}
+
 
 /* === Quiz Principal === */
 #progress-container { width: 100%; margin-bottom: 1.8rem; }
@@ -59,13 +86,35 @@ h1, h2 { color: var(--dark-text); margin-bottom: 1.2rem; text-align: center; }
 
 /* === Controles (Botões) === */
 .controls { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); text-align: center; }
-.control-btn { background-color: var(--secondary-color); color: var(--light-text); border: none; padding: 0.8rem 1.8rem; border-radius: var(--button-border-radius); cursor: pointer; font-size: 1rem; margin: 0.5rem; transition: background-color 0.2s ease, transform 0.1s ease, opacity 0.2s ease; display: inline-block; }
-.control-btn:hover:not(:disabled) { background-color: var(--secondary-hover); }
+/* Estilo BASE para botões de controle */
+.control-btn {
+    /* Default é Azul agora, exceto onde sobrescrito (como .back-btn) */
+    background-color: var(--primary-color);
+    color: var(--light-text);
+    border: none;
+    padding: 0.8rem 1.8rem;
+    border-radius: var(--button-border-radius);
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 0.5rem;
+    transition: background-color 0.2s ease, transform 0.1s ease, opacity 0.2s ease;
+    display: inline-block;
+    font-weight: 500;
+}
+.control-btn:hover:not(:disabled) {
+    background-color: var(--primary-hover); /* Hover padrão azul escuro */
+}
 .control-btn:active:not(:disabled) { transform: scale(0.98); }
 .control-btn:disabled { background-color: #adb5bd; cursor: not-allowed; opacity: 0.65; }
-#confirm-btn { background-color: var(--primary-color); } #confirm-btn:hover:not(:disabled) { background-color: var(--primary-hover); }
-#next-btn { background-color: var(--success-color); } #next-btn:hover:not(:disabled) { background-color: var(--success-hover); }
-#finish-btn { background-color: var(--warning-color); color: var(--dark-text); } #finish-btn:hover:not(:disabled) { background-color: var(--warning-hover); }
+
+/* Botões de Ação Específicos */
+#confirm-btn { background-color: var(--primary-color); }
+#confirm-btn:hover:not(:disabled) { background-color: var(--primary-hover); }
+#next-btn { background-color: var(--success-color); }
+#next-btn:hover:not(:disabled) { background-color: var(--success-hover); }
+#finish-btn { background-color: var(--warning-color); color: var(--dark-text); }
+#finish-btn:hover:not(:disabled) { background-color: var(--warning-hover); }
+
 /* Foco Acessibilidade */
 .theme-btn:focus-visible, .control-btn:focus-visible, .option-frame:focus-visible { outline: 3px solid var(--primary-color); outline-offset: 2px; }
 input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outline-offset: 1px; border-color: var(--primary-color); }
@@ -90,8 +139,18 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
 #result-container h2 { margin-top: 0; margin-bottom: 1rem; }
 #result-container p { font-size: 1.1rem; color: #555; margin-bottom: 0.8rem; line-height: 1.6; }
 #result-container p strong { color: var(--primary-hover); font-weight: 600;}
-#result-container button#choose-another-theme-btn { margin-top: 1.5rem; padding: 0.8rem 2rem; font-size: 1.1rem; background-color: var(--primary-color); color: var(--light-text); }
-#result-container button#choose-another-theme-btn:hover { background-color: var(--primary-hover); }
+/* Botão Jogar Novamente */
+#result-container button#choose-another-theme-btn {
+    margin-top: 1.5rem;
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    background-color: var(--primary-color); /* Usa cor primária */
+    color: var(--light-text);
+}
+#result-container button#choose-another-theme-btn:hover {
+     background-color: var(--primary-hover);
+}
+
 
 /* === Media Queries === */
 @media (max-width: 600px) {
@@ -102,18 +161,19 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
     h1 { font-size: 1.6rem; } h2 { font-size: 1.3rem; } #question-text { font-size: 1.1rem; }
     .options-grid { grid-template-columns: 1fr; gap: 0.8rem; } /* 1 coluna */
     .option-frame { min-height: 90px; } .option-frame .front-face { font-size: 0.95rem; } .option-frame .back-face { font-size: 0.8rem; }
-    .control-btn { padding: 0.7rem 1.2rem; font-size: 0.95rem; width: calc(50% - 10px); margin: 5px; }
-    .count-btn { min-width: 100px; flex-basis: 100px; padding: 0.6rem 0.8rem; font-size: 0.85rem; }
-    #confirm-btn, #result-container button#choose-another-theme-btn { width: calc(100% - 10px); }
-     /* Estilo antigo, remover se não usar input */
-     /* #question-count-selection input[type=number] { margin: 0 auto; display: block; } */
+    .control-btn { padding: 0.7rem 1.2rem; font-size: 0.95rem; margin: 5px; display: block; width: calc(100% - 10px); /* Botões ocupam largura */ }
+    .controls .control-btn { display: inline-block; width: auto; } /* Exceto Confirm/Next/Finish */
+    .count-btn { min-width: 100px; flex-basis: calc(50% - 10px); /* Tenta 2 por linha */ padding: 0.6rem 0.8rem; font-size: 0.85rem; }
+    #confirm-btn { width: calc(100% - 10px); } /* Confirmar ocupa largura */
+    #result-container button#choose-another-theme-btn { width: calc(100% - 10px); }
 }
 @media (min-width: 601px) and (max-width: 992px) {
-    .options-grid { gap: 1rem; /* auto-fit deve gerar 2-3 colunas */ }
+    .options-grid { gap: 1rem; }
     .quiz-container { max-width: 850px; } #question-text { font-size: 1.2rem; }
+    .count-btn { flex-basis: 140px; } /* Base um pouco maior */
 }
 @media (min-width: 993px) {
      html { font-size: 16px; }
-    .options-grid { gap: 1.2rem; /* auto-fit pode gerar 3+ colunas */ }
-    /* quiz-container max-width: 1100px; já definido */
+    .options-grid { gap: 1.2rem; }
+    .count-btn { flex-basis: 150px; } /* Base maior */
 }
