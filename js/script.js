@@ -189,7 +189,7 @@ function populateSubthemeButtons(subThemes, elements) {
 async function loadQuizData(filename, elements) {
     console.log(`loadQuizData: ${filename}`);
     window.quizFilePath = filename;
-    fullQuizData=[]; quizConfig={}; desiredQuestionCount=0; showOnly(null,elements.selectionArea,elements.quizContainer,elements.questionCountSelectionContainer); let lM=document.getElementById('loading-quiz-msg'); if(!lM&&elements.mainContainer){lM=document.createElement('p');lM.id='loading-quiz-msg';lM.textContent='Carregando...';lM.style.cssText='text-align:center;padding:20px;'; elements.mainContainer.appendChild(lM);}else if(lM){lM.textContent='Carregando...';lM.style.color='inherit';lM.classList.remove('hide');} const eBB=document.getElementById('back-to-themes-btn-error'); if(eBB)eBB.remove(); const qP=`data/${filename}`; try{console.log(`Workspace: ${qP}`); const r=await fetch(qP); if(!r.ok)throw new Error(`HTTP ${r.status}`); const jD=await r.json(); if(!jD||typeof jD!=='object')throw new Error("JSON inválido."); if(!jD.config||typeof jD.config!=='object')throw new Error("Config inválida."); if(!jD.data||!Array.isArray(jD.data))throw new Error("Data inválido."); if(jD.data.length===0)throw new Error("Data vazio."); fullQuizData=jD.data; quizConfig=jD.config; console.log(`Quiz '${quizConfig.theme||'N/A'}' ${fullQuizData.length} Qs.`); if(lM)lM.classList.add('hide'); showQuestionCountSelection(fullQuizData.length,elements);}catch(e){console.error("Falha loadQuizData:",filename,e); window.quizFilePath = null; if(lM){lM.textContent=`Erro: ${e.message}`; lM.style.color='red';lM.classList.remove('hide');}else if(elements.mainContainer){elements.mainContainer.innerHTML=`<p id="loading-quiz-msg" style="color:red;text-align:center;padding:20px;">Erro: ${e.message}</p>`;lM=document.getElementById('loading-quiz-msg');} if(lM&&!document.getElementById('back-to-themes-btn-error')){const bB=document.createElement('button');bB.textContent='Voltar';bB.id='back-to-themes-btn-error';bB.className='control-btn back-btn';bB.style.cssText='margin-top:20px;display:block;margin-left:auto;margin-right:auto;';bB.onclick=()=>showThemeSelectionScreen(elements); lM.parentNode.insertBefore(bB,lM.nextSibling);} if(elements.quizContainer)elements.quizContainer.classList.add('hide'); if(elements.questionCountSelectionContainer)elements.questionCountSelectionContainer.classList.add('hide');}
+    fullQuizData=[]; quizConfig={}; desiredQuestionCount=0; showOnly(null,elements.selectionArea,elements.quizContainer,elements.questionCountSelectionContainer); let lM=document.getElementById('loading-quiz-msg'); if(!lM&&elements.mainContainer){lM=document.createElement('p');lM.id='loading-quiz-msg';lM.textContent='Carregando...';lM.style.cssText='text-align:center;padding:20px;'; elements.mainContainer.appendChild(lM);}else if(lM){lM.textContent='Carregando...';lM.style.color='inherit';lM.classList.remove('hide');} const eBB=document.getElementById('back-to-themes-btn-error'); if(eBB)eBB.remove(); const qP=`data/${filename}`; try{console.log(`Fetch: ${qP}`); const r=await fetch(qP); if(!r.ok)throw new Error(`HTTP ${r.status}`); const jD=await r.json(); if(!jD||typeof jD!=='object')throw new Error("JSON inválido."); if(!jD.config||typeof jD.config!=='object')throw new Error("Config inválida."); if(!jD.data||!Array.isArray(jD.data))throw new Error("Data inválido."); if(jD.data.length===0)throw new Error("Data vazio."); fullQuizData=jD.data; quizConfig=jD.config; console.log(`Quiz '${quizConfig.theme||'N/A'}' ${fullQuizData.length} Qs.`); if(lM)lM.classList.add('hide'); showQuestionCountSelection(fullQuizData.length,elements);}catch(e){console.error("Falha loadQuizData:",filename,e); window.quizFilePath = null; if(lM){lM.textContent=`Erro: ${e.message}`; lM.style.color='red';lM.classList.remove('hide');}else if(elements.mainContainer){elements.mainContainer.innerHTML=`<p id="loading-quiz-msg" style="color:red;text-align:center;padding:20px;">Erro: ${e.message}</p>`;lM=document.getElementById('loading-quiz-msg');} if(lM&&!document.getElementById('back-to-themes-btn-error')){const bB=document.createElement('button');bB.textContent='Voltar';bB.id='back-to-themes-btn-error';bB.className='control-btn back-btn';bB.style.cssText='margin-top:20px;display:block;margin-left:auto;margin-right:auto;';bB.onclick=()=>showThemeSelectionScreen(elements); lM.parentNode.insertBefore(bB,lM.nextSibling);} if(elements.quizContainer)elements.quizContainer.classList.add('hide'); if(elements.questionCountSelectionContainer)elements.questionCountSelectionContainer.classList.add('hide');}
 }
 
 function handleThemeSelection(event, elements) {
@@ -315,16 +315,17 @@ function revealGridState(elements) {
     console.log("revealGridState: Botões de controle atualizados.");
 }
 
-
+// Função showQuestion MODIFICADA para incluir ícones na explicação
 function showQuestion(questionData, elements) {
-    resetCardStates(elements);
+    resetCardStates(elements); // Limpa completamente os estados anteriores
     console.log(`showQ: Idx ${currentQuestionIndex}`);
     isAnswered = false; selectedOptionElement = null;
     if (elements.confirmBtn) {
         elements.confirmBtn.classList.remove('confirm-active');
-        elements.confirmBtn.disabled = true;
-        elements.confirmBtn.classList.remove('hide');
+        elements.confirmBtn.disabled = true; // Garante que confirmar esteja desabilitado
+        elements.confirmBtn.classList.remove('hide'); // Garante que confirmar esteja visível
     }
+    // Garante que botões de navegação pós-resposta estejam escondidos
     if(elements.nextBtn) elements.nextBtn.classList.add('hide');
     if(elements.finishBtn) elements.finishBtn.classList.add('hide'); // Garante que Finalizar comece escondido
 
@@ -341,24 +342,59 @@ function showQuestion(questionData, elements) {
         if (!opt?.text) { console.warn("Opção inválida:", opt); return; }
         const oF = document.createElement('div'); oF.className = 'option-frame'; oF.dataset.optionText = opt.text;
         const fF = document.createElement('div'); fF.className = 'front-face'; fF.textContent = opt.text;
-        const bF = document.createElement('div'); bF.className = 'back-face';
+        const bF = document.createElement('div'); bF.className = 'back-face'; // Cria a face traseira para TODOS
 
+        // Adiciona a IMAGEM DA OPÇÃO (se houver) à face traseira SOMENTE da opção correta
         if (opt.isCorrect === true && opt.imageUrl) {
             const imgContainer = document.createElement('div'); imgContainer.className = 'option-image-container';
             const imgEl = document.createElement('img'); imgEl.src = opt.imageUrl; imgEl.alt = opt.text; imgEl.className = 'option-image'; imgEl.loading = 'lazy';
             imgContainer.appendChild(imgEl);
-            bF.appendChild(imgContainer);
+            bF.appendChild(imgContainer); // Adiciona ANTES da explicação
         }
 
-        const eS = document.createElement('span'); eS.className = 'explanation';
-        eS.textContent = opt.explanation || 'Sem explicação.';
-        bF.appendChild(eS);
+        // --- MODIFICAÇÃO: Criação da Explicação com Ícone ---
+        const explanationContainer = document.createElement('div');
+        explanationContainer.className = 'explanation-container'; // Novo container
 
+        const explanationText = opt.explanation || 'Sem explicação.';
+        const correctPrefix = "Correto! ";
+        const incorrectPrefix = "Incorreto. ";
+        let iconElement = null;
+        let textElement = document.createElement('span');
+        textElement.className = 'explanation-text'; // Classe para o texto
+
+        if (explanationText.startsWith(correctPrefix)) {
+            iconElement = document.createElement('img');
+            iconElement.src = 'images/resposta_correta.webp'; // <<< Substitua pelo caminho do seu ícone de correto
+            iconElement.alt = 'Correto';
+            iconElement.className = 'explanation-icon';
+            textElement.textContent = explanationText.substring(correctPrefix.length);
+        } else if (explanationText.startsWith(incorrectPrefix)) {
+            iconElement = document.createElement('img');
+            iconElement.src = 'images/resposta_incorreta.webp'; // <<< Substitua pelo caminho do seu ícone de incorreto
+            iconElement.alt = 'Incorreto';
+            iconElement.className = 'explanation-icon';
+            textElement.textContent = explanationText.substring(incorrectPrefix.length);
+        } else {
+            // Sem prefixo - apenas texto
+            textElement.textContent = explanationText;
+        }
+
+        if (iconElement) {
+            explanationContainer.appendChild(iconElement); // Adiciona ícone se existir
+        }
+        explanationContainer.appendChild(textElement); // Adiciona o texto
+
+        bF.appendChild(explanationContainer); // Adiciona o container da explicação à face traseira
+        // --- FIM DA MODIFICAÇÃO ---
+
+        // Monta o card
         oF.appendChild(fF); oF.appendChild(bF);
         oF.addEventListener('click', (e) => selectAnswer(e, elements));
         if (elements.answerOptionsElement) elements.answerOptionsElement.appendChild(oF);
     });
 
+    // Controla visibilidade dos botões Voltar/Menu Principal apenas na primeira questão
     if (quizJustStarted) {
         if (elements.quizBackBtn) elements.quizBackBtn.classList.remove('hide');
         if (elements.quizMainMenuBtn) elements.quizMainMenuBtn.classList.remove('hide');

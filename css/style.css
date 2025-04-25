@@ -81,7 +81,7 @@ h1, h2 { color: var(--dark-text); margin-bottom: 1.2rem; text-align: center; }
     -webkit-backface-visibility: hidden;
     transition: background-color 0.3s ease;
     padding: 0.8rem;
-    overflow: hidden;
+    overflow: hidden; /* Esconde overflow padrão */
 }
 .option-frame .front-face {
     background-color: var(--primary-color);
@@ -95,13 +95,13 @@ h1, h2 { color: var(--dark-text); margin-bottom: 1.2rem; text-align: center; }
     color: var(--light-text);
     transform: rotateY(180deg); /* Back-face começa girada */
     font-size: 0.85rem;
-    overflow-y: auto;
+    overflow-y: auto; /* Permite scroll se necessário */
     align-items: center;
     text-align: center;
-    justify-content: center;
+    justify-content: center; /* Centraliza conteúdo padrão */
     padding: 0.6rem;
     z-index: 1;
-    position: relative; /* Para contexto de elementos internos */
+    position: relative;
 }
 .option-frame .back-face.correct {
     background-color: var(--success-color);
@@ -109,18 +109,9 @@ h1, h2 { color: var(--dark-text); margin-bottom: 1.2rem; text-align: center; }
 .option-frame .back-face.incorrect {
     background-color: var(--danger-color);
 }
-.explanation {
-    display: block;
-    width: 100%;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    white-space: normal;
-    line-height: 1.45;
-    color: inherit;
-    margin-top: 10px; /* Espaço padrão */
-}
+
 .option-frame:hover:not(.disabled):not(.selected):not(.revealed):not(.expanded-correct) {
-    transform: translateY(-5px) scale(1.02);
+    transform: translateY(-5px) scale(1.25);
     z-index: 10;
     box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
@@ -159,7 +150,7 @@ h1, h2 { color: var(--dark-text); margin-bottom: 1.2rem; text-align: center; }
 #next-btn:hover:not(:disabled) { background-color: var(--success-hover); }
 #finish-btn { background-color: var(--warning-color); color: var(--dark-text); }
 #finish-btn:hover:not(:disabled) { background-color: var(--warning-hover); }
-.danger-btn { background-color: var(--danger-color); }
+.danger-btn { background-color: var(--danger-color); } /* Mantido caso use em outro lugar */
 .danger-btn:hover:not(:disabled) { background-color: var(--danger-hover); }
 .theme-btn:focus-visible, .control-btn:focus-visible, .option-frame:focus-visible { outline: 3px solid var(--primary-color); outline-offset: 2px; }
 input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outline-offset: 1px; border-color: var(--primary-color); }
@@ -215,7 +206,7 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
 
 /* === Estilos Adicionais para Imagem e Animação === */
 
-/* Container da Imagem (só existe na back-face correta) */
+/* Container da Imagem da Opção (só existe na back-face correta) */
 .option-image-container {
     width: 100%;
     max-height: 150px;
@@ -227,7 +218,6 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 4px;
 }
-
 .option-image {
     display: block;
     max-width: 100%;
@@ -235,6 +225,32 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
     max-height: 150px;
     object-fit: contain;
 }
+
+/* --- Explicação com Ícone --- */
+.explanation-container {
+    display: flex;
+    align-items: center; /* Alinha verticalmente o ícone com o texto */
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+    color: inherit;
+    line-height: 1.45;
+}
+.explanation-icon {
+    height: 1.2em;
+    width: auto;
+    margin-right: 0.6em;
+    flex-shrink: 0;
+    vertical-align: middle;
+}
+.explanation-text {
+    flex-grow: 1;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+}
+/* --------------------------- */
+
 
 /* Estado Expandido do Card Correto */
 .option-frame.expanded-correct {
@@ -266,14 +282,14 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
     background-color: transparent; /* Pai tem a cor */
     position: relative;
     width: 100%;
-    min-height: 100%;
-    height: auto;
+    min-height: 100%; /* Tenta ocupar altura mínima */
+    height: auto;     /* Permite crescer */
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: center; /* Centraliza conteúdo horizontalmente */
+    justify-content: center; /* Centraliza conteúdo verticalmente (imagem+explicação) */
     padding: 20px;
-    overflow-y: visible;
+    overflow-y: visible; /* Deixa pai controlar scroll */
     backface-visibility: visible; /* Garante visibilidade */
     /* Rotaciona 180deg para cancelar a rotação do pai */
     transform: rotateY(180deg);
@@ -293,9 +309,9 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
 }
 
 
-/* Estilo da Imagem no Card Expandido (só aparece no correto) */
+/* Estilo da Imagem da Opção no Card Expandido */
 .option-frame.expanded-correct .option-image-container {
-    max-height: 350px;
+    max-height: 350px; /* Permite imagem maior */
     margin-bottom: 15px;
     flex-shrink: 0;
 }
@@ -304,23 +320,30 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
 }
 
 
-/* Estilo da Explicação no Card Expandido */
-.option-frame.expanded-correct .explanation {
-    font-size: 1rem;
-    line-height: 1.6;
-    color: var(--light-text);
-    max-width: 100%;
-    text-align: center;
-    margin-top: auto;
-    margin-bottom: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    flex-grow: 1;
+/* Estilo da Explicação no Card Expandido (com ícone) */
+.option-frame.expanded-correct .explanation-container {
+   align-items: flex-start; /* Alinha ícone com topo do texto */
+   padding: 0 5px;
+   width: 100%; /* Garante que o container use a largura */
+   flex-grow: 1; /* Permite que o container cresça se necessário */
+   /* justify-content: center; <- Controlado pelo flex do .back-face */
 }
-.option-frame.expanded-correct:has(.option-image-container) .explanation {
-     margin-top: 15px;
-     margin-bottom: 0;
-     flex-grow: 0;
+.option-frame.expanded-correct .explanation-icon {
+   height: 1.4em;
+   margin-right: 0.7em;
+   margin-top: 0.1em;
+}
+.option-frame.expanded-correct .explanation-text {
+   font-size: 1rem;
+   line-height: 1.6;
+   color: var(--light-text); /* Garante cor clara */
+   text-align: center; /* Centraliza o texto da explicação */
+   width: 100%; /* Opcional: força o texto a tentar usar a largura */
+}
+/* Ajuste se houver imagem de opção */
+.option-frame.expanded-correct:has(.option-image-container) .explanation-container {
+    margin-top: 15px; /* Adiciona espaço se houver imagem acima */
+    flex-grow: 0; /* Não precisa crescer tanto se imagem define altura */
 }
 
 
@@ -331,7 +354,6 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
     opacity: 1;
     transform-style: preserve-3d;
     transition: opacity 0.5s ease;
-    /* O frame em si não tem rotação aqui */
 }
 
 /* Garante visibilidade da back-face no estado revelado */
@@ -341,9 +363,11 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
     backface-visibility: visible;
     z-index: 3;
     padding: 0.8rem;
-    align-items: center;
+    align-items: center; /* Centraliza conteúdo (inclui explanation-container) */
     justify-content: center;
     overflow-y: auto;
+    display: flex; /* Garante flex para alinhar o explanation-container */
+    flex-direction: column; /* Caso haja imagem de opção (embora escondida) */
 }
 /* Aplica cores no estado revelado */
 .option-frame.revealed .back-face.correct {
@@ -353,16 +377,27 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
     background-color: var(--danger-color);
 }
 
-/* Esconde imagem no grid final revelado */
+/* Esconde imagem da OPÇÃO no grid final revelado */
 .option-frame.revealed .option-image-container {
     display: none;
 }
-/* Ajusta explicação no grid final revelado */
-.option-frame.revealed .explanation {
-    font-size: 0.9rem;
-    margin-top: 0;
+
+/* Ajusta container da explicação no grid final revelado */
+.option-frame.revealed .explanation-container {
+    margin-top: 0; /* Remove margem extra */
+    line-height: 1.4; /* Ajusta altura de linha */
+    align-items: center; /* Centraliza ícone e texto verticalmente */
+}
+/* Ajusta ícone da explicação no grid final revelado */
+.option-frame.revealed .explanation-icon {
+     height: 1.5em; /* Tamanho padrão ou ligeiramente menor */
+     margin-right: 1em;
+}
+/* Ajusta texto da explicação no grid final revelado */
+.option-frame.revealed .explanation-text {
+    font-size: 0.85rem; /* Texto um pouco menor no grid */
     color: var(--light-text);
-    text-align: center;
+    text-align: left; /* Mantém alinhamento à esquerda */
 }
 
 /* Garante ocultação da front-face no estado revelado */
