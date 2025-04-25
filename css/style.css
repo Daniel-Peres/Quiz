@@ -50,68 +50,130 @@ h1, h2 { color: var(--dark-text); margin-bottom: 1.2rem; text-align: center; }
 #progress-text { text-align: center; margin-top: 0.6rem; font-size: 0.9rem; color: #555; }
 #question-text { font-size: 1.3rem; color: var(--dark-text); margin-bottom: 2rem; min-height: 3em; line-height: 1.5; text-align: center; padding-top: 20px; }
 .options-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; perspective: 1000px; }
-.option-frame { border: 3px solid transparent; padding: 0; border-radius: var(--card-border-radius); cursor: pointer; font-size: 1rem; position: relative; min-height: 130px; transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease; transform-style: preserve-3d; box-shadow: 0 2px 5px var(--shadow-color); background-color: var(--light-bg); }
-.option-frame .front-face, .option-frame .back-face { position: absolute; top: 0; left: 0; width: 100%; height: 100%; box-sizing: border-box; border-radius: calc(var(--card-border-radius) - 3px); display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; backface-visibility: hidden; -webkit-backface-visibility: hidden; transition: background-color 0.3s ease; padding: 0.8rem; }
-.option-frame .front-face { background-color: var(--primary-color); color: var(--light-text); z-index: 2; font-weight: 500; }
-.option-frame .back-face { background-color: var(--secondary-color); color: var(--light-text); transform: rotateY(180deg); font-size: 0.85rem; overflow: auto; align-items: flex-start; text-align: left; justify-content: flex-start; padding: 0.6rem; }
-.explanation { display: block; width: 100%; max-height: 100%; overflow-wrap: break-word; word-wrap: break-word; white-space: normal; line-height: 1.45; color: inherit; }
-.option-frame:hover:not(.disabled):not(.selected) { transform: translateY(-5px) scale(1.02); z-index: 10; box-shadow: 0 6px 12px rgba(0,0,0,0.15); }
-.option-frame.selected { border-color: var(--warning-color); transform: scale(1.03); z-index: 5; box-shadow: 0 6px 12px rgba(0,0,0,0.2); }
-.option-frame.selected:not(.reveal) .front-face { background-color: var(--primary-hover); }
-.option-frame.reveal { animation: flip 0.7s forwards ease-in-out; } @keyframes flip { from { transform: rotateY(0deg); } to { transform: rotateY(180deg); } }
-.option-frame.correct .back-face { background-color: var(--success-color); }
-.option-frame.incorrect .back-face { background-color: var(--danger-color); }
-.option-frame.selected.disabled, .option-frame.selected.reveal { outline: 3px solid var(--dark-text); outline-offset: 2px; }
+
+.option-frame {
+    border: 3px solid transparent;
+    padding: 0;
+    border-radius: var(--card-border-radius);
+    cursor: pointer;
+    font-size: 1rem;
+    position: relative;
+    min-height: 130px;
+    transition: transform 0.6s ease, border-color 0.3s ease, box-shadow 0.3s ease, opacity 0.5s ease-out;
+    box-shadow: 0 2px 5px var(--shadow-color);
+    background-color: var(--light-bg); /* Fundo base para faces */
+    transform-style: preserve-3d; /* Importante ter aqui */
+}
+.option-frame .front-face, .option-frame .back-face {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border-radius: calc(var(--card-border-radius) - 3px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transition: background-color 0.3s ease;
+    padding: 0.8rem;
+    overflow: hidden;
+}
+.option-frame .front-face {
+    background-color: var(--primary-color);
+    color: var(--light-text);
+    z-index: 2;
+    font-weight: 500;
+    transform: rotateY(0deg);
+}
+.option-frame .back-face {
+    background-color: var(--secondary-color); /* Cor base se não for correta/incorreta */
+    color: var(--light-text);
+    transform: rotateY(180deg); /* Back-face começa girada */
+    font-size: 0.85rem;
+    overflow-y: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 0.6rem;
+    z-index: 1;
+    position: relative; /* Para contexto de elementos internos */
+}
+.option-frame .back-face.correct {
+    background-color: var(--success-color);
+}
+.option-frame .back-face.incorrect {
+    background-color: var(--danger-color);
+}
+.explanation {
+    display: block;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: normal;
+    line-height: 1.45;
+    color: inherit;
+    margin-top: 10px; /* Espaço padrão */
+}
+.option-frame:hover:not(.disabled):not(.selected):not(.revealed):not(.expanded-correct) {
+    transform: translateY(-5px) scale(1.02);
+    z-index: 10;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+.option-frame.selected {
+    border-color: var(--warning-color);
+    z-index: 5;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+.option-frame.selected:not(.revealed):not(.expanded-correct) .front-face {
+    background-color: var(--primary-hover);
+}
+.option-frame.selected.disabled {
+    outline: 3px solid var(--dark-text);
+    outline-offset: 2px;
+}
 
 /* === Controles (Botões) === */
 .controls { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border-color); }
 .control-btn {
     background-color: var(--primary-color); color: var(--light-text);
-    border: none; /* Removido border: 3px solid transparent; - Adicionado abaixo */
+    border: none;
     padding: 0.8rem 1.8rem; border-radius: var(--button-border-radius);
     cursor: pointer; font-size: 1rem; transition: background-color 0.2s ease, transform 0.1s ease, opacity 0.2s ease, border-color 0.2s ease;
     display: inline-block; font-weight: 500; flex-grow: 0; flex-shrink: 0; margin: 0;
-    border: 3px solid transparent; /* Borda transparente para reservar espaço */
+    border: 3px solid transparent;
 }
 .control-btn:hover:not(:disabled) { background-color: var(--primary-hover); }
 .control-btn:active:not(:disabled) { transform: scale(0.98); }
 .control-btn:disabled { background-color: #adb5bd; cursor: not-allowed; opacity: 0.65; border-color: transparent !important; }
-
-/* << NOVA REGRA >> Estilo para botão confirmar ativo */
-.control-btn.confirm-active:not(:disabled) {
-    border-color: var(--success-color); /* Borda verde */
-}
-
-/* Botões específicos (Cores e Hovers) */
+.control-btn.confirm-active:not(:disabled) { border-color: var(--success-color); }
 #confirm-btn { background-color: var(--primary-color); }
 #confirm-btn:hover:not(:disabled) { background-color: var(--primary-hover); }
-
-.back-btn { background-color: var(--secondary-color); } /* Cor cinza para Voltar/Menu */
+.back-btn { background-color: var(--secondary-color); }
 .back-btn:hover:not(:disabled) { background-color: var(--secondary-hover); }
-
 #next-btn { background-color: var(--success-color); }
 #next-btn:hover:not(:disabled) { background-color: var(--success-hover); }
-
 #finish-btn { background-color: var(--warning-color); color: var(--dark-text); }
 #finish-btn:hover:not(:disabled) { background-color: var(--warning-hover); }
-
 .danger-btn { background-color: var(--danger-color); }
 .danger-btn:hover:not(:disabled) { background-color: var(--danger-hover); }
-
-/* Foco Acessibilidade */
 .theme-btn:focus-visible, .control-btn:focus-visible, .option-frame:focus-visible { outline: 3px solid var(--primary-color); outline-offset: 2px; }
 input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outline-offset: 1px; border-color: var(--primary-color); }
 
 /* === Utilitários === */
 .hide { display: none !important; }
 .disabled { cursor: default !important; pointer-events: none !important; user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;}
-.option-frame.disabled:hover { transform: none; box-shadow: 0 2px 5px var(--shadow-color); }
+.option-frame.disabled:hover { transform: none !important; box-shadow: 0 2px 5px var(--shadow-color) !important; }
 
 /* === Pontuação e Mensagens === */
 #score-container { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color); font-size: 1.1rem; font-weight: bold; color: var(--dark-text); text-align: center; }
 #score-container > span { display: inline-block; margin: 0 0.5rem; }
 #score-container span span { margin-left: 0.3rem; background-color: var(--medium-bg); padding: 0.1rem 0.4rem; border-radius: var(--button-border-radius); font-weight: bold; }
-#score-container #percentage-score-display::after { content: '%'; margin-left: 1px; } /* Adiciona % via CSS */
+#score-container #percentage-score-display::after { content: '%'; margin-left: 1px; }
 .message-area { font-weight: 500; min-height: 1.5em; padding: 0.6rem 1rem; margin-top: 1rem; margin-bottom: 0.5rem; border-radius: var(--button-border-radius); border: 1px solid transparent; opacity: 1; transition: opacity 0.3s ease, transform 0.3s ease; transform: translateY(0); }
 .message-area.hide { opacity: 0; transform: translateY(-10px); pointer-events: none; margin-top: -1.5em; margin-bottom: 0; min-height: 0; padding-top: 0; padding-bottom: 0; border-width: 0; overflow: hidden; }
 .message-area.error { color: #721c24; background-color: #f8d7da; border-color: #f5c6cb; }
@@ -137,7 +199,6 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
     .option-frame { min-height: 90px; } .option-frame .front-face { font-size: 0.95rem; } .option-frame .back-face { font-size: 0.8rem; }
     .controls { flex-direction: column; align-items: center; gap: 8px; }
     .control-btn { padding: 0.7rem 1rem; font-size: 0.95rem; width: 90%; max-width: 300px; margin: 0; display: block; }
-    /* .controls .control-btn { width: auto; } */ /* Descomente se preferir largura automática nos controles */
     .count-btn { flex-basis: calc(50% - 10px); min-width: 100px; padding: 0.6rem 0.8rem; font-size: 0.85rem; display: inline-block; width: auto; }
 }
 @media (min-width: 601px) and (max-width: 992px) {
@@ -149,4 +210,187 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
      html { font-size: 16px; }
     .options-grid { gap: 1.2rem; }
     .count-btn { flex-basis: 150px; }
+}
+
+
+/* === Estilos Adicionais para Imagem e Animação === */
+
+/* Container da Imagem (só existe na back-face correta) */
+.option-image-container {
+    width: 100%;
+    max-height: 150px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+
+.option-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 150px;
+    object-fit: contain;
+}
+
+/* Estado Expandido do Card Correto */
+.option-frame.expanded-correct {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: clamp(300px, 80vw, 600px);
+    height: auto;
+    max-height: 85vh;
+    z-index: 1000;
+    cursor: default;
+    overflow-y: auto;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    border-color: var(--dark-text);
+    animation: none;
+    /* Rotação de 180 graus */
+    transform: translate(-50%, -50%) rotateY(180deg) scale(1.05);
+    transition: transform 0.8s cubic-bezier(0.34, 1.56, 0.64, 1),
+                opacity 0.5s ease-out,
+                border-color 0.5s ease-out,
+                box-shadow 0.5s ease-out;
+    background-color: var(--success-color); /* Cor de fundo no frame */
+    background-image: none;
+}
+
+
+/* Garante que a back-face seja visível e CORRETAMENTE ORIENTADA no estado expandido */
+.option-frame.expanded-correct .back-face {
+    background-color: transparent; /* Pai tem a cor */
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    overflow-y: visible;
+    backface-visibility: visible; /* Garante visibilidade */
+    /* Rotaciona 180deg para cancelar a rotação do pai */
+    transform: rotateY(180deg);
+    z-index: 3;
+}
+
+/* Garante que a classe .correct não sobrescreva a transparência */
+.option-frame.expanded-correct .back-face.correct {
+     background-color: transparent;
+}
+
+/* Garante que a front-face fique OCULTA no estado expandido */
+.option-frame.expanded-correct .front-face {
+     backface-visibility: hidden;
+     z-index: 1;
+     display: none;
+}
+
+
+/* Estilo da Imagem no Card Expandido (só aparece no correto) */
+.option-frame.expanded-correct .option-image-container {
+    max-height: 350px;
+    margin-bottom: 15px;
+    flex-shrink: 0;
+}
+.option-frame.expanded-correct .option-image {
+     max-height: 350px;
+}
+
+
+/* Estilo da Explicação no Card Expandido */
+.option-frame.expanded-correct .explanation {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--light-text);
+    max-width: 100%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    flex-grow: 1;
+}
+.option-frame.expanded-correct:has(.option-image-container) .explanation {
+     margin-top: 15px;
+     margin-bottom: 0;
+     flex-grow: 0;
+}
+
+
+/* ESTADO REVELADO (Após fechar o expandido ou errar) */
+.option-frame.revealed {
+    cursor: default;
+    pointer-events: none;
+    opacity: 1;
+    transform-style: preserve-3d;
+    transition: opacity 0.5s ease;
+    /* O frame em si não tem rotação aqui */
+}
+
+/* Garante visibilidade da back-face no estado revelado */
+.option-frame.revealed .back-face {
+    /* Back-face começa a 180deg (base), então rotacionamos para 0 para mostrar */
+    transform: rotateY(0deg);
+    backface-visibility: visible;
+    z-index: 3;
+    padding: 0.8rem;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+}
+/* Aplica cores no estado revelado */
+.option-frame.revealed .back-face.correct {
+     background-color: var(--success-color);
+}
+.option-frame.revealed .back-face.incorrect {
+    background-color: var(--danger-color);
+}
+
+/* Esconde imagem no grid final revelado */
+.option-frame.revealed .option-image-container {
+    display: none;
+}
+/* Ajusta explicação no grid final revelado */
+.option-frame.revealed .explanation {
+    font-size: 0.9rem;
+    margin-top: 0;
+    color: var(--light-text);
+    text-align: center;
+}
+
+/* Garante ocultação da front-face no estado revelado */
+.option-frame.revealed .front-face {
+     backface-visibility: hidden;
+     z-index: 1;
+     display: none;
+}
+
+
+/* Estilos para o container do botão "Fechar Detalhes" externo */
+#expanded-card-controls {
+    position: fixed;
+    bottom: auto;
+    top: 90vh; /* Fallback, JS ajusta */
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1001;
+    transition: opacity 0.3s ease, visibility 0.3s ease, top 0.3s ease-out;
+}
+
+#expanded-card-controls.hide {
+   visibility: hidden;
+   opacity: 0;
+   pointer-events: none;
+}
+
+#expanded-card-controls:not(.hide) {
+    visibility: visible;
+    opacity: 1;
 }
