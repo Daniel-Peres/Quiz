@@ -15,6 +15,7 @@ let isAnswered = false;
 let messageTimeout = null;
 let countMessageTimeout = null;
 let quizJustStarted = true;
+let currentPointsPerQuestion = 0; // <<< ADICIONADO AQUI
 
 const QUIZ_STATE_KEY = 'quizGameState'; // Key for localStorage
 
@@ -94,6 +95,22 @@ function resumeGame(savedState, elements) {
     desiredQuestionCount = quizData.length;
     fullQuizData = []; // Clear to avoid using stale full data
 
+    // --- MODIFICAÇÃO: Recalcular pontos por questão ao resumir ---
+    // Precisamos garantir que fullQuizData seja carregado para recalcular
+    // Esta parte pode precisar buscar o fullQuizData novamente se não estiver disponível
+    // Por ora, vamos assumir que a lógica de cálculo em startGame será suficiente
+    // ou que o cálculo precisa ser refeito aqui se fullQuizData for carregado.
+    // Vamos calcular com base no que temos, mas pode não ser 100% preciso se totalPoints mudou.
+    const totalConfigPoints = quizConfig.totalPoints || 0;
+    // Tentativa de estimar total de questões se fullQuizData não estiver carregado
+    // Isto é IMPRECISO. Idealmente, fullQuizData deveria ser recarregado ou salvo.
+    // Usando quizData.length como fallback temporário para evitar erro total.
+    const totalQuizQuestionsEstimate = fullQuizData.length > 0 ? fullQuizData.length : quizData.length;
+     currentPointsPerQuestion = (totalQuizQuestionsEstimate > 0 && totalConfigPoints > 0) ? (totalConfigPoints / totalQuizQuestionsEstimate) : 1;
+    console.log(`Pontos por questão estimados ao resumir: ${currentPointsPerQuestion}`);
+     // --- FIM DA MODIFICAÇÃO ---
+
+
     isAnswered = false; // Always start fresh on the question
     selectedOptionElement = null;
     quizJustStarted = false;
@@ -102,7 +119,7 @@ function resumeGame(savedState, elements) {
     if (elements.quizTitleElement) elements.quizTitleElement.textContent = quizConfig.theme || "Quiz";
     if (elements.resultContainer) elements.resultContainer.classList.add('hide');
     if (elements.scoreContainer) elements.scoreContainer.classList.remove('hide');
-    updateScoreDisplay(elements);
+    updateScoreDisplay(elements); // Usa o score salvo e o pointsPerQuestion recalculado
 
     if(elements.quizBackBtn) elements.quizBackBtn.classList.add('hide');
     if(elements.quizMainMenuBtn) elements.quizMainMenuBtn.classList.add('hide');
@@ -138,6 +155,7 @@ function showThemeSelectionScreen(elements) {
     quizConfig = {};
     currentQuestionIndex = -1;
     score = 0;
+    currentPointsPerQuestion = 0; // Reseta pontos por questão
     if (elements.quizContainer) resetCardStates(elements); // Reset cards if quiz container exists
 
     showOnly(elements.selectionArea, elements.selectionArea, elements.quizContainer, elements.questionCountSelectionContainer);
@@ -189,7 +207,7 @@ function populateSubthemeButtons(subThemes, elements) {
 async function loadQuizData(filename, elements) {
     console.log(`loadQuizData: ${filename}`);
     window.quizFilePath = filename;
-    fullQuizData=[]; quizConfig={}; desiredQuestionCount=0; showOnly(null,elements.selectionArea,elements.quizContainer,elements.questionCountSelectionContainer); let lM=document.getElementById('loading-quiz-msg'); if(!lM&&elements.mainContainer){lM=document.createElement('p');lM.id='loading-quiz-msg';lM.textContent='Carregando...';lM.style.cssText='text-align:center;padding:20px;'; elements.mainContainer.appendChild(lM);}else if(lM){lM.textContent='Carregando...';lM.style.color='inherit';lM.classList.remove('hide');} const eBB=document.getElementById('back-to-themes-btn-error'); if(eBB)eBB.remove(); const qP=`data/${filename}`; try{console.log(`Workspace: ${qP}`); const r=await fetch(qP); if(!r.ok)throw new Error(`HTTP ${r.status}`); const jD=await r.json(); if(!jD||typeof jD!=='object')throw new Error("JSON inválido."); if(!jD.config||typeof jD.config!=='object')throw new Error("Config inválida."); if(!jD.data||!Array.isArray(jD.data))throw new Error("Data inválido."); if(jD.data.length===0)throw new Error("Data vazio."); fullQuizData=jD.data; quizConfig=jD.config; console.log(`Quiz '${quizConfig.theme||'N/A'}' ${fullQuizData.length} Qs.`); if(lM)lM.classList.add('hide'); showQuestionCountSelection(fullQuizData.length,elements);}catch(e){console.error("Falha loadQuizData:",filename,e); window.quizFilePath = null; if(lM){lM.textContent=`Erro: ${e.message}`; lM.style.color='red';lM.classList.remove('hide');}else if(elements.mainContainer){elements.mainContainer.innerHTML=`<p id="loading-quiz-msg" style="color:red;text-align:center;padding:20px;">Erro: ${e.message}</p>`;lM=document.getElementById('loading-quiz-msg');} if(lM&&!document.getElementById('back-to-themes-btn-error')){const bB=document.createElement('button');bB.textContent='Voltar';bB.id='back-to-themes-btn-error';bB.className='control-btn back-btn';bB.style.cssText='margin-top:20px;display:block;margin-left:auto;margin-right:auto;';bB.onclick=()=>showThemeSelectionScreen(elements); lM.parentNode.insertBefore(bB,lM.nextSibling);} if(elements.quizContainer)elements.quizContainer.classList.add('hide'); if(elements.questionCountSelectionContainer)elements.questionCountSelectionContainer.classList.add('hide');}
+    fullQuizData=[]; quizConfig={}; desiredQuestionCount=0; showOnly(null,elements.selectionArea,elements.quizContainer,elements.questionCountSelectionContainer); let lM=document.getElementById('loading-quiz-msg'); if(!lM&&elements.mainContainer){lM=document.createElement('p');lM.id='loading-quiz-msg';lM.textContent='Carregando...';lM.style.cssText='text-align:center;padding:20px;'; elements.mainContainer.appendChild(lM);}else if(lM){lM.textContent='Carregando...';lM.style.color='inherit';lM.classList.remove('hide');} const eBB=document.getElementById('back-to-themes-btn-error'); if(eBB)eBB.remove(); const qP=`data/${filename}`; try{console.log(`Fetch: ${qP}`); const r=await fetch(qP); if(!r.ok)throw new Error(`HTTP ${r.status}`); const jD=await r.json(); if(!jD||typeof jD!=='object')throw new Error("JSON inválido."); if(!jD.config||typeof jD.config!=='object')throw new Error("Config inválida."); if(!jD.data||!Array.isArray(jD.data))throw new Error("Data inválido."); if(jD.data.length===0)throw new Error("Data vazio."); fullQuizData=jD.data; quizConfig=jD.config; console.log(`Quiz '${quizConfig.theme||'N/A'}' ${fullQuizData.length} Qs.`); if(lM)lM.classList.add('hide'); showQuestionCountSelection(fullQuizData.length,elements);}catch(e){console.error("Falha loadQuizData:",filename,e); window.quizFilePath = null; if(lM){lM.textContent=`Erro: ${e.message}`; lM.style.color='red';lM.classList.remove('hide');}else if(elements.mainContainer){elements.mainContainer.innerHTML=`<p id="loading-quiz-msg" style="color:red;text-align:center;padding:20px;">Erro: ${e.message}</p>`;lM=document.getElementById('loading-quiz-msg');} if(lM&&!document.getElementById('back-to-themes-btn-error')){const bB=document.createElement('button');bB.textContent='Voltar';bB.id='back-to-themes-btn-error';bB.className='control-btn back-btn';bB.style.cssText='margin-top:20px;display:block;margin-left:auto;margin-right:auto;';bB.onclick=()=>showThemeSelectionScreen(elements); lM.parentNode.insertBefore(bB,lM.nextSibling);} if(elements.quizContainer)elements.quizContainer.classList.add('hide'); if(elements.questionCountSelectionContainer)elements.questionCountSelectionContainer.classList.add('hide');}
 }
 
 function handleThemeSelection(event, elements) {
@@ -207,13 +225,55 @@ function showQuestionCountSelection(maxQuestions, elements) {
 }
 
 function startGame(elements) {
-    console.log("startGame: Iniciando..."); quizJustStarted = true; const eb=document.getElementById('back-to-themes-btn-error'); if(eb)eb.remove(); if(!fullQuizData?.length){console.error("ERRO: start sem fullQuizData.");showThemeSelectionScreen(elements);return;} const max=fullQuizData.length; if(desiredQuestionCount<=0||desiredQuestionCount>max)desiredQuestionCount=max; let qs=[...fullQuizData]; shuffleArray(qs); quizData=qs.slice(0,desiredQuestionCount); if(!quizData?.length){console.error("ERRO: quizData vazio.");showThemeSelectionScreen(elements);return;} console.log(`Iniciando com ${quizData.length} de ${max}.`); showQuizInterface(elements); currentQuestionIndex=0; score=0; isAnswered=false; selectedOptionElement=null; if(elements.messageArea)clearMessage(elements.messageArea); if(elements.quizTitleElement)elements.quizTitleElement.textContent=quizConfig.theme||"Quiz"; if(elements.resultContainer)elements.resultContainer.classList.add('hide'); if(elements.scoreContainer)elements.scoreContainer.classList.add('hide'); if(elements.nextBtn)elements.nextBtn.classList.add('hide');
-    // Garante que #finish-btn comece escondido
-    if(elements.finishBtn)elements.finishBtn.classList.add('hide');
-    if(elements.confirmBtn){elements.confirmBtn.classList.remove('hide');elements.confirmBtn.disabled=true;} else console.error("ConfirmBtn não encontrado!"); if(elements.quizBackBtn)elements.quizBackBtn.classList.remove('hide'); else console.warn("#quiz-back-btn não encontrado."); if(elements.quizMainMenuBtn)elements.quizMainMenuBtn.classList.remove('hide'); else console.warn("#quiz-main-menu-btn não encontrado.");
-    showQuestion(quizData[currentQuestionIndex],elements); // Chama showQuestion que já reseta os cards
+    console.log("startGame: Iniciando...");
+    quizJustStarted = true;
+    const eb = document.getElementById('back-to-themes-btn-error');
+    if (eb) eb.remove();
+    if (!fullQuizData?.length) {
+        console.error("ERRO: start sem fullQuizData.");
+        showThemeSelectionScreen(elements);
+        return;
+    }
+    const totalQuizQuestions = fullQuizData.length; // Total de questões disponíveis
+    if (desiredQuestionCount <= 0 || desiredQuestionCount > totalQuizQuestions) {
+        desiredQuestionCount = totalQuizQuestions;
+    }
+    let qs = [...fullQuizData];
+    shuffleArray(qs);
+    quizData = qs.slice(0, desiredQuestionCount); // Questões que serão jogadas
+
+    if (!quizData?.length) {
+        console.error("ERRO: quizData vazio.");
+        showThemeSelectionScreen(elements);
+        return;
+    }
+
+    // Calcular pontos por questão e inicializar score
+    const totalConfigPoints = quizConfig.totalPoints || 0; // Pontos totais definidos no JSON
+    currentPointsPerQuestion = (totalQuizQuestions > 0 && totalConfigPoints > 0) ? (totalConfigPoints / totalQuizQuestions) : 1; // Evita divisão por zero, default 1 ponto
+    score = 0; // Inicializa a pontuação em 0
+    console.log(`Iniciando com ${quizData.length} de ${totalQuizQuestions} questões.`);
+    console.log(`Total de pontos no config: ${totalConfigPoints}`);
+    console.log(`Pontos por questão correta: ${currentPointsPerQuestion}`);
+
+    showQuizInterface(elements);
+    currentQuestionIndex = 0;
+    isAnswered = false;
+    selectedOptionElement = null;
+    if (elements.messageArea) clearMessage(elements.messageArea);
+    if (elements.quizTitleElement) elements.quizTitleElement.textContent = quizConfig.theme || "Quiz";
+    if (elements.resultContainer) elements.resultContainer.classList.add('hide');
+    if (elements.scoreContainer) elements.scoreContainer.classList.add('hide'); // Esconde pontuação inicial
+    if (elements.nextBtn) elements.nextBtn.classList.add('hide');
+    if (elements.finishBtn) elements.finishBtn.classList.add('hide');
+    if (elements.confirmBtn) { elements.confirmBtn.classList.remove('hide'); elements.confirmBtn.disabled = true; } else console.error("ConfirmBtn não encontrado!");
+    if (elements.quizBackBtn) elements.quizBackBtn.classList.remove('hide'); else console.warn("#quiz-back-btn não encontrado.");
+    if (elements.quizMainMenuBtn) elements.quizMainMenuBtn.classList.remove('hide'); else console.warn("#quiz-main-menu-btn não encontrado.");
+
+    showQuestion(quizData[currentQuestionIndex], elements);
     saveGameState(); // Salva estado inicial
 }
+
 
 function updateProgressBar(elements) { if(!quizData||!elements.progressBarIndicator||!elements.progressTextElement)return; const t=quizData.length; const c=currentQuestionIndex+1; if(t===0){elements.progressBarIndicator.style.width='0%';elements.progressTextElement.textContent='0/0';return;} const p=Math.min((c/t)*100,100); elements.progressBarIndicator.style.width=`${p}%`; elements.progressTextElement.textContent=`Questão ${c} de ${t}`; }
 
@@ -274,7 +334,7 @@ function resetExpandedState(elements) {
 }
 
 
-// Função para mostrar todos os cards revelados e botões de controle (MODIFICADA)
+// Função para mostrar todos os cards revelados e botões de controle
 function revealGridState(elements) {
     if (!elements || !elements.answerOptionsElement) {
         console.error("revealGridState: Elementos inválidos recebidos.");
@@ -453,7 +513,12 @@ function confirmAnswer(elements) {
         if (!correctOpt?.text) throw new Error(`Opção correta para questão ${currentQuestionIndex} não encontrada.`);
         const correctTxt = correctOpt.text;
         const isCorrect = (selTxt === correctTxt);
-        if (isCorrect) score++;
+
+        // Incrementar score com pontos calculados
+        if (isCorrect) {
+            score += currentPointsPerQuestion;
+            console.log(`Score atualizado por ${currentPointsPerQuestion}. Novo score: ${Math.round(score)}`);
+        }
 
         const allFrames = elements.answerOptionsElement ? Array.from(elements.answerOptionsElement.querySelectorAll('.option-frame')) : [];
         let correctFrame = null;
@@ -483,9 +548,9 @@ function confirmAnswer(elements) {
         });
         console.log('confirmAnswer: Cores e disabled aplicados.');
 
-        updateScoreDisplay(elements);
+        updateScoreDisplay(elements); // Atualiza exibição da pontuação parcial
         saveGameState();
-        if (elements.scoreContainer) elements.scoreContainer.classList.remove('hide');
+        if (elements.scoreContainer) elements.scoreContainer.classList.remove('hide'); // Mostra pontuação após primeira resposta
 
         if (isCorrect) {
             console.log('confirmAnswer: Resposta CORRETA. Iniciando expansão...');
@@ -558,16 +623,122 @@ function showResults(elements) {
     if(elements.messageArea)clearMessage(elements.messageArea);
     if(!elements.resultContainer){console.error("No result container!");if(elements.scoreContainer)elements.scoreContainer.classList.remove('hide');updateScoreDisplay(elements);return;}
     elements.resultContainer.classList.remove('hide');
-    if(elements.scoreContainer)elements.scoreContainer.classList.remove('hide');
-    const finalScore=calculateFinalScoreString(); const totalQ=quizData.length;
-    elements.resultContainer.innerHTML=`<h2>Quiz '${quizConfig.theme||'Quiz'}' Finalizado!</h2><p>Acertos: <strong>${score}</strong> de <strong>${totalQ}</strong>.</p><p>Pontuação: <strong>${finalScore}</strong></p><button id="choose-another-theme-btn" class="control-btn back-btn" style="background-color:#007bff;color:white;">Jogar Novamente</button>`;
-    const btn=document.getElementById('choose-another-theme-btn'); if(btn){btn.addEventListener('click',()=>{if(elements.resultContainer)elements.resultContainer.classList.add('hide'); if(elements.scoreContainer)elements.scoreContainer.classList.add('hide'); showThemeSelectionScreen(elements);});}else console.error("#choose-another-theme-btn não encontrado.");
-    updateScoreDisplay(elements);
+    if(elements.scoreContainer)elements.scoreContainer.classList.remove('hide'); // Garante que o score final seja visível
+
+    const totalQPlayed = quizData.length;
+    let finalScoreString = "";
+    let correctAnswers = 0; // Precisamos calcular acertos
+
+    if (quizConfig.scoring === "percentage") {
+        // Se score acumula pontos, recalcula acertos baseado em pontos por questão
+        correctAnswers = (currentPointsPerQuestion > 0) ? Math.round(score / currentPointsPerQuestion) : 0;
+        const percentage = totalQPlayed > 0 ? Math.round((correctAnswers / totalQPlayed) * 100) : 0;
+        finalScoreString = `Percentual: <strong>${percentage}%</strong>`;
+
+    } else { // Modo "points"
+        // Calcula máximo para este quiz
+        const totalConfigPoints = quizConfig.totalPoints || 0;
+        const totalQuizQuestions = fullQuizData.length;
+        const maxPointsForThisQuiz = (totalQuizQuestions > 0 && totalQPlayed > 0)
+            ? Math.round(totalConfigPoints * (totalQPlayed / totalQuizQuestions))
+            : Math.round(totalQPlayed * currentPointsPerQuestion); // Fallback
+
+        const finalScoreValue = Math.round(score);
+        finalScoreString = `Pontuação: <strong>${finalScoreValue} / ${maxPointsForThisQuiz}</strong> pontos.`;
+        // Calcula acertos
+        correctAnswers = (currentPointsPerQuestion > 0) ? Math.round(score / currentPointsPerQuestion) : 0;
+    }
+
+    elements.resultContainer.innerHTML = `<h2>Quiz '${quizConfig.theme || 'Quiz'}' Finalizado!</h2>
+                                         <p>Acertos: <strong>${correctAnswers}</strong> de <strong>${totalQPlayed}</strong>.</p>
+                                         <p>${finalScoreString}</p>
+                                         <button id="choose-another-theme-btn" class="control-btn back-btn" style="background-color:#007bff;color:white;">Jogar Novamente</button>`;
+
+    const btn = document.getElementById('choose-another-theme-btn');
+    if (btn) {
+        btn.addEventListener('click', () => {
+            if (elements.resultContainer) elements.resultContainer.classList.add('hide');
+            if (elements.scoreContainer) elements.scoreContainer.classList.add('hide');
+            showThemeSelectionScreen(elements);
+        });
+    } else console.error("#choose-another-theme-btn não encontrado.");
+
+    updateScoreDisplay(elements); // Atualiza a exibição final do score no #score-container
 }
 
-function updateScoreDisplay(elements) { console.log("updateScoreDisplay"); if(!elements.scoreContainer||!elements.pointsDisplayContainer||!elements.percentageDisplayContainer||!elements.scoreValueElement||!elements.scorePercentageElement){console.error("Score elements missing.");return;} if(!quizConfig?.scoring){console.warn("Scoring config missing.");elements.pointsDisplayContainer.classList.add('hide');elements.percentageDisplayContainer.classList.add('hide');elements.scoreContainer.classList.remove('hide');return;} const scoreStr=calculateFinalScoreString(); if(scoreStr==="Erro"||scoreStr==="N/A"){console.warn("Invalid score string.");elements.scoreValueElement.textContent="...";elements.scorePercentageElement.textContent="...";elements.pointsDisplayContainer.classList.add('hide');elements.percentageDisplayContainer.classList.add('hide');elements.scoreContainer.classList.remove('hide');return;} const isPerc=quizConfig.scoring==="percentage"; if(isPerc){elements.scorePercentageElement.textContent=scoreStr.replace('%','');elements.percentageDisplayContainer.classList.remove('hide');elements.pointsDisplayContainer.classList.add('hide');}else{const val=scoreStr.split(' ')[0];elements.scoreValueElement.textContent=val;elements.pointsDisplayContainer.classList.remove('hide');elements.percentageDisplayContainer.classList.add('hide');} elements.scoreContainer.classList.remove('hide'); }
 
-function calculateFinalScoreString() { console.log("calcFinalScoreString"); if(!quizConfig?.scoring||!quizData){return"N/A";} const numQ=quizData.length; if(numQ===0)return"0"; if(typeof score!=='number'||isNaN(score))return"Erro"; let scoreStr="Erro"; try{if(quizConfig.scoring==="percentage"){scoreStr=`${Math.round((score/numQ)*100)}%`;}else{const totPts=quizConfig.totalPoints; const origQ=fullQuizData?.length||quizData.length; let currVal; let totStr=''; if(totPts&&typeof totPts==='number'&&totPts>0&&origQ>0){currVal=Math.round(score*(totPts/origQ));totStr=` / ${totPts}`;}else{currVal=score;totStr=` / ${numQ}`;} const unit= " ponto"+(currVal!==1?"s":""); scoreStr=`${currVal}${totStr}${unit}`;}}catch(e){console.error("Erro calc score:",e);scoreStr="Erro";} return scoreStr; }
+function updateScoreDisplay(elements) {
+    console.log("updateScoreDisplay");
+    if (!elements.scoreContainer || !elements.pointsDisplayContainer || !elements.percentageDisplayContainer || !elements.scoreValueElement || !elements.scorePercentageElement) {
+        console.error("Score elements missing."); return;
+    }
+    if (!quizConfig?.scoring) {
+        console.warn("Scoring config missing.");
+        elements.pointsDisplayContainer.classList.add('hide');
+        elements.percentageDisplayContainer.classList.add('hide');
+        elements.scoreContainer.classList.remove('hide'); // Mostra o container vazio? Ou esconde?
+        return;
+    }
+
+    const isPerc = quizConfig.scoring === "percentage";
+
+    if (isPerc) {
+        // Calcula percentual baseado em acertos (recalculados de score)
+        const numQ = quizData.length;
+         let correctAnswers = (currentPointsPerQuestion > 0) ? Math.round(score / currentPointsPerQuestion) : 0;
+        if (numQ > 0) {
+            const percentage = Math.round((correctAnswers / numQ) * 100);
+            elements.scorePercentageElement.textContent = percentage;
+            elements.percentageDisplayContainer.classList.remove('hide');
+            elements.pointsDisplayContainer.classList.add('hide');
+        } else {
+             elements.scorePercentageElement.textContent = "0";
+        }
+
+    } else { // Modo "points"
+        const totalConfigPoints = quizConfig.totalPoints || 0;
+        const totalQuizQuestions = fullQuizData.length;
+        const questionsPlayed = quizData.length;
+        const maxPointsForThisQuiz = (totalQuizQuestions > 0 && questionsPlayed > 0)
+            ? Math.round(totalConfigPoints * (questionsPlayed / totalQuizQuestions))
+            : Math.round(questionsPlayed * currentPointsPerQuestion);
+
+        const currentScoreRounded = Math.round(score);
+
+        elements.scoreValueElement.textContent = `${currentScoreRounded} / ${maxPointsForThisQuiz}`;
+        elements.pointsDisplayContainer.classList.remove('hide');
+        elements.percentageDisplayContainer.classList.add('hide');
+    }
+    elements.scoreContainer.classList.remove('hide');
+}
+
+
+function calculateFinalScoreString() {
+    // Esta função ficou mais simples, apenas retorna a pontuação ou percentual formatado para o resultado final
+    // A lógica de cálculo do MÁXIMO foi movida para updateScoreDisplay e showResults
+    console.log("calcFinalScoreString (simplificada)");
+     if (!quizConfig?.scoring || !quizData) { return "N/A"; }
+     const numQ = quizData.length;
+     if (numQ === 0) return "0";
+     if (typeof score !== 'number' || isNaN(score)) return "Erro";
+
+     let scoreStr = "Erro";
+     try {
+         if (quizConfig.scoring === "percentage") {
+              let correctAnswers = (currentPointsPerQuestion > 0) ? Math.round(score / currentPointsPerQuestion) : 0;
+             scoreStr = `${Math.round((correctAnswers / numQ) * 100)}%`;
+         } else { // "points"
+            // A string completa "X / Y pontos" é montada em showResults
+            // Aqui podemos retornar só o valor, ou a string completa se preferir centralizar
+             scoreStr = `${Math.round(score)} pontos`; // Retorna só o valor acumulado (arredondado)
+         }
+     } catch (e) {
+         console.error("Erro calc score:", e);
+         scoreStr = "Erro";
+     }
+     return scoreStr;
+}
+
 
 function showMessage(messageAreaElement, message, duration = 3000, isError = true, useSpecificTimeout = false) { if(!(messageAreaElement instanceof Element)){console.warn("showMessage: Elem inválido.");return;} let timeoutVar=useSpecificTimeout?countMessageTimeout:messageTimeout; const setter=(nT)=>{if(useSpecificTimeout)countMessageTimeout=nT;else messageTimeout=nT;}; if(timeoutVar){clearTimeout(timeoutVar);setter(null);} messageAreaElement.textContent=message; messageAreaElement.className='message-area'; messageAreaElement.classList.add(isError?'error':'success'); messageAreaElement.classList.remove('hide'); const nTID=setTimeout(()=>{messageAreaElement.classList.add('hide');messageAreaElement.textContent='';messageAreaElement.classList.remove('error','success');setter(null);},duration); setter(nTID); }
 
@@ -639,6 +810,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if(newYesBtn) {
             newYesBtn.onclick = () => {
                 elements.resumePromptContainer.classList.add('hide');
+                // A função resumeGame agora tenta recalcular pontos por questão
                 resumeGame(savedState, elements);
             };
         } else { console.error("#resume-yes-btn não encontrado após clonagem"); }
@@ -687,7 +859,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
         elements.finishBtn.addEventListener('click', () => {
             console.log("'Finalizar Quiz' clicado.");
-            const currentScoreString = calculateFinalScoreString();
+            // A pontuação exibida na confirmação será calculada agora com base no estado atual
+             const totalConfigPoints = quizConfig.totalPoints || 0;
+             const totalQuizQuestions = fullQuizData.length;
+             const questionsPlayed = quizData.length;
+             const maxPointsForThisQuiz = (totalQuizQuestions > 0 && questionsPlayed > 0)
+                 ? Math.round(totalConfigPoints * (questionsPlayed / totalQuizQuestions))
+                 : Math.round(questionsPlayed * currentPointsPerQuestion);
+             const currentScoreRounded = Math.round(score);
+             const currentScoreString = `${currentScoreRounded} / ${maxPointsForThisQuiz} pontos`; // Formato para confirmação
+
             const isReallyLastQuestion = currentQuestionIndex >= quizData.length - 1;
             let confirmationMessage = `Tem certeza que deseja finalizar o quiz agora?`;
 
