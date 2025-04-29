@@ -1,0 +1,149 @@
+{
+    "config": {
+      "theme": "Star Wars",
+      "totalPoints": 1000,
+      "scoring": "points"
+    },
+    "data": [
+      {
+        "question": "Qual é o nome da arma gigante do Império que destrói planetas, vista em 'Uma Nova Esperança'?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Estrela Negra",
+            "isCorrect": false,
+            "explanation": "Nããão, Estrela Negra é um termo errado! Tente o nome certo da estação que faz 'pew' em planetas!"
+          },
+          {
+            "text": "Estrela da Morte",
+            "isCorrect": true,
+            "explanation": "Que a Força esteja com você! A Estrela da Morte, vista em 'Uma Nova Esperança' (1977), é a arma do Império que pulveriza planetas como Alderaan. Luke a destruiu com um tiro preciso. Parabéns, piloto rebelde!",
+            "imageUrl": "https://lumiere-a.akamaihd.net/v1/images/databank_deathstar_01_169_6f316d0e.jpeg",
+            "imageDescription": "Imagem da Estrela da Morte, uma esfera cinza com um superlaser verde, flutuando no espaço, simbolizando o poder do Império em Star Wars."
+          },
+          {
+            "text": "Base Starkiller",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! Starkiller é de 'O Despertar da Força', bem mais tarde. Tente a arma clássica de 1977!"
+          },
+          {
+            "text": "Executor",
+            "isCorrect": false,
+            "explanation": "Nããão, Executor é o cruzador de Darth Vader! Tente a estação esférica que destrói planetas!"
+          }
+        ]
+      },
+      {
+        "question": "Qual personagem, um contrabandista, é o capitão da Millennium Falcon?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Lando Calrissian",
+            "isCorrect": false,
+            "explanation": "Nããão, Lando é amigo, mas não o dono original! Tente o cara com colete e um wookiee como copiloto!"
+          },
+          {
+            "text": "Han Solo",
+            "isCorrect": true,
+            "explanation": "Você é rápido como a Falcon! Han Solo, o contrabandista mais charmoso da galáxia, pilota a Millennium Falcon com Chewbacca, enfrentando o Império e fazendo o Corredor de Kessel em 12 parsecs. Parabéns, canalha adorável!",
+            "imageUrl": "https://lumiere-a.akamaihd.net/v1/images/databank_hansolo_01_169_7b52a4a4.jpeg",
+            "imageDescription": "Imagem de Han Solo com seu blaster, em frente à Millennium Falcon, com um fundo estelar, representando seu papel em Star Wars."
+          },
+          {
+            "text": "Boba Fett",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! Boba Fett é caçador de recompensas, não piloto da Falcon. Tente o contrabandista mais famoso!"
+          },
+          {
+            "text": "Luke Skywalker",
+            "isCorrect": false,
+            "explanation": "Nããão, Luke pilota X-Wings, não a Falcon! Tente o cara que deve dinheiro a Jabba!"
+          }
+        ]
+      },
+      {
+        "question": "Qual planeta desértico, com dois sóis, é o lar de Luke Skywalker em 'Uma Nova Esperança'?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Hoth",
+            "isCorrect": false,
+            "explanation": "Nããão, Hoth é o planeta gelado de 'O Império Contra-Ataca'! Tente um lugar mais quente e arenoso!"
+          },
+          {
+            "text": "Tatooine",
+            "isCorrect": true,
+            "explanation": "Você é um fazendeiro de umidade! Tatooine, o planeta desértico com dois sóis, é onde Luke Skywalker cresce, sonhando com aventuras. De Jawas a banthas, é o canto mais empoeirado da galáxia. Parabéns, Jedi!",
+            "imageUrl": "https://lumiere-a.akamaihd.net/v1/images/databank_tatooine_01_169_6cd7d756.jpeg",
+            "imageDescription": "Imagem de Tatooine com seus dois sóis no horizonte, dunas de areia e uma fazenda de umidade, cenário clássico de Star Wars."
+          },
+          {
+            "text": "Naboo",
+            "isCorrect": false,
+            "explanarion": "Quase, mas não! Naboo é o planeta verde de Padmé. Tente algo mais seco e com droides à venda!"
+          },
+          {
+            "text": "Coruscant",
+            "isCorrect": false,
+            "explanation": "Nããão, Coruscant é a cidade-planeta! Tente o deserto onde Luke olha os sóis!"
+          }
+        ]
+      },
+      {
+        "question": "Qual mestre Jedi treina Luke Skywalker em 'O Império Contra-Ataca' no planeta Dagobah?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Obi-Wan Kenobi",
+            "isCorrect": false,
+            "explanation": "Nããão, Obi-Wan começa o treinamento, mas não em Dagobah! Tente um Jedi mais velho, pequeno e verde!"
+          },
+          {
+            "text": "Yoda",
+            "isCorrect": true,
+            "explanation": "Forte com a Força, você é! Yoda, o mestre Jedi, treina Luke em Dagobah em 'O Império Contra-Ataca', ensinando sabedoria e a levantar X-Wings com a mente. 'Fazer ou não fazer, tentar não há!' Parabéns, padawan!",
+            "imageUrl": "https://lumiere-a.akamaihd.net/v1/images/databank_yoda_01_169_7f8b6ac8.jpeg",
+            "imageDescription": "Imagem de Yoda em Dagobah, com sua bengala e expressão sábia, em um pântano verde, representando seu treinamento de Luke em Star Wars."
+          },
+          {
+            "text": "Qui-Gon Jinn",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! Qui-Gon treina Anakin, não Luke. Tente o Jedi que vive num pântano!"
+          },
+          {
+            "text": "Mace Windu",
+            "isCorrect": false,
+            "explanation": "Nããão, Mace Windu é do Conselho Jedi, não treina Luke! Tente o mestre mais sábio e enrugado!"
+          }
+        ]
+      },
+      {
+        "question": "Qual batalha espacial, em 'O Retorno do Jedi', resulta na destruição da segunda Estrela da Morte?",
+        "level": "difícil",
+        "options": [
+          {
+            "text": "Batalha de Yavin",
+            "isCorrect": false,
+            "explanation": "Nããão, Yavin é a batalha da primeira Estrela da Morte em 'Uma Nova Esperança'! Tente a batalha com uma armadilha imperial!"
+          },
+          {
+            "text": "Batalha de Endor",
+            "isCorrect": true,
+            "explanation": "Você é um almirante rebelde! A Batalha de Endor, em 'O Retorno do Jedi', vê a Aliança Rebelde e Ewoks derrotarem o Império, destruindo a segunda Estrela da Morte. Lando pilotou a Falcon no golpe final. Parabéns, herói galáctico!",
+            "imageUrl": "https://lumiere-a.akamaihd.net/v1/images/databank_battleofendor_01_169_5e5b5b7a.jpeg",
+            "imageDescription": "Imagem da Batalha de Endor, com a Millennium Falcon voando entre caças TIE e a segunda Estrela da Morte explodindo, capturando a vitória rebelde em Star Wars."
+          },
+          {
+            "text": "Batalha de Hoth",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! Hoth é uma batalha terrestre em 'O Império Contra-Ataca'. Tente a batalha espacial com Ewoks em terra!"
+          },
+          {
+            "text": "Batalha de Scarif",
+            "isCorrect": false,
+            "explanation": "Nããão, Scarif é de 'Rogue One', não da segunda Estrela da Morte! Tente a batalha com a Falcon no centro!"
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,93 @@
+{
+  "config": {
+    "theme": "Conhecimentos Gerais",
+    "totalPoints": 1000,
+    "scoring": "points"
+  },
+  "data": [
+    {
+      "question": "Qual é a capital da França?",
+      "level":"fácil",
+      "options": [
+        {
+          "text": "Berlim",
+          "isCorrect": false,
+          "explanation": "Nããão, meu amigo! Berlim é a capital da Alemanha, lar do Portão de Brandemburgo e de festanças épicas como a Oktoberfest (ops, essa é em Munique!). A França tem sua própria estrela, e não é essa!"
+        },
+        {
+          "text": "Madri",
+          "isCorrect": false,
+          "explanation": "Ops, errou o país! Madri é a capital da Espanha, onde o flamenco e o Museu do Prado roubam a cena. Na França, a vibe é mais de croissants e romantismo, sabe?"
+        },
+        {
+          "text": "Paris",
+          "isCorrect": true,
+          "explanation": "Acertou em cheio! Paris, a Cidade Luz, é onde a Torre Eiffel brilha, o Louvre guarda a Mona Lisa e os cafés servem croissants que fazem você sonhar. Viva la France!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Paris_-_Eiffel_Tower.jpg/1200px-Paris_-_Eiffel_Tower.jpg",
+          "imageDescription": "Imagem da Torre Eiffel iluminada à noite em Paris, um marco icônico da capital francesa."
+        },
+        {
+          "text": "Roma",
+          "isCorrect": false,
+          "explanation": "Quase, mas não! Roma é a capital da Itália, cheia de história com o Coliseu e pratos de carbonara de dar água na boca. A França tem outra joia, e você já sabe qual é!"
+        }
+      ]
+    },
+    {
+      "question": "Qual oceano é o maior do mundo?",
+      "level":"fácil",
+      "options": [
+        {
+          "text": "Atlântico",
+          "isCorrect": false,
+          "explanation": "Não, não! O Atlântico é grandão, mas é o vice-campeão. Ele foi a estrada das Grandes Navegações, mas tem um irmão maior que manda na parada!"
+        },
+        {
+          "text": "Índico",
+          "isCorrect": false,
+          "explanation": "Tá viajando! O Índico é o terceiro maior, com suas águas quentes e monções que fazem a festa na Ásia. Mas o maior mesmo é outro, bem mais vasto!"
+        },
+        {
+          "text": "Ártico",
+          "isCorrect": false,
+          "explanation": "Brrr, frio demais! O Ártico é o menor e mais gelado, coberto de gelo no Polo Norte. O maior oceano é bem mais quente e gigantesco, acredite!"
+        },
+        {
+          "text": "Pacífico",
+          "isCorrect": true,
+          "explanation": "Bingo! O Oceano Pacífico é o rei dos mares, cobrindo 30% do planeta e escondendo a Fossa das Marianas, tão profunda que faz o Everest parecer uma colina. Navegou direitinho!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Pacific_Ocean_%2827706620763%29.jpg/1200px-Pacific_Ocean_%2827706620763%29.jpg",
+          "imageDescription": "Imagem do Oceano Pacífico com águas azuis brilhantes e horizonte amplo, capturando sua vasta extensão."
+        }
+      ]
+    },
+    {
+      "question": "Em que ano o homem pisou na Lua pela primeira vez?",
+      "level":"médio",
+      "options": [
+        {
+          "text": "1965",
+          "isCorrect": false,
+          "explanation": "Quase na órbita, mas não! Em 1965, os EUA estavam no Projeto Gemini, aquecendo os motores para a Apollo. A Lua veio depois, num momento épico!"
+        },
+        {
+          "text": "1969",
+          "isCorrect": true,
+          "explanation": "Você é um astronauta nato! Em 20 de julho de 1969, Neil Armstrong (Apollo 11) deu aquele 'pequeno passo' que virou um salto gigante para a humanidade. E a bandeira tremulou na Lua!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Apollo_11_first_step.jpg/1200px-Apollo_11_first_step.jpg",
+          "imageDescription": "Imagem de Neil Armstrong pisando na Lua em 1969, capturando o momento histórico da missão Apollo 11."
+        },
+        {
+          "text": "1972",
+          "isCorrect": false,
+          "explanation": "Ops, passou da órbita! 1972 foi a última viagem à Lua com a Apollo 17, mas o primeiro passo veio antes. Vamos ajustar o foguete!"
+        },
+        {
+          "text": "1959",
+          "isCorrect": false,
+          "explanation": "Nossa, voltou no tempo! Em 1959, a sonda soviética Luna 2 chegou à Lua, mas sem humanos. O grande momento foi uma década depois!"
+        }
+      ]
+    }
+  ]
+}

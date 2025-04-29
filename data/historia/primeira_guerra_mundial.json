@@ -1,0 +1,149 @@
+{
+    "config": {
+        "theme": "Primeira Guerra Mundial",
+        "totalPoints": 1000,
+        "scoring": "points"
+    },
+    "data": [
+        {
+            "question": "Qual evento de 1914 desencadeou a Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Invasão da Polônia",
+                    "isCorrect": false,
+                    "explanation": "Nããão, tá na guerra errada! A invasão da Polônia foi em 1939, estopim da Segunda Guerra. A Primeira começou com algo bem mais... dramático e inesperado!"
+                },
+                {
+                    "text": "Assassinato de Franz Ferdinand",
+                    "isCorrect": true,
+                    "explanation": "Kaboom, acertou! O assassinato do arquiduque Franz Ferdinand, em 28 de junho de 1914, em Sarajevo, por Gavrilo Princip, foi a faísca que botou fogo nas alianças europeias, começando a Primeira Guerra. Um tiro que ecoou pelo mundo!",
+                    "imageUrl": "https://www.history.com/.image/t_share/MTU3ODc5MDgyNjM4NzYwNzQ3/archduke-franz-ferdinand.jpg",
+                    "imageDescription": "Imagem histórica do arquiduque Franz Ferdinand e sua esposa Sophie em Sarajevo, pouco antes do assassinato que desencadeou a Primeira Guerra Mundial."
+                },
+                {
+                    "text": "Revolução Russa",
+                    "isCorrect": false,
+                    "explanation": "Ops, errou o ano! A Revolução Russa foi em 1917, no meio da guerra. O estopim da Primeira Guerra foi algo bem mais... explosivo e nobre!"
+                },
+                {
+                    "text": "Tratado de Versalhes",
+                    "isCorrect": false,
+                    "explanation": "Nããão, tá no fim da história! O Tratado de Versalhes, de 1919, encerrou a guerra. O começo foi com um evento bem mais trágico e caótico!"
+                }
+            ]
+        },
+        {
+            "question": "Qual era o nome do sistema de fortificações onde soldados lutavam em condições brutais durante a Primeira Guerra?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Muralha de Berlim",
+                    "isCorrect": false,
+                    "explanation": "Nããão, tá no século errado! A Muralha de Berlim é da Guerra Fria, anos 60. Na Primeira Guerra, a luta era em algo bem mais lamacento e perigoso!"
+                },
+                {
+                    "text": "Trincheiras",
+                    "isCorrect": true,
+                    "explanation": "Bingo, soldado! As trincheiras foram o palco da Primeira Guerra, onde soldados viviam em buracos lamacentos, enfrentando tiros, frio e até ratos. Um pesadelo que virou símbolo do conflito. Você merece uma medalha!",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero/public/2020-07/trench-warfare.jpg",
+                    "imageDescription": "Imagem de soldados em uma trincheira lamacenta durante a Primeira Guerra Mundial, com equipamentos e arames farpados ao fundo, mostrando as condições brutais."
+                },
+                {
+                    "text": "Maginot Line",
+                    "isCorrect": false,
+                    "explanation": "Quase, mas não! A Linha Maginot foi construída pela França após a Primeira Guerra, para a Segunda. Na Primeira, o negócio era mais... improvisado e sujo!"
+                },
+                {
+                    "text": "Grande Muralha",
+                    "isCorrect": false,
+                    "explanation": "Nããão, viajou pra China! A Grande Muralha é de séculos atrás e não tem nada a ver com 1914. Tente algo mais europeu e enlameado!"
+                }
+            ]
+        },
+        {
+            "question": "Qual país saiu da Primeira Guerra Mundial em 1917 após a Revolução Bolchevique?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Alemanha",
+                    "isCorrect": false,
+                    "explanation": "Nããão, a Alemanha ficou até o fim! Eles lutaram até 1918, quando assinaram o armistício. Outro país teve uma revolução que mudou tudo antes disso!"
+                },
+                {
+                    "text": "Rússia",
+                    "isCorrect": true,
+                    "explanation": "Viva, camarada! A Rússia saiu da Primeira Guerra em 1917 após a Revolução Bolchevique, que derrubou o czar e levou ao Tratado de Brest-Litovsk com a Alemanha. Lenin e cia. disseram 'tchau' ao front e focaram na revolução!",
+                    "imageUrl": "https://www.historyextra.com/wp-content/uploads/2020/10/russian-revolution.jpg",
+                    "imageDescription": "Imagem de uma multidão durante a Revolução Bolchevique de 1917, com bandeiras vermelhas e soldados, marcando a saída da Rússia da Primeira Guerra."
+                },
+                {
+                    "text": "França",
+                    "isCorrect": false,
+                    "explanation": "Non, non, non! A França lutou até o final, defendendo suas trincheiras com unhas e dentes. Outro país teve um caos interno que o tirou do jogo!"
+                },
+                {
+                    "text": "Itália",
+                    "isCorrect": false,
+                    "explanation": "Nada disso! A Itália ficou na guerra, mesmo com suas batalhas duras nos Alpes. Tente um país com uma revolução vermelha no currículo!"
+                }
+            ]
+        },
+        {
+            "question": "Qual batalha de 1916, uma das mais sangrentas da Primeira Guerra, foi travada na França e durou meses com milhões de baixas?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Batalha de Stalingrado",
+                    "isCorrect": false,
+                    "explanation": "Nããão, tá na Segunda Guerra! Stalingrado foi em 1942-43, um inferno na neve. A Primeira Guerra teve sua própria carnificina, bem mais cedo!"
+                },
+                {
+                    "text": "Batalha do Somme",
+                    "isCorrect": true,
+                    "explanation": "Você é um historiador de trincheira! A Batalha do Somme, em 1916, foi um massacre na França, com mais de 1 milhão de baixas em meses de luta. Tanques apareceram pela primeira vez, mas a lama e o sangue marcaram a história. Parabéns, general!",
+                    "imageUrl": "https://www.nam.ac.uk/sites/default/files/2020-07/battle-of-the-somme.jpg",
+                    "imageDescription": "Imagem de soldados britânicos avançando na Batalha do Somme, com fumaça e arames farpados, retratando a intensidade do conflito de 1916."
+                },
+                {
+                    "text": "Batalha de Waterloo",
+                    "isCorrect": false,
+                    "explanation": "Ops, voltou um século! Waterloo foi em 1815, com Napoleão. A Primeira Guerra teve batalhas mais modernas, com metralhadoras e tudo!"
+                },
+                {
+                    "text": "Batalha de Gallipoli",
+                    "isCorrect": false,
+                    "explanation": "Quase, mas não! Gallipoli, em 1915, foi um desastre na Turquia. A batalha que queremos é na França, com meses de carnificina!"
+                }
+            ]
+        },
+        {
+            "question": "Qual arma inovadora, usada amplamente na Primeira Guerra, causava terror com ataques químicos letais?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Metralhadora",
+                    "isCorrect": false,
+                    "explanation": "Nããão, as metralhadoras eram mortais, mas não químicas! Elas cuspiam balas sem parar, mudando a guerra, mas o terror que buscamos é mais... gasoso!"
+                },
+                {
+                    "text": "Gás venenoso",
+                    "isCorrect": true,
+                    "explanation": "Respire fundo... e acertou! O gás venenoso, como cloro e mostarda, foi usado na Primeira Guerra, causando pânico nas trincheiras. Máscaras de gás viraram moda, mas o medo era real. Você sobreviveu a esse ataque químico!",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero/public/2020-07/gas-attack.jpg",
+                    "imageDescription": "Imagem de soldados usando máscaras de gás em uma trincheira durante a Primeira Guerra Mundial, protegendo-se de um ataque de gás venenoso."
+                },
+                {
+                    "text": "Tanque",
+                    "isCorrect": false,
+                    "explanation": "Quase, mas não! Tanques eram novidade, esmagando arames farpados, mas não químicos. Tente algo mais invisível e assustador!"
+                },
+                {
+                    "text": "Submarino",
+                    "isCorrect": false,
+                    "explanation": "Nããão, tá no mar! Submarinos, como os U-boats, afundavam navios, mas o terror químico era em terra. Tente algo que flutua no ar!"
+                }
+            ]
+        }
+    ]
+}

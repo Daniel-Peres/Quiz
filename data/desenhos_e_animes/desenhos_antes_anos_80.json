@@ -1,0 +1,149 @@
+{
+    "config": {
+      "theme": "Desenhos Antes dos Anos 80",
+      "totalPoints": 1000,
+      "scoring": "points"
+    },
+    "data": [
+      {
+        "question": "Qual desenho de 1969 mostrava um grupo de jovens e um cachorro desvendando mistérios supostamente sobrenaturais?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Os Flintstones",
+            "isCorrect": false,
+            "explanation": "Nããão, voltou demais no tempo! Os Flintstones são os vizinhos da Idade da Pedra, com carros de pedra e dinossauros de estimação. Nada de mistérios, só risadas pré-históricas!"
+          },
+          {
+            "text": "Scooby-Doo, Where Are You!",
+            "isCorrect": true,
+            "explanation": "Zoinks! Você acertou, detetive! Scooby-Doo, lançado em 1969, traz Fred, Daphne, Velma, Salsicha e o cão Scooby desmascarando vilões em mistérios hilários. Sempre tem um lanche e um 'Ruh-roh' no caminho!",
+            "imageUrl": "https://www.hollywoodreporter.com/wp-content/uploads/2020/05/scooby-doo-hp-publicity-h_2020_.jpg",
+            "imageDescription": "Imagem da turma do Scooby-Doo posando com a Máquina de Mistério, em um estilo colorido que captura o espírito do desenho clássico de 1969."
+          },
+          {
+            "text": "Tom and Jerry",
+            "isCorrect": false,
+            "explanation": "Miau, errou! Tom e Jerry são o gato e rato mais briguentos desde 1940, correndo atrás um do outro. Sem mistérios, só muitas armadilhas e risadas!"
+          },
+          {
+            "text": "The Jetsons",
+            "isCorrect": false,
+            "explanation": "Ops, voou pro futuro! Os Jetsons vivem em 2062 com carros voadores e robôs. Nada de cachorros detetives, mas muita tecnologia e confusão familiar!"
+          }
+        ]
+      },
+      {
+        "question": "Qual desenho de 1960 apresentava uma família vivendo na Idade da Pedra com eletrodomésticos movidos a animais?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Yogi Bear",
+            "isCorrect": false,
+            "explanation": "Nããão, tá no parque errado! O Urso Yogi rouba cestas de piquenique em Jellystone, mas não vive na Idade da Pedra. Tente algo mais... rochoso!"
+          },
+          {
+            "text": "The Flintstones",
+            "isCorrect": true,
+            "explanation": "Yabba Dabba Doo! Acertou na pedra! Os Flintstones, de 1960, são Fred, Wilma, Barney e Betty vivendo em Bedrock com carros de pedra e dinossauros como aspiradores. Um clássico que faz a gente querer um brontossauro de estimação!",
+            "imageUrl": "https://www.cartoonbrew.com/wp-content/uploads/2020/09/flintstones_60th.jpg",
+            "imageDescription": "Imagem dos Flintstones em sua casa de pedra em Bedrock, com Fred e Wilma ao lado de um carro movido a pés, representando o charme pré-histórico do desenho."
+          },
+          {
+            "text": "Top Cat",
+            "isCorrect": false,
+            "explanation": "Miau, errou a gangue! Top Cat, ou Manda-Chuva, é o gato líder de uma turma de rua, tramando golpes em becos. Nada de Idade da Pedra, só jeitinho felino!"
+          },
+          {
+            "text": "The Smurfs",
+            "isCorrect": false,
+            "explanation": "Ops, tá no vilarejo errado! Os Smurfs são azuizinhos vivendo em cogumelos, mas só chegaram em 1981. Antes dos anos 80, a pedida é outra!"
+          }
+        ]
+      },
+      {
+        "question": "Qual personagem de um desenho de 1955 era um cão caçador que tentava capturar um coelho esperto chamado Bugs Bunny?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Daffy Duck",
+            "isCorrect": false,
+            "explanation": "Nããão, tá quack demais! Daffy Duck é o pato maluco que às vezes briga com Bugs, mas não é caçador. Ele prefere roubar a cena do que a toca do coelho!"
+          },
+          {
+            "text": "Elmer Fudd",
+            "isCorrect": true,
+            "explanation": "Be vewy, vewy quiet... Você acertou! Elmer Fudd, desde 1955 em Looney Tunes, é o caçador atrapalhado que nunca pega Bugs Bunny, sempre caindo nas armadilhas do coelho mais esperto dos desenhos. Shhh, ele tá caçando wabbits!",
+            "imageUrl": "https://www.looneytunes.com/wp-content/uploads/2020/07/elmer-fudd.jpg",
+            "imageDescription": "Imagem de Elmer Fudd segurando sua espingarda de caça, com seu chapéu característico, em uma cena clássica de Looney Tunes com fundo florestal."
+          },
+          {
+            "text": "Sylvester",
+            "isCorrect": false,
+            "explanation": "Miau, errou! Sylvester é o gato que caça o Tweety, não o Bugs. Ele passa mais tempo caindo de escadas do que correndo atrás de coelhos!"
+          },
+          {
+            "text": "Wile E. Coyote",
+            "isCorrect": false,
+            "explanation": "Bip bip, passou reto! Wile E. Coyote persegue o Papa-Léguas com armadilhas da ACME, mas nunca Bugs. Tente um caçador menos... explosivo!"
+          }
+        ]
+      },
+      {
+        "question": "Qual desenho de 1962 mostrava uma família futurista com carros voadores e uma empregada robô chamada Rosie?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "The Flintstones",
+            "isCorrect": false,
+            "explanation": "Nããão, tá na era errada! Os Flintstones vivem na Idade da Pedra, com dinossauros, não robôs. Tente algo mais... espacial e brilhante!"
+          },
+          {
+            "text": "The Jetsons",
+            "isCorrect": true,
+            "explanation": "Zoom, acertou no futuro! The Jetsons, de 1962, são George, Jane, Judy e Elroy vivendo em Orbit City com carros voadores e Rosie, a empregada robô mais charmosa da galáxia. Um desenho que faz a gente sonhar com teletransportes!",
+            "imageUrl": "https://www.awn.com/sites/default/files/styles/inline_large/public/image/featured/1036069-hanna-barbera-s-jetsons-returns-boomerang.jpg",
+            "imageDescription": "Imagem da família Jetsons em sua casa futurista, com Rosie, a robô, e carros voadores ao fundo, capturando a estética sci-fi dos anos 60."
+          },
+          {
+            "text": "Jonny Quest",
+            "isCorrect": false,
+            "explanation": "Quase, mas é aventura, não futuro! Jonny Quest, de 1964, é sobre um garoto explorador, não uma família high-tech. Sem robôs, mas com muita ação!"
+          },
+          {
+            "text": "Speed Racer",
+            "isCorrect": false,
+            "explanation": "Vruum, errou a pista! Speed Racer, de 1967, é sobre corridas, não famílias futuristas. Tente algo com mais naves e menos volantes!"
+          }
+        ]
+      },
+      {
+        "question": "Qual desenho de 1940, criado por William Hanna e Joseph Barbera, mostrava um gato cinza perseguindo um rato marrom em cenas de comédia física?",
+        "level": "difícil",
+        "options": [
+          {
+            "text": "Bugs Bunny",
+            "isCorrect": false,
+            "explanation": "Nããão, tá no coelho errado! Bugs Bunny é o rei das zoeiras em Looney Tunes, não um gato ou rato. Tente algo com mais miados e queijos!"
+          },
+          {
+            "text": "Tom and Jerry",
+            "isCorrect": true,
+            "explanation": "Miau, acertou na ratoeira! Tom and Jerry, criado em 1940, é a dupla imortal onde Tom, o gato, tenta pegar Jerry, o rato, em perseguições hilárias cheias de bigornas e explosões. Um clássico que nunca envelhece, mesmo sem falas!",
+            "imageUrl": "https://www.hollywoodreporter.com/wp-content/uploads/2021/02/tom_and_jerry_2021.jpg",
+            "imageDescription": "Imagem de Tom, o gato cinza, perseguindo Jerry, o rato marrom, em uma cena dinâmica cheia de objetos voando, típica do humor de Hanna-Barbera."
+          },
+          {
+            "text": "Woody Woodpecker",
+            "isCorrect": false,
+            "explanation": "Pica-pau, errou! Woody Woodpecker é o pássaro maluco que zoa todo mundo, mas não é gato nem rato. Tente uma dupla mais... doméstica!"
+          },
+          {
+            "text": "Droopy",
+            "isCorrect": false,
+            "explanation": "Ops, tá muito calmo! Droopy é o cãozinho de cara triste que sempre vence, mas não persegue ratos. Busque algo com mais correria e miados!"
+          }
+        ]
+      }
+    ]
+  }

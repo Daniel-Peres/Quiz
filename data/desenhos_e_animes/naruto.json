@@ -1,0 +1,2810 @@
+{
+  "config": {
+    "theme": "Naruto",
+    "totalPoints": 1000,
+    "scoring": "points"
+  },
+  "data": [
+    {
+      "question": "Qual é o nome do protagonista da série Naruto?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Sasuke Uchiha",
+          "isCorrect": false,
+          "explanation": "Nããão, Sasuke é o rival emo do protagonista! O herói principal é bem mais barulhento e ama ramen!"
+        },
+        {
+          "text": "Naruto Uzumaki",
+          "isCorrect": true,
+          "explanation": "Acertooou! Naruto Uzumaki é o ninja loiro, hiperativo e sonhador que quer ser Hokage. Ele carrega o poder da Raposa de Nove Caudas e nunca desiste, mesmo quando o ramen acaba!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Naruto_Uzumaki.png",
+          "imageDescription": "Imagem de Naruto Uzumaki com sua bandana de Konoha e jaqueta laranja, sorrindo com confiança."
+        },
+        {
+          "text": "Kakashi Hatake",
+          "isCorrect": false,
+          "explanation": "Não, não! Kakashi é o sensei do time do Naruto, com seu Sharingan e jeito relaxado, mas não o protagonista!"
+        },
+        {
+          "text": "Sakura Haruno",
+          "isCorrect": false,
+          "explanation": "Quase, mas não! Sakura é a kunoichi do Time 7, mas o herói principal é outro, mais loiro e barulhento!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome da vila onde Naruto vive?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Vila da Areia",
+          "isCorrect": false,
+          "explanation": "Nããão, a Vila da Areia é onde o Gaara mora! Naruto vive em outro lugar, cheio de árvores e ramen!"
+        },
+        {
+          "text": "Vila da Névoa",
+          "isCorrect": false,
+          "explanation": "Não, não! A Vila da Névoa é famosa por seus espadachins, como o Zabuza. Naruto tá em outro canto!"
+        },
+        {
+          "text": "Vila da Folha",
+          "isCorrect": true,
+          "explanation": "Mandou bem! A Vila da Folha, ou Konohagakure, é o lar do Naruto, cheia de ninjas, Hokages e uma montanha com rostos esculpidos. É o coração da série!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Konohagakure.png",
+          "imageDescription": "Imagem da Vila da Folha com a Montanha Hokage ao fundo, mostrando os rostos esculpidos dos Hokages."
+        },
+        {
+          "text": "Vila da Nuvem",
+          "isCorrect": false,
+          "explanation": "Quase, mas não! A Vila da Nuvem é de onde vem o Killer Bee. Naruto mora num lugar mais... folhoso!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do monstro selado dentro de Naruto?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Shukaku",
+          "isCorrect": false,
+          "explanation": "Nããão, Shukaku é o bijuu do Gaara, com uma cauda! O monstro do Naruto é bem mais poderoso e caótico!"
+        },
+        {
+          "text": "Kurama",
+          "isCorrect": true,
+          "explanation": "Acertooou! Kurama, a Raposa de Nove Caudas, é o bijuu selado no Naruto. Ele é um monstro gigante, mas acaba virando um grande amigo (depois de muito gritar)!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Kurama.png",
+          "imageDescription": "Imagem de Kurama, a Raposa de Nove Caudas, com olhos vermelhos e chakra ardente, em fundo escuro."
+        },
+        {
+          "text": "Gyuki",
+          "isCorrect": false,
+          "explanation": "Não, não! Gyuki é o Oito Caudas do Killer Bee. O bijuu do Naruto tem mais caudas e um temperamento pior!"
+        },
+        {
+          "text": "Matatabi",
+          "isCorrect": false,
+          "explanation": "Quase, mas não! Matatabi é o Duas Caudas. O monstro do Naruto é o rei dos bijuus!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do sensei do Time 7, liderado por Naruto, Sasuke e Sakura?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Jiraiya",
+          "isCorrect": false,
+          "explanation": "Nããão, Jiraiya é o mestre do Naruto mais tarde! O sensei do Time 7 é outro, mais misterioso e sempre atrasado!"
+        },
+        {
+          "text": "Kakashi Hatake",
+          "isCorrect": true,
+          "explanation": "Mandou bem! Kakashi Hatake, o ninja copiador, é o sensei do Time 7, guiando Naruto, Sasuke e Sakura com seu Sharingan e um livro que nunca explica. Ele é o rei do 'tô atrasado'!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Kakashi_Hatake.png",
+          "imageDescription": "Imagem de Kakashi Hatake com sua máscara e Sharingan ativado, segurando um livro, em fundo de Konoha."
+        },
+        {
+          "text": "Asuma Sarutobi",
+          "isCorrect": false,
+          "explanation": "Não, não! Asuma é o sensei do Time 10, com Shikamaru e cia. O Time 7 tem um líder mais... enigmático!"
+        },
+        {
+          "text": "Might Guy",
+          "isCorrect": false,
+          "explanation": "Quase, mas não! Might Guy lidera o time do Rock Lee. O sensei do Time 7 é mais calmo (e lê umas coisas estranhas)!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do clã de Sasuke Uchiha?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Clã Uzumaki",
+          "isCorrect": false,
+          "explanation": "Nããão, Uzumaki é o clã do Naruto! Sasuke vem de um clã mais sombrio e com olhos especiais!"
+        },
+        {
+          "text": "Clã Uchiha",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Clã Uchiha é a casa do Sasuke, famoso pelo Sharingan e por seus ninjas habilidosos (e um pouco vingativos). É um clã com história pesada e muito fogo!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Uchiha_Clan.png",
+          "imageDescription": "Imagem do símbolo do Clã Uchiha, um leque vermelho e branco, representando seu poder e legado."
+        },
+        {
+          "text": "Clã Hyuga",
+          "isCorrect": false,
+          "explanation": "Não, não! Hyuga é o clã da Hinata, com o Byakugan. Sasuke pertence a outro clã, mais flamejante!"
+        },
+        {
+          "text": "Clã Senju",
+          "isCorrect": false,
+          "explanation": "Quase, mas não! Senju é o clã rival dos Uchiha. Sasuke é de um clã com olhos vermelhos!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de clonagem usado por Naruto?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Bunshin no Jutsu",
+          "isCorrect": false,
+          "explanation": "Nããão, Bunshin cria ilusões simples! Naruto usa algo mais avançado, com clones de verdade!"
+        },
+        {
+          "text": "Kage Bunshin no Jutsu",
+          "isCorrect": true,
+          "explanation": "Mandou bem! O Kage Bunshin no Jutsu é o jutsu de clonagem do Naruto, criando clones reais que lutam e até pensam. Ele usa isso pra tudo, desde lutar até estudar (ou fazer bagunça)!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Kage_Bunshin_no_Jutsu.png",
+          "imageDescription": "Imagem de Naruto cercado por vários clones de sombra, todos em pose de combate, com fundo de Konoha."
+        },
+        {
+          "text": "Mizu Bunshin no Jutsu",
+          "isCorrect": false,
+          "explanation": "Não, não! Mizu Bunshin é clone de água, usado por outros ninjas. Naruto prefere clones de sombra!"
+        },
+        {
+          "text": "Tsuchi Bunshin no Jutsu",
+          "isCorrect": false,
+          "explanation": "Quase, mas não! Clones de terra não são a praia do Naruto. Ele gosta de encher o campo com clones reais!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do exame que os ninjas fazem para se tornarem Chunin?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Exame Genin",
+          "isCorrect": false,
+          "explanation": "Nããão, Genin é o nível inicial! O exame pra subir de rank é outro, bem mais desafiador!"
+        },
+        {
+          "text": "Exame Chunin",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Exame Chunin é o teste épico onde ninjas como Naruto e Sasuke enfrentam desafios escritos, lutas e até invasões pra provar que merecem subir de nível. É tensão total!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Chunin_Exams.png",
+          "imageDescription": "Imagem do estádio do Exame Chunin, com ninjas lutando e a multidão assistindo, em Konoha."
+        },
+        {
+          "text": "Exame Jonin",
+          "isCorrect": false,
+          "explanation": "Não, não! Jonin é o nível avançado. O exame que Naruto faz é pra um rank intermediário!"
+        },
+        {
+          "text": "Exame Hokage",
+          "isCorrect": false,
+          "explanation": "Quase, mas não! Hokage não tem exame, é mais uma questão de ser lendário. O exame certo é outro!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do líder da Vila da Folha?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Kazekage",
+          "isCorrect": false,
+          "explanation": "Nããão, Kazekage é o líder da Vila da Areia! O líder da Vila da Folha tem outro título!"
+        },
+        {
+          "text": "Hokage",
+          "isCorrect": true,
+          "explanation": "Mandou bem! O Hokage é o líder da Vila da Folha, como o Tsunade, Kakashi e, eventualmente, o próprio Naruto. É o chefe supremo, com direito a chapéu de fogo e tudo!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Hokage_Symbol.png",
+          "imageDescription": "Imagem do chapéu de Hokage com o símbolo da Vila da Folha, representando o líder da vila."
+        },
+        {
+          "text": "Mizukage",
+          "isCorrect": false,
+          "explanation": "Não, não! Mizukage é o líder da Vila da Névoa. O líder da Folha tem um nome mais ardente!"
+        },
+        {
+          "text": "Raikage",
+          "isCorrect": false,
+          "explanation": "Quase, mas não! Raikage é da Vila da Nuvem. O líder da Vila da Folha é outro!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do rival de Naruto no Time 7?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Sakura Haruno",
+          "isCorrect": false,
+          "explanation": "Nããão, Sakura é a colega de time, não rival! O rival do Naruto é bem mais... sério e vingativo!"
+        },
+        {
+          "text": "Sasuke Uchiha",
+          "isCorrect": true,
+          "explanation": "Acertooou! Sasuke Uchiha é o rival do Naruto no Time 7, com seu Sharingan e jeito emo. Eles brigam, lutam e se desafiam, mas no fundo têm um laço que nem o destino quebra!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Sasuke_Uchiha.png",
+          "imageDescription": "Imagem de Sasuke Uchiha com seu Sharingan ativado, em pose séria, com fundo escuro."
+        },
+        {
+          "text": "Kakashi Hatake",
+          "isCorrect": false,
+          "explanation": "Não, não! Kakashi é o sensei, não rival. O rival do Naruto é um colega de time!"
+        },
+        {
+          "text": "Rock Lee",
+          "isCorrect": false,
+          "explanation": "Quase, mas não! Rock Lee é um rival amigável, mas o verdadeiro rival do Naruto é do Time 7!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome da técnica de invocação de sapos de Jiraiya?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Kuchiyose: Gamabunta",
+          "isCorrect": true,
+          "explanation": "Mandou ver! O Kuchiyose: Gamabunta é o jutsu do Jiraiya que invoca o sapo gigante Gamabunta, um chefe rabugento com espada e cachimbo. Ele ajuda em batalhas épicas, mas só se estiver de bom humor!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Gamabunta.png",
+          "imageDescription": "Imagem de Gamabunta, o sapo gigante, com espada e cachimbo, em fundo montanhoso."
+        },
+        {
+          "text": "Kuchiyose: Manda",
+          "isCorrect": false,
+          "explanation": "Nããão, Manda é a cobra do Orochimaru! Jiraiya prefere algo mais saltitante e aquático!"
+        },
+        {
+          "text": "Kuchiyose: Katsuyu",
+          "isCorrect": false,
+          "explanation": "Não, não! Katsuyu é a lesma da Tsunade. Jiraiya invoca um bicho mais... sapoístico!"
+        },
+        {
+          "text": "Kuchiyose: Enma",
+          "isCorrect": false,
+          "explanation": "Quase! Enma é o macaco do Hiruzen. Jiraiya curte sapos, especialmente o grandão!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do time liderado por Kakashi Hatake?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Time 10",
+          "isCorrect": false,
+          "explanation": "Nããão, Time 10 é o do Asuma, com Shikamaru e cia! Kakashi lidera outro grupo, mais famoso!"
+        },
+        {
+          "text": "Time 7",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Time 7 é liderado por Kakashi Hatake, com Naruto, Sasuke e Sakura. É o time mais icônico, cheio de brigas, missões e lições sobre trabalho em equipe (que nem sempre funcionam)!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Team_7.png",
+          "imageDescription": "Imagem do Time 7 com Naruto, Sasuke, Sakura e Kakashi, posando juntos, em fundo de Konoha."
+        },
+        {
+          "text": "Time 8",
+          "isCorrect": false,
+          "explanation": "Não, não! Time 8 é o da Kurenai, com Hinata e cia. Kakashi tem o time mais barulhento!"
+        },
+        {
+          "text": "Time 9",
+          "isCorrect": false,
+          "explanation": "Quase, mas não! Time 9 não existe na série. Kakashi lidera o time com o Naruto!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do dojutsu (técnica ocular) do clã Uchiha?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Byakugan",
+          "isCorrect": false,
+          "explanation": "Nããão, Byakugan é do clã Hyuga! Os Uchiha têm um olho mais... vermelho e giratório!"
+        },
+        {
+          "text": "Sharingan",
+          "isCorrect": true,
+          "explanation": "Mandou bem! O Sharingan é o dojutsu do Clã Uchiha, com olhos vermelhos que copiam jutsus, criam ilusões e assustam qualquer um. É a marca registrada do Sasuke e do Itachi!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Sharingan.png",
+          "imageDescription": "Imagem de um olho Sharingan com três tomoe, brilhando em vermelho, com fundo escuro."
+        },
+        {
+          "text": "Rinnegan",
+          "isCorrect": false,
+          "explanation": "Não, não! Rinnegan é mais raro e ligado ao Sábio dos Seis Caminhos. Os Uchiha têm outro!"
+        },
+        {
+          "text": "Tenseigan",
+          "isCorrect": false,
+          "explanation": "Quase, mas não! Tenseigan aparece em *Boruto*. O dojutsu dos Uchiha é mais clássico!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do primeiro Hokage da Vila da Folha?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Hiruzen Sarutobi",
+          "isCorrect": false,
+          "explanation": "Nããão, Hiruzen é o Terceiro Hokage! O primeiro é bem mais antigo e tem um jeito mais... arborizado!"
+        },
+        {
+          "text": "Hashirama Senju",
+          "isCorrect": true,
+          "explanation": "Acertooou! Hashirama Senju, o Primeiro Hokage, é o fundador da Vila da Folha, famoso por seu Mokuton e por sonhar com a paz. Ele é tão lendário que até as árvores o respeitam!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Hashirama_Senju.png",
+          "imageDescription": "Imagem de Hashirama Senju com seu uniforme de Hokage, sorrindo, em fundo com árvores de Konoha."
+        },
+        {
+          "text": "Tobirama Senju",
+          "isCorrect": false,
+          "explanation": "Não, não! Tobirama é o Segundo Hokage. O primeiro é o irmão mais velho dele!"
+        },
+        {
+          "text": "Minato Namikaze",
+          "isCorrect": false,
+          "explanation": "Quase, mas não! Minato é o Quarto Hokage. O primeiro é de uma era bem mais antiga!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome da organização criminosa que caça os bijuus?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Anbu",
+          "isCorrect": false,
+          "explanation": "Nããão, Anbu é a força especial de Konoha! A organização que caça bijuus é bem mais sombria!"
+        },
+        {
+          "text": "Akatsuki",
+          "isCorrect": true,
+          "explanation": "Mandou ver! A Akatsuki é a organização criminosa que caça os bijuus, com membros como Itachi, Pain e Kisame. Eles usam capas estilosas, mas os planos são puro caos!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Akatsuki.png",
+          "imageDescription": "Imagem do símbolo da Akatsuki, uma nuvem vermelha com borda branca, em fundo escuro."
+        },
+        {
+          "text": "Kara",
+          "isCorrect": false,
+          "explanation": "Não, não! Kara é de *Boruto*. A organização de *Naruto* que quer os bijuus é outra!"
+        },
+        {
+          "text": "Hebi",
+          "isCorrect": false,
+          "explanation": "Quase, mas não! Hebi é o time do Sasuke. A organização criminosa é maior e mais perigosa!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de vento mais poderoso de Naruto?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Futon: Rasengan",
+          "isCorrect": false,
+          "explanation": "Nããão, Rasengan não é de vento puro! Naruto combina vento com algo mais giratório e cortante!"
+        },
+        {
+          "text": "Futon: Rasenshuriken",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Futon: Rasenshuriken é o jutsu de vento supremo do Naruto, uma versão giratória e cortante do Rasengan que destrói tudo. Ele demorou pra dominar, mas valeu cada arranhão!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Futon_Rasenshuriken.png",
+          "imageDescription": "Imagem do Rasenshuriken brilhando com lâminas de vento, lançado por Naruto, em fundo de batalha."
+        },
+        {
+          "text": "Futon: Gale Palm",
+          "isCorrect": false,
+          "explanation": "Não, não! Gale Palm é um jutsu de vento simples. Naruto usa algo bem mais explosivo!"
+        },
+        {
+          "text": "Futon: Kamaitachi",
+          "isCorrect": false,
+          "explanation": "Quase, mas não! Kamaitachi é da Temari. Naruto tem um jutsu de vento mais giratório!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do ninja que usa o Rasengan pela primeira vez na série?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Naruto Uzumaki",
+          "isCorrect": false,
+          "explanation": "Quase! Naruto domina o Rasengan, mas não é o primeiro a usá-lo. Um ninja mais experiente mostra antes!"
+        },
+        {
+          "text": "Minato Namikaze",
+          "isCorrect": true,
+          "explanation": "Mandou bem! Minato Namikaze, o Quarto Hokage, é o criador do Rasengan e o primeiro a usá-lo na série. Ele passa a técnica pro Jiraiya, que ensina o Naruto. É herança ninja!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Minato_Namikaze.png",
+          "imageDescription": "Imagem de Minato Namikaze com um Rasengan brilhando na mão, em fundo de Konoha."
+        },
+        {
+          "text": "Jiraiya",
+          "isCorrect": false,
+          "explanation": "Não, não! Jiraiya usa o Rasengan, mas não é o primeiro. O criador é outro, mais rápido!"
+        },
+        {
+          "text": "Kakashi Hatake",
+          "isCorrect": false,
+          "explanation": "Nããão, Kakashi não usa Rasengan. O primeiro a usar é o mestre da velocidade!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do dojutsu mais poderoso do clã Uchiha?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Sharingan",
+          "isCorrect": false,
+          "explanation": "Nããão, Sharingan é o básico! O dojutsu mais poderoso dos Uchiha é uma evolução bem mais rara!"
+        },
+        {
+          "text": "Mangekyo Sharingan",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Mangekyo Sharingan é a forma avançada do Sharingan, usada por Itachi e Sasuke, com poderes como Amaterasu e Susanoo. É tão forte que cega quem usa demais!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Mangekyo_Sharingan.png",
+          "imageDescription": "Imagem de um olho Mangekyo Sharingan com padrão único, brilhando em vermelho, com fundo escuro."
+        },
+        {
+          "text": "Rinnegan",
+          "isCorrect": false,
+          "explanation": "Não, não! Rinnegan é de outro nível, ligado ao Sábio. O dos Uchiha é uma evolução do Sharingan!"
+        },
+        {
+          "text": "Byakugan",
+          "isCorrect": false,
+          "explanation": "Quase, mas não! Byakugan é dos Hyuga. O dojutsu dos Uchiha é mais vermelho e mortal!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do ninja que enfrenta Naruto na Floresta da Morte?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Sasuke Uchiha",
+          "isCorrect": false,
+          "explanation": "Nããão, Sasuke é do time do Naruto! O ninja que enfrenta ele na Floresta da Morte é bem mais assustador!"
+        },
+        {
+          "text": "Orochimaru",
+          "isCorrect": true,
+          "explanation": "Mandou ver! Orochimaru, o Sannin vilão, enfrenta Naruto (e o Time 7) na Floresta da Morte, durante o Exame Chunin. Ele deixa um selo amaldiçoado no Sasuke e um trauma em todo mundo!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Orochimaru.png",
+          "imageDescription": "Imagem de Orochimaru com sua pele pálida, olhos de cobra e sorriso sinistro, em fundo sombrio."
+        },
+        {
+          "text": "Gaara",
+          "isCorrect": false,
+          "explanation": "Não, não! Gaara aparece depois, no exame. O ninja da Floresta é um vilão mais escamoso!"
+        },
+        {
+          "text": "Zabuza Momochi",
+          "isCorrect": false,
+          "explanation": "Quase, mas não! Zabuza é de outra missão. O inimigo da Floresta é um Sannin!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de selamento usado contra o Dez Caudas?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Fuinjutsu: Shiki Fujin",
+          "isCorrect": false,
+          "explanation": "Nããão, Shiki Fujin é o selo do Ceifador da Morte! O jutsu contra o Dez Caudas é mais cósmico!"
+        },
+        {
+          "text": "Rikudo: Chibaku Tensei",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Rikudo: Chibaku Tensei é o jutsu usado por Naruto e Sasuke, com o poder do Sábio dos Seis Caminhos, pra selar o Dez Caudas numa lua. É o golpe final contra a maior ameaça!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Rikudo_Chibaku_Tensei.png",
+          "imageDescription": "Imagem de Naruto e Sasuke selando o Dez Caudas com o Chibaku Tensei, formando uma lua, em fundo cósmico."
+        },
+        {
+          "text": "Fuinjutsu: Hakke no Fuin",
+          "isCorrect": false,
+          "explanation": "Não, não! Hakke no Fuin é o selo do Kurama no Naruto. O jutsu do Dez Caudas é outro!"
+        },
+        {
+          "text": "Fuinjutsu: Tetsumyaku",
+          "isCorrect": false,
+          "explanation": "Quase, mas não! Esse não existe. O selo do Dez Caudas é mais lendário e celestial!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do ninja que enfrenta Sasuke no Vale do Fim pela primeira vez?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Kakashi Hatake",
+          "isCorrect": false,
+          "explanation": "Nããão, Kakashi não luta com Sasuke no Vale do Fim! O oponente é bem mais próximo e loiro!"
+        },
+        {
+          "text": "Naruto Uzumaki",
+          "isCorrect": true,
+          "explanation": "Mandou bem! Naruto Uzumaki enfrenta Sasuke no Vale do Fim, numa batalha épica que marca o fim da primeira parte da série. É amigo contra amigo, Rasengan contra Chidori, emoção pura!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Naruto_vs_Sasuke.png",
+          "imageDescription": "Imagem de Naruto e Sasuke lutando no Vale do Fim, com Rasengan e Chidori colidindo, em fundo chuvoso."
+        },
+        {
+          "text": "Orochimaru",
+          "isCorrect": false,
+          "explanation": "Não, não! Orochimaru manipula Sasuke, mas não luta ali. O oponente é o rival do Sasuke!"
+        },
+        {
+          "text": "Itachi Uchiha",
+          "isCorrect": false,
+          "explanation": "Quase, mas não! Itachi enfrenta Sasuke depois. No Vale do Fim, é outro ninja!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de ilusão mais poderoso de Itachi Uchiha?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Tsukuyomi",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Tsukuyomi é o genjutsu supremo do Itachi, usado com o Mangekyo Sharingan, que prende a vítima num mundo de tortura mental em segundos. É tão aterrorizante que até o Kakashi tremeu!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Tsukuyomi.png",
+          "imageDescription": "Imagem do mundo do Tsukuyomi, com Itachi e uma vítima em um cenário vermelho e preto, cheio de cruzes."
+        },
+        {
+          "text": "Kotoamatsukami",
+          "isCorrect": false,
+          "explanation": "Quase! Kotoamatsukami é do Shisui, não Itachi. O genjutsu do Itachi é mais cruel!"
+        },
+        {
+          "text": "Izanagi",
+          "isCorrect": false,
+          "explanation": "Nããão, Izanagi altera a realidade, não é ilusão. Itachi usa algo mais mental!"
+        },
+        {
+          "text": "Sharingan Genjutsu",
+          "isCorrect": false,
+          "explanation": "Não, não! Isso é genérico. Itachi tem um genjutsu específico e devastador!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do ninja que enfrenta Gaara na invasão de Konoha?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Naruto Uzumaki",
+          "isCorrect": true,
+          "explanation": "Mandou ver! Naruto Uzumaki enfrenta Gaara durante a invasão de Konoha, numa batalha épica com Gamabunta contra Shukaku. É um duelo de jinchurikis que sacode a vila inteira!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Naruto_Uzumaki.png",
+          "imageDescription": "Imagem de Naruto invocando Gamabunta, enfrentando Gaara, com fundo de floresta destruída."
+        },
+        {
+          "text": "Sasuke Uchiha",
+          "isCorrect": false,
+          "explanation": "Quase! Sasuke luta com Gaara antes, mas na invasão é outro ninja que toma a frente!"
+        },
+        {
+          "text": "Rock Lee",
+          "isCorrect": false,
+          "explanation": "Nããão, Rock Lee enfrenta Gaara no exame, não na invasão. Outro ninja brilha aqui!"
+        },
+        {
+          "text": "Kakashi Hatake",
+          "isCorrect": false,
+          "explanation": "Não, não! Kakashi está ocupado. O ninja que enfrenta Gaara é mais jovem e loiro!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de fogo de Sasuke Uchiha?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Katon: Goukakyuu no Jutsu",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Katon: Goukakyuu no Jutsu é o jutsu de bola de fogo do Sasuke, uma técnica clássica do Clã Uchiha. Ele sopra uma chama gigante que incinera tudo, com aquele jeito sério dele!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Katon_Goukakyuu_no_Jutsu.png",
+          "imageDescription": "Imagem de Sasuke lançando uma bola de fogo gigante com o Goukakyuu, em fundo de batalha."
+        },
+        {
+          "text": "Katon: Hosenka no Jutsu",
+          "isCorrect": false,
+          "explanation": "Quase! Hosenka é um jutsu de fogo menor, com pequenas chamas. O principal do Sasuke é mais grandioso!"
+        },
+        {
+          "text": "Amaterasu",
+          "isCorrect": false,
+          "explanation": "Nããão, Amaterasu é um jutsu de fogo negro do Mangekyo. O jutsu de fogo clássico do Sasuke é outro!"
+        },
+        {
+          "text": "Katon: Zukokku",
+          "isCorrect": false,
+          "explanation": "Não, não! Zukokku é de outro ninja. Sasuke usa uma técnica mais tradicional do clã!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do ninja que treina Naruto para o Rasengan?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Kakashi Hatake",
+          "isCorrect": false,
+          "explanation": "Nããão, Kakashi ensina o Chidori pro Sasuke! O treinador do Rasengan é bem mais... excêntrico e escritor!"
+        },
+        {
+          "text": "Jiraiya",
+          "isCorrect": true,
+          "explanation": "Mandou bem! Jiraiya, o Sannin Lendário, treina Naruto para dominar o Rasengan, usando balões e muita paciência. Ele é o mestre que transforma o Naruto num ninja ainda mais épico!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Jiraiya.png",
+          "imageDescription": "Imagem de Jiraiya com seu pergaminho de invocação, em pose de mestre, com fundo montanhoso."
+        },
+        {
+          "text": "Tsunade",
+          "isCorrect": false,
+          "explanation": "Não, não! Tsunade treina a Sakura. O mestre do Rasengan é outro, mais barbudo e sapófilo!"
+        },
+        {
+          "text": "Minato Namikaze",
+          "isCorrect": false,
+          "explanation": "Quase! Minato criou o Rasengan, mas não treina o Naruto. O treinador é um Sannin!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de cura de Tsunade?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Byakugo no Jutsu",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Byakugo no Jutsu é o jutsu de cura supremo da Tsunade, que armazena chakra na testa pra regenerar feridas e até reviver aliados. É tão forte que ela parece imortal na guerra!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Byakugo_no_Jutsu.png",
+          "imageDescription": "Imagem de Tsunade com o selo de Byakugo brilhando na testa, curando aliados, em fundo de batalha."
+        },
+        {
+          "text": "Shosen Jutsu",
+          "isCorrect": false,
+          "explanation": "Quase! Shosen é um jutsu de cura básico, usado por muitos. Tsunade tem algo mais avançado!"
+        },
+        {
+          "text": "Sozo Saisei",
+          "isCorrect": false,
+          "explanation": "Nããão, Sozo Saisei é parte do Byakugo. O jutsu completo da Tsunade tem outro nome!"
+        },
+        {
+          "text": "Chikatsu Saisei",
+          "isCorrect": false,
+          "explanation": "Não, não! Esse é um jutsu de cura em equipe. Tsunade usa algo mais pessoal e poderoso!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de areia de Gaara?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Suna no Tate",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Suna no Tate é o jutsu de defesa automática do Gaara, onde a areia o protege de ataques. É como ter um guarda-costas arenoso que nunca dorme!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Suna_no_Tate.png",
+          "imageDescription": "Imagem de Gaara com areia flutuando ao seu redor, formando um escudo, em fundo desértico."
+        },
+        {
+          "text": "Suna Shuriken",
+          "isCorrect": false,
+          "explanation": "Quase! Suna Shuriken é um ataque, mas o jutsu mais famoso do Gaara é defensivo!"
+        },
+        {
+          "text": "Suna no Yoroi",
+          "isCorrect": false,
+          "explanation": "Nããão, Suna no Yoroi é a armadura de areia. O jutsu principal é o escudo automático!"
+        },
+        {
+          "text": "Sabaku Kyu",
+          "isCorrect": false,
+          "explanation": "Não, não! Sabaku Kyu é o caixão de areia. O jutsu assinatura do Gaara é outro!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do clã de Hinata Hyuga?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Clã Yamanaka",
+          "isCorrect": false,
+          "explanation": "Nããão, Yamanaka é da Ino! Hinata vem de um clã com olhos brancos e visão especial!"
+        },
+        {
+          "text": "Clã Hyuga",
+          "isCorrect": true,
+          "explanation": "Mandou bem! O Clã Hyuga é a casa da Hinata, famoso pelo Byakugan e pelo estilo de luta Juken. Eles são tão precisos que acertam até os pontos de chakra invisíveis!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Hyuga_Clan.png",
+          "imageDescription": "Imagem do símbolo do Clã Hyuga, representando sua visão e precisão, com fundo claro."
+        },
+        {
+          "text": "Clã Uchiha",
+          "isCorrect": false,
+          "explanation": "Não, não! Uchiha é do Sasuke. Hinata pertence a um clã com olhos bem diferentes!"
+        },
+        {
+          "text": "Clã Uzumaki",
+          "isCorrect": false,
+          "explanation": "Quase! Uzumaki é do Naruto. Hinata é de um clã mais tradicional e visual!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de taijutsu de Rock Lee?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Konoha Senpu",
+          "isCorrect": false,
+          "explanation": "Quase! Konoha Senpu é um chute giratório, mas o jutsu mais marcante do Lee é outro!"
+        },
+        {
+          "text": "Omote Renge",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Omote Renge é o jutsu de taijutsu do Rock Lee, um ataque giratório que usa os Oito Portões pra esmagar o inimigo. Ele brilha com suor, juventude e collant verde!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Omote_Renge.png",
+          "imageDescription": "Imagem de Rock Lee usando o Omote Renge, girando com o inimigo, em fundo dinâmico."
+        },
+        {
+          "text": "Ura Renge",
+          "isCorrect": false,
+          "explanation": "Nããão, Ura Renge é mais avançado e usado depois. O jutsu base do Lee é outro!"
+        },
+        {
+          "text": "Drunken Fist",
+          "isCorrect": false,
+          "explanation": "Não, não! O Punho Bêbado é uma técnica improvisada. O jutsu principal é mais clássico!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do ninja que enfrenta Sakura na Floresta da Morte?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Zaku Abumi",
+          "isCorrect": true,
+          "explanation": "Mandou ver! Zaku Abumi, do Time do Som, enfrenta Sakura na Floresta da Morte, junto com seus aliados. Sakura mostra sua garra, cortando o cabelo e lutando com tudo, mesmo sendo novata!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Zaku_Abumi.png",
+          "imageDescription": "Imagem de Zaku Abumi com seus tubos de ar nos braços, em pose de combate, com fundo de floresta."
+        },
+        {
+          "text": "Orochimaru",
+          "isCorrect": false,
+          "explanation": "Quase! Orochimaru está na Floresta, mas Sakura enfrenta ninjas do time dele primeiro!"
+        },
+        {
+          "text": "Gaara",
+          "isCorrect": false,
+          "explanation": "Nããão, Gaara não enfrenta Sakura na Floresta. Ela encara ninjas do Som!"
+        },
+        {
+          "text": "Dosu Kinuta",
+          "isCorrect": false,
+          "explanation": "Não, não! Dosu está no time, mas o principal contra Sakura é outro ninja do Som!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de manipulação de sombra de Shikamaru Nara?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Kagemane no Jutsu",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Kagemane no Jutsu é a técnica do Shikamaru que prende inimigos usando sombras. Ele combina preguiça com estratégia genial, fazendo o oponente imitar até seus bocejos!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Kagemane_no_Jutsu.png",
+          "imageDescription": "Imagem de Shikamaru conectando sua sombra a um inimigo, com fundo de batalha."
+        },
+        {
+          "text": "Kageyose no Jutsu",
+          "isCorrect": false,
+          "explanation": "Quase! Kageyose é outro jutsu de sombra, mais avançado. O principal é o Kagemane!"
+        },
+        {
+          "text": "Kage Kubi Shibari",
+          "isCorrect": false,
+          "explanation": "Nããão, esse é o estrangulamento por sombra. O jutsu base do Shikamaru é outro!"
+        },
+        {
+          "text": "Kage Nui no Jutsu",
+          "isCorrect": false,
+          "explanation": "Não, não! Kage Nui é costura de sombra. Shikamaru usa algo mais controlador!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do dojutsu do clã Hyuga?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Sharingan",
+          "isCorrect": false,
+          "explanation": "Nããão, Sharingan é dos Uchiha! Os Hyuga têm um olho mais... branco e penetrante!"
+        },
+        {
+          "text": "Byakugan",
+          "isCorrect": true,
+          "explanation": "Mandou bem! O Byakugan é o dojutsu do Clã Hyuga, que dá visão de 360 graus e enxerga pontos de chakra. Hinata e Neji usam isso pra acertar onde dói mais!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Byakugan.png",
+          "imageDescription": "Imagem de um olho Byakugan com veias ao redor, brilhando em branco, com fundo claro."
+        },
+        {
+          "text": "Rinnegan",
+          "isCorrect": false,
+          "explanation": "Não, não! Rinnegan é mais raro e cósmico. Os Hyuga têm um dojutsu mais terreno!"
+        },
+        {
+          "text": "Tenseigan",
+          "isCorrect": false,
+          "explanation": "Quase! Tenseigan é de *Boruto*. O dojutsu dos Hyuga é mais clássico!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do ninja que enfrenta Kiba no Exame Chunin?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Naruto Uzumaki",
+          "isCorrect": true,
+          "explanation": "Acertooou! Naruto Uzumaki enfrenta Kiba Inuzuka no Exame Chunin, numa luta cheia de clones, latidos e o poder do Kurama. Kiba tenta com Akamaru, mas Naruto é puro caos!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Naruto_Uzumaki.png",
+          "imageDescription": "Imagem de Naruto no Exame Chunin, com expressão determinada e chakra brilhando, em fundo do estádio."
+        },
+        {
+          "text": "Sasuke Uchiha",
+          "isCorrect": false,
+          "explanation": "Nããão, Sasuke enfrenta Gaara! Kiba encara um ninja mais loiro e bagunceiro!"
+        },
+        {
+          "text": "Shino Aburame",
+          "isCorrect": false,
+          "explanation": "Não, não! Shino enfrenta Kankuro. Kiba tem um oponente mais barulhento de Konoha!"
+        },
+        {
+          "text": "Gaara",
+          "isCorrect": false,
+          "explanation": "Quase! Gaara enfrenta outros. Kiba luta contra um colega de vila!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de marionetes de Kankuro?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Kugutsu no Jutsu",
+          "isCorrect": true,
+          "explanation": "Mandou bem! O Kugutsu no Jutsu é a técnica do Kankuro que controla marionetes com fios de chakra. Ele usa bonecos como Karasu e Sanshouo pra lutar, com um toque de teatro mortal!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Kugutsu_no_Jutsu.png",
+          "imageDescription": "Imagem de Kankuro manipulando a marionete Karasu com fios de chakra, em fundo desértico."
+        },
+        {
+          "text": "Karasu no Jutsu",
+          "isCorrect": false,
+          "explanation": "Nããão, Karasu é o nome da marionete, não do jutsu! Kankuro usa algo mais genérico!"
+        },
+        {
+          "text": "Ningyo no Jutsu",
+          "isCorrect": false,
+          "explanation": "Não, não! Isso não existe. O jutsu do Kankuro é mais técnico e com fios!"
+        },
+        {
+          "text": "Sasori no Jutsu",
+          "isCorrect": false,
+          "explanation": "Quase! Sasori é outro mestre de marionetes. Kankuro tem seu próprio jutsu!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do ninja que enfrenta Tsunade na busca pelos Sannin?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Orochimaru",
+          "isCorrect": true,
+          "explanation": "Acertooou! Orochimaru enfrenta Tsunade (e Jiraiya) quando Naruto vai buscá-la pra ser Hokage. É uma batalha de Sannin, com cobras, lesmas e socos que quebram montanhas!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Orochimaru.png",
+          "imageDescription": "Imagem de Orochimaru com sua pele pálida, olhos de cobra e sorriso sinistro, em fundo sombrio."
+        },
+        {
+          "text": "Kabuto Yakushi",
+          "isCorrect": false,
+          "explanation": "Quase! Kabuto ajuda Orochimaru, mas o principal inimigo é o mestre dele!"
+        },
+        {
+          "text": "Itachi Uchiha",
+          "isCorrect": false,
+          "explanation": "Nããão, Itachi não está nessa luta. Tsunade enfrenta um Sannin renegado!"
+        },
+        {
+          "text": "Pain",
+          "isCorrect": false,
+          "explanation": "Não, não! Pain aparece depois. Tsunade encara um velho conhecido!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de água de Kisame Hoshigaki?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Suiton: Daikodan no Jutsu",
+          "isCorrect": true,
+          "explanation": "Mandou ver! O Suiton: Daikodan no Jutsu é o jutsu do Kisame que cria um tubarão gigante de água que devora chakra. É perfeito pra um tubarão da Akatsuki como ele, nadando e destruindo!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Suiton_Daikodan_no_Jutsu.png",
+          "imageDescription": "Imagem de Kisame lançando um tubarão gigante de água com o Daikodan, em fundo aquático."
+        },
+        {
+          "text": "Suiton: Suiryudan",
+          "isCorrect": false,
+          "explanation": "Nããão, Suiryudan é o dragão de água do Tobirama. Kisame usa algo mais... dentuço!"
+        },
+        {
+          "text": "Suiton: Bakusui Shoha",
+          "isCorrect": false,
+          "explanation": "Quase! Bakusui Shoha é outro jutsu dele, mas o principal é o tubarão gigante!"
+        },
+        {
+          "text": "Suiton: Mizukagami",
+          "isCorrect": false,
+          "explanation": "Não, não! Mizukagami é um espelho de água. Kisame prefere algo mais agressivo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do ninja que enfrenta Jiraiya na Vila da Chuva?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Pain",
+          "isCorrect": true,
+          "explanation": "Acertooou! Pain, líder da Akatsuki, enfrenta Jiraiya na Vila da Chuva, numa batalha épica contra os Seis Caminhos. Jiraiya descobre segredos do Rinnegan, mas o custo é alto demais!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Pain.png",
+          "imageDescription": "Imagem de Pain com seu Rinnegan e piercings, em pose ameaçadora, com fundo chuvoso."
+        },
+        {
+          "text": "Konan",
+          "isCorrect": false,
+          "explanation": "Quase! Konan ajuda Pain, mas Jiraiya enfrenta o líder principal!"
+        },
+        {
+          "text": "Orochimaru",
+          "isCorrect": false,
+          "explanation": "Nããão, Orochimaru é de outra luta. Jiraiya encara um ninja com olhos roxos!"
+        },
+        {
+          "text": "Itachi Uchiha",
+          "isCorrect": false,
+          "explanation": "Não, não! Itachi enfrenta Jiraiya em outro momento. Na Vila da Chuva, é outro vilão!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de explosão de Deidara?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Bakuton: C1",
+          "isCorrect": true,
+          "explanation": "Mandou bem! O Bakuton: C1 é o jutsu de explosão do Deidara, criando pequenas esculturas de argila que explodem. Ele chama isso de arte, mas os inimigos chamam de dor!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Bakuton_C1.png",
+          "imageDescription": "Imagem de Deidara lançando pássaros de argila explosivos, com fundo de batalha."
+        },
+        {
+          "text": "Bakuton: C4",
+          "isCorrect": false,
+          "explanation": "Quase! C4 é mais avançado e microscópico. O jutsu base do Deidara é o C1!"
+        },
+        {
+          "text": "Bakuton: C0",
+          "isCorrect": false,
+          "explanation": "Nããão, C0 é o jutsu final suicida. O jutsu principal é mais controlado!"
+        },
+        {
+          "text": "Bakuton: C2",
+          "isCorrect": false,
+          "explanation": "Não, não! C2 é o dragão de argila. Deidara começa com algo mais simples!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do ninja que enfrenta Kakashi na missão do resgate do Gaara?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Sasori",
+          "isCorrect": true,
+          "explanation": "Acertooou! Sasori, da Akatsuki, enfrenta Kakashi (e Sakura, com Chiyo) na missão de resgate do Gaara. Suas marionetes e veneno dão trabalho, mas Kakashi mostra por que é o ninja copiador!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Sasori.png",
+          "imageDescription": "Imagem de Sasori com suas marionetes, em pose ameaçadora, com fundo desértico."
+        },
+        {
+          "text": "Deidara",
+          "isCorrect": false,
+          "explanation": "Quase! Deidara está na missão, mas enfrenta Naruto e outros. Kakashi encara outro vilão!"
+        },
+        {
+          "text": "Itachi Uchiha",
+          "isCorrect": false,
+          "explanation": "Nããão, Itachi não está nessa missão. Kakashi enfrenta um mestre de marionetes!"
+        },
+        {
+          "text": "Kisame Hoshigaki",
+          "isCorrect": false,
+          "explanation": "Não, não! Kisame aparece em outro momento. Kakashi luta contra um ninja da Areia renegado!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do clã de Shikamaru Nara?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Clã Yamanaka",
+          "isCorrect": false,
+          "explanation": "Nããão, Yamanaka é da Ino! Shikamaru vem de um clã mais sombrio e estratégico!"
+        },
+        {
+          "text": "Clã Nara",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Clã Nara é a casa do Shikamaru, famoso por manipular sombras e ter cérebros brilhantes (e preguiçosos). Eles são os mestres do xadrez ninja!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Nara_Clan.png",
+          "imageDescription": "Imagem do símbolo do Clã Nara, um círculo com linhas, representando sua inteligência."
+        },
+        {
+          "text": "Clã Akimichi",
+          "isCorrect": false,
+          "explanation": "Não, não! Akimichi é do Choji. Shikamaru pertence a um clã mais... sombrio!"
+        },
+        {
+          "text": "Clã Inuzuka",
+          "isCorrect": false,
+          "explanation": "Quase! Inuzuka é do Kiba. Shikamaru é de um clã com sombras e QI alto!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de selamento de Minato Namikaze?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Fuinjutsu: Shiki Fujin",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Fuinjutsu: Shiki Fujin é o jutsu de selamento do Minato, que invoca o Ceifador da Morte pra selar almas, como ele fez com o Kurama. É um sacrifício épico do Relâmpago Amarelo!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Shiki_Fujin.png",
+          "imageDescription": "Imagem de Minato invocando o Ceifador da Morte com o Shiki Fujin, em fundo místico."
+        },
+        {
+          "text": "Fuinjutsu: Hakke no Fuin",
+          "isCorrect": false,
+          "explanation": "Quase! Hakke no Fuin é o selo do Naruto, aplicado por Minato, mas não o jutsu principal!"
+        },
+        {
+          "text": "Fuinjutsu: Tetsumyaku",
+          "isCorrect": false,
+          "explanation": "Nããão, esse não existe! Minato usa um jutsu mais sombrio e sacrificial!"
+        },
+        {
+          "text": "Fuinjutsu: Adamantine Chains",
+          "isCorrect": false,
+          "explanation": "Não, não! Esse é da Kushina. Minato tem um selo mais mortal e espiritual!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do ninja que lidera a Vila da Areia?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Hokage",
+          "isCorrect": false,
+          "explanation": "Nããão, Hokage é da Vila da Folha! O líder da Areia tem outro título, mais... arenoso!"
+        },
+        {
+          "text": "Kazekage",
+          "isCorrect": true,
+          "explanation": "Mandou bem! O Kazekage é o líder da Vila da Areia, como o Gaara, que comanda com areia e carisma. É o chefe do deserto, com direito a cabaça e tudo!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Kazekage_Symbol.png",
+          "imageDescription": "Imagem do chapéu de Kazekage com o símbolo da Vila da Areia, representando o líder."
+        },
+        {
+          "text": "Mizukage",
+          "isCorrect": false,
+          "explanation": "Não, não! Mizukage é da Vila da Névoa. O líder da Areia tem um nome mais desértico!"
+        },
+        {
+          "text": "Tsuchikage",
+          "isCorrect": false,
+          "explanation": "Quase! Tsuchikage é da Vila da Pedra. O líder da Areia é outro!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de teletransporte de Minato Namikaze?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Hiraishin no Jutsu",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Hiraishin no Jutsu, ou Técnica do Deus Voador do Trovão, permite que Minato se teletransporte instantaneamente com suas kunais marcadas. É por isso que ele é o Relâmpago Amarelo!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Hiraishin_no_Jutsu.png",
+          "imageDescription": "Imagem de Minato desaparecendo com o Hiraishin, deixando kunais marcadas, em fundo de batalha."
+        },
+        {
+          "text": "Kamui",
+          "isCorrect": false,
+          "explanation": "Nããão, Kamui é do Obito! Minato usa algo mais rápido e com kunais!"
+        },
+        {
+          "text": "Shunshin no Jutsu",
+          "isCorrect": false,
+          "explanation": "Quase! Shunshin é movimento rápido, mas Minato vai além com teletransporte!"
+        },
+        {
+          "text": "Kuchiyose no Jutsu",
+          "isCorrect": false,
+          "explanation": "Não, não! Kuchiyose é invocação. Minato usa um jutsu que o faz piscar pelo campo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do ninja que enfrenta Orochimaru na invasão de Konoha?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Hiruzen Sarutobi",
+          "isCorrect": true,
+          "explanation": "Acertooou! Hiruzen Sarutobi, o Terceiro Hokage, enfrenta Orochimaru na invasão de Konoha, numa batalha épica onde ele usa todo seu poder e o Shiki Fujin. É um sacrifício lendário!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Hiruzen_Sarutobi.png",
+          "imageDescription": "Imagem de Hiruzen Sarutobi com seu cajado de macaco, enfrentando Orochimaru, em fundo de batalha."
+        },
+        {
+          "text": "Naruto Uzumaki",
+          "isCorrect": false,
+          "explanation": "Nããão, Naruto está enfrentando Gaara! Orochimaru encara um ninja mais velho e sábio!"
+        },
+        {
+          "text": "Kakashi Hatake",
+          "isCorrect": false,
+          "explanation": "Não, não! Kakashi está ocupado com outros inimigos. Orochimaru enfrenta o Hokage!"
+        },
+        {
+          "text": "Jiraiya",
+          "isCorrect": false,
+          "explanation": "Quase! Jiraiya é um Sannin, mas não luta aqui. O oponente é outro, mais experiente!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do clã de Kiba Inuzuka?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Clã Yamanaka",
+          "isCorrect": false,
+          "explanation": "Nããão, Yamanaka é da Ino! Kiba vem de um clã mais... canino e selvagem!"
+        },
+        {
+          "text": "Clã Inuzuka",
+          "isCorrect": true,
+          "explanation": "Mandou bem! O Clã Inuzuka é a casa do Kiba, famoso por lutar com cães ninjas como Akamaru. Eles são tão leais que até os lobos invejam essa dupla!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Inuzuka_Clan.png",
+          "imageDescription": "Imagem do símbolo do Clã Inuzuka, com marcas de garra, representando sua ferocidade."
+        },
+        {
+          "text": "Clã Akimichi",
+          "isCorrect": false,
+          "explanation": "Não, não! Akimichi é do Choji. Kiba pertence a um clã com latinuzuka_clan_symbol.png",
+          "imageDescription": "Imagem do símbolo do Clã Inuzuka, com marcas de garra, representando sua ferocidade."
+        },
+        {
+          "text": "Clã Nara",
+          "isCorrect": false,
+          "explanation": "Quase! Nara é do Shikamaru. Kiba é de um clã mais peludo e barulhento!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de vento de Temari?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Futon: Kamaitachi no Jutsu",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Futon: Kamaitachi no Jutsu é o jutsu de vento da Temari, que usa seu leque pra criar lâminas de ar cortantes. É como um furacão com atitude, perfeito pra ela!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Futon_Kamaitachi_no_Jutsu.png",
+          "imageDescription": "Imagem de Temari brandindo seu leque, lançando lâminas de vento, em fundo desértico."
+        },
+        {
+          "text": "Futon: Rasenshuriken",
+          "isCorrect": false,
+          "explanation": "Nããão, Rasenshuriken é do Naruto! Temari usa algo mais simples, but afiado!"
+        },
+        {
+          "text": "Futon: Gale Palm",
+          "isCorrect": false,
+          "explanation": "Não, não! Gale Palm é um jutsu genérico. Temari tem um ataque mais cortante e com leque!"
+        },
+        {
+          "text": "Futon: Tatsu no Oshigoto",
+          "isCorrect": false,
+          "explanation": "Quase! Esse não existe. Temari usa um jutsu com nome de animal mítico!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do ninja que enfrenta Itachi Uchiha pela primeira vez na série?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Kakashi Hatake",
+          "isCorrect": true,
+          "explanation": "Acertooou! Kakashi Hatake enfrenta Itachi Uchiha (com Kisame) quando a Akatsuki aparece em Konoha. Ele sofre com o Tsukuyomi, mas prova por que é o ninja copiador, mesmo contra um Uchiha!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Kakashi_Hatake.png",
+          "imageDescription": "Imagem de Kakashi com Sharingan ativado, enfrentando Itachi, em fundo de Konoha."
+        },
+        {
+          "text": "Naruto Uzumaki",
+          "isCorrect": false,
+          "explanation": "Nããão, Naruto só encara Itachi depois! O primeiro a enfrentar é um ninja mais experiente!"
+        },
+        {
+          "text": "Sasuke Uchiha",
+          "isCorrect": false,
+          "explanation": "Quase! Sasuke enfrenta Itachi mais tarde. O primeiro confronto é com outro ninja!"
+        },
+        {
+          "text": "Jiraiya",
+          "isCorrect": false,
+          "explanation": "Não, não! Jiraiya enfrenta Itachi em outro momento. O primeiro é um ninja de Konoha com Sharingan!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do clã de Choji Akimichi?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Clã Yamanaka",
+          "isCorrect": false,
+          "explanation": "Nããão, Yamanaka é da Ino! Choji vem de um clã mais... robusto e comedor de petiscos!"
+        },
+        {
+          "text": "Clã Akimichi",
+          "isCorrect": true,
+          "explanation": "Mandou bem! O Clã Akimichi é a casa do Choji, famoso por jutsus de expansão corporal e um amor eterno por comida. Eles transformam calorias em poder ninja!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Akimichi_Clan.png",
+          "imageDescription": "Imagem do símbolo do Clã Akimichi, representando sua força e tamanho, com fundo claro."
+        },
+        {
+          "text": "Clã Nara",
+          "isCorrect": false,
+          "explanation": "Não, não! Nara é do Shikamaru. Choji pertence a um clã mais expansivo!"
+        },
+        {
+          "text": "Clã Inuzuka",
+          "isCorrect": false,
+          "explanation": "Quase! Inuzuka é do Kiba. Choji é de um clã que cresce... literalmente!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de expansão corporal de Choji Akimichi?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Baika no Jutsu",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Baika no Jutsu é o jutsu do Choji que aumenta seu corpo, transformando-o numa bola gigante ou em partes enormes. É como virar um tanque humano com muito apetite!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Baika_no_Jutsu.png",
+          "imageDescription": "Imagem de Choji usando o Baika no Jutsu, com corpo expandido, em fundo de batalha."
+        },
+        {
+          "text": "Nikudan Sensha",
+          "isCorrect": false,
+          "explanation": "Quase! Nikudan Sensha é o tanque humano, mas depende do Baika. O jutsu base é outro!"
+        },
+        {
+          "text": "Chodan Bakugeki",
+          "isCorrect": false,
+          "explanation": "Nããão, esse é um ataque mais avançado. O jutsu de expansão é mais simples!"
+        },
+        {
+          "text": "Karori Kontororu",
+          "isCorrect": false,
+          "explanation": "Não, não! Isso é controle de calorias, não expansão. Choji usa algo mais... grandioso!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do ninja que enfrenta Neji Hyuga no Exame Chunin?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Naruto Uzumaki",
+          "isCorrect": true,
+          "explanation": "Acertooou! Naruto Uzumaki enfrenta Neji Hyuga no Exame Chunin, numa luta épica onde o poder do Kurama e a determinação do Naruto superam o Byakugan e o Juken do Neji. É destino vs. esforço!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Naruto_Uzumaki.png",
+          "imageDescription": "Imagem de Naruto no Exame Chunin, com chakra do Kurama, enfrentando Neji, em fundo do estádio."
+        },
+        {
+          "text": "Hinata Hyuga",
+          "isCorrect": false,
+          "explanation": "Nããão, Hinata enfrenta Neji em outra luta! O oponente de Neji na final é outro!"
+        },
+        {
+          "text": "Rock Lee",
+          "isCorrect": false,
+          "explanation": "Não, não! Rock Lee enfrenta Gaara. Neji encara um ninja mais barulhento!"
+        },
+        {
+          "text": "Sasuke Uchiha",
+          "isCorrect": false,
+          "explanation": "Quase! Sasuke enfrenta Gaara. Neji luta contra um colega de Konoha!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de manipulação mental de Ino Yamanaka?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Shintenshin no Jutsu",
+          "isCorrect": true,
+          "explanation": "Mandou bem! O Shintenshin no Jutsu é a técnica da Ino que transfere sua mente para o corpo do inimigo, controlando-o. É perfeito pra espionagem, mas deixa o corpo dela vulnerável!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Shintenshin_no_Jutsu.png",
+          "imageDescription": "Imagem de Ino usando o Shintenshin, com linhas de chakra conectando-a ao inimigo, em fundo de batalha."
+        },
+        {
+          "text": "Shinranshin no Jutsu",
+          "isCorrect": false,
+          "explanation": "Quase! Shinranshin faz aliados lutarem entre si. O jutsu principal da Ino é outro!"
+        },
+        {
+          "text": "Shingyakushin no Jutsu",
+          "isCorrect": false,
+          "explanation": "Nããão, esse não existe! Ino usa algo mais direto e mental!"
+        },
+        {
+          "text": "Shinkushin no Jutsu",
+          "isCorrect": false,
+          "explanation": "Não, não! Isso não existe. Ino tem um jutsu que toma o corpo do inimigo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do ninja que enfrenta Pain na invasão de Konoha?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Naruto Uzumaki",
+          "isCorrect": true,
+          "explanation": "Acertooou! Naruto Uzumaki enfrenta Pain na invasão de Konoha, numa batalha épica contra os Seis Caminhos. Com o Modo Sábio e o poder do Kurama, ele salva a vila e muda o coração do inimigo!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Naruto_Uzumaki.png",
+          "imageDescription": "Imagem de Naruto no Modo Sábio, enfrentando Pain, com fundo destruído de Konoha."
+        },
+        {
+          "text": "Kakashi Hatake",
+          "isCorrect": false,
+          "explanation": "Quase! Kakashi luta contra Pain, mas o confronto principal é com outro ninja!"
+        },
+        {
+          "text": "Tsunade",
+          "isCorrect": false,
+          "explanation": "Nããão, Tsunade está protegendo a vila. O ninja que enfrenta Pain diretamente é outro!"
+        },
+        {
+          "text": "Jiraiya",
+          "isCorrect": false,
+          "explanation": "Não, não! Jiraiya enfrenta Pain antes, na Vila da Chuva. Em Konoha, é outro herói!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do sensei do Time 8, formado por Hinata, Kiba e Shino?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Kurenai Yuhi",
+          "isCorrect": true,
+          "explanation": "Acertooou! Kurenai Yuhi é a sensei do Time 8, especialista em genjutsu e uma líder dedicada que guia Hinata, Kiba e Shino com firmeza e carinho. Ela é tão habilidosa que até a Akatsuki respeita!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Kurenai_Yuhi.png",
+          "imageDescription": "Imagem de Kurenai Yuhi com seus olhos vermelhos, em pose de liderança, com fundo de Konoha."
+        },
+        {
+          "text": "Asuma Sarutobi",
+          "isCorrect": false,
+          "explanation": "Nããão, Asuma é o sensei do Time 10! O Time 8 tem uma líder mais especialista em ilusões!"
+        },
+        {
+          "text": "Might Guy",
+          "isCorrect": false,
+          "explanation": "Não, não! Might Guy lidera o Time 9, com Rock Lee. O Time 8 tem uma sensei mais calma!"
+        },
+        {
+          "text": "Kakashi Hatake",
+          "isCorrect": false,
+          "explanation": "Quase! Kakashi é do Time 7. O Time 8 é liderado por uma kunoichi!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do bijuu de uma cauda selado em Gaara?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Kurama",
+          "isCorrect": false,
+          "explanation": "Nããão, Kurama é o Nove Caudas do Naruto! O bijuu do Gaara é bem mais arenoso!"
+        },
+        {
+          "text": "Shukaku",
+          "isCorrect": true,
+          "explanation": "Mandou bem! Shukaku, o Uma Cauda, é o bijuu selado em Gaara, um monstro de areia com um temperamento tão instável quanto o deserto. Ele e Gaara formam uma dupla explosiva!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Shukaku.png",
+          "imageDescription": "Imagem de Shukaku, o bijuu de uma cauda, com corpo de areia e olhos amarelos, em fundo desértico."
+        },
+        {
+          "text": "Gyuki",
+          "isCorrect": false,
+          "explanation": "Não, não! Gyuki é o Oito Caudas do Killer Bee. O bijuu do Gaara tem só uma cauda!"
+        },
+        {
+          "text": "Matatabi",
+          "isCorrect": false,
+          "explanation": "Quase! Matatabi é o Duas Caudas. O bijuu do Gaara é mais... barulhento e arenoso!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do estilo de luta do Clã Hyuga?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Juken",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Juken, ou Punho Gentil, é o estilo de luta do Clã Hyuga, que usa o Byakugan para acertar pontos de chakra com precisão. Hinata e Neji tornam esse estilo elegante e mortal!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Juken.png",
+          "imageDescription": "Imagem de Neji Hyuga usando o Juken, com Byakugan ativado, em pose de combate."
+        },
+        {
+          "text": "Goken",
+          "isCorrect": false,
+          "explanation": "Nããão, Goken é o Punho Forte do Rock Lee! O estilo dos Hyuga é mais preciso!"
+        },
+        {
+          "text": "Hakke Rokujuyon Sho",
+          "isCorrect": false,
+          "explanation": "Quase! Esse é um jutsu específico do Juken, não o estilo geral!"
+        },
+        {
+          "text": "Taijutsu Senpu",
+          "isCorrect": false,
+          "explanation": "Não, não! Isso não existe. O estilo dos Hyuga é mais suave e chakra-focado!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do ninja que enfrenta Rock Lee no Exame Chunin?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Gaara",
+          "isCorrect": true,
+          "explanation": "Mandou ver! Gaara enfrenta Rock Lee no Exame Chunin, numa luta épica onde Lee usa os Oito Portões contra a areia do Shukaku. É um dos momentos mais intensos do torneio!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Gaara.png",
+          "imageDescription": "Imagem de Gaara com sua cabaça de areia, enfrentando Rock Lee, em fundo do estádio do Exame Chunin."
+        },
+        {
+          "text": "Naruto Uzumaki",
+          "isCorrect": false,
+          "explanation": "Nããão, Naruto enfrenta Neji! Rock Lee encara um ninja mais... arenoso!"
+        },
+        {
+          "text": "Sasuke Uchiha",
+          "isCorrect": false,
+          "explanation": "Não, não! Sasuke enfrenta Gaara depois. Rock Lee tem outro oponente!"
+        },
+        {
+          "text": "Kiba Inuzuka",
+          "isCorrect": false,
+          "explanation": "Quase! Kiba enfrenta Naruto. Rock Lee luta contra um ninja da Vila da Areia!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de trovão de Kakashi Hatake?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Chidori",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Chidori é o jutsu de trovão do Kakashi, uma lâmina de relâmpago que corta tudo. Ele criou essa técnica e a passou pro Sasuke, que adora usá-la com estilo!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Chidori.png",
+          "imageDescription": "Imagem de Kakashi com o Chidori brilhando na mão, em fundo de batalha."
+        },
+        {
+          "text": "Raikiri",
+          "isCorrect": false,
+          "explanation": "Quase! Raikiri é o nome avançado do Chidori, mas o jutsu base é chamado Chidori!"
+        },
+        {
+          "text": "Raiton: Gian",
+          "isCorrect": false,
+          "explanation": "Nããão, Gian é um jutsu de relâmpago genérico. Kakashi usa algo mais pessoal!"
+        },
+        {
+          "text": "Kirin",
+          "isCorrect": false,
+          "explanation": "Não, não! Kirin é do Sasuke. Kakashi tem um jutsu mais rápido e cortante!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do líder da Akatsuki?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Itachi Uchiha",
+          "isCorrect": false,
+          "explanation": "Nããão, Itachi é um membro importante, mas não o líder! O chefe da Akatsuki tem olhos roxos!"
+        },
+        {
+          "text": "Pain",
+          "isCorrect": true,
+          "explanation": "Mandou bem! Pain, também conhecido como Nagato, é o líder da Akatsuki, comandando com o poder do Rinnegan e seus Seis Caminhos. Ele é tão intimidante que até a chuva obedece!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Pain.png",
+          "imageDescription": "Imagem de Pain com seu Rinnegan e piercings, em pose ameaçadora, com fundo chuvoso."
+        },
+        {
+          "text": "Orochimaru",
+          "isCorrect": false,
+          "explanation": "Não, não! Orochimaru já saiu da Akatsuki. O líder é outro, mais... divino!"
+        },
+        {
+          "text": "Kisame Hoshigaki",
+          "isCorrect": false,
+          "explanation": "Quase! Kisame é um membro, mas o líder tem um poder bem mais cósmico!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de papel de Konan?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Shikigami no Mai",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Shikigami no Mai é o jutsu da Konan que transforma seu corpo e chakra em milhares de folhas de papel explosivas. É uma técnica tão bela quanto mortal, perfeita pra uma ninja da Akatsuki!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Shikigami_no_Mai.png",
+          "imageDescription": "Imagem de Konan com folhas de papel voando ao seu redor, em fundo de batalha."
+        },
+        {
+          "text": "Kami no Jutsu",
+          "isCorrect": false,
+          "explanation": "Nããão, isso não existe! Konan usa algo mais específico e relacionado a papel!"
+        },
+        {
+          "text": "Origami no Jutsu",
+          "isCorrect": false,
+          "explanation": "Quase! Parece plausível, mas o jutsu da Konan tem um nome mais místico!"
+        },
+        {
+          "text": "Shikami no Jutsu",
+          "isCorrect": false,
+          "explanation": "Não, não! Você inventou essa! O jutsu da Konan é mais elegante e explosivo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do ninja que enfrenta Shikamaru no resgate do Sasuke?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Tayuya",
+          "isCorrect": true,
+          "explanation": "Mandou ver! Tayuya, do Quarteto do Som, enfrenta Shikamaru na missão de resgate do Sasuke. Com sua flauta e genjutsu, ela dá trabalho, mas o cérebro do Shikamaru (e a ajuda da Temari) vence!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Tayuya.png",
+          "imageDescription": "Imagem de Tayuya com sua flauta demoníaca, em pose de combate, com fundo de floresta."
+        },
+        {
+          "text": "Kidomaru",
+          "isCorrect": false,
+          "explanation": "Nããão, Kidomaru enfrenta Neji! Shikamaru encara uma ninja com uma flauta!"
+        },
+        {
+          "text": "Sakon",
+          "isCorrect": false,
+          "explanation": "Não, não! Sakon enfrenta Kiba e outros. Shikamaru tem uma oponente mais musical!"
+        },
+        {
+          "text": "Jirobo",
+          "isCorrect": false,
+          "explanation": "Quase! Jirobo enfrenta Choji. Shikamaru luta contra uma ninja do Som!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do clã de Ino Yamanaka?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Clã Yamanaka",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Clã Yamanaka é a casa da Ino, famoso por jutsus de manipulação mental e por cuidar da floricultura de Konoha. Eles são tão bons com mentes quanto com pétalas!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Yamanaka_Clan.png",
+          "imageDescription": "Imagem do símbolo do Clã Yamanaka, com flores estilizadas, representando sua conexão com a mente."
+        },
+        {
+          "text": "Clã Nara",
+          "isCorrect": false,
+          "explanation": "Nããão, Nara é do Shikamaru! Ino vem de um clã mais mental e florido!"
+        },
+        {
+          "text": "Clã Akimichi",
+          "isCorrect": false,
+          "explanation": "Não, não! Akimichi é do Choji. Ino pertence a um clã com poderes psíquicos!"
+        },
+        {
+          "text": "Clã Hyuga",
+          "isCorrect": false,
+          "explanation": "Quase! Hyuga é da Hinata. Ino é de um clã mais... cerebral!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de veneno de Sasori?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Dokugiri",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Dokugiri é o jutsu de veneno do Sasori, que libera uma névoa tóxica de suas marionetes ou corpo. É tão letal que até Sakura e Chiyo precisaram de antídotos pra sobreviver!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Dokugiri.png",
+          "imageDescription": "Imagem de Sasori liberando uma névoa venenosa de uma marionete, em fundo de caverna."
+        },
+        {
+          "text": "Doku Kiri",
+          "isCorrect": false,
+          "explanation": "Quase! Parece parecido, mas o jutsu do Sasori tem um nome mais específico!"
+        },
+        {
+          "text": "Kugutsu Doku",
+          "isCorrect": false,
+          "explanation": "Nããão, isso não existe! Sasori usa uma névoa venenosa, não esse nome!"
+        },
+        {
+          "text": "Suna Doku",
+          "isCorrect": false,
+          "explanation": "Não, não! Isso tá misturando areia com veneno. Sasori tem um jutsu gasoso!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do ninja que treina Sakura em medicina ninja?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Tsunade",
+          "isCorrect": true,
+          "explanation": "Mandou bem! Tsunade, a Quinta Hokage, treina Sakura para ser uma ninja médica de elite, ensinando jutsus de cura e socos que racham o chão. Sakura vira uma verdadeira discípula da Sannin!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Tsunade.png",
+          "imageDescription": "Imagem de Tsunade com seu selo de Byakugo, em pose de mentora, com fundo de Konoha."
+        },
+        {
+          "text": "Kakashi Hatake",
+          "isCorrect": false,
+          "explanation": "Nããão, Kakashi é o sensei do Time 7, mas não ensina medicina! Sakura tem outra mestra!"
+        },
+        {
+          "text": "Jiraiya",
+          "isCorrect": false,
+          "explanation": "Não, não! Jiraiya treina Naruto. Sakura aprende com uma kunoichi lendária!"
+        },
+        {
+          "text": "Shizune",
+          "isCorrect": false,
+          "explanation": "Quase! Shizune ajuda, mas a verdadeira mestra de Sakura é mais... poderosa!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do dojutsu mais poderoso da série, ligado ao Sábio dos Seis Caminhos?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Rinnegan",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Rinnegan é o dojutsu mais poderoso, ligado ao Sábio dos Seis Caminhos, usado por Pain, Nagato e Madara. Ele controla vida, morte e até planetas, sendo o auge do poder ninja!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Rinnegan.png",
+          "imageDescription": "Imagem de um olho Rinnegan com círculos concêntricos roxos, brilhando, com fundo escuro."
+        },
+        {
+          "text": "Sharingan",
+          "isCorrect": false,
+          "explanation": "Nããão, Sharingan é dos Uchiha! O dojutsu mais forte é mais raro e cósmico!"
+        },
+        {
+          "text": "Byakugan",
+          "isCorrect": false,
+          "explanation": "Não, não! Byakugan é dos Hyuga. O dojutsu supremo tem outro nome!"
+        },
+        {
+          "text": "Mangekyo Sharingan",
+          "isCorrect": false,
+          "explanation": "Quase! Mangekyo é poderoso, mas o Rinnegan está num nível acima!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do time liderado por Asuma Sarutobi?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Time 7",
+          "isCorrect": false,
+          "explanation": "Nããão, Time 7 é do Kakashi! Asuma lidera outro grupo, mais estratégico!"
+        },
+        {
+          "text": "Time 10",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Time 10 é liderado por Asuma Sarutobi, com Shikamaru, Ino e Choji. Eles formam o trio Ino-Shika-Cho, uma combinação lendária de cérebro, força e coração!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Team_10.png",
+          "imageDescription": "Imagem do Time 10 com Asuma, Shikamaru, Ino e Choji, posando juntos, em fundo de Konoha."
+        },
+        {
+          "text": "Time 8",
+          "isCorrect": false,
+          "explanation": "Não, não! Time 8 é da Kurenai. Asuma tem um time com um trio clássico!"
+        },
+        {
+          "text": "Time 9",
+          "isCorrect": false,
+          "explanation": "Quase! Time 9 é do Might Guy. Asuma lidera o time do Ino-Shika-Cho!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de invocação de cobras de Orochimaru?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Kuchiyose: Manda",
+          "isCorrect": true,
+          "explanation": "Mandou bem! O Kuchiyose: Manda é o jutsu do Orochimaru que invoca Manda, a cobra gigante mais arrogante do mundo ninja. Ela só ajuda se Orochimaru oferecer algo em troca, como sacrifícios!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Manda.png",
+          "imageDescription": "Imagem de Manda, a cobra gigante, com escamas roxas, em fundo de batalha."
+        },
+        {
+          "text": "Kuchiyose: Gamabunta",
+          "isCorrect": false,
+          "explanation": "Nããão, Gamabunta é o sapo do Jiraiya! Orochimaru prefere algo mais escamoso!"
+        },
+        {
+          "text": "Kuchiyose: Katsuyu",
+          "isCorrect": false,
+          "explanation": "Não, não! Katsuyu é da Tsunade. Orochimaru invoca uma criatura mais... venenosa!"
+        },
+        {
+          "text": "Kuchiyose: Enma",
+          "isCorrect": false,
+          "explanation": "Quase! Enma é o macaco do Hiruzen. Orochimaru tem um bicho mais reptiliano!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do bijuu de oito caudas selado em Killer Bee?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Kurama",
+          "isCorrect": false,
+          "explanation": "Nããão, Kurama é o Nove Caudas do Naruto! O bijuu do Killer Bee é mais... tentacular!"
+        },
+        {
+          "text": "Gyuki",
+          "isCorrect": true,
+          "explanation": "Mandou bem! Gyuki, o Oito Caudas, é o bijuu selado em Killer Bee, um touro-polvo gigante que rima tão bem quanto luta. Ele e Bee são a dupla mais estilosa dos jinchurikis!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Gyuki.png",
+          "imageDescription": "Imagem de Gyuki, o Oito Caudas, com tentáculos e chifres, em fundo de batalha."
+        },
+        {
+          "text": "Shukaku",
+          "isCorrect": false,
+          "explanation": "Não, não! Shukaku é o Uma Cauda do Gaara. O bijuu do Bee tem mais caudas!"
+        },
+        {
+          "text": "Matatabi",
+          "isCorrect": false,
+          "explanation": "Quase! Matatabi é o Duas Caudas. O bijuu do Bee é bem mais imponente!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de selamento usado por Kushina Uzumaki?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Fuinjutsu: Adamantine Sealing Chains",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Fuinjutsu: Adamantine Sealing Chains é o jutsu da Kushina, que cria correntes de chakra para prender inimigos ou bijuus, como ela fez com o Kurama. É o poder bruto do Clã Uzumaki!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Adamantine_Sealing_Chains.png",
+          "imageDescription": "Imagem de Kushina com correntes de chakra brilhando, prendendo Kurama, em fundo místico."
+        },
+        {
+          "text": "Fuinjutsu: Shiki Fujin",
+          "isCorrect": false,
+          "explanation": "Nããão, Shiki Fujin é do Minato! Kushina usa algo mais físico e brilhante!"
+        },
+        {
+          "text": "Fuinjutsu: Hakke no Fuin",
+          "isCorrect": false,
+          "explanation": "Quase! Hakke no Fuin é o selo do Naruto. Kushina tem um jutsu mais... acorrentado!"
+        },
+        {
+          "text": "Fuinjutsu: Tetsumyaku",
+          "isCorrect": false,
+          "explanation": "Não, não! Isso não existe. Kushina usa correntes lendárias!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do ninja que enfrenta Kiba na missão de resgate do Sasuke?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Sakon",
+          "isCorrect": true,
+          "explanation": "Acertooou! Sakon (e Ukon), do Quarteto do Som, enfrenta Kiba e Akamaru na missão de resgate do Sasuke. Kiba usa toda sua ferocidade, mas precisa de ajuda pra superar esses irmãos esquisitos!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Sakon.png",
+          "imageDescription": "Imagem de Sakon com seu irmão Ukon, em pose de combate, com fundo de floresta."
+        },
+        {
+          "text": "Tayuya",
+          "isCorrect": false,
+          "explanation": "Nããão, Tayuya enfrenta Shikamaru! Kiba encara um ninja com um irmão gêmeo!"
+        },
+        {
+          "text": "Jirobo",
+          "isCorrect": false,
+          "explanation": "Não, não! Jirobo enfrenta Choji. Kiba luta contra um membro mais... duplo!"
+        },
+        {
+          "text": "Kidomaru",
+          "isCorrect": false,
+          "explanation": "Quase! Kidomaru enfrenta Neji. Kiba tem um oponente mais estranho do Som!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do time liderado por Might Guy?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Time 7",
+          "isCorrect": false,
+          "explanation": "Nããão, Time 7 é do Kakashi! Might Guy lidera um grupo mais... explosivo!"
+        },
+        {
+          "text": "Time 9",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Time 9 é liderado por Might Guy, com Rock Lee, Neji e Tenten. Eles são a equipe mais energética de Konoha, com chutes, juventude e muito suor!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Team_9.png",
+          "imageDescription": "Imagem do Time 9 com Might Guy, Rock Lee, Neji e Tenten, em poses dinâmicas, com fundo de Konoha."
+        },
+        {
+          "text": "Time 8",
+          "isCorrect": false,
+          "explanation": "Não, não! Time 8 é da Kurenai. Might Guy tem um time mais... verde!"
+        },
+        {
+          "text": "Time 10",
+          "isCorrect": false,
+          "explanation": "Quase! Time 10 é do Asuma. Might Guy lidera o time do taijutsu!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de armas de Tenten?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Soshoryu",
+          "isCorrect": true,
+          "explanation": "Mandou bem! O Soshoryu é o jutsu da Tenten que invoca dois dragões de pergaminhos, lançando uma chuva de armas ninja. Ela transforma o campo de batalha num arsenal ambulante!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Soshoryu.png",
+          "imageDescription": "Imagem de Tenten com pergaminhos, lançando armas com o Soshoryu, em fundo de batalha."
+        },
+        {
+          "text": "Bukijutsu",
+          "isCorrect": false,
+          "explanation": "Nããão, Bukijutsu é genérico! Tenten tem um jutsu mais específico e dracônico!"
+        },
+        {
+          "text": "Shuriken Kage Bunshin",
+          "isCorrect": false,
+          "explanation": "Não, não! Esse é do Naruto. Tenten usa algo com pergaminhos e dragões!"
+        },
+        {
+          "text": "Kusari Gama",
+          "isCorrect": false,
+          "explanation": "Quase! Kusari Gama é uma arma, não jutsu. Tenten tem algo mais explosivo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do ninja que enfrenta Neji na missão de resgate do Sasuke?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Kidomaru",
+          "isCorrect": true,
+          "explanation": "Acertooou! Kidomaru, do Quarteto do Som, enfrenta Neji na missão de resgate do Sasuke. Com suas teias e arco, ele testa o Byakugan, mas Neji prova por que é um gênio do Clã Hyuga!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Kidomaru.png",
+          "imageDescription": "Imagem de Kidomaru com seu arco de teia, em pose de combate, com fundo de floresta."
+        },
+        {
+          "text": "Tayuya",
+          "isCorrect": false,
+          "explanation": "Nããão, Tayuya enfrenta Shikamaru! Neji encara um ninja mais... aracnídeo!"
+        },
+        {
+          "text": "Jirobo",
+          "isCorrect": false,
+          "explanation": "Não, não! Jirobo enfrenta Choji. Neji luta contra um membro mais astuto do Som!"
+        },
+        {
+          "text": "Sakon",
+          "isCorrect": false,
+          "explanation": "Quase! Sakon enfrenta Kiba. Neji tem um oponente com teias e flechas!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do clã de Tsunade?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Clã Senju",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Clã Senju é a casa da Tsunade, famoso por sua força, vitalidade e liderança, como Hashirama, o Primeiro Hokage. Tsunade carrega o legado com socos e curas lendárias!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Senju_Clan.png",
+          "imageDescription": "Imagem do símbolo do Clã Senju, representando sua força e legado, com fundo claro."
+        },
+        {
+          "text": "Clã Uzumaki",
+          "isCorrect": false,
+          "explanation": "Nããão, Uzumaki é do Naruto! Tsunade vem de um clã mais... arborizado!"
+        },
+        {
+          "text": "Clã Uchiha",
+          "isCorrect": false,
+          "explanation": "Não, não! Uchiha é do Sasuke. Tsunade pertence a um clã rival dos Uchiha!"
+        },
+        {
+          "text": "Clã Hyuga",
+          "isCorrect": false,
+          "explanation": "Quase! Hyuga é da Hinata. Tsunade é de um clã com história de Hokages!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de clonagem de água de Zabuza Momochi?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Mizu Bunshin no Jutsu",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Mizu Bunshin no Jutsu é o jutsu de Zabuza que cria clones de água, perfeitos pra confundir inimigos na névoa. Ele usa isso pra aterrorizar o Time 7 na sua primeira missão!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Mizu_Bunshin_no_Jutsu.png",
+          "imageDescription": "Imagem de Zabuza com clones de água ao seu redor, em fundo de névoa."
+        },
+        {
+          "text": "Kage Bunshin no Jutsu",
+          "isCorrect": false,
+          "explanation": "Nããão, Kage Bunshin é do Naruto! Zabuza usa clones feitos de água!"
+        },
+        {
+          "text": "Suiryudan no Jutsu",
+          "isCorrect": false,
+          "explanation": "Não, não! Suiryudan é o dragão de água. Zabuza tem clones aquáticos!"
+        },
+        {
+          "text": "Mizukagami no Jutsu",
+          "isCorrect": false,
+          "explanation": "Quase! Mizukagami é um espelho de água. Zabuza usa clones de verdade!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do ninja que enfrenta Sasuke após ele derrotar Orochimaru?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Itachi Uchiha",
+          "isCorrect": true,
+          "explanation": "Acertooou! Itachi Uchiha enfrenta Sasuke após ele derrotar Orochimaru, numa batalha épica cheia de genjutsu, Amaterasu e Susanoo. É o confronto que Sasuke esperava por anos!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Itachi_Uchiha.png",
+          "imageDescription": "Imagem de Itachi com seu Mangekyo Sharingan, enfrentando Sasuke, em fundo de tempestade."
+        },
+        {
+          "text": "Kisame Hoshigaki",
+          "isCorrect": false,
+          "explanation": "Nããão, Kisame enfrenta outros! Sasuke encara um ninja mais próximo após Orochimaru!"
+        },
+        {
+          "text": "Deidara",
+          "isCorrect": false,
+          "explanation": "Não, não! Deidara enfrenta Sasuke antes. O confronto após Orochimaru é outro!"
+        },
+        {
+          "text": "Pain",
+          "isCorrect": false,
+          "explanation": "Quase! Pain está em outro arco. Sasuke enfrenta um Uchiha após Orochimaru!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do líder da Vila da Névoa?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Hokage",
+          "isCorrect": false,
+          "explanation": "Nããão, Hokage é da Vila da Folha! O líder da Névoa tem um título mais... aquático!"
+        },
+        {
+          "text": "Mizukage",
+          "isCorrect": true,
+          "explanation": "Mandou bem! O Mizukage é o líder da Vila da Névoa, como Mei Terumi, que comanda com lava, névoa e muito charme. É o chefe das águas, com um toque de perigo!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Mizukage_Symbol.png",
+          "imageDescription": "Imagem do chapéu de Mizukage com o símbolo da Vila da Névoa, representando o líder."
+        },
+        {
+          "text": "Kazekage",
+          "isCorrect": false,
+          "explanation": "Não, não! Kazekage é da Vila da Areia. O líder da Névoa tem um nome mais molhado!"
+        },
+        {
+          "text": "Raikage",
+          "isCorrect": false,
+          "explanation": "Quase! Raikage é da Vila da Nuvem. O líder da Névoa é outro!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do dojutsu característico do Clã Uchiha?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Byakugan",
+          "isCorrect": false,
+          "explanation": "Nããão, Byakugan é dos Hyuga! Os Uchiha têm um olho mais... ardente!"
+        },
+        {
+          "text": "Sharingan",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Sharingan é o dojutsu do Clã Uchiha, famoso por copiar jutsus, prever movimentos e lançar genjutsus. Sasuke e Itachi fazem esses olhos brilharem com poder!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Sharingan.png",
+          "imageDescription": "Imagem de um olho Sharingan com três tomoe, brilhando em vermelho, com fundo escuro."
+        },
+        {
+          "text": "Rinnegan",
+          "isCorrect": false,
+          "explanation": "Não, não! Rinnegan é mais raro e ligado ao Sábio dos Seis Caminhos. Os Uchiha têm outro!"
+        },
+        {
+          "text": "Tenseigan",
+          "isCorrect": false,
+          "explanation": "Quase! Tenseigan é de *Boruto*. O dojutsu dos Uchiha é mais clássico!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do sapo invocado por Jiraiya?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Gamabunta",
+          "isCorrect": true,
+          "explanation": "Mandou bem! Gamabunta é o sapo gigante invocado por Jiraiya, um chefe durão com uma katana e um temperamento forte. Ele e Jiraiya formam uma dupla lendária no Monte Myoboku!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Gamabunta.png",
+          "imageDescription": "Imagem de Gamabunta, o sapo gigante, com sua katana, em fundo de batalha."
+        },
+        {
+          "text": "Manda",
+          "isCorrect": false,
+          "explanation": "Nããão, Manda é a cobra do Orochimaru! Jiraiya invoca algo mais... saltitante!"
+        },
+        {
+          "text": "Katsuyu",
+          "isCorrect": false,
+          "explanation": "Não, não! Katsuyu é da Tsunade. Jiraiya tem um amigo mais anfíbio!"
+        },
+        {
+          "text": "Enma",
+          "isCorrect": false,
+          "explanation": "Quase! Enma é o macaco do Hiruzen. Jiraiya prefere sapos!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de cura de Tsunade?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Byakugo no Jutsu",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Byakugo no Jutsu, ou Selo da Força de Cem, é o jutsu de cura supremo da Tsunade, que armazena chakra por anos pra curar ferimentos graves e até regenerar o corpo. É pura força vital!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Byakugo_no_Jutsu.png",
+          "imageDescription": "Imagem de Tsunade com o selo Byakugo na testa, chakra brilhando, em fundo de batalha."
+        },
+        {
+          "text": "Sozo Saisei",
+          "isCorrect": false,
+          "explanation": "Quase! Sozo Saisei é a técnica ativada pelo Byakugo, mas o jutsu principal é outro!"
+        },
+        {
+          "text": "Shosen Jutsu",
+          "isCorrect": false,
+          "explanation": "Nããão, Shosen é cura básica. Tsunade usa algo mais avançado!"
+        },
+        {
+          "text": "Chikatsu Saisei",
+          "isCorrect": false,
+          "explanation": "Não, não! Esse é um jutsu médico em grupo. Tsunade tem um selo lendário!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do ninja que enfrenta Naruto na batalha final do Exame Chunin?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Gaara",
+          "isCorrect": true,
+          "explanation": "Mandou ver! Gaara enfrenta Naruto na batalha final do Exame Chunin, numa luta épica onde o poder do Shukaku enfrenta o Kurama. Naruto mostra que amizade e determinação vencem até a areia!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Gaara.png",
+          "imageDescription": "Imagem de Gaara com Shukaku parcialmente manifestado, enfrentando Naruto, em fundo de Konoha."
+        },
+        {
+          "text": "Sasuke Uchiha",
+          "isCorrect": false,
+          "explanation": "Nããão, Sasuke enfrenta Gaara antes! Naruto encara um ninja da Areia!"
+        },
+        {
+          "text": "Neji Hyuga",
+          "isCorrect": false,
+          "explanation": "Não, não! Neji enfrenta Naruto nas preliminares. A final é com outro!"
+        },
+        {
+          "text": "Kiba Inuzuka",
+          "isCorrect": false,
+          "explanation": "Quase! Kiba enfrenta Naruto antes. A batalha final é mais épica!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de fogo de Sasuke Uchiha?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Katon: Goukakyu no Jutsu",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Katon: Goukakyu no Jutsu, ou Técnica da Grande Bola de Fogo, é o jutsu de fogo clássico do Sasuke, aprendido com o Clã Uchiha. Ele sopra uma bola de fogo gigante com estilo mortal!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Katon_Goukakyu_no_Jutsu.png",
+          "imageDescription": "Imagem de Sasuke lançando uma bola de fogo com o Goukakyu, em fundo de batalha."
+        },
+        {
+          "text": "Katon: Hosenka no Jutsu",
+          "isCorrect": false,
+          "explanation": "Quase! Hosenka é um jutsu de fogo menor. Sasuke usa algo mais grandioso!"
+        },
+        {
+          "text": "Katon: Ryuka no Jutsu",
+          "isCorrect": false,
+          "explanation": "Nããão, Ryuka é um dragão de fogo. O jutsu principal do Sasuke é uma bola!"
+        },
+        {
+          "text": "Amaterasu",
+          "isCorrect": false,
+          "explanation": "Não, não! Amaterasu é do Mangekyo Sharingan. O jutsu de fogo base é outro!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do vilão que revive os mortos na Quarta Guerra Ninja?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Orochimaru",
+          "isCorrect": false,
+          "explanation": "Nããão, Orochimaru está envolvido, mas quem revive os mortos é outro ninja!"
+        },
+        {
+          "text": "Kabuto Yakushi",
+          "isCorrect": true,
+          "explanation": "Acertooou! Kabuto Yakushi usa o Edo Tensei na Quarta Guerra Ninja, trazendo lendas como Madara e Itachi de volta. Ele vira um vilão tão perigoso que até Orochimaru fica impressionado!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Kabuto_Yakushi.png",
+          "imageDescription": "Imagem de Kabuto com escamas de cobra, usando Edo Tensei, em fundo de caverna."
+        },
+        {
+          "text": "Pain",
+          "isCorrect": false,
+          "explanation": "Não, não! Pain usa o Rinnegan, mas não revive mortos. Outro ninja faz isso!"
+        },
+        {
+          "text": "Madara Uchiha",
+          "isCorrect": false,
+          "explanation": "Quase! Madara é revivido, mas não é quem usa o jutsu!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de barreira de Minato Namikaze?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Hiraishin Goshun Mawashi no Jutsu",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Hiraishin Goshun Mawashi no Jutsu é uma técnica avançada do Minato que cria uma barreira de teletransporte com múltiplas kunais, redirecionando ataques. É o Relâmpago Amarelo no auge!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Hiraishin_Goshun_Mawashi.png",
+          "imageDescription": "Imagem de Minato lançando kunais marcadas, criando uma barreira de teletransporte, em fundo de batalha."
+        },
+        {
+          "text": "Hiraishin Doryuheki",
+          "isCorrect": false,
+          "explanation": "Nããão, isso não existe! Minato usa uma barreira com teletransporte!"
+        },
+        {
+          "text": "Fuinjutsu: Shishienjin",
+          "isCorrect": false,
+          "explanation": "Quase! Shishienjin é uma barreira de fogo. Minato tem algo mais... instantâneo!"
+        },
+        {
+          "text": "Hakke no Fuin",
+          "isCorrect": false,
+          "explanation": "Não, não! Esse é o selo do Naruto. Minato usa uma barreira ligada ao Hiraishin!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do ninja que enfrenta Hidan da Akatsuki?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Shikamaru Nara",
+          "isCorrect": true,
+          "explanation": "Mandou bem! Shikamaru Nara enfrenta Hidan, da Akatsuki, numa batalha de estratégia contra imortalidade. Com seu Kagemane e cérebro genial, Shikamaru dá uma lição que Hidan nunca esquece... ou sente!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Shikamaru_Nara.png",
+          "imageDescription": "Imagem de Shikamaru usando o Kagemane contra Hidan, com fundo de floresta."
+        },
+        {
+          "text": "Naruto Uzumaki",
+          "isCorrect": false,
+          "explanation": "Nããão, Naruto não enfrenta Hidan diretamente! Outro ninja de Konoha brilha aqui!"
+        },
+        {
+          "text": "Kakashi Hatake",
+          "isCorrect": false,
+          "explanation": "Não, não! Kakashi enfrenta outros membros da Akatsuki. Hidan encara um estrategista!"
+        },
+        {
+          "text": "Asuma Sarutobi",
+          "isCorrect": false,
+          "explanation": "Quase! Asuma luta contra Hidan, mas quem o derrota é outro ninja!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do clã de Jiraiya?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Clã Senju",
+          "isCorrect": false,
+          "explanation": "Nããão, Senju é da Tsunade! Jiraiya não tem um clã específico mencionado!"
+        },
+        {
+          "text": "Nenhum clã",
+          "isCorrect": true,
+          "explanation": "Acertooou! Jiraiya não pertence a um clã específico, sendo um ninja lendário por seus próprios méritos. Ele é o Sannin dos sapos, com talento puro e um coração maior que o Monte Myoboku!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Jiraiya.png",
+          "imageDescription": "Imagem de Jiraiya com seu pergaminho de invocação, em pose heroica, com fundo de Konoha."
+        },
+        {
+          "text": "Clã Uzumaki",
+          "isCorrect": false,
+          "explanation": "Não, não! Uzumaki é do Naruto. Jiraiya é um lobo solitário, sem clã!"
+        },
+        {
+          "text": "Clã Sarutobi",
+          "isCorrect": false,
+          "explanation": "Quase! Sarutobi é do Hiruzen. Jiraiya não tem laços de clã!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de imortalidade de Hidan?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Jashin Ritual",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Jashin Ritual é a técnica de imortalidade do Hidan, que usa um ritual de sangue pra vincular sua vítima ao deus Jashin, transferindo danos. É tão macabro que até a Akatsuki acha estranho!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Jashin_Ritual.png",
+          "imageDescription": "Imagem de Hidan dentro de um círculo ritual, com sua foice, em fundo sombrio."
+        },
+        {
+          "text": "Edo Tensei",
+          "isCorrect": false,
+          "explanation": "Nããão, Edo Tensei é do Kabuto! Hidan tem um ritual mais... religioso!"
+        },
+        {
+          "text": "Fushi Tensei",
+          "isCorrect": false,
+          "explanation": "Não, não! Fushi Tensei é do Orochimaru. Hidan usa algo ligado a Jashin!"
+        },
+        {
+          "text": "Shinigami no Jutsu",
+          "isCorrect": false,
+          "explanation": "Quase! Isso não existe. Hidan tem um ritual de sangue!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do ninja que enfrenta Kakuzu da Akatsuki?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Naruto Uzumaki",
+          "isCorrect": true,
+          "explanation": "Acertooou! Naruto Uzumaki enfrenta Kakuzu, da Akatsuki, usando o Rasenshuriken pela primeira vez. Com ajuda do Time 7, ele derrota o ninja com múltiplos corações, mostrando o poder do vento e da determinação!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Naruto_Uzumaki.png",
+          "imageDescription": "Imagem de Naruto lançando o Rasenshuriken contra Kakuzu, em fundo de batalha."
+        },
+        {
+          "text": "Shikamaru Nara",
+          "isCorrect": false,
+          "explanation": "Nããão, Shikamaru enfrenta Hidan! Kakuzu encara um ninja com um jutsu novo!"
+        },
+        {
+          "text": "Kakashi Hatake",
+          "isCorrect": false,
+          "explanation": "Quase! Kakashi ajuda, mas o golpe final contra Kakuzu vem de outro!"
+        },
+        {
+          "text": "Choji Akimichi",
+          "isCorrect": false,
+          "explanation": "Não, não! Choji não enfrenta Kakuzu. O oponente é um ninja mais barulhento!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do bijuu de nove caudas selado em Naruto?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Shukaku",
+          "isCorrect": false,
+          "explanation": "Nããão, Shukaku é o Uma Cauda do Gaara! O bijuu do Naruto é mais... raposudo!"
+        },
+        {
+          "text": "Kurama",
+          "isCorrect": true,
+          "explanation": "Mandou bem! Kurama, o Nove Caudas, é o bijuu selado em Naruto, uma raposa gigante com chakra ilimitado. Ele começa como um monstro, mas vira o melhor amigo do Hokage!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Kurama.png",
+          "imageDescription": "Imagem de Kurama, o Nove Caudas, com olhos vermelhos e chakra brilhando, em fundo de batalha."
+        },
+        {
+          "text": "Gyuki",
+          "isCorrect": false,
+          "explanation": "Não, não! Gyuki é o Oito Caudas do Killer Bee. O bijuu do Naruto tem mais caudas!"
+        },
+        {
+          "text": "Matatabi",
+          "isCorrect": false,
+          "explanation": "Quase! Matatabi é o Duas Caudas. O bijuu do Naruto é o mais poderoso!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de vento de Naruto Uzumaki?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Futon: Rasenshuriken",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Futon: Rasenshuriken é o jutsu de vento do Naruto, uma versão giratória e cortante do Rasengan que destrói no nível celular. Ele treinou duro com Kakashi pra criar essa obra-prima!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Futon_Rasenshuriken.png",
+          "imageDescription": "Imagem de Naruto lançando o Rasenshuriken, com lâminas de vento brilhando, em fundo de batalha."
+        },
+        {
+          "text": "Futon: Kamaitachi",
+          "isCorrect": false,
+          "explanation": "Nããão, Kamaitachi é da Temari! Naruto usa algo mais... giratório!"
+        },
+        {
+          "text": "Futon: Gale Palm",
+          "isCorrect": false,
+          "explanation": "Não, não! Gale Palm é genérico. Naruto tem um jutsu mais épico!"
+        },
+        {
+          "text": "Futon: Tatsu no Oshigoto",
+          "isCorrect": false,
+          "explanation": "Quase! Isso não existe. Naruto usa um jutsu com vento e Rasengan!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do ninja que enfrenta Madara Uchiha na Quarta Guerra Ninja?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Naruto Uzumaki",
+          "isCorrect": true,
+          "explanation": "Acertooou! Naruto Uzumaki, junto com Sasuke, Sakura e outros, enfrenta Madara Uchiha na Quarta Guerra Ninja. Com o poder do Kurama e Modo Sábio, ele encara o lendário Uchiha em batalhas épicas!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Naruto_Uzumaki.png",
+          "imageDescription": "Imagem de Naruto no Modo Kurama, enfrentando Madara, com fundo de campo de batalha."
+        },
+        {
+          "text": "Kakashi Hatake",
+          "isCorrect": false,
+          "explanation": "Nããão, Kakashi enfrenta outros! Madara encara os protagonistas principais!"
+        },
+        {
+          "text": "Gaara",
+          "isCorrect": false,
+          "explanation": "Não, não! Gaara luta, mas o confronto principal com Madara é de outro ninja!"
+        },
+        {
+          "text": "Tsunade",
+          "isCorrect": false,
+          "explanation": "Quase! Tsunade enfrenta Madara, mas o foco é em outro herói!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do time formado por Naruto, Sasuke e Sakura?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Time 10",
+          "isCorrect": false,
+          "explanation": "Nããão, Time 10 é do Shikamaru! O time do Naruto é mais famoso!"
+        },
+        {
+          "text": "Time 7",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Time 7 é formado por Naruto, Sasuke e Sakura, liderados por Kakashi. Eles são a equipe mais icônica de Konoha, enfrentando desde Zabuza até a Akatsuki com muito drama e amizade!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Team_7.png",
+          "imageDescription": "Imagem do Time 7 com Naruto, Sasuke, Sakura e Kakashi, posando juntos, com fundo de Konoha."
+        },
+        {
+          "text": "Time 8",
+          "isCorrect": false,
+          "explanation": "Não, não! Time 8 é da Hinata. O time do Naruto é outro!"
+        },
+        {
+          "text": "Time 9",
+          "isCorrect": false,
+          "explanation": "Quase! Time 9 é do Rock Lee. O time do Naruto é o mais lendário!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de manipulação de terra de Yamato?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Doton: Doryuheki",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Doton: Doryuheki é o jutsu de Yamato que cria uma parede de terra gigante, usada pra defesa ou contenção. Ele combina isso com seu Mokuton pra ser o mestre da construção ninja!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Doton_Doryuheki.png",
+          "imageDescription": "Imagem de Yamato criando uma parede de terra com o Doryuheki, em fundo de batalha."
+        },
+        {
+          "text": "Doton: Yomi Numa",
+          "isCorrect": false,
+          "explanation": "Nããão, Yomi Numa é do Jiraiya! Yamato usa uma parede mais sólida!"
+        },
+        {
+          "text": "Doton: Golem",
+          "isCorrect": false,
+          "explanation": "Não, não! Golem é de outro ninja. Yamato tem uma técnica mais defensiva!"
+        },
+        {
+          "text": "Mokuton: Doryuheki",
+          "isCorrect": false,
+          "explanation": "Quase! Mokuton é madeira, mas Yamato usa Doton pra essa parede!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do ninja que enfrenta Obito Uchiha na Quarta Guerra Ninja?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Naruto Uzumaki",
+          "isCorrect": true,
+          "explanation": "Acertooou! Naruto Uzumaki, junto com Kakashi, Guy e Bee, enfrenta Obito Uchiha na Quarta Guerra Ninja. Com o Modo Kurama, ele quebra a máscara do Dez Caudas e revela segredos do passado!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Naruto_Uzumaki.png",
+          "imageDescription": "Imagem de Naruto no Modo Kurama, enfrentando Obito, com fundo de campo de batalha."
+        },
+        {
+          "text": "Sasuke Uchiha",
+          "isCorrect": false,
+          "explanation": "Nããão, Sasuke entra depois! Obito encara outro ninja primeiro!"
+        },
+        {
+          "text": "Tsunade",
+          "isCorrect": false,
+          "explanation": "Não, não! Tsunade está em outro front. Obito enfrenta um herói mais jovem!"
+        },
+        {
+          "text": "Shikamaru Nara",
+          "isCorrect": false,
+          "explanation": "Quase! Shikamaru está na guerra, mas Obito encara o protagonista!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do líder da Vila da Nuvem?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Hokage",
+          "isCorrect": false,
+          "explanation": "Nããão, Hokage é da Vila da Folha! O líder da Nuvem tem um título mais... elétrico!"
+        },
+        {
+          "text": "Raikage",
+          "isCorrect": true,
+          "explanation": "Mandou bem! O Raikage é o líder da Vila da Nuvem, como o Quarto Raikage, Ay, que comanda com força bruta e velocidade de relâmpago. É o chefe mais musculoso do mundo ninja!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Raikage_Symbol.png",
+          "imageDescription": "Imagem do chapéu de Raikage com o símbolo da Vila da Nuvem, representando o líder."
+        },
+        {
+          "text": "Mizukage",
+          "isCorrect": false,
+          "explanation": "Não, não! Mizukage é da Vila da Névoa. O líder da Nuvem é outro!"
+        },
+        {
+          "text": "Tsuchikage",
+          "isCorrect": false,
+          "explanation": "Quase! Tsuchikage é da Vila da Pedra. O líder da Nuvem é mais... rápido!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de madeira de Yamato?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Mokuton: Shichuka no Jutsu",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Mokuton: Shichuka no Jutsu é o jutsu de Yamato que cria casas ou estruturas de madeira, perfeito pra construir abrigos ou prender inimigos. Ele é o arquiteto ninja definitivo!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Mokuton_Shichuka_no_Jutsu.png",
+          "imageDescription": "Imagem de Yamato criando uma casa de madeira com o Mokuton, em fundo de floresta."
+        },
+        {
+          "text": "Mokuton: Jukai Kotan",
+          "isCorrect": false,
+          "explanation": "Nããão, Jukai Kotan é do Hashirama! Yamato usa algo mais... doméstico!"
+        },
+        {
+          "text": "Mokuton: Hobi no Jutsu",
+          "isCorrect": false,
+          "explanation": "Não, não! Hobi é uma cúpula defensiva. Yamato tem uma técnica mais estrutural!"
+        },
+        {
+          "text": "Doton: Shichuka",
+          "isCorrect": false,
+          "explanation": "Quase! Yamato usa Mokuton, não Doton, pra criar casas!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do ninja que enfrenta Kaguya Otsutsuki na Quarta Guerra Ninja?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Naruto Uzumaki",
+          "isCorrect": true,
+          "explanation": "Acertooou! Naruto Uzumaki, junto com Sasuke, Sakura e Kakashi, enfrenta Kaguya Otsutsuki, a progenitora do chakra, na Quarta Guerra Ninja. Com o poder do Sábio dos Seis Caminhos, ele salva o mundo!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Naruto_Uzumaki.png",
+          "imageDescription": "Imagem de Naruto com o selo do Sábio dos Seis Caminhos, enfrentando Kaguya, com fundo dimensional."
+        },
+        {
+          "text": "Gaara",
+          "isCorrect": false,
+          "explanation": "Nããão, Gaara não enfrenta Kaguya! O confronto é com os protagonistas!"
+        },
+        {
+          "text": "Killer Bee",
+          "isCorrect": false,
+          "explanation": "Não, não! Killer Bee está em outro front. Kaguya encara o Time 7!"
+        },
+        {
+          "text": "Shikamaru Nara",
+          "isCorrect": false,
+          "explanation": "Quase! Shikamaru ajuda na guerra, mas Kaguya é enfrentada por outros!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do clã de Orochimaru?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Clã Senju",
+          "isCorrect": false,
+          "explanation": "Nããão, Senju é da Tsunade! Orochimaru não tem um clã específico!"
+        },
+        {
+          "text": "Nenhum clã",
+          "isCorrect": true,
+          "explanation": "Acertooou! Orochimaru não pertence a um clã específico, sendo um Sannin renegado que busca poder por conta própria. Ele é uma cobra solitária com ambições maiores que Konoha!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Orochimaru.png",
+          "imageDescription": "Imagem de Orochimaru com seu sorriso sinistro, em fundo sombrio."
+        },
+        {
+          "text": "Clã Uchiha",
+          "isCorrect": false,
+          "explanation": "Não, não! Uchiha é do Sasuke. Orochimaru é um ninja sem laços de clã!"
+        },
+        {
+          "text": "Clã Uzumaki",
+          "isCorrect": false,
+          "explanation": "Quase! Uzumaki é do Naruto. Orochimaru não tem clã!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de relâmpago de Killer Bee?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Raiton: Lariat",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Raiton: Lariat é o jutsu de relâmpago do Killer Bee, um ataque carregado de chakra elétrico que ele usa com força bruta e rimas. É tão estiloso que até o Gyuki aprova!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Raiton_Lariat.png",
+          "imageDescription": "Imagem de Killer Bee com chakra elétrico, usando o Lariat, em fundo de batalha."
+        },
+        {
+          "text": "Raiton: Gian",
+          "isCorrect": false,
+          "explanation": "Nããão, Gian é genérico! Killer Bee usa algo mais físico e impactante!"
+        },
+        {
+          "text": "Chidori",
+          "isCorrect": false,
+          "explanation": "Não, não! Chidori é do Sasuke e Kakashi. Bee tem um ataque mais... rimado!"
+        },
+        {
+          "text": "Raiton: Bijudama",
+          "isCorrect": false,
+          "explanation": "Quase! Bijudama é do Gyuki. Bee usa um jutsu de relâmpago puro!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do ninja que enfrenta Boruto Uzumaki no Exame Chunin em *Boruto*?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Shinki",
+          "isCorrect": true,
+          "explanation": "Acertooou! Shinki, filho adotivo de Gaara, enfrenta Boruto Uzumaki no Exame Chunin em *Boruto*. Com sua areia de ferro, ele dá trabalho, mas Boruto usa sua esperteza (e um pouco de trapaça) pra brilhar!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Shinki.png",
+          "imageDescription": "Imagem de Shinki manipulando areia de ferro, enfrentando Boruto, em fundo do estádio Chunin."
+        },
+        {
+          "text": "Sarada Uchiha",
+          "isCorrect": false,
+          "explanation": "Nããão, Sarada é aliada! Boruto encara um ninja da Areia!"
+        },
+        {
+          "text": "Mitsuki",
+          "isCorrect": false,
+          "explanation": "Não, não! Mitsuki é do time do Boruto. O oponente é outro!"
+        },
+        {
+          "text": "Kawaki",
+          "isCorrect": false,
+          "explanation": "Quase! Kawaki não está no Exame. Boruto enfrenta um ninja com areia!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do líder da Vila da Pedra?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Hokage",
+          "isCorrect": false,
+          "explanation": "Nããão, Hokage é da Vila da Folha! O líder da Pedra tem um título mais... rochoso!"
+        },
+        {
+          "text": "Tsuchikage",
+          "isCorrect": true,
+          "explanation": "Mandou bem! O Tsuchikage é o líder da Vila da Pedra, como Onoki, que comanda com jutsus de terra e experiência. É o chefe das montanhas, com um toque de teimosia!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/9/9e/Tsuchikage_Symbol.png",
+          "imageDescription": "Imagem do chapéu de Tsuchikage com o símbolo da Vila da Pedra, representando o líder."
+        },
+        {
+          "text": "Mizukage",
+          "isCorrect": false,
+          "explanation": "Não, não! Mizukage é da Vila da Névoa. O líder da Pedra é outro!"
+        },
+        {
+          "text": "Raikage",
+          "isCorrect": false,
+          "explanation": "Quase! Raikage é da Vila da Nuvem. O líder da Pedra é mais... sólido!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do jutsu de lava de Mei Terumi?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Yoton: Yokai no Jutsu",
+          "isCorrect": true,
+          "explanation": "Acertooou! O Yoton: Yokai no Jutsu é o jutsu de lava da Mei Terumi, que derrete tudo com um líquido corrosivo. Como Mizukage, ela combina beleza e destruição com esse kekkei genkai!",
+          "imageUrl": "https://static.wikia.nocookie.net/naruto/images/6/6e/Yoton_Yokai_no_Jutsu.png",
+          "imageDescription": "Imagem de Mei Terumi cuspindo lava com o Yokai no Jutsu, em fundo de batalha."
+        },
+        {
+          "text": "Yoton: Shakugaryugan",
+          "isCorrect": false,
+          "explanation": "Nããão, Shakugaryugan é de rocha! Mei usa lava líquida!"
+        },
+        {
+          "text": "Suiton: Yokai",
+          "isCorrect": false,
+          "explanation": "Não, não! Mei usa Yoton, não Suiton, pra esse jutsu!"
+        },
+        {
+          "text": "Futton: Komu no Jutsu",
+          "isCorrect": false,
+          "explanation": "Quase! Futton é vapor, mas Mei tem um jutsu de lava!"
+        }
+      ]
+    }
+  ]
+}

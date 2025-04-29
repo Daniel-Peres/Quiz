@@ -1,0 +1,149 @@
+{
+    "config": {
+        "theme": "Segunda Guerra Mundial",
+        "totalPoints": 1000,
+        "scoring": "points"
+    },
+    "data": [
+        {
+            "question": "Qual evento de 1939 marcou o início da Segunda Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Ataque a Pearl Harbor",
+                    "isCorrect": false,
+                    "explanation": "Nããão, tá dois anos adiantado! Pearl Harbor foi em 1941, trazendo os EUA pra guerra. O começo foi na Europa, com tanques e um país invadido!"
+                },
+                {
+                    "text": "Invasão da Polônia",
+                    "isCorrect": true,
+                    "explanation": "Blitzkrieg, acertou! A invasão da Polônia pela Alemanha nazista em 1º de setembro de 1939 foi o estopim da Segunda Guerra, levando França e Reino Unido a declararem guerra. Um momento que mudou o mundo, e você sabia direitinho!",
+                    "imageUrl": "https://www.history.com/.image/t_share/MTU3ODc5MDgzMjU0NzM2MTU5/poland-invasion.jpg",
+                    "imageDescription": "Imagem de tanques alemães avançando durante a invasão da Polônia em 1939, com fumaça e destruição, marcando o início da Segunda Guerra Mundial."
+                },
+                {
+                    "text": "Batalha de Stalingrado",
+                    "isCorrect": false,
+                    "explanation": "Ops, tá no meio da guerra! Stalingrado foi em 1942-43, um turning point. O começo foi mais cedo, com uma invasão relâmpago!"
+                },
+                {
+                    "text": "Queda da Bastilha",
+                    "isCorrect": false,
+                    "explanation": "Nããão, voltou séculos! A Queda da Bastilha foi em 1789, Revolução Francesa. Tente algo com aviões e tanques!"
+                }
+            ]
+        },
+        {
+            "question": "Qual operação de 1944 foi o maior desembarque anfíbio da história, iniciando a libertação da Europa ocupada?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Operação Barbarossa",
+                    "isCorrect": false,
+                    "explanation": "Nããão, tá do lado errado! Barbarossa foi a invasão da União Soviética em 1941. A operação que buscamos é na costa francesa, com praias famosas!"
+                },
+                {
+                    "text": "Operação Overlord",
+                    "isCorrect": true,
+                    "explanation": "Você é um general cinco estrelas! A Operação Overlord, em 6 de junho de 1944, foi o Dia D, com os Aliados desembarcando na Normandia. Praias como Omaha e Utah viram heroísmo e caos, mudando o rumo da guerra. Parabéns, soldado!",
+                    "imageUrl": "https://www.nationalww2museum.org/sites/default/files/2020-06/D-Day-landing.jpg",
+                    "imageDescription": "Imagem de soldados aliados desembarcando na praia de Omaha durante o Dia D, com barcos e fumaça ao fundo, capturando a intensidade da Operação Overlord."
+                },
+                {
+                    "text": "Operação Market Garden",
+                    "isCorrect": false,
+                    "explanation": "Quase, mas não! Market Garden, em 1944, foi uma tentativa de tomar pontes na Holanda, mas falhou. Tente algo mais... praiano e épico!"
+                },
+                {
+                    "text": "Operação Torch",
+                    "isCorrect": false,
+                    "explanation": "Nããão, tá no continente errado! Torch foi no Norte da África, em 1942. A operação que queremos é na Europa, com ondas e coragem!"
+                }
+            ]
+        },
+        {
+            "question": "Qual líder nazista foi o principal responsável pela Segunda Guerra Mundial e pelo Holocausto?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Joseph Stalin",
+                    "isCorrect": false,
+                    "explanation": "Nããão, Stalin era o chefão da União Soviética, aliado dos nazistas no começo, mas depois inimigo. O cara que buscamos é bem mais... infame e bigodudo!"
+                },
+                {
+                    "text": "Adolf Hitler",
+                    "isCorrect": true,
+                    "explanation": "Você acertou no alvo! Adolf Hitler, chanceler da Alemanha nazista, foi o arquiteto da Segunda Guerra e do Holocausto, com sua ideologia de ódio e expansão. Um nome que a história nunca esquece, pelo pior motivo. Boa, historiador!",
+                    "imageUrl": "https://www.britannica.com/static/images/2020/09/hitler.jpg",
+                    "imageDescription": "Imagem de Adolf Hitler em um discurso, com o símbolo nazista ao fundo, representando sua liderança durante a Segunda Guerra Mundial."
+                },
+                {
+                    "text": "Benito Mussolini",
+                    "isCorrect": false,
+                    "explanation": "Quase, mas não! Mussolini era o ditador da Itália, aliado de Hitler, mas não o principal. Tente o líder do Terceiro Reich!"
+                },
+                {
+                    "text": "Winston Churchill",
+                    "isCorrect": false,
+                    "explanation": "Nããão, Churchill era o herói britânico, lutando contra os nazistas! O vilão que buscamos é do outro lado, com planos bem mais sinistros!"
+                }
+            ]
+        },
+        {
+            "question": "Qual batalha de 1942-1943 na União Soviética marcou a virada do front oriental contra os nazistas?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Batalha de Kursk",
+                    "isCorrect": false,
+                    "explanation": "Nããão, Kursk foi em 1943, com tanques aos montes, mas não a virada principal. A batalha que buscamos é mais longa, gelada e decisiva!"
+                },
+                {
+                    "text": "Batalha de Stalingrado",
+                    "isCorrect": true,
+                    "explanation": "Uau, você é um estrategista! A Batalha de Stalingrado, de 1942 a 1943, foi o inferno na neve onde os soviéticos derrotaram os nazistas, marcando a virada no Leste. Ruínas, frio e coragem definiram essa vitória épica. Parabéns, camarada!",
+                    "imageUrl": "https://www.historyextra.com/wp-content/uploads/2020/08/stalingrado.jpg",
+                    "imageDescription": "Imagem de soldados soviéticos lutando entre ruínas cobertas de neve em Stalingrado, capturando a brutalidade e importância da batalha de 1942-1943."
+                },
+                {
+                    "text": "Batalha de Moscou",
+                    "isCorrect": false,
+                    "explanation": "Quase, mas não! Moscou, em 1941, foi uma defesa heroica, mas não a virada. Tente uma cidade mais ao sul, com um nome que ecoa na história!"
+                },
+                {
+                    "text": "Batalha de Leningrado",
+                    "isCorrect": false,
+                    "explanation": "Nããão, Leningrado foi um cerco longo, até 1944. A virada veio em outra cidade, com uma batalha urbana que quebrou os nazistas!"
+                }
+            ]
+        },
+        {
+            "question": "Qual arma nuclear foi lançada em Hiroshima em 6 de agosto de 1945, encerrando a Segunda Guerra no Pacífico?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Fat Man",
+                    "isCorrect": false,
+                    "explanation": "Nããão, quase! Fat Man foi a bomba lançada em Nagasaki, dias depois. A de Hiroshima tem outro nome, bem mais... pequeno e irônico!"
+                },
+                {
+                    "text": "Little Boy",
+                    "isCorrect": true,
+                    "explanation": "Boom, acertou na explosão! Little Boy foi a bomba atômica lançada em Hiroshima em 6 de agosto de 1945 pelo Enola Gay, marcando um momento trágico que levou à rendição do Japão. Um nome pequeno para um impacto gigante. Boa, cientista!",
+                    "imageUrl": "https://www.atomicarchive.com/media/images/hiroshima.jpg",
+                    "imageDescription": "Imagem da explosão de Little Boy em Hiroshima, com a nuvem em forma de cogumelo subindo, representando o impacto devastador da bomba atômica."
+                },
+                {
+                    "text": "Tsar Bomba",
+                    "isCorrect": false,
+                    "explanation": "Nããão, essa é muito grande! Tsar Bomba foi um teste soviético em 1961, na Guerra Fria. Tente algo de 1945, usado em combate!"
+                },
+                {
+                    "text": "Trinity",
+                    "isCorrect": false,
+                    "explanation": "Quase, mas não! Trinity foi o teste da primeira bomba atômica em 1945, nos EUA. A de Hiroshima foi usada em guerra, com outro nome!"
+                }
+            ]
+        }
+    ]
+}

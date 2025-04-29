@@ -1,0 +1,37 @@
+{
+    "config": {
+      "theme": "Desenhos dos Anos 80 e 90",
+      "totalPoints": 1000,
+      "scoring": "points"
+    },
+    "data": [
+      {
+        "question": "Qual desenho dos anos 80 apresentava um grupo de tartarugas mutantes que amavam pizza e lutavam contra o crime em Nova York?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "He-Man",
+            "isCorrect": false,
+            "explanation": "Nããão, amigo! He-Man é o cara dos músculos em Eternia, lutando contra o Esqueleto com sua espada reluzente. Nada de pizza ou tartarugas aqui, só muito 'Pelos poderes de Grayskull!'"
+          },
+          {
+            "text": "Teenage Mutant Ninja Turtles",
+            "isCorrect": true,
+            "explanation": "Cowabunga, você acertou! As Tartarugas Ninja, criadas em 1987, são Leonardo, Raphael, Michelangelo e Donatello, mestres do ninjutsu, devoradores de pizza e inimigos do Shredder. Um clássico dos anos 80 que faz qualquer um querer gritar 'Tartarugas ao ataque!'",
+            "imageUrl": "https://www.themarysue.com/wp-content/uploads/2023/08/tmnt-mutant-mayhem.jpg",
+            "imageDescription": "Imagem das Tartarugas Ninja em ação, com suas armas características e bandanas coloridas, em um estilo vibrante que remete ao clássico dos anos 80."
+          },
+          {
+            "text": "Thundercats",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! Thundercats são felinos cósmicos liderados por Lion-O, lutando no Terceiro Mundo. Sem pizza, mas com muito rugido e a Espada do Trovão. Tente de novo, campeão!"
+          },
+          {
+            "text": "Transformers",
+            "isCorrect": false,
+            "explanation": "Ops, errou a mira! Transformers são robôs que viram carros e aviões, liderados por Optimus Prime. Nada de tartarugas ou pizza, mas muitas explosões e 'Autobots, transformar!'"
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,2709 @@
+{
+  "config": {
+    "theme": "Pokémon",
+    "totalPoints": 1000,
+    "scoring": "points"
+  },
+  "data": [
+    {
+      "question": "Qual é o Pokémon inicial de tipo Fogo da região de Kanto?",
+      "options": [
+        {
+          "text": "Bulbasaur",
+          "isCorrect": false,
+          "explanation": "Nada disso, treinador! Bulbasaur é tipo Grama/Veneno, perfeito para quem curte plantas. O Pokémon de Fogo de Kanto é bem mais... ardente!"
+        },
+        {
+          "text": "Charmander",
+          "isCorrect": true,
+          "explanation": "Acertou na chama! Charmander, a salamandra de fogo, é o inicial de Kanto que aquece o coração dos treinadores. Sua cauda brilha mais forte quando ele tá na ativa, mas cuidado pra não deixar apagar! Escolha quente!",
+          "imageUrl": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
+          "imageDescription": "Imagem oficial de Charmander, o Pokémon inicial de tipo Fogo de Kanto, com sua cauda em chamas."
+        },
+        {
+          "text": "Squirtle",
+          "isCorrect": false,
+          "explanation": "Ops, Squirtle é tipo Água, o rei dos jatos! Ele prefere molhar a apagar fogos. Tenta de novo, jovem treinador!"
+        },
+        {
+          "text": "Pikachu",
+          "isCorrect": false,
+          "explanation": "Haha, Pikachu é elétrico e famoso, mas não é inicial! Ele é mais o parceiro do Ash do que uma escolha de Kanto. Vamos focar no calor!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon lendário é conhecido como o 'Guardião dos Mares'?",
+      "options": [
+        {
+          "text": "Lugia",
+          "isCorrect": true,
+          "explanation": "Mandou bem! Lugia, o gigante voador dos mares, é o Guardião dos Mares em Johto. Ele acalma tempestades com um bater de asas e mora nas profundezas, tipo um rei aquático com estilo! Até o Ash precisou dele pra salvar o mundo!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/249.png",
+          "imageDescription": "Imagem oficial de Lugia, o Pokémon lendário Guardião dos Mares, com suas asas prateadas."
+        },
+        {
+          "text": "Kyogre",
+          "isCorrect": false,
+          "explanation": "Quase, mas Kyogre é o criador dos oceanos, não o guardião! Ele prefere inundar tudo em Hoenn. Tenta outro lendário!"
+        },
+        {
+          "text": "Gyarados",
+          "isCorrect": false,
+          "explanation": "Haha, Gyarados é feroz, mas não é lendário! Ele é só um Magikarp que malhou muito. O Guardião dos Mares é mais épico!"
+        },
+        {
+          "text": "Palkia",
+          "isCorrect": false,
+          "explanation": "Não, Palkia controla o espaço, não os mares! Ele tá mais ocupado dobrando dimensões em Sinnoh. Vamos mergulhar na resposta certa!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é a primeira evolução de Eevee que foi introduzida nos jogos?",
+      "options": [
+        {
+          "text": "Umbreon",
+          "isCorrect": false,
+          "explanation": "Ops, Umbreon é da Geração II, bem estiloso com sua vibe noturna, mas não é o pioneiro. As primeiras evoluções de Eevee são mais clássicas!"
+        },
+        {
+          "text": "Vaporeon",
+          "isCorrect": true,
+          "explanation": "Nadou direitinho! Vaporeon, a evolução aquática de Eevee, foi uma das três primeiras introduzidas em Kanto, junto com Jolteon e Flareon. Com sua cauda de sereia, ela desliza pelos lagos e rouba corações! Escolha refrescante!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/134.png",
+          "imageDescription": "Imagem oficial de Vaporeon, a evolução aquática de Eevee, com sua cauda de sereia e corpo azul."
+        },
+        {
+          "text": "Espeon",
+          "isCorrect": false,
+          "explanation": "Não, Espeon é psíquico e veio depois, na Geração II. Eevee tinha opções mais elementais no começo. Tenta de novo!"
+        },
+        {
+          "text": "Leafeon",
+          "isCorrect": false,
+          "explanation": "Quase, mas Leafeon é de Sinnoh, Geração IV! Eevee começou com evoluções mais básicas. Vamos voltar a Kanto!"
+        }
+      ]
+    },
+    {
+      "question": "Qual item é necessário para evoluir Magikarp para Gyarados?",
+      "options": [
+        {
+          "text": "Water Stone",
+          "isCorrect": false,
+          "explanation": "Nada disso! Water Stone é para Pokémon como Vaporeon. Magikarp não precisa de pedras, só de muita paciência e suor!"
+        },
+        {
+          "text": "Nenhum (apenas nível)",
+          "isCorrect": true,
+          "explanation": "Acertou na splash! Magikarp evolui para o feroz Gyarados só alcançando o nível 20. É tipo um patinho feio que vira um dragão aquático! Treine esse peixinho e veja a mágica acontecer!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/130.png",
+          "imageDescription": "Imagem oficial de Gyarados, o Pokémon serpente aquática que evolui de Magikarp ao atingir nível 20."
+        },
+        {
+          "text": "Dragon Scale",
+          "isCorrect": false,
+          "explanation": "Não, Dragon Scale é para Seadra virar Kingdra. Magikarp é mais simples, só precisa crescer! Tenta outra!"
+        },
+        {
+          "text": "Shiny Stone",
+          "isCorrect": false,
+          "explanation": "Haha, Shiny Stone é para Roselia e Togetic. Magikarp não brilha com pedras, só com treino! Vamos lá!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon lendário é o mascote do jogo Pokémon Ruby?",
+      "options": [
+        {
+          "text": "Rayquaza",
+          "isCorrect": false,
+          "explanation": "Quase, treinador! Rayquaza é o chefão de Emerald, voando nos céus de Hoenn. Ruby tem outro lendário mais... terrestre!"
+        },
+        {
+          "text": "Groudon",
+          "isCorrect": true,
+          "explanation": "Mandou bem! Groudon, o titã da terra, é o mascote de Pokémon Ruby. Ele cria continentes e adora um sol escaldante, deixando Kyogre com ciúmes! Um verdadeiro monstro da lava que abala Hoenn!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/383.png",
+          "imageDescription": "Imagem oficial de Groudon, o Pokémon lendário mascote de Pokémon Ruby, com seu corpo vermelho e terrestre."
+        },
+        {
+          "text": "Kyogre",
+          "isCorrect": false,
+          "explanation": "Não, Kyogre é o rei dos mares e mascote de Sapphire. Groudon é quem manda na terra firme de Ruby!"
+        },
+        {
+          "text": "Latios",
+          "isCorrect": false,
+          "explanation": "Haha, Latios é um viajante de Hoenn, mas não é o mascote. O lendário de Ruby é bem mais pesado!"
+        }
+      ]
+    },
+    {
+      "question": "Quem é o líder do ginásio de Pewter City em Pokémon Red/Blue?",
+      "options": [
+        {
+          "text": "Misty",
+          "isCorrect": false,
+          "explanation": "Não, Misty é a rainha das águas em Cerulean City! Pewter precisa de alguém mais... rochoso!"
+        },
+        {
+          "text": "Brock",
+          "isCorrect": true,
+          "explanation": "Na pedra! Brock, o mestre das rochas, comanda o ginásio de Pewter com seu Onix e Geodude. Ele é tão sólido que até tenta cozinhar (spoiler: não é seu forte)! Derrote-o e ganhe a Boulder Badge, treinador!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/characters/brock.png",
+          "imageDescription": "Imagem oficial de Brock, líder do ginásio de Pewter City, segurando uma Pokébola com fundo rochoso."
+        },
+        {
+          "text": "Lt. Surge",
+          "isCorrect": false,
+          "explanation": "Zzzzt! Lt. Surge é o cara dos choques em Vermilion. Pewter é território de pedras, não de raios!"
+        },
+        {
+          "text": "Erika",
+          "isCorrect": false,
+          "explanation": "Não, Erika cuida das plantas em Celadon. Pewter é mais pra quem curte cavar!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o tipo principal de Pikachu?",
+      "options": [
+        {
+          "text": "Fogo",
+          "isCorrect": false,
+          "explanation": "Haha, Pikachu não cospe fogo! Ele é mais sobre faíscas e choques. Tenta um tipo mais... eletrizante!"
+        },
+        {
+          "text": "Elétrico",
+          "isCorrect": true,
+          "explanation": "Choque do trovão! Pikachu é o rei do tipo Elétrico, lançando raios com seu Thunderbolt. Esse ratinho amarelo é tão carismático que até virou mascote da franquia. Zzzt, acertou em cheio!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/025.png",
+          "imageDescription": "Imagem oficial de Pikachu, o Pokémon Elétrico, com bochechas brilhando e fundo amarelo."
+        },
+        {
+          "text": "Água",
+          "isCorrect": false,
+          "explanation": "Não, Pikachu não curte nadar! Água é mais coisa de Squirtle. Pikachu prefere eletrocutar!"
+        },
+        {
+          "text": "Grama",
+          "isCorrect": false,
+          "explanation": "Quase, mas Pikachu não é planta! Grama é com Chikorita. Ele é mais de faíscas!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o lema da Equipe Rocket?",
+      "options": [
+        {
+          "text": "Unir todos os povos!",
+          "isCorrect": false,
+          "explanation": "Não, esse é o sonho do Ash! A Equipe Rocket tem um lema mais... vilanesco e cheio de pose!"
+        },
+        {
+          "text": "Preparar para o perigo, e dobrar a confusão!",
+          "isCorrect": true,
+          "explanation": "Decolar na velocidade da luz! O lema da Equipe Rocket é 'Preparar para o perigo, e dobrar a confusão!' Jessie, James e Meowth recitam isso antes de tentar roubar Pikachu (e falhar, claro). É tão icônico que até dá vontade de aplaudir o esforço deles!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/characters/team-rocket.png",
+          "imageDescription": "Imagem oficial de Jessie, James e Meowth da Equipe Rocket, posando com seu balão em formato de Meowth."
+        },
+        {
+          "text": "Capturar todos os Pokémon!",
+          "isCorrect": false,
+          "explanation": "Quase, mas isso é mais o objetivo deles. O lema é uma frase épica que eles gritam sempre!"
+        },
+        {
+          "text": "Poder e glória para sempre!",
+          "isCorrect": false,
+          "explanation": "Haha, parece lema de vilão, mas não é o da Equipe Rocket. Eles são mais dramáticos!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon é conhecido como o 'Criador do Tempo'?",
+      "options": [
+        {
+          "text": "Palkia",
+          "isCorrect": false,
+          "explanation": "Não, Palkia é o mestre do espaço! O tempo é controlado por outro lendário de Sinnoh!"
+        },
+        {
+          "text": "Dialga",
+          "isCorrect": true,
+          "explanation": "Tic-tac, acertou! Dialga, o dragão de aço, é o Criador do Tempo em Sinnoh. Ele manipula o fluxo do tempo com um rugido, fazendo o relógio girar ou parar. É tipo um avô de todos os relógios Pokémon!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/483.png",
+          "imageDescription": "Imagem oficial de Dialga, o Pokémon lendário Criador do Tempo, com seu corpo metálico azul."
+        },
+        {
+          "text": "Giratina",
+          "isCorrect": false,
+          "explanation": "Não, Giratina reina no Mundo Distorsionado. O tempo é com outro titã de Sinnoh!"
+        },
+        {
+          "text": "Celebi",
+          "isCorrect": false,
+          "explanation": "Quase! Celebi viaja no tempo, mas não o cria. O chefão do tempo é mais imponente!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o primeiro Pokémon registrado na Pokédex Nacional?",
+      "options": [
+        {
+          "text": "Pikachu",
+          "isCorrect": false,
+          "explanation": "Não, Pikachu é famoso, mas tá no número 25! O primeiro da Pokédex é mais... verdinho!"
+        },
+        {
+          "text": "Bulbasaur",
+          "isCorrect": true,
+          "explanation": "Semente na cabeça, resposta na mão! Bulbasaur é o número 001 da Pokédex Nacional, o inicial de Grama/Veneno de Kanto. Ele começa a jornada com Vine Whip e um charme que faz qualquer treinador querer plantá-lo no time!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png",
+          "imageDescription": "Imagem oficial de Bulbasaur, o primeiro Pokémon da Pokédex Nacional, com seu bulbo verde nas costas."
+        },
+        {
+          "text": "Charmander",
+          "isCorrect": false,
+          "explanation": "Não, Charmander é o 004. O topo da lista é um Pokémon mais ligado à natureza!"
+        },
+        {
+          "text": "Squirtle",
+          "isCorrect": false,
+          "explanation": "Quase, mas Squirtle é o 007! O número 001 é de um Pokémon com uma vibe mais vegetal!"
+        }
+      ]
+    },
+    {
+      "question": "Qual cidade de Kanto é famosa pelo ginásio de tipo Psíquico?",
+      "options": [
+        {
+          "text": "Cerulean City",
+          "isCorrect": false,
+          "explanation": "Não, Cerulean é a casa da Misty e do tipo Água! Psíquicos estão em outro lugar bem mais... místico!"
+        },
+        {
+          "text": "Saffron City",
+          "isCorrect": true,
+          "explanation": "Visão do futuro, treinador! Saffron City é onde Sabrina, a mestra psíquica, reina com seus Pokémon como Alakazam. O ginásio é tão intenso que parece que ela lê sua mente antes do combate! Boa escolha!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/pokemon-red-blue/025.jpg",
+          "imageDescription": "Imagem de Saffron City do jogo Pokémon Red/Blue, com o ginásio psíquico de Sabrina ao fundo."
+        },
+        {
+          "text": "Pewter City",
+          "isCorrect": false,
+          "explanation": "Não, Pewter é pedra com Brock! Psíquicos preferem um ambiente mais urbano e cerebral!"
+        },
+        {
+          "text": "Viridian City",
+          "isCorrect": false,
+          "explanation": "Não, Viridian é tipo Terra com Giovanni. Psíquicos têm uma vibe mais... sobrenatural!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon é a evolução final de Squirtle?",
+      "options": [
+        {
+          "text": "Wartortle",
+          "isCorrect": false,
+          "explanation": "Quase, mas Wartortle é só o estágio intermediário! A evolução final de Squirtle é bem mais poderosa!"
+        },
+        {
+          "text": "Blastoise",
+          "isCorrect": true,
+          "explanation": "Tiro de água certeiro! Blastoise, com seus canhões aquáticos, é a evolução final de Squirtle. Ele dispara jatos tão fortes que pode furar aço, e ainda tem uma cara de durão que impõe respeito! Um tanque aquático de Kanto!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/009.png",
+          "imageDescription": "Imagem oficial de Blastoise, a evolução final de Squirtle, com seus canhões de água nas costas."
+        },
+        {
+          "text": "Gyarados",
+          "isCorrect": false,
+          "explanation": "Haha, Gyarados vem de Magikarp, não de Squirtle! Vamos manter o foco na tartaruga!"
+        },
+        {
+          "text": "Lapras",
+          "isCorrect": false,
+          "explanation": "Não, Lapras é um Pokémon à parte. A evolução de Squirtle é mais... bélica!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o nome do professor que dá o Pokémon inicial em Kanto?",
+      "options": [
+        {
+          "text": "Professor Elm",
+          "isCorrect": false,
+          "explanation": "Não, Elm é de Johto! O professor de Kanto é bem mais famoso e tem um laboratório clássico!"
+        },
+        {
+          "text": "Professor Oak",
+          "isCorrect": true,
+          "explanation": "Pokédex ativada! Professor Oak é o gênio de Kanto que entrega Bulbasaur, Charmander ou Squirtle. Ele é tipo o avô que todo treinador quer, sempre com conselhos e uma Pokédex pra te mandar capturar tudo! Lenda viva de Pallet Town!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/characters/professor-oak.png",
+          "imageDescription": "Imagem oficial do Professor Oak, o cientista de Kanto, em seu laboratório com uma Pokébola."
+        },
+        {
+          "text": "Professor Birch",
+          "isCorrect": false,
+          "explanation": "Não, Birch é de Hoenn! O cara de Kanto é o pioneiro dos professores Pokémon!"
+        },
+        {
+          "text": "Professor Rowan",
+          "isCorrect": false,
+          "explanation": "Não, Rowan é de Sinnoh. Kanto tem um professor mais icônico e com óculos!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon lendário de Johto viaja pelo tempo?",
+      "options": [
+        {
+          "text": "Ho-Oh",
+          "isCorrect": false,
+          "explanation": "Não, Ho-Oh é o mestre do arco-íris e da ressurreição! Viagens no tempo são com outro lendário de Johto!"
+        },
+        {
+          "text": "Celebi",
+          "isCorrect": true,
+          "explanation": "Bingo temporal! Celebi, o guardião das florestas, viaja pelo tempo com sua magia verde. Esse Pokémon mítico é tão fofo que parece um bichinho de pelúcia, mas pode te levar de volta à era dos dinossauros! Cuidado com o paradoxo!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/251.png",
+          "imageDescription": "Imagem oficial de Celebi, o Pokémon lendário de Johto que viaja no tempo, com seu corpo verde brilhante."
+        },
+        {
+          "text": "Lugia",
+          "isCorrect": false,
+          "explanation": "Não, Lugia domina os mares, não o tempo. O viajante temporal é mais... vegetal!"
+        },
+        {
+          "text": "Suicune",
+          "isCorrect": false,
+          "explanation": "Não, Suicune purifica águas, não viaja no tempo. O lendário certo é mais místico!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o tipo de Mewtwo?",
+      "options": [
+        {
+          "text": "Fantasma",
+          "isCorrect": false,
+          "explanation": "Não, Mewtwo não é um fantasma, apesar de assustar! Ele é mais cerebral que espectral!"
+        },
+        {
+          "text": "Psíquico",
+          "isCorrect": true,
+          "explanation": "Mestre da mente! Mewtwo é um Pokémon Psíquico lendário, criado em laboratório com poderes que dobram colheres e realidades. Ele é tão intenso que até o Professor Oak fica nervoso perto dele! Resposta telepática, treinador!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/150.png",
+          "imageDescription": "Imagem oficial de Mewtwo, o Pokémon Psíquico lendário, com seu corpo roxo e olhos penetrantes."
+        },
+        {
+          "text": "Dragão",
+          "isCorrect": false,
+          "explanation": "Não, dragões são mais como Dragonite. Mewtwo é puro poder mental!"
+        },
+        {
+          "text": "Lutador",
+          "isCorrect": false,
+          "explanation": "Haha, Mewtwo luta, mas com a mente! Ele não precisa de socos, só de telecinese!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon é conhecido como o 'Pokémon Dragão' e evolui de Dratini?",
+      "options": [
+        {
+          "text": "Dragonair",
+          "isCorrect": false,
+          "explanation": "Quase lá, treinador! Dragonair é a evolução intermediária de Dratini, mas ainda não é o dragão final. O verdadeiro rei vem depois!"
+        },
+        {
+          "text": "Dragonite",
+          "isCorrect": true,
+          "explanation": "Rugiu na resposta! Dragonite, a evolução final de Dratini, é o 'Pokémon Dragão' que voa mais rápido que um jato. Ele é tão gentil que guia navios perdidos, mas não mexa com ele, ou o Hyper Beam vem com tudo! Escolha épica!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/149.png",
+          "imageDescription": "Imagem oficial de Dragonite, o Pokémon Dragão, com suas asas laranjas e corpo robusto."
+        },
+        {
+          "text": "Gyarados",
+          "isCorrect": false,
+          "explanation": "Não, Gyarados é mais serpente aquática que dragão! Ele vem de Magikarp, não de Dratini. Tenta de novo!"
+        },
+        {
+          "text": "Salamence",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas Salamence é de Hoenn! O dragão de Kanto é outro monstro alado!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o ginásio de tipo Fogo na região de Hoenn?",
+      "options": [
+        {
+          "text": "Lavaridge Town",
+          "isCorrect": true,
+          "explanation": "Chama acesa, treinador! Lavaridge Town é onde Flannery comanda o ginásio de tipo Fogo com seu Torkoal ardente. Depois de enfrentar as brasas, você ganha a Heat Badge e um banho quente nas fontes termais! Resposta quentíssima!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/pokemon-ruby-sapphire/015.jpg",
+          "imageDescription": "Imagem de Lavaridge Town do jogo Pokémon Ruby/Sapphire, com o ginásio de tipo Fogo ao fundo."
+        },
+        {
+          "text": "Mauville City",
+          "isCorrect": false,
+          "explanation": "Não, Mauville é o território elétrico do Wattson! O ginásio de Fogo fica mais... vulcânico!"
+        },
+        {
+          "text": "Petalburg City",
+          "isCorrect": false,
+          "explanation": "Não, Petalburg é tipo Normal com Norman. O calor tá em outra cidade de Hoenn!"
+        },
+        {
+          "text": "Sootopolis City",
+          "isCorrect": false,
+          "explanation": "Não, Sootopolis é a casa do tipo Água! Fogo é em um lugar mais quente e arenoso!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon mítico pode mudar de forma usando o item Gracidea?",
+      "options": [
+        {
+          "text": "Mew",
+          "isCorrect": false,
+          "explanation": "Não, Mew é um mestre das transformações, mas sem Gracidea! O Pokémon certo é mais... floral!"
+        },
+        {
+          "text": "Shaymin",
+          "isCorrect": true,
+          "explanation": "Florescendo na resposta! Shaymin, o Pokémon Gratidão, muda da Forma Terrestre para a Forma Celeste com a Gracidea. Ele vai de ouriço fofinho a cervo voador, trazendo primavera onde passa! Escolha perfumada, treinador!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/492.png",
+          "imageDescription": "Imagem oficial de Shaymin na Forma Celeste, o Pokémon mítico que muda com Gracidea."
+        },
+        {
+          "text": "Celebi",
+          "isCorrect": false,
+          "explanation": "Não, Celebi é florestal, mas não usa Gracidea. O Pokémon que muda de forma é outro!"
+        },
+        {
+          "text": "Jirachi",
+          "isCorrect": false,
+          "explanation": "Não, Jirachi concede desejos, não muda de forma! Tenta um Pokémon mais verdinho!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o ataque característico de Pikachu nos jogos?",
+      "options": [
+        {
+          "text": "Flamethrower",
+          "isCorrect": false,
+          "explanation": "Haha, Flamethrower é para Pokémon de Fogo! Pikachu prefere algo mais... eletrizante!"
+        },
+        {
+          "text": "Thunderbolt",
+          "isCorrect": true,
+          "explanation": "Zzzt, acertou! Thunderbolt é o ataque elétrico clássico de Pikachu, disparando raios que fritam qualquer adversário. Nos jogos e no anime, é a marca registrada do ratinho amarelo. Choquei com essa escolha, treinador!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/detail/025.png",
+          "imageDescription": "Imagem oficial de Pikachu usando Thunderbolt, com raios elétricos saindo de suas bochechas."
+        },
+        {
+          "text": "Hydro Pump",
+          "isCorrect": false,
+          "explanation": "Não, Hydro Pump é coisa de Pokémon aquáticos! Pikachu fica seco e prefere choques!"
+        },
+        {
+          "text": "Solar Beam",
+          "isCorrect": false,
+          "explanation": "Não, Solar Beam é para os tipos Grama. Pikachu é mais de faíscas que de flores!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon lendário é o mascote de Pokémon Diamond?",
+      "options": [
+        {
+          "text": "Palkia",
+          "isCorrect": false,
+          "explanation": "Não, Palkia é o mascote de Pearl! Diamond tem um lendário mais... temporal!"
+        },
+        {
+          "text": "Dialga",
+          "isCorrect": true,
+          "explanation": "Tic-tac, resposta na hora! Dialga, o mestre do tempo, é o mascote de Pokémon Diamond. Com seu corpo de aço e rugido que para o relógio, ele é o chefão de Sinnoh. Boa, treinador, você não perdeu tempo!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/483.png",
+          "imageDescription": "Imagem oficial de Dialga, o Pokémon lendário mascote de Pokémon Diamond, com seu corpo metálico."
+        },
+        {
+          "text": "Giratina",
+          "isCorrect": false,
+          "explanation": "Não, Giratina brilha em Platinum. Diamond é sobre o controle do tempo!"
+        },
+        {
+          "text": "Arceus",
+          "isCorrect": false,
+          "explanation": "Não, Arceus é o deus de todos, mas não mascote de Diamond. Tenta outro titã!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o tipo de Charizard?",
+      "options": [
+        {
+          "text": "Fogo/Dragão",
+          "isCorrect": false,
+          "explanation": "Quase, mas Charizard só vira Fogo/Dragão na Mega Evolução Y! Normalmente, ele tem outro tipo secundário!"
+        },
+        {
+          "text": "Fogo/Voador",
+          "isCorrect": true,
+          "explanation": "Chama e asas, acertou! Charizard é Fogo/Voador, cuspindo labaredas e voando como um dragão (mas sem o tipo Dragão, sorry!). Ele é o rei dos céus de Kanto, e seu Flamethrower é puro show! Escolha ardente!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/006.png",
+          "imageDescription": "Imagem oficial de Charizard, o Pokémon Fogo/Voador, com chamas na cauda e asas abertas."
+        },
+        {
+          "text": "Fogo/Terra",
+          "isCorrect": false,
+          "explanation": "Não, Charizard não curte cavar! Ele voa alto, não fica no chão!"
+        },
+        {
+          "text": "Fogo/Elétrico",
+          "isCorrect": false,
+          "explanation": "Haha, nada de choques! Charizard é puro calor e voo. Tenta de novo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual cidade de Sinnoh tem o ginásio de tipo Fantasma?",
+      "options": [
+        {
+          "text": "Eterna City",
+          "isCorrect": false,
+          "explanation": "Não, Eterna é tipo Grama com Gardenia! Fantasmas estão em um lugar mais... assustador!"
+        },
+        {
+          "text": "Hearthome City",
+          "isCorrect": true,
+          "explanation": "Boo, acertou! Hearthome City é onde Fantina, a mestra dos fantasmas, comanda com seu Mismagius. O ginásio é tão spooky que até seus Pokémon parecem dançar no escuro! Boa, treinador, você enfrentou o medo!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/pokemon-diamond-pearl/008.jpg",
+          "imageDescription": "Imagem de Hearthome City do jogo Pokémon Diamond/Pearl, com o ginásio de tipo Fantasma ao fundo."
+        },
+        {
+          "text": "Veilstone City",
+          "isCorrect": false,
+          "explanation": "Não, Veilstone é tipo Lutador com Maylene. Fantasmas preferem outro canto!"
+        },
+        {
+          "text": "Snowpoint City",
+          "isCorrect": false,
+          "explanation": "Não, Snowpoint é gelo puro! Fantasmas têm uma vibe mais urbana em Sinnoh!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon é a evolução de Chikorita?",
+      "options": [
+        {
+          "text": "Bayleef",
+          "isCorrect": true,
+          "explanation": "Folha na cabeça, resposta no bolso! Bayleef é a evolução de Chikorita, trazendo mais folhas e um aroma que acalma qualquer treinador. Ela é o meio do caminho para a glória de Johto! Escolha verdinha e cheirosa!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/153.png",
+          "imageDescription": "Imagem oficial de Bayleef, a evolução de Chikorita, com folhas ao redor do pescoço."
+        },
+        {
+          "text": "Meganium",
+          "isCorrect": false,
+          "explanation": "Não, Meganium é a evolução final! Bayleef vem antes, com menos pétalas!"
+        },
+        {
+          "text": "Tropius",
+          "isCorrect": false,
+          "explanation": "Não, Tropius é outro Pokémon Grama! A evolução de Chikorita é mais... regional!"
+        },
+        {
+          "text": "Leafeon",
+          "isCorrect": false,
+          "explanation": "Não, Leafeon é de Eevee! Chikorita tem sua própria linha evolutiva!"
+        }
+      ]
+    },
+    {
+      "question": "Qual item evolui Onix para Steelix?",
+      "options": [
+        {
+          "text": "Fire Stone",
+          "isCorrect": false,
+          "explanation": "Não, Fire Stone é para Vulpix! Onix precisa de algo mais... metálico!"
+        },
+        {
+          "text": "Metal Coat",
+          "isCorrect": true,
+          "explanation": "Brilhou na resposta! Metal Coat, combinado com uma troca, transforma Onix no poderoso Steelix. Essa cobra de aço é tão dura que até pedras têm inveja! Escolha reluzente, treinador!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/208.png",
+          "imageDescription": "Imagem oficial de Steelix, a evolução de Onix, com seu corpo de aço brilhante."
+        },
+        {
+          "text": "Thunder Stone",
+          "isCorrect": false,
+          "explanation": "Não, Thunder Stone é para Pikachu! Onix quer algo mais sólido!"
+        },
+        {
+          "text": "Leaf Stone",
+          "isCorrect": false,
+          "explanation": "Não, Leaf Stone é para Exeggutor! Onix evolui com um toque metálico!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon lendário é o mascote de Pokémon Black?",
+      "options": [
+        {
+          "text": "Zekrom",
+          "isCorrect": true,
+          "explanation": "Choque de verdade! Zekrom, o dragão elétrico, é o mascote de Pokémon Black, representando ideais com seus raios negros. Ele é tão poderoso que faz tempestades parecerem fogos de artifício! Boa, treinador, você iluminou o caminho!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/644.png",
+          "imageDescription": "Imagem oficial de Zekrom, o Pokémon lendário mascote de Pokémon Black, com sua cauda elétrica."
+        },
+        {
+          "text": "Reshiram",
+          "isCorrect": false,
+          "explanation": "Não, Reshiram é o dragão de fogo de Pokémon White! Black tem outro lendário!"
+        },
+        {
+          "text": "Kyurem",
+          "isCorrect": false,
+          "explanation": "Não, Kyurem é de Black 2/White 2. O mascote de Black é mais... elétrico!"
+        },
+        {
+          "text": "Tornadus",
+          "isCorrect": false,
+          "explanation": "Não, Tornadus é um lendário menor. O mascote de Black é um dragão gigante!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o tipo de Snorlax?",
+      "options": [
+        {
+          "text": "Psíquico",
+          "isCorrect": false,
+          "explanation": "Não, Snorlax não lê mentes, só ronca! Ele é de um tipo mais... comum!"
+        },
+        {
+          "text": "Normal",
+          "isCorrect": true,
+          "explanation": "Acertou na soneca! Snorlax é tipo Normal, famoso por dormir e bloquear caminhos em Kanto. Ele pode parecer preguiçoso, mas seu Body Slam é um terremoto! Resposta tão pesada quanto ele!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/143.png",
+          "imageDescription": "Imagem oficial de Snorlax, o Pokémon Normal, dormindo com sua barriga gigante à mostra."
+        },
+        {
+          "text": "Lutador",
+          "isCorrect": false,
+          "explanation": "Haha, Snorlax lutador? Só se for lutando contra o sono! Ele é Normal, treinador!"
+        },
+        {
+          "text": "Terra",
+          "isCorrect": false,
+          "explanation": "Não, Snorlax não é Terra, apesar de parecer uma montanha! Normal é o tipo dele!"
+        }
+      ]
+    },
+    {
+      "question": "Qual cidade de Unova tem o ginásio de tipo Inseto?",
+      "options": [
+        {
+          "text": "Nimbasa City",
+          "isCorrect": false,
+          "explanation": "Não, Nimbasa é tipo Elétrico com Elesa! Insetos estão em outro canto de Unova!"
+        },
+        {
+          "text": "Castelia City",
+          "isCorrect": true,
+          "explanation": "Zumbiu na resposta! Castelia City é onde Burgh, o artista dos insetos, lidera o ginásio com seu Leavanny. É um lugar tão vibrante que até as minhocas parecem estrelas! Boa, treinador, você pegou o bichinho!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/pokemon-black-white/012.jpg",
+          "imageDescription": "Imagem de Castelia City do jogo Pokémon Black/White, com o ginásio de tipo Inseto ao fundo."
+        },
+        {
+          "text": "Driftveil City",
+          "isCorrect": false,
+          "explanation": "Não, Driftveil é tipo Terra com Clay! Insetos preferem uma vibe mais urbana!"
+        },
+        {
+          "text": "Icirrus City",
+          "isCorrect": false,
+          "explanation": "Não, Icirrus é gelo puro! Insetos estão em uma cidade mais quente!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon evolui para Gengar quando trocado com um cabo de conexão?",
+      "options": [
+        {
+          "text": "Gastly",
+          "isCorrect": false,
+          "explanation": "Não, Gastly é o primeiro estágio! Ele evolui para outro antes de chegar a Gengar!"
+        },
+        {
+          "text": "Haunter",
+          "isCorrect": true,
+          "explanation": "Fantasma na área! Haunter evolui para Gengar quando trocado, ganhando um sorriso maligno e poderes sombrios. É como mandar um susto pelo correio! Resposta assustadoramente boa, treinador!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/094.png",
+          "imageDescription": "Imagem oficial de Gengar, o Pokémon Fantasma/Veneno, com seu sorriso maligno e corpo roxo."
+        },
+        {
+          "text": "Duskull",
+          "isCorrect": false,
+          "explanation": "Não, Duskull evolui para Dusclops! Gengar vem de outra linha fantasmagórica!"
+        },
+        {
+          "text": "Misdreavus",
+          "isCorrect": false,
+          "explanation": "Não, Misdreavus vira Mismagius! Haunter é o caminho para Gengar!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o Pokémon inicial de tipo Água da região de Sinnoh?",
+      "options": [
+        {
+          "text": "Turtwig",
+          "isCorrect": false,
+          "explanation": "Não, Turtwig é tipo Grama! O inicial aquático de Sinnoh é bem mais... gelado!"
+        },
+        {
+          "text": "Piplup",
+          "isCorrect": true,
+          "explanation": "Nadou direitinho! Piplup, o pinguim aquático, é o inicial de tipo Água de Sinnoh. Ele é tão elegante que parece desfilar na passarela, mas seu Bubble Beam é puro poder! Escolha refrescante, treinador!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/393.png",
+          "imageDescription": "Imagem oficial de Piplup, o Pokémon inicial de tipo Água de Sinnoh, com seu bico azul."
+        },
+        {
+          "text": "Chimchar",
+          "isCorrect": false,
+          "explanation": "Não, Chimchar é Fogo! Água é com outro inicial de Sinnoh!"
+        },
+        {
+          "text": "Bidoof",
+          "isCorrect": false,
+          "explanation": "Haha, Bidoof é um clássico, mas não é inicial! Tenta um Pokémon mais aquático!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon lendário é o mascote de Pokémon X?",
+      "options": [
+        {
+          "text": "Yveltal",
+          "isCorrect": false,
+          "explanation": "Não, Yveltal é o destruidor de Pokémon Y! X tem um lendário mais... luminoso!"
+        },
+        {
+          "text": "Xerneas",
+          "isCorrect": true,
+          "explanation": "Chifre brilhante, resposta perfeita! Xerneas, o cervo da vida, é o mascote de Pokémon X. Com seus chifres coloridos, ele traz energia vital a Kalos, deixando Yveltal com inveja. Boa, treinador, você trouxe a luz!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/716.png",
+          "imageDescription": "Imagem oficial de Xerneas, o Pokémon lendário mascote de Pokémon X, com chifres multicoloridos."
+        },
+        {
+          "text": "Zygarde",
+          "isCorrect": false,
+          "explanation": "Não, Zygarde é neutro em X e Y! O mascote de X é mais majestoso!"
+        },
+        {
+          "text": "Mewtwo",
+          "isCorrect": false,
+          "explanation": "Não, Mewtwo é de Kanto! X tem um lendário próprio de Kalos!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o tipo de Jigglypuff?",
+      "options": [
+        {
+          "text": "Psíquico",
+          "isCorrect": false,
+          "explanation": "Não, Jigglypuff não lê mentes, só canta! Seu tipo é mais... encantador!"
+        },
+        {
+          "text": "Normal/Fada",
+          "isCorrect": true,
+          "explanation": "Cantou a resposta! Jigglypuff é Normal/Fada (Fada desde a Geração VI), famosa por suas canções de ninar que apagam qualquer um. Cuidado pra não dormir enquanto ela desenha na sua cara! Escolha fofinha e mágica!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/039.png",
+          "imageDescription": "Imagem oficial de Jigglypuff, o Pokémon Normal/Fada, segurando um microfone e cantando."
+        },
+        {
+          "text": "Veneno",
+          "isCorrect": false,
+          "explanation": "Não, Jigglypuff é puro amor, nada de veneno! Ela é mais sobre melodias!"
+        },
+        {
+          "text": "Lutador",
+          "isCorrect": false,
+          "explanation": "Haha, Jigglypuff lutadora? Só se for lutando com o sono alheio! Tenta de novo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual cidade de Kalos tem o ginásio de tipo Fada?",
+      "options": [
+        {
+          "text": "Lumiose City",
+          "isCorrect": false,
+          "explanation": "Não, Lumiose é tipo Elétrico com Clemont! Fadas estão em um lugar mais... encantado!"
+        },
+        {
+          "text": "Laverre City",
+          "isCorrect": true,
+          "explanation": "Brilhou como uma fada! Laverre City é onde Valerie comanda o ginásio de tipo Fada com seu Sylveon. O lugar é tão mágico que parece saído de um conto de fadas! Boa, treinador, você acertou com estilo!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/pokemon-x-y/010.jpg",
+          "imageDescription": "Imagem de Laverre City do jogo Pokémon X/Y, com o ginásio de tipo Fada ao fundo."
+        },
+        {
+          "text": "Anistar City",
+          "isCorrect": false,
+          "explanation": "Não, Anistar é tipo Psíquico! Fadas têm uma vibe mais fashion!"
+        },
+        {
+          "text": "Snowbelle City",
+          "isCorrect": false,
+          "explanation": "Não, Snowbelle é gelo puro! Fadas estão em um lugar mais quente!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon evolui para Umbreon quando treinado à noite com alta amizade?",
+      "options": [
+        {
+          "text": "Espeon",
+          "isCorrect": false,
+          "explanation": "Não, Espeon evolui de dia! A evolução noturna de Eevee é outra, mais sombria!"
+        },
+        {
+          "text": "Umbreon",
+          "isCorrect": true,
+          "explanation": "Lua cheia, resposta perfeita! Umbreon, a evolução sombria de Eevee, surge à noite com alta amizade. Com seus anéis brilhantes, ele é o rei da escuridão e da lealdade! Escolha noturnamente incrível, treinador!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/197.png",
+          "imageDescription": "Imagem oficial de Umbreon, a evolução noturna de Eevee, com anéis amarelos brilhando."
+        },
+        {
+          "text": "Jolteon",
+          "isCorrect": false,
+          "explanation": "Não, Jolteon precisa de Thunder Stone! Umbreon é mais sobre laços e luar!"
+        },
+        {
+          "text": "Flareon",
+          "isCorrect": false,
+          "explanation": "Não, Flareon usa Fire Stone! Umbreon vem com amizade e noite!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o Pokémon inicial de tipo Grama da região de Unova?",
+      "options": [
+        {
+          "text": "Tepig",
+          "isCorrect": false,
+          "explanation": "Não, Tepig é tipo Fogo! O inicial de Grama de Unova é bem mais... serpente!"
+        },
+        {
+          "text": "Snivy",
+          "isCorrect": true,
+          "explanation": "Rastejou na resposta! Snivy, a cobra de grama, é o inicial de tipo Grama de Unova. Com seu olhar arrogante e Vine Whip, ela é puro charme verde! Escolha verdinha e elegante, treinador!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/495.png",
+          "imageDescription": "Imagem oficial de Snivy, o Pokémon inicial de tipo Grama de Unova, com seu corpo verde e olhar confiante."
+        },
+        {
+          "text": "Oshawott",
+          "isCorrect": false,
+          "explanation": "Não, Oshawott é Água! Grama é com outro inicial de Unova!"
+        },
+        {
+          "text": "Lillipup",
+          "isCorrect": false,
+          "explanation": "Não, Lillipup é Normal! O inicial de Grama é mais vegetal!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon lendário é o mascote de Pokémon Sun?",
+      "options": [
+        {
+          "text": "Lunala",
+          "isCorrect": false,
+          "explanation": "Não, Lunala é a lua de Pokémon Moon! Sun tem um lendário mais... solar!"
+        },
+        {
+          "text": "Solgaleo",
+          "isCorrect": true,
+          "explanation": "Brilhou como o sol! Solgaleo, o leão solar, é o mascote de Pokémon Sun. Ele ilumina Alola com seu poder de aço e fogo, parecendo um rei cósmico! Boa, treinador, você trouxe o calor!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/791.png",
+          "imageDescription": "Imagem oficial de Solgaleo, o Pokémon lendário mascote de Pokémon Sun, com sua juba brilhante."
+        },
+        {
+          "text": "Necrozma",
+          "isCorrect": false,
+          "explanation": "Não, Necrozma é de Ultra Sun/Moon! Sun tem um lendário mais brilhante!"
+        },
+        {
+          "text": "Tapu Koko",
+          "isCorrect": false,
+          "explanation": "Não, Tapu Koko é um guardião de Alola, não mascote! Sun é outro!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o Pokémon inicial de tipo Fogo da região de Kalos?",
+      "options": [
+        {
+          "text": "Chespin",
+          "isCorrect": false,
+          "explanation": "Não, Chespin é tipo Grama, todo espinhoso! O inicial de Fogo de Kalos tem mais... calor e cauda!"
+        },
+        {
+          "text": "Fennekin",
+          "isCorrect": true,
+          "explanation": "Chama acesa, treinador! Fennekin, a raposinha de fogo, é o inicial de tipo Fogo de Kalos. Com suas orelhas fofas e brasas psíquicas, ela é puro charme ardente! Escolha quente que evolui para uma feiticeira!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/653.png",
+          "imageDescription": "Imagem oficial de Fennekin, o Pokémon inicial de tipo Fogo de Kalos, com sua cauda flamejante."
+        },
+        {
+          "text": "Froakie",
+          "isCorrect": false,
+          "explanation": "Não, Froakie é tipo Água, o ninja dos lagos! Fogo é com outro inicial de Kalos!"
+        },
+        {
+          "text": "Pancham",
+          "isCorrect": false,
+          "explanation": "Haha, Pancham é Lutador, não inicial! O Pokémon de Fogo é mais... vulpino!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon lendário é conhecido como o 'Guardião de Alola'?",
+      "options": [
+        {
+          "text": "Solgaleo",
+          "isCorrect": false,
+          "explanation": "Não, Solgaleo é o mascote de Sun! Os guardiões de Alola são mais... territoriais!"
+        },
+        {
+          "text": "Tapu Koko",
+          "isCorrect": true,
+          "explanation": "Eletrizou a resposta! Tapu Koko, o guardião da ilha Melemele, é um dos quatro Guardiões de Alola. Com seus choques e estilo de galo de briga, ele protege a ilha com energia pura! Boa, treinador, você honrou Alola!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/785.png",
+          "imageDescription": "Imagem oficial de Tapu Koko, o Pokémon lendário Guardião de Melemele, com suas asas elétricas."
+        },
+        {
+          "text": "Lunala",
+          "isCorrect": false,
+          "explanation": "Não, Lunala é de Moon! Os guardiões são divindades menores de Alola!"
+        },
+        {
+          "text": "Necrozma",
+          "isCorrect": false,
+          "explanation": "Não, Necrozma é mais um invasor que guardião! Tenta um Pokémon mais local!"
+        }
+      ]
+    },
+    {
+      "question": "Qual item evolui Feebas para Milotic?",
+      "options": [
+        {
+          "text": "Water Stone",
+          "isCorrect": false,
+          "explanation": "Não, Water Stone é para Vaporeon! Feebas precisa de algo mais... brilhante!"
+        },
+        {
+          "text": "Prism Scale",
+          "isCorrect": true,
+          "explanation": "Brilhou na resposta! Prism Scale, com uma troca, transforma o humilde Feebas na elegante Milotic. É como um conto de fadas aquático, do patinho feio ao cisne Pokémon! Escolha reluzente, treinador!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/350.png",
+          "imageDescription": "Imagem oficial de Milotic, a evolução de Feebas, com seu corpo serpenteado e escamas brilhantes."
+        },
+        {
+          "text": "Shiny Stone",
+          "isCorrect": false,
+          "explanation": "Não, Shiny Stone é para Roselia! Feebas quer um item mais aquático!"
+        },
+        {
+          "text": "Dawn Stone",
+          "isCorrect": false,
+          "explanation": "Não, Dawn Stone é para Kirlia! Feebas evolui com um toque mais prismático!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o tipo de Garchomp?",
+      "options": [
+        {
+          "text": "Dragão/Terra",
+          "isCorrect": true,
+          "explanation": "Rugiu na resposta! Garchomp é Dragão/Terra, um tubarão-dragão que corta montanhas com suas presas. Ele é tão feroz que até Cynthia, a campeã de Sinnoh, o tem como ás! Escolha poderosa, treinador!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/445.png",
+          "imageDescription": "Imagem oficial de Garchomp, o Pokémon Dragão/Terra, com suas barbatanas e corpo azul."
+        },
+        {
+          "text": "Dragão/Fogo",
+          "isCorrect": false,
+          "explanation": "Não, Dragão/Fogo não é Garchomp! Ele prefere cavar que cuspir chamas!"
+        },
+        {
+          "text": "Dragão/Voador",
+          "isCorrect": false,
+          "explanation": "Não, Dragão/Voador é mais Dragonite! Garchomp é mais terrestre!"
+        },
+        {
+          "text": "Dragão/Aço",
+          "isCorrect": false,
+          "explanation": "Não, Dragão/Aço é Dialga! Garchomp tem um tipo mais... arenoso!"
+        }
+      ]
+    },
+    {
+      "question": "Qual cidade de Galar tem o ginásio de tipo Grama?",
+      "options": [
+        {
+          "text": "Hammerlocke",
+          "isCorrect": false,
+          "explanation": "Não, Hammerlocke é tipo Dragão com Raihan! Grama está em um lugar mais... rural!"
+        },
+        {
+          "text": "Turffield",
+          "isCorrect": true,
+          "explanation": "Verdejou na resposta! Turffield é onde Milo comanda o ginásio de tipo Grama com seu Eldegoss. É um campo tão verdinho que parece um piquenique Pokémon! Boa, treinador, você colheu a vitória!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/pokemon-sword-shield/005.jpg",
+          "imageDescription": "Imagem de Turffield do jogo Pokémon Sword/Shield, com o ginásio de tipo Grama ao fundo."
+        },
+        {
+          "text": "Stow-on-Side",
+          "isCorrect": false,
+          "explanation": "Não, Stow-on-Side é Lutador/Fantasma! Grama tem uma vibe mais campestre!"
+        },
+        {
+          "text": "Circhester",
+          "isCorrect": false,
+          "explanation": "Não, Circhester é Gelo ou Pedra! Grama está em outro canto de Galar!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon inicial de tipo Água da região de Alola evolui para Primarina?",
+      "options": [
+        {
+          "text": "Rowlet",
+          "isCorrect": false,
+          "explanation": "Não, Rowlet é Grama/Voador! O inicial aquático de Alola é bem mais... serelepe!"
+        },
+        {
+          "text": "Popplio",
+          "isCorrect": true,
+          "explanation": "Nadou com graça! Popplio, o leão-marinho de Alola, evolui para a elegante Primarina, uma diva Água/Fada. Com suas bolhas e canções, ela encanta qualquer palco! Escolha melodiosa, treinador!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/728.png",
+          "imageDescription": "Imagem oficial de Popplio, o Pokémon inicial de tipo Água de Alola, com sua bola de água."
+        },
+        {
+          "text": "Litten",
+          "isCorrect": false,
+          "explanation": "Não, Litten é Fogo! Água é com outro inicial de Alola!"
+        },
+        {
+          "text": "Wishiwashi",
+          "isCorrect": false,
+          "explanation": "Não, Wishiwashi não é inicial! O Pokémon certo é mais... performático!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon lendário é o mascote de Pokémon Sword?",
+      "options": [
+        {
+          "text": "Eternatus",
+          "isCorrect": false,
+          "explanation": "Não, Eternatus é o vilão de Sword/Shield! O mascote de Sword é mais... lendário!"
+        },
+        {
+          "text": "Zacian",
+          "isCorrect": true,
+          "explanation": "Golpe de espada, acertou! Zacian, o lobo com uma espada na boca, é o mascote de Pokémon Sword. Ele corta qualquer coisa com sua lâmina e é puro heroísmo em Galar! Boa, treinador, você é um cavaleiro!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/888.png",
+          "imageDescription": "Imagem oficial de Zacian, o Pokémon lendário mascote de Pokémon Sword, com sua espada brilhante."
+        },
+        {
+          "text": "Zamazenta",
+          "isCorrect": false,
+          "explanation": "Não, Zamazenta é de Shield! Sword tem um lobo mais ofensivo!"
+        },
+        {
+          "text": "Urshifu",
+          "isCorrect": false,
+          "explanation": "Não, Urshifu é de DLC! O mascote de Sword é um lendário maior!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o tipo de Mimikyu?",
+      "options": [
+        {
+          "text": "Fantasma/Fada",
+          "isCorrect": true,
+          "explanation": "Saiu debaixo do pano! Mimikyu é Fantasma/Fada, disfarçado de Pikachu para fazer amigos. Ninguém sabe o que tem sob o pano, mas seu charme assustador conquista corações! Escolha misteriosa, treinador!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/778.png",
+          "imageDescription": "Imagem oficial de Mimikyu, o Pokémon Fantasma/Fada, com seu disfarce de Pikachu rasgado."
+        },
+        {
+          "text": "Fantasma/Elétrico",
+          "isCorrect": false,
+          "explanation": "Não, Mimikyu não dá choques! Ele é mais sobre sustos e magia!"
+        },
+        {
+          "text": "Fada/Normal",
+          "isCorrect": false,
+          "explanation": "Não, Mimikyu é mais spooky que normal! Fantasma é o tipo principal!"
+        },
+        {
+          "text": "Fantasma/Veneno",
+          "isCorrect": false,
+          "explanation": "Não, nada de veneno! Mimikyu tem um toque mais encantado!"
+        }
+      ]
+    },
+    {
+      "question": "Qual item evolui Sneasel para Weavile?",
+      "options": [
+        {
+          "text": "Dusk Stone",
+          "isCorrect": false,
+          "explanation": "Não, Dusk Stone é para Mismagius! Sneasel precisa de algo mais... afiado!"
+        },
+        {
+          "text": "Razor Claw",
+          "isCorrect": true,
+          "explanation": "Corte preciso, treinador! Razor Claw, usado à noite, evolui Sneasel para o ninja Weavile. Com garras afiadas, ele é o mestre das sombras de Sinnoh! Escolha cortante e sombria!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/461.png",
+          "imageDescription": "Imagem oficial de Weavile, a evolução de Sneasel, com suas garras afiadas e corpo negro."
+        },
+        {
+          "text": "Shiny Stone",
+          "isCorrect": false,
+          "explanation": "Não, Shiny Stone é para Togetic! Sneasel quer algo mais perigoso!"
+        },
+        {
+          "text": "Moon Stone",
+          "isCorrect": false,
+          "explanation": "Não, Moon Stone é para Clefairy! Sneasel evolui com um toque mais... feral!"
+        }
+      ]
+    },
+    {
+      "question": "Qual cidade de Paldea tem o ginásio de tipo Psíquico?",
+      "options": [
+        {
+          "text": "Cortondo",
+          "isCorrect": false,
+          "explanation": "Não, Cortondo é tipo Inseto com Katy! Psíquicos estão em outro canto de Paldea!"
+        },
+        {
+          "text": "Alfornada",
+          "isCorrect": true,
+          "explanation": "Visão do futuro, treinador! Alfornada é onde Tulip comanda o ginásio de tipo Psíquico com seu Espathra. É um lugar tão místico que parece que ela já sabe sua próxima jogada! Boa, você leu a mente dela!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/pokemon-scarlet-violet/009.jpg",
+          "imageDescription": "Imagem de Alfornada do jogo Pokémon Scarlet/Violet, com o ginásio de tipo Psíquico ao fundo."
+        },
+        {
+          "text": "Medali",
+          "isCorrect": false,
+          "explanation": "Não, Medali é tipo Normal com Larry! Psíquicos têm uma vibe mais cerebral!"
+        },
+        {
+          "text": "Cascarrafa",
+          "isCorrect": false,
+          "explanation": "Não, Cascarrafa é Água! Psíquicos estão em um lugar mais elevado!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon inicial de tipo Grama da região de Galar evolui para Rillaboom?",
+      "options": [
+        {
+          "text": "Scorbunny",
+          "isCorrect": false,
+          "explanation": "Não, Scorbunny é Fogo! O inicial de Grama de Galar é bem mais... ritmado!"
+        },
+        {
+          "text": "Grookey",
+          "isCorrect": true,
+          "explanation": "Batida perfeita, treinador! Grookey, o macaquinho de grama, evolui para Rillaboom, o mestre dos tambores. Com seu galho e ritmo, ele faz a floresta dançar! Escolha verdinha e musical!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/810.png",
+          "imageDescription": "Imagem oficial de Grookey, o Pokémon inicial de tipo Grama de Galar, com seu galho verde."
+        },
+        {
+          "text": "Sobble",
+          "isCorrect": false,
+          "explanation": "Não, Sobble é Água! Grama é com outro inicial de Galar!"
+        },
+        {
+          "text": "Rolycoly",
+          "isCorrect": false,
+          "explanation": "Não, Rolycoly é Pedra! O inicial de Grama é mais... arbóreo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon lendário é o mascote de Pokémon Scarlet?",
+      "options": [
+        {
+          "text": "Miraidon",
+          "isCorrect": false,
+          "explanation": "Não, Miraidon é de Violet! Scarlet tem um lendário mais... pré-histórico!"
+        },
+        {
+          "text": "Koraidon",
+          "isCorrect": true,
+          "explanation": "Rugiu no passado! Koraidon, o dragão alado de Paldea, é o mascote de Pokémon Scarlet. Com sua vibe jurássica, ele corre, voa e luta como um dinossauro futurista! Boa, treinador, você voltou no tempo!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/1007.png",
+          "imageDescription": "Imagem oficial de Koraidon, o Pokémon lendário mascote de Pokémon Scarlet, com suas asas vermelhas."
+        },
+        {
+          "text": "Ting-Lu",
+          "isCorrect": false,
+          "explanation": "Não, Ting-Lu é um lendário menor! Scarlet tem um mascote maior!"
+        },
+        {
+          "text": "Ogerpon",
+          "isCorrect": false,
+          "explanation": "Não, Ogerpon é de DLC! Scarlet tem um lendário mais épico!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o tipo de Lucario?",
+      "options": [
+        {
+          "text": "Lutador/Aço",
+          "isCorrect": true,
+          "explanation": "Soco de aura, acertou! Lucario é Lutador/Aço, um mestre das artes marciais que sente energias com sua aura. Ele é tão estiloso que parece saído de um filme de ação! Escolha metálica e poderosa, treinador!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/448.png",
+          "imageDescription": "Imagem oficial de Lucario, o Pokémon Lutador/Aço, com sua aura brilhante e corpo azul."
+        },
+        {
+          "text": "Lutador/Psíquico",
+          "isCorrect": false,
+          "explanation": "Não, Lucario não é psíquico! Ele é mais sobre força e metal!"
+        },
+        {
+          "text": "Lutador/Fogo",
+          "isCorrect": false,
+          "explanation": "Não, nada de fogo! Lucario tem um tipo mais... brilhante!"
+        },
+        {
+          "text": "Lutador/Terra",
+          "isCorrect": false,
+          "explanation": "Não, Lucario não cava! Ele é Lutador com um toque metálico!"
+        }
+      ]
+    },
+    {
+      "question": "Qual item evolui Rhydon para Rhyperior?",
+      "options": [
+        {
+          "text": "Protector",
+          "isCorrect": true,
+          "explanation": "Pedrada na resposta! Protector, com uma troca, evolui Rhydon para o tanque Rhyperior. Esse rinoceronte rochoso é tão duro que faz montanhas tremerem! Escolha sólida, treinador!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/464.png",
+          "imageDescription": "Imagem oficial de Rhyperior, a evolução de Rhydon, com seu corpo rochoso e chifres."
+        },
+        {
+          "text": "Metal Coat",
+          "isCorrect": false,
+          "explanation": "Não, Metal Coat é para Steelix! Rhydon precisa de outro item!"
+        },
+        {
+          "text": "King’s Rock",
+          "isCorrect": false,
+          "explanation": "Não, King’s Rock é para Politoed! Rhydon quer algo mais robusto!"
+        },
+        {
+          "text": "Dragon Scale",
+          "isCorrect": false,
+          "explanation": "Não, Dragon Scale é para Kingdra! Rhydon evolui com outro item!"
+        }
+      ]
+    },
+    {
+      "question": "Qual cidade de Johto tem o ginásio de tipo Aço?",
+      "options": [
+        {
+          "text": "Goldenrod City",
+          "isCorrect": false,
+          "explanation": "Não, Goldenrod é tipo Normal com Whitney! Aço está em outro canto de Johto!"
+        },
+        {
+          "text": "Olivine City",
+          "isCorrect": true,
+          "explanation": "Brilhou como aço! Olivine City é onde Jasmine comanda o ginásio de tipo Aço com seu Steelix. É um lugar tão reluzente que até o farol parece feito de metal! Boa, treinador, você forjou a vitória!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/pokemon-gold-silver/007.jpg",
+          "imageDescription": "Imagem de Olivine City do jogo Pokémon Gold/Silver, com o ginásio de tipo Aço ao fundo."
+        },
+        {
+          "text": "Ecruteak City",
+          "isCorrect": false,
+          "explanation": "Não, Ecruteak é Fantasma com Morty! Aço tem uma vibe mais industrial!"
+        },
+        {
+          "text": "Mahogany Town",
+          "isCorrect": false,
+          "explanation": "Não, Mahogany é Gelo! Aço está em uma cidade mais costeira!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon evolui para Espeon quando treinado de dia com alta amizade?",
+      "options": [
+        {
+          "text": "Umbreon",
+          "isCorrect": false,
+          "explanation": "Não, Umbreon é à noite! A evolução diurna de Eevee é mais... brilhante!"
+        },
+        {
+          "text": "Espeon",
+          "isCorrect": true,
+          "explanation": "Visão psíquica, treinador! Espeon, a evolução solar de Eevee, surge de dia com alta amizade. Com sua joia vermelha, ela prevê o futuro e arrasa com Psychic! Escolha iluminada e mágica!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/196.png",
+          "imageDescription": "Imagem oficial de Espeon, a evolução diurna de Eevee, com sua joia vermelha brilhando."
+        },
+        {
+          "text": "Vaporeon",
+          "isCorrect": false,
+          "explanation": "Não, Vaporeon usa Water Stone! Espeon é sobre amizade e sol!"
+        },
+        {
+          "text": "Leafeon",
+          "isCorrect": false,
+          "explanation": "Não, Leafeon precisa de uma pedra musgosa! Espeon vem com luz do dia!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o Pokémon inicial de tipo Fogo da região de Paldea?",
+      "options": [
+        {
+          "text": "Sprigatito",
+          "isCorrect": false,
+          "explanation": "Não, Sprigatito é Grama! O inicial de Fogo de Paldea é bem mais... ardente!"
+        },
+        {
+          "text": "Fuecoco",
+          "isCorrect": true,
+          "explanation": "Chama na medida! Fuecoco, o crocodilo de fogo, é o inicial de tipo Fogo de Paldea. Com sua vibe relaxada e brasas quentes, ele é puro carisma ardente! Escolha picante, treinador!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/909.png",
+          "imageDescription": "Imagem oficial de Fuecoco, o Pokémon inicial de tipo Fogo de Paldea, com sua boca flamejante."
+        },
+        {
+          "text": "Quaxly",
+          "isCorrect": false,
+          "explanation": "Não, Quaxly é Água! Fogo é com outro inicial de Paldea!"
+        },
+        {
+          "text": "Lechonk",
+          "isCorrect": false,
+          "explanation": "Haha, Lechonk é Normal! O inicial de Fogo é mais... escaldante!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon lendário é conhecido como o 'Criador do Espaço'?",
+      "options": [
+        {
+          "text": "Dialga",
+          "isCorrect": false,
+          "explanation": "Não, Dialga é o mestre do tempo! O espaço é com outro titã de Sinnoh!"
+        },
+        {
+          "text": "Palkia",
+          "isCorrect": true,
+          "explanation": "Dimensão perfeita, treinador! Palkia, o dragão do espaço, é o Criador do Espaço em Sinnoh. Ele dobra realidades com um aceno, fazendo o universo parecer um playground! Boa, você navegou pelo cosmos!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/484.png",
+          "imageDescription": "Imagem oficial de Palkia, o Pokémon lendário Criador do Espaço, com seu corpo perolado."
+        },
+        {
+          "text": "Giratina",
+          "isCorrect": false,
+          "explanation": "Não, Giratina é do Mundo Distorsionado! Espaço é com outro lendário!"
+        },
+        {
+          "text": "Arceus",
+          "isCorrect": false,
+          "explanation": "Não, Arceus criou tudo, mas o espaço é domínio de outro!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o tipo de Sylveon?",
+      "options": [
+        {
+          "text": "Fada",
+          "isCorrect": true,
+          "explanation": "Laço encantado, acertou! Sylveon, a evolução de Eevee, é tipo Fada, usando seus laços para acalmar corações e lançar Moonblasts. Ela é tão fofa que até vilões pensam duas vezes! Escolha mágica, treinador!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/700.png",
+          "imageDescription": "Imagem oficial de Sylveon, o Pokémon Fada, com seus laços coloridos e olhos brilhantes."
+        },
+        {
+          "text": "Fada/Psíquica",
+          "isCorrect": false,
+          "explanation": "Não, Sylveon é só Fada! Nada de poderes psíquicos aqui!"
+        },
+        {
+          "text": "Fada/Normal",
+          "isCorrect": false,
+          "explanation": "Não, Sylveon é puro Fada! Normal é mais coisa de Jigglypuff!"
+        },
+        {
+          "text": "Fada/Água",
+          "isCorrect": false,
+          "explanation": "Não, Sylveon não nada! Ela é Fada com laços encantados!"
+        }
+      ]
+    },
+    {
+      "question": "Qual cidade de Unova tem o ginásio de tipo Voador?",
+      "options": [
+        {
+          "text": "Mistralton City",
+          "isCorrect": true,
+          "explanation": "Voou alto, treinador! Mistralton City é onde Skyla pilota o ginásio de tipo Voador com seu Swanna. É um hangar tão legal que você vai querer decolar junto! Boa, você pegou o vento certo!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/pokemon-black-white/014.jpg",
+          "imageDescription": "Imagem de Mistralton City do jogo Pokémon Black/White, com o ginásio de tipo Voador ao fundo."
+        },
+        {
+          "text": "Nacrene City",
+          "isCorrect": false,
+          "explanation": "Não, Nacrene é tipo Normal com Lenora! Voador está mais... nas nuvens!"
+        },
+        {
+          "text": "Opelucid City",
+          "isCorrect": false,
+          "explanation": "Não, Opelucid é Dragão! Voador tem uma vibe mais aeronáutica!"
+        },
+        {
+          "text": "Striaton City",
+          "isCorrect": false,
+          "explanation": "Não, Striaton é triplo com Cilan! Voador está em outro canto!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon evolui para Glaceon quando treinado perto de uma pedra gelada?",
+      "options": [
+        {
+          "text": "Jolteon",
+          "isCorrect": false,
+          "explanation": "Não, Jolteon usa Thunder Stone! A evolução gelada de Eevee é outra!"
+        },
+        {
+          "text": "Glaceon",
+          "isCorrect": true,
+          "explanation": "Frio na espinha, acertou! Glaceon, a evolução gelada de Eevee, surge perto de uma pedra gelada. Com seu pelo de gelo, ela transforma qualquer lugar em uma pista de patinação! Escolha congelante, treinador!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/471.png",
+          "imageDescription": "Imagem oficial de Glaceon, a evolução gelada de Eevee, com seu pelo azul brilhante."
+        },
+        {
+          "text": "Flareon",
+          "isCorrect": false,
+          "explanation": "Não, Flareon é fogo! Glaceon é puro gelo!"
+        },
+        {
+          "text": "Espeon",
+          "isCorrect": false,
+          "explanation": "Não, Espeon é de dia com amizade! Glaceon precisa de frio!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon inicial de tipo Água da região de Galar evolui para Inteleon?",
+      "options": [
+        {
+          "text": "Grookey",
+          "isCorrect": false,
+          "explanation": "Não, Grookey é tipo Grama, todo musical! O inicial aquático de Galar é mais... furtivo!"
+        },
+        {
+          "text": "Sobble",
+          "isCorrect": true,
+          "explanation": "Nadou escondido, treinador! Sobble, o lagarto tímido, é o inicial de tipo Água de Galar que evolui para o espião Inteleon. Ele chora para distrair e atira jatos com precisão de sniper! Escolha molhada e secreta!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/816.png",
+          "imageDescription": "Imagem oficial de Sobble, o Pokémon inicial de tipo Água de Galar, com lágrimas nos olhos."
+        },
+        {
+          "text": "Scorbunny",
+          "isCorrect": false,
+          "explanation": "Não, Scorbunny é Fogo! Água é com outro inicial de Galar!"
+        },
+        {
+          "text": "Yamper",
+          "isCorrect": false,
+          "explanation": "Haha, Yamper é Elétrico, não inicial! O Pokémon aquático é mais chorão!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon lendário é conhecido como o 'Rei dos Céus' em Hoenn?",
+      "options": [
+        {
+          "text": "Groudon",
+          "isCorrect": false,
+          "explanation": "Não, Groudon é o rei da terra! Os céus de Hoenn têm outro soberano!"
+        },
+        {
+          "text": "Rayquaza",
+          "isCorrect": true,
+          "explanation": "Voou alto, treinador! Rayquaza, o dragão esmeralda, é o Rei dos Céus em Hoenn. Ele vive na camada de ozônio e para brigas entre Groudon e Kyogre com um rugido! Escolha estratosférica!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/384.png",
+          "imageDescription": "Imagem oficial de Rayquaza, o Pokémon lendário Rei dos Céus, com seu corpo verde brilhante."
+        },
+        {
+          "text": "Kyogre",
+          "isCorrect": false,
+          "explanation": "Não, Kyogre domina os mares! Os céus são território de outro lendário!"
+        },
+        {
+          "text": "Latias",
+          "isCorrect": false,
+          "explanation": "Não, Latias voa, mas não é a rainha! O Rei dos Céus é mais imponente!"
+        }
+      ]
+    },
+    {
+      "question": "Qual item evolui Porygon para Porygon2?",
+      "options": [
+        {
+          "text": "Up-Grade",
+          "isCorrect": true,
+          "explanation": "Atualização completa, treinador! Up-Grade, com uma troca, evolui Porygon para Porygon2, o pato digital mais avançado. Ele é tão high-tech que parece saído de um servidor! Escolha cibernética!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/233.png",
+          "imageDescription": "Imagem oficial de Porygon2, a evolução de Porygon, com seu corpo digital arredondado."
+        },
+        {
+          "text": "Dubious Disc",
+          "isCorrect": false,
+          "explanation": "Não, Dubious Disc é para Porygon-Z! Porygon2 precisa de um item mais básico!"
+        },
+        {
+          "text": "Link Cable",
+          "isCorrect": false,
+          "explanation": "Não, Link Cable é coisa antiga! Porygon usa algo mais... digital!"
+        },
+        {
+          "text": "Shiny Stone",
+          "isCorrect": false,
+          "explanation": "Não, Shiny Stone é para Roselia! Porygon quer um upgrade tecnológico!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o tipo de Greninja?",
+      "options": [
+        {
+          "text": "Água/Lutador",
+          "isCorrect": false,
+          "explanation": "Não, Greninja não é Lutador! Ele é mais sobre furtividade que socos!"
+        },
+        {
+          "text": "Água/Noturno",
+          "isCorrect": true,
+          "explanation": "Ninja na sombra, acertou! Greninja é Água/Noturno, o sapo espião de Kalos que lança shurikens de água. Ele é tão stealth que nem o Ash percebe quando ele some! Escolha escorregadia e sombria!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/658.png",
+          "imageDescription": "Imagem oficial de Greninja, o Pokémon Água/Noturno, com sua língua de cachecol."
+        },
+        {
+          "text": "Água/Veneno",
+          "isCorrect": false,
+          "explanation": "Não, nada de veneno! Greninja é mais ninja que tóxico!"
+        },
+        {
+          "text": "Água/Psíquico",
+          "isCorrect": false,
+          "explanation": "Não, Greninja não lê mentes! Ele é Água com um toque noturno!"
+        }
+      ]
+    },
+    {
+      "question": "Qual cidade de Sinnoh tem o ginásio de tipo Aço?",
+      "options": [
+        {
+          "text": "Canalave City",
+          "isCorrect": true,
+          "explanation": "Forjou a vitória, treinador! Canalave City é onde Byron comanda o ginásio de tipo Aço com seu Bastiodon. É um lugar tão metálico que até os barcos parecem de ferro! Boa, você brilhou como aço!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/pokemon-diamond-pearl/009.jpg",
+          "imageDescription": "Imagem de Canalave City do jogo Pokémon Diamond/Pearl, com o ginásio de tipo Aço ao fundo."
+        },
+        {
+          "text": "Sunyshore City",
+          "isCorrect": false,
+          "explanation": "Não, Sunyshore é Elétrico com Volkner! Aço está em outro porto!"
+        },
+        {
+          "text": "Pastoria City",
+          "isCorrect": false,
+          "explanation": "Não, Pastoria é Água! Aço tem uma vibe mais industrial!"
+        },
+        {
+          "text": "Oreburgh City",
+          "isCorrect": false,
+          "explanation": "Não, Oreburgh é Pedra! Aço está em outra cidade de Sinnoh!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon inicial de tipo Grama da região de Paldea evolui para Meowscarada?",
+      "options": [
+        {
+          "text": "Fuecoco",
+          "isCorrect": false,
+          "explanation": "Não, Fuecoco é Fogo! O inicial de Grama de Paldea é bem mais... felino!"
+        },
+        {
+          "text": "Sprigatito",
+          "isCorrect": true,
+          "explanation": "Miau na resposta! Sprigatito, o gatinho de grama, é o inicial de Paldea que evolui para Meowscarada, o mágico das sombras. Ele é tão charmoso que conquista até treinadores rivais! Escolha verdinha e astuta!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/906.png",
+          "imageDescription": "Imagem oficial de Sprigatito, o Pokémon inicial de tipo Grama de Paldea, com seu corpo verde e olhos grandes."
+        },
+        {
+          "text": "Quaxly",
+          "isCorrect": false,
+          "explanation": "Não, Quaxly é Água! Grama é com outro inicial de Paldea!"
+        },
+        {
+          "text": "Tinkatink",
+          "isCorrect": false,
+          "explanation": "Não, Tinkatink é Aço/Fada! O inicial de Grama é mais vegetal!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon lendário é o mascote de Pokémon Shield?",
+      "options": [
+        {
+          "text": "Zacian",
+          "isCorrect": false,
+          "explanation": "Não, Zacian é de Sword! Shield tem um lendário mais... defensivo!"
+        },
+        {
+          "text": "Zamazenta",
+          "isCorrect": true,
+          "explanation": "Escudo firme, treinador! Zamazenta, o lobo com um escudo, é o mascote de Pokémon Shield. Ele bloqueia qualquer ataque e protege Galar com bravura! Boa, você defendeu a resposta com honra!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/889.png",
+          "imageDescription": "Imagem oficial de Zamazenta, o Pokémon lendário mascote de Pokémon Shield, com seu escudo vermelho."
+        },
+        {
+          "text": "Eternatus",
+          "isCorrect": false,
+          "explanation": "Não, Eternatus é o vilão de Sword/Shield! Shield tem um lobo heróico!"
+        },
+        {
+          "text": "Calyrex",
+          "isCorrect": false,
+          "explanation": "Não, Calyrex é de DLC! Shield tem um mascote mais canino!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o tipo de Toxtricity?",
+      "options": [
+        {
+          "text": "Elétrico/Veneno",
+          "isCorrect": true,
+          "explanation": "Choque tóxico, acertou! Toxtricity é Elétrico/Veneno, o punk de Galar que toca riffs elétricos e cospe veneno. Ele tem duas formas, mas ambas são puro rock’n’roll! Escolha eletrizante e corrosiva!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/849.png",
+          "imageDescription": "Imagem oficial de Toxtricity (Forma Amped), o Pokémon Elétrico/Veneno, com seu corpo amarelo brilhante."
+        },
+        {
+          "text": "Elétrico/Lutador",
+          "isCorrect": false,
+          "explanation": "Não, Toxtricity não dá socos! Ele é mais sobre veneno e faíscas!"
+        },
+        {
+          "text": "Elétrico/Fada",
+          "isCorrect": false,
+          "explanation": "Não, nada de fadas! Toxtricity é puro veneno elétrico!"
+        },
+        {
+          "text": "Elétrico/Noturno",
+          "isCorrect": false,
+          "explanation": "Não, Toxtricity não é noturno! Veneno é o toque especial dele!"
+        }
+      ]
+    },
+    {
+      "question": "Qual item evolui Dusclops para Dusknoir?",
+      "options": [
+        {
+          "text": "Reaper Cloth",
+          "isCorrect": true,
+          "explanation": "Susto na resposta! Reaper Cloth, com uma troca, evolui Dusclops para o assustador Dusknoir. Esse fantasma é tão sombrio que parece carregar almas para o além! Escolha fantasmagórica, treinador!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/477.png",
+          "imageDescription": "Imagem oficial de Dusknoir, a evolução de Dusclops, com seu corpo fantasma e olho vermelho."
+        },
+        {
+          "text": "Dusk Stone",
+          "isCorrect": false,
+          "explanation": "Não, Dusk Stone é para Mismagius! Dusclops precisa de um pano sinistro!"
+        },
+        {
+          "text": "Ghost Gem",
+          "isCorrect": false,
+          "explanation": "Não, Ghost Gem é um item de batalha! Dusclops quer algo mais spooky!"
+        },
+        {
+          "text": "Moon Stone",
+          "isCorrect": false,
+          "explanation": "Não, Moon Stone é para Clefairy! Dusclops evolui com outro item!"
+        }
+      ]
+    },
+    {
+      "question": "Qual cidade de Hoenn tem o ginásio de tipo Elétrico?",
+      "options": [
+        {
+          "text": "Mauville City",
+          "isCorrect": true,
+          "explanation": "Choque na resposta! Mauville City é onde Wattson comanda o ginásio de tipo Elétrico com seu Manectric. É um lugar tão energizado que até as luzes piscam! Boa, treinador, você ligou a corrente!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/pokemon-ruby-sapphire/012.jpg",
+          "imageDescription": "Imagem de Mauville City do jogo Pokémon Ruby/Sapphire, com o ginásio de tipo Elétrico ao fundo."
+        },
+        {
+          "text": "Slateport City",
+          "isCorrect": false,
+          "explanation": "Não, Slateport não tem ginásio! Elétrico está em outra cidade!"
+        },
+        {
+          "text": "Fortree City",
+          "isCorrect": false,
+          "explanation": "Não, Fortree é Voador! Elétrico tem uma vibe mais urbana!"
+        },
+        {
+          "text": "Mossdeep City",
+          "isCorrect": false,
+          "explanation": "Não, Mossdeep é Psíquico! Elétrico está em outro canto de Hoenn!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon evolui para Leafeon quando treinado perto de uma pedra musgosa?",
+      "options": [
+        {
+          "text": "Vaporeon",
+          "isCorrect": false,
+          "explanation": "Não, Vaporeon é água! A evolução musgosa de Eevee é mais... verde!"
+        },
+        {
+          "text": "Leafeon",
+          "isCorrect": true,
+          "explanation": "Folha na cabeça, resposta no bolso! Leafeon, a evolução verde de Eevee, surge perto de uma pedra musgosa. Ela é tão natural que parece parte da floresta! Escolha verdinha e ecológica, treinador!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/470.png",
+          "imageDescription": "Imagem oficial de Leafeon, a evolução verde de Eevee, com folhas em seu corpo."
+        },
+        {
+          "text": "Jolteon",
+          "isCorrect": false,
+          "explanation": "Não, Jolteon é elétrico! Leafeon é puro Grama!"
+        },
+        {
+          "text": "Umbreon",
+          "isCorrect": false,
+          "explanation": "Não, Umbreon é noturno! Leafeon precisa de musgo e luz!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o Pokémon inicial de tipo Fogo da região de Unova?",
+      "options": [
+        {
+          "text": "Snivy",
+          "isCorrect": false,
+          "explanation": "Não, Snivy é Grama! O inicial de Fogo de Unova é bem mais... suíno!"
+        },
+        {
+          "text": "Tepig",
+          "isCorrect": true,
+          "explanation": "Chama no focinho, acertou! Tepig, o porquinho de fogo, é o inicial de tipo Fogo de Unova. Ele evolui para o poderoso Emboar, cuspindo brasas com estilo! Escolha ardente e grunhida, treinador!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/498.png",
+          "imageDescription": "Imagem oficial de Tepig, o Pokémon inicial de tipo Fogo de Unova, com seu focinho flamejante."
+        },
+        {
+          "text": "Oshawott",
+          "isCorrect": false,
+          "explanation": "Não, Oshawott é Água! Fogo é com outro inicial de Unova!"
+        },
+        {
+          "text": "Patrat",
+          "isCorrect": false,
+          "explanation": "Não, Patrat é Normal! O inicial de Fogo é mais quente!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon lendário é conhecido como o 'Deus Pokémon'?",
+      "options": [
+        {
+          "text": "Mewtwo",
+          "isCorrect": false,
+          "explanation": "Não, Mewtwo é poderoso, mas não divino! O Deus Pokémon é mais... cósmico!"
+        },
+        {
+          "text": "Arceus",
+          "isCorrect": true,
+          "explanation": "Divinamente acertado! Arceus, o criador de tudo, é conhecido como o Deus Pokémon. Ele moldou o universo e muda de tipo com placas, sendo o chefe supremo de Sinnoh! Escolha celestial, treinador!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/493.png",
+          "imageDescription": "Imagem oficial de Arceus, o Pokémon lendário Deus Pokémon, com seu corpo branco brilhante."
+        },
+        {
+          "text": "Dialga",
+          "isCorrect": false,
+          "explanation": "Não, Dialga é só o tempo! O Deus Pokémon é mais supremo!"
+        },
+        {
+          "text": "Giratina",
+          "isCorrect": false,
+          "explanation": "Não, Giratina é o rebelde! O Deus Pokémon criou até ele!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o tipo de Dragapult?",
+      "options": [
+        {
+          "text": "Dragão/Fantasma",
+          "isCorrect": true,
+          "explanation": "Susto dracônico, acertou! Dragapult é Dragão/Fantasma, o jato fantasma de Galar que lança seus Dreepy como mísseis. Ele é tão rápido que parece assombrar o céu! Escolha assustadora e veloz, treinador!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/887.png",
+          "imageDescription": "Imagem oficial de Dragapult, o Pokémon Dragão/Fantasma, com seus Dreepy na cabeça."
+        },
+        {
+          "text": "Dragão/Voador",
+          "isCorrect": false,
+          "explanation": "Não, Dragão/Voador é Dragonite! Dragapult é mais fantasmagórico!"
+        },
+        {
+          "text": "Dragão/Aço",
+          "isCorrect": false,
+          "explanation": "Não, Dragão/Aço é Dialga! Dragapult tem um toque mais spooky!"
+        },
+        {
+          "text": "Dragão/Veneno",
+          "isCorrect": false,
+          "explanation": "Não, nada de veneno! Dragapult é puro Dragão com Fantasma!"
+        }
+      ]
+    },
+    {
+      "question": "Qual cidade de Kalos tem o ginásio de tipo Lutador?",
+      "options": [
+        {
+          "text": "Shalour City",
+          "isCorrect": true,
+          "explanation": "Soco na resposta! Shalour City é onde Korrina comanda o ginásio de tipo Lutador com seu Lucario. É um lugar tão dinâmico que até as ondas treinam karatê! Boa, treinador, você nocauteou!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/pokemon-x-y/008.jpg",
+          "imageDescription": "Imagem de Shalour City do jogo Pokémon X/Y, com o ginásio de tipo Lutador ao fundo."
+        },
+        {
+          "text": "Lumiose City",
+          "isCorrect": false,
+          "explanation": "Não, Lumiose é Elétrico! Lutador está em outra cidade costeira!"
+        },
+        {
+          "text": "Couriway Town",
+          "isCorrect": false,
+          "explanation": "Não, Couriway não tem ginásio! Lutador tem uma vibe mais atlética!"
+        },
+        {
+          "text": "Cyllage City",
+          "isCorrect": false,
+          "explanation": "Não, Cyllage é Pedra! Lutador está em outro canto de Kalos!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon evolui para Sylveon com alta amizade e um movimento Fada?",
+      "options": [
+        {
+          "text": "Eevee",
+          "isCorrect": true,
+          "explanation": "Laço de amizade, acertou! Eevee evolui para Sylveon com alta amizade e conhecendo um movimento Fada, como Charm. Ela vira a diva de Kalos com laços mágicos! Escolha encantada, treinador!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/700.png",
+          "imageDescription": "Imagem oficial de Sylveon, a evolução Fada de Eevee, com seus laços coloridos."
+        },
+        {
+          "text": "Flareon",
+          "isCorrect": false,
+          "explanation": "Não, Flareon é fogo! Sylveon vem direto de Eevee!"
+        },
+        {
+          "text": "Togepi",
+          "isCorrect": false,
+          "explanation": "Não, Togepi vira Togekiss! Sylveon é uma Eeveelution!"
+        },
+        {
+          "text": "Ralts",
+          "isCorrect": false,
+          "explanation": "Não, Ralts vira Gardevoir! Sylveon é de Eevee!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o Pokémon inicial de tipo Água da região de Unova?",
+      "options": [
+        {
+          "text": "Tepig",
+          "isCorrect": false,
+          "explanation": "Não, Tepig é Fogo! O inicial aquático de Unova é mais... marítimo!"
+        },
+        {
+          "text": "Oshawott",
+          "isCorrect": true,
+          "explanation": "Mergulho perfeito, treinador! Oshawott, a lontra com uma concha, é o inicial de tipo Água de Unova. Ele evolui para Samurott, o samurai dos mares! Escolha molhada e afiada!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/501.png",
+          "imageDescription": "Imagem oficial de Oshawott, o Pokémon inicial de tipo Água de Unova, com sua concha no peito."
+        },
+        {
+          "text": "Snivy",
+          "isCorrect": false,
+          "explanation": "Não, Snivy é Grama! Água é com outro inicial de Unova!"
+        },
+        {
+          "text": "Lillipup",
+          "isCorrect": false,
+          "explanation": "Não, Lillipup é Normal! O inicial aquático é mais... aquoso!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon lendário é conhecido como o 'Guardião do Equilíbrio' em Unova?",
+      "options": [
+        {
+          "text": "Reshiram",
+          "isCorrect": false,
+          "explanation": "Não, Reshiram é a verdade! O guardião do equilíbrio é mais... dracônico!"
+        },
+        {
+          "text": "Kyurem",
+          "isCorrect": true,
+          "explanation": "Gelo na resposta! Kyurem, o dragão de gelo, é o Guardião do Equilíbrio em Unova, unindo Reshiram e Zekrom. Ele é tão frio que congela até as emoções! Escolha equilibrada, treinador!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/646.png",
+          "imageDescription": "Imagem oficial de Kyurem, o Pokémon lendário Guardião do Equilíbrio, com seu corpo de gelo."
+        },
+        {
+          "text": "Zekrom",
+          "isCorrect": false,
+          "explanation": "Não, Zekrom é os ideais! O equilíbrio é com outro lendário!"
+        },
+        {
+          "text": "Landorus",
+          "isCorrect": false,
+          "explanation": "Não, Landorus é um guardião menor! O equilíbrio é mais épico!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o tipo de Tinkaton?",
+      "options": [
+        {
+          "text": "Aço/Fada",
+          "isCorrect": true,
+          "explanation": "Martelo encantado, acertou! Tinkaton é Aço/Fada, a ferreira de Paldea que balança um martelo gigante. Ela é tão fofa quanto perigosa, construindo e destruindo com charme! Escolha metálica e mágica!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/959.png",
+          "imageDescription": "Imagem oficial de Tinkaton, o Pokémon Aço/Fada, com seu martelo gigante."
+        },
+        {
+          "text": "Aço/Lutador",
+          "isCorrect": false,
+          "explanation": "Não, Tinkaton não é Lutador! Ela é mais sobre magia e metal!"
+        },
+        {
+          "text": "Aço/Psíquico",
+          "isCorrect": false,
+          "explanation": "Não, nada de psíquico! Tinkaton é Aço com um toque de Fada!"
+        },
+        {
+          "text": "Aço/Normal",
+          "isCorrect": false,
+          "explanation": "Não, Tinkaton é mais encantada que normal! Aço/Fada é o tipo dela!"
+        }
+      ]
+    },
+    {
+      "question": "Qual cidade de Alola tem o ginásio de tipo Fogo?",
+      "options": [
+        {
+          "text": "Wela Volcano Park",
+          "isCorrect": true,
+          "explanation": "Chama vulcânica, treinador! Wela Volcano Park é onde Kiawe comanda a prova de tipo Fogo com seu Marowak de Alola. É tão quente que até os Pokémon suam! Boa, você enfrentou o calor!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/pokemon-sun-moon/010.jpg",
+          "imageDescription": "Imagem de Wela Volcano Park do jogo Pokémon Sun/Moon, com a prova de tipo Fogo ao fundo."
+        },
+        {
+          "text": "Hau’oli City",
+          "isCorrect": false,
+          "explanation": "Não, Hau’oli não tem prova de Fogo! O calor está em outro lugar!"
+        },
+        {
+          "text": "Konikoni City",
+          "isCorrect": false,
+          "explanation": "Não, Konikoni é mais sobre pedras! Fogo é mais ardente!"
+        },
+        {
+          "text": "Malie City",
+          "isCorrect": false,
+          "explanation": "Não, Malie é outro tipo! Fogo está em um vulcão!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon evolui para Politoed quando trocado com King’s Rock?",
+      "options": [
+        {
+          "text": "Poliwhirl",
+          "isCorrect": true,
+          "explanation": "Salto real, treinador! Poliwhirl evolui para Politoed quando trocado com King’s Rock. Esse sapo rei comanda as chuvas com seu croar majestoso! Escolha aquática e régia!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/186.png",
+          "imageDescription": "Imagem oficial de Politoed, a evolução de Poliwhirl, com seu corpo verde e barriga amarela."
+        },
+        {
+          "text": "Poliwag",
+          "isCorrect": false,
+          "explanation": "Não, Poliwag é muito bebê! Poliwhirl é o que evolui para Politoed!"
+        },
+        {
+          "text": "Politoed",
+          "isCorrect": false,
+          "explanation": "Não, Politoed é o resultado! O Pokémon certo é o anterior!"
+        },
+        {
+          "text": "Slowpoke",
+          "isCorrect": false,
+          "explanation": "Não, Slowpoke vira Slowking com King’s Rock! Politoed é de outra linha!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o Pokémon inicial de tipo Grama da região de Alola?",
+      "options": [
+        {
+          "text": "Popplio",
+          "isCorrect": false,
+          "explanation": "Não, Popplio é Água! O inicial de Grama de Alola é mais... emplumado!"
+        },
+        {
+          "text": "Rowlet",
+          "isCorrect": true,
+          "explanation": "Voou na resposta! Rowlet, a corujinha de grama, é o inicial de tipo Grama de Alola. Ele evolui para Decidueye, o arqueiro fantasma! Escolha verdinha e alada, treinador!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/722.png",
+          "imageDescription": "Imagem oficial de Rowlet, o Pokémon inicial de tipo Grama de Alola, com suas penas verdes."
+        },
+        {
+          "text": "Litten",
+          "isCorrect": false,
+          "explanation": "Não, Litten é Fogo! Grama é com outro inicial de Alola!"
+        },
+        {
+          "text": "Yungoos",
+          "isCorrect": false,
+          "explanation": "Não, Yungoos é Normal! O inicial de Grama é mais vegetal!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon lendário é o mascote de Pokémon Violet?",
+      "options": [
+        {
+          "text": "Koraidon",
+          "isCorrect": false,
+          "explanation": "Não, Koraidon é de Scarlet! Violet tem um lendário mais... futurista!"
+        },
+        {
+          "text": "Miraidon",
+          "isCorrect": true,
+          "explanation": "Choque do futuro, treinador! Miraidon, o dragão elétrico, é o mascote de Pokémon Violet. Com sua vibe cibernética, ele corre e voa como uma moto do futuro! Boa, você acelerou no tempo!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/1008.png",
+          "imageDescription": "Imagem oficial de Miraidon, o Pokémon lendário mascote de Pokémon Violet, com seu corpo roxo elétrico."
+        },
+        {
+          "text": "Wo-Chien",
+          "isCorrect": false,
+          "explanation": "Não, Wo-Chien é um lendário menor! Violet tem um mascote maior!"
+        },
+        {
+          "text": "Ogerpon",
+          "isCorrect": false,
+          "explanation": "Não, Ogerpon é de DLC! Violet tem um lendário mais épico!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o tipo de Ceruledge?",
+      "options": [
+        {
+          "text": "Fogo/Fantasma",
+          "isCorrect": true,
+          "explanation": "Chama espectral, acertou! Ceruledge é Fogo/Fantasma, o cavaleiro flamejante de Paldea que corta com lâminas ardentes. Ele é tão estiloso que parece um vilão de anime! Escolha ardente e assustadora!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/937.png",
+          "imageDescription": "Imagem oficial de Ceruledge, o Pokémon Fogo/Fantasma, com suas lâminas flamejantes."
+        },
+        {
+          "text": "Fogo/Aço",
+          "isCorrect": false,
+          "explanation": "Não, Ceruledge não é Aço! Ele é mais fantasmagórico!"
+        },
+        {
+          "text": "Fogo/Lutador",
+          "isCorrect": false,
+          "explanation": "Não, Ceruledge não dá socos! Fogo/Fantasma é o tipo dele!"
+        },
+        {
+          "text": "Fogo/Noturno",
+          "isCorrect": false,
+          "explanation": "Não, Ceruledge é Fantasma, não Noturno! Tenta de novo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual cidade de Galar tem o ginásio de tipo Gelo?",
+      "options": [
+        {
+          "text": "Circhester",
+          "isCorrect": true,
+          "explanation": "Frio na resposta! Circhester é onde Gordie (Sword) ou Melony (Shield) comanda o ginásio de tipo Gelo. É tão gelado que você vai precisar de um casaco Pokémon! Boa, treinador, você deslizou na vitória!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/pokemon-sword-shield/008.jpg",
+          "imageDescription": "Imagem de Circhester do jogo Pokémon Sword/Shield, com o ginásio de tipo Gelo ao fundo."
+        },
+        {
+          "text": "Motostoke",
+          "isCorrect": false,
+          "explanation": "Não, Motostoke é Fogo! Gelo está em uma cidade mais fria!"
+        },
+        {
+          "text": "Spikemuth",
+          "isCorrect": false,
+          "explanation": "Não, Spikemuth é Noturno! Gelo tem uma vibe mais congelante!"
+        },
+        {
+          "text": "Ballonlea",
+          "isCorrect": false,
+          "explanation": "Não, Ballonlea é Fada! Gelo está em outro canto de Galar!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon inicial de tipo Fogo da região de Johto evolui para Typhlosion?",
+      "options": [
+        {
+          "text": "Chikorita",
+          "isCorrect": false,
+          "explanation": "Não, Chikorita é Grama, toda verdinha! O inicial de Fogo de Johto é bem mais... explosivo!"
+        },
+        {
+          "text": "Cyndaquil",
+          "isCorrect": true,
+          "explanation": "Chama acesa, treinador! Cyndaquil, o ouriço de fogo, é o inicial de Johto que evolui para Typhlosion. Com suas costas flamejantes, ele aquece qualquer aventura! Escolha ardente e fofa!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/155.png",
+          "imageDescription": "Imagem oficial de Cyndaquil, o Pokémon inicial de tipo Fogo de Johto, com chamas nas costas."
+        },
+        {
+          "text": "Totodile",
+          "isCorrect": false,
+          "explanation": "Não, Totodile é Água! Fogo é com outro inicial de Johto!"
+        },
+        {
+          "text": "Hoothoot",
+          "isCorrect": false,
+          "explanation": "Haha, Hoothoot é Voador, não inicial! O Pokémon de Fogo é mais quente!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon lendário de Sinnoh é conhecido como o 'Guardião dos Lagos'?",
+      "options": [
+        {
+          "text": "Dialga",
+          "isCorrect": false,
+          "explanation": "Não, Dialga é o mestre do tempo! Os lagos de Sinnoh têm outros guardiões!"
+        },
+        {
+          "text": "Mesprit",
+          "isCorrect": true,
+          "explanation": "Emoção na resposta! Mesprit, junto com Uxie e Azelf, é um dos Guardiões dos Lagos de Sinnoh, representando a emoção. Ele flutua sobre o Lago Verity, espalhando sentimentos! Boa, treinador, você sentiu o lago!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/481.png",
+          "imageDescription": "Imagem oficial de Mesprit, o Pokémon lendário Guardião do Lago Verity, com sua cauda rosa."
+        },
+        {
+          "text": "Palkia",
+          "isCorrect": false,
+          "explanation": "Não, Palkia é o espaço! Os guardiões dos lagos são menores e mais místicos!"
+        },
+        {
+          "text": "Giratina",
+          "isCorrect": false,
+          "explanation": "Não, Giratina é do Mundo Distorsionado! Tenta um guardião mais aquático!"
+        }
+      ]
+    },
+    {
+      "question": "Qual item evolui Seadra para Kingdra?",
+      "options": [
+        {
+          "text": "Water Stone",
+          "isCorrect": false,
+          "explanation": "Não, Water Stone é para Vaporeon! Seadra precisa de algo mais... escamoso!"
+        },
+        {
+          "text": "Dragon Scale",
+          "isCorrect": true,
+          "explanation": "Mergulho real, treinador! Dragon Scale, com uma troca, evolui Seadra para o majestoso Kingdra. Esse dragão aquático reina nos mares com Hydro Pump! Escolha escamosa e poderosa!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/230.png",
+          "imageDescription": "Imagem oficial de Kingdra, a evolução de Seadra, com seu corpo azul e focinho de dragão."
+        },
+        {
+          "text": "King’s Rock",
+          "isCorrect": false,
+          "explanation": "Não, King’s Rock é para Politoed! Seadra quer algo dracônico!"
+        },
+        {
+          "text": "Shiny Stone",
+          "isCorrect": false,
+          "explanation": "Não, Shiny Stone é para Roselia! Seadra evolui com um toque mais reptiliano!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o tipo de Decidueye?",
+      "options": [
+        {
+          "text": "Grama/Fantasma",
+          "isCorrect": true,
+          "explanation": "Flecha assustadora, acertou! Decidueye, a coruja arqueira de Alola, é Grama/Fantasma. Ele atira penas com precisão e assombra seus inimigos na floresta! Escolha verde e spooky, treinador!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/724.png",
+          "imageDescription": "Imagem oficial de Decidueye, o Pokémon Grama/Fantasma, com seu arco de penas."
+        },
+        {
+          "text": "Grama/Voador",
+          "isCorrect": false,
+          "explanation": "Não, Decidueye não é mais Voador após evoluir! Ele ganha um toque fantasmagórico!"
+        },
+        {
+          "text": "Grama/Lutador",
+          "isCorrect": false,
+          "explanation": "Não, nada de socos! Decidueye é Grama com Fantasma!"
+        },
+        {
+          "text": "Grama/Veneno",
+          "isCorrect": false,
+          "explanation": "Não, Decidueye não é tóxico! Fantasma é o tipo secundário dele!"
+        }
+      ]
+    },
+    {
+      "question": "Qual cidade de Kanto tem o ginásio de tipo Veneno?",
+      "options": [
+        {
+          "text": "Fuchsia City",
+          "isCorrect": true,
+          "explanation": "Tóxico na resposta! Fuchsia City é onde Koga (ou Janine em Johto) comanda o ginásio de tipo Veneno com seu Koffing. É um dojo tão traiçoeiro que até as paredes escondem ninjas! Boa, treinador, você desarmou o veneno!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/pokemon-red-blue/015.jpg",
+          "imageDescription": "Imagem de Fuchsia City do jogo Pokémon Red/Blue, com o ginásio de tipo Veneno ao fundo."
+        },
+        {
+          "text": "Celadon City",
+          "isCorrect": false,
+          "explanation": "Não, Celadon é Grama com Erika! Veneno está em outro canto de Kanto!"
+        },
+        {
+          "text": "Vermilion City",
+          "isCorrect": false,
+          "explanation": "Não, Vermilion é Elétrico! Veneno tem uma vibe mais ninja!"
+        },
+        {
+          "text": "Cinnabar Island",
+          "isCorrect": false,
+          "explanation": "Não, Cinnabar é Fogo! Veneno está em uma cidade mais terrestre!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon inicial de tipo Água da região de Paldea evolui para Quaquaval?",
+      "options": [
+        {
+          "text": "Sprigatito",
+          "isCorrect": false,
+          "explanation": "Não, Sprigatito é Grama! O inicial aquático de Paldea é mais... dançante!"
+        },
+        {
+          "text": "Quaxly",
+          "isCorrect": true,
+          "explanation": "Passo de dança, treinador! Quaxly, o patinho aquático, é o inicial de Paldea que evolui para Quaquaval, o dançarino lutador. Ele chuta e samba com estilo! Escolha molhada e coreografada!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/912.png",
+          "imageDescription": "Imagem oficial de Quaxly, o Pokémon inicial de tipo Água de Paldea, com seu topete azul."
+        },
+        {
+          "text": "Fuecoco",
+          "isCorrect": false,
+          "explanation": "Não, Fuecoco é Fogo! Água é com outro inicial de Paldea!"
+        },
+        {
+          "text": "Pawmi",
+          "isCorrect": false,
+          "explanation": "Não, Pawmi é Elétrico! O inicial aquático é mais aquoso!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon lendário de Galar é conhecido como o 'Rei da Coroa'?",
+      "options": [
+        {
+          "text": "Zacian",
+          "isCorrect": false,
+          "explanation": "Não, Zacian é o herói de Sword! O Rei da Coroa é mais... régio!"
+        },
+        {
+          "text": "Calyrex",
+          "isCorrect": true,
+          "explanation": "Coroa na cabeça, resposta no bolso! Calyrex, o rei psíquico de Galar, é o Rei da Coroa na Tundra. Ele comanda cavalos lendários e rege com sabedoria! Boa, treinador, você ganhou a realeza!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/898.png",
+          "imageDescription": "Imagem oficial de Calyrex, o Pokémon lendário Rei da Coroa, com sua coroa verde."
+        },
+        {
+          "text": "Zamazenta",
+          "isCorrect": false,
+          "explanation": "Não, Zamazenta é de Shield! O Rei da Coroa é outro lendário!"
+        },
+        {
+          "text": "Eternatus",
+          "isCorrect": false,
+          "explanation": "Não, Eternatus é o vilão! O Rei da Coroa é mais nobre!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o tipo de Alolan Raichu?",
+      "options": [
+        {
+          "text": "Elétrico/Psíquico",
+          "isCorrect": true,
+          "explanation": "Choque mental, acertou! Alolan Raichu é Elétrico/Psíquico, surfando em sua cauda com poderes telecinéticos. Ele é tão zen que parece meditar enquanto eletrocuta! Escolha elétrica e cerebral!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/026_02.png",
+          "imageDescription": "Imagem oficial de Alolan Raichu, o Pokémon Elétrico/Psíquico, surfando em sua cauda."
+        },
+        {
+          "text": "Elétrico/Fada",
+          "isCorrect": false,
+          "explanation": "Não, Alolan Raichu não é Fada! Ele é mais sobre poderes da mente!"
+        },
+        {
+          "text": "Elétrico/Noturno",
+          "isCorrect": false,
+          "explanation": "Não, nada de Noturno! Alolan Raichu é Psíquico com eletricidade!"
+        },
+        {
+          "text": "Elétrico/Água",
+          "isCorrect": false,
+          "explanation": "Não, Alolan Raichu não é aquático! Psíquico é o tipo secundário!"
+        }
+      ]
+    },
+    {
+      "question": "Qual item evolui Slowpoke para Slowking?",
+      "options": [
+        {
+          "text": "King’s Rock",
+          "isCorrect": true,
+          "explanation": "Coroa de sabedoria, treinador! King’s Rock, com uma troca, evolui Slowpoke para Slowking, o rei psíquico. Ele ganha inteligência e um olhar que diz ‘sou mais esperto que você’! Escolha régia e lenta!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/199.png",
+          "imageDescription": "Imagem oficial de Slowking, a evolução de Slowpoke, com sua coroa de Shellder."
+        },
+        {
+          "text": "Water Stone",
+          "isCorrect": false,
+          "explanation": "Não, Water Stone é para Vaporeon! Slowpoke precisa de algo mais... real!"
+        },
+        {
+          "text": "Dawn Stone",
+          "isCorrect": false,
+          "explanation": "Não, Dawn Stone é para Kirlia! Slowking quer uma coroa!"
+        },
+        {
+          "text": "Moon Stone",
+          "isCorrect": false,
+          "explanation": "Não, Moon Stone é para Clefairy! Slowking evolui com outro item!"
+        }
+      ]
+    },
+    {
+      "question": "Qual cidade de Paldea tem o ginásio de tipo Elétrico?",
+      "options": [
+        {
+          "text": "Levincia",
+          "isCorrect": true,
+          "explanation": "Choque na resposta! Levincia é onde Iono comanda o ginásio de tipo Elétrico com seu Bellibolt. É uma cidade tão vibrante que parece um show de luzes Pokémon! Boa, treinador, você acendeu a vitória!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/pokemon-scarlet-violet/007.jpg",
+          "imageDescription": "Imagem de Levincia do jogo Pokémon Scarlet/Violet, com o ginásio de tipo Elétrico ao fundo."
+        },
+        {
+          "text": "Artazon",
+          "isCorrect": false,
+          "explanation": "Não, Artazon é Grama! Elétrico está em uma cidade mais iluminada!"
+        },
+        {
+          "text": "Montenevera",
+          "isCorrect": false,
+          "explanation": "Não, Montenevera é Fantasma! Elétrico tem uma vibe mais urbana!"
+        },
+        {
+          "text": "Mesagoza",
+          "isCorrect": false,
+          "explanation": "Não, Mesagoza não tem ginásio! Elétrico está em outro canto!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon inicial de tipo Grama da região de Hoenn evolui para Sceptile?",
+      "options": [
+        {
+          "text": "Torchic",
+          "isCorrect": false,
+          "explanation": "Não, Torchic é Fogo! O inicial de Grama de Hoenn é mais... reptiliano!"
+        },
+        {
+          "text": "Treecko",
+          "isCorrect": true,
+          "explanation": "Folha afiada, treinador! Treecko, o lagarto de grama, é o inicial de Hoenn que evolui para Sceptile, o ninja da floresta. Ele é tão rápido que parece teletransportar! Escolha verde e veloz!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/252.png",
+          "imageDescription": "Imagem oficial de Treecko, o Pokémon inicial de tipo Grama de Hoenn, com sua cauda verde."
+        },
+        {
+          "text": "Mudkip",
+          "isCorrect": false,
+          "explanation": "Não, Mudkip é Água! Grama é com outro inicial de Hoenn!"
+        },
+        {
+          "text": "Zigzagoon",
+          "isCorrect": false,
+          "explanation": "Não, Zigzagoon é Normal! O inicial de Grama é mais vegetal!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon lendário de Kalos é conhecido como o 'Destruidor'?",
+      "options": [
+        {
+          "text": "Xerneas",
+          "isCorrect": false,
+          "explanation": "Não, Xerneas é a vida! O Destruidor de Kalos é mais... sombrio!"
+        },
+        {
+          "text": "Yveltal",
+          "isCorrect": true,
+          "explanation": "Asas da destruição, acertou! Yveltal, o pássaro da morte, é o Destruidor de Kalos. Ele absorve energia vital e deixa tudo em silêncio, mas é estiloso demais! Boa, treinador, você enfrentou o caos!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/717.png",
+          "imageDescription": "Imagem oficial de Yveltal, o Pokémon lendário Destruidor de Kalos, com suas asas vermelhas."
+        },
+        {
+          "text": "Zygarde",
+          "isCorrect": false,
+          "explanation": "Não, Zygarde é o equilíbrio! O Destruidor é mais ameaçador!"
+        },
+        {
+          "text": "Diancie",
+          "isCorrect": false,
+          "explanation": "Não, Diancie é um mito fofo! O Destruidor é bem mais perigoso!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o tipo de Incineroar?",
+      "options": [
+        {
+          "text": "Fogo/Noturno",
+          "isCorrect": true,
+          "explanation": "Chama selvagem, acertou! Incineroar, o tigre lutador de Alola, é Fogo/Noturno. Ele dá socos flamejantes e tem uma vibe de vilão de luta livre! Escolha ardente e intimidadora, treinador!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/727.png",
+          "imageDescription": "Imagem oficial de Incineroar, o Pokémon Fogo/Noturno, com seu cinto de chamas."
+        },
+        {
+          "text": "Fogo/Lutador",
+          "isCorrect": false,
+          "explanation": "Não, Incineroar não é Lutador, apesar dos socos! Ele é Noturno!"
+        },
+        {
+          "text": "Fogo/Terra",
+          "isCorrect": false,
+          "explanation": "Não, nada de Terra! Incineroar é Fogo com um toque sombrio!"
+        },
+        {
+          "text": "Fogo/Veneno",
+          "isCorrect": false,
+          "explanation": "Não, Incineroar não é tóxico! Noturno é o tipo secundário!"
+        }
+      ]
+    },
+    {
+      "question": "Qual item evolui Clamperl para Gorebyss?",
+      "options": [
+        {
+          "text": "Deep Sea Scale",
+          "isCorrect": true,
+          "explanation": "Mergulho profundo, treinador! Deep Sea Scale, com uma troca, evolui Clamperl para Gorebyss, a sereia dos mares. Ela é tão elegante que parece desfilar no fundo do oceano! Escolha aquática e chique!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/368.png",
+          "imageDescription": "Imagem oficial de Gorebyss, a evolução de Clamperl, com seu corpo rosa e serpenteado."
+        },
+        {
+          "text": "Deep Sea Tooth",
+          "isCorrect": false,
+          "explanation": "Não, Deep Sea Tooth é para Huntail! Gorebyss precisa de outro item!"
+        },
+        {
+          "text": "Water Stone",
+          "isCorrect": false,
+          "explanation": "Não, Water Stone é para Vaporeon! Clamperl quer algo mais profundo!"
+        },
+        {
+          "text": "Prism Scale",
+          "isCorrect": false,
+          "explanation": "Não, Prism Scale é para Milotic! Gorebyss usa outro item!"
+        }
+      ]
+    },
+    {
+      "question": "Qual cidade de Sinnoh tem o ginásio de tipo Grama?",
+      "options": [
+        {
+          "text": "Eterna City",
+          "isCorrect": true,
+          "explanation": "Verdejou na resposta! Eterna City é onde Gardenia comanda o ginásio de tipo Grama com seu Roserade. É um jardim tão lindo que até os Pokémon querem fazer piquenique! Boa, treinador, você colheu a vitória!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/pokemon-diamond-pearl/006.jpg",
+          "imageDescription": "Imagem de Eterna City do jogo Pokémon Diamond/Pearl, com o ginásio de tipo Grama ao fundo."
+        },
+        {
+          "text": "Veilstone City",
+          "isCorrect": false,
+          "explanation": "Não, Veilstone é Lutador! Grama está em uma cidade mais verde!"
+        },
+        {
+          "text": "Hearthome City",
+          "isCorrect": false,
+          "explanation": "Não, Hearthome é Fantasma! Grama tem uma vibe mais natural!"
+        },
+        {
+          "text": "Snowpoint City",
+          "isCorrect": false,
+          "explanation": "Não, Snowpoint é Gelo! Grama está em outro canto de Sinnoh!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon inicial de tipo Água da região de Hoenn evolui para Swampert?",
+      "options": [
+        {
+          "text": "Treecko",
+          "isCorrect": false,
+          "explanation": "Não, Treecko é Grama! O inicial aquático de Hoenn é mais... lamacento!"
+        },
+        {
+          "text": "Mudkip",
+          "isCorrect": true,
+          "explanation": "Mergulho na lama, treinador! Mudkip, o peixe de lama, é o inicial de Hoenn que evolui para Swampert, o tanque Água/Terra. Ele é tão forte que carrega rochas nas costas! Escolha molhada e robusta!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/258.png",
+          "imageDescription": "Imagem oficial de Mudkip, o Pokémon inicial de tipo Água de Hoenn, com sua barbatana azul."
+        },
+        {
+          "text": "Torchic",
+          "isCorrect": false,
+          "explanation": "Não, Torchic é Fogo! Água é com outro inicial de Hoenn!"
+        },
+        {
+          "text": "Wurmple",
+          "isCorrect": false,
+          "explanation": "Não, Wurmple é Inseto! O inicial aquático é mais aquoso!"
+        }
+      ]
+    },
+    {
+      "question": "Qual Pokémon lendário de Unova é conhecido como o 'Guardião dos Ventos'?",
+      "options": [
+        {
+          "text": "Tornadus",
+          "isCorrect": true,
+          "explanation": "Vento na resposta! Tornadus, o gênio dos ventos, é o Guardião dos Ventos em Unova, parte do trio das Forças da Natureza. Ele voa causando tempestades com um sorriso travesso! Boa, treinador, você pegou o furacão!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/641.png",
+          "imageDescription": "Imagem oficial de Tornadus, o Pokémon lendário Guardião dos Ventos, com seu corpo verde e nuvens."
+        },
+        {
+          "text": "Thundurus",
+          "isCorrect": false,
+          "explanation": "Não, Thundurus é o trovão! Os ventos são com outro lendário!"
+        },
+        {
+          "text": "Landorus",
+          "isCorrect": false,
+          "explanation": "Não, Landorus é a terra! O Guardião dos Ventos é mais aéreo!"
+        },
+        {
+          "text": "Kyurem",
+          "isCorrect": false,
+          "explanation": "Não, Kyurem é o equilíbrio! Ventos têm outro guardião!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o tipo de Hatterene?",
+      "options": [
+        {
+          "text": "Psíquico/Fada",
+          "isCorrect": true,
+          "explanation": "Magia mental, acertou! Hatterene, a bruxa de Galar, é Psíquico/Fada, usando seus cabelos para lançar feitiços e silenciar barulhos. Ela é tão elegante que parece uma rainha mágica! Escolha encantada e poderosa!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/858.png",
+          "imageDescription": "Imagem oficial de Hatterene, o Pokémon Psíquico/Fada, com seus cabelos mágicos."
+        },
+        {
+          "text": "Psíquico/Noturno",
+          "isCorrect": false,
+          "explanation": "Não, Hatterene não é Noturno! Ela é mais sobre fadas e magia!"
+        },
+        {
+          "text": "Psíquico/Veneno",
+          "isCorrect": false,
+          "explanation": "Não, nada de veneno! Hatterene é Psíquico com Fada!"
+        },
+        {
+          "text": "Psíquico/Grama",
+          "isCorrect": false,
+          "explanation": "Não, Hatterene não é Grama! Fada é o tipo secundário dela!"
+        }
+      ]
+    },
+    {
+      "question": "Qual cidade de Johto tem o ginásio de tipo Voador?",
+      "options": [
+        {
+          "text": "Violet City",
+          "isCorrect": true,
+          "explanation": "Voou na resposta! Violet City é onde Falkner comanda o ginásio de tipo Voador com seu Pidgeotto. É o primeiro desafio de Johto, perfeito para testar suas asas! Boa, treinador, você alçou voo!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/cms2/img/video-games/_tiles/pokemon-gold-silver/005.jpg",
+          "imageDescription": "Imagem de Violet City do jogo Pokémon Gold/Silver, com o ginásio de tipo Voador ao fundo."
+        },
+        {
+          "text": "Azalea Town",
+          "isCorrect": false,
+          "explanation": "Não, Azalea é Inseto! Voador está em outra cidade de Johto!"
+        },
+        {
+          "text": "Goldenrod City",
+          "isCorrect": false,
+          "explanation": "Não, Goldenrod é Normal! Voador tem uma vibe mais aérea!"
+        },
+        {
+          "text": "Cianwood City",
+          "isCorrect": false,
+          "explanation": "Não, Cianwood é Lutador! Voador está em outro canto!"
+        }
+      ]
+    }
+  ]
+}

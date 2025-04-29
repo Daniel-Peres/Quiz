@@ -1,0 +1,149 @@
+{
+    "config": {
+      "theme": "Filmes e Séries Gerais",
+      "totalPoints": 1000,
+      "scoring": "points"
+    },
+    "data": [
+      {
+        "question": "Qual filme de 1994, dirigido por Robert Zemeckis, conta a história de um homem com QI baixo que vive grandes aventuras históricas?",
+        " proclamation": "fácil",
+        "options": [
+          {
+            "text": "Pulp Fiction",
+            "isCorrect": false,
+            "explanation": "Nããão, Pulp Fiction é o caos estiloso do Tarantino, com gangsters e milkshakes! Tente um filme mais doce, com um cara que corre muito e ama chocolates!"
+          },
+          {
+            "text": "Forrest Gump",
+            "isCorrect": true,
+            "explanation": "Você correu como Forrest e acertou! Forrest Gump, de 1994, é a jornada épica de um homem simples (Tom Hanks) que vive momentos históricos, de Elvis a Vietnam, sempre com um coração gigante. A vida é como uma caixa de chocolates, e você escolheu o melhor! Parabéns!",
+            "imageUrl": "https://www.paramountpictures.com/sites/default/files/2023-06/forrest-gump-keyart.jpg",
+            "imageDescription": "Imagem de Forrest Gump sentado em um banco com sua mala, segurando uma caixa de chocolates, com um fundo que evoca sua jornada histórica no filme de 1994."
+          },
+          {
+            "text": "The Shawshank Redemption",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! Shawshank é sobre esperança na prisão, não aventuras históricas. Tente um filme com um cara que conhece presidentes e camarões!"
+          },
+          {
+            "text": "The Lion King",
+            "isCorrect": false,
+            "explanation": "Hakuna Matata, mas não! O Rei Leão é animação com leões, não humanos em aventuras. Tente um filme live-action com um herói improvável!"
+          }
+        ]
+      },
+      {
+        "question": "Qual série de 2008-2013, sobre um professor de química que vira traficante, é considerada um marco na TV?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Mad Men",
+            "isCorrect": false,
+            "explanation": "Nããão, Mad Men é sobre publicitários e martinis nos anos 60! Tente uma série com química explosiva e um professor nada convencional!"
+          },
+          {
+            "text": "Breaking Bad",
+            "isCorrect": true,
+            "explanation": "Você é o chefão da química! Breaking Bad, com Walter White (Bryan Cranston) e Jesse Pinkman, é o marco de 2008-2013 que transformou um professor em Heisenberg, o rei do crime. De laboratórios a pizzas no telhado, é puro vício! Parabéns, cientista!",
+            "imageUrl": "https://www.amc.com/content/dam/amc/shows/breaking-bad/season-5/key-art/breaking-bad-s5-keyart.jpg",
+            "imageDescription": "Imagem de Walter White e Jesse Pinkman em Breaking Bad, com óculos de proteção em um laboratório, evocando a produção química da série."
+          },
+          {
+            "text": "Lost",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! Lost é sobre ilhas e mistérios, não traficantes. Tente uma série com cristal azul e um professor brilhante!"
+          },
+          {
+            "text": "The Walking Dead",
+            "isCorrect": false,
+            "explanation": "Nããão, Walking Dead é sobre zumbis, não química! Tente uma série com um gênio do crime e muitas explosões!"
+          }
+        ]
+      },
+      {
+        "question": "Qual filme de 2010, dirigido por Christopher Nolan, explora sonhos dentro de sonhos com uma trama de roubo mental?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "The Social Network",
+            "isCorrect": false,
+            "explanation": "Nããão, The Social Network é sobre o Facebook, não sonhos! Tente um filme com giroscópios e camadas de realidade!"
+          },
+          {
+            "text": "Inception",
+            "isCorrect": true,
+            "explanation": "Você mergulhou no sonho e acertou! Inception, de 2010, com Leonardo DiCaprio, é um labirinto de sonhos onde ladrões invadem mentes. Com cidades dobrando e um final que ainda discutimos, é um filme que te deixa girando como um pião! Parabéns, arquiteto!",
+            "imageUrl": "https://www.warnerbros.com/sites/default/files/styles/key_art_270x400/public/inception_keyart.jpg",
+            "imageDescription": "Imagem de Dom Cobb em Inception, com uma cidade dobrando ao fundo e um pião, capturando o surrealismo dos sonhos do filme de 2010."
+          },
+          {
+            "text": "Shutter Island",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! Shutter Island é um thriller psicológico, não sobre sonhos. Tente algo com camadas de realidade e roubo!"
+          },
+          {
+            "text": "Black Swan",
+            "isCorrect": false,
+            "explanation": "Nããão, Black Swan é sobre balé e loucura, não sonhos! Tente um filme com tecnologia de invasão mental!"
+          }
+        ]
+      },
+      {
+        "question": "Qual série de 2019, baseada em um romance distópico, mostra um mundo onde bebês são raros e mulheres são escravizadas?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "The Witcher",
+            "isCorrect": false,
+            "explanation": "Nããão, The Witcher é sobre monstros e magia! Tente uma série mais sombria, com um futuro distópico e capas vermelhas!"
+          },
+          {
+            "text": "The Handmaid's Tale",
+            "isCorrect": true,
+            "explanation": "Blessed be, você acertou! The Handmaid’s Tale, baseada no livro de Margaret Atwood, mostra Gilead, um mundo onde June (Elisabeth Moss) luta contra a opressão. Intensa e assustadora, é um soco na distopia! Parabéns, resistente!",
+            "imageUrl": "https://www.hulu.com/static/hitch/public/images/handmaids-tale-keyart.jpg",
+            "imageDescription": "Imagem de June em The Handmaid’s Tale, com uma capa vermelha e fundo opressivo, representando a distopia de Gilead na série de 2019."
+          },
+          {
+            "text": "Chernobyl",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! Chernobyl é sobre um desastre nuclear, não bebês raros. Tente uma série com um regime totalitário!"
+          },
+          {
+            "text": "Watchmen",
+            "isCorrect": false,
+            "explanation": "Nããão, Watchmen é sobre super-heróis alternativos! Tente uma série com aias e um futuro assustador!"
+          }
+        ]
+      },
+      {
+        "question": "Qual filme de 1982, dirigido por Ridley Scott, é um clássico cyberpunk sobre caçadores de replicantes em Los Angeles futurista?",
+        "level": "difícil",
+        "options": [
+          {
+            "text": "E.T. the Extra-Terrestrial",
+            "isCorrect": false,
+            "explanation": "Nããão, E.T. é sobre um alien fofo e bicicletas voadoras! Tente algo mais sombrio, com neon e androides!"
+          },
+          {
+            "text": "Blade Runner",
+            "isCorrect": true,
+            "explanation": "Você é um caçador de replicantes! Blade Runner, de 1982, com Harrison Ford como Deckard, é um marco cyberpunk, explorando humanidade em um mundo de chuva e neon. 'Mais humano que humano' é o lema, e você acertou em cheio! Parabéns, detetive!",
+            "imageUrl": "https://www.warnerbros.com/sites/default/files/styles/key_art_270x400/public/blade-runner-keyart.jpg",
+            "imageDescription": "Imagem de Rick Deckard em Blade Runner, com um fundo de Los Angeles futurista, cheia de neon e chuva, capturando a estética cyberpunk de 1982."
+          },
+          {
+            "text": "The Thing",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! The Thing é terror sci-fi sobre alienígenas no gelo. Tente algo com cidades futuristas e replicantes!"
+          },
+          {
+            "text": "Tron",
+            "isCorrect": false,
+            "explanation": "Nããão, Tron é sobre mundos digitais, não caçadores de androides! Tente um filme com um visual cyberpunk clássico!"
+          }
+        ]
+      }
+    ]
+  }

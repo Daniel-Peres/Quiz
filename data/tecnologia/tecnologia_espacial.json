@@ -1,0 +1,149 @@
+{
+    "config": {
+        "theme": "Tecnologia Espacial",
+        "totalPoints": 1000,
+        "scoring": "points"
+    },
+    "data": [
+        {
+            "question": "Qual missão da NASA, em 1969, levou os primeiros humanos à Lua?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Gemini 7",
+                    "isCorrect": false,
+                    "explanation": "Nããão, Gemini 7 foi em 1965, só orbitando a Terra. A missão que pisou na Lua é mais famosa, com um pequeno passo e tudo mais!"
+                },
+                {
+                    "text": "Apollo 11",
+                    "isCorrect": true,
+                    "explanation": "Houston, temos um acerto! Apollo 11, em julho de 1969, levou Neil Armstrong e Buzz Aldrin à Lua, com o famoso 'um pequeno passo para o homem'. Um marco que fez o mundo olhar pras estrelas. Você é um astronauta!",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/apollo_11_moonwalk.jpg",
+                    "imageDescription": "Imagem de Neil Armstrong na Lua durante a Apollo 11, com pegadas na superfície lunar e o módulo Eagle ao fundo, capturando o momento histórico de 1969."
+                },
+                {
+                    "text": "Voyager 1",
+                    "isCorrect": false,
+                    "explanation": "Ops, tá muito longe! Voyager 1, de 1977, explora o espaço profundo, não a Lua. Tente uma missão com astronautas e bandeiras!"
+                },
+                {
+                    "text": "Mercury 6",
+                    "isCorrect": false,
+                    "explanation": "Nããão, Mercury 6 levou John Glenn à órbita em 1962. A Lua veio depois, com uma missão mais... lunar!"
+                }
+            ]
+        },
+        {
+            "question": "Qual telescópio espacial, lançado em 1990, revolucionou a astronomia com imagens detalhadas do universo?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Kepler",
+                    "isCorrect": false,
+                    "explanation": "Nããão, Kepler, de 2009, caça exoplanetas, mas não é o mais famoso. O telescópio que queremos é um ícone, tirando fotos estelares desde os anos 90!"
+                },
+                {
+                    "text": "Hubble",
+                    "isCorrect": true,
+                    "explanation": "Estelar, você acertou! O Telescópio Espacial Hubble, lançado em 1990, nos deu imagens incríveis de galáxias, nebulosas e até buracos negros. Ele é como o fotógrafo oficial do cosmos, sempre clicando o universo em HD!",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/hubble_orbit.jpg",
+                    "imageDescription": "Imagem do Telescópio Espacial Hubble em órbita, com a Terra ao fundo, destacando sua estrutura brilhante que captura imagens icônicas do universo."
+                },
+                {
+                    "text": "James Webb",
+                    "isCorrect": false,
+                    "explanation": "Quase, mas não! James Webb, de 2021, é o sucessor, vendo mais longe no infravermelho. Tente o pioneiro dos anos 90!"
+                },
+                {
+                    "text": "Spitzer",
+                    "isCorrect": false,
+                    "explanation": "Nããão, Spitzer, de 2003, é um telescópio infravermelho. O que buscamos é mais velho, mais famoso e com fotos que todo mundo conhece!"
+                }
+            ]
+        },
+        {
+            "question": "Qual sonda, lançada em 1977, é o objeto humano mais distante da Terra, ainda enviando dados do espaço interestelar?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Cassini",
+                    "isCorrect": false,
+                    "explanation": "Nããão, Cassini explorou Saturno até 2017, mas não saiu do Sistema Solar. A sonda que buscamos tá bem mais longe, viajando entre as estrelas!"
+                },
+                {
+                    "text": "Voyager 1",
+                    "isCorrect": true,
+                    "explanation": "Você é um explorador cósmico! Voyager 1, lançada em 1977, é o objeto humano mais distante, agora no espaço interestelar, enviando dados a mais de 24 bilhões de km da Terra. Ela carrega um disco de ouro pra alienígenas, caso eles queiram curtir Beatles!",
+                    "imageUrl": "https://www.jpl.nasa.gov/images/voyager/voyager-spacecraft.jpg",
+                    "imageDescription": "Imagem da sonda Voyager 1, com sua antena parabólica e instrumentos, flutuando no espaço, representando sua jornada ao espaço interestelar."
+                },
+                {
+                    "text": "New Horizons",
+                    "isCorrect": false,
+                    "explanation": "Quase, mas não! New Horizons, de 2006, visitou Plutão, mas ainda tá no Cinturão de Kuiper. Tente uma sonda mais antiga e mais viajada!"
+                },
+                {
+                    "text": "Pioneer 10",
+                    "isCorrect": false,
+                    "explanation": "Nããão, Pioneer 10, de 1972, foi pioneira, mas parou de falar em 2003. A que queremos ainda tá batendo papo com a NASA!"
+                }
+            ]
+        },
+        {
+            "question": "Qual empresa, fundada por Elon Musk, lançou o primeiro foguete reutilizável a orbitar e pousar com sucesso em 2015?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Blue Origin",
+                    "isCorrect": false,
+                    "explanation": "Nããão, Blue Origin, do Jeff Bezos, faz voos suborbitais, mas não foi a primeira em foguetes reutilizáveis orbitais. Tente a empresa de um cara mais... excêntrico!"
+                },
+                {
+                    "text": "SpaceX",
+                    "isCorrect": true,
+                    "explanation": "Foguete na veia, você acertou! A SpaceX, de Elon Musk, revolucionou o espaço com o Falcon 9, que em 2015 orbitou e pousou direitinho, reduzindo custos e sonhando com Marte. É tipo um foguete que volta pra casa depois da festa!",
+                    "imageUrl": "https://www.spacex.com/media/falcon9_landing.jpg",
+                    "imageDescription": "Imagem de um foguete Falcon 9 da SpaceX pousando verticalmente em uma plataforma, com chamas na base, destacando a tecnologia reutilizável."
+                },
+                {
+                    "text": "Boeing",
+                    "isCorrect": false,
+                    "explanation": "Quase, mas não! Boeing faz naves como o Starliner, mas não lidera em foguetes reutilizáveis. Tente uma empresa mais jovem e audaciosa!"
+                },
+                {
+                    "text": "Rocket Lab",
+                    "isCorrect": false,
+                    "explanation": "Nããão, Rocket Lab é legal com seus foguetes pequenos, mas não foi a pioneira em reusabilidade orbital. Tente a gigante dos lançamentos!"
+                }
+            ]
+        },
+        {
+            "question": "Qual projeto da NASA, iniciado nos anos 2000, enviou rovers como Curiosity e Perseverance para explorar Marte?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Apollo Program",
+                    "isCorrect": false,
+                    "explanation": "Nããão, Apollo era pra Lua, nos anos 60-70! Marte exige rovers, não astronautas, e o programa é bem mais recente. Tente algo marciano!"
+                },
+                {
+                    "text": "Mars Exploration Rover Program",
+                    "isCorrect": true,
+                    "explanation": "Você é um geólogo marciano! O Mars Exploration Rover Program, da NASA, começou nos anos 2000, enviando rovers como Spirit, Opportunity, Curiosity e Perseverance para explorar Marte. Eles encontraram evidências de água e até gravaram o som do planeta. Missão cumprida, astronauta!",
+                    "imageUrl": "https://www.jpl.nasa.gov/images/mars-rover-curiosity.jpg",
+                    "imageDescription": "Imagem do rover Curiosity em Marte, navegando o terreno vermelho com crateras ao fundo, representando as explorações do Mars Exploration Rover Program."
+                },
+                {
+                    "text": "Viking Program",
+                    "isCorrect": false,
+                    "explanation": "Quase, mas não! Viking, nos anos 70, foi o primeiro a pousar em Marte, mas os rovers modernos são de outro programa. Tente algo dos anos 2000!"
+                },
+                {
+                    "text": "Artemis Program",
+                    "isCorrect": false,
+                    "explanation": "Nããão, Artemis é pra voltar à Lua, a partir de 2020. Marte tem seus próprios exploradores robóticos, em um programa mais velho!"
+                }
+            ]
+        }
+    ]
+}

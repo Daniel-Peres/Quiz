@@ -1,0 +1,149 @@
+{
+    "config": {
+      "theme": "Tecnologia Militar",
+      "totalPoints": 1000,
+      "scoring": "points"
+    },
+    "data": [
+      {
+        "question": "Qual arma, introduzida na Primeira Guerra Mundial, foi a primeira a usar ataques químicos em larga escala?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Metralhadora",
+            "isCorrect": false,
+            "explanation": "Nããão, metralhadoras cuspiam balas, não produtos químicos! Elas mudaram a guerra, mas o terror que buscamos é mais... gasoso e assustador!"
+          },
+          {
+            "text": "Gás venenoso",
+            "isCorrect": true,
+            "explanation": "Você sobreviveu ao ataque! Gás venenoso, como cloro e mostarda, foi usado na Primeira Guerra, causando pânico nas trincheiras. Máscaras de gás viraram item de sobrevivência, mas o medo era real. Boa, soldado!",
+            "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero/public/2020-07/gas-attack.jpg",
+            "imageDescription": "Imagem de soldados com máscaras de gás em uma trincheira durante a Primeira Guerra Mundial, protegendo-se de um ataque de gás venenoso."
+          },
+          {
+            "text": "Tanque",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! Tanques esmagavam arames farpados, mas não eram químicos. Tente algo mais invisível e letal!"
+          },
+          {
+            "text": "Submarino",
+            "isCorrect": false,
+            "explanation": "Nããão, submarinos afundavam navios, não lançavam gases. Tente algo que flutua no ar e causa pavor!"
+          }
+        ]
+      },
+      {
+        "question": "Qual aeronave stealth, introduzida nos anos 1980, foi a primeira a usar tecnologia de invisibilidade ao radar?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "F-22 Raptor",
+            "isCorrect": false,
+            "explanation": "Nããão, o F-22 é de 2005, bem mais novo! Ele é stealth, mas não o pioneiro. Tente um caça mais velho, que voou escondido nos anos 80!"
+          },
+          {
+            "text": "F-117 Nighthawk",
+            "isCorrect": true,
+            "explanation": "Você é um ás dos céus! O F-117 Nighthawk, introduzido em 1983, foi o primeiro caça stealth, com design angular que desviava radares. Usado na Guerra do Golfo, ele era tipo um ninja voador. Parabéns, piloto!",
+            "imageUrl": "https://www.lockheedmartin.com/content/dam/lockheed-martin/aero/photo/f117/f117-inflight.jpg",
+            "imageDescription": "Imagem do F-117 Nighthawk voando, com seu design angular preto, destacando sua tecnologia stealth pioneira dos anos 1980."
+          },
+          {
+            "text": "B-2 Spirit",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! O B-2, de 1989, é um bombardeiro stealth, mas veio depois. Tente o caça que abriu caminho pra invisibilidade!"
+          },
+          {
+            "text": "F-15 Eagle",
+            "isCorrect": false,
+            "explanation": "Nããão, o F-15, de 1976, é um caça clássico, mas não stealth. Tente algo mais... escondido e futurista!"
+          }
+        ]
+      },
+      {
+        "question": "Qual tipo de navio, usado na Segunda Guerra Mundial, foi essencial para lançar aviões no mar?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Submarino",
+            "isCorrect": false,
+            "explanation": "Nããão, submarinos caçavam debaixo d’água, não lançavam aviões! Tente algo que flutua e serve de pista de pouso flutuante!"
+          },
+          {
+            "text": "Porta-aviões",
+            "isCorrect": true,
+            "explanation": "Naveguei direitinho! Porta-aviões, como o USS Enterprise, foram cruciais na Segunda Guerra, lançando caças no Pacífico e mudando batalhas navais. Eles são tipo shoppings flutuantes, mas com jatos e canhões. Boa, almirante!",
+            "imageUrl": "https://www.navalhistory.org/wp-content/uploads/2020/05/USS-Enterprise.jpg",
+            "imageDescription": "Imagem de um porta-aviões da Segunda Guerra Mundial, com aviões no convés e o mar ao fundo, destacando sua importância em batalhas navais."
+          },
+          {
+            "text": "Cruzador",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! Cruzadores tinham canhões potentes, mas não pistas de voo. Tente algo mais... aeronáutico!"
+          },
+          {
+            "text": "Destroyer",
+            "isCorrect": false,
+            "explanation": "Nããão, destroyers caçavam submarinos, não aviões. Tente um navio que é praticamente um aeroporto flutuante!"
+          }
+        ]
+      },
+      {
+        "question": "Qual tecnologia de mísseis, desenvolvida durante a Guerra Fria, permitiu ataques de longo alcance com precisão?",
+        "level": "difícil",
+        "options": [
+          {
+            "text": "Mísseis balísticos intercontinentais",
+            "isCorrect": true,
+            "explanation": "Kaboom, acertou na ogiva! Mísseis balísticos intercontinentais (ICBMs), como o Minuteman, surgiram na Guerra Fria, capazes de cruzar continentes com precisão mortal. Eles eram o pesadelo da Guerra Fria, prontos pra voar em minutos. Você é um estrategista!",
+            "imageUrl": "https://www.af.mil/Portals/1/images/fact-sheets/ICBM.jpg",
+            "imageDescription": "Imagem de um míssil balístico intercontinental sendo lançado, com chamas na base e céu ao fundo, representando sua potência na Guerra Fria."
+          },
+          {
+            "text": "Mísseis de cruzeiro",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! Mísseis de cruzeiro, como o Tomahawk, são precisos, mas não tão de longo alcance. Tente algo mais... global e assustador!"
+          },
+          {
+            "text": "Mísseis antitanque",
+            "isCorrect": false,
+            "explanation": "Nããão, antitanques são pra blindados, não longas distâncias. Tente algo que voa milhares de quilômetros!"
+          },
+          {
+            "text": "Mísseis superfície-ar",
+            "isCorrect": false,
+            "explanation": "Ops, esses derrubam aviões, não cruzam continentes! Tente algo mais estratégico e de longo alcance!"
+          }
+        ]
+      },
+      {
+        "question": "Qual sistema de defesa antimísseis, introduzido pelos EUA nos anos 2000, protege contra ataques balísticos?",
+        "level": "difícil",
+        "options": [
+          {
+            "text": "Iron Dome",
+            "isCorrect": false,
+            "explanation": "Nããão, Iron Dome, de Israel, é pra foguetes de curto alcance. Tente algo mais global, que caça mísseis balísticos!"
+          },
+          {
+            "text": "Aegis Ballistic Missile Defense",
+            "isCorrect": true,
+            "explanation": "Você é um escudo humano! O Aegis BMD, introduzido nos anos 2000, é um sistema naval dos EUA que intercepta mísseis balísticos com radares e mísseis SM-3. É como um guarda-chuva high-tech contra ogivas! Parabéns, comandante!",
+            "imageUrl": "https://www.mda.mil/global/images/system/aegis/Aegis_BMD.jpg",
+            "imageDescription": "Imagem de um navio lançando um míssil do sistema Aegis BMD, com o mar ao fundo, destacando sua tecnologia de defesa antimísseis."
+          },
+          {
+            "text": "Patriot System",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! Patriot é mais pra mísseis táticos e aviões. Tente algo mais focado em balísticos intercontinentais!"
+          },
+          {
+            "text": "THAAD",
+            "isCorrect": false,
+            "explanation": "Nããão, THAAD é parte da defesa, mas mais específica. Tente o sistema naval que é a espinha dorsal da defesa antimísseis!"
+          }
+        ]
+      }
+    ]
+  }

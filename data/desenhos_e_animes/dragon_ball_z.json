@@ -1,0 +1,875 @@
+{
+    "config": {
+        "theme": "Dragon Ball Z",
+        "totalPoints": 1000,
+        "scoring": "points"
+    },
+    "data": [
+        {
+            "question": "Qual foi a transformação que Goku alcançou pela primeira vez após a morte de Kuririn no planeta Namekusei?",
+            "options": [
+                {
+                    "text": "Kaio-Ken",
+                    "isCorrect": false,
+                    "explanation": "Ah, o glorioso Kaio-Ken! Mas esse Goku já usava desde as lutas contra Vegeta e Nappa. Na verdade, a morte do Kuririn foi tão dramática que precisou de algo mais… loiro, digamos assim."
+                },
+                {
+                    "text": "Super Saiyajin",
+                    "isCorrect": true,
+                    "explanation": "Acertou direto no núcleo do ki! Goku virou Super Saiyajin pela primeira vez após ver seu melhor amigo virar pó cósmico pelas mãos de Freeza. A raiva subiu mais do que o nível de poder do Scouter!",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/b/b5/GokuSuperSaiyanFrieza.png",
+                    "imageDescription": "Imagem de Goku transformado em Super Saiyajin pela primeira vez, com aura dourada, encarando Freeza no planeta Namekusei."
+                },
+                {
+                    "text": "Ultra Instinct",
+                    "isCorrect": false,
+                    "explanation": "Isso aí é papo de Dragon Ball Super, padawan! Em DBZ, Goku ainda estava descobrindo o que era ter cabelo amarelo, não cabelo de shampoo holográfico interdimensional."
+                },
+                {
+                    "text": "Super Saiyajin 3",
+                    "isCorrect": false,
+                    "explanation": "Calma lá, guerreiro Z! Essa transformação de cabelo-cortina só apareceu muito mais tarde, na saga Majin Boo. Em Namekusei era a estreia do loiro explosivo."
+                }
+            ]
+        },
+        {
+            "question": "Qual técnica Gohan usou para derrotar Cell na saga dos Androides?",
+            "options": [
+                {
+                    "text": "Big Bang Attack",
+                    "isCorrect": false,
+                    "explanation": "Esse é o tiro de canhão do Vegeta! Apesar de ter tentado ajudar, quem brilhou no final foi o garoto com um braço só e muita teimosia saiyajin!"
+                },
+                {
+                    "text": "Final Flash",
+                    "isCorrect": false,
+                    "explanation": "Flash foi final, mas não de Cell! Essa é outra técnica do nosso príncipe do orgulho. A vitória veio mesmo foi da família Son."
+                },
+                {
+                    "text": "Masenko",
+                    "isCorrect": false,
+                    "explanation": "Gohan mandava bem no Masenko, mas Cell mal coçava com isso. Foi um golpe bem mais famoso que selou o destino do bio-androide."
+                },
+                {
+                    "text": "Kamehameha",
+                    "isCorrect": true,
+                    "explanation": "É isso aí! O Kamehameha com um braço só virou cena icônica: Gohan concentrando toda a força do pai, da amizade e de um grito épico que faria até Freeza repensar seus atos.",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/f/f9/GohanOneHandedKamehameha.png",
+                    "imageDescription": "Imagem de Gohan lançando um Kamehameha com um só braço contra Cell, no clímax da saga dos Androides."
+                }
+            ]
+        },
+        {
+            "question": "Qual personagem disse a icônica frase: 'É mais de 8000!'?",
+            "options": [
+                {
+                    "text": "Piccolo",
+                    "isCorrect": false,
+                    "explanation": "O Piccolo é mestre dos grunhidos e poses dramáticas, mas essa frase não saiu daquela antena verde. Ele só olhava de canto quando os números explodiam."
+                },
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "O Goku era o motivo dos scouters explodirem, não quem lia eles. Ele estava ocupado ficando cada vez mais apelão."
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": true,
+                    "explanation": "Clássico dos clássicos! Vegeta esmagando o scouter com raiva e gritando que o poder de Goku era 'mais de 8000!' virou meme eterno. Foi tão intenso que o tradutor até alterou o número na dublagem!",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/6/66/VegetaOver9000.gif",
+                    "imageDescription": "Gif de Vegeta gritando furiosamente e esmagando o scouter após ver o poder de Goku ultrapassando 8000."
+                },
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "O máximo que o Kuririn dizia era 'Corre, Goku!' ou gritava o nome da 18. Deixe os memes marcantes para os príncipes saiyajins, por favor!"
+                }
+            ]
+        },
+        {
+            "question": "Quem foi o vilão que matou o Android 16, provocando a transformação de Gohan em Super Saiyajin 2?",
+            "options": [
+                {
+                    "text": "Cell",
+                    "isCorrect": true,
+                    "explanation": "Exatamente! Cell esmagou a cabeça do pacífico Android 16, e isso foi a gota d’água para o Gohan explodir em fúria e cabelo espetado versão 2. Aí, meu amigo, o jogo virou!",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/9/9c/GohanSSJ2Transformation.png",
+                    "imageDescription": "Imagem de Gohan se transformando em Super Saiyajin 2 após a morte do Android 16."
+                },
+                {
+                    "text": "Freeza",
+                    "isCorrect": false,
+                    "explanation": "Freeza fez muita coisa errada, mas o Android 16 não tava nem no radar dele. Esse drama todo é exclusivo da saga dos Androides."
+                },
+                {
+                    "text": "Majin Boo",
+                    "isCorrect": false,
+                    "explanation": "Majin Boo? Esse chegou na festa quando o Gohan já era adulto e meio descuidado. Aqui o assunto é Cell e o fim da inocência do Gohan."
+                },
+                {
+                    "text": "Dr. Gero",
+                    "isCorrect": false,
+                    "explanation": "Foi ele quem criou o 16, é verdade! Mas não foi ele quem esmagou o pobre robô como se fosse uma latinha de refrigerante. Isso foi obra do bio-androide do mal!"
+                }
+            ]
+        },
+        {
+            "question": "Quem derrotou Dabura, o Rei dos Demônios, durante a saga Majin Boo?",
+            "options": [
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "O Goku tava só de espectador nesse momento, controlando os ânimos. Ele sabia que esse fight era pra resolver traumas de pai e filho."
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta tava ocupado ficando malvadão de novo. Não sobrou tempo pra cuidar de Dabura nesse jogo político do Babidi."
+                },
+                {
+                    "text": "Gohan",
+                    "isCorrect": true,
+                    "explanation": "Sim! Mesmo enferrujado, o Gohan deu conta do recado. Foi um embate entre um estudioso que largou os livros e um demônio cuspidor de pedra!",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/6/65/GohanVsDabura.png",
+                    "imageDescription": "Imagem de Gohan enfrentando Dabura na nave de Babidi durante a saga Majin Boo."
+                },
+                {
+                    "text": "Piccolo",
+                    "isCorrect": false,
+                    "explanation": "Nosso Namekuseijin favorito estava mais preocupado com a situação do que entrando na porrada. O Piccolo passou essa luta."
+                }
+            ]
+        },
+        {
+            "question": "Quem foi o primeiro personagem a atingir o Super Saiyajin 2 em Dragon Ball Z?",
+            "options": [
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta chegou lá sim, mas só depois do Gohan. Antes disso ele ficou ocupado sendo manipulado por Babidi e surtando no orgulho."
+                },
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "Goku? Nope. O pai brilhou como SSJ3 primeiro! Quem lançou a moda do SSJ2 foi alguém que gosta de estudar e quebrar androides com um braço só."
+                },
+                {
+                    "text": "Gohan",
+                    "isCorrect": true,
+                    "explanation": "Sim, senhor(a)! Gohan foi o primeiro a ultrapassar o limite. Na saga Cell, quando ficou pistolaça com a morte do 16, o moleque explodiu em trovões loiros!",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/e/e9/GohanSuperSaiyan2.png",
+                    "imageDescription": "Imagem de Gohan transformado em Super Saiyajin 2 com raios ao redor, após o sacrifício do Android 16."
+                },
+                {
+                    "text": "Trunks do Futuro",
+                    "isCorrect": false,
+                    "explanation": "Trunks tem espada, estilo e cabelo roxo, mas SSJ2? Só depois! O primeiro a brilhar no modo trovão foi o Gohan mesmo."
+                }
+            ]
+        },
+        {
+            "question": "Quem ensinou Goku a técnica da fusão?",
+            "options": [
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta funde, mas não ensina. Ele é mais do tipo 'eu sou o príncipe, aprenda você mesmo' — bem à la orgulho saiyajin!"
+                },
+                {
+                    "text": "Kaiô do Norte",
+                    "isCorrect": false,
+                    "explanation": "Kaiô ensinou o Kaio-Ken e a Genki Dama, mas fusão? Nem sabia dançar direito, coitado!"
+                },
+                {
+                    "text": "Senhor Kaiohshin",
+                    "isCorrect": false,
+                    "explanation": "Kaiohshin ajudou com os brincos Potara, mas a dancinha da fusão veio de outras bandas celestiais."
+                },
+                {
+                    "text": "Metamoranos",
+                    "isCorrect": true,
+                    "explanation": "Exatamente! Goku aprendeu com os Metamoranos no outro mundo. Aquela dancinha marota e sincronizada que virou febre na Terra (e vergonha no céu)!",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/9/91/GokuMetamoranFusion.png",
+                    "imageDescription": "Imagem de Goku explicando a técnica da fusão com os passos da dança Metamorana no outro mundo."
+                }
+            ]
+        },
+        {
+            "question": "Qual técnica Vegeta usou para tentar destruir Majin Boo ainda em sua forma inicial?",
+            "options": [
+                {
+                    "text": "Final Flash",
+                    "isCorrect": false,
+                    "explanation": "Final Flash é poderosa, mas ele usou essa contra o Cell. Na saga Majin Boo, ele preferiu algo mais... explosivo, literalmente."
+                },
+                {
+                    "text": "Big Bang Attack",
+                    "isCorrect": false,
+                    "explanation": "Quase! Mas o Big Bang Attack rolou contra os Androides. Quando Majin Boo apareceu, Vegeta decidiu se sacrificar com estilo."
+                },
+                {
+                    "text": "Galick Gun",
+                    "isCorrect": false,
+                    "explanation": "O bom e velho Galick Gun apareceu lá na luta com Goku! Na saga do Majin Boo, o príncipe usou outra técnica mais dramática."
+                },
+                {
+                    "text": "Auto-Destruição",
+                    "isCorrect": true,
+                    "explanation": "Sim! Vegeta fez o maior sacrifício de sua vida — abraçou o Majin Boo e explodiu com tudo. Foi a primeira vez que ele lutou por amor (e talvez por orgulho também, vai saber).",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/8/85/MajinVegetaExplosion.png",
+                    "imageDescription": "Imagem de Majin Vegeta se sacrificando ao explodir para tentar derrotar Majin Boo."
+                }
+            ]
+        },
+        {
+            "question": "Qual personagem foi absorvido por Majin Boo e deu origem ao Super Boo?",
+            "options": [
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "Kuririn nem entrou na lista de absorção, coitado. Passou mais tempo petrificado do que lutando nessa saga."
+                },
+                {
+                    "text": "Piccolo",
+                    "isCorrect": false,
+                    "explanation": "Piccolo foi absorvido mais tarde, mas o primeiro grande upgrade do Boo não envolveu anteninhas verdes ainda!"
+                },
+                {
+                    "text": "Gotenks",
+                    "isCorrect": false,
+                    "explanation": "Essa absorção rolou depois, pra deixar o Super Boo ainda mais doido. Mas o começo foi com alguém mais doce..."
+                },
+                {
+                    "text": "Evil Boo (Boo Cinza)",
+                    "isCorrect": true,
+                    "explanation": "Correto! O Boo malvado absorveu o Boo gordo (que era o lado bonzinho) e deu origem ao Super Boo — agora com cara de poucos amigos e zero paciência pra brincadeiras.",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/d/dc/SuperBoo.png",
+                    "imageDescription": "Imagem do Super Boo logo após a absorção do Boo Gordo pelo Boo Malvado."
+                }
+            ]
+        },
+        {
+            "question": "Qual é o nome da técnica onde Goku reúne energia de seres vivos para formar uma grande esfera?",
+            "options": [
+                {
+                    "text": "Kamehameha",
+                    "isCorrect": false,
+                    "explanation": "Essa é a técnica assinatura dele, mas não tem a ver com pedir ajuda pra galera da floresta nem levantar as mãos pro céu."
+                },
+                {
+                    "text": "Kaio-Ken",
+                    "isCorrect": false,
+                    "explanation": "Isso é um turbo no corpo, não uma coleta de energia! Aqui o Goku só fica vermelho e grita muito."
+                },
+                {
+                    "text": "Genki Dama",
+                    "isCorrect": true,
+                    "explanation": "Isso aí! Genki Dama é aquela bomba espiritual feita com a energia de todo mundo (até dos esquilos da floresta!). Só funciona com coração puro — tipo pedir favor universal.",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/f/fd/GokuSpiritBomb.png",
+                    "imageDescription": "Imagem de Goku formando uma Genki Dama com energia das pessoas e seres vivos ao redor."
+                },
+                {
+                    "text": "Final Shine Attack",
+                    "isCorrect": false,
+                    "explanation": "Essa nem é de Goku, é golpe do Vegeta lá no GT! Goku nunca usou 'shine', ele prefere explodir planetas com bolinha azul mesmo."
+                }
+            ]
+        },
+        {
+            "question": "Quem foi o responsável por cortar Freeza ao meio com seu próprio disco de energia?",
+            "options": [
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "Goku tava ocupado dando chance pra Freeza fugir. A ironia do destino veio com o próprio Freeza tropeçando no que criou."
+                },
+                {
+                    "text": "Trunks do Futuro",
+                    "isCorrect": false,
+                    "explanation": "Ele até cortou Freeza... mas foi outra versão! O clássico foi na luta contra Goku, e foi bem auto-infligido."
+                },
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "O Kuririn só serviu de motivação na saga, explodindo. Não tava com disco nenhum naquela hora."
+                },
+                {
+                    "text": "Freeza",
+                    "isCorrect": true,
+                    "explanation": "Plot twist! Freeza lançou o próprio ataque, mas não calculou bem a curva. Resultado: cortado ao meio pelo próprio frisbee da destruição.",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/2/2b/FriezaCutInHalf.png",
+                    "imageDescription": "Imagem de Freeza cortado ao meio pelo próprio ataque de energia durante a luta final contra Goku em Namekusei."
+                }
+            ]
+        },
+        {
+            "question": "Qual é o verdadeiro nome de Mr. Satan?",
+            "options": [
+                {
+                    "text": "Rufus",
+                    "isCorrect": false,
+                    "explanation": "Esse parece nome de dono de academia dos anos 90, mas não tem nada a ver com o herói da Terra!"
+                },
+                {
+                    "text": "Mark",
+                    "isCorrect": true,
+                    "explanation": "Isso mesmo! Mark é o nome verdadeiro do Mr. Satan. Um anagrama sutil de 'Akuma' invertido (ou só uma pegadinha com nomes mesmo).",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/5/5e/Mr.Satan.png",
+                    "imageDescription": "Imagem de Mr. Satan fazendo pose de campeão com o cinturão no ringue do Torneio de Artes Marciais."
+                },
+                {
+                    "text": "Bob",
+                    "isCorrect": false,
+                    "explanation": "Bob? Esse nome seria bom pro cachorro dele, mas não pro herói fake da Terra. Tente de novo!"
+                },
+                {
+                    "text": "Dave",
+                    "isCorrect": false,
+                    "explanation": "Dave é nome de estagiário da Capsule Corp, talvez. Mr. Satan tem um nome mais... discreto (ou não)."
+                }
+            ]
+        },
+        {
+            "question": "Quem derrotou Cell Jr. na luta final da saga dos Androides?",
+            "options": [
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "Kuririn tentou, deu uns tapas e correu. Mas quem realmente tirou esses pestinhas de cena foi outro com cabelo espetado e raiva acumulada."
+                },
+                {
+                    "text": "Gohan",
+                    "isCorrect": true,
+                    "explanation": "Sim! Gohan, no modo Super Saiyajin 2 nervoso, derrotou todos os Cell Jrs. como quem chuta latinha no quintal. Sem dó e nem pausa pro lanche.",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/4/4c/GohanSSJ2CellJrs.png",
+                    "imageDescription": "Imagem de Gohan SSJ2 derrotando facilmente os Cell Jr. com velocidade e força brutais."
+                },
+                {
+                    "text": "Piccolo",
+                    "isCorrect": false,
+                    "explanation": "Piccolo deu umas porradas, sim, mas no fim quem limpou a bagunça foi o Gohan versão trovão. O namekuseijin não teve chance aqui."
+                },
+                {
+                    "text": "Ten Shin Han",
+                    "isCorrect": false,
+                    "explanation": "O Ten tentou sobreviver com dignidade, mas os Cell Jrs. eram mais rápidos que delivery de senzu. Gohan teve que resolver."
+                }
+            ]
+        },
+        {
+            "question": "Qual técnica Goku usou para derrotar Kid Boo definitivamente?",
+            "options": [
+                {
+                    "text": "Kamehameha",
+                    "isCorrect": false,
+                    "explanation": "Kamehameha é clássico, mas Kid Boo era um tanque de regeneração infinita. Precisava de algo com a força coletiva do planeta inteiro!"
+                },
+                {
+                    "text": "Dragon Fist",
+                    "isCorrect": false,
+                    "explanation": "Essa técnica épica só apareceu em filmes e GT. No final oficial de DBZ, Goku mandou outra mais... cósmica."
+                },
+                {
+                    "text": "Kaio-Ken",
+                    "isCorrect": false,
+                    "explanation": "Kaio-Ken já estava aposentado nessa altura! Goku tava em modo SSJ3 e espiritualidade universal."
+                },
+                {
+                    "text": "Genki Dama",
+                    "isCorrect": true,
+                    "explanation": "Exatamente! A Genki Dama final reuniu energia de toda a Terra, dos amigos e até do Mr. Satan gritando com a galera. E Goku finalizou com estilo: cabelo dourado e coração puro.",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/7/7a/GokuSpiritBombKidBuu.png",
+                    "imageDescription": "Imagem de Goku lançando a Genki Dama final contra Kid Boo, com o planeta Terra inteiro ajudando."
+                }
+            ]
+        },
+        {
+            "question": "Quem fundiu com Vegeta para formar o Vegetto?",
+            "options": [
+                {
+                    "text": "Goku",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Com os brincos Potara, Goku e Vegeta viraram o guerreiro definitivo: Vegetto. Arrogante, poderoso e com senso de humor (finalmente um saiyajin que sabe zoar!).",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/4/4f/VegettoDBZ.png",
+                    "imageDescription": "Imagem de Vegetto surgindo após a fusão Potara entre Goku e Vegeta."
+                },
+                {
+                    "text": "Gohan",
+                    "isCorrect": false,
+                    "explanation": "Essa fusão era um plano do Velho Kaiohshin, mas o Gohan deixou cair o brinco! Resultado: sem Veghen ou Gokhan por aqui."
+                },
+                {
+                    "text": "Trunks",
+                    "isCorrect": false,
+                    "explanation": "Trunks só funde com Goten, e isso vira Gotenks. Vegeta não tem paciência pra lidar com crianças fusionando."
+                },
+                {
+                    "text": "Piccolo",
+                    "isCorrect": false,
+                    "explanation": "Piccolo fundiu com Kami e Nail, mas com Vegeta? Aí não, né. Nem Potara dá conta dessa mistura."
+                }
+            ]
+        },
+        {
+            "question": "Quem treinou Gohan quando ele era criança, logo após a chegada dos Saiyajins?",
+            "options": [
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "Goku estava ocupado dando uma voltinha no além-vida. O pequeno Gohan teve que aprender na marra com outro mestre (e sem colinho de pai)."
+                },
+                {
+                    "text": "Piccolo",
+                    "isCorrect": true,
+                    "explanation": "Corretíssimo! Piccolo sequestrou, abandonou, treinou e virou praticamente um segundo pai do Gohan. A relação mais tsundere de Dragon Ball.",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/f/f4/PiccoloGohanTraining.png",
+                    "imageDescription": "Imagem de Piccolo treinando Gohan pequeno no deserto logo após a chegada dos Saiyajins."
+                },
+                {
+                    "text": "Yajirobe",
+                    "isCorrect": false,
+                    "explanation": "Yajirobe só cortou rabo de macaco gigante e comeu feijão. Treinar? Nem a própria barriga ele treina."
+                },
+                {
+                    "text": "Kami-sama",
+                    "isCorrect": false,
+                    "explanation": "Kami observava de longe, mas quem colocou Gohan pra sofrer mesmo foi o verdão casca-grossa do Piccolo."
+                }
+            ]
+        },
+        {
+            "question": "Qual foi o primeiro guerreiro Z a morrer durante a invasão dos Sayajins na Terra?",
+            "options": [
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "Goku morreu logo depois, no sacrifício contra Raditz. Mas o primeiro mesmo a virar purê de energia foi outro..."
+                },
+                {
+                    "text": "Yamcha",
+                    "isCorrect": true,
+                    "explanation": "Sim, o lendário meme do buraco! Yamcha foi abraçado por um Saibamen e explodido sem piedade. A pose do corpo no chão virou patrimônio cultural da zoeira.",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/f/f8/YamchaDead.png",
+                    "imageDescription": "Imagem clássica de Yamcha morto na cratera após ser explodido por um Saibamen."
+                },
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "Kuririn sobreviveu bem mais que o esperado. Só caiu depois, em outra saga e em outro planeta."
+                },
+                {
+                    "text": "Chiaotzu",
+                    "isCorrect": false,
+                    "explanation": "Chiaotzu se sacrificou depois, tentando (sem sucesso) explodir Nappa. Yamcha abriu o caminho da derrota antes."
+                }
+            ]
+        },
+        {
+            "question": "Quem cortou a cauda de Gohan quando ele virou um macaco gigante (Oozaru)?",
+            "options": [
+                {
+                    "text": "Piccolo",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Piccolo não teve paciência pro Godzilla mirim e *zap*, cortou o rabo do Gohan com um ataque preciso. Drama familiar em forma de laser.",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/d/d6/PiccoloCutsTail.png",
+                    "imageDescription": "Imagem de Piccolo cortando a cauda de Gohan transformado em Oozaru."
+                },
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "Goku já não tava mais no plano dos vivos pra podar o filho. Ele teria tentado conversar antes de cortar qualquer coisa."
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta adora rabo de macaco (por motivos de orgulho). Ele nunca cortaria um assim, ainda mais de outro Saiyajin."
+                },
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "Kuririn tava sempre um passo atrás da ação. Cortar cauda de macaco não é com ele."
+                }
+            ]
+        },
+        {
+            "question": "Quem criou os Androides 17 e 18?",
+            "options": [
+                {
+                    "text": "Bulma",
+                    "isCorrect": false,
+                    "explanation": "Bulma manja de cápsulas e tempo, mas criar assassinos cibernéticos não é bem o ramo dela. Ela desmonta, não monta esse tipo de coisa."
+                },
+                {
+                    "text": "Dr. Gero",
+                    "isCorrect": true,
+                    "explanation": "Perfeito! Dr. Gero era o cientista maluco da Força Red Ribbon que trocou o laboratório por uma vingança robótica. E ainda virou Androide depois. Que currículo!",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/f/fd/DrGeroAndroid.png",
+                    "imageDescription": "Imagem de Dr. Gero transformado em Androide com sua clássica boina e barba branca."
+                },
+                {
+                    "text": "Kami-sama",
+                    "isCorrect": false,
+                    "explanation": "Kami-sama cria Dragões e dá sabedoria, não robôs assassinos. Ainda bem!"
+                },
+                {
+                    "text": "Sr. Popo",
+                    "isCorrect": false,
+                    "explanation": "Sr. Popo mal programa a chaleira. Androides são sofisticados demais pro guardião do templo."
+                }
+            ]
+        },
+        {
+            "question": "Quem foi responsável por ensinar Goten e Trunks a técnica da Fusão?",
+            "options": [
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "Goku até demonstrou, mas ele tava ocupado demais indo e voltando do além. O responsável pela maratona da dancinha foi outro careca!"
+                },
+                {
+                    "text": "Piccolo",
+                    "isCorrect": true,
+                    "explanation": "Isso mesmo! Piccolo foi o técnico rigoroso que colocou a molecada pra alinhar dedo por dedo. E nada de errar o tempo, senão vira Gotenks barrigudo!",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/f/f0/PiccoloFusionTraining.png",
+                    "imageDescription": "Imagem de Piccolo instruindo Goten e Trunks durante o treinamento da técnica da fusão."
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta mal aceitava fazer a fusão com o Goku, imagina ensinar duas crianças cheias de energia! Fora de cogitação."
+                },
+                {
+                    "text": "Kaio do Norte",
+                    "isCorrect": false,
+                    "explanation": "Kaio do Norte só assiste tudo do céu. Ele é comentarista, não treinador de dancinhas interdimensionais."
+                }
+            ]
+        },
+        {
+            "question": "O que acontece se a fusão Metamorana for feita de forma errada?",
+            "options": [
+                {
+                    "text": "Os dois explodem",
+                    "isCorrect": false,
+                    "explanation": "Calma, Dragon Ball não é tão trágico assim. Explodir é especialidade da Genki Dama, não da coreografia torta."
+                },
+                {
+                    "text": "Nada acontece",
+                    "isCorrect": false,
+                    "explanation": "Aham, senta lá. A dança feita errada gera transformações bizarras, e o universo inteiro testemunhou o desastre!"
+                },
+                {
+                    "text": "Forma falha e desajeitada",
+                    "isCorrect": true,
+                    "explanation": "Correto! Fazer a dancinha errado gera um Gotenks gordinho ou magrelo demais — potência: quase zero, vergonha: over 9000.",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/6/68/FatGotenks.png",
+                    "imageDescription": "Imagem de Gotenks na forma gorda, resultado de uma fusão Metamorana mal executada."
+                },
+                {
+                    "text": "Eles se tornam permanentes",
+                    "isCorrect": false,
+                    "explanation": "Isso só acontece com Potara. A fusão dançante tem prazo de validade, mesmo que feita errada. Alívio cômico temporário!"
+                }
+            ]
+        },
+        {
+            "question": "Quem destruiu o planeta do Kaio do Norte?",
+            "options": [
+                {
+                    "text": "Cell",
+                    "isCorrect": false,
+                    "explanation": "Cell destruiu muita coisa, mas o Kaiozama ficou a salvo dele... até um certo loiro aparecer com planos explosivos."
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta destrói egos e vilões, mas planetas divinos não eram alvo dele... ainda."
+                },
+                {
+                    "text": "Goku",
+                    "isCorrect": true,
+                    "explanation": "Isso mesmo! Goku se teletransportou com Cell prestes a explodir, salvou a Terra... e BOOM! Adeus planetinha do Kaio. E sim, ele nunca reconstruiu.",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/a/aa/KingKaiPlanetDestroyed.png",
+                    "imageDescription": "Imagem do planeta do Kaio do Norte após a explosão causada por Goku levando Cell para longe."
+                },
+                {
+                    "text": "Majin Boo",
+                    "isCorrect": false,
+                    "explanation": "Majin Boo destruiu a Terra, o céu e quase tudo, mas o planetinha do Kaio do Norte já tinha ido pelos ares antes."
+                }
+            ]
+        },
+        {
+            "question": "Qual é o nome da forma final de Freeza em Dragon Ball Z?",
+            "options": [
+                {
+                    "text": "Forma Dourada",
+                    "isCorrect": false,
+                    "explanation": "Essa é lá no Super! Em DBZ, Freeza já era perigoso sem glitter. A forma final dele é muito mais... minimalista."
+                },
+                {
+                    "text": "Forma Hiper Evoluída",
+                    "isCorrect": false,
+                    "explanation": "Isso parece nome de Pokémon. Freeza prefere ser direto: forma final, e pronto. Menos papo, mais destruição."
+                },
+                {
+                    "text": "100% Power",
+                    "isCorrect": true,
+                    "explanation": "Acertou! A forma musculosa e bombada de Freeza é sua forma final 100%, onde ele brilha... antes de ser cortado em dois.",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/8/80/FriezaFinalForm100.png",
+                    "imageDescription": "Imagem de Freeza em sua forma final 100%, com músculos intensos e expressão furiosa."
+                },
+                {
+                    "text": "Forma Omega",
+                    "isCorrect": false,
+                    "explanation": "Essa forma nem existe (ainda). Se existir, será no próximo reboot de reboot de Dragon Ball."
+                }
+            ]
+        },
+        {
+            "question": "Qual guerreiro Z possui uma filha chamada Pan?",
+            "options": [
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "Kuririn é pai sim, mas da Marron! Pan vem de outro casal bem... híbrido."
+                },
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "Goku é avô da Pan! Aliás, ele nem sabia que tinha neta até a menina sair voando por aí."
+                },
+                {
+                    "text": "Gohan",
+                    "isCorrect": true,
+                    "explanation": "Sim! Gohan é o pai da Pan, fruto do amor nerd-lutador entre ele e Videl. Pan já nasceu chutando forte!",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/5/57/PanAndGohan.png",
+                    "imageDescription": "Imagem de Gohan segurando Pan no colo, sorrindo com Videl ao lado, após o fim da saga Majin Boo."
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta é pai da Bra. E ele nem queria ser, no começo. Mas depois amoleceu... só um pouquinho!"
+                }
+            ]
+        },
+        {
+            "question": "Qual era o objetivo original da Força Ginyu ao chegar em Namekusei?",
+            "options": [
+                {
+                    "text": "Capturar Goku",
+                    "isCorrect": false,
+                    "explanation": "Goku nem tava nos planos! Eles nem sabiam que ele viria. O foco era outro... cheio de bolinhas brilhantes."
+                },
+                {
+                    "text": "Roubar senzu",
+                    "isCorrect": false,
+                    "explanation": "Eles nem sabiam o que era isso! Comer feijãozinho milagroso é coisa de guerreiro Z faminto."
+                },
+                {
+                    "text": "Encontrar e reunir as Esferas do Dragão",
+                    "isCorrect": true,
+                    "explanation": "Exatamente! A Força Ginyu foi enviada por Freeza pra reunir as esferas e pedir o desejo da imortalidade — com poses de dança no processo, claro.",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/1/1b/GinyuForceArrival.png",
+                    "imageDescription": "Imagem da Força Ginyu pousando em Namekusei, pronta para caçar as Esferas do Dragão de Freeza."
+                },
+                {
+                    "text": "Destruir o planeta",
+                    "isCorrect": false,
+                    "explanation": "Destruir o planeta era plano reserva. Primeiro, eles queriam o brinde das esferas mágicas!"
+                }
+            ]
+        },
+        [
+            {
+                "question": "Qual é o verdadeiro nome de Goku?",
+                "options": [
+                    {
+                        "text": "Raditz",
+                        "isCorrect": false,
+                        "explanation": "Raditz é o irmão cabeludo do Goku que apareceu só pra causar e morrer. Nome verdadeiro do Goku? Outro saiyajin com estilo mais... protagonista."
+                    },
+                    {
+                        "text": "Kakarotto",
+                        "isCorrect": true,
+                        "explanation": "Exatamente! Kakarotto é o nome saiyajin de Goku. Vegeta nunca deixa a gente esquecer disso — parece até que é marca registrada do orgulho real!",
+                        "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/1/1f/KakarotSaiyanArmor.png",
+                        "imageDescription": "Imagem de Goku com armadura saiyajin, sendo chamado de Kakarotto por Vegeta."
+                    },
+                    {
+                        "text": "Bardock",
+                        "isCorrect": false,
+                        "explanation": "Bardock é o pai do Goku! O estilo é o mesmo, mas os nomes e os destinos são bem diferentes."
+                    },
+                    {
+                        "text": "Tarble",
+                        "isCorrect": false,
+                        "explanation": "Tarble é irmão do Vegeta, aquele que ninguém lembra. Goku definitivamente não é esse cara."
+                    }
+                ]
+            },
+            {
+                "question": "Quem derrotou o Capitão Ginyu na saga de Namekusei?",
+                "options": [
+                    {
+                        "text": "Vegeta",
+                        "isCorrect": false,
+                        "explanation": "Vegeta humilhou metade do time Ginyu, mas o próprio Capitão virou uma rã antes de poder virar churrasco!"
+                    },
+                    {
+                        "text": "Goku",
+                        "isCorrect": false,
+                        "explanation": "Goku quase virou sapo! Ele lutou contra Ginyu, sim, mas não foi ele quem resolveu o problema definitivamente."
+                    },
+                    {
+                        "text": "Kuririn",
+                        "isCorrect": false,
+                        "explanation": "Kuririn tava tentando não morrer. Derrotar o Capitão Ginyu? Não era missão dele."
+                    },
+                    {
+                        "text": "Ginyu (como sapo)",
+                        "isCorrect": true,
+                        "explanation": "Sim! No fim das contas, Ginyu tentou trocar de corpo de novo e acabou preso no corpo de um sapo. Ironia intergaláctica no modo máximo!",
+                        "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/3/30/CaptainGinyuFrog.png",
+                        "imageDescription": "Imagem do Capitão Ginyu preso no corpo de um sapo após falhar ao tentar roubar o corpo de Vegeta."
+                    }
+                ]
+            },
+            {
+                "question": "Qual técnica permite ao usuário se teletransportar instantaneamente?",
+                "options": [
+                    {
+                        "text": "Taiyoken",
+                        "isCorrect": false,
+                        "explanation": "Essa técnica só cega geral! Nada de sumir no ar — o máximo que faz é deixar a galera tateando no escuro."
+                    },
+                    {
+                        "text": "Shunkan Idō (Transmissão Instantânea)",
+                        "isCorrect": true,
+                        "explanation": "Correto! Goku aprendeu essa técnica com os Yadrat após a luta com Freeza. Basta focar no ki e... puff! Tá em outro lugar. Quem precisa de avião, né?",
+                        "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/e/e8/InstantTransmission.png",
+                        "imageDescription": "Imagem de Goku usando a técnica de Transmissão Instantânea com dois dedos na testa."
+                    },
+                    {
+                        "text": "Kaio-Ken",
+                        "isCorrect": false,
+                        "explanation": "Kaio-Ken é força bruta no modo turbo. Nada de sumir ou mudar de lugar aqui."
+                    },
+                    {
+                        "text": "Bukujutsu",
+                        "isCorrect": false,
+                        "explanation": "Essa é a técnica de voo — útil, mas bem mais lenta que um 'teleporte' saiyajin!"
+                    }
+                ]
+            },
+            {
+                "question": "Qual personagem foi o único a resistir ao grito paralisante do Garlic Jr.?",
+                "options": [
+                    {
+                        "text": "Yamcha",
+                        "isCorrect": false,
+                        "explanation": "Yamcha? O cara mal sobrevive às lutas normais... Imune a grito demoníaco? Jamais."
+                    },
+                    {
+                        "text": "Kuririn",
+                        "isCorrect": false,
+                        "explanation": "Kuririn é o alívio cômico da equipe, mas nesse caso ele ficou paralisado como todo mundo."
+                    },
+                    {
+                        "text": "Piccolo",
+                        "isCorrect": true,
+                        "explanation": "Sim! O Namekuseijin tanque de guerra resistiu ao grito do Garlic Jr., fingiu estar paralisado e meteu a porrada depois. Estratégia de mestre!",
+                        "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/2/23/PiccoloGarlicJr.png",
+                        "imageDescription": "Imagem de Piccolo enfrentando Garlic Jr., resistindo ao seu ataque sonoro paralisante."
+                    },
+                    {
+                        "text": "Tenshinhan",
+                        "isCorrect": false,
+                        "explanation": "O Terceiro Olho não viu esse ataque vindo. Paralisou como todo mundo. Só Piccolo é tanque assim."
+                    }
+                ]
+            },
+            {
+                "question": "Qual dos guerreiros Z foi o primeiro a usar o Taiyoken?",
+                "options": [
+                    {
+                        "text": "Goku",
+                        "isCorrect": false,
+                        "explanation": "Goku usou, sim — e bem! Mas não foi ele quem trouxe o flash na cara pela primeira vez."
+                    },
+                    {
+                        "text": "Kuririn",
+                        "isCorrect": true,
+                        "explanation": "Correto! Kuririn usou o Taiyoken lá atrás, nos torneios clássicos. A técnica virou marca registrada pra fugir da treta com dignidade (ou tentar).",
+                        "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/d/d1/KrillinTaiyoken.png",
+                        "imageDescription": "Imagem de Kuririn usando o Taiyoken, cegando o oponente com um clarão intenso."
+                    },
+                    {
+                        "text": "Piccolo",
+                        "isCorrect": false,
+                        "explanation": "Piccolo tem raio, explosão e regeneração — mas flash na cara dos outros? Não faz o estilo dele."
+                    },
+                    {
+                        "text": "Tenshinhan",
+                        "isCorrect": false,
+                        "explanation": "Ele também usou, mas depois! Kuririn foi pioneiro nessa técnica de 'luz e fuga'."
+                    }
+                ]
+            },
+            {
+                "question": "Quem venceu o Torneio do Outro Mundo na saga filler entre Cell e Majin Boo?",
+                "options": [
+                    {
+                        "text": "Paikuhan",
+                        "isCorrect": false,
+                        "explanation": "Paikuhan lutou bravamente, e até derrotou Cell no inferno! Mas no torneio... deu outro saiyajin no pódio!"
+                    },
+                    {
+                        "text": "Goku",
+                        "isCorrect": true,
+                        "explanation": "Exatamente! Goku venceu Paikuhan (com direito a Kamehameha reverso no ar!). Vitória suada, mas cheia de carisma e fair play celestial.",
+                        "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/7/77/GokuPaikuhanFight.png",
+                        "imageDescription": "Imagem de Goku enfrentando Paikuhan no Torneio do Outro Mundo, com ataques aéreos intensos."
+                    },
+                    {
+                        "text": "Vegeta",
+                        "isCorrect": false,
+                        "explanation": "Vegeta nem apareceu nesse torneio. Estava ocupado com orgulho e ressentimento pós-vida."
+                    },
+                    {
+                        "text": "Cell",
+                        "isCorrect": false,
+                        "explanation": "Cell só apareceu depois, e foi derrotado de novo. Ele não teve nem lugar na arquibancada celestial."
+                    }
+                ]
+            },
+            {
+                "question": "Quem derrotou Nappa com um só golpe após ele humilhar vários Guerreiros Z?",
+                "options": [
+                    {
+                        "text": "Kuririn",
+                        "isCorrect": false,
+                        "explanation": "Kuririn tentou brilhar, mas Nappa era um trator com bigode. Só outro careca mais poderoso resolveu isso."
+                    },
+                    {
+                        "text": "Goku",
+                        "isCorrect": true,
+                        "explanation": "Correto! Goku chegou atrasado (como sempre), mas resolveu rápido. Um só golpe e Nappa virou figurante da história!",
+                        "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/a/ae/GokuDefeatsNappa.png",
+                        "imageDescription": "Imagem de Goku derrubando Nappa com um único golpe após chegar do treinamento com Kaio."
+                    },
+                    {
+                        "text": "Piccolo",
+                        "isCorrect": false,
+                        "explanation": "Piccolo se sacrificou protegendo Gohan. Nappa foi longe demais e pagou caro por isso depois."
+                    },
+                    {
+                        "text": "Tenshinhan",
+                        "isCorrect": false,
+                        "explanation": "Tenshinhan também caiu nessa luta. Goku resolveu tudo com um soco que parecia um episódio inteiro."
+                    }
+                ]
+            }
+        ]
+    ]
+}

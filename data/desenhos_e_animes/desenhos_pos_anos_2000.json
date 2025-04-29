@@ -1,0 +1,37 @@
+{
+    "config": {
+      "theme": "Desenhos Pós-Anos 2000",
+      "totalPoints": 1000,
+      "scoring": "points"
+    },
+    "data": [
+      {
+        "question": "Qual desenho lançado em 2005 mostra as aventuras de dois irmãos que constroem invenções malucas durante as férias de verão?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Ben 10",
+            "isCorrect": false,
+            "explanation": "Não, não! Ben 10 é sobre um garoto com um relógio alienígena lutando contra vilões intergalácticos. Nada de férias de verão com invenções, mas muita ação com o Omnitrix!"
+          },
+          {
+            "text": "Avatar: The Last Airbender",
+            "isCorrect": false,
+            "explanation": "Quase, mas viajou para outro elemento! Avatar é sobre Aang, o dobrador de ar, salvando o mundo. Sem invenções malucas, mas com muito kung-fu elemental!"
+          },
+          {
+            "text": "Phineas and Ferb",
+            "isCorrect": true,
+            "explanation": "Ferb-tástico, você acertou! Phineas Flynn e Ferb Fletcher, lançados em 2007 no Disney Channel, são os reis das férias, construindo montanhas-russas e máquinas do tempo, enquanto Perry, o ornitorrinco, enfrenta o Dr. Doofenshmirtz. Um hino à criatividade infantil!",
+            "imageUrl": "https://lumiere-a.akamaihd.net/v1/images/phineas_and_ferb_hero_image_1920x1080_f8f6c1b2.jpeg",
+            "imageDescription": "Imagem de Phineas e Ferb sorrindo com uma de suas invenções malucas ao fundo, capturando o espírito criativo e colorido do desenho."
+          },
+          {
+            "text": "SpongeBob SquarePants",
+            "isCorrect": false,
+            "explanation": "Nããão, mergulhou fundo demais! Bob Esponja mora no Fenda do Biquíni e trabalha no Siri Cascudo. Sem invenções, mas com muitas risadas e hambúrgueres de siri!"
+          }
+        ]
+      }
+    ]
+  }

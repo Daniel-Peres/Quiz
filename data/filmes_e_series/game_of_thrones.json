@@ -1,0 +1,149 @@
+{
+    "config": {
+      "theme": "Game of Thrones",
+      "totalPoints": 1000,
+      "scoring": "points"
+    },
+    "data": [
+      {
+        "question": "Qual casa de Westeros, conhecida por seu lema 'Winter is Coming', governa o Norte?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Lannister",
+            "isCorrect": false,
+            "explanation": "Nããão, os Lannisters são de Casterly Rock, com 'Hear Me Roar' e muito ouro. O Norte é mais frio e tem lobos no brasão!"
+          },
+          {
+            "text": "Stark",
+            "isCorrect": true,
+            "explanation": "Você é um verdadeiro Lorde do Norte! A Casa Stark, de Winterfell, com seu lema 'Winter is Coming', é liderada por Ned, Jon e cia., sempre enfrentando o frio e traições. O lobo corre forte em você, parabéns!",
+            "imageUrl": "https://www.hbo.com/content/dam/hbodata/series/game-of-thrones/houses/stark sigil.jpg",
+            "imageDescription": "Imagem do brasão da Casa Stark, com um lobo cinzento em fundo branco, simbolizando a força e resiliência do Norte em Game of Thrones."
+          },
+          {
+            "text": "Targaryen",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! Targaryens são os dragões de 'Fire and Blood', não do Norte. Tente uma casa mais gelada e leal!"
+          },
+          {
+            "text": "Baratheon",
+            "isCorrect": false,
+            "explanation": "Nããão, Baratheons são de Storm’s End, com cervos e ‘Ours is the Fury’. O Norte tem outra vibe, mais invernal!"
+          }
+        ]
+      },
+      {
+        "question": "Qual personagem, conhecido como 'Bastardo de Winterfell', é revelado como herdeiro do Trono de Ferro?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Theon Greyjoy",
+            "isCorrect": false,
+            "explanation": "Nããão, Theon é das Ilhas de Ferro, não de Winterfell, e sua história é mais... complicada. Tente um bastardo com sangue de dragão!"
+          },
+          {
+            "text": "Jon Snow",
+            "isCorrect": true,
+            "explanation": "Você sabe de nada... e acertou! Jon Snow, o 'Bastardo de Winterfell', é revelado como Aegon Targaryen, herdeiro do Trono de Ferro. De lobo a dragão, ele é o herói que Westeros merece. Parabéns, Guardião da Muralha!",
+            "imageUrl": "https://www.hbo.com/content/dam/hbodata/series/game-of-thrones/characters/jon-snow.jpg",
+            "imageDescription": "Imagem de Jon Snow com sua espada Garra e capa preta, em um cenário nevado, representando sua jornada em Game of Thrones."
+          },
+          {
+            "text": "Ramsay Bolton",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! Ramsay é um bastardo cruel, mas não de Winterfell nem herdeiro. Tente alguém mais nobre e menos psicopata!"
+          },
+          {
+            "text": "Gendry",
+            "isCorrect": false,
+            "explanation": "Nããão, Gendry é bastardo de Robert Baratheon, não de Winterfell. Tente o cara que enfrenta White Walkers!"
+          }
+        ]
+      },
+      {
+        "question": "Qual criatura mítica, extinta por séculos, é trazida de volta por Daenerys Targaryen?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "White Walker",
+            "isCorrect": false,
+            "explanation": "Nããão, White Walkers são os zumbis de gelo do Norte, não extintos. Tente algo mais... quente e alado!"
+          },
+          {
+            "text": "Dragão",
+            "isCorrect": true,
+            "explanation": "Dracarys, você acertou! Daenerys Targaryen traz dragões de volta, chocando Drogon, Rhaegal e Viserion. Essas feras aladas cospem fogo e roubam a cena em Westeros. Parabéns, Mãe dos Dragões!",
+            "imageUrl": "https://www.hbo.com/content/dam/hbodata/series/game-of-thrones/creatures/dragon.jpg",
+            "imageDescription": "Imagem de Drogon, o dragão de Daenerys, voando com asas abertas e fogo na boca, simbolizando o poder dos Targaryens em Game of Thrones."
+          },
+          {
+            "text": "Lobo gigante",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! Lobos gigantes são dos Starks, e nunca estiveram extintos. Tente algo mais lendário e escamoso!"
+          },
+          {
+            "text": "Kraken",
+            "isCorrect": false,
+            "explanation": "Nããão, krakens são lendas das Ilhas de Ferro, não trazidos de volta. Tente algo que voa e queima!"
+          }
+        ]
+      },
+      {
+        "question": "Qual batalha de 2019, na última temporada, mostrou a luta contra o Rei da Noite e seus White Walkers?",
+        "level": "difícil",
+        "options": [
+          {
+            "text": "Batalha dos Bastardos",
+            "isCorrect": false,
+            "explanation": "Nããão, a Batalha dos Bastardos foi contra Ramsay Bolton, não zumbis. Tente uma batalha mais... gelada e sobrenatural!"
+          },
+          {
+            "text": "Batalha de Winterfell",
+            "isCorrect": true,
+            "explanation": "Você enfrentou a escuridão e venceu! A Batalha de Winterfell, em 2019, foi o confronto épico contra o Rei da Noite, com Jon, Arya e cia. lutando na neve. Arya deu o golpe final, provando que até o inverno tem medo dela. Parabéns, herói!",
+            "imageUrl": "https://www.hbo.com/content/dam/hbodata/series/game-of-thrones/episodes/s8/e3/battle-of-winterfell.jpg",
+            "imageDescription": "Imagem da Batalha de Winterfell, com guerreiros enfrentando White Walkers na neve, iluminados por fogo, capturando a tensão do confronto de 2019."
+          },
+          {
+            "text": "Saque de Porto Real",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! O Saque de Porto Real foi contra Cersei, não o Rei da Noite. Tente algo mais ao norte e congelante!"
+          },
+          {
+            "text": "Batalha da Água Negra",
+            "isCorrect": false,
+            "explanation": "Nããão, Água Negra foi com fogovivo em Porto Real. Tente uma batalha com mortos-vivos e dragões!"
+          }
+        ]
+      },
+      {
+        "question": "Qual personagem, conhecido como 'Mindinho', manipulou eventos em Westeros até sua execução pelos Starks?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Varys",
+            "isCorrect": false,
+            "explanation": "Nããão, Varys é o Mestre dos Sussurros, mais leal ao reino. Tente alguém mais traiçoeiro, com um apelido de dedo!"
+          },
+          {
+            "text": "Petyr Baelish",
+            "isCorrect": true,
+            "explanation": "Você desmascarou o vilão! Petyr Baelish, o Mindinho, manipulou todos em Westeros com suas intrigas, até os Starks o julgarem. De bordéis a tronos, ele jogou o jogo... e perdeu. Parabéns, mestre das intrigas!",
+            "imageUrl": "https://www.hbo.com/content/dam/hbodata/series/game-of-thrones/characters/petyr-baelish.jpg",
+            "imageDescription": "Imagem de Petyr Baelish, o Mindinho, com um sorriso astuto, em um cenário de Porto Real, representando sua natureza manipuladora em Game of Thrones."
+          },
+          {
+            "text": "Tyrion Lannister",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! Tyrion é esperto, mas não tão traiçoeiro. Tente alguém mais ardiloso e menos amante de vinho!"
+          },
+          {
+            "text": "Littlefinger",
+            "isCorrect": false,
+            "explanation": "Ops, Littlefinger é o apelido, mas queremos o nome real! Tente o cara que manipulou até o caos em Westeros!"
+          }
+        ]
+      }
+    ]
+  }

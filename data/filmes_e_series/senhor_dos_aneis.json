@@ -1,0 +1,149 @@
+{
+    "config": {
+      "theme": "O Senhor dos Anéis",
+      "totalPoints": 1000,
+      "scoring": "points"
+    },
+    "data": [
+      {
+        "question": "Qual é o nome do anel mágico que Frodo carrega para destruí-lo na Montanha da Perdição?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Anel de Narya",
+            "isCorrect": false,
+            "explanation": "Nããão, Narya é o anel de fogo de Gandalf! Tente o anel que domina todos e é bem mais... maligno!"
+          },
+          {
+            "text": "Um Anel",
+            "isCorrect": true,
+            "explanation": "Meu precioso, você acertou! O Um Anel, forjado por Sauron, é o objeto central de O Senhor dos Anéis, levando Frodo numa jornada épica para destruí-lo na Montanha da Perdição. Um anel pra causar muitos problemas! Parabéns, hobbit!",
+            "imageUrl": "https://www.lotrproject.com/images/one-ring.jpg",
+            "imageDescription": "Imagem do Um Anel, dourado com inscrições élficas brilhando, em um fundo escuro, simbolizando seu poder maligno em O Senhor dos Anéis."
+          },
+          {
+            "text": "Anel de Vilya",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! Vilya é o anel de Elrond, do ar. Tente o anel que Sauron quer de volta!"
+          },
+          {
+            "text": "Anel de Nenya",
+            "isCorrect": false,
+            "explanation": "Nããão, Nenya é o anel de Galadriel! Tente o anel que corrompe quem o usa!"
+          }
+        ]
+      },
+      {
+        "question": "Qual criatura gigante ajuda os Ents na batalha contra Isengard em 'As Duas Torres'?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Troll",
+            "isCorrect": false,
+            "explanation": "Nããão, trolls são brutos que lutam por Sauron, não ajudam Ents! Tente algo mais... arbóreo e gigante!"
+          },
+          {
+            "text": "Huorn",
+            "isCorrect": true,
+            "explanation": "Você é um guardião da floresta! Huorns, árvores semi-conscientes da Floresta de Fangorn, ajudam os Ents, liderados por Barbárvore, a destruir Isengard. Eles marcham e esmagam orcs como se fossem galhos secos. Parabéns, pastor de árvores!",
+            "imageUrl": "https://www.lotrproject.com/images/huorn-battle.jpg",
+            "imageDescription": "Imagem de Huorns, árvores gigantes, marchando na batalha de Isengard, com Ents ao fundo, capturando a força da natureza em O Senhor dos Anéis."
+          },
+          {
+            "text": "Balrog",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! Balrogs são demônios de fogo, como o de Moria. Tente algo mais verde e amigável aos Ents!"
+          },
+          {
+            "text": "Warg",
+            "isCorrect": false,
+            "explanation": "Nããão, Wargs são lobos dos orcs, não aliados dos Ents! Tente algo mais ligado às florestas!"
+          }
+        ]
+      },
+      {
+        "question": "Qual é o nome do reino dos homens governado por Aragorn no final da trilogia?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Rohan",
+            "isCorrect": false,
+            "explanation": "Nããão, Rohan é o reino dos cavaleiros, governado por Théoden! Tente o reino com uma cidade branca e um rei retornado!"
+          },
+          {
+            "text": "Gondor",
+            "isCorrect": true,
+            "explanation": "Você é digno da coroa! Gondor, com sua capital Minas Tirith, é o reino dos homens que Aragorn governa como Rei Elessar no final de O Senhor dos Anéis. Um retorno épico para um herói! Parabéns, monarca!",
+            "imageUrl": "https://www.lotrproject.com/images/minas-tirith.jpg",
+            "imageDescription": "Imagem de Minas Tirith, a cidade branca de Gondor, com suas muralhas e a torre de Ecthelion, simbolizando o reino de Aragorn em O Senhor dos Anéis."
+          },
+          {
+            "text": "Mordor",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! Mordor é a terra de Sauron, não dos homens. Tente um reino mais... heroico e brilhante!"
+          },
+          {
+            "text": "Erebor",
+            "isCorrect": false,
+            "explanation": "Nããão, Erebor é dos anões, governada por Thorin! Tente o reino dos homens com uma árvore branca!"
+          }
+        ]
+      },
+      {
+        "question": "Qual personagem, um hobbit, carrega o Um Anel por grande parte da trilogia?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Samwise Gamgee",
+            "isCorrect": false,
+            "explanation": "Nããão, Sam é o melhor amigo, mas não o portador principal! Tente o hobbit que sofre com o peso do anel!"
+          },
+          {
+            "text": "Frodo Baggins",
+            "isCorrect": true,
+            "explanation": "Você é um herói do Condado! Frodo Baggins, o hobbit de O Senhor dos Anéis, carrega o Um Anel em uma jornada épica para destruí-lo, enfrentando orcs, Nazgûl e o próprio Sauron. Um pequeno passo para um grande feito! Parabéns!",
+            "imageUrl": "https://www.lotrproject.com/images/frodo-baggins.jpg",
+            "imageDescription": "Imagem de Frodo Baggins segurando o Um Anel, com expressão determinada, em um cenário de aventura, representando sua jornada em O Senhor dos Anéis."
+          },
+          {
+            "text": "Merry Brandybuck",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! Merry é um hobbit valente, mas não carrega o anel. Tente o primo mais... sobrecarregado!"
+          },
+          {
+            "text": "Pippin Took",
+            "isCorrect": false,
+            "explanation": "Nããão, Pippin causa confusão, mas não carrega o anel! Tente o hobbit com a missão mais perigosa!"
+          }
+        ]
+      },
+      {
+        "question": "Qual batalha épica, em 'O Retorno do Rei', ocorre nos campos diante de Minas Tirith?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Batalha do Abismo de Helm",
+            "isCorrect": false,
+            "explanation": "Nããão, o Abismo de Helm é em 'As Duas Torres', em Rohan! Tente a batalha com olifantes e a cidade branca!"
+          },
+          {
+            "text": "Batalha dos Campos de Pelennor",
+            "isCorrect": true,
+            "explanation": "Você é um cavaleiro de Gondor! A Batalha dos Campos de Pelennor, em 'O Retorno do Rei', é o confronto épico diante de Minas Tirith, com Rohan, olifantes e Aragorn salvando o dia. Épico como só Tolkien faz! Parabéns, guerreiro!",
+            "imageUrl": "https://www.lotrproject.com/images/pelennor-fields.jpg",
+            "imageDescription": "Imagem da Batalha dos Campos de Pelennor, com cavaleiros de Rohan enfrentando orcs e olifantes diante de Minas Tirith, capturando a escala épica de O Senhor dos Anéis."
+          },
+          {
+            "text": "Batalha do Portão Negro",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! O Portão Negro é a batalha final em Mordor. Tente a que acontece antes, com uma cidade em jogo!"
+          },
+          {
+            "text": "Batalha de Isengard",
+            "isCorrect": false,
+            "explanation": "Nããão, Isengard é destruída pelos Ents! Tente a batalha com Gondor e muitos orcs!"
+          }
+        ]
+      }
+    ]
+  }

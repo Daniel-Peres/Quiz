@@ -1,0 +1,149 @@
+{
+    "config": {
+      "theme": "Tecnologia: Linguagens de Programação",
+      "totalPoints": 1000,
+      "scoring": "points"
+    },
+    "data": [
+      {
+        "question": "Qual linguagem de programação, criada em 1995, é amplamente usada para desenvolvimento web e conhecida por sua flexibilidade?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Python",
+            "isCorrect": false,
+            "explanation": "Nããão, Python é um amor, mas nasceu em 1991 e é mais geral, não só web. Tente uma linguagem que faz sites brilharem e às vezes dá dor de cabeça!"
+          },
+          {
+            "text": "JavaScript",
+            "isCorrect": true,
+            "explanation": "Você é um ninja do código! JavaScript, criado em 1995 por Brendan Eich, é o coração da web, dando vida a sites interativos. De pop-ups a apps complexos, ela faz tudo... e às vezes bagunça tudo também! Parabéns, dev!",
+            "imageUrl": "https://www.javascript.com/images/js-logo.png",
+            "imageDescription": "Imagem do logotipo oficial do JavaScript, com um 'JS' estilizado em amarelo e preto, representando a linguagem essencial para desenvolvimento web."
+          },
+          {
+            "text": "Java",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! Java, também de 1995, é mais para apps e servidores. A linguagem que queremos é a rainha dos navegadores, rodando no seu browser agora!"
+          },
+          {
+            "text": "C++",
+            "isCorrect": false,
+            "explanation": "Ops, errou o alvo! C++, de 1985, é fera em jogos e sistemas, mas não é a estrela da web. Tente algo mais... scriptado e dinâmico!"
+          }
+        ]
+      },
+      {
+        "question": "Qual linguagem, lançada em 1991, é famosa por sua simplicidade e legibilidade, sendo muito usada em ciência de dados e IA?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Ruby",
+            "isCorrect": false,
+            "explanation": "Nããão, Ruby, de 1995, é legal pra web, tipo Rails, mas não é a queridinha de dados. Tente uma linguagem que parece um pseudocódigo amigável!"
+          },
+          {
+            "text": "Python",
+            "isCorrect": true,
+            "explanation": "Slither de acerto! Python, criado por Guido van Rossum em 1991, é amado por sua clareza e versatilidade, dominando IA, dados e até web. De 'print('Hello World')' a redes neurais, é a cobra que encanta todo programador!",
+            "imageUrl": "https://www.python.org/static/community_logos/python-logo.png",
+            "imageDescription": "Imagem do logotipo do Python, com uma cobra azul e amarela, simbolizando a simplicidade e poder da linguagem em ciência de dados e IA."
+          },
+          {
+            "text": "Perl",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! Perl, de 1987, é mais pra scripts e textos. A linguagem que queremos é mais jovem e bem mais popular nos laboratórios de dados!"
+          },
+          {
+            "text": "R",
+            "isCorrect": false,
+            "explanation": "Ops, R é específica pra estatística, mas não tão versátil quanto a líder de 1991. Tente a linguagem que todo mundo usa, de web a machine learning!"
+          }
+        ]
+      },
+      {
+        "question": "Qual linguagem, criada na década de 1970, é considerada a base para muitas linguagens modernas como C++ e Java?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Pascal",
+            "isCorrect": false,
+            "explanation": "Nããão, Pascal, de 1970, é ótimo pra ensinar, mas não tão influente assim. Tente uma linguagem mais... fundacional, que tá no sangue de C++ e Java!"
+          },
+          {
+            "text": "C",
+            "isCorrect": true,
+            "explanation": "Você é um arqueólogo do código! C, criado em 1972 por Dennis Ritchie, é a avó das linguagens modernas, dando origem a C++, Java e muitas outras. De sistemas operacionais a jogos, ela é o alicerce da programação. Respeita a lenda!",
+            "imageUrl": "https://www.programiz.com/sites/tutorial2program/files/c-programming.png",
+            "imageDescription": "Imagem ilustrativa do logotipo da linguagem C, com um fundo de código, representando sua importância histórica como base para linguagens modernas."
+          },
+          {
+            "text": "Fortran",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! Fortran, de 1957, é pioneira pra cálculos científicos, mas não pariu C++ ou Java. Tente algo mais próximo dos anos 70!"
+          },
+          {
+            "text": "BASIC",
+            "isCorrect": false,
+            "explanation": "Ops, BASIC, de 1964, era pra iniciantes, mas não tão influente nas modernas. A linguagem que queremos é mais estruturada e poderosa!"
+          }
+        ]
+      },
+      {
+        "question": "Qual linguagem, lançada em 2009, é usada para contratos inteligentes na blockchain Ethereum?",
+        "level": "difícil",
+        "options": [
+          {
+            "text": "Rust",
+            "isCorrect": false,
+            "explanation": "Nããão, Rust, de 2010, é fera em desempenho, mas não é a rainha do Ethereum. Tente uma linguagem feita sob medida pra blockchains!"
+          },
+          {
+            "text": "Solidity",
+            "isCorrect": true,
+            "explanation": "Você é um gênio da blockchain! Solidity, lançada em 2009, é a linguagem dos contratos inteligentes no Ethereum, permitindo acordos digitais seguros. De NFTs a DeFi, ela é o motor da revolução cripto. Parabéns, minerador de código!",
+            "imageUrl": "https://docs.soliditylang.org/en/latest/_static/logo.svg",
+            "imageDescription": "Imagem do logotipo da Solidity, com um símbolo estilizado em azul, representando sua função em contratos inteligentes na blockchain Ethereum."
+          },
+          {
+            "text": "Go",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! Go, de 2009, é ótima pra servidores, mas não pra Ethereum. Tente algo mais... descentralizado e contratual!"
+          },
+          {
+            "text": "Haskell",
+            "isCorrect": false,
+            "explanation": "Nããão, Haskell é funcional e acadêmica, mas não tá na blockchain. A linguagem que queremos é mais jovem e cheia de criptomoedas!"
+          }
+        ]
+      },
+      {
+        "question": "Qual linguagem de programação, criada em 1983, é conhecida por sua orientação a objetos e uso em sistemas críticos como aviação?",
+        "level": "difícil",
+        "options": [
+          {
+            "text": "Lisp",
+            "isCorrect": false,
+            "explanation": "Nããão, Lisp, de 1958, é pioneira em IA, mas não em sistemas críticos. Tente uma linguagem mais estruturada e confiável pra aviões!"
+          },
+          {
+            "text": "Ada",
+            "isCorrect": true,
+            "explanation": "Você é um piloto de código! Ada, criada em 1983 em homenagem a Ada Lovelace, é a escolha para sistemas críticos em aviação, defesa e trens. Sua robustez evita bugs que poderiam derrubar um jato. Parabéns, engenheiro de software!",
+            "imageUrl": "https://www.adacore.com/uploads/technical-papers/Ada_Logo.png",
+            "imageDescription": "Imagem do logotipo da linguagem Ada, com texto estilizado em azul, representando sua confiabilidade em sistemas críticos como aviação."
+          },
+          {
+            "text": "Prolog",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! Prolog, de 1972, é pra lógica e IA, não aviação. Tente algo mais seguro e orientado a objetos!"
+          },
+          {
+            "text": "Smalltalk",
+            "isCorrect": false,
+            "explanation": "Nããão, Smalltalk, de 1972, inspirou orientação a objetos, mas não é usada em jatos. A linguagem que queremos é mais... militar e precisa!"
+          }
+        ]
+      }
+    ]
+  }

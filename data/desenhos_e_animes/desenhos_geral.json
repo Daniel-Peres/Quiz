@@ -1,0 +1,149 @@
+{
+  "config": {
+    "theme": "Desenhos Gerais",
+    "totalPoints": 1000,
+    "scoring": "points"
+  },
+  "data": [
+    {
+      "question": "Qual desenho dos anos 90 segue as aventuras de um garoto com um laboratório secreto em seu quarto?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Hey Arnold!",
+          "isCorrect": false,
+          "explanation": "Nããão, Hey Arnold! é sobre a vida urbana de um garoto com cabeça de futebol, não laboratórios! Tente um desenho com mais ciência e explosões caseiras!"
+        },
+        {
+          "text": "Dexter's Laboratory",
+          "isCorrect": true,
+          "explanation": "Omelette du fromage, você acertou! Dexter’s Laboratory, dos anos 90, mostra Dexter, o gênio mirim, criando invenções malucas enquanto foge da irmã Dee Dee. Um clássico do Cartoon Network que mistura ciência e confusão! Parabéns, cientista maluco!",
+          "imageUrl": "https://www.cartoonnetwork.com/content/dam/cartoonnetwork/shows/dexters-laboratory/key-art.jpg",
+          "imageDescription": "Imagem de Dexter em seu laboratório secreto, com óculos grandes e Dee Dee ao fundo, capturando o espírito científico e caótico de Dexter’s Laboratory."
+        },
+        {
+          "text": "Johnny Bravo",
+          "isCorrect": false,
+          "explanation": "Quase, mas não! Johnny Bravo é sobre um galã de cabelo loiro, não um cientista. Tente um desenho com tubos de ensaio e robôs!"
+        },
+        {
+          "text": "The Powerpuff Girls",
+          "isCorrect": false,
+          "explanation": "Nããão, As Meninas Superpoderosas são heroínas, não cientistas de quarto! Tente um garoto com um laboratório escondido!"
+        }
+      ]
+    },
+    {
+      "question": "Qual anime dos anos 2000 segue um garoto que captura criaturas em esferas para batalhas, buscando ser o maior mestre?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Yu-Gi-Oh!",
+          "isCorrect": false,
+          "explanation": "Nããão, Yu-Gi-Oh! é sobre cartas mágicas, não criaturas em esferas! Tente um anime com monstrinhos e ginásios!"
+        },
+        {
+          "text": "Pokémon",
+          "isCorrect": true,
+          "explanation": "Gotta catch ‘em all, você acertou! Pokémon, lançado em 1997 mas febre nos 2000, segue Ash Ketchum capturando criaturas como Pikachu para ser o Mestre Pokémon. De Pokébolas a badges, é um clássico que ainda faz a gente querer ser treinador! Parabéns, mestre!",
+          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/pokemon-anime-key-art.jpg",
+          "imageDescription": "Imagem de Ash Ketchum com Pikachu no ombro, segurando uma Pokébola, com um fundo vibrante de batalhas Pokémon, representando o anime dos anos 2000."
+        },
+        {
+          "text": "Digimon",
+          "isCorrect": false,
+          "explanation": "Quase, mas não! Digimon tem criaturas digitais, mas não é o maior fenômeno. Tente o anime com Pikachu e Charizard!"
+        },
+        {
+          "text": "Beyblade",
+          "isCorrect": false,
+          "explanation": "Nããão, Beyblade é sobre piões, não criaturas! Tente um anime com monstrinhos e Pokébolas!"
+        }
+      ]
+    },
+    {
+      "question": "Qual desenho de 1985, sobre robôs que se transformam em veículos, é um ícone dos anos 80?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "He-Man",
+          "isCorrect": false,
+          "explanation": "Nããão, He-Man é sobre espadas e magia em Eternia, não robôs! Tente um desenho com Autobots e Decepticons!"
+        },
+        {
+          "text": "Transformers",
+          "isCorrect": true,
+          "explanation": "Autobots, transformar e acertar! Transformers, de 1985, traz Optimus Prime e seus robôs que viram carros, aviões e mais, lutando contra Megatron. É o desenho que fez todo mundo querer um caminhão que fala! Parabéns, líder intergaláctico!",
+          "imageUrl": "https://www.hasbro.com/common/productimages/en_US/Transformers-G1-Optimus-Prime.jpg",
+          "imageDescription": "Imagem de Optimus Prime em Transformers, na forma de robô com um fundo de batalha, representando a essência do desenho icônico dos anos 80."
+        },
+        {
+          "text": "Thundercats",
+          "isCorrect": false,
+          "explanation": "Quase, mas não! Thundercats são felinos cósmicos, não robôs. Tente algo com transformações mecânicas!"
+        },
+        {
+          "text": "G.I. Joe",
+          "isCorrect": false,
+          "explanation": "Nããão, G.I. Joe é sobre soldados, não robôs que mudam de forma! Tente um desenho com Cybertron!"
+        }
+      ]
+    },
+    {
+      "question": "Qual anime de 2013, baseado em um mangá, mostra a humanidade lutando contra gigantes devoradores de pessoas?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Hunter x Hunter",
+          "isCorrect": false,
+          "explanation": "Nããão, Hunter x Hunter é sobre caçadores e aventuras, não gigantes! Tente um anime com muralhas e titãs assustadores!"
+        },
+        {
+          "text": "Attack on Titan",
+          "isCorrect": true,
+          "explanation": "Você escalou a muralha e acertou! Attack on Titan, de 2013, segue Eren, Mikasa e Armin contra titãs colossais em um mundo cercado por muralhas. Com ação épica e reviravoltas, é um anime que te faz gritar 'Shinzou wo Sasageyo!' Parabéns, recruta!",
+          "imageUrl": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/Attack-on-Titan-Key-Art.jpg",
+          "imageDescription": "Imagem de Eren, Mikasa e Armin em Attack on Titan, com um Titã Colossal ao fundo, capturando a intensidade e escala do anime de 2013."
+        },
+        {
+          "text": "One Punch Man",
+          "isCorrect": false,
+          "explanation": "Quase, mas não! One Punch Man é sobre um herói careca, não titãs. Tente algo mais sombrio com gigantes devoradores!"
+        },
+        {
+          "text": "Tokyo Ghoul",
+          "isCorrect": false,
+          "explanation": "Nããão, Tokyo Ghoul tem ghouls, não gigantes! Tente um anime com muralhas e equipamentos de manobra 3D!"
+        }
+      ]
+    },
+    {
+      "question": "Qual desenho de 2003, criado por Genndy Tartakovsky, segue um guerreiro com uma espada mágica em um mundo futurista?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Avatar: The Last Airbender",
+          "isCorrect": false,
+          "explanation": "Nããão, Avatar é sobre dobradores de elementos, não espadas mágicas! Tente um desenho com um samurai em um futuro distópico!"
+        },
+        {
+          "text": "Samurai Jack",
+          "isCorrect": true,
+          "explanation": "Você cortou o mal com precisão! Samurai Jack, de 2003, segue Jack, um guerreiro com uma espada mágica, lutando contra Aku em um futuro sombrio. Com estilo visual único e batalhas épicas, é um clássico cult. Parabéns, samurai!",
+          "imageUrl": "https://www.cartoonnetwork.com/content/dam/cartoonnetwork/shows/samurai-jack/key-art.jpg",
+          "imageDescription": "Imagem de Samurai Jack segurando sua espada mágica, com um fundo futurista e Aku ao longe, representando o estilo visual marcante do desenho de 2003."
+        },
+        {
+          "text": "Teen Titans",
+          "isCorrect": false,
+          "explanation": "Quase, mas não! Teen Titans é sobre super-heróis adolescentes, não samurais. Tente algo mais estilizado e com um guerreiro solitário!"
+        },
+        {
+          "text": "Kim Possible",
+          "isCorrect": false,
+          "explanation": "Nããão, Kim Possible é uma espiã adolescente, não samurai! Tente um desenho com um guerreiro de kimono em um futuro estranho!"
+        }
+      ]
+    }
+  ]
+}

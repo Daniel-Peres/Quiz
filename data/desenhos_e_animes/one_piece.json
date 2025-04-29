@@ -1,0 +1,37 @@
+{
+    "config": {
+      "theme": "One Piece",
+      "totalPoints": 1000,
+      "scoring": "points"
+    },
+    "data": [
+      {
+        "question": "Em One Piece, qual é o nome do navio dos Piratas do Chapéu de Palha que tem uma figura de proa em forma de bode?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Thousand Sunny",
+            "isCorrect": true,
+            "explanation": "Argh, você é um verdadeiro nakama! O Thousand Sunny é o segundo navio dos Chapéus de Palha, construído por Franky após a perda do Going Merry. Com sua proa de bode, ele tem até um canhão Gaon e um jardim para a Nami. Navegou direitinho até o One Piece!",
+            "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/7/73/Thousand_Sunny_Infobox.png",
+            "imageDescription": "Imagem do navio Thousand Sunny com sua proa em forma de bode, velas abertas e detalhes coloridos, ancorado em um mar azul."
+          },
+          {
+            "text": "Going Merry",
+            "isCorrect": false,
+            "explanation": "Quase, mas o mar te enganou! O Going Merry, primeiro navio dos Chapéus de Palha, tinha uma proa de ovelha, não de bode. Ele foi um fiel companheiro até seu final emocionante em Enies Lobby. Chorei rios!"
+          },
+          {
+            "text": "Moby Dick",
+            "isCorrect": false,
+            "explanation": "Nããão, errou de tripulação! A Moby Dick é o navio do Barba Branca, com uma proa de baleia. Nada a ver com os Chapéus de Palha, mas é um monstro dos mares!"
+          },
+          {
+            "text": "Red Force",
+            "isCorrect": false,
+            "explanation": "Ops, tá no barco errado! O Red Force é o navio do Shanks, com um dragão na proa. Parece maneiro, mas não é o lar do Luffy e cia. Tente de novo, pirata!"
+          }
+        ]
+      }
+    ]
+  }

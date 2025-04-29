@@ -1,0 +1,149 @@
+{
+    "config": {
+      "theme": "Harry Potter",
+      "totalPoints": 1000,
+      "scoring": "points"
+    },
+    "data": [
+      {
+        "question": "Qual é o nome da escola de magia frequentada por Harry Potter?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Beauxbatons",
+            "isCorrect": false,
+            "explanation": "Nããão, Beauxbatons é a escola francesa, com carruagens voadoras! Tente a escola britânica com castelos e quadribol!"
+          },
+          {
+            "text": "Hogwarts",
+            "isCorrect": true,
+            "explanation": "Expecto Patronum, você acertou! Hogwarts, a escola de magia e bruxaria, é onde Harry, Ron e Hermione vivem aventuras, jogam quadribol e enfrentam Voldemort. De escadas móveis a fantasmas, é o lar dos bruxos! Parabéns, aluno!",
+            "imageUrl": "https://www.wizardingworld.com/images/hogwarts-castle.jpg",
+            "imageDescription": "Imagem do castelo de Hogwarts à noite, com torres iluminadas e o lago ao fundo, capturando a magia da escola de Harry Potter."
+          },
+          {
+            "text": "Durmstrang",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! Durmstrang é a escola do leste europeu, mais sombria. Tente a escola com o Expresso de Hogwarts!"
+          },
+          {
+            "text": "Ilvermorny",
+            "isCorrect": false,
+            "explanation": "Nããão, Ilvermorny é americana! Tente a escola britânica onde Harry lança feitiços e come sapos de chocolate!"
+          }
+        ]
+      },
+      {
+        "question": "Qual objeto mágico permite a Harry Potter viajar no tempo no terceiro livro/filme?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Capa da Invisibilidade",
+            "isCorrect": false,
+            "explanation": "Nããão, a Capa da Invisibilidade esconde, não viaja no tempo! Tente algo mais... giratório e temporal!"
+          },
+          {
+            "text": "Vira-tempo",
+            "isCorrect": true,
+            "explanation": "Você girou o tempo certo! O Vira-tempo, usado por Hermione em 'Prisioneiro de Azkaban', permite viagens temporais, salvando Sirius e Bicuço. Um gadget tão legal que até o Ministério da Magia controla! Parabéns, bruxo!",
+            "imageUrl": "https://www.wizardingworld.com/images/time-turner.jpg",
+            "imageDescription": "Imagem de um Vira-tempo, com sua ampulheta dourada e correntes, brilhando, representando o dispositivo de viagem no tempo de Harry Potter."
+          },
+          {
+            "text": "Pomo de Ouro",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! O Pomo de Ouro é pra quadribol, não tempo. Tente algo que Hermione usava escondido!"
+          },
+          {
+            "text": "Pensieve",
+            "isCorrect": false,
+            "explanation": "Nããão, a Penseira mostra memórias, não viaja no tempo. Tente algo mais... giratório e mágico!"
+          }
+        ]
+      },
+      {
+        "question": "Qual é o nome do vilão principal da série Harry Potter?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Draco Malfoy",
+            "isCorrect": false,
+            "explanation": "Nããão, Draco é só um valentão de Hogwarts! O vilão principal é bem mais sombrio e sem nariz!"
+          },
+          {
+            "text": "Lord Voldemort",
+            "isCorrect": true,
+            "explanation": "Avada Kedavra, você acertou! Lord Voldemort, o Senhor das Trevas, é o vilão que aterroriza o mundo bruxo, caçando Harry por causa de uma profecia. Sem nariz, mas com muito ódio, ele é o pesadelo de Hogwarts. Boa, auror!",
+            "imageUrl": "https://www.wizardingworld.com/images/voldemort.jpg",
+            "imageDescription": "Imagem de Lord Voldemort com sua varinha e rosto pálido sem nariz, em um fundo escuro, representando sua ameaça em Harry Potter."
+          },
+          {
+            "text": "Severus Snape",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! Snape é complicado, mas não o vilão principal. Tente o cara que ama cobras e horcruxes!"
+          },
+          {
+            "text": "Bellatrix Lestrange",
+            "isCorrect": false,
+            "explanation": "Nããão, Bellatrix é uma seguidora cruel, mas não a líder. Tente o chefão das Trevas!"
+          }
+        ]
+      },
+      {
+        "question": "Qual feitiço, usado em duelos, desarma o oponente tirando sua varinha?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Expecto Patronum",
+            "isCorrect": false,
+            "explanation": "Nããão, Expecto Patronum invoca um patrono contra dementadores! Tente algo mais... desarmador e duelístico!"
+          },
+          {
+            "text": "Expelliarmus",
+            "isCorrect": true,
+            "explanation": "Você é um mestre dos duelos! Expelliarmus, o feitiço de desarme, é a marca de Harry Potter, tirando varinhas de oponentes como Draco e até Voldemort. Simples, mas poderoso, é o 'adeus, varinha!' dos bruxos. Parabéns, duelista!",
+            "imageUrl": "https://www.wizardingworld.com/images/expelliarmus.jpg",
+            "imageDescription": "Imagem de um feitiço Expelliarmus sendo lançado, com uma luz vermelha saindo de uma varinha, em um cenário de duelo mágico de Harry Potter."
+          },
+          {
+            "text": "Stupefy",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! Stupefy atordoa, não desarma. Tente o feitiço que deixa o oponente sem varinha!"
+          },
+          {
+            "text": "Lumos",
+            "isCorrect": false,
+            "explanation": "Nããão, Lumos só ilumina! Tente algo que voa varinhas pelos ares em duelos!"
+          }
+        ]
+      },
+      {
+        "question": "Qual horcrux, destruída por Ron Weasley, era um medalhão pertencente a Salazar Slytherin?",
+        "level": "difícil",
+        "options": [
+          {
+            "text": "Diadema de Ravenclaw",
+            "isCorrect": false,
+            "explanation": "Nããão, o Diadema foi destruído por Crabbe com Fogo Maldito. Tente algo que Ron enfrentou com uma espada!"
+          },
+          {
+            "text": "Medalhão de Slytherin",
+            "isCorrect": true,
+            "explanation": "Você é um caçador de horcruxes! O Medalhão de Slytherin, uma horcrux de Voldemort, foi destruído por Ron com a Espada de Gryffindor em 'Relíquias da Morte'. Ele enfrentou seus medos e deu um golpe épico. Parabéns, destruidor de trevas!",
+            "imageUrl": "https://www.wizardingworld.com/images/slytherin-locket.jpg",
+            "imageDescription": "Imagem do Medalhão de Slytherin, com detalhes verdes e dourados, brilhando sinistramente, representando sua importância como horcrux em Harry Potter."
+          },
+          {
+            "text": "Cálice de Hufflepuff",
+            "isCorrect": false,
+            "explanation": "Quase, mas não! O Cálice foi destruído por Hermione. Tente o horcrux que atormentou Ron emocionalmente!"
+          },
+          {
+            "text": "Anel de Gaunt",
+            "isCorrect": false,
+            "explanation": "Nããão, o Anel foi destruído por Dumbledore. Tente o horcrux que Ron esfaqueou com coragem!"
+          }
+        ]
+      }
+    ]
+  }

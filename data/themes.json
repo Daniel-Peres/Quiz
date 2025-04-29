@@ -6,19 +6,6 @@
         "description": "Perguntas sobre diversos assuntos."
     },
     {
-        "id": "universo",
-        "name": "Universo",
-        "description": "Desafios sobre o Universo.",
-        "subThemes": [
-            {
-                "id": "sistema_solar",
-                "name": "Sistema Solar",
-                "file": "universo/sistema_solar.json",
-                "description": "Questões gerais sobre o Sistema Solar."
-            }
-        ]
-    },
-    {
         "id": "aws",
         "name": "AWS Web Services",
         "description": "Desafios sobre a nuvem da Amazon.",
@@ -60,12 +47,104 @@
                 "file": "copa_do_mundo/copa_do_mundo_1930_1934_1938.json",
                 "description": "Questões sobre as Copas do Mundo FIFA 1930, 1934 e 1938."
             }
-        ] 
+        ]
+    },
+    {
+        "id": "desenhos_e_animes",
+        "name": "Desenhos e Animes",
+        "description": "Desafios sobre sobre o universo dos desenhos e animes (Naruto, Pokemon, Dragon Ball Z, Desenhos clássicos.",
+        "subThemes": [
+            {
+                "id": "desenhos_geral.json",
+                "name": "Desenhos animados - Geral",
+                "file": "desenhos_e_animes/desenhos_geral.json",
+                "description": "Questões sobre o universo dos desenhos animados."
+            },
+            {
+                "id": "dragon_ball_z",
+                "name": "Dragon Ball Z",
+                "file": "desenhos_e_animes/dragon_ball_z.json",
+                "description": "Questões sobre o universo Dragon Ball Z."
+            },
+            {
+                "id": "naruto",
+                "name": "Naruto",
+                "file": "desenhos_e_animes/naruto.json",
+                "description": "Questões sobre o universo Naruto."
+            },
+            {
+                "id": "pokemon",
+                "name": "Pokemon",
+                "file": "desenhos_e_animes/pokemon.json",
+                "description": "Questões sobre o universo Pokemon."
+            },
+            {
+                "id": "one_piece",
+                "name": "One Piece",
+                "file": "desenhos_e_animes/one_piece.json",
+                "description": "Questões sobre o universo One Piece."
+            },
+            {
+                "id": "desenhos_anos_80_e_90",
+                "name": "Desenhos das décadas de 80 e 90",
+                "file": "desenhos_e_animes/desenhos_anos_80_e_90.json",
+                "description": "Questões sobre Desenhos das décadas de 80 e 90."
+            },
+            {
+                "id": "desenhos_antes_anos_80",
+                "name": "Desenhos de antes do anos 80",
+                "file": "desenhos_e_animes/desenhos_antes_anos_80.json",
+                "description": "Questões sobre os desenhos de antes do anos 80."
+            },
+            {
+                "id": "desenhos_pos_anos_2000",
+                "name": "Desenhos criados depois dos anos 2000",
+                "file": "desenhos_e_animes/desenhos_pos_anos_2000.json",
+                "description": "Questões sobre desenhos criados depois dos anos 2000."
+            }
+        ]
+    },
+    {
+        "id": "filmes_e_series",
+        "name": "Filmes e Séries",
+        "description": "Desafios sobre História.",
+        "subThemes": [
+            {
+                "id": "filmes_e_series_gerais",
+                "name": "Filmes e Séries - Geral",
+                "file": "filmes_e_series/filmes_e_series_gerais.json",
+                "description": "Questões sobre filmes e séries em geral"
+            },
+            {
+                "id": "game_of_thrones",
+                "name": "Game_of_Thrones",
+                "file": "filmes_e_series/game_of_thrones.json",
+                "description": "Questões sobre Game_of_Thrones."
+            },
+            {
+                "id": "harry_potter",
+                "name": "Harry Potter",
+                "file": "filmes_e_series/harry_potter.json",
+                "description": "Questões sobre a Harry Potter."
+            },
+            {
+                "id": "senhor_dos_aneis",
+                "name": "O Senhor dos Anéis",
+                "file": "filmes_e_series/senhor_dos_aneis.json",
+                "description": "Questões sobre a O Senhor dos Anéis."
+            },
+            {
+                "id": "star_wars",
+                "name": "Star Wars",
+                "file": "filmes_e_series/star_wars.json",
+                "description": "Questões sobre a Star Wars."
+            }
+        ]
     },
     {
         "id": "historia",
         "name": "História",
-        "description": "Desafios sobre a História.",
+        "description": "Desafios sobre História.",
         "subThemes": [
             {
                 "id": "historia_do_brasil",
@@ -84,6 +163,56 @@
                 "name": "Historia das Olimpíadas",
                 "file": "historia/historia_das_olimpiadas.json",
                 "description": "Questões sobre a História das Olimpíadas."
+            },
+            {
+                "id": "primeira_guerra_mundial",
+                "name": "Historia da Primeira Guerra Mundial",
+                "file": "historia/primeira_guerra_mundial.json",
+                "description": "Questões sobre a História da Primeira Guerra Mundial."
+            },
+            {
+                "id": "segunda_guerra_mundial",
+                "name": "Historia da Segunda Guerra Mundial",
+                "file": "historia/segunda_guerra_mundial.json",
+                "description": "Questões sobre a História da Segunda Guerra Mundial."
+            }
+        ]
+    },
+    {
+        "id": "tecnologia",
+        "name": "Tecnologia",
+        "description": "Desafios sobre Tecnologia.",
+        "subThemes": [
+            {
+                "id": "tecnologia_espacial",
+                "name": "Tecnologia Espacial",
+                "file": "tecnologia/tecnologia_espacial.json",
+                "description": "Questões gerais sobre o Tecnologia Espacial."
+            },
+            {
+                "id": "tecnologia_linguagem_de_programacao",
+                "name": "Tecnologia Espacial",
+                "file": "tecnologia/tecnologia_linguagem_de_programacao.json",
+                "description": "Questões gerais sobre linguagens de programação."
+            },
+            {
+                "id": "tecnologia_militar",
+                "name": "Tecnologia militar",
+                "file": "tecnologia/tecnologia_militar.json",
+                "description": "Questões gerais sobre o Tecnologia militar."
+            }
+        ]
+    },
+    {
+        "id": "universo",
+        "name": "Universo",
+        "description": "Desafios sobre o Universo.",
+        "subThemes": [
+            {
+                "id": "sistema_solar",
+                "name": "Sistema Solar",
+                "file": "universo/sistema_solar.json",
+                "description": "Questões gerais sobre o Sistema Solar."
             }
         ]
     }
