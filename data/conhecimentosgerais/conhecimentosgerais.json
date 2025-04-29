@@ -8,901 +8,2701 @@
     {
       "question": "Qual é a capital da França?",
       "options": [
-        { "text": "Berlim", "isCorrect": false, "explanation": "Incorreto. Berlim é a capital da Alemanha, famosa pelo Portão de Brandemburgo e sua vibrante cena cultural." },
-        { "text": "Madri", "isCorrect": false, "explanation": "Incorreto. Madri é a capital da Espanha, conhecida por sua vida noturna agitada e museus como o Prado." },
-        { "text": "Paris", "isCorrect": true, "explanation": "Correto! Paris, a 'Cidade Luz', famosa por ícones como a Torre Eiffel, o Museu do Louvre e sua culinária renomada." },
-        { "text": "Roma", "isCorrect": false, "explanation": "Incorreto. Roma é a 'Cidade Eterna', capital da Itália, repleta de ruínas antigas como o Coliseu e o Fórum Romano." }
+        {
+          "text": "Berlim",
+          "isCorrect": false,
+          "explanation": "Nããão, meu amigo! Berlim é a capital da Alemanha, lar do Portão de Brandemburgo e de festanças épicas como a Oktoberfest (ops, essa é em Munique!). A França tem sua própria estrela, e não é essa!"
+        },
+        {
+          "text": "Madri",
+          "isCorrect": false,
+          "explanation": "Ops, errou o país! Madri é a capital da Espanha, onde o flamenco e o Museu do Prado roubam a cena. Na França, a vibe é mais de croissants e romantismo, sabe?"
+        },
+        {
+          "text": "Paris",
+          "isCorrect": true,
+          "explanation": "Acertou em cheio! Paris, a Cidade Luz, é onde a Torre Eiffel brilha, o Louvre guarda a Mona Lisa e os cafés servem croissants que fazem você sonhar. Viva la France!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Paris_-_Eiffel_Tower.jpg/1200px-Paris_-_Eiffel_Tower.jpg",
+          "imageDescription": "Imagem da Torre Eiffel iluminada à noite em Paris, um marco icônico da capital francesa."
+        },
+        {
+          "text": "Roma",
+          "isCorrect": false,
+          "explanation": "Quase, mas não! Roma é a capital da Itália, cheia de história com o Coliseu e pratos de carbonara de dar água na boca. A França tem outra joia, e você já sabe qual é!"
+        }
       ]
     },
     {
       "question": "Qual oceano é o maior do mundo?",
       "options": [
-          { "text": "Atlântico", "isCorrect": false, "explanation": "Incorreto. O Atlântico é o segundo maior, importante rota comercial desde as Grandes Navegações." },
-          { "text": "Índico", "isCorrect": false, "explanation": "Incorreto. O Índico é o terceiro maior, conhecido por suas águas quentes e monções." },
-          { "text": "Ártico", "isCorrect": false, "explanation": "Incorreto. O Ártico é o menor e mais raso, localizado no Polo Norte e coberto por gelo marinho." },
-          { "text": "Pacífico", "isCorrect": true, "explanation": "Correto! O Oceano Pacífico cobre mais de 30% da superfície terrestre e contém a Fossa das Marianas, o ponto mais profundo dos oceanos (quase 11km)." }
+        {
+          "text": "Atlântico",
+          "isCorrect": false,
+          "explanation": "Não, não! O Atlântico é grandão, mas é o vice-campeão. Ele foi a estrada das Grandes Navegações, mas tem um irmão maior que manda na parada!"
+        },
+        {
+          "text": "Índico",
+          "isCorrect": false,
+          "explanation": "Tá viajando! O Índico é o terceiro maior, com suas águas quentes e monções que fazem a festa na Ásia. Mas o maior mesmo é outro, bem mais vasto!"
+        },
+        {
+          "text": "Ártico",
+          "isCorrect": false,
+          "explanation": "Brrr, frio demais! O Ártico é o menor e mais gelado, coberto de gelo no Polo Norte. O maior oceano é bem mais quente e gigantesco, acredite!"
+        },
+        {
+          "text": "Pacífico",
+          "isCorrect": true,
+          "explanation": "Bingo! O Oceano Pacífico é o rei dos mares, cobrindo 30% do planeta e escondendo a Fossa das Marianas, tão profunda que faz o Everest parecer uma colina. Navegou direitinho!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Pacific_Ocean_%2827706620763%29.jpg/1200px-Pacific_Ocean_%2827706620763%29.jpg",
+          "imageDescription": "Imagem do Oceano Pacífico com águas azuis brilhantes e horizonte amplo, capturando sua vasta extensão."
+        }
       ]
     },
     {
-        "question": "Em que ano o homem pisou na Lua pela primeira vez?",
-        "options": [
-            { "text": "1965", "isCorrect": false, "explanation": "Incorreto. Neste ano, os EUA intensificavam o Projeto Gemini, preparando-se para as missões Apollo." },
-            { "text": "1969", "isCorrect": true, "explanation": "Correto! Em 20 de julho de 1969, Neil Armstrong (Apollo 11) disse: 'É um pequeno passo para um homem, um salto gigante para a humanidade'." },
-            { "text": "1972", "isCorrect": false, "explanation": "Incorreto. 1972 foi o ano da última missão tripulada à Lua (Apollo 17)." },
-            { "text": "1959", "isCorrect": false, "explanation": "Incorreto. Em 1959, a sonda soviética Luna 2 foi a primeira a atingir a Lua, mas sem tripulação." }
-        ]
+      "question": "Em que ano o homem pisou na Lua pela primeira vez?",
+      "options": [
+        {
+          "text": "1965",
+          "isCorrect": false,
+          "explanation": "Quase na órbita, mas não! Em 1965, os EUA estavam no Projeto Gemini, aquecendo os motores para a Apollo. A Lua veio depois, num momento épico!"
+        },
+        {
+          "text": "1969",
+          "isCorrect": true,
+          "explanation": "Você é um astronauta nato! Em 20 de julho de 1969, Neil Armstrong (Apollo 11) deu aquele 'pequeno passo' que virou um salto gigante para a humanidade. E a bandeira tremulou na Lua!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Apollo_11_first_step.jpg/1200px-Apollo_11_first_step.jpg",
+          "imageDescription": "Imagem de Neil Armstrong pisando na Lua em 1969, capturando o momento histórico da missão Apollo 11."
+        },
+        {
+          "text": "1972",
+          "isCorrect": false,
+          "explanation": "Ops, passou da órbita! 1972 foi a última viagem à Lua com a Apollo 17, mas o primeiro passo veio antes. Vamos ajustar o foguete!"
+        },
+        {
+          "text": "1959",
+          "isCorrect": false,
+          "explanation": "Nossa, voltou no tempo! Em 1959, a sonda soviética Luna 2 chegou à Lua, mas sem humanos. O grande momento foi uma década depois!"
+        }
+      ]
     },
     {
-        "question": "Qual artista pintou a Mona Lisa?",
-        "options": [
-            { "text": "Michelangelo", "isCorrect": false, "explanation": "Incorreto. Michelangelo foi um gênio rival de Da Vinci, famoso pela escultura de Davi e o teto da Capela Sistina." },
-            { "text": "Raphael", "isCorrect": false, "explanation": "Incorreto. Raphael Sanzio foi outro mestre da Renascença, conhecido por 'A Escola de Atenas'." },
-            { "text": "Donatello", "isCorrect": false, "explanation": "Incorreto. Donatello foi um escultor fundamental do início do Renascimento, mestre do Davi em bronze." },
-            { "text": "Leonardo da Vinci", "isCorrect": true, "explanation": "Correto! Leonardo da Vinci, polímata florentino, pintou a 'La Gioconda' (Mona Lisa) entre 1503 e 1506, hoje no Louvre." }
-        ]
+      "question": "Qual artista pintou a Mona Lisa?",
+      "options": [
+        {
+          "text": "Michelangelo",
+          "isCorrect": false,
+          "explanation": "Não, não! Michelangelo era o rei das estátuas e do teto da Capela Sistina. Pintar a Mona Lisa? Ele diria: 'Deixo pro meu rival!'."
+        },
+        {
+          "text": "Raphael",
+          "isCorrect": false,
+          "explanation": "Quase, mas Raphael estava ocupado com 'A Escola de Atenas'. A Mona Lisa foi obra de outro gênio renascentista, com um sorriso misterioso!"
+        },
+        {
+          "text": "Donatello",
+          "isCorrect": false,
+          "explanation": "Donatello? Ele era feras nas esculturas, como o Davi de bronze. Pintura não era o forte dele, e a Mona Lisa tem outro dono!"
+        },
+        {
+          "text": "Leonardo da Vinci",
+          "isCorrect": true,
+          "explanation": "Aplausos! Leonardo da Vinci, o polímata dos polimatas, pintou a Mona Lisa entre 1503 e 1506. Aquela carinha enigmática no Louvre? Culpa dele!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1200px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+          "imageDescription": "Imagem da pintura Mona Lisa de Leonardo da Vinci, mostrando seu famoso sorriso enigmático."
+        }
+      ]
     },
     {
-        "question": "Qual é o maior deserto quente do mundo?",
-        "options": [
-            { "text": "Deserto da Arábia", "isCorrect": false, "explanation": "Incorreto. É um dos maiores desertos quentes (cerca de 2,3 milhões km²), mas o Saara o supera." },
-            { "text": "Deserto de Gobi", "isCorrect": false, "explanation": "Incorreto. Gobi, na Ásia Central, é um deserto frio/temperado, conhecido por fósseis de dinossauros." },
-            { "text": "Deserto do Saara", "isCorrect": true, "explanation": "Correto! O Saara cobre cerca de 9,2 milhões de km² no norte da África, sendo o maior deserto quente." },
-            { "text": "Deserto da Antártida", "isCorrect": false, "explanation": "Incorreto. A Antártida é o maior deserto do mundo (pela baixa precipitação), mas é um deserto polar, extremamente frio." }
-        ]
+      "question": "Qual é o maior deserto quente do mundo?",
+      "options": [
+        {
+          "text": "Deserto da Arábia",
+          "isCorrect": false,
+          "explanation": "Quente, mas não o maior! O Deserto da Arábia é gigante, mas o Saara dá um banho em tamanho. Pense em dunas ainda mais vastas!"
+        },
+        {
+          "text": "Deserto de Gobi",
+          "isCorrect": false,
+          "explanation": "Frio, não quente! O Gobi é famoso por fósseis de dinossauros, mas não entra na disputa dos desertos quentes. Vamos aquecer essa resposta!"
+        },
+        {
+          "text": "Deserto do Saara",
+          "isCorrect": true,
+          "explanation": "Você é um beduíno do conhecimento! O Saara, com seus 9,2 milhões de km², é o maior deserto quente, esticando dunas pelo norte da África. Sol, areia e camelos à vontade!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Sahara_Desert_%28Aerial%29.jpg/1200px-Sahara_Desert_%28Aerial%29.jpg",
+          "imageDescription": "Imagem aérea do Deserto do Saara, mostrando vastas dunas de areia dourada sob o sol."
+        },
+        {
+          "text": "Deserto da Antártida",
+          "isCorrect": false,
+          "explanation": "Brrr! A Antártida é o maior deserto por falta de chuva, mas é gelado, não quente. Vamos trocar o casaco por um chapéu de sol!"
+        }
+      ]
     },
     {
       "question": "Qual país é o maior em área territorial?",
       "options": [
-          { "text": "China", "isCorrect": false, "explanation": "Incorreto. A China é o terceiro ou quarto maior (dependendo da medição), lar de uma civilização milenar." },
-          { "text": "Canadá", "isCorrect": false, "explanation": "Incorreto. O Canadá é o segundo maior (aprox. 9,98 milhões km²), conhecido por suas vastas florestas e lagos." },
-          { "text": "Estados Unidos", "isCorrect": false, "explanation": "Incorreto. Os EUA são o terceiro ou quarto maior, com grande diversidade geográfica." },
-          { "text": "Rússia", "isCorrect": true, "explanation": "Correto! A Rússia possui mais de 17 milhões de km², estendendo-se por dois continentes e 11 fusos horários." }
+        {
+          "text": "China",
+          "isCorrect": false,
+          "explanation": "Grande, mas não o maior! A China tem uma civilização milenar e é top 4, mas tem um vizinho que estica mais o mapa!"
+        },
+        {
+          "text": "Canadá",
+          "isCorrect": false,
+          "explanation": "Quase lá! O Canadá, com seus lagos e florestas, é o segundo maior. Mas o primeiro cobre mais fusos horários que um relógio maluco!"
+        },
+        {
+          "text": "Estados Unidos",
+          "isCorrect": false,
+          "explanation": "Boa tentativa! Os EUA têm de tudo, mas em área ficam atrás. O maior é um gigante que cruza continentes!"
+        },
+        {
+          "text": "Rússia",
+          "isCorrect": true,
+          "explanation": "Matrioshka de acertos! A Rússia, com mais de 17 milhões de km², é o maior país, cobrindo 11 fusos horários e dois continentes. É tão grande que o mapa cansa!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Russia_%28orthographic_projection%29.svg/1200px-Russia_%28orthographic_projection%29.svg.png",
+          "imageDescription": "Mapa da Rússia em projeção ortográfica, destacando sua vasta extensão territorial."
+        }
       ]
     },
     {
-        "question": "Qual montanha é a mais alta do mundo?",
-        "options": [
-            { "text": "K2", "isCorrect": false, "explanation": "Incorreto. O K2 é a segunda mais alta (8.611m) e considerada por muitos a mais perigosa de escalar." },
-            { "text": "Monte Everest", "isCorrect": true, "explanation": "Correto! Localizado na cordilheira do Himalaia (Nepal/China), atinge 8.848,86 metros acima do nível do mar." },
-            { "text": "Kangchenjunga", "isCorrect": false, "explanation": "Incorreto. Kangchenjunga é a terceira mais alta (8.586m), também no Himalaia." },
-            { "text": "Makalu", "isCorrect": false, "explanation": "Incorreto. Makalu é a quinta montanha mais alta do mundo (8.485m)." }
-        ]
+      "question": "Qual montanha é a mais alta do mundo?",
+      "options": [
+        {
+          "text": "K2",
+          "isCorrect": false,
+          "explanation": "Quase escalou o pódio! O K2 é o segundo mais alto e super perigoso, mas o topo do mundo é outro pico!"
+        },
+        {
+          "text": "Monte Everest",
+          "isCorrect": true,
+          "explanation": "Você chegou ao cume! O Everest, no Himalaia, com 8.848,86 metros, é o rei das montanhas. Só não esqueça o oxigênio lá em cima!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Mount_Everest_2017.jpg/1200px-Mount_Everest_2017.jpg",
+          "imageDescription": "Imagem do Monte Everest com seu pico nevado sob um céu claro, visto do campo base."
+        },
+        {
+          "text": "Kangchenjunga",
+          "isCorrect": false,
+          "explanation": "Boa tentativa! Kangchenjunga é a terceira mais alta, mas o Everest dá um banho de altura. Vamos subir mais um pouco!"
+        },
+        {
+          "text": "Makalu",
+          "isCorrect": false,
+          "explanation": "Não tão alto! Makalu é a quinta no ranking. O topo do mundo é um pouco mais... elevado!"
+        }
+      ]
     },
     {
-        "question": "Quem escreveu 'Dom Quixote'?",
-        "options": [
-            { "text": "William Shakespeare", "isCorrect": false, "explanation": "Incorreto. Shakespeare, o 'Bardo', foi o maior dramaturgo inglês ('Hamlet', 'Romeu e Julieta')." },
-            { "text": "Victor Hugo", "isCorrect": false, "explanation": "Incorreto. Victor Hugo foi um gigante da literatura francesa ('Os Miseráveis', 'O Corcunda de Notre-Dame')." },
-            { "text": "Miguel de Cervantes", "isCorrect": true, "explanation": "Correto! Cervantes Saavedra escreveu 'O Engenhoso Fidalgo Dom Quixote de la Mancha', considerado o primeiro romance moderno." },
-            { "text": "Leo Tolstoy", "isCorrect": false, "explanation": "Incorreto. Tolstoy foi um mestre russo, autor de 'Guerra e Paz' e 'Anna Karenina'." }
-        ]
+      "question": "Quem escreveu 'Dom Quixote'?",
+      "options": [
+        {
+          "text": "William Shakespeare",
+          "isCorrect": false,
+          "explanation": "Opa, trocou o palco pela Mancha! Shakespeare escreveu tragédias como 'Hamlet', mas 'Dom Quixote' é de outro mestre!"
+        },
+        {
+          "text": "Victor Hugo",
+          "isCorrect": false,
+          "explanation": "Não, não! Hugo criou 'Os Miseráveis', mas não cavalgou com Quixote. Esse cavaleiro é de outra pena!"
+        },
+        {
+          "text": "Miguel de Cervantes",
+          "isCorrect": true,
+          "explanation": "Olé! Cervantes escreveu 'Dom Quixote', o primeiro romance moderno, com o cavaleiro sonhador e seu fiel Sancho Pança. Um clássico que até moinhos aplaudem!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/First_edition_Don_Quixote_1605.jpg/1200px-First_edition_Don_Quixote_1605.jpg",
+          "imageDescription": "Imagem da capa da primeira edição de 'Dom Quixote' de Cervantes, publicada em 1605."
+        },
+        {
+          "text": "Leo Tolstoy",
+          "isCorrect": false,
+          "explanation": "Quase, mas Tolstoy é russo e escreveu 'Guerra e Paz'. Dom Quixote é espanhol até o bigode!"
+        }
+      ]
     },
     {
-        "question": "Qual é o rio mais longo do mundo?",
-        "options": [
-            { "text": "Rio Nilo", "isCorrect": true, "explanation": "Correto! Embora haja debate, medições recentes apontam o Nilo (África) como o mais longo, com cerca de 6.650 km, crucial para o Egito antigo." },
-            { "text": "Rio Amazonas", "isCorrect": false, "explanation": "Incorreto. O Amazonas (América do Sul) é o maior em volume de água e pode ser o mais longo dependendo do ponto de medição (aprox. 6.400-6.992 km)." },
-            { "text": "Rio Mississippi", "isCorrect": false, "explanation": "Incorreto. O sistema Mississippi-Missouri é o maior da América do Norte, mas com cerca de 6.275 km." },
-            { "text": "Rio Yangtzé", "isCorrect": false, "explanation": "Incorreto. O Yangtzé é o rio mais longo da Ásia (cerca de 6.300 km) e vital para a China." }
-        ]
+      "question": "Qual é o rio mais longo do mundo?",
+      "options": [
+        {
+          "text": "Rio Nilo",
+          "isCorrect": true,
+          "explanation": "Você navegou certinho! O Nilo, com seus 6.650 km, é o maior rio, serpenteando pela África e alimentando o Egito antigo. É tão longo que até as pirâmides ficam com inveja!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Nile_River_and_delta_from_orbit.jpg/1200px-Nile_River_and_delta_from_orbit.jpg",
+          "imageDescription": "Imagem do Rio Nilo visto do espaço, destacando seu curso sinuoso e o delta no Egito."
+        },
+        {
+          "text": "Rio Amazonas",
+          "isCorrect": false,
+          "explanation": "Quase! O Amazonas é o rei em volume de água e pode ser o mais longo dependendo da medição, mas o Nilo leva a coroa por enquanto!"
+        },
+        {
+          "text": "Rio Mississippi",
+          "isCorrect": false,
+          "explanation": "Boa, mas não! O Mississippi é grande na América do Norte, mas o Nilo é o popstar dos rios!"
+        },
+        {
+          "text": "Rio Yangtzé",
+          "isCorrect": false,
+          "explanation": "Nããão! O Yangtzé é o maior da Ásia, mas o Nilo estica mais. Vamos remar até a África!"
+        }
+      ]
     },
     {
-        "question": "Qual elemento químico tem o símbolo 'O'?",
-        "options": [
-            { "text": "Ouro", "isCorrect": false, "explanation": "Incorreto. O Ouro, metal precioso, tem símbolo 'Au' (do latim Aurum)." },
-            { "text": "Oxigênio", "isCorrect": true, "explanation": "Correto! 'O' representa o Oxigênio (número atômico 8), gás essencial para a respiração da maioria dos seres vivos." },
-            { "text": "Ósmio", "isCorrect": false, "explanation": "Incorreto. O Ósmio é um metal de transição muito denso (o mais denso conhecido), símbolo 'Os'." },
-            { "text": "Hidrogênio", "isCorrect": false, "explanation": "Incorreto. O Hidrogênio, elemento mais leve e abundante do universo, tem símbolo 'H'." }
-        ]
+      "question": "Qual elemento químico tem o símbolo 'O'?",
+      "options": [
+        {
+          "text": "Ouro",
+          "isCorrect": false,
+          "explanation": "Brilhou, mas errou! Ouro é 'Au', reluzente e cobiçado. O 'O' é algo bem mais... respirável!"
+        },
+        {
+          "text": "Oxigênio",
+          "isCorrect": true,
+          "explanation": "Você é um gênio da tabela periódica! O 'O' é o Oxigênio, o gás que nos mantém vivos e faz o fogo dançar. Sem ele, nada de festas ou maratonas!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Oxygen_bubble.jpg/1200px-Oxygen_bubble.jpg",
+          "imageDescription": "Imagem de bolhas de oxigênio na água, simbolizando o elemento essencial para a vida."
+        },
+        {
+          "text": "Ósmio",
+          "isCorrect": false,
+          "explanation": "Não, não! Ósmio é 'Os', o metal mais denso. O 'O' é algo que você tá usando agora mesmo!"
+        },
+        {
+          "text": "Hidrogênio",
+          "isCorrect": false,
+          "explanation": "Quase explodiu! Hidrogênio é 'H', o mais leve. O 'O' é essencial pra sua próxima respiração!"
+        }
+      ]
     },
     {
       "question": "Em qual continente fica o Egito?",
       "options": [
-        { "text": "Ásia", "isCorrect": false, "explanation": "Incorreto. Uma pequena parte (Península do Sinai) fica na Ásia, mas a maior parte do país é africana." },
-        { "text": "África", "isCorrect": true, "explanation": "Correto! O Egito, lar de uma das civilizações mais antigas, localiza-se no nordeste da África, ligado à Ásia pelo Sinai." },
-        { "text": "Europa", "isCorrect": false, "explanation": "Incorreto. O Egito está separado da Europa pelo Mar Mediterrâneo." },
-        { "text": "América do Sul", "isCorrect": false, "explanation": "Incorreto. O Egito fica do outro lado do Oceano Atlântico." }
+        {
+          "text": "Ásia",
+          "isCorrect": false,
+          "explanation": "Quase! O Egito tem um pedacinho na Ásia (Sinai), mas a maior parte é africana. Vamos atravessar o Suez!"
+        },
+        {
+          "text": "África",
+          "isCorrect": true,
+          "explanation": "Você é um faraó do conhecimento! O Egito, com suas pirâmides e esfinges, está no nordeste da África, com um toque asiático no Sinai. Um país que é pura história!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Great_Sphinx_of_Giza_May_2015.JPG/1200px-Great_Sphinx_of_Giza_May_2015.JPG",
+          "imageDescription": "Imagem da Grande Esfinge de Gizé com as pirâmides ao fundo, símbolo do Egito na África."
+        },
+        {
+          "text": "Europa",
+          "isCorrect": false,
+          "explanation": "Nããão! Europa tá do outro lado do Mediterrâneo. O Egito é mais de múmias e desertos!"
+        },
+        {
+          "text": "América do Sul",
+          "isCorrect": false,
+          "explanation": "Longe demais! América do Sul tem Machu Picchu, mas o Egito é africano até o Nilo!"
+        }
       ]
     },
     {
       "question": "Qual é a moeda oficial do Japão?",
       "options": [
-        { "text": "Won", "isCorrect": false, "explanation": "Incorreto. O Won é a moeda da Coreia do Sul (e também da Coreia do Norte)." },
-        { "text": "Yuan", "isCorrect": false, "explanation": "Incorreto. O Yuan Renminbi é a moeda oficial da República Popular da China." },
-        { "text": "Iene", "isCorrect": true, "explanation": "Correto! O Iene (Yen - ¥) é a moeda do Japão, uma das mais negociadas no mercado de câmbio global." },
-        { "text": "Euro", "isCorrect": false, "explanation": "Incorreto. O Euro (€) é a moeda comum de muitos países da União Europeia." }
+        {
+          "text": "Won",
+          "isCorrect": false,
+          "explanation": "Ops, trocou de país! O Won é da Coreia. No Japão, a moeda tem outro nome, bem samurai!"
+        },
+        {
+          "text": "Yuan",
+          "isCorrect": false,
+          "explanation": "Não, não! Yuan é chinês. A moeda japonesa é mais... zen e elegante!"
+        },
+        {
+          "text": "Iene",
+          "isCorrect": true,
+          "explanation": "Arigatô, você acertou! O Iene (¥) é a moeda do Japão, usada desde Tóquio até Kyoto. É tão forte que até o sushi aprova!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Japanese_yen_banknotes_and_coins.jpg/1200px-Japanese_yen_banknotes_and_coins.jpg",
+          "imageDescription": "Imagem de notas e moedas de Iene japonês, mostrando a moeda oficial do Japão."
+        },
+        {
+          "text": "Euro",
+          "isCorrect": false,
+          "explanation": "Nada disso! Euro é europeu. No Japão, a moeda é mais oriental e cheia de história!"
+        }
       ]
     },
     {
       "question": "Quem foi o primeiro presidente dos Estados Unidos?",
       "options": [
-        { "text": "Thomas Jefferson", "isCorrect": false, "explanation": "Incorreto. Jefferson foi o terceiro presidente (1801-1809) e principal autor da Declaração de Independência." },
-        { "text": "Abraham Lincoln", "isCorrect": false, "explanation": "Incorreto. Lincoln foi o 16º presidente (1861-1865), famoso por liderar o país durante a Guerra Civil." },
-        { "text": "Benjamin Franklin", "isCorrect": false, "explanation": "Incorreto. Franklin foi um importante diplomata, inventor e 'Pai Fundador', mas nunca presidente." },
-        { "text": "George Washington", "isCorrect": true, "explanation": "Correto! Comandante na Guerra de Independência, Washington foi eleito unanimemente o primeiro presidente (1789-1797)." }
+        {
+          "text": "Thomas Jefferson",
+          "isCorrect": false,
+          "explanation": "Quase! Jefferson foi o terceiro presidente e escreveu a Declaração de Independência, mas o primeiro era outro patriota!"
+        },
+        {
+          "text": "Abraham Lincoln",
+          "isCorrect": false,
+          "explanation": "Nããão! Lincoln foi o 16º, salvando a União na Guerra Civil. O primeiro veio bem antes!"
+        },
+        {
+          "text": "Benjamin Franklin",
+          "isCorrect": false,
+          "explanation": "Boa, mas Franklin era inventor e diplomata, não presidente. O primeiro era mais... geral!"
+        },
+        {
+          "text": "George Washington",
+          "isCorrect": true,
+          "explanation": "Estrelas e listras pra você! George Washington, herói da Independência, foi o primeiro presidente (1789-1797), tão unânime que até a capital leva seu nome!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg/1200px-Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
+          "imageDescription": "Retrato de George Washington por Gilbert Stuart, mostrando o primeiro presidente dos EUA."
+        }
       ]
     },
     {
       "question": "Qual desses animais é um mamífero?",
       "options": [
-        { "text": "Pinguim", "isCorrect": false, "explanation": "Incorreto. Pinguins são aves que não voam, adaptadas à vida aquática no Hemisfério Sul." },
-        { "text": "Baleia", "isCorrect": true, "explanation": "Correto! Baleias respiram ar, amamentam seus filhotes e têm sangue quente, sendo mamíferos totalmente adaptados à vida marinha." },
-        { "text": "Tubarão", "isCorrect": false, "explanation": "Incorreto. Tubarões são peixes cartilaginosos (Chondrichthyes), respirando por brânquias." },
-        { "text": "Crocodilo", "isCorrect": false, "explanation": "Incorreto. Crocodilos são répteis, animais de sangue frio com escamas e respiração pulmonar." }
+        {
+          "text": "Pinguim",
+          "isCorrect": false,
+          "explanation": "Nããão! Pinguins são aves que adoram um mergulho, mas não são mamíferos. Eles desfilam na Antártida, mas sem leite pras crias!"
+        },
+        {
+          "text": "Baleia",
+          "isCorrect": true,
+          "explanation": "Nadou direitinho! Baleias são mamíferos marinhos, respiram ar, amamentam filhotes e têm sangue quente. São os gigantes gentis dos oceanos!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Humpback_whale_breaching.jpg/1200px-Humpback_whale_breaching.jpg",
+          "imageDescription": "Imagem de uma baleia jubarte saltando da água, destacando sua natureza mamífera."
+        },
+        {
+          "text": "Tubarão",
+          "isCorrect": false,
+          "explanation": "Cuidado com os dentes! Tubarões são peixes com brânquias, não mamíferos. Nada de mamadeiras no fundo do mar!"
+        },
+        {
+          "text": "Crocodilo",
+          "isCorrect": false,
+          "explanation": "Snap! Crocodilos são répteis de sangue frio, não mamíferos. Eles adoram um banho de sol, mas sem amamentar!"
+        }
       ]
     },
     {
       "question": "Qual a fórmula química da água?",
       "options": [
-        { "text": "CO2", "isCorrect": false, "explanation": "Incorreto. CO2 é dióxido de carbono, gás essencial para a fotossíntese e importante no efeito estufa." },
-        { "text": "H2O", "isCorrect": true, "explanation": "Correto! A molécula de água é formada por dois átomos de hidrogênio (H) ligados a um átomo de oxigênio (O), essencial para a vida." },
-        { "text": "NaCl", "isCorrect": false, "explanation": "Incorreto. NaCl é cloreto de sódio, o sal de cozinha comum, um composto iônico." },
-        { "text": "O2", "isCorrect": false, "explanation": "Incorreto. O2 é a molécula de oxigênio gasoso que respiramos, composta por dois átomos de oxigênio." }
+        {
+          "text": "CO2",
+          "isCorrect": false,
+          "explanation": "Ops, isso é gás de refrigerante! CO2 é dióxido de carbono, bom pra plantas, mas não pra beber. A água é mais... refrescante!"
+        },
+        {
+          "text": "H2O",
+          "isCorrect": true,
+          "explanation": "Splish splash, acertou! H2O é a fórmula da água, com dois hidrogênios e um oxigênio formando a bebida oficial da vida. Sem ela, nada de piscinas ou café!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Water_droplet_blue_bg05.jpg/1200px-Water_droplet_blue_bg05.jpg",
+          "imageDescription": "Imagem de uma gota de água cristalina, representando a fórmula química H2O."
+        },
+        {
+          "text": "NaCl",
+          "isCorrect": false,
+          "explanation": "Sal na água? NaCl é sal de cozinha, não água. Vamos tirar o saleiro e pegar um copo d’água!"
+        },
+        {
+          "text": "O2",
+          "isCorrect": false,
+          "explanation": "Ar puro, mas não! O2 é oxigênio gasoso, bom pra respirar, mas a água é outra molécula!"
+        }
       ]
     },
     {
       "question": "Qual esporte usa raquete, rede e uma bola amarela?",
       "options": [
-        { "text": "Futebol", "isCorrect": false, "explanation": "Incorreto. Futebol é jogado com os pés e uma bola maior, geralmente preta e branca ou colorida." },
-        { "text": "Basquete", "isCorrect": false, "explanation": "Incorreto. Basquete usa uma bola laranja e o objetivo é acertar cestas, sem raquetes ou rede baixa." },
-        { "text": "Tênis", "isCorrect": true, "explanation": "Correto! Tênis é jogado individualmente ou em duplas, em quadra dividida por rede, usando raquetes para rebater a bola." },
-        { "text": "Vôlei", "isCorrect": false, "explanation": "Incorreto. Vôlei usa uma bola e rede alta, mas os jogadores usam as mãos e braços, não raquetes." }
+        {
+          "text": "Futebol",
+          "isCorrect": false,
+          "explanation": "Gol... de erro! Futebol é com os pés e uma bola colorida, nada de raquetes. Vamos sacar em outra quadra!"
+        },
+        {
+          "text": "Basquete",
+          "isCorrect": false,
+          "explanation": "Cesta errada! Basquete tem bola laranja e cestas altas, sem raquetes ou redes baixas. Tenta outra!"
+        },
+        {
+          "text": "Tênis",
+          "isCorrect": true,
+          "explanation": "Ace! O tênis é o esporte com raquete, rede e bola amarela, onde você saca, rebate e grita 'vamos!' como um campeão. Quadra liberada!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Tennis_court_with_players.jpg/1200px-Tennis_court_with_players.jpg",
+          "imageDescription": "Imagem de uma quadra de tênis com jogadores, bola amarela e rede ao centro."
+        },
+        {
+          "text": "Vôlei",
+          "isCorrect": false,
+          "explanation": "Bloqueio! Vôlei tem bola e rede alta, mas usa mãos, não raquetes. Vamos pra quadra certa!"
+        }
       ]
     },
     {
       "question": "Qual o nome do processo pelo qual as plantas produzem seu próprio alimento usando a luz solar?",
       "options": [
-        { "text": "Respiração", "isCorrect": false, "explanation": "Incorreto. Respiração celular ocorre em plantas e animais para liberar energia dos alimentos." },
-        { "text": "Transpiração", "isCorrect": false, "explanation": "Incorreto. Transpiração é a 'evaporação' de água pelas folhas, importante para o transporte de nutrientes." },
-        { "text": "Fotossíntese", "isCorrect": true, "explanation": "Correto! Processo vital que converte luz solar, água (H2O) e dióxido de carbono (CO2) em glicose (C6H12O6) e oxigênio (O2)." },
-        { "text": "Digestão", "isCorrect": false, "explanation": "Incorreto. Digestão é a quebra de alimentos complexos em substâncias mais simples, típica de animais." }
+        {
+          "text": "Respiração",
+          "isCorrect": false,
+          "explanation": "Não, isso é pra humanos e bichos! Respiração celular libera energia, mas plantas têm um truque mais verde!"
+        },
+        {
+          "text": "Transpiração",
+          "isCorrect": false,
+          "explanation": "Quase, mas é suor vegetal! Transpiração é quando plantas perdem água. O processo de comida é mais... iluminado!"
+        },
+        {
+          "text": "Fotossíntese",
+          "isCorrect": true,
+          "explanation": "Você é uma folha brilhante! A fotossíntese transforma luz solar, CO2 e água em glicose e oxigênio. É a magia verde que mantém o planeta girando!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Photosynthesis_leaf.jpg/1200px-Photosynthesis_leaf.jpg",
+          "imageDescription": "Imagem de uma folha verde sob luz solar, ilustrando o processo de fotossíntese."
+        },
+        {
+          "text": "Digestão",
+          "isCorrect": false,
+          "explanation": "Nada disso! Digestão é coisa de estômago, não de clorofila. Plantas cozinham com luz!"
+        }
       ]
     },
     {
       "question": "Qual cidade sediou os Jogos Olímpicos de Verão de 2016?",
       "options": [
-        { "text": "Londres", "isCorrect": false, "explanation": "Incorreto. Londres sediou pela terceira vez em 2012." },
-        { "text": "Tóquio", "isCorrect": false, "explanation": "Incorreto. Tóquio sediou em 1964 e novamente em 2020 (realizado em 2021)." },
-        { "text": "Rio de Janeiro", "isCorrect": true, "explanation": "Correto! O Rio de Janeiro foi a primeira cidade da América do Sul a sediar os Jogos Olímpicos de Verão." },
-        { "text": "Pequim", "isCorrect": false, "explanation": "Incorreto. Pequim sediou os Jogos de Verão em 2008 e os de Inverno em 2022." }
+        {
+          "text": "Londres",
+          "isCorrect": false,
+          "explanation": "Quase, mas Londres brilhou em 2012! Vamos pegar um voo pra outro continente!"
+        },
+        {
+          "text": "Tóquio",
+          "isCorrect": false,
+          "explanation": "Nããão! Tóquio teve os Jogos em 2020, adiados pra 2021. Em 2016, a festa foi mais tropical!"
+        },
+        {
+          "text": "Rio de Janeiro",
+          "isCorrect": true,
+          "explanation": "Samba na veia! O Rio de Janeiro foi a primeira cidade sul-americana a sediar os Jogos de 2016, com o Cristo Redentor assistindo tudo de camarote!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Rio_2016_Olympic_Stadium.jpg/1200px-Rio_2016_Olympic_Stadium.jpg",
+          "imageDescription": "Imagem do Estádio Olímpico do Rio de Janeiro durante os Jogos de 2016."
+        },
+        {
+          "text": "Pequim",
+          "isCorrect": false,
+          "explanation": "Não, Pequim foi em 2008 e 2022. Em 2016, a tocha olímpica pegou sol no Brasil!"
+        }
       ]
     },
     {
       "question": "Qual é o maior órgão do corpo humano?",
       "options": [
-        { "text": "Cérebro", "isCorrect": false, "explanation": "Incorreto. O cérebro é o centro de controle, mas não o maior órgão em massa ou área." },
-        { "text": "Fígado", "isCorrect": false, "explanation": "Incorreto. O fígado é o maior órgão interno maciço, desempenhando funções metabólicas vitais." },
-        { "text": "Pele", "isCorrect": true, "explanation": "Correto! A pele cobre toda a superfície externa, pesando vários quilos e atuando como barreira protetora e sensorial." },
-        { "text": "Coração", "isCorrect": false, "explanation": "Incorreto. O coração é um músculo vital para bombear sangue, mas relativamente pequeno." }
+        {
+          "text": "Cérebro",
+          "isCorrect": false,
+          "explanation": "Boa, mas o cérebro é o chefe, não o maior! Ele comanda, mas outro órgão cobre mais área!"
+        },
+        {
+          "text": "Fígado",
+          "isCorrect": false,
+          "explanation": "Quase! O fígado é o maior órgão interno, mas tem um que cobre você por fora!"
+        },
+        {
+          "text": "Pele",
+          "isCorrect": true,
+          "explanation": "Você é uma epiderme de saber! A pele é o maior órgão, cobrindo tudo, protegendo e sentindo o mundo. É tipo uma capa de super-herói!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Human_skin_structure.jpg/1200px-Human_skin_structure.jpg",
+          "imageDescription": "Imagem ilustrativa da estrutura da pele humana, destacando suas camadas."
+        },
+        {
+          "text": "Coração",
+          "isCorrect": false,
+          "explanation": "Ame, mas não é! O coração é vital, mas pequeno. O maior órgão é mais... visível!"
+        }
       ]
     },
     {
       "question": "Qual invenção é frequentemente atribuída a Thomas Edison?",
       "options": [
-        { "text": "Telefone", "isCorrect": false, "explanation": "Incorreto. Alexander Graham Bell patenteou o telefone em 1876." },
-        { "text": "Lâmpada incandescente (comercialmente viável)", "isCorrect": true, "explanation": "Correto! Edison não inventou a primeira lâmpada, mas desenvolveu um sistema prático e duradouro (1879) que popularizou a iluminação elétrica." },
-        { "text": "Avião", "isCorrect": false, "explanation": "Incorreto. Os irmãos Wright são creditados pelo primeiro voo motorizado e controlado em 1903." },
-        { "text": "Rádio", "isCorrect": false, "explanation": "Incorreto. Guglielmo Marconi realizou as primeiras transmissões de rádio, baseado em trabalhos anteriores de Hertz e Tesla." }
+        {
+          "text": "Telefone",
+          "isCorrect": false,
+          "explanation": "Nããão! O telefone é de Bell. Edison iluminou outro caminho!"
+        },
+        {
+          "text": "Lâmpada incandescente (comercialmente viável)",
+          "isCorrect": true,
+          "explanation": "Brilhou! Edison não inventou a lâmpada do zero, mas tornou-a prática em 1879, iluminando o mundo e nossas contas de luz. Um gênio com brilho próprio!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Edison_bulb.jpg/1200px-Edison_bulb.jpg",
+          "imageDescription": "Imagem de uma lâmpada incandescente de Edison, símbolo de sua invenção."
+        },
+        {
+          "text": "Avião",
+          "isCorrect": false,
+          "explanation": "Voou longe! Os irmãos Wright levaram essa. Edison ficou no chão, mas com luz!"
+        },
+        {
+          "text": "Rádio",
+          "isCorrect": false,
+          "explanation": "Sintonizou errado! Marconi é o cara do rádio. Edison acendeu outra ideia!"
+        }
       ]
     },
-     {
+    {
       "question": "Qual país é conhecido como a 'Terra do Sol Nascente'?",
       "options": [
-        { "text": "China", "isCorrect": false, "explanation": "Incorreto. A China é conhecida como 'Império do Meio'." },
-        { "text": "Coreia do Sul", "isCorrect": false, "explanation": "Incorreto. É a 'Terra da Manhã Calma'." },
-        { "text": "Japão", "isCorrect": true, "explanation": "Correto! O nome 'Nippon/Nihon' (日本) significa literalmente 'origem do sol', devido à sua localização a leste da China continental." },
-        { "text": "Vietnã", "isCorrect": false, "explanation": "Incorreto. O Vietnã não possui este epíteto comum." }
+        {
+          "text": "China",
+          "isCorrect": false,
+          "explanation": "Não, China é o 'Império do Meio'! O Sol Nascente é mais a leste!"
+        },
+        {
+          "text": "Coreia do Sul",
+          "isCorrect": false,
+          "explanation": "Quase! Coreia é a 'Manhã Calma'. O Sol Nascente tem outra bandeira!"
+        },
+        {
+          "text": "Japão",
+          "isCorrect": true,
+          "explanation": "Konichiwa, acerto! Japão, ou Nihon, significa 'origem do sol'. Com suas cerejeiras e cultura milenar, é a Terra do Sol Nascente brilhando no Pacífico!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Mount_Fuji_and_cherry_blossoms.jpg/1200px-Mount_Fuji_and_cherry_blossoms.jpg",
+          "imageDescription": "Imagem do Monte Fuji com cerejeiras em flor, simbolizando o Japão como Terra do Sol Nascente."
+        },
+        {
+          "text": "Vietnã",
+          "isCorrect": false,
+          "explanation": "Não, Vietnã não tem esse apelido. Vamos pro arquipélago certo!"
+        }
       ]
     },
     {
       "question": "Qual guerra mundial ocorreu entre 1914 e 1918?",
       "options": [
-        { "text": "Primeira Guerra Mundial", "isCorrect": true, "explanation": "Correto! Conhecida como 'A Grande Guerra', envolveu as Potências Centrais (Alemanha, Áustria-Hungria, etc.) contra os Aliados (França, Reino Unido, Rússia, etc.)." },
-        { "text": "Segunda Guerra Mundial", "isCorrect": false, "explanation": "Incorreto. A Segunda Guerra, ainda mais abrangente e mortal, ocorreu de 1939 a 1945." },
-        { "text": "Guerra Fria", "isCorrect": false, "explanation": "Incorreto. Foi um período pós-1945 de tensão ideológica e geopolítica entre EUA e URSS." },
-        { "text": "Guerra do Vietnã", "isCorrect": false, "explanation": "Incorreto. Conflito longo (aprox. 1955-1975) no Sudeste Asiático envolvendo o Vietnã do Norte e do Sul com apoio externo." }
+        {
+          "text": "Primeira Guerra Mundial",
+          "isCorrect": true,
+          "explanation": "Você é um historiador de trincheira! A Primeira Guerra Mundial, ou 'A Grande Guerra', sacudiu o mundo de 1914 a 1918, com Aliados contra Potências Centrais. Um conflito que mudou mapas e deixou lições!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/WW1_trench.jpg/1200px-WW1_trench.jpg",
+          "imageDescription": "Imagem de uma trincheira da Primeira Guerra Mundial, representando o cenário do conflito."
+        },
+        {
+          "text": "Segunda Guerra Mundial",
+          "isCorrect": false,
+          "explanation": "Ops, pulou umas décadas! A Segunda foi de 1939 a 1945. Vamos voltar pro começo do século!"
+        },
+        {
+          "text": "Guerra Fria",
+          "isCorrect": false,
+          "explanation": "Fria, mas não! A Guerra Fria foi tensão pós-1945, sem tiros diretos. A de 1914 foi quente!"
+        },
+        {
+          "text": "Guerra do Vietnã",
+          "isCorrect": false,
+          "explanation": "Longe! A Guerra do Vietnã foi nos anos 60-70. A de 1914 é mais antiga e global!"
+        }
       ]
     },
     {
       "question": "Qual é a capital da Austrália?",
       "options": [
-        { "text": "Sydney", "isCorrect": false, "explanation": "Incorreto. Sydney é a cidade mais populosa e um ícone global com sua Ópera House, mas não a capital." },
-        { "text": "Melbourne", "isCorrect": false, "explanation": "Incorreto. Melbourne foi capital temporária e é um grande centro cultural, rival histórica de Sydney." },
-        { "text": "Brisbane", "isCorrect": false, "explanation": "Incorreto. Capital do estado de Queensland, na costa leste." },
-        { "text": "Camberra", "isCorrect": true, "explanation": "Correto! Camberra foi uma cidade planejada no interior, escolhida em 1908 como capital de compromisso entre Sydney e Melbourne." }
+        {
+          "text": "Sydney",
+          "isCorrect": false,
+          "explanation": "Quase, canguru! Sydney é linda com sua Ópera, mas não é a capital. A verdadeira é mais... planejada!"
+        },
+        {
+          "text": "Melbourne",
+          "isCorrect": false,
+          "explanation": "Boa, mas Melbourne é a capital cultural. A capital oficial é mais discreta!"
+        },
+        {
+          "text": "Brisbane",
+          "isCorrect": false,
+          "explanation": "Não, Brisbane é ensolarada, mas não a capital. Vamos pro interior!"
+        },
+        {
+          "text": "Camberra",
+          "isCorrect": true,
+          "explanation": "G’day, acerto! Camberra, planejada para ser a capital em 1908, é o coração político da Austrália, com menos praia, mas muito charme. Um oásis entre Sydney e Melbourne!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Parliament_House_Canberra.jpg/1200px-Parliament_House_Canberra.jpg",
+          "imageDescription": "Imagem da Casa do Parlamento em Camberra, símbolo da capital australiana."
+        }
       ]
     },
     {
       "question": "Qual pintor holandês cortou parte da própria orelha?",
       "options": [
-        { "text": "Rembrandt", "isCorrect": false, "explanation": "Incorreto. Rembrandt van Rijn foi um mestre do Barroco holandês, famoso por 'A Ronda Noturna'." },
-        { "text": "Johannes Vermeer", "isCorrect": false, "explanation": "Incorreto. Vermeer é conhecido por sua maestria com a luz em cenas como 'Moça com Brinco de Pérola'." },
-        { "text": "Vincent van Gogh", "isCorrect": true, "explanation": "Correto! Van Gogh, em um surto psicótico em 1888, cortou parte de sua orelha esquerda. É um dos expoentes do Pós-Impressionismo." },
-        { "text": "Piet Mondrian", "isCorrect": false, "explanation": "Incorreto. Mondrian foi um pioneiro do neoplasticismo, com suas grades e cores primárias." }
+        {
+          "text": "Rembrandt",
+          "isCorrect": false,
+          "explanation": "Não, Rembrandt pintava como ninguém, mas manteve as orelhas! O cara da orelha era mais... intenso!"
+        },
+        {
+          "text": "Johannes Vermeer",
+          "isCorrect": false,
+          "explanation": "Quase! Vermeer era mestre da luz, mas sem dramas de orelha. Outro pintor levou essa fama!"
+        },
+        {
+          "text": "Vincent van Gogh",
+          "isCorrect": true,
+          "explanation": "Você é um girassol de acertos! Van Gogh, em 1888, cortou parte da orelha num surto, mas deixou um legado com 'Noite Estrelada'. Gênio torturado, mas brilhante!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_with_Bandaged_Ear_and_Pipe.jpg/1200px-Vincent_van_Gogh_-_Self-Portrait_with_Bandaged_Ear_and_Pipe.jpg",
+          "imageDescription": "Autorretrato de Vincent van Gogh com a orelha enfaixada, pintado após o incidente."
+        },
+        {
+          "text": "Piet Mondrian",
+          "isCorrect": false,
+          "explanation": "Não, Mondrian era das linhas retas e cores primárias. Nada de orelhas voando!"
+        }
       ]
     },
     {
       "question": "Quantos lados tem um hexágono?",
       "options": [
-        { "text": "5", "isCorrect": false, "explanation": "Incorreto. Um polígono de 5 lados é um pentágono (ex: Pentágono dos EUA)." },
-        { "text": "6", "isCorrect": true, "explanation": "Correto! Um hexágono tem seis lados e seis ângulos (ex: favo de mel)." },
-        { "text": "7", "isCorrect": false, "explanation": "Incorreto. Um polígono de 7 lados é um heptágono." },
-        { "text": "8", "isCorrect": false, "explanation": "Incorreto. Um polígono de 8 lados é um octógono (ex: placa de 'PARE')." }
+        {
+          "text": "5",
+          "isCorrect": false,
+          "explanation": "Quase, mas um pentágono é que tem 5 lados, tipo o prédio do Departamento de Defesa dos EUA! Um hexágono tem um ladinho a mais, conta aí!"
+        },
+        {
+          "text": "6",
+          "isCorrect": true,
+          "explanation": "Você é uma colmeia de sabedoria! Um hexágono tem 6 lados, como os favos de mel ou um floco de neve estilizado. Geometria nunca foi tão doce!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Honeycomb.jpg/1200px-Honeycomb.jpg",
+          "imageDescription": "Imagem de um favo de mel com células hexagonais, ilustrando a forma de seis lados."
+        },
+        {
+          "text": "7",
+          "isCorrect": false,
+          "explanation": "Ops, passou um lado! Um heptágono tem 7 lados. O hexágono é mais econômico, com 6!"
+        },
+        {
+          "text": "8",
+          "isCorrect": false,
+          "explanation": "Não, não! Um octógono tem 8 lados, como uma placa de PARE. O hexágono é mais... abelhinha!"
+        }
       ]
     },
     {
       "question": "Qual instrumento musical tem 88 teclas?",
       "options": [
-        { "text": "Violão", "isCorrect": false, "explanation": "Incorreto. Violões têm cordas e trastes para definir as notas." },
-        { "text": "Violino", "isCorrect": false, "explanation": "Incorreto. Violinos são instrumentos de corda friccionada, sem trastes ou teclas." },
-        { "text": "Piano", "isCorrect": true, "explanation": "Correto! O piano moderno padrão possui 88 teclas (52 brancas, 36 pretas), permitindo uma vasta gama sonora." },
-        { "text": "Flauta", "isCorrect": false, "explanation": "Incorreto. Flautas transversais modernas usam um sistema de chaves para cobrir os orifícios." }
+        {
+          "text": "Violão",
+          "isCorrect": false,
+          "explanation": "Nada de cordas aqui! Violão é dedilhado, sem teclas. O instrumento certo tem um teclado que é pura sinfonia!"
+        },
+        {
+          "text": "Violino",
+          "isCorrect": false,
+          "explanation": "Arco errado! Violinos têm cordas, não teclas. O de 88 teclas é mais... tecladão!"
+        },
+        {
+          "text": "Piano",
+          "isCorrect": true,
+          "explanation": "Notas perfeitas! O piano, com suas 88 teclas (52 brancas, 36 pretas), é o maestro dos instrumentos, tocando desde Beethoven até jazz. Dedos prontos?",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Steinway_grand_piano.jpg/1200px-Steinway_grand_piano.jpg",
+          "imageDescription": "Imagem de um piano de cauda Steinway, destacando suas 88 teclas."
+        },
+        {
+          "text": "Flauta",
+          "isCorrect": false,
+          "explanation": "Sopro errado! Flautas têm chaves, mas não teclas. O de 88 é mais clássico!"
+        }
       ]
     },
     {
       "question": "Quem escreveu a peça 'Romeu e Julieta'?",
       "options": [
-        { "text": "Charles Dickens", "isCorrect": false, "explanation": "Incorreto. Dickens foi um mestre do romance vitoriano ('Oliver Twist', 'Um Conto de Duas Cidades')." },
-        { "text": "William Shakespeare", "isCorrect": true, "explanation": "Correto! Esta famosa tragédia sobre o amor proibido entre jovens de famílias rivais (Montequio e Capuleto) é uma das obras mais populares de Shakespeare." },
-        { "text": "Jane Austen", "isCorrect": false, "explanation": "Incorreto. Austen focou em romances sociais e de costumes ('Orgulho e Preconceito', 'Emma')." },
-        { "text": "George Orwell", "isCorrect": false, "explanation": "Incorreto. Orwell escreveu ficção distópica e ensaios políticos ('1984', 'A Revolução dos Bichos')." }
+        {
+          "text": "Charles Dickens",
+          "isCorrect": false,
+          "explanation": "Não, Dickens escrevia sobre órfãos e Londres vitoriana. O amor trágico é de outro bardo!"
+        },
+        {
+          "text": "William Shakespeare",
+          "isCorrect": true,
+          "explanation": "Oh Romeo, que acerto! Shakespeare escreveu essa tragédia de amor entre Montequios e Capuletos, fazendo o mundo chorar desde o século XVI. Bravo!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Romeo_and_Juliet_balcony_scene.jpg/1200px-Romeo_and_Juliet_balcony_scene.jpg",
+          "imageDescription": "Imagem de uma pintura clássica da cena do balcão de Romeu e Julieta, de Shakespeare."
+        },
+        {
+          "text": "Jane Austen",
+          "isCorrect": false,
+          "explanation": "Quase, mas Austen é das comédias românticas. O drama de Verona é mais antigo!"
+        },
+        {
+          "text": "George Orwell",
+          "isCorrect": false,
+          "explanation": "Não, Orwell era mais distopias. O amor de Romeu é de outro autor!"
+        }
       ]
     },
     {
       "question": "Qual é a montanha mais alta da África?",
       "options": [
-        { "text": "Monte Quênia", "isCorrect": false, "explanation": "Incorreto. É a segunda mais alta da África (5.199m), localizada no Quênia." },
-        { "text": "Monte Kilimanjaro", "isCorrect": true, "explanation": "Correto! Situado na Tanzânia, o Kilimanjaro é um vulcão adormecido e o ponto mais alto da África (5.895m)." },
-        { "text": "Monte Atlas", "isCorrect": false, "explanation": "Incorreto. Refere-se à Cordilheira do Atlas no noroeste africano; seu pico mais alto é o Toubkal (4.167m) no Marrocos." },
-        { "text": "Monte Ruwenzori", "isCorrect": false, "explanation": "Incorreto. Cadeia de montanhas na fronteira Uganda-Congo, com picos nevados apesar da proximidade do Equador." }
+        {
+          "text": "Monte Quênia",
+          "isCorrect": false,
+          "explanation": "Boa escalada, mas o Monte Quênia é o vice! O pico mais alto da África é outro vulcão!"
+        },
+        {
+          "text": "Monte Kilimanjaro",
+          "isCorrect": true,
+          "explanation": "Você conquistou o topo! O Kilimanjaro, na Tanzânia, com 5.895m, é o rei africano, um vulcão adormecido que atrai aventureiros. Suba com cuidado!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Mount_Kilimanjaro.jpg/1200px-Mount_Kilimanjaro.jpg",
+          "imageDescription": "Imagem do Monte Kilimanjaro com seu pico nevado sob um céu claro, na Tanzânia."
+        },
+        {
+          "text": "Monte Atlas",
+          "isCorrect": false,
+          "explanation": "Não, o Atlas é uma cordilheira, com o Toubkal como pico. O Kilimanjaro é mais alto!"
+        },
+        {
+          "text": "Monte Ruwenzori",
+          "isCorrect": false,
+          "explanation": "Quase! Ruwenzori tem picos nevados, mas o Kilimanjaro leva a coroa africana!"
+        }
       ]
     },
     {
       "question": "Qual gás é o mais abundante na atmosfera terrestre?",
       "options": [
-        { "text": "Oxigênio", "isCorrect": false, "explanation": "Incorreto. Essencial para nós, o oxigênio (O2) compõe cerca de 21% da atmosfera seca." },
-        { "text": "Dióxido de Carbono", "isCorrect": false, "explanation": "Incorreto. O CO2, apesar de seu impacto climático, representa apenas cerca de 0,04%." },
-        { "text": "Nitrogênio", "isCorrect": true, "explanation": "Correto! O gás nitrogênio (N2), relativamente inerte, compõe aproximadamente 78% do ar que respiramos." },
-        { "text": "Argônio", "isCorrect": false, "explanation": "Incorreto. O argônio (Ar), um gás nobre, é o terceiro mais abundante, com quase 1%." }
+        {
+          "text": "Oxigênio",
+          "isCorrect": false,
+          "explanation": "Boa, mas o oxigênio é só 21%! Tem um gás mais preguiçoso que domina o ar!"
+        },
+        {
+          "text": "Dióxido de Carbono",
+          "isCorrect": false,
+          "explanation": "Não, CO2 é só 0,04%! O gás mais comum é bem mais... inerte!"
+        },
+        {
+          "text": "Nitrogênio",
+          "isCorrect": true,
+          "explanation": "Você respira saber! O nitrogênio (N2) é o rei da atmosfera, com 78%, só ficando lá, quietinho, enquanto o oxigênio faz o trabalho pesado. Ar puro, né?",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Earth_atmosphere_layers.jpg/1200px-Earth_atmosphere_layers.jpg",
+          "imageDescription": "Imagem ilustrativa das camadas da atmosfera terrestre, representando a presença do nitrogênio."
+        },
+        {
+          "text": "Argônio",
+          "isCorrect": false,
+          "explanation": "Quase, mas argônio é só 1%. O gás principal é outro, bem mais abundante!"
+        }
       ]
     },
     {
       "question": "Qual é a capital do Canadá?",
       "options": [
-        { "text": "Toronto", "isCorrect": false, "explanation": "Incorreto. Toronto é a maior cidade e centro financeiro do Canadá." },
-        { "text": "Vancouver", "isCorrect": false, "explanation": "Incorreto. Vancouver é uma cidade importante na costa oeste, na Colúmbia Britânica." },
-        { "text": "Montreal", "isCorrect": false, "explanation": "Incorreto. Montreal é a maior cidade da província de Quebec, conhecida por sua cultura bilíngue." },
-        { "text": "Ottawa", "isCorrect": true, "explanation": "Correto! Ottawa, em Ontário, foi escolhida pela Rainha Vitória como capital devido à sua localização estratégica." }
+        {
+          "text": "Toronto",
+          "isCorrect": false,
+          "explanation": "Quase, mas Toronto é a cidade grande! A capital é mais política e menos badalada!"
+        },
+        {
+          "text": "Vancouver",
+          "isCorrect": false,
+          "explanation": "Não, Vancouver é linda, mas não a capital. Vamos pro coração político!"
+        },
+        {
+          "text": "Montreal",
+          "isCorrect": false,
+          "explanation": "Não, Montreal é cultural e bilíngue. A capital é mais... gelada e oficial!"
+        },
+        {
+          "text": "Ottawa",
+          "isCorrect": true,
+          "explanation": "Maple de acertos! Ottawa, escolhida pela Rainha Vitória, é a capital do Canadá, com o Parlamento e um charme invernal. Perfeita pra um chocolate quente!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Parliament_of_Canada_Ottawa.jpg/1200px-Parliament_of_Canada_Ottawa.jpg",
+          "imageDescription": "Imagem do Parlamento do Canadá em Ottawa, símbolo da capital canadense."
+        }
       ]
     },
     {
       "question": "Qual destas cidades NÃO fica na Itália?",
       "options": [
-        { "text": "Roma", "isCorrect": false, "explanation": "Incorreto. Roma é a capital e maior cidade da Itália." },
-        { "text": "Veneza", "isCorrect": false, "explanation": "Incorreto. Veneza, a cidade dos canais, fica na região do Vêneto, Itália." },
-        { "text": "Barcelona", "isCorrect": true, "explanation": "Correto! Barcelona é a vibrante capital da Catalunha, na Espanha." },
-        { "text": "Florença", "isCorrect": false, "explanation": "Incorreto. Florença, berço do Renascimento, é a capital da Toscana, Itália." }
+        {
+          "text": "Roma",
+          "isCorrect": false,
+          "explanation": "Roma é Itália pura, com o Coliseu e pizzas de tirar o chapéu! A cidade fora da bota é outra!"
+        },
+        {
+          "text": "Veneza",
+          "isCorrect": false,
+          "explanation": "Veneza, com seus canais, é italiana até a gôndola! A intrusa vem de outro país!"
+        },
+        {
+          "text": "Barcelona",
+          "isCorrect": true,
+          "explanation": "Olé, acertou! Barcelona é a joia da Catalunha, na Espanha, famosa pela Sagrada Família e tapas. Nada de pizza, aqui é paella!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Sagrada_Familia_2015.jpg/1200px-Sagrada_Familia_2015.jpg",
+          "imageDescription": "Imagem da Sagrada Família em Barcelona, obra-prima de Gaudí, representando a cidade espanhola."
+        },
+        {
+          "text": "Florença",
+          "isCorrect": false,
+          "explanation": "Florença é o berço do Renascimento, 100% italiana! A cidade que sobra é de outra nação!"
+        }
       ]
     },
     {
       "question": "Qual famoso físico desenvolveu a teoria da relatividade?",
       "options": [
-        { "text": "Isaac Newton", "isCorrect": false, "explanation": "Incorreto. Newton estabeleceu as bases da mecânica clássica e do cálculo." },
-        { "text": "Albert Einstein", "isCorrect": true, "explanation": "Correto! Einstein publicou a relatividade especial (1905) e a geral (1915), mudando nossa compreensão do espaço, tempo e gravidade." },
-        { "text": "Galileu Galilei", "isCorrect": false, "explanation": "Incorreto. Galileu defendeu o heliocentrismo e fez observações telescópicas pioneiras." },
-        { "text": "Stephen Hawking", "isCorrect": false, "explanation": "Incorreto. Hawking fez contribuições notáveis à cosmologia, especialmente sobre buracos negros." }
+        {
+          "text": "Isaac Newton",
+          "isCorrect": false,
+          "explanation": "Não, Newton era das maçãs e gravidade clássica! A relatividade é de um cara mais... einsteiniano!"
+        },
+        {
+          "text": "Albert Einstein",
+          "isCorrect": true,
+          "explanation": "E=MC² de acertos! Einstein revolucionou a física com a relatividade especial (1905) e geral (1915), mudando como vemos tempo e espaço. Gênio de cabelo bagunçado!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg/1200px-Einstein_1921_by_F_Schmutzer_-_restoration.jpg",
+          "imageDescription": "Fotografia de Albert Einstein em 1921, representando o físico que desenvolveu a relatividade."
+        },
+        {
+          "text": "Galileu Galilei",
+          "isCorrect": false,
+          "explanation": "Quase, mas Galileu era dos telescópios! A relatividade veio séculos depois!"
+        },
+        {
+          "text": "Stephen Hawking",
+          "isCorrect": false,
+          "explanation": "Não, Hawking era dos buracos negros. A relatividade é de outro mestre!"
+        }
       ]
     },
     {
       "question": "Qual o nome da linha imaginária que divide a Terra em Hemisfério Norte e Hemisfério Sul?",
       "options": [
-        { "text": "Trópico de Câncer", "isCorrect": false, "explanation": "Incorreto. Paralelo importante (23.5° N) que marca o limite norte da zona tropical." },
-        { "text": "Meridiano de Greenwich", "isCorrect": false, "explanation": "Incorreto. Meridiano principal (longitude 0°) que passa por Londres." },
-        { "text": "Linha do Equador", "isCorrect": true, "explanation": "Correto! É o paralelo de latitude 0°, dividindo a Terra em dois hemisférios iguais." },
-        { "text": "Trópico de Capricórnio", "isCorrect": false, "explanation": "Incorreto. Paralelo importante (23.5° S) que marca o limite sul da zona tropical." }
+        {
+          "text": "Trópico de Câncer",
+          "isCorrect": false,
+          "explanation": "Não, esse é o limite norte dos trópicos! A linha que corta a Terra ao meio é outra!"
+        },
+        {
+          "text": "Meridiano de Greenwich",
+          "isCorrect": false,
+          "explanation": "Ops, esse divide leste e oeste! A linha norte-sul é mais... equatorial!"
+        },
+        {
+          "text": "Linha do Equador",
+          "isCorrect": true,
+          "explanation": "Você girou o globo certinho! A Linha do Equador, latitude 0°, divide a Terra em Norte e Sul, passando por lugares quentes como o Brasil. É o cinto do planeta!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Equator_monument_Ecuador.jpg/1200px-Equator_monument_Ecuador.jpg",
+          "imageDescription": "Imagem do monumento da Linha do Equador no Equador, marcando a divisão entre hemisférios."
+        },
+        {
+          "text": "Trópico de Capricórnio",
+          "isCorrect": false,
+          "explanation": "Não, esse é o limite sul dos trópicos! A linha certa é bem no meio!"
+        }
       ]
     },
     {
       "question": "Em qual país nasceu o compositor Wolfgang Amadeus Mozart?",
       "options": [
-        { "text": "Alemanha", "isCorrect": false, "explanation": "Incorreto. A Alemanha foi o berço de Bach, Beethoven e Wagner." },
-        { "text": "Itália", "isCorrect": false, "explanation": "Incorreto. A Itália nos deu Vivaldi, Verdi e Rossini." },
-        { "text": "Áustria", "isCorrect": true, "explanation": "Correto! Mozart nasceu em Salzburgo em 1756, que fazia parte do Arcebispado de Salzburgo (hoje Áustria)." },
-        { "text": "França", "isCorrect": false, "explanation": "Incorreto. A França teve Debussy, Ravel e Berlioz." }
+        {
+          "text": "Alemanha",
+          "isCorrect": false,
+          "explanation": "Quase, mas Alemanha era dos Bachs e Beethovens! Mozart veio de um lugar mais... alpino!"
+        },
+        {
+          "text": "Itália",
+          "isCorrect": false,
+          "explanation": "Não, Itália tinha Vivaldi! Mozart é de um país mais ao norte!"
+        },
+        {
+          "text": "Áustria",
+          "isCorrect": true,
+          "explanation": "Uma sinfonia de acertos! Mozart nasceu em Salzburgo, Áustria, em 1756, compondo obras-primas antes mesmo de aprender a amarrar os sapatos. Um gênio austríaco!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Wolfgang_Amadeus_Mozart_1719b.jpg/1200px-Wolfgang_Amadeus_Mozart_1719b.jpg",
+          "imageDescription": "Retrato de Wolfgang Amadeus Mozart, compositor austríaco, em trajes clássicos."
+        },
+        {
+          "text": "França",
+          "isCorrect": false,
+          "explanation": "Não, França tinha Debussy! Mozart é de outro canto europeu!"
+        }
       ]
     },
     {
       "question": "Qual oceano banha a costa leste do Brasil?",
       "options": [
-        { "text": "Oceano Pacífico", "isCorrect": false, "explanation": "Incorreto. O Pacífico banha a costa oeste da América do Sul." },
-        { "text": "Oceano Índico", "isCorrect": false, "explanation": "Incorreto. O Índico fica entre África, Ásia e Oceania." },
-        { "text": "Oceano Atlântico", "isCorrect": true, "explanation": "Correto! A longa costa brasileira é inteiramente banhada pelas águas do Atlântico." },
-        { "text": "Oceano Ártico", "isCorrect": false, "explanation": "Incorreto. O Ártico está localizado no extremo norte do planeta." }
+        {
+          "text": "Oceano Pacífico",
+          "isCorrect": false,
+          "explanation": "Nããão, o Pacífico tá do outro lado, na costa oeste da América do Sul! O Brasil tem outra praia!"
+        },
+        {
+          "text": "Oceano Índico",
+          "isCorrect": false,
+          "explanation": "Longe demais! O Índico banha África e Ásia. O Brasil curte outro oceano!"
+        },
+        {
+          "text": "Oceano Atlântico",
+          "isCorrect": true,
+          "explanation": "Samba na areia! O Atlântico banha toda a costa leste do Brasil, de Oiapoque ao Chuí, trazendo ondas perfeitas pra Copacabana e Ipanema. Mergulhou certinho!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Copacabana_beach.jpg/1200px-Copacabana_beach.jpg",
+          "imageDescription": "Imagem da praia de Copacabana no Rio de Janeiro, banhada pelo Oceano Atlântico."
+        },
+        {
+          "text": "Oceano Ártico",
+          "isCorrect": false,
+          "explanation": "Gelou! O Ártico tá no Polo Norte. O Brasil prefere um banho mais quentinho!"
+        }
       ]
     },
     {
       "question": "Qual o metal líquido em temperatura ambiente?",
       "options": [
-        { "text": "Chumbo", "isCorrect": false, "explanation": "Incorreto. Chumbo (Pb) é um metal pesado, sólido e maleável." },
-        { "text": "Alumínio", "isCorrect": false, "explanation": "Incorreto. Alumínio (Al) é um metal leve, resistente à corrosão e sólido." },
-        { "text": "Mercúrio", "isCorrect": true, "explanation": "Correto! Mercúrio (Hg), ou azougue, é o único metal que permanece líquido em condições normais de temperatura (25°C)." },
-        { "text": "Ferro", "isCorrect": false, "explanation": "Incorreto. Ferro (Fe) é um metal magnético e sólido, base do aço." }
+        {
+          "text": "Chumbo",
+          "isCorrect": false,
+          "explanation": "Não, chumbo é sólido e pesado! O metal líquido é mais... escorregadio!"
+        },
+        {
+          "text": "Alumínio",
+          "isCorrect": false,
+          "explanation": "Nada disso! Alumínio é leve e sólido, como latas de refrigerante. O líquido é outro!"
+        },
+        {
+          "text": "Mercúrio",
+          "isCorrect": true,
+          "explanation": "Brilhou como termômetro! Mercúrio (Hg) é o único metal líquido a 25°C, escorregando como um dançarino de salsa. Cuidado, ele é tóxico!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Mercury_%28element%29.jpg/1200px-Mercury_%28element%29.jpg",
+          "imageDescription": "Imagem de mercúrio líquido em um recipiente, mostrando sua aparência metálica brilhante."
+        },
+        {
+          "text": "Ferro",
+          "isCorrect": false,
+          "explanation": "Não, ferro é sólido e magnético! O metal líquido é mais fluido!"
+        }
       ]
     },
     {
       "question": "Qual a mais longa cordilheira do mundo?",
       "options": [
-        { "text": "Himalaia", "isCorrect": false, "explanation": "Incorreto. O Himalaia tem os picos mais altos (Everest), mas cerca de 2.400 km de extensão." },
-        { "text": "Montanhas Rochosas", "isCorrect": false, "explanation": "Incorreto. Estendem-se por cerca de 4.800 km na América do Norte." },
-        { "text": "Andes", "isCorrect": true, "explanation": "Correto! A Cordilheira dos Andes percorre cerca de 7.000 km pela costa oeste da América do Sul." },
-        { "text": "Alpes", "isCorrect": false, "explanation": "Incorreto. Os Alpes europeus têm cerca de 1.200 km de extensão." }
+        {
+          "text": "Himalaia",
+          "isCorrect": false,
+          "explanation": "Não, o Himalaia tem os picos mais altos, mas não é o mais longo. Outra cordilheira estica mais!"
+        },
+        {
+          "text": "Montanhas Rochosas",
+          "isCorrect": false,
+          "explanation": "Quase, mas as Rochosas são menores! A maior cordilheira é mais... latina!"
+        },
+        {
+          "text": "Andes",
+          "isCorrect": true,
+          "explanation": "Você escalou a resposta certa! Os Andes, com 7.000 km, são a maior cordilheira, correndo pela América do Sul como uma espinha dorsal. Lhamas aprovam!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Andes_Mountains.jpg/1200px-Andes_Mountains.jpg",
+          "imageDescription": "Imagem da Cordilheira dos Andes com picos nevados e vales, na América do Sul."
+        },
+        {
+          "text": "Alpes",
+          "isCorrect": false,
+          "explanation": "Não, os Alpes são charmosos, mas curtos. A maior é bem mais extensa!"
+        }
       ]
     },
     {
       "question": "Qual artista é conhecido por pintar o teto da Capela Sistina?",
       "options": [
-        { "text": "Leonardo da Vinci", "isCorrect": false, "explanation": "Incorreto. Leonardo pintou afrescos como 'A Última Ceia', mas não o teto da Sistina." },
-        { "text": "Raphael", "isCorrect": false, "explanation": "Incorreto. Raphael decorou as Salas de Rafael no Vaticano com afrescos." },
-        { "text": "Donatello", "isCorrect": false, "explanation": "Incorreto. Donatello foi um escultor proeminente do Quattrocento." },
-        { "text": "Michelangelo", "isCorrect": true, "explanation": "Correto! Michelangelo Buonarroti dedicou anos (1508-1512) aos afrescos monumentais do teto, incluindo 'A Criação de Adão'." }
+        {
+          "text": "Leonardo da Vinci",
+          "isCorrect": false,
+          "explanation": "Não, Leonardo pintou a Última Ceia! O teto da Sistina foi outro gênio renascentista!"
+        },
+        {
+          "text": "Raphael",
+          "isCorrect": false,
+          "explanation": "Quase, Raphael pintou no Vaticano, mas não o teto. Outro mestre subiu no andaime!"
+        },
+        {
+          "text": "Donatello",
+          "isCorrect": false,
+          "explanation": "Não, Donatello era das esculturas! O teto foi pintado por um cara mais... aéreo!"
+        },
+        {
+          "text": "Michelangelo",
+          "isCorrect": true,
+          "explanation": "Você é um afresco de acertos! Michelangelo passou anos (1508-1512) pintando o teto da Capela Sistina, com cenas como 'A Criação de Adão'. Um trabalho divino!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Creation_of_Adam_%28Michelangelo%29.jpg/1200px-Creation_of_Adam_%28Michelangelo%29.jpg",
+          "imageDescription": "Imagem do afresco 'A Criação de Adão' no teto da Capela Sistina, pintado por Michelangelo."
+        }
       ]
     },
     {
       "question": "Qual a unidade básica da vida?",
       "options": [
-        { "text": "Átomo", "isCorrect": false, "explanation": "Incorreto. Átomos são as unidades fundamentais da matéria, que formam as moléculas." },
-        { "text": "Molécula", "isCorrect": false, "explanation": "Incorreto. Moléculas (como água, proteínas) são grupos de átomos essenciais, mas a célula é a unidade viva." },
-        { "text": "Célula", "isCorrect": true, "explanation": "Correto! A célula é a menor unidade estrutural e funcional capaz de realizar os processos vitais." },
-        { "text": "Órgão", "isCorrect": false, "explanation": "Incorreto. Órgãos (coração, pulmão) são estruturas complexas formadas por tecidos, que são formados por células." }
+        {
+          "text": "Átomo",
+          "isCorrect": false,
+          "explanation": "Não, átomos são os tijolos da matéria, mas a vida começa maior! A unidade certa é mais... viva!"
+        },
+        {
+          "text": "Molécula",
+          "isCorrect": false,
+          "explanation": "Quase, moléculas formam a vida, mas a unidade básica é mais complexa. Vamos ao microscópio!"
+        },
+        {
+          "text": "Célula",
+          "isCorrect": true,
+          "explanation": "Você é um biólogo nato! A célula é a menor unidade viva, fazendo tudo desde respirar até se dividir. É o Lego da vida, montando desde amebas até você!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Human_cell.jpg/1200px-Human_cell.jpg",
+          "imageDescription": "Imagem microscópica de uma célula humana, representando a unidade básica da vida."
+        },
+        {
+          "text": "Órgão",
+          "isCorrect": false,
+          "explanation": "Não, órgãos são feitos de células! A unidade básica é bem menor e mais trabalhadora!"
+        }
       ]
     },
     {
       "question": "Em que país se localiza a Grande Muralha?",
       "options": [
-        { "text": "Índia", "isCorrect": false, "explanation": "Incorreto. A Índia possui fortes históricos, mas não a Grande Muralha." },
-        { "text": "Japão", "isCorrect": false, "explanation": "Incorreto. O Japão tem castelos samurais impressionantes." },
-        { "text": "China", "isCorrect": true, "explanation": "Correto! A Grande Muralha da China é uma série de fortificações defensivas construídas ao longo de séculos." },
-        { "text": "Mongólia", "isCorrect": false, "explanation": "Incorreto. Tribos mongóis foram um dos povos contra os quais a muralha foi erguida." }
+        {
+          "text": "Índia",
+          "isCorrect": false,
+          "explanation": "Não, a Índia tem fortes, mas não a Muralha! Essa é de outro gigante asiático!"
+        },
+        {
+          "text": "Japão",
+          "isCorrect": false,
+          "explanation": "Quase, mas Japão tem castelos samurais! A Muralha é mais... continental!"
+        },
+        {
+          "text": "China",
+          "isCorrect": true,
+          "explanation": "Mandou bem, imperador! A Grande Muralha da China, construída ao longo de séculos, é uma fortaleza épica que até do espaço dá pra ver (ou quase)!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Great_Wall_of_China_2004.jpg/1200px-Great_Wall_of_China_2004.jpg",
+          "imageDescription": "Imagem da Grande Muralha da China serpenteando por colinas verdes."
+        },
+        {
+          "text": "Mongólia",
+          "isCorrect": false,
+          "explanation": "Não, a Muralha foi feita pra conter os mongóis! O país certo é o construtor!"
+        }
       ]
     },
     {
       "question": "Qual é a capital da Argentina?",
       "options": [
-        { "text": "Santiago", "isCorrect": false, "explanation": "Incorreto. Santiago é a capital do vizinho Chile." },
-        { "text": "Lima", "isCorrect": false, "explanation": "Incorreto. Lima é a capital do Peru." },
-        { "text": "Bogotá", "isCorrect": false, "explanation": "Incorreto. Bogotá é a capital da Colômbia." },
-        { "text": "Buenos Aires", "isCorrect": true, "explanation": "Correto! Buenos Aires, famosa pelo tango e arquitetura europeia, é a capital argentina." }
+        {
+          "text": "Santiago",
+          "isCorrect": false,
+          "explanation": "Não, Santiago é do Chile! A capital argentina é mais... tanguera!"
+        },
+        {
+          "text": "Lima",
+          "isCorrect": false,
+          "explanation": "Quase, mas Lima é do Peru! A Argentina tem outra estrela!"
+        },
+        {
+          "text": "Bogotá",
+          "isCorrect": false,
+          "explanation": "Não, Bogotá é da Colômbia! A capital argentina é mais ao sul!"
+        },
+        {
+          "text": "Buenos Aires",
+          "isCorrect": true,
+          "explanation": "Tango de acertos! Buenos Aires, com seu charme europeu e paixão pelo tango, é a capital da Argentina. É onde a milonga e o bife de chorizo reinam!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Obelisk_Buenos_Aires.jpg/1200px-Obelisk_Buenos_Aires.jpg",
+          "imageDescription": "Imagem do Obelisco de Buenos Aires, marco central da capital argentina."
+        }
       ]
     },
     {
       "question": "Qual dessas cores NÃO está na bandeira do Brasil?",
       "options": [
-        { "text": "Verde", "isCorrect": false, "explanation": "Incorreto. O verde (retângulo) simboliza as matas." },
-        { "text": "Amarelo", "isCorrect": false, "explanation": "Incorreto. O amarelo (losango) simboliza as riquezas (ouro)." },
-        { "text": "Azul", "isCorrect": false, "explanation": "Incorreto. O azul (círculo) simboliza o céu com estrelas representando os estados." },
-        { "text": "Vermelho", "isCorrect": true, "explanation": "Correto! A bandeira nacional brasileira utiliza oficialmente as cores verde, amarelo, azul e branco." }
+        {
+          "text": "Verde",
+          "isCorrect": false,
+          "explanation": "Não, o verde das matas tá firme na bandeira! A cor ausente é outra!"
+        },
+        {
+          "text": "Amarelo",
+          "isCorrect": false,
+          "explanation": "Quase, mas o amarelo do ouro tá lá! A cor que falta é menos tropical!"
+        },
+        {
+          "text": "Azul",
+          "isCorrect": false,
+          "explanation": "Não, o azul do céu estrelado tá na bandeira! A cor que sobra é outra!"
+        },
+        {
+          "text": "Vermelho",
+          "isCorrect": true,
+          "explanation": "Você é um patriota colorido! A bandeira do Brasil brilha com verde, amarelo, azul e branco, mas vermelho? Nada disso, deixa pro carnaval!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png",
+          "imageDescription": "Imagem da bandeira do Brasil com suas cores verde, amarelo, azul e branco."
+        }
       ]
     },
     {
       "question": "Quem foi a primeira mulher a ganhar um Prêmio Nobel?",
       "options": [
-        { "text": "Marie Curie", "isCorrect": true, "explanation": "Correto! Marie Sklodowska Curie ganhou o Nobel de Física (1903) e Química (1911), pioneira no estudo da radioatividade." },
-        { "text": "Rosalind Franklin", "isCorrect": false, "explanation": "Incorreto. Franklin foi crucial na descoberta da estrutura do DNA, mas faleceu antes do Nobel relacionado." },
-        { "text": "Madre Teresa de Calcutá", "isCorrect": false, "explanation": "Incorreto. Ganhou o Nobel da Paz (1979) por seu trabalho humanitário na Índia." },
-        { "text": "Amelia Earhart", "isCorrect": false, "explanation": "Incorreto. Earhart foi uma famosa aviadora pioneira." }
+        {
+          "text": "Marie Curie",
+          "isCorrect": true,
+          "explanation": "Você é radioativamente brilhante! Marie Curie ganhou o Nobel de Física (1903) e Química (1911), sendo pioneira na radioatividade. Uma mulher que brilhou na ciência!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Marie_Curie_c._1920s.jpg/1200px-Marie_Curie_c._1920s.jpg",
+          "imageDescription": "Fotografia de Marie Curie, a primeira mulher a ganhar um Prêmio Nobel."
+        },
+        {
+          "text": "Rosalind Franklin",
+          "isCorrect": false,
+          "explanation": "Não, Franklin foi crucial pro DNA, mas não ganhou Nobel. A pioneira é outra!"
+        },
+        {
+          "text": "Madre Teresa de Calcutá",
+          "isCorrect": false,
+          "explanation": "Quase, Madre Teresa ganhou o da Paz em 1979! A primeira foi uma cientista!"
+        },
+        {
+          "text": "Amelia Earhart",
+          "isCorrect": false,
+          "explanation": "Não, Earhart voava alto, mas não era Nobel. A vencedora é de laboratório!"
+        }
       ]
     },
     {
       "question": "Qual o esporte nacional do Canadá?",
       "options": [
-        { "text": "Hóquei no Gelo (inverno) e Lacrosse (verão)", "isCorrect": true, "explanation": "Correto! Desde 1994, o Canadá reconhece oficialmente ambos: hóquei no gelo e lacrosse (de origem indígena)." },
-        { "text": "Futebol Americano", "isCorrect": false, "explanation": "Incorreto. Popular, mas não o esporte nacional oficial." },
-        { "text": "Beisebol", "isCorrect": false, "explanation": "Incorreto. Possui times na MLB, mas não é o esporte nacional." },
-        { "text": "Basquete", "isCorrect": false, "explanation": "Incorreto. Inventado por um canadense, mas não o esporte nacional." }
+        {
+          "text": "Hóquei no Gelo (inverno) e Lacrosse (verão)",
+          "isCorrect": true,
+          "explanation": "Você patinou e acertou! Desde 1994, o Canadá ama o hóquei no gelo no inverno e o lacrosse, de origem indígena, no verão. É como escolher entre gelo e grama!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Ice_hockey_Canada.jpg/1200px-Ice_hockey_Canada.jpg",
+          "imageDescription": "Imagem de jogadores de hóquei no gelo, esporte nacional de inverno do Canadá."
+        },
+        {
+          "text": "Futebol Americano",
+          "isCorrect": false,
+          "explanation": "Não, isso é mais EUA! O Canadá tem esportes mais... gelados ou indígenas!"
+        },
+        {
+          "text": "Beisebol",
+          "isCorrect": false,
+          "explanation": "Quase, mas beisebol não é o nacional. O Canadá prefere tacos no gelo!"
+        },
+        {
+          "text": "Basquete",
+          "isCorrect": false,
+          "explanation": "Não, basquete foi inventado por um canadense, mas não é o esporte nacional!"
+        }
       ]
     },
     {
       "question": "Qual a língua oficial do Brasil?",
       "options": [
-        { "text": "Espanhol", "isCorrect": false, "explanation": "Incorreto. O Brasil é o único país de língua portuguesa nas Américas." },
-        { "text": "Inglês", "isCorrect": false, "explanation": "Incorreto. Amplamente estudado, mas não oficial." },
-        { "text": "Português", "isCorrect": true, "explanation": "Correto! Herança da colonização, o português é a língua oficial e falada em todo o território nacional." },
-        { "text": "Francês", "isCorrect": false, "explanation": "Incorreto. Falado na Guiana Francesa, vizinha ao norte." }
+        {
+          "text": "Espanhol",
+          "isCorrect": false,
+          "explanation": "Não, español é dos vizinhos! O Brasil tem uma língua mais... lusitana!"
+        },
+        {
+          "text": "Inglês",
+          "isCorrect": false,
+          "explanation": "Quase, mas inglês é mais global. No Brasil, a língua é herança portuguesa!"
+        },
+        {
+          "text": "Português",
+          "isCorrect": true,
+          "explanation": "Fala sério, você acertou! O português, trazido pelos colonizadores, é a língua oficial do Brasil, falada com sotaques que vão do Oiapoque ao Chuí. É samba na ponta da língua!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Brazilian_Portuguese_dictionary.jpg/1200px-Brazilian_Portuguese_dictionary.jpg",
+          "imageDescription": "Imagem de um dicionário de português brasileiro, representando a língua oficial."
+        },
+        {
+          "text": "Francês",
+          "isCorrect": false,
+          "explanation": "Não, francês é na Guiana Francesa! No Brasil, é outra vibe!"
+        }
       ]
     },
     {
       "question": "Qual é a maior ilha do mundo?",
       "options": [
-        { "text": "Austrália", "isCorrect": false, "explanation": "Incorreto. A Austrália é considerada um continente-ilha, muito maior que a Groenlândia." },
-        { "text": "Groenlândia", "isCorrect": true, "explanation": "Correto! Com mais de 2,1 milhões de km², a Groenlândia (território dinamarquês) é a maior ilha." },
-        { "text": "Nova Guiné", "isCorrect": false, "explanation": "Incorreto. Segunda maior ilha, dividida entre Indonésia e Papua-Nova Guiné." },
-        { "text": "Madagascar", "isCorrect": false, "explanation": "Incorreto. Quarta maior ilha, localizada no Oceano Índico." }
+        {
+          "text": "Austrália",
+          "isCorrect": false,
+          "explanation": "Não, Austrália é um continente-ilha! A maior ilha é menor, mas ainda gigante!"
+        },
+        {
+          "text": "Groenlândia",
+          "isCorrect": true,
+          "explanation": "Você navegou pelo Ártico! A Groenlândia, com 2,1 milhões de km², é a maior ilha, coberta de gelo e pertencente à Dinamarca. É um freezer gigante!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Greenland_ice_sheet.jpg/1200px-Greenland_ice_sheet.jpg",
+          "imageDescription": "Imagem da Groenlândia coberta por sua vasta camada de gelo, a maior ilha do mundo."
+        },
+        {
+          "text": "Nova Guiné",
+          "isCorrect": false,
+          "explanation": "Quase, Nova Guiné é a segunda! A maior é mais gelada!"
+        },
+        {
+          "text": "Madagascar",
+          "isCorrect": false,
+          "explanation": "Não, Madagascar é a quarta! A maior ilha é bem mais ao norte!"
+        }
       ]
     },
     {
       "question": "Qual o nome do personagem principal da série de livros Harry Potter?",
       "options": [
-        { "text": "Rony Weasley", "isCorrect": false, "explanation": "Incorreto. Rony é o melhor amigo ruivo e leal de Harry." },
-        { "text": "Hermione Granger", "isCorrect": false, "explanation": "Incorreto. Hermione é a amiga inteligente e estudiosa de Harry." },
-        { "text": "Alvo Dumbledore", "isCorrect": false, "explanation": "Incorreto. Dumbledore é o diretor de Hogwarts e mentor de Harry." },
-        { "text": "Harry Potter", "isCorrect": true, "explanation": "Correto! O jovem bruxo órfão que descobre ser famoso no mundo mágico é o protagonista." }
+        {
+          "text": "Rony Weasley",
+          "isCorrect": false,
+          "explanation": "Não, Rony é o amigo leal! O protagonista é o cara de óculos!"
+        },
+        {
+          "text": "Hermione Granger",
+          "isCorrect": false,
+          "explanation": "Quase, Hermione é a gênia! O principal é outro bruxo!"
+        },
+        {
+          "text": "Alvo Dumbledore",
+          "isCorrect": false,
+          "explanation": "Não, Dumbledore é o mentor! O herói é mais jovem!"
+        },
+        {
+          "text": "Harry Potter",
+          "isCorrect": true,
+          "explanation": "Expecto Patronum de acertos! Harry Potter, o menino que sobreviveu, é o herói da saga, enfrentando Voldemort com sua varinha e coragem. Hogwarts te espera!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Harry_Potter_character_poster.jpg/1200px-Harry_Potter_character_poster.jpg",
+          "imageDescription": "Imagem de um pôster de Harry Potter, com óculos e cicatriz, protagonista da série."
+        }
       ]
     },
     {
       "question": "Qual civilização antiga construiu Machu Picchu?",
       "options": [
-        { "text": "Maias", "isCorrect": false, "explanation": "Incorreto. Os Maias são conhecidos por suas cidades-estado na Mesoamérica e calendários precisos." },
-        { "text": "Astecas", "isCorrect": false, "explanation": "Incorreto. Os Astecas dominaram o México central, com capital em Tenochtitlán." },
-        { "text": "Incas", "isCorrect": true, "explanation": "Correto! Os Incas construíram um vasto império nos Andes, e Machu Picchu (Peru) é sua mais famosa cidadela." },
-        { "text": "Egípcios", "isCorrect": false, "explanation": "Incorreto. Os Egípcios ergueram pirâmides e templos monumentais no vale do Nilo." }
+        {
+          "text": "Maias",
+          "isCorrect": false,
+          "explanation": "Não, os ﻿Maias construíram Chichén Itzá! Machu Picchu é de outra turma!"
+        },
+        {
+          "text": "Astecas",
+          "isCorrect": false,
+          "explanation": "Quase, mas os Astecas eram do México! Machu Picchu é mais andino!"
+        },
+        {
+          "text": "Incas",
+          "isCorrect": true,
+          "explanation": "Você é um arqueólogo andino! Os Incas construíram Machu Picchu, a cidade perdida nos Andes peruanos, um feito de engenharia que deixa qualquer um de queixo caído!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Machu_Picchu_early_morning.jpg/1200px-Machu_Picchu_early_morning.jpg",
+          "imageDescription": "Imagem de Machu Picchu, a cidade inca nas montanhas do Peru, ao amanhecer."
+        },
+        {
+          "text": "Egípcios",
+          "isCorrect": false,
+          "explanation": "Não, Egípcios fizeram pirâmides! Machu Picchu é da América do Sul!"
+        }
       ]
     },
     {
       "question": "Qual planeta é conhecido por seus impressionantes anéis?",
       "options": [
-        { "text": "Júpiter", "isCorrect": false, "explanation": "Incorreto. Júpiter tem anéis escuros e finos, descobertos apenas por sondas espaciais." },
-        { "text": "Marte", "isCorrect": false, "explanation": "Incorreto. Marte é um planeta rochoso sem anéis." },
-        { "text": "Saturno", "isCorrect": true, "explanation": "Correto! Os anéis de Saturno são os mais extensos e brilhantes, visíveis da Terra e compostos de gelo e rocha." },
-        { "text": "Netuno", "isCorrect": false, "explanation": "Incorreto. Netuno possui anéis tênues e incompletos, chamados arcos." }
+        {
+          "text": "Júpiter",
+          "isCorrect": false,
+          "explanation": "Não, Júpiter tem anéis, mas são tímidos! O planeta dos anéis é mais chamativo!"
+        },
+        {
+          "text": "Marte",
+          "isCorrect": false,
+          "explanation": "Nada de anéis em Marte, só poeira vermelha! O planeta certo é outro!"
+        },
+        {
+          "text": "Saturno",
+          "isCorrect": true,
+          "explanation": "Você orbitou certinho! Saturno é famoso por seus anéis brilhantes de gelo e rocha, tão lindos que até telescópios amadores piram. É o popstar do Sistema Solar!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/1200px-Saturn_during_Equinox.jpg",
+          "imageDescription": "Imagem de Saturno com seus anéis brilhantes, capturada por uma sonda espacial."
+        },
+        {
+          "text": "Netuno",
+          "isCorrect": false,
+          "explanation": "Não, Netuno tem anéis fraquinhos! O rei dos anéis é outro!"
+        }
       ]
     },
     {
       "question": "Qual é a capital da Rússia?",
       "options": [
-        { "text": "São Petersburgo", "isCorrect": false, "explanation": "Incorreto. Fundada por Pedro, o Grande, foi capital imperial, mas Moscou é a atual." },
-        { "text": "Kiev", "isCorrect": false, "explanation": "Incorreto. Kiev é a capital da Ucrânia." },
-        { "text": "Moscou", "isCorrect": true, "explanation": "Correto! Moscou é o centro político, econômico e cultural da Rússia, famosa pelo Kremlin e Praça Vermelha." },
-        { "text": "Varsóvia", "isCorrect": false, "explanation": "Incorreto. Varsóvia é a capital da Polônia." }
+        {
+          "text": "São Petersburgo",
+          "isCorrect": false,
+          "explanation": "Quase, mas São Petersburgo é a cidade cultural! A capital é mais política!"
+        },
+        {
+          "text": "Kiev",
+          "isCorrect": false,
+          "explanation": "Não, Kiev é da Ucrânia! A capital russa é outra!"
+        },
+        {
+          "text": "Moscou",
+          "isCorrect": true,
+          "explanation": "Vodka de acertos! Moscou, com o Kremlin e a Praça Vermelha, é o coração político e cultural da Rússia. Uma cidade que mistura história e frio siberiano!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Kremlin_Moscow.jpg/1200px-Kremlin_Moscow.jpg",
+          "imageDescription": "Imagem do Kremlin em Moscou, símbolo da capital russa."
+        },
+        {
+          "text": "Varsóvia",
+          "isCorrect": false,
+          "explanation": "Não, Varsóvia é da Polônia! A capital russa é mais... gelada!"
+        }
       ]
     },
     {
       "question": "Qual o significado da sigla 'WWW' na internet?",
       "options": [
-        { "text": "World Wide Web", "isCorrect": true, "explanation": "Correto! Criada por Tim Berners-Lee no CERN, é o sistema de documentos interligados que usamos nos navegadores." },
-        { "text": "Wide World Web", "isCorrect": false, "explanation": "Incorreto. Erro comum, a ordem correta é World Wide Web." },
-        { "text": "Web World Wide", "isCorrect": false, "explanation": "Incorreto. A ordem correta é World Wide Web." },
-        { "text": "World Web Wonders", "isCorrect": false, "explanation": "Incorreto. É uma sigla técnica para a 'Teia Mundial'." }
+        {
+          "text": "World Wide Web",
+          "isCorrect": true,
+          "explanation": "Você surfou na web certinho! WWW, criado por Tim Berners-Lee, é a World Wide Web, a teia mundial que nos deixa grudados no celular. Navegou com estilo!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/World_Wide_Web_browser.jpg/1200px-World_Wide_Web_browser.jpg",
+          "imageDescription": "Imagem de uma tela de navegador exibindo uma página da World Wide Web."
+        },
+        {
+          "text": "Wide World Web",
+          "isCorrect": false,
+          "explanation": "Quase, mas a ordem tá errada! A sigla certa é mais... mundial!"
+        },
+        {
+          "text": "Web World Wide",
+          "isCorrect": false,
+          "explanation": "Não, bagunçou tudo! A WWW tem uma sequência clássica!"
+        },
+        {
+          "text": "World Web Wonders",
+          "isCorrect": false,
+          "explanation": "Criativo, mas não! A WWW é mais técnica e menos poética!"
+        }
       ]
     },
     {
       "question": "Quantos estados tem o Brasil?",
       "options": [
-        { "text": "25", "isCorrect": false, "explanation": "Incorreto. O número é um pouco maior." },
-        { "text": "26", "isCorrect": true, "explanation": "Correto! O Brasil é uma federação composta por 26 estados e 1 Distrito Federal (Brasília)." },
-        { "text": "27", "isCorrect": false, "explanation": "Incorreto. Este é o total de Unidades Federativas (26 estados + 1 DF), mas a pergunta é sobre 'estados'." },
-        { "text": "28", "isCorrect": false, "explanation": "Incorreto." }
+        {
+          "text": "25",
+          "isCorrect": false,
+          "explanation": "Quase, mas o Brasil tem mais estados! Conta mais um pouco!"
+        },
+        {
+          "text": "26",
+          "isCorrect": true,
+          "explanation": "Você é um mapa vivo! O Brasil tem 26 estados, mais o Distrito Federal, formando uma federação cheia de sotaques, praias e florestas. Geografia nota 10!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Brazil_states_map.svg/1200px-Brazil_states_map.svg.png",
+          "imageDescription": "Mapa do Brasil destacando seus 26 estados e o Distrito Federal."
+        },
+        {
+          "text": "27",
+          "isCorrect": false,
+          "explanation": "Não, 27 é contando o DF! A pergunta é só estados, então é um a menos!"
+        },
+        {
+          "text": "28",
+          "isCorrect": false,
+          "explanation": "Não, passou do ponto! O Brasil tem menos que isso!"
+        }
       ]
     },
     {
       "question": "Qual o nome do osso mais longo do corpo humano?",
       "options": [
-        { "text": "Úmero", "isCorrect": false, "explanation": "Incorreto. Osso longo do braço." },
-        { "text": "Tíbia", "isCorrect": false, "explanation": "Incorreto. Osso principal da canela." },
-        { "text": "Fêmur", "isCorrect": true, "explanation": "Correto! O fêmur, na coxa, é o osso mais longo, pesado e resistente do esqueleto humano." },
-        { "text": "Fíbula", "isCorrect": false, "explanation": "Incorreto. Osso mais fino ao lado da tíbia." }
-      ]
-    },
-    {
-      "question": "Qual o ponto de congelamento da água em graus Celsius?",
-      "options": [
-        { "text": "100 °C", "isCorrect": false, "explanation": "Incorreto. 100°C é o ponto de ebulição da água ao nível do mar." },
-        { "text": "0 °C", "isCorrect": true, "explanation": "Correto! A escala Celsius foi definida usando 0°C para o congelamento e 100°C para a ebulição da água." },
-        { "text": "-10 °C", "isCorrect": false, "explanation": "Incorreto. A água já estaria sólida (gelo) a -10°C." },
-        { "text": "32 °C", "isCorrect": false, "explanation": "Incorreto. 32 graus é o ponto de congelamento na escala Fahrenheit." }
-      ]
-    },
-    {
-      "question": "Qual país sediou a Copa do Mundo FIFA de 2014?",
-      "options": [
-        { "text": "África do Sul", "isCorrect": false, "explanation": "Incorreto. Sediou a Copa de 2010, a primeira na África." },
-        { "text": "Rússia", "isCorrect": false, "explanation": "Incorreto. Sediou a Copa de 2018." },
-        { "text": "Alemanha", "isCorrect": false, "explanation": "Incorreto. Sediou em 1974 e 2006." },
-        { "text": "Brasil", "isCorrect": true, "explanation": "Correto! O Brasil sediou pela segunda vez, com a Alemanha se sagrando campeã." }
-      ]
-    },
-    {
-      "question": "Qual elemento químico tem o símbolo 'Fe'?",
-      "options": [
-        { "text": "Flúor", "isCorrect": false, "explanation": "Incorreto. Flúor tem símbolo 'F'." },
-        { "text": "Fósforo", "isCorrect": false, "explanation": "Incorreto. Fósforo tem símbolo 'P'." },
-        { "text": "Ferro", "isCorrect": true, "explanation": "Correto! 'Fe' vem do latim 'Ferrum', representando o ferro, metal abundante e essencial." },
-        { "text": "Frâncio", "isCorrect": false, "explanation": "Incorreto. Frâncio tem símbolo 'Fr'." }
-      ]
-    },
-    {
-      "question": "Quem escreveu 'O Pequeno Príncipe'?",
-      "options": [
-        { "text": "J.K. Rowling", "isCorrect": false, "explanation": "Incorreto. Autora britânica da série Harry Potter." },
-        { "text": "Antoine de Saint-Exupéry", "isCorrect": true, "explanation": "Correto! Escritor e aviador francês, autor desta obra atemporal sobre amizade e perda." },
-        { "text": "C.S. Lewis", "isCorrect": false, "explanation": "Incorreto. Autor britânico de 'As Crônicas de Nárnia'." },
-        { "text": "Hans Christian Andersen", "isCorrect": false, "explanation": "Incorreto. Escritor dinamarquês de contos de fadas clássicos." }
-      ]
-    },
-    {
-      "question": "Qual o nome da moeda oficial do Reino Unido?",
-      "options": [
-        { "text": "Euro", "isCorrect": false, "explanation": "Incorreto. O Euro é usado por países da Zona do Euro." },
-        { "text": "Dólar", "isCorrect": false, "explanation": "Incorreto. Usado nos EUA, Canadá, Austrália, etc." },
-        { "text": "Libra Esterlina", "isCorrect": true, "explanation": "Correto! A Libra Esterlina (Pound Sterling - £) é a moeda oficial." },
-        { "text": "Franco", "isCorrect": false, "explanation": "Incorreto. Usado na Suíça (Franco Suíço)." }
-      ]
-    },
-    {
-      "question": "Qual animal é conhecido como o 'rei da selva'?",
-      "options": [
-        { "text": "Tigre", "isCorrect": false, "explanation": "Incorreto. O tigre é o maior felino, mas o leão detém o título popular." },
-        { "text": "Leão", "isCorrect": true, "explanation": "Correto! Apesar de habitar savanas, o leão (Panthera leo) é culturalmente o 'rei' devido à sua força e juba." },
-        { "text": "Elefante", "isCorrect": false, "explanation": "Incorreto. O maior mamífero terrestre." },
-        { "text": "Gorila", "isCorrect": false, "explanation": "Incorreto. O maior primata." }
+        {
+          "text": "Úmero",
+          "isCorrect": false,
+          "explanation": "Quase, o úmero é longo, mas não o maior! O maior tá nas pernas!"
+        },
+        {
+          "text": "Tíbia",
+          "isCorrect": false,
+          "explanation": "Não, a tíbia é da canela! O mais longo é outro osso!"
+        },
+        {
+          "text": "Fêmur",
+          "isCorrect": true,
+          "explanation": "Você é um esqueleto de saber! O fêmur, na coxa, é o osso mais longo e forte, aguentando até suas dancinhas mais loucas. Ossos à obra!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Femur_bone.jpg/1200px-Femur_bone.jpg",
+          "imageDescription": "Imagem de um fêmur humano, o osso mais longo do corpo."
+        },
+        {
+          "text": "Fíbula",
+          "isCorrect": false,
+          "explanation": "Não, a fíbula é menor, na canela! O maior é mais robusto!"
+        }
       ]
     },
     {
       "question": "Qual é a capital da Índia?",
       "options": [
-        { "text": "Mumbai", "isCorrect": false, "explanation": "Incorreto. Mumbai é a capital financeira." },
-        { "text": "Calcutá", "isCorrect": false, "explanation": "Incorreto. Importante centro cultural e antiga capital." },
-        { "text": "Nova Deli", "isCorrect": true, "explanation": "Correto! Nova Deli, localizada na metrópole de Deli, é a capital administrativa." },
-        { "text": "Bangalore", "isCorrect": false, "explanation": "Incorreto. O 'Vale do Silício' da Índia." }
+        {
+          "text": "Mumbai",
+          "isCorrect": false,
+          "explanation": "Não, Mumbai é a capital do cinema indiano, mas não do país! A capital é mais política!"
+        },
+        {
+          "text": "Nova Délhi",
+          "isCorrect": true,
+          "explanation": "Você é um guru do saber! Nova Délhi, com seus palácios e caos organizado, é a capital da Índia, onde o Taj Mahal fica só na memória dos turistas. Namastê!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/India_Gate_New_Delhi.jpg/1200px-India_Gate_New_Delhi.jpg",
+          "imageDescription": "Imagem do Portão da Índia em Nova Délhi, marco icônico da capital indiana."
+        },
+        {
+          "text": "Calcutá",
+          "isCorrect": false,
+          "explanation": "Quase, mas Calcutá é história! A capital é mais moderna e central!"
+        },
+        {
+          "text": "Chennai",
+          "isCorrect": false,
+          "explanation": "Não, Chennai é litorânea! A capital indiana tá mais pro interior!"
+        }
       ]
     },
     {
-      "question": "Quantos continentes existem?",
+      "question": "Qual elemento químico tem o símbolo 'Au'?",
       "options": [
-        { "text": "5", "isCorrect": false, "explanation": "Incorreto. Modelo usado nos anéis olímpicos (exclui Antártida, une Américas)." },
-        { "text": "6", "isCorrect": false, "explanation": "Incorreto. Alguns modelos unem Europa/Ásia (Eurásia) ou as Américas." },
-        { "text": "7", "isCorrect": true, "explanation": "Correto! O modelo mais comum: Ásia, África, América do Norte, América do Sul, Antártida, Europa e Oceania." },
-        { "text": "8", "isCorrect": false, "explanation": "Incorreto. A Zelândia foi proposta, mas não é um consenso geográfico." }
+        {
+          "text": "Argônio",
+          "isCorrect": false,
+          "explanation": "Não, argônio é 'Ar' e é um gás! O 'Au' brilha bem mais!"
+        },
+        {
+          "text": "Alumínio",
+          "isCorrect": false,
+          "explanation": "Quase, mas alumínio é 'Al'! O 'Au' é digno de reis!"
+        },
+        {
+          "text": "Ouro",
+          "isCorrect": true,
+          "explanation": "Você encontrou a pepita! 'Au' vem de 'aurum', o ouro, o metal que faz olhos brilharem e carteiras chorarem. Joias e medalhas agradecem!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Gold_bars.jpg/1200px-Gold_bars.jpg",
+          "imageDescription": "Imagem de barras de ouro brilhantes, representando o elemento químico 'Au'."
+        },
+        {
+          "text": "Prata",
+          "isCorrect": false,
+          "explanation": "Não, prata é 'Ag'! O 'Au' é mais dourado e cobiçado!"
+        }
       ]
     },
     {
-      "question": "Qual o maior animal vivo?",
+      "question": "Qual é o maior mamífero terrestre?",
       "options": [
-        { "text": "Elefante Africano", "isCorrect": false, "explanation": "Incorreto. É o maior animal terrestre vivo." },
-        { "text": "Tubarão Baleia", "isCorrect": false, "explanation": "Incorreto. É o maior peixe." },
-        { "text": "Lula Colossal", "isCorrect": false, "explanation": "Incorreto. Um dos maiores invertebrados." },
-        { "text": "Baleia Azul", "isCorrect": true, "explanation": "Correto! Mamífero marinho que pode superar 30m e 180 toneladas, o maior animal que já existiu." }
-      ]
-    },
-    {
-      "question": "Qual é o país mais populoso do mundo?",
-      "options": [
-        { "text": "China", "isCorrect": false, "explanation": "Incorreto. A China foi a mais populosa por muito tempo, mas foi ultrapassada recentemente." },
-        { "text": "Estados Unidos", "isCorrect": false, "explanation": "Incorreto. Os EUA são o terceiro país mais populoso." },
-        { "text": "Índia", "isCorrect": true, "explanation": "Correto! A Índia ultrapassou a China em 2023, tornando-se o país com a maior população global (mais de 1,4 bilhão)." },
-        { "text": "Indonésia", "isCorrect": false, "explanation": "Incorreto. A Indonésia é o quarto país mais populoso." }
-      ]
-    },
-    {
-      "question": "Qual destes instrumentos é de percussão?",
-      "options": [
-        { "text": "Violino", "isCorrect": false, "explanation": "Incorreto. Violino é um instrumento de cordas friccionadas." },
-        { "text": "Saxofone", "isCorrect": false, "explanation": "Incorreto. Saxofone é um instrumento de sopro (madeira, apesar de ser de metal)." },
-        { "text": "Bateria", "isCorrect": true, "explanation": "Correto! A bateria é um conjunto de tambores, pratos e outros instrumentos percutidos." },
-        { "text": "Harpa", "isCorrect": false, "explanation": "Incorreto. Harpa é um instrumento de cordas dedilhadas." }
+        {
+          "text": "Elefante",
+          "isCorrect": false,
+          "explanation": "Não, elefantes são pesados, mas não os maiores! O maior é mais... pescoçudo!"
+        },
+        {
+          "text": "Girafa",
+          "isCorrect": false,
+          "explanation": "Quase, girafas são altas, mas o maior mamífero é mais robusto!"
+        },
+        {
+          "text": "Rinoceronte",
+          "isCorrect": false,
+          "explanation": "Não, rinocerontes são tanques, mas o maior é outro gigante!"
+        },
+        {
+          "text": "Elefante-marinho",
+          "isCorrect": true,
+          "explanation": "Nadou e acertou! O elefante-marinho, com machos chegando a 4.000 kg, é o maior mamífero terrestre (e aquático), deixando rinocerontes no chinelo!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Southern_Elephant_Seal.jpg/1200px-Southern_Elephant_Seal.jpg",
+          "imageDescription": "Imagem de um elefante-marinho na praia, o maior mamífero terrestre e aquático."
+        }
       ]
     },
     {
       "question": "Quem pintou 'A Noite Estrelada'?",
       "options": [
-        { "text": "Claude Monet", "isCorrect": false, "explanation": "Incorreto. Monet foi um mestre do Impressionismo, famoso por suas séries de nenúfares." },
-        { "text": "Pablo Picasso", "isCorrect": false, "explanation": "Incorreto. Picasso foi um pioneiro do Cubismo ('Guernica', 'Les Demoiselles d'Avignon')." },
-        { "text": "Vincent van Gogh", "isCorrect": true, "explanation": "Correto! Esta icônica paisagem noturna foi pintada por Van Gogh em 1889, durante sua internação em Saint-Rémy-de-Provence." },
-        { "text": "Salvador Dalí", "isCorrect": false, "explanation": "Incorreto. Dalí foi um expoente do Surrealismo ('A Persistência da Memória')." }
+        {
+          "text": "Claude Monet",
+          "isCorrect": false,
+          "explanation": "Não, Monet era dos nenúfares! As estrelas são de outro pintor!"
+        },
+        {
+          "text": "Pablo Picasso",
+          "isCorrect": false,
+          "explanation": "Quase, mas Picasso era cubista! A noite estrelada é mais... giratória!"
+        },
+        {
+          "text": "Vincent van Gogh",
+          "isCorrect": true,
+          "explanation": "Você é uma estrela brilhante! Van Gogh pintou 'A Noite Estrelada' em 1889, com seus céus rodopiantes que parecem dançar. Um quadro que é puro cosmos!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1200px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+          "imageDescription": "Imagem da pintura 'A Noite Estrelada' de Van Gogh, com céus girantes e estrelas brilhantes."
+        },
+        {
+          "text": "Edvard Munch",
+          "isCorrect": false,
+          "explanation": "Não, Munch pintou 'O Grito'! As estrelas são de outro gênio!"
+        }
       ]
     },
     {
-      "question": "Qual é a estrutura mais alta construída pelo homem atualmente?",
+      "question": "Qual é a moeda oficial da União Europeia?",
       "options": [
-        { "text": "Shanghai Tower (China)", "isCorrect": false, "explanation": "Incorreto. É um dos mais altos, mas não o mais alto do mundo." },
-        { "text": "Torre Eiffel (França)", "isCorrect": false, "explanation": "Incorreto. Um ícone, mas superada em altura há muito tempo." },
-        { "text": "Burj Khalifa (Dubai)", "isCorrect": true, "explanation": "Correto! Inaugurado em 2010, o Burj Khalifa tem 828 metros de altura." },
-        { "text": "One World Trade Center (EUA)", "isCorrect": false, "explanation": "Incorreto. É o edifício mais alto do hemisfério ocidental, mas menor que o Burj Khalifa." }
+        {
+          "text": "Dólar",
+          "isCorrect": false,
+          "explanation": "Não, dólar é americano! A Europa tem uma moeda mais... unificada!"
+        },
+        {
+          "text": "Libra",
+          "isCorrect": false,
+          "explanation": "Quase, mas a libra é do Reino Unido, que não usa a moeda da UE!"
+        },
+        {
+          "text": "Euro",
+          "isCorrect": true,
+          "explanation": "Você é um economista europeu! O Euro (€) é a moeda oficial da Zona do Euro, usada por 20 países da UE, perfeita pra comprar croissants ou paellas!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Euro_banknotes_and_coins.jpg/1200px-Euro_banknotes_and_coins.jpg",
+          "imageDescription": "Imagem de notas e moedas de Euro, a moeda oficial da União Europeia."
+        },
+        {
+          "text": "Franco",
+          "isCorrect": false,
+          "explanation": "Não, franco é da Suíça! A UE tem outra moeda!"
+        }
       ]
     },
     {
-      "question": "Qual o nome do processo de passagem da água do estado líquido para o gasoso?",
+      "question": "Qual é o menor país do mundo?",
       "options": [
-        { "text": "Condensação", "isCorrect": false, "explanation": "Incorreto. Condensação é a passagem do gasoso para o líquido (formação de nuvens, orvalho)." },
-        { "text": "Solidificação", "isCorrect": false, "explanation": "Incorreto. Solidificação é a passagem do líquido para o sólido (formação de gelo)." },
-        { "text": "Sublimação", "isCorrect": false, "explanation": "Incorreto. Sublimação é a passagem direta do sólido para o gasoso (ex: gelo seco)." },
-        { "text": "Vaporização (Ebulição/Evaporação)", "isCorrect": true, "explanation": "Correto! Vaporização inclui ebulição (rápida, a 100°C) e evaporação (lenta, na superfície)." }
+        {
+          "text": "Mônaco",
+          "isCorrect": false,
+          "explanation": "Quase, Mônaco é minúsculo, mas tem cassinos! O menor é ainda mais santo!"
+        },
+        {
+          "text": "San Marino",
+          "isCorrect": false,
+          "explanation": "Não, San Marino é pequeno, mas não o menor! O menor é mais... papal!"
+        },
+        {
+          "text": "Vaticano",
+          "isCorrect": true,
+          "explanation": "Você é um papa do conhecimento! O Vaticano, com 0,44 km², é o menor país, lar do Papa e da Basílica de São Pedro. Pequeno, mas poderoso!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/St_Peters_Basilica_Vatican.jpg/1200px-St_Peters_Basilica_Vatican.jpg",
+          "imageDescription": "Imagem da Basílica de São Pedro no Vaticano, coração do menor país do mundo."
+        },
+        {
+          "text": "Liechtenstein",
+          "isCorrect": false,
+          "explanation": "Não, Liechtenstein é pequeno, mas o Vaticano é ainda menor!"
+        }
       ]
     },
     {
-      "question": "Qual o maior animal terrestre vivo?",
+      "question": "Qual escritor brasileiro é conhecido por 'Dom Casmurro'?",
       "options": [
-        { "text": "Rinoceronte Branco", "isCorrect": false, "explanation": "Incorreto. É um dos maiores, mas o elefante o supera." },
-        { "text": "Hipopótamo", "isCorrect": false, "explanation": "Incorreto. Grande e pesado, mas menor que o elefante." },
-        { "text": "Elefante Africano da Savana", "isCorrect": true, "explanation": "Correto! Os machos podem passar de 6 toneladas e 3 metros de altura no ombro." },
-        { "text": "Girafa", "isCorrect": false, "explanation": "Incorreto. É o animal mais alto, mas não o maior em massa." }
+        {
+          "text": "José de Alencar",
+          "isCorrect": false,
+          "explanation": "Não, Alencar escreveu 'O Guarani'! O de 'Dom Casmurro' é outro mestre!"
+        },
+        {
+          "text": "Jorge Amado",
+          "isCorrect": false,
+          "explanation": "Quase, Amado é de 'Gabriela'! O autor certo é mais... carioca!"
+        },
+        {
+          "text": "Machado de Assis",
+          "isCorrect": true,
+          "explanation": "Você é um clássico! Machado de Assis, gênio do Realismo, escreveu 'Dom Casmurro', com Bentinho e Capitu fazendo a gente discutir traição até hoje!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Machado_de_Assis_1904.jpg/1200px-Machado_de_Assis_1904.jpg",
+          "imageDescription": "Fotografia de Machado de Assis, autor brasileiro de 'Dom Casmurro'."
+        },
+        {
+          "text": "Graciliano Ramos",
+          "isCorrect": false,
+          "explanation": "Não, Graciliano é de 'Vidas Secas'! O de Capitu é outro!"
+        }
       ]
     },
     {
-      "question": "Qual escritor russo é autor de 'Crime e Castigo'?",
+      "question": "Qual é o maior lago de água doce do mundo por volume?",
       "options": [
-        { "text": "Leo Tolstoy", "isCorrect": false, "explanation": "Incorreto. Tolstoy escreveu 'Guerra e Paz' e 'Anna Karenina'." },
-        { "text": "Anton Chekhov", "isCorrect": false, "explanation": "Incorreto. Chekhov foi um mestre dos contos e do teatro ('A Gaivota')." },
-        { "text": "Fiódor Dostoiévski", "isCorrect": true, "explanation": "Correto! Dostoiévski explorou a psicologia humana em obras como 'Crime e Castigo', 'Os Irmãos Karamazov' e 'O Idiota'." },
-        { "text": "Ivan Turgenev", "isCorrect": false, "explanation": "Incorreto. Turgenev escreveu 'Pais e Filhos'." }
+        {
+          "text": "Lago Superior",
+          "isCorrect": false,
+          "explanation": "Quase, o Superior é o maior por área, mas por volume, outro leva!"
+        },
+        {
+          "text": "Lago Baikal",
+          "isCorrect": true,
+          "explanation": "Você mergulhou fundo! O Lago Baikal, na Sibéria, tem 23.615 km³, mais água que todos os Grandes Lagos juntos. É tão profundo que esconde mistérios!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Lake_Baikal_Irkutsk.jpg/1200px-Lake_Baikal_Irkutsk.jpg",
+          "imageDescription": "Imagem do Lago Baikal com águas cristalinas cercadas por montanhas."
+        },
+        {
+          "text": "Lago Titicaca",
+          "isCorrect": false,
+          "explanation": "Não, Titicaca é alto, mas pequeno em volume! O maior é mais frio!"
+        },
+        {
+          "text": "Lago Vitória",
+          "isCorrect": false,
+          "explanation": "Não, Vitória é grande, mas raso! O Baikal é o rei do volume!"
+        }
       ]
     },
     {
-      "question": "Qual é o gás responsável pela cor azul do céu?",
+      "question": "Qual cidade é conhecida como a 'Cidade Eterna'?",
       "options": [
-        { "text": "Oxigênio", "isCorrect": false, "explanation": "Incorreto. O oxigênio é incolor." },
-        { "text": "Ozônio", "isCorrect": false, "explanation": "Incorreto. O ozônio (O3) absorve radiação UV, mas não causa a cor azul visível." },
-        { "text": "Dióxido de Carbono", "isCorrect": false, "explanation": "Incorreto. O CO2 é incolor." },
-        { "text": "Nitrogênio e Oxigênio (Espalhamento Rayleigh)", "isCorrect": true, "explanation": "Correto! Não é um gás específico, mas o espalhamento da luz solar pelas moléculas de N2 e O2 (Espalhamento Rayleigh) que dispersa mais a luz azul." }
+        {
+          "text": "Paris",
+          "isCorrect": false,
+          "explanation": "Não, Paris é a Cidade Luz! A Eterna tem mais colunas e gladiadores!"
+        },
+        {
+          "text": "Atenas",
+          "isCorrect": false,
+          "explanation": "Quase, Atenas é antiga, mas a Eterna é outra capital!"
+        },
+        {
+          "text": "Roma",
+          "isCorrect": true,
+          "explanation": "Você é um centurião! Roma, com seus 2.700 anos, é a Cidade Eterna, lar do Coliseu e do Vaticano. História em cada pedra!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Colosseum_Rome_Italy.jpg/1200px-Colosseum_Rome_Italy.jpg",
+          "imageDescription": "Imagem do Coliseu em Roma, símbolo da Cidade Eterna."
+        },
+        {
+          "text": "Lisboa",
+          "isCorrect": false,
+          "explanation": "Não, Lisboa é linda, mas a Eterna é italiana!"
+        }
       ]
     },
     {
-      "question": "Qual o nome do estreito que separa a Ásia da América do Norte?",
+      "question": "Qual é o maior felino do mundo?",
       "options": [
-        { "text": "Estreito de Gibraltar", "isCorrect": false, "explanation": "Incorreto. Separa a Europa (Espanha) da África (Marrocos)." },
-        { "text": "Estreito de Malaca", "isCorrect": false, "explanation": "Incorreto. Importante rota marítima entre a Malásia e a Indonésia." },
-        { "text": "Estreito de Bering", "isCorrect": true, "explanation": "Correto! Separa a Rússia (Sibéria) do Alasca (EUA), ligando o Oceano Ártico ao Pacífico." },
-        { "text": "Canal de Suez", "isCorrect": false, "explanation": "Incorreto. Canal artificial no Egito que liga o Mediterrâneo ao Mar Vermelho." }
+        {
+          "text": "Leão",
+          "isCorrect": false,
+          "explanation": "Não, leões são reis, mas não os maiores! O maior felino é mais... listrado!"
+        },
+        {
+          "text": "Tigre",
+          "isCorrect": true,
+          "explanation": "Rugiu e acertou! O tigre, especialmente o de Bengala, pode pesar até 325 kg, sendo o maior felino, com listras que são puro estilo selvagem!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Bengal_tiger.jpg/1200px-Bengal_tiger.jpg",
+          "imageDescription": "Imagem de um tigre de Bengala na selva, o maior felino do mundo."
+        },
+        {
+          "text": "Leopardo",
+          "isCorrect": false,
+          "explanation": "Não, leopardos são ágeis, mas menores! O maior é mais imponente!"
+        },
+        {
+          "text": "Jaguar",
+          "isCorrect": false,
+          "explanation": "Quase, jaguares são fortes, mas o tigre leva a coroa!"
+        }
       ]
     },
     {
-      "question": "Qual cientista propôs a teoria da seleção natural?",
+      "question": "Qual o nome do filósofo que escreveu 'O Banquete'?",
       "options": [
-        { "text": "Gregor Mendel", "isCorrect": false, "explanation": "Incorreto. Mendel é o pai da genética, estudou a hereditariedade em ervilhas." },
-        { "text": "Louis Pasteur", "isCorrect": false, "explanation": "Incorreto. Pasteur desenvolveu a pasteurização e vacinas (como a da raiva)." },
-        { "text": "Charles Darwin", "isCorrect": true, "explanation": "Correto! Em 'A Origem das Espécies' (1859), Darwin propôs a evolução por seleção natural, baseada na adaptação ao ambiente." },
-        { "text": "Alfred Russel Wallace", "isCorrect": false, "explanation": "Incorreto. Wallace desenvolveu independentemente uma teoria similar à de Darwin na mesma época." }
+        {
+          "text": "Aristóteles",
+          "isCorrect": false,
+          "explanation": "Não, Aristóteles era mais da lógica! O Banquete é de outro pensador!"
+        },
+        {
+          "text": "Sócrates",
+          "isCorrect": false,
+          "explanation": "Quase, Sócrates tá no Banquete, mas não escreveu! Outro filósofo anotou!"
+        },
+        {
+          "text": "Platão",
+          "isCorrect": true,
+          "explanation": "Você é um filósofo de toga! Platão escreveu 'O Banquete', discutindo amor e beleza em um jantar épico. Filosofia com vinho, melhor combinação!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Plato_Silanion_Musei_Capitolini_MC1377.jpg/1200px-Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+          "imageDescription": "Imagem de um busto de Platão, autor de 'O Banquete'."
+        },
+        {
+          "text": "Epicuro",
+          "isCorrect": false,
+          "explanation": "Não, Epicuro era do prazer! O Banquete é de outro mestre!"
+        }
       ]
     },
     {
-      "question": "Qual país tem o maior número de pirâmides?",
+      "question": "Qual é o maior vulcão ativo do mundo?",
       "options": [
-        { "text": "Egito", "isCorrect": false, "explanation": "Incorreto. O Egito tem as pirâmides mais famosas (Gizé), mas não o maior número total." },
-        { "text": "México", "isCorrect": false, "explanation": "Incorreto. O México possui muitas pirâmides pré-colombianas (Teotihuacan, Chichén Itzá)." },
-        { "text": "Sudão", "isCorrect": true, "explanation": "Correto! O Sudão abriga as pirâmides da Núbia (Reino de Cuxe), com mais de 200 estruturas, superando o Egito em quantidade." },
-        { "text": "Peru", "isCorrect": false, "explanation": "Incorreto. O Peru tem estruturas piramidais de civilizações pré-incaicas." }
+        {
+          "text": "Vesúvio",
+          "isCorrect": false,
+          "explanation": "Não, Vesúvio é famoso, mas pequeno! O maior é mais... havaiano!"
+        },
+        {
+          "text": "Etna",
+          "isCorrect": false,
+          "explanation": "Quase, o Etna é ativo, mas não o maior! O maior é mais tropical!"
+        },
+        {
+          "text": "Mauna Loa",
+          "isCorrect": true,
+          "explanation": "Você é uma erupção de saber! Mauna Loa, no Havaí, é o maior vulcão ativo, com 4.169m acima do mar e uma base gigantesca. Aloha, lava!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Mauna_Loa_Volcano.jpg/1200px-Mauna_Loa_Volcano.jpg",
+          "imageDescription": "Imagem do vulcão Mauna Loa no Havaí, o maior vulcão ativo do mundo."
+        },
+        {
+          "text": "Kilimanjaro",
+          "isCorrect": false,
+          "explanation": "Não, Kilimanjaro é um vulcão, mas extinto! O maior ativo é outro!"
+        }
       ]
     },
     {
-      "question": "Qual o nome da camada mais externa do Sol, visível durante eclipses solares totais?",
+      "question": "Qual é o nome do maior dinossauro carnívoro conhecido?",
       "options": [
-        { "text": "Fotosfera", "isCorrect": false, "explanation": "Incorreto. Fotosfera é a superfície visível do Sol em condições normais." },
-        { "text": "Cromosfera", "isCorrect": false, "explanation": "Incorreto. Camada acima da fotosfera, avermelhada." },
-        { "text": "Corona", "isCorrect": true, "explanation": "Correto! A corona é a atmosfera externa e extremamente quente do Sol, com formato irregular, visível como um halo durante eclipses." },
-        { "text": "Núcleo", "isCorrect": false, "explanation": "Incorreto. Núcleo é a região central onde ocorre a fusão nuclear." }
+        {
+          "text": "Velociraptor",
+          "isCorrect": false,
+          "explanation": "Não, velociraptors eram pequenos e espertos! O maior carnívoro é mais... dentuço!"
+        },
+        {
+          "text": "Tyrannosaurus rex",
+          "isCorrect": true,
+          "explanation": "Rugiu como um T-Rex! O Tyrannosaurus rex, com até 12m de comprimento, é o maior dinossauro carnívoro conhecido, aterrorizando o Cretáceo com seus dentões!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Tyrannosaurus_Rex_Sue.jpg/1200px-Tyrannosaurus_Rex_Sue.jpg",
+          "imageDescription": "Imagem do esqueleto de 'Sue', um T-Rex, o maior dinossauro carnívoro conhecido."
+        },
+        {
+          "text": "Triceratops",
+          "isCorrect": false,
+          "explanation": "Não, Triceratops era herbívoro! O carnívoro é mais assustador!"
+        },
+        {
+          "text": "Stegosaurus",
+          "isCorrect": false,
+          "explanation": "Não, Stegosaurus comia plantas! O maior carnívoro é outro!"
+        }
       ]
     },
     {
-      "question": "Qual mar interior é famoso por seu altíssimo nível de salinidade, onde é possível flutuar facilmente?",
+      "question": "Qual país é o segundo maior em área territorial?",
       "options": [
-        { "text": "Mar Mediterrâneo", "isCorrect": false, "explanation": "Incorreto. Possui salinidade normal para um oceano." },
-        { "text": "Mar Cáspio", "isCorrect": false, "explanation": "Incorreto. É o maior lago do mundo, com água salobra, mas menos salgado que os oceanos." },
-        { "text": "Mar Morto", "isCorrect": true, "explanation": "Correto! Localizado entre Israel e Jordânia, sua salinidade é quase 10 vezes maior que a dos oceanos, impedindo a vida macroscópica." },
-        { "text": "Mar Negro", "isCorrect": false, "explanation": "Incorreto. Possui camadas de água com diferentes salinidades e pouco oxigênio no fundo." }
+        {
+          "text": "China",
+          "isCorrect": false,
+          "explanation": "Não, China é a quarta! O segundo maior é mais... gelado!"
+        },
+        {
+          "text": "Estados Unidos",
+          "isCorrect": false,
+          "explanation": "Quase, os EUA são terceiros! O segundo é mais ao norte!"
+        },
+        {
+          "text": "Canadá",
+          "isCorrect": true,
+          "explanation": "Você é um mapa ambulante! O Canadá, com 9,98 milhões de km², é o segundo maior país, cheio de lagos, florestas e um frio que faz até ursos polares usarem cachecol!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Canada_Landscape.jpg/1200px-Canada_Landscape.jpg",
+          "imageDescription": "Imagem de uma paisagem canadense com lagos e florestas, destacando sua vasta área."
+        },
+        {
+          "text": "Austrália",
+          "isCorrect": false,
+          "explanation": "Não, Austrália é a sexta! O segundo é bem maior!"
+        }
       ]
     },
     {
-      "question": "Qual cidade é conhecida como a 'Big Apple'?",
+      "question": "Qual é o maior órgão interno do corpo humano?",
       "options": [
-        { "text": "Los Angeles", "isCorrect": false, "explanation": "Incorreto. Apelidos incluem LA, Cidade dos Anjos." },
-        { "text": "Chicago", "isCorrect": false, "explanation": "Incorreto. Apelido 'Windy City' (Cidade Ventosa)." },
-        { "text": "Nova Iorque", "isCorrect": true, "explanation": "Correto! A origem do apelido é incerta, mas popularizou-se nos anos 70 para promover a cidade." },
-        { "text": "São Francisco", "isCorrect": false, "explanation": "Incorreto. Conhecida pela Golden Gate Bridge." }
+        {
+          "text": "Coração",
+          "isCorrect": false,
+          "explanation": "Não, o coração é vital, mas pequeno! O maior interno é mais... filtrador!"
+        },
+        {
+          "text": "Pulmões",
+          "isCorrect": false,
+          "explanation": "Quase, pulmões são grandes, mas o maior é outro órgão!"
+        },
+        {
+          "text": "Fígado",
+          "isCorrect": true,
+          "explanation": "Você é um anatomista! O fígado, com até 1,5 kg, é o maior órgão interno, trabalhando como um superlaboratório que desintoxica e faz mil tarefas!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Human_liver.jpg/1200px-Human_liver.jpg",
+          "imageDescription": "Imagem ilustrativa de um fígado humano, o maior órgão interno."
+        },
+        {
+          "text": "Estômago",
+          "isCorrect": false,
+          "explanation": "Não, o estômago é menor! O maior interno é mais versátil!"
+        }
       ]
     },
     {
-      "question": "Qual o nome do processo pelo qual um líquido se transforma em sólido?",
+      "question": "Qual é o maior arquipélago do mundo?",
       "options": [
-        { "text": "Fusão", "isCorrect": false, "explanation": "Incorreto. Fusão é a passagem do sólido para o líquido (gelo derretendo)." },
-        { "text": "Vaporização", "isCorrect": false, "explanation": "Incorreto. Passagem do líquido para o gasoso." },
-        { "text": "Solidificação", "isCorrect": true, "explanation": "Correto! É o processo de congelamento, como a água virando gelo a 0°C." },
-        { "text": "Condensação", "isCorrect": false, "explanation": "Incorreto. Passagem do gasoso para o líquido." }
+        {
+          "text": "Havaí",
+          "isCorrect": false,
+          "explanation": "Não, o Havaí é lindo, mas pequeno! O maior arquipélago tem mais ilhas!"
+        },
+        {
+          "text": "Filipinas",
+          "isCorrect": false,
+          "explanation": "Quase, as Filipinas são grandes, mas o maior é mais... asiático!"
+        },
+        {
+          "text": "Indonésia",
+          "isCorrect": true,
+          "explanation": "Você navegou certinho! A Indonésia, com mais de 17.000 ilhas, é o maior arquipélago, incluindo Bali e Java. É um paraíso de ilhas sem fim!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bali_Indonesia.jpg/1200px-Bali_Indonesia.jpg",
+          "imageDescription": "Imagem de uma praia em Bali, parte do maior arquipélago do mundo, a Indonésia."
+        },
+        {
+          "text": "Maldivas",
+          "isCorrect": false,
+          "explanation": "Não, as Maldivas são minúsculas! O maior tem muito mais ilhas!"
+        }
       ]
     },
     {
-      "question": "Qual destes países NÃO faz fronteira com o Brasil?",
+      "question": "Qual é o maior deserto frio do mundo?",
       "options": [
-        { "text": "Argentina", "isCorrect": false, "explanation": "Incorreto. O Brasil tem uma longa fronteira com a Argentina ao sul." },
-        { "text": "Colômbia", "isCorrect": false, "explanation": "Incorreto. O Brasil faz fronteira com a Colômbia na região amazônica." },
-        { "text": "Chile", "isCorrect": true, "explanation": "Correto! O Chile é um dos dois países da América do Sul (o outro é o Equador) que não compartilham fronteira com o Brasil." },
-        { "text": "Suriname", "isCorrect": false, "explanation": "Incorreto. O Brasil faz fronteira com o Suriname ao norte." }
+        {
+          "text": "Deserto de Gobi",
+          "isCorrect": false,
+          "explanation": "Não, o Gobi é frio, mas menor! O maior deserto frio é mais... polar!"
+        },
+        {
+          "text": "Deserto do Saara",
+          "isCorrect": false,
+          "explanation": "Não, o Saara é quente! O maior frio é bem mais gelado!"
+        },
+        {
+          "text": "Deserto da Antártida",
+          "isCorrect": true,
+          "explanation": "Você é um pinguim do saber! A Antártida, com 13,8 milhões de km², é o maior deserto frio, coberto de gelo e sem chuva. Frio de rachar!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Antarctica_ice_shelf.jpg/1200px-Antarctica_ice_shelf.jpg",
+          "imageDescription": "Imagem de uma paisagem gelada da Antártida, o maior deserto frio do mundo."
+        },
+        {
+          "text": "Deserto do Ártico",
+          "isCorrect": false,
+          "explanation": "Quase, o Ártico é frio, mas menor! A Antártida leva a coroa!"
+        }
       ]
     },
     {
-      "question": "Qual foi o primeiro filme de animação longa-metragem da Disney?",
+      "question": "Qual é o maior planeta do Sistema Solar?",
       "options": [
-        { "text": "Pinóquio (1940)", "isCorrect": false, "explanation": "Incorreto. Foi o segundo longa de animação da Disney." },
-        { "text": "Fantasia (1940)", "isCorrect": false, "explanation": "Incorreto. Foi o terceiro, um filme experimental com música clássica." },
-        { "text": "Branca de Neve e os Sete Anões (1937)", "isCorrect": true, "explanation": "Correto! Um marco na história do cinema, foi o primeiro longa de animação tradicional e um grande sucesso." },
-        { "text": "Cinderela (1950)", "isCorrect": false, "explanation": "Incorreto. Marcou o retorno da Disney aos contos de fadas após a guerra." }
+        {
+          "text": "Saturno",
+          "isCorrect": false,
+          "explanation": "Não, Saturno tem anéis, mas é menor! O maior é mais... gasoso!"
+        },
+        {
+          "text": "Júpiter",
+          "isCorrect": true,
+          "explanation": "Você é um gigante cósmico! Júpiter, com 1.400 vezes o volume da Terra, é o maior planeta, cheio de tempestades e luas como Ganimedes. Rei do Sistema Solar!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg/1200px-Jupiter_and_its_shrunken_Great_Red_Spot.jpg",
+          "imageDescription": "Imagem de Júpiter com sua Grande Mancha Vermelha, o maior planeta do Sistema Solar."
+        },
+        {
+          "text": "Urano",
+          "isCorrect": false,
+          "explanation": "Não, Urano é grande, mas menor! O maior é mais imponente!"
+        },
+        {
+          "text": "Netuno",
+          "isCorrect": false,
+          "explanation": "Não, Netuno é menor! O maior planeta é outro gigante!"
+        }
       ]
     },
     {
-      "question": "Qual o nome do movimento artístico que utiliza formas geométricas e cores puras, como o trabalho de Mondrian?",
+      "question": "Qual é a capital da África do Sul?",
       "options": [
-        { "text": "Impressionismo", "isCorrect": false, "explanation": "Incorreto. Focado em capturar a luz e o momento (Monet, Renoir)." },
-        { "text": "Surrealismo", "isCorrect": false, "explanation": "Incorreto. Explora o subconsciente e o irracional (Dalí, Magritte)." },
-        { "text": "Neoplasticismo (De Stijl)", "isCorrect": true, "explanation": "Correto! Movimento holandês que buscava a abstração pura usando linhas retas, planos retangulares e cores primárias." },
-        { "text": "Cubismo", "isCorrect": false, "explanation": "Incorreto. Representa objetos de múltiplos pontos de vista simultaneamente (Picasso, Braque)." }
+        {
+          "text": "Joanesburgo",
+          "isCorrect": false,
+          "explanation": "Não, Joanesburgo é a cidade do ouro, mas não a capital! A capital é mais... governamental!"
+        },
+        {
+          "text": "Cidade do Cabo",
+          "isCorrect": false,
+          "explanation": "Quase, a Cidade do Cabo é linda, mas não a capital executiva! Outra cidade leva!"
+        },
+        {
+          "text": "Pretória",
+          "isCorrect": true,
+          "explanation": "Você é um arco-íris de saber! Pretória é a capital executiva da África do Sul, dividindo funções com Cidade do Cabo (legislativa) e Bloemfontein (judiciária). Um país, três capitais!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Union_Buildings_Pretoria.jpg/1200px-Union_Buildings_Pretoria.jpg",
+          "imageDescription": "Imagem dos Union Buildings em Pretória, sede do governo sul-africano."
+        },
+        {
+          "text": "Durban",
+          "isCorrect": false,
+          "explanation": "Não, Durban é litorânea! A capital executiva é outra!"
+        }
       ]
     },
     {
-      "question": "Qual deusa grega é a deusa da sabedoria e da guerra estratégica?",
+      "question": "Qual é o maior oceano por profundidade média?",
       "options": [
-        { "text": "Hera", "isCorrect": false, "explanation": "Incorreto. Hera era a esposa de Zeus, deusa do casamento e da família." },
-        { "text": "Afrodite", "isCorrect": false, "explanation": "Incorreto. Afrodite era a deusa do amor, da beleza e da fertilidade." },
-        { "text": "Ártemis", "isCorrect": false, "explanation": "Incorreto. Ártemis era a deusa da caça, da lua e da vida selvagem." },
-        { "text": "Atena", "isCorrect": true, "explanation": "Correto! Atena (Minerva para os romanos) nasceu da cabeça de Zeus, representando a sabedoria, a estratégia e as artes." }
+        {
+          "text": "Oceano Atlântico",
+          "isCorrect": false,
+          "explanation": "Não, o Atlântico é grande, mas menos profundo! O maior em profundidade é outro!"
+        },
+        {
+          "text": "Oceano Índico",
+          "isCorrect": false,
+          "explanation": "Quase, o Índico é profundo, mas não o maior! Outro oceano mergulha mais!"
+        },
+        {
+          "text": "Oceano Pacífico",
+          "isCorrect": true,
+          "explanation": "Você é um mergulhador de elite! O Pacífico, com profundidade média de 4.000m e a Fossa das Marianas, é o oceano mais profundo. Um abismo de respeito!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Pacific_Ocean_deep_sea.jpg/1200px-Pacific_Ocean_deep_sea.jpg",
+          "imageDescription": "Imagem do Oceano Pacífico com águas profundas, representando sua profundidade média."
+        },
+        {
+          "text": "Oceano Ártico",
+          "isCorrect": false,
+          "explanation": "Não, o Ártico é raso! O mais profundo é bem maior!"
+        }
       ]
     },
     {
-      "question": "Qual o nome do estudo científico dos fungos?",
+      "question": "Qual é o maior rio da América do Sul?",
       "options": [
-        { "text": "Botânica", "isCorrect": false, "explanation": "Incorreto. Botânica é o estudo das plantas." },
-        { "text": "Zoologia", "isCorrect": false, "explanation": "Incorreto. Zoologia é o estudo dos animais." },
-        { "text": "Micologia", "isCorrect": true, "explanation": "Correto! A micologia estuda os fungos (cogumelos, leveduras, bolores), que formam um reino separado de plantas e animais." },
-        { "text": "Entomologia", "isCorrect": false, "explanation": "Incorreto. Entomologia é o estudo dos insetos." }
+        {
+          "text": "Rio São Francisco",
+          "isCorrect": false,
+          "explanation": "Não, o São Francisco é grande no Brasil, mas menor! O maior é mais... amazônico!"
+        },
+        {
+          "text": "Rio Amazonas",
+          "isCorrect": true,
+          "explanation": "Você navegou como um boto! O Amazonas, com 6.992 km, é o maior rio da América do Sul (e talvez do mundo), carregando mais água que qualquer outro. Selva adentro!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Amazon_River.jpg/1200px-Amazon_River.jpg",
+          "imageDescription": "Imagem do Rio Amazonas cercado pela floresta amazônica, o maior rio da América do Sul."
+        },
+        {
+          "text": "Rio Paraná",
+          "isCorrect": false,
+          "explanation": "Não, o Paraná é grande, mas o Amazonas é imbatível!"
+        },
+        {
+          "text": "Rio Orinoco",
+          "isCorrect": false,
+          "explanation": "Quase, o Orinoco é importante, mas o Amazonas é o gigante!"
+        }
       ]
     },
     {
-      "question": "Qual banda britânica lançou o álbum 'Sgt. Pepper's Lonely Hearts Club Band'?",
+      "question": "Qual é a capital do México?",
       "options": [
-        { "text": "The Rolling Stones", "isCorrect": false, "explanation": "Incorreto. Famosos por álbuns como 'Sticky Fingers' e 'Exile on Main St.'." },
-        { "text": "Queen", "isCorrect": false, "explanation": "Incorreto. Conhecidos por 'A Night at the Opera' e 'News of the World'." },
-        { "text": "The Beatles", "isCorrect": true, "explanation": "Correto! Lançado em 1967, é considerado um dos álbuns mais influentes da história da música pop." },
-        { "text": "Led Zeppelin", "isCorrect": false, "explanation": "Incorreto. Pioneiros do hard rock, lançaram álbuns como 'Led Zeppelin IV'." }
+        {
+          "text": "Guadalajara",
+          "isCorrect": false,
+          "explanation": "Não, Guadalajara é cultural, mas não a capital! A capital é mais... asteca!"
+        },
+        {
+          "text": "Monterrey",
+          "isCorrect": false,
+          "explanation": "Quase, Monterrey é industrial, mas a capital é outra!"
+        },
+        {
+          "text": "Cidade do México",
+          "isCorrect": true,
+          "explanation": "Viva México! A Cidade do México, construída sobre a antiga Tenochtitlán, é a capital, cheia de história, tacos e o Zócalo. Olé!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Zocalo_Mexico_City.jpg/1200px-Zocalo_Mexico_City.jpg",
+          "imageDescription": "Imagem da Praça do Zócalo na Cidade do México, coração da capital mexicana."
+        },
+        {
+          "text": "Cancún",
+          "isCorrect": false,
+          "explanation": "Não, Cancún é pra praia! A capital é mais urbana!"
+        }
       ]
     },
     {
-      "question": "Qual o nome da unidade de medida de frequência, equivalente a ciclos por segundo?",
+      "question": "Qual é o maior animal marinho já registrado?",
       "options": [
-        { "text": "Volt (V)", "isCorrect": false, "explanation": "Incorreto. Volt mede a diferença de potencial elétrico." },
-        { "text": "Watt (W)", "isCorrect": false, "explanation": "Incorreto. Watt mede a potência (energia por tempo)." },
-        { "text": "Hertz (Hz)", "isCorrect": true, "explanation": "Correto! Nomeada em homenagem a Heinrich Hertz, mede o número de ocorrências de um evento periódico por segundo." },
-        { "text": "Ampère (A)", "isCorrect": false, "explanation": "Incorreto. Ampère mede a corrente elétrica." }
+        {
+          "text": "Tubarão-baleia",
+          "isCorrect": false,
+          "explanation": "Não, o tubarão-baleia é grande, mas não o maior! O maior é      é mais... cantante!"
+        },
+        {
+          "text": "Baleia-azul",
+          "isCorrect": true,
+          "explanation": "Você é um oceano de saber! A baleia-azul, com até 33m e 200 toneladas, é o maior animal marinho (e de todos os tempos), nadando com um coração do tamanho de um carro!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Blue_whale.jpg/1200px-Blue_whale.jpg",
+          "imageDescription": "Imagem de uma baleia-azul nadando no oceano, o maior animal marinho registrado."
+        },
+        {
+          "text": "Lula-gigante",
+          "isCorrect": false,
+          "explanation": "Não, lulas-gigantes são impressionantes, mas menores! A baleia leva!"
+        },
+        {
+          "text": "Orca",
+          "isCorrect": false,
+          "explanation": "Não, orcas são caçadoras, mas pequenas perto do maior marinho!"
+        }
       ]
     },
     {
-      "question": "Qual é a flor nacional do Japão?",
+      "question": "Qual é a capital da Nova Zelândia?",
       "options": [
-        { "text": "Rosa", "isCorrect": false, "explanation": "Incorreto. A rosa é símbolo em muitos países, como Inglaterra e EUA." },
-        { "text": "Tulipa", "isCorrect": false, "explanation": "Incorreto. A tulipa é fortemente associada à Holanda." },
-        { "text": "Crisântemo e Flor de Cerejeira", "isCorrect": true, "explanation": "Correto! O Crisântemo (kiku) é o selo imperial, enquanto a Flor de Cerejeira (sakura) é um símbolo cultural importantíssimo, mas não oficial." },
-        { "text": "Lótus", "isCorrect": false, "explanation": "Incorreto. O lótus é símbolo importante na Índia e no budismo." }
+        {
+          "text": "Auckland",
+          "isCorrect": false,
+          "explanation": "Não, Auckland é a maior cidade, mas não a capital! A capital é mais... política!"
+        },
+        {
+          "text": "Christchurch",
+          "isCorrect": false,
+          "explanation": "Quase, Christchurch é importante, mas a capital é outra!"
+        },
+        {
+          "text": "Wellington",
+          "isCorrect": true,
+          "explanation": "Kia ora, acerto! Wellington, com seu porto e vibe cultural, é a capital da Nova Zelândia, onde o vento sopra e os filmes de Hobbit são lei!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Wellington_New_Zealand.jpg/1200px-Wellington_New_Zealand.jpg",
+          "imageDescription": "Imagem do porto de Wellington, capital da Nova Zelândia, com vista da cidade."
+        },
+        {
+          "text": "Queenstown",
+          "isCorrect": false,
+          "explanation": "Não, Queenstown é turística! A capital é mais governamental!"
+        }
       ]
     },
     {
-      "question": "Qual o nome da teoria que descreve o início do universo como uma grande explosão?",
+      "question": "Qual é o maior continente habitado do planeta?",
       "options": [
-        { "text": "Teoria da Relatividade", "isCorrect": false, "explanation": "Incorreto. Descreve a gravidade e a relação espaço-tempo." },
-        { "text": "Teoria Quântica", "isCorrect": false, "explanation": "Incorreto. Descreve o comportamento da matéria e energia em escala atômica e subatômica." },
-        { "text": "Big Bang", "isCorrect": true, "explanation": "Correto! Modelo cosmológico predominante que descreve a expansão do universo a partir de um estado inicial extremamente quente e denso." },
-        { "text": "Teoria das Cordas", "isCorrect": false, "explanation": "Incorreto. Tentativa de unificar a relatividade geral e a mecânica quântica." }
+        {
+          "text": "África",
+          "isCorrect": false,
+          "explanation": "Não, África é grande, mas o maior habitado é outro! Conta mais espaço!"
+        },
+        {
+          "text": "Austrália",
+          "isCorrect": false,
+          "explanation": "Não, Austrália é pequena em área! O maior é bem mais populoso!"
+        },
+        {
+          "text": "Ásia",
+          "isCorrect": true,
+          "explanation": "Você é um atlas humano! A Ásia, com 44,5 milhões de km², é o maior continente habitado, lar de mais de 4 bilhões de pessoas e culturas milenares!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Asia_continent.jpg/1200px-Asia_continent.jpg",
+          "imageDescription": "Imagem de um mapa destacando a Ásia, o maior continente habitado do planeta."
+        },
+        {
+          "text": "Europa",
+          "isCorrect": false,
+          "explanation": "Não, Europa é menor! O maior continente é mais vasto!"
+        }
       ]
     },
     {
-      "question": "Qual figura histórica é associada à frase 'Penso, logo existo' (Cogito, ergo sum)?",
+      "question": "Qual é o maior coral do mundo?",
       "options": [
-        { "text": "Sócrates", "isCorrect": false, "explanation": "Incorreto. Famoso pelo 'Só sei que nada sei'." },
-        { "text": "Platão", "isCorrect": false, "explanation": "Incorreto. Discípulo de Sócrates, conhecido pela Teoria das Formas." },
-        { "text": "Aristóteles", "isCorrect": false, "explanation": "Incorreto. Discípulo de Platão, sistematizou a lógica e diversas áreas do conhecimento." },
-        { "text": "René Descartes", "isCorrect": true, "explanation": "Correto! Filósofo francês considerado o pai da filosofia moderna, usou essa frase como ponto de partida para seu sistema filosófico." }
+        {
+          "text": "Coral de Belize",
+          "isCorrect": false,
+          "explanation": "Não, o de Belize é lindo, mas menor! O maior é mais... australiano!"
+        },
+        {
+          "text": "Grande Barreira de Coral",
+          "isCorrect": true,
+          "explanation": "Você mergulhou no alvo! A Grande Barreira de Coral, na Austrália, com 2.300 km, é o maior sistema de corais, um paraíso subaquático cheio de vida!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Great_Barrier_Reef_Australia.jpg/1200px-Great_Barrier_Reef_Australia.jpg",
+          "imageDescription": "Imagem da Grande Barreira de Coral na Austrália, com corais coloridos e águas cristalinas."
+        },
+        {
+          "text": "Coral do Mar Vermelho",
+          "isCorrect": false,
+          "explanation": "Não, o Mar Vermelho tem corais, mas o maior é outro!"
+        },
+        {
+          "text": "Coral da Nova Caledônia",
+          "isCorrect": false,
+          "explanation": "Quase, a Nova Caledônia tem corais, mas o maior é na Austrália!"
+        }
       ]
     },
     {
-      "question": "Qual é o maior lago de água doce do mundo em volume?",
+      "question": "Qual é o maior prédio do mundo em altura?",
       "options": [
-        { "text": "Lago Superior (América do Norte)", "isCorrect": false, "explanation": "Incorreto. É o maior em área superficial, mas não em volume." },
-        { "text": "Lago Vitória (África)", "isCorrect": false, "explanation": "Incorreto. Segundo maior em área, principal reservatório do Nilo." },
-        { "text": "Lago Baikal (Rússia)", "isCorrect": true, "explanation": "Correto! Localizado na Sibéria, o Baikal contém cerca de 20% de toda a água doce líquida não congelada do planeta, sendo também o mais profundo." },
-        { "text": "Mar Cáspio", "isCorrect": false, "explanation": "Incorreto. É o maior lago do mundo em área, mas sua água é salobra." }
+        {
+          "text": "Torre Eiffel",
+          "isCorrect": false,
+          "explanation": "Não, a Torre Eiffel é icônica, mas baixa! O maior prédio é muito mais alto!"
+        },
+        {
+          "text": "Empire State Building",
+          "isCorrect": false,
+          "explanation": "Não, o Empire State é clássico, mas ultrapassado! O maior é mais moderno!"
+        },
+        {
+          "text": "Burj Khalifa",
+          "isCorrect": true,
+          "explanation": "Você tocou as nuvens! O Burj Khalifa, em Dubai, com 829,8m, é o prédio mais alto do mundo, um arranha-céu que faz até as estrelas ficarem com inveja!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Burj_Khalifa.jpg/1200px-Burj_Khalifa.jpg",
+          "imageDescription": "Imagem do Burj Khalifa em Dubai, o prédio mais alto do mundo."
+        },
+        {
+          "text": "One World Trade Center",
+          "isCorrect": false,
+          "explanation": "Não, o One World é alto, mas o Burj Khalifa é imbatível!"
+        }
       ]
     },
     {
-      "question": "Qual compositor alemão ficou surdo no final de sua vida?",
+      "question": "Qual é a capital da França?",
       "options": [
-        { "text": "Johann Sebastian Bach", "isCorrect": false, "explanation": "Incorreto. Bach ficou cego no final da vida." },
-        { "text": "Wolfgang Amadeus Mozart", "isCorrect": false, "explanation": "Incorreto. Mozart morreu jovem, aos 35 anos." },
-        { "text": "Ludwig van Beethoven", "isCorrect": true, "explanation": "Correto! Beethoven começou a perder a audição por volta dos 30 anos, mas continuou compondo obras-primas, como a Nona Sinfonia." },
-        { "text": "Richard Wagner", "isCorrect": false, "explanation": "Incorreto. Wagner foi um compositor de óperas do Romantismo." }
+        {
+          "text": "Berlim",
+          "isCorrect": false,
+          "explanation": "Nããão, meu caro! Berlim é onde a cerveja alemã faz a festa e o Muro caiu. A França tem um charme mais... croissant e romântico, sabe? Tenta de novo!"
+        },
+        {
+          "text": "Madri",
+          "isCorrect": false,
+          "explanation": "Olé, mas não! Madri é a terra do flamenco e das tapas espanholas. A capital francesa é mais de vinhos e uma certa torre brilhante. Vamos lá!"
+        },
+        {
+          "text": "Paris",
+          "isCorrect": true,
+          "explanation": "Ô lá lá, acertou na mosca! Paris, a Cidade Luz, é onde a Torre Eiffel pisca, os cafés exalam poesia e a Mona Lisa dá aquele sorrisinho safado. Você é chique demais!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/1200px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg",
+          "imageDescription": "Imagem da Torre Eiffel em Paris ao entardecer, com seu topo brilhando contra o céu, símbolo da capital francesa."
+        },
+        {
+          "text": "Roma",
+          "isCorrect": false,
+          "explanation": "Quase, gladiador! Roma tem o Coliseu e massas de dar água na boca, mas a França guarda sua joia em outro canto. Vamos ajustar o GPS!"
+        }
       ]
     },
     {
-      "question": "Qual cidade italiana é famosa por sua torre inclinada?",
+      "question": "Qual oceano é o maior do mundo?",
       "options": [
-        { "text": "Florença", "isCorrect": false, "explanation": "Incorreto. Florença é famosa pelo Duomo e pela Ponte Vecchio." },
-        { "text": "Veneza", "isCorrect": false, "explanation": "Incorreto. Veneza é famosa pelos canais e gôndolas." },
-        { "text": "Pisa", "isCorrect": true, "explanation": "Correto! A Torre de Pisa é o campanário da catedral da cidade, conhecido mundialmente por sua inclinação acidental." },
-        { "text": "Milão", "isCorrect": false, "explanation": "Incorreto. Milão é um centro da moda e famosa pela sua catedral gótica (Duomo di Milano)." }
+        {
+          "text": "Atlântico",
+          "isCorrect": false,
+          "explanation": "Navegue com calma! O Atlântico é grandão, conectando Américas e Europa, mas tem um gigante maior que ele. Vamos mergulhar mais fundo!"
+        },
+        {
+          "text": "Índico",
+          "isCorrect": false,
+          "explanation": "Tá quente, mas não! O Índico banha praias asiáticas, mas o maior oceano é um monstro que cobre quase um terço do planeta. Tenta outra!"
+        },
+        {
+          "text": "Pacífico",
+          "isCorrect": true,
+          "explanation": "Você é o rei dos mares! O Oceano Pacífico é tão vasto que poderia engolir a Lua e ainda sobrar espaço. Lar da Fossa das Marianas, é o chefe das águas!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Pacific_Ocean_-_Envisat_image_2009.jpg/1200px-Pacific_Ocean_-_Envisat_image_2009.jpg",
+          "imageDescription": "Imagem aérea do Oceano Pacífico, mostrando suas águas azuis profundas e vasta extensão, capturada por satélite."
+        },
+        {
+          "text": "Ártico",
+          "isCorrect": false,
+          "explanation": "Brrr, gelou! O Ártico é um freezer flutuante, mas o menor dos oceanos. O maior é quente, vasto e cheio de ilhas. Vamos aquecer essa resposta!"
+        }
       ]
     },
     {
-      "question": "Qual o nome da ciência que estuda os terremotos?",
+      "question": "Em que ano o homem pisou na Lua pela primeira vez?",
       "options": [
-        { "text": "Vulcanologia", "isCorrect": false, "explanation": "Incorreto. Estudo dos vulcões." },
-        { "text": "Meteorologia", "isCorrect": false, "explanation": "Incorreto. Estudo da atmosfera e fenômenos climáticos." },
-        { "text": "Sismologia", "isCorrect": true, "explanation": "Correto! A sismologia estuda os terremotos (sismos) e a propagação das ondas sísmicas pela Terra." },
-        { "text": "Geologia", "isCorrect": false, "explanation": "Incorreto. Geologia é o estudo da Terra (rochas, estrutura, processos), englobando a sismologia." }
+        {
+          "text": "1965",
+          "isCorrect": false,
+          "explanation": "Quase decolou! Em 1965, a NASA tava ensaiando, mas o grande salto veio depois. Ajusta o foguete e mira no ano certo!"
+        },
+        {
+          "text": "1969",
+          "isCorrect": true,
+          "explanation": "Houston, temos um acerto! Em 1969, Neil Armstrong deixou pegadas na Lua e disse aquela frase épica. Você é um astronauta de primeira, hein?",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Apollo_11_first_step.jpg/1200px-Apollo_11_first_step.jpg",
+          "imageDescription": "Imagem de um astronauta da Apollo 11 pisando na Lua, com pegadas na superfície lunar, marco de 1969."
+        },
+        {
+          "text": "1972",
+          "isCorrect": false,
+          "explanation": "Ops, passou da órbita! 1972 foi a última caminhada lunar, mas o primeiro passo foi antes. Volta pro calendário lunar!"
+        },
+        {
+          "text": "1959",
+          "isCorrect": false,
+          "explanation": "Nossa, voltou no tempo! Em 1959, só sondas tavam na Lua. Humanos? Só uma década depois, com muito estilo!"
+        }
       ]
     },
     {
-      "question": "Qual destes países é uma ilha localizada na Europa?",
+      "question": "Qual artista pintou a Mona Lisa?",
       "options": [
-        { "text": "Japão", "isCorrect": false, "explanation": "Incorreto. Arquipélago localizado na Ásia Oriental." },
-        { "text": "Cuba", "isCorrect": false, "explanation": "Incorreto. Ilha localizada no Caribe, América Central." },
-        { "text": "Islândia", "isCorrect": true, "explanation": "Correto! País insular nórdico localizado no Atlântico Norte, conhecido por vulcões e geleiras." },
-        { "text": "Madagascar", "isCorrect": false, "explanation": "Incorreto. Grande ilha na costa sudeste da África." }
+        {
+          "text": "Michelangelo",
+          "isCorrect": false,
+          "explanation": "Nããão, Michelangelo tava esculpindo o Davi! A Mona Lisa é de um cara que também desenhava helicópteros. Tenta outra!"
+        },
+        {
+          "text": "Leonardo da Vinci",
+          "isCorrect": true,
+          "explanation": "Você é um renascentista! Leonardo da Vinci pintou a Mona Lisa com aquele sorrisinho que intriga o mundo. Gênio, inventor e pintor, ele era o pacote completo!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1200px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+          "imageDescription": "Imagem da pintura Mona Lisa de Leonardo da Vinci, com seu famoso sorriso enigmático, exposta no Louvre."
+        },
+        {
+          "text": "Raphael",
+          "isCorrect": false,
+          "explanation": "Quase, mas Raphael tava ocupado com madonas! A Mona Lisa é de outro mestre que amava mistérios. Pincela de novo!"
+        },
+        {
+          "text": "Donatello",
+          "isCorrect": false,
+          "explanation": "Não, Donatello fazia estátuas, não quadros! A Mona Lisa tem um dono mais... barbudo e inventivo. Vamos lá!"
+        }
       ]
     },
     {
-      "question": "Quem escreveu 'Cem Anos de Solidão'?",
+      "question": "Qual é o maior deserto quente do mundo?",
       "options": [
-        { "text": "Jorge Luis Borges", "isCorrect": false, "explanation": "Incorreto. Escritor argentino mestre dos contos fantásticos." },
-        { "text": "Mario Vargas Llosa", "isCorrect": false, "explanation": "Incorreto. Escritor peruano, Nobel de Literatura." },
-        { "text": "Gabriel García Márquez", "isCorrect": true, "explanation": "Correto! Escritor colombiano, Nobel de Literatura, expoente do realismo mágico." },
-        { "text": "Pablo Neruda", "isCorrect": false, "explanation": "Incorreto. Poeta chileno, Nobel de Literatura." }
+        {
+          "text": "Deserto da Arábia",
+          "isCorrect": false,
+          "explanation": "Tá quente, mas não é o maior! O Deserto da Arábia tem suas dunas, mas o rei dos desertos quentes é ainda mais vasto. Vamos pegar o camelo!"
+        },
+        {
+          "text": "Deserto do Saara",
+          "isCorrect": true,
+          "explanation": "Você é um oásis de saber! O Saara, com 9,2 milhões de km², é o maior deserto quente, onde o sol frita até as ideias. Dunas, camelos e aventura garantida!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Sahara_desert_from_space.jpg/1200px-Sahara_desert_from_space.jpg",
+          "imageDescription": "Imagem do Deserto do Saara visto do espaço, mostrando suas vastas dunas douradas e extensão impressionante."
+        },
+        {
+          "text": "Deserto de Gobi",
+          "isCorrect": false,
+          "explanation": "Frio demais! O Gobi é mais gelado que sorvete. O maior deserto quente é puro calor africano. Tenta de novo!"
+        },
+        {
+          "text": "Deserto da Antártida",
+          "isCorrect": false,
+          "explanation": "Brrr, a Antártida é um deserto gelado! O maior quente é onde você precisa de chapéu, não casaco. Vamos aquecer essa resposta!"
+        }
       ]
     },
     {
-      "question": "Qual é o único mamífero capaz de voar ativamente?",
+      "question": "Qual país é o maior em área territorial?",
       "options": [
-        { "text": "Esquilo voador", "isCorrect": false, "explanation": "Incorreto. Esquilos voadores planam usando membranas, mas não voam ativamente." },
-        { "text": "Morcego", "isCorrect": true, "explanation": "Correto! Morcegos pertencem à ordem Chiroptera (mãos com asas) e são os únicos mamíferos com voo verdadeiro." },
-        { "text": "Galinha", "isCorrect": false, "explanation": "Incorreto. Galinhas são aves, e seu voo é limitado." },
-        { "text": "Pterodátilo", "isCorrect": false, "explanation": "Incorreto. Pterodátilos eram répteis voadores extintos (pterossauros)." }
+        {
+          "text": "China",
+          "isCorrect": false,
+          "explanation": "Quase, dragão! A China é gigante, mas tem um vizinho que estica mais o mapa. Vamos cruzar uns fusos horários!"
+        },
+        {
+          "text": "Rússia",
+          "isCorrect": true,
+          "explanation": "Vodka de acertos! A Rússia, com 17 milhões de km², é tão grande que o sol nasce e se põe várias vezes no mesmo país. É o rei dos mapas, camarada!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Russia_from_space.jpg/1200px-Russia_from_space.jpg",
+          "imageDescription": "Imagem da Rússia vista do espaço, destacando sua vasta extensão territorial cobrindo Europa e Ásia."
+        },
+        {
+          "text": "Canadá",
+          "isCorrect": false,
+          "explanation": "Gelou, mas não! O Canadá é o vice-campeão. O maior país tem mais vodka e menos xarope de bordo. Tenta outra!"
+        },
+        {
+          "text": "Estados Unidos",
+          "isCorrect": false,
+          "explanation": "Boa, mas os EUA ficam no bronze! O maior país é um gigante que cruza dois continentes. Vamos ajustar o globo!"
+        }
       ]
     },
     {
-      "question": "Qual cidade americana é o berço do Jazz?",
+      "question": "Qual montanha é a mais alta do mundo?",
       "options": [
-        { "text": "Nova Iorque", "isCorrect": false, "explanation": "Incorreto. Nova Iorque foi crucial para o desenvolvimento do jazz, mas não seu berço." },
-        { "text": "Chicago", "isCorrect": false, "explanation": "Incorreto. Chicago também foi um centro importante do jazz nos anos 20." },
-        { "text": "Nova Orleans", "isCorrect": true, "explanation": "Correto! A rica mistura cultural de Nova Orleans no final do século XIX e início do XX deu origem ao jazz." },
-        { "text": "Los Angeles", "isCorrect": false, "explanation": "Incorreto." }
+        {
+          "text": "K2",
+          "isCorrect": false,
+          "explanation": "Quase escalou! O K2 é um monstro, mas o topo do mundo é outro. Pega o oxigênio e sobe mais um pouco!"
+        },
+        {
+          "text": "Monte Everest",
+          "isCorrect": true,
+          "explanation": "Você é o sherpa dos acertos! O Everest, com 8.848,86 metros, é o rei do Himalaia. Só não esqueça o casaco, porque lá em cima é um freezer!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg/1200px-Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg",
+          "imageDescription": "Imagem do Monte Everest com seu pico nevado brilhando ao sol, visto do acampamento base no Tibete."
+        },
+        {
+          "text": "Kangchenjunga",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas Kangchenjunga é a terceira. O Everest é o chefe das alturas. Vamos mirar o cume!"
+        },
+        {
+          "text": "Makalu",
+          "isCorrect": false,
+          "explanation": "Nããão, Makalu é top 5, mas não o maior. O rei das montanhas é mais famoso e gelado. Escala outra!"
+        }
       ]
     },
     {
-      "question": "Qual vitamina é produzida pelo corpo humano através da exposição solar?",
+      "question": "Quem escreveu 'Dom Quixote'?",
       "options": [
-        { "text": "Vitamina C", "isCorrect": false, "explanation": "Incorreto. Obtida principalmente de frutas cítricas." },
-        { "text": "Vitamina A", "isCorrect": false, "explanation": "Incorreto. Encontrada em alimentos como cenoura e fígado." },
-        { "text": "Vitamina D", "isCorrect": true, "explanation": "Correto! A exposição da pele à luz solar UVB desencadeia a produção de Vitamina D, essencial para a saúde óssea." },
-        { "text": "Vitamina B12", "isCorrect": false, "explanation": "Incorreto. Encontrada principalmente em produtos de origem animal." }
+        {
+          "text": "William Shakespeare",
+          "isCorrect": false,
+          "explanation": "Nããão, Shakespeare tava escrevendo sonetos em Londres! Dom Quixote é de um espanhol mais... sonhador. Tenta de novo!"
+        },
+        {
+          "text": "Miguel de Cervantes",
+          "isCorrect": true,
+          "explanation": "Olé, você é um cavaleiro literário! Cervantes criou Dom Quixote, o louco por moinhos que nos ensinou a sonhar grande. Um clássico que até Sancho aplaude!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/First_edition_Don_Quixote_1605.jpg/1200px-First_edition_Don_Quixote_1605.jpg",
+          "imageDescription": "Imagem da capa da primeira edição de 'Dom Quixote' de Cervantes, publicada em 1605, com texto em espanhol antigo."
+        },
+        {
+          "text": "Victor Hugo",
+          "isCorrect": false,
+          "explanation": "Quase, mas Hugo tava na França com 'Os Miseráveis'. O cavaleiro da Mancha é de outro autor. Vamos galopar!"
+        },
+        {
+          "text": "Leo Tolstoy",
+          "isCorrect": false,
+          "explanation": "Nããão, Tolstoy é russo e épico! Dom Quixote é mais ibérico e quixotesco. Ajusta a sela!"
+        }
       ]
     },
     {
-      "question": "Qual o nome do maior osso do braço humano?",
+      "question": "Qual é o rio mais longo do mundo?",
       "options": [
-        { "text": "Rádio", "isCorrect": false, "explanation": "Incorreto. Um dos ossos do antebraço, no lado do polegar." },
-        { "text": "Ulna", "isCorrect": false, "explanation": "Incorreto. O outro osso do antebraço, no lado do dedo mínimo." },
-        { "text": "Úmero", "isCorrect": true, "explanation": "Correto! O úmero liga o ombro ao cotovelo, sendo o osso mais longo do membro superior." },
-        { "text": "Clavícula", "isCorrect": false, "explanation": "Incorreto. Osso que liga o esterno ao ombro ('saboneteira')." }
+        {
+          "text": "Rio Amazonas",
+          "isCorrect": false,
+          "explanation": "Quase, boto! O Amazonas é o rei das águas, mas o mais longo é um debate. Por enquanto, outro rio leva a taça. Rema mais!"
+        },
+        {
+          "text": "Rio Nilo",
+          "isCorrect": true,
+          "explanation": "Você é um faraó das águas! O Nilo, com 6.650 km, serpenteia pela África, regando o Egito e fazendo as pirâmides parecerem pequenas. Navegou com estilo!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Nile_River_Aswan.jpg/1200px-Nile_River_Aswan.jpg",
+          "imageDescription": "Imagem do Rio Nilo em Aswan, Egito, com suas águas calmas cercadas por vegetação e rochas."
+        },
+        {
+          "text": "Rio Mississippi",
+          "isCorrect": false,
+          "explanation": "Nããão, o Mississippi é grande, mas americano. O mais longo é um velho conhecido dos faraós. Tenta outra correnteza!"
+        },
+        {
+          "text": "Rio Yangtzé",
+          "isCorrect": false,
+          "explanation": "Boa, mas o Yangtzé é asiático e menor. O rio mais longo tem múmias como fãs. Vamos remar pro Egito!"
+        }
       ]
     },
     {
-      "question": "Qual o animal terrestre mais rápido do mundo?",
+      "question": "Qual elemento químico tem o símbolo 'O'?",
       "options": [
-        { "text": "Leão", "isCorrect": false, "explanation": "Incorreto. Leões são rápidos, mas não os mais rápidos." },
-        { "text": "Cavalo", "isCorrect": false, "explanation": "Incorreto. Cavalos de corrida atingem altas velocidades, mas o guepardo é superior." },
-        { "text": "Guepardo (Cheetah)", "isCorrect": true, "explanation": "Correto! O guepardo pode atingir velocidades de mais de 100 km/h em curtas distâncias para caçar." },
-        { "text": "Antílope", "isCorrect": false, "explanation": "Incorreto. Algumas espécies de antílopes são extremamente rápidas, mas geralmente menos que o guepardo." }
+        {
+          "text": "Ouro",
+          "isCorrect": false,
+          "explanation": "Brilhou, mas errou! Ouro é 'Au', perfeito pra joias. O 'O' é algo que você tá respirando agora mesmo. Tenta de novo!"
+        },
+        {
+          "text": "Oxigênio",
+          "isCorrect": true,
+          "explanation": "Você é um sopro de gênio! O 'O' é o oxigênio, o gás que faz você cantar no chuveiro e o fogo dançar. Sem ele, nada de festa ou Wi-Fi!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Oxygen_bubbles.jpg/1200px-Oxygen_bubbles.jpg",
+          "imageDescription": "Imagem de bolhas de oxigênio subindo na água, representando o elemento essencial para a vida."
+        },
+        {
+          "text": "Ósmio",
+          "isCorrect": false,
+          "explanation": "Nããão, ósmio é 'Os', pesado e raro! O 'O' é mais leve e tá no ar. Inspira fundo e tenta outra!"
+        },
+        {
+          "text": "Hidrogênio",
+          "isCorrect": false,
+          "explanation": "Quase explodiu! Hidrogênio é 'H', o mais leve. O 'O' é o que te mantém vivo. Vamos respirar e acertar!"
+        }
       ]
     },
     {
-      "question": "Qual o nome da galáxia mais próxima da Via Láctea?",
+      "question": "Qual a fórmula química da água?",
       "options": [
-        { "text": "Galáxia do Triângulo (M33)", "isCorrect": false, "explanation": "Incorreto. É a terceira maior do Grupo Local, um pouco mais distante que Andrômeda." },
-        { "text": "Grande Nuvem de Magalhães", "isCorrect": false, "explanation": "Incorreto. É uma galáxia anã satélite da Via Láctea, muito mais próxima que Andrômeda, mas bem menor." },
-        { "text": "Galáxia de Andrômeda (M31)", "isCorrect": true, "explanation": "Correto! Andrômeda é a galáxia espiral de grande porte mais próxima, a cerca de 2,5 milhões de anos-luz." },
-        { "text": "Pequena Nuvem de Magalhães", "isCorrect": false, "explanation": "Incorreto. Outra galáxia anã satélite da Via Láctea." }
+        {
+          "text": "CO2",
+          "isCorrect": false,
+          "explanation": "Nããão, CO2 é o que sai do seu refrigerante! A água é mais simples e molhada. Vamos mergulhar na resposta certa!"
+        },
+        {
+          "text": "H2O",
+          "isCorrect": true,
+          "explanation": "Splish splash, você é um gênio aquático! H2O é a fórmula da água, a poção mágica da vida. Sem ela, nada de praia, café ou banho de espuma!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Water_droplet_on_leaf.jpg/1200px-Water_droplet_on_leaf.jpg",
+          "imageDescription": "Imagem de uma gota de água cristalina sobre uma folha verde, simbolizando a fórmula H2O."
+        },
+        {
+          "text": "NaCl",
+          "isCorrect": false,
+          "explanation": "Sal na mistura? NaCl é sal de cozinha, não água. Vamos tirar o saleiro e pegar um copo d’água fresquinha!"
+        },
+        {
+          "text": "O2",
+          "isCorrect": false,
+          "explanation": "Ar puro, mas não! O2 é oxigênio, bom pra respirar, mas a água é uma molécula mais... líquida. Tenta outra!"
+        }
       ]
     },
     {
-      "question": "Qual o nome da escrita utilizada pelos antigos egípcios?",
+      "question": "Qual esporte usa raquete, rede e uma bola amarela?",
       "options": [
-        { "text": "Cuneiforme", "isCorrect": false, "explanation": "Incorreto. Escrita em forma de cunha, usada na Mesopotâmia (sumérios, babilônios)." },
-        { "text": "Alfabeto Grego", "isCorrect": false, "explanation": "Incorreto. Origem de muitos alfabetos ocidentais." },
-        { "text": "Hieróglifos", "isCorrect": true, "explanation": "Correto! Sistema de escrita complexo que combinava elementos logográficos, silábicos e alfabéticos, usado em monumentos." },
-        { "text": "Sânscrito", "isCorrect": false, "explanation": "Incorreto. Língua clássica da Índia." }
+        {
+          "text": "Futebol",
+          "isCorrect": false,
+          "explanation": "Gol de erro! Futebol é com chuteiras e bola redonda. A raquete e a bola amarela tão em outra quadra. Vamos sacar!"
+        },
+        {
+          "text": "Tênis",
+          "isCorrect": true,
+          "explanation": "Ace na quadra! Tênis é o esporte das raquetes, redes e bolas amarelas, onde você rebate como um ninja e grita 'vamos!' com cada ponto. Joga muito!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Tennis_court_Roland_Garros.jpg/1200px-Tennis_court_Roland_Garros.jpg",
+          "imageDescription": "Imagem de uma quadra de tênis em Roland Garros, com a rede ao centro e uma bola amarela em jogo."
+        },
+        {
+          "text": "Basquete",
+          "isCorrect": false,
+          "explanation": "Cesta errada! Basquete tem bola laranja e sem raquetes. O esporte certo é mais... elegante e quadriculado. Tenta de novo!"
+        },
+        {
+          "text": "Vôlei",
+          "isCorrect": false,
+          "explanation": "Bloqueio! Vôlei usa bola e rede, mas nada de raquetes. A bola amarela é de outro jogo. Vamos pra quadra certa!"
+        }
+      ]
+    },
+    {
+      "question": "Qual cidade sediou os Jogos Olímpicos de Verão de 2016?",
+      "options": [
+        {
+          "text": "Londres",
+          "isCorrect": false,
+          "explanation": "Nããão, Londres foi em 2012, com chá e chuva! A tocha de 2016 pegou um bronze mais tropical. Vamos voar pro sul!"
+        },
+        {
+          "text": "Rio de Janeiro",
+          "isCorrect": true,
+          "explanation": "Samba na veia! O Rio de Janeiro trouxe o calor pros Jogos de 2016, com o Maracanã lotado e o Cristo torcendo lá de cima. Você é ouro olímpico!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Maracana_Stadium_Rio_2016.jpg/1200px-Maracana_Stadium_Rio_2016.jpg",
+          "imageDescription": "Imagem do Estádio do Maracanã durante os Jogos Olímpicos de 2016 no Rio, iluminado e cheio de energia."
+        },
+        {
+          "text": "Tóquio",
+          "isCorrect": false,
+          "explanation": "Quase, mas Tóquio foi em 2020, com delay por pandemia. Em 2016, a festa era mais carioca. Pega a próxima tocha!"
+        },
+        {
+          "text": "Pequim",
+          "isCorrect": false,
+          "explanation": "Não, Pequim brilhou em 2008! A de 2016 tinha mais samba e menos Muralha da China. Vamos pro Brasil!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é o maior órgão do corpo humano?",
+      "options": [
+        {
+          "text": "Cérebro",
+          "isCorrect": false,
+          "explanation": "Nããão, o cérebro é o chefe, mas pequeno! O maior órgão tá bem na sua cara... ou melhor, em volta de você. Pensa mais!"
+        },
+        {
+          "text": "Pele",
+          "isCorrect": true,
+          "explanation": "Você é uma epiderme brilhante! A pele é o maior órgão, cobrindo tudo como uma capa de super-herói. Ela protege, sente e ainda aguenta suas tatuagens malucas!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Human_skin_cross_section.jpg/1200px-Human_skin_cross_section.jpg",
+          "imageDescription": "Imagem de uma seção transversal da pele humana, mostrando suas camadas como o maior órgão do corpo."
+        },
+        {
+          "text": "Fígado",
+          "isCorrect": false,
+          "explanation": "Quase, o fígado é o maior por dentro, mas por fora tem outro! O maior órgão é mais... visível. Tenta de novo!"
+        },
+        {
+          "text": "Coração",
+          "isCorrect": false,
+          "explanation": "Ame, mas não! O coração é fofo, mas pequeno. O maior órgão é tipo um abraço que cobre tudo. Vamos lá!"
+        }
+      ]
+    },
+    {
+      "question": "Qual invenção é frequentemente atribuída a Thomas Edison?",
+      "options": [
+        {
+          "text": "Telefone",
+          "isCorrect": false,
+          "explanation": "Nããão, o telefone é do Bell, que gritou 'Watson, vem cá!'. Edison acendeu outra ideia. Vamos iluminar essa resposta!"
+        },
+        {
+          "text": "Lâmpada incandescente (comercialmente viável)",
+          "isCorrect": true,
+          "explanation": "Brilhou como um farol! Edison tornou a lâmpada incandescente prática em 1879, iluminando o mundo e nossas contas de luz. Um gênio que bota luz no escuro!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Edison_light_bulb.jpg/1200px-Edison_light_bulb.jpg",
+          "imageDescription": "Imagem de uma lâmpada incandescente de Edison, com filamento brilhando, símbolo de sua invenção revolucionária."
+        },
+        {
+          "text": "Avião",
+          "isCorrect": false,
+          "explanation": "Voou alto, mas errou! Os irmãos Wright levantaram voo. Edison ficou no chão, mas com brilho. Tenta outra!"
+        },
+        {
+          "text": "Rádio",
+          "isCorrect": false,
+          "explanation": "Sintonizou errado! Marconi é o cara do rádio. Edison iluminou outro caminho. Vamos ajustar a frequência!"
+        }
+      ]
+    },
+    {
+      "question": "Qual país é conhecido como a 'Terra do Sol Nascente'?",
+      "options": [
+        {
+          "text": "China",
+          "isCorrect": false,
+          "explanation": "Nããão, China é o dragão do meio! A Terra do Sol Nascente tem mais sushi e menos Muralha. Vamos pro leste!"
+        },
+        {
+          "text": "Japão",
+          "isCorrect": true,
+          "explanation": "Konichiwa, você é um samurai do saber! Japão, ou Nihon, é a Terra do Sol Nascente, com cerejeiras, sumôs e um sol que parece sorrir no horizonte!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Mount_Fuji_and_Lake_Kawaguchi.jpg/1200px-Mount_Fuji_and_Lake_Kawaguchi.jpg",
+          "imageDescription": "Imagem do Monte Fuji ao amanhecer com cerejeiras, simbolizando o Japão como Terra do Sol Nascente."
+        },
+        {
+          "text": "Coreia do Sul",
+          "isCorrect": false,
+          "explanation": "Quase, mas a Coreia é a 'Manhã Calma'. O sol nasce com mais estilo em outro lugar. Tenta de novo!"
+        },
+        {
+          "text": "Vietnã",
+          "isCorrect": false,
+          "explanation": "Não, Vietnã tem suas belezas, mas não é o berço do sol. O país certo tem samurais e anime. Vamos lá!"
+        }
+      ]
+    },
+    {
+      "question": "Qual guerra mundial ocorreu entre 1914 e 1918?",
+      "options": [
+        {
+          "text": "Segunda Guerra Mundial",
+          "isCorrect": false,
+          "explanation": "Nããão, a Segunda foi de 1939 a 1945, com tanques e mais drama. A de 1914 é mais antiga. Volta pro passado!"
+        },
+        {
+          "text": "Primeira Guerra Mundial",
+          "isCorrect": true,
+          "explanation": "Você é um historiador de trincheira! A Primeira Guerra Mundial (1914-1918) foi a 'Grande Guerra', com Aliados e Centrais redesenhando mapas. Merece uma medalha!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/WW1_trench_warfare.jpg/1200px-WW1_trench_warfare.jpg",
+          "imageDescription": "Imagem de uma trincheira da Primeira Guerra Mundial, com soldados em um cenário lamacento e histórico."
+        },
+        {
+          "text": "Guerra Fria",
+          "isCorrect": false,
+          "explanation": "Fria, mas não! A Guerra Fria foi só tensão, sem tiros. A de 1914 foi quente e explosiva. Tenta outra!"
+        },
+        {
+          "text": "Guerra do Vietnã",
+          "isCorrect": false,
+          "explanation": "Longe demais! Vietnã foi nos anos 60. A guerra de 1914 mudou o mundo antes. Vamos ajustar o cronômetro!"
+        }
+      ]
+    },
+    {
+      "question": "Qual é a capital da Austrália?",
+      "options": [
+        {
+          "text": "Sydney",
+          "isCorrect": false,
+          "explanation": "Nããão, Sydney tem a Ópera, mas não manda no país! A capital é mais quietinha e planejada. Vamos pro interior!"
+        },
+        {
+          "text": "Camberra",
+          "isCorrect": true,
+          "explanation": "G’day, você é um canguru sábio! Camberra, escolhida em 1908, é a capital australiana, com menos praia, mas muito charme político. Perfeita pra um churrasco!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Parliament_House_Canberra_Dusk.jpg/1200px-Parliament_House_Canberra_Dusk.jpg",
+          "imageDescription": "Imagem da Casa do Parlamento em Camberra ao entardecer, com sua arquitetura moderna, símbolo da capital australiana."
+        },
+        {
+          "text": "Melbourne",
+          "isCorrect": false,
+          "explanation": "Quase, Melbourne é a vibe cultural! A capital é mais burocrática e menos hipster. Tenta outra!"
+        },
+        {
+          "text": "Brisbane",
+          "isCorrect": false,
+          "explanation": "Não, Brisbane é ensolarada, mas não a capital. A verdadeira tá escondida entre as duas grandes. Vamos achar!"
+        }
+      ]
+    },
+    {
+      "question": "Qual pintor holandês cortou parte da própria orelha?",
+      "options": [
+        {
+          "text": "Rembrandt",
+          "isCorrect": false,
+          "explanation": "Nããão, Rembrandt amava luz, não dramas! O cara da orelha era mais... emocional. Pincela outra resposta!"
+        },
+        {
+          "text": "Vincent van Gogh",
+          "isCorrect": true,
+          "explanation": "Você é um girassol de acertos! Van Gogh, em 1888, cortou a orelha num surto, mas pintou 'Noite Estrelada' com um brilho que ofusca qualquer drama. Gênio louco!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_with_Bandaged_Ear_and_Pipe.jpg/1200px-Vincent_van_Gogh_-_Self-Portrait_with_Bandaged_Ear_and_Pipe.jpg",
+          "imageDescription": "Autorretrato de Vincent van Gogh com a orelha enfaixada, pintado após o incidente, com cores vibrantes."
+        },
+        {
+          "text": "Johannes Vermeer",
+          "isCorrect": false,
+          "explanation": "Quase, Vermeer era calmo e clássico. O pintor da orelha tinha mais... intensidade. Tenta de novo!"
+        },
+        {
+          "text": "Piet Mondrian",
+          "isCorrect": false,
+          "explanation": "Não, Mondrian era das linhas retas! O drama da orelha é de outro holandês mais... estrelado. Vamos lá!"
+        }
+      ]
+    },
+    {
+      "question": "Quantos lados tem um hexágono?",
+      "options": [
+        {
+          "text": "5",
+          "isCorrect": false,
+          "explanation": "Quase, mas 5 é pentágono, tipo o QG do Pentágono! O hexágono tem um lado extra, como uma colmeia esperta. Conta de novo!"
+        },
+        {
+          "text": "6",
+          "isCorrect": true,
+          "explanation": "Você é uma abelha geométrica! Um hexágono tem 6 lados, igual os favos de mel ou um floco de neve estilizado. Geometria tão doce que dá pra lamber!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Honeycomb_structure.jpg/1200px-Honeycomb_structure.jpg",
+          "imageDescription": "Imagem de um favo de mel com células hexagonais perfeitas, ilustrando a forma de seis lados."
+        },
+        {
+          "text": "7",
+          "isCorrect": false,
+          "explanation": "Nããão, 7 é heptágono, coisa de alquimistas! O hexágono é mais simples e abelhinha. Volta pro compasso!"
+        },
+        {
+          "text": "8",
+          "isCorrect": false,
+          "explanation": "Octógono, não! 8 lados é placa de PARE. O hexágono tem menos e é mais natural. Vamos desenhar direitinho!"
+        }
       ]
     }
   ]

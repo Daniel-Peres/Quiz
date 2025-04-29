@@ -8,785 +8,2486 @@
     {
       "question": "Qual país sediou a primeira Copa do Mundo em 1930?",
       "options": [
-        { "text": "Brasil", "isCorrect": false, "explanation": "Incorreto. O Brasil sediou pela primeira vez em 1950, perdendo a final no Maracanã." },
-        { "text": "Itália", "isCorrect": false, "explanation": "Incorreto. A Itália sediou e venceu a segunda Copa, em 1934." },
-        { "text": "Uruguai", "isCorrect": true, "explanation": "Correto! O Uruguai foi escolhido como sede por ser campeão olímpico e celebrar 100 anos de independência, e venceu o torneio." },
-        { "text": "França", "isCorrect": false, "explanation": "Incorreto. A França sediou a terceira Copa, em 1938." }
+        {
+          "text": "Brasil",
+          "isCorrect": false,
+          "explanation": "Nada disso, amigo! O Brasil só entrou na festa como anfitrião em 1950, e ainda levou aquele susto no Maracanaço. Em 1930, a bola rolou bem longe do samba!"
+        },
+        {
+          "text": "Itália",
+          "isCorrect": false,
+          "explanation": "Quase, mas não! A Itália brilhou como sede e campeã em 1934, na segunda Copa. Em 1930, eles ainda estavam aquecendo as chuteiras."
+        },
+        {
+          "text": "Uruguai",
+          "isCorrect": true,
+          "explanation": "Acertou na mosca! O Uruguai foi o pioneiro em 1930, sediando a primeira Copa para comemorar seus 100 anos de independência e ainda levou a taça com estilo. Que estreia!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/1930_FIFA_World_Cup_poster.jpg/800px-1930_FIFA_World_Cup_poster.jpg",
+          "imageDescription": "Cartaz oficial da Copa do Mundo de 1930, realizada no Uruguai, com design vintage e cores vibrantes."
+        },
+        {
+          "text": "França",
+          "isCorrect": false,
+          "explanation": "Não, não! A França só pegou o bastão em 1938, na terceira Copa. Em 1930, eles foram só convidados para a festa uruguaia."
+        }
       ]
     },
     {
       "question": "Qual seleção detém o recorde de mais títulos da Copa do Mundo?",
       "options": [
-        { "text": "Alemanha", "isCorrect": false, "explanation": "Incorreto. A Alemanha (incluindo Alemanha Ocidental) tem 4 títulos (1954, 1974, 1990, 2014)." },
-        { "text": "Itália", "isCorrect": false, "explanation": "Incorreto. A Itália também tem 4 títulos (1934, 1938, 1982, 2006)." },
-        { "text": "Argentina", "isCorrect": false, "explanation": "Incorreto. A Argentina possui 3 títulos (1978, 1986, 2022)." },
-        { "text": "Brasil", "isCorrect": true, "explanation": "Correto! O Brasil é o único pentacampeão mundial (1958, 1962, 1970, 1994, 2002)." }
+        {
+          "text": "Alemanha",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas não! A Alemanha tem 4 taças (1954, 1974, 1990, 2014), o que é ótimo, mas não chega ao topo. Eles ainda sonham com o penta!"
+        },
+        {
+          "text": "Itália",
+          "isCorrect": false,
+          "explanation": "Quase lá! A Itália também tem 4 títulos (1934, 1938, 1982, 2006), mas fica no empate com a Alemanha. Faltou um golzinho para liderar!"
+        },
+        {
+          "text": "Argentina",
+          "isCorrect": false,
+          "explanation": "Olha a paixão argentina! Com 3 títulos (1978, 1986, 2022), eles estão no pódio, mas ainda não alcançam o rei do futebol mundial."
+        },
+        {
+          "text": "Brasil",
+          "isCorrect": true,
+          "explanation": "É canarinho na veia! O Brasil é o único pentacampeão (1958, 1962, 1970, 1994, 2002), reinando com samba e muitos gols. Alguém duvida do nosso gingado?",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Brazil_national_football_team_2002.jpg/800px-Brazil_national_football_team_2002.jpg",
+          "imageDescription": "Seleção brasileira campeã da Copa do Mundo de 2002, com jogadores celebrando o pentacampeonato."
+        }
       ]
     },
     {
       "question": "Em que ano o Brasil ganhou sua primeira Copa do Mundo?",
       "options": [
-        { "text": "1950", "isCorrect": false, "explanation": "Incorreto. O Brasil foi vice-campeão em casa, perdendo para o Uruguai no 'Maracanaço'." },
-        { "text": "1958", "isCorrect": true, "explanation": "Correto! Na Suécia, o Brasil venceu os anfitriões por 5 a 2 na final, com show de Pelé (17 anos) e Garrincha." },
-        { "text": "1962", "isCorrect": false, "explanation": "Incorreto. No Chile, o Brasil conquistou o bicampeonato, mesmo com Pelé lesionado." },
-        { "text": "1970", "isCorrect": false, "explanation": "Incorreto. No México, o Brasil conquistou o tricampeonato e a posse definitiva da Taça Jules Rimet." }
+        {
+          "text": "1950",
+          "isCorrect": false,
+          "explanation": "Ai, doeu lembrar! Em 1950, o Brasil sediou e chegou à final, mas o Uruguai estragou a festa no Maracanaço. Nada de taça dessa vez!"
+        },
+        {
+          "text": "1958",
+          "isCorrect": true,
+          "explanation": "Gol de placa! Em 1958, na Suécia, o Brasil conquistou o primeiro título com um show de Pelé (17 aninhos!) e Garrincha, vencendo os donos da casa por 5 a 2.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Pel%C3%A9_1958.jpg/800px-Pel%C3%A9_1958.jpg",
+          "imageDescription": "Pelé jovem celebrando durante a Copa do Mundo de 1958, na Suécia, onde o Brasil conquistou seu primeiro título."
+        },
+        {
+          "text": "1962",
+          "isCorrect": false,
+          "explanation": "Quase! Em 1962, no Chile, veio o bicampeonato, mesmo com Pelé machucado. Mas a primeira taça foi antes, na terra dos vikings!"
+        },
+        {
+          "text": "1970",
+          "isCorrect": false,
+          "explanation": "Não, amigo! Em 1970, no México, o Brasil levou o tri com um timaço, mas a primeira estrela já brilhava desde 1958."
+        }
       ]
     },
     {
       "question": "Qual jogador marcou mais gols na história das Copas do Mundo?",
       "options": [
-        { "text": "Pelé (Brasil)", "isCorrect": false, "explanation": "Incorreto. Pelé marcou 12 gols em 4 Copas disputadas." },
-        { "text": "Ronaldo Fenômeno (Brasil)", "isCorrect": false, "explanation": "Incorreto. Ronaldo foi recordista com 15 gols, marcados em 3 Copas (98, 02, 06)." },
-        { "text": "Gerd Müller (Alemanha Oc.)", "isCorrect": false, "explanation": "Incorreto. Gerd Müller, 'Der Bomber', marcou 14 gols em apenas 2 Copas (70, 74)." },
-        { "text": "Miroslav Klose (Alemanha)", "isCorrect": true, "explanation": "Correto! Klose marcou 16 gols ao longo de 4 Copas (2002 a 2014), superando Ronaldo." }
+        {
+          "text": "Pelé (Brasil)",
+          "isCorrect": false,
+          "explanation": "O Rei é lendário, mas não leva essa! Pelé fez 12 gols em 4 Copas. Um monstro, mas tem alguém que balançou mais redes."
+        },
+        {
+          "text": "Ronaldo Fenômeno (Brasil)",
+          "isCorrect": false,
+          "explanation": "Quase, Fenômeno! Ronaldo reinou com 15 gols em 3 Copas (1998, 2002, 2006), mas foi superado por um artilheiro alemão."
+        },
+        {
+          "text": "Gerd Müller (Alemanha Oc.)",
+          "isCorrect": false,
+          "explanation": "Der Bomber era letal! Müller fez 14 gols em só 2 Copas (1970, 1974), mas não chegou ao recorde absoluto."
+        },
+        {
+          "text": "Miroslav Klose (Alemanha)",
+          "isCorrect": true,
+          "explanation": "Bingo! Klose é o cara, com 16 gols em 4 Copas (2002 a 2014). O alemão passou Ronaldo em 2014 e virou o rei das redes mundiais!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Miroslav_Klose_2014.jpg/800px-Miroslav_Klose_2014.jpg",
+          "imageDescription": "Miroslav Klose comemorando gol na Copa do Mundo de 2014, onde se tornou o maior artilheiro da história do torneio."
+        }
       ]
     },
     {
       "question": "Qual país venceu a Copa do Mundo de 2014, realizada no Brasil?",
       "options": [
-        { "text": "Argentina", "isCorrect": false, "explanation": "Incorreto. A Argentina chegou à final, mas foi derrotada pela Alemanha." },
-        { "text": "Brasil", "isCorrect": false, "explanation": "Incorreto. O Brasil sofreu a histórica goleada de 7 a 1 para a Alemanha na semifinal." },
-        { "text": "Alemanha", "isCorrect": true, "explanation": "Correto! A Alemanha conquistou seu quarto título mundial ao vencer a Argentina por 1 a 0 na prorrogação, no Maracanã." },
-        { "text": "Holanda", "isCorrect": false, "explanation": "Incorreto. A Holanda ficou em terceiro lugar, vencendo o Brasil." }
+        {
+          "text": "Argentina",
+          "isCorrect": false,
+          "explanation": "Quase, hermanitos! A Argentina lutou na final, mas caiu para a Alemanha na prorrogação. Messi tentou, mas não deu!"
+        },
+        {
+          "text": "Brasil",
+          "isCorrect": false,
+          "explanation": "Ai, que lembrança! O Brasil sofreu o inesquecível 7 a 1 na semifinal contra a Alemanha. A taça escapou em casa!"
+        },
+        {
+          "text": "Alemanha",
+          "isCorrect": true,
+          "explanation": "É tetra! A Alemanha jogou com frieza germânica e venceu a Argentina por 1 a 0 na prorrogação, levantando a taça no Maracanã. Que campanha!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/2014_FIFA_World_Cup_Final_-_Germany_team_celebrates.jpg/800px-2014_FIFA_World_Cup_Final_-_Germany_team_celebrates.jpg",
+          "imageDescription": "Seleção alemã celebrando a vitória na final da Copa do Mundo de 2014, no Maracanã, após derrotar a Argentina."
+        },
+        {
+          "text": "Holanda",
+          "isCorrect": false,
+          "explanation": "Não, laranjas! A Holanda ficou com o bronze, vencendo o Brasil na disputa de terceiro lugar, mas a final foi alemã."
+        }
       ]
     },
     {
       "question": "Qual foi o placar da famosa semifinal entre Brasil e Alemanha na Copa de 2014?",
       "options": [
-        { "text": "2 a 1 para Alemanha", "isCorrect": false, "explanation": "Incorreto. O placar foi muito mais elástico." },
-        { "text": "5 a 0 para Alemanha", "isCorrect": false, "explanation": "Incorreto. Embora já fosse uma goleada histórica no intervalo." },
-        { "text": "7 a 1 para Alemanha", "isCorrect": true, "explanation": "Correto! Conhecido como 'Mineiraço', foi a maior derrota do Brasil em Copas e a maior goleada em uma semifinal." },
-        { "text": "6 a 0 para Alemanha", "isCorrect": false, "explanation": "Incorreto." }
+        {
+          "text": "2 a 1 para Alemanha",
+          "isCorrect": false,
+          "explanation": "Sonhou, né? O placar foi bem mais cruel. A Alemanha não tomou conhecimento do Brasil naquela noite em Belo Horizonte!"
+        },
+        {
+          "text": "5 a 0 para Alemanha",
+          "isCorrect": false,
+          "explanation": "Tá chegando perto, mas ainda não! No intervalo, já estava 5 a 0, mas o pesadelo continuou até o apito final."
+        },
+        {
+          "text": "7 a 1 para Alemanha",
+          "isCorrect": true,
+          "explanation": "É isso, o Mineiraço! Alemanha 7, Brasil 1. Uma goleada histórica que fez o mundo do futebol parar e o Brasil chorar. Que dia!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/2014_FIFA_World_Cup_Brazil_v_Germany.jpg/800px-2014_FIFA_World_Cup_Brazil_v_Germany.jpg",
+          "imageDescription": "Jogadores alemães comemorando durante a goleada de 7 a 1 contra o Brasil na semifinal da Copa de 2014, no Mineirão."
+        },
+        {
+          "text": "6 a 0 para Alemanha",
+          "isCorrect": false,
+          "explanation": "Não, mas quase! A Alemanha marcou 7, e o Brasil só conseguiu um golzinho de consolação no fim."
+        }
       ]
     },
     {
-        "question": "Quem marcou o famoso gol de mão conhecido como 'La Mano de Dios' na Copa de 1986?",
-        "options": [
-          { "text": "Pelé", "isCorrect": false, "explanation": "Incorreto. Pelé jogou sua última Copa em 1970." },
-          { "text": "Zico", "isCorrect": false, "explanation": "Incorreto. Zico jogou em 1986, mas não marcou este gol." },
-          { "text": "Diego Maradona", "isCorrect": true, "explanation": "Correto! Na partida contra a Inglaterra, Maradona marcou com a mão (validado pelo árbitro) e depois marcou o 'Gol do Século'." },
-          { "text": "Lionel Messi", "isCorrect": false, "explanation": "Incorreto. Messi nasceu em 1987." }
-        ]
-      },
-      {
-        "question": "Qual seleção africana foi a primeira a chegar às quartas de final de uma Copa do Mundo?",
-        "options": [
-          { "text": "Nigéria", "isCorrect": false, "explanation": "Incorreto. A Nigéria chegou às oitavas em 1994, 1998 e 2014." },
-          { "text": "Gana", "isCorrect": false, "explanation": "Incorreto. Gana chegou às quartas em 2010, perdendo nos pênaltis para o Uruguai." },
-          { "text": "Senegal", "isCorrect": false, "explanation": "Incorreto. Senegal chegou às quartas em sua estreia, em 2002." },
-          { "text": "Camarões", "isCorrect": true, "explanation": "Correto! Liderados por Roger Milla, os 'Leões Indomáveis' alcançaram as quartas na Itália-1990, perdendo para a Inglaterra na prorrogação." }
-        ]
-      },
-      {
-        "question": "Quais países sediarão a Copa do Mundo de 2026?",
-        "options": [
-          { "text": "Espanha, Portugal e Marrocos", "isCorrect": false, "explanation": "Incorreto. Esta será a sede da Copa de 2030 (com jogos inaugurais na América do Sul)." },
-          { "text": "Arábia Saudita", "isCorrect": false, "explanation": "Incorreto. A Arábia Saudita deve sediar a Copa de 2034." },
-          { "text": "Argentina, Uruguai e Paraguai", "isCorrect": false, "explanation": "Incorreto. Foi uma candidatura conjunta que perdeu para 2026 e receberá jogos em 2030." },
-          { "text": "Canadá, México e Estados Unidos", "isCorrect": true, "explanation": "Correto! Será a primeira Copa com 48 seleções e a primeira sediada por três países." }
-        ]
-      },
-      {
-        "question": "Qual jogador francês foi expulso na final da Copa de 2006 após uma cabeçada?",
-        "options": [
-          { "text": "Thierry Henry", "isCorrect": false, "explanation": "Incorreto. Henry jogou a final, mas não foi expulso." },
-          { "text": "Zinedine Zidane", "isCorrect": true, "explanation": "Correto! Em sua última partida profissional, Zidane agrediu o italiano Marco Materazzi na prorrogação e recebeu cartão vermelho." },
-          { "text": "Patrick Vieira", "isCorrect": false, "explanation": "Incorreto. Vieira se lesionou e foi substituído durante a final." },
-          { "text": "Lilian Thuram", "isCorrect": false, "explanation": "Incorreto. Thuram jogou toda a partida." }
-        ]
-      },
-      {
-        "question": "Quantas vezes a Itália venceu a Copa do Mundo?",
-        "options": [
-          { "text": "2", "isCorrect": false, "explanation": "Incorreto. Uruguai e Argentina (antes de 2022) tinham 2 títulos." },
-          { "text": "3", "isCorrect": false, "explanation": "Incorreto. Argentina (até 2022) tinha 3 títulos." },
-          { "text": "4", "isCorrect": true, "explanation": "Correto! A Itália é tetracampeã (1934, 1938, 1982, 2006), empatada com a Alemanha." },
-          { "text": "5", "isCorrect": false, "explanation": "Incorreto. Apenas o Brasil atingiu 5 títulos." }
-        ]
-      },
-      {
-        "question": "Qual foi a primeira Copa do Mundo a ter 32 seleções participantes?",
-        "options": [
-          { "text": "1994 (EUA)", "isCorrect": false, "explanation": "Incorreto. A Copa de 1994 foi a última com 24 seleções." },
-          { "text": "1998 (França)", "isCorrect": true, "explanation": "Correto! O formato com 32 equipes distribuídas em 8 grupos de 4 foi introduzido na França e durou até 2022." },
-          { "text": "2002 (Coreia/Japão)", "isCorrect": false, "explanation": "Incorreto. Esta Copa já utilizou o formato de 32 seleções." },
-          { "text": "1990 (Itália)", "isCorrect": false, "explanation": "Incorreto. A Copa de 1990 teve 24 seleções." }
-        ]
-      },
-      {
-        "question": "Qual jogador marcou o gol do título da Espanha na final da Copa de 2010?",
-        "options": [
-          { "text": "David Villa", "isCorrect": false, "explanation": "Incorreto. Villa foi um dos artilheiros da Copa (5 gols), mas não marcou na final." },
-          { "text": "Fernando Torres", "isCorrect": false, "explanation": "Incorreto. Torres entrou no decorrer da prorrogação." },
-          { "text": "Andrés Iniesta", "isCorrect": true, "explanation": "Correto! Iniesta marcou aos 116 minutos da prorrogação contra a Holanda, garantindo o primeiro título espanhol." },
-          { "text": "Xavi Hernández", "isCorrect": false, "explanation": "Incorreto. Xavi foi o maestro do meio-campo, mas não marcou na final." }
-        ]
-      },
-      {
-        "question": "Em que ano a Inglaterra venceu sua única Copa do Mundo?",
-        "options": [
-          { "text": "1954", "isCorrect": false, "explanation": "Incorreto. A Alemanha Ocidental venceu em 1954." },
-          { "text": "1966", "isCorrect": true, "explanation": "Correto! Jogando em casa, a Inglaterra venceu a Alemanha Ocidental por 4 a 2 na final em Wembley, com um polêmico gol de Geoff Hurst." },
-          { "text": "1970", "isCorrect": false, "explanation": "Incorreto. O Brasil venceu em 1970." },
-          { "text": "1990", "isCorrect": false, "explanation": "Incorreto. A Alemanha Ocidental venceu em 1990." }
-        ]
-      },
-      {
-        "question": "Qual o nome do mascote da Copa do Mundo de 2014 no Brasil?",
-        "options": [
-          { "text": "Zakumi (Leopardo)", "isCorrect": false, "explanation": "Incorreto. Zakumi foi o mascote da Copa de 2010 na África do Sul." },
-          { "text": "Fuleco (Tatu-bola)", "isCorrect": true, "explanation": "Correto! Fuleco (junção de Futebol e Ecologia) representava uma espécie ameaçada de tatu-bola." },
-          { "text": "Zabivaka (Lobo)", "isCorrect": false, "explanation": "Incorreto. Zabivaka ('aquele que marca gols') foi o mascote da Copa de 2018 na Rússia." },
-          { "text": "La'eeb (Lenço)", "isCorrect": false, "explanation": "Incorreto. La'eeb ('jogador super habilidoso') foi o mascote da Copa de 2022 no Catar." }
-        ]
-      },
-      {
-        "question": "Qual seleção foi a adversária do Brasil na final da Copa de 2002?",
-        "options": [
-          { "text": "França", "isCorrect": false, "explanation": "Incorreto. A França eliminou o Brasil em 2006 e venceu o Brasil na final de 1998." },
-          { "text": "Itália", "isCorrect": false, "explanation": "Incorreto. A Itália foi adversária na final de 1970 e 1994." },
-          { "text": "Alemanha", "isCorrect": true, "explanation": "Correto! Em Yokohama (Japão), o Brasil venceu a Alemanha por 2 a 0, com dois gols de Ronaldo." },
-          { "text": "Argentina", "isCorrect": false, "explanation": "Incorreto. Brasil e Argentina nunca se enfrentaram em uma final de Copa do Mundo." }
-        ]
-      },
-      {
-        "question": "Qual jogador detém o recorde de mais partidas disputadas em Copas do Mundo?",
-        "options": [
-          { "text": "Paolo Maldini (Itália)", "isCorrect": false, "explanation": "Incorreto. Maldini disputou 23 jogos em 4 Copas." },
-          { "text": "Cristiano Ronaldo (Portugal)", "isCorrect": false, "explanation": "Incorreto. CR7 disputou 22 jogos em 5 Copas." },
-          { "text": "Lionel Messi (Argentina)", "isCorrect": true, "explanation": "Correto! Messi chegou a 26 jogos em 5 Copas ao disputar a final de 2022, superando o recorde anterior." },
-          { "text": "Lothar Matthäus (Alemanha)", "isCorrect": false, "explanation": "Incorreto. Matthäus deteve o recorde por muito tempo com 25 jogos em 5 Copas." }
-        ]
-      },
-      {
-        "question": "Qual país foi o primeiro a vencer a Copa do Mundo duas vezes consecutivas?",
-        "options": [
-          { "text": "Uruguai", "isCorrect": false, "explanation": "Incorreto. Venceu em 1930 e 1950, com intervalo devido à guerra." },
-          { "text": "Brasil", "isCorrect": false, "explanation": "Incorreto. O Brasil foi o segundo, vencendo em 1958 e 1962." },
-          { "text": "Alemanha", "isCorrect": false, "explanation": "Incorreto. Nunca venceu duas vezes seguidas." },
-          { "text": "Itália", "isCorrect": true, "explanation": "Correto! A Itália, comandada por Vittorio Pozzo, venceu as Copas de 1934 (em casa) e 1938 (na França)." }
-        ]
-      },
-      {
-        "question": "Qual seleção surpreendeu ao chegar na final da Copa de 2018?",
-        "options": [
-          { "text": "Bélgica", "isCorrect": false, "explanation": "Incorreto. A 'geração de ouro' belga ficou em terceiro lugar." },
-          { "text": "Marrocos", "isCorrect": false, "explanation": "Incorreto. Marrocos surpreendeu em 2022 ao chegar à semifinal." },
-          { "text": "Croácia", "isCorrect": true, "explanation": "Correto! Liderada por Luka Modric, a Croácia superou Dinamarca, Rússia e Inglaterra para chegar à sua primeira final." },
-          { "text": "Suécia", "isCorrect": false, "explanation": "Incorreto. A Suécia foi eliminada nas quartas pela Inglaterra." }
-        ]
-      },
-      {
-        "question": "Quem foram os artilheiros da Copa do Mundo de 1994?",
-        "options": [
-          { "text": "Romário (Brasil) e Roberto Baggio (Itália)", "isCorrect": false, "explanation": "Incorreto. Ambos marcaram 5 gols, mas não foram os artilheiros." },
-          { "text": "Jürgen Klinsmann (Alemanha) e Kennet Andersson (Suécia)", "isCorrect": false, "explanation": "Incorreto. Ambos marcaram 5 gols." },
-          { "text": "Hristo Stoichkov (Bulgária) e Oleg Salenko (Rússia)", "isCorrect": true, "explanation": "Correto! O búlgaro Stoichkov e o russo Salenko marcaram 6 gols cada, dividindo a Chuteira de Ouro." },
-          { "text": "Gabriel Batistuta (Argentina)", "isCorrect": false, "explanation": "Incorreto. Batistuta marcou 4 gols." }
-        ]
-      },
-      {
-        "question": "Qual o nome oficial do troféu da Copa do Mundo entregue atualmente?",
-        "options": [
-          { "text": "Taça Jules Rimet", "isCorrect": false, "explanation": "Incorreto. Foi o troféu original (1930-1970), nomeado em homenagem ao presidente da FIFA. Foi roubada no Brasil." },
-          { "text": "Taça da Copa do Mundo da FIFA", "isCorrect": true, "explanation": "Correto! Desenhada por Silvio Gazzaniga, representa duas figuras humanas segurando o globo terrestre e é usada desde 1974." },
-          { "text": "Troféu da Vitória Alada", "isCorrect": false, "explanation": "Incorreto. Apelido da Taça Jules Rimet, inspirada na deusa grega Nike." },
-          { "text": "Copa Ouro da FIFA", "isCorrect": false, "explanation": "Incorreto." }
-        ]
-      },
-      {
-        "question": "Qual jogador marcou o gol mais rápido da história das Copas do Mundo?",
-        "options": [
-          { "text": "Václav Mašek (Tchecoslováquia, 1962)", "isCorrect": false, "explanation": "Incorreto. Marcou aos 16 segundos, foi o recorde por muito tempo." },
-          { "text": "Clint Dempsey (EUA, 2014)", "isCorrect": false, "explanation": "Incorreto. Marcou aos 29 segundos." },
-          { "text": "Hakan Şükür (Turquia, 2002)", "isCorrect": true, "explanation": "Correto! Na disputa pelo terceiro lugar contra a Coreia do Sul, Şükür marcou com apenas 10.8 segundos de jogo." },
-          { "text": "Celso Ayala (Paraguai, 1998)", "isCorrect": false, "explanation": "Incorreto. Marcou um gol contra rápido." }
-        ]
-      },
-      {
-        "question": "Quantas Copas do Mundo foram canceladas devido à Segunda Guerra Mundial?",
-        "options": [
-          { "text": "Nenhuma", "isCorrect": false, "explanation": "Incorreto. A guerra interrompeu o torneio." },
-          { "text": "Uma (1942)", "isCorrect": false, "explanation": "Incorreto. Foram duas edições canceladas." },
-          { "text": "Duas (1942 e 1946)", "isCorrect": true, "explanation": "Correto! Com a Europa em guerra e o mundo em conflito, as edições planejadas para esses anos não puderam ser realizadas." },
-          { "text": "Três (1938, 1942, 1946)", "isCorrect": false, "explanation": "Incorreto. A Copa de 1938 ocorreu na França." }
-        ]
-      },
-      {
-        "question": "Quais são os três únicos homens a vencerem a Copa do Mundo como jogador e como técnico?",
-        "options": [
-          { "text": "Pelé, Beckenbauer e Zidane", "isCorrect": false, "explanation": "Incorreto. Pelé e Zidane nunca venceram como técnicos." },
-          { "text": "Maradona, Cruyff e Deschamps", "isCorrect": false, "explanation": "Incorreto. Maradona e Cruyff não venceram como técnicos." },
-          { "text": "Mário Zagallo (Brasil), Franz Beckenbauer (Alemanha) e Didier Deschamps (França)", "isCorrect": true, "explanation": "Correto! Zagallo (58/62 como jogador, 70 como técnico), Beckenbauer (74 jogador, 90 técnico) e Deschamps (98 jogador, 2018 técnico)." },
-          { "text": "Zagallo, Parreira e Scolari", "isCorrect": false, "explanation": "Incorreto. Parreira e Scolari venceram apenas como técnicos." }
-        ]
-      },
-      {
-        "question": "Qual país sediou a Copa do Mundo de 1986 após a desistência da Colômbia?",
-        "options": [
-          { "text": "Brasil", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "Estados Unidos", "isCorrect": false, "explanation": "Incorreto. Sediou em 1994." },
-          { "text": "Espanha", "isCorrect": false, "explanation": "Incorreto. Sediou em 1982." },
-          { "text": "México", "isCorrect": true, "explanation": "Correto! A Colômbia desistiu por problemas financeiros, e o México se tornou o primeiro país a sediar a Copa pela segunda vez." }
-        ]
-      },
-       {
-        "question": "Qual o apelido da seleção da Holanda, famosa pelo 'Futebol Total' na Copa de 1974?",
-        "options": [
-          { "text": "A Laranja Mecânica", "isCorrect": true, "explanation": "Correto! Devido ao uniforme laranja e ao estilo de jogo revolucionário com intensa movimentação e troca de posições." },
-          { "text": "Os Tulipas Voadoras", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "A Oranje", "isCorrect": false, "explanation": "Incorreto. 'Oranje' (Laranja) é um apelido comum, mas 'Laranja Mecânica' marcou aquela geração." },
-          { "text": "Os Leões Holandeses", "isCorrect": false, "explanation": "Incorreto." }
-         ]
-      },
-      {
-        "question": "Quem foi o goleiro capitão da Itália na conquista da Copa de 2006?",
-        "options": [
-          { "text": "Gianluigi Buffon", "isCorrect": false, "explanation": "Incorreto. Buffon foi eleito o melhor goleiro, mas o capitão era outro." },
-          { "text": "Fabio Cannavaro", "isCorrect": true, "explanation": "Correto! O zagueiro Cannavaro foi o capitão e eleito o Melhor Jogador do Mundo da FIFA naquele ano." },
-          { "text": "Francesco Totti", "isCorrect": false, "explanation": "Incorreto. Totti era um dos líderes técnicos, mas não o capitão." },
-          { "text": "Alessandro Del Piero", "isCorrect": false, "explanation": "Incorreto." }
-         ]
-      },
-      {
-        "question": "Qual seleção venceu a Copa do Mundo Feminina da FIFA mais vezes?",
-        "options": [
-          { "text": "Alemanha", "isCorrect": false, "explanation": "Incorreto. A Alemanha é bicampeã (2003, 2007)." },
-          { "text": "Noruega", "isCorrect": false, "explanation": "Incorreto. A Noruega venceu uma vez (1995)." },
-          { "text": "Japão", "isCorrect": false, "explanation": "Incorreto. O Japão venceu uma vez (2011)." },
-          { "text": "Estados Unidos", "isCorrect": true, "explanation": "Correto! A seleção feminina dos EUA (USWNT) é a maior potência, com 4 títulos (1991, 1999, 2015, 2019)." }
-         ]
-      },
-       {
-        "question": "Qual jogador russo marcou 5 gols em uma única partida na Copa de 1994, um recorde?",
-        "options": [
-          { "text": "Andrei Kanchelskis", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "Oleg Salenko", "isCorrect": true, "explanation": "Correto! Salenko marcou 5 vezes na vitória da Rússia por 6 a 1 sobre Camarões, tornando-se também um dos artilheiros daquela Copa." },
-          { "text": "Aleksandr Mostovoi", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "Valery Karpin", "isCorrect": false, "explanation": "Incorreto." }
-         ]
-      },
-      {
-        "question": "Qual o nome da bola oficial da Copa do Mundo de 1970, a primeira com painéis pretos e brancos?",
-        "options": [
-          { "text": "Tango", "isCorrect": false, "explanation": "Incorreto. A Tango, com seus triângulos pretos, foi introduzida em 1978." },
-          { "text": "Questra", "isCorrect": false, "explanation": "Incorreto. Bola da Copa de 1994." },
-          { "text": "Telstar", "isCorrect": true, "explanation": "Correto! A Adidas Telstar, com 32 painéis (12 pentágonos pretos e 20 hexágonos brancos), foi criada para melhor visibilidade em TVs P&B." },
-          { "text": "Fevernova", "isCorrect": false, "explanation": "Incorreto. Bola da Copa de 2002." }
-         ]
-      },
-      {
-        "question": "Qual país foi o primeiro asiático a sediar uma Copa do Mundo (em conjunto)?",
-        "options": [
-          { "text": "China", "isCorrect": false, "explanation": "Incorreto. A China ainda não sediou uma Copa masculina." },
-          { "text": "Coreia do Sul e Japão", "isCorrect": true, "explanation": "Correto! A Copa de 2002 foi a primeira na Ásia e a primeira com co-organização." },
-          { "text": "Catar", "isCorrect": false, "explanation": "Incorreto. Catar sediou em 2022, sendo o segundo país asiático (e primeiro do Oriente Médio)." },
-          { "text": "Arábia Saudita", "isCorrect": false, "explanation": "Incorreto." }
-         ]
-      },
-      {
-        "question": "Qual jogador ganhou a Chuteira de Ouro (artilheiro) na Copa de 2018?",
-        "options": [
-          { "text": "Kylian Mbappé (França)", "isCorrect": false, "explanation": "Incorreto. Mbappé foi eleito Melhor Jogador Jovem e marcou 4 gols." },
-          { "text": "Antoine Griezmann (França)", "isCorrect": false, "explanation": "Incorreto. Griezmann foi Bola de Prata (2º melhor jogador) e também marcou 4 gols." },
-          { "text": "Harry Kane (Inglaterra)", "isCorrect": true, "explanation": "Correto! O capitão inglês marcou 6 gols, sendo o artilheiro da Copa da Rússia." },
-          { "text": "Romelu Lukaku (Bélgica)", "isCorrect": false, "explanation": "Incorreto. Lukaku marcou 4 gols." }
-         ]
-      },
-      {
-        "question": "Qual foi a primeira Copa do Mundo a usar o VAR (Árbitro Assistente de Vídeo)?",
-        "options": [
-          { "text": "2010 (África do Sul)", "isCorrect": false, "explanation": "Incorreto. Nesta Copa houve polêmica com a bola Jabulani." },
-          { "text": "2014 (Brasil)", "isCorrect": false, "explanation": "Incorreto. Em 2014 foi introduzida a tecnologia da linha do gol, mas não o VAR completo." },
-          { "text": "2018 (Rússia)", "isCorrect": true, "explanation": "Correto! O VAR foi implementado oficialmente pela FIFA, auxiliando árbitros em lances capitais (gols, pênaltis, cartões vermelhos, identificação)." },
-          { "text": "2022 (Catar)", "isCorrect": false, "explanation": "Incorreto. Em 2022 foi introduzido o impedimento semiautomático, complementando o VAR." }
-         ]
-      },
-      {
-        "question": "Qual jogador detém o recorde de mais gols em uma única edição de Copa do Mundo?",
-        "options": [
-          { "text": "Eusébio (Portugal, 1966)", "isCorrect": false, "explanation": "Incorreto. Eusébio marcou 9 gols em 1966." },
-          { "text": "Gerd Müller (Alemanha Oc., 1970)", "isCorrect": false, "explanation": "Incorreto. Müller marcou 10 gols em 1970." },
-          { "text": "Ronaldo (Brasil, 2002)", "isCorrect": false, "explanation": "Incorreto. Ronaldo marcou 8 gols em 2002." },
-          { "text": "Just Fontaine (França, 1958)", "isCorrect": true, "explanation": "Correto! Fontaine estabeleceu o recorde (dificilmente será batido) de 13 gols em apenas 6 jogos na Copa da Suécia." }
-         ]
-      },
-      {
-        "question": "Em qual estádio foi disputada a final da Copa do Mundo de 1950, conhecida como 'Maracanaço'?",
-        "options": [
-          { "text": "Estádio Centenário (Montevidéu)", "isCorrect": false, "explanation": "Incorreto. Palco da final de 1930." },
-          { "text": "Estádio do Maracanã (Rio de Janeiro)", "isCorrect": true, "explanation": "Correto! Construído para a Copa, o Maracanã recebeu um público estimado em 200 mil pessoas para a decisão." },
-          { "text": "Estádio de Wembley (Londres)", "isCorrect": false, "explanation": "Incorreto. Palco da final de 1966." },
-          { "text": "Estádio Azteca (Cidade do México)", "isCorrect": false, "explanation": "Incorreto. Palco das finais de 1970 e 1986." }
-         ]
-      },
-      {
-        "question": "Qual seleção venceu a Copa do Mundo de 1998, sediada na França?",
-        "options": [
-          { "text": "Brasil", "isCorrect": false, "explanation": "Incorreto. O Brasil, então campeão, chegou à final mas foi derrotado." },
-          { "text": "Itália", "isCorrect": false, "explanation": "Incorreto. A Itália foi eliminada pela França nas quartas." },
-          { "text": "Holanda", "isCorrect": false, "explanation": "Incorreto. A Holanda foi eliminada pelo Brasil na semifinal." },
-          { "text": "França", "isCorrect": true, "explanation": "Correto! Liderada por Zidane, a França venceu o Brasil por 3 a 0 na final em Saint-Denis, conquistando seu primeiro título." }
-         ]
-      },
-      {
-        "question": "Qual país foi o primeiro a sediar a Copa do Mundo duas vezes?",
-        "options": [
-          { "text": "Itália (1934, 1990)", "isCorrect": false, "explanation": "Incorreto. A Itália foi a segunda." },
-          { "text": "França (1938, 1998)", "isCorrect": false, "explanation": "Incorreto. A França foi a terceira." },
-          { "text": "Brasil (1950, 2014)", "isCorrect": false, "explanation": "Incorreto. O Brasil foi o quarto (junto com a Alemanha)." },
-          { "text": "México (1970, 1986)", "isCorrect": true, "explanation": "Correto! O México sediou as Copas vencidas por Brasil e Argentina, respectivamente." }
-         ]
-      },
-      {
-        "question": "Qual jogador colombiano foi assassinado após marcar um gol contra na Copa de 1994?",
-        "options": [
-          { "text": "Carlos Valderrama", "isCorrect": false, "explanation": "Incorreto. Valderrama era o icônico capitão daquela seleção." },
-          { "text": "Freddy Rincón", "isCorrect": false, "explanation": "Incorreto. Rincón era outro destaque daquele time." },
-          { "text": "Andrés Escobar", "isCorrect": true, "explanation": "Correto! Escobar marcou um gol contra na derrota para os EUA; sua morte violenta chocou o mundo do futebol." },
-          { "text": "Faustino Asprilla", "isCorrect": false, "explanation": "Incorreto. Asprilla era um atacante habilidoso." }
-         ]
-      },
-      {
-        "question": "Qual goleiro soviético lendário é o único a ter vencido a Bola de Ouro?",
-        "options": [
-          { "text": "Rinat Dasayev", "isCorrect": false, "explanation": "Incorreto. Grande goleiro dos anos 80, mas não ganhou a Bola de Ouro." },
-          { "text": "Igor Akinfeev", "isCorrect": false, "explanation": "Incorreto. Goleiro russo de gerações posteriores." },
-          { "text": "Lev Yashin", "isCorrect": true, "explanation": "Correto! O 'Aranha Negra', conhecido por seu uniforme preto e agilidade, ganhou o prêmio em 1963, um feito inédito para goleiros." },
-          { "text": "Oleksandr Shovkovskiy", "isCorrect": false, "explanation": "Incorreto. Goleiro ucraniano." }
-         ]
-      },
-       {
-        "question": "Qual a única seleção a ter participado de todas as edições da Copa do Mundo?",
-        "options": [
-          { "text": "Alemanha", "isCorrect": false, "explanation": "Incorreto. A Alemanha não participou em 1930 (custos da viagem) e 1950 (banida após a guerra)." },
-          { "text": "Itália", "isCorrect": false, "explanation": "Incorreto. A Itália não foi a 1930 e falhou em se classificar para 1958, 2018 e 2022." },
-          { "text": "Argentina", "isCorrect": false, "explanation": "Incorreto. A Argentina boicotou/não participou de algumas edições (ex: 1938, 1950, 1954)." },
-          { "text": "Brasil", "isCorrect": true, "explanation": "Correto! O Brasil é a única seleção que esteve presente em todas as Copas do Mundo desde 1930." }
-         ]
-      },
-      {
-        "question": "Quem foi o técnico da seleção brasileira na conquista do pentacampeonato em 2002?",
-        "options": [
-          { "text": "Carlos Alberto Parreira", "isCorrect": false, "explanation": "Incorreto. Parreira foi o técnico do tetra em 1994 e comandou a seleção em 2006." },
-          { "text": "Mário Zagallo", "isCorrect": false, "explanation": "Incorreto. Zagallo foi coordenador técnico em 2002, tendo sido técnico campeão em 1970." },
-          { "text": "Luiz Felipe Scolari (Felipão)", "isCorrect": true, "explanation": "Correto! Felipão assumiu a seleção em crise e a levou ao título na Copa da Coreia e Japão." },
-          { "text": "Tite", "isCorrect": false, "explanation": "Incorreto. Tite comandou a seleção nas Copas de 2018 e 2022." }
-         ]
-      },
-      {
-        "question": "Qual foi o resultado da final da Copa do Mundo de 1994 entre Brasil e Itália?",
-        "options": [
-          { "text": "1 a 0 para o Brasil (gol de Romário)", "isCorrect": false, "explanation": "Incorreto. A final terminou sem gols." },
-          { "text": "2 a 1 para a Itália (gol de Baggio)", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "0 a 0 (Brasil venceu por 3 a 2 nos pênaltis)", "isCorrect": true, "explanation": "Correto! Após 120 minutos sem gols no Rose Bowl (EUA), o Brasil conquistou o tetra com Baggio isolando a última cobrança italiana." },
-          { "text": "0 a 0 (Itália venceu nos pênaltis)", "isCorrect": false, "explanation": "Incorreto." }
-         ]
-      },
-      {
-        "question": "Qual jogador português marcou um hat-trick contra a Espanha na Copa de 2018?",
-        "options": [
-          { "text": "Pepe", "isCorrect": false, "explanation": "Incorreto. Pepe é zagueiro." },
-          { "text": "Cristiano Ronaldo", "isCorrect": true, "explanation": "Correto! Em um jogo emocionante na fase de grupos, CR7 marcou os três gols de Portugal no empate por 3 a 3, incluindo um golaço de falta no final." },
-          { "text": "Bernardo Silva", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "André Silva", "isCorrect": false, "explanation": "Incorreto." }
-         ]
-      },
-      {
-        "question": "Qual país africano sediou a Copa do Mundo de 2010?",
-        "options": [
-          { "text": "Egito", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "Nigéria", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "Marrocos", "isCorrect": false, "explanation": "Incorreto. Marrocos foi candidato derrotado para sediar esta Copa." },
-          { "text": "África do Sul", "isCorrect": true, "explanation": "Correto! Foi a primeira vez que o continente africano recebeu o torneio, marcado pelas vuvuzelas e o título da Espanha." }
-         ]
-      },
-      {
-        "question": "Quem marcou o gol da vitória da Alemanha na final da Copa de 2014?",
-        "options": [
-          { "text": "Thomas Müller", "isCorrect": false, "explanation": "Incorreto. Müller foi um dos artilheiros da Alemanha no torneio." },
-          { "text": "André Schürrle", "isCorrect": false, "explanation": "Incorreto. Schürrle deu a assistência para o gol." },
-          { "text": "Mario Götze", "isCorrect": true, "explanation": "Correto! Götze saiu do banco e marcou um belo gol na prorrogação contra a Argentina." },
-          { "text": "Miroslav Klose", "isCorrect": false, "explanation": "Incorreto. Klose se tornou o maior artilheiro das Copas durante o torneio." }
-         ]
-      },
-      {
-        "question": "Qual o nome do estádio principal da Copa do Mundo de 2022 no Catar, onde ocorreu a final?",
-        "options": [
-          { "text": "Estádio Al Thumama", "isCorrect": false, "explanation": "Incorreto. Famoso pelo design inspirado na 'gahfiya'." },
-          { "text": "Estádio Al Janoub", "isCorrect": false, "explanation": "Incorreto. Inspirado nos barcos 'dhow'." },
-          { "text": "Estádio Lusail", "isCorrect": true, "explanation": "Correto! Com capacidade para mais de 80 mil pessoas, sediou a emocionante final entre Argentina e França." },
-          { "text": "Estádio Ahmed bin Ali", "isCorrect": false, "explanation": "Incorreto." }
-         ]
-      },
-      {
-        "question": "Qual jogador ganhou a Bola de Ouro (melhor jogador) na Copa de 2014?",
-        "options": [
-          { "text": "Thomas Müller (Alemanha)", "isCorrect": false, "explanation": "Incorreto. Müller foi Bola de Prata (2º) e Chuteira de Prata (2º artilheiro)." },
-          { "text": "James Rodríguez (Colômbia)", "isCorrect": false, "explanation": "Incorreto. James foi o artilheiro (Chuteira de Ouro) com 6 gols." },
-          { "text": "Lionel Messi (Argentina)", "isCorrect": true, "explanation": "Correto! Apesar do vice-campeonato, Messi foi eleito o melhor jogador do torneio." },
-          { "text": "Arjen Robben (Holanda)", "isCorrect": false, "explanation": "Incorreto. Robben foi Bola de Bronze (3º melhor jogador)." }
-         ]
-      },
-      {
-        "question": "Qual seleção venceu a Argentina na final da Copa do Mundo de 2022?",
-        "options": [
-          { "text": "França", "isCorrect": false, "explanation": "Incorreto. A França empatou em 3 a 3, mas perdeu nos pênaltis." },
-          { "text": "Brasil", "isCorrect": false, "explanation": "Incorreto. O Brasil foi eliminado pela Croácia nas quartas." },
-          { "text": "Croácia", "isCorrect": false, "explanation": "Incorreto. A Croácia foi eliminada pela Argentina na semifinal." },
-          { "text": "Nenhuma, a Argentina venceu", "isCorrect": true, "explanation": "Correto! A Argentina conquistou seu terceiro título mundial ao vencer a França por 4 a 2 nos pênaltis." }
-         ]
-      },
-      {
-        "question": "Qual jogador detém o recorde de mais Copas do Mundo disputadas?",
-        "options": [
-          { "text": "Pelé (Brasil)", "isCorrect": false, "explanation": "Incorreto. Pelé disputou 4 Copas (1958, 1962, 1966, 1970)." },
-          { "text": "Diego Maradona (Argentina)", "isCorrect": false, "explanation": "Incorreto. Maradona disputou 4 Copas (1982, 1986, 1990, 1994)." },
-          { "text": "Lothar Matthäus, Antonio Carbajal, Rafael Márquez, Lionel Messi, Cristiano Ronaldo", "isCorrect": true, "explanation": "Correto! Todos esses cinco jogadores disputaram 5 Copas do Mundo cada." },
-          { "text": "Paolo Maldini (Itália)", "isCorrect": false, "explanation": "Incorreto. Maldini disputou 4 Copas (1990, 1994, 1998, 2002)." }
-        ]
-      },
-      {
-        "question": "Qual foi a primeira Copa do Mundo a ter uma final decidida nos pênaltis?",
-        "options": [
-          { "text": "1982 (Itália x Alemanha Oc.)", "isCorrect": false, "explanation": "Incorreto. A Itália venceu por 3 a 1 no tempo normal." },
-          { "text": "1990 (Alemanha Oc. x Argentina)", "isCorrect": false, "explanation": "Incorreto. A Alemanha venceu por 1 a 0 com um pênalti no tempo normal." },
-          { "text": "1994 (Brasil x Itália)", "isCorrect": true, "explanation": "Correto! Após empate por 0 a 0 na prorrogação, o Brasil venceu por 3 a 2 nos pênaltis." },
-          { "text": "2006 (Itália x França)", "isCorrect": false, "explanation": "Incorreto. Foi a segunda final decidida nos pênaltis." }
-        ]
-      },
-      {
-        "question": "Qual país se tornou o primeiro asiático a chegar a uma semifinal de Copa do Mundo?",
-        "options": [
-          { "text": "Japão", "isCorrect": false, "explanation": "Incorreto. O Japão chegou às oitavas em 2002, 2010, 2018 e 2022." },
-          { "text": "Arábia Saudita", "isCorrect": false, "explanation": "Incorreto. A Arábia Saudita chegou às oitavas em 1994." },
-          { "text": "Coreia do Sul", "isCorrect": true, "explanation": "Correto! Co-anfitriã em 2002, a Coreia do Sul fez uma campanha surpreendente e chegou à semifinal, terminando em 4º lugar." },
-          { "text": "Irã", "isCorrect": false, "explanation": "Incorreto. O Irã nunca passou da fase de grupos." }
-        ]
-      },
-      {
-        "question": "Qual foi a Copa do Mundo com a maior média de gols por partida?",
-        "options": [
-          { "text": "1950 (Brasil)", "isCorrect": false, "explanation": "Incorreto. Teve média de 4 gols por jogo." },
-          { "text": "1954 (Suíça)", "isCorrect": true, "explanation": "Correto! Esta edição teve uma média impressionante de 5,38 gols por partida." },
-          { "text": "1970 (México)", "isCorrect": false, "explanation": "Incorreto. Teve média de 2,97 gols por jogo." },
-          { "text": "2014 (Brasil)", "isCorrect": false, "explanation": "Incorreto. Teve média de 2,67 gols por jogo." }
-        ]
-      },
-      {
-        "question": "Qual o nome do prêmio dado ao melhor goleiro da Copa do Mundo?",
-        "options": [
-          { "text": "Chuteira de Ouro", "isCorrect": false, "explanation": "Incorreto. Prêmio para o artilheiro." },
-          { "text": "Bola de Ouro", "isCorrect": false, "explanation": "Incorreto. Prêmio para o melhor jogador." },
-          { "text": "Luva de Ouro (anteriormente Prêmio Yashin)", "isCorrect": true, "explanation": "Correto! Premiação oficializada em 1994 como Prêmio Yashin, renomeada para Luva de Ouro em 2010." },
-          { "text": "Troféu Fair Play", "isCorrect": false, "explanation": "Incorreto. Prêmio para a equipe mais disciplinada." }
-        ]
-      },
-       {
-        "question": "Qual seleção detém o recorde de maior número de gols marcados em uma única Copa do Mundo?",
-        "options": [
-          { "text": "Brasil (1970)", "isCorrect": false, "explanation": "Incorreto. O Brasil marcou 19 gols em 1970." },
-          { "text": "Alemanha (2014)", "isCorrect": false, "explanation": "Incorreto. A Alemanha marcou 18 gols em 2014." },
-          { "text": "Hungria (1954)", "isCorrect": true, "explanation": "Correto! A poderosa seleção húngara marcou incríveis 27 gols em apenas 5 jogos." },
-          { "text": "França (1958)", "isCorrect": false, "explanation": "Incorreto. A França marcou 23 gols em 1958, com 13 de Just Fontaine." }
-        ]
-      },
-      {
-        "question": "Qual Copa do Mundo ficou marcada pelo escândalo de arbitragem conhecido como 'Apito Dourado' envolvendo a seleção anfitriã?",
-        "options": [
-          { "text": "1966 (Inglaterra)", "isCorrect": false, "explanation": "Incorreto. Houve polêmica no gol da final, mas não um escândalo generalizado." },
-          { "text": "1978 (Argentina)", "isCorrect": false, "explanation": "Incorreto. Houve suspeitas sobre a goleada da Argentina sobre o Peru, mas 'Apito Dourado' é outro caso." },
-          { "text": "2002 (Coreia do Sul/Japão)", "isCorrect": true, "explanation": "Correto! A Coreia do Sul foi beneficiada por decisões de arbitragem muito controversas nos jogos contra Itália e Espanha." },
-          { "text": "2006 (Alemanha)", "isCorrect": false, "explanation": "Incorreto. 'Apito Dourado' (Calciopoli) foi um escândalo no futebol italiano, não diretamente na Copa." }
-        ]
-      },
-       {
-        "question": "Qual o único jogador a marcar gols em quatro Copas do Mundo diferentes por seleções diferentes?",
-        "options": [
-          { "text": "Miroslav Klose (Alemanha)", "isCorrect": false, "explanation": "Incorreto. Klose marcou em 4 Copas, mas sempre pela Alemanha." },
-          { "text": "Pelé (Brasil)", "isCorrect": false, "explanation": "Incorreto. Pelé marcou em 4 Copas, mas sempre pelo Brasil." },
-          { "text": "Cristiano Ronaldo (Portugal)", "isCorrect": false, "explanation": "Incorreto. CR7 marcou em 5 Copas, mas sempre por Portugal." },
-          { "text": "Nenhum jogador realizou este feito.", "isCorrect": true, "explanation": "Correto! Vários jogadores marcaram em 4 ou 5 Copas, mas sempre pela mesma seleção nacional." }
-        ]
-      },
-      {
-        "question": "Qual a nacionalidade do árbitro que validou o gol 'Mano de Dios' de Maradona em 1986?",
-        "options": [
-          { "text": "Brasileiro", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "Inglês", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "Tunisiano", "isCorrect": true, "explanation": "Correto! O árbitro foi Ali Bin Nasser, da Tunísia." },
-          { "text": "Mexicano", "isCorrect": false, "explanation": "Incorreto." }
-        ]
-      },
-      {
-        "question": "Qual foi a primeira Copa do Mundo a ter um mascote oficial?",
-        "options": [
-          { "text": "1966 (Inglaterra) - Leão Willie", "isCorrect": true, "explanation": "Correto! Willie, um leão vestindo a camisa do Reino Unido, foi o pioneiro." },
-          { "text": "1970 (México) - Juanito", "isCorrect": false, "explanation": "Incorreto. Juanito foi o segundo mascote." },
-          { "text": "1974 (Alemanha Oc.) - Tip e Tap", "isCorrect": false, "explanation": "Incorreto. Foram os terceiros mascotes." },
-          { "text": "1962 (Chile) - Não houve mascote", "isCorrect": false, "explanation": "Incorreto. A primeira foi em 1966." }
-        ]
-      },
-      {
-        "question": "Qual jogador italiano perdeu o pênalti decisivo na final da Copa de 1994?",
-        "options": [
-          { "text": "Franco Baresi", "isCorrect": false, "explanation": "Incorreto. Baresi também errou, mas não foi o último." },
-          { "text": "Paolo Maldini", "isCorrect": false, "explanation": "Incorreto. Maldini não bateu pênalti naquela disputa." },
-          { "text": "Roberto Baggio", "isCorrect": true, "explanation": "Correto! O craque italiano, conhecido como 'Il Divin Codino', chutou por cima do gol." },
-          { "text": "Daniele Massaro", "isCorrect": false, "explanation": "Incorreto. Massaro teve seu pênalti defendido por Taffarel." }
-        ]
-      },
-      {
-        "question": "Qual país foi o primeiro do Oriente Médio a sediar uma Copa do Mundo?",
-        "options": [
-          { "text": "Arábia Saudita", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "Emirados Árabes Unidos", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "Catar", "isCorrect": true, "explanation": "Correto! O Catar sediou a controversa Copa de 2022, a primeira realizada no final do ano." },
-          { "text": "Irã", "isCorrect": false, "explanation": "Incorreto." }
-        ]
-      },
-      {
-        "question": "Qual jogador detém o recorde de mais gols marcados em finais de Copa do Mundo?",
-        "options": [
-          { "text": "Pelé (Brasil)", "isCorrect": false, "explanation": "Incorreto. Pelé marcou 3 gols em finais (2 em 1958, 1 em 1970)." },
-          { "text": "Zinedine Zidane (França)", "isCorrect": false, "explanation": "Incorreto. Zidane marcou 3 gols em finais (2 em 1998, 1 em 2006)." },
-          { "text": "Geoff Hurst (Inglaterra)", "isCorrect": false, "explanation": "Incorreto. Hurst marcou 3 gols na final de 1966." },
-          { "text": "Kylian Mbappé (França)", "isCorrect": true, "explanation": "Correto! Mbappé marcou 1 gol na final de 2018 e 3 na final de 2022, totalizando 4 gols." }
-        ]
-      },
-      {
-        "question": "Qual foi a primeira Copa do Mundo a utilizar a tecnologia da linha do gol (GLT)?",
-        "options": [
-          { "text": "2006 (Alemanha)", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "2010 (África do Sul)", "isCorrect": false, "explanation": "Incorreto. Houve um gol não validado da Inglaterra contra Alemanha que impulsionou a adoção." },
-          { "text": "2014 (Brasil)", "isCorrect": true, "explanation": "Correto! Após testes em outros torneios, a GLT foi implementada oficialmente na Copa do Brasil." },
-          { "text": "2018 (Rússia)", "isCorrect": false, "explanation": "Incorreto. Em 2018 foi a vez do VAR." }
-        ]
-      },
-      {
-        "question": "Qual seleção chegou a três finais consecutivas de Copa do Mundo?",
-        "options": [
-          { "text": "Brasil (1994, 1998, 2002)", "isCorrect": false, "explanation": "Incorreto. O Brasil chegou a três finais seguidas, mas a Alemanha também." },
-          { "text": "Itália (1934, 1938, 1970)", "isCorrect": false, "explanation": "Incorreto. A Itália não chegou à final em 1950 ou 1954." },
-          { "text": "Alemanha (1982, 1986, 1990)", "isCorrect": true, "explanation": "Correto! A Alemanha Ocidental disputou as finais de 1982 (perdeu para Itália), 1986 (perdeu para Argentina) e 1990 (venceu Argentina). O Brasil também (94, 98, 02)." },
-          { "text": "Argentina (1986, 1990, 2014)", "isCorrect": false, "explanation": "Incorreto. A Argentina não chegou à final em 1994, 1998, 2002, 2006 ou 2010." }
-        ]
-      },
-      {
-        "question": "Qual jogador foi apelidado de 'Fenômeno'?",
-        "options": [
-          { "text": "Romário", "isCorrect": false, "explanation": "Incorreto. Era o 'Baixinho'." },
-          { "text": "Rivaldo", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "Ronaldo", "isCorrect": true, "explanation": "Correto! Ronaldo Nazário de Lima ganhou o apelido pela sua explosão, habilidade e faro de gol avassaladores." },
-          { "text": "Ronaldinho Gaúcho", "isCorrect": false, "explanation": "Incorreto. Era o 'Bruxo'." }
-        ]
-      },
-      {
-        "question": "Qual foi a primeira Copa do Mundo a ter um álbum de figurinhas oficial da Panini?",
-        "options": [
-          { "text": "1966 (Inglaterra)", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "1970 (México)", "isCorrect": true, "explanation": "Correto! A Panini lançou seu primeiro álbum de Copa do Mundo para o torneio no México." },
-          { "text": "1974 (Alemanha Ocidental)", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "1978 (Argentina)", "isCorrect": false, "explanation": "Incorreto." }
-        ]
-      },
-      {
-        "question": "Qual país europeu sediou a Copa do Mundo de 1954?",
-        "options": [
-          { "text": "Suécia", "isCorrect": false, "explanation": "Incorreto. Sediou em 1958." },
-          { "text": "França", "isCorrect": false, "explanation": "Incorreto. Sediou em 1938 e 1998." },
-          { "text": "Suíça", "isCorrect": true, "explanation": "Correto! A Suíça sediou a Copa marcada pelo 'Milagre de Berna'." },
-          { "text": "Inglaterra", "isCorrect": false, "explanation": "Incorreto. Sediou em 1966." }
-        ]
-      },
-       {
-        "question": "Qual jogador marcou o gol conhecido como 'Gol do Século' na Copa de 1986?",
-        "options": [
-          { "text": "Zico (Brasil)", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "Michel Platini (França)", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "Diego Maradona (Argentina)", "isCorrect": true, "explanation": "Correto! No mesmo jogo da 'Mano de Dios' contra a Inglaterra, Maradona driblou meio time inglês desde o meio-campo para marcar." },
-          { "text": "Gary Lineker (Inglaterra)", "isCorrect": false, "explanation": "Incorreto. Lineker foi o artilheiro daquela Copa." }
-        ]
-      },
-      {
-        "question": "Qual a única final de Copa do Mundo que não teve gols (0 a 0 no tempo normal e prorrogação)?",
-        "options": [
-          { "text": "1970 (Brasil x Itália)", "isCorrect": false, "explanation": "Incorreto. Brasil venceu por 4 a 1." },
-          { "text": "1994 (Brasil x Itália)", "isCorrect": true, "explanation": "Correto! A decisão foi para os pênaltis, com vitória brasileira." },
-          { "text": "2006 (Itália x França)", "isCorrect": false, "explanation": "Incorreto. Foi 1 a 1, decidido nos pênaltis." },
-          { "text": "2014 (Alemanha x Argentina)", "isCorrect": false, "explanation": "Incorreto. Foi 0 a 0 no tempo normal, mas 1 a 0 na prorrogação." }
-        ]
-      },
-       {
-        "question": "Qual jogador africano ganhou o prêmio de Melhor Jogador do Mundo da FIFA (antes da unificação com a Bola de Ouro)?",
-        "options": [
-          { "text": "Didier Drogba (Costa do Marfim)", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "Samuel Eto'o (Camarões)", "isCorrect": false, "explanation": "Incorreto. Eto'o ficou em 3º lugar em 2005." },
-          { "text": "George Weah (Libéria)", "isCorrect": true, "explanation": "Correto! Weah venceu o prêmio da FIFA e também a Bola de Ouro em 1995, sendo o único africano a conseguir ambos." },
-          { "text": "Roger Milla (Camarões)", "isCorrect": false, "explanation": "Incorreto." }
-        ]
-      },
-      {
-        "question": "Qual Copa do Mundo foi a primeira a ser realizada em dois países?",
-        "options": [
-          { "text": "1994 (EUA)", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "1998 (França)", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "2002 (Coreia do Sul e Japão)", "isCorrect": true, "explanation": "Correto! Foi a primeira co-organização da história das Copas." },
-          { "text": "2026 (Canadá, México, EUA)", "isCorrect": false, "explanation": "Incorreto. Será a primeira com três países, mas não a primeira co-organizada." }
-        ]
-      },
-      {
-        "question": "Qual jogador inglês é famoso por nunca ter recebido um cartão amarelo ou vermelho na carreira?",
-        "options": [
-          { "text": "Bobby Charlton", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "David Beckham", "isCorrect": false, "explanation": "Incorreto. Beckham foi expulso na Copa de 98." },
-          { "text": "Gary Lineker", "isCorrect": true, "explanation": "Correto! Artilheiro da Copa de 1986, Lineker era conhecido pelo seu fair play exemplar." },
-          { "text": "Alan Shearer", "isCorrect": false, "explanation": "Incorreto." }
-        ]
-      },
-      {
-        "question": "Qual o nome da música oficial da Copa do Mundo de 2010 na África do Sul, cantada por Shakira?",
-        "options": [
-          { "text": "La Copa de la Vida (Ricky Martin)", "isCorrect": false, "explanation": "Incorreto. Música da Copa de 1998." },
-          { "text": "Waka Waka (This Time for Africa)", "isCorrect": true, "explanation": "Correto! A música se tornou um sucesso global." },
-          { "text": "We Are One (Ole Ola) (Pitbull ft. J-Lo & Claudia Leitte)", "isCorrect": false, "explanation": "Incorreto. Música da Copa de 2014." },
-          { "text": "Live It Up (Nicky Jam ft. Will Smith & Era Istrefi)", "isCorrect": false, "explanation": "Incorreto. Música da Copa de 2018." }
-        ]
-      },
-       {
-        "question": "Qual goleiro defendeu dois pênaltis na semifinal da Copa de 1990 entre Argentina e Itália?",
-        "options": [
-          { "text": "Walter Zenga (Itália)", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "Sergio Goycochea (Argentina)", "isCorrect": true, "explanation": "Correto! Goycochea se tornou herói argentino ao defender as cobranças de Donadoni e Serena." },
-          { "text": "Cláudio Taffarel (Brasil)", "isCorrect": false, "explanation": "Incorreto. Taffarel foi herói nos pênaltis em 1994." },
-          { "text": "Bodo Illgner (Alemanha Oc.)", "isCorrect": false, "explanation": "Incorreto." }
-        ]
-      },
-      {
-        "question": "Qual seleção foi a primeira a ser eliminada na fase de grupos sendo a atual campeã?",
-        "options": [
-          { "text": "Brasil (1966)", "isCorrect": true, "explanation": "Correto! Após vencer em 1958 e 1962, o Brasil caiu na primeira fase na Inglaterra." },
-          { "text": "França (2002)", "isCorrect": false, "explanation": "Incorreto. A França foi a segunda, caindo na fase de grupos após vencer em 1998." },
-          { "text": "Itália (2010)", "isCorrect": false, "explanation": "Incorreto. A Itália foi a terceira (campeã em 2006)." },
-          { "text": "Espanha (2014)", "isCorrect": false, "explanation": "Incorreto. A Espanha foi a quarta (campeã em 2010)." }
-        ]
-      },
-       {
-        "question": "Qual jogador marcou o gol de empate da Alemanha Ocidental na final da Copa de 1966, levando o jogo para a prorrogação?",
-        "options": [
-          { "text": "Uwe Seeler", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "Franz Beckenbauer", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "Wolfgang Weber", "isCorrect": true, "explanation": "Correto! Weber marcou nos últimos segundos do tempo normal, empatando em 2 a 2." },
-          { "text": "Helmut Haller", "isCorrect": false, "explanation": "Incorreto. Haller marcou o primeiro gol alemão na final." }
-        ]
-      },
-      {
-        "question": "Qual Copa do Mundo ficou conhecida pelo estilo de jogo defensivo e poucos gols, sendo vencida pela Alemanha Ocidental?",
-        "options": [
-          { "text": "1974 (Alemanha Ocidental)", "isCorrect": false, "explanation": "Incorreto. Teve jogos memoráveis como Holanda x Brasil." },
-          { "text": "1982 (Espanha)", "isCorrect": false, "explanation": "Incorreto. Teve muitos gols e grandes jogos." },
-          { "text": "1990 (Itália)", "isCorrect": true, "explanation": "Correto! A Copa da Itália teve a menor média de gols da história (2,21 por jogo) e foi criticada pelo excesso de faltas e táticas defensivas." },
-          { "text": "1994 (EUA)", "isCorrect": false, "explanation": "Incorreto." }
-        ]
-      },
-      {
-        "question": "Quem foi o técnico da Argentina campeã mundial em 1986?",
-        "options": [
-          { "text": "César Luis Menotti", "isCorrect": false, "explanation": "Incorreto. Menotti foi técnico campeão em 1978." },
-          { "text": "Carlos Bilardo", "isCorrect": true, "explanation": "Correto! Bilardo comandou a equipe liderada por Maradona ao título no México." },
-          { "text": "Alfio Basile", "isCorrect": false, "explanation": "Incorreto. Foi técnico em 1994." },
-          { "text": "Marcelo Bielsa", "isCorrect": false, "explanation": "Incorreto. Foi técnico em 2002." }
-        ]
-      },
-       {
-        "question": "Qual jogador brasileiro foi expulso na semifinal da Copa de 1998 contra a Holanda?",
-        "options": [
-          { "text": "Rivaldo", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "Roberto Carlos", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "Não houve expulsos nesse jogo.", "isCorrect": true, "explanation": "Correto! O jogo foi tenso e decidido nos pênaltis, mas nenhum jogador brasileiro foi expulso." },
-          { "text": "Edmundo", "isCorrect": false, "explanation": "Incorreto. Edmundo foi expulso em outra partida daquela Copa." }
-        ]
-      },
-      {
-        "question": "Qual foi o chamado 'Escândalo de Gijón' na Copa de 1982?",
-        "options": [
-          { "text": "Uma briga entre torcedores.", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "Um jogo de resultado combinado entre Alemanha Ocidental e Áustria.", "isCorrect": true, "explanation": "Correto! A vitória alemã por 1 a 0 classificava ambos e eliminava a Argélia, e o jogo transcorreu de forma pouco competitiva após o gol alemão." },
-          { "text": "Erro grave de arbitragem.", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "Uso de doping por jogadores.", "isCorrect": false, "explanation": "Incorreto." }
-        ]
-      },
-       {
-        "question": "Qual o nome da bola usada na Copa do Mundo de 2010, que gerou muitas críticas dos jogadores?",
-        "options": [
-          { "text": "Fevernova (2002)", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "Teamgeist (2006)", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "Jabulani (2010)", "isCorrect": true, "explanation": "Correto! A Jabulani foi criticada por sua trajetória imprevisível, especialmente pelos goleiros." },
-          { "text": "Brazuca (2014)", "isCorrect": false, "explanation": "Incorreto. A Brazuca foi mais bem recebida." }
-        ]
-      },
-      {
-        "question": "Qual jogador camaronês se tornou o mais velho a marcar um gol em Copas do Mundo, aos 42 anos em 1994?",
-        "options": [
-          { "text": "Samuel Eto'o", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "Roger Milla", "isCorrect": true, "explanation": "Correto! Após brilhar em 1990, Milla voltou em 1994 e marcou contra a Rússia." },
-          { "text": "Patrick Mboma", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "Thomas N'Kono", "isCorrect": false, "explanation": "Incorreto. Era goleiro." }
-        ]
-      },
-       {
-        "question": "Qual país conquistou a Copa do Mundo de 1974, derrotando a Holanda na final?",
-        "options": [
-          { "text": "Brasil", "isCorrect": false, "explanation": "Incorreto. O Brasil ficou em 4º lugar." },
-          { "text": "Itália", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "Argentina", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "Alemanha Ocidental", "isCorrect": true, "explanation": "Correto! Jogando em casa, a Alemanha Ocidental venceu a 'Laranja Mecânica' por 2 a 1 na final em Munique." }
-        ]
-      },
-      {
-        "question": "Qual jogador ganhou a Bola de Ouro (melhor jogador) da Copa do Mundo de 2022?",
-        "options": [
-          { "text": "Kylian Mbappé (França)", "isCorrect": false, "explanation": "Incorreto. Mbappé foi o artilheiro (Chuteira de Ouro) e Bola de Prata." },
-          { "text": "Luka Modric (Croácia)", "isCorrect": false, "explanation": "Incorreto. Modric foi Bola de Bronze." },
-          { "text": "Lionel Messi (Argentina)", "isCorrect": true, "explanation": "Correto! Messi liderou a Argentina ao título e foi eleito o melhor jogador pela segunda vez (a primeira foi em 2014)." },
-          { "text": "Antoine Griezmann (França)", "isCorrect": false, "explanation": "Incorreto." }
-        ]
-      },
-       {
-        "question": "Qual foi a primeira Copa do Mundo a ter a final transmitida em cores pela televisão?",
-        "options": [
-          { "text": "1962 (Chile)", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "1966 (Inglaterra)", "isCorrect": false, "explanation": "Incorreto. Embora testes existissem, a transmissão principal foi P&B." },
-          { "text": "1970 (México)", "isCorrect": true, "explanation": "Correto! A Copa do México foi um marco nas transmissões televisivas, sendo a primeira com ampla cobertura em cores." },
-          { "text": "1974 (Alemanha Ocidental)", "isCorrect": false, "explanation": "Incorreto." }
-        ]
-      },
-      {
-        "question": "Qual seleção europeia foi surpreendente campeã da Eurocopa de 2004?",
-        "options": [
-          { "text": "Portugal", "isCorrect": false, "explanation": "Incorreto. Portugal foi vice-campeão em casa." },
-          { "text": "República Tcheca", "isCorrect": false, "explanation": "Incorreto. Foi semifinalista." },
-          { "text": "Grécia", "isCorrect": true, "explanation": "Correto! Em uma das maiores zebras da história, a Grécia venceu Portugal na final." },
-          { "text": "Holanda", "isCorrect": false, "explanation": "Incorreto. Foi semifinalista." }
-        ]
-      },
-       {
-        "question": "Qual jogador tcheco foi o artilheiro da Copa do Mundo de 1934?",
-        "options": [
-          { "text": "Josef Bican", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "Antonín Puč", "isCorrect": false, "explanation": "Incorreto. Marcou o gol tcheco na final." },
-          { "text": "Oldřich Nejedlý", "isCorrect": true, "explanation": "Correto! Nejedlý marcou 5 gols e foi o artilheiro isolado da competição." },
-          { "text": "František Plánička", "isCorrect": false, "explanation": "Incorreto. Era o lendário goleiro e capitão." }
-        ]
-      },
-      {
-        "question": "Qual seleção sul-americana foi a primeira a vencer uma Copa do Mundo fora de seu continente?",
-        "options": [
-          { "text": "Uruguai (1950, no Brasil)", "isCorrect": true, "explanation": "Correto! O Uruguai venceu a Copa de 1950 no Brasil. (O Brasil venceu na Suécia em 1958, sendo o primeiro fora das Américas)." },
-          { "text": "Brasil (1958, na Suécia)", "isCorrect": false, "explanation": "Incorreto. O Brasil foi o primeiro a vencer na Europa, mas o Uruguai já havia vencido no Brasil." },
-          { "text": "Argentina (1986, no México)", "isCorrect": false, "explanation": "Incorreto." },
-          { "text": "Nenhuma, todas venceram apenas em seu continente.", "isCorrect": false, "explanation": "Incorreto." }
-        ]
-      }
-    ]
+      "question": "Quem marcou o famoso gol de mão conhecido como 'La Mano de Dios' na Copa de 1986?",
+      "options": [
+        {
+          "text": "Pelé",
+          "isCorrect": false,
+          "explanation": "Pelé é o Rei, mas não foi ele! Em 1986, ele já estava aposentado, assistindo as Copas do sofá, provavelmente com um mate na mão."
+        },
+        {
+          "text": "Zico",
+          "isCorrect": false,
+          "explanation": "Nosso Galinho? Não! Zico brilhou em 1986, mas esse gol polêmico não foi dele. Ele prefere os gols de falta!"
+        },
+        {
+          "text": "Diego Maradona",
+          "isCorrect": true,
+          "explanation": "É ele, o gênio argentino! Maradona usou a 'mão de Deus' contra a Inglaterra em 1986, enganando o juiz e virando lenda. E ainda fez o Gol do Século na mesma partida!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Maradona_Mano_de_Dios.jpg/800px-Maradona_Mano_de_Dios.jpg",
+          "imageDescription": "Diego Maradona marcando o gol 'La Mano de Dios' com a mão contra a Inglaterra na Copa de 1986, no México."
+        },
+        {
+          "text": "Lionel Messi",
+          "isCorrect": false,
+          "explanation": "Messi? Em 1986, ele ainda era um bebê! Esse gol é do outro gênio argentino, o Diego, que reinava nos anos 80."
+        }
+      ]
+    },
+    {
+      "question": "Qual seleção africana foi a primeira a chegar às quartas de final de uma Copa do Mundo?",
+      "options": [
+        {
+          "text": "Nigéria",
+          "isCorrect": false,
+          "explanation": "Boa tentativa! A Nigéria chegou às oitavas em 1994, 1998 e 2014, mas nunca passou disso. Faltou um empurrãozinho!"
+        },
+        {
+          "text": "Gana",
+          "isCorrect": false,
+          "explanation": "Quase, Estrelas Negras! Gana chegou às quartas em 2010, mas perdeu nos pênaltis pro Uruguai. Um drama daqueles!"
+        },
+        {
+          "text": "Senegal",
+          "isCorrect": false,
+          "explanation": "Não, mas foi por pouco! Senegal surpreendeu em 2002, chegando às quartas, mas Camarões abriu o caminho antes."
+        },
+        {
+          "text": "Camarões",
+          "isCorrect": true,
+          "explanation": "Isso aí! Em 1990, os Leões Indomáveis, liderados por Roger Milla, dançaram até as quartas na Itália, caindo na prorrogação pra Inglaterra. Que campanha épica!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Roger_Milla_1990.jpg/800px-Roger_Milla_1990.jpg",
+          "imageDescription": "Roger Milla celebrando com sua dança icônica na Copa do Mundo de 1990, liderando Camarões às quartas de final."
+        }
+      ]
+    },
+    {
+      "question": "Quais países sediarão a Copa do Mundo de 2026?",
+      "options": [
+        {
+          "text": "Espanha, Portugal e Marrocos",
+          "isCorrect": false,
+          "explanation": "Calma, essa é a de 2030! Esses três vão dividir a bola, mas com jogos inaugurais na América do Sul. Em 2026, é outro trio!"
+        },
+        {
+          "text": "Arábia Saudita",
+          "isCorrect": false,
+          "explanation": "Não, amigo! A Arábia Saudita tá na fila pra 2034. Em 2026, a festa é mais ao norte!"
+        },
+        {
+          "text": "Argentina, Uruguai e Paraguai",
+          "isCorrect": false,
+          "explanation": "Quase! Esses tentaram 2026, mas vão jogar em 2030. O trio de 2026 já tá definido e é gringo!"
+        },
+        {
+          "text": "Canadá, México e Estados Unidos",
+          "isCorrect": true,
+          "explanation": "Acertou em cheio! Esses três vão fazer a maior Copa da história em 2026, com 48 seleções. Prepare o passaporte e o grito de gol!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/2026_FIFA_World_Cup_logo.png/800px-2026_FIFA_World_Cup_logo.png",
+          "imageDescription": "Logo oficial da Copa do Mundo de 2026, que será sediada por Canadá, México e Estados Unidos."
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador francês foi expulso na final da Copa de 2006 após uma cabeçada?",
+      "options": [
+        {
+          "text": "Thierry Henry",
+          "isCorrect": false,
+          "explanation": "Henry é craque, mas não foi ele! Jogou a final direitinho, sem confusão. O cabeceador foi outro francês!"
+        },
+        {
+          "text": "Zinedine Zidane",
+          "isCorrect": true,
+          "explanation": "É ele! Zizou perdeu a cabeça (literalmente) e deu uma cabeçada em Materazzi na prorrogação. Cartão vermelho na última dança do gênio!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Zidane_headbutt_2006.jpg/800px-Zidane_headbutt_2006.jpg",
+          "imageDescription": "Zinedine Zidane dando a cabeçada em Marco Materazzi durante a final da Copa de 2006, resultando em sua expulsão."
+        },
+        {
+          "text": "Patrick Vieira",
+          "isCorrect": false,
+          "explanation": "Não, Vieira saiu machucado na final. Nada de cartão pra ele, só um ice bag!"
+        },
+        {
+          "text": "Lilian Thuram",
+          "isCorrect": false,
+          "explanation": "Thuram? Não! Ele segurou a defesa francesa firme até o fim, sem arrumar briga."
+        }
+      ]
+    },
+    {
+      "question": "Quantas vezes a Itália venceu a Copa do Mundo?",
+      "options": [
+        {
+          "text": "2",
+          "isCorrect": false,
+          "explanation": "Dois? Tá sonhando, amico! Uruguai e Argentina (antes de 2022) tinham 2, mas a Itália tem mais estrelas na camisa!"
+        },
+        {
+          "text": "3",
+          "isCorrect": false,
+          "explanation": "Quase, mas não! Argentina chegou a 3 em 2022, mas a Itália tá um degrau acima no pódio."
+        },
+        {
+          "text": "4",
+          "isCorrect": true,
+          "explanation": "É tetra, Itália! Com vitórias em 1934, 1938, 1982 e 2006, os azzurri empatam com a Alemanha. Mangia que é campeão!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Italy_2006_World_Cup_champions.jpg/800px-Italy_2006_World_Cup_champions.jpg",
+          "imageDescription": "Seleção italiana celebrando a conquista da Copa do Mundo de 2006, seu quarto título mundial."
+        },
+        {
+          "text": "5",
+          "isCorrect": false,
+          "explanation": "Cinco? Só o Brasil, meu caro! A Itália tá feliz com suas 4 taças, por enquanto."
+        }
+      ]
+    },
+    {
+      "question": "Qual foi a primeira Copa do Mundo a ter 32 seleções participantes?",
+      "options": [
+        {
+          "text": "1994 (EUA)",
+          "isCorrect": false,
+          "explanation": "Não, cowboy! 1994 foi a última com 24 seleções. O formato mudou na Copa seguinte!"
+        },
+        {
+          "text": "1998 (França)",
+          "isCorrect": true,
+          "explanation": "Voilà! A Copa de 1998 introduziu as 32 seleções, com 8 grupos de 4 times. Deu zebra pro Brasil, mas a França sorriu em casa!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/1998_FIFA_World_Cup_logo.png/800px-1998_FIFA_World_Cup_logo.png",
+          "imageDescription": "Logo oficial da Copa do Mundo de 1998, na França, a primeira com 32 seleções participantes."
+        },
+        {
+          "text": "2002 (Coreia/Japão)",
+          "isCorrect": false,
+          "explanation": "Não, amigo! Em 2002, já rolava o formato de 32. O Brasil dançou até o penta!"
+        },
+        {
+          "text": "1990 (Itália)",
+          "isCorrect": false,
+          "explanation": "Nada disso! 1990 ainda tinha 24 seleções. A expansão veio depois, na terra do croissant!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador marcou o gol do título da Espanha na final da Copa de 2010?",
+      "options": [
+        {
+          "text": "David Villa",
+          "isCorrect": false,
+          "explanation": "Villa era um matador, com 5 gols na Copa, mas na final ele passou em branco. O herói foi outro!"
+        },
+        {
+          "text": "Fernando Torres",
+          "isCorrect": false,
+          "explanation": "El Niño entrou na prorrogação, mas não foi o cara do gol. Ele tava mais pra assistente dessa vez!"
+        },
+        {
+          "text": "Andrés Iniesta",
+          "isCorrect": true,
+          "explanation": "Olé! Iniesta marcou aos 116 minutos contra a Holanda, garantindo o primeiro título da Espanha. Um golaço pra história!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Andres_Iniesta_2010_World_Cup_goal.jpg/800px-Andres_Iniesta_2010_World_Cup_goal.jpg",
+          "imageDescription": "Andrés Iniesta comemorando o gol decisivo da Espanha na final da Copa de 2010 contra a Holanda."
+        },
+        {
+          "text": "Xavi Hernández",
+          "isCorrect": false,
+          "explanation": "Xavi foi o maestro, mas não o artilheiro da final. Ele preferiu passar a bola pro Iniesta brilhar!"
+        }
+      ]
+    },
+    {
+      "question": "Em que ano a Inglaterra venceu sua única Copa do Mundo?",
+      "options": [
+        {
+          "text": "1954",
+          "isCorrect": false,
+          "explanation": "Não, mate! Em 1954, a Alemanha Ocidental levou a taça. A Inglaterra ainda tava sonhando!"
+        },
+        {
+          "text": "1966",
+          "isCorrect": true,
+          "explanation": "It’s coming home! Em 1966, em Wembley, a Inglaterra venceu a Alemanha Ocidental por 4 a 2, com um gol polêmico de Geoff Hurst. Até hoje eles cantam!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/England_1966_World_Cup_team.jpg/800px-England_1966_World_Cup_team.jpg",
+          "imageDescription": "Seleção inglesa celebrando a conquista da Copa do Mundo de 1966, em Wembley, seu único título."
+        },
+        {
+          "text": "1970",
+          "isCorrect": false,
+          "explanation": "Nada disso! Em 1970, o Brasil reinou no México. A Inglaterra voltou pra casa mais cedo."
+        },
+        {
+          "text": "1990",
+          "isCorrect": false,
+          "explanation": "Não, amigo! Em 1990, a Alemanha Ocidental venceu. A Inglaterra ficou nas semifinais, chorando nos pênaltis."
+        }
+      ]
+    },
+    {
+      "question": "Qual o nome do mascote da Copa do Mundo de 2014 no Brasil?",
+      "options": [
+        {
+          "text": "Zakumi (Leopardo)",
+          "isCorrect": false,
+          "explanation": "Não, esse é de 2010, na África do Sul! Zakumi trouxe a vibe do safari, mas não veio pro samba."
+        },
+        {
+          "text": "Fuleco (Tatu-bola)",
+          "isCorrect": true,
+          "explanation": "É ele, o tatu mais querido! Fuleco, junção de futebol e ecologia, representou o Brasil e o tatu-bola ameaçado em 2014. Fofo e ecológico!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Fuleco_2014_World_Cup_mascot.jpg/800px-Fuleco_2014_World_Cup_mascot.jpg",
+          "imageDescription": "Fuleco, o mascote tatu-bola da Copa do Mundo de 2014 no Brasil, com design colorido e amigável."
+        },
+        {
+          "text": "Zabivaka (Lobo)",
+          "isCorrect": false,
+          "explanation": "Não, lobo! Zabivaka marcou gols na Rússia em 2018. No Brasil, quem rolou foi outro bichinho!"
+        },
+        {
+          "text": "La'eeb (Lenço)",
+          "isCorrect": false,
+          "explanation": "Nada disso! La’eeb voou no Catar em 2022. Em 2014, a estrela era bem mais brasileira!"
+        }
+      ]
+    },
+    {
+      "question": "Qual seleção foi a adversária do Brasil na final da Copa de 2002?",
+      "options": [
+        {
+          "text": "França",
+          "isCorrect": false,
+          "explanation": "Não, Les Bleus! A França bateu o Brasil em 1998 e caiu em 2006, mas em 2002 não chegou à final."
+        },
+        {
+          "text": "Itália",
+          "isCorrect": false,
+          "explanation": "Nada de azzurri! A Itália enfrentou o Brasil em 1970 e 1994, mas em 2002 ficou pelo caminho."
+        },
+        {
+          "text": "Alemanha",
+          "isCorrect": true,
+          "explanation": "Isso aí! Em Yokohama, o Brasil venceu a Alemanha por 2 a 0, com show de Ronaldo Fenômeno. Penta na bagagem!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Brazil_2002_World_Cup_final.jpg/800px-Brazil_2002_World_Cup_final.jpg",
+          "imageDescription": "Ronaldo comemorando um de seus dois gols na final da Copa de 2002 contra a Alemanha, em Yokohama."
+        },
+        {
+          "text": "Argentina",
+          "isCorrect": false,
+          "explanation": "Brasil x Argentina numa final? Só em sonho! Os hermanos nunca cruzaram o Brasil em uma decisão de Copa."
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador detém o recorde de mais partidas disputadas em Copas do Mundo?",
+      "options": [
+        {
+          "text": "Paolo Maldini (Itália)",
+          "isCorrect": false,
+          "explanation": "Maldini é um monstro, mas não! Ele jogou 23 partidas em 4 Copas. Alguém foi mais longe!"
+        },
+        {
+          "text": "Cristiano Ronaldo (Portugal)",
+          "isCorrect": false,
+          "explanation": "CR7 é máquina, mas parou em 22 jogos em 5 Copas. Faltou um pouquinho pra liderar!"
+        },
+        {
+          "text": "Lionel Messi (Argentina)",
+          "isCorrect": true,
+          "explanation": "É o GOAT! Messi chegou a 26 jogos em 5 Copas na final de 2022, superando Matthäus. O cara não cansa de fazer história!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Lionel_Messi_2022_World_Cup.jpg/800px-Lionel_Messi_2022_World_Cup.jpg",
+          "imageDescription": "Lionel Messi em ação durante a Copa do Mundo de 2022, onde quebrou o recorde de jogos disputados."
+        },
+        {
+          "text": "Lothar Matthäus (Alemanha)",
+          "isCorrect": false,
+          "explanation": "Quase! Matthäus reinou com 25 jogos em 5 Copas, mas Messi passou na frente em 2022."
+        }
+      ]
+    },
+    {
+      "question": "Qual país foi o primeiro a vencer a Copa do Mundo duas vezes consecutivas?",
+      "options": [
+        {
+          "text": "Uruguai",
+          "isCorrect": false,
+          "explanation": "Não, celeste! Uruguai venceu em 1930 e 1950, mas teve uma pausa por causa da guerra. Não foi seguido!"
+        },
+        {
+          "text": "Brasil",
+          "isCorrect": false,
+          "explanation": "Quase, canarinho! O Brasil foi bi em 1958 e 1962, but a Itália chegou lá antes com um bis seguido."
+        },
+        {
+          "text": "Alemanha",
+          "isCorrect": false,
+          "explanation": "Nada disso! A Alemanha nunca venceu duas Copas seguidas. Eles preferem espalhar as taças!"
+        },
+        {
+          "text": "Itália",
+          "isCorrect": true,
+          "explanation": "Forza Italia! Sob o comando de Vittorio Pozzo, os azzurri venceram em 1934 (em casa) e 1938 (na França). Primeiro bicampeão seguido!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Italy_1938_World_Cup_team.jpg/800px-Italy_1938_World_Cup_team.jpg",
+          "imageDescription": "Seleção italiana campeã da Copa do Mundo de 1938, conquistando o segundo título consecutivo."
+        }
+      ]
+    },
+    {
+      "question": "Qual seleção surpreendeu ao chegar na final da Copa de 2018?",
+      "options": [
+        {
+          "text": "Bélgica",
+          "isCorrect": false,
+          "explanation": "A geração de ouro belga brilhou, mas ficou com o bronze em 2018. Chegaram perto, mas não à final!"
+        },
+        {
+          "text": "Marrocos",
+          "isCorrect": false,
+          "explanation": "Não, leões! Marrocos fez história em 2022, chegando à semifinal. Em 2018, a zebra foi outra!"
+        },
+        {
+          "text": "Croácia",
+          "isCorrect": true,
+          "explanation": "Que campanha, Croácia! Liderada por Modric, superaram Dinamarca, Rússia e Inglaterra pra chegar à final. Uma zebra que quase levou a taça!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Croatia_2018_World_Cup_team.jpg/800px-Croatia_2018_World_Cup_team.jpg",
+          "imageDescription": "Seleção croata, liderada por Luka Modric, celebrando sua campanha até a final da Copa de 2018."
+        },
+        {
+          "text": "Suécia",
+          "isCorrect": false,
+          "explanation": "Não, vikings! A Suécia chegou às quartas em 2018, mas caiu pra Inglaterra. A final foi de outro europeu!"
+        }
+      ]
+    },
+    {
+      "question": "Quem foram os artilheiros da Copa do Mundo de 1994?",
+      "options": [
+        {
+          "text": "Romário (Brasil) e Roberto Baggio (Itália)",
+          "isCorrect": false,
+          "explanation": "Quase, craques! Ambos marcaram 5 gols, mas a Chuteira de Ouro foi pra outros dois que foram além!"
+        },
+        {
+          "text": "Jürgen Klinsmann (Alemanha) e Kennet Andersson (Suécia)",
+          "isCorrect": false,
+          "explanation": "Não, amigos! Klinsmann e Andersson também fizeram 5, mas não lideraram a artilharia."
+        },
+        {
+          "text": "Hristo Stoichkov (Bulgária) e Oleg Salenko (Rússia)",
+          "isCorrect": true,
+          "explanation": "Dupla improvável, mas letal! Stoichkov e Salenko dividiram a Chuteira de Ouro com 6 gols cada. Salenko ainda fez 5 num só jogo. Que loucura!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Hristo_Stoichkov_1994.jpg/800px-Hristo_Stoichkov_1994.jpg",
+          "imageDescription": "Hristo Stoichkov em ação na Copa de 1994, onde foi um dos artilheiros com 6 gols."
+        },
+        {
+          "text": "Gabriel Batistuta (Argentina)",
+          "isCorrect": false,
+          "explanation": "Batigol era matador, mas parou em 4 gols. Faltou um pouco pra alcançar os líderes!"
+        }
+      ]
+    },
+    {
+      "question": "Qual o nome oficial do troféu da Copa do Mundo entregue atualmente?",
+      "options": [
+        {
+          "text": "Taça Jules Rimet",
+          "isCorrect": false,
+          "explanation": "Saudades dela! A Jules Rimet foi de 1930 a 1970, até ser roubada no Brasil. Hoje, é outro troféu!"
+        },
+        {
+          "text": "Taça da Copa do Mundo da FIFA",
+          "isCorrect": true,
+          "explanation": "É essa! Desde 1974, a taça desenhada por Silvio Gazzaniga, com duas figuras segurando o globo, é o sonho de todo jogador. Brilha muito!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/FIFA_World_Cup_Trophy.jpg/800px-FIFA_World_Cup_Trophy.jpg",
+          "imageDescription": "Taça da Copa do Mundo da FIFA, usada desde 1974, com design de duas figuras segurando o globo terrestre."
+        },
+        {
+          "text": "Troféu da Vitória Alada",
+          "isCorrect": false,
+          "explanation": "Não, esse era o apelido da Jules Rimet, inspirada na deusa Nike. Hoje, o troféu tem outro charme!"
+        },
+        {
+          "text": "Copa Ouro da FIFA",
+          "isCorrect": false,
+          "explanation": "Inventou essa, né? Não existe Copa Ouro, mas a verdadeira taça é puro ouro mesmo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador marcou o gol mais rápido da história das Copas do Mundo?",
+      "options": [
+        {
+          "text": "Václav Mašek (Tchecoslováquia, 1962)",
+          "isCorrect": false,
+          "explanation": "Quase! Mašek marcou aos 16 segundos em 1962, um recorde na época, mas alguém foi mais ligeiro depois!"
+        },
+        {
+          "text": "Clint Dempsey (EUA, 2014)",
+          "isCorrect": false,
+          "explanation": "Rápido, mas não tanto! Dempsey fez aos 29 segundos em 2014. Bom, mas não é o recorde!"
+        },
+        {
+          "text": "Hakan Şükür (Turquia, 2002)",
+          "isCorrect": true,
+          "explanation": "Relâmpago turco! Şükür marcou com apenas 10,8 segundos contra a Coreia do Sul em 2002, na disputa do terceiro lugar. Nem deu pra piscar!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Hakan_Sukur_2002.jpg/800px-Hakan_Sukur_2002.jpg",
+          "imageDescription": "Hakan Şükür em ação na Copa de 2002, onde marcou o gol mais rápido da história das Copas."
+        },
+        {
+          "text": "Celso Ayala (Paraguai, 1998)",
+          "isCorrect": false,
+          "explanation": "Não, amigo! Ayala até marcou rápido, mas não chegou perto do foguete turco de 2002!"
+        }
+      ]
+    },
+    {
+      "question": "Quantas Copas do Mundo foram canceladas devido à Segunda Guerra Mundial?",
+      "options": [
+        {
+          "text": "Nenhuma",
+          "isCorrect": false,
+          "explanation": "Imagina só! A guerra parou o mundo, e as Copas de 1942 e 1946 foram pro espaço. Nada de futebol nesses anos!"
+        },
+        {
+          "text": "Uma (1942)",
+          "isCorrect": false,
+          "explanation": "Não, foram duas! A Segunda Guerra bagunçou tudo, e 1942 e 1946 ficaram sem torneio."
+        },
+        {
+          "text": "Duas (1942 e 1946)",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! A guerra tirou a bola de campo em 1942 e 1946. O mundo tava mais preocupado com tanques que com gols!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/FIFA_World_Cup_history.jpg/800px-FIFA_World_Cup_history.jpg",
+          "imageDescription": "Linha do tempo histórica das Copas do Mundo, destacando a ausência de torneios em 1942 e 1946 devido à Segunda Guerra."
+        },
+        {
+          "text": "Três (1938, 1942, 1946)",
+          "isCorrect": false,
+          "explanation": "Não, amigo! 1938 rolou na França. Só 1942 e 1946 foram canceladas por causa do caos mundial."
+        }
+      ]
+    },
+    {
+      "question": "Quais são os três únicos homens a vencerem a Copa do Mundo como jogador e como técnico?",
+      "options": [
+        {
+          "text": "Pelé, Beckenbauer e Zidane",
+          "isCorrect": false,
+          "explanation": "Pelé e Zidane são gênios, mas nunca treinaram um time campeão. Só Beckenbauer tá certo nessa lista!"
+        },
+        {
+          "text": "Maradona, Cruyff e Deschamps",
+          "isCorrect": false,
+          "explanation": "Não, amigos! Maradona e Cruyff nunca venceram como técnicos. Deschamps sim, mas os outros dois são diferentes!"
+        },
+        {
+          "text": "Mário Zagallo (Brasil), Franz Beckenbauer (Alemanha) e Didier Deschamps (França)",
+          "isCorrect": true,
+          "explanation": "Trio de ouro! Zagallo (jogador 58/62, técnico 70), Beckenbauer (jogador 74, técnico 90) e Deschamps (jogador 98, técnico 2018). Só os mitos conseguem isso!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Didier_Deschamps_2018.jpg/800px-Didier_Deschamps_2018.jpg",
+          "imageDescription": "Didier Deschamps levantando a taça como técnico da França em 2018, um dos três a vencer como jogador e técnico."
+        },
+        {
+          "text": "Zagallo, Parreira e Scolari",
+          "isCorrect": false,
+          "explanation": "Quase! Zagallo tá certo, mas Parreira e Scolari só venceram como técnicos. Faltaram os craques que jogaram também!"
+        }
+      ]
+    },
+    {
+      "question": "Qual país sediou a Copa do Mundo de 1986 após a desistência da Colômbia?",
+      "options": [
+        {
+          "text": "Brasil",
+          "isCorrect": false,
+          "explanation": "Não, canarinho! O Brasil tava focado em jogar, não em sediar. Outro país pegou a bola em 1986!"
+        },
+        {
+          "text": "Estados Unidos",
+          "isCorrect": false,
+          "explanation": "Nada disso! Os EUA só entraram na dança em 1994. Em 86, a sede foi mais ao sul!"
+        },
+        {
+          "text": "Espanha",
+          "isCorrect": false,
+          "explanation": "Não, amigos! A Espanha sediou em 1982. Em 1986, a taça foi disputada em outro canto!"
+        },
+        {
+          "text": "México",
+          "isCorrect": true,
+          "explanation": "Arriba! O México salvou a pátria em 1986, sediando pela segunda vez após a desistência colombiana. E ainda viu Maradona brilhar!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/1986_FIFA_World_Cup_logo.png/800px-1986_FIFA_World_Cup_logo.png",
+          "imageDescription": "Logo oficial da Copa do Mundo de 1986, sediada pelo México, com design inspirado na cultura local."
+        }
+      ]
+    },
+    {
+      "question": "Qual o apelido da seleção da Holanda, famosa pelo 'Futebol Total' na Copa de 1974?",
+      "options": [
+        {
+          "text": "A Laranja Mecânica",
+          "isCorrect": true,
+          "explanation": "É isso, meus amigos! A Holanda de 1974, com seu uniforme laranja e o jogo revolucionário de Cruyff, ganhou o apelido de Laranja Mecânica. Um time que parecia saído de um filme de ficção!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Netherlands_1974_World_Cup_team.jpg/800px-Netherlands_1974_World_Cup_team.jpg",
+          "imageDescription": "Seleção holandesa de 1974, conhecida como Laranja Mecânica, com Johan Cruyff em destaque."
+        },
+        {
+          "text": "Os Tulipas Voadoras",
+          "isCorrect": false,
+          "explanation": "Haha, tulipas são legais, mas não! Esse apelido é invenção. A Holanda voou mesmo, mas com outro nome mais estiloso!"
+        },
+        {
+          "text": "A Oranje",
+          "isCorrect": false,
+          "explanation": "Quase! Oranje é como chamam a seleção por causa da cor laranja, mas o apelido icônico de 74 é mais cinematográfico!"
+        },
+        {
+          "text": "Os Leões Holandeses",
+          "isCorrect": false,
+          "explanation": "Leões? Não, isso é mais pro escudo! A Holanda de 1974 era uma máquina, não um felino. Errou feio!"
+        }
+      ]
+    },
+    {
+      "question": "Quem foi o goleiro capitão da Itália na conquista da Copa de 2006?",
+      "options": [
+        {
+          "text": "Gianluigi Buffon",
+          "isCorrect": false,
+          "explanation": "Buffon é um monstro no gol, e até foi o melhor goleiro de 2006, mas o capitão era outro. Nada de braçadeira pro Gigi!"
+        },
+        {
+          "text": "Fabio Cannavaro",
+          "isCorrect": true,
+          "explanation": "É ele, o paredão! Cannavaro, zagueiro e capitão, liderou a Itália ao tetra em 2006 e ainda levou o prêmio de Melhor do Mundo. Um chefe em campo!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Fabio_Cannavaro_2006.jpg/800px-Fabio_Cannavaro_2006.jpg",
+          "imageDescription": "Fabio Cannavaro levantando a taça como capitão da Itália na Copa do Mundo de 2006."
+        },
+        {
+          "text": "Francesco Totti",
+          "isCorrect": false,
+          "explanation": "Totti era o rei de Roma, mas não o capitão da Azzurra. Ele brilhava mais fazendo gols que dando ordens!"
+        },
+        {
+          "text": "Alessandro Del Piero",
+          "isCorrect": false,
+          "explanation": "Del Piero? Não! Ele entrava pra resolver, mas a braçadeira de capitão ficou com outro craque em 2006."
+        }
+      ]
+    },
+    {
+      "question": "Qual seleção venceu a Copa do Mundo Feminina da FIFA mais vezes?",
+      "options": [
+        {
+          "text": "Alemanha",
+          "isCorrect": false,
+          "explanation": "As alemãs são feras, com 2 títulos (2003, 2007), mas não são as rainhas absolutas. Outra seleção tem mais!"
+        },
+        {
+          "text": "Noruega",
+          "isCorrect": false,
+          "explanation": "Noruega venceu em 1995, mas só uma vez. Elas jogam bonito, mas o topo é de outra!"
+        },
+        {
+          "text": "Japão",
+          "isCorrect": false,
+          "explanation": "O Japão surpreendeu em 2011, mas foi só um título. A coroa tá com outra potência!"
+        },
+        {
+          "text": "Estados Unidos",
+          "isCorrect": true,
+          "explanation": "É as mina dos EUA! Com 4 taças (1991, 1999, 2015, 2019), a USWNT é a dona do pedaço no futebol feminino. Quem segura?",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/USWNT_2019_World_Cup_celebration.jpg/800px-USWNT_2019_World_Cup_celebration.jpg",
+          "imageDescription": "Seleção feminina dos EUA celebrando a conquista da Copa do Mundo Feminina de 2019, seu quarto título."
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador russo marcou 5 gols em uma única partida na Copa de 1994, um recorde?",
+      "options": [
+        {
+          "text": "Andrei Kanchelskis",
+          "isCorrect": false,
+          "explanation": "Kanchelskis era bom, mas não fez esse milagre! Outro russo roubou a cena naquele jogo histórico."
+        },
+        {
+          "text": "Oleg Salenko",
+          "isCorrect": true,
+          "explanation": "É ele, o cara! Salenko meteu 5 gols na goleada de 6 a 1 da Rússia sobre Camarões em 1994. Ainda dividiu a artilharia da Copa. Que dia!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Oleg_Salenko_1994.jpg/800px-Oleg_Salenko_1994.jpg",
+          "imageDescription": "Oleg Salenko em ação na Copa de 1994, onde marcou 5 gols em uma única partida contra Camarões."
+        },
+        {
+          "text": "Aleksandr Mostovoi",
+          "isCorrect": false,
+          "explanation": "Mostovoi? Não! Ele era craque, mas não teve um dia tão iluminado quanto o colega russo."
+        },
+        {
+          "text": "Valery Karpin",
+          "isCorrect": false,
+          "explanation": "Karpin jogava bem, mas não foi o herói dos 5 gols. Esse feito é de outro!"
+        }
+      ]
+    },
+    {
+      "question": "Qual o nome da bola oficial da Copa do Mundo de 1970, a primeira com painéis pretos e brancos?",
+      "options": [
+        {
+          "text": "Tango",
+          "isCorrect": false,
+          "explanation": "Não, amigo! A Tango veio em 1978, com seus triângulos pretos. Em 1970, a bola era outra estrela!"
+        },
+        {
+          "text": "Questra",
+          "isCorrect": false,
+          "explanation": "Questra? Essa é de 1994! Em 1970, a bola tinha um design que virou ícone mundial."
+        },
+        {
+          "text": "Telstar",
+          "isCorrect": true,
+          "explanation": "É ela, a Telstar! Com 32 painéis (12 pentágonos pretos e 20 hexágonos brancos), foi feita pra brilhar na TV P&B em 1970. Clássico eterno!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Adidas_Telstar_1970.jpg/800px-Adidas_Telstar_1970.jpg",
+          "imageDescription": "Bola Adidas Telstar, usada na Copa do Mundo de 1970, com design icônico de painéis pretos e brancos."
+        },
+        {
+          "text": "Fevernova",
+          "isCorrect": false,
+          "explanation": "Não, essa é de 2002! A Fevernova tinha suas polêmicas, mas a de 1970 é a rainha das bolas!"
+        }
+      ]
+    },
+    {
+      "question": "Qual país foi o primeiro asiático a sediar uma Copa do Mundo (em conjunto)?",
+      "options": [
+        {
+          "text": "China",
+          "isCorrect": false,
+          "explanation": "Não, a China ainda tá na espera! Eles sediaram a Copa Feminina, mas a masculina foi pra outros asiáticos primeiro."
+        },
+        {
+          "text": "Coreia do Sul e Japão",
+          "isCorrect": true,
+          "explanation": "Bingo! Em 2002, Coreia do Sul e Japão dividiram a honra de sediar a primeira Copa na Ásia. E ainda teve o Brasil levando o penta!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/2002_FIFA_World_Cup_logo.png/800px-2002_FIFA_World_Cup_logo.png",
+          "imageDescription": "Logo oficial da Copa do Mundo de 2002, sediada por Coreia do Sul e Japão, a primeira na Ásia."
+        },
+        {
+          "text": "Catar",
+          "isCorrect": false,
+          "explanation": "Quase! O Catar sediou em 2022, mas Coreia e Japão foram os pioneiros asiáticos em 2002."
+        },
+        {
+          "text": "Arábia Saudita",
+          "isCorrect": false,
+          "explanation": "Nada disso! A Arábia Saudita tá na fila pra 2034. Em 2002, a festa foi no Extremo Oriente!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador ganhou a Chuteira de Ouro (artilheiro) na Copa de 2018?",
+      "options": [
+        {
+          "text": "Kylian Mbappé (França)",
+          "isCorrect": false,
+          "explanation": "Mbappé voou em 2018, com 4 gols e o prêmio de Melhor Jovem, mas a artilharia foi de outro craque!"
+        },
+        {
+          "text": "Antoine Griezmann (França)",
+          "isCorrect": false,
+          "explanation": "Griezmann brilhou, com 4 gols e a Bola de Prata, mas não levou a Chuteira de Ouro. Faltou um golzinho!"
+        },
+        {
+          "text": "Harry Kane (Inglaterra)",
+          "isCorrect": true,
+          "explanation": "É o capitão Kane! Com 6 gols na Rússia, ele levou a Chuteira de Ouro em 2018. O homem tava com o pé calibrado!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Harry_Kane_2018_World_Cup.jpg/800px-Harry_Kane_2018_World_Cup.jpg",
+          "imageDescription": "Harry Kane comemorando gol na Copa de 2018, onde foi o artilheiro com 6 gols."
+        },
+        {
+          "text": "Romelu Lukaku (Bélgica)",
+          "isCorrect": false,
+          "explanation": "Lukaku meteu 4 gols, but stayed behind the Englishman. Foi por pouco, gigante belga!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi a primeira Copa do Mundo a usar o VAR (Árbitro Assistente de Vídeo)?",
+      "options": [
+        {
+          "text": "2010 (África do Sul)",
+          "isCorrect": false,
+          "explanation": "Não, amigo! 2010 teve as vuvuzelas e polêmicas, como o gol não validado da Inglaterra, mas nada de VAR ainda!"
+        },
+        {
+          "text": "2014 (Brasil)",
+          "isCorrect": false,
+          "explanation": "Quase! Em 2014, veio a tecnologia da linha do gol, mas o VAR ainda tava no forno, esperando 2018."
+        },
+        {
+          "text": "2018 (Rússia)",
+          "isCorrect": true,
+          "explanation": "É isso! O VAR estreou em 2018, ajudando árbitros com gols, pênaltis e cartões. Teve polêmica, mas também justiça no apito!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/VAR_2018_World_Cup.jpg/800px-VAR_2018_World_Cup.jpg",
+          "imageDescription": "Árbitro revisando lance no VAR durante a Copa do Mundo de 2018, a primeira a usar a tecnologia."
+        },
+        {
+          "text": "2022 (Catar)",
+          "isCorrect": false,
+          "explanation": "Não, o Catar trouxe o impedimento semiautomático, mas o VAR já era velho conhecido desde a Rússia!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador detém o recorde de mais gols em uma única edição de Copa do Mundo?",
+      "options": [
+        {
+          "text": "Eusébio (Portugal, 1966)",
+          "isCorrect": false,
+          "explanation": "Eusébio era um monstro, com 9 gols em 1966, mas o recorde é de outro craque que foi ainda mais longe!"
+        },
+        {
+          "text": "Gerd Müller (Alemanha Oc., 1970)",
+          "isCorrect": false,
+          "explanation": "Der Bomber meteu 10 gols em 1970, mas não é o dono do recorde. Alguém foi mais artilheiro!"
+        },
+        {
+          "text": "Ronaldo (Brasil, 2002)",
+          "isCorrect": false,
+          "explanation": "Fenômeno marcou 8 em 2002, mas o recorde é de uma Copa mais antiga, com um francês endiabrado!"
+        },
+        {
+          "text": "Just Fontaine (França, 1958)",
+          "isCorrect": true,
+          "explanation": "É ele! Fontaine marcou incríveis 13 gols em apenas 6 jogos na Copa de 1958. Um recorde que parece imbatível. Chapeau!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Just_Fontaine_1958.jpg/800px-Just_Fontaine_1958.jpg",
+          "imageDescription": "Just Fontaine em ação na Copa de 1958, onde marcou o recorde de 13 gols em uma única edição."
+        }
+      ]
+    },
+    {
+      "question": "Qual seleção venceu a Copa do Mundo de 1954, sediada na Suíça?",
+      "options": [
+        {
+          "text": "Hungria",
+          "isCorrect": false,
+          "explanation": "Quase! A Hungria era o time mágico, favorito, mas perdeu a final no Milagre de Berna. Que zebra!"
+        },
+        {
+          "text": "Alemanha Ocidental",
+          "isCorrect": true,
+          "explanation": "É isso! A Alemanha Ocidental venceu a Hungria por 3 a 2 em 1954, no Milagre de Berna. Primeiro título deles, contra todos os prognósticos!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Germany_1954_World_Cup_team.jpg/800px-Germany_1954_World_Cup_team.jpg",
+          "imageDescription": "Seleção da Alemanha Ocidental celebrando a vitória no Milagre de Berna, na Copa de 1954."
+        },
+        {
+          "text": "Áustria",
+          "isCorrect": false,
+          "explanation": "A Áustria ficou em terceiro, mas não levou a taça. A final foi entre gigantes!"
+        },
+        {
+          "text": "Uruguai",
+          "isCorrect": false,
+          "explanation": "O Uruguai brilhou em 1950, mas em 1954 ficou em quarto. A taça foi pro milagre alemão!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador ganhou a Chuteira de Ouro na Copa do Mundo de 2002?",
+      "options": [
+        {
+          "text": "Rivaldo (Brasil)",
+          "isCorrect": false,
+          "explanation": "Rivaldo marcou 5 gols, incluindo um golaço contra a Inglaterra, but o artilheiro foi outro brasileiro!"
+        },
+        {
+          "text": "Miroslav Klose (Alemanha)",
+          "isCorrect": false,
+          "explanation": "Klose também fez 5, mas ficou em segundo. O topo foi de um Fenômeno!"
+        },
+        {
+          "text": "Ronaldo (Brasil)",
+          "isCorrect": true,
+          "explanation": "É o Fenômeno! Ronaldo marcou 8 gols em 2002, incluindo dois na final contra a Alemanha. Levou a Chuteira de Ouro e o penta pro Brasil!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Ronaldo_2002_World_Cup_final.jpg/800px-Ronaldo_2002_World_Cup_final.jpg",
+          "imageDescription": "Ronaldo comemorando seus gols na final da Copa de 2002, onde foi o artilheiro com 8 gols."
+        },
+        {
+          "text": "Michael Ballack (Alemanha)",
+          "isCorrect": false,
+          "explanation": "Ballack era o maestro, mas não o artilheiro. O cara dos gols era brasileiro!"
+        }
+      ]
+    },
+    {
+      "question": "Qual o nome do mascote da Copa do Mundo de 1998 na França?",
+      "options": [
+        {
+          "text": "Pique",
+          "isCorrect": false,
+          "explanation": "Não, Pique é o mexicano de 1986! Em 1998, o mascote tinha um jeitão bem francês!"
+        },
+        {
+          "text": "Footix",
+          "isCorrect": true,
+          "explanation": "É o Footix, o galo! Com as cores da França e um charme parisiense, ele animou a Copa de 1998. Allez les Bleus!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Footix_1998_World_Cup_mascot.jpg/800px-Footix_1998_World_Cup_mascot.jpg",
+          "imageDescription": "Footix, o galo mascote da Copa do Mundo de 1998 na França, com design nas cores da bandeira francesa."
+        },
+        {
+          "text": "Fuleco",
+          "isCorrect": false,
+          "explanation": "Fuleco? Esse é o tatu-bola de 2014! Em 98, o mascote era um bicho mais emplumado!"
+        },
+        {
+          "text": "Zakumi",
+          "isCorrect": false,
+          "explanation": "Não, Zakumi é o leopardo de 2010! O de 1998 era bem mais... galináceo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual seleção venceu a Copa do Mundo de 1962 no Chile?",
+      "options": [
+        {
+          "text": "Argentina",
+          "isCorrect": false,
+          "explanation": "Não, hermanos! A Argentina caiu na primeira fase em 1962. O título ficou com outro sul-americano!"
+        },
+        {
+          "text": "Tchecoslováquia",
+          "isCorrect": false,
+          "explanation": "Quase! A Tchecoslováquia chegou à final, mas perdeu pro timaço que dominou o Chile!"
+        },
+        {
+          "text": "Brasil",
+          "isCorrect": true,
+          "explanation": "É bicampeão! Mesmo sem Pelé, machucado, o Brasil de Garrincha e Vavá venceu a Tchecoslováquia por 3 a 1 em 1962. Show canarinho!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Brazil_1962_World_Cup_team.jpg/800px-Brazil_1962_World_Cup_team.jpg",
+          "imageDescription": "Seleção brasileira celebrando o bicampeonato na Copa do Mundo de 1962, no Chile."
+        },
+        {
+          "text": "Chile",
+          "isCorrect": false,
+          "explanation": "O Chile, anfitrião, ficou em terceiro, mas a taça foi pro Brasil, que não tomou conhecimento!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador marcou o gol da vitória da Argentina na final da Copa de 1986?",
+      "options": [
+        {
+          "text": "Diego Maradona",
+          "isCorrect": false,
+          "explanation": "Maradona era o dono do jogo, mas não marcou o gol decisivo. Ele preferiu assistir o show do companheiro!"
+        },
+        {
+          "text": "Gabriel Batistuta",
+          "isCorrect": false,
+          "explanation": "Batigol? Não! Ele só brilhou depois, nos anos 90. Em 86, outro argentino fechou a conta!"
+        },
+        {
+          "text": "Jorge Burruchaga",
+          "isCorrect": true,
+          "explanation": "É o Burruchaga! Ele marcou o gol decisivo aos 86 minutos, garantindo a vitória por 3 a 2 contra a Alemanha em 1986. Herói argentino!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Jorge_Burruchaga_1986_goal.jpg/800px-Jorge_Burruchaga_1986_goal.jpg",
+          "imageDescription": "Jorge Burruchaga comemorando o gol decisivo da Argentina na final da Copa de 1986 contra a Alemanha."
+        },
+        {
+          "text": "Ángel Di María",
+          "isCorrect": false,
+          "explanation": "Di María? Ele era criança em 86! O gol da vitória foi de um cara bem menos badalado!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi a primeira Copa do Mundo realizada fora da Europa e América do Sul?",
+      "options": [
+        {
+          "text": "1950 (Brasil)",
+          "isCorrect": false,
+          "explanation": "Não, 1950 foi na América do Sul! O Brasil sediou, mas a primeira fora do eixo foi bem depois!"
+        },
+        {
+          "text": "1970 (México)",
+          "isCorrect": false,
+          "explanation": "Quase, mas o México ainda é América. A primeira fora da Europa e América do Sul veio mais tarde!"
+        },
+        {
+          "text": "2002 (Coreia do Sul e Japão)",
+          "isCorrect": true,
+          "explanation": "É isso! A Copa de 2002, dividida entre Coreia do Sul e Japão, foi a primeira na Ásia, quebrando o domínio euro-sul-americano. E o Brasil levou o penta!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/2002_FIFA_World_Cup_logo.png/800px-2002_FIFA_World_Cup_logo.png",
+          "imageDescription": "Logo oficial da Copa do Mundo de 2002, sediada por Coreia do Sul e Japão, a primeira fora da Europa e América do Sul."
+        },
+        {
+          "text": "2010 (África do Sul)",
+          "isCorrect": false,
+          "explanation": "Não, a África do Sul veio depois, em 2010. A Ásia abriu as portas em 2002!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador ganhou a Bola de Ouro na Copa do Mundo de 2006?",
+      "options": [
+        {
+          "text": "Fabio Cannavaro (Itália)",
+          "isCorrect": false,
+          "explanation": "Cannavaro foi monstro na zaga e levou a Bola de Ouro da FIFA no ano, mas na Copa o prêmio foi de outro!"
+        },
+        {
+          "text": "Zinedine Zidane (França)",
+          "isCorrect": true,
+          "explanation": "É o Zizou! Mesmo com a cabeçada em Materazzi, Zidane foi eleito o melhor da Copa de 2006, liderando a França até a final. Gênio até no adeus!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Zidane_2006_World_Cup.jpg/800px-Zidane_2006_World_Cup.jpg",
+          "imageDescription": "Zinedine Zidane em ação na Copa de 2006, onde foi eleito o melhor jogador, ganhando a Bola de Ouro."
+        },
+        {
+          "text": "Andrea Pirlo (Itália)",
+          "isCorrect": false,
+          "explanation": "Pirlo era o maestro, mas não levou a Bola de Ouro. O prêmio foi pro francês que brilhou (e cabeceou)!"
+        },
+        {
+          "text": "Thierry Henry (França)",
+          "isCorrect": false,
+          "explanation": "Henry era craque, mas não o destaque máximo. O ouro foi pro companheiro de seleção!"
+        }
+      ]
+    },
+    {
+      "question": "Qual seleção venceu a Copa do Mundo de 1934, sediada na Itália?",
+      "options": [
+        {
+          "text": "Tchecoslováquia",
+          "isCorrect": false,
+          "explanation": "Quase! A Tchecoslováquia chegou à final, but lost to the home team that played with everything!"
+        },
+        {
+          "text": "Alemanha",
+          "isCorrect": false,
+          "explanation": "Não, a Alemanha ficou em terceiro. A taça de 1934 foi pro país da casa!"
+        },
+        {
+          "text": "Itália",
+          "isCorrect": true,
+          "explanation": "Forza Italia! Em casa, a Itália venceu a Tchecoslováquia por 2 a 1 na prorrogação em 1934, conquistando seu primeiro título. Mussolini vibrou!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Italy_1934_World_Cup_team.jpg/800px-Italy_1934_World_Cup_team.jpg",
+          "imageDescription": "Seleção italiana celebrando a conquista da Copa do Mundo de 1934, seu primeiro título, em casa."
+        },
+        {
+          "text": "Áustria",
+          "isCorrect": false,
+          "explanation": "A Áustria, com seu Wunderteam, caiu na semifinal. A Itália mandou em 1934!"
+        }
+      ]
+    },
+    {
+      "question": "Qual o nome do estádio onde o Brasil venceu a Alemanha na final da Copa de 2002?",
+      "options": [
+        {
+          "text": "Estádio Maracanã (Rio de Janeiro)",
+          "isCorrect": false,
+          "explanation": "Não, o Maracanã é nosso orgulho, mas a final de 2002 foi na Ásia, bem longe do Rio!"
+        },
+        {
+          "text": "Estádio Internacional de Yokohama (Japão)",
+          "isCorrect": true,
+          "explanation": "É isso! Em Yokohama, o Brasil venceu a Alemanha por 2 a 0, com Ronaldo brilhando. O penta veio no Japão com muito samba!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Yokohama_Stadium_2002_final.jpg/800px-Yokohama_Stadium_2002_final.jpg",
+          "imageDescription": "Estádio Internacional de Yokohama, palco da final da Copa de 2002, onde o Brasil venceu a Alemanha."
+        },
+        {
+          "text": "Estádio Nacional de Tóquio (Japão)",
+          "isCorrect": false,
+          "explanation": "Não, Tóquio não viu a final! Outro estádio japonês foi o palco do penta!"
+        },
+        {
+          "text": "Estádio de Seul (Coreia do Sul)",
+          "isCorrect": false,
+          "explanation": "Seul teve jogos, mas a final foi em outro canto. Yokohama foi o lugar do show brasileiro!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador marcou o gol da vitória da Itália na final da Copa de 2006?",
+      "options": [
+        {
+          "text": "Marco Materazzi",
+          "isCorrect": false,
+          "explanation": "Materazzi marcou, mas foi de cabeça no empate. A vitória veio nos pênaltis, e ele não foi o herói final!"
+        },
+        {
+          "text": "Fabio Grosso",
+          "isCorrect": true,
+          "explanation": "É o Grosso! Ele converteu o pênalti decisivo na disputa contra a França, garantindo o tetra da Itália em 2006. Um lateral que virou lenda!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Fabio_Grosso_2006_penalty.jpg/800px-Fabio_Grosso_2006_penalty.jpg",
+          "imageDescription": "Fabio Grosso comemorando o pênalti decisivo da Itália na final da Copa de 2006 contra a França."
+        },
+        {
+          "text": "Andrea Pirlo",
+          "isCorrect": false,
+          "explanation": "Pirlo bateu pênalti com classe, mas o gol da vitória foi de outro italiano. O maestro abriu o caminho!"
+        },
+        {
+          "text": "Francesco Totti",
+          "isCorrect": false,
+          "explanation": "Totti era craque, mas não foi o cara do pênalti final. Outro azzurro fechou a conta!"
+        }
+      ]
+    },
+    {
+      "question": "Qual seleção sul-americana chegou às quartas de final da Copa de 2018?",
+      "options": [
+        {
+          "text": "Argentina",
+          "isCorrect": false,
+          "explanation": "Não, hermanos! A Argentina caiu nas oitavas pra França. Outra sul-americana foi mais longe!"
+        },
+        {
+          "text": "Uruguai",
+          "isCorrect": true,
+          "explanation": "É a Celeste! O Uruguai, com Cavani e Suárez, chegou às quartas em 2018, mas perdeu pra França. Boa campanha dos charruas!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Uruguay_2018_World_Cup_team.jpg/800px-Uruguay_2018_World_Cup_team.jpg",
+          "imageDescription": "Seleção uruguaia em ação na Copa de 2018, onde chegou às quartas de final."
+        },
+        {
+          "text": "Chile",
+          "isCorrect": false,
+          "explanation": "Não, o Chile nem se classificou pra 2018! A vaga nas quartas foi de outro sul-americano!"
+        },
+        {
+          "text": "Paraguai",
+          "isCorrect": false,
+          "explanation": "Paraguai? Não! Eles ficaram fora da Copa de 2018. O Uruguai representou a América do Sul!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador ganhou a Chuteira de Ouro na Copa do Mundo de 1970?",
+      "options": [
+        {
+          "text": "Pelé (Brasil)",
+          "isCorrect": false,
+          "explanation": "O Rei Pelé era o cara, mas marcou 'só' 4 gols em 1970. A artilharia foi pra um alemão matador!"
+        },
+        {
+          "text": "Jairzinho (Brasil)",
+          "isCorrect": false,
+          "explanation": "Furacão Jairzinho fez 7 gols, mas ficou em segundo. Outro craque passou na frente!"
+        },
+        {
+          "text": "Gerd Müller (Alemanha Ocidental)",
+          "isCorrect": true,
+          "explanation": "É o Der Bomber! Gerd Müller meteu 10 gols em 1970, levando a Chuteira de Ouro com uma fome de gol assustadora. Monstro!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Gerd_Muller_1970.jpg/800px-Gerd_Muller_1970.jpg",
+          "imageDescription": "Gerd Müller em ação na Copa de 1970, onde foi o artilheiro com 10 gols."
+        },
+        {
+          "text": "Riva (Itália)",
+          "isCorrect": false,
+          "explanation": "Riva marcou, mas não chegou perto do alemão. Müller dominou em 1970!"
+        }
+      ]
+    },
+    {
+      "question": "Qual seleção venceu a Copa do Mundo de 1990, sediada na Itália?",
+      "options": [
+        {
+          "text": "Argentina",
+          "isCorrect": false,
+          "explanation": "Quase, hermanos! A Argentina chegou à final, mas perdeu pro carrasco alemão. Não foi dessa vez!"
+        },
+        {
+          "text": "Itália",
+          "isCorrect": false,
+          "explanation": "A Itália, anfitriã, ficou em terceiro. Jogou bonito, mas a taça foi pra outro europeu!"
+        },
+        {
+          "text": "Alemanha Ocidental",
+          "isCorrect": true,
+          "explanation": "É tri! A Alemanha Ocidental venceu a Argentina por 1 a 0, com um pênalti de Brehme, em 1990. Sob o comando de Beckenbauer, eles mandaram na Itália!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Germany_1990_World_Cup_team.jpg/800px-Germany_1990_World_Cup_team.jpg",
+          "imageDescription": "Seleção da Alemanha Ocidental celebrando a conquista da Copa do Mundo de 1990, na Itália."
+        },
+        {
+          "text": "Inglaterra",
+          "isCorrect": false,
+          "explanation": "Não, Inglaterra! Eles chegaram às semifinais, mas caíram nos pênaltis pra Alemanha. Quase, mates!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador brasileiro foi expulso na final da Copa de 1998?",
+      "options": [
+        {
+          "text": "Ronaldo",
+          "isCorrect": false,
+          "explanation": "Não, o Fenômeno jogou, mesmo passando mal antes do jogo. Outro brasileiro viu o vermelho!"
+        },
+        {
+          "text": "Rivaldo",
+          "isCorrect": false,
+          "explanation": "Rivaldo era craque, mas não foi expulso. Ficou em campo tentando virar o jogo!"
+        },
+        {
+          "text": "Marcelinho Carioca",
+          "isCorrect": false,
+          "explanation": "Marcelinho? Ele nem tava na Copa! O cara expulso era outro, bem mais polêmico!"
+        },
+        {
+          "text": "Cafu",
+          "isCorrect": true,
+          "explanation": "É o Cafu! O capitão levou cartão vermelho aos 68 minutos na final contra a França, deixando o Brasil com 10. Um dia pra esquecer!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Cafu_1998_World_Cup.jpg/800px-Cafu_1998_World_Cup.jpg",
+          "imageDescription": "Cafu em ação na Copa de 1998, onde foi expulso na final contra a França."
+        }
+      ]
+    },
+    {
+      "question": "Qual o nome do mascote da Copa do Mundo de 2010 na África do Sul?",
+      "options": [
+        {
+          "text": "Fuleco",
+          "isCorrect": false,
+          "explanation": "Não, Fuleco é o tatu-bola de 2014, no Brasil! O de 2010 tinha mais vibe de safari!"
+        },
+        {
+          "text": "Zakumi",
+          "isCorrect": true,
+          "explanation": "É o Zakumi! O leopardo verde e amarelo trouxe a energia africana pra Copa de 2010. Nome perfeito: 'Za' de África do Sul e 'kumi' pra dez!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Zakumi_2010_World_Cup_mascot.jpg/800px-Zakumi_2010_World_Cup_mascot.jpg",
+          "imageDescription": "Zakumi, o leopardo mascote da Copa do Mundo de 2010 na África do Sul, com cores vibrantes."
+        },
+        {
+          "text": "Footix",
+          "isCorrect": false,
+          "explanation": "Não, Footix é o galo de 1998, na França! O de 2010 era bem mais selvagem!"
+        },
+        {
+          "text": "La'eeb",
+          "isCorrect": false,
+          "explanation": "La’eeb voou no Catar em 2022. Em 2010, o mascote era um felino africano!"
+        }
+      ]
+    },
+    {
+      "question": "Qual seleção venceu a Copa do Mundo de 1978, sediada na Argentina?",
+      "options": [
+        {
+          "text": "Brasil",
+          "isCorrect": false,
+          "explanation": "Não, canarinho! O Brasil ficou em terceiro, mas a taça foi pro anfitrião, que jogou com garra!"
+        },
+        {
+          "text": "Holanda",
+          "isCorrect": false,
+          "explanation": "Quase, laranjas! A Holanda chegou à final, mas perdeu na prorrogação. Outra vez vice!"
+        },
+        {
+          "text": "Argentina",
+          "isCorrect": true,
+          "explanation": "É isso, hermanos! A Argentina venceu a Holanda por 3 a 1 em 1978, com Kempes brilhando. Primeiro título em casa, sob olhares de Videla!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Argentina_1978_World_Cup_team.jpg/800px-Argentina_1978_World_Cup_team.jpg",
+          "imageDescription": "Seleção argentina celebrando a conquista da Copa do Mundo de 1978, em casa."
+        },
+        {
+          "text": "Itália",
+          "isCorrect": false,
+          "explanation": "Itália? Não! Eles ficaram em quarto. A festa foi sul-americana em 1978!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador ganhou a Bola de Ouro na Copa do Mundo de 1994?",
+      "options": [
+        {
+          "text": "Roberto Baggio",
+          "isCorrect": false,
+          "explanation": "Baggio, o Divino Rabo de Cavalo, brilhou, mas perdeu o pênalti na final. O ouro foi pra outro!"
+        },
+        {
+          "text": "Hristo Stoichkov",
+          "isCorrect": false,
+          "explanation": "Stoichkov foi artilheiro e levou a Bulgária às semis, mas a Bola de Ouro ficou com um brasileiro!"
+        },
+        {
+          "text": "Romário",
+          "isCorrect": true,
+          "explanation": "É o Baixinho! Romário foi o cara em 1994, marcando 5 gols e liderando o Brasil ao tetra. A Bola de Ouro foi mais que merecida!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Romario_1994_World_Cup.jpg/800px-Romario_1994_World_Cup.jpg",
+          "imageDescription": "Romário comemorando na Copa de 1994, onde foi eleito o melhor jogador, ganhando a Bola de Ouro."
+        },
+        {
+          "text": "Bebeto",
+          "isCorrect": false,
+          "explanation": "Bebeto fez o berço, mas não levou o ouro. O parceiro dele foi o dono do show!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi a primeira Copa do Mundo a usar cartões amarelo e vermelho?",
+      "options": [
+        {
+          "text": "1966 (Inglaterra)",
+          "isCorrect": false,
+          "explanation": "Não, em 1966 ainda não tinha cartões. Só bronca verbal! A novidade veio depois!"
+        },
+        {
+          "text": "1970 (México)",
+          "isCorrect": true,
+          "explanation": "É isso! A Copa de 1970 introduziu os cartões amarelo e vermelho, trazendo mais disciplina (ou quase isso) pro futebol. Uma revolução!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/1970_World_Cup_referee_card.jpg/800px-1970_World_Cup_referee_card.jpg",
+          "imageDescription": "Árbitro mostrando cartão na Copa do Mundo de 1970, a primeira a usar cartões amarelo e vermelho."
+        },
+        {
+          "text": "1974 (Alemanha Ocidental)",
+          "isCorrect": false,
+          "explanation": "Não, em 1974 os cartões já eram moda. A estreia foi no México, quatro anos antes!"
+        },
+        {
+          "text": "1962 (Chile)",
+          "isCorrect": false,
+          "explanation": "Nada disso! Em 1962, ainda era só no grito. Os cartões só apareceram em 1970!"
+        }
+      ]
+    },
+    {
+      "question": "Qual seleção africana chegou às semifinais da Copa do Mundo de 2022?",
+      "options": [
+        {
+          "text": "Gana",
+          "isCorrect": false,
+          "explanation": "Não, as Estrelas Negras caíram na fase de grupos em 2022. Outra seleção africana fez história!"
+        },
+        {
+          "text": "Camarões",
+          "isCorrect": false,
+          "explanation": "Camarões venceu o Brasil, mas não passou da fase de grupos. A zebra veio de outro canto!"
+        },
+        {
+          "text": "Marrocos",
+          "isCorrect": true,
+          "explanation": "É isso! Marrocos, os Leões do Atlas, chocou o mundo em 2022, chegando às semifinais e ficando em quarto. Uma campanha épica!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Morocco_2022_World_Cup_team.jpg/800px-Morocco_2022_World_Cup_team.jpg",
+          "imageDescription": "Seleção marroquina celebrando sua campanha histórica na Copa do Mundo de 2022, chegando às semifinais."
+        },
+        {
+          "text": "Senegal",
+          "isCorrect": false,
+          "explanation": "Senegal chegou às oitavas, mas caiu pra Inglaterra. Marrocos foi o orgulho africano!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador marcou o gol da vitória da França na final da Copa de 1998?",
+      "options": [
+        {
+          "text": "Zinedine Zidane",
+          "isCorrect": false,
+          "explanation": "Zizou marcou dois de cabeça, mas o gol da vitória, o terceiro, foi de outro francês!"
+        },
+        {
+          "text": "Thierry Henry",
+          "isCorrect": false,
+          "explanation": "Henry era jovem e reserva em 98. Não foi ele quem fechou a conta na final!"
+        },
+        {
+          "text": "Emmanuel Petit",
+          "isCorrect": true,
+          "explanation": "É o Petit! Ele marcou o terceiro gol aos 93 minutos, selando o 3 a 0 contra o Brasil em 1998. Um voleio pra história!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Emmanuel_Petit_1998_goal.jpg/800px-Emmanuel_Petit_1998_goal.jpg",
+          "imageDescription": "Emmanuel Petit comemorando o gol da vitória da França na final da Copa de 1998 contra o Brasil."
+        },
+        {
+          "text": "David Trezeguet",
+          "isCorrect": false,
+          "explanation": "Trezeguet? Não! Ele brilhou depois, em 2000. Em 98, outro cara foi o herói!"
+        }
+      ]
+    },
+    {
+      "question": "Qual o nome da bola oficial da Copa do Mundo de 2014 no Brasil?",
+      "options": [
+        {
+          "text": "Telstar",
+          "isCorrect": false,
+          "explanation": "Não, a Telstar é de 1970! Em 2014, a bola tinha um nome bem brasileiro!"
+        },
+        {
+          "text": "Jabulani",
+          "isCorrect": false,
+          "explanation": "Jabulani foi a polêmica de 2010. Em 2014, veio outra, mais amada pelos jogadores!"
+        },
+        {
+          "text": "Brazuca",
+          "isCorrect": true,
+          "explanation": "É a Brazuca! Com cores vibrantes e nome que remete ao gingado brasileiro, ela rolou nos gramados de 2014. Todo mundo quis chutar!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Adidas_Brazuca_2014.jpg/800px-Adidas_Brazuca_2014.jpg",
+          "imageDescription": "Bola Adidas Brazuca, usada na Copa do Mundo de 2014 no Brasil, com design colorido."
+        },
+        {
+          "text": "Fevernova",
+          "isCorrect": false,
+          "explanation": "Fevernova? Essa é de 2002! Em 2014, o Brasil teve sua própria estrela!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador ganhou a Chuteira de Ouro na Copa do Mundo de 2014?",
+      "options": [
+        {
+          "text": "Lionel Messi",
+          "isCorrect": false,
+          "explanation": "Messi levou a Bola de Ouro, mas marcou 'só' 4 gols. A artilharia foi de outro!"
+        },
+        {
+          "text": "Neymar",
+          "isCorrect": false,
+          "explanation": "Neymar também fez 4, mas se machucou nas quartas. O artilheiro jogou até o fim!"
+        },
+        {
+          "text": "James Rodríguez",
+          "isCorrect": true,
+          "explanation": "É o James! O colombiano brilhou com 6 gols em 2014, incluindo um golaço contra o Uruguai. Chuteira de Ouro merecida!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/James_Rodriguez_2014_World_Cup.jpg/800px-James_Rodriguez_2014_World_Cup.jpg",
+          "imageDescription": "James Rodríguez comemorando gol na Copa de 2014, onde foi o artilheiro com 6 gols."
+        },
+        {
+          "text": "Thomas Müller",
+          "isCorrect": false,
+          "explanation": "Müller fez 5, mas ficou em segundo. O colombiano roubou a cena!"
+        }
+      ]
+    },
+    {
+      "question": "Qual seleção venceu a Copa do Mundo de 1982, sediada na Espanha?",
+      "options": [
+        {
+          "text": "Brasil",
+          "isCorrect": false,
+          "explanation": "Não, canarinho! O Brasil de Zico e Sócrates encantou, mas caiu pra Itália nas quartas. A taça foi pros europeus!"
+        },
+        {
+          "text": "Alemanha Ocidental",
+          "isCorrect": false,
+          "explanation": "Quase! A Alemanha chegou à final, mas perdeu pro timaço que dominou a Espanha!"
+        },
+        {
+          "text": "Itália",
+          "isCorrect": true,
+          "explanation": "Forza Italia! A Itália, com Paolo Rossi artilheiro, venceu a Alemanha por 3 a 1 em 1982, conquistando o tri. Um show azzurro!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Italy_1982_World_Cup_team.jpg/800px-Italy_1982_World_Cup_team.jpg",
+          "imageDescription": "Seleção italiana celebrando a conquista da Copa do Mundo de 1982, na Espanha."
+        },
+        {
+          "text": "França",
+          "isCorrect": false,
+          "explanation": "A França ficou em quarto, com um timaço, mas a Itália levou a melhor em 82!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador ganhou a Bola de Ouro na Copa do Mundo de 2018?",
+      "options": [
+        {
+          "text": "Kylian Mbappé",
+          "isCorrect": false,
+          "explanation": "Mbappé voou, mas levou o prêmio de Melhor Jovem. A Bola de Ouro foi pra outro!"
+        },
+        {
+          "text": "Harry Kane",
+          "isCorrect": false,
+          "explanation": "Kane foi o artilheiro, mas não o melhor jogador. O ouro foi pro vice-campeão!"
+        },
+        {
+          "text": "Luka Modrić",
+          "isCorrect": true,
+          "explanation": "É o maestro! Modrić liderou a Croácia até a final em 2018 e levou a Bola de Ouro, mesmo com a derrota pra França. Craque total!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Luka_Modric_2018_World_Cup.jpg/800px-Luka_Modric_2018_World_Cup.jpg",
+          "imageDescription": "Luka Modrić em ação na Copa de 2018, onde foi eleito o melhor jogador, ganhando a Bola de Ouro."
+        },
+        {
+          "text": "Antoine Griezmann",
+          "isCorrect": false,
+          "explanation": "Griezmann brilhou, mas ficou com a Bola de Prata. O ouro foi pro croata!"
+        }
+      ]
+    },
+    {
+      "question": "Qual o nome do estádio onde a Argentina venceu a França na final da Copa de 2022?",
+      "options": [
+        {
+          "text": "Estádio Al Bayt",
+          "isCorrect": false,
+          "explanation": "Não, o Al Bayt teve jogos, mas não a final. Outro estádio foi o palco da decisão!"
+        },
+        {
+          "text": "Estádio Lusail",
+          "isCorrect": true,
+          "explanation": "É isso! No Estádio Lusail, a Argentina venceu a França nos pênaltis em 2022, com Messi e Di María brilhando. Um jogo épico!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Lusail_Stadium_2022_World_Cup_final.jpg/800px-Lusail_Stadium_2022_World_Cup_final.jpg",
+          "imageDescription": "Estádio Lusail, palco da final da Copa do Mundo de 2022, onde a Argentina venceu a França."
+        },
+        {
+          "text": "Estádio 974",
+          "isCorrect": false,
+          "explanation": "O 974 foi criativo, mas não viu a final. Lusail foi o lugar da glória argentina!"
+        },
+        {
+          "text": "Estádio Khalifa",
+          "isCorrect": false,
+          "explanation": "Khalifa teve jogos importantes, mas a final foi em Lusail. Errou por pouco!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador ganhou a Chuteira de Ouro na Copa do Mundo de 2022?",
+      "options": [
+        {
+          "text": "Lionel Messi",
+          "isCorrect": false,
+          "explanation": "Messi marcou 7 gols e levou a Bola de Ouro, mas a artilharia foi de outro craque!"
+        },
+        {
+          "text": "Kylian Mbappé",
+          "isCorrect": true,
+          "explanation": "É o Mbappé! Com 8 gols, incluindo um hat-trick na final de 2022, ele levou a Chuteira de Ouro. Um monstro em campo!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Kylian_Mbappe_2022_World_Cup.jpg/800px-Kylian_Mbappe_2022_World_Cup.jpg",
+          "imageDescription": "Kylian Mbappé comemorando gol na Copa de 2022, onde foi o artilheiro com 8 gols."
+        },
+        {
+          "text": "Ángel Di María",
+          "isCorrect": false,
+          "explanation": "Di María marcou na final, mas não foi o artilheiro. O ouro foi pro francês!"
+        },
+        {
+          "text": "Julian Alvarez",
+          "isCorrect": false,
+          "explanation": "Alvarez fez 4 gols, mas ficou longe do topo. Mbappé dominou em 2022!"
+        }
+      ]
+    },
+    {
+      "question": "Qual seleção venceu a Copa do Mundo de 1938, sediada na França?",
+      "options": [
+        {
+          "text": "Hungria",
+          "isCorrect": false,
+          "explanation": "Quase! A Hungria chegou à final, mas perdeu pro timaço que defendeu o título!"
+        },
+        {
+          "text": "Itália",
+          "isCorrect": true,
+          "explanation": "Forza Italia! A Itália venceu a Hungria por 4 a 2 em 1938, conquistando o bi consecutivo. Sob comando de Pozzo, foram imbatíveis!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Italy_1938_World_Cup_team.jpg/800px-Italy_1938_World_Cup_team.jpg",
+          "imageDescription": "Seleção italiana celebrando a conquista da Copa do Mundo de 1938, na França."
+        },
+        {
+          "text": "Brasil",
+          "isCorrect": false,
+          "explanation": "O Brasil ficou em terceiro, com Leônidas artilheiro, mas a taça foi pros italianos!"
+        },
+        {
+          "text": "França",
+          "isCorrect": false,
+          "explanation": "A França, anfitriã, caiu nas quartas. A Itália dominou em 1938!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador marcou o gol da vitória da Alemanha na final da Copa de 2014?",
+      "options": [
+        {
+          "text": "Thomas Müller",
+          "isCorrect": false,
+          "explanation": "Müller era o cara dos gols, mas não o herói da final. Outro alemão decidiu!"
+        },
+        {
+          "text": "Mario Götze",
+          "isCorrect": true,
+          "explanation": "É o Götze! Ele marcou aos 113 minutos na prorrogação contra a Argentina, garantindo o tetra da Alemanha em 2014. Um golaço!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Mario_Gotze_2014_World_Cup_goal.jpg/800px-Mario_Gotze_2014_World_Cup_goal.jpg",
+          "imageDescription": "Mario Götze comemorando o gol decisivo da Alemanha na final da Copa de 2014 contra a Argentina."
+        },
+        {
+          "text": "Miroslav Klose",
+          "isCorrect": false,
+          "explanation": "Klose era o artilheiro histórico, mas não marcou na final. O herói foi mais jovem!"
+        },
+        {
+          "text": "Toni Kroos",
+          "isCorrect": false,
+          "explanation": "Kroos era o maestro, mas não o autor do gol. Götze roubou a cena!"
+        }
+      ]
+    },
+    {
+      "question": "Qual o nome do mascote da Copa do Mundo de 2006 na Alemanha?",
+      "options": [
+        {
+          "text": "Zakumi",
+          "isCorrect": false,
+          "explanation": "Não, Zakumi é de 2010, na África do Sul! O de 2006 era bem mais germânico!"
+        },
+        {
+          "text": "Goleo VI",
+          "isCorrect": true,
+          "explanation": "É o Goleo VI! O leão com sua bola Pille foi o mascote de 2006, trazendo a vibe alemã pra Copa. Um pouco polêmico, mas inesquecível!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Goleo_VI_2006_World_Cup_mascot.jpg/800px-Goleo_VI_2006_World_Cup_mascot.jpg",
+          "imageDescription": "Goleo VI, o leão mascote da Copa do Mundo de 2006 na Alemanha, com sua bola Pille."
+        },
+        {
+          "text": "Fuleco",
+          "isCorrect": false,
+          "explanation": "Fuleco é o tatu de 2014! Em 2006, o mascote era um felino bem europeu!"
+        },
+        {
+          "text": "Footix",
+          "isCorrect": false,
+          "explanation": "Footix? Esse é de 1998, na França! O de 2006 tinha mais cara de Oktoberfest!"
+        }
+      ]
+    },
+    {
+      "question": "Qual seleção venceu a Copa do Mundo de 1950, sediada no Brasil?",
+      "options": [
+        {
+          "text": "Brasil",
+          "isCorrect": false,
+          "explanation": "Não, canarinho! O Brasil perdeu pro Uruguai no Maracanaço. Uma das maiores zebras da história!"
+        },
+        {
+          "text": "Uruguai",
+          "isCorrect": true,
+          "explanation": "É o Maracanaço! O Uruguai venceu o Brasil por 2 a 1 em 1950, calando o Maracanã e conquistando o bi. Um choque pro futebol!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Uruguay_1950_World_Cup_team.jpg/800px-Uruguay_1950_World_Cup_team.jpg",
+          "imageDescription": "Seleção uruguaia celebrando a vitória no Maracanaço, na Copa do Mundo de 1950, no Brasil."
+        },
+        {
+          "text": "Suécia",
+          "isCorrect": false,
+          "explanation": "A Suécia ficou em terceiro. A final foi entre sul-americanos, e o Uruguai levou!"
+        },
+        {
+          "text": "Espanha",
+          "isCorrect": false,
+          "explanation": "Espanha? Não! Eles ficaram em quarto. O Uruguai roubou a cena em 1950!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador ganhou a Bola de Ouro na Copa do Mundo de 2010?",
+      "options": [
+        {
+          "text": "Andrés Iniesta",
+          "isCorrect": false,
+          "explanation": "Iniesta marcou o gol do título, mas a Bola de Ouro foi pra outro craque da Copa!"
+        },
+        {
+          "text": "Xavi",
+          "isCorrect": false,
+          "explanation": "Xavi foi o maestro, mas não levou o ouro. O prêmio foi pro artilheiro uruguaio!"
+        },
+        {
+          "text": "Diego Forlán",
+          "isCorrect": true,
+          "explanation": "É o Forlán! O uruguaio liderou seu time ao quarto lugar e marcou 5 gols, levando a Bola de Ouro em 2010. Um craque completo!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Diego_Forlan_2010_World_Cup.jpg/800px-Diego_Forlan_2010_World_Cup.jpg",
+          "imageDescription": "Diego Forlán em ação na Copa de 2010, onde foi eleito o melhor jogador, ganhando a Bola de Ouro."
+        },
+        {
+          "text": "Wesley Sneijder",
+          "isCorrect": false,
+          "explanation": "Sneijder fez 5 gols e chegou à final, mas o ouro foi pro uruguaio. Por pouco!"
+        }
+      ]
+    },
+    {
+      "question": "Qual o nome da bola oficial da Copa do Mundo de 2018 na Rússia?",
+      "options": [
+        {
+          "text": "Brazuca",
+          "isCorrect": false,
+          "explanation": "Brazuca foi a bola de 2014, no Brasil! Em 2018, a bola tinha outro nome!"
+        },
+        {
+          "text": "Telstar 18",
+          "isCorrect": true,
+          "explanation": "É a Telstar 18! Inspirada na Telstar de 1970, mas com toque moderno, ela rolou nos gramados russos em 2018. Clássica e tecnológica!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Adidas_Telstar_18.jpg/800px-Adidas_Telstar_18.jpg",
+          "imageDescription": "Bola Adidas Telstar 18, usada na Copa do Mundo de 2018 na Rússia, com design moderno."
+        },
+        {
+          "text": "Jabulani",
+          "isCorrect": false,
+          "explanation": "Jabulani? Essa é de 2010, e os goleiros não gostaram! Em 2018, veio outra!"
+        },
+        {
+          "text": "Fevernova",
+          "isCorrect": false,
+          "explanation": "Fevernova foi em 2002. A de 2018 trouxe de volta um nome clássico!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador marcou o gol da vitória da Espanha na final da Copa de 2010?",
+      "options": [
+        {
+          "text": "David Villa",
+          "isCorrect": false,
+          "explanation": "Villa era o artilheiro, mas não marcou na final. O herói foi outro espanhol!"
+        },
+        {
+          "text": "Xavi",
+          "isCorrect": false,
+          "explanation": "Xavi deu passes incríveis, mas não foi o autor do gol. Ele armou o jogo!"
+        },
+        {
+          "text": "Andrés Iniesta",
+          "isCorrect": true,
+          "explanation": "É o Iniesta! Ele marcou aos 116 minutos na prorrogação contra a Holanda, garantindo o primeiro título da Espanha em 2010. Golaço eterno!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Andres_Iniesta_2010_World_Cup_goal.jpg/800px-Andres_Iniesta_2010_World_Cup_goal.jpg",
+          "imageDescription": "Andrés Iniesta comemorando o gol decisivo da Espanha na final da Copa de 2010 contra a Holanda."
+        },
+        {
+          "text": "Fernando Torres",
+          "isCorrect": false,
+          "explanation": "Torres entrou, mas não marcou. O gol foi do maestro Iniesta!"
+        }
+      ]
+    },
+    {
+      "question": "Qual seleção venceu a Copa do Mundo de 2006, sediada na Alemanha?",
+      "options": [
+        {
+          "text": "França",
+          "isCorrect": false,
+          "explanation": "Quase! A França chegou à final, mas perdeu nos pênaltis pro timaço azzurro!"
+        },
+        {
+          "text": "Itália",
+          "isCorrect": true,
+          "explanation": "Forza Italia! A Itália venceu a França nos pênaltis em 2006, com Grosso selando o tetra. Mesmo com polêmicas, eles levantaram a taça!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Italy_2006_World_Cup_champions.jpg/800px-Italy_2006_World_Cup_champions.jpg",
+          "imageDescription": "Seleção italiana celebrando a conquista da Copa do Mundo de 2006, na Alemanha."
+        },
+        {
+          "text": "Alemanha",
+          "isCorrect": false,
+          "explanation": "A Alemanha, anfitriã, ficou em terceiro. A taça foi pros italianos!"
+        },
+        {
+          "text": "Brasil",
+          "isCorrect": false,
+          "explanation": "Não, canarinho! O Brasil caiu nas quartas pra França. A Itália dominou em 2006!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador ganhou a Bola de Ouro na Copa do Mundo de 2022?",
+      "options": [
+        {
+          "text": "Kylian Mbappé",
+          "isCorrect": false,
+          "explanation": "Mbappé foi o artilheiro, mas a Bola de Ouro foi pro craque que levou a taça!"
+        },
+        {
+          "text": "Lionel Messi",
+          "isCorrect": true,
+          "explanation": "É o GOAT! Messi liderou a Argentina ao título em 2022, com 7 gols e 3 assistências, levando a Bola de Ouro. O rei brilhou no Catar!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Lionel_Messi_2022_World_Cup.jpg/800px-Lionel_Messi_2022_World_Cup.jpg",
+          "imageDescription": "Lionel Messi em ação na Copa de 2022, onde foi eleito o melhor jogador, ganhando a Bola de Ouro."
+        },
+        {
+          "text": "Ángel Di María",
+          "isCorrect": false,
+          "explanation": "Di María marcou na final, mas o ouro foi pro companheiro de seleção!"
+        },
+        {
+          "text": "Antoine Griezmann",
+          "isCorrect": false,
+          "explanation": "Griezmann jogou muito, mas a Bola de Ouro foi pro argentino. Sem chance!"
+        }
+      ]
+    },
+    {
+      "question": "Qual seleção venceu a Copa do Mundo de 1974, sediada na Alemanha Ocidental?",
+      "options": [
+        {
+          "text": "Holanda",
+          "isCorrect": false,
+          "explanation": "Quase! A Laranja Mecânica encantou com o Futebol Total, mas perdeu a final pro anfitrião!"
+        },
+        {
+          "text": "Alemanha Ocidental",
+          "isCorrect": true,
+          "explanation": "É isso! A Alemanha Ocidental venceu a Holanda por 2 a 1 em 1974, com gols de Breitner e Müller. O anfitrião levantou a taça em Munique!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Germany_1974_World_Cup_team.jpg/800px-Germany_1974_World_Cup_team.jpg",
+          "imageDescription": "Seleção da Alemanha Ocidental celebrando a conquista da Copa do Mundo de 1974, em casa."
+        },
+        {
+          "text": "Brasil",
+          "isCorrect": false,
+          "explanation": "Não, canarinho! O Brasil ficou em quarto, sem o brilho de 1970. A taça foi europeia!"
+        },
+        {
+          "text": "Polônia",
+          "isCorrect": false,
+          "explanation": "Polônia surpreendeu, ficando em terceiro, mas a final foi entre Alemanha e Holanda!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador ganhou a Chuteira de Ouro na Copa do Mundo de 1990?",
+      "options": [
+        {
+          "text": "Gary Lineker",
+          "isCorrect": false,
+          "explanation": "Lineker fez 4 gols, mas não foi o artilheiro. O italiano roubou a cena!"
+        },
+        {
+          "text": "Salvatore Schillaci",
+          "isCorrect": true,
+          "explanation": "É o Totò! Schillaci marcou 6 gols em 1990, levando a Chuteira de Ouro e brilhando como surpresa da Itália. Um herói inesperado!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Salvatore_Schillaci_1990.jpg/800px-Salvatore_Schillaci_1990.jpg",
+          "imageDescription": "Salvatore Schillaci comemorando gol na Copa de 1990, onde foi o artilheiro com 6 gols."
+        },
+        {
+          "text": "Jürgen Klinsmann",
+          "isCorrect": false,
+          "explanation": "Klinsmann marcou, mas ficou atrás. O italiano Schillaci dominou em 1990!"
+        },
+        {
+          "text": "Diego Maradona",
+          "isCorrect": false,
+          "explanation": "Maradona era o gênio, mas não o artilheiro. A Chuteira foi pro italiano!"
+        }
+      ]
+    },
+    {
+      "question": "Qual o nome do mascote da Copa do Mundo de 2014 no Brasil?",
+      "options": [
+        {
+          "text": "Zakumi",
+          "isCorrect": false,
+          "explanation": "Não, Zakumi é o leopardo de 2010! O de 2014 tinha mais cara de Brasil!"
+        },
+        {
+          "text": "Fuleco",
+          "isCorrect": true,
+          "explanation": "É o Fuleco! O tatu-bola, símbolo da fauna brasileira, foi o mascote de 2014, trazendo alegria e consciência ambiental pro Mundial!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Fuleco_2014_World_Cup_mascot.jpg/800px-Fuleco_2014_World_Cup_mascot.jpg",
+          "imageDescription": "Fuleco, o tatu-bola mascote da Copa do Mundo de 2014 no Brasil, com design colorido."
+        },
+        {
+          "text": "Goleo VI",
+          "isCorrect": false,
+          "explanation": "Goleo VI é de 2006, na Alemanha! O de 2014 era bem mais brasileiro!"
+        },
+        {
+          "text": "La'eeb",
+          "isCorrect": false,
+          "explanation": "La’eeb voou no Catar em 2022. Em 2014, o mascote era um bicho enrolado!"
+        }
+      ]
+    },
+    {
+      "question": "Qual seleção venceu a Copa do Mundo de 1994, sediada nos Estados Unidos?",
+      "options": [
+        {
+          "text": "Itália",
+          "isCorrect": false,
+          "explanation": "Quase! A Itália chegou à final, mas perdeu nos pênaltis. A taça foi sul-americana!"
+        },
+        {
+          "text": "Brasil",
+          "isCorrect": true,
+          "explanation": "É tetra! O Brasil venceu a Itália nos pênaltis em 1994, com Romário e Bebeto brilhando. Após 24 anos, a taça voltou pro canarinho!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Brazil_1994_World_Cup_team.jpg/800px-Brazil_1994_World_Cup_team.jpg",
+          "imageDescription": "Seleção brasileira celebrando o tetracampeonato na Copa do Mundo de 1994, nos Estados Unidos."
+        },
+        {
+          "text": "Suécia",
+          "isCorrect": false,
+          "explanation": "Suécia ficou em terceiro, mas não chegou à final. O Brasil levou a melhor!"
+        },
+        {
+          "text": "Bulgária",
+          "isCorrect": false,
+          "explanation": "Bulgária surpreendeu, chegando às semis, mas a taça foi pro Brasil!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador marcou o gol da vitória da Inglaterra na final da Copa de 1966?",
+      "options": [
+        {
+          "text": "Bobby Moore",
+          "isCorrect": false,
+          "explanation": "Moore era o capitão, mas não o autor do gol decisivo. Outro inglês fechou a conta!"
+        },
+        {
+          "text": "Geoff Hurst",
+          "isCorrect": true,
+          "explanation": "É o Hurst! Ele marcou um hat-trick, incluindo o gol da vitória na prorrogação contra a Alemanha Ocidental, selando o 4 a 2 em 1966. Lenda!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Geoff_Hurst_1966_World_Cup.jpg/800px-Geoff_Hurst_1966_World_Cup.jpg",
+          "imageDescription": "Geoff Hurst comemorando gol na final da Copa de 1966, onde marcou um hat-trick pela Inglaterra."
+        },
+        {
+          "text": "Martin Peters",
+          "isCorrect": false,
+          "explanation": "Peters marcou, mas não o gol decisivo. Hurst foi o herói do dia!"
+        },
+        {
+          "text": "Bobby Charlton",
+          "isCorrect": false,
+          "explanation": "Charlton era craque, mas não marcou na final. Hurst roubou a cena!"
+        }
+      ]
+    },
+    {
+      "question": "Qual o nome da bola oficial da Copa do Mundo de 2002 na Coreia do Sul e Japão?",
+      "options": [
+        {
+          "text": "Brazuca",
+          "isCorrect": false,
+          "explanation": "Brazuca é de 2014! Em 2002, a bola tinha um nome mais... ardente!"
+        },
+        {
+          "text": "Fevernova",
+          "isCorrect": true,
+          "explanation": "É a Fevernova! Com design futurista e cores vibrantes, a bola de 2002 foi polêmica, mas rolou no penta do Brasil!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Adidas_Fevernova_2002.jpg/800px-Adidas_Fevernova_2002.jpg",
+          "imageDescription": "Bola Adidas Fevernova, usada na Copa do Mundo de 2002 na Coreia do Sul e Japão, com design futurista."
+        },
+        {
+          "text": "Telstar",
+          "isCorrect": false,
+          "explanation": "Telstar é de 1970! Em 2002, a bola era mais moderna e colorida!"
+        },
+        {
+          "text": "Jabulani",
+          "isCorrect": false,
+          "explanation": "Jabulani foi a de 2010, odiada por muitos goleiros! Em 2002, era outra!"
+        }
+      ]
+    },
+    {
+      "question": "Qual seleção venceu a Copa do Mundo de 2018, sediada na Rússia?",
+      "options": [
+        {
+          "text": "Croácia",
+          "isCorrect": false,
+          "explanation": "Quase! A Croácia chegou à final, mas perdeu pro timaço que dominou a Rússia!"
+        },
+        {
+          "text": "França",
+          "isCorrect": true,
+          "explanation": "Allez les Bleus! A França venceu a Croácia por 4 a 2 em 2018, com Mbappé e Griezmann brilhando. Segundo título dos franceses!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/France_2018_World_Cup_champions.jpg/800px-France_2018_World_Cup_champions.jpg",
+          "imageDescription": "Seleção francesa celebrando a conquista da Copa do Mundo de 2018, na Rússia."
+        },
+        {
+          "text": "Bélgica",
+          "isCorrect": false,
+          "explanation": "Bélgica ficou em terceiro, mas a taça foi pros franceses em 2018!"
+        },
+        {
+          "text": "Inglaterra",
+          "isCorrect": false,
+          "explanation": "Inglaterra chegou às semis, mas caiu pra Croácia. A França levou a melhor!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador ganhou a Bola de Ouro na Copa do Mundo de 1998?",
+      "options": [
+        {
+          "text": "Zinedine Zidane",
+          "isCorrect": false,
+          "explanation": "Zizou marcou dois na final, mas a Bola de Ouro foi pro brasileiro que, mesmo sem título, encantou!"
+        },
+        {
+          "text": "Ronaldo",
+          "isCorrect": true,
+          "explanation": "É o Fenômeno! Ronaldo, com 4 gols e jogadas geniais, levou a Bola de Ouro em 1998, apesar da derrota na final. Um monstro aos 21 anos!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Ronaldo_1998_World_Cup.jpg/800px-Ronaldo_1998_World_Cup.jpg",
+          "imageDescription": "Ronaldo em ação na Copa de 1998, onde foi eleito o melhor jogador, ganhando a Bola de Ouro."
+        },
+        {
+          "text": "Thierry Henry",
+          "isCorrect": false,
+          "explanation": "Henry era jovem e reserva. O ouro foi pro brasileiro, não pro francês!"
+        },
+        {
+          "text": "Rivaldo",
+          "isCorrect": false,
+          "explanation": "Rivaldo jogou bem, mas o parceiro Ronaldo foi o destaque máximo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual o nome do estádio onde o Uruguai venceu o Brasil na final da Copa de 1950?",
+      "options": [
+        {
+          "text": "Estádio Centenário",
+          "isCorrect": false,
+          "explanation": "Não, o Centenário é em Montevidéu! A final de 1950 foi no Brasil, num palco icônico!"
+        },
+        {
+          "text": "Maracanã",
+          "isCorrect": true,
+          "explanation": "É o Maracanã! O Uruguai venceu o Brasil por 2 a 1 em 1950, no Maracanaço, chocando 200 mil torcedores. Um marco na história!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Maracana_1950_World_Cup.jpg/800px-Maracana_1950_World_Cup.jpg",
+          "imageDescription": "Estádio do Maracanã lotado durante a final da Copa de 1950, palco do Maracanaço."
+        },
+        {
+          "text": "Pacaembu",
+          "isCorrect": false,
+          "explanation": "Pacaembu teve jogos, mas a final foi no Maracanã. Errou por pouco!"
+        },
+        {
+          "text": "Morumbi",
+          "isCorrect": false,
+          "explanation": "Morumbi? Não! A decisão de 1950 foi no maior estádio do Brasil!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador ganhou a Chuteira de Ouro na Copa do Mundo de 2006?",
+      "options": [
+        {
+          "text": "Zinedine Zidane",
+          "isCorrect": false,
+          "explanation": "Zizou brilhou, mas marcou só 3 gols. A artilharia foi de um alemão!"
+        },
+        {
+          "text": "Miroslav Klose",
+          "isCorrect": true,
+          "explanation": "É o Klose! Com 5 gols em 2006, o alemão levou a Chuteira de Ouro, mostrando faro de artilheiro em casa!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Miroslav_Klose_2006_World_Cup.jpg/800px-Miroslav_Klose_2006_World_Cup.jpg",
+          "imageDescription": "Miroslav Klose comemorando gol na Copa de 2006, onde foi o artilheiro com 5 gols."
+        },
+        {
+          "text": "Ronaldo",
+          "isCorrect": false,
+          "explanation": "Ronaldo fez história, mas em 2006 marcou 3. Klose foi o cara dos gols!"
+        },
+        {
+          "text": "Thierry Henry",
+          "isCorrect": false,
+          "explanation": "Henry marcou 3, mas ficou atrás. O alemão Klose dominou em 2006!"
+        }
+      ]
+    },
+    {
+      "question": "Qual seleção venceu a Copa do Mundo de 2010, sediada na África do Sul?",
+      "options": [
+        {
+          "text": "Holanda",
+          "isCorrect": false,
+          "explanation": "Quase! A Holanda chegou à final, mas perdeu na prorrogação. Terceiro vice!"
+        },
+        {
+          "text": "Espanha",
+          "isCorrect": true,
+          "explanation": "É a Fúria! A Espanha venceu a Holanda por 1 a 0 em 2010, com gol de Iniesta na prorrogação. Primeiro título espanhol, com tiki-taka imbatível!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Spain_2010_World_Cup_champions.jpg/800px-Spain_2010_World_Cup_champions.jpg",
+          "imageDescription": "Seleção espanhola celebrando a conquista da Copa do Mundo de 2010, na África do Sul."
+        },
+        {
+          "text": "Alemanha",
+          "isCorrect": false,
+          "explanation": "Alemanha ficou em terceiro, mas a taça foi pros espanhóis em 2010!"
+        },
+        {
+          "text": "Uruguai",
+          "isCorrect": false,
+          "explanation": "Uruguai chegou às semis, mas a final foi entre Europa. Espanha levou!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador marcou o gol da vitória do Brasil na final da Copa de 2002?",
+      "options": [
+        {
+          "text": "Rivaldo",
+          "isCorrect": false,
+          "explanation": "Rivaldo jogou muito, mas não marcou na final. O herói foi outro brasileiro!"
+        },
+        {
+          "text": "Ronaldo",
+          "isCorrect": true,
+          "explanation": "É o Fenômeno! Ronaldo marcou os dois gols na vitória por 2 a 0 contra a Alemanha em 2002, selando o penta. Volta por cima épica!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Ronaldo_2002_World_Cup_final.jpg/800px-Ronaldo_2002_World_Cup_final.jpg",
+          "imageDescription": "Ronaldo comemorando seus gols na final da Copa de 2002, onde selou a vitória do Brasil."
+        },
+        {
+          "text": "Ronaldinho",
+          "isCorrect": false,
+          "explanation": "Ronaldinho deu show, mas não marcou na final. Ronaldo foi o cara!"
+        },
+        {
+          "text": "Cafu",
+          "isCorrect": false,
+          "explanation": "Cafu levantou a taça, mas não fez gol. O Fenômeno resolveu na final!"
+        }
+      ]
+    },
+    {
+      "question": "Qual o nome do mascote da Copa do Mundo de 2022 no Catar?",
+      "options": [
+        {
+          "text": "Fuleco",
+          "isCorrect": false,
+          "explanation": "Fuleco é de 2014, no Brasil! O de 2022 tinha um toque mais árabe!"
+        },
+        {
+          "text": "La'eeb",
+          "isCorrect": true,
+          "explanation": "É o La’eeb! Inspirado em trajes árabes, o mascote flutuante trouxe a cultura do Catar pra Copa de 2022. Um símbolo de energia e sonho!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Laeeb_2022_World_Cup_mascot.jpg/800px-Laeeb_2022_World_Cup_mascot.jpg",
+          "imageDescription": "La’eeb, o mascote da Copa do Mundo de 2022 no Catar, com design inspirado na cultura árabe."
+        },
+        {
+          "text": "Zakumi",
+          "isCorrect": false,
+          "explanation": "Zakumi é de 2010, na África do Sul! Em 2022, o mascote era mais etéreo!"
+        },
+        {
+          "text": "Goleo VI",
+          "isCorrect": false,
+          "explanation": "Goleo VI é de 2006. O de 2022 trouxe a vibe do deserto!"
+        }
+      ]
+    },
+    {
+      "question": "Qual seleção venceu a Copa do Mundo de 1966, sediada na Inglaterra?",
+      "options": [
+        {
+          "text": "Alemanha Ocidental",
+          "isCorrect": false,
+          "explanation": "Quase! A Alemanha chegou à final, mas perdeu na prorrogação pro anfitrião!"
+        },
+        {
+          "text": "Inglaterra",
+          "isCorrect": true,
+          "explanation": "É isso! A Inglaterra venceu a Alemanha Ocidental por 4 a 2 em 1966, com hat-trick de Hurst. Primeiro e único título dos inventores do futebol!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/England_1966_World_Cup_champions.jpg/800px-England_1966_World_Cup_champions.jpg",
+          "imageDescription": "Seleção inglesa celebrando a conquista da Copa do Mundo de 1966, em casa."
+        },
+        {
+          "text": "Portugal",
+          "isCorrect": false,
+          "explanation": "Portugal ficou em terceiro, com Eusébio artilheiro, mas a taça foi inglesa!"
+        },
+        {
+          "text": "União Soviética",
+          "isCorrect": false,
+          "explanation": "A União Soviética ficou em quarto. A Inglaterra reinou em 1966!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador ganhou a Bola de Ouro na Copa do Mundo de 2002?",
+      "options": [
+        {
+          "text": "Ronaldo",
+          "isCorrect": false,
+          "explanation": "Ronaldo foi o artilheiro, mas a Bola de Ouro foi pro paredão que salvou a Alemanha!"
+        },
+        {
+          "text": "Oliver Kahn",
+          "isCorrect": true,
+          "explanation": "É o Kahn! O goleiro alemão foi gigante em 2002, levando a Bola de Ouro apesar da derrota na final. Único goleiro a ganhar o prêmio!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Oliver_Kahn_2002_World_Cup.jpg/800px-Oliver_Kahn_2002_World_Cup.jpg",
+          "imageDescription": "Oliver Kahn em ação na Copa de 2002, onde foi eleito o melhor jogador, ganhando a Bola de Ouro."
+        },
+        {
+          "text": "Rivaldo",
+          "isCorrect": false,
+          "explanation": "Rivaldo jogou muito, mas o ouro foi pro goleiro alemão, não pro brasileiro!"
+        },
+        {
+          "text": "Ronaldinho",
+          "isCorrect": false,
+          "explanation": "Ronaldinho encantou, mas a Bola de Ouro foi pro monstro do gol alemão!"
+        }
+      ]
+    },
+    {
+      "question": "Qual o nome do estádio onde a Itália venceu a Tchecoslováquia na final da Copa de 1934?",
+      "options": [
+        {
+          "text": "Estádio San Siro",
+          "isCorrect": false,
+          "explanation": "San Siro é icônico, mas não foi o palco da final de 1934. Outro estádio romano!"
+        },
+        {
+          "text": "Estádio Nacional PNF",
+          "isCorrect": true,
+          "explanation": "É isso! O Estádio Nacional PNF, em Roma, viu a Itália vencer a Tchecoslováquia por 2 a 1 na prorrogação em 1934. Um marco pro fascismo na época!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Stadio_Nazionale_PNF_1934.jpg/800px-Stadio_Nazionale_PNF_1934.jpg",
+          "imageDescription": "Estádio Nacional PNF, em Roma, palco da final da Copa do Mundo de 1934."
+        },
+        {
+          "text": "Estádio Olímpico de Roma",
+          "isCorrect": false,
+          "explanation": "Não, o Olímpico veio depois! Em 1934, era outro estádio na capital italiana!"
+        },
+        {
+          "text": "Estádio Artemio Franchi",
+          "isCorrect": false,
+          "explanation": "Franchi? Não! A final foi em Roma, não em Florença. Outro estádio!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador ganhou a Chuteira de Ouro na Copa do Mundo de 1998?",
+      "options": [
+        {
+          "text": "Ronaldo",
+          "isCorrect": false,
+          "explanation": "Ronaldo fez 4 gols, mas a artilharia foi de um croata surpresa!"
+        },
+        {
+          "text": "Davor Šuker",
+          "isCorrect": true,
+          "explanation": "É o Šuker! O croata marcou 6 gols em 1998, levando a Chuteira de Ouro e guiando a Croácia ao terceiro lugar. Um matador!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Davor_Suker_1998_World_Cup.jpg/800px-Davor_Suker_1998_World_Cup.jpg",
+          "imageDescription": "Davor Šuker comemorando gol DontUseInFinalAnswer na Copa de 1998, onde foi o artilheiro com 6 gols."
+        },
+        {
+          "text": "Zinedine Zidane",
+          "isCorrect": false,
+          "explanation": "Zizou marcou 2 na final, mas não foi o artilheiro. O croata dominou!"
+        },
+        {
+          "text": "Gabriel Batistuta",
+          "isCorrect": false,
+          "explanation": "Batigol fez 5, mas ficou em segundo. Šuker levou a Chuteira em 98!"
+        }
+      ]
+    },
+    {
+      "question": "Qual seleção venceu a Copa do Mundo de 2022, sediada no Catar?",
+      "options": [
+        {
+          "text": "França",
+          "isCorrect": false,
+          "explanation": "Quase! A França chegou à final, mas perdeu nos pênaltis pro timaço sul-americano!"
+        },
+        {
+          "text": "Argentina",
+          "isCorrect": true,
+          "explanation": "É isso, hermanos! A Argentina venceu a França nos pênaltis em 2022, com Messi brilhando. Terceiro título e a consagração do GOAT!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Argentina_2022_World_Cup_champions.jpg/800px-Argentina_2022_World_Cup_champions.jpg",
+          "imageDescription": "Seleção argentina celebrando a conquista da Copa do Mundo de 2022, no Catar."
+        },
+        {
+          "text": "Croácia",
+          "isCorrect": false,
+          "explanation": "Croácia ficou em terceiro, mas a taça foi pra Argentina em 2022!"
+        },
+        {
+          "text": "Marrocos",
+          "isCorrect": false,
+          "explanation": "Marrocos fez história nas semis, mas a final foi entre Argentina e França!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador marcou o gol da vitória da França na final da Copa de 2018?",
+      "options": [
+        {
+          "text": "Antoine Griezmann",
+          "isCorrect": false,
+          "explanation": "Griezmann marcou de pênalti, mas o gol da vitória, o quarto, foi de outro francês!"
+        },
+        {
+          "text": "Kylian Mbappé",
+          "isCorrect": true,
+          "explanation": "É o Mbappé! Ele marcou o quarto gol, um chutaço de fora da área, selando o 4 a 2 contra a Croácia em 2018. Um fenômeno aos 19 anos!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Kylian_Mbappe_2018_World_Cup_goal.jpg/800px-Kylian_Mbappe_2018_World_Cup_goal.jpg",
+          "imageDescription": "Kylian Mbappé comemorando o gol da vitória da França na final da Copa de 2018 contra a Croácia."
+        },
+        {
+          "text": "Paul Pogba",
+          "isCorrect": false,
+          "explanation": "Pogba marcou o terceiro, mas o gol decisivo foi do jovem Mbappé!"
+        },
+        {
+          "text": "Olivier Giroud",
+          "isCorrect": false,
+          "explanation": "Giroud jogou, mas não marcou. Mbappé foi o herói do quarto gol!"
+        }
+      ]
+    },
+    {
+      "question": "Qual o nome do estádio onde a Alemanha Ocidental venceu a Hungria na final da Copa de 1954?",
+      "options": [
+        {
+          "text": "Estádio Olímpico de Munique",
+          "isCorrect": false,
+          "explanation": "Não, o Olímpico de Munique veio depois! Em 1954, a final foi na Suíça!"
+        },
+        {
+          "text": "Wankdorf",
+          "isCorrect": true,
+          "explanation": "É o Wankdorf! Em Berna, a Alemanha Ocidental venceu a Hungria por 3 a 2 em 1954, no Milagre de Berna. Um estádio eterno na história!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Wankdorf_Stadium_1954.jpg/800px-Wankdorf_Stadium_1954.jpg",
+          "imageDescription": "Estádio Wankdorf, em Berna, palco da final da Copa do Mundo de 1954, o Milagre de Berna."
+        },
+        {
+          "text": "St. Jakob-Park",
+          "isCorrect": false,
+          "explanation": "St. Jakob teve jogos, mas a final foi no Wankdorf. Errou por pouco!"
+        },
+        {
+          "text": "Hardturm",
+          "isCorrect": false,
+          "explanation": "Hardturm? Não! A decisão de 1954 foi no Wankdorf, em Berna!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador ganhou a Bola de Ouro na Copa do Mundo de 1990?",
+      "options": [
+        {
+          "text": "Diego Maradona",
+          "isCorrect": false,
+          "explanation": "Maradona liderou a Argentina, mas a Bola de Ouro foi pro artilheiro italiano!"
+        },
+        {
+          "text": "Salvatore Schillaci",
+          "isCorrect": true,
+          "explanation": "É o Totò! Schillaci, com 6 gols e atuações incríveis, levou a Bola de Ouro em 1990, sendo a grande surpresa da Itália. Craque!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Salvatore_Schillaci_1990.jpg/800px-Salvatore_Schillaci_1990.jpg",
+          "imageDescription": "Salvatore Schillaci em ação na Copa de 1990, onde foi eleito o melhor jogador, ganhando a Bola de Ouro."
+        },
+        {
+          "text": "Lothar Matthäus",
+          "isCorrect": false,
+          "explanation": "Matthäus foi campeão, mas o ouro foi pro italiano Schillaci. Por pouco!"
+        },
+        {
+          "text": "Gary Lineker",
+          "isCorrect": false,
+          "explanation": "Lineker marcou, mas não brilhou como o italiano. Schillaci levou tudo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual seleção venceu a Copa do Mundo de 1958, sediada na Suécia?",
+      "options": [
+        {
+          "text": "França",
+          "isCorrect": false,
+          "explanation": "França ficou em terceiro, com Fontaine artilheiro, mas a taça foi sul-americana!"
+        },
+        {
+          "text": "Brasil",
+          "isCorrect": true,
+          "explanation": "É isso! O Brasil venceu a Suécia por 5 a 2 em 1958, com Pelé e Garrincha brilhando. Primeiro título canarinho, o início da lenda!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Brazil_1958_World_Cup_team.jpg/800px-Brazil_1958_World_Cup_team.jpg",
+          "imageDescription": "Seleção brasileira celebrando a conquista da Copa do Mundo de 1958, na Suécia."
+        },
+        {
+          "text": "Suécia",
+          "isCorrect": false,
+          "explanation": "Suécia, anfitriã, chegou à final, mas foi atropelada pelo Brasil de Pelé!"
+        },
+        {
+          "text": "Alemanha Ocidental",
+          "isCorrect": false,
+          "explanation": "Alemanha ficou em quarto. O Brasil dominou em 1958!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador ganhou a Chuteira de Ouro na Copa do Mundo de 1966?",
+      "options": [
+        {
+          "text": "Geoff Hurst",
+          "isCorrect": false,
+          "explanation": "Hurst fez hat-trick na final, mas marcou 4 no total. A artilharia foi de um português!"
+        },
+        {
+          "text": "Eusébio",
+          "isCorrect": true,
+          "explanation": "É o Pantera Negra! Eusébio marcou 9 gols em 1966, levando a Chuteira de Ouro e guiando Portugal ao terceiro lugar. Um monstro!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Eusebio_1966_World_Cup.jpg/800px-Eusebio_1966_World_Cup.jpg",
+          "imageDescription": "Eusébio comemorando gol na Copa de 1966, onde foi o artilheiro com 9 gols."
+        },
+        {
+          "text": "Bobby Charlton",
+          "isCorrect": false,
+          "explanation": "Charlton jogou muito, mas não foi o artilheiro. Eusébio dominou!"
+        },
+        {
+          "text": "Helmut Haller",
+          "isCorrect": false,
+          "explanation": "Haller marcou, mas ficou atrás. O português Eusébio levou a Chuteira!"
+        }
+      ]
+    }
+  ]
 }

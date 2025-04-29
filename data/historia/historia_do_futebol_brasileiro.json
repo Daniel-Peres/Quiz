@@ -11,23 +11,2427 @@
         {
           "text": "CR Flamengo",
           "isCorrect": false,
-          "explanation": "Incorreto. O Flamengo foi fundado em 1895 como clube de regatas, aderindo ao futebol em 1911."
+          "explanation": "Nada disso, amigo! O Flamengo, fundado em 1895, começou como clube de regatas, daqueles que remam com estilo. Só em 1911 eles entraram na bola, mas aí já era tarde pra ser o pioneiro. Continue tentando, a glória está logo ali!"
         },
         {
           "text": "SC Corinthians Paulista",
           "isCorrect": false,
-          "explanation": "Incorreto. O Corinthians foi fundado em 1910 por operários."
+          "explanation": "Ops, errou o gol! O Corinthians, criado em 1910 por operários apaixonados, é um gigante, mas não o primeiro. Eles chegaram quando o futebol já tava rolando solto. Tenta de novo, vai!"
         },
         {
           "text": "São Paulo Athletic Club (SPAC)",
           "isCorrect": false,
-          "explanation": "Incorreto. O SPAC (1888) já existia como clube social poliesportivo antes do futebol ser introduzido por Miller."
+          "explanation": "Quase, mas não! O SPAC, de 1888, era um clube chique, com críquete e outras frescuras, antes de abraçar o futebol. Não foi criado só pra bola, então passa a vez. Força na próxima!"
         },
         {
           "text": "Sport Club Rio Grande",
           "isCorrect": true,
-          "explanation": "Correto! Fundado em 19 de julho de 1900 na cidade de Rio Grande (RS), é considerado o 'clube-pai' ou 'Vovô' do futebol brasileiro.",
-          "imageUrl": "images/rio_grande.webp"
+          "explanation": "Gol de placa, meu amigo! Fundado em 19 de julho de 1900, na cidade de Rio Grande (RS), o Sport Club Rio Grande é o 'Vovô' do futebol brasileiro. Enquanto outros clubes remavam ou jogavam críquete, esses gaúchos já chutavam com amor. Parabéns, você é craque!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Sport_Club_Rio_Grande_logo.png/200px-Sport_Club_Rio_Grande_logo.png",
+          "imageDescription": "Logo oficial do Sport Club Rio Grande, com um escudo vermelho e branco, representando o clube mais antigo do Brasil, fundado em 1900."
+        }
+      ]
+    },
+    {
+      "question": "Quem trouxe o futebol para o Brasil, introduzindo as regras oficiais?",
+      "options": [
+        {
+          "text": "Dom Pedro II",
+          "isCorrect": false,
+          "explanation": "Haha, Dom Pedro II era mais de barbas longas e política! Ele até podia gostar de um chazinho, mas futebol? Nem sonhava com isso. A bola chegou bem depois do reinado dele. Tenta outra!"
+        },
+        {
+          "text": "Charles Miller",
+          "isCorrect": true,
+          "explanation": "É isso, meu craque! Charles Miller, um brasileiro com alma inglesa, voltou de Londres em 1894 com uma bola e as regras na cabeça. Ele organizou o primeiro jogo oficial em 1895, em São Paulo, e fez a bola rolar no Brasil. Você é o rei do campo!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Charles_Miller_1910.jpg/200px-Charles_Miller_1910.jpg",
+          "imageDescription": "Fotografia antiga de Charles Miller, em 1910, com uniforme de futebol, representando o pioneiro que trouxe o esporte ao Brasil."
+        },
+        {
+          "text": "Oscar Cox",
+          "isCorrect": false,
+          "explanation": "Quase, mas não! Oscar Cox foi o cara que fundou o Fluminense, em 1902, mas ele chegou depois do pioneiro. O mérito de trazer as regras é de outro. Boa tentativa, segue o jogo!"
+        },
+        {
+          "text": "Thomas Donohoe",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas Thomas Donohoe, um escocês, trouxe o futebol pro Rio em 1894, só que de forma mais improvisada. As regras oficiais vieram com outro cara. Tenta de novo, campeão!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro campeonato de futebol organizado no Brasil?",
+      "options": [
+        {
+          "text": "Campeonato Brasileiro",
+          "isCorrect": false,
+          "explanation": "Nada disso! O Brasileirão só veio em 1959, meu amigo. No comecinho do século XX, o futebol ainda era mais regional. Tenta outra, que a história tá te esperando!"
+        },
+        {
+          "text": "Campeonato Paulista",
+          "isCorrect": true,
+          "explanation": "Gol de letra! O Campeonato Paulista, criado em 1902, foi o primeiro torneio organizado no Brasil, graças à Liga Paulista de Foot-Ball. Times como SPAC e Paulistano disputavam com garra, e você acertou com estilo. Parabéns, craque!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Campeonato_Paulista_1902.jpg/200px-Campeonato_Paulista_1902.jpg",
+          "imageDescription": "Imagem histórica do Campeonato Paulista de 1902, mostrando jogadores em campo, representando o primeiro torneio oficial do Brasil."
+        },
+        {
+          "text": "Campeonato Carioca",
+          "isCorrect": false,
+          "explanation": "Quase lá! O Carioca começou em 1906, mas o Paulista chegou antes, em 1902. Os cariocas são feras, mas São Paulo levou essa taça. Tenta de novo!"
+        },
+        {
+          "text": "Copa do Brasil",
+          "isCorrect": false,
+          "explanation": "Ops, furou a bola! A Copa do Brasil só nasceu em 1989, bem longe dos primórdios do futebol. No início, era outro campeonato que mandava. Vai na próxima!"
+        }
+      ]
+    },
+    {
+      "question": "Qual clube venceu o primeiro Campeonato Paulista, em 1902?",
+      "options": [
+        {
+          "text": "São Paulo Athletic Club (SPAC)",
+          "isCorrect": true,
+          "explanation": "Arrasou, meu amigo! O SPAC, liderado por Charles Miller, levou o primeiro Paulista em 1902, mostrando que sabia chutar e encantar. Era o começo de uma paixão que só cresce. Você é o dono da bola!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/São_Paulo_Athletic_Club_1902.jpg/200px-São_Paulo_Athletic_Club_1902.jpg",
+          "imageDescription": "Foto histórica do time do São Paulo Athletic Club, campeão do primeiro Campeonato Paulista em 1902, com jogadores posando em uniforme."
+        },
+        {
+          "text": "Paulistano",
+          "isCorrect": false,
+          "explanation": "Quase, mas não! O Paulistano era forte, mas quem levou a taça em 1902 foi outro time. Eles tiveram seus dias de glória depois. Tenta de novo, craque!"
+        },
+        {
+          "text": "Mackenzie",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Mackenzie não levou essa. Eles jogavam bem, mas o primeiro Paulista foi pra outro clube. Segue o jogo, você chega lá!"
+        },
+        {
+          "text": "Germânia",
+          "isCorrect": false,
+          "explanation": "Ops, errou o chute! O Germânia participou, mas não foi o campeão de 1902. Outro time fez história nessa estreia. Tenta mais uma!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro estádio de futebol construído no Brasil?",
+      "options": [
+        {
+          "text": "Maracanã",
+          "isCorrect": false,
+          "explanation": "Haha, o Maracanã é gigante, mas só chegou em 1950! No comecinho, os jogos eram em campos bem mais simples. Tenta outra, que a história te chama!"
+        },
+        {
+          "text": "Velódromo Paulista",
+          "isCorrect": true,
+          "explanation": "Golazo, meu craque! O Velódromo Paulista, em São Paulo, foi o primeiro estádio do Brasil, inaugurado em 1899. Era mais usado pra ciclismo, mas o futebol tomou conta rapidinho. Você é o mestre da história!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Velódromo_Paulista_1900.jpg/200px-Velódromo_Paulista_1900.jpg",
+          "imageDescription": "Imagem histórica do Velódromo Paulista, o primeiro estádio de futebol do Brasil, com arquibancadas e campo em 1900."
+        },
+        {
+          "text": "Estádio das Laranjeiras",
+          "isCorrect": false,
+          "explanation": "Quase! O Estádio das Laranjeiras, do Fluminense, veio em 1919. Antes disso, outro lugar já recebia os jogos. Boa tentativa, segue o jogo!"
+        },
+        {
+          "text": "Pacaembu",
+          "isCorrect": false,
+          "explanation": "Ops, o Pacaembu é de 1940! Bem depois dos primeiros campos do futebol brasileiro. Tenta de novo, que você tá quase lá!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador é conhecido como o primeiro grande ídolo do futebol brasileiro?",
+      "options": [
+        {
+          "text": "Pelé",
+          "isCorrect": false,
+          "explanation": "Pelé é o Rei, mas ele brilhou a partir dos anos 50! Antes dele, outro craque já encantava as torcidas. Tenta de novo, meu amigo!"
+        },
+        {
+          "text": "Arthur Friedenreich",
+          "isCorrect": true,
+          "explanation": "É gol, meu craque! Arthur Friedenreich, o 'Tigre', foi o primeiro ídolo do Brasil, jogando nas décadas de 1910 e 1920. Dizem que ele marcou mais gols que Pelé, mas sem VAR pra confirmar. Você é fera na história!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Arthur_Friedenreich_1920.jpg/200px-Arthur_Friedenreich_1920.jpg",
+          "imageDescription": "Fotografia antiga de Arthur Friedenreich, em 1920, com uniforme de futebol, representando o primeiro grande ídolo do Brasil."
+        },
+        {
+          "text": "Leônidas da Silva",
+          "isCorrect": false,
+          "explanation": "Quase, Leônidas, o 'Diamante Negro', brilhou nos anos 30! Mas o primeiro ídolo veio antes. Boa tentativa, segue o jogo!"
+        },
+        {
+          "text": "Zizinho",
+          "isCorrect": false,
+          "explanation": "Zizinho era craque, mas só nos anos 40 e 50. Outro jogador já tinha roubado os corações antes. Tenta mais uma!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi a primeira seleção brasileira a vencer um torneio internacional?",
+      "options": [
+        {
+          "text": "Copa do Mundo de 1958",
+          "isCorrect": false,
+          "explanation": "A de 58 foi épica, com Pelé e Garrincha, mas não foi a primeira! Antes disso, outra conquista marcou história. Tenta de novo, craque!"
+        },
+        {
+          "text": "Campeonato Sul-Americano de 1919",
+          "isCorrect": true,
+          "explanation": "Gol de placa! Em 1919, no Rio de Janeiro, a seleção brasileira, liderada por Friedenreich, venceu o Sul-Americano (hoje Copa América). Foi a primeira taça internacional, e o Brasil mostrou que sabia sambar com a bola. Você é o dono do jogo!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Brasil_1919_SulAmericano.jpg/200px-Brasil_1919_SulAmericano.jpg",
+          "imageDescription": "Foto da seleção brasileira campeã do Sul-Americano de 1919, com jogadores posando com o troféu no Rio de Janeiro."
+        },
+        {
+          "text": "Copa Roca de 1914",
+          "isCorrect": false,
+          "explanation": "Quase! A Copa Roca de 1914 foi contra a Argentina, mas não foi um torneio oficial. O primeiro título veio depois. Tenta outra!"
+        },
+        {
+          "text": "Copa América de 1949",
+          "isCorrect": false,
+          "explanation": "A de 49 foi goleada, mas antes disso o Brasil já tinha levantado uma taça. Volta um pouco no tempo e tenta de novo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual clube carioca venceu o primeiro Campeonato Carioca, em 1906?",
+      "options": [
+        {
+          "text": "Fluminense",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! O Fluminense, fundado em 1902, levou o primeiro Carioca em 1906, mostrando que os tricolores já nasceram com fome de taça. O Rio vibrou, e você acertou na veia! Parabéns, craque!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Fluminense_1906.jpg/200px-Fluminense_1906.jpg",
+          "imageDescription": "Foto histórica do time do Fluminense, campeão do primeiro Campeonato Carioca em 1906, com jogadores em uniforme tricolor."
+        },
+        {
+          "text": "Flamengo",
+          "isCorrect": false,
+          "explanation": "Ops, o Flamengo só entrou no futebol em 1911! Em 1906, outro clube carioca tava mandando ver. Tenta de novo, rubro-negro!"
+        },
+        {
+          "text": "Botafogo",
+          "isCorrect": false,
+          "explanation": "Quase, mas o Botafogo não levou essa. Eles eram fortes, mas outro time fez história em 1906. Segue o jogo!"
+        },
+        {
+          "text": "Vasco da Gama",
+          "isCorrect": false,
+          "explanation": "Nada disso! O Vasco só começou a jogar futebol em 1915. Em 1906, outro clube carioca reinava. Tenta mais uma!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro jogo oficial da seleção brasileira?",
+      "options": [
+        {
+          "text": "Brasil x Argentina, 1914",
+          "isCorrect": true,
+          "explanation": "Gol de letra, meu craque! Em 20 de setembro de 1914, o Brasil enfrentou a Argentina em Buenos Aires pela Copa Roca e venceu por 3 a 0. Foi o pontapé inicial da nossa seleção, e você acertou com classe! Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Brasil_1914_Copa_Roca.jpg/200px-Brasil_1914_Copa_Roca.jpg",
+          "imageDescription": "Imagem histórica da seleção brasileira de 1914, posando antes do primeiro jogo oficial contra a Argentina, pela Copa Roca."
+        },
+        {
+          "text": "Brasil x Uruguai, 1916",
+          "isCorrect": false,
+          "explanation": "Quase, mas o primeiro jogo foi antes! Em 1916, o Brasil já tava mais experiente. Tenta de novo, que você tá no caminho!"
+        },
+        {
+          "text": "Brasil x Chile, 1919",
+          "isCorrect": false,
+          "explanation": "Ops, errou o passe! Em 1919, o Brasil já tinha estreado. O primeiro jogo foi em outro ano. Tenta outra, campeão!"
+        },
+        {
+          "text": "Brasil x Inglaterra, 1917",
+          "isCorrect": false,
+          "explanation": "Nada disso! A Inglaterra só enfrentou o Brasil bem depois. O primeiro jogo foi contra um vizinho. Tenta de novo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador marcou o primeiro gol oficial da seleção brasileira?",
+      "options": [
+        {
+          "text": "Rubens Sales",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! Rubens Sales marcou o primeiro gol da história da seleção brasileira, na vitória de 3 a 0 contra a Argentina em 1914. O cara abriu o placar da nossa paixão verde-amarela, e você acertou com maestria. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Rubens_Sales_1914.jpg/200px-Rubens_Sales_1914.jpg",
+          "imageDescription": "Foto antiga de Rubens Sales, jogador da seleção brasileira de 1914, que marcou o primeiro gol oficial do Brasil."
+        },
+        {
+          "text": "Arthur Friedenreich",
+          "isCorrect": false,
+          "explanation": "Quase! Friedenreich era um monstro, mas o primeiro gol da seleção foi de outro craque. Tenta de novo, você tá quase lá!"
+        },
+        {
+          "text": "Oswaldo Gomes",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas Oswaldo Gomes não foi o autor do gol. Ele jogou na estreia, mas outro levou a glória. Segue o jogo!"
+        },
+        {
+          "text": "Charles Miller",
+          "isCorrect": false,
+          "explanation": "Haha, Miller era mais organizador que artilheiro! O primeiro gol da seleção foi de um jogador de campo. Tenta outra!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro clube a vencer um tricampeonato no Campeonato Paulista?",
+      "options": [
+        {
+          "text": "Paulistano",
+          "isCorrect": true,
+          "explanation": "Gol de placa, meu craque! O Paulistano venceu o Paulista em 1916, 1917 e 1918, sendo o primeiro a conquistar um tricampeonato. Esses caras dominaram São Paulo com estilo, e você dominou essa questão. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Paulistano_1916.jpg/200px-Paulistano_1916.jpg",
+          "imageDescription": "Foto do time do Paulistano, tricampeão paulista em 1916-1918, posando com o uniforme da época."
+        },
+        {
+          "text": "Corinthians",
+          "isCorrect": false,
+          "explanation": "Quase, mas o Corinthians só virou tri depois! O Paulistano foi mais rápido nessa. Tenta de novo, timão!"
+        },
+        {
+          "text": "São Paulo Athletic Club",
+          "isCorrect": false,
+          "explanation": "O SPAC era forte no começo, mas não levou o primeiro tri. Outro clube fez história antes. Tenta outra!"
+        },
+        {
+          "text": "Palmeiras",
+          "isCorrect": false,
+          "explanation": "Nada disso! O Palmeiras (ainda Palestra Itália) veio depois. O primeiro tri foi de outro time. Tenta mais uma!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro jornal brasileiro a cobrir jogos de futebol regularmente?",
+      "options": [
+        {
+          "text": "O Estado de S. Paulo",
+          "isCorrect": true,
+          "explanation": "É isso, meu amigo! O Estado de S. Paulo começou a cobrir jogos de futebol regularmente a partir de 1902, acompanhando o Campeonato Paulista. Enquanto outros jornais falavam de política, eles já narravam os gols. Você é o rei da história!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/O_Estado_de_S_Paulo_1902.jpg/200px-O_Estado_de_S_Paulo_1902.jpg",
+          "imageDescription": "Capa antiga do jornal O Estado de S. Paulo, de 1902, que começou a cobrir jogos de futebol regularmente."
+        },
+        {
+          "text": "Jornal do Brasil",
+          "isCorrect": false,
+          "explanation": "Quase, mas o Jornal do Brasil demorou mais pra entrar na onda do futebol. Outro jornal foi pioneiro. Tenta de novo!"
+        },
+        {
+          "text": "Folha de S.Paulo",
+          "isCorrect": false,
+          "explanation": "Ops, a Folha só nasceu em 1921! Antes disso, outro jornal já narrava os jogos. Tenta outra, craque!"
+        },
+        {
+          "text": "Correio da Manhã",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Correio da Manhã não foi o primeiro. Outro jornal levou essa taça. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro clássico do futebol brasileiro?",
+      "options": [
+        {
+          "text": "Fla-Flu",
+          "isCorrect": true,
+          "explanation": "Golazo, meu craque! O Fla-Flu, entre Flamengo e Fluminense, começou em 1912 e é considerado o primeiro grande clássico do Brasil. A rivalidade carioca pegou fogo desde o início, e você acertou com maestria. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Fla-Flu_1912.jpg/200px-Fla-Flu_1912.jpg",
+          "imageDescription": "Foto histórica do primeiro Fla-Flu, em 1912, com jogadores de Flamengo e Fluminense em campo."
+        },
+        {
+          "text": "Corinthians x Palmeiras",
+          "isCorrect": false,
+          "explanation": "Quase, mas o Derby Paulista veio depois! O primeiro clássico nasceu no Rio. Tenta de novo, timão!"
+        },
+        {
+          "text": "Grenal",
+          "isCorrect": false,
+          "explanation": "O Grenal é épico, mas começou em 1909. Outro clássico carioca foi mais marcante primeiro. Tenta outra!"
+        },
+        {
+          "text": "Botafogo x Vasco",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas Botafogo x Vasco não foi o primeiro. A rivalidade carioca tem outro dono. Tenta mais uma!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro time brasileiro a excursionar pela Europa?",
+      "options": [
+        {
+          "text": "Paulistano",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! O Paulistano fez história em 1925, viajando pra Europa e enfrentando times franceses, suíços e portugueses. Eles mostraram que o futebol brasileiro tinha ginga, e você mostrou que sabe tudo. Parabéns, craque!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Paulistano_Europa_1925.jpg/200px-Paulistano_Europa_1925.jpg",
+          "imageDescription": "Foto do time do Paulistano em 1925, posando durante a excursão pela Europa, a primeira de um clube brasileiro."
+        },
+        {
+          "text": "Fluminense",
+          "isCorrect": false,
+          "explanation": "Quase, mas o Fluminense não foi o primeiro a cruzar o Atlântico. Outro time levou essa glória. Tenta de novo!"
+        },
+        {
+          "text": "Corinthians",
+          "isCorrect": false,
+          "explanation": "Ops, o Corinthians ficou por aqui nessa época. Outro clube foi o pioneiro na Europa. Tenta outra!"
+        },
+        {
+          "text": "Santos",
+          "isCorrect": false,
+          "explanation": "Nada disso! O Santos brilhou na Europa com Pelé, mas bem depois. O primeiro foi outro. Tenta mais uma!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro campeonato nacional de futebol no Brasil?",
+      "options": [
+        {
+          "text": "Taça Brasil",
+          "isCorrect": true,
+          "explanation": "Gol de placa, meu craque! A Taça Brasil, criada em 1959, foi o primeiro campeonato nacional, reunindo campeões estaduais. O Bahia levou a primeira taça, e você levou essa questão com maestria. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Taça_Brasil_1959.jpg/200px-Taça_Brasil_1959.jpg",
+          "imageDescription": "Imagem da Taça Brasil de 1959, o primeiro campeonato nacional de futebol do Brasil, com o troféu em destaque."
+        },
+        {
+          "text": "Campeonato Brasileiro",
+          "isCorrect": false,
+          "explanation": "Quase, mas o Brasileirão, como conhecemos, veio em 1971. Antes, outro torneio abriu o caminho. Tenta de novo!"
+        },
+        {
+          "text": "Copa do Brasil",
+          "isCorrect": false,
+          "explanation": "Ops, a Copa do Brasil é de 1989! O primeiro nacional foi bem antes. Tenta outra, campeão!"
+        },
+        {
+          "text": "Torneio Rio-São Paulo",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Rio-São Paulo era regional. O primeiro nacional é outro. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual clube venceu a primeira Taça Brasil, em 1959?",
+      "options": [
+        {
+          "text": "Bahia",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! O Bahia fez história em 1959, vencendo a primeira Taça Brasil contra o Santos. Os tricolores baianos mostraram que o Nordeste também tinha bola, e você mostrou que sabe tudo. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Bahia_1959_Taça_Brasil.jpg/200px-Bahia_1959_Taça_Brasil.jpg",
+          "imageDescription": "Foto do time do Bahia, campeão da Taça Brasil de 1959, posando com o troféu do primeiro campeonato nacional."
+        },
+        {
+          "text": "Santos",
+          "isCorrect": false,
+          "explanation": "Quase, mas o Santos, mesmo com Pelé, perdeu essa final. Outro time levou a taça. Tenta de novo!"
+        },
+        {
+          "text": "Palmeiras",
+          "isCorrect": false,
+          "explanation": "Ops, o Palmeiras era forte, mas não foi o campeão de 59. Outro clube fez história. Tenta outra!"
+        },
+        {
+          "text": "Flamengo",
+          "isCorrect": false,
+          "explanation": "Nada disso! O Flamengo não levou essa. A primeira Taça Brasil foi pra outro canto. Tenta mais uma!"
+        }
+      ]
+    },
+    {
+      "question": "Qual jogador brasileiro foi o primeiro a ser artilheiro de uma Copa do Mundo?",
+      "options": [
+        {
+          "text": "Leônidas da Silva",
+          "isCorrect": true,
+          "explanation": "Golazo, meu craque! Leônidas da Silva, o 'Diamante Negro', foi o artilheiro da Copa de 1938, com 7 gols. Ele inventou a bicicleta e encantou o mundo, e você encantou nessa questão. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Leônidas_da_Silva_1938.jpg/200px-Leônidas_da_Silva_1938.jpg",
+          "imageDescription": "Foto de Leônidas da Silva em 1938, durante a Copa do Mundo, onde foi o primeiro brasileiro artilheiro do torneio."
+        },
+        {
+          "text": "Pelé",
+          "isCorrect": false,
+          "explanation": "Pelé é o Rei, mas ele não foi o primeiro artilheiro. Outro craque brilhou antes. Tenta de novo!"
+        },
+        {
+          "text": "Ademir Menezes",
+          "isCorrect": false,
+          "explanation": "Quase, Ademir foi artilheiro em 1950, mas outro veio antes. Boa tentativa, segue o jogo!"
+        },
+        {
+          "text": "Garrincha",
+          "isCorrect": false,
+          "explanation": "Garrincha era gênio, mas não artilheiro de Copa. Outro jogador levou essa. Tenta outra!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro estádio brasileiro a receber uma final de Copa do Mundo?",
+      "options": [
+        {
+          "text": "Maracanã",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! O Maracanã, inaugurado em 1950, recebeu a final da Copa do Mundo de 1950, entre Brasil e Uruguai. Apesar do Maracanazo, o estádio entrou pra história, e você também! Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Maracanã_1950.jpg/200px-Maracanã_1950.jpg",
+          "imageDescription": "Foto aérea do Maracanã em 1950, durante a Copa do Mundo, o primeiro estádio brasileiro a sediar uma final."
+        },
+        {
+          "text": "Pacaembu",
+          "isCorrect": false,
+          "explanation": "Quase, mas o Pacaembu não recebeu a final de 50. Outro estádio foi o palco. Tenta de novo!"
+        },
+        {
+          "text": "Mineirão",
+          "isCorrect": false,
+          "explanation": "Ops, o Mineirão só veio depois! A final de 50 foi em outro lugar. Tenta outra, craque!"
+        },
+        {
+          "text": "Morumbi",
+          "isCorrect": false,
+          "explanation": "Nada disso! O Morumbi não existia em 1950. Outro estádio fez história. Tenta mais uma!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro técnico brasileiro a comandar a seleção em uma Copa do Mundo?",
+      "options": [
+        {
+          "text": "Píndaro de Carvalho",
+          "isCorrect": true,
+          "explanation": "Gol de placa, meu craque! Píndaro de Carvalho foi o técnico da seleção na Copa de 1930, no Uruguai. Ele abriu o caminho pros treinadores brasileiros, e você abriu o caminho pra essa resposta certa. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Píndaro_de_Carvalho_1930.jpg/200px-Píndaro_de_Carvalho_1930.jpg",
+          "imageDescription": "Foto de Píndaro de Carvalho, técnico da seleção brasileira na Copa do Mundo de 1930, posando com o time."
+        },
+        {
+          "text": "Vicente Feola",
+          "isCorrect": false,
+          "explanation": "Quase, mas Feola brilhou em 1958. Antes dele, outro técnico comandou. Tenta de novo!"
+        },
+        {
+          "text": "Flávio Costa",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas Flávio Costa foi em 1950. O primeiro foi outro. Segue o jogo!"
+        },
+        {
+          "text": "Zezé Moreira",
+          "isCorrect": false,
+          "explanation": "Ops, Zezé Moreira veio depois. O primeiro técnico foi em 1930. Tenta outra!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro clube brasileiro a vencer um torneio internacional?",
+      "options": [
+        {
+          "text": "Santos",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! O Santos, com Pelé e cia., venceu a Copa Libertadores de 1962, o primeiro título internacional de um clube brasileiro. Eles mostraram pro mundo a ginga do Brasil, e você mostrou que sabe tudo. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Santos_Libertadores_1962.jpg/200px-Santos_Libertadores_1962.jpg",
+          "imageDescription": "Foto do time do Santos, campeão da Copa Libertadores de 1962, posando com o troféu."
+        },
+        {
+          "text": "Flamengo",
+          "isCorrect": false,
+          "explanation": "Quase, mas o Flamengo venceu a Libertadores em 1981. Outro clube foi primeiro. Tenta de novo!"
+        },
+        {
+          "text": "Palmeiras",
+          "isCorrect": false,
+          "explanation": "Ops, o Palmeiras levou em 1951, mas não foi o primeiro. Outro time brilhou antes. Tenta outra!"
+        },
+        {
+          "text": "São Paulo",
+          "isCorrect": false,
+          "explanation": "Nada disso! O São Paulo venceu em 1992. O primeiro título internacional foi antes. Tenta mais uma!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro jogador brasileiro a jogar em um clube europeu?",
+      "options": [
+        {
+          "text": "Fausto dos Santos",
+          "isCorrect": true,
+          "explanation": "Golazo, meu craque! Fausto dos Santos, o 'Maravilha Negra', jogou no Barcelona em 1931, sendo o primeiro brasileiro a brilhar na Europa. Ele abriu as portas, e você abriu o caminho pra essa resposta. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Fausto_dos_Santos_1931.jpg/200px-Fausto_dos_Santos_1931.jpg",
+          "imageDescription": "Foto de Fausto dos Santos, em 1931, com o uniforme do Barcelona, o primeiro brasileiro a jogar na Europa."
+        },
+        {
+          "text": "Leônidas da Silva",
+          "isCorrect": false,
+          "explanation": "Quase, mas Leônidas não jogou na Europa. Outro craque foi o pioneiro. Tenta de novo!"
+        },
+        {
+          "text": "Pelé",
+          "isCorrect": false,
+          "explanation": "Pelé é o Rei, mas ficou no Santos quase toda a carreira. Outro foi pra Europa antes. Tenta outra!"
+        },
+        {
+          "text": "Zizinho",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas Zizinho não jogou na Europa. O primeiro foi outro. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro estado brasileiro a ter um campeonato de futebol?",
+      "options": [
+        {
+          "text": "São Paulo",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! São Paulo foi o pioneiro, com o Campeonato Paulista de 1902, organizado pela Liga Paulista. Enquanto outros estados ainda aprendiam a chutar, os paulistas já levantavam taças. Você é o craque da história!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Campeonato_Paulista_1902.jpg/200px-Campeonato_Paulista_1902.jpg",
+          "imageDescription": "Imagem histórica do Campeonato Paulista de 1902, com jogadores em campo, o primeiro torneio estadual do Brasil."
+        },
+        {
+          "text": "Rio de Janeiro",
+          "isCorrect": false,
+          "explanation": "Quase, mas o Rio só teve o Carioca em 1906. São Paulo foi mais rápido. Tenta de novo, carioca!"
+        },
+        {
+          "text": "Rio Grande do Sul",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Gauchão veio depois. São Paulo levou essa taça primeiro. Segue o jogo!"
+        },
+        {
+          "text": "Bahia",
+          "isCorrect": false,
+          "explanation": "Nada disso! A Bahia demorou mais pra ter campeonato. São Paulo foi o pioneiro. Tenta outra!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro clube brasileiro a ter um estádio próprio?",
+      "options": [
+        {
+          "text": "Fluminense",
+          "isCorrect": true,
+          "explanation": "Gol de placa, meu craque! O Fluminense inaugurou o Estádio das Laranjeiras em 1919, o primeiro estádio próprio de um clube brasileiro. Enquanto outros jogavam em campos alugados, os tricolores já tinham casa. Você é o rei do jogo!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Estádio_das_Laranjeiras_1919.jpg/200px-Estádio_das_Laranjeiras_1919.jpg",
+          "imageDescription": "Foto histórica do Estádio das Laranjeiras, inaugurado pelo Fluminense em 1919, o primeiro estádio próprio de um clube brasileiro."
+        },
+        {
+          "text": "Flamengo",
+          "isCorrect": false,
+          "explanation": "Quase, mas o Flamengo demorou mais pra ter estádio próprio. Outro clube foi pioneiro. Tenta de novo!"
+        },
+        {
+          "text": "Corinthians",
+          "isCorrect": false,
+          "explanation": "Ops, o Corinthians só teve estádio bem depois. O primeiro foi de outro time. Tenta outra!"
+        },
+        {
+          "text": "Botafogo",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Botafogo não foi o primeiro. Outro clube carioca levou essa. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro goleiro brasileiro a se destacar internacionalmente?",
+      "options": [
+        {
+          "text": "Marcos de Mendonça",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! Marcos de Mendonça, goleiro do Fluminense e da seleção, brilhou no Sul-Americano de 1919, sendo um dos primeiros a ganhar fama internacional. Ele fechava o gol e abria a história, e você acertou com estilo. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Marcos_de_Mendonça_1919.jpg/200px-Marcos_de_Mendonça_1919.jpg",
+          "imageDescription": "Foto de Marcos de Mendonça, goleiro do Fluminense e da seleção brasileira, em 1919, durante o Sul-Americano."
+        },
+        {
+          "text": "Taffarel",
+          "isCorrect": false,
+          "explanation": "Taffarel é lenda, mas ele é dos anos 90! O primeiro goleiro famoso foi bem antes. Tenta de novo!"
+        },
+        {
+          "text": "Barbosa",
+          "isCorrect": false,
+          "explanation": "Quase, Barbosa brilhou em 1950, mas outro goleiro foi pioneiro. Boa tentativa, segue o jogo!"
+        },
+        {
+          "text": "Castilho",
+          "isCorrect": false,
+          "explanation": "Castilho era craque, mas veio depois. O primeiro goleiro internacional foi outro. Tenta outra!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro troféu internacional disputado pela seleção brasileira?",
+      "options": [
+        {
+          "text": "Copa Roca",
+          "isCorrect": true,
+          "explanation": "Golazo, meu craque! A Copa Roca, em 1914, contra a Argentina, foi o primeiro troféu internacional disputado pelo Brasil. Ganhamos por 3 a 0, e você ganhou essa questão com maestria. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Brasil_1914_Copa_Roca.jpg/200px-Brasil_1914_Copa_Roca.jpg",
+          "imageDescription": "Imagem histórica da seleção brasileira de 1914, posando antes do jogo da Copa Roca, o primeiro troféu internacional."
+        },
+        {
+          "text": "Copa América",
+          "isCorrect": false,
+          "explanation": "Quase, mas a Copa América (Sul-Americano) veio em 1916. Outro troféu foi antes. Tenta de novo!"
+        },
+        {
+          "text": "Copa do Mundo",
+          "isCorrect": false,
+          "explanation": "Ops, a Copa do Mundo só veio em 1930! O primeiro troféu foi mais cedo. Tenta outra!"
+        },
+        {
+          "text": "Copa Rio",
+          "isCorrect": false,
+          "explanation": "Nada disso! A Copa Rio foi em 1951. O primeiro troféu internacional foi outro. Tenta mais uma!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro clube brasileiro a contratar um jogador estrangeiro?",
+      "options": [
+        {
+          "text": "Botafogo",
+          "isCorrect": true,
+          "explanation": "Gol de placa, meu craque! O Botafogo contratou o argentino Juan Bernabé Ferreyra em 1929, sendo o primeiro clube brasileiro a trazer um reforço gringo. Enquanto outros times só olhavam pro quintal de casa, o Fogão já pensava global. Você é o mestre da história!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Botafogo_1929.jpg/200px-Botafogo_1929.jpg",
+          "imageDescription": "Foto histórica do time do Botafogo em 1929, que contratou o argentino Juan Bernabé Ferreyra, o primeiro jogador estrangeiro no Brasil."
+        },
+        {
+          "text": "Flamengo",
+          "isCorrect": false,
+          "explanation": "Quase, rubro-negro! O Flamengo é gigante, mas demorou mais pra contratar gringos. Outro clube carioca foi mais rápido. Tenta de novo, a taça tá logo ali!"
+        },
+        {
+          "text": "Vasco da Gama",
+          "isCorrect": false,
+          "explanation": "Ops, o Vasco não foi o pioneiro nessa! Eles tiveram gringos depois, mas o primeiro foi de outro time. Segue o jogo, cruzmaltino!"
+        },
+        {
+          "text": "Palmeiras",
+          "isCorrect": false,
+          "explanation": "Nada disso, verdão! O Palmeiras contratou estrangeiros mais tarde. Outro clube abriu esse caminho. Tenta outra, campeão!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro jogo de futebol televisionado no Brasil?",
+      "options": [
+        {
+          "text": "São Paulo x Corinthians, 1950",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! Em 25 de fevereiro de 1950, o clássico São Paulo x Corinthians foi o primeiro jogo transmitido pela TV Tupi, em São Paulo. A imagem era em preto e branco, mas a emoção já era colorida. Você acertou com estilo, parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/TV_Tupi_1950.jpg/200px-TV_Tupi_1950.jpg",
+          "imageDescription": "Imagem de um aparelho de TV da época da TV Tupi, que transmitiu o primeiro jogo de futebol televisionado no Brasil, em 1950."
+        },
+        {
+          "text": "Flamengo x Fluminense, 1952",
+          "isCorrect": false,
+          "explanation": "Quase, mas o Fla-Flu televisionado veio depois! O primeiro jogo na telinha foi em São Paulo. Tenta de novo, carioca!"
+        },
+        {
+          "text": "Brasil x Uruguai, 1950",
+          "isCorrect": false,
+          "explanation": "Ops, o Maracanazo não foi televisionado! A TV ainda engatinhava no Brasil. Tenta outra, craque!"
+        },
+        {
+          "text": "Palmeiras x Santos, 1951",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o primeiro jogo na TV foi outro clássico. São Paulo levou essa. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro clube brasileiro a usar uniforme numerado?",
+      "options": [
+        {
+          "text": "Vasco da Gama",
+          "isCorrect": true,
+          "explanation": "Golazo, meu craque! O Vasco da Gama foi pioneiro em 1923, usando números nas camisas durante o Campeonato Carioca. Enquanto outros times se perdiam sem identificação, os cruzmaltinos já mostravam organização. Você é o rei do campo!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Vasco_1923.jpg/200px-Vasco_1923.jpg",
+          "imageDescription": "Foto do time do Vasco da Gama em 1923, com jogadores usando uniformes numerados pela primeira vez no Brasil."
+        },
+        {
+          "text": "Fluminense",
+          "isCorrect": false,
+          "explanation": "Quase, tricolor! O Fluminense era estiloso, mas outro clube carioca colocou números primeiro. Tenta de novo!"
+        },
+        {
+          "text": "Corinthians",
+          "isCorrect": false,
+          "explanation": "Ops, o Corinthians demorou mais pra numerar as camisas. Outro time foi o pioneiro. Tenta outra!"
+        },
+        {
+          "text": "Santos",
+          "isCorrect": false,
+          "explanation": "Nada disso! O Santos, mesmo com Pelé, veio depois. O primeiro foi um carioca. Tenta mais uma!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro estádio brasileiro a ter refletores para jogos noturnos?",
+      "options": [
+        {
+          "text": "Pacaembu",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! O Estádio do Pacaembu, em São Paulo, foi o primeiro a ter refletores, com jogos noturnos a partir de 1951. A noite virou dia, e o futebol ganhou um charme extra. Você acertou com brilho, parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Pacaembu_1951_Noite.jpg/200px-Pacaembu_1951_Noite.jpg",
+          "imageDescription": "Foto noturna do Estádio do Pacaembu em 1951, iluminado por refletores, o primeiro estádio brasileiro a realizar jogos à noite."
+        },
+        {
+          "text": "Maracanã",
+          "isCorrect": false,
+          "explanation": "Quase, mas o Maracanã só ganhou refletores depois! São Paulo foi mais rápido. Tenta de novo!"
+        },
+        {
+          "text": "Mineirão",
+          "isCorrect": false,
+          "explanation": "Ops, o Mineirão é mais recente! O primeiro estádio iluminado foi outro. Tenta outra, craque!"
+        },
+        {
+          "text": "Morumbi",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Morumbi veio depois. O pioneiro dos jogos noturnos foi outro. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro campeonato brasileiro a adotar o sistema de pontos corridos?",
+      "options": [
+        {
+          "text": "Campeonato Brasileiro de 2003",
+          "isCorrect": true,
+          "explanation": "Gol de letra, meu craque! O Brasileirão de 2003, vencido pelo Cruzeiro, foi o primeiro com pontos corridos, acabando com os mata-matas. Foi uma maratona de emoção, e você correu direitinho pra essa resposta. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Cruzeiro_2003_Brasileirão.jpg/200px-Cruzeiro_2003_Brasileirão.jpg",
+          "imageDescription": "Foto do time do Cruzeiro, campeão do Campeonato Brasileiro de 2003, o primeiro com sistema de pontos corridos."
+        },
+        {
+          "text": "Campeonato Brasileiro de 1971",
+          "isCorrect": false,
+          "explanation": "Quase, mas 1971 ainda era com fases finais. Os pontos corridos vieram bem depois. Tenta de novo!"
+        },
+        {
+          "text": "Taça Brasil de 1959",
+          "isCorrect": false,
+          "explanation": "Ops, a Taça Brasil era mata-mata! O sistema de pontos é mais moderno. Tenta outra!"
+        },
+        {
+          "text": "Campeonato Brasileiro de 1990",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas 1990 ainda tinha playoffs. O primeiro pontos corridos foi outro. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro jogador brasileiro a ganhar a Bola de Ouro da France Football?",
+      "options": [
+        {
+          "text": "Ronaldo",
+          "isCorrect": true,
+          "explanation": "Golazo, meu craque! Ronaldo, o Fenômeno, ganhou a Bola de Ouro em 1997, sendo o primeiro brasileiro a levar o prêmio. Ele driblou o mundo com o Inter de Milão, e você driblou essa questão com maestria. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Ronaldo_1997_Bola_de_Ouro.jpg/200px-Ronaldo_1997_Bola_de_Ouro.jpg",
+          "imageDescription": "Foto de Ronaldo com a Bola de Ouro de 1997, o primeiro brasileiro a receber o prêmio da France Football."
+        },
+        {
+          "text": "Pelé",
+          "isCorrect": false,
+          "explanation": "Pelé é o Rei, mas nunca ganhou a Bola de Ouro, que só premiava europeus na época dele. Tenta de novo!"
+        },
+        {
+          "text": "Romário",
+          "isCorrect": false,
+          "explanation": "Quase, Romário era gênio, mas outro craque levou a Bola de Ouro primeiro. Tenta outra!"
+        },
+        {
+          "text": "Ronaldinho",
+          "isCorrect": false,
+          "explanation": "Ronaldinho ganhou depois, mas o primeiro brasileiro foi outro. Boa tentativa, segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro clube brasileiro a vencer a Copa do Mundo de Clubes?",
+      "options": [
+        {
+          "text": "São Paulo",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! O São Paulo venceu o Mundial de Clubes em 1992, contra o Barcelona, sendo o primeiro clube brasileiro a conquistar o título. Rogério Ceni e cia. mostraram o caminho, e você mostrou que sabe tudo. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/São_Paulo_Mundial_1992.jpg/200px-São_Paulo_Mundial_1992.jpg",
+          "imageDescription": "Foto do time do São Paulo, campeão do Mundial de Clubes de 1992, posando com o troféu após vencer o Barcelona."
+        },
+        {
+          "text": "Santos",
+          "isCorrect": false,
+          "explanation": "Quase, o Santos venceu em 1962 e 1963, mas o formato moderno do Mundial veio depois. Tenta de novo!"
+        },
+        {
+          "text": "Flamengo",
+          "isCorrect": false,
+          "explanation": "Ops, o Flamengo venceu em 1981, mas o Mundial moderno é outro. Tenta outra, rubro-negro!"
+        },
+        {
+          "text": "Corinthians",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Corinthians venceu em 2000. O primeiro foi outro. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro clássico brasileiro a ser disputado em um estádio com capacidade para mais de 100 mil pessoas?",
+      "options": [
+        {
+          "text": "Flamengo x Fluminense",
+          "isCorrect": true,
+          "explanation": "Gol de letra, meu craque! O Fla-Flu no Maracanã, a partir de 1950, foi o primeiro clássico jogado para mais de 100 mil torcedores. A rivalidade carioca lotava o estádio, e você lotou essa questão de acertos. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Maracanã_1950.jpg/200px-Maracanã_1950.jpg",
+          "imageDescription": "Foto aérea do Maracanã em 1950, lotado para um Fla-Flu, o primeiro clássico com mais de 100 mil torcedores."
+        },
+        {
+          "text": "Corinthians x Palmeiras",
+          "isCorrect": false,
+          "explanation": "Quase, mas o Derby Paulista não tinha estádio tão grande na época. O Maracanã levou essa. Tenta de novo!"
+        },
+        {
+          "text": "Grêmio x Internacional",
+          "isCorrect": false,
+          "explanation": "Ops, o Grenal é épico, mas não tinha 100 mil lugares nos anos 50. Tenta outra, gaúcho!"
+        },
+        {
+          "text": "Cruzeiro x Atlético-MG",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o clássico mineiro não lotava tanto assim. O Rio foi pioneiro. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro jogador brasileiro a marcar um gol em uma final de Copa do Mundo?",
+      "options": [
+        {
+          "text": "Vavá",
+          "isCorrect": true,
+          "explanation": "Golazo, meu craque! Vavá marcou na final da Copa de 1958, contra a Suécia, sendo o primeiro brasileiro a balançar as redes em uma decisão de Mundial. Ele abriu o placar, e você abriu o caminho pra essa resposta. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Vavá_1958_Copa.jpg/200px-Vavá_1958_Copa.jpg",
+          "imageDescription": "Foto de Vavá em ação na Copa do Mundo de 1958, onde marcou o primeiro gol brasileiro em uma final."
+        },
+        {
+          "text": "Pelé",
+          "isCorrect": false,
+          "explanation": "Pelé marcou em 58, mas não foi o primeiro na final. Outro craque abriu a contagem. Tenta de novo!"
+        },
+        {
+          "text": "Garrincha",
+          "isCorrect": false,
+          "explanation": "Quase, Garrincha era gênio, mas não marcou na final de 58. Tenta outra, campeão!"
+        },
+        {
+          "text": "Zizinho",
+          "isCorrect": false,
+          "explanation": "Ops, Zizinho não jogou finais de Copa. O primeiro gol foi em 58. Tenta mais uma!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro clube brasileiro a ter um patrocinador estampado na camisa?",
+      "options": [
+        {
+          "text": "Flamengo",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! O Flamengo foi pioneiro em 1980, estampando o patrocinador Lubrax na camisa. Enquanto outros times ainda usavam só o escudo, o Mengão já fazia propaganda com estilo. Você é o rei da história!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Flamengo_1980_Lubrax.jpg/200px-Flamengo_1980_Lubrax.jpg",
+          "imageDescription": "Foto do time do Flamengo em 1980, com o patrocinador Lubrax na camisa, o primeiro clube brasileiro a adotar patrocínio."
+        },
+        {
+          "text": "Corinthians",
+          "isCorrect": false,
+          "explanation": "Quase, timão! O Corinthians teve patrocinadores depois. O pioneiro foi outro. Tenta de novo!"
+        },
+        {
+          "text": "São Paulo",
+          "isCorrect": false,
+          "explanation": "Ops, o São Paulo demorou mais pra estampar marcas. O Rio foi mais rápido. Tenta outra!"
+        },
+        {
+          "text": "Santos",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Santos veio depois. O primeiro patrocinador foi rubro-negro. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro estádio brasileiro a sediar um jogo da seleção na Copa do Mundo?",
+      "options": [
+        {
+          "text": "Estádio Independência",
+          "isCorrect": true,
+          "explanation": "Gol de placa, meu craque! O Estádio Independência, em Belo Horizonte, sediou jogos do Brasil na Copa de 1950, incluindo Brasil x Iugoslávia. Antes do Maracanã brilhar, Minas já fazia história. Você acertou com maestria, parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Estádio_Independência_1950.jpg/200px-Estádio_Independência_1950.jpg",
+          "imageDescription": "Foto do Estádio Independência em 1950, em Belo Horizonte, que sediou jogos da seleção brasileira na Copa do Mundo."
+        },
+        {
+          "text": "Maracanã",
+          "isCorrect": false,
+          "explanation": "Quase, o Maracanã foi o principal, mas outro estádio recebeu o Brasil primeiro em 50. Tenta de novo!"
+        },
+        {
+          "text": "Pacaembu",
+          "isCorrect": false,
+          "explanation": "Ops, o Pacaembu sediou jogos, mas não do Brasil. Outro estádio foi o pioneiro. Tenta outra!"
+        },
+        {
+          "text": "Morumbi",
+          "isCorrect": false,
+          "explanation": "Nada disso! O Morumbi não existia em 1950. O primeiro foi outro. Tenta mais uma!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro treinador brasileiro a vencer uma Copa do Mundo?",
+      "options": [
+        {
+          "text": "Vicente Feola",
+          "isCorrect": true,
+          "explanation": "Golazo, meu craque! Vicente Feola levou o Brasil ao título da Copa de 1958, na Suécia, com Pelé e Garrincha brilhando. Ele mostrou que o Brasil sabia jogar e comandar, e você mostrou que sabe tudo. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Vicente_Feola_1958.jpg/200px-Vicente_Feola_1958.jpg",
+          "imageDescription": "Foto de Vicente Feola, técnico da seleção brasileira campeã da Copa do Mundo de 1958, posando com o time."
+        },
+        {
+          "text": "Flávio Costa",
+          "isCorrect": false,
+          "explanation": "Quase, Flávio Costa esteve em 1950, mas não venceu. Outro técnico levou a taça primeiro. Tenta de novo!"
+        },
+        {
+          "text": "Aymoré Moreira",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas Aymoré venceu em 1962. O primeiro foi em 58. Segue o jogo!"
+        },
+        {
+          "text": "Carlos Alberto Parreira",
+          "isCorrect": false,
+          "explanation": "Ops, Parreira venceu em 1994. O primeiro técnico campeão foi bem antes. Tenta outra!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro clube brasileiro a vencer a Supercopa Libertadores?",
+      "options": [
+        {
+          "text": "Cruzeiro",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! O Cruzeiro venceu a Supercopa Libertadores em 1991, batendo o River Plate. Os mineiros mostraram que tinham ginga internacional, e você mostrou que é craque na história. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Cruzeiro_Supercopa_1991.jpg/200px-Cruzeiro_Supercopa_1991.jpg",
+          "imageDescription": "Foto do time do Cruzeiro, campeão da Supercopa Libertadores de 1991, posando com o troféu."
+        },
+        {
+          "text": "Flamengo",
+          "isCorrect": false,
+          "explanation": "Quase, o Flamengo venceu a Libertadores, mas não a Supercopa. Outro clube levou essa. Tenta de novo!"
+        },
+        {
+          "text": "São Paulo",
+          "isCorrect": false,
+          "explanation": "Ops, o São Paulo brilhou em outras competições. A Supercopa foi de outro. Tenta outra!"
+        },
+        {
+          "text": "Vasco",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Vasco não venceu a Supercopa. O pioneiro foi mineiro. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro jogador brasileiro a ser eleito o melhor do mundo pela FIFA?",
+      "options": [
+        {
+          "text": "Romário",
+          "isCorrect": true,
+          "explanation": "Gol de letra, meu craque! Romário foi eleito o melhor do mundo pela FIFA em 1994, após brilhar na Copa dos EUA. O Baixinho mostrou que tamanho não é documento, e você mostrou que sabe tudo. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Romário_1994_FIFA.jpg/200px-Romário_1994_FIFA.jpg",
+          "imageDescription": "Foto de Romário em 1994, recebendo o prêmio de melhor do mundo pela FIFA após a Copa do Mundo."
+        },
+        {
+          "text": "Ronaldo",
+          "isCorrect": false,
+          "explanation": "Quase, Ronaldo venceu depois, mas o primeiro foi outro. Tenta de novo, fenômeno!"
+        },
+        {
+          "text": "Pelé",
+          "isCorrect": false,
+          "explanation": "Pelé é o Rei, mas o prêmio da FIFA veio depois da era dele. Tenta outra, campeão!"
+        },
+        {
+          "text": "Ronaldinho",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas Ronaldinho venceu em 2004 e 2005. O primeiro foi antes. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro clube brasileiro a vencer a Copa Mercosul?",
+      "options": [
+        {
+          "text": "Flamengo",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! O Flamengo venceu a Copa Mercosul em 1999, batendo o Palmeiras na final. O Mengão mostrou sua força no continente, e você mostrou sua força nessa questão. Parabéns, craque!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flamengo_Mercosul_1999.jpg/200px-Flamengo_Mercosul_1999.jpg",
+          "imageDescription": "Foto do time do Flamengo, campeão da Copa Mercosul de 1999, posando com o troféu."
+        },
+        {
+          "text": "Palmeiras",
+          "isCorrect": false,
+          "explanation": "Quase, o Palmeiras chegou à final, mas o Flamengo levou a taça. Tenta de novo, verdão!"
+        },
+        {
+          "text": "Vasco",
+          "isCorrect": false,
+          "explanation": "Ops, o Vasco venceu a Mercosul depois. O primeiro foi rubro-negro. Tenta outra!"
+        },
+        {
+          "text": "Cruzeiro",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Cruzeiro não venceu a Mercosul. O pioneiro foi outro. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro campeonato brasileiro a ter uma final com dois times do mesmo estado?",
+      "options": [
+        {
+          "text": "Campeonato Brasileiro de 1977",
+          "isCorrect": true,
+          "explanation": "Golazo, meu craque! O Brasileirão de 1977 teve uma final mineira entre Atlético-MG e Cruzeiro, com o Galo levando a taça. Foi a primeira vez que dois times do mesmo estado decidiram o título nacional. Você é o dono da história!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Atlético_MG_1977_Brasileirão.jpg/200px-Atlético_MG_1977_Brasileirão.jpg",
+          "imageDescription": "Foto do time do Atlético-MG, campeão do Brasileirão de 1977, na final contra o Cruzeiro, a primeira entre times do mesmo estado."
+        },
+        {
+          "text": "Campeonato Brasileiro de 1988",
+          "isCorrect": false,
+          "explanation": "Quase, mas 1988 teve Bahia x Inter. A primeira final estadual foi antes. Tenta de novo!"
+        },
+        {
+          "text": "Taça Brasil de 1962",
+          "isCorrect": false,
+          "explanation": "Ops, 1962 foi Santos x Botafogo, de estados diferentes. Tenta outra, campeão!"
+        },
+        {
+          "text": "Campeonato Brasileiro de 1995",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas 1995 não foi final estadual. A primeira foi em 77. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro clube brasileiro a vencer a Copa do Brasil?",
+      "options": [
+        {
+          "text": "Grêmio",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! O Grêmio venceu a primeira Copa do Brasil em 1989, batendo o Sport na final. Os gaúchos mostraram que o Sul também mandava no mata-mata, e você mandou bem nessa questão. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Grêmio_Copa_do_Brasil_1989.jpg/200px-Grêmio_Copa_do_Brasil_1989.jpg",
+          "imageDescription": "Foto do time do Grêmio, campeão da primeira Copa do Brasil em 1989, posando com o troféu."
+        },
+        {
+          "text": "Flamengo",
+          "isCorrect": false,
+          "explanation": "Quase, o Flamengo venceu a Copa do Brasil depois. O primeiro foi outro. Tenta de novo!"
+        },
+        {
+          "text": "Corinthians",
+          "isCorrect": false,
+          "explanation": "Ops, o Corinthians veio depois. A primeira Copa do Brasil foi gaúcha. Tenta outra!"
+        },
+        {
+          "text": "Cruzeiro",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Cruzeiro venceu depois. O pioneiro foi o Grêmio. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro jogador brasileiro a marcar um hat-trick em uma Copa do Mundo?",
+      "options": [
+        {
+          "text": "Leônidas da Silva",
+          "isCorrect": true,
+          "explanation": "Gol de placa, meu craque! Leônidas da Silva fez um hat-trick contra a Polônia na Copa de 1938, em um jogo épico que terminou 6 a 5. O Diamante Negro brilhou, e você brilhou nessa questão. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Leônidas_da_Silva_1938.jpg/200px-Leônidas_da_Silva_1938.jpg",
+          "imageDescription": "Foto de Leônidas da Silva em 1938, durante a Copa do Mundo, onde marcou o primeiro hat-trick brasileiro."
+        },
+        {
+          "text": "Pelé",
+          "isCorrect": false,
+          "explanation": "Pelé é o Rei, mas não fez hat-trick em Copas. Outro craque foi o primeiro. Tenta de novo!"
+        },
+        {
+          "text": "Ronaldo",
+          "isCorrect": false,
+          "explanation": "Quase, Ronaldo era fenômeno, mas não fez hat-trick em Copas. Tenta outra, campeão!"
+        },
+        {
+          "text": "Ademir Menezes",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, Ademir marcou muito em 1950, mas não um hat-trick. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro clube brasileiro a ter um mascote oficial?",
+      "options": [
+        {
+          "text": "Corinthians",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! O Corinthians adotou o Mosqueteiro como mascote oficial em 1920, inspirado na luta e garra do time. Enquanto outros clubes ainda buscavam identidade, o Timão já tinha seu símbolo. Você é o craque da história!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Corinthians_Mosqueteiro_1920.jpg/200px-Corinthians_Mosqueteiro_1920.jpg",
+          "imageDescription": "Imagem do mascote Mosqueteiro do Corinthians, adotado em 1920, o primeiro mascote oficial de um clube brasileiro."
+        },
+        {
+          "text": "Flamengo",
+          "isCorrect": false,
+          "explanation": "Quase, o Flamengo tem o Urubu, mas ele veio depois. Outro clube foi pioneiro. Tenta de novo!"
+        },
+        {
+          "text": "Botafogo",
+          "isCorrect": false,
+          "explanation": "Ops, o Botafogo e seu mascote vieram mais tarde. O primeiro foi paulista. Tenta outra!"
+        },
+        {
+          "text": "Palmeiras",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Palmeiras demorou mais pra ter mascote. O Corinthians foi primeiro. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro estádio brasileiro a ter cadeiras numeradas?",
+      "options": [
+        {
+          "text": "Morumbi",
+          "isCorrect": true,
+          "explanation": "Golazo, meu craque! O Estádio do Morumbi, inaugurado em 1960, foi o primeiro no Brasil com cadeiras numeradas, trazendo mais conforto pros torcedores. São Paulo inovou, e você inovou nessa resposta. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Morumbi_1960.jpg/200px-Morumbi_1960.jpg",
+          "imageDescription": "Foto do Estádio do Morumbi em 1960, com suas cadeiras numeradas, o primeiro estádio brasileiro a adotar esse sistema."
+        },
+        {
+          "text": "Maracanã",
+          "isCorrect": false,
+          "explanation": "Quase, o Maracanã era gigante, mas as cadeiras numeradas vieram depois. Tenta de novo!"
+        },
+        {
+          "text": "Pacaembu",
+          "isCorrect": false,
+          "explanation": "Ops, o Pacaembu não tinha cadeiras numeradas na época. Outro estádio foi pioneiro. Tenta outra!"
+        },
+        {
+          "text": "Mineirão",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Mineirão veio depois. O Morumbi foi o primeiro. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro jogador brasileiro a jogar na Premier League inglesa?",
+      "options": [
+        {
+          "text": "Mirandinha",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! Mirandinha foi o primeiro brasileiro na Premier League, jogando pelo Newcastle em 1987. Ele abriu as portas pros brasileiros na Inglaterra, e você abriu o caminho pra essa resposta. Parabéns, craque!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Mirandinha_Newcastle_1987.jpg/200px-Mirandinha_Newcastle_1987.jpg",
+          "imageDescription": "Foto de Mirandinha com a camisa do Newcastle em 1987, o primeiro brasileiro a jogar na Premier League."
+        },
+        {
+          "text": "Juninho Paulista",
+          "isCorrect": false,
+          "explanation": "Quase, Juninho brilhou no Middlesbrough, mas depois do pioneiro. Tenta de novo!"
+        },
+        {
+          "text": "Roberto Carlos",
+          "isCorrect": false,
+          "explanation": "Ops, Roberto Carlos não jogou na Premier League. Outro craque foi o primeiro. Tenta outra!"
+        },
+        {
+          "text": "Ronaldo",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas Ronaldo nunca jogou na Inglaterra. O pioneiro foi outro. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro clube brasileiro a ter um hino oficial?",
+      "options": [
+        {
+          "text": "Fluminense",
+          "isCorrect": true,
+          "explanation": "Gol de placa, meu craque! O Fluminense lançou seu hino oficial em 1919, composto por Antônio Cardoso, sendo o primeiro clube brasileiro a ter uma canção própria. Enquanto outros times só gritavam, os tricolores já cantavam com orgulho. Você é o maestro dessa questão!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Fluminense_1919.jpg/200px-Fluminense_1919.jpg",
+          "imageDescription": "Foto histórica do time do Fluminense em 1919, ano em que o clube lançou seu hino oficial, o primeiro do Brasil."
+        },
+        {
+          "text": "Flamengo",
+          "isCorrect": false,
+          "explanation": "Quase, rubro-negro! O Flamengo tem um hino lindo, mas ele veio depois. Outro carioca cantou primeiro. Tenta de novo!"
+        },
+        {
+          "text": "Corinthians",
+          "isCorrect": false,
+          "explanation": "Ops, o hino do Timão é épico, mas não foi o primeiro. Um clube do Rio levou essa. Tenta outra!"
+        },
+        {
+          "text": "Botafogo",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Botafogo demorou mais pra ter hino. O pioneiro foi outro. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro jogo internacional de um clube brasileiro?",
+      "options": [
+        {
+          "text": "Paulistano x Stade Français, 1925",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! O Paulistano enfrentou o Stade Français em 1925, na França, durante sua excursão pela Europa, sendo o primeiro jogo internacional de um clube brasileiro. Eles mostraram a ginga brasileira, e você mostrou que sabe tudo. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Paulistano_Europa_1925.jpg/200px-Paulistano_Europa_1925.jpg",
+          "imageDescription": "Foto do time do Paulistano em 1925, durante a excursão pela Europa, onde disputou o primeiro jogo internacional de um clube brasileiro."
+        },
+        {
+          "text": "Fluminense x Peñarol, 1930",
+          "isCorrect": false,
+          "explanation": "Quase, mas o Fluminense jogou depois! O primeiro jogo internacional foi em 1925. Tenta de novo!"
+        },
+        {
+          "text": "Santos x Boca Juniors, 1929",
+          "isCorrect": false,
+          "explanation": "Ops, o Santos não jogou internacionais tão cedo. Outro clube foi pioneiro. Tenta outra!"
+        },
+        {
+          "text": "Vasco x River Plate, 1928",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Vasco não foi o primeiro. O pioneiro foi paulista. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro clube brasileiro a vencer o Torneio Rio-São Paulo?",
+      "options": [
+        {
+          "text": "Palmeiras",
+          "isCorrect": true,
+          "explanation": "Golazo, meu craque! O Palmeiras, ainda como Palestra Itália, venceu o primeiro Torneio Rio-São Paulo em 1933, batendo os rivais cariocas e paulistas. Eles mostraram quem mandava na época, e você mandou bem nessa questão. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Palmeiras_1933_Rio_SP.jpg/200px-Palmeiras_1933_Rio_SP.jpg",
+          "imageDescription": "Foto do time do Palmeiras (Palestra Itália) em 1933, campeão do primeiro Torneio Rio-São Paulo."
+        },
+        {
+          "text": "Flamengo",
+          "isCorrect": false,
+          "explanation": "Quase, o Flamengo brilhou no Rio-São Paulo, mas não no primeiro. Um paulista levou. Tenta de novo!"
+        },
+        {
+          "text": "Corinthians",
+          "isCorrect": false,
+          "explanation": "Ops, o Corinthians veio depois no Rio-São Paulo. O pioneiro foi outro. Tenta outra!"
+        },
+        {
+          "text": "Fluminense",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Fluminense não venceu o primeiro. O Palmeiras foi mais rápido. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro jogador brasileiro a ser contratado por um clube italiano?",
+      "options": [
+        {
+          "text": "Ângelo Sormani",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! Ângelo Sormani foi contratado pelo Mantova, da Itália, em 1961, sendo o primeiro brasileiro a jogar no calcio italiano. Ele abriu as portas pro talento brasileiro, e você abriu o caminho pra essa resposta. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Ângelo_Sormani_1961.jpg/200px-Ângelo_Sormani_1961.jpg",
+          "imageDescription": "Foto de Ângelo Sormani em 1961, com a camisa do Mantova, o primeiro brasileiro contratado por um clube italiano."
+        },
+        {
+          "text": "Mazzola (Altafini)",
+          "isCorrect": false,
+          "explanation": "Quase, Mazzola era brasileiro, mas se naturalizou italiano. Outro foi o primeiro. Tenta de novo!"
+        },
+        {
+          "text": "Dida (Nelinho)",
+          "isCorrect": false,
+          "explanation": "Ops, Dida jogou na Itália depois. O pioneiro foi em 1961. Tenta outra, campeão!"
+        },
+        {
+          "text": "Zico",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas Zico foi pra Itália nos anos 80. O primeiro foi bem antes. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro estádio brasileiro construído especificamente para o futebol?",
+      "options": [
+        {
+          "text": "Estádio das Laranjeiras",
+          "isCorrect": true,
+          "explanation": "Gol de letra, meu craque! O Estádio das Laranjeiras, do Fluminense, foi inaugurado em 1919 e construído só pra futebol, diferente de outros que adaptavam campos de outros esportes. O Rio mostrou o caminho, e você mostrou que é fera. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Estádio_das_Laranjeiras_1919.jpg/200px-Estádio_das_Laranjeiras_1919.jpg",
+          "imageDescription": "Foto histórica do Estádio das Laranjeiras, inaugurado em 1919 pelo Fluminense, o primeiro estádio brasileiro feito para o futebol."
+        },
+        {
+          "text": "Velódromo Paulista",
+          "isCorrect": false,
+          "explanation": "Quase, mas o Velódromo era mais pra ciclismo. O primeiro só pra futebol foi outro. Tenta de novo!"
+        },
+        {
+          "text": "Pacaembu",
+          "isCorrect": false,
+          "explanation": "Ops, o Pacaembu veio em 1940. O pioneiro do futebol foi antes. Tenta outra!"
+        },
+        {
+          "text": "Maracanã",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Maracanã é de 1950. O primeiro estádio foi carioca, mas mais antigo. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro campeonato brasileiro a ter um artilheiro estrangeiro?",
+      "options": [
+        {
+          "text": "Campeonato Brasileiro de 1972",
+          "isCorrect": true,
+          "explanation": "Golazo, meu craque! Em 1972, o argentino Pedro Rocha, do São Paulo, foi o artilheiro do Brasileirão, marcando 17 gols. Ele veio de fora, mas balançou as redes como brasileiro, e você balançou essa questão. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Pedro_Rocha_1972.jpg/200px-Pedro_Rocha_1972.jpg",
+          "imageDescription": "Foto de Pedro Rocha, jogador do São Paulo, artilheiro do Brasileirão de 1972, o primeiro estrangeiro a conseguir o feito."
+        },
+        {
+          "text": "Campeonato Brasileiro de 1980",
+          "isCorrect": false,
+          "explanation": "Quase, mas em 1980 o artilheiro foi brasileiro. O primeiro gringo foi antes. Tenta de novo!"
+        },
+        {
+          "text": "Taça Brasil de 1960",
+          "isCorrect": false,
+          "explanation": "Ops, a Taça Brasil não tinha artilheiros estrangeiros. O primeiro foi no Brasileirão. Tenta outra!"
+        },
+        {
+          "text": "Campeonato Brasileiro de 1990",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas 1990 não teve artilheiro gringo. O pioneiro foi em 72. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro clube brasileiro a ter um programa de sócio-torcedor?",
+      "options": [
+        {
+          "text": "Internacional",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! O Internacional lançou o primeiro programa de sócio-torcedor do Brasil em 2003, chamado 'Paixão Colorada'. Enquanto outros clubes só sonhavam, o Colorado já fidelizava a torcida. Você é o craque dessa história!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Internacional_2003_Sócio.jpg/200px-Internacional_2003_Sócio.jpg",
+          "imageDescription": "Imagem de uma campanha do programa 'Paixão Colorada' do Internacional, lançado em 2003, o primeiro sócio-torcedor do Brasil."
+        },
+        {
+          "text": "Flamengo",
+          "isCorrect": false,
+          "explanation": "Quase, o Flamengo tem milhões de sócios, mas o pioneiro foi outro. Tenta de novo, rubro-negro!"
+        },
+        {
+          "text": "Corinthians",
+          "isCorrect": false,
+          "explanation": "Ops, o Corinthians veio depois com o sócio-torcedor. O primeiro foi gaúcho. Tenta outra!"
+        },
+        {
+          "text": "São Paulo",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o São Paulo demorou mais. O Inter foi mais rápido. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro jogador brasileiro a marcar um gol olímpico em uma Copa do Mundo?",
+      "options": [
+        {
+          "text": "Marcos Coll",
+          "isCorrect": true,
+          "explanation": "Gol de letra, meu craque! Marcos Coll, jogando pela seleção brasileira, marcou um gol olímpico contra a Espanha na Copa de 1962, no Chile. Foi um chute direto do escanteio que entrou pra história, e você entrou pra história com essa resposta. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Marcos_Coll_1962.jpg/200px-Marcos_Coll_1962.jpg",
+          "imageDescription": "Foto de Marcos Coll em ação na Copa do Mundo de 1962, onde marcou o primeiro gol olímpico brasileiro."
+        },
+        {
+          "text": "Rivaldo",
+          "isCorrect": false,
+          "explanation": "Quase, Rivaldo era gênio, mas não marcou gol olímpico em Copas. Tenta de novo!"
+        },
+        {
+          "text": "Roberto Carlos",
+          "isCorrect": false,
+          "explanation": "Ops, Roberto Carlos tinha um canhão, mas não gol olímpico. Outro foi o pioneiro. Tenta outra!"
+        },
+        {
+          "text": "Ronaldinho",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas Ronaldinho não marcou olímpico em Copas. O primeiro foi em 62. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro clube brasileiro a ter um site oficial na internet?",
+      "options": [
+        {
+          "text": "São Paulo",
+          "isCorrect": true,
+          "explanation": "Golazo, meu craque! O São Paulo lançou seu site oficial em 1996, sendo o primeiro clube brasileiro a entrar na era digital. Enquanto outros ainda mandavam carta, o Tricolor já navegava na web. Você é o rei da história!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/São_Paulo_Site_1996.jpg/200px-São_Paulo_Site_1996.jpg",
+          "imageDescription": "Captura de tela do primeiro site oficial do São Paulo, lançado em 1996, pioneiro entre os clubes brasileiros."
+        },
+        {
+          "text": "Flamengo",
+          "isCorrect": false,
+          "explanation": "Quase, o Flamengo entrou na internet depois. Um paulista foi mais rápido. Tenta de novo!"
+        },
+        {
+          "text": "Corinthians",
+          "isCorrect": false,
+          "explanation": "Ops, o Corinthians demorou mais pra ter site. O São Paulo foi o pioneiro. Tenta outra!"
+        },
+        {
+          "text": "Cruzeiro",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Cruzeiro veio depois. O primeiro site foi tricolor. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro campeonato brasileiro a ter um jogo decidido nos pênaltis?",
+      "options": [
+        {
+          "text": "Campeonato Brasileiro de 1988",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! O Brasileirão de 1988 teve a final entre Bahia e Internacional decidida nos pênaltis, com o Bahia levando a taça. Foi a primeira vez que o Brasil viu um título nacional nas cobranças, e você viu a resposta certa. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Bahia_1988_Brasileirão.jpg/200px-Bahia_1988_Brasileirão.jpg",
+          "imageDescription": "Foto do time do Bahia, campeão do Brasileirão de 1988, que venceu a final nos pênaltis, a primeira decidida assim."
+        },
+        {
+          "text": "Campeonato Brasileiro de 1977",
+          "isCorrect": false,
+          "explanation": "Quase, mas 1977 não teve pênaltis na final. A primeira disputa foi depois. Tenta de novo!"
+        },
+        {
+          "text": "Taça Brasil de 1960",
+          "isCorrect": false,
+          "explanation": "Ops, a Taça Brasil não usava pênaltis. O primeiro foi no Brasileirão. Tenta outra!"
+        },
+        {
+          "text": "Campeonato Brasileiro de 1995",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas 1995 não foi o primeiro. A disputa de pênaltis estreou em 88. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro jogador brasileiro a ser expulso em uma Copa do Mundo?",
+      "options": [
+        {
+          "text": "Hermes",
+          "isCorrect": true,
+          "explanation": "Gol de placa, meu craque! Hermes foi expulso na Copa de 1930, contra a Iugoslávia, sendo o primeiro brasileiro a tomar cartão vermelho em um Mundial. Ele saiu de campo, mas você ficou no jogo com essa resposta. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Brasil_1930_Copa.jpg/200px-Brasil_1930_Copa.jpg",
+          "imageDescription": "Foto da seleção brasileira na Copa do Mundo de 1930, onde Hermes foi o primeiro jogador expulso."
+        },
+        {
+          "text": "Zico",
+          "isCorrect": false,
+          "explanation": "Quase, Zico era craque, mas não foi expulso em Copas. O primeiro foi bem antes. Tenta de novo!"
+        },
+        {
+          "text": "Luís Pereira",
+          "isCorrect": false,
+          "explanation": "Ops, Luís Pereira foi expulso em 1974, mas não foi o primeiro. Tenta outra, campeão!"
+        },
+        {
+          "text": "Ronaldo",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas Ronaldo não tomou vermelho em Copas. O pioneiro foi em 1930. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro clube brasileiro a vencer a Recopa Sul-Americana?",
+      "options": [
+        {
+          "text": "Grêmio",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! O Grêmio venceu a Recopa Sul-Americana em 1996, batendo o Independiente. Os gaúchos mostraram que o Sul mandava bem, e você mostrou que é craque na história. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Grêmio_Recopa_1996.jpg/200px-Grêmio_Recopa_1996.jpg",
+          "imageDescription": "Foto do time do Grêmio, campeão da Recopa Sul-Americana de 1996, posando com o troféu."
+        },
+        {
+          "text": "São Paulo",
+          "isCorrect": false,
+          "explanation": "Quase, o São Paulo venceu depois. O primeiro foi gaúcho. Tenta de novo, tricolor!"
+        },
+        {
+          "text": "Cruzeiro",
+          "isCorrect": false,
+          "explanation": "Ops, o Cruzeiro não venceu a Recopa. Outro clube foi o pioneiro. Tenta outra!"
+        },
+        {
+          "text": "Internacional",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Inter venceu depois. O Grêmio foi o primeiro. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro estádio brasileiro a ter um placar eletrônico?",
+      "options": [
+        {
+          "text": "Mineirão",
+          "isCorrect": true,
+          "explanation": "Golazo, meu craque! O Mineirão, em Belo Horizonte, foi o primeiro estádio brasileiro com placar eletrônico, instalado em 1965. Enquanto outros contavam gols no papel, Minas já brilhava na tecnologia. Você é o rei dessa questão!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Mineirão_1965.jpg/200px-Mineirão_1965.jpg",
+          "imageDescription": "Foto do Mineirão em 1965, com o primeiro placar eletrônico instalado em um estádio brasileiro."
+        },
+        {
+          "text": "Maracanã",
+          "isCorrect": false,
+          "explanation": "Quase, o Maracanã ganhou placar depois. Minas foi mais rápida. Tenta de novo!"
+        },
+        {
+          "text": "Morumbi",
+          "isCorrect": false,
+          "explanation": "Ops, o Morumbi demorou mais pra ter placar eletrônico. O Mineirão foi o pioneiro. Tenta outra!"
+        },
+        {
+          "text": "Pacaembu",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Pacaembu não teve placar primeiro. O Mineirão levou essa. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro clube brasileiro a ter uma torcida organizada registrada oficialmente?",
+      "options": [
+        {
+          "text": "Flamengo",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! A torcida 'Fla-Gávea', do Flamengo, foi a primeira registrada oficialmente em 1967, marcando o início das torcidas organizadas no Brasil. O Mengão lotava estádios e organizava a paixão, e você organizou essa resposta. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Flamengo_Torcida_1967.jpg/200px-Flamengo_Torcida_1967.jpg",
+          "imageDescription": "Foto da torcida organizada 'Fla-Gávea' do Flamengo em 1967, a primeira registrada oficialmente no Brasil."
+        },
+        {
+          "text": "Corinthians",
+          "isCorrect": false,
+          "explanation": "Quase, a Gaviões da Fiel é famosa, mas veio depois. O Flamengo foi primeiro. Tenta de novo!"
+        },
+        {
+          "text": "Palmeiras",
+          "isCorrect": false,
+          "explanation": "Ops, a Mancha Verde surgiu mais tarde. O pioneiro foi rubro-negro. Tenta outra!"
+        },
+        {
+          "text": "Internacional",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Inter demorou mais. O Flamengo liderou essa. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro jogador brasileiro a jogar na Bundesliga alemã?",
+      "options": [
+        {
+          "text": "Zé Roberto",
+          "isCorrect": true,
+          "explanation": "Gol de letra, meu craque! Zé Roberto foi o primeiro brasileiro na Bundesliga, jogando pelo Bayer Leverkusen em 1998. Ele abriu as portas pros brasileiros na Alemanha, e você abriu o caminho pra essa resposta. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Zé_Roberto_1998.jpg/200px-Zé_Roberto_1998.jpg",
+          "imageDescription": "Foto de Zé Roberto com a camisa do Bayer Leverkusen em 1998, o primeiro brasileiro a jogar na Bundesliga."
+        },
+        {
+          "text": "Rivaldo",
+          "isCorrect": false,
+          "explanation": "Quase, Rivaldo brilhou na Espanha, não na Alemanha. Outro foi o pioneiro. Tenta de novo!"
+        },
+        {
+          "text": "Ronaldinho",
+          "isCorrect": false,
+          "explanation": "Ops, Ronaldinho não jogou na Bundesliga. O primeiro foi outro. Tenta outra!"
+        },
+        {
+          "text": "Cafu",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas Cafu jogou na Itália. O pioneiro na Alemanha foi outro. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro campeonato brasileiro a ter um jogo transmitido em cores?",
+      "options": [
+        {
+          "text": "Campeonato Brasileiro de 1972",
+          "isCorrect": true,
+          "explanation": "Golazo, meu craque! O Brasileirão de 1972 teve jogos transmitidos em cores pela primeira vez, com a TV brasileira adotando a tecnologia. O futebol ganhou vida na telinha, e você deu vida a essa resposta. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/TV_Cores_1972.jpg/200px-TV_Cores_1972.jpg",
+          "imageDescription": "Imagem de uma TV transmitindo um jogo do Brasileirão de 1972 em cores, a primeira transmissão colorida de futebol no Brasil."
+        },
+        {
+          "text": "Campeonato Brasileiro de 1968",
+          "isCorrect": false,
+          "explanation": "Quase, mas em 1968 a TV ainda era preto e branco. As cores vieram depois. Tenta de novo!"
+        },
+        {
+          "text": "Campeonato Brasileiro de 1980",
+          "isCorrect": false,
+          "explanation": "Ops, em 1980 as cores já eram comuns. O primeiro foi antes. Tenta outra!"
+        },
+        {
+          "text": "Taça Brasil de 1965",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas 1965 não tinha TV colorida. O pioneiro foi em 72. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro clube brasileiro a vencer a Copa Sul-Americana?",
+      "options": [
+        {
+          "text": "Internacional",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! O Internacional venceu a Copa Sul-Americana em 2008, batendo o Estudiantes na final. O Colorado mostrou sua força continental, e você mostrou sua força nessa questão. Parabéns, craque!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Internacional_SulAmericana_2008.jpg/200px-Internacional_SulAmericana_2008.jpg",
+          "imageDescription": "Foto do time do Internacional, campeão da Copa Sul-Americana de 2008, posando com o troféu."
+        },
+        {
+          "text": "São Paulo",
+          "isCorrect": false,
+          "explanation": "Quase, o São Paulo venceu depois. O primeiro foi gaúcho. Tenta de novo, tricolor!"
+        },
+        {
+          "text": "Santos",
+          "isCorrect": false,
+          "explanation": "Ops, o Santos não venceu a Sul-Americana. Outro clube foi o pioneiro. Tenta outra!"
+        },
+        {
+          "text": "Atlético-PR",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Atlético-PR venceu depois. O Inter foi o primeiro. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro jogador brasileiro a jogar na Ligue 1 francesa?",
+      "options": [
+        {
+          "text": "Raí",
+          "isCorrect": true,
+          "explanation": "Gol de placa, meu craque! Raí foi o primeiro brasileiro na Ligue 1, jogando pelo Paris Saint-Germain em 1993. Ele encantou a França com seus gols, e você encantou com essa resposta. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Raí_PSG_1993.jpg/200px-Raí_PSG_1993.jpg",
+          "imageDescription": "Foto de Raí com a camisa do PSG em 1993, o primeiro brasileiro a jogar na Ligue 1 francesa."
+        },
+        {
+          "text": "Ronaldo",
+          "isCorrect": false,
+          "explanation": "Quase, Ronaldo brilhou na Holanda e Itália, mas não na França. Tenta de novo!"
+        },
+        {
+          "text": "Ronaldinho",
+          "isCorrect": false,
+          "explanation": "Ops, Ronaldinho jogou no PSG depois de Raí. O primeiro foi outro. Tenta outra!"
+        },
+        {
+          "text": "Neymar",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas Neymar é bem mais recente. O pioneiro na França foi em 93. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro estádio brasileiro a ter um sistema de drenagem moderno?",
+      "options": [
+        {
+          "text": "Morumbi",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! O Estádio do Morumbi, inaugurado em 1960, foi o primeiro com um sistema de drenagem moderno, permitindo jogos mesmo na chuva. São Paulo inovou no gramado, e você inovou nessa resposta. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Morumbi_1960.jpg/200px-Morumbi_1960.jpg",
+          "imageDescription": "Foto do Estádio do Morumbi em 1960, com seu gramado equipado com o primeiro sistema de drenagem moderno do Brasil."
+        },
+        {
+          "text": "Maracanã",
+          "isCorrect": false,
+          "explanation": "Quase, o Maracanã era gigante, mas a drenagem moderna veio depois. Tenta de novo!"
+        },
+        {
+          "text": "Mineirão",
+          "isCorrect": false,
+          "explanation": "Ops, o Mineirão foi construído depois. O Morumbi foi o pioneiro. Tenta outra!"
+        },
+        {
+          "text": "Pacaembu",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Pacaembu não tinha drenagem tão avançada. O Morumbi levou. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro clube brasileiro a ter uma escolinha de futebol oficial?",
+      "options": [
+        {
+          "text": "Santos",
+          "isCorrect": true,
+          "explanation": "Golazo, meu craque! O Santos criou sua escolinha de futebol oficial em 1956, revelando talentos como Pelé. Enquanto outros clubes só sonhavam, o Peixe já formava craques. Você é o rei dessa questão!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Santos_1956_Escolinha.jpg/200px-Santos_1956_Escolinha.jpg",
+          "imageDescription": "Foto de jovens na escolinha de futebol do Santos em 1956, a primeira oficial de um clube brasileiro."
+        },
+        {
+          "text": "Flamengo",
+          "isCorrect": false,
+          "explanation": "Quase, o Flamengo teve escolinha depois. O pioneiro foi da Baixada. Tenta de novo!"
+        },
+        {
+          "text": "Corinthians",
+          "isCorrect": false,
+          "explanation": "Ops, o Corinthians demorou mais pra ter escolinha. O Santos foi primeiro. Tenta outra!"
+        },
+        {
+          "text": "Botafogo",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Botafogo veio depois. O Peixe liderou essa. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro campeonato brasileiro a ter um jogo com público superior a 100 mil pessoas?",
+      "options": [
+        {
+          "text": "Campeonato Brasileiro de 1983",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! O Brasileirão de 1983 teve o jogo Flamengo x Santos, no Maracanã, com mais de 100 mil torcedores, um recorde na época. A Nação lotou o estádio, e você lotou essa questão de acertos. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Maracanã_1983.jpg/200px-Maracanã_1983.jpg",
+          "imageDescription": "Foto do Maracanã lotado em 1983, durante o jogo Flamengo x Santos, com mais de 100 mil torcedores."
+        },
+        {
+          "text": "Campeonato Brasileiro de 1971",
+          "isCorrect": false,
+          "explanation": "Quase, mas 1971 não teve público tão grande. O recorde foi em 83. Tenta de novo!"
+        },
+        {
+          "text": "Taça Brasil de 1962",
+          "isCorrect": false,
+          "explanation": "Ops, a Taça Brasil não lotava tanto. O primeiro foi no Brasileirão. Tenta outra!"
+        },
+        {
+          "text": "Campeonato Brasileiro de 1995",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas 1995 não teve 100 mil. O pioneiro foi em 83. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro jogador brasileiro a jogar na La Liga espanhola?",
+      "options": [
+        {
+          "text": "Evaristo de Macedo",
+          "isCorrect": true,
+          "explanation": "Gol de placa, meu craque! Evaristo de Macedo foi o primeiro brasileiro na La Liga, jogando pelo Barcelona em 1957. Ele marcou gols e abriu caminho pros brasileiros na Espanha, e você marcou essa resposta. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Evaristo_de_Macedo_1957.jpg/200px-Evaristo_de_Macedo_1957.jpg",
+          "imageDescription": "Foto de Evaristo de Macedo com a camisa do Barcelona em 1957, o primeiro brasileiro a jogar na La Liga."
+        },
+        {
+          "text": "Romário",
+          "isCorrect": false,
+          "explanation": "Quase, Romário brilhou no Barcelona, mas depois. O primeiro foi em 57. Tenta de novo!"
+        },
+        {
+          "text": "Rivaldo",
+          "isCorrect": false,
+          "explanation": "Ops, Rivaldo veio bem depois. O pioneiro na Espanha foi outro. Tenta outra!"
+        },
+        {
+          "text": "Ronaldo",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas Ronaldo jogou na Espanha nos anos 90. O primeiro foi antes. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro clube brasileiro a ter uma loja oficial de produtos licenciados?",
+      "options": [
+        {
+          "text": "Flamengo",
+          "isCorrect": true,
+          "explanation": "Gol de placa, meu craque! O Flamengo abriu sua primeira loja oficial de produtos licenciados em 1981, vendendo camisas, chaveiros e a paixão rubro-negra. Enquanto outros clubes improvisavam, o Mengão já era marca registrada. Você é o dono dessa questão!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Flamengo_Loja_1981.jpg/200px-Flamengo_Loja_1981.jpg",
+          "imageDescription": "Foto da primeira loja oficial do Flamengo, inaugurada em 1981, exibindo produtos licenciados como camisas e acessórios rubro-negros."
+        },
+        {
+          "text": "Corinthians",
+          "isCorrect": false,
+          "explanation": "Quase, timão! O Corinthians tem lojas incríveis, mas o Flamengo foi mais rápido. Tenta de novo, fiel!"
+        },
+        {
+          "text": "São Paulo",
+          "isCorrect": false,
+          "explanation": "Ops, o São Paulo demorou mais pra abrir uma loja oficial. O pioneiro foi carioca. Tenta outra!"
+        },
+        {
+          "text": "Palmeiras",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, verdão! Mas o Flamengo levou essa taça primeiro. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro campeonato brasileiro a ter um jogo transmitido ao vivo para o exterior?",
+      "options": [
+        {
+          "text": "Campeonato Brasileiro de 1979",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! O Brasileirão de 1979 teve o jogo Palmeiras x Internacional transmitido ao vivo pra fora do Brasil, mostrando nossa bola pro mundo. A TV brasileira exportou a emoção, e você exportou essa resposta certinha. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Palmeiras_1979_Brasileirão.jpg/200px-Palmeiras_1979_Brasileirão.jpg",
+          "imageDescription": "Foto do time do Palmeiras em 1979, que jogou contra o Internacional no primeiro jogo do Brasileirão transmitido ao vivo para o exterior."
+        },
+        {
+          "text": "Campeonato Brasileiro de 1985",
+          "isCorrect": false,
+          "explanation": "Quase, mas 1985 já tinha transmissões internacionais. O primeiro foi antes. Tenta de novo!"
+        },
+        {
+          "text": "Taça Brasil de 1960",
+          "isCorrect": false,
+          "explanation": "Ops, a Taça Brasil não tinha tecnologia pra isso. O pioneiro foi no Brasileirão. Tenta outra!"
+        },
+        {
+          "text": "Campeonato Brasileiro de 1990",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas 1990 não foi o primeiro. O mundo viu o Brasil em 79. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro jogador brasileiro a marcar um gol em uma final de Mundial de Clubes?",
+      "options": [
+        {
+          "text": "Raí",
+          "isCorrect": true,
+          "explanation": "Golazo, meu craque! Raí marcou o gol decisivo na final do Mundial de 1992, pelo São Paulo, contra o Barcelona. Ele mostrou pro mundo o que é ginga, e você mostrou que é fera na história. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/São_Paulo_Mundial_1992.jpg/200px-São_Paulo_Mundial_1992.jpg",
+          "imageDescription": "Foto de Raí celebrando o gol na final do Mundial de Clubes de 1992, pelo São Paulo, contra o Barcelona."
+        },
+        {
+          "text": "Pelé",
+          "isCorrect": false,
+          "explanation": "Pelé é o Rei, mas seus Mundiais foram em outro formato. O primeiro no formato moderno foi outro. Tenta de novo!"
+        },
+        {
+          "text": "Romário",
+          "isCorrect": false,
+          "explanation": "Quase, Romário era gênio, mas não marcou em finais de Mundial. Tenta outra, baixinho!"
+        },
+        {
+          "text": "Ronaldo",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas Ronaldo não jogou finais de Mundial. O pioneiro foi em 92. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro clube brasileiro a ter um aplicativo oficial para smartphones?",
+      "options": [
+        {
+          "text": "Corinthians",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! O Corinthians lançou seu aplicativo oficial em 2010, trazendo notícias, ingressos e paixão alvinegra na palma da mão. Enquanto outros clubes ainda mandavam SMS, o Timão já era tech. Você é o craque dessa questão!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Corinthians_App_2010.jpg/200px-Corinthians_App_2010.jpg",
+          "imageDescription": "Captura de tela do aplicativo oficial do Corinthians, lançado em 2010, o primeiro de um clube brasileiro para smartphones."
+        },
+        {
+          "text": "Flamengo",
+          "isCorrect": false,
+          "explanation": "Quase, o Flamengo tem app, mas o Corinthians foi mais rápido. Tenta de novo, rubro-negro!"
+        },
+        {
+          "text": "São Paulo",
+          "isCorrect": false,
+          "explanation": "Ops, o São Paulo demorou mais pra entrar na era dos apps. O Timão liderou. Tenta outra!"
+        },
+        {
+          "text": "Santos",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Santos veio depois. O primeiro app foi alvinegro. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro estádio brasileiro a ter um teto retrátil?",
+      "options": [
+        {
+          "text": "Allianz Parque",
+          "isCorrect": true,
+          "explanation": "Gol de letra, meu craque! O Allianz Parque, em São Paulo, foi o primeiro estádio brasileiro com teto retrátil, inaugurado em 2014. Chuva? Nem pensar, o Palmeiras joga com estilo, e você respondeu com estilo. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Allianz_Parque_2014.jpg/200px-Allianz_Parque_2014.jpg",
+          "imageDescription": "Foto do Allianz Parque em 2014, mostrando seu teto retrátil, o primeiro em um estádio brasileiro."
+        },
+        {
+          "text": "Maracanã",
+          "isCorrect": false,
+          "explanation": "Quase, o Maracanã é gigante, mas sem teto retrátil. Outro estádio foi pioneiro. Tenta de novo!"
+        },
+        {
+          "text": "Mineirão",
+          "isCorrect": false,
+          "explanation": "Ops, o Mineirão não tem teto retrátil. São Paulo levou essa inovação. Tenta outra!"
+        },
+        {
+          "text": "Arena Corinthians",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas a Arena Corinthians não tem teto retrátil. O Palmeiras foi primeiro. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro campeonato brasileiro a ter um VAR (árbitro de vídeo)?",
+      "options": [
+        {
+          "text": "Campeonato Brasileiro de 2019",
+          "isCorrect": true,
+          "explanation": "Golazo, meu craque! O Brasileirão de 2019 foi o primeiro a usar o VAR em todos os jogos, trazendo tecnologia pra acabar com as polêmicas (ou criar novas!). O Flamengo foi campeão, e você é campeão dessa questão. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/VAR_Brasileirão_2019.jpg/200px-VAR_Brasileirão_2019.jpg",
+          "imageDescription": "Imagem de um árbitro consultando o VAR durante o Brasileirão de 2019, o primeiro campeonato brasileiro a usar a tecnologia."
+        },
+        {
+          "text": "Campeonato Brasileiro de 2017",
+          "isCorrect": false,
+          "explanation": "Quase, mas 2017 ainda não tinha VAR. A tecnologia chegou depois. Tenta de novo!"
+        },
+        {
+          "text": "Copa do Brasil de 2018",
+          "isCorrect": false,
+          "explanation": "Ops, a Copa do Brasil usou VAR antes, mas o Brasileirão foi em 2019. Tenta outra!"
+        },
+        {
+          "text": "Campeonato Brasileiro de 2021",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas 2021 já tinha VAR. O pioneiro foi em 2019. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro jogador brasileiro a jogar na MLS (Major League Soccer)?",
+      "options": [
+        {
+          "text": "Roberto Donadoni",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! Roberto Donadoni, ex-Santos, foi o primeiro brasileiro na MLS, jogando pelo New York MetroStars em 1996. Ele levou a ginga pro futebol americano, e você levou a ginga pra essa resposta. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Roberto_Donadoni_1996.jpg/200px-Roberto_Donadoni_1996.jpg",
+          "imageDescription": "Foto de Roberto Donadoni com a camisa do New York MetroStars em 1996, o primeiro brasileiro a jogar na MLS."
+        },
+        {
+          "text": "Kaká",
+          "isCorrect": false,
+          "explanation": "Quase, Kaká brilhou na MLS, mas bem depois. O primeiro foi em 96. Tenta de novo!"
+        },
+        {
+          "text": "Robinho",
+          "isCorrect": false,
+          "explanation": "Ops, Robinho não jogou na MLS. Outro craque foi o pioneiro. Tenta outra!"
+        },
+        {
+          "text": "Ronaldinho",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas Ronaldinho não foi pra MLS. O primeiro foi outro. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro clube brasileiro a ter um canal oficial no YouTube?",
+      "options": [
+        {
+          "text": "São Paulo",
+          "isCorrect": true,
+          "explanation": "Gol de letra, meu craque! O São Paulo lançou seu canal oficial no YouTube em 2006, mostrando bastidores, gols e a paixão tricolor. Enquanto outros clubes ainda gravavam em VHS, o Tricolor já era youtuber. Você é o rei dessa questão!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/São_Paulo_YouTube_2006.jpg/200px-São_Paulo_YouTube_2006.jpg",
+          "imageDescription": "Captura de tela do canal oficial do São Paulo no YouTube, lançado em 2006, o primeiro de um clube brasileiro."
+        },
+        {
+          "text": "Flamengo",
+          "isCorrect": false,
+          "explanation": "Quase, o Flamengo tem um canalzaço, mas o São Paulo foi mais rápido. Tenta de novo!"
+        },
+        {
+          "text": "Corinthians",
+          "isCorrect": false,
+          "explanation": "Ops, o Corinthians demorou mais pra entrar no YouTube. O Tricolor liderou. Tenta outra!"
+        },
+        {
+          "text": "Palmeiras",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Palmeiras veio depois. O São Paulo foi o pioneiro. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro clássico brasileiro a ser transmitido em alta definição (HD)?",
+      "options": [
+        {
+          "text": "Flamengo x Fluminense",
+          "isCorrect": true,
+          "explanation": "Golazo, meu craque! O Fla-Flu de 2008, no Maracanã, foi o primeiro clássico brasileiro transmitido em HD, com as cores rubro-negras e tricolores brilhando na tela. A tecnologia chegou, e você chegou direitinho na resposta. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Fla-Flu_2008.jpg/200px-Fla-Flu_2008.jpg",
+          "imageDescription": "Foto do clássico Fla-Flu de 2008 no Maracanã, o primeiro transmitido em alta definição no Brasil."
+        },
+        {
+          "text": "Corinthians x Palmeiras",
+          "isCorrect": false,
+          "explanation": "Quase, o Derby Paulista é épico, mas o HD chegou primeiro no Rio. Tenta de novo!"
+        },
+        {
+          "text": "Grêmio x Internacional",
+          "isCorrect": false,
+          "explanation": "Ops, o Grenal demorou mais pra ter HD. O pioneiro foi carioca. Tenta outra!"
+        },
+        {
+          "text": "Cruzeiro x Atlético-MG",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o clássico mineiro não foi o primeiro em HD. O Fla-Flu levou. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro jogador brasileiro a ser técnico de um clube europeu?",
+      "options": [
+        {
+          "text": "Didi",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! Didi, o craque do meio-campo, foi técnico do Fenerbahçe, da Turquia, em 1972, sendo o primeiro brasileiro a comandar um clube europeu. Ele levou a ginga pro banco, e você levou a ginga pra essa resposta. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Didi_Fenerbahçe_1972.jpg/200px-Didi_Fenerbahçe_1972.jpg",
+          "imageDescription": "Foto de Didi como técnico do Fenerbahçe em 1972, o primeiro brasileiro a treinar um clube europeu."
+        },
+        {
+          "text": "Pelé",
+          "isCorrect": false,
+          "explanation": "Pelé é o Rei, mas não foi técnico na Europa. Outro craque liderou primeiro. Tenta de novo!"
+        },
+        {
+          "text": "Zico",
+          "isCorrect": false,
+          "explanation": "Quase, Zico treinou na Europa, mas depois. O primeiro foi em 72. Tenta outra!"
+        },
+        {
+          "text": "Romário",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas Romário não foi técnico na Europa. O pioneiro foi outro. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro clube brasileiro a vencer a Copa Intercontinental contra um time europeu?",
+      "options": [
+        {
+          "text": "Santos",
+          "isCorrect": true,
+          "explanation": "Gol de placa, meu craque! O Santos, com Pelé e cia., venceu a Copa Intercontinental em 1962, batendo o Benfica de Eusébio. Eles mostraram pro mundo quem mandava, e você mostrou que é fera na história. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Santos_Intercontinental_1962.jpg/200px-Santos_Intercontinental_1962.jpg",
+          "imageDescription": "Foto do time do Santos, campeão da Copa Intercontinental de 1962, posando com o troféu após vencer o Benfica."
+        },
+        {
+          "text": "Flamengo",
+          "isCorrect": false,
+          "explanation": "Quase, o Flamengo venceu em 81, mas o Santos foi mais rápido. Tenta de novo!"
+        },
+        {
+          "text": "São Paulo",
+          "isCorrect": false,
+          "explanation": "Ops, o São Paulo venceu em 92. O primeiro foi o Peixe. Tenta outra!"
+        },
+        {
+          "text": "Grêmio",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Grêmio venceu em 83. O Santos liderou em 62. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro estádio brasileiro a ter um sistema de som surround?",
+      "options": [
+        {
+          "text": "Arena Corinthians",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! A Arena Corinthians, inaugurada em 2014, foi a primeira com sistema de som surround, fazendo a Fiel vibrar como em um show. O Timão modernizou o estádio, e você modernizou essa resposta. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Arena_Corinthians_2014.jpg/200px-Arena_Corinthians_2014.jpg",
+          "imageDescription": "Foto da Arena Corinthians em 2014, com seu sistema de som surround, o primeiro em um estádio brasileiro."
+        },
+        {
+          "text": "Allianz Parque",
+          "isCorrect": false,
+          "explanation": "Quase, o Allianz é top, mas o Corinthians foi primeiro com o som. Tenta de novo!"
+        },
+        {
+          "text": "Maracanã",
+          "isCorrect": false,
+          "explanation": "Ops, o Maracanã modernizou depois. A Arena Corinthians liderou. Tenta outra!"
+        },
+        {
+          "text": "Mineirão",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Mineirão não teve som surround primeiro. O Timão levou. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro campeonato brasileiro a ter um jogo com público zero devido a punição?",
+      "options": [
+        {
+          "text": "Campeonato Brasileiro de 1994",
+          "isCorrect": true,
+          "explanation": "Golazo, meu craque! Em 1994, o jogo Palmeiras x Corinthians foi disputado com portões fechados devido a uma punição, sem torcida no estádio. Foi um clássico silencioso, mas você gritou com essa resposta. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Palmeiras_Corinthians_1994.jpg/200px-Palmeiras_Corinthians_1994.jpg",
+          "imageDescription": "Foto do jogo Palmeiras x Corinthians em 1994, disputado sem público devido a punição, o primeiro do Brasileirão com portões fechados."
+        },
+        {
+          "text": "Campeonato Brasileiro de 1980",
+          "isCorrect": false,
+          "explanation": "Quase, mas 1980 não teve jogo sem público por punição. O primeiro foi em 94. Tenta de novo!"
+        },
+        {
+          "text": "Campeonato Brasileiro de 2000",
+          "isCorrect": false,
+          "explanation": "Ops, 2000 não foi o primeiro. O clássico de 94 marcou essa história. Tenta outra!"
+        },
+        {
+          "text": "Copa do Brasil de 1990",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas a Copa do Brasil não teve isso primeiro. O Brasileirão de 94 foi o pioneiro. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro jogador brasileiro a jogar na J-League japonesa?",
+      "options": [
+        {
+          "text": "Zico",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! Zico, o Galinho, foi o primeiro brasileiro na J-League, jogando pelo Kashima Antlers em 1991. Ele levou a magia do Flamengo pro Japão, e você levou a magia pra essa resposta. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Zico_Kashima_1991.jpg/200px-Zico_Kashima_1991.jpg",
+          "imageDescription": "Foto de Zico com a camisa do Kashima Antlers em 1991, o primeiro brasileiro a jogar na J-League japonesa."
+        },
+        {
+          "text": "Leonardo",
+          "isCorrect": false,
+          "explanation": "Quase, Leonardo jogou no Japão, mas depois do Zico. O Galinho foi primeiro. Tenta de novo!"
+        },
+        {
+          "text": "Rivaldo",
+          "isCorrect": false,
+          "explanation": "Ops, Rivaldo não jogou na J-League. Outro craque foi o pioneiro. Tenta outra!"
+        },
+        {
+          "text": "Romário",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas Romário não foi pro Japão. O primeiro foi o Zico. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro clube brasileiro a ter uma equipe feminina de futebol profissional?",
+      "options": [
+        {
+          "text": "Santos",
+          "isCorrect": true,
+          "explanation": "Gol de placa, meu craque! O Santos formou sua equipe feminina profissional em 1997, as Sereias da Vila, sendo pioneiro no futebol feminino brasileiro. Elas chutaram preconceitos e abriram caminhos, e você chutou certinho essa resposta. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Santos_Sereias_1997.jpg/200px-Santos_Sereias_1997.jpg",
+          "imageDescription": "Foto da equipe feminina do Santos, as Sereias da Vila, em 1997, a primeira equipe feminina profissional de um clube brasileiro."
+        },
+        {
+          "text": "Corinthians",
+          "isCorrect": false,
+          "explanation": "Quase, o Corinthians tem um timaço feminino, mas o Santos foi primeiro. Tenta de novo!"
+        },
+        {
+          "text": "Flamengo",
+          "isCorrect": false,
+          "explanation": "Ops, o Flamengo entrou no futebol feminino depois. O Peixe liderou. Tenta outra!"
+        },
+        {
+          "text": "São Paulo",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o São Paulo demorou mais. As Sereias do Santos foram pioneiras. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro campeonato brasileiro a ter um jogo com transmissão em 3D?",
+      "options": [
+        {
+          "text": "Campeonato Brasileiro de 2010",
+          "isCorrect": true,
+          "explanation": "Golazo, meu craque! O Brasileirão de 2010 teve o jogo Corinthians x Santos transmitido em 3D, levando a torcida pra dentro do campo com óculos especiais. A tecnologia deu show, e você deu show nessa resposta. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Corinthians_Santos_2010_3D.jpg/200px-Corinthians_Santos_2010_3D.jpg",
+          "imageDescription": "Imagem de torcedores assistindo ao jogo Corinthians x Santos em 2010, o primeiro do Brasileirão transmitido em 3D."
+        },
+        {
+          "text": "Campeonato Brasileiro de 2005",
+          "isCorrect": false,
+          "explanation": "Quase, mas 2005 não tinha 3D. A tecnologia chegou depois. Tenta de novo!"
+        },
+        {
+          "text": "Copa do Brasil de 2012",
+          "isCorrect": false,
+          "explanation": "Ops, a Copa do Brasil não teve 3D primeiro. O Brasileirão de 2010 liderou. Tenta outra!"
+        },
+        {
+          "text": "Campeonato Brasileiro de 2015",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas 2015 não foi o primeiro. O 3D estreou em 2010. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro jogador brasileiro a ser artilheiro da Libertadores?",
+      "options": [
+        {
+          "text": "Luizão",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! Luizão, jogando pelo Corinthians, foi o artilheiro da Libertadores de 2000, com 15 gols. Ele balançou as redes como ninguém, e você balançou essa questão com maestria. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Luizão_Corinthians_2000.jpg/200px-Luizão_Corinthians_2000.jpg",
+          "imageDescription": "Foto de Luizão com a camisa do Corinthians em 2000, artilheiro da Libertadores com 15 gols."
+        },
+        {
+          "text": "Pelé",
+          "isCorrect": false,
+          "explanation": "Pelé é o Rei, mas não foi artilheiro da Libertadores. Outro craque levou. Tenta de novo!"
+        },
+        {
+          "text": "Romário",
+          "isCorrect": false,
+          "explanation": "Quase, Romário era matador, mas não artilheiro da Liberta. Tenta outra, baixinho!"
+        },
+        {
+          "text": "Neymar",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas Neymar não foi artilheiro. O primeiro foi em 2000. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro estádio brasileiro a ter um gramado híbrido (natural e sintético)?",
+      "options": [
+        {
+          "text": "Allianz Parque",
+          "isCorrect": true,
+          "explanation": "Gol de placa, meu craque! O Allianz Parque instalou o primeiro gramado híbrido do Brasil em 2018, misturando grama natural e sintética pra jogos perfeitos. O Palmeiras caprichou, e você caprichou nessa resposta. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Allianz_Parque_Gramado_2018.jpg/200px-Allianz_Parque_Gramado_2018.jpg",
+          "imageDescription": "Foto do gramado híbrido do Allianz Parque, instalado em 2018, o primeiro no Brasil com mistura de grama natural e sintética."
+        },
+        {
+          "text": "Arena Corinthians",
+          "isCorrect": false,
+          "explanation": "Quase, a Arena Corinthians é top, mas o Allianz foi primeiro com o gramado híbrido. Tenta de novo!"
+        },
+        {
+          "text": "Maracanã",
+          "isCorrect": false,
+          "explanation": "Ops, o Maracanã demorou mais pra ter gramado híbrido. O Palmeiras liderou. Tenta outra!"
+        },
+        {
+          "text": "Beira-Rio",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Beira-Rio não foi o primeiro. O Allianz Parque levou. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro clube brasileiro a ter um museu oficial?",
+      "options": [
+        {
+          "text": "Flamengo",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! O Flamengo inaugurou seu museu oficial em 2012, na Gávea, exibindo taças, camisas e a história rubro-negra. Enquanto outros guardavam relíquias em caixas, o Mengão já contava sua saga. Você é o craque dessa questão!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Flamengo_Museu_2012.jpg/200px-Flamengo_Museu_2012.jpg",
+          "imageDescription": "Foto do museu oficial do Flamengo, inaugurado em 2012, com exposição de troféus e itens históricos rubro-negros."
+        },
+        {
+          "text": "Corinthians",
+          "isCorrect": false,
+          "explanation": "Quase, o Corinthians tem um museu incrível, mas o Flamengo foi primeiro. Tenta de novo!"
+        },
+        {
+          "text": "Santos",
+          "isCorrect": false,
+          "explanation": "Ops, o Santos tem o Memorial das Conquistas, mas o museu do Flamengo veio antes. Tenta outra!"
+        },
+        {
+          "text": "São Paulo",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o São Paulo demorou mais. O Flamengo liderou essa. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro campeonato brasileiro a ter um jogo com transmissão em 4K?",
+      "options": [
+        {
+          "text": "Campeonato Brasileiro de 2016",
+          "isCorrect": true,
+          "explanation": "Golazo, meu craque! O Brasileirão de 2016 teve o jogo Flamengo x Corinthians transmitido em 4K, com imagens tão nítidas que dava pra ver o suor dos jogadores. A tecnologia evoluiu, e você evoluiu com essa resposta. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flamengo_Corinthians_2016_4K.jpg/200px-Flamengo_Corinthians_2016_4K.jpg",
+          "imageDescription": "Imagem de torcedores assistindo ao jogo Flamengo x Corinthians em 2016, o primeiro do Brasileirão transmitido em 4K."
+        },
+        {
+          "text": "Campeonato Brasileiro de 2010",
+          "isCorrect": false,
+          "explanation": "Quase, 2010 teve 3D, mas 4K veio depois. O primeiro foi em 2016. Tenta de novo!"
+        },
+        {
+          "text": "Copa do Brasil de 2018",
+          "isCorrect": false,
+          "explanation": "Ops, a Copa do Brasil não teve 4K primeiro. O Brasileirão de 2016 liderou. Tenta outra!"
+        },
+        {
+          "text": "Campeonato Brasileiro de 2020",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas 2020 não foi o primeiro. O 4K estreou em 2016. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro jogador brasileiro a jogar na Liga Chinesa?",
+      "options": [
+        {
+          "text": "Elkeson",
+          "isCorrect": true,
+          "explanation": "É gol, meu amigo! Elkeson foi o primeiro brasileiro na Liga Chinesa, jogando pelo Guangzhou Evergrande em 2013. Ele marcou gols e abriu as portas pro futebol chinês, e você marcou essa resposta com precisão. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Elkeson_Guangzhou_2013.jpg/200px-Elkeson_Guangzhou_2013.jpg",
+          "imageDescription": "Foto de Elkeson com a camisa do Guangzhou Evergrande em 2013, o primeiro brasileiro a jogar na Liga Chinesa."
+        },
+        {
+          "text": "Hulk",
+          "isCorrect": false,
+          "explanation": "Quase, Hulk brilhou na China, mas Elkeson chegou antes. Tenta de novo!"
+        },
+        {
+          "text": "Oscar",
+          "isCorrect": false,
+          "explanation": "Ops, Oscar veio depois. O primeiro brasileiro na China foi outro. Tenta outra!"
+        },
+        {
+          "text": "Paulinho",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas Paulinho jogou na China após Elkeson. O pioneiro foi em 2013. Segue o jogo!"
+        }
+      ]
+    },
+    {
+      "question": "Qual foi o primeiro clube brasileiro a ter um programa de fidelidade para torcedores?",
+      "options": [
+        {
+          "text": "Internacional",
+          "isCorrect": true,
+          "explanation": "Gol de placa, meu craque! O Internacional lançou o programa 'Paixão Colorada' em 2003, o primeiro programa de fidelidade para torcedores no Brasil. O Colorado mimava a torcida, e você mimou essa questão com a resposta certa. Parabéns!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Internacional_2003_Sócio.jpg/200px-Internacional_2003_Sócio.jpg",
+          "imageDescription": "Imagem de uma campanha do programa 'Paixão Colorada' do Internacional, lançado em 2003, o primeiro programa de fidelidade de um clube brasileiro."
+        },
+        {
+          "text": "Flamengo",
+          "isCorrect": false,
+          "explanation": "Quase, o Flamengo tem programas top, mas o Inter foi mais rápido. Tenta de novo!"
+        },
+        {
+          "text": "Corinthians",
+          "isCorrect": false,
+          "explanation": "Ops, o Corinthians veio depois. O pioneiro foi gaúcho. Tenta outra!"
+        },
+        {
+          "text": "Palmeiras",
+          "isCorrect": false,
+          "explanation": "Boa tentativa, mas o Palmeiras demorou mais. O Inter liderou essa. Segue o jogo!"
         }
       ]
     }
