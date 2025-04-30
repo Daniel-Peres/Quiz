@@ -207,7 +207,7 @@ function populateSubthemeButtons(subThemes, elements) {
 async function loadQuizData(filename, elements) {
     console.log(`loadQuizData: ${filename}`);
     window.quizFilePath = filename;
-    fullQuizData=[]; quizConfig={}; desiredQuestionCount=0; showOnly(null,elements.selectionArea,elements.quizContainer,elements.questionCountSelectionContainer); let lM=document.getElementById('loading-quiz-msg'); if(!lM&&elements.mainContainer){lM=document.createElement('p');lM.id='loading-quiz-msg';lM.textContent='Carregando...';lM.style.cssText='text-align:center;padding:20px;'; elements.mainContainer.appendChild(lM);}else if(lM){lM.textContent='Carregando...';lM.style.color='inherit';lM.classList.remove('hide');} const eBB=document.getElementById('back-to-themes-btn-error'); if(eBB)eBB.remove(); const qP=`data/${filename}`; try{console.log(`Fetch: ${qP}`); const r=await fetch(qP); if(!r.ok)throw new Error(`HTTP ${r.status}`); const jD=await r.json(); if(!jD||typeof jD!=='object')throw new Error("JSON inválido."); if(!jD.config||typeof jD.config!=='object')throw new Error("Config inválida."); if(!jD.data||!Array.isArray(jD.data))throw new Error("Data inválido."); if(jD.data.length===0)throw new Error("Data vazio."); fullQuizData=jD.data; quizConfig=jD.config; console.log(`Quiz '${quizConfig.theme||'N/A'}' ${fullQuizData.length} Qs.`); if(lM)lM.classList.add('hide'); showQuestionCountSelection(fullQuizData.length,elements);}catch(e){console.error("Falha loadQuizData:",filename,e); window.quizFilePath = null; if(lM){lM.textContent=`Erro: ${e.message}`; lM.style.color='red';lM.classList.remove('hide');}else if(elements.mainContainer){elements.mainContainer.innerHTML=`<p id="loading-quiz-msg" style="color:red;text-align:center;padding:20px;">Erro: ${e.message}</p>`;lM=document.getElementById('loading-quiz-msg');} if(lM&&!document.getElementById('back-to-themes-btn-error')){const bB=document.createElement('button');bB.textContent='Voltar';bB.id='back-to-themes-btn-error';bB.className='control-btn back-btn';bB.style.cssText='margin-top:20px;display:block;margin-left:auto;margin-right:auto;';bB.onclick=()=>showThemeSelectionScreen(elements); lM.parentNode.insertBefore(bB,lM.nextSibling);} if(elements.quizContainer)elements.quizContainer.classList.add('hide'); if(elements.questionCountSelectionContainer)elements.questionCountSelectionContainer.classList.add('hide');}
+    fullQuizData=[]; quizConfig={}; desiredQuestionCount=0; showOnly(null,elements.selectionArea,elements.quizContainer,elements.questionCountSelectionContainer); let lM=document.getElementById('loading-quiz-msg'); if(!lM&&elements.mainContainer){lM=document.createElement('p');lM.id='loading-quiz-msg';lM.textContent='Carregando...';lM.style.cssText='text-align:center;padding:20px;'; elements.mainContainer.appendChild(lM);}else if(lM){lM.textContent='Carregando...';lM.style.color='inherit';lM.classList.remove('hide');} const eBB=document.getElementById('back-to-themes-btn-error'); if(eBB)eBB.remove(); const qP=`data/${filename}`; try{console.log(`Workspace: ${qP}`); const r=await fetch(qP); if(!r.ok)throw new Error(`HTTP ${r.status}`); const jD=await r.json(); if(!jD||typeof jD!=='object')throw new Error("JSON inválido."); if(!jD.config||typeof jD.config!=='object')throw new Error("Config inválida."); if(!jD.data||!Array.isArray(jD.data))throw new Error("Data inválido."); if(jD.data.length===0)throw new Error("Data vazio."); fullQuizData=jD.data; quizConfig=jD.config; console.log(`Quiz '${quizConfig.theme||'N/A'}' ${fullQuizData.length} Qs.`); if(lM)lM.classList.add('hide'); showQuestionCountSelection(fullQuizData.length,elements);}catch(e){console.error("Falha loadQuizData:",filename,e); window.quizFilePath = null; if(lM){lM.textContent=`Erro: ${e.message}`; lM.style.color='red';lM.classList.remove('hide');}else if(elements.mainContainer){elements.mainContainer.innerHTML=`<p id="loading-quiz-msg" style="color:red;text-align:center;padding:20px;">Erro: ${e.message}</p>`;lM=document.getElementById('loading-quiz-msg');} if(lM&&!document.getElementById('back-to-themes-btn-error')){const bB=document.createElement('button');bB.textContent='Voltar';bB.id='back-to-themes-btn-error';bB.className='control-btn back-btn';bB.style.cssText='margin-top:20px;display:block;margin-left:auto;margin-right:auto;';bB.onclick=()=>showThemeSelectionScreen(elements); lM.parentNode.insertBefore(bB,lM.nextSibling);} if(elements.quizContainer)elements.quizContainer.classList.add('hide'); if(elements.questionCountSelectionContainer)elements.questionCountSelectionContainer.classList.add('hide');}
 }
 
 function handleThemeSelection(event, elements) {
@@ -345,10 +345,10 @@ function revealGridState(elements) {
     let framesFound = 0;
     elements.answerOptionsElement.querySelectorAll('.option-frame').forEach(frame => {
         framesFound++;
-        frame.classList.remove('expanded-correct', 'sibling-of-expanded');
-        frame.classList.add('revealed');
+        frame.classList.remove('expanded-correct', 'sibling-of-expanded'); // Garante limpeza
+        frame.classList.add('revealed'); // Adiciona classe para estado revelado
         console.log(`revealGridState: Classe 'revealed' adicionada ao frame:`, frame.dataset.optionText);
-        frame.classList.add('disabled');
+        frame.classList.add('disabled'); // Desabilita interação
     });
     console.log(`revealGridState: Processou ${framesFound} frames.`);
 
@@ -487,8 +487,12 @@ function selectAnswer(event, elements) {
     }
 }
 
+// ============================================================== //
+// ============= FUNÇÃO confirmAnswer MODIFICADA ================ //
+// ============================================================== //
 function confirmAnswer(elements) {
     console.log('confirmAnswer: Iniciando...');
+    // Mantém as verificações iniciais
     if (!selectedOptionElement) {
         if (elements.messageArea) showMessage(elements.messageArea, "Selecione uma opção.", 3000);
         return;
@@ -498,7 +502,8 @@ function confirmAnswer(elements) {
         return;
     }
     isAnswered = true;
-    quizJustStarted = false;
+    quizJustStarted = false; // Marca que o quiz progrediu
+    // Esconde botões que não devem aparecer após a resposta
     if (elements.quizBackBtn) elements.quizBackBtn.classList.add('hide');
     if (elements.quizMainMenuBtn) elements.quizMainMenuBtn.classList.add('hide');
     if (elements.confirmBtn) { elements.confirmBtn.classList.add('hide'); elements.confirmBtn.disabled = true; elements.confirmBtn.classList.remove('confirm-active'); }
@@ -508,38 +513,41 @@ function confirmAnswer(elements) {
         const selTxt = selectedOptionElement.dataset.optionText;
         if (typeof selTxt === 'undefined') throw new Error("Dataset da opção selecionada não encontrado.");
         if (!quizData?.[currentQuestionIndex]?.options) throw new Error(`Dados da questão ${currentQuestionIndex} não encontrados.`);
+
         const opts = quizData[currentQuestionIndex].options;
         const correctOpt = opts.find(o => o?.isCorrect === true);
         if (!correctOpt?.text) throw new Error(`Opção correta para questão ${currentQuestionIndex} não encontrada.`);
+
         const correctTxt = correctOpt.text;
         const isCorrect = (selTxt === correctTxt);
 
-        // Incrementar score com pontos calculados
+        // --- Atualização de Score (Apenas se correto) ---
         if (isCorrect) {
             score += currentPointsPerQuestion;
             console.log(`Score atualizado por ${currentPointsPerQuestion}. Novo score: ${Math.round(score)}`);
         }
 
+        // --- Processa Todos os Cards ---
         const allFrames = elements.answerOptionsElement ? Array.from(elements.answerOptionsElement.querySelectorAll('.option-frame')) : [];
-        let correctFrame = null;
-
         console.log('confirmAnswer: Marcando cards disabled e cores...');
         allFrames.forEach(f => {
              if (!(f instanceof HTMLElement)) return;
              const fTxt = f.dataset.optionText;
              if (typeof fTxt === 'undefined') return;
              const oData = opts.find(o => o?.text === fTxt);
-             f.classList.add('disabled');
+
+             f.classList.add('disabled'); // Desabilita todos os cards
+
+             // Define a cor do fundo da face traseira (verde para correta, vermelha para incorreta)
              const backFace = f.querySelector('.back-face');
              if (backFace && oData) {
                  backFace.classList.toggle('correct', oData.isCorrect === true);
                  backFace.classList.toggle('incorrect', oData.isCorrect !== true);
-                 if (oData.isCorrect) {
-                     correctFrame = f;
-                 }
              } else if (backFace) {
-                 backFace.classList.add('incorrect');
+                 backFace.classList.add('incorrect'); // Segurança
              }
+
+             // Adiciona outline ao card selecionado pelo usuário
              if (f === selectedOptionElement) {
                  f.style.outline = '3px solid #333'; f.style.outlineOffset = '2px';
              } else {
@@ -548,56 +556,64 @@ function confirmAnswer(elements) {
         });
         console.log('confirmAnswer: Cores e disabled aplicados.');
 
-        updateScoreDisplay(elements); // Atualiza exibição da pontuação parcial
+        // --- Atualiza e Mostra Score ---
+        updateScoreDisplay(elements);
         saveGameState();
-        if (elements.scoreContainer) elements.scoreContainer.classList.remove('hide'); // Mostra pontuação após primeira resposta
+        if (elements.scoreContainer) elements.scoreContainer.classList.remove('hide');
 
-        if (isCorrect) {
-            console.log('confirmAnswer: Resposta CORRETA. Iniciando expansão...');
-            if (correctFrame) {
-                 requestAnimationFrame(() => {
-                     requestAnimationFrame(() => {
-                        console.log('confirmAnswer: Aplicando classe expanded-correct.');
-                        correctFrame.classList.add('expanded-correct');
-                        correctFrame.style.zIndex = 1000;
+        // --- LÓGICA DE EXPANSÃO MODIFICADA ---
+        // Expande SEMPRE o card SELECIONADO pelo usuário
+        console.log('confirmAnswer: Iniciando expansão do card SELECIONADO...');
+        if (selectedOptionElement) { // Garante que temos um elemento selecionado
+            requestAnimationFrame(() => { // Ajuda a garantir que o navegador processe as mudanças de estilo antes da animação
+                requestAnimationFrame(() => { // Segunda camada pode ajudar em alguns casos
+                    console.log('confirmAnswer: Aplicando classe expanded-correct ao card selecionado.');
+                    // Aplica a classe que aciona a expansão CSS ao card que o usuário clicou
+                    selectedOptionElement.classList.add('expanded-correct');
+                    selectedOptionElement.style.zIndex = 1000; // Garante que fique na frente
 
-                        const animationDuration = 800;
-                        setTimeout(() => {
-                            if (elements.expandedCardControlsContainer && correctFrame.classList.contains('expanded-correct')) {
-                                const cardRect = correctFrame.getBoundingClientRect();
-                                const buttonHeight = elements.closeExpandedCardBtn.offsetHeight || 40;
-                                const desiredSpacing = 15;
-                                const buttonTop = cardRect.bottom + desiredSpacing;
-                                const maxTop = window.innerHeight - buttonHeight - 10;
-                                const finalTop = Math.min(buttonTop, maxTop);
-                                console.log(`Posicionando botão Fechar: card bottom=${cardRect.bottom}, botão top=${finalTop}`);
-                                elements.expandedCardControlsContainer.style.top = `${finalTop}px`;
-                                elements.expandedCardControlsContainer.classList.remove('hide');
-                            } else {
-                                console.warn("Timeout: Card não está mais expandido ou container do botão não encontrado.")
-                            }
-                        }, animationDuration);
-                    });
+                    // Lógica para posicionar o botão "Fechar Detalhes" abaixo do card expandido
+                    const animationDuration = 800; // Duração da animação (ajuste se mudou no CSS)
+                    setTimeout(() => {
+                        if (elements.expandedCardControlsContainer && selectedOptionElement.classList.contains('expanded-correct')) {
+                            const cardRect = selectedOptionElement.getBoundingClientRect(); // Pega as coordenadas do card selecionado (agora expandido)
+                            const buttonHeight = elements.closeExpandedCardBtn.offsetHeight || 40;
+                            const desiredSpacing = 15; // Espaço entre o card e o botão
+                            const buttonTop = cardRect.bottom + desiredSpacing;
+                            const maxTop = window.innerHeight - buttonHeight - 10; // Limite para não sair da tela
+                            const finalTop = Math.min(buttonTop, maxTop);
+
+                            console.log(`Posicionando botão Fechar: card selecionado bottom=${cardRect.bottom}, botão top=${finalTop}`);
+                            elements.expandedCardControlsContainer.style.top = `${finalTop}px`;
+                            elements.expandedCardControlsContainer.classList.remove('hide'); // Mostra o botão
+                        } else {
+                            console.warn("Timeout: Card selecionado não está mais expandido ou container do botão não encontrado.")
+                        }
+                    }, animationDuration);
                 });
-            } else {
-                 console.error("confirmAnswer: Resposta correta, mas card correto não identificado! Revelando grade.");
-                 revealGridState(elements);
-            }
+            });
         } else {
-            console.log('confirmAnswer: Resposta INCORRETA. Revelando grade diretamente.');
-             setTimeout(() => {
-                 revealGridState(elements);
-            }, 300);
+            // Caso algo dê muito errado e não haja selectedOptionElement
+            console.error("confirmAnswer: Card selecionado não encontrado para expansão! Revelando grade.");
+            revealGridState(elements); // Mostra o grid normal como fallback
         }
+        // --- FIM DA LÓGICA DE EXPANSÃO MODIFICADA ---
+
+        // A lógica antiga que só expandia se isCorrect foi removida.
+        // A função revealGridState() só será chamada agora quando o usuário clicar no botão "Fechar Detalhes".
 
     } catch(err) {
         console.error("ERRO em confirmAnswer:", err);
         if(elements.messageArea)showMessage(elements.messageArea,`Erro: ${err.message}.`,6000);
+        // Reseta o estado visual em caso de erro grave
         resetCardStates(elements);
         if(elements.finishBtn)elements.finishBtn.classList.add('hide');
         if(elements.nextBtn)elements.nextBtn.classList.add('hide');
     }
 }
+// ============================================================== //
+// ============ FIM DA FUNÇÃO confirmAnswer MODIFICADA ========== //
+// ============================================================== //
 
 
 function nextQuestion(elements) {
@@ -895,8 +911,8 @@ document.addEventListener('DOMContentLoaded', () => {
         elements.closeExpandedCardBtn.addEventListener('click', () => {
             console.log("Botão Fechar Detalhes clicado!");
             try {
-                resetExpandedState(elements);
-                revealGridState(elements);
+                resetExpandedState(elements); // Remove a classe de expansão
+                revealGridState(elements);   // Mostra todos os cards no estado revelado e os botões next/finish
             } catch (e) {
                  console.error("Erro ao clicar no botão Fechar Detalhes:", e);
             }

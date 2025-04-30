@@ -62,8 +62,18 @@ h1, h2 { color: var(--dark-text); margin-bottom: 1.2rem; text-align: center; fon
 #progress-bar-indicator { height: 100%; width: 0%; background-color: var(--primary-color); border-radius: 6px; transition: width 0.4s ease-out; }
 #progress-text { text-align: center; margin-top: 0.6rem; font-size: 0.9rem; color: #555; }
 #question-text { font-size: 1.3rem; color: var(--dark-text); margin-bottom: 2rem; min-height: 3em; line-height: 1.5; text-align: center; padding-top: 20px; font-weight: 500; }
-.options-grid { align-items: start; display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; perspective: 1000px; }
 
+/* Grid das opções */
+.options-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    perspective: 1000px;
+    align-items: start; /* <<< CORREÇÃO: Impede esticamento vertical dos cards */
+}
+
+/* Card de opção individual */
 .option-frame {
     border: 3px solid transparent;
     padding: 0;
@@ -71,35 +81,36 @@ h1, h2 { color: var(--dark-text); margin-bottom: 1.2rem; text-align: center; fon
     cursor: pointer;
     font-size: 1rem;
     position: relative;
-    /* min-height: 130px; */ /* <<< REMOVIDO/COMENTADO */
-    height: 150px; /* <<< ADICIONADO: Define altura fixa */
+    /* min-height: 130px; */ /* Removido/Comentado */
+    height: 150px; /* <<< CORREÇÃO: Define altura fixa */
     transition: transform 0.6s ease, border-color 0.3s ease, box-shadow 0.3s ease, opacity 0.5s ease-out;
     box-shadow: 0 2px 5px var(--shadow-color);
     background-color: var(--light-bg); /* Fundo base para faces */
-    transform-style: preserve-3d; /* Importante ter aqui */
-    /* Opcional: Adicionar flex aqui pode ajudar em alguns casos, mas a centralização principal está nas faces */
-    /* display: flex; */
-    /* flex-direction: column; */
+    transform-style: preserve-3d;
 }
+
+/* Faces frontal e traseira */
 .option-frame .front-face, .option-frame .back-face {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%; /* Garante que use a altura fixa do pai */
+    height: 100%; /* Ocupa a altura fixa do pai */
     box-sizing: border-box;
     border-radius: calc(var(--card-border-radius) - 3px);
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Centraliza conteúdo verticalmente na altura fixa */
-    align-items: center; /* Centraliza conteúdo horizontalmente */
+    justify-content: center; /* Centraliza conteúdo na altura fixa */
+    align-items: center;
     text-align: center;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     transition: background-color 0.3s ease;
     padding: 0.8rem;
-    overflow: hidden; /* <<< ADICIONADO: Esconde conteúdo que ultrapassar a altura fixa */
+    overflow: hidden; /* <<< CORREÇÃO: Esconde conteúdo que ultrapassar */
 }
+
+/* Face frontal (visível inicialmente) */
 .option-frame .front-face {
     background-color: var(--primary-color);
     color: var(--light-text);
@@ -107,19 +118,23 @@ h1, h2 { color: var(--dark-text); margin-bottom: 1.2rem; text-align: center; fon
     font-weight: 500;
     transform: rotateY(0deg);
 }
+
+/* Face traseira (oculta inicialmente) */
 .option-frame .back-face {
     background-color: var(--secondary-color); /* Cor base se não for correta/incorreta */
     color: var(--light-text);
-    transform: rotateY(180deg); /* Back-face começa girada */
+    transform: rotateY(180deg);
     font-size: 0.85rem;
-    /* overflow-y: auto; */ /* Removido ou comentado, pois overflow:hidden foi adicionado acima */
     align-items: center;
     text-align: center;
-    justify-content: center; /* Centraliza conteúdo padrão */
-    padding: 0.6rem; /* Pode ajustar se necessário com overflow:hidden */
+    justify-content: center;
+    padding: 0.6rem; /* Padding interno da face traseira */
     z-index: 1;
-    position: relative; /* Mantido para contexto interno se necessário */
+    position: relative; /* Para posicionamento interno se necessário */
+    /* Cor de fundo será sobrescrita por .correct/.incorrect quando revelado/expandido */
 }
+
+/* Cores da face traseira (estado normal/revelado - NÃO expandido) */
 .option-frame .back-face.correct {
     background-color: var(--success-color);
 }
@@ -127,6 +142,7 @@ h1, h2 { color: var(--dark-text); margin-bottom: 1.2rem; text-align: center; fon
     background-color: var(--danger-color);
 }
 
+/* Efeitos de Hover e Seleção */
 .option-frame:hover:not(.disabled):not(.selected):not(.revealed):not(.expanded-correct) {
     transform: translateY(-5px) scale(1.02);
     z-index: 10;
@@ -140,7 +156,7 @@ h1, h2 { color: var(--dark-text); margin-bottom: 1.2rem; text-align: center; fon
 .option-frame.selected:not(.revealed):not(.expanded-correct) .front-face {
     background-color: var(--primary-hover);
 }
-.option-frame.selected.disabled {
+.option-frame.selected.disabled { /* Outline para o selecionado após confirmação */
     outline: 3px solid var(--dark-text);
     outline-offset: 2px;
 }
@@ -152,7 +168,7 @@ h1, h2 { color: var(--dark-text); margin-bottom: 1.2rem; text-align: center; fon
     border: none;
     padding: 0.8rem 1.8rem; border-radius: var(--button-border-radius);
     cursor: pointer; font-size: 1rem; transition: background-color 0.2s ease, transform 0.1s ease, opacity 0.2s ease, border-color 0.2s ease;
-    display: inline-block; font-weight: 500; /* Peso padrão para botões */ flex-grow: 0; flex-shrink: 0; margin: 0;
+    display: inline-block; font-weight: 500; flex-grow: 0; flex-shrink: 0; margin: 0;
     border: 3px solid transparent;
 }
 .control-btn:hover:not(:disabled) { background-color: var(--primary-hover); }
@@ -165,17 +181,9 @@ h1, h2 { color: var(--dark-text); margin-bottom: 1.2rem; text-align: center; fon
 .back-btn:hover:not(:disabled) { background-color: var(--secondary-hover); }
 #next-btn { background-color: var(--success-color); }
 #next-btn:hover:not(:disabled) { background-color: var(--success-hover); }
-
-/* Corrigir contraste do botão Finalizar */
-#finish-btn {
-    background-color: var(--warning-color);
-    color: #000; /* Mudar para preto para melhor contraste com amarelo */
-}
-#finish-btn:hover:not(:disabled) {
-    background-color: var(--warning-hover);
-    color: #000; /* Manter preto no hover */
-}
-.danger-btn { background-color: var(--danger-color); } /* Mantido caso use em outro lugar */
+#finish-btn { background-color: var(--warning-color); color: #000; }
+#finish-btn:hover:not(:disabled) { background-color: var(--warning-hover); color: #000; }
+.danger-btn { background-color: var(--danger-color); }
 .danger-btn:hover:not(:disabled) { background-color: var(--danger-hover); }
 .theme-btn:focus-visible, .control-btn:focus-visible, .option-frame:focus-visible { outline: 3px solid var(--primary-color); outline-offset: 2px; }
 input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outline-offset: 1px; border-color: var(--primary-color); }
@@ -186,9 +194,9 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
 .option-frame.disabled:hover { transform: none !important; box-shadow: 0 2px 5px var(--shadow-color) !important; }
 
 /* === Pontuação e Mensagens === */
-#score-container { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color); font-size: 1.1rem; font-weight: 600; /* Um pouco mais de peso */ color: var(--dark-text); text-align: center; }
+#score-container { margin-top: 2rem; padding-top: 1rem; border-top: 1px solid var(--border-color); font-size: 1.1rem; font-weight: 600; color: var(--dark-text); text-align: center; }
 #score-container > span { display: inline-block; margin: 0 0.5rem; }
-#score-container span span { margin-left: 0.3rem; background-color: var(--medium-bg); padding: 0.1rem 0.4rem; border-radius: var(--button-border-radius); font-weight: 700; /* Peso maior para o valor */ }
+#score-container span span { margin-left: 0.3rem; background-color: var(--medium-bg); padding: 0.1rem 0.4rem; border-radius: var(--button-border-radius); font-weight: 700; }
 #score-container #percentage-score-display::after { content: '%'; margin-left: 1px; }
 .message-area { font-weight: 500; min-height: 1.5em; padding: 0.6rem 1rem; margin-top: 1rem; margin-bottom: 0.5rem; border-radius: var(--button-border-radius); border: 1px solid transparent; opacity: 1; transition: opacity 0.3s ease, transform 0.3s ease; transform: translateY(0); }
 .message-area.hide { opacity: 0; transform: translateY(-10px); pointer-events: none; margin-top: -1.5em; margin-bottom: 0; min-height: 0; padding-top: 0; padding-bottom: 0; border-width: 0; overflow: hidden; }
@@ -211,10 +219,12 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
     #selection-area, #question-count-selection, .quiz-container { max-width: 100%; }
     #selection-area, #question-count-selection { padding: 1rem; }
     h1 { font-size: 1.6rem; } h2 { font-size: 1.3rem; } #question-text { font-size: 1.1rem; padding-top: 5px; }
-    .options-grid {align-items: start; grid-template-columns: 1fr; gap: 0.8rem; }
-    /* Ajustar altura fixa também para mobile se necessário, ou usar min-height aqui? */
-    /* Por enquanto, manterá a altura fixa de 150px definida acima */
-    /* .option-frame { min-height: 90px; } */ /* Comentado pois height fixa está ativa */
+    .options-grid {
+        grid-template-columns: 1fr;
+        gap: 0.8rem;
+        align-items: start; /* <<< CORREÇÃO: Impede esticamento vertical também em mobile */
+    }
+    /* Altura fixa de 150px definida acima ainda se aplica */
     .option-frame .front-face { font-size: 0.95rem; }
     .option-frame .back-face { font-size: 0.8rem; }
     .controls { flex-direction: column; align-items: center; gap: 8px; }
@@ -222,16 +232,16 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
     .count-btn { flex-basis: calc(50% - 10px); min-width: 100px; padding: 0.6rem 0.8rem; font-size: 0.85rem; display: inline-block; width: auto; }
 }
 @media (min-width: 601px) and (max-width: 992px) {
-    .options-grid { gap: 1rem; }
+    .options-grid { gap: 1rem; /* align-items: start; já está na regra base */ }
     .quiz-container { max-width: 850px; } #question-text { font-size: 1.2rem; }
     .count-btn { flex-basis: 140px; }
-    /* A altura fixa de 150px ainda se aplica */
+    /* Altura fixa de 150px ainda se aplica */
 }
 @media (min-width: 993px) {
      html { font-size: 16px; }
-    .options-grid {align-items: start; gap: 1.2rem; }
+    .options-grid { gap: 1.2rem; /* align-items: start; já está na regra base */ }
     .count-btn { flex-basis: 150px; }
-     /* A altura fixa de 150px ainda se aplica */
+     /* Altura fixa de 150px ainda se aplica */
 }
 
 
@@ -240,7 +250,7 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
 /* Container da Imagem da Opção (só existe na back-face correta) */
 .option-image-container {
     width: 100%;
-    max-height: 150px; /* Ajuste conforme a altura fixa do card e padding */
+    max-height: 150px; /* Ajuste se necessário */
     overflow: hidden;
     margin-bottom: 10px;
     display: flex;
@@ -248,28 +258,28 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
     align-items: center;
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 4px;
-    flex-shrink: 0; /* Impede que a imagem encolha demais */
+    flex-shrink: 0;
 }
 .option-image {
     display: block;
     max-width: 100%;
     height: auto;
-    max-height: 150px; /* Deve ser igual ou menor que max-height do container */
+    max-height: 150px;
     object-fit: contain;
 }
 
 /* --- Explicação com Ícone --- */
 .explanation-container {
     display: flex;
-    align-items: center; /* Alinha verticalmente o ícone com o texto */
+    align-items: center;
     width: 100%;
     text-align: left;
-    margin-top: 10px; /* Mantém espaço se houver imagem acima */
+    margin-top: 10px;
     color: inherit;
     line-height: 1.45;
-    overflow: hidden; /* Ajuda a conter o texto */
-    flex-grow: 1; /* Permite que o container tente preencher espaço */
-    flex-shrink: 1; /* Permite encolher se necessário */
+    overflow: hidden;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 .explanation-icon {
     height: 1.2em;
@@ -283,60 +293,66 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
     overflow-wrap: break-word;
     word-wrap: break-word;
     white-space: normal;
-    font-weight: 400; /* Peso normal para explicação */
-    /* overflow: hidden; */ /* Pode ser redundante se já houver no container */
-    /* text-overflow: ellipsis; */ /* Considerar se desejar ellipsis na explicação */
+    font-weight: 400;
 }
 /* --------------------------- */
 
 
-/* Estado Expandido do Card Correto (Mantém height: auto aqui) */
-.option-frame.expanded-correct {
+/* === Estado Expandido do Card Selecionado === */
+.option-frame.expanded-correct { /* Mantemos nome da classe por simplicidade */
     position: fixed;
     top: 50%;
     left: 50%;
     width: clamp(300px, 80vw, 600px);
-    height: auto; /* <<< IMPORTANTE: Mantém altura automática para expansão */
-    max-height: 85vh;
+    height: auto; /* Altura automática para conteúdo */
+    max-height: 85vh; /* Limite de altura */
     z-index: 1000;
     cursor: default;
-    overflow-y: auto; /* Permite scroll no card expandido */
+    overflow-y: auto; /* Scroll se conteúdo for maior */
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-    border-color: var(--dark-text);
-    animation: none;
-    /* Rotação de 180 graus */
-    transform: translate(-50%, -50%) rotateY(180deg) scale(1.05);
+    border-color: var(--dark-text); /* Borda para destaque */
+    animation: none; /* Remove animações que poderiam interferir */
+    transform: translate(-50%, -50%) rotateY(180deg) scale(1.05); /* Centraliza, gira, escala */
     transition: transform 0.8s cubic-bezier(0.34, 1.56, 0.64, 1),
                 opacity 0.5s ease-out,
                 border-color 0.5s ease-out,
                 box-shadow 0.5s ease-out;
-    background-color: var(--success-color); /* Cor de fundo no frame */
     background-image: none;
+    background-color: var(--light-bg); /* <<< CORREÇÃO: Fundo neutro para o frame */
 }
 
-
-/* Garante que a back-face seja visível e CORRETAMENTE ORIENTADA no estado expandido */
+/* Face traseira no estado expandido */
 .option-frame.expanded-correct .back-face {
-    background-color: transparent; /* Pai tem a cor */
-    position: relative; /* Mudado de absolute para relative? Verificar impacto. Deve ser relative ou static. */
+    /* background-color: transparent; */ /* <<< REMOVIDO */
+    position: relative; /* Ocupa espaço dentro do pai */
     width: 100%;
-    min-height: 100%; /* Tenta ocupar altura mínima */
-    height: auto;     /* Permite crescer */
+    min-height: 100%; /* Garante que preencha pelo menos a altura visível */
+    height: auto;     /* Permite crescer com conteúdo */
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centraliza conteúdo horizontalmente */
-    justify-content: flex-start; /* Alinha conteúdo no topo para melhor leitura com scroll */
-    padding: 20px;
-    overflow: visible; /* Deixa pai controlar scroll */
+    align-items: center;
+    justify-content: flex-start; /* Alinha conteúdo no topo para scroll */
+    padding: 20px; /* Padding interno maior */
+    overflow: visible; /* Deixa o pai controlar scroll */
     backface-visibility: visible; /* Garante visibilidade */
-    /* Rotaciona 180deg para cancelar a rotação do pai */
-    transform: rotateY(180deg);
-    z-index: 3;
+    transform: rotateY(180deg); /* Orienta conteúdo corretamente */
+    z-index: 3; /* Acima da front-face (se estivesse visível) */
+    /* A cor de fundo será definida abaixo */
 }
 
-/* Garante que a classe .correct não sobrescreva a transparência */
+/* --- REMOVA esta regra que forçava transparência --- */
+/*
 .option-frame.expanded-correct .back-face.correct {
      background-color: transparent;
+}
+*/
+
+/* <<< CORREÇÃO: Define cores de fundo da back-face no estado expandido >>> */
+.option-frame.expanded-correct .back-face.correct {
+    background-color: var(--success-color); /* Verde */
+}
+.option-frame.expanded-correct .back-face.incorrect {
+    background-color: var(--danger-color); /* Vermelho */
 }
 
 /* Garante que a front-face fique OCULTA no estado expandido */
@@ -345,7 +361,6 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
      z-index: 1;
      display: none;
 }
-
 
 /* Estilo da Imagem da Opção no Card Expandido */
 .option-frame.expanded-correct .option-image-container {
@@ -357,14 +372,12 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
      max-height: 350px;
 }
 
-
 /* Estilo da Explicação no Card Expandido (com ícone) */
 .option-frame.expanded-correct .explanation-container {
    align-items: flex-start; /* Alinha ícone com topo do texto */
    padding: 0 5px;
-   width: 100%; /* Garante que o container use a largura */
-   flex-grow: 1; /* Permite que o container cresça se necessário */
-   /* justify-content: center; <- Controlado pelo flex do .back-face */
+   width: 100%;
+   flex-grow: 1;
 }
 .option-frame.expanded-correct .explanation-icon {
    height: 1.4em;
@@ -374,19 +387,18 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
 .option-frame.expanded-correct .explanation-text {
    font-size: 1rem;
    line-height: 1.6;
-   color: var(--light-text); /* Garante cor clara */
-   text-align: center; /* Centraliza o texto da explicação */
-   width: 100%; /* Opcional: força o texto a tentar usar a largura */
+   color: var(--light-text);
+   text-align: center;
+   width: 100%;
 }
-/* Ajuste se houver imagem de opção */
 .option-frame.expanded-correct:has(.option-image-container) .explanation-container {
-    margin-top: 15px; /* Adiciona espaço se houver imagem acima */
-    flex-grow: 0; /* Não precisa crescer tanto se imagem define altura */
+    margin-top: 15px;
+    flex-grow: 0;
 }
 
 
-/* ESTADO REVELADO (Após fechar o expandido ou errar) */
-/* A altura fixa de 150px definida lá em cima volta a valer aqui */
+/* === ESTADO REVELADO (Após fechar o expandido ou errar diretamente - NÃO EXPANDIDO) === */
+/* A altura fixa de 150px definida para .option-frame volta a ser aplicada aqui */
 .option-frame.revealed {
     cursor: default;
     pointer-events: none;
@@ -395,51 +407,49 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
     transition: opacity 0.5s ease;
 }
 
-/* Garante visibilidade da back-face no estado revelado (dentro da altura fixa) */
+/* Garante visibilidade da back-face no estado REVELADO (dentro da altura fixa) */
 .option-frame.revealed .back-face {
-    /* Back-face começa a 180deg (base), então rotacionamos para 0 para mostrar */
-    transform: rotateY(0deg); /* Mantém rotação */
+    transform: rotateY(0deg); /* Mostra a face traseira */
     backface-visibility: visible;
     z-index: 3;
-    padding: 0.8rem;
-    align-items: center; /* Centraliza conteúdo (inclui explanation-container) */
+    padding: 0.8rem; /* Padding normal */
+    align-items: center;
     justify-content: center; /* Centraliza na altura fixa */
-    /* overflow-y: auto; */ /* Removido pois overflow:hidden está ativo na regra principal das faces */
-    display: flex; /* Garante flex para alinhar o explanation-container */
-    flex-direction: column; /* Caso haja imagem de opção (embora escondida) */
-}
-/* Aplica cores no estado revelado */
-.option-frame.revealed .back-face.correct {
-     background-color: var(--success-color);
-}
-.option-frame.revealed .back-face.incorrect {
-    background-color: var(--danger-color);
+    display: flex;
+    flex-direction: column;
+    /* Cores são definidas pelas regras abaixo */
 }
 
-/* Esconde imagem da OPÇÃO no grid final revelado */
+/* Aplica cores no estado REVELADO (mantém regras originais) */
+.option-frame.revealed .back-face.correct {
+     background-color: var(--success-color); /* Verde */
+}
+.option-frame.revealed .back-face.incorrect {
+    background-color: var(--danger-color); /* Vermelho */
+}
+
+/* Esconde imagem da OPÇÃO no grid final REVELADO */
 .option-frame.revealed .option-image-container {
     display: none;
 }
 
-/* Ajusta container da explicação no grid final revelado */
+/* Ajusta container da explicação no grid final REVELADO */
 .option-frame.revealed .explanation-container {
-    margin-top: 0; /* Remove margem extra */
-    line-height: 1.4; /* Ajusta altura de linha */
-    align-items: center; /* Centraliza ícone e texto verticalmente */
+    margin-top: 0;
+    line-height: 1.4;
+    align-items: center;
 }
-/* Ajusta ícone da explicação no grid final revelado */
 .option-frame.revealed .explanation-icon {
-     height: 1.1em; /* Tamanho padrão ou ligeiramente menor */
+     height: 1.1em;
      margin-right: 0.5em;
 }
-/* Ajusta texto da explicação no grid final revelado */
 .option-frame.revealed .explanation-text {
-    font-size: 0.85rem; /* Texto um pouco menor no grid */
+    font-size: 0.85rem;
     color: var(--light-text);
-    text-align: left; /* Mantém alinhamento à esquerda */
+    text-align: left;
 }
 
-/* Garante ocultação da front-face no estado revelado */
+/* Garante ocultação da front-face no estado REVELADO */
 .option-frame.revealed .front-face {
      backface-visibility: hidden;
      z-index: 1;
