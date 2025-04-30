@@ -62,7 +62,7 @@ h1, h2 { color: var(--dark-text); margin-bottom: 1.2rem; text-align: center; fon
 #progress-bar-indicator { height: 100%; width: 0%; background-color: var(--primary-color); border-radius: 6px; transition: width 0.4s ease-out; }
 #progress-text { text-align: center; margin-top: 0.6rem; font-size: 0.9rem; color: #555; }
 #question-text { font-size: 1.3rem; color: var(--dark-text); margin-bottom: 2rem; min-height: 3em; line-height: 1.5; text-align: center; padding-top: 20px; font-weight: 500; }
-.options-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; perspective: 1000px; }
+.options-grid { align-items: start; display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; perspective: 1000px; }
 
 .option-frame {
     border: 3px solid transparent;
@@ -71,30 +71,34 @@ h1, h2 { color: var(--dark-text); margin-bottom: 1.2rem; text-align: center; fon
     cursor: pointer;
     font-size: 1rem;
     position: relative;
-    min-height: 130px;
+    /* min-height: 130px; */ /* <<< REMOVIDO/COMENTADO */
+    height: 150px; /* <<< ADICIONADO: Define altura fixa */
     transition: transform 0.6s ease, border-color 0.3s ease, box-shadow 0.3s ease, opacity 0.5s ease-out;
     box-shadow: 0 2px 5px var(--shadow-color);
     background-color: var(--light-bg); /* Fundo base para faces */
     transform-style: preserve-3d; /* Importante ter aqui */
+    /* Opcional: Adicionar flex aqui pode ajudar em alguns casos, mas a centralização principal está nas faces */
+    /* display: flex; */
+    /* flex-direction: column; */
 }
 .option-frame .front-face, .option-frame .back-face {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100%; /* Garante que use a altura fixa do pai */
     box-sizing: border-box;
     border-radius: calc(var(--card-border-radius) - 3px);
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; /* Centraliza conteúdo verticalmente na altura fixa */
+    align-items: center; /* Centraliza conteúdo horizontalmente */
     text-align: center;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     transition: background-color 0.3s ease;
     padding: 0.8rem;
-    overflow: hidden; /* Esconde overflow padrão */
+    overflow: hidden; /* <<< ADICIONADO: Esconde conteúdo que ultrapassar a altura fixa */
 }
 .option-frame .front-face {
     background-color: var(--primary-color);
@@ -108,13 +112,13 @@ h1, h2 { color: var(--dark-text); margin-bottom: 1.2rem; text-align: center; fon
     color: var(--light-text);
     transform: rotateY(180deg); /* Back-face começa girada */
     font-size: 0.85rem;
-    overflow-y: auto; /* Permite scroll se necessário */
+    /* overflow-y: auto; */ /* Removido ou comentado, pois overflow:hidden foi adicionado acima */
     align-items: center;
     text-align: center;
     justify-content: center; /* Centraliza conteúdo padrão */
-    padding: 0.6rem;
+    padding: 0.6rem; /* Pode ajustar se necessário com overflow:hidden */
     z-index: 1;
-    position: relative;
+    position: relative; /* Mantido para contexto interno se necessário */
 }
 .option-frame .back-face.correct {
     background-color: var(--success-color);
@@ -207,8 +211,12 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
     #selection-area, #question-count-selection, .quiz-container { max-width: 100%; }
     #selection-area, #question-count-selection { padding: 1rem; }
     h1 { font-size: 1.6rem; } h2 { font-size: 1.3rem; } #question-text { font-size: 1.1rem; padding-top: 5px; }
-    .options-grid { grid-template-columns: 1fr; gap: 0.8rem; }
-    .option-frame { min-height: 90px; } .option-frame .front-face { font-size: 0.95rem; } .option-frame .back-face { font-size: 0.8rem; }
+    .options-grid {align-items: start; grid-template-columns: 1fr; gap: 0.8rem; }
+    /* Ajustar altura fixa também para mobile se necessário, ou usar min-height aqui? */
+    /* Por enquanto, manterá a altura fixa de 150px definida acima */
+    /* .option-frame { min-height: 90px; } */ /* Comentado pois height fixa está ativa */
+    .option-frame .front-face { font-size: 0.95rem; }
+    .option-frame .back-face { font-size: 0.8rem; }
     .controls { flex-direction: column; align-items: center; gap: 8px; }
     .control-btn { padding: 0.7rem 1rem; font-size: 0.95rem; width: 90%; max-width: 300px; margin: 0; display: block; }
     .count-btn { flex-basis: calc(50% - 10px); min-width: 100px; padding: 0.6rem 0.8rem; font-size: 0.85rem; display: inline-block; width: auto; }
@@ -217,11 +225,13 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
     .options-grid { gap: 1rem; }
     .quiz-container { max-width: 850px; } #question-text { font-size: 1.2rem; }
     .count-btn { flex-basis: 140px; }
+    /* A altura fixa de 150px ainda se aplica */
 }
 @media (min-width: 993px) {
      html { font-size: 16px; }
-    .options-grid { gap: 1.2rem; }
+    .options-grid {align-items: start; gap: 1.2rem; }
     .count-btn { flex-basis: 150px; }
+     /* A altura fixa de 150px ainda se aplica */
 }
 
 
@@ -230,7 +240,7 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
 /* Container da Imagem da Opção (só existe na back-face correta) */
 .option-image-container {
     width: 100%;
-    max-height: 150px;
+    max-height: 150px; /* Ajuste conforme a altura fixa do card e padding */
     overflow: hidden;
     margin-bottom: 10px;
     display: flex;
@@ -238,12 +248,13 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
     align-items: center;
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 4px;
+    flex-shrink: 0; /* Impede que a imagem encolha demais */
 }
 .option-image {
     display: block;
     max-width: 100%;
     height: auto;
-    max-height: 150px;
+    max-height: 150px; /* Deve ser igual ou menor que max-height do container */
     object-fit: contain;
 }
 
@@ -253,9 +264,12 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
     align-items: center; /* Alinha verticalmente o ícone com o texto */
     width: 100%;
     text-align: left;
-    margin-top: 10px;
+    margin-top: 10px; /* Mantém espaço se houver imagem acima */
     color: inherit;
     line-height: 1.45;
+    overflow: hidden; /* Ajuda a conter o texto */
+    flex-grow: 1; /* Permite que o container tente preencher espaço */
+    flex-shrink: 1; /* Permite encolher se necessário */
 }
 .explanation-icon {
     height: 1.2em;
@@ -270,21 +284,23 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
     word-wrap: break-word;
     white-space: normal;
     font-weight: 400; /* Peso normal para explicação */
+    /* overflow: hidden; */ /* Pode ser redundante se já houver no container */
+    /* text-overflow: ellipsis; */ /* Considerar se desejar ellipsis na explicação */
 }
 /* --------------------------- */
 
 
-/* Estado Expandido do Card Correto */
+/* Estado Expandido do Card Correto (Mantém height: auto aqui) */
 .option-frame.expanded-correct {
     position: fixed;
     top: 50%;
     left: 50%;
     width: clamp(300px, 80vw, 600px);
-    height: auto;
+    height: auto; /* <<< IMPORTANTE: Mantém altura automática para expansão */
     max-height: 85vh;
     z-index: 1000;
     cursor: default;
-    overflow-y: auto;
+    overflow-y: auto; /* Permite scroll no card expandido */
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     border-color: var(--dark-text);
     animation: none;
@@ -302,16 +318,16 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
 /* Garante que a back-face seja visível e CORRETAMENTE ORIENTADA no estado expandido */
 .option-frame.expanded-correct .back-face {
     background-color: transparent; /* Pai tem a cor */
-    position: relative;
+    position: relative; /* Mudado de absolute para relative? Verificar impacto. Deve ser relative ou static. */
     width: 100%;
     min-height: 100%; /* Tenta ocupar altura mínima */
     height: auto;     /* Permite crescer */
     display: flex;
     flex-direction: column;
     align-items: center; /* Centraliza conteúdo horizontalmente */
-    justify-content: center; /* Centraliza conteúdo verticalmente (imagem+explicação) */
+    justify-content: flex-start; /* Alinha conteúdo no topo para melhor leitura com scroll */
     padding: 20px;
-    overflow-y: visible; /* Deixa pai controlar scroll */
+    overflow: visible; /* Deixa pai controlar scroll */
     backface-visibility: visible; /* Garante visibilidade */
     /* Rotaciona 180deg para cancelar a rotação do pai */
     transform: rotateY(180deg);
@@ -370,6 +386,7 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
 
 
 /* ESTADO REVELADO (Após fechar o expandido ou errar) */
+/* A altura fixa de 150px definida lá em cima volta a valer aqui */
 .option-frame.revealed {
     cursor: default;
     pointer-events: none;
@@ -378,16 +395,16 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
     transition: opacity 0.5s ease;
 }
 
-/* Garante visibilidade da back-face no estado revelado */
+/* Garante visibilidade da back-face no estado revelado (dentro da altura fixa) */
 .option-frame.revealed .back-face {
     /* Back-face começa a 180deg (base), então rotacionamos para 0 para mostrar */
-    transform: rotateY(0deg);
+    transform: rotateY(0deg); /* Mantém rotação */
     backface-visibility: visible;
     z-index: 3;
     padding: 0.8rem;
     align-items: center; /* Centraliza conteúdo (inclui explanation-container) */
-    justify-content: center;
-    overflow-y: auto;
+    justify-content: center; /* Centraliza na altura fixa */
+    /* overflow-y: auto; */ /* Removido pois overflow:hidden está ativo na regra principal das faces */
     display: flex; /* Garante flex para alinhar o explanation-container */
     flex-direction: column; /* Caso haja imagem de opção (embora escondida) */
 }
