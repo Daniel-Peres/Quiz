@@ -680,196 +680,194 @@
                 }
             ]
         },
-        [
-            {
-                "question": "Qual é o verdadeiro nome de Goku?",
-                "options": [
-                    {
-                        "text": "Raditz",
-                        "isCorrect": false,
-                        "explanation": "Raditz é o irmão cabeludo do Goku que apareceu só pra causar e morrer. Nome verdadeiro do Goku? Outro saiyajin com estilo mais... protagonista."
-                    },
-                    {
-                        "text": "Kakarotto",
-                        "isCorrect": true,
-                        "explanation": "Exatamente! Kakarotto é o nome saiyajin de Goku. Vegeta nunca deixa a gente esquecer disso — parece até que é marca registrada do orgulho real!",
-                        "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/1/1f/KakarotSaiyanArmor.png",
-                        "imageDescription": "Imagem de Goku com armadura saiyajin, sendo chamado de Kakarotto por Vegeta."
-                    },
-                    {
-                        "text": "Bardock",
-                        "isCorrect": false,
-                        "explanation": "Bardock é o pai do Goku! O estilo é o mesmo, mas os nomes e os destinos são bem diferentes."
-                    },
-                    {
-                        "text": "Tarble",
-                        "isCorrect": false,
-                        "explanation": "Tarble é irmão do Vegeta, aquele que ninguém lembra. Goku definitivamente não é esse cara."
-                    }
-                ]
-            },
-            {
-                "question": "Quem derrotou o Capitão Ginyu na saga de Namekusei?",
-                "options": [
-                    {
-                        "text": "Vegeta",
-                        "isCorrect": false,
-                        "explanation": "Vegeta humilhou metade do time Ginyu, mas o próprio Capitão virou uma rã antes de poder virar churrasco!"
-                    },
-                    {
-                        "text": "Goku",
-                        "isCorrect": false,
-                        "explanation": "Goku quase virou sapo! Ele lutou contra Ginyu, sim, mas não foi ele quem resolveu o problema definitivamente."
-                    },
-                    {
-                        "text": "Kuririn",
-                        "isCorrect": false,
-                        "explanation": "Kuririn tava tentando não morrer. Derrotar o Capitão Ginyu? Não era missão dele."
-                    },
-                    {
-                        "text": "Ginyu (como sapo)",
-                        "isCorrect": true,
-                        "explanation": "Sim! No fim das contas, Ginyu tentou trocar de corpo de novo e acabou preso no corpo de um sapo. Ironia intergaláctica no modo máximo!",
-                        "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/3/30/CaptainGinyuFrog.png",
-                        "imageDescription": "Imagem do Capitão Ginyu preso no corpo de um sapo após falhar ao tentar roubar o corpo de Vegeta."
-                    }
-                ]
-            },
-            {
-                "question": "Qual técnica permite ao usuário se teletransportar instantaneamente?",
-                "options": [
-                    {
-                        "text": "Taiyoken",
-                        "isCorrect": false,
-                        "explanation": "Essa técnica só cega geral! Nada de sumir no ar — o máximo que faz é deixar a galera tateando no escuro."
-                    },
-                    {
-                        "text": "Shunkan Idō (Transmissão Instantânea)",
-                        "isCorrect": true,
-                        "explanation": "Correto! Goku aprendeu essa técnica com os Yadrat após a luta com Freeza. Basta focar no ki e... puff! Tá em outro lugar. Quem precisa de avião, né?",
-                        "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/e/e8/InstantTransmission.png",
-                        "imageDescription": "Imagem de Goku usando a técnica de Transmissão Instantânea com dois dedos na testa."
-                    },
-                    {
-                        "text": "Kaio-Ken",
-                        "isCorrect": false,
-                        "explanation": "Kaio-Ken é força bruta no modo turbo. Nada de sumir ou mudar de lugar aqui."
-                    },
-                    {
-                        "text": "Bukujutsu",
-                        "isCorrect": false,
-                        "explanation": "Essa é a técnica de voo — útil, mas bem mais lenta que um 'teleporte' saiyajin!"
-                    }
-                ]
-            },
-            {
-                "question": "Qual personagem foi o único a resistir ao grito paralisante do Garlic Jr.?",
-                "options": [
-                    {
-                        "text": "Yamcha",
-                        "isCorrect": false,
-                        "explanation": "Yamcha? O cara mal sobrevive às lutas normais... Imune a grito demoníaco? Jamais."
-                    },
-                    {
-                        "text": "Kuririn",
-                        "isCorrect": false,
-                        "explanation": "Kuririn é o alívio cômico da equipe, mas nesse caso ele ficou paralisado como todo mundo."
-                    },
-                    {
-                        "text": "Piccolo",
-                        "isCorrect": true,
-                        "explanation": "Sim! O Namekuseijin tanque de guerra resistiu ao grito do Garlic Jr., fingiu estar paralisado e meteu a porrada depois. Estratégia de mestre!",
-                        "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/2/23/PiccoloGarlicJr.png",
-                        "imageDescription": "Imagem de Piccolo enfrentando Garlic Jr., resistindo ao seu ataque sonoro paralisante."
-                    },
-                    {
-                        "text": "Tenshinhan",
-                        "isCorrect": false,
-                        "explanation": "O Terceiro Olho não viu esse ataque vindo. Paralisou como todo mundo. Só Piccolo é tanque assim."
-                    }
-                ]
-            },
-            {
-                "question": "Qual dos guerreiros Z foi o primeiro a usar o Taiyoken?",
-                "options": [
-                    {
-                        "text": "Goku",
-                        "isCorrect": false,
-                        "explanation": "Goku usou, sim — e bem! Mas não foi ele quem trouxe o flash na cara pela primeira vez."
-                    },
-                    {
-                        "text": "Kuririn",
-                        "isCorrect": true,
-                        "explanation": "Correto! Kuririn usou o Taiyoken lá atrás, nos torneios clássicos. A técnica virou marca registrada pra fugir da treta com dignidade (ou tentar).",
-                        "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/d/d1/KrillinTaiyoken.png",
-                        "imageDescription": "Imagem de Kuririn usando o Taiyoken, cegando o oponente com um clarão intenso."
-                    },
-                    {
-                        "text": "Piccolo",
-                        "isCorrect": false,
-                        "explanation": "Piccolo tem raio, explosão e regeneração — mas flash na cara dos outros? Não faz o estilo dele."
-                    },
-                    {
-                        "text": "Tenshinhan",
-                        "isCorrect": false,
-                        "explanation": "Ele também usou, mas depois! Kuririn foi pioneiro nessa técnica de 'luz e fuga'."
-                    }
-                ]
-            },
-            {
-                "question": "Quem venceu o Torneio do Outro Mundo na saga filler entre Cell e Majin Boo?",
-                "options": [
-                    {
-                        "text": "Paikuhan",
-                        "isCorrect": false,
-                        "explanation": "Paikuhan lutou bravamente, e até derrotou Cell no inferno! Mas no torneio... deu outro saiyajin no pódio!"
-                    },
-                    {
-                        "text": "Goku",
-                        "isCorrect": true,
-                        "explanation": "Exatamente! Goku venceu Paikuhan (com direito a Kamehameha reverso no ar!). Vitória suada, mas cheia de carisma e fair play celestial.",
-                        "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/7/77/GokuPaikuhanFight.png",
-                        "imageDescription": "Imagem de Goku enfrentando Paikuhan no Torneio do Outro Mundo, com ataques aéreos intensos."
-                    },
-                    {
-                        "text": "Vegeta",
-                        "isCorrect": false,
-                        "explanation": "Vegeta nem apareceu nesse torneio. Estava ocupado com orgulho e ressentimento pós-vida."
-                    },
-                    {
-                        "text": "Cell",
-                        "isCorrect": false,
-                        "explanation": "Cell só apareceu depois, e foi derrotado de novo. Ele não teve nem lugar na arquibancada celestial."
-                    }
-                ]
-            },
-            {
-                "question": "Quem derrotou Nappa com um só golpe após ele humilhar vários Guerreiros Z?",
-                "options": [
-                    {
-                        "text": "Kuririn",
-                        "isCorrect": false,
-                        "explanation": "Kuririn tentou brilhar, mas Nappa era um trator com bigode. Só outro careca mais poderoso resolveu isso."
-                    },
-                    {
-                        "text": "Goku",
-                        "isCorrect": true,
-                        "explanation": "Correto! Goku chegou atrasado (como sempre), mas resolveu rápido. Um só golpe e Nappa virou figurante da história!",
-                        "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/a/ae/GokuDefeatsNappa.png",
-                        "imageDescription": "Imagem de Goku derrubando Nappa com um único golpe após chegar do treinamento com Kaio."
-                    },
-                    {
-                        "text": "Piccolo",
-                        "isCorrect": false,
-                        "explanation": "Piccolo se sacrificou protegendo Gohan. Nappa foi longe demais e pagou caro por isso depois."
-                    },
-                    {
-                        "text": "Tenshinhan",
-                        "isCorrect": false,
-                        "explanation": "Tenshinhan também caiu nessa luta. Goku resolveu tudo com um soco que parecia um episódio inteiro."
-                    }
-                ]
-            }
-        ]
+        {
+            "question": "Qual é o verdadeiro nome de Goku?",
+            "options": [
+                {
+                    "text": "Raditz",
+                    "isCorrect": false,
+                    "explanation": "Raditz é o irmão cabeludo do Goku que apareceu só pra causar e morrer. Nome verdadeiro do Goku? Outro saiyajin com estilo mais... protagonista."
+                },
+                {
+                    "text": "Kakarotto",
+                    "isCorrect": true,
+                    "explanation": "Exatamente! Kakarotto é o nome saiyajin de Goku. Vegeta nunca deixa a gente esquecer disso — parece até que é marca registrada do orgulho real!",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/1/1f/KakarotSaiyanArmor.png",
+                    "imageDescription": "Imagem de Goku com armadura saiyajin, sendo chamado de Kakarotto por Vegeta."
+                },
+                {
+                    "text": "Bardock",
+                    "isCorrect": false,
+                    "explanation": "Bardock é o pai do Goku! O estilo é o mesmo, mas os nomes e os destinos são bem diferentes."
+                },
+                {
+                    "text": "Tarble",
+                    "isCorrect": false,
+                    "explanation": "Tarble é irmão do Vegeta, aquele que ninguém lembra. Goku definitivamente não é esse cara."
+                }
+            ]
+        },
+        {
+            "question": "Quem derrotou o Capitão Ginyu na saga de Namekusei?",
+            "options": [
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta humilhou metade do time Ginyu, mas o próprio Capitão virou uma rã antes de poder virar churrasco!"
+                },
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "Goku quase virou sapo! Ele lutou contra Ginyu, sim, mas não foi ele quem resolveu o problema definitivamente."
+                },
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "Kuririn tava tentando não morrer. Derrotar o Capitão Ginyu? Não era missão dele."
+                },
+                {
+                    "text": "Ginyu (como sapo)",
+                    "isCorrect": true,
+                    "explanation": "Sim! No fim das contas, Ginyu tentou trocar de corpo de novo e acabou preso no corpo de um sapo. Ironia intergaláctica no modo máximo!",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/3/30/CaptainGinyuFrog.png",
+                    "imageDescription": "Imagem do Capitão Ginyu preso no corpo de um sapo após falhar ao tentar roubar o corpo de Vegeta."
+                }
+            ]
+        },
+        {
+            "question": "Qual técnica permite ao usuário se teletransportar instantaneamente?",
+            "options": [
+                {
+                    "text": "Taiyoken",
+                    "isCorrect": false,
+                    "explanation": "Essa técnica só cega geral! Nada de sumir no ar — o máximo que faz é deixar a galera tateando no escuro."
+                },
+                {
+                    "text": "Shunkan Idō (Transmissão Instantânea)",
+                    "isCorrect": true,
+                    "explanation": "Correto! Goku aprendeu essa técnica com os Yadrat após a luta com Freeza. Basta focar no ki e... puff! Tá em outro lugar. Quem precisa de avião, né?",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/e/e8/InstantTransmission.png",
+                    "imageDescription": "Imagem de Goku usando a técnica de Transmissão Instantânea com dois dedos na testa."
+                },
+                {
+                    "text": "Kaio-Ken",
+                    "isCorrect": false,
+                    "explanation": "Kaio-Ken é força bruta no modo turbo. Nada de sumir ou mudar de lugar aqui."
+                },
+                {
+                    "text": "Bukujutsu",
+                    "isCorrect": false,
+                    "explanation": "Essa é a técnica de voo — útil, mas bem mais lenta que um 'teleporte' saiyajin!"
+                }
+            ]
+        },
+        {
+            "question": "Qual personagem foi o único a resistir ao grito paralisante do Garlic Jr.?",
+            "options": [
+                {
+                    "text": "Yamcha",
+                    "isCorrect": false,
+                    "explanation": "Yamcha? O cara mal sobrevive às lutas normais... Imune a grito demoníaco? Jamais."
+                },
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "Kuririn é o alívio cômico da equipe, mas nesse caso ele ficou paralisado como todo mundo."
+                },
+                {
+                    "text": "Piccolo",
+                    "isCorrect": true,
+                    "explanation": "Sim! O Namekuseijin tanque de guerra resistiu ao grito do Garlic Jr., fingiu estar paralisado e meteu a porrada depois. Estratégia de mestre!",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/2/23/PiccoloGarlicJr.png",
+                    "imageDescription": "Imagem de Piccolo enfrentando Garlic Jr., resistindo ao seu ataque sonoro paralisante."
+                },
+                {
+                    "text": "Tenshinhan",
+                    "isCorrect": false,
+                    "explanation": "O Terceiro Olho não viu esse ataque vindo. Paralisou como todo mundo. Só Piccolo é tanque assim."
+                }
+            ]
+        },
+        {
+            "question": "Qual dos guerreiros Z foi o primeiro a usar o Taiyoken?",
+            "options": [
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "Goku usou, sim — e bem! Mas não foi ele quem trouxe o flash na cara pela primeira vez."
+                },
+                {
+                    "text": "Kuririn",
+                    "isCorrect": true,
+                    "explanation": "Correto! Kuririn usou o Taiyoken lá atrás, nos torneios clássicos. A técnica virou marca registrada pra fugir da treta com dignidade (ou tentar).",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/d/d1/KrillinTaiyoken.png",
+                    "imageDescription": "Imagem de Kuririn usando o Taiyoken, cegando o oponente com um clarão intenso."
+                },
+                {
+                    "text": "Piccolo",
+                    "isCorrect": false,
+                    "explanation": "Piccolo tem raio, explosão e regeneração — mas flash na cara dos outros? Não faz o estilo dele."
+                },
+                {
+                    "text": "Tenshinhan",
+                    "isCorrect": false,
+                    "explanation": "Ele também usou, mas depois! Kuririn foi pioneiro nessa técnica de 'luz e fuga'."
+                }
+            ]
+        },
+        {
+            "question": "Quem venceu o Torneio do Outro Mundo na saga filler entre Cell e Majin Boo?",
+            "options": [
+                {
+                    "text": "Paikuhan",
+                    "isCorrect": false,
+                    "explanation": "Paikuhan lutou bravamente, e até derrotou Cell no inferno! Mas no torneio... deu outro saiyajin no pódio!"
+                },
+                {
+                    "text": "Goku",
+                    "isCorrect": true,
+                    "explanation": "Exatamente! Goku venceu Paikuhan (com direito a Kamehameha reverso no ar!). Vitória suada, mas cheia de carisma e fair play celestial.",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/7/77/GokuPaikuhanFight.png",
+                    "imageDescription": "Imagem de Goku enfrentando Paikuhan no Torneio do Outro Mundo, com ataques aéreos intensos."
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta nem apareceu nesse torneio. Estava ocupado com orgulho e ressentimento pós-vida."
+                },
+                {
+                    "text": "Cell",
+                    "isCorrect": false,
+                    "explanation": "Cell só apareceu depois, e foi derrotado de novo. Ele não teve nem lugar na arquibancada celestial."
+                }
+            ]
+        },
+        {
+            "question": "Quem derrotou Nappa com um só golpe após ele humilhar vários Guerreiros Z?",
+            "options": [
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "Kuririn tentou brilhar, mas Nappa era um trator com bigode. Só outro careca mais poderoso resolveu isso."
+                },
+                {
+                    "text": "Goku",
+                    "isCorrect": true,
+                    "explanation": "Correto! Goku chegou atrasado (como sempre), mas resolveu rápido. Um só golpe e Nappa virou figurante da história!",
+                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/a/ae/GokuDefeatsNappa.png",
+                    "imageDescription": "Imagem de Goku derrubando Nappa com um único golpe após chegar do treinamento com Kaio."
+                },
+                {
+                    "text": "Piccolo",
+                    "isCorrect": false,
+                    "explanation": "Piccolo se sacrificou protegendo Gohan. Nappa foi longe demais e pagou caro por isso depois."
+                },
+                {
+                    "text": "Tenshinhan",
+                    "isCorrect": false,
+                    "explanation": "Tenshinhan também caiu nessa luta. Goku resolveu tudo com um soco que parecia um episódio inteiro."
+                }
+            ]
+        }
     ]
 }
