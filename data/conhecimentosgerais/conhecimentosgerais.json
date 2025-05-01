@@ -22,7 +22,7 @@
           "text": "Paris",
           "isCorrect": true,
           "explanation": "Acertou em cheio! Paris, a Cidade Luz, é onde a Torre Eiffel brilha, o Louvre guarda a Mona Lisa e os cafés servem croissants que fazem você sonhar. Viva la France!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Paris_-_Eiffel_Tower.jpg/1200px-Paris_-_Eiffel_Tower.jpg",
+          "imageUrl": "images/conhecimentosgerais/01_paris.webp",
           "imageDescription": "Imagem da Torre Eiffel iluminada à noite em Paris, um marco icônico da capital francesa."
         },
         {
@@ -54,7 +54,7 @@
           "text": "Pacífico",
           "isCorrect": true,
           "explanation": "Bingo! O Oceano Pacífico é o rei dos mares, cobrindo 30% do planeta e escondendo a Fossa das Marianas, tão profunda que faz o Everest parecer uma colina. Navegou direitinho!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Pacific_Ocean_%2827706620763%29.jpg/1200px-Pacific_Ocean_%2827706620763%29.jpg",
+          "imageUrl": "images/conhecimentosgerais/02_oceano_pacifico.webp",
           "imageDescription": "Imagem do Oceano Pacífico com águas azuis brilhantes e horizonte amplo, capturando sua vasta extensão."
         }
       ]
@@ -71,7 +71,7 @@
           "text": "1969",
           "isCorrect": true,
           "explanation": "Você é um astronauta nato! Em 20 de julho de 1969, Neil Armstrong (Apollo 11) deu aquele 'pequeno passo' que virou um salto gigante para a humanidade. E a bandeira tremulou na Lua!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Apollo_11_first_step.jpg/1200px-Apollo_11_first_step.jpg",
+          "imageUrl": "images/conhecimentosgerais/03_1969_homem_na_luta.webp",
           "imageDescription": "Imagem de Neil Armstrong pisando na Lua em 1969, capturando o momento histórico da missão Apollo 11."
         },
         {
@@ -108,7 +108,7 @@
           "text": "Leonardo da Vinci",
           "isCorrect": true,
           "explanation": "Aplausos! Leonardo da Vinci, o polímata dos polimatas, pintou a Mona Lisa entre 1503 e 1506. Aquela carinha enigmática no Louvre? Culpa dele!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1200px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+          "imageUrl": "images/conhecimentosgerais/04_davinci_monalisa.webp",
           "imageDescription": "Imagem da pintura Mona Lisa de Leonardo da Vinci, mostrando seu famoso sorriso enigmático."
         }
       ]
@@ -130,7 +130,7 @@
           "text": "Deserto do Saara",
           "isCorrect": true,
           "explanation": "Você é um beduíno do conhecimento! O Saara, com seus 9,2 milhões de km², é o maior deserto quente, esticando dunas pelo norte da África. Sol, areia e camelos à vontade!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Sahara_Desert_%28Aerial%29.jpg/1200px-Sahara_Desert_%28Aerial%29.jpg",
+          "imageUrl": "images/conhecimentosgerais/05_deserto_saara.webp",
           "imageDescription": "Imagem aérea do Deserto do Saara, mostrando vastas dunas de areia dourada sob o sol."
         },
         {
@@ -162,7 +162,7 @@
           "text": "Rússia",
           "isCorrect": true,
           "explanation": "Matrioshka de acertos! A Rússia, com mais de 17 milhões de km², é o maior país, cobrindo 11 fusos horários e dois continentes. É tão grande que o mapa cansa!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Russia_%28orthographic_projection%29.svg/1200px-Russia_%28orthographic_projection%29.svg.png",
+          "imageUrl": "images/conhecimentosgerais/06_russia.webp",
           "imageDescription": "Mapa da Rússia em projeção ortográfica, destacando sua vasta extensão territorial."
         }
       ]
@@ -179,7 +179,7 @@
           "text": "Monte Everest",
           "isCorrect": true,
           "explanation": "Você chegou ao cume! O Everest, no Himalaia, com 8.848,86 metros, é o rei das montanhas. Só não esqueça o oxigênio lá em cima!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Mount_Everest_2017.jpg/1200px-Mount_Everest_2017.jpg",
+          "imageUrl": "images/conhecimentosgerais/07_monte_everst.webp",
           "imageDescription": "Imagem do Monte Everest com seu pico nevado sob um céu claro, visto do campo base."
         },
         {
@@ -211,7 +211,7 @@
           "text": "Miguel de Cervantes",
           "isCorrect": true,
           "explanation": "Olé! Cervantes escreveu 'Dom Quixote', o primeiro romance moderno, com o cavaleiro sonhador e seu fiel Sancho Pança. Um clássico que até moinhos aplaudem!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/First_edition_Don_Quixote_1605.jpg/1200px-First_edition_Don_Quixote_1605.jpg",
+          "imageUrl": "images/conhecimentosgerais/08_dom_quixote.webp",
           "imageDescription": "Imagem da capa da primeira edição de 'Dom Quixote' de Cervantes, publicada em 1605."
         },
         {
@@ -228,7 +228,7 @@
           "text": "Rio Nilo",
           "isCorrect": true,
           "explanation": "Você navegou certinho! O Nilo, com seus 6.650 km, é o maior rio, serpenteando pela África e alimentando o Egito antigo. É tão longo que até as pirâmides ficam com inveja!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Nile_River_and_delta_from_orbit.jpg/1200px-Nile_River_and_delta_from_orbit.jpg",
+          "imageUrl": "images/conhecimentosgerais/09_rio_nilo.webp",
           "imageDescription": "Imagem do Rio Nilo visto do espaço, destacando seu curso sinuoso e o delta no Egito."
         },
         {
@@ -260,7 +260,7 @@
           "text": "Oxigênio",
           "isCorrect": true,
           "explanation": "Você é um gênio da tabela periódica! O 'O' é o Oxigênio, o gás que nos mantém vivos e faz o fogo dançar. Sem ele, nada de festas ou maratonas!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Oxygen_bubble.jpg/1200px-Oxygen_bubble.jpg",
+          "imageUrl": "images/conhecimentosgerais/10_oxigenio.jpg",
           "imageDescription": "Imagem de bolhas de oxigênio na água, simbolizando o elemento essencial para a vida."
         },
         {
@@ -287,7 +287,7 @@
           "text": "África",
           "isCorrect": true,
           "explanation": "Você é um faraó do conhecimento! O Egito, com suas pirâmides e esfinges, está no nordeste da África, com um toque asiático no Sinai. Um país que é pura história!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Great_Sphinx_of_Giza_May_2015.JPG/1200px-Great_Sphinx_of_Giza_May_2015.JPG",
+          "imageUrl": "images/conhecimentosgerais/11_africa.jpg",
           "imageDescription": "Imagem da Grande Esfinge de Gizé com as pirâmides ao fundo, símbolo do Egito na África."
         },
         {
@@ -319,7 +319,7 @@
           "text": "Iene",
           "isCorrect": true,
           "explanation": "Arigatô, você acertou! O Iene (¥) é a moeda do Japão, usada desde Tóquio até Kyoto. É tão forte que até o sushi aprova!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Japanese_yen_banknotes_and_coins.jpg/1200px-Japanese_yen_banknotes_and_coins.jpg",
+          "imageUrl": "images/conhecimentosgerais/12_iene_moeda_japao.jpeg",
           "imageDescription": "Imagem de notas e moedas de Iene japonês, mostrando a moeda oficial do Japão."
         },
         {
@@ -351,7 +351,7 @@
           "text": "George Washington",
           "isCorrect": true,
           "explanation": "Estrelas e listras pra você! George Washington, herói da Independência, foi o primeiro presidente (1789-1797), tão unânime que até a capital leva seu nome!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg/1200px-Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
+          "imageUrl": "images/conhecimentosgerais/13_george_washington.jpeg",
           "imageDescription": "Retrato de George Washington por Gilbert Stuart, mostrando o primeiro presidente dos EUA."
         }
       ]
@@ -368,7 +368,7 @@
           "text": "Baleia",
           "isCorrect": true,
           "explanation": "Nadou direitinho! Baleias são mamíferos marinhos, respiram ar, amamentam filhotes e têm sangue quente. São os gigantes gentis dos oceanos!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Humpback_whale_breaching.jpg/1200px-Humpback_whale_breaching.jpg",
+          "imageUrl": "images/conhecimentosgerais/14_baleia.jpg",
           "imageDescription": "Imagem de uma baleia jubarte saltando da água, destacando sua natureza mamífera."
         },
         {
@@ -395,7 +395,7 @@
           "text": "H2O",
           "isCorrect": true,
           "explanation": "Splish splash, acertou! H2O é a fórmula da água, com dois hidrogênios e um oxigênio formando a bebida oficial da vida. Sem ela, nada de piscinas ou café!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Water_droplet_blue_bg05.jpg/1200px-Water_droplet_blue_bg05.jpg",
+          "imageUrl": "images/conhecimentosgerais/15_h2o_formula.jpeg",
           "imageDescription": "Imagem de uma gota de água cristalina, representando a fórmula química H2O."
         },
         {
@@ -427,7 +427,7 @@
           "text": "Tênis",
           "isCorrect": true,
           "explanation": "Ace! O tênis é o esporte com raquete, rede e bola amarela, onde você saca, rebate e grita 'vamos!' como um campeão. Quadra liberada!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Tennis_court_with_players.jpg/1200px-Tennis_court_with_players.jpg",
+          "imageUrl": "images/conhecimentosgerais/16_tenis_esporte.jpeg",
           "imageDescription": "Imagem de uma quadra de tênis com jogadores, bola amarela e rede ao centro."
         },
         {
@@ -454,7 +454,7 @@
           "text": "Fotossíntese",
           "isCorrect": true,
           "explanation": "Você é uma folha brilhante! A fotossíntese transforma luz solar, CO2 e água em glicose e oxigênio. É a magia verde que mantém o planeta girando!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Photosynthesis_leaf.jpg/1200px-Photosynthesis_leaf.jpg",
+          "imageUrl": "images/conhecimentosgerais/17_fotossintese.png",
           "imageDescription": "Imagem de uma folha verde sob luz solar, ilustrando o processo de fotossíntese."
         },
         {
@@ -481,7 +481,7 @@
           "text": "Rio de Janeiro",
           "isCorrect": true,
           "explanation": "Samba na veia! O Rio de Janeiro foi a primeira cidade sul-americana a sediar os Jogos de 2016, com o Cristo Redentor assistindo tudo de camarote!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Rio_2016_Olympic_Stadium.jpg/1200px-Rio_2016_Olympic_Stadium.jpg",
+          "imageUrl": "images/conhecimentosgerais/18_rio_de_janeiro.jpeg",
           "imageDescription": "Imagem do Estádio Olímpico do Rio de Janeiro durante os Jogos de 2016."
         },
         {
@@ -508,7 +508,7 @@
           "text": "Pele",
           "isCorrect": true,
           "explanation": "Você é uma epiderme de saber! A pele é o maior órgão, cobrindo tudo, protegendo e sentindo o mundo. É tipo uma capa de super-herói!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Human_skin_structure.jpg/1200px-Human_skin_structure.jpg",
+          "imageUrl": "images/conhecimentosgerais/19_pele_humana.jpeg",
           "imageDescription": "Imagem ilustrativa da estrutura da pele humana, destacando suas camadas."
         },
         {
@@ -530,7 +530,7 @@
           "text": "Lâmpada incandescente (comercialmente viável)",
           "isCorrect": true,
           "explanation": "Brilhou! Edison não inventou a lâmpada do zero, mas tornou-a prática em 1879, iluminando o mundo e nossas contas de luz. Um gênio com brilho próprio!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Edison_bulb.jpg/1200px-Edison_bulb.jpg",
+          "imageUrl": "images/conhecimentosgerais/20_lampada.jpeg",
           "imageDescription": "Imagem de uma lâmpada incandescente de Edison, símbolo de sua invenção."
         },
         {
@@ -562,7 +562,7 @@
           "text": "Japão",
           "isCorrect": true,
           "explanation": "Konichiwa, acerto! Japão, ou Nihon, significa 'origem do sol'. Com suas cerejeiras e cultura milenar, é a Terra do Sol Nascente brilhando no Pacífico!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Mount_Fuji_and_cherry_blossoms.jpg/1200px-Mount_Fuji_and_cherry_blossoms.jpg",
+          "imageUrl": "images/conhecimentosgerais/21_japao.png",
           "imageDescription": "Imagem do Monte Fuji com cerejeiras em flor, simbolizando o Japão como Terra do Sol Nascente."
         },
         {
@@ -579,7 +579,7 @@
           "text": "Primeira Guerra Mundial",
           "isCorrect": true,
           "explanation": "Você é um historiador de trincheira! A Primeira Guerra Mundial, ou 'A Grande Guerra', sacudiu o mundo de 1914 a 1918, com Aliados contra Potências Centrais. Um conflito que mudou mapas e deixou lições!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/WW1_trench.jpg/1200px-WW1_trench.jpg",
+          "imageUrl": "images/conhecimentosgerais/22_primeira_guerra_mundial.jpeg",
           "imageDescription": "Imagem de uma trincheira da Primeira Guerra Mundial, representando o cenário do conflito."
         },
         {
@@ -621,7 +621,7 @@
           "text": "Camberra",
           "isCorrect": true,
           "explanation": "G’day, acerto! Camberra, planejada para ser a capital em 1908, é o coração político da Austrália, com menos praia, mas muito charme. Um oásis entre Sydney e Melbourne!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Parliament_House_Canberra.jpg/1200px-Parliament_House_Canberra.jpg",
+          "imageUrl": "images/conhecimentosgerais/23_camberraCapital_australia.jpeg",
           "imageDescription": "Imagem da Casa do Parlamento em Camberra, símbolo da capital australiana."
         }
       ]
@@ -643,7 +643,7 @@
           "text": "Vincent van Gogh",
           "isCorrect": true,
           "explanation": "Você é um girassol de acertos! Van Gogh, em 1888, cortou parte da orelha num surto, mas deixou um legado com 'Noite Estrelada'. Gênio torturado, mas brilhante!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_with_Bandaged_Ear_and_Pipe.jpg/1200px-Vincent_van_Gogh_-_Self-Portrait_with_Bandaged_Ear_and_Pipe.jpg",
+          "imageUrl": "images/conhecimentosgerais/24_van_gogh.jpeg",
           "imageDescription": "Autorretrato de Vincent van Gogh com a orelha enfaixada, pintado após o incidente."
         },
         {
@@ -665,7 +665,7 @@
           "text": "6",
           "isCorrect": true,
           "explanation": "Você é uma colmeia de sabedoria! Um hexágono tem 6 lados, como os favos de mel ou um floco de neve estilizado. Geometria nunca foi tão doce!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Honeycomb.jpg/1200px-Honeycomb.jpg",
+          "imageUrl": "images/conhecimentosgerais/25_hexagono.jpeg",
           "imageDescription": "Imagem de um favo de mel com células hexagonais, ilustrando a forma de seis lados."
         },
         {
@@ -697,7 +697,7 @@
           "text": "Piano",
           "isCorrect": true,
           "explanation": "Notas perfeitas! O piano, com suas 88 teclas (52 brancas, 36 pretas), é o maestro dos instrumentos, tocando desde Beethoven até jazz. Dedos prontos?",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Steinway_grand_piano.jpg/1200px-Steinway_grand_piano.jpg",
+          "imageUrl": "images/conhecimentosgerais/26_piano.jpg",
           "imageDescription": "Imagem de um piano de cauda Steinway, destacando suas 88 teclas."
         },
         {
@@ -719,7 +719,7 @@
           "text": "William Shakespeare",
           "isCorrect": true,
           "explanation": "Oh Romeo, que acerto! Shakespeare escreveu essa tragédia de amor entre Montequios e Capuletos, fazendo o mundo chorar desde o século XVI. Bravo!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Romeo_and_Juliet_balcony_scene.jpg/1200px-Romeo_and_Juliet_balcony_scene.jpg",
+          "imageUrl": "images/conhecimentosgerais/27_ william_shakespeare.png",
           "imageDescription": "Imagem de uma pintura clássica da cena do balcão de Romeu e Julieta, de Shakespeare."
         },
         {
@@ -746,7 +746,7 @@
           "text": "Monte Kilimanjaro",
           "isCorrect": true,
           "explanation": "Você conquistou o topo! O Kilimanjaro, na Tanzânia, com 5.895m, é o rei africano, um vulcão adormecido que atrai aventureiros. Suba com cuidado!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Mount_Kilimanjaro.jpg/1200px-Mount_Kilimanjaro.jpg",
+          "imageUrl": "images/conhecimentosgerais/28_monte_kilimanjaro.jpeg",
           "imageDescription": "Imagem do Monte Kilimanjaro com seu pico nevado sob um céu claro, na Tanzânia."
         },
         {
@@ -778,7 +778,7 @@
           "text": "Nitrogênio",
           "isCorrect": true,
           "explanation": "Você respira saber! O nitrogênio (N2) é o rei da atmosfera, com 78%, só ficando lá, quietinho, enquanto o oxigênio faz o trabalho pesado. Ar puro, né?",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Earth_atmosphere_layers.jpg/1200px-Earth_atmosphere_layers.jpg",
+          "imageUrl": "images/conhecimentosgerais/29_nitrogenio.jpeg",
           "imageDescription": "Imagem ilustrativa das camadas da atmosfera terrestre, representando a presença do nitrogênio."
         },
         {
@@ -810,7 +810,7 @@
           "text": "Ottawa",
           "isCorrect": true,
           "explanation": "Maple de acertos! Ottawa, escolhida pela Rainha Vitória, é a capital do Canadá, com o Parlamento e um charme invernal. Perfeita pra um chocolate quente!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Parliament_of_Canada_Ottawa.jpg/1200px-Parliament_of_Canada_Ottawa.jpg",
+          "imageUrl": "images/conhecimentosgerais/30_ottawa.jpeg",
           "imageDescription": "Imagem do Parlamento do Canadá em Ottawa, símbolo da capital canadense."
         }
       ]
@@ -832,7 +832,7 @@
           "text": "Barcelona",
           "isCorrect": true,
           "explanation": "Olé, acertou! Barcelona é a joia da Catalunha, na Espanha, famosa pela Sagrada Família e tapas. Nada de pizza, aqui é paella!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Sagrada_Familia_2015.jpg/1200px-Sagrada_Familia_2015.jpg",
+          "imageUrl": "images/conhecimentosgerais/31_barcelona.jpeg",
           "imageDescription": "Imagem da Sagrada Família em Barcelona, obra-prima de Gaudí, representando a cidade espanhola."
         },
         {
@@ -854,7 +854,7 @@
           "text": "Albert Einstein",
           "isCorrect": true,
           "explanation": "E=MC² de acertos! Einstein revolucionou a física com a relatividade especial (1905) e geral (1915), mudando como vemos tempo e espaço. Gênio de cabelo bagunçado!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg/1200px-Einstein_1921_by_F_Schmutzer_-_restoration.jpg",
+          "imageUrl": "images/conhecimentosgerais/32_albert_einstein.jpeg",
           "imageDescription": "Fotografia de Albert Einstein em 1921, representando o físico que desenvolveu a relatividade."
         },
         {
@@ -886,7 +886,7 @@
           "text": "Linha do Equador",
           "isCorrect": true,
           "explanation": "Você girou o globo certinho! A Linha do Equador, latitude 0°, divide a Terra em Norte e Sul, passando por lugares quentes como o Brasil. É o cinto do planeta!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Equator_monument_Ecuador.jpg/1200px-Equator_monument_Ecuador.jpg",
+          "imageUrl": "images/conhecimentosgerais/33_linha_equador.png",
           "imageDescription": "Imagem do monumento da Linha do Equador no Equador, marcando a divisão entre hemisférios."
         },
         {
@@ -913,7 +913,7 @@
           "text": "Áustria",
           "isCorrect": true,
           "explanation": "Uma sinfonia de acertos! Mozart nasceu em Salzburgo, Áustria, em 1756, compondo obras-primas antes mesmo de aprender a amarrar os sapatos. Um gênio austríaco!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Wolfgang_Amadeus_Mozart_1719b.jpg/1200px-Wolfgang_Amadeus_Mozart_1719b.jpg",
+          "imageUrl": "images/conhecimentosgerais/34_austria.jpg",
           "imageDescription": "Retrato de Wolfgang Amadeus Mozart, compositor austríaco, em trajes clássicos."
         },
         {
@@ -940,7 +940,7 @@
           "text": "Oceano Atlântico",
           "isCorrect": true,
           "explanation": "Samba na areia! O Atlântico banha toda a costa leste do Brasil, de Oiapoque ao Chuí, trazendo ondas perfeitas pra Copacabana e Ipanema. Mergulhou certinho!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Copacabana_beach.jpg/1200px-Copacabana_beach.jpg",
+          "imageUrl": "images/conhecimentosgerais/35_oceano_atlantico.jpg",
           "imageDescription": "Imagem da praia de Copacabana no Rio de Janeiro, banhada pelo Oceano Atlântico."
         },
         {
@@ -967,7 +967,7 @@
           "text": "Mercúrio",
           "isCorrect": true,
           "explanation": "Brilhou como termômetro! Mercúrio (Hg) é o único metal líquido a 25°C, escorregando como um dançarino de salsa. Cuidado, ele é tóxico!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Mercury_%28element%29.jpg/1200px-Mercury_%28element%29.jpg",
+          "imageUrl": "images/conhecimentosgerais/36_mercurio.jpg",
           "imageDescription": "Imagem de mercúrio líquido em um recipiente, mostrando sua aparência metálica brilhante."
         },
         {
@@ -994,7 +994,7 @@
           "text": "Andes",
           "isCorrect": true,
           "explanation": "Você escalou a resposta certa! Os Andes, com 7.000 km, são a maior cordilheira, correndo pela América do Sul como uma espinha dorsal. Lhamas aprovam!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Andes_Mountains.jpg/1200px-Andes_Mountains.jpg",
+          "imageUrl": "images/conhecimentosgerais/37_andes.jpg",
           "imageDescription": "Imagem da Cordilheira dos Andes com picos nevados e vales, na América do Sul."
         },
         {
@@ -1026,7 +1026,7 @@
           "text": "Michelangelo",
           "isCorrect": true,
           "explanation": "Você é um afresco de acertos! Michelangelo passou anos (1508-1512) pintando o teto da Capela Sistina, com cenas como 'A Criação de Adão'. Um trabalho divino!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Creation_of_Adam_%28Michelangelo%29.jpg/1200px-Creation_of_Adam_%28Michelangelo%29.jpg",
+          "imageUrl": "images/conhecimentosgerais/38_michelandelo.jpg",
           "imageDescription": "Imagem do afresco 'A Criação de Adão' no teto da Capela Sistina, pintado por Michelangelo."
         }
       ]
@@ -1048,7 +1048,7 @@
           "text": "Célula",
           "isCorrect": true,
           "explanation": "Você é um biólogo nato! A célula é a menor unidade viva, fazendo tudo desde respirar até se dividir. É o Lego da vida, montando desde amebas até você!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Human_cell.jpg/1200px-Human_cell.jpg",
+          "imageUrl": "images/conhecimentosgerais/39_celula.jpg",
           "imageDescription": "Imagem microscópica de uma célula humana, representando a unidade básica da vida."
         },
         {
@@ -1075,7 +1075,7 @@
           "text": "China",
           "isCorrect": true,
           "explanation": "Mandou bem, imperador! A Grande Muralha da China, construída ao longo de séculos, é uma fortaleza épica que até do espaço dá pra ver (ou quase)!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Great_Wall_of_China_2004.jpg/1200px-Great_Wall_of_China_2004.jpg",
+          "imageUrl": "images/conhecimentosgerais/40_china.jpg",
           "imageDescription": "Imagem da Grande Muralha da China serpenteando por colinas verdes."
         },
         {
@@ -1107,7 +1107,7 @@
           "text": "Buenos Aires",
           "isCorrect": true,
           "explanation": "Tango de acertos! Buenos Aires, com seu charme europeu e paixão pelo tango, é a capital da Argentina. É onde a milonga e o bife de chorizo reinam!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Obelisk_Buenos_Aires.jpg/1200px-Obelisk_Buenos_Aires.jpg",
+          "imageUrl": "images/conhecimentosgerais/41_buenos_aires.jpg",
           "imageDescription": "Imagem do Obelisco de Buenos Aires, marco central da capital argentina."
         }
       ]
@@ -1134,7 +1134,7 @@
           "text": "Vermelho",
           "isCorrect": true,
           "explanation": "Você é um patriota colorido! A bandeira do Brasil brilha com verde, amarelo, azul e branco, mas vermelho? Nada disso, deixa pro carnaval!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/1200px-Flag_of_Brazil.svg.png",
+          "imageUrl": "images/conhecimentosgerais/42_band_brasil_sem_vermelho.jpg",
           "imageDescription": "Imagem da bandeira do Brasil com suas cores verde, amarelo, azul e branco."
         }
       ]
@@ -1146,7 +1146,7 @@
           "text": "Marie Curie",
           "isCorrect": true,
           "explanation": "Você é radioativamente brilhante! Marie Curie ganhou o Nobel de Física (1903) e Química (1911), sendo pioneira na radioatividade. Uma mulher que brilhou na ciência!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Marie_Curie_c._1920s.jpg/1200px-Marie_Curie_c._1920s.jpg",
+          "imageUrl": "images/conhecimentosgerais/43_marie_curie.jpg",
           "imageDescription": "Fotografia de Marie Curie, a primeira mulher a ganhar um Prêmio Nobel."
         },
         {
@@ -1173,7 +1173,7 @@
           "text": "Hóquei no Gelo (inverno) e Lacrosse (verão)",
           "isCorrect": true,
           "explanation": "Você patinou e acertou! Desde 1994, o Canadá ama o hóquei no gelo no inverno e o lacrosse, de origem indígena, no verão. É como escolher entre gelo e grama!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Ice_hockey_Canada.jpg/1200px-Ice_hockey_Canada.jpg",
+          "imageUrl": "images/conhecimentosgerais/44_hoquei_lacrosse.jpg",
           "imageDescription": "Imagem de jogadores de hóquei no gelo, esporte nacional de inverno do Canadá."
         },
         {
@@ -1210,7 +1210,7 @@
           "text": "Português",
           "isCorrect": true,
           "explanation": "Fala sério, você acertou! O português, trazido pelos colonizadores, é a língua oficial do Brasil, falada com sotaques que vão do Oiapoque ao Chuí. É samba na ponta da língua!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Brazilian_Portuguese_dictionary.jpg/1200px-Brazilian_Portuguese_dictionary.jpg",
+          "imageUrl": "images/conhecimentosgerais/45_lingua_portuguesa.jpg",
           "imageDescription": "Imagem de um dicionário de português brasileiro, representando a língua oficial."
         },
         {
@@ -1232,7 +1232,7 @@
           "text": "Groenlândia",
           "isCorrect": true,
           "explanation": "Você navegou pelo Ártico! A Groenlândia, com 2,1 milhões de km², é a maior ilha, coberta de gelo e pertencente à Dinamarca. É um freezer gigante!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Greenland_ice_sheet.jpg/1200px-Greenland_ice_sheet.jpg",
+          "imageUrl": "images/conhecimentosgerais/46_groelandia.jpg",
           "imageDescription": "Imagem da Groenlândia coberta por sua vasta camada de gelo, a maior ilha do mundo."
         },
         {
@@ -1269,7 +1269,7 @@
           "text": "Harry Potter",
           "isCorrect": true,
           "explanation": "Expecto Patronum de acertos! Harry Potter, o menino que sobreviveu, é o herói da saga, enfrentando Voldemort com sua varinha e coragem. Hogwarts te espera!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Harry_Potter_character_poster.jpg/1200px-Harry_Potter_character_poster.jpg",
+          "imageUrl": "images/conhecimentosgerais/47_harry_potter.jpg",
           "imageDescription": "Imagem de um pôster de Harry Potter, com óculos e cicatriz, protagonista da série."
         }
       ]
@@ -1291,7 +1291,7 @@
           "text": "Incas",
           "isCorrect": true,
           "explanation": "Você é um arqueólogo andino! Os Incas construíram Machu Picchu, a cidade perdida nos Andes peruanos, um feito de engenharia que deixa qualquer um de queixo caído!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Machu_Picchu_early_morning.jpg/1200px-Machu_Picchu_early_morning.jpg",
+          "imageUrl": "images/conhecimentosgerais/48_incas.jpg",
           "imageDescription": "Imagem de Machu Picchu, a cidade inca nas montanhas do Peru, ao amanhecer."
         },
         {
@@ -1318,7 +1318,7 @@
           "text": "Saturno",
           "isCorrect": true,
           "explanation": "Você orbitou certinho! Saturno é famoso por seus anéis brilhantes de gelo e rocha, tão lindos que até telescópios amadores piram. É o popstar do Sistema Solar!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Saturn_during_Equinox.jpg/1200px-Saturn_during_Equinox.jpg",
+          "imageUrl": "images/conhecimentosgerais/49_saturno.jpg",
           "imageDescription": "Imagem de Saturno com seus anéis brilhantes, capturada por uma sonda espacial."
         },
         {
@@ -1345,7 +1345,7 @@
           "text": "Moscou",
           "isCorrect": true,
           "explanation": "Vodka de acertos! Moscou, com o Kremlin e a Praça Vermelha, é o coração político e cultural da Rússia. Uma cidade que mistura história e frio siberiano!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Kremlin_Moscow.jpg/1200px-Kremlin_Moscow.jpg",
+          "imageUrl": "images/conhecimentosgerais/50_moscou.jpg",
           "imageDescription": "Imagem do Kremlin em Moscou, símbolo da capital russa."
         },
         {
@@ -1362,7 +1362,7 @@
           "text": "World Wide Web",
           "isCorrect": true,
           "explanation": "Você surfou na web certinho! WWW, criado por Tim Berners-Lee, é a World Wide Web, a teia mundial que nos deixa grudados no celular. Navegou com estilo!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/World_Wide_Web_browser.jpg/1200px-World_Wide_Web_browser.jpg",
+          "imageUrl": "images/conhecimentosgerais/51_worldWideWeb.jpg",
           "imageDescription": "Imagem de uma tela de navegador exibindo uma página da World Wide Web."
         },
         {
@@ -1394,7 +1394,7 @@
           "text": "26",
           "isCorrect": true,
           "explanation": "Você é um mapa vivo! O Brasil tem 26 estados, mais o Distrito Federal, formando uma federação cheia de sotaques, praias e florestas. Geografia nota 10!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Brazil_states_map.svg/1200px-Brazil_states_map.svg.png",
+          "imageUrl": "images/conhecimentosgerais/52_estados_brasil.jpg",
           "imageDescription": "Mapa do Brasil destacando seus 26 estados e o Distrito Federal."
         },
         {
@@ -1426,7 +1426,7 @@
           "text": "Fêmur",
           "isCorrect": true,
           "explanation": "Você é um esqueleto de saber! O fêmur, na coxa, é o osso mais longo e forte, aguentando até suas dancinhas mais loucas. Ossos à obra!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Femur_bone.jpg/1200px-Femur_bone.jpg",
+          "imageUrl": "images/conhecimentosgerais/53_femur.jpg",
           "imageDescription": "Imagem de um fêmur humano, o osso mais longo do corpo."
         },
         {
@@ -1448,7 +1448,7 @@
           "text": "Nova Délhi",
           "isCorrect": true,
           "explanation": "Você é um guru do saber! Nova Délhi, com seus palácios e caos organizado, é a capital da Índia, onde o Taj Mahal fica só na memória dos turistas. Namastê!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/India_Gate_New_Delhi.jpg/1200px-India_Gate_New_Delhi.jpg",
+          "imageUrl": "images/conhecimentosgerais/54_nova_dehli.jpg",
           "imageDescription": "Imagem do Portão da Índia em Nova Délhi, marco icônico da capital indiana."
         },
         {
@@ -1480,7 +1480,7 @@
           "text": "Ouro",
           "isCorrect": true,
           "explanation": "Você encontrou a pepita! 'Au' vem de 'aurum', o ouro, o metal que faz olhos brilharem e carteiras chorarem. Joias e medalhas agradecem!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Gold_bars.jpg/1200px-Gold_bars.jpg",
+          "imageUrl": "images/conhecimentosgerais/55_ouro.jpg",
           "imageDescription": "Imagem de barras de ouro brilhantes, representando o elemento químico 'Au'."
         },
         {
@@ -1512,7 +1512,7 @@
           "text": "Elefante-marinho",
           "isCorrect": true,
           "explanation": "Nadou e acertou! O elefante-marinho, com machos chegando a 4.000 kg, é o maior mamífero terrestre (e aquático), deixando rinocerontes no chinelo!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Southern_Elephant_Seal.jpg/1200px-Southern_Elephant_Seal.jpg",
+          "imageUrl": "images/conhecimentosgerais/56_elefante_marinho.jpg",
           "imageDescription": "Imagem de um elefante-marinho na praia, o maior mamífero terrestre e aquático."
         }
       ]
@@ -1534,7 +1534,7 @@
           "text": "Vincent van Gogh",
           "isCorrect": true,
           "explanation": "Você é uma estrela brilhante! Van Gogh pintou 'A Noite Estrelada' em 1889, com seus céus rodopiantes que parecem dançar. Um quadro que é puro cosmos!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg/1200px-Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg",
+          "imageUrl": "images/conhecimentosgerais/57_vanGogh.jpg",
           "imageDescription": "Imagem da pintura 'A Noite Estrelada' de Van Gogh, com céus girantes e estrelas brilhantes."
         },
         {
@@ -1561,7 +1561,7 @@
           "text": "Euro",
           "isCorrect": true,
           "explanation": "Você é um economista europeu! O Euro (€) é a moeda oficial da Zona do Euro, usada por 20 países da UE, perfeita pra comprar croissants ou paellas!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Euro_banknotes_and_coins.jpg/1200px-Euro_banknotes_and_coins.jpg",
+          "imageUrl": "images/conhecimentosgerais/58_euro_moeda_europa.jpg",
           "imageDescription": "Imagem de notas e moedas de Euro, a moeda oficial da União Europeia."
         },
         {
@@ -1588,7 +1588,7 @@
           "text": "Vaticano",
           "isCorrect": true,
           "explanation": "Você é um papa do conhecimento! O Vaticano, com 0,44 km², é o menor país, lar do Papa e da Basílica de São Pedro. Pequeno, mas poderoso!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/St_Peters_Basilica_Vatican.jpg/1200px-St_Peters_Basilica_Vatican.jpg",
+          "imageUrl": "images/conhecimentosgerais/59_vaticano.jpg",
           "imageDescription": "Imagem da Basílica de São Pedro no Vaticano, coração do menor país do mundo."
         },
         {
@@ -1615,7 +1615,7 @@
           "text": "Machado de Assis",
           "isCorrect": true,
           "explanation": "Você é um clássico! Machado de Assis, gênio do Realismo, escreveu 'Dom Casmurro', com Bentinho e Capitu fazendo a gente discutir traição até hoje!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Machado_de_Assis_1904.jpg/1200px-Machado_de_Assis_1904.jpg",
+          "imageUrl": "images/conhecimentosgerais/60_machado_de_Assis.jpg",
           "imageDescription": "Fotografia de Machado de Assis, autor brasileiro de 'Dom Casmurro'."
         },
         {
@@ -1637,7 +1637,7 @@
           "text": "Lago Baikal",
           "isCorrect": true,
           "explanation": "Você mergulhou fundo! O Lago Baikal, na Sibéria, tem 23.615 km³, mais água que todos os Grandes Lagos juntos. É tão profundo que esconde mistérios!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Lake_Baikal_Irkutsk.jpg/1200px-Lake_Baikal_Irkutsk.jpg",
+          "imageUrl": "images/conhecimentosgerais/61_lagoBaikal.jpg",
           "imageDescription": "Imagem do Lago Baikal com águas cristalinas cercadas por montanhas."
         },
         {
@@ -1669,7 +1669,7 @@
           "text": "Roma",
           "isCorrect": true,
           "explanation": "Você é um centurião! Roma, com seus 2.700 anos, é a Cidade Eterna, lar do Coliseu e do Vaticano. História em cada pedra!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Colosseum_Rome_Italy.jpg/1200px-Colosseum_Rome_Italy.jpg",
+          "imageUrl": "images/conhecimentosgerais/62_roma.jpg",
           "imageDescription": "Imagem do Coliseu em Roma, símbolo da Cidade Eterna."
         },
         {
@@ -1691,7 +1691,7 @@
           "text": "Tigre",
           "isCorrect": true,
           "explanation": "Rugiu e acertou! O tigre, especialmente o de Bengala, pode pesar até 325 kg, sendo o maior felino, com listras que são puro estilo selvagem!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Bengal_tiger.jpg/1200px-Bengal_tiger.jpg",
+          "imageUrl": "images/conhecimentosgerais/63_tigre.jpg",
           "imageDescription": "Imagem de um tigre de Bengala na selva, o maior felino do mundo."
         },
         {
@@ -1723,7 +1723,7 @@
           "text": "Platão",
           "isCorrect": true,
           "explanation": "Você é um filósofo de toga! Platão escreveu 'O Banquete', discutindo amor e beleza em um jantar épico. Filosofia com vinho, melhor combinação!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Plato_Silanion_Musei_Capitolini_MC1377.jpg/1200px-Plato_Silanion_Musei_Capitolini_MC1377.jpg",
+          "imageUrl": "images/conhecimentosgerais/64_platao.jpg",
           "imageDescription": "Imagem de um busto de Platão, autor de 'O Banquete'."
         },
         {
@@ -1750,7 +1750,7 @@
           "text": "Mauna Loa",
           "isCorrect": true,
           "explanation": "Você é uma erupção de saber! Mauna Loa, no Havaí, é o maior vulcão ativo, com 4.169m acima do mar e uma base gigantesca. Aloha, lava!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Mauna_Loa_Volcano.jpg/1200px-Mauna_Loa_Volcano.jpg",
+          "imageUrl": "images/conhecimentosgerais/65_maunaLoa.jpg",
           "imageDescription": "Imagem do vulcão Mauna Loa no Havaí, o maior vulcão ativo do mundo."
         },
         {
@@ -1772,7 +1772,7 @@
           "text": "Tyrannosaurus rex",
           "isCorrect": true,
           "explanation": "Rugiu como um T-Rex! O Tyrannosaurus rex, com até 12m de comprimento, é o maior dinossauro carnívoro conhecido, aterrorizando o Cretáceo com seus dentões!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Tyrannosaurus_Rex_Sue.jpg/1200px-Tyrannosaurus_Rex_Sue.jpg",
+          "imageUrl": "images/conhecimentosgerais/66_tiranossauro_rex.jpg",
           "imageDescription": "Imagem do esqueleto de 'Sue', um T-Rex, o maior dinossauro carnívoro conhecido."
         },
         {
@@ -1804,7 +1804,7 @@
           "text": "Canadá",
           "isCorrect": true,
           "explanation": "Você é um mapa ambulante! O Canadá, com 9,98 milhões de km², é o segundo maior país, cheio de lagos, florestas e um frio que faz até ursos polares usarem cachecol!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Canada_Landscape.jpg/1200px-Canada_Landscape.jpg",
+          "imageUrl": "images/conhecimentosgerais/67_canada.jpg",
           "imageDescription": "Imagem de uma paisagem canadense com lagos e florestas, destacando sua vasta área."
         },
         {
@@ -1831,7 +1831,7 @@
           "text": "Fígado",
           "isCorrect": true,
           "explanation": "Você é um anatomista! O fígado, com até 1,5 kg, é o maior órgão interno, trabalhando como um superlaboratório que desintoxica e faz mil tarefas!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Human_liver.jpg/1200px-Human_liver.jpg",
+          "imageUrl": "images/conhecimentosgerais/68_figado.jpg",
           "imageDescription": "Imagem ilustrativa de um fígado humano, o maior órgão interno."
         },
         {
@@ -1858,7 +1858,7 @@
           "text": "Indonésia",
           "isCorrect": true,
           "explanation": "Você navegou certinho! A Indonésia, com mais de 17.000 ilhas, é o maior arquipélago, incluindo Bali e Java. É um paraíso de ilhas sem fim!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Bali_Indonesia.jpg/1200px-Bali_Indonesia.jpg",
+          "imageUrl": "images/conhecimentosgerais/69_indonesia.jpg",
           "imageDescription": "Imagem de uma praia em Bali, parte do maior arquipélago do mundo, a Indonésia."
         },
         {
@@ -1885,7 +1885,7 @@
           "text": "Deserto da Antártida",
           "isCorrect": true,
           "explanation": "Você é um pinguim do saber! A Antártida, com 13,8 milhões de km², é o maior deserto frio, coberto de gelo e sem chuva. Frio de rachar!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Antarctica_ice_shelf.jpg/1200px-Antarctica_ice_shelf.jpg",
+          "imageUrl": "images/conhecimentosgerais/70_deserto_antartida.jpg",
           "imageDescription": "Imagem de uma paisagem gelada da Antártida, o maior deserto frio do mundo."
         },
         {
@@ -1907,7 +1907,7 @@
           "text": "Júpiter",
           "isCorrect": true,
           "explanation": "Você é um gigante cósmico! Júpiter, com 1.400 vezes o volume da Terra, é o maior planeta, cheio de tempestades e luas como Ganimedes. Rei do Sistema Solar!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg/1200px-Jupiter_and_its_shrunken_Great_Red_Spot.jpg",
+          "imageUrl": "images/conhecimentosgerais/71_jupiter.jpg",
           "imageDescription": "Imagem de Júpiter com sua Grande Mancha Vermelha, o maior planeta do Sistema Solar."
         },
         {
@@ -1939,7 +1939,7 @@
           "text": "Pretória",
           "isCorrect": true,
           "explanation": "Você é um arco-íris de saber! Pretória é a capital executiva da África do Sul, dividindo funções com Cidade do Cabo (legislativa) e Bloemfontein (judiciária). Um país, três capitais!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Union_Buildings_Pretoria.jpg/1200px-Union_Buildings_Pretoria.jpg",
+          "imageUrl": "images/conhecimentosgerais/72_pretoria_africadosul.jpg",
           "imageDescription": "Imagem dos Union Buildings em Pretória, sede do governo sul-africano."
         },
         {
@@ -1966,7 +1966,7 @@
           "text": "Oceano Pacífico",
           "isCorrect": true,
           "explanation": "Você é um mergulhador de elite! O Pacífico, com profundidade média de 4.000m e a Fossa das Marianas, é o oceano mais profundo. Um abismo de respeito!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Pacific_Ocean_deep_sea.jpg/1200px-Pacific_Ocean_deep_sea.jpg",
+          "imageUrl": "images/conhecimentosgerais/73_oceano_pacifico.jpg",
           "imageDescription": "Imagem do Oceano Pacífico com águas profundas, representando sua profundidade média."
         },
         {
@@ -1988,7 +1988,7 @@
           "text": "Rio Amazonas",
           "isCorrect": true,
           "explanation": "Você navegou como um boto! O Amazonas, com 6.992 km, é o maior rio da América do Sul (e talvez do mundo), carregando mais água que qualquer outro. Selva adentro!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Amazon_River.jpg/1200px-Amazon_River.jpg",
+          "imageUrl": "images/conhecimentosgerais/74_rio_amazonas.jpg",
           "imageDescription": "Imagem do Rio Amazonas cercado pela floresta amazônica, o maior rio da América do Sul."
         },
         {
@@ -2020,7 +2020,7 @@
           "text": "Cidade do México",
           "isCorrect": true,
           "explanation": "Viva México! A Cidade do México, construída sobre a antiga Tenochtitlán, é a capital, cheia de história, tacos e o Zócalo. Olé!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Zocalo_Mexico_City.jpg/1200px-Zocalo_Mexico_City.jpg",
+          "imageUrl": "images/conhecimentosgerais/75_cidade_do_mexico.jpg",
           "imageDescription": "Imagem da Praça do Zócalo na Cidade do México, coração da capital mexicana."
         },
         {
@@ -2042,7 +2042,7 @@
           "text": "Baleia-azul",
           "isCorrect": true,
           "explanation": "Você é um oceano de saber! A baleia-azul, com até 33m e 200 toneladas, é o maior animal marinho (e de todos os tempos), nadando com um coração do tamanho de um carro!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Blue_whale.jpg/1200px-Blue_whale.jpg",
+          "imageUrl": "images/conhecimentosgerais/76_baleia_azul.jpg",
           "imageDescription": "Imagem de uma baleia-azul nadando no oceano, o maior animal marinho registrado."
         },
         {
@@ -2074,7 +2074,7 @@
           "text": "Wellington",
           "isCorrect": true,
           "explanation": "Kia ora, acerto! Wellington, com seu porto e vibe cultural, é a capital da Nova Zelândia, onde o vento sopra e os filmes de Hobbit são lei!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Wellington_New_Zealand.jpg/1200px-Wellington_New_Zealand.jpg",
+          "imageUrl": "images/conhecimentosgerais/77_wellington_nova_zelandia.jpg",
           "imageDescription": "Imagem do porto de Wellington, capital da Nova Zelândia, com vista da cidade."
         },
         {
@@ -2101,7 +2101,7 @@
           "text": "Ásia",
           "isCorrect": true,
           "explanation": "Você é um atlas humano! A Ásia, com 44,5 milhões de km², é o maior continente habitado, lar de mais de 4 bilhões de pessoas e culturas milenares!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Asia_continent.jpg/1200px-Asia_continent.jpg",
+          "imageUrl": "images/conhecimentosgerais/78_asia.jpg",
           "imageDescription": "Imagem de um mapa destacando a Ásia, o maior continente habitado do planeta."
         },
         {
@@ -2123,7 +2123,7 @@
           "text": "Grande Barreira de Coral",
           "isCorrect": true,
           "explanation": "Você mergulhou no alvo! A Grande Barreira de Coral, na Austrália, com 2.300 km, é o maior sistema de corais, um paraíso subaquático cheio de vida!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Great_Barrier_Reef_Australia.jpg/1200px-Great_Barrier_Reef_Australia.jpg",
+          "imageUrl": "images/conhecimentosgerais/79_grande_barreira_de_coral.jpg",
           "imageDescription": "Imagem da Grande Barreira de Coral na Austrália, com corais coloridos e águas cristalinas."
         },
         {
@@ -2155,553 +2155,13 @@
           "text": "Burj Khalifa",
           "isCorrect": true,
           "explanation": "Você tocou as nuvens! O Burj Khalifa, em Dubai, com 829,8m, é o prédio mais alto do mundo, um arranha-céu que faz até as estrelas ficarem com inveja!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Burj_Khalifa.jpg/1200px-Burj_Khalifa.jpg",
+          "imageUrl": "images/conhecimentosgerais/80_burj_kalifa_dubai.jpg",
           "imageDescription": "Imagem do Burj Khalifa em Dubai, o prédio mais alto do mundo."
         },
         {
           "text": "One World Trade Center",
           "isCorrect": false,
           "explanation": "Não, o One World é alto, mas o Burj Khalifa é imbatível!"
-        }
-      ]
-    },
-    {
-      "question": "Qual é a capital da França?",
-      "options": [
-        {
-          "text": "Berlim",
-          "isCorrect": false,
-          "explanation": "Nããão, meu caro! Berlim é onde a cerveja alemã faz a festa e o Muro caiu. A França tem um charme mais... croissant e romântico, sabe? Tenta de novo!"
-        },
-        {
-          "text": "Madri",
-          "isCorrect": false,
-          "explanation": "Olé, mas não! Madri é a terra do flamenco e das tapas espanholas. A capital francesa é mais de vinhos e uma certa torre brilhante. Vamos lá!"
-        },
-        {
-          "text": "Paris",
-          "isCorrect": true,
-          "explanation": "Ô lá lá, acertou na mosca! Paris, a Cidade Luz, é onde a Torre Eiffel pisca, os cafés exalam poesia e a Mona Lisa dá aquele sorrisinho safado. Você é chique demais!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg/1200px-La_Tour_Eiffel_vue_de_la_Tour_Saint-Jacques%2C_Paris_ao%C3%BBt_2014_%282%29.jpg",
-          "imageDescription": "Imagem da Torre Eiffel em Paris ao entardecer, com seu topo brilhando contra o céu, símbolo da capital francesa."
-        },
-        {
-          "text": "Roma",
-          "isCorrect": false,
-          "explanation": "Quase, gladiador! Roma tem o Coliseu e massas de dar água na boca, mas a França guarda sua joia em outro canto. Vamos ajustar o GPS!"
-        }
-      ]
-    },
-    {
-      "question": "Qual oceano é o maior do mundo?",
-      "options": [
-        {
-          "text": "Atlântico",
-          "isCorrect": false,
-          "explanation": "Navegue com calma! O Atlântico é grandão, conectando Américas e Europa, mas tem um gigante maior que ele. Vamos mergulhar mais fundo!"
-        },
-        {
-          "text": "Índico",
-          "isCorrect": false,
-          "explanation": "Tá quente, mas não! O Índico banha praias asiáticas, mas o maior oceano é um monstro que cobre quase um terço do planeta. Tenta outra!"
-        },
-        {
-          "text": "Pacífico",
-          "isCorrect": true,
-          "explanation": "Você é o rei dos mares! O Oceano Pacífico é tão vasto que poderia engolir a Lua e ainda sobrar espaço. Lar da Fossa das Marianas, é o chefe das águas!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Pacific_Ocean_-_Envisat_image_2009.jpg/1200px-Pacific_Ocean_-_Envisat_image_2009.jpg",
-          "imageDescription": "Imagem aérea do Oceano Pacífico, mostrando suas águas azuis profundas e vasta extensão, capturada por satélite."
-        },
-        {
-          "text": "Ártico",
-          "isCorrect": false,
-          "explanation": "Brrr, gelou! O Ártico é um freezer flutuante, mas o menor dos oceanos. O maior é quente, vasto e cheio de ilhas. Vamos aquecer essa resposta!"
-        }
-      ]
-    },
-    {
-      "question": "Em que ano o homem pisou na Lua pela primeira vez?",
-      "options": [
-        {
-          "text": "1965",
-          "isCorrect": false,
-          "explanation": "Quase decolou! Em 1965, a NASA tava ensaiando, mas o grande salto veio depois. Ajusta o foguete e mira no ano certo!"
-        },
-        {
-          "text": "1969",
-          "isCorrect": true,
-          "explanation": "Houston, temos um acerto! Em 1969, Neil Armstrong deixou pegadas na Lua e disse aquela frase épica. Você é um astronauta de primeira, hein?",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Apollo_11_first_step.jpg/1200px-Apollo_11_first_step.jpg",
-          "imageDescription": "Imagem de um astronauta da Apollo 11 pisando na Lua, com pegadas na superfície lunar, marco de 1969."
-        },
-        {
-          "text": "1972",
-          "isCorrect": false,
-          "explanation": "Ops, passou da órbita! 1972 foi a última caminhada lunar, mas o primeiro passo foi antes. Volta pro calendário lunar!"
-        },
-        {
-          "text": "1959",
-          "isCorrect": false,
-          "explanation": "Nossa, voltou no tempo! Em 1959, só sondas tavam na Lua. Humanos? Só uma década depois, com muito estilo!"
-        }
-      ]
-    },
-    {
-      "question": "Qual artista pintou a Mona Lisa?",
-      "options": [
-        {
-          "text": "Michelangelo",
-          "isCorrect": false,
-          "explanation": "Nããão, Michelangelo tava esculpindo o Davi! A Mona Lisa é de um cara que também desenhava helicópteros. Tenta outra!"
-        },
-        {
-          "text": "Leonardo da Vinci",
-          "isCorrect": true,
-          "explanation": "Você é um renascentista! Leonardo da Vinci pintou a Mona Lisa com aquele sorrisinho que intriga o mundo. Gênio, inventor e pintor, ele era o pacote completo!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1200px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
-          "imageDescription": "Imagem da pintura Mona Lisa de Leonardo da Vinci, com seu famoso sorriso enigmático, exposta no Louvre."
-        },
-        {
-          "text": "Raphael",
-          "isCorrect": false,
-          "explanation": "Quase, mas Raphael tava ocupado com madonas! A Mona Lisa é de outro mestre que amava mistérios. Pincela de novo!"
-        },
-        {
-          "text": "Donatello",
-          "isCorrect": false,
-          "explanation": "Não, Donatello fazia estátuas, não quadros! A Mona Lisa tem um dono mais... barbudo e inventivo. Vamos lá!"
-        }
-      ]
-    },
-    {
-      "question": "Qual é o maior deserto quente do mundo?",
-      "options": [
-        {
-          "text": "Deserto da Arábia",
-          "isCorrect": false,
-          "explanation": "Tá quente, mas não é o maior! O Deserto da Arábia tem suas dunas, mas o rei dos desertos quentes é ainda mais vasto. Vamos pegar o camelo!"
-        },
-        {
-          "text": "Deserto do Saara",
-          "isCorrect": true,
-          "explanation": "Você é um oásis de saber! O Saara, com 9,2 milhões de km², é o maior deserto quente, onde o sol frita até as ideias. Dunas, camelos e aventura garantida!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Sahara_desert_from_space.jpg/1200px-Sahara_desert_from_space.jpg",
-          "imageDescription": "Imagem do Deserto do Saara visto do espaço, mostrando suas vastas dunas douradas e extensão impressionante."
-        },
-        {
-          "text": "Deserto de Gobi",
-          "isCorrect": false,
-          "explanation": "Frio demais! O Gobi é mais gelado que sorvete. O maior deserto quente é puro calor africano. Tenta de novo!"
-        },
-        {
-          "text": "Deserto da Antártida",
-          "isCorrect": false,
-          "explanation": "Brrr, a Antártida é um deserto gelado! O maior quente é onde você precisa de chapéu, não casaco. Vamos aquecer essa resposta!"
-        }
-      ]
-    },
-    {
-      "question": "Qual país é o maior em área territorial?",
-      "options": [
-        {
-          "text": "China",
-          "isCorrect": false,
-          "explanation": "Quase, dragão! A China é gigante, mas tem um vizinho que estica mais o mapa. Vamos cruzar uns fusos horários!"
-        },
-        {
-          "text": "Rússia",
-          "isCorrect": true,
-          "explanation": "Vodka de acertos! A Rússia, com 17 milhões de km², é tão grande que o sol nasce e se põe várias vezes no mesmo país. É o rei dos mapas, camarada!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Russia_from_space.jpg/1200px-Russia_from_space.jpg",
-          "imageDescription": "Imagem da Rússia vista do espaço, destacando sua vasta extensão territorial cobrindo Europa e Ásia."
-        },
-        {
-          "text": "Canadá",
-          "isCorrect": false,
-          "explanation": "Gelou, mas não! O Canadá é o vice-campeão. O maior país tem mais vodka e menos xarope de bordo. Tenta outra!"
-        },
-        {
-          "text": "Estados Unidos",
-          "isCorrect": false,
-          "explanation": "Boa, mas os EUA ficam no bronze! O maior país é um gigante que cruza dois continentes. Vamos ajustar o globo!"
-        }
-      ]
-    },
-    {
-      "question": "Qual montanha é a mais alta do mundo?",
-      "options": [
-        {
-          "text": "K2",
-          "isCorrect": false,
-          "explanation": "Quase escalou! O K2 é um monstro, mas o topo do mundo é outro. Pega o oxigênio e sobe mais um pouco!"
-        },
-        {
-          "text": "Monte Everest",
-          "isCorrect": true,
-          "explanation": "Você é o sherpa dos acertos! O Everest, com 8.848,86 metros, é o rei do Himalaia. Só não esqueça o casaco, porque lá em cima é um freezer!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg/1200px-Everest_North_Face_toward_Base_Camp_Tibet_Luca_Galuzzi_2006.jpg",
-          "imageDescription": "Imagem do Monte Everest com seu pico nevado brilhando ao sol, visto do acampamento base no Tibete."
-        },
-        {
-          "text": "Kangchenjunga",
-          "isCorrect": false,
-          "explanation": "Boa tentativa, mas Kangchenjunga é a terceira. O Everest é o chefe das alturas. Vamos mirar o cume!"
-        },
-        {
-          "text": "Makalu",
-          "isCorrect": false,
-          "explanation": "Nããão, Makalu é top 5, mas não o maior. O rei das montanhas é mais famoso e gelado. Escala outra!"
-        }
-      ]
-    },
-    {
-      "question": "Quem escreveu 'Dom Quixote'?",
-      "options": [
-        {
-          "text": "William Shakespeare",
-          "isCorrect": false,
-          "explanation": "Nããão, Shakespeare tava escrevendo sonetos em Londres! Dom Quixote é de um espanhol mais... sonhador. Tenta de novo!"
-        },
-        {
-          "text": "Miguel de Cervantes",
-          "isCorrect": true,
-          "explanation": "Olé, você é um cavaleiro literário! Cervantes criou Dom Quixote, o louco por moinhos que nos ensinou a sonhar grande. Um clássico que até Sancho aplaude!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/First_edition_Don_Quixote_1605.jpg/1200px-First_edition_Don_Quixote_1605.jpg",
-          "imageDescription": "Imagem da capa da primeira edição de 'Dom Quixote' de Cervantes, publicada em 1605, com texto em espanhol antigo."
-        },
-        {
-          "text": "Victor Hugo",
-          "isCorrect": false,
-          "explanation": "Quase, mas Hugo tava na França com 'Os Miseráveis'. O cavaleiro da Mancha é de outro autor. Vamos galopar!"
-        },
-        {
-          "text": "Leo Tolstoy",
-          "isCorrect": false,
-          "explanation": "Nããão, Tolstoy é russo e épico! Dom Quixote é mais ibérico e quixotesco. Ajusta a sela!"
-        }
-      ]
-    },
-    {
-      "question": "Qual é o rio mais longo do mundo?",
-      "options": [
-        {
-          "text": "Rio Amazonas",
-          "isCorrect": false,
-          "explanation": "Quase, boto! O Amazonas é o rei das águas, mas o mais longo é um debate. Por enquanto, outro rio leva a taça. Rema mais!"
-        },
-        {
-          "text": "Rio Nilo",
-          "isCorrect": true,
-          "explanation": "Você é um faraó das águas! O Nilo, com 6.650 km, serpenteia pela África, regando o Egito e fazendo as pirâmides parecerem pequenas. Navegou com estilo!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Nile_River_Aswan.jpg/1200px-Nile_River_Aswan.jpg",
-          "imageDescription": "Imagem do Rio Nilo em Aswan, Egito, com suas águas calmas cercadas por vegetação e rochas."
-        },
-        {
-          "text": "Rio Mississippi",
-          "isCorrect": false,
-          "explanation": "Nããão, o Mississippi é grande, mas americano. O mais longo é um velho conhecido dos faraós. Tenta outra correnteza!"
-        },
-        {
-          "text": "Rio Yangtzé",
-          "isCorrect": false,
-          "explanation": "Boa, mas o Yangtzé é asiático e menor. O rio mais longo tem múmias como fãs. Vamos remar pro Egito!"
-        }
-      ]
-    },
-    {
-      "question": "Qual elemento químico tem o símbolo 'O'?",
-      "options": [
-        {
-          "text": "Ouro",
-          "isCorrect": false,
-          "explanation": "Brilhou, mas errou! Ouro é 'Au', perfeito pra joias. O 'O' é algo que você tá respirando agora mesmo. Tenta de novo!"
-        },
-        {
-          "text": "Oxigênio",
-          "isCorrect": true,
-          "explanation": "Você é um sopro de gênio! O 'O' é o oxigênio, o gás que faz você cantar no chuveiro e o fogo dançar. Sem ele, nada de festa ou Wi-Fi!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Oxygen_bubbles.jpg/1200px-Oxygen_bubbles.jpg",
-          "imageDescription": "Imagem de bolhas de oxigênio subindo na água, representando o elemento essencial para a vida."
-        },
-        {
-          "text": "Ósmio",
-          "isCorrect": false,
-          "explanation": "Nããão, ósmio é 'Os', pesado e raro! O 'O' é mais leve e tá no ar. Inspira fundo e tenta outra!"
-        },
-        {
-          "text": "Hidrogênio",
-          "isCorrect": false,
-          "explanation": "Quase explodiu! Hidrogênio é 'H', o mais leve. O 'O' é o que te mantém vivo. Vamos respirar e acertar!"
-        }
-      ]
-    },
-    {
-      "question": "Qual a fórmula química da água?",
-      "options": [
-        {
-          "text": "CO2",
-          "isCorrect": false,
-          "explanation": "Nããão, CO2 é o que sai do seu refrigerante! A água é mais simples e molhada. Vamos mergulhar na resposta certa!"
-        },
-        {
-          "text": "H2O",
-          "isCorrect": true,
-          "explanation": "Splish splash, você é um gênio aquático! H2O é a fórmula da água, a poção mágica da vida. Sem ela, nada de praia, café ou banho de espuma!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Water_droplet_on_leaf.jpg/1200px-Water_droplet_on_leaf.jpg",
-          "imageDescription": "Imagem de uma gota de água cristalina sobre uma folha verde, simbolizando a fórmula H2O."
-        },
-        {
-          "text": "NaCl",
-          "isCorrect": false,
-          "explanation": "Sal na mistura? NaCl é sal de cozinha, não água. Vamos tirar o saleiro e pegar um copo d’água fresquinha!"
-        },
-        {
-          "text": "O2",
-          "isCorrect": false,
-          "explanation": "Ar puro, mas não! O2 é oxigênio, bom pra respirar, mas a água é uma molécula mais... líquida. Tenta outra!"
-        }
-      ]
-    },
-    {
-      "question": "Qual esporte usa raquete, rede e uma bola amarela?",
-      "options": [
-        {
-          "text": "Futebol",
-          "isCorrect": false,
-          "explanation": "Gol de erro! Futebol é com chuteiras e bola redonda. A raquete e a bola amarela tão em outra quadra. Vamos sacar!"
-        },
-        {
-          "text": "Tênis",
-          "isCorrect": true,
-          "explanation": "Ace na quadra! Tênis é o esporte das raquetes, redes e bolas amarelas, onde você rebate como um ninja e grita 'vamos!' com cada ponto. Joga muito!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Tennis_court_Roland_Garros.jpg/1200px-Tennis_court_Roland_Garros.jpg",
-          "imageDescription": "Imagem de uma quadra de tênis em Roland Garros, com a rede ao centro e uma bola amarela em jogo."
-        },
-        {
-          "text": "Basquete",
-          "isCorrect": false,
-          "explanation": "Cesta errada! Basquete tem bola laranja e sem raquetes. O esporte certo é mais... elegante e quadriculado. Tenta de novo!"
-        },
-        {
-          "text": "Vôlei",
-          "isCorrect": false,
-          "explanation": "Bloqueio! Vôlei usa bola e rede, mas nada de raquetes. A bola amarela é de outro jogo. Vamos pra quadra certa!"
-        }
-      ]
-    },
-    {
-      "question": "Qual cidade sediou os Jogos Olímpicos de Verão de 2016?",
-      "options": [
-        {
-          "text": "Londres",
-          "isCorrect": false,
-          "explanation": "Nããão, Londres foi em 2012, com chá e chuva! A tocha de 2016 pegou um bronze mais tropical. Vamos voar pro sul!"
-        },
-        {
-          "text": "Rio de Janeiro",
-          "isCorrect": true,
-          "explanation": "Samba na veia! O Rio de Janeiro trouxe o calor pros Jogos de 2016, com o Maracanã lotado e o Cristo torcendo lá de cima. Você é ouro olímpico!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Maracana_Stadium_Rio_2016.jpg/1200px-Maracana_Stadium_Rio_2016.jpg",
-          "imageDescription": "Imagem do Estádio do Maracanã durante os Jogos Olímpicos de 2016 no Rio, iluminado e cheio de energia."
-        },
-        {
-          "text": "Tóquio",
-          "isCorrect": false,
-          "explanation": "Quase, mas Tóquio foi em 2020, com delay por pandemia. Em 2016, a festa era mais carioca. Pega a próxima tocha!"
-        },
-        {
-          "text": "Pequim",
-          "isCorrect": false,
-          "explanation": "Não, Pequim brilhou em 2008! A de 2016 tinha mais samba e menos Muralha da China. Vamos pro Brasil!"
-        }
-      ]
-    },
-    {
-      "question": "Qual é o maior órgão do corpo humano?",
-      "options": [
-        {
-          "text": "Cérebro",
-          "isCorrect": false,
-          "explanation": "Nããão, o cérebro é o chefe, mas pequeno! O maior órgão tá bem na sua cara... ou melhor, em volta de você. Pensa mais!"
-        },
-        {
-          "text": "Pele",
-          "isCorrect": true,
-          "explanation": "Você é uma epiderme brilhante! A pele é o maior órgão, cobrindo tudo como uma capa de super-herói. Ela protege, sente e ainda aguenta suas tatuagens malucas!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Human_skin_cross_section.jpg/1200px-Human_skin_cross_section.jpg",
-          "imageDescription": "Imagem de uma seção transversal da pele humana, mostrando suas camadas como o maior órgão do corpo."
-        },
-        {
-          "text": "Fígado",
-          "isCorrect": false,
-          "explanation": "Quase, o fígado é o maior por dentro, mas por fora tem outro! O maior órgão é mais... visível. Tenta de novo!"
-        },
-        {
-          "text": "Coração",
-          "isCorrect": false,
-          "explanation": "Ame, mas não! O coração é fofo, mas pequeno. O maior órgão é tipo um abraço que cobre tudo. Vamos lá!"
-        }
-      ]
-    },
-    {
-      "question": "Qual invenção é frequentemente atribuída a Thomas Edison?",
-      "options": [
-        {
-          "text": "Telefone",
-          "isCorrect": false,
-          "explanation": "Nããão, o telefone é do Bell, que gritou 'Watson, vem cá!'. Edison acendeu outra ideia. Vamos iluminar essa resposta!"
-        },
-        {
-          "text": "Lâmpada incandescente (comercialmente viável)",
-          "isCorrect": true,
-          "explanation": "Brilhou como um farol! Edison tornou a lâmpada incandescente prática em 1879, iluminando o mundo e nossas contas de luz. Um gênio que bota luz no escuro!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Edison_light_bulb.jpg/1200px-Edison_light_bulb.jpg",
-          "imageDescription": "Imagem de uma lâmpada incandescente de Edison, com filamento brilhando, símbolo de sua invenção revolucionária."
-        },
-        {
-          "text": "Avião",
-          "isCorrect": false,
-          "explanation": "Voou alto, mas errou! Os irmãos Wright levantaram voo. Edison ficou no chão, mas com brilho. Tenta outra!"
-        },
-        {
-          "text": "Rádio",
-          "isCorrect": false,
-          "explanation": "Sintonizou errado! Marconi é o cara do rádio. Edison iluminou outro caminho. Vamos ajustar a frequência!"
-        }
-      ]
-    },
-    {
-      "question": "Qual país é conhecido como a 'Terra do Sol Nascente'?",
-      "options": [
-        {
-          "text": "China",
-          "isCorrect": false,
-          "explanation": "Nããão, China é o dragão do meio! A Terra do Sol Nascente tem mais sushi e menos Muralha. Vamos pro leste!"
-        },
-        {
-          "text": "Japão",
-          "isCorrect": true,
-          "explanation": "Konichiwa, você é um samurai do saber! Japão, ou Nihon, é a Terra do Sol Nascente, com cerejeiras, sumôs e um sol que parece sorrir no horizonte!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Mount_Fuji_and_Lake_Kawaguchi.jpg/1200px-Mount_Fuji_and_Lake_Kawaguchi.jpg",
-          "imageDescription": "Imagem do Monte Fuji ao amanhecer com cerejeiras, simbolizando o Japão como Terra do Sol Nascente."
-        },
-        {
-          "text": "Coreia do Sul",
-          "isCorrect": false,
-          "explanation": "Quase, mas a Coreia é a 'Manhã Calma'. O sol nasce com mais estilo em outro lugar. Tenta de novo!"
-        },
-        {
-          "text": "Vietnã",
-          "isCorrect": false,
-          "explanation": "Não, Vietnã tem suas belezas, mas não é o berço do sol. O país certo tem samurais e anime. Vamos lá!"
-        }
-      ]
-    },
-    {
-      "question": "Qual guerra mundial ocorreu entre 1914 e 1918?",
-      "options": [
-        {
-          "text": "Segunda Guerra Mundial",
-          "isCorrect": false,
-          "explanation": "Nããão, a Segunda foi de 1939 a 1945, com tanques e mais drama. A de 1914 é mais antiga. Volta pro passado!"
-        },
-        {
-          "text": "Primeira Guerra Mundial",
-          "isCorrect": true,
-          "explanation": "Você é um historiador de trincheira! A Primeira Guerra Mundial (1914-1918) foi a 'Grande Guerra', com Aliados e Centrais redesenhando mapas. Merece uma medalha!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/WW1_trench_warfare.jpg/1200px-WW1_trench_warfare.jpg",
-          "imageDescription": "Imagem de uma trincheira da Primeira Guerra Mundial, com soldados em um cenário lamacento e histórico."
-        },
-        {
-          "text": "Guerra Fria",
-          "isCorrect": false,
-          "explanation": "Fria, mas não! A Guerra Fria foi só tensão, sem tiros. A de 1914 foi quente e explosiva. Tenta outra!"
-        },
-        {
-          "text": "Guerra do Vietnã",
-          "isCorrect": false,
-          "explanation": "Longe demais! Vietnã foi nos anos 60. A guerra de 1914 mudou o mundo antes. Vamos ajustar o cronômetro!"
-        }
-      ]
-    },
-    {
-      "question": "Qual é a capital da Austrália?",
-      "options": [
-        {
-          "text": "Sydney",
-          "isCorrect": false,
-          "explanation": "Nããão, Sydney tem a Ópera, mas não manda no país! A capital é mais quietinha e planejada. Vamos pro interior!"
-        },
-        {
-          "text": "Camberra",
-          "isCorrect": true,
-          "explanation": "G’day, você é um canguru sábio! Camberra, escolhida em 1908, é a capital australiana, com menos praia, mas muito charme político. Perfeita pra um churrasco!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Parliament_House_Canberra_Dusk.jpg/1200px-Parliament_House_Canberra_Dusk.jpg",
-          "imageDescription": "Imagem da Casa do Parlamento em Camberra ao entardecer, com sua arquitetura moderna, símbolo da capital australiana."
-        },
-        {
-          "text": "Melbourne",
-          "isCorrect": false,
-          "explanation": "Quase, Melbourne é a vibe cultural! A capital é mais burocrática e menos hipster. Tenta outra!"
-        },
-        {
-          "text": "Brisbane",
-          "isCorrect": false,
-          "explanation": "Não, Brisbane é ensolarada, mas não a capital. A verdadeira tá escondida entre as duas grandes. Vamos achar!"
-        }
-      ]
-    },
-    {
-      "question": "Qual pintor holandês cortou parte da própria orelha?",
-      "options": [
-        {
-          "text": "Rembrandt",
-          "isCorrect": false,
-          "explanation": "Nããão, Rembrandt amava luz, não dramas! O cara da orelha era mais... emocional. Pincela outra resposta!"
-        },
-        {
-          "text": "Vincent van Gogh",
-          "isCorrect": true,
-          "explanation": "Você é um girassol de acertos! Van Gogh, em 1888, cortou a orelha num surto, mas pintou 'Noite Estrelada' com um brilho que ofusca qualquer drama. Gênio louco!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Vincent_van_Gogh_-_Self-Portrait_with_Bandaged_Ear_and_Pipe.jpg/1200px-Vincent_van_Gogh_-_Self-Portrait_with_Bandaged_Ear_and_Pipe.jpg",
-          "imageDescription": "Autorretrato de Vincent van Gogh com a orelha enfaixada, pintado após o incidente, com cores vibrantes."
-        },
-        {
-          "text": "Johannes Vermeer",
-          "isCorrect": false,
-          "explanation": "Quase, Vermeer era calmo e clássico. O pintor da orelha tinha mais... intensidade. Tenta de novo!"
-        },
-        {
-          "text": "Piet Mondrian",
-          "isCorrect": false,
-          "explanation": "Não, Mondrian era das linhas retas! O drama da orelha é de outro holandês mais... estrelado. Vamos lá!"
-        }
-      ]
-    },
-    {
-      "question": "Quantos lados tem um hexágono?",
-      "options": [
-        {
-          "text": "5",
-          "isCorrect": false,
-          "explanation": "Quase, mas 5 é pentágono, tipo o QG do Pentágono! O hexágono tem um lado extra, como uma colmeia esperta. Conta de novo!"
-        },
-        {
-          "text": "6",
-          "isCorrect": true,
-          "explanation": "Você é uma abelha geométrica! Um hexágono tem 6 lados, igual os favos de mel ou um floco de neve estilizado. Geometria tão doce que dá pra lamber!",
-          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Honeycomb_structure.jpg/1200px-Honeycomb_structure.jpg",
-          "imageDescription": "Imagem de um favo de mel com células hexagonais perfeitas, ilustrando a forma de seis lados."
-        },
-        {
-          "text": "7",
-          "isCorrect": false,
-          "explanation": "Nããão, 7 é heptágono, coisa de alquimistas! O hexágono é mais simples e abelhinha. Volta pro compasso!"
-        },
-        {
-          "text": "8",
-          "isCorrect": false,
-          "explanation": "Octógono, não! 8 lados é placa de PARE. O hexágono tem menos e é mais natural. Vamos desenhar direitinho!"
         }
       ]
     }
