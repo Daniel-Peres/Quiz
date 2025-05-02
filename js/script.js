@@ -289,18 +289,23 @@ function resetCardStates(elements) {
          const backFace = frame.querySelector('.back-face');
          if (backFace) {
              backFace.classList.remove('correct', 'incorrect'); // Limpa cores do backface
+             // Esconde o botão X interno ao resetar
+             const closeBtn = backFace.querySelector('.close-expanded-btn');
+             if(closeBtn) {
+                 closeBtn.classList.add('hide'); // Oculta o botão X
+             }
          }
          const frontFace = frame.querySelector('.front-face');
           if (frontFace) {
              frontFace.style.display = ''; // Garante que não esteja 'none'
          }
      });
-     // Esconde e reseta posição do botão Fechar Detalhes externo se existir
-     if (elements.expandedCardControlsContainer) {
-        elements.expandedCardControlsContainer.classList.add('hide');
-        elements.expandedCardControlsContainer.style.top = ''; // <<< Limpa o estilo top inline
-        console.log("resetCardStates: Container do botão Fechar externo oculto e top resetado.");
-     }
+     // REMOVA A LÓGICA DE OCULTAR O CONTÊINER EXTERNO DO BOTÃO FECHAR, POIS ELE FOI REMOVIDO DO HTML
+     // if (elements.expandedCardControlsContainer) {
+     //    elements.expandedCardControlsContainer.classList.add('hide');
+     //    elements.expandedCardControlsContainer.style.top = ''; // <<< Limpa o estilo top inline
+     //    console.log("resetCardStates: Container do botão Fechar externo oculto e top resetado.");
+     // }
      elements.answerOptionsElement.classList.remove('animating'); // Garante limpeza de estado de animação
 }
 
@@ -317,20 +322,25 @@ function resetExpandedState(elements) {
         console.log("resetExpandedState: Card expandido encontrado.", expanded);
         expanded.classList.remove('expanded-correct');
         expanded.style.zIndex = ''; // Reseta z-index
+         // Oculta o botão X interno
+         const closeBtn = expanded.querySelector('.close-expanded-btn');
+         if(closeBtn) {
+             closeBtn.classList.add('hide'); // Oculta o botão X
+         }
         console.log("resetExpandedState: Classe 'expanded-correct' removida.");
 
     } else {
         console.log("resetExpandedState: Nenhum card com .expanded-correct encontrado.");
     }
 
-    // Esconde e reseta posição do botão "Fechar Detalhes" externo
-    if (elements.expandedCardControlsContainer) {
-        elements.expandedCardControlsContainer.classList.add('hide');
-        elements.expandedCardControlsContainer.style.top = ''; // <<< Limpa o estilo top inline
-        console.log("resetExpandedState: Container do botão Fechar externo oculto e top resetado.");
-    } else {
-         console.warn("resetExpandedState: elements.expandedCardControlsContainer não encontrado.");
-    }
+    // REMOVA A LÓGICA DE OCULTAR O CONTÊINER EXTERNO DO BOTÃO FECHAR
+    // if (elements.expandedCardControlsContainer) {
+    //     elements.expandedCardControlsContainer.classList.add('hide');
+    //     elements.expandedCardControlsContainer.style.top = ''; // <<< Limpa o estilo top inline
+    //     console.log("resetExpandedState: Container do botão Fechar externo oculto e top resetado.");
+    // } else {
+    //      console.warn("resetExpandedState: elements.expandedCardControlsContainer não encontrado.");
+    // }
 }
 
 
@@ -445,8 +455,29 @@ function showQuestion(questionData, elements) {
         bF.appendChild(explanationContainer); // Adiciona o container da explicação à face traseira
         // --- FIM DA CRIAÇÃO DA EXPLICAÇÃO COM ÍCONE (Lógica Atualizada) ---
 
+        // --- ADICIONA O BOTÃO FECHAR (X) DENTRO DA BACK-FACE ---
+        const closeBtn = document.createElement('div');
+        closeBtn.className = 'close-expanded-btn hide'; // Adiciona classe hide inicialmente
+        closeBtn.innerHTML = '&times;'; // Usa o caractere X (×)
+        // Adiciona o listener diretamente ao botão X
+        closeBtn.addEventListener('click', (e) => {
+            // Impede que o clique no X propague para o frame da opção
+            e.stopPropagation();
+            console.log("Botão Fechar Detalhes (X) clicado!");
+             try {
+                resetExpandedState(elements); // Remove a classe de expansão
+                revealGridState(elements);   // Mostra todos os cards no estado revelado e os botões next/finish
+            } catch (e) {
+                 console.error("Erro ao clicar no botão Fechar Detalhes (X):", e);
+            }
+        });
+        bF.appendChild(closeBtn); // Adiciona o botão X à back-face
+        // --- FIM ADIÇÃO BOTÃO FECHAR (X) ---
+
+
         // Monta o card
         oF.appendChild(fF); oF.appendChild(bF);
+        // O listener de seleção na option-frame permanece
         oF.addEventListener('click', (e) => selectAnswer(e, elements));
         if (elements.answerOptionsElement) elements.answerOptionsElement.appendChild(oF);
     });
@@ -569,49 +600,18 @@ function confirmAnswer(elements) {
                     selectedOptionElement.classList.add('expanded-correct');
                     selectedOptionElement.style.zIndex = 1000; // Garante que fique na frente
 
-                    // --- Lógica para posicionar o botão "Fechar Detalhes" abaixo do card expandido (AJUSTADA) ---
-                    const animationDuration = 800; // Duração da animação (ajuste se mudou no CSS)
-                    setTimeout(() => {
-                        if (elements.expandedCardControlsContainer && selectedOptionElement.classList.contains('expanded-correct')) {
-                            const cardRect = selectedOptionElement.getBoundingClientRect(); // Pega as coordenadas do card selecionado (agora expandido)
-                            const buttonHeight = elements.closeExpandedCardBtn.offsetHeight || 40;
-                            const desiredSpacing = 20; // Aumentado para 20px para um pouco mais de espaço
-                            const minSpaceFromBottom = 15; // Mínimo espaço do rodapé da viewport (pode ajustar se necessário)
+                    // --- MOSTRA O BOTÃO FECHAR (X) INTERNO ---
+                    const closeBtn = selectedOptionElement.querySelector('.close-expanded-btn');
+                    if(closeBtn) {
+                        closeBtn.classList.remove('hide'); // Mostra o botão X interno
+                    }
 
-                            // Calcula a posição base desejada (abaixo do cartão expandido)
-                            let buttonTop = cardRect.bottom + desiredSpacing;
+                    // REMOVA A LÓGICA DE POSICIONAMENTO DO BOTÃO EXTERNO QUE ESTAVA AQUI ANTES.
+                    // A posição do botão Fechar (X) agora é controlada puramente pelo CSS
+                    // quando a classe expanded-correct é aplicada ao option-frame.
+                    // A lógica de revelar o grid state acontecerá APENAS quando o botão X for clicado
+                    // (listener adicionado na função showQuestion).
 
-                            // Calcula a posição máxima segura para o botão dentro da viewport
-                            // Adicionamos um buffer maior (minSpaceFromBottom) para garantir espaço na parte inferior
-                            const maxTop = window.innerHeight - buttonHeight - minSpaceFromBottom;
-
-                            // A posição final será a menor entre a posição calculada abaixo do cartão
-                            // e a posição máxima segura. Isso garante que o botão não saia da tela
-                            // pela parte inferior.
-                            const finalTop = Math.min(buttonTop, maxTop);
-
-                            console.log(`Posicionando botão Fechar: card selecionado bottom=${cardRect.bottom}, buttonHeight=${buttonHeight}, window.innerHeight=${window.innerHeight}, maxTop=${maxTop}, calculated buttonTop=${buttonTop}, finalTop=${finalTop}`);
-
-                             // Verifica se a posição final calculada ainda sobrepõe o cartão expandido de forma significativa
-                            // Isso é um fallback, idealmente os cálculos acima já deveriam mitigar isso.
-                            // Considera a parte inferior do cartão menos a altura do botão
-                            const cardEffectiveBottom = cardRect.bottom - buttonHeight;
-
-                            if (finalTop < cardEffectiveBottom && buttonTop > maxTop) {
-                                // Se a posição final (limitada pelo maxTop) ainda resulta em sobreposição,
-                                // força a posição para o limite inferior da viewport (`maxTop`).
-                                console.warn("Posição calculada sobrepõe o cartão mesmo com limite. Forçando para maxTop.");
-                                elements.expandedCardControlsContainer.style.top = `${maxTop}px`;
-                            } else {
-                                elements.expandedCardControlsContainer.style.top = `${finalTop}px`; // Usa a posição calculada (limitada ou não)
-                            }
-
-                            elements.expandedCardControlsContainer.classList.remove('hide'); // Mostra o botão
-                        } else {
-                            console.warn("Timeout: Card selecionado não está mais expandido ou container do botão não encontrado.")
-                        }
-                    }, animationDuration);
-                     // --- FIM DA Lógica para posicionar o botão (AJUSTADA) ---
                 });
             });
         } else {
@@ -680,14 +680,14 @@ function showResults(elements) {
         const questionsPlayed = quizData.length;
         const maxPointsForThisQuiz = (totalQuizQuestions > 0 && questionsPlayed > 0)
             ? Math.round(totalConfigPoints * (questionsPlayed / totalQuizQuestions))
-            : Math.round(questionsPlayed * currentPointsPerQuestion); // Fallback
+            : Math.round(questionsPlayed * currentPointsPerQuestion);
 
-        const finalScoreValue = Math.round(score);
-        finalScoreString = `Pontuação: <strong>${finalScoreValue} / ${maxPointsForThisQuiz}</strong> pontos.`;
-        // Calcula acertos
-        correctAnswers = (currentPointsPerQuestion > 0) ? Math.round(score / currentPointsPerQuestion) : 0;
+        const currentScoreRounded = Math.round(score);
+
+        elements.scoreValueElement.textContent = `${currentScoreRounded} / ${maxPointsForThisQuiz}`;
+        elements.pointsDisplayContainer.classList.remove('hide');
+        elements.percentageDisplayContainer.classList.add('hide');
     }
-
     elements.resultContainer.innerHTML = `<h2>Quiz '${quizConfig.theme || 'Quiz'}' Finalizado!</h2>
                                          <p>Acertos: <strong>${correctAnswers}</strong> de <strong>${totalQPlayed}</strong>.</p>
                                          <p>${finalScoreString}</p>
@@ -787,7 +787,7 @@ function clearMessage(messageAreaElement, useSpecificTimeout = false) { if(!(mes
 document.addEventListener('DOMContentLoaded', () => {
     console.log("DOMContentLoaded: Configurando interface...");
 
-    // Element Retrieval (removido endQuizEarlyBtn)
+    // Element Retrieval (AJUSTADO - removido endQuizEarlyBtn e elementos do botão Fechar externo)
     const elements = {
         mainContainer: document.querySelector('.main-container'),
         selectionArea: document.getElementById('selection-area'),
@@ -820,15 +820,14 @@ document.addEventListener('DOMContentLoaded', () => {
         finishBtn: document.getElementById('finish-btn'),
         scoreContainer: document.getElementById('score-container'),
         scoreValueElement: document.getElementById('score-value'),
-        scorePercentageElement: document.getElementById('score-percentage'),
+        scorePercentageElement: document.getElementById('percentage-score-display'),
         pointsDisplayContainer: document.getElementById('points-score-display'),
         percentageDisplayContainer: document.getElementById('percentage-score-display'),
         resultContainer: document.getElementById('result-container'),
         resumePromptContainer: document.getElementById('resume-prompt'),
         resumeYesBtn: document.getElementById('resume-yes-btn'),
         resumeNoBtn: document.getElementById('resume-no-btn'),
-        expandedCardControlsContainer: document.getElementById('expanded-card-controls'),
-        closeExpandedCardBtn: document.getElementById('close-expanded-card-btn'),
+        // REMOVIDOS: expandedCardControlsContainer, closeExpandedCardBtn
     };
 
     const savedState = loadGameState();
@@ -938,21 +937,9 @@ document.addEventListener('DOMContentLoaded', () => {
         console.warn("#finish-btn não encontrado.");
     }
 
-    // Listener para #close-expanded-card-btn
-    if (elements.closeExpandedCardBtn) {
-        elements.closeExpandedCardBtn.addEventListener('click', () => {
-            console.log("Botão Fechar Detalhes clicado!");
-            try {
-                resetExpandedState(elements); // Remove a classe de expansão
-                revealGridState(elements);   // Mostra todos os cards no estado revelado e os botões next/finish
-            } catch (e) {
-                 console.error("Erro ao clicar no botão Fechar Detalhes:", e);
-            }
-        });
-        console.log("Listener para #close-expanded-card-btn adicionado.");
-    } else {
-        console.error("#close-expanded-card-btn não encontrado no DOM.");
-    }
+    // REMOVIDO: Listener para #close-expanded-card-btn externo
+    // if (elements.closeExpandedCardBtn) { ... }
+    // REMOVIDO: console.log("Listener para #close-expanded-card-btn adicionado.");
 
     const now = new Date(); let options = { hour12: false, timeZone: 'America/Sao_Paulo' }; try { options.timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone; } catch(e) {} console.log(`Interface JS pronta: ${now.toLocaleString('pt-BR', options)} (${options.timeZone})`);
 });

@@ -128,10 +128,11 @@ h1, h2 { color: var(--dark-text); margin-bottom: 1.2rem; text-align: center; fon
     align-items: center;
     text-align: center;
     justify-content: center;
-    padding: 0.6rem; /* Padding interno da face traseira */
+    padding: 0.8rem; /* Padding interno da face traseira (ajustado para 0.8rem) */
     z-index: 1;
     position: relative; /* Para posicionamento interno se necessário */
     /* Cor de fundo será sobrescrita por .correct/.incorrect quando revelado/expandido */
+    overflow: hidden; /* Garante que nada saia dos limites quando não expandido */
 }
 
 /* Cores da face traseira (estado normal/revelado - NÃO expandido) */
@@ -323,7 +324,6 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
 
 /* Face traseira no estado expandido */
 .option-frame.expanded-correct .back-face {
-    /* background-color: transparent; */ /* <<< REMOVIDO */
     position: relative; /* Ocupa espaço dentro do pai */
     width: 100%;
     min-height: 100%; /* Garante que preencha pelo menos a altura visível */
@@ -332,20 +332,13 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
     flex-direction: column;
     align-items: center;
     justify-content: flex-start; /* Alinha conteúdo no topo para scroll */
-    padding: 20px; /* Padding interno maior */
+    padding: 30px 20px 20px 20px; /* AJUSTADO: Padding topo maior para acomodar o X */
     overflow: visible; /* Deixa o pai controlar scroll */
     backface-visibility: visible; /* Garante visibilidade */
     transform: rotateY(180deg); /* Orienta conteúdo corretamente */
     z-index: 3; /* Acima da front-face (se estivesse visível) */
     /* A cor de fundo será definida abaixo */
 }
-
-/* --- REMOVA esta regra que forçava transparência --- */
-/*
-.option-frame.expanded-correct .back-face.correct {
-     background-color: transparent;
-}
-*/
 
 /* <<< CORREÇÃO: Define cores de fundo da back-face no estado expandido >>> */
 .option-frame.expanded-correct .back-face.correct {
@@ -388,7 +381,7 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
    font-size: 1rem;
    line-height: 1.6;
    color: var(--light-text);
-   text-align: center;
+   text-align: left; /* Alinha texto à esquerda no expandido */
    width: 100%;
 }
 .option-frame.expanded-correct:has(.option-image-container) .explanation-container {
@@ -456,25 +449,43 @@ input[type=number]:focus-visible { outline: 2px solid var(--primary-color); outl
      display: none;
 }
 
-
-/* Estilos para o container do botão "Fechar Detalhes" externo */
-#expanded-card-controls {
-    position: fixed;
-    bottom: auto;
-    top: 90vh; /* Fallback, JS ajusta */
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1001;
-    transition: opacity 0.3s ease, visibility 0.3s ease, top 0.3s ease-out;
+/* --- NOVOS ESTILOS PARA O BOTÃO FECHAR (X) INTERNO --- */
+.option-frame .close-expanded-btn {
+    position: absolute;
+    top: 10px; /* Distância do topo */
+    right: 10px; /* Distância da direita */
+    width: 30px; /* Tamanho do botão */
+    height: 30px; /* Tamanho do botão */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente */
+    color: white; /* Cor do X */
+    border: none; /* Remove borda padrão de botão (se fosse um button) */
+    padding: 0; /* Remove padding padrão */
+    border-radius: 50%; /* Formato redondo */
+    display: flex; /* Para centralizar o X */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    font-size: 1.2rem; /* Tamanho do X */
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1010; /* Garante que fique acima do conteúdo do card */
+    opacity: 0; /* Inicialmente oculto */
+    visibility: hidden; /* Inicialmente oculto */
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    /* Assegura que não afeta o layout da back-face quando oculto */
+    pointer-events: none;
 }
 
-#expanded-card-controls.hide {
-   visibility: hidden;
-   opacity: 0;
-   pointer-events: none;
-}
-
-#expanded-card-controls:not(.hide) {
-    visibility: visible;
+/* Mostra o botão X apenas quando o card está expandido */
+.option-frame.expanded-correct .close-expanded-btn {
     opacity: 1;
+    visibility: visible;
+    pointer-events: auto; /* Permite cliques quando visível */
 }
+
+/* Utilitário para ocultar o botão X via JS */
+.option-frame .close-expanded-btn.hide {
+     opacity: 0 !important;
+     visibility: hidden !important;
+     pointer-events: none !important;
+}
+/* --- FIM NOVOS ESTILOS --- */
