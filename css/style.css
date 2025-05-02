@@ -82,7 +82,7 @@ h1, h2 { color: var(--dark-text); margin-bottom: 1.2rem; text-align: center; fon
     font-size: 1rem;
     position: relative;
     /* min-height: 130px; */ /* Removido/Comentado */
-    height: 150px; /* <<< CORREÇÃO: Define altura fixa */
+    height: 150px;
     transition: transform 0.6s ease, border-color 0.3s ease, box-shadow 0.3s ease, opacity 0.5s ease-out;
     box-shadow: 0 2px 5px var(--shadow-color);
     background-color: var(--light-bg); /* Fundo base para faces */
