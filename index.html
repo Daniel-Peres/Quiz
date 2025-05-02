@@ -7,7 +7,7 @@
     <title>Quiz Interativo</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="shortcut icon" type="imagex/png" href="./images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -15,10 +15,12 @@
 <body>
     <div class="main-container">
 
-        <div id="resume-prompt" class="hide" style="padding: 20px; background-color: #e9ecef; border-radius: 8px; text-align: center; margin: 2rem auto; max-width: 500px; border: 1px solid #ccc;">
+        <div id="resume-prompt" class="hide"
+            style="padding: 20px; background-color: #e9ecef; border-radius: 8px; text-align: center; margin: 2rem auto; max-width: 500px; border: 1px solid #ccc;">
             <h2>Quiz Anterior Encontrado</h2>
             <p style="margin-bottom: 1.5rem;">Deseja continuar o quiz de onde parou?</p>
-            <button id="resume-yes-btn" class="control-btn" style="background-color: var(--success-color); margin-right: 10px;">Sim, Continuar</button>
+            <button id="resume-yes-btn" class="control-btn"
+                style="background-color: var(--success-color); margin-right: 10px;">Sim, Continuar</button>
             <button id="resume-no-btn" class="control-btn back-btn">Não, Começar Novo</button>
         </div>
         <div id="selection-area">
@@ -36,14 +38,16 @@
             </div>
         </div>
 
-        <div id="question-count-selection" class="hide" style="margin-top: 20px; padding: 20px; background-color: #e9ecef; border-radius: 8px;">
+        <div id="question-count-selection" class="hide"
+            style="margin-top: 20px; padding: 20px; background-color: #e9ecef; border-radius: 8px;">
             <h2 id="question-count-title">Quantidade de Questões</h2>
             <p>Este quiz tem <strong id="max-questions-info">N/A</strong> questões disponíveis.</p>
             <p>Selecione a quantidade desejada:</p>
-            <div id="question-count-buttons" style="margin-top: 15px; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
-                </div>
+            <div id="question-count-buttons"
+                style="margin-top: 15px; display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+            </div>
             <div style="margin-top: 20px;">
-                 <button id="back-to-selection-from-count-btn" class="control-btn back-btn">Voltar</button>
+                <button id="back-to-selection-from-count-btn" class="control-btn back-btn">Voltar</button>
             </div>
             <div id="question-count-message" class="message-area hide"></div>
         </div>
@@ -70,10 +74,9 @@
                 <button id="finish-btn" class="control-btn hide">Finalizar Quiz</button>
             </div>
 
-             <div id="score-container" class="hide">
+            <div id="score-container" class="hide">
                 <span id="points-score-display">Pontuação: <span id="score-value">0</span></span>
-                <span id="percentage-score-display" class="hide">Percentual: <span
-                        id="score-percentage">0</span></span>
+                <span id="percentage-score-display" class="hide">Percentual: <span id="score-percentage">0</span></span>
             </div>
             <div id="result-container" class="hide"></div>
         </div>
@@ -82,4 +85,5 @@
 
     <script src="js/script.js"></script>
 </body>
+
 </html>

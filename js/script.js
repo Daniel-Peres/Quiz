@@ -75,7 +75,7 @@ function loadGameState() {
 }
 
 function clearGameState(log = true) {
-    if(log) console.log("clearGameState: Limpando estado salvo.");
+    if (log) console.log("clearGameState: Limpando estado salvo.");
     try {
         localStorage.removeItem(QUIZ_STATE_KEY);
         window.quizFilePath = null;
@@ -106,9 +106,9 @@ function resumeGame(savedState, elements) {
     // Isto é IMPRECISO. Idealmente, fullQuizData deveria ser recarregado ou salvo.
     // Usando quizData.length como fallback temporário para evitar erro total.
     const totalQuizQuestionsEstimate = fullQuizData.length > 0 ? fullQuizData.length : quizData.length;
-     currentPointsPerQuestion = (totalQuizQuestionsEstimate > 0 && totalConfigPoints > 0) ? (totalConfigPoints / totalQuizQuestionsEstimate) : 1;
+    currentPointsPerQuestion = (totalQuizQuestionsEstimate > 0 && totalConfigPoints > 0) ? (totalConfigPoints / totalQuizQuestionsEstimate) : 1;
     console.log(`Pontos por questão estimados ao resumir: ${currentPointsPerQuestion}`);
-     // --- FIM DA MODIFICAÇÃO ---
+    // --- FIM DA MODIFICAÇÃO ---
 
 
     isAnswered = false; // Always start fresh on the question
@@ -121,8 +121,8 @@ function resumeGame(savedState, elements) {
     if (elements.scoreContainer) elements.scoreContainer.classList.remove('hide');
     updateScoreDisplay(elements); // Usa o score salvo e o pointsPerQuestion recalculado
 
-    if(elements.quizBackBtn) elements.quizBackBtn.classList.add('hide');
-    if(elements.quizMainMenuBtn) elements.quizMainMenuBtn.classList.add('hide');
+    if (elements.quizBackBtn) elements.quizBackBtn.classList.add('hide');
+    if (elements.quizMainMenuBtn) elements.quizMainMenuBtn.classList.add('hide');
 
     showQuestion(quizData[currentQuestionIndex], elements); // This now calls resetCardStates internally
     console.log(`Quiz restaurado na questão ${currentQuestionIndex + 1} de ${quizData.length}.`);
@@ -137,7 +137,7 @@ function showOnly(elementToShow, selectionArea, quizContainer, questionCountSele
         if (quizContainer) quizContainer.classList.add('hide');
         if (questionCountSelection) questionCountSelection.classList.add('hide');
         const resumePrompt = document.getElementById('resume-prompt');
-        if(resumePrompt) resumePrompt.classList.add('hide');
+        if (resumePrompt) resumePrompt.classList.add('hide');
 
         if (elementToShow) elementToShow.classList.remove('hide');
     } catch (e) {
@@ -193,35 +193,35 @@ function showQuizInterface(elements) {
 async function loadThemes(elements) {
     console.log('loadThemes: Iniciando busca...');
     const themesPath = 'data/themes.json';
-    try { const r=await fetch(themesPath); if(!r.ok)throw new Error(`HTTP ${r.status}`); allThemesData=await r.json(); if(!Array.isArray(allThemesData))throw new Error("Formato inválido."); console.log('loadThemes: OK',allThemesData); populateThemeButtons(allThemesData,elements);}catch(e){console.error("Falha CRÍTICA loadThemes:",e); if(elements.themeButtonsContainer)elements.themeButtonsContainer.innerHTML=`<p style="color:red;">Erro: ${e.message}. Verifique F12.</p>`;}
+    try { const r = await fetch(themesPath); if (!r.ok) throw new Error(`HTTP ${r.status}`); allThemesData = await r.json(); if (!Array.isArray(allThemesData)) throw new Error("Formato inválido."); console.log('loadThemes: OK', allThemesData); populateThemeButtons(allThemesData, elements); } catch (e) { console.error("Falha CRÍTICA loadThemes:", e); if (elements.themeButtonsContainer) elements.themeButtonsContainer.innerHTML = `<p style="color:red;">Erro: ${e.message}. Verifique F12.</p>`; }
 }
 
 function populateThemeButtons(themes, elements) {
-    console.log('pTB'); if (!elements.themeButtonsContainer){console.error("No themeButtonsContainer.");return;} elements.themeButtonsContainer.innerHTML=''; if(!themes?.length){elements.themeButtonsContainer.innerHTML='<p>Nada encontrado.</p>';return;} themes.forEach(t=>{if(!t?.id||!t.name){console.warn("Tema inválido:",t);return;} const b=document.createElement('button'); b.className='theme-btn'; b.dataset.themeId=t.id; let h=`<strong>${t.name}</strong>`; if(t.description)h+=`<span class="description">${t.description}</span>`; b.innerHTML=h; b.addEventListener('click',(e)=>handleThemeSelection(e,elements)); elements.themeButtonsContainer.appendChild(b);});
+    console.log('pTB'); if (!elements.themeButtonsContainer) { console.error("No themeButtonsContainer."); return; } elements.themeButtonsContainer.innerHTML = ''; if (!themes?.length) { elements.themeButtonsContainer.innerHTML = '<p>Nada encontrado.</p>'; return; } themes.forEach(t => { if (!t?.id || !t.name) { console.warn("Tema inválido:", t); return; } const b = document.createElement('button'); b.className = 'theme-btn'; b.dataset.themeId = t.id; let h = `<strong>${t.name}</strong>`; if (t.description) h += `<span class="description">${t.description}</span>`; b.innerHTML = h; b.addEventListener('click', (e) => handleThemeSelection(e, elements)); elements.themeButtonsContainer.appendChild(b); });
 }
 
 function populateSubthemeButtons(subThemes, elements) {
-     console.log('pSTB'); if(!elements.subthemeButtonsContainer){console.error("No subthemeButtonsContainer.");return;} elements.subthemeButtonsContainer.innerHTML=''; if(!subThemes?.length){elements.subthemeButtonsContainer.innerHTML='<p>Nada encontrado.</p>';return;} subThemes.forEach(st=>{if(!st?.file||!st.name){console.warn("Subtema inválido:",st);return;} const b=document.createElement('button'); b.className='theme-btn'; b.dataset.file=st.file; let h=`<strong>${st.name}</strong>`; if(st.description)h+=`<span class="description">${st.description}</span>`; b.innerHTML=h; b.addEventListener('click',(e)=>handleSubthemeSelection(e,elements)); elements.subthemeButtonsContainer.appendChild(b);});
+    console.log('pSTB'); if (!elements.subthemeButtonsContainer) { console.error("No subthemeButtonsContainer."); return; } elements.subthemeButtonsContainer.innerHTML = ''; if (!subThemes?.length) { elements.subthemeButtonsContainer.innerHTML = '<p>Nada encontrado.</p>'; return; } subThemes.forEach(st => { if (!st?.file || !st.name) { console.warn("Subtema inválido:", st); return; } const b = document.createElement('button'); b.className = 'theme-btn'; b.dataset.file = st.file; let h = `<strong>${st.name}</strong>`; if (st.description) h += `<span class="description">${st.description}</span>`; b.innerHTML = h; b.addEventListener('click', (e) => handleSubthemeSelection(e, elements)); elements.subthemeButtonsContainer.appendChild(b); });
 }
 
 async function loadQuizData(filename, elements) {
     console.log(`loadQuizData: ${filename}`);
     window.quizFilePath = filename;
-    fullQuizData=[]; quizConfig={}; desiredQuestionCount=0; showOnly(null,elements.selectionArea,elements.quizContainer,elements.questionCountSelectionContainer); let lM=document.getElementById('loading-quiz-msg'); if(!lM&&elements.mainContainer){lM=document.createElement('p');lM.id='loading-quiz-msg';lM.textContent='Carregando...';lM.style.cssText='text-align:center;padding:20px;'; elements.mainContainer.appendChild(lM);}else if(lM){lM.textContent='Carregando...';lM.style.color='inherit';lM.classList.remove('hide');} const eBB=document.getElementById('back-to-themes-btn-error'); if(eBB)eBB.remove(); const qP=`data/${filename}`; try{console.log(`Workspace: ${qP}`); const r=await fetch(qP); if(!r.ok)throw new Error(`HTTP ${r.status}`); const jD=await r.json(); if(!jD||typeof jD!=='object')throw new Error("JSON inválido."); if(!jD.config||typeof jD.config!=='object')throw new Error("Config inválida."); if(!jD.data||!Array.isArray(jD.data))throw new Error("Data inválido."); if(jD.data.length===0)throw new Error("Data vazio."); fullQuizData=jD.data; quizConfig=jD.config; console.log(`Quiz '${quizConfig.theme||'N/A'}' ${fullQuizData.length} Qs.`); if(lM)lM.classList.add('hide'); showQuestionCountSelection(fullQuizData.length,elements);}catch(e){console.error("Falha loadQuizData:",filename,e); window.quizFilePath = null; if(lM){lM.textContent=`Erro: ${e.message}`; lM.style.color='red';lM.classList.remove('hide');}else if(elements.mainContainer){elements.mainContainer.innerHTML=`<p id="loading-quiz-msg" style="color:red;text-align:center;padding:20px;">Erro: ${e.message}</p>`;lM=document.getElementById('loading-quiz-msg');} if(lM&&!document.getElementById('back-to-themes-btn-error')){const bB=document.createElement('button');bB.textContent='Voltar';bB.id='back-to-themes-btn-error';bB.className='control-btn back-btn';bB.style.cssText='margin-top:20px;display:block;margin-left:auto;margin-right:auto;';bB.onclick=()=>showThemeSelectionScreen(elements); lM.parentNode.insertBefore(bB,lM.nextSibling);} if(elements.quizContainer)elements.quizContainer.classList.add('hide'); if(elements.questionCountSelectionContainer)elements.questionCountSelectionContainer.classList.add('hide');}
+    fullQuizData = []; quizConfig = {}; desiredQuestionCount = 0; showOnly(null, elements.selectionArea, elements.quizContainer, elements.questionCountSelectionContainer); let lM = document.getElementById('loading-quiz-msg'); if (!lM && elements.mainContainer) { lM = document.createElement('p'); lM.id = 'loading-quiz-msg'; lM.textContent = 'Carregando...'; lM.style.cssText = 'text-align:center;padding:20px;'; elements.mainContainer.appendChild(lM); } else if (lM) { lM.textContent = 'Carregando...'; lM.style.color = 'inherit'; lM.classList.remove('hide'); } const eBB = document.getElementById('back-to-themes-btn-error'); if (eBB) eBB.remove(); const qP = `data/${filename}`; try { console.log(`Workspace: ${qP}`); const r = await fetch(qP); if (!r.ok) throw new Error(`HTTP ${r.status}`); const jD = await r.json(); if (!jD || typeof jD !== 'object') throw new Error("JSON inválido."); if (!jD.config || typeof jD.config !== 'object') throw new Error("Config inválida."); if (!jD.data || !Array.isArray(jD.data)) throw new Error("Data inválido."); if (jD.data.length === 0) throw new Error("Data vazio."); fullQuizData = jD.data; quizConfig = jD.config; console.log(`Quiz '${quizConfig.theme || 'N/A'}' ${fullQuizData.length} Qs.`); if (lM) lM.classList.add('hide'); showQuestionCountSelection(fullQuizData.length, elements); } catch (e) { console.error("Falha loadQuizData:", filename, e); window.quizFilePath = null; if (lM) { lM.textContent = `Erro: ${e.message}`; lM.style.color = 'red'; lM.classList.remove('hide'); } else if (elements.mainContainer) { elements.mainContainer.innerHTML = `<p id="loading-quiz-msg" style="color:red;text-align:center;padding:20px;">Erro: ${e.message}</p>`; lM = document.getElementById('loading-quiz-msg'); } if (lM && !document.getElementById('back-to-themes-btn-error')) { const bB = document.createElement('button'); bB.textContent = 'Voltar'; bB.id = 'back-to-themes-btn-error'; bB.className = 'control-btn back-btn'; bB.style.cssText = 'margin-top:20px;display:block;margin-left:auto;margin-right:auto;'; bB.onclick = () => showThemeSelectionScreen(elements); lM.parentNode.insertBefore(bB, lM.nextSibling); } if (elements.quizContainer) elements.quizContainer.classList.add('hide'); if (elements.questionCountSelectionContainer) elements.questionCountSelectionContainer.classList.add('hide'); }
 }
 
 function handleThemeSelection(event, elements) {
-    const tId=event.currentTarget.dataset.themeId; console.log("hTS:",tId); const sT=allThemesData.find(t=>t&&t.id===tId); if(!sT){console.error(`Tema ${tId} não encontrado.`);return;} if(sT.subThemes?.length>0){showSubthemeSelectionScreen(sT,elements);}else if(sT.file){loadQuizData(sT.file,elements);}else{console.error(`Tema ${sT.name} inválido.`); const ea=elements.messageArea||elements.themeButtonsContainer;if(ea)showMessage(ea,`Config inválida: ${sT.name}.`,5000);}
+    const tId = event.currentTarget.dataset.themeId; console.log("hTS:", tId); const sT = allThemesData.find(t => t && t.id === tId); if (!sT) { console.error(`Tema ${tId} não encontrado.`); return; } if (sT.subThemes?.length > 0) { showSubthemeSelectionScreen(sT, elements); } else if (sT.file) { loadQuizData(sT.file, elements); } else { console.error(`Tema ${sT.name} inválido.`); const ea = elements.messageArea || elements.themeButtonsContainer; if (ea) showMessage(ea, `Config inválida: ${sT.name}.`, 5000); }
 }
 
 function handleSubthemeSelection(event, elements) {
-    const f=event.currentTarget.dataset.file; console.log("hSTS:",f); if(f){loadQuizData(f,elements);}else{console.error("No data-file."); const ea=elements.messageArea||elements.subthemeButtonsContainer;if(ea)showMessage(ea,`Erro: arquivo não especificado.`,5000);}
+    const f = event.currentTarget.dataset.file; console.log("hSTS:", f); if (f) { loadQuizData(f, elements); } else { console.error("No data-file."); const ea = elements.messageArea || elements.subthemeButtonsContainer; if (ea) showMessage(ea, `Erro: arquivo não especificado.`, 5000); }
 }
 
-function shuffleArray(array) { if(!Array.isArray(array))return; for(let i=array.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1)); [array[i],array[j]]=[array[j],array[i]];} }
+function shuffleArray(array) { if (!Array.isArray(array)) return; for (let i = array.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1));[array[i], array[j]] = [array[j], array[i]]; } }
 
 function showQuestionCountSelection(maxQuestions, elements) {
-    console.log("sQCS: Max=",maxQuestions); if(!elements.questionCountSelectionContainer){console.error("No #qcs.");showThemeSelectionScreen(elements);return;} if(!elements.questionCountButtonsContainer){console.error("No #qcb.");} showOnly(elements.questionCountSelectionContainer,elements.selectionArea,elements.quizContainer,elements.questionCountSelectionContainer); if(elements.questionCountTitleElement)elements.questionCountTitleElement.textContent=`Quantidade para '${quizConfig.theme||'quiz'}'?`; if(elements.maxQuestionsInfoElement)elements.maxQuestionsInfoElement.textContent=maxQuestions; if(elements.questionCountMessageArea)clearMessage(elements.questionCountMessageArea,true); if(elements.questionCountButtonsContainer){elements.questionCountButtonsContainer.innerHTML=''; const percs=[0.25,0.5,0.75,1.0]; const added=new Set(); percs.forEach(p=>{let c=(p===1.0)?maxQuestions:Math.max(1,Math.round(maxQuestions*p)); c=Math.min(c,maxQuestions); if(c>0&&(!added.has(c)||p===1.0)){added.add(c); const b=document.createElement('button');b.className='control-btn count-btn'; const pTxt=p===1.0?"Todas":`${Math.round(p*100)}%`; b.textContent = `${c} Questões`;b.dataset.count=c; b.addEventListener('click',()=>{desiredQuestionCount=parseInt(b.dataset.count);console.log("Num:",desiredQuestionCount);if(elements.questionCountSelectionContainer)elements.questionCountSelectionContainer.classList.add('hide');startGame(elements);}); elements.questionCountButtonsContainer.appendChild(b);}}); } if(elements.backToSelectionFromCountBtn){const oB=elements.backToSelectionFromCountBtn; const nB=oB.cloneNode(true); if(oB.parentNode){oB.parentNode.replaceChild(nB,oB); elements.backToSelectionFromCountBtn=nB; nB.addEventListener('click',()=>{console.log(">>> Voltar (contagem) CLICADO!"); console.log("currentSelectedTheme:",currentSelectedTheme); if(elements.questionCountSelectionContainer)elements.questionCountSelectionContainer.classList.add('hide'); if(currentSelectedTheme?.subThemes?.length>0){console.log("<<< Voltando SUBTEMAS."); showSubthemeSelectionScreen(currentSelectedTheme,elements);}else{console.log("<<< Voltando TEMAS."); showThemeSelectionScreen(elements);}}); console.log("Listener Voltar (contagem) OK.");}else{console.error("Pai Voltar (contagem) não encontrado.");}}else{console.error("#back-to-selection-from-count-btn não encontrado.");}
+    console.log("sQCS: Max=", maxQuestions); if (!elements.questionCountSelectionContainer) { console.error("No #qcs."); showThemeSelectionScreen(elements); return; } if (!elements.questionCountButtonsContainer) { console.error("No #qcb."); } showOnly(elements.questionCountSelectionContainer, elements.selectionArea, elements.quizContainer, elements.questionCountSelectionContainer); if (elements.questionCountTitleElement) elements.questionCountTitleElement.textContent = `Quantidade para '${quizConfig.theme || 'quiz'}'?`; if (elements.maxQuestionsInfoElement) elements.maxQuestionsInfoElement.textContent = maxQuestions; if (elements.questionCountMessageArea) clearMessage(elements.questionCountMessageArea, true); if (elements.questionCountButtonsContainer) { elements.questionCountButtonsContainer.innerHTML = ''; const percs = [0.25, 0.5, 0.75, 1.0]; const added = new Set(); percs.forEach(p => { let c = (p === 1.0) ? maxQuestions : Math.max(1, Math.round(maxQuestions * p)); c = Math.min(c, maxQuestions); if (c > 0 && (!added.has(c) || p === 1.0)) { added.add(c); const b = document.createElement('button'); b.className = 'control-btn count-btn'; const pTxt = p === 1.0 ? "Todas" : `${Math.round(p * 100)}%`; b.textContent = `${c} Questões`; b.dataset.count = c; b.addEventListener('click', () => { desiredQuestionCount = parseInt(b.dataset.count); console.log("Num:", desiredQuestionCount); if (elements.questionCountSelectionContainer) elements.questionCountSelectionContainer.classList.add('hide'); startGame(elements); }); elements.questionCountButtonsContainer.appendChild(b); } }); } if (elements.backToSelectionFromCountBtn) { const oB = elements.backToSelectionFromCountBtn; const nB = oB.cloneNode(true); if (oB.parentNode) { oB.parentNode.replaceChild(nB, oB); elements.backToSelectionFromCountBtn = nB; nB.addEventListener('click', () => { console.log(">>> Voltar (contagem) CLICADO!"); console.log("currentSelectedTheme:", currentSelectedTheme); if (elements.questionCountSelectionContainer) elements.questionCountSelectionContainer.classList.add('hide'); if (currentSelectedTheme?.subThemes?.length > 0) { console.log("<<< Voltando SUBTEMAS."); showSubthemeSelectionScreen(currentSelectedTheme, elements); } else { console.log("<<< Voltando TEMAS."); showThemeSelectionScreen(elements); } }); console.log("Listener Voltar (contagem) OK."); } else { console.error("Pai Voltar (contagem) não encontrado."); } } else { console.error("#back-to-selection-from-count-btn não encontrado."); }
 }
 
 function startGame(elements) {
@@ -275,38 +275,38 @@ function startGame(elements) {
 }
 
 
-function updateProgressBar(elements) { if(!quizData||!elements.progressBarIndicator||!elements.progressTextElement)return; const t=quizData.length; const c=currentQuestionIndex+1; if(t===0){elements.progressBarIndicator.style.width='0%';elements.progressTextElement.textContent='0/0';return;} const p=Math.min((c/t)*100,100); elements.progressBarIndicator.style.width=`${p}%`; elements.progressTextElement.textContent=`Questão ${c} de ${t}`; }
+function updateProgressBar(elements) { if (!quizData || !elements.progressBarIndicator || !elements.progressTextElement) return; const t = quizData.length; const c = currentQuestionIndex + 1; if (t === 0) { elements.progressBarIndicator.style.width = '0%'; elements.progressTextElement.textContent = '0/0'; return; } const p = Math.min((c / t) * 100, 100); elements.progressBarIndicator.style.width = `${p}%`; elements.progressTextElement.textContent = `Questão ${c} de ${t}`; }
 
 // Função para resetar completamente os estados visuais dos cards
 function resetCardStates(elements) {
-     if (!elements || !elements.answerOptionsElement) return;
-     console.log("resetCardStates: Resetando todos os estados dos cards.");
-     elements.answerOptionsElement.querySelectorAll('.option-frame').forEach(frame => {
-         frame.classList.remove('expanded-correct', 'sibling-of-expanded', 'revealed', 'disabled', 'selected');
-         frame.style.outline = 'none'; // Limpa outline
-         frame.style.zIndex = ''; // Limpa z-index
-         frame.style.transform = ''; // Limpa transform inline (se houver)
-         const backFace = frame.querySelector('.back-face');
-         if (backFace) {
-             backFace.classList.remove('correct', 'incorrect'); // Limpa cores do backface
-             // Esconde o botão X interno ao resetar
-             const closeBtn = backFace.querySelector('.close-expanded-btn');
-             if(closeBtn) {
-                 closeBtn.classList.add('hide'); // Oculta o botão X
-             }
-         }
-         const frontFace = frame.querySelector('.front-face');
-          if (frontFace) {
-             frontFace.style.display = ''; // Garante que não esteja 'none'
-         }
-     });
-     // REMOVA A LÓGICA DE OCULTAR O CONTÊINER EXTERNO DO BOTÃO FECHAR, POIS ELE FOI REMOVIDO DO HTML
-     // if (elements.expandedCardControlsContainer) {
-     //    elements.expandedCardControlsContainer.classList.add('hide');
-     //    elements.expandedCardControlsContainer.style.top = ''; // <<< Limpa o estilo top inline
-     //    console.log("resetCardStates: Container do botão Fechar externo oculto e top resetado.");
-     // }
-     elements.answerOptionsElement.classList.remove('animating'); // Garante limpeza de estado de animação
+    if (!elements || !elements.answerOptionsElement) return;
+    console.log("resetCardStates: Resetando todos os estados dos cards.");
+    elements.answerOptionsElement.querySelectorAll('.option-frame').forEach(frame => {
+        frame.classList.remove('expanded-correct', 'sibling-of-expanded', 'revealed', 'disabled', 'selected');
+        frame.style.outline = 'none'; // Limpa outline
+        frame.style.zIndex = ''; // Limpa z-index
+        frame.style.transform = ''; // Limpa transform inline (se houver)
+        const backFace = frame.querySelector('.back-face');
+        if (backFace) {
+            backFace.classList.remove('correct', 'incorrect'); // Limpa cores do backface
+            // Esconde o botão X interno ao resetar
+            const closeBtn = backFace.querySelector('.close-expanded-btn');
+            if (closeBtn) {
+                closeBtn.classList.add('hide'); // Oculta o botão X
+            }
+        }
+        const frontFace = frame.querySelector('.front-face');
+        if (frontFace) {
+            frontFace.style.display = ''; // Garante que não esteja 'none'
+        }
+    });
+    // REMOVA A LÓGICA DE OCULTAR O CONTÊINER EXTERNO DO BOTÃO FECHAR, POIS ELE FOI REMOVIDO DO HTML
+    // if (elements.expandedCardControlsContainer) {
+    //    elements.expandedCardControlsContainer.classList.add('hide');
+    //    elements.expandedCardControlsContainer.style.top = ''; // <<< Limpa o estilo top inline
+    //    console.log("resetCardStates: Container do botão Fechar externo oculto e top resetado.");
+    // }
+    elements.answerOptionsElement.classList.remove('animating'); // Garante limpeza de estado de animação
 }
 
 // Função para resetar apenas o estado expandido
@@ -322,11 +322,11 @@ function resetExpandedState(elements) {
         console.log("resetExpandedState: Card expandido encontrado.", expanded);
         expanded.classList.remove('expanded-correct');
         expanded.style.zIndex = ''; // Reseta z-index
-         // Oculta o botão X interno
-         const closeBtn = expanded.querySelector('.close-expanded-btn');
-         if(closeBtn) {
-             closeBtn.classList.add('hide'); // Oculta o botão X
-         }
+        // Oculta o botão X interno
+        const closeBtn = expanded.querySelector('.close-expanded-btn');
+        if (closeBtn) {
+            closeBtn.classList.add('hide'); // Oculta o botão X
+        }
         console.log("resetExpandedState: Classe 'expanded-correct' removida.");
 
     } else {
@@ -372,7 +372,7 @@ function revealGridState(elements) {
             console.log(`revealGridState: Botão Finalizar Quiz VISÍVEL (questão ${currentQuestionIndex + 1})`);
         } else {
             elements.finishBtn.classList.add('hide');
-             console.log(`revealGridState: Botão Finalizar Quiz OCULTO (antes da primeira resposta)`);
+            console.log(`revealGridState: Botão Finalizar Quiz OCULTO (antes da primeira resposta)`);
         }
     } else { console.warn("revealGridState: elements.finishBtn não encontrado."); }
 
@@ -396,8 +396,8 @@ function showQuestion(questionData, elements) {
         elements.confirmBtn.classList.remove('hide'); // Garante que confirmar esteja visível
     }
     // Garante que botões de navegação pós-resposta estejam escondidos
-    if(elements.nextBtn) elements.nextBtn.classList.add('hide');
-    if(elements.finishBtn) elements.finishBtn.classList.add('hide'); // Garante que Finalizar comece escondido
+    if (elements.nextBtn) elements.nextBtn.classList.add('hide');
+    if (elements.finishBtn) elements.finishBtn.classList.add('hide'); // Garante que Finalizar comece escondido
 
     if (elements.answerOptionsElement) elements.answerOptionsElement.querySelectorAll('.option-frame').forEach(f => f.style.outline = 'none');
 
@@ -439,7 +439,7 @@ function showQuestion(questionData, elements) {
             iconElement.alt = 'Correto';
             iconElement.className = 'explanation-icon';
         } else {
-             // Para opções incorretas (isCorrect é false, undefined ou qualquer outra coisa)
+            // Para opções incorretas (isCorrect é false, undefined ou qualquer outra coisa)
             iconElement = document.createElement('img');
             iconElement.src = 'images/resposta_incorreta.webp'; // Caminho do ícone de incorreto
             iconElement.alt = 'Incorreto';
@@ -455,24 +455,7 @@ function showQuestion(questionData, elements) {
         bF.appendChild(explanationContainer); // Adiciona o container da explicação à face traseira
         // --- FIM DA CRIAÇÃO DA EXPLICAÇÃO COM ÍCONE (Lógica Atualizada) ---
 
-        // --- ADICIONA O BOTÃO FECHAR (X) DENTRO DA BACK-FACE ---
-        const closeBtn = document.createElement('div');
-        closeBtn.className = 'close-expanded-btn hide'; // Adiciona classe hide inicialmente
-        closeBtn.innerHTML = '&times;'; // Usa o caractere X (×)
-        // Adiciona o listener diretamente ao botão X
-        closeBtn.addEventListener('click', (e) => {
-            // Impede que o clique no X propague para o frame da opção
-            e.stopPropagation();
-            console.log("Botão Fechar Detalhes (X) clicado!");
-             try {
-                resetExpandedState(elements); // Remove a classe de expansão
-                revealGridState(elements);   // Mostra todos os cards no estado revelado e os botões next/finish
-            } catch (e) {
-                 console.error("Erro ao clicar no botão Fechar Detalhes (X):", e);
-            }
-        });
-        bF.appendChild(closeBtn); // Adiciona o botão X à back-face
-        // --- FIM ADIÇÃO BOTÃO FECHAR (X) ---
+        // Botão X externo será usado em vez do interno.
 
 
         // Monta o card
@@ -497,21 +480,21 @@ function showQuestion(questionData, elements) {
 
 
 function selectAnswer(event, elements) {
-    if(isAnswered)return;
-    if(elements.messageArea)clearMessage(elements.messageArea);
-    const clickedFrame=event.currentTarget; if(!clickedFrame)return;
+    if (isAnswered) return;
+    if (elements.messageArea) clearMessage(elements.messageArea);
+    const clickedFrame = event.currentTarget; if (!clickedFrame) return;
 
-    if(elements.answerOptionsElement)elements.answerOptionsElement.querySelectorAll('.option-frame').forEach(f=>{
-        if(f!==clickedFrame)f.classList.remove('selected');
+    if (elements.answerOptionsElement) elements.answerOptionsElement.querySelectorAll('.option-frame').forEach(f => {
+        if (f !== clickedFrame) f.classList.remove('selected');
     });
     clickedFrame.classList.toggle('selected');
 
-    if(clickedFrame.classList.contains('selected')){
-        selectedOptionElement=clickedFrame;
-        if(elements.confirmBtn){elements.confirmBtn.disabled=false; elements.confirmBtn.classList.add('confirm-active');}
-    }else{
-        selectedOptionElement=null;
-        if(elements.confirmBtn){elements.confirmBtn.disabled=true; elements.confirmBtn.classList.remove('confirm-active');}
+    if (clickedFrame.classList.contains('selected')) {
+        selectedOptionElement = clickedFrame;
+        if (elements.confirmBtn) { elements.confirmBtn.disabled = false; elements.confirmBtn.classList.add('confirm-active'); }
+    } else {
+        selectedOptionElement = null;
+        if (elements.confirmBtn) { elements.confirmBtn.disabled = true; elements.confirmBtn.classList.remove('confirm-active'); }
     }
 }
 
@@ -559,28 +542,28 @@ function confirmAnswer(elements) {
         const allFrames = elements.answerOptionsElement ? Array.from(elements.answerOptionsElement.querySelectorAll('.option-frame')) : [];
         console.log('confirmAnswer: Marcando cards disabled e cores...');
         allFrames.forEach(f => {
-             if (!(f instanceof HTMLElement)) return;
-             const fTxt = f.dataset.optionText;
-             if (typeof fTxt === 'undefined') return;
-             const oData = opts.find(o => o?.text === fTxt);
+            if (!(f instanceof HTMLElement)) return;
+            const fTxt = f.dataset.optionText;
+            if (typeof fTxt === 'undefined') return;
+            const oData = opts.find(o => o?.text === fTxt);
 
-             f.classList.add('disabled'); // Desabilita todos os cards
+            f.classList.add('disabled'); // Desabilita todos os cards
 
-             // Define a cor do fundo da face traseira (verde para correta, vermelha para incorreta)
-             const backFace = f.querySelector('.back-face');
-             if (backFace && oData) {
-                 backFace.classList.toggle('correct', oData.isCorrect === true);
-                 backFace.classList.toggle('incorrect', oData.isCorrect !== true);
-             } else if (backFace) {
-                 backFace.classList.add('incorrect'); // Segurança
-             }
+            // Define a cor do fundo da face traseira (verde para correta, vermelha para incorreta)
+            const backFace = f.querySelector('.back-face');
+            if (backFace && oData) {
+                backFace.classList.toggle('correct', oData.isCorrect === true);
+                backFace.classList.toggle('incorrect', oData.isCorrect !== true);
+            } else if (backFace) {
+                backFace.classList.add('incorrect'); // Segurança
+            }
 
-             // Adiciona outline ao card selecionado pelo usuário
-             if (f === selectedOptionElement) {
-                 f.style.outline = '3px solid #333'; f.style.outlineOffset = '2px';
-             } else {
-                 f.style.outline = 'none';
-             }
+            // Adiciona outline ao card selecionado pelo usuário
+            if (f === selectedOptionElement) {
+                f.style.outline = '3px solid #333'; f.style.outlineOffset = '2px';
+            } else {
+                f.style.outline = 'none';
+            }
         });
         console.log('confirmAnswer: Cores e disabled aplicados.');
 
@@ -602,7 +585,7 @@ function confirmAnswer(elements) {
 
                     // --- MOSTRA O BOTÃO FECHAR (X) INTERNO ---
                     const closeBtn = selectedOptionElement.querySelector('.close-expanded-btn');
-                    if(closeBtn) {
+                    if (closeBtn) {
                         closeBtn.classList.remove('hide'); // Mostra o botão X interno
                     }
 
@@ -624,13 +607,13 @@ function confirmAnswer(elements) {
         // A lógica antiga que só expandia se isCorrect foi removida.
         // A função revealGridState() só será chamada agora quando o usuário clicar no botão "Fechar Detalhes".
 
-    } catch(err) {
+    } catch (err) {
         console.error("ERRO em confirmAnswer:", err);
-        if(elements.messageArea)showMessage(elements.messageArea,`Erro: ${err.message}.`,6000);
+        if (elements.messageArea) showMessage(elements.messageArea, `Erro: ${err.message}.`, 6000);
         // Reseta o estado visual em caso de erro grave
         resetCardStates(elements);
-        if(elements.finishBtn)elements.finishBtn.classList.add('hide');
-        if(elements.nextBtn)elements.nextBtn.classList.add('hide');
+        if (elements.finishBtn) elements.finishBtn.classList.add('hide');
+        if (elements.nextBtn) elements.nextBtn.classList.add('hide');
     }
 }
 // ============================================================== //
@@ -641,7 +624,7 @@ function confirmAnswer(elements) {
 function nextQuestion(elements) {
     console.log("nextQuestion", currentQuestionIndex);
     currentQuestionIndex++;
-    if(currentQuestionIndex < quizData.length){
+    if (currentQuestionIndex < quizData.length) {
         showQuestion(quizData[currentQuestionIndex], elements);
     } else {
         showResults(elements);
@@ -652,16 +635,16 @@ function showResults(elements) {
     clearGameState();
     console.log("showResults");
     if (elements.quizContainer) resetCardStates(elements);
-    if(elements.quizBackBtn)elements.quizBackBtn.classList.add('hide');
-    if(elements.quizMainMenuBtn)elements.quizMainMenuBtn.classList.add('hide');
-    showOnly(elements.quizContainer,elements.selectionArea,elements.quizContainer,elements.questionCountSelectionContainer);
-    if(elements.questionContainer)elements.questionContainer.classList.add('hide');
-    if(elements.progressContainer)elements.progressContainer.classList.add('hide');
-    if(elements.controlsContainer)elements.controlsContainer.classList.add('hide');
-    if(elements.messageArea)clearMessage(elements.messageArea);
-    if(!elements.resultContainer){console.error("No result container!");if(elements.scoreContainer)elements.scoreContainer.classList.remove('hide');updateScoreDisplay(elements);return;}
+    if (elements.quizBackBtn) elements.quizBackBtn.classList.add('hide');
+    if (elements.quizMainMenuBtn) elements.quizMainMenuBtn.classList.add('hide');
+    showOnly(elements.quizContainer, elements.selectionArea, elements.quizContainer, elements.questionCountSelectionContainer);
+    if (elements.questionContainer) elements.questionContainer.classList.add('hide');
+    if (elements.progressContainer) elements.progressContainer.classList.add('hide');
+    if (elements.controlsContainer) elements.controlsContainer.classList.add('hide');
+    if (elements.messageArea) clearMessage(elements.messageArea);
+    if (!elements.resultContainer) { console.error("No result container!"); if (elements.scoreContainer) elements.scoreContainer.classList.remove('hide'); updateScoreDisplay(elements); return; }
     elements.resultContainer.classList.remove('hide');
-    if(elements.scoreContainer)elements.scoreContainer.classList.remove('hide'); // Garante que o score final seja visível
+    if (elements.scoreContainer) elements.scoreContainer.classList.remove('hide'); // Garante que o score final seja visível
 
     const totalQPlayed = quizData.length;
     let finalScoreString = "";
@@ -724,14 +707,14 @@ function updateScoreDisplay(elements) {
     if (isPerc) {
         // Calcula percentual baseado em acertos (recalculados de score)
         const numQ = quizData.length;
-         let correctAnswers = (currentPointsPerQuestion > 0) ? Math.round(score / currentPointsPerQuestion) : 0;
+        let correctAnswers = (currentPointsPerQuestion > 0) ? Math.round(score / currentPointsPerQuestion) : 0;
         if (numQ > 0) {
             const percentage = Math.round((correctAnswers / numQ) * 100);
             elements.scorePercentageElement.textContent = percentage;
             elements.percentageDisplayContainer.classList.remove('hide');
             elements.pointsDisplayContainer.classList.add('hide');
         } else {
-             elements.scorePercentageElement.textContent = "0";
+            elements.scorePercentageElement.textContent = "0";
         }
 
     } else { // Modo "points"
@@ -756,32 +739,32 @@ function calculateFinalScoreString() {
     // Esta função ficou mais simples, apenas retorna a pontuação ou percentual formatado para o resultado final
     // A lógica de cálculo do MÁXIMO foi movida para updateScoreDisplay e showResults
     console.log("calcFinalScoreString (simplificada)");
-     if (!quizConfig?.scoring || !quizData) { return "N/A"; }
-     const numQ = quizData.length;
-     if (numQ === 0) return "0";
-     if (typeof score !== 'number' || isNaN(score)) return "Erro";
+    if (!quizConfig?.scoring || !quizData) { return "N/A"; }
+    const numQ = quizData.length;
+    if (numQ === 0) return "0";
+    if (typeof score !== 'number' || isNaN(score)) return "Erro";
 
-     let scoreStr = "Erro";
-     try {
-         if (quizConfig.scoring === "percentage") {
-              let correctAnswers = (currentPointsPerQuestion > 0) ? Math.round(score / currentPointsPerQuestion) : 0;
-             scoreStr = `${Math.round((correctAnswers / numQ) * 100)}%`;
-         } else { // "points"
+    let scoreStr = "Erro";
+    try {
+        if (quizConfig.scoring === "percentage") {
+            let correctAnswers = (currentPointsPerQuestion > 0) ? Math.round(score / currentPointsPerQuestion) : 0;
+            scoreStr = `${Math.round((correctAnswers / numQ) * 100)}%`;
+        } else { // "points"
             // A string completa "X / Y pontos" é montada em showResults
             // Aqui podemos retornar só o valor, ou a string completa se preferir centralizar
-             scoreStr = `${Math.round(score)} pontos`; // Retorna só o valor acumulado (arredondado)
-         }
-     } catch (e) {
-         console.error("Erro calc score:", e);
-         scoreStr = "Erro";
-     }
-     return scoreStr;
+            scoreStr = `${Math.round(score)} pontos`; // Retorna só o valor acumulado (arredondado)
+        }
+    } catch (e) {
+        console.error("Erro calc score:", e);
+        scoreStr = "Erro";
+    }
+    return scoreStr;
 }
 
 
-function showMessage(messageAreaElement, message, duration = 3000, isError = true, useSpecificTimeout = false) { if(!(messageAreaElement instanceof Element)){console.warn("showMessage: Elem inválido.");return;} let timeoutVar=useSpecificTimeout?countMessageTimeout:messageTimeout; const setter=(nT)=>{if(useSpecificTimeout)countMessageTimeout=nT;else messageTimeout=nT;}; if(timeoutVar){clearTimeout(timeoutVar);setter(null);} messageAreaElement.textContent=message; messageAreaElement.className='message-area'; messageAreaElement.classList.add(isError?'error':'success'); messageAreaElement.classList.remove('hide'); const nTID=setTimeout(()=>{messageAreaElement.classList.add('hide');messageAreaElement.textContent='';messageAreaElement.classList.remove('error','success');setter(null);},duration); setter(nTID); }
+function showMessage(messageAreaElement, message, duration = 3000, isError = true, useSpecificTimeout = false) { if (!(messageAreaElement instanceof Element)) { console.warn("showMessage: Elem inválido."); return; } let timeoutVar = useSpecificTimeout ? countMessageTimeout : messageTimeout; const setter = (nT) => { if (useSpecificTimeout) countMessageTimeout = nT; else messageTimeout = nT; }; if (timeoutVar) { clearTimeout(timeoutVar); setter(null); } messageAreaElement.textContent = message; messageAreaElement.className = 'message-area'; messageAreaElement.classList.add(isError ? 'error' : 'success'); messageAreaElement.classList.remove('hide'); const nTID = setTimeout(() => { messageAreaElement.classList.add('hide'); messageAreaElement.textContent = ''; messageAreaElement.classList.remove('error', 'success'); setter(null); }, duration); setter(nTID); }
 
-function clearMessage(messageAreaElement, useSpecificTimeout = false) { if(!(messageAreaElement instanceof Element))return; let timeoutVar=useSpecificTimeout?countMessageTimeout:messageTimeout; const setter=(nT)=>{if(useSpecificTimeout)countMessageTimeout=nT;else messageTimeout=nT;}; if(timeoutVar){clearTimeout(timeoutVar);setter(null);} messageAreaElement.classList.add('hide'); messageAreaElement.textContent=''; messageAreaElement.classList.remove('error','success'); }
+function clearMessage(messageAreaElement, useSpecificTimeout = false) { if (!(messageAreaElement instanceof Element)) return; let timeoutVar = useSpecificTimeout ? countMessageTimeout : messageTimeout; const setter = (nT) => { if (useSpecificTimeout) countMessageTimeout = nT; else messageTimeout = nT; }; if (timeoutVar) { clearTimeout(timeoutVar); setter(null); } messageAreaElement.classList.add('hide'); messageAreaElement.textContent = ''; messageAreaElement.classList.remove('error', 'success'); }
 
 // --- Inicialização DOMContentLoaded ---
 document.addEventListener('DOMContentLoaded', () => {
@@ -845,7 +828,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const newYesBtn = document.getElementById('resume-yes-btn');
         const newNoBtn = document.getElementById('resume-no-btn');
 
-        if(newYesBtn) {
+        if (newYesBtn) {
             newYesBtn.onclick = () => {
                 elements.resumePromptContainer.classList.add('hide');
                 // A função resumeGame agora tenta recalcular pontos por questão
@@ -853,7 +836,7 @@ document.addEventListener('DOMContentLoaded', () => {
             };
         } else { console.error("#resume-yes-btn não encontrado após clonagem"); }
 
-        if(newNoBtn) {
+        if (newNoBtn) {
             newNoBtn.onclick = () => {
                 elements.resumePromptContainer.classList.add('hide');
                 clearGameState();
@@ -862,26 +845,27 @@ document.addEventListener('DOMContentLoaded', () => {
         } else { console.error("#resume-no-btn não encontrado após clonagem"); }
 
     } else {
-         if (savedState) {
-              console.warn("Estado salvo encontrado, mas elementos #resume-prompt/#resume-yes-btn/#resume-no-btn não existem no HTML. Iniciando normalmente.");
-              clearGameState();
-         } else {
-             console.log("Nenhum estado salvo válido encontrado. Iniciando normalmente.");
-         }
-         showThemeSelectionScreen(elements);
+        if (savedState) {
+            console.warn("Estado salvo encontrado, mas elementos #resume-prompt/#resume-yes-btn/#resume-no-btn não existem no HTML. Iniciando normalmente.");
+            clearGameState();
+        } else {
+            console.log("Nenhum estado salvo válido encontrado. Iniciando normalmente.");
+        }
+        showThemeSelectionScreen(elements);
     }
 
     // Listeners
     if (elements.backToThemesBtn) { elements.backToThemesBtn.addEventListener('click', () => { console.log(">>> Voltar (subtema) CLICADO!"); showThemeSelectionScreen(elements); }); } else console.error("Listener #back-to-themes-btn FALHOU.");
-    if (elements.quizBackBtn) { elements.quizBackBtn.addEventListener('click', () => {
-        console.log("Voltar (quiz->contagem/temas) clicado.");
-        clearGameState();
-        if (window.quizFilePath && fullQuizData && fullQuizData.length > 0 && elements.questionCountSelectionContainer) {
-             showQuestionCountSelection(fullQuizData.length, elements);
-        } else {
-             showThemeSelectionScreen(elements);
-        }
-     });
+    if (elements.quizBackBtn) {
+        elements.quizBackBtn.addEventListener('click', () => {
+            console.log("Voltar (quiz->contagem/temas) clicado.");
+            clearGameState();
+            if (window.quizFilePath && fullQuizData && fullQuizData.length > 0 && elements.questionCountSelectionContainer) {
+                showQuestionCountSelection(fullQuizData.length, elements);
+            } else {
+                showThemeSelectionScreen(elements);
+            }
+        });
     } else console.warn("#quiz-back-btn não encontrado ou removido intencionalmente.");
 
     // CORREÇÃO DO ERRO DE SINTAXE AQUI:
@@ -907,32 +891,32 @@ document.addEventListener('DOMContentLoaded', () => {
         elements.finishBtn.addEventListener('click', () => {
             console.log("'Finalizar Quiz' clicado.");
             // A pontuação exibida na confirmação será calculada agora com base no estado atual
-             const totalConfigPoints = quizConfig.totalPoints || 0;
-             const totalQuizQuestions = fullQuizData.length;
-             const questionsPlayed = quizData.length;
-             const maxPointsForThisQuiz = (totalQuizQuestions > 0 && questionsPlayed > 0)
-                 ? Math.round(totalConfigPoints * (questionsPlayed / totalQuizQuestions))
-                 : Math.round(questionsPlayed * currentPointsPerQuestion);
-             const currentScoreRounded = Math.round(score);
-             const currentScoreString = `${currentScoreRounded} / ${maxPointsForThisQuiz} pontos`; // Formato para confirmação
+            const totalConfigPoints = quizConfig.totalPoints || 0;
+            const totalQuizQuestions = fullQuizData.length;
+            const questionsPlayed = quizData.length;
+            const maxPointsForThisQuiz = (totalQuizQuestions > 0 && questionsPlayed > 0)
+                ? Math.round(totalConfigPoints * (questionsPlayed / totalQuizQuestions))
+                : Math.round(questionsPlayed * currentPointsPerQuestion);
+            const currentScoreRounded = Math.round(score);
+            const currentScoreString = `${currentScoreRounded} / ${maxPointsForThisQuiz} pontos`; // Formato para confirmação
 
             const isReallyLastQuestion = currentQuestionIndex >= quizData.length - 1;
             let confirmationMessage = `Tem certeza que deseja finalizar o quiz agora?`;
 
             if (!isReallyLastQuestion) {
-                 confirmationMessage += `\nSua pontuação atual é: ${currentScoreString}.\nEsta pontuação será registrada como final.`;
-                 if (window.confirm(confirmationMessage)) {
+                confirmationMessage += `\nSua pontuação atual é: ${currentScoreString}.\nEsta pontuação será registrada como final.`;
+                if (window.confirm(confirmationMessage)) {
                     console.log("Finalização antecipada confirmada via #finish-btn.");
                     showResults(elements);
                 } else {
                     console.log("Finalização antecipada cancelada.");
                 }
             } else {
-                 console.log("Finalizando na última questão via #finish-btn.");
-                 showResults(elements);
+                console.log("Finalizando na última questão via #finish-btn.");
+                showResults(elements);
             }
         });
-         console.log("Listener atualizado para #finish-btn OK (com confirmação).");
+        console.log("Listener atualizado para #finish-btn OK (com confirmação).");
     } else {
         console.warn("#finish-btn não encontrado.");
     }
@@ -941,5 +925,50 @@ document.addEventListener('DOMContentLoaded', () => {
     // if (elements.closeExpandedCardBtn) { ... }
     // REMOVIDO: console.log("Listener para #close-expanded-card-btn adicionado.");
 
-    const now = new Date(); let options = { hour12: false, timeZone: 'America/Sao_Paulo' }; try { options.timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone; } catch(e) {} console.log(`Interface JS pronta: ${now.toLocaleString('pt-BR', options)} (${options.timeZone})`);
+    const now = new Date(); let options = { hour12: false, timeZone: 'America/Sao_Paulo' }; try { options.timeZone = Intl.DateTimeFormat().resolvedOptions().timeZone; } catch (e) { } console.log(`Interface JS pronta: ${now.toLocaleString('pt-BR', options)} (${options.timeZone})`);
 });
+
+
+// === BOTÃO FECHAR EXPANDIDO EXTERNO ===
+const externalCloseBtn = document.createElement('div');
+externalCloseBtn.id = 'external-close-btn';
+externalCloseBtn.innerHTML = '&times;';
+externalCloseBtn.classList.add('hide');
+document.body.appendChild(externalCloseBtn);
+
+externalCloseBtn.addEventListener('click', () => {
+    const expanded = document.querySelector('.option-frame.expanded-correct');
+    if (expanded) {
+        expanded.classList.remove('expanded-correct');
+        expanded.style.zIndex = '';
+        revealGridState(window.quizElements || {}); // Usa global de referência
+        externalCloseBtn.classList.add('hide');
+    }
+});
+
+function positionExternalCloseBtn() {
+    const expanded = document.querySelector('.option-frame.expanded-correct');
+    if (!expanded) {
+        externalCloseBtn.classList.add('hide');
+        return;
+    }
+
+    const rect = expanded.getBoundingClientRect();
+    const btnSize = 36; // largura/altura do botão
+    const offset = 10;   // margem superior e direita
+    externalCloseBtn.style.top = `${window.scrollY + rect.top + offset}px`;
+    externalCloseBtn.style.left = `${window.scrollX + rect.left + rect.width - offset - btnSize}px`;
+    externalCloseBtn.classList.remove('hide');
+
+}
+
+window.addEventListener('resize', positionExternalCloseBtn);
+window.addEventListener('scroll', positionExternalCloseBtn);
+
+// Reposiciona quando um card é expandido
+const originalConfirmAnswer = confirmAnswer;
+confirmAnswer = function (elements) {
+    originalConfirmAnswer(elements);
+    setTimeout(positionExternalCloseBtn, 850); // Espera a animação
+    window.quizElements = elements; // Salva referência para uso externo
+};
