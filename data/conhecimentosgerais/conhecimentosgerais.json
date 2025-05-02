@@ -260,7 +260,7 @@
           "text": "Oxigênio",
           "isCorrect": true,
           "explanation": "Você é um gênio da tabela periódica! O 'O' é o Oxigênio, o gás que nos mantém vivos e faz o fogo dançar. Sem ele, nada de festas ou maratonas!",
-          "imageUrl": "images/conhecimentosgerais/10_oxigenio.jpg",
+          "imageUrl": "images/conhecimentosgerais/10_oxigenio.webp",
           "imageDescription": "Imagem de bolhas de oxigênio na água, simbolizando o elemento essencial para a vida."
         },
         {
@@ -287,7 +287,7 @@
           "text": "África",
           "isCorrect": true,
           "explanation": "Você é um faraó do conhecimento! O Egito, com suas pirâmides e esfinges, está no nordeste da África, com um toque asiático no Sinai. Um país que é pura história!",
-          "imageUrl": "images/conhecimentosgerais/11_africa.jpg",
+          "imageUrl": "images/conhecimentosgerais/11_africa.webp",
           "imageDescription": "Imagem da Grande Esfinge de Gizé com as pirâmides ao fundo, símbolo do Egito na África."
         },
         {
@@ -319,7 +319,7 @@
           "text": "Iene",
           "isCorrect": true,
           "explanation": "Arigatô, você acertou! O Iene (¥) é a moeda do Japão, usada desde Tóquio até Kyoto. É tão forte que até o sushi aprova!",
-          "imageUrl": "images/conhecimentosgerais/12_iene_moeda_japao.jpeg",
+          "imageUrl": "images/conhecimentosgerais/12_iene_moeda_japao.webp",
           "imageDescription": "Imagem de notas e moedas de Iene japonês, mostrando a moeda oficial do Japão."
         },
         {
@@ -351,7 +351,7 @@
           "text": "George Washington",
           "isCorrect": true,
           "explanation": "Estrelas e listras pra você! George Washington, herói da Independência, foi o primeiro presidente (1789-1797), tão unânime que até a capital leva seu nome!",
-          "imageUrl": "images/conhecimentosgerais/13_george_washington.jpeg",
+          "imageUrl": "images/conhecimentosgerais/13_george_washington.webp",
           "imageDescription": "Retrato de George Washington por Gilbert Stuart, mostrando o primeiro presidente dos EUA."
         }
       ]
@@ -368,7 +368,7 @@
           "text": "Baleia",
           "isCorrect": true,
           "explanation": "Nadou direitinho! Baleias são mamíferos marinhos, respiram ar, amamentam filhotes e têm sangue quente. São os gigantes gentis dos oceanos!",
-          "imageUrl": "images/conhecimentosgerais/14_baleia.jpg",
+          "imageUrl": "images/conhecimentosgerais/14_baleia.webp",
           "imageDescription": "Imagem de uma baleia jubarte saltando da água, destacando sua natureza mamífera."
         },
         {
@@ -395,7 +395,7 @@
           "text": "H2O",
           "isCorrect": true,
           "explanation": "Splish splash, acertou! H2O é a fórmula da água, com dois hidrogênios e um oxigênio formando a bebida oficial da vida. Sem ela, nada de piscinas ou café!",
-          "imageUrl": "images/conhecimentosgerais/15_h2o_formula.jpeg",
+          "imageUrl": "images/conhecimentosgerais/15_h2o_formula.webp",
           "imageDescription": "Imagem de uma gota de água cristalina, representando a fórmula química H2O."
         },
         {
@@ -427,7 +427,7 @@
           "text": "Tênis",
           "isCorrect": true,
           "explanation": "Ace! O tênis é o esporte com raquete, rede e bola amarela, onde você saca, rebate e grita 'vamos!' como um campeão. Quadra liberada!",
-          "imageUrl": "images/conhecimentosgerais/16_tenis_esporte.jpeg",
+          "imageUrl": "images/conhecimentosgerais/16_tenis_esporte.webp",
           "imageDescription": "Imagem de uma quadra de tênis com jogadores, bola amarela e rede ao centro."
         },
         {
@@ -454,7 +454,7 @@
           "text": "Fotossíntese",
           "isCorrect": true,
           "explanation": "Você é uma folha brilhante! A fotossíntese transforma luz solar, CO2 e água em glicose e oxigênio. É a magia verde que mantém o planeta girando!",
-          "imageUrl": "images/conhecimentosgerais/17_fotossintese.png",
+          "imageUrl": "images/conhecimentosgerais/17_fotossintese.webp",
           "imageDescription": "Imagem de uma folha verde sob luz solar, ilustrando o processo de fotossíntese."
         },
         {
@@ -481,7 +481,7 @@
           "text": "Rio de Janeiro",
           "isCorrect": true,
           "explanation": "Samba na veia! O Rio de Janeiro foi a primeira cidade sul-americana a sediar os Jogos de 2016, com o Cristo Redentor assistindo tudo de camarote!",
-          "imageUrl": "images/conhecimentosgerais/18_rio_de_janeiro.jpeg",
+          "imageUrl": "images/conhecimentosgerais/18_rio_de_janeiro.webp",
           "imageDescription": "Imagem do Estádio Olímpico do Rio de Janeiro durante os Jogos de 2016."
         },
         {
@@ -508,7 +508,7 @@
           "text": "Pele",
           "isCorrect": true,
           "explanation": "Você é uma epiderme de saber! A pele é o maior órgão, cobrindo tudo, protegendo e sentindo o mundo. É tipo uma capa de super-herói!",
-          "imageUrl": "images/conhecimentosgerais/19_pele_humana.jpeg",
+          "imageUrl": "images/conhecimentosgerais/19_pele_humana.webp",
           "imageDescription": "Imagem ilustrativa da estrutura da pele humana, destacando suas camadas."
         },
         {
@@ -530,7 +530,7 @@
           "text": "Lâmpada incandescente (comercialmente viável)",
           "isCorrect": true,
           "explanation": "Brilhou! Edison não inventou a lâmpada do zero, mas tornou-a prática em 1879, iluminando o mundo e nossas contas de luz. Um gênio com brilho próprio!",
-          "imageUrl": "images/conhecimentosgerais/20_lampada.jpeg",
+          "imageUrl": "images/conhecimentosgerais/20_lampada.webp",
           "imageDescription": "Imagem de uma lâmpada incandescente de Edison, símbolo de sua invenção."
         },
         {
@@ -562,7 +562,7 @@
           "text": "Japão",
           "isCorrect": true,
           "explanation": "Konichiwa, acerto! Japão, ou Nihon, significa 'origem do sol'. Com suas cerejeiras e cultura milenar, é a Terra do Sol Nascente brilhando no Pacífico!",
-          "imageUrl": "images/conhecimentosgerais/21_japao.png",
+          "imageUrl": "images/conhecimentosgerais/21_japao.webp",
           "imageDescription": "Imagem do Monte Fuji com cerejeiras em flor, simbolizando o Japão como Terra do Sol Nascente."
         },
         {
@@ -579,7 +579,7 @@
           "text": "Primeira Guerra Mundial",
           "isCorrect": true,
           "explanation": "Você é um historiador de trincheira! A Primeira Guerra Mundial, ou 'A Grande Guerra', sacudiu o mundo de 1914 a 1918, com Aliados contra Potências Centrais. Um conflito que mudou mapas e deixou lições!",
-          "imageUrl": "images/conhecimentosgerais/22_primeira_guerra_mundial.jpeg",
+          "imageUrl": "images/conhecimentosgerais/22_primeira_guerra_mundial.webp",
           "imageDescription": "Imagem de uma trincheira da Primeira Guerra Mundial, representando o cenário do conflito."
         },
         {
@@ -621,7 +621,7 @@
           "text": "Camberra",
           "isCorrect": true,
           "explanation": "G’day, acerto! Camberra, planejada para ser a capital em 1908, é o coração político da Austrália, com menos praia, mas muito charme. Um oásis entre Sydney e Melbourne!",
-          "imageUrl": "images/conhecimentosgerais/23_camberraCapital_australia.jpeg",
+          "imageUrl": "images/conhecimentosgerais/23_camberraCapital_australia.webp",
           "imageDescription": "Imagem da Casa do Parlamento em Camberra, símbolo da capital australiana."
         }
       ]
@@ -643,7 +643,7 @@
           "text": "Vincent van Gogh",
           "isCorrect": true,
           "explanation": "Você é um girassol de acertos! Van Gogh, em 1888, cortou parte da orelha num surto, mas deixou um legado com 'Noite Estrelada'. Gênio torturado, mas brilhante!",
-          "imageUrl": "images/conhecimentosgerais/24_van_gogh.jpeg",
+          "imageUrl": "images/conhecimentosgerais/24_van_gogh.webp",
           "imageDescription": "Autorretrato de Vincent van Gogh com a orelha enfaixada, pintado após o incidente."
         },
         {
@@ -665,7 +665,7 @@
           "text": "6",
           "isCorrect": true,
           "explanation": "Você é uma colmeia de sabedoria! Um hexágono tem 6 lados, como os favos de mel ou um floco de neve estilizado. Geometria nunca foi tão doce!",
-          "imageUrl": "images/conhecimentosgerais/25_hexagono.jpeg",
+          "imageUrl": "images/conhecimentosgerais/25_hexagono.webp",
           "imageDescription": "Imagem de um favo de mel com células hexagonais, ilustrando a forma de seis lados."
         },
         {
@@ -697,7 +697,7 @@
           "text": "Piano",
           "isCorrect": true,
           "explanation": "Notas perfeitas! O piano, com suas 88 teclas (52 brancas, 36 pretas), é o maestro dos instrumentos, tocando desde Beethoven até jazz. Dedos prontos?",
-          "imageUrl": "images/conhecimentosgerais/26_piano.jpg",
+          "imageUrl": "images/conhecimentosgerais/26_piano.webp",
           "imageDescription": "Imagem de um piano de cauda Steinway, destacando suas 88 teclas."
         },
         {
@@ -719,7 +719,7 @@
           "text": "William Shakespeare",
           "isCorrect": true,
           "explanation": "Oh Romeo, que acerto! Shakespeare escreveu essa tragédia de amor entre Montequios e Capuletos, fazendo o mundo chorar desde o século XVI. Bravo!",
-          "imageUrl": "images/conhecimentosgerais/27_ william_shakespeare.png",
+          "imageUrl": "images/conhecimentosgerais/27_ william_shakespeare.webp",
           "imageDescription": "Imagem de uma pintura clássica da cena do balcão de Romeu e Julieta, de Shakespeare."
         },
         {
@@ -746,7 +746,7 @@
           "text": "Monte Kilimanjaro",
           "isCorrect": true,
           "explanation": "Você conquistou o topo! O Kilimanjaro, na Tanzânia, com 5.895m, é o rei africano, um vulcão adormecido que atrai aventureiros. Suba com cuidado!",
-          "imageUrl": "images/conhecimentosgerais/28_monte_kilimanjaro.jpeg",
+          "imageUrl": "images/conhecimentosgerais/28_monte_kilimanjaro.webp",
           "imageDescription": "Imagem do Monte Kilimanjaro com seu pico nevado sob um céu claro, na Tanzânia."
         },
         {
@@ -778,7 +778,7 @@
           "text": "Nitrogênio",
           "isCorrect": true,
           "explanation": "Você respira saber! O nitrogênio (N2) é o rei da atmosfera, com 78%, só ficando lá, quietinho, enquanto o oxigênio faz o trabalho pesado. Ar puro, né?",
-          "imageUrl": "images/conhecimentosgerais/29_nitrogenio.jpeg",
+          "imageUrl": "images/conhecimentosgerais/29_nitrogenio.webp",
           "imageDescription": "Imagem ilustrativa das camadas da atmosfera terrestre, representando a presença do nitrogênio."
         },
         {
@@ -810,7 +810,7 @@
           "text": "Ottawa",
           "isCorrect": true,
           "explanation": "Maple de acertos! Ottawa, escolhida pela Rainha Vitória, é a capital do Canadá, com o Parlamento e um charme invernal. Perfeita pra um chocolate quente!",
-          "imageUrl": "images/conhecimentosgerais/30_ottawa.jpeg",
+          "imageUrl": "images/conhecimentosgerais/30_ottawa.webp",
           "imageDescription": "Imagem do Parlamento do Canadá em Ottawa, símbolo da capital canadense."
         }
       ]
@@ -832,7 +832,7 @@
           "text": "Barcelona",
           "isCorrect": true,
           "explanation": "Olé, acertou! Barcelona é a joia da Catalunha, na Espanha, famosa pela Sagrada Família e tapas. Nada de pizza, aqui é paella!",
-          "imageUrl": "images/conhecimentosgerais/31_barcelona.jpeg",
+          "imageUrl": "images/conhecimentosgerais/31_barcelona.webp",
           "imageDescription": "Imagem da Sagrada Família em Barcelona, obra-prima de Gaudí, representando a cidade espanhola."
         },
         {
@@ -854,7 +854,7 @@
           "text": "Albert Einstein",
           "isCorrect": true,
           "explanation": "E=MC² de acertos! Einstein revolucionou a física com a relatividade especial (1905) e geral (1915), mudando como vemos tempo e espaço. Gênio de cabelo bagunçado!",
-          "imageUrl": "images/conhecimentosgerais/32_albert_einstein.jpeg",
+          "imageUrl": "images/conhecimentosgerais/32_albert_einstein.webp",
           "imageDescription": "Fotografia de Albert Einstein em 1921, representando o físico que desenvolveu a relatividade."
         },
         {
@@ -886,7 +886,7 @@
           "text": "Linha do Equador",
           "isCorrect": true,
           "explanation": "Você girou o globo certinho! A Linha do Equador, latitude 0°, divide a Terra em Norte e Sul, passando por lugares quentes como o Brasil. É o cinto do planeta!",
-          "imageUrl": "images/conhecimentosgerais/33_linha_equador.png",
+          "imageUrl": "images/conhecimentosgerais/33_linha_equador.webp",
           "imageDescription": "Imagem do monumento da Linha do Equador no Equador, marcando a divisão entre hemisférios."
         },
         {
@@ -913,7 +913,7 @@
           "text": "Áustria",
           "isCorrect": true,
           "explanation": "Uma sinfonia de acertos! Mozart nasceu em Salzburgo, Áustria, em 1756, compondo obras-primas antes mesmo de aprender a amarrar os sapatos. Um gênio austríaco!",
-          "imageUrl": "images/conhecimentosgerais/34_austria.jpg",
+          "imageUrl": "images/conhecimentosgerais/34_austria.webp",
           "imageDescription": "Retrato de Wolfgang Amadeus Mozart, compositor austríaco, em trajes clássicos."
         },
         {
@@ -940,7 +940,7 @@
           "text": "Oceano Atlântico",
           "isCorrect": true,
           "explanation": "Samba na areia! O Atlântico banha toda a costa leste do Brasil, de Oiapoque ao Chuí, trazendo ondas perfeitas pra Copacabana e Ipanema. Mergulhou certinho!",
-          "imageUrl": "images/conhecimentosgerais/35_oceano_atlantico.jpg",
+          "imageUrl": "images/conhecimentosgerais/35_oceano_atlantico.webp",
           "imageDescription": "Imagem da praia de Copacabana no Rio de Janeiro, banhada pelo Oceano Atlântico."
         },
         {
@@ -967,7 +967,7 @@
           "text": "Mercúrio",
           "isCorrect": true,
           "explanation": "Brilhou como termômetro! Mercúrio (Hg) é o único metal líquido a 25°C, escorregando como um dançarino de salsa. Cuidado, ele é tóxico!",
-          "imageUrl": "images/conhecimentosgerais/36_mercurio.jpg",
+          "imageUrl": "images/conhecimentosgerais/36_mercurio.webp",
           "imageDescription": "Imagem de mercúrio líquido em um recipiente, mostrando sua aparência metálica brilhante."
         },
         {
@@ -994,7 +994,7 @@
           "text": "Andes",
           "isCorrect": true,
           "explanation": "Você escalou a resposta certa! Os Andes, com 7.000 km, são a maior cordilheira, correndo pela América do Sul como uma espinha dorsal. Lhamas aprovam!",
-          "imageUrl": "images/conhecimentosgerais/37_andes.jpg",
+          "imageUrl": "images/conhecimentosgerais/37_andes.webp",
           "imageDescription": "Imagem da Cordilheira dos Andes com picos nevados e vales, na América do Sul."
         },
         {
@@ -1026,7 +1026,7 @@
           "text": "Michelangelo",
           "isCorrect": true,
           "explanation": "Você é um afresco de acertos! Michelangelo passou anos (1508-1512) pintando o teto da Capela Sistina, com cenas como 'A Criação de Adão'. Um trabalho divino!",
-          "imageUrl": "images/conhecimentosgerais/38_michelandelo.jpg",
+          "imageUrl": "images/conhecimentosgerais/38_michelandelo.webp",
           "imageDescription": "Imagem do afresco 'A Criação de Adão' no teto da Capela Sistina, pintado por Michelangelo."
         }
       ]
@@ -1048,7 +1048,7 @@
           "text": "Célula",
           "isCorrect": true,
           "explanation": "Você é um biólogo nato! A célula é a menor unidade viva, fazendo tudo desde respirar até se dividir. É o Lego da vida, montando desde amebas até você!",
-          "imageUrl": "images/conhecimentosgerais/39_celula.jpg",
+          "imageUrl": "images/conhecimentosgerais/39_celula.webp",
           "imageDescription": "Imagem microscópica de uma célula humana, representando a unidade básica da vida."
         },
         {
@@ -1075,7 +1075,7 @@
           "text": "China",
           "isCorrect": true,
           "explanation": "Mandou bem, imperador! A Grande Muralha da China, construída ao longo de séculos, é uma fortaleza épica que até do espaço dá pra ver (ou quase)!",
-          "imageUrl": "images/conhecimentosgerais/40_china.jpg",
+          "imageUrl": "images/conhecimentosgerais/40_china.webp",
           "imageDescription": "Imagem da Grande Muralha da China serpenteando por colinas verdes."
         },
         {
@@ -1107,7 +1107,7 @@
           "text": "Buenos Aires",
           "isCorrect": true,
           "explanation": "Tango de acertos! Buenos Aires, com seu charme europeu e paixão pelo tango, é a capital da Argentina. É onde a milonga e o bife de chorizo reinam!",
-          "imageUrl": "images/conhecimentosgerais/41_buenos_aires.jpg",
+          "imageUrl": "images/conhecimentosgerais/41_buenos_aires.webp",
           "imageDescription": "Imagem do Obelisco de Buenos Aires, marco central da capital argentina."
         }
       ]
@@ -1134,7 +1134,7 @@
           "text": "Vermelho",
           "isCorrect": true,
           "explanation": "Você é um patriota colorido! A bandeira do Brasil brilha com verde, amarelo, azul e branco, mas vermelho? Nada disso, deixa pro carnaval!",
-          "imageUrl": "images/conhecimentosgerais/42_band_brasil_sem_vermelho.jpg",
+          "imageUrl": "images/conhecimentosgerais/42_band_brasil_sem_vermelho.webp",
           "imageDescription": "Imagem da bandeira do Brasil com suas cores verde, amarelo, azul e branco."
         }
       ]
@@ -1146,7 +1146,7 @@
           "text": "Marie Curie",
           "isCorrect": true,
           "explanation": "Você é radioativamente brilhante! Marie Curie ganhou o Nobel de Física (1903) e Química (1911), sendo pioneira na radioatividade. Uma mulher que brilhou na ciência!",
-          "imageUrl": "images/conhecimentosgerais/43_marie_curie.jpg",
+          "imageUrl": "images/conhecimentosgerais/43_marie_curie.webp",
           "imageDescription": "Fotografia de Marie Curie, a primeira mulher a ganhar um Prêmio Nobel."
         },
         {
@@ -1173,7 +1173,7 @@
           "text": "Hóquei no Gelo (inverno) e Lacrosse (verão)",
           "isCorrect": true,
           "explanation": "Você patinou e acertou! Desde 1994, o Canadá ama o hóquei no gelo no inverno e o lacrosse, de origem indígena, no verão. É como escolher entre gelo e grama!",
-          "imageUrl": "images/conhecimentosgerais/44_hoquei_lacrosse.jpg",
+          "imageUrl": "images/conhecimentosgerais/44_hoquei_lacrosse.webp",
           "imageDescription": "Imagem de jogadores de hóquei no gelo, esporte nacional de inverno do Canadá."
         },
         {
@@ -1210,7 +1210,7 @@
           "text": "Português",
           "isCorrect": true,
           "explanation": "Fala sério, você acertou! O português, trazido pelos colonizadores, é a língua oficial do Brasil, falada com sotaques que vão do Oiapoque ao Chuí. É samba na ponta da língua!",
-          "imageUrl": "images/conhecimentosgerais/45_lingua_portuguesa.jpg",
+          "imageUrl": "images/conhecimentosgerais/45_lingua_portuguesa.webp",
           "imageDescription": "Imagem de um dicionário de português brasileiro, representando a língua oficial."
         },
         {
@@ -1232,7 +1232,7 @@
           "text": "Groenlândia",
           "isCorrect": true,
           "explanation": "Você navegou pelo Ártico! A Groenlândia, com 2,1 milhões de km², é a maior ilha, coberta de gelo e pertencente à Dinamarca. É um freezer gigante!",
-          "imageUrl": "images/conhecimentosgerais/46_groelandia.jpg",
+          "imageUrl": "images/conhecimentosgerais/46_groelandia.webp",
           "imageDescription": "Imagem da Groenlândia coberta por sua vasta camada de gelo, a maior ilha do mundo."
         },
         {
@@ -1269,7 +1269,7 @@
           "text": "Harry Potter",
           "isCorrect": true,
           "explanation": "Expecto Patronum de acertos! Harry Potter, o menino que sobreviveu, é o herói da saga, enfrentando Voldemort com sua varinha e coragem. Hogwarts te espera!",
-          "imageUrl": "images/conhecimentosgerais/47_harry_potter.jpg",
+          "imageUrl": "images/conhecimentosgerais/47_harry_potter.webp",
           "imageDescription": "Imagem de um pôster de Harry Potter, com óculos e cicatriz, protagonista da série."
         }
       ]
@@ -1291,7 +1291,7 @@
           "text": "Incas",
           "isCorrect": true,
           "explanation": "Você é um arqueólogo andino! Os Incas construíram Machu Picchu, a cidade perdida nos Andes peruanos, um feito de engenharia que deixa qualquer um de queixo caído!",
-          "imageUrl": "images/conhecimentosgerais/48_incas.jpg",
+          "imageUrl": "images/conhecimentosgerais/48_incas.webp",
           "imageDescription": "Imagem de Machu Picchu, a cidade inca nas montanhas do Peru, ao amanhecer."
         },
         {
@@ -1318,7 +1318,7 @@
           "text": "Saturno",
           "isCorrect": true,
           "explanation": "Você orbitou certinho! Saturno é famoso por seus anéis brilhantes de gelo e rocha, tão lindos que até telescópios amadores piram. É o popstar do Sistema Solar!",
-          "imageUrl": "images/conhecimentosgerais/49_saturno.jpg",
+          "imageUrl": "images/conhecimentosgerais/49_saturno.webp",
           "imageDescription": "Imagem de Saturno com seus anéis brilhantes, capturada por uma sonda espacial."
         },
         {
@@ -1345,7 +1345,7 @@
           "text": "Moscou",
           "isCorrect": true,
           "explanation": "Vodka de acertos! Moscou, com o Kremlin e a Praça Vermelha, é o coração político e cultural da Rússia. Uma cidade que mistura história e frio siberiano!",
-          "imageUrl": "images/conhecimentosgerais/50_moscou.jpg",
+          "imageUrl": "images/conhecimentosgerais/50_moscou.webp",
           "imageDescription": "Imagem do Kremlin em Moscou, símbolo da capital russa."
         },
         {
@@ -1362,7 +1362,7 @@
           "text": "World Wide Web",
           "isCorrect": true,
           "explanation": "Você surfou na web certinho! WWW, criado por Tim Berners-Lee, é a World Wide Web, a teia mundial que nos deixa grudados no celular. Navegou com estilo!",
-          "imageUrl": "images/conhecimentosgerais/51_worldWideWeb.jpg",
+          "imageUrl": "images/conhecimentosgerais/51_worldWideWeb.webp",
           "imageDescription": "Imagem de uma tela de navegador exibindo uma página da World Wide Web."
         },
         {
@@ -1394,7 +1394,7 @@
           "text": "26",
           "isCorrect": true,
           "explanation": "Você é um mapa vivo! O Brasil tem 26 estados, mais o Distrito Federal, formando uma federação cheia de sotaques, praias e florestas. Geografia nota 10!",
-          "imageUrl": "images/conhecimentosgerais/52_estados_brasil.jpg",
+          "imageUrl": "images/conhecimentosgerais/52_estados_brasil.webp",
           "imageDescription": "Mapa do Brasil destacando seus 26 estados e o Distrito Federal."
         },
         {
@@ -1426,7 +1426,7 @@
           "text": "Fêmur",
           "isCorrect": true,
           "explanation": "Você é um esqueleto de saber! O fêmur, na coxa, é o osso mais longo e forte, aguentando até suas dancinhas mais loucas. Ossos à obra!",
-          "imageUrl": "images/conhecimentosgerais/53_femur.jpg",
+          "imageUrl": "images/conhecimentosgerais/53_femur.webp",
           "imageDescription": "Imagem de um fêmur humano, o osso mais longo do corpo."
         },
         {
@@ -1448,7 +1448,7 @@
           "text": "Nova Délhi",
           "isCorrect": true,
           "explanation": "Você é um guru do saber! Nova Délhi, com seus palácios e caos organizado, é a capital da Índia, onde o Taj Mahal fica só na memória dos turistas. Namastê!",
-          "imageUrl": "images/conhecimentosgerais/54_nova_dehli.jpg",
+          "imageUrl": "images/conhecimentosgerais/54_nova_dehli.webp",
           "imageDescription": "Imagem do Portão da Índia em Nova Délhi, marco icônico da capital indiana."
         },
         {
@@ -1480,7 +1480,7 @@
           "text": "Ouro",
           "isCorrect": true,
           "explanation": "Você encontrou a pepita! 'Au' vem de 'aurum', o ouro, o metal que faz olhos brilharem e carteiras chorarem. Joias e medalhas agradecem!",
-          "imageUrl": "images/conhecimentosgerais/55_ouro.jpg",
+          "imageUrl": "images/conhecimentosgerais/55_ouro.webp",
           "imageDescription": "Imagem de barras de ouro brilhantes, representando o elemento químico 'Au'."
         },
         {
@@ -1512,7 +1512,7 @@
           "text": "Elefante-marinho",
           "isCorrect": true,
           "explanation": "Nadou e acertou! O elefante-marinho, com machos chegando a 4.000 kg, é o maior mamífero terrestre (e aquático), deixando rinocerontes no chinelo!",
-          "imageUrl": "images/conhecimentosgerais/56_elefante_marinho.jpg",
+          "imageUrl": "images/conhecimentosgerais/56_elefante_marinho.webp",
           "imageDescription": "Imagem de um elefante-marinho na praia, o maior mamífero terrestre e aquático."
         }
       ]
@@ -1534,7 +1534,7 @@
           "text": "Vincent van Gogh",
           "isCorrect": true,
           "explanation": "Você é uma estrela brilhante! Van Gogh pintou 'A Noite Estrelada' em 1889, com seus céus rodopiantes que parecem dançar. Um quadro que é puro cosmos!",
-          "imageUrl": "images/conhecimentosgerais/57_vanGogh.jpg",
+          "imageUrl": "images/conhecimentosgerais/57_vanGogh.webp",
           "imageDescription": "Imagem da pintura 'A Noite Estrelada' de Van Gogh, com céus girantes e estrelas brilhantes."
         },
         {
@@ -1561,7 +1561,7 @@
           "text": "Euro",
           "isCorrect": true,
           "explanation": "Você é um economista europeu! O Euro (€) é a moeda oficial da Zona do Euro, usada por 20 países da UE, perfeita pra comprar croissants ou paellas!",
-          "imageUrl": "images/conhecimentosgerais/58_euro_moeda_europa.jpg",
+          "imageUrl": "images/conhecimentosgerais/58_euro_moeda_europa.webp",
           "imageDescription": "Imagem de notas e moedas de Euro, a moeda oficial da União Europeia."
         },
         {
@@ -1588,7 +1588,7 @@
           "text": "Vaticano",
           "isCorrect": true,
           "explanation": "Você é um papa do conhecimento! O Vaticano, com 0,44 km², é o menor país, lar do Papa e da Basílica de São Pedro. Pequeno, mas poderoso!",
-          "imageUrl": "images/conhecimentosgerais/59_vaticano.jpg",
+          "imageUrl": "images/conhecimentosgerais/59_vaticano.webp",
           "imageDescription": "Imagem da Basílica de São Pedro no Vaticano, coração do menor país do mundo."
         },
         {
@@ -1615,7 +1615,7 @@
           "text": "Machado de Assis",
           "isCorrect": true,
           "explanation": "Você é um clássico! Machado de Assis, gênio do Realismo, escreveu 'Dom Casmurro', com Bentinho e Capitu fazendo a gente discutir traição até hoje!",
-          "imageUrl": "images/conhecimentosgerais/60_machado_de_Assis.jpg",
+          "imageUrl": "images/conhecimentosgerais/60_machado_de_Assis.webp",
           "imageDescription": "Fotografia de Machado de Assis, autor brasileiro de 'Dom Casmurro'."
         },
         {
@@ -1637,7 +1637,7 @@
           "text": "Lago Baikal",
           "isCorrect": true,
           "explanation": "Você mergulhou fundo! O Lago Baikal, na Sibéria, tem 23.615 km³, mais água que todos os Grandes Lagos juntos. É tão profundo que esconde mistérios!",
-          "imageUrl": "images/conhecimentosgerais/61_lagoBaikal.jpg",
+          "imageUrl": "images/conhecimentosgerais/61_lagoBaikal.webp",
           "imageDescription": "Imagem do Lago Baikal com águas cristalinas cercadas por montanhas."
         },
         {
@@ -1669,7 +1669,7 @@
           "text": "Roma",
           "isCorrect": true,
           "explanation": "Você é um centurião! Roma, com seus 2.700 anos, é a Cidade Eterna, lar do Coliseu e do Vaticano. História em cada pedra!",
-          "imageUrl": "images/conhecimentosgerais/62_roma.jpg",
+          "imageUrl": "images/conhecimentosgerais/62_roma.webp",
           "imageDescription": "Imagem do Coliseu em Roma, símbolo da Cidade Eterna."
         },
         {
@@ -1691,7 +1691,7 @@
           "text": "Tigre",
           "isCorrect": true,
           "explanation": "Rugiu e acertou! O tigre, especialmente o de Bengala, pode pesar até 325 kg, sendo o maior felino, com listras que são puro estilo selvagem!",
-          "imageUrl": "images/conhecimentosgerais/63_tigre.jpg",
+          "imageUrl": "images/conhecimentosgerais/63_tigre.webp",
           "imageDescription": "Imagem de um tigre de Bengala na selva, o maior felino do mundo."
         },
         {
@@ -1723,7 +1723,7 @@
           "text": "Platão",
           "isCorrect": true,
           "explanation": "Você é um filósofo de toga! Platão escreveu 'O Banquete', discutindo amor e beleza em um jantar épico. Filosofia com vinho, melhor combinação!",
-          "imageUrl": "images/conhecimentosgerais/64_platao.jpg",
+          "imageUrl": "images/conhecimentosgerais/64_platao.webp",
           "imageDescription": "Imagem de um busto de Platão, autor de 'O Banquete'."
         },
         {
@@ -1750,7 +1750,7 @@
           "text": "Mauna Loa",
           "isCorrect": true,
           "explanation": "Você é uma erupção de saber! Mauna Loa, no Havaí, é o maior vulcão ativo, com 4.169m acima do mar e uma base gigantesca. Aloha, lava!",
-          "imageUrl": "images/conhecimentosgerais/65_maunaLoa.jpg",
+          "imageUrl": "images/conhecimentosgerais/65_maunaLoa.webp",
           "imageDescription": "Imagem do vulcão Mauna Loa no Havaí, o maior vulcão ativo do mundo."
         },
         {
@@ -1772,7 +1772,7 @@
           "text": "Tyrannosaurus rex",
           "isCorrect": true,
           "explanation": "Rugiu como um T-Rex! O Tyrannosaurus rex, com até 12m de comprimento, é o maior dinossauro carnívoro conhecido, aterrorizando o Cretáceo com seus dentões!",
-          "imageUrl": "images/conhecimentosgerais/66_tiranossauro_rex.jpg",
+          "imageUrl": "images/conhecimentosgerais/66_tiranossauro_rex.webp",
           "imageDescription": "Imagem do esqueleto de 'Sue', um T-Rex, o maior dinossauro carnívoro conhecido."
         },
         {
@@ -1804,7 +1804,7 @@
           "text": "Canadá",
           "isCorrect": true,
           "explanation": "Você é um mapa ambulante! O Canadá, com 9,98 milhões de km², é o segundo maior país, cheio de lagos, florestas e um frio que faz até ursos polares usarem cachecol!",
-          "imageUrl": "images/conhecimentosgerais/67_canada.jpg",
+          "imageUrl": "images/conhecimentosgerais/67_canada.webp",
           "imageDescription": "Imagem de uma paisagem canadense com lagos e florestas, destacando sua vasta área."
         },
         {
@@ -1831,7 +1831,7 @@
           "text": "Fígado",
           "isCorrect": true,
           "explanation": "Você é um anatomista! O fígado, com até 1,5 kg, é o maior órgão interno, trabalhando como um superlaboratório que desintoxica e faz mil tarefas!",
-          "imageUrl": "images/conhecimentosgerais/68_figado.jpg",
+          "imageUrl": "images/conhecimentosgerais/68_figado.webp",
           "imageDescription": "Imagem ilustrativa de um fígado humano, o maior órgão interno."
         },
         {
@@ -1858,7 +1858,7 @@
           "text": "Indonésia",
           "isCorrect": true,
           "explanation": "Você navegou certinho! A Indonésia, com mais de 17.000 ilhas, é o maior arquipélago, incluindo Bali e Java. É um paraíso de ilhas sem fim!",
-          "imageUrl": "images/conhecimentosgerais/69_indonesia.jpg",
+          "imageUrl": "images/conhecimentosgerais/69_indonesia.webp",
           "imageDescription": "Imagem de uma praia em Bali, parte do maior arquipélago do mundo, a Indonésia."
         },
         {
@@ -1885,7 +1885,7 @@
           "text": "Deserto da Antártida",
           "isCorrect": true,
           "explanation": "Você é um pinguim do saber! A Antártida, com 13,8 milhões de km², é o maior deserto frio, coberto de gelo e sem chuva. Frio de rachar!",
-          "imageUrl": "images/conhecimentosgerais/70_deserto_antartida.jpg",
+          "imageUrl": "images/conhecimentosgerais/70_deserto_antartida.webp",
           "imageDescription": "Imagem de uma paisagem gelada da Antártida, o maior deserto frio do mundo."
         },
         {
@@ -1907,7 +1907,7 @@
           "text": "Júpiter",
           "isCorrect": true,
           "explanation": "Você é um gigante cósmico! Júpiter, com 1.400 vezes o volume da Terra, é o maior planeta, cheio de tempestades e luas como Ganimedes. Rei do Sistema Solar!",
-          "imageUrl": "images/conhecimentosgerais/71_jupiter.jpg",
+          "imageUrl": "images/conhecimentosgerais/71_jupiter.webp",
           "imageDescription": "Imagem de Júpiter com sua Grande Mancha Vermelha, o maior planeta do Sistema Solar."
         },
         {
@@ -1939,7 +1939,7 @@
           "text": "Pretória",
           "isCorrect": true,
           "explanation": "Você é um arco-íris de saber! Pretória é a capital executiva da África do Sul, dividindo funções com Cidade do Cabo (legislativa) e Bloemfontein (judiciária). Um país, três capitais!",
-          "imageUrl": "images/conhecimentosgerais/72_pretoria_africadosul.jpg",
+          "imageUrl": "images/conhecimentosgerais/72_pretoria_africadosul.webp",
           "imageDescription": "Imagem dos Union Buildings em Pretória, sede do governo sul-africano."
         },
         {
@@ -1966,7 +1966,7 @@
           "text": "Oceano Pacífico",
           "isCorrect": true,
           "explanation": "Você é um mergulhador de elite! O Pacífico, com profundidade média de 4.000m e a Fossa das Marianas, é o oceano mais profundo. Um abismo de respeito!",
-          "imageUrl": "images/conhecimentosgerais/73_oceano_pacifico.jpg",
+          "imageUrl": "images/conhecimentosgerais/73_oceano_pacifico.webp",
           "imageDescription": "Imagem do Oceano Pacífico com águas profundas, representando sua profundidade média."
         },
         {
@@ -1988,7 +1988,7 @@
           "text": "Rio Amazonas",
           "isCorrect": true,
           "explanation": "Você navegou como um boto! O Amazonas, com 6.992 km, é o maior rio da América do Sul (e talvez do mundo), carregando mais água que qualquer outro. Selva adentro!",
-          "imageUrl": "images/conhecimentosgerais/74_rio_amazonas.jpg",
+          "imageUrl": "images/conhecimentosgerais/74_rio_amazonas.webp",
           "imageDescription": "Imagem do Rio Amazonas cercado pela floresta amazônica, o maior rio da América do Sul."
         },
         {
@@ -2020,7 +2020,7 @@
           "text": "Cidade do México",
           "isCorrect": true,
           "explanation": "Viva México! A Cidade do México, construída sobre a antiga Tenochtitlán, é a capital, cheia de história, tacos e o Zócalo. Olé!",
-          "imageUrl": "images/conhecimentosgerais/75_cidade_do_mexico.jpg",
+          "imageUrl": "images/conhecimentosgerais/75_cidade_do_mexico.webp",
           "imageDescription": "Imagem da Praça do Zócalo na Cidade do México, coração da capital mexicana."
         },
         {
@@ -2042,7 +2042,7 @@
           "text": "Baleia-azul",
           "isCorrect": true,
           "explanation": "Você é um oceano de saber! A baleia-azul, com até 33m e 200 toneladas, é o maior animal marinho (e de todos os tempos), nadando com um coração do tamanho de um carro!",
-          "imageUrl": "images/conhecimentosgerais/76_baleia_azul.jpg",
+          "imageUrl": "images/conhecimentosgerais/76_baleia_azul.webp",
           "imageDescription": "Imagem de uma baleia-azul nadando no oceano, o maior animal marinho registrado."
         },
         {
@@ -2074,7 +2074,7 @@
           "text": "Wellington",
           "isCorrect": true,
           "explanation": "Kia ora, acerto! Wellington, com seu porto e vibe cultural, é a capital da Nova Zelândia, onde o vento sopra e os filmes de Hobbit são lei!",
-          "imageUrl": "images/conhecimentosgerais/77_wellington_nova_zelandia.jpg",
+          "imageUrl": "images/conhecimentosgerais/77_wellington_nova_zelandia.webp",
           "imageDescription": "Imagem do porto de Wellington, capital da Nova Zelândia, com vista da cidade."
         },
         {
@@ -2101,7 +2101,7 @@
           "text": "Ásia",
           "isCorrect": true,
           "explanation": "Você é um atlas humano! A Ásia, com 44,5 milhões de km², é o maior continente habitado, lar de mais de 4 bilhões de pessoas e culturas milenares!",
-          "imageUrl": "images/conhecimentosgerais/78_asia.jpg",
+          "imageUrl": "images/conhecimentosgerais/78_asia.webp",
           "imageDescription": "Imagem de um mapa destacando a Ásia, o maior continente habitado do planeta."
         },
         {
@@ -2123,7 +2123,7 @@
           "text": "Grande Barreira de Coral",
           "isCorrect": true,
           "explanation": "Você mergulhou no alvo! A Grande Barreira de Coral, na Austrália, com 2.300 km, é o maior sistema de corais, um paraíso subaquático cheio de vida!",
-          "imageUrl": "images/conhecimentosgerais/79_grande_barreira_de_coral.jpg",
+          "imageUrl": "images/conhecimentosgerais/79_grande_barreira_de_coral.webp",
           "imageDescription": "Imagem da Grande Barreira de Coral na Austrália, com corais coloridos e águas cristalinas."
         },
         {
@@ -2155,7 +2155,7 @@
           "text": "Burj Khalifa",
           "isCorrect": true,
           "explanation": "Você tocou as nuvens! O Burj Khalifa, em Dubai, com 829,8m, é o prédio mais alto do mundo, um arranha-céu que faz até as estrelas ficarem com inveja!",
-          "imageUrl": "images/conhecimentosgerais/80_burj_kalifa_dubai.jpg",
+          "imageUrl": "images/conhecimentosgerais/80_burj_kalifa_dubai.webp",
           "imageDescription": "Imagem do Burj Khalifa em Dubai, o prédio mais alto do mundo."
         },
         {
