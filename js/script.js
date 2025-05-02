@@ -412,41 +412,38 @@ function showQuestion(questionData, elements) {
             bF.appendChild(imgContainer); // Adiciona ANTES da explicação
         }
 
-        // --- MODIFICAÇÃO: Criação da Explicação com Ícone ---
+        // --- CRIAÇÃO DA EXPLICAÇÃO COM ÍCONE (Lógica Atualizada) ---
         const explanationContainer = document.createElement('div');
-        explanationContainer.className = 'explanation-container'; // Novo container
+        explanationContainer.className = 'explanation-container'; // Container
 
         const explanationText = opt.explanation || 'Sem explicação.';
-        const correctPrefix = "Correto! ";
-        const incorrectPrefix = "Incorreto. ";
         let iconElement = null;
-        let textElement = document.createElement('span');
+        const textElement = document.createElement('span');
         textElement.className = 'explanation-text'; // Classe para o texto
+        textElement.textContent = explanationText; // Usa o texto da explicação completo
 
-        if (explanationText.startsWith(correctPrefix)) {
+        // Verifica diretamente a propriedade isCorrect para decidir o ícone
+        if (opt.isCorrect === true) {
             iconElement = document.createElement('img');
-            iconElement.src = 'images/resposta_correta.webp'; // <<< Substitua pelo caminho do seu ícone de correto
+            iconElement.src = 'images/resposta_correta.webp'; // Caminho do ícone de correto
             iconElement.alt = 'Correto';
             iconElement.className = 'explanation-icon';
-            textElement.textContent = explanationText.substring(correctPrefix.length);
-        } else if (explanationText.startsWith(incorrectPrefix)) {
+        } else {
+             // Para opções incorretas (isCorrect é false, undefined ou qualquer outra coisa)
             iconElement = document.createElement('img');
-            iconElement.src = 'images/resposta_incorreta.webp'; // <<< Substitua pelo caminho do seu ícone de incorreto
+            iconElement.src = 'images/resposta_incorreta.webp'; // Caminho do ícone de incorreto
             iconElement.alt = 'Incorreto';
             iconElement.className = 'explanation-icon';
-            textElement.textContent = explanationText.substring(incorrectPrefix.length);
-        } else {
-            // Sem prefixo - apenas texto
-            textElement.textContent = explanationText;
         }
 
-        if (iconElement) {
-            explanationContainer.appendChild(iconElement); // Adiciona ícone se existir
+        // Adiciona o ícone (sempre presente agora) e o texto ao contêiner
+        if (iconElement) { // Embora sempre criado, boa prática verificar
+            explanationContainer.appendChild(iconElement); // Adiciona o ícone PRIMEIRO
         }
-        explanationContainer.appendChild(textElement); // Adiciona o texto
+        explanationContainer.appendChild(textElement); // Adiciona o texto DEPOIS
 
         bF.appendChild(explanationContainer); // Adiciona o container da explicação à face traseira
-        // --- FIM DA MODIFICAÇÃO ---
+        // --- FIM DA CRIAÇÃO DA EXPLICAÇÃO COM ÍCONE (Lógica Atualizada) ---
 
         // Monta o card
         oF.appendChild(fF); oF.appendChild(bF);
