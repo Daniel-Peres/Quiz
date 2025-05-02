@@ -1025,3 +1025,17 @@ input[type=number]:focus-visible {
     transform: scale(1.2);
     
 }
+
+/* === Animação de giro ao revelar === */
+.option-frame.revealed:not(.expanded-correct) {
+    animation: flip-reveal 0.6s ease-in-out;
+}
+
+@keyframes flip-reveal {
+    0% {
+        transform: rotateY(180deg);
+    }
+    100% {
+        transform: rotateY(0deg);
+    }
+}
