@@ -569,24 +569,49 @@ function confirmAnswer(elements) {
                     selectedOptionElement.classList.add('expanded-correct');
                     selectedOptionElement.style.zIndex = 1000; // Garante que fique na frente
 
-                    // Lógica para posicionar o botão "Fechar Detalhes" abaixo do card expandido
+                    // --- Lógica para posicionar o botão "Fechar Detalhes" abaixo do card expandido (AJUSTADA) ---
                     const animationDuration = 800; // Duração da animação (ajuste se mudou no CSS)
                     setTimeout(() => {
                         if (elements.expandedCardControlsContainer && selectedOptionElement.classList.contains('expanded-correct')) {
                             const cardRect = selectedOptionElement.getBoundingClientRect(); // Pega as coordenadas do card selecionado (agora expandido)
                             const buttonHeight = elements.closeExpandedCardBtn.offsetHeight || 40;
-                            const desiredSpacing = 15; // Espaço entre o card e o botão
-                            const buttonTop = cardRect.bottom + desiredSpacing;
-                            const maxTop = window.innerHeight - buttonHeight - 10; // Limite para não sair da tela
+                            const desiredSpacing = 20; // Aumentado para 20px para um pouco mais de espaço
+                            const minSpaceFromBottom = 15; // Mínimo espaço do rodapé da viewport (pode ajustar se necessário)
+
+                            // Calcula a posição base desejada (abaixo do cartão expandido)
+                            let buttonTop = cardRect.bottom + desiredSpacing;
+
+                            // Calcula a posição máxima segura para o botão dentro da viewport
+                            // Adicionamos um buffer maior (minSpaceFromBottom) para garantir espaço na parte inferior
+                            const maxTop = window.innerHeight - buttonHeight - minSpaceFromBottom;
+
+                            // A posição final será a menor entre a posição calculada abaixo do cartão
+                            // e a posição máxima segura. Isso garante que o botão não saia da tela
+                            // pela parte inferior.
                             const finalTop = Math.min(buttonTop, maxTop);
 
-                            console.log(`Posicionando botão Fechar: card selecionado bottom=${cardRect.bottom}, botão top=${finalTop}`);
-                            elements.expandedCardControlsContainer.style.top = `${finalTop}px`;
+                            console.log(`Posicionando botão Fechar: card selecionado bottom=${cardRect.bottom}, buttonHeight=${buttonHeight}, window.innerHeight=${window.innerHeight}, maxTop=${maxTop}, calculated buttonTop=${buttonTop}, finalTop=${finalTop}`);
+
+                             // Verifica se a posição final calculada ainda sobrepõe o cartão expandido de forma significativa
+                            // Isso é um fallback, idealmente os cálculos acima já deveriam mitigar isso.
+                            // Considera a parte inferior do cartão menos a altura do botão
+                            const cardEffectiveBottom = cardRect.bottom - buttonHeight;
+
+                            if (finalTop < cardEffectiveBottom && buttonTop > maxTop) {
+                                // Se a posição final (limitada pelo maxTop) ainda resulta em sobreposição,
+                                // força a posição para o limite inferior da viewport (`maxTop`).
+                                console.warn("Posição calculada sobrepõe o cartão mesmo com limite. Forçando para maxTop.");
+                                elements.expandedCardControlsContainer.style.top = `${maxTop}px`;
+                            } else {
+                                elements.expandedCardControlsContainer.style.top = `${finalTop}px`; // Usa a posição calculada (limitada ou não)
+                            }
+
                             elements.expandedCardControlsContainer.classList.remove('hide'); // Mostra o botão
                         } else {
                             console.warn("Timeout: Card selecionado não está mais expandido ou container do botão não encontrado.")
                         }
                     }, animationDuration);
+                     // --- FIM DA Lógica para posicionar o botão (AJUSTADA) ---
                 });
             });
         } else {
@@ -652,9 +677,10 @@ function showResults(elements) {
         // Calcula máximo para este quiz
         const totalConfigPoints = quizConfig.totalPoints || 0;
         const totalQuizQuestions = fullQuizData.length;
-        const maxPointsForThisQuiz = (totalQuizQuestions > 0 && totalQPlayed > 0)
-            ? Math.round(totalConfigPoints * (totalQPlayed / totalQuizQuestions))
-            : Math.round(totalQPlayed * currentPointsPerQuestion); // Fallback
+        const questionsPlayed = quizData.length;
+        const maxPointsForThisQuiz = (totalQuizQuestions > 0 && questionsPlayed > 0)
+            ? Math.round(totalConfigPoints * (questionsPlayed / totalQuizQuestions))
+            : Math.round(questionsPlayed * currentPointsPerQuestion); // Fallback
 
         const finalScoreValue = Math.round(score);
         finalScoreString = `Pontuação: <strong>${finalScoreValue} / ${maxPointsForThisQuiz}</strong> pontos.`;
@@ -859,7 +885,16 @@ document.addEventListener('DOMContentLoaded', () => {
      });
     } else console.warn("#quiz-back-btn não encontrado ou removido intencionalmente.");
 
-    if (elements.quizMainMenuBtn) { elements.quizMainMenuBtn.addEventListener('click', () => { console.log("Menu Principal (quiz) clicado."); showThemeSelectionScreen(elements); }); } else console.warn("#quiz-main-menu-btn não encontrado ou removido intencionalmente.");
+    // CORREÇÃO DO ERRO DE SINTAXE AQUI:
+    if (elements.quizMainMenuBtn) {
+        elements.quizMainMenuBtn.addEventListener('click', () => {
+            console.log("Menu Principal (quiz) clicado.");
+            showThemeSelectionScreen(elements);
+        });
+    } else { // Este else pertence ao if que verifica elements.quizMainMenuBtn
+        console.warn("#quiz-main-menu-btn não encontrado ou removido intencionalmente.");
+    }
+
 
     if (elements.confirmBtn) elements.confirmBtn.addEventListener('click', () => confirmAnswer(elements)); else console.error("#confirm-btn não encontrado!");
     if (elements.nextBtn) elements.nextBtn.addEventListener('click', () => nextQuestion(elements)); else console.warn("#next-btn não encontrado.");
