@@ -1,0 +1,2658 @@
+{
+    "config": {
+        "theme": "Brinquedos e Brincadeiras",
+        "totalPoints": 1000,
+        "scoring": "points"
+    },
+    "data": [
+        {
+            "question": "Em qual brincadeira uma pessoa corre atrás das outras para 'congelá-las'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Esconde-esconde",
+                    "isCorrect": false,
+                    "explanation": "Em Esconde-esconde, você se esconde para não ser achado! A brincadeira de 'congelar' é outra, que envolve correr e tocar!"
+                },
+                {
+                    "text": "Pega-pega",
+                    "isCorrect": false,
+                    "explanation": "Pega-pega é correr para 'pegar' alguém e passar a vez de correr! Congelar quem é pego é uma variação dela ou outra brincadeira parecida!"
+                },
+                {
+                    "text": "Estátua",
+                    "isCorrect": false,
+                    "explanation": "Estátua é ficar parado quando a música para! A brincadeira de 'congelar' as pessoas que são tocadas por quem está 'pegando' é outra."
+                },
+                {
+                    "text": "Pega-pega Congelante (ou Gelo)",
+                    "isCorrect": true,
+                    "explanation": "Exato! Pega-pega Congelante (ou Gelo)! Quem é pego fica 'congelado' no lugar, geralmente com as pernas abertas, e só pode ser salvo se outro colega passar por baixo ou tocar nele, dependendo das regras combinadas. Corra que o gelo pega!",
+                    "imageUrl": "https://exemplo.com/brincadeira_pega_congelante.jpg",
+                    "imageDescription": "Imagem de crianças brincando de pega-pega congelante."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do famoso brinquedo de encaixar peças de plástico, conhecido por suas cores e a possibilidade de construir qualquer coisa?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Quebra-cabeça",
+                    "isCorrect": false,
+                    "explanation": "Quebra-cabeça é montar uma imagem a partir de peças! O brinquedo de construir livremente é outro, com peças de plástico coloridas e pinos de encaixe!"
+                },
+                {
+                    "text": "Massinha de Modelar",
+                    "isCorrect": false,
+                    "explanation": "Massinha é modelar com as mãos! O brinquedo de construir estruturas é de encaixar peças rígidas."
+                },
+                {
+                    "text": "LEGO",
+                    "isCorrect": true,
+                    "explanation": "Clássico mundial! LEGO! As famosas peças de plástico interligáveis que permitem criar desde casinhas simples até robôs complexos e naves espaciais. A imaginação é o limite (e às vezes pisar nas peças dói demais!). 'LEGO é só alegria!'",
+                    "imageUrl": "https://exemplo.com/brinquedo_lego_pecas.jpg",
+                    "imageDescription": "Imagem de diversas peças de LEGO coloridas."
+                },
+                {
+                    "text": "Play-Doh",
+                    "isCorrect": false,
+                    "explanation": "Play-Doh é uma marca de massinha de modelar! O brinquedo de construir encaixando peças é LEGO."
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira as crianças usam um elástico grande e pulam sobre ele em diferentes níveis e sequências?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Pula Corda",
+                    "isCorrect": false,
+                    "explanation": "Pula corda é com uma corda rodando sobre você! A brincadeira com o elástico parado é outra, que você pula sobre e dentro dele!"
+                },
+                {
+                    "text": "Amarelinha",
+                    "isCorrect": false,
+                    "explanation": "Amarelinha é pular em um desenho no chão! A brincadeira com o elástico é com um elástico de verdade!"
+                },
+                {
+                    "text": "Elástico (ou Pular Elástico)",
+                    "isCorrect": true,
+                    "explanation": "É isso! Elástico (ou Pular Elástico)! Uma brincadeira onde duas pessoas ficam com as pontas de um elástico esticado nos tornozelos (e depois em níveis mais altos, como joelhos, cintura, pescoço!) e as outras pulam sobre e dentro do elástico, seguindo sequências. Equilíbrio e ritmo!",
+                    "imageUrl": "https://exemplo.com/brincadeira_pular_elastico.jpg",
+                    "imageDescription": "Imagem de crianças brincando de pular elástico."
+                },
+                {
+                    "text": "Cinco Marias",
+                    "isCorrect": false,
+                    "explanation": "Cinco Marias é um jogo com saquinhos ou pedrinhas! A brincadeira com o elástico grande é outra."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo eletrônico dos anos 80 que emitia sequências de luzes e sons que o jogador tinha que repetir?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Atari",
+                    "isCorrect": false,
+                    "explanation": "Atari é um console de videogame dos anos 80! O brinquedo de memória com luzes e sons é outro."
+                },
+                {
+                    "text": "Genius",
+                    "isCorrect": true,
+                    "explanation": "Clássico da memória! Genius! O brinquedo redondo com quatro botões coloridos que acendiam e emitiam sons em sequência, e o jogador tinha que repetir. A sequência ia ficando cada vez mais longa e difícil. Teste de memória (e frustração!) dos anos 80!",
+                    "imageUrl": "https://exemplo.com/brinquedo_genius.jpg",
+                    "imageDescription": "Imagem do brinquedo Genius dos anos 80."
+                },
+                {
+                    "text": "Pense Bem",
+                    "isCorrect": false,
+                    "explanation": "Pense Bem era um computador educativo infantil dos anos 80! O brinquedo de memória de luzes e sons é o Genius."
+                },
+                {
+                    "text": "Simon",
+                    "isCorrect": false,
+                    "explanation": "Simon é o nome original americano do Genius! No Brasil, ele ficou famoso como Genius da Estrela. A resposta certa é o nome popular no Brasil!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira uma pessoa conta até um número alto enquanto as outras se escondem?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Pega-pega",
+                    "isCorrect": false,
+                    "explanation": "Pega-pega é correr atrás para pegar! Esconde-esconde é sobre... se esconder!"
+                },
+                {
+                    "text": "Amarelinha",
+                    "isCorrect": false,
+                    "explanation": "Amarelinha é pular em um desenho no chão! Esconde-esconde é sobre... se esconder enquanto alguém conta!"
+                },
+                {
+                    "text": "Esconde-esconde",
+                    "isCorrect": true,
+                    "explanation": "Clássico universal! Esconde-esconde! Uma pessoa (o 'pegador') conta (geralmente em uma base) enquanto as outras se escondem. Depois de contar, o pegador sai procurando. O primeiro a ser achado vira o pegador na próxima (ou o último, dependendo das regras!). Onde você se escondeu?",
+                    "imageUrl": "https://exemplo.com/brincadeira_esconde_esconde.jpg",
+                    "imageDescription": "Imagem de crianças brincando de esconde-esconde, uma contando e outras se escondendo."
+                },
+                {
+                    "text": "Guerra de Bexiga d'água",
+                    "isCorrect": false,
+                    "explanation": "Guerra de bexiga d'água é jogar água! Esconde-esconde é sobre contar e se esconder!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do jogo de tabuleiro onde o objetivo é enriquecer comprando propriedades?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "War",
+                    "isCorrect": false,
+                    "explanation": "War é jogo de estratégia de dominação mundial! O jogo de comprar propriedades para enriquecer é outro."
+                },
+                {
+                    "text": "Detetive",
+                    "isCorrect": false,
+                    "explanation": "Detetive é jogo de mistério e assassinato! O jogo de comprar ruas e hotéis é outro."
+                },
+                {
+                    "text": "Banco Imobiliário",
+                    "isCorrect": true,
+                    "explanation": "Que empresário! Banco Imobiliário é o jogo de tabuleiro onde você compra, vende e aluga propriedades (ruas, avenidas, bairros) para falir seus adversários e se tornar o mais rico. Uma aula de 'negócios' (e brigas familiares!)!",
+                    "imageUrl": "https://exemplo.com/jogo_banco_imobiliario.jpg",
+                    "imageDescription": "Imagem do tabuleiro e peças do jogo Banco Imobiliário."
+                },
+                {
+                    "text": "Perfil",
+                    "isCorrect": false,
+                    "explanation": "Perfil é jogo de adivinhação de personalidades ou coisas! O jogo de comprar propriedades é Banco Imobiliário."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo que é uma bola de plástico com um elástico preso, para girar no dedo?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Bolinha de Gude",
+                    "isCorrect": false,
+                    "explanation": "Bolinha de Gude é a bolinha de vidro para jogar no chão! O brinquedo de girar no dedo com elástico é outro."
+                },
+                {
+                    "text": "Ioiô (ou Yo-yo)",
+                    "isCorrect": true,
+                    "explanation": "É ele! O Ioiô (ou Yo-yo)! Um brinquedo com dois discos ligados por um eixo e um barbante que se prende ao dedo. Permite fazer truques, subir e descer, e desafia a gravidade (um pouco!). Um clássico atemporal!",
+                    "imageUrl": "https://exemplo.com/brinquedo_ioio.jpg",
+                    "imageDescription": "Imagem de um ioiô com o barbante."
+                },
+                {
+                    "text": "Pião",
+                    "isCorrect": false,
+                    "explanation": "Pião é um objeto que gira no chão puxado por um barbante! O brinquedo de girar no dedo é o Ioiô."
+                },
+                {
+                    "text": "Beyb...",
+                    "isCorrect": false,
+                    "explanation": "Beyb... (Beyblade!) é um tipo de pião moderno que luta em arenas! O brinquedo clássico de girar no dedo é o Ioiô."
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira as crianças pulam dentro de um desenho no chão (geralmente com números) jogando uma pedrinha?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Pula Corda",
+                    "isCorrect": false,
+                    "explanation": "Pula corda é com uma corda! A brincadeira com desenho no chão e pedrinha é Amarelinha!"
+                },
+                {
+                    "text": "Elástico",
+                    "isCorrect": false,
+                    "explanation": "Elástico é com um elástico grande! A brincadeira com desenho no chão e pedrinha é Amarelinha!"
+                },
+                {
+                    "text": "Cinco Marias",
+                    "isCorrect": false,
+                    "explanation": "Cinco Marias é um jogo com saquinhos! A brincadeira de pular em um desenho no chão jogando pedrinha é Amarelinha!"
+                },
+                {
+                    "text": "Amarelinha (ou Jogo da Amarelinha)",
+                    "isCorrect": true,
+                    "explanation": "Que clássico! Amarelinha (ou Jogo da Amarelinha)! Desenha-se um esquema no chão (com números ou casas como 'Terra', 'Céu', 'Inferno'). Joga-se uma pedrinha em uma casa e pula-se nas outras, evitando a casa com a pedrinha, pegando-a na volta. Equilíbrio, coordenação e diversão no chão!",
+                    "imageUrl": "https://exemplo.com/brincadeira_amarelinha.jpg",
+                    "imageDescription": "Imagem de crianças brincando de amarelinha em um desenho no chão."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo que é uma bolinha de vidro usada para jogar no chão, mirando nas bolinhas dos adversários?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Bola de Gude (ou Bolinha de Gude)",
+                    "isCorrect": true,
+                    "explanation": "É isso! Bola de Gude (ou Bolinha de Gude)! As pequenas esferas de vidro (ou outros materiais) usadas em diversos jogos de mira e estratégia no chão. Quem acerta a bolinha do outro, ganha! Cuidado pra não perder a sua bolinha favorita!",
+                    "imageUrl": "https://exemplo.com/brinquedo_bola_de_gude.jpg",
+                    "imageDescription": "Imagem de diversas bolinhas de gude coloridas."
+                },
+                {
+                    "text": "Bolinha de Sabão",
+                    "isCorrect": false,
+                    "explanation": "Bolinha de Sabão é para fazer bolhas que flutuam! Bola de Gude é para jogar no chão."
+                },
+                {
+                    "text": "Pião",
+                    "isCorrect": false,
+                    "explanation": "Pião é um objeto que gira no chão! Bolinha de Gude é uma bolinha para jogar e mira."
+                },
+                {
+                    "text": "Peteca",
+                    "isCorrect": false,
+                    "explanation": "Peteca é para jogar para o alto e rebater com a mão! Bolinha de Gude é para jogar no chão."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do jogo de tabuleiro de estratégia militar onde o objetivo é conquistar territórios no mapa-múndi?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Banco Imobiliário",
+                    "isCorrect": false,
+                    "explanation": "Banco Imobiliário é jogo de comprar propriedades! O jogo de estratégia militar no mapa-múndi é outro."
+                },
+                {
+                    "text": "Detetive",
+                    "isCorrect": false,
+                    "explanation": "Detetive é jogo de mistério! O jogo de dominação militar é War!"
+                },
+                {
+                    "text": "Perfil",
+                    "isCorrect": false,
+                    "explanation": "Perfil é jogo de adivinhar personalidades! O jogo de estratégia militar no mapa-múndi é War!"
+                },
+                {
+                    "text": "War",
+                    "isCorrect": true,
+                    "explanation": "Guerra declarada! War é o clássico jogo de tabuleiro onde você move exércitos pelo mapa-múndi, conquista territórios, ataca adversários e tenta alcançar seu objetivo secreto (ou a dominação total!). Prepare seus exércitos e lance os dados!",
+                    "imageUrl": "https://exemplo.com/jogo_war.jpg",
+                    "imageDescription": "Imagem do tabuleiro e peças do jogo War."
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira uma pessoa 'cola' na parede enquanto as outras tentam atravessar sem serem vistas se movendo?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Esconde-esconde",
+                    "isCorrect": false,
+                    "explanation": "Esconde-esconde é sobre se esconder para não ser achado! A brincadeira de 'colar na parede' e não ser visto se movendo é outra."
+                },
+                {
+                    "text": "Pega-pega",
+                    "isCorrect": false,
+                    "explanation": "Pega-pega é correr atrás para pegar! A brincadeira de 'colar na parede' e se mover só quando a pessoa não está olhando é outra."
+                },
+                {
+                    "text": "Mamãe Gansa (ou Siga o Mestre)",
+                    "isCorrect": false,
+                    "explanation": "Mamãe Gansa ou Siga o Mestre é imitar a pessoa da frente! A brincadeira de 'colar na parede' e se mover escondido é 'Morto Vivo'."
+                },
+                {
+                    "text": "Morto Vivo (ou Mãe da Rua)",
+                    "isCorrect": false,
+                    "explanation": "Morto Vivo é levantar e abaixar! A brincadeira de 'colar na parede' e se mover escondido é 1, 2, 3 Inglês."
+                },
+                {
+                    "text": "1, 2, 3 Inglês (ou Semáforo)",
+                    "isCorrect": true,
+                    "explanation": "Que clássico! 1, 2, 3 Inglês (ou Semáforo, dependendo da região)! Uma pessoa fica de costas (na base) e conta 'Um, dois, três... Inglês!' (ou 'Semáforo verde!'). Enquanto ela conta ou está virada, os outros correm. Quando ela se vira ('...Inglês!' ou 'Semáforo vermelho!'), todos têm que parar imediatamente e ficar como estátuas. Quem for pego se mexendo, volta para o início. Quem chegar primeiro na base, ganha ou vira o pegador! Cuidado pra não mexer!",
+                    "imageUrl": "https://exemplo.com/brincadeira_123ingles.jpg",
+                    "imageDescription": "Imagem de crianças brincando de 1, 2, 3 Inglês ou Semáforo."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do famoso brinquedo eletrônico dos anos 80 que simulava um animal de estimação virtual?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Genius",
+                    "isCorrect": false,
+                    "explanation": "Genius é jogo de memória de luzes e sons! O animal de estimação virtual dos anos 90 é outro."
+                },
+                {
+                    "text": "Tamagotchi",
+                    "isCorrect": true,
+                    "explanation": "Febre mundial! Tamagotchi! O pequeno ovo eletrônico que você tinha que cuidar (alimentar, dar banho, brincar, limpar o cocô!) para que o animalzinho virtual crescesse e não morresse. Um pet que cabia no bolso (e te acordava no meio da noite!).",
+                    "imageUrl": "https://exemplo.com/brinquedo_tamagotchi.jpg",
+                    "imageDescription": "Imagem do brinquedo Tamagotchi."
+                },
+                {
+                    "text": "Furbi",
+                    "isCorrect": false,
+                    "explanation": "Furbi (Furby!) é um bichinho de pelúcia eletrônico que interagia! O animal de estimação *virtual* dos anos 90 é o Tamagotchi."
+                },
+                {
+                    "text": "Digimon",
+                    "isCorrect": false,
+                    "explanation": "Digimon é uma franquia (desenho, jogos)! O brinquedo específico de animal de estimação virtual é o Tamagotchi."
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira de roda as crianças cantam uma música e uma criança no centro escolhe alguém?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Ciranda, Cirandinha",
+                    "isCorrect": true,
+                    "explanation": "É isso! Ciranda, Cirandinha! Uma clássica brincadeira de roda onde as crianças cantam a música 'Ciranda, cirandinha, vamos todos cirandar...' e uma criança no centro (geralmente o 'anel') escolhe alguém no final para ir para o centro, continuando a brincadeira. Pura tradição e música na roda!",
+                    "imageUrl": "https://exemplo.com/brincadeira_ciranda.jpg",
+                    "imageDescription": "Imagem de crianças brincando de roda (ciranda)."
+                },
+                {
+                    "text": "Atirei o Pau no Gato",
+                    "isCorrect": false,
+                    "explanation": "Atirei o Pau no Gato é uma música, mas não descreve a brincadeira de roda com escolha no centro! A brincadeira é a Ciranda."
+                },
+                {
+                    "text": "Roda Pião",
+                    "isCorrect": false,
+                    "explanation": "Roda Pião é uma música! A brincadeira de roda com escolha no centro é a Ciranda."
+                },
+                {
+                    "text": "Escravos de Jó",
+                    "isCorrect": false,
+                    "explanation": "Escravos de Jó é uma brincadeira com as mãos passando um objeto! A brincadeira de roda com escolha no centro é a Ciranda."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo que é um bastão com um barbante e um peso na ponta, usado para fazer truques?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Pião",
+                    "isCorrect": false,
+                    "explanation": "Pião é um objeto que gira no chão! O brinquedo com bastão e barbante é outro."
+                },
+                {
+                    "text": "Ioiô",
+                    "isCorrect": false,
+                    "explanation": "Ioiô é uma bolinha no dedo! O brinquedo com bastão é outro."
+                },
+                {
+                    "text": "Bilboquê",
+                    "isCorrect": false,
+                    "explanation": "Bilboquê é um copinho com uma bola presa por um barbante, para encaixar! O brinquedo com bastão e um peso na ponta do barbante é o Diabolô."
+                },
+                {
+                    "text": "Diabolô",
+                    "isCorrect": false,
+                    "explanation": "Diabolô é um objeto em forma de ampulheta manipulado com dois bastões e um barbante! O brinquedo que é um bastão com um peso na ponta do barbante é o Bate-Bate (ou Pogo Stick, ops!). A pergunta é sobre um bastão com um peso na ponta... hmm, seria um *kendama*? Ou um *yoyo* de bastão? Ou seria o *pogo stick* (carrinho de mola)? Pogo stick é um bastão com mola e pedais embaixo para pular. Não tem barbante e peso na ponta. Bilboquê tem barbante, mas é copo e bola. Diabolô tem bastões e barbante, mas o objeto é a ampulheta. Pião tem barbante, mas é um objeto para girar. Ioiô tem barbante, mas é uma bolinha para o dedo. Re-interpretando 'bastão com um barbante e um peso na ponta"
+                },
+                {
+                    "text": "Kendama",
+                    "isCorrect": true,
+                    "explanation": "Que curioso! O Kendama é um brinquedo japonês que consiste em um cabo (bastão) com uma ponta e três 'copos', e uma bola com um furo presa ao cabo por um barbante. O objetivo é fazer truques de coordenação, encaixando a bola em diferentes partes do cabo. Desafio de habilidade!",
+                    "imageUrl": "https://exemplo.com/brinquedo_kendama.jpg",
+                    "imageDescription": "Imagem de um Kendama."
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira de rua uma pessoa é 'o muro' e as outras tentam passar sem serem tocadas?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Pega-pega",
+                    "isCorrect": false,
+                    "explanation": "Pega-pega é correr atrás para pegar! A brincadeira de ter um 'muro' no meio é outra, onde você tem que atravessar a 'rua'!"
+                },
+                {
+                    "text": "Esconde-esconde",
+                    "isCorrect": false,
+                    "explanation": "Esconde-esconde é sobre se esconder! A brincadeira com um 'muro' no meio da rua é outra."
+                },
+                {
+                    "text": "Morto Vivo",
+                    "isCorrect": false,
+                    "explanation": "Morto Vivo é levantar e abaixar! A brincadeira com um 'muro' no meio da rua é a Mãe da Rua."
+                },
+                {
+                    "text": "Mãe da Rua (ou Mãe Cola)",
+                    "isCorrect": true,
+                    "explanation": "Que desafio! Em Mãe da Rua, uma pessoa é a 'mãe' e fica no meio (a 'rua'). As outras crianças ficam em um lado e tentam atravessar para o outro sem serem tocadas pela mãe. Quem for tocado, vira a mãe junto. A última criança a ser pega vira a mãe na próxima rodada. Coragem para atravessar a rua!",
+                    "imageUrl": "https://exemplo.com/brincadeira_mae_da_rua.jpg",
+                    "imageDescription": "Imagem de crianças brincando de Mãe da Rua."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do jogo de tabuleiro onde o objetivo é desvendar um assassinato, descobrindo o assassino, a arma e o local?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Banco Imobiliário",
+                    "isCorrect": false,
+                    "explanation": "Banco Imobiliário é sobre dinheiro! O jogo de desvendar mistérios é outro."
+                },
+                {
+                    "text": "War",
+                    "isCorrect": false,
+                    "explanation": "War é sobre guerra! O jogo de desvendar mistérios é Detetive!"
+                },
+                {
+                    "text": "Detetive",
+                    "isCorrect": true,
+                    "explanation": "Mistério no ar! Detetive é o jogo de tabuleiro onde os jogadores investigam um assassinato, coletando pistas (cartas) para descobrir 'Quem, com que arma, e onde' o crime foi cometido. Um clássico para testar suas habilidades de investigação!",
+                    "imageUrl": "https://exemplo.com/jogo_detetive.jpg",
+                    "imageDescription": "Imagem do tabuleiro e peças do jogo Detetive."
+                },
+                {
+                    "text": "Perfil",
+                    "isCorrect": false,
+                    "explanation": "Perfil é jogo de adivinhação! O jogo de desvendar mistérios é Detetive!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo que é um boneco de pano com cabeça de plástico e um pente na cabeça, famoso nos anos 80?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Fofolete",
+                    "isCorrect": false,
+                    "explanation": "Fofolete é a bonequinha pequena que vem em uma caixinha! O boneco grande com cabeça de plástico e pente é o Xuxinha."
+                },
+                {
+                    "text": "Boneca Susi",
+                    "isCorrect": false,
+                    "explanation": "Boneca Susi é uma boneca de moda! O boneco de pano com cabeça de plástico e pente é o Xuxinha."
+                },
+                {
+                    "text": "Boneco Xuxinha",
+                    "isCorrect": true,
+                    "explanation": "Febre dos anos 80! O Boneco Xuxinha era um boneco de pano com cabeça de plástico e um pente preso na cabeça, inspirado na Xuxa. As meninas adoravam pentear o cabelo dele! 'Baixinhos da Xuxa!'",
+                    "imageUrl": "https://exemplo.com/brinquedo_boneco_xuxinha.jpg",
+                    "imageDescription": "Imagem do Boneco Xuxinha dos anos 80."
+                },
+                {
+                    "text": "Boneca Emília (Sítio do Picapau Amarelo)",
+                    "isCorrect": false,
+                    "explanation": "Boneca Emília é uma boneca de pano que fala, personagem do Sítio! O boneco com cabeça de plástico e pente inspirado na Xuxa é o Boneco Xuxinha."
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira de rua as crianças se escondem e uma pessoa 'conta' em uma base antes de procurar?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Pega-pega",
+                    "isCorrect": false,
+                    "explanation": "Pega-pega é correr para pegar! Esconde-esconde é sobre se esconder enquanto alguém conta!"
+                },
+                {
+                    "text": "Amarelinha",
+                    "isCorrect": false,
+                    "explanation": "Amarelinha é pular em desenho no chão! Esconde-esconde é sobre se esconder enquanto alguém conta!"
+                },
+                {
+                    "text": "Esconde-esconde",
+                    "isCorrect": true,
+                    "explanation": "Clássico universal! Esconde-esconde! O 'pegador' conta em uma base enquanto os outros se escondem. Quem for achado pode ser 'salvo' se alguém chegar na base antes do pegador gritar 'Pique!' ou 'Tá pego!'. Emoção pura!",
+                    "imageUrl": "https://exemplo.com/brincadeira_esconde_esconde.jpg",
+                    "imageDescription": "Imagem de crianças brincando de esconde-esconde."
+                },
+                {
+                    "text": "Guerra de Batalha Naval",
+                    "isCorrect": false,
+                    "explanation": "Guerra de Batalha Naval é jogo de tabuleiro/papel e caneta! Esconde-esconde é brincadeira física de rua!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo de montar trens e ferrovias elétricas, popular nas décadas de 70 e 80?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Autorama",
+                    "isCorrect": false,
+                    "explanation": "Autorama é pista para carros elétricos! Ferrorama é pista para trens!"
+                },
+                {
+                    "text": "LEGO",
+                    "isCorrect": false,
+                    "explanation": "LEGO é brinquedo de encaixar peças! Ferrorama é sobre montar ferrovias e trens elétricos."
+                },
+                {
+                    "text": "Estrela Mágica",
+                    "isCorrect": false,
+                    "explanation": "Estrela Mágica? Não é um brinquedo famoso de trens! Ferrorama é a linha da Estrela de trens elétricos."
+                },
+                {
+                    "text": "Ferrorama",
+                    "isCorrect": true,
+                    "explanation": "Barulho de trem chegando! Ferrorama era a linha de brinquedos da Estrela que permitia montar ferrovias com trilhos e locomotivas elétricas que andavam de verdade. Vários modelos e acessórios para criar sua própria rede ferroviária em miniatura! Um clássico da infância!",
+                    "imageUrl": "https://exemplo.com/brinquedo_ferrorama.jpg",
+                    "imageDescription": "Imagem do brinquedo Ferrorama com trem e trilhos montados."
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira de roda as crianças cantam 'Corre cotia, de noite e de dia...' e uma pessoa com um lenço escolhe alguém?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Ciranda, Cirandinha",
+                    "isCorrect": false,
+                    "explanation": "Ciranda é com a música 'Ciranda, cirandinha'! Corre Cotia é outra música e outra forma de escolher quem vai pro centro."
+                },
+                {
+                    "text": "Corre Cotia",
+                    "isCorrect": true,
+                    "explanation": "Que corre-corre! Corre Cotia é uma brincadeira de roda onde as crianças sentam em círculo, uma pessoa com um lenço na mão corre por fora cantando 'Corre cotia, de noite e de dia, por baixo da caminha, na casa da vovozinha...' e deixa o lenço atrás de alguém sem que a pessoa perceba. Se a pessoa perceber, ela pega o lenço e corre atrás de quem o deixou. Se não, quem deixou o lenço senta no lugar da pessoa que não percebeu. É pura emoção e atenção!",
+                    "imageUrl": "https://exemplo.com/brincadeira_corre_cotia.jpg",
+                    "imageDescription": "Imagem de crianças sentadas em círculo, uma correndo com um lenço."
+                },
+                {
+                    "text": "Roda Pião",
+                    "isCorrect": false,
+                    "explanation": "Roda Pião é uma música e uma brincadeira de girar! Corre Cotia é com o lenço e a escolha na roda!"
+                },
+                {
+                    "text": "Escravos de Jó",
+                    "isCorrect": false,
+                    "explanation": "Escravos de Jó é com as mãos passando um objeto! Corre Cotia é com o lenço e a corrida na roda!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo dos anos 80/90 que era uma pequena boneca de plástico que vinha em uma caixinha?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Boneca Xuxinha",
+                    "isCorrect": false,
+                    "explanation": "Boneco Xuxinha é o boneco grande de pano e plástico! A bonequinha pequena que vinha na caixinha é a Fofolete!"
+                },
+                {
+                    "text": "Fofolete",
+                    "isCorrect": true,
+                    "explanation": "Que fofura! Fofolete! As pequenas bonequinhas de plástico com cabelo de lã que vinham em uma caixinha em formato de cama, berço, etc. Eram colecionáveis e super populares nos anos 80/90! 'Fofolete, Fofolete...'",
+                    "imageUrl": "https://exemplo.com/brinquedo_fofolete.jpg",
+                    "imageDescription": "Imagem de uma ou mais bonecas Fofolete em suas caixinhas."
+                },
+                {
+                    "text": "Boneca Moranguinho",
+                    "isCorrect": false,
+                    "explanation": "Boneca Moranguinho é uma boneca com cheirinho de morango! A bonequinha pequena que vinha na caixinha é a Fofolete!"
+                },
+                {
+                    "text": "Boneca Susi",
+                    "isCorrect": false,
+                    "explanation": "Boneca Susi é uma boneca de moda, maior! A bonequinha pequena de caixinha é a Fofolete!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira de rua as crianças pulam sobre uma corda que é girada por duas pessoas?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Amarelinha",
+                    "isCorrect": false,
+                    "explanation": "Amarelinha é pular em desenho no chão! Pular corda é com uma corda de verdade!"
+                },
+                {
+                    "text": "Elástico",
+                    "isCorrect": false,
+                    "explanation": "Elástico é com um elástico parado! Pular corda é com uma corda que se move!"
+                },
+                {
+                    "text": "Cama de Gato (brincadeira de barbante)",
+                    "isCorrect": false,
+                    "explanation": "Cama de Gato é um jogo de formar figuras com um barbante nos dedos! Pular corda é com uma corda girando!"
+                },
+                {
+                    "text": "Pula Corda",
+                    "isCorrect": true,
+                    "explanation": "Pura energia! Pular Corda! Duas pessoas giram uma corda (ou duas, no 'Double Dutch') enquanto uma ou mais pessoas pulam sobre ela. Com músicas, palmas e truques. Um clássico da infância e exercício!",
+                    "imageUrl": "https://exemplo.com/brincadeira_pula_corda.jpg",
+                    "imageDescription": "Imagem de crianças brincando de pular corda."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo de montar carros de corrida em uma pista elétrica, popular nas décadas de 70 e 80?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Ferrorama",
+                    "isCorrect": false,
+                    "explanation": "Ferrorama é pista para trens! Autorama é pista para carros!"
+                },
+                {
+                    "text": "Hot Wheels",
+                    "isCorrect": false,
+                    "explanation": "Hot Wheels são carrinhos, sim! Mas Autorama é a pista elétrica para carros de corrida com controle!"
+                },
+                {
+                    "text": "Autorama",
+                    "isCorrect": true,
+                    "explanation": "Vrummm! Autorama! O brinquedo com pistas que se encaixavam, carros de corrida elétricos com 'escovas' que corriam nos trilhos, controlados por gatilhos. Corridas emocionantes na sala de casa! Quem nunca acelerou demais e fez o carro sair da pista?",
+                    "imageUrl": "https://exemplo.com/brinquedo_autorama.jpg",
+                    "imageDescription": "Imagem do brinquedo Autorama com carros e pista."
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira uma pessoa imita os movimentos de uma 'mãe gansa' e as outras a seguem imitando?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Pega-pega",
+                    "isCorrect": false,
+                    "explanation": "Pega-pega é correr atrás para pegar! Imitar a pessoa da frente é outra brincadeira de 'seguir'."
+                },
+                {
+                    "text": "Esconde-esconde",
+                    "isCorrect": false,
+                    "explanation": "Esconde-esconde é sobre se esconder! Imitar a pessoa da frente é outra brincadeira."
+                },
+                {
+                    "text": "Estátua",
+                    "isCorrect": false,
+                    "explanation": "Estátua é ficar parado! Imitar a pessoa da frente é Siga o Mestre ou Mamãe Gansa!"
+                },
+                {
+                    "text": "Siga o Mestre (ou Mamãe Gansa)",
+                    "isCorrect": true,
+                    "explanation": "Imita que é legal! Siga o Mestre (ou Mamãe Gansa)! Uma pessoa lidera (o 'mestre' ou a 'mãe') fazendo movimentos, e as outras têm que imitar exatamente. Quem errar sai da brincadeira. Um teste de atenção e coordenação!",
+                    "imageUrl": "https://exemplo.com/brincadeira_siga_o_mestre.jpg",
+                    "imageDescription": "Imagem de crianças brincando de Siga o Mestre ou Mamãe Gansa."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do jogo de tabuleiro onde o objetivo é encontrar um assassino em uma mansão, movendo-se pelos cômodos?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Banco Imobiliário",
+                    "isCorrect": false,
+                    "explanation": "Banco Imobiliário é sobre dinheiro! O jogo de encontrar um assassino em uma mansão é Detetive!"
+                },
+                {
+                    "text": "War",
+                    "isCorrect": false,
+                    "explanation": "War é sobre guerra! O jogo de mistério em uma mansão é Detetive!"
+                },
+                {
+                    "text": "Detetive",
+                    "isCorrect": true,
+                    "explanation": "Mistério na mansão! Detetive é o clássico jogo de tabuleiro onde você investiga quem matou o Sr. Fortuna, onde e com qual arma, movendo-se pelos cômodos da mansão. Suspense para jogar em família!",
+                    "imageUrl": "https://exemplo.com/jogo_detetive_mansao.jpg",
+                    "imageDescription": "Imagem do tabuleiro do jogo Detetive, mostrando os cômodos da mansão."
+                },
+                {
+                    "text": "Perfil",
+                    "isCorrect": false,
+                    "explanation": "Perfil é jogo de adivinhação! O jogo de encontrar um assassino na mansão é Detetive!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo de montar trens e ferrovias elétricas, popular no Brasil com o nome Ferrorama?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Autorama",
+                    "isCorrect": false,
+                    "explanation": "Autorama é para carros! Ferrorama é para trens!"
+                },
+                {
+                    "text": "LEGO",
+                    "isCorrect": false,
+                    "explanation": "LEGO é de encaixar peças! Ferrorama é de montar ferrovias e trens elétricos!"
+                },
+                {
+                    "text": "Estrela Mágica",
+                    "isCorrect": false,
+                    "explanation": "Estrela Mágica não é um brinquedo de trens! Ferrorama é a linha de trens elétricos da Estrela!"
+                },
+                {
+                    "text": "Ferrorama",
+                    "isCorrect": true,
+                    "explanation": "Apito de trem! Ferrorama era a linha de brinquedos da Estrela onde você montava pistas e trens elétricos. Um clássico para colecionar e brincar de maquinista!",
+                    "imageUrl": "https://exemplo.com/brinquedo_ferrorama.jpg",
+                    "imageDescription": "Imagem do brinquedo Ferrorama."
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira uma pessoa faz gestos para que as outras adivinhem o que ela está representando?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Stop!",
+                    "isCorrect": false,
+                    "explanation": "Stop! é jogo de escrever palavras! Fazer gestos para adivinhar é Mímica!"
+                },
+                {
+                    "text": "Telefone sem fio",
+                    "isCorrect": false,
+                    "explanation": "Telefone sem fio é passar uma mensagem cochichando! Fazer gestos para adivinhar é Mímica!"
+                },
+                {
+                    "text": "Mímica",
+                    "isCorrect": true,
+                    "explanation": "Sem falar nada! Mímica! Uma brincadeira (ou arte!) onde você usa apenas gestos, expressões faciais e movimentos do corpo para representar palavras, frases, títulos de filmes, etc., para que os outros adivinhem. Pura comunicação não verbal!",
+                    "imageUrl": "https://exemplo.com/brincadeira_mimica.jpg",
+                    "imageDescription": "Imagem de crianças brincando de mímica."
+                },
+                {
+                    "text": "Imagem e Ação",
+                    "isCorrect": false,
+                    "explanation": "Imagem e Ação é um jogo de tabuleiro que envolve desenhar, esculpir e MIMICAR! A brincadeira pura de fazer gestos para adivinhar é a Mímica!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo que é um carro de corrida em miniatura controlado remotamente em uma pista elétrica?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Ferrorama",
+                    "isCorrect": false,
+                    "explanation": "Ferrorama é para trens! Autorama é para carros!"
+                },
+                {
+                    "text": "Hot Wheels",
+                    "isCorrect": false,
+                    "explanation": "Hot Wheels são carrinhos de empurrar ou lançar! Autorama é a pista elétrica com carros controlados!"
+                },
+                {
+                    "text": "Matchbox",
+                    "isCorrect": false,
+                    "explanation": "Matchbox são carrinhos colecionáveis, como Hot Wheels! Autorama é a pista elétrica de corrida!"
+                },
+                {
+                    "text": "Autorama",
+                    "isCorrect": true,
+                    "explanation": "Acelera! Autorama! A pista de corrida elétrica onde você controla carrinhos com gatilhos. Emoção de Fórmula 1 na sala de casa!",
+                    "imageUrl": "https://exemplo.com/brinquedo_autorama_pista.jpg",
+                    "imageDescription": "Imagem do brinquedo Autorama com a pista montada."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do jogo de tabuleiro onde o objetivo é eliminar os exércitos adversários conquistando seus territórios no mapa-múndi?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Banco Imobiliário",
+                    "isCorrect": false,
+                    "explanation": "Banco Imobiliário é sobre dinheiro! O jogo de dominação militar é War!"
+                },
+                {
+                    "text": "Detetive",
+                    "isCorrect": false,
+                    "explanation": "Detetive é sobre mistério! O jogo de dominação militar é War!"
+                },
+                {
+                    "text": "War",
+                    "isCorrect": true,
+                    "explanation": "Guerra sem quartel! War é o clássico jogo de estratégia militar onde você conquista o mundo (ou parte dele!) movendo exércitos pelo tabuleiro. Pura tática e sorte nos dados!",
+                    "imageUrl": "https://exemplo.com/jogo_war_tabuleiro.jpg",
+                    "imageDescription": "Imagem do tabuleiro do jogo War."
+                },
+                {
+                    "text": "Perfil",
+                    "isCorrect": false,
+                    "explanation": "Perfil é sobre adivinhação! O jogo de dominação militar é War!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira uma pessoa fecha os olhos (ou tem os olhos vendados) e tenta pegar as outras, guiando-se pela voz ou barulho?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Esconde-esconde",
+                    "isCorrect": false,
+                    "explanation": "Esconde-esconde é sobre se esconder! A brincadeira de pegar de olhos fechados é outra."
+                },
+                {
+                    "text": "Pega-pega",
+                    "isCorrect": false,
+                    "explanation": "Pega-pega é correr para pegar (de olhos abertos!)! A brincadeira de pegar sem enxergar é Cabra Cega!"
+                },
+                {
+                    "text": "Cabra Cega",
+                    "isCorrect": true,
+                    "explanation": "Não vale espiar! Cabra Cega! Uma pessoa tem os olhos vendados e tenta pegar as outras, guiando-se apenas pelo som. Quem for pego vira a Cabra Cega. Cuidado para não bater nas coisas!",
+                    "imageUrl": "https://exemplo.com/brincadeira_cabra_cega.jpg",
+                    "imageDescription": "Imagem de crianças brincando de cabra cega."
+                },
+                {
+                    "text": "Estátua",
+                    "isCorrect": false,
+                    "explanation": "Estátua é ficar parado! Cabra Cega é correr atrás de olhos fechados!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo que é um cubo com cores em cada face, que precisa ser girado para deixar cada face com uma única cor?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "LEGO",
+                    "isCorrect": false,
+                    "explanation": "LEGO é de encaixar peças! O brinquedo de girar um cubo para resolver cores é outro."
+                },
+                {
+                    "text": "Quebra-cabeça",
+                    "isCorrect": false,
+                    "explanation": "Quebra-cabeça é montar uma imagem! O brinquedo de girar um cubo para resolver cores é o Cubo Mágico!"
+                },
+                {
+                    "text": "Cubo Mágico (ou Cubo de Rubik)",
+                    "isCorrect": true,
+                    "explanation": "Que desafio! O Cubo Mágico (nome popular no Brasil, ou Cubo de Rubik, nome original) é um quebra-cabeça tridimensional que você gira para deixar cada face com uma única cor. Várias fórmulas e métodos para resolver, ou pura sorte (quase nunca!). Teste de paciência e lógica!",
+                    "imageUrl": "https://exemplo.com/brinquedo_cubo_magico.jpg",
+                    "imageDescription": "Imagem de um Cubo Mágico com as cores bagunçadas ou resolvido."
+                },
+                {
+                    "text": "Genius",
+                    "isCorrect": false,
+                    "explanation": "Genius é jogo de memória de luzes e sons! O brinquedo de girar um cubo para resolver cores é o Cubo Mágico!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira de rua as crianças correm para um 'pique' (base) para não serem pegas?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Esconde-esconde",
+                    "isCorrect": false,
+                    "explanation": "Esconde-esconde tem uma base (o pique), mas a brincadeira principal é se esconder! Pique é mais comum em Pega-pega."
+                },
+                {
+                    "text": "Pega-pega",
+                    "isCorrect": true,
+                    "explanation": "Corre, corre! Pega-pega! Uma pessoa (o 'pegador') corre atrás das outras para tocar em alguém e passar a vez. Em algumas variações, existe um 'pique' ou base onde quem chega primeiro está seguro temporariamente. Pura corrida e agilidade!",
+                    "imageUrl": "https://exemplo.com/brincadeira_pega_pega.jpg",
+                    "imageDescription": "Imagem de crianças brincando de pega-pega."
+                },
+                {
+                    "text": "Amarelinha",
+                    "isCorrect": false,
+                    "explanation": "Amarelinha é pular em desenho no chão! Pique é mais comum em Pega-pega."
+                },
+                {
+                    "text": "Cabra Cega",
+                    "isCorrect": false,
+                    "explanation": "Cabra Cega é pegar de olhos vendados! Pique é uma base de segurança em Pega-pega."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do jogo de tabuleiro onde os jogadores precisam adivinhar personalidades, objetos ou lugares com dicas curtas?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Banco Imobiliário",
+                    "isCorrect": false,
+                    "explanation": "Banco Imobiliário é sobre dinheiro! Jogo de adivinhação é Perfil!"
+                },
+                {
+                    "text": "Detetive",
+                    "isCorrect": false,
+                    "explanation": "Detetive é sobre mistério! Jogo de adivinhação com dicas é Perfil!"
+                },
+                {
+                    "text": "War",
+                    "isCorrect": false,
+                    "explanation": "War é sobre guerra! Jogo de adivinhação é Perfil!"
+                },
+                {
+                    "text": "Perfil",
+                    "isCorrect": true,
+                    "explanation": "Que jogo! Perfil é um jogo de tabuleiro onde você lê dicas sobre uma personalidade, objeto, lugar ou ano e os outros jogadores tentam adivinhar quem ou o que é, perdendo pontos a cada dica errada. Teste de conhecimentos gerais e dedução!",
+                    "imageUrl": "https://exemplo.com/jogo_perfil.jpg",
+                    "imageDescription": "Imagem da caixa ou tabuleiro do jogo Perfil."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo que é um pião que gira no chão ao puxar um barbante, e pode 'lutar' com outros piões em uma arena?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Ioiô",
+                    "isCorrect": false,
+                    "explanation": "Ioiô é para girar no dedo! O brinquedo que gira no chão e luta em arena é o Beyb..."
+                },
+                {
+                    "text": "Pião Clássico",
+                    "isCorrect": false,
+                    "explanation": "Pião clássico gira no chão, sim! Mas a versão que 'luta' em arenas e é mais moderna é o Beyb..."
+                },
+                {
+                    "text": "Beyb...",
+                    "isCorrect": true,
+                    "explanation": "Deixa vir! Beyb... (Beyblade!) é uma linha de piões de metal/plástico que são lançados em uma arena e 'lutam' até que um pare de girar ou seja ejetado. Popular nos anos 2000. Gire, lute, vença!",
+                    "imageUrl": "https://exemplo.com/brinquedo_beyblade_luta.jpg",
+                    "imageDescription": "Imagem de piões Beyblade em uma arena."
+                },
+                {
+                    "text": "Fofolete",
+                    "isCorrect": false,
+                    "explanation": "Fofolete é uma bonequinha! O brinquedo que gira e luta em arena é o Beyb..."
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira uma pessoa fica no centro com os braços abertos e as outras tentam passar para o outro lado sem serem tocadas?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Mãe da Rua",
+                    "isCorrect": true,
+                    "explanation": "Exato! Mãe da Rua! Uma pessoa é a 'mãe' no centro (a 'rua'), e as outras tentam atravessar de um lado para o outro sem serem pegas. Quem for pego vira a mãe também. Pura agilidade para não virar 'mãe'!",
+                    "imageUrl": "https://exemplo.com/brincadeira_mae_da_rua.jpg",
+                    "imageDescription": "Imagem de crianças brincando de Mãe da Rua."
+                },
+                {
+                    "text": "Pega-pega",
+                    "isCorrect": false,
+                    "explanation": "Pega-pega é correr atrás de todo mundo no espaço todo! Mãe da Rua é ter um 'muro' no centro para atravessar!"
+                },
+                {
+                    "text": "Cabra Cega",
+                    "isCorrect": false,
+                    "explanation": "Cabra Cega é pegar de olhos vendados! Mãe da Rua é ter um pegador de olhos abertos no centro!"
+                },
+                {
+                    "text": "1, 2, 3 Inglês",
+                    "isCorrect": false,
+                    "explanation": "1, 2, 3 Inglês é parar quando a pessoa se vira! Mãe da Rua é tentar atravessar um 'muro' central!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo que é uma bolinha pequena de plástico com um elástico preso para girar no dedo?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Bola de Gude",
+                    "isCorrect": false,
+                    "explanation": "Bola de Gude é a bolinha de vidro para jogar no chão! O brinquedo de girar no dedo é o Ioiô!"
+                },
+                {
+                    "text": "Ioiô (ou Yo-yo)",
+                    "isCorrect": true,
+                    "explanation": "É ele! O Ioiô (ou Yo-yo)! A bolinha que desce e sobe pelo barbante preso ao dedo, permitindo fazer diversos truques. Um clássico para mostrar habilidade!",
+                    "imageUrl": "https://exemplo.com/brinquedo_ioio.jpg",
+                    "imageDescription": "Imagem de um ioiô."
+                },
+                {
+                    "text": "Pião",
+                    "isCorrect": false,
+                    "explanation": "Pião é um objeto que gira no chão! O brinquedo de girar no dedo é o Ioiô!"
+                },
+                {
+                    "text": "Peteca",
+                    "isCorrect": false,
+                    "explanation": "Peteca é para jogar para o alto! O brinquedo de girar no dedo é o Ioiô!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do jogo de tabuleiro onde o objetivo é viajar pelo Brasil respondendo perguntas?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Banco Imobiliário",
+                    "isCorrect": false,
+                    "explanation": "Banco Imobiliário é sobre dinheiro! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "War",
+                    "isCorrect": false,
+                    "explanation": "War é sobre guerra! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Perfil",
+                    "isCorrect": false,
+                    "explanation": "Perfil é sobre adivinhação de personalidades e coisas! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Imagem e Ação",
+                    "isCorrect": false,
+                    "explanation": "Imagem e Ação é sobre mímica, desenho e escultura! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Jogo da Vida",
+                    "isCorrect": false,
+                    "explanation": "Jogo da Vida é sobre carreira, família e dinheiro! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Passa ou Repassa",
+                    "isCorrect": false,
+                    "explanation": "Passa ou Repassa é programa de TV (e jogo de tabuleiro com perguntas variadas)! O jogo específico sobre viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Show do Milhão (Jogo de Tabuleiro)",
+                    "isCorrect": false,
+                    "explanation": "Show do Milhão é jogo de perguntas gerais! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Soletrando (Jogo de Tabuleiro)",
+                    "isCorrect": false,
+                    "explanation": "Soletrando é sobre soletrar! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Cara a Cara",
+                    "isCorrect": false,
+                    "explanation": "Cara a Cara é adivinhar o personagem com perguntas sim/não! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Super Trunfo",
+                    "isCorrect": false,
+                    "explanation": "Super Trunfo é jogo de cartas comparando atributos! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Quebra-cabeça",
+                    "isCorrect": false,
+                    "explanation": "Quebra-cabeça é montar imagem! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Twister",
+                    "isCorrect": false,
+                    "explanation": "Twister é jogo de dobrar o corpo! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Cilada",
+                    "isCorrect": false,
+                    "explanation": "Cilada é jogo de perguntas e armadilhas! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Stop (Adedonha)",
+                    "isCorrect": false,
+                    "explanation": "Stop é jogo de escrever palavras por categoria! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Jogo da Vida (versão moderna)",
+                    "isCorrect": false,
+                    "explanation": "Jogo da Vida é sobre carreira e família! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Detetive (versão moderna)",
+                    "isCorrect": false,
+                    "explanation": "Detetive é mistério! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Banco Imobiliário (versão moderna)",
+                    "isCorrect": false,
+                    "explanation": "Banco Imobiliário é dinheiro! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "War (versão moderna)",
+                    "isCorrect": false,
+                    "explanation": "War é guerra! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Perfil (versão moderna)",
+                    "isCorrect": false,
+                    "explanation": "Perfil é adivinhação! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Imagem e Ação (versão moderna)",
+                    "isCorrect": false,
+                    "explanation": "Imagem e Ação é mímica/desenho! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Eu Sou...",
+                    "isCorrect": false,
+                    "explanation": "Eu Sou... é adivinhar quem você é! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Adivinha Quem É?",
+                    "isCorrect": false,
+                    "explanation": "Adivinha Quem É? é similar a Cara a Cara! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Roda a Roda Jequiti (Jogo de Tabuleiro)",
+                    "isCorrect": false,
+                    "explanation": "Roda a Roda Jequiti é perguntas e prêmios! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Jogo do Conte Comigo",
+                    "isCorrect": false,
+                    "explanation": "Jogo do Conte Comigo é educativo! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Viagem no Tempo (Jogo de Tabuleiro)",
+                    "isCorrect": false,
+                    "explanation": "Viagem no Tempo é sobre história! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Mapa do Tesouro",
+                    "isCorrect": false,
+                    "explanation": "Mapa do Tesouro é busca! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Descobrindo o Brasil",
+                    "isCorrect": false,
+                    "explanation": "Descobrindo o Brasil é educativo! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Brasil Quiz",
+                    "isCorrect": false,
+                    "explanation": "Brasil Quiz é quiz sobre o Brasil! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "O Grande Mestre (Jogo de Tabuleiro)",
+                    "isCorrect": false,
+                    "explanation": "O Grande Mestre é perguntas gerais! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Super Banco Imobiliário",
+                    "isCorrect": false,
+                    "explanation": "Super Banco Imobiliário é versão do Banco Imobiliário! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Game of Thrones: The Board Game",
+                    "isCorrect": false,
+                    "explanation": "Game of Thrones é jogo de série! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Colonizadores de Catan",
+                    "isCorrect": false,
+                    "explanation": "Catan é sobre colonização de ilha! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Ticket to Ride",
+                    "isCorrect": false,
+                    "explanation": "Ticket to Ride é sobre rotas de trem! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Dixit",
+                    "isCorrect": false,
+                    "explanation": "Dixit é sobre cartas e imaginação! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Rummikub",
+                    "isCorrect": false,
+                    "explanation": "Rummikub é jogo de números! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Catan",
+                    "isCorrect": false,
+                    "explanation": "Catan é colonização! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Detetive Cidades",
+                    "isCorrect": false,
+                    "explanation": "Detetive Cidades é versão do Detetive! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Perfil 2",
+                    "isCorrect": false,
+                    "explanation": "Perfil 2 é versão do Perfil! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Imagem e Ação 2",
+                    "isCorrect": false,
+                    "explanation": "Imagem e Ação 2 é versão do Imagem e Ação! O jogo de viajar pelo Brasil respondendo perguntas é outro."
+                },
+                {
+                    "text": "Brasil a Jato",
+                    "isCorrect": true,
+                    "explanation": "Que viagem pelo Brasil! Brasil a Jato é um jogo de tabuleiro onde os jogadores viajam pelo Brasil respondendo a perguntas sobre geografia, história, cultura e curiosidades do país. Teste de conhecimentos sobre o Brasil!",
+                    "imageUrl": "https://exemplo.com/jogo_brasil_a_jato.jpg",
+                    "imageDescription": "Imagem da caixa ou tabuleiro do jogo Brasil a Jato."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo que é um boneco de pano com cabeça de plástico e um 'topete' penteável, inspirado em uma apresentadora de TV?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Boneco Fofão",
+                    "isCorrect": false,
+                    "explanation": "Fofão é de outra Turma (Balão Mágico!)! O boneco com topete penteável inspirado na Rainha dos Baixinhos é o Boneco Xuxinha!"
+                },
+                {
+                    "text": "Boneca Susi",
+                    "isCorrect": false,
+                    "explanation": "Boneca Susi é de moda! O boneco com topete inspirado na Xuxa é o Boneco Xuxinha!"
+                },
+                {
+                    "text": "Boneco Xuxinha",
+                    "isCorrect": true,
+                    "explanation": "Penteia o topete! O Boneco Xuxinha, com seu famoso topete de plástico que dava pra pentear, foi um sucesso inspirado na apresentadora Xuxa nos anos 80. Todo baixinho queria um!",
+                    "imageUrl": "https://exemplo.com/brinquedo_boneco_xuxinha.jpg",
+                    "imageDescription": "Imagem do Boneco Xuxinha."
+                },
+                {
+                    "text": "Boneca Emília",
+                    "isCorrect": false,
+                    "explanation": "Boneca Emília é do Sítio do Picapau Amarelo! O boneco com topete inspirado na Xuxa é o Boneco Xuxinha!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira as crianças fazem um círculo e passam um objeto (como um chinelo) atrás das costas, enquanto uma pessoa do lado de fora tenta descobrir onde o objeto parou?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Corre Cotia",
+                    "isCorrect": false,
+                    "explanation": "Corre Cotia é com o lenço atrás das costas! A brincadeira de passar um objeto no círculo é outra, com a música do rei!"
+                },
+                {
+                    "text": "Esconde-esconde",
+                    "isCorrect": false,
+                    "explanation": "Esconde-esconde é sobre se esconder! A brincadeira de passar objeto no círculo é Escravos de Jó!"
+                },
+                {
+                    "text": "Escravos de Jó",
+                    "isCorrect": true,
+                    "explanation": "Passa, passa! Escravos de Jó! Uma brincadeira (e música!) onde as crianças sentam em círculo e passam um objeto (geralmente um chinelo ou pedra) umas para as outras atrás das costas, seguindo o ritmo da música. Uma pessoa de fora tenta adivinhar com quem o objeto parou. Pura coordenação e surpresa!",
+                    "imageUrl": "https://exemplo.com/brincadeira_escravos_de_jo.jpg",
+                    "imageDescription": "Imagem de crianças brincando de Escravos de Jó."
+                },
+                {
+                    "text": "Telefone sem fio",
+                    "isCorrect": false,
+                    "explanation": "Telefone sem fio é passar mensagem cochichando! A brincadeira de passar objeto no círculo é Escravos de Jó!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo dos anos 80 que era uma prancheta com tela e uma caneta magnética para desenhar e apagar sacudindo?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Lousa Mágica (ou Tela Mágica)",
+                    "isCorrect": true,
+                    "explanation": "Mágica mesmo! Lousa Mágica (ou Tela Mágica)! A prancheta com tela cinza e uma caneta magnética que 'desenhava' linhas pretas. Para apagar, era só sacudir! Horas de diversão desenhando e apagando com um 'shaaaaake'!",
+                    "imageUrl": "https://exemplo.com/brinquedo_lousa_magica.jpg",
+                    "imageDescription": "Imagem do brinquedo Lousa Mágica."
+                },
+                {
+                    "text": "Pense Bem",
+                    "isCorrect": false,
+                    "explanation": "Pense Bem era um computador educativo! A prancheta magnética é a Lousa Mágica!"
+                },
+                {
+                    "text": "Genius",
+                    "isCorrect": false,
+                    "explanation": "Genius é jogo de memória! A prancheta magnética é a Lousa Mágica!"
+                },
+                {
+                    "text": "Etch A Sketch",
+                    "isCorrect": false,
+                    "explanation": "Etch A Sketch é o nome original americano da Lousa Mágica! No Brasil, ficou famoso como Lousa Mágica ou Tela Mágica da Estrela. A resposta certa é o nome popular no Brasil!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira uma pessoa 'cola' na parede e as outras tentam atravessar sem se mexer quando ela olha?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Esconde-esconde",
+                    "isCorrect": false,
+                    "explanation": "Esconde-esconde é sobre se esconder! 'Colar na parede' e parar é 1, 2, 3 Inglês!"
+                },
+                {
+                    "text": "Pega-pega",
+                    "isCorrect": false,
+                    "explanation": "Pega-pega é correr atrás para pegar! 'Colar na parede' e parar é 1, 2, 3 Inglês!"
+                },
+                {
+                    "text": "1, 2, 3 Inglês (ou Semáforo)",
+                    "isCorrect": true,
+                    "explanation": "Não se mexa! 1, 2, 3 Inglês (ou Semáforo)! O 'pegador' conta (ou grita 'Vermelho!') de costas, e os outros correm. Quando ele se vira ('Inglês!' ou 'Verde!'), todos precisam parar imediatamente. Quem for pego se movendo, volta. Corrida e estátua ao mesmo tempo!",
+                    "imageUrl": "https://exemplo.com/brincadeira_123ingles.jpg",
+                    "imageDescription": "Imagem de crianças brincando de 1, 2, 3 Inglês."
+                },
+                {
+                    "text": "Estátua",
+                    "isCorrect": false,
+                    "explanation": "Estátua é parar quando a música para! 1, 2, 3 Inglês é parar quando a pessoa se vira!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do jogo de tabuleiro onde o objetivo é dar a volta em uma trilha, vivendo eventos da vida (casamento, filhos, carreira)?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Banco Imobiliário",
+                    "isCorrect": false,
+                    "explanation": "Banco Imobiliário é sobre dinheiro e propriedades! Jogo da Vida é sobre a 'jornada' da vida."
+                },
+                {
+                    "text": "Detetive",
+                    "isCorrect": false,
+                    "explanation": "Detetive é sobre mistério! Jogo da Vida é sobre eventos da vida."
+                },
+                {
+                    "text": "War",
+                    "isCorrect": false,
+                    "explanation": "War é sobre guerra! Jogo da Vida é sobre a 'jornada' pessoal."
+                },
+                {
+                    "text": "Jogo da Vida",
+                    "isCorrect": true,
+                    "explanation": "Que jornada! Jogo da Vida é um jogo de tabuleiro onde você move seu 'peão-carro' por uma trilha, tomando decisões de carreira, casando, tendo filhos e enfrentando altos e baixos até chegar à aposentadoria. Uma simulação da vida (com roleta e notinhas de dinheiro!).",
+                    "imageUrl": "https://exemplo.com/jogo_da_vida_tabuleiro.jpg",
+                    "imageDescription": "Imagem do tabuleiro e peças do Jogo da Vida."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo que é um disco de plástico lançado e pego com as mãos?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Bumerangue",
+                    "isCorrect": false,
+                    "explanation": "Bumerangue é lançado para voltar! O brinquedo de plástico lançado e pego com as mãos é o Frisbee!"
+                },
+                {
+                    "text": "Frisbee (ou Disco Voador)",
+                    "isCorrect": true,
+                    "explanation": "Voando! Frisbee (ou Disco Voador)! O disco de plástico que você lança girando e o outro pega. Divertido para jogar no parque ou na praia! 'Voa, disco!'",
+                    "imageUrl": "https://exemplo.com/brinquedo_frisbee.jpg",
+                    "imageDescription": "Imagem de um Frisbee sendo lançado ou pego."
+                },
+                {
+                    "text": "Peteca",
+                    "isCorrect": false,
+                    "explanation": "Peteca é feita de penas e base, para rebater com a mão! Frisbee é um disco de plástico lançado e pego com as mãos."
+                },
+                {
+                    "text": "Hula Hoop",
+                    "isCorrect": false,
+                    "explanation": "Hula Hoop é o bambolê para girar na cintura! O brinquedo de lançar e pegar é o Frisbee!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira as crianças se dividem em dois grupos e arremessam uma bola umas nas outras para 'queimar' os adversários?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Queimada (ou Caçador)",
+                    "isCorrect": true,
+                    "explanation": "Fogo! Queimada (ou Caçador, Baleado)! Uma brincadeira onde duas equipes se enfrentam e tentam 'queimar' (acertar com a bola) os jogadores do time adversário. Quem é queimado sai da partida. O último a ser queimado (ou o time que queima todos) vence! Desvie da bola!",
+                    "imageUrl": "https://exemplo.com/brincadeira_queimada.jpg",
+                    "imageDescription": "Imagem de crianças brincando de queimada."
+                },
+                {
+                    "text": "Vôlei",
+                    "isCorrect": false,
+                    "explanation": "Vôlei é passar a bola por cima da rede! Queimada é acertar a bola nas pessoas!"
+                },
+                {
+                    "text": "Futebol",
+                    "isCorrect": false,
+                    "explanation": "Futebol é com os pés no chão! Queimada é arremessar a bola para 'queimar'!"
+                },
+                {
+                    "text": "Basquete",
+                    "isCorrect": false,
+                    "explanation": "Basquete é jogar a bola na cesta! Queimada é arremessar a bola nas pessoas!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo que é um pequeno pião com uma ponta de metal, lançado com um barbante enrolado?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Ioiô",
+                    "isCorrect": false,
+                    "explanation": "Ioiô gira no dedo! O brinquedo que gira no chão com ponta de metal é o Pião!"
+                },
+                {
+                    "text": "Beyb...",
+                    "isCorrect": false,
+                    "explanation": "Beyb... (Beyblade!) é um tipo de pião moderno! O pião clássico de ponta de metal é o Pião!"
+                },
+                {
+                    "text": "Pião",
+                    "isCorrect": true,
+                    "explanation": "Gira, gira! O Pião! O objeto com ponta de metal que você enrola um barbante no corpo, joga no chão e puxa o barbante para fazê-lo girar em alta velocidade. Vários truques e modelos diferentes! Quem gira mais?",
+                    "imageUrl": "https://exemplo.com/brinquedo_piao.jpg",
+                    "imageDescription": "Imagem de um pião girando no chão."
+                },
+                {
+                    "text": "Bolinha de Gude",
+                    "isCorrect": false,
+                    "explanation": "Bolinha de Gude é uma bolinha de vidro! Pião é um objeto que gira na ponta!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira as crianças sentam em círculo e passam uma mensagem cochichando uma para a outra, para ver como ela chega no final?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Mímica",
+                    "isCorrect": false,
+                    "explanation": "Mímica é fazer gestos! Passar mensagem cochichando é Telefone sem fio!"
+                },
+                {
+                    "text": "Escravos de Jó",
+                    "isCorrect": false,
+                    "explanation": "Escravos de Jó é passar objeto! Passar mensagem cochichando é Telefone sem fio!"
+                },
+                {
+                    "text": "Telefone sem fio",
+                    "isCorrect": true,
+                    "explanation": "Distorsão na certa! Telefone sem fio! Uma brincadeira onde uma pessoa inventa uma mensagem e a cochicha para a pessoa ao lado, que cochicha para a próxima, e assim por diante, até chegar na última. Geralmente a mensagem final é hilariamente diferente da original! Cuidado com os 'fios'!",
+                    "imageUrl": "https://exemplo.com/brincadeira_telefone_sem_fio.jpg",
+                    "imageDescription": "Imagem de crianças brincando de telefone sem fio."
+                },
+                {
+                    "text": "Stop!",
+                    "isCorrect": false,
+                    "explanation": "Stop! é jogo de escrever palavras! Passar mensagem cochichando é Telefone sem fio!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do jogo de tabuleiro onde os jogadores precisam adivinhar palavras ou frases desenhando, fazendo mímica ou esculpindo com massinha?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Detetive",
+                    "isCorrect": false,
+                    "explanation": "Detetive é sobre mistério! O jogo de desenhar, imitar e esculpir é Imagem e Ação!"
+                },
+                {
+                    "text": "Perfil",
+                    "isCorrect": false,
+                    "explanation": "Perfil é sobre adivinhação com dicas escritas! O jogo de desenhar, imitar e esculpir é Imagem e Ação!"
+                },
+                {
+                    "text": "Imagem e Ação",
+                    "isCorrect": true,
+                    "explanation": "Pura criatividade! Imagem e Ação! O jogo de tabuleiro onde os jogadores em equipes precisam representar palavras e frases desenhando, fazendo mímica ou esculpindo com massinha para que os colegas adivinhem no tempo certo. Divertido e desafiador!",
+                    "imageUrl": "https://exemplo.com/jogo_imagem_e_acao.jpg",
+                    "imageDescription": "Imagem da caixa ou tabuleiro do jogo Imagem e Ação."
+                },
+                {
+                    "text": "Stop!",
+                    "isCorrect": false,
+                    "explanation": "Stop! é jogo de escrever palavras! O jogo de desenhar, imitar e esculpir é Imagem e Ação!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo que é uma boneca pequena e colecionável que vinha em uma caixinha?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Boneco Xuxinha",
+                    "isCorrect": false,
+                    "explanation": "Boneco Xuxinha é o boneco maior de pano e plástico! A bonequinha pequena de caixinha é a Fofolete!"
+                },
+                {
+                    "text": "Fofolete",
+                    "isCorrect": true,
+                    "explanation": "Que coleção! Fofolete! As pequenas bonequinhas que vinham em caixinhas fofas e eram super colecionáveis nos anos 80/90. Pequenas no tamanho, grandes na fofura!",
+                    "imageUrl": "https://exemplo.com/brinquedo_fofolete_caixinha.jpg",
+                    "imageDescription": "Imagem de uma Fofolete em sua caixinha."
+                },
+                {
+                    "text": "Boneca Susi",
+                    "isCorrect": false,
+                    "explanation": "Boneca Susi é uma boneca de moda maior! A bonequinha pequena de caixinha é a Fofolete!"
+                },
+                {
+                    "text": "Boneca Moranguinho",
+                    "isCorrect": false,
+                    "explanation": "Boneca Moranguinho é uma boneca perfumada! A bonequinha pequena de caixinha é a Fofolete!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira uma pessoa grita 'Stop!' e todos precisam parar imóveis?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "1, 2, 3 Inglês",
+                    "isCorrect": false,
+                    "explanation": "1, 2, 3 Inglês é parar quando a pessoa se vira! Stop! é parar quando alguém grita 'Stop!'"
+                },
+                {
+                    "text": "Pega-pega Congelante",
+                    "isCorrect": false,
+                    "explanation": "Pega-pega Congelante é ficar congelado ao ser tocado! Stop! é parar ao ouvir a palavra!"
+                },
+                {
+                    "text": "Estátua (ou Stop!)",
+                    "isCorrect": true,
+                    "explanation": "Congelou! Estátua (ou Stop!)! Uma brincadeira (geralmente com música) onde as pessoas dançam ou se movem livremente, e quando a música para ou alguém grita 'Estátua!'/'Stop!', todos precisam ficar imóveis como estátuas. Quem se mexer sai. Teste de equilíbrio e controle corporal!",
+                    "imageUrl": "https://exemplo.com/brincadeira_estatua.jpg",
+                    "imageDescription": "Imagem de crianças brincando de estátua."
+                },
+                {
+                    "text": "Cabra Cega",
+                    "isCorrect": false,
+                    "explanation": "Cabra Cega é pegar de olhos vendados! Estátua é parar ao som ou comando!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do jogo de tabuleiro onde os jogadores respondem a perguntas sobre conhecimentos gerais em uma trilha?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Banco Imobiliário",
+                    "isCorrect": false,
+                    "explanation": "Banco Imobiliário é sobre dinheiro! Jogo de perguntas gerais é Trivial Pursuit ou similar."
+                },
+                {
+                    "text": "Detetive",
+                    "isCorrect": false,
+                    "explanation": "Detetive é sobre mistério! Jogo de perguntas gerais é Trivial Pursuit ou similar."
+                },
+                {
+                    "text": "War",
+                    "isCorrect": false,
+                    "explanation": "War é sobre guerra! Jogo de perguntas gerais é Trivial Pursuit ou similar."
+                },
+                {
+                    "text": "Trivial Pursuit (ou similar de perguntas gerais)",
+                    "isCorrect": true,
+                    "explanation": "Teste seus conhecimentos! Trivial Pursuit (ou jogos similares de perguntas e respostas, como 'Show do Milhão' de tabuleiro, 'Brasil Quiz', etc.). O objetivo é avançar em uma trilha respondendo perguntas de diversas categorias. Quem sabe mais, ganha!",
+                    "imageUrl": "https://exemplo.com/jogo_trivial_pursuit.jpg",
+                    "imageDescription": "Imagem da caixa ou tabuleiro do jogo Trivial Pursuit."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do jogo de tabuleiro onde o objetivo é se livrar de todas as suas cartas combinando números ou cores?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Detetive",
+                    "isCorrect": false,
+                    "explanation": "Detetive é jogo de mistério! O jogo de combinar cartas por número ou cor é outro."
+                },
+                {
+                    "text": "Banco Imobiliário",
+                    "isCorrect": false,
+                    "explanation": "Banco Imobiliário é sobre dinheiro! O jogo de combinar cartas é outro."
+                },
+                {
+                    "text": "Stop!",
+                    "isCorrect": false,
+                    "explanation": "Stop! é jogo de escrever palavras! O jogo de combinar cartas é outro."
+                },
+                {
+                    "text": "UNO",
+                    "isCorrect": true,
+                    "explanation": "É ele! UNO! O jogo de cartas onde você tenta ser o primeiro a se livrar de todas as suas cartas, combinando a cor ou o número com a carta no topo da pilha de descarte. E não se esqueça de gritar 'UNO!' quando tiver só uma carta! Jogo rápido e cheio de reviravoltas!",
+                    "imageUrl": "https://exemplo.com/jogo_uno_cartas.jpg",
+                    "imageDescription": "Imagem das cartas coloridas do jogo UNO."
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira de roda uma pessoa 'dorme' no centro e as outras cantam 'Atirei o pau no gato...' antes de alguém bater nas costas dela?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Corre Cotia",
+                    "isCorrect": false,
+                    "explanation": "Corre Cotia é com o lenço! A brincadeira de dormir no centro e ser batido é outra."
+                },
+                {
+                    "text": "Cabra Cega",
+                    "isCorrect": false,
+                    "explanation": "Cabra Cega é pegar de olhos vendados! A brincadeira de dormir no centro é outra."
+                },
+                {
+                    "text": "Dorminhoco (ou Bate-bate nas costas)",
+                    "isCorrect": true,
+                    "explanation": "Que sono! Dorminhoco (o nome popular varia)! Uma criança 'dorme' no centro da roda, e as outras cantam a música (geralmente 'Atirei o pau no gato') e batem nas costas dela no ritmo. No final da música, quem 'dorme' tenta adivinhar quem bateu. Se acertar, a pessoa vira o dorminhoco. Se errar, dorme de novo. Emoção e 'dor' nas costas!",
+                    "imageUrl": "https://exemplo.com/brincadeira_dorminhoco.jpg",
+                    "imageDescription": "Imagem de crianças brincando de Dorminhoco (sentadas em roda com uma no centro)."
+                },
+                {
+                    "text": "Ciranda, Cirandinha",
+                    "isCorrect": false,
+                    "explanation": "Ciranda é com a música 'Ciranda, cirandinha' e escolha no centro! A brincadeira de dormir e ser batido é outra."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo dos anos 90 que era uma bola grande de plástico com um encaixe para os pés, para pular e se equilibrar?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Kanguru (Pula-pula)",
+                    "isCorrect": false,
+                    "explanation": "Kanguru (ou Pula-pula com alça) é uma bola grande com alça para pular! O brinquedo com encaixe para os pés é o Pogobol!"
+                },
+                {
+                    "text": "Bambolê",
+                    "isCorrect": false,
+                    "explanation": "Bambolê é para girar na cintura! O brinquedo de pular em uma bola com encaixe para os pés é o Pogobol!"
+                },
+                {
+                    "text": "Pogobol",
+                    "isCorrect": true,
+                    "explanation": "Equilíbrio e pulo! Pogobol! O brinquedo que consistia em uma bola oca de plástico com uma plataforma circular em cima, onde você encaixava os pés e pulava. Era difícil se equilibrar, mas super divertido (e perigoso!). Cai que só!",
+                    "imageUrl": "https://exemplo.com/brinquedo_pogobol.jpg",
+                    "imageDescription": "Imagem do brinquedo Pogobol."
+                },
+                {
+                    "text": "Mola Maluca",
+                    "isCorrect": false,
+                    "explanation": "Mola Maluca é uma mola para descer escadas ou passar de mão em mão! O brinquedo de pular na bola com pés encaixados é o Pogobol!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira uma pessoa grita 'Vivo' ou 'Morto' e as outras precisam levantar ou abaixar rapidamente?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Estátua",
+                    "isCorrect": false,
+                    "explanation": "Estátua é ficar parado quando a música para! Vivo ou Morto é sobre levantar e abaixar!"
+                },
+                {
+                    "text": "Siga o Mestre",
+                    "isCorrect": false,
+                    "explanation": "Siga o Mestre é imitar quem lidera! Vivo ou Morto é sobre comandos 'Vivo!' e 'Morto!'"
+                },
+                {
+                    "text": "Morto Vivo",
+                    "isCorrect": true,
+                    "explanation": "Levanta e abaixa! Morto Vivo! Uma pessoa dá os comandos 'Vivo!' (todos levantam) e 'Morto!' (todos abaixam). Quem errar ou demorar sai da brincadeira. Teste de reflexo e atenção!",
+                    "imageUrl": "https://exemplo.com/brincadeira_morto_vivo.jpg",
+                    "imageDescription": "Imagem de crianças brincando de Morto Vivo."
+                },
+                {
+                    "text": "Cabra Cega",
+                    "isCorrect": false,
+                    "explanation": "Cabra Cega é pegar de olhos vendados! Vivo ou Morto é sobre levantar e abaixar!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo de montar pistas e carrinhos de corrida elétricos, popular com o nome Autorama no Brasil?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Ferrorama",
+                    "isCorrect": false,
+                    "explanation": "Ferrorama é para trens! Autorama é para carros!"
+                },
+                {
+                    "text": "LEGO",
+                    "isCorrect": false,
+                    "explanation": "LEGO é de encaixar peças! Autorama é de montar pistas para carros elétricos!"
+                },
+                {
+                    "text": "Hot Wheels",
+                    "isCorrect": false,
+                    "explanation": "Hot Wheels são carrinhos! Autorama é a pista elétrica com carros controlados!"
+                },
+                {
+                    "text": "Autorama",
+                    "isCorrect": true,
+                    "explanation": "Acelera! Autorama! A pista de corrida elétrica onde você controla carrinhos em miniatura. Emoção de corrida (e frustração com saídas de pista!).",
+                    "imageUrl": "https://exemplo.com/brinquedo_autorama_pista.jpg",
+                    "imageDescription": "Imagem do brinquedo Autorama."
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira as crianças se dividem em duas equipes e tentam 'roubar' a bandeira do time adversário enquanto protegem a sua?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Queimada",
+                    "isCorrect": false,
+                    "explanation": "Queimada é jogar a bola para 'queimar'! A brincadeira de roubar a bandeira é outra, de estratégia territorial."
+                },
+                {
+                    "text": "Pega-pega",
+                    "isCorrect": false,
+                    "explanation": "Pega-pega é correr atrás para pegar! A brincadeira de roubar a bandeira é em equipes e com 'territórios'."
+                },
+                {
+                    "text": "Rouba Bandeira (ou Bandeirinha)",
+                    "isCorrect": true,
+                    "explanation": "Ataque e defesa! Rouba Bandeira (ou Bandeirinha)! Duas equipes têm um território e uma bandeira. O objetivo é atravessar o território inimigo, roubar a bandeira deles e trazê-la para o seu lado, enquanto impedem que o adversário faça o mesmo. Quem for tocado no território inimigo fica 'preso' até ser salvo por um colega. Pura estratégia, velocidade e trabalho em equipe!",
+                    "imageUrl": "https://exemplo.com/brincadeira_rouba_bandeira.jpg",
+                    "imageDescription": "Imagem de crianças brincando de Rouba Bandeira."
+                },
+                {
+                    "text": "Cabo de Guerra",
+                    "isCorrect": false,
+                    "explanation": "Cabo de Guerra é puxar uma corda! Rouba Bandeira é invadir território inimigo para pegar a bandeira."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do jogo de tabuleiro de estratégia militar onde o objetivo é conquistar o mapa-múndi?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Banco Imobiliário",
+                    "isCorrect": false,
+                    "explanation": "Banco Imobiliário é sobre dinheiro! O jogo de dominação militar é War!"
+                },
+                {
+                    "text": "Detetive",
+                    "isCorrect": false,
+                    "explanation": "Detetive é sobre mistério! O jogo de dominação militar é War!"
+                },
+                {
+                    "text": "War",
+                    "isCorrect": true,
+                    "explanation": "Guerra ao redor do mundo! War é o clássico jogo de estratégia onde você conquista territórios e elimina adversários em um mapa-múndi. Domine o mundo!",
+                    "imageUrl": "https://exemplo.com/jogo_war_tabuleiro.jpg",
+                    "imageDescription": "Imagem do tabuleiro do jogo War."
+                },
+                {
+                    "text": "Perfil",
+                    "isCorrect": false,
+                    "explanation": "Perfil é sobre adivinhação! O jogo de dominação militar é War!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira de rua as crianças se abaixam ou levantam rapidamente ao comando de 'Morto!' ou 'Vivo!'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Estátua",
+                    "isCorrect": false,
+                    "explanation": "Estátua é parar ao som ou comando! Morto Vivo é abaixar e levantar!"
+                },
+                {
+                    "text": "Cabra Cega",
+                    "isCorrect": false,
+                    "explanation": "Cabra Cega é pegar de olhos vendados! Morto Vivo é abaixar e levantar!"
+                },
+                {
+                    "text": "Morto Vivo",
+                    "isCorrect": true,
+                    "explanation": "Levanta, abaixa! Morto Vivo! Uma brincadeira de comandos rápidos 'Morto!' (abaixar) e 'Vivo!' (levantar). Quem errar ou se atrasar sai. Pura agilidade mental e física!",
+                    "imageUrl": "https://exemplo.com/brincadeira_morto_vivo.jpg",
+                    "imageDescription": "Imagem de crianças brincando de Morto Vivo."
+                },
+                {
+                    "text": "Siga o Mestre",
+                    "isCorrect": false,
+                    "explanation": "Siga o Mestre é imitar quem lidera! Morto Vivo é abaixar e levantar!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo que é uma bola de plástico oca com um encaixe para os pés, para pular e se equilibrar?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Pula Corda",
+                    "isCorrect": false,
+                    "explanation": "Pula Corda é com corda! O brinquedo de pular em uma bola com encaixe é o Pogobol!"
+                },
+                {
+                    "text": "Bambolê",
+                    "isCorrect": false,
+                    "explanation": "Bambolê é para girar na cintura! O brinquedo de pular em uma bola com encaixe para os pés é o Pogobol!"
+                },
+                {
+                    "text": "Pogobol",
+                    "isCorrect": true,
+                    "explanation": "Desafio de equilíbrio! Pogobol! A bola com plataforma para os pés que você pulava (e caía!). Um clássico dos anos 90 que testava sua coordenação!",
+                    "imageUrl": "https://exemplo.com/brinquedo_pogobol.jpg",
+                    "imageDescription": "Imagem do brinquedo Pogobol."
+                },
+                {
+                    "text": "Kanguru (Pula-pula)",
+                    "isCorrect": false,
+                    "explanation": "Kanguru é bola com alça! Pogobol é bola com plataforma para os pés!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira uma pessoa finge ser um animal ou objeto para que as outras adivinhem?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Stop!",
+                    "isCorrect": false,
+                    "explanation": "Stop! é jogo de escrever! Fazer gestos para adivinhar é Mímica!"
+                },
+                {
+                    "text": "Telefone sem fio",
+                    "isCorrect": false,
+                    "explanation": "Telefone sem fio é cochichar mensagem! Fazer gestos para adivinhar é Mímica!"
+                },
+                {
+                    "text": "Mímica",
+                    "isCorrect": true,
+                    "explanation": "Silêncio e gestos! Mímica! A brincadeira onde você usa apenas o corpo para representar algo para os outros adivinharem. Teste de criatividade (e paciência de quem assiste!).",
+                    "imageUrl": "https://exemplo.com/brincadeira_mimica.jpg",
+                    "imageDescription": "Imagem de crianças brincando de mímica."
+                },
+                {
+                    "text": "Imagem e Ação",
+                    "isCorrect": false,
+                    "explanation": "Imagem e Ação é jogo de tabuleiro que *inclui* mímica! A brincadeira pura de fazer gestos é a Mímica!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo que é uma pequena boneca de plástico colecionável que vinha em uma caixinha fofa nos anos 80/90?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Boneco Xuxinha",
+                    "isCorrect": false,
+                    "explanation": "Boneco Xuxinha é boneco maior! A bonequinha pequena de caixinha é a Fofolete!"
+                },
+                {
+                    "text": "Fofolete",
+                    "isCorrect": true,
+                    "explanation": "Que fofura em miniatura! Fofolete! As pequenas bonecas de plástico colecionáveis que vinham em caixinhas charmosas. A alegria de muitos nos anos 80/90!",
+                    "imageUrl": "https://exemplo.com/brinquedo_fofolete.jpg",
+                    "imageDescription": "Imagem de bonecas Fofolete."
+                },
+                {
+                    "text": "Boneca Susi",
+                    "isCorrect": false,
+                    "explanation": "Boneca Susi é boneca maior de moda! A bonequinha pequena de caixinha é a Fofolete!"
+                },
+                {
+                    "text": "Boneca Moranguinho",
+                    "isCorrect": false,
+                    "explanation": "Boneca Moranguinho tem cheirinho! A bonequinha pequena de caixinha é a Fofolete!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira as crianças pulam corda ao ritmo de músicas específicas?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Amarelinha",
+                    "isCorrect": false,
+                    "explanation": "Amarelinha é no chão! Pular corda é com corda (e música!)"
+                },
+                {
+                    "text": "Elástico",
+                    "isCorrect": false,
+                    "explanation": "Elástico é com elástico parado! Pular corda é com corda girando!"
+                },
+                {
+                    "text": "Pula Corda",
+                    "isCorrect": true,
+                    "explanation": "Pura energia e ritmo! Pula Corda! Brincar de pular sobre a corda girando, muitas vezes acompanhado de músicas e rimas que definem o ritmo e os movimentos. Quem nunca cantou pulando corda?",
+                    "imageUrl": "https://exemplo.com/brincadeira_pula_corda.jpg",
+                    "imageDescription": "Imagem de crianças brincando de pular corda."
+                },
+                {
+                    "text": "Bambolê",
+                    "isCorrect": false,
+                    "explanation": "Bambolê é girar na cintura! Pular corda é outra coisa!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do jogo de tabuleiro onde o objetivo é dar a volta em uma trilha, vivendo uma 'vida' com carreira, casamento e filhos?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Banco Imobiliário",
+                    "isCorrect": false,
+                    "explanation": "Banco Imobiliário é sobre dinheiro e propriedades! Jogo da Vida é sobre a 'jornada' pessoal."
+                },
+                {
+                    "text": "Detetive",
+                    "isCorrect": false,
+                    "explanation": "Detetive é sobre mistério! Jogo da Vida é sobre eventos da vida."
+                },
+                {
+                    "text": "War",
+                    "isCorrect": false,
+                    "explanation": "War é sobre guerra! Jogo da Vida é sobre a 'jornada' pessoal."
+                },
+                {
+                    "text": "Jogo da Vida",
+                    "isCorrect": true,
+                    "explanation": "Que jornada! Jogo da Vida! O jogo de tabuleiro onde você simula uma vida, passando por faculdade, casamento, filhos, carreira e aposentadoria. Cheio de surpresas e desafios!",
+                    "imageUrl": "https://exemplo.com/jogo_da_vida_tabuleiro.jpg",
+                    "imageDescription": "Imagem do tabuleiro do Jogo da Vida."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo dos anos 80 que era uma prancheta com tela magnética e caneta para desenhar e apagar sacudindo?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Pense Bem",
+                    "isCorrect": false,
+                    "explanation": "Pense Bem era computador educativo! A prancheta magnética é Lousa Mágica!"
+                },
+                {
+                    "text": "Genius",
+                    "isCorrect": false,
+                    "explanation": "Genius é jogo de memória! A prancheta magnética é Lousa Mágica!"
+                },
+                {
+                    "text": "Lousa Mágica (ou Tela Mágica)",
+                    "isCorrect": true,
+                    "explanation": "Mágica e nostálgica! Lousa Mágica (ou Tela Mágica)! A prancheta onde você desenhava com a caneta magnética e apagava com um 'shake shake'. Simples e genial!",
+                    "imageUrl": "https://exemplo.com/brinquedo_lousa_magica.jpg",
+                    "imageDescription": "Imagem do brinquedo Lousa Mágica."
+                },
+                {
+                    "text": "Etch A Sketch",
+                    "isCorrect": false,
+                    "explanation": "Etch A Sketch é o nome original americano da Lousa Mágica! A resposta é o nome popular no Brasil!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira de roda as crianças se sentam em círculo e cantam 'Escravos de Jó jogavam caxangá...' enquanto passam um objeto?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Corre Cotia",
+                    "isCorrect": false,
+                    "explanation": "Corre Cotia é com o lenço! Escravos de Jó é passando objeto com as mãos!"
+                },
+                {
+                    "text": "Ciranda, Cirandinha",
+                    "isCorrect": false,
+                    "explanation": "Ciranda é com a música 'Ciranda, cirandinha'! Escravos de Jó é com a música do caxangá e passando objeto!"
+                },
+                {
+                    "text": "Escravos de Jó",
+                    "isCorrect": true,
+                    "explanation": "Passa, passa! Escravos de Jó! A brincadeira onde as crianças sentam em círculo, cantam e passam um objeto umas para as outras, com momentos de 'zigue' (passar para o lado) e 'zag' (voltar). Quem errar o ritmo sai. Pura coordenação rítmica!",
+                    "imageUrl": "https://exemplo.com/brincadeira_escravos_de_jo.jpg",
+                    "imageDescription": "Imagem de crianças brincando de Escravos de Jó."
+                },
+                {
+                    "text": "Telefone sem fio",
+                    "isCorrect": false,
+                    "explanation": "Telefone sem fio é cochichar mensagem! Escravos de Jó é passar objeto com as mãos!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo dos anos 90 que era uma mola grande de plástico colorida para descer escadas ou passar de mão em mão?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Elástico",
+                    "isCorrect": false,
+                    "explanation": "Elástico é para pular! A mola para descer escadas é outra."
+                },
+                {
+                    "text": "Mola Maluca",
+                    "isCorrect": true,
+                    "explanation": "Que maluco! Mola Maluca! As molas coloridas de plástico que você podia passar de uma mão para a outra ou colocar no topo da escada e ver ela 'andando' degrau por degrau. Simples e hipnotizante!",
+                    "imageUrl": "https://exemplo.com/brinquedo_mola_maluca.jpg",
+                    "imageDescription": "Imagem de uma Mola Maluca colorida."
+                },
+                {
+                    "text": "Pogobol",
+                    "isCorrect": false,
+                    "explanation": "Pogobol é bola para pular! Mola Maluca é uma mola para descer escadas!"
+                },
+                {
+                    "text": "Gelouco",
+                    "isCorrect": false,
+                    "explanation": "Gelouco era um gel grudento! Mola Maluca é uma mola!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira de rua as crianças se escondem e uma pessoa 'bate pique' (conta) em uma base antes de procurar?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Pega-pega",
+                    "isCorrect": false,
+                    "explanation": "Pega-pega tem pique, mas a brincadeira principal é pegar! Esconde-esconde é sobre se esconder enquanto alguém conta!"
+                },
+                {
+                    "text": "Amarelinha",
+                    "isCorrect": false,
+                    "explanation": "Amarelinha é pular em desenho no chão! Esconde-esconde é sobre se esconder enquanto alguém conta!"
+                },
+                {
+                    "text": "Esconde-esconde",
+                    "isCorrect": true,
+                    "explanation": "Onde você está? Esconde-esconde! O 'pegador' conta (bate pique) em uma base (árvore, poste) enquanto os outros se escondem. Quem for achado, pode ser 'pique' (salvo) por um colega que chegue na base antes do pegador. Adrenalina pura!",
+                    "imageUrl": "https://exemplo.com/brincadeira_esconde_esconde.jpg",
+                    "imageDescription": "Imagem de crianças brincando de esconde-esconde."
+                },
+                {
+                    "text": "Cabra Cega",
+                    "isCorrect": false,
+                    "explanation": "Cabra Cega é pegar de olhos vendados! Esconde-esconde é sobre contar e se esconder!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do jogo de tabuleiro de adivinhação onde o objetivo é descobrir qual personagem o adversário escolheu fazendo perguntas de sim ou não?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Perfil",
+                    "isCorrect": false,
+                    "explanation": "Perfil é com dicas variadas! O jogo de adivinhar personagem com perguntas de sim ou não é Cara a Cara!"
+                },
+                {
+                    "text": "Detetive",
+                    "isCorrect": false,
+                    "explanation": "Detetive é sobre mistério! O jogo de adivinhar personagem com perguntas de sim ou não é Cara a Cara!"
+                },
+                {
+                    "text": "Cara a Cara (ou Adivinha Quem É?)",
+                    "isCorrect": true,
+                    "explanation": "Quem é você? Cara a Cara (ou Adivinha Quem É?)! O jogo onde cada jogador tem um tabuleiro com rostos de personagens e deve adivinhar o personagem do adversário fazendo perguntas cujas respostas sejam apenas 'sim' ou 'não', descartando os personagens que não se encaixam. Jogo de eliminação e lógica!",
+                    "imageUrl": "https://exemplo.com/jogo_cara_a_cara.jpg",
+                    "imageDescription": "Imagem da caixa ou tabuleiro do jogo Cara a Cara."
+                },
+                {
+                    "text": "Stop!",
+                    "isCorrect": false,
+                    "explanation": "Stop! é sobre escrever palavras! O jogo de adivinhar personagem com perguntas de sim ou não é Cara a Cara!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo eletrônico portátil popular nos anos 90 que simulava um animal de estimação virtual?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Genius",
+                    "isCorrect": false,
+                    "explanation": "Genius é jogo de memória! O animal de estimação virtual é o Tamagotchi!"
+                },
+                {
+                    "text": "Pense Bem",
+                    "isCorrect": false,
+                    "explanation": "Pense Bem é computador educativo! O animal de estimação virtual é o Tamagotchi!"
+                },
+                {
+                    "text": "Tamagotchi",
+                    "isCorrect": true,
+                    "explanation": "Febre mundial! Tamagotchi! O ovinho eletrônico com um bichinho virtual para cuidar. Ele apitava para pedir comida, carinho... Uma febre dos anos 90!",
+                    "imageUrl": "https://exemplo.com/brinquedo_tamagotchi_ovo.jpg",
+                    "imageDescription": "Imagem de um Tamagotchi."
+                },
+                {
+                    "text": "Furbi",
+                    "isCorrect": false,
+                    "explanation": "Furbi é um bichinho de pelúcia eletrônico! O animal de estimação *virtual* é o Tamagotchi!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira de roda uma pessoa com os olhos vendados tenta pegar as outras, guiando-se pelo som?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Esconde-esconde",
+                    "isCorrect": false,
+                    "explanation": "Esconde-esconde é sobre se esconder! Pegar de olhos vendados é Cabra Cega!"
+                },
+                {
+                    "text": "Pega-pega",
+                    "isCorrect": false,
+                    "explanation": "Pega-pega é correr e pegar de olhos abertos! Pegar de olhos vendados é Cabra Cega!"
+                },
+                {
+                    "text": "Cabra Cega",
+                    "isCorrect": true,
+                    "explanation": "Não vale espiar! Cabra Cega! O pegador tem os olhos vendados e tenta pegar os outros no espaço da brincadeira. Quem for pego vira a cabra cega. Cuidado com as paredes!",
+                    "imageUrl": "https://exemplo.com/brincadeira_cabra_cega_rodando.jpg",
+                    "imageDescription": "Imagem de crianças brincando de cabra cega."
+                },
+                {
+                    "text": "Estátua",
+                    "isCorrect": false,
+                    "explanation": "Estátua é parar! Cabra Cega é pegar de olhos vendados!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo que é um objeto com ponta de metal lançado no chão com um barbante para girar?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Ioiô",
+                    "isCorrect": false,
+                    "explanation": "Ioiô gira no dedo! O brinquedo que gira no chão com ponta de metal é o Pião!"
+                },
+                {
+                    "text": "Bolinha de Gude",
+                    "isCorrect": false,
+                    "explanation": "Bolinha de Gude é bolinha de vidro! O brinquedo que gira na ponta de metal é o Pião!"
+                },
+                {
+                    "text": "Pião",
+                    "isCorrect": true,
+                    "explanation": "Gira, gira! O Pião! Você enrola o barbante, joga no chão e puxa para fazê-lo girar na ponta de metal. Um clássico que requer habilidade no lançamento!",
+                    "imageUrl": "https://exemplo.com/brinquedo_piao.jpg",
+                    "imageDescription": "Imagem de um pião."
+                },
+                {
+                    "text": "Diabolô",
+                    "isCorrect": false,
+                    "explanation": "Diabolô é manipulado com dois bastões! Pião gira sozinho no chão!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do jogo de tabuleiro onde o objetivo é desvendar um assassinato em uma mansão?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Banco Imobiliário",
+                    "isCorrect": false,
+                    "explanation": "Banco Imobiliário é dinheiro! O jogo de mistério é Detetive!"
+                },
+                {
+                    "text": "Detetive",
+                    "isCorrect": true,
+                    "explanation": "Mistério na mansão! Detetive! Colete pistas para descobrir o assassino, a arma e o local do crime!",
+                    "imageUrl": "https://exemplo.com/jogo_detetive_tabuleiro.jpg",
+                    "imageDescription": "Imagem do tabuleiro do jogo Detetive."
+                },
+                {
+                    "text": "War",
+                    "isCorrect": false,
+                    "explanation": "War é guerra! O jogo de mistério é Detetive!"
+                },
+                {
+                    "text": "Perfil",
+                    "isCorrect": false,
+                    "explanation": "Perfil é adivinhação! O jogo de mistério é Detetive!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira de roda as crianças cantam 'Ciranda, cirandinha...' e uma pessoa no centro escolhe outra?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Corre Cotia",
+                    "isCorrect": false,
+                    "explanation": "Corre Cotia é com o lenço! Ciranda é com a música 'Ciranda, cirandinha'!"
+                },
+                {
+                    "text": "Cabra Cega",
+                    "isCorrect": false,
+                    "explanation": "Cabra Cega é pegar de olhos vendados! Ciranda é brincadeira de roda com música e escolha!"
+                },
+                {
+                    "text": "Ciranda, Cirandinha",
+                    "isCorrect": true,
+                    "explanation": "É ela! Ciranda, Cirandinha! Clássica brincadeira de roda com música e uma criança no centro que escolhe outra para ir para o lugar dela. Pura diversão na roda!",
+                    "imageUrl": "https://exemplo.com/brincadeira_ciranda_cirandinha.jpg",
+                    "imageDescription": "Imagem de crianças brincando de Ciranda, Cirandinha."
+                },
+                {
+                    "text": "Escravos de Jó",
+                    "isCorrect": false,
+                    "explanation": "Escravos de Jó é com objeto e música! Ciranda é com música e escolha na roda!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo que é um disco de plástico para lançar e pegar?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Bumerangue",
+                    "isCorrect": false,
+                    "explanation": "Bumerangue volta! O disco de plástico para lançar e pegar é o Frisbee!"
+                },
+                {
+                    "text": "Peteca",
+                    "isCorrect": false,
+                    "explanation": "Peteca é para rebater com a mão! O disco de plástico é o Frisbee!"
+                },
+                {
+                    "text": "Frisbee (ou Disco Voador)",
+                    "isCorrect": true,
+                    "explanation": "Voando! Frisbee (ou Disco Voador)! O disco de plástico para lançar e pegar, ótimo para brincar ao ar livre!",
+                    "imageUrl": "https://exemplo.com/brinquedo_frisbee_lancando.jpg",
+                    "imageDescription": "Imagem de alguém lançando um Frisbee."
+                },
+                {
+                    "text": "Bambolê",
+                    "isCorrect": false,
+                    "explanation": "Bambolê é para girar! O disco para lançar é o Frisbee!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira as crianças se dividem em equipes e arremessam uma bola para 'queimar' os adversários?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Vôlei",
+                    "isCorrect": false,
+                    "explanation": "Vôlei é sobre rede! Queimada é sobre 'queimar' com a bola!"
+                },
+                {
+                    "text": "Futebol",
+                    "isCorrect": false,
+                    "explanation": "Futebol é com os pés! Queimada é arremessar a bola!"
+                },
+                {
+                    "text": "Queimada (ou Caçador)",
+                    "isCorrect": true,
+                    "explanation": "Fogo! Queimada (ou Caçador, Baleado)! O jogo em equipes onde você acerta os adversários com a bola para eliminá-los. Desvie da bola!",
+                    "imageUrl": "https://exemplo.com/brincadeira_queimada.jpg",
+                    "imageDescription": "Imagem de crianças brincando de Queimada."
+                },
+                {
+                    "text": "Basquete",
+                    "isCorrect": false,
+                    "explanation": "Basquete é cesta! Queimada é 'queimar' com a bola!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo de montar peças de plástico, famoso por suas cores e encaixes?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Quebra-cabeça",
+                    "isCorrect": false,
+                    "explanation": "Quebra-cabeça é imagem! O brinquedo de montar peças é LEGO!"
+                },
+                {
+                    "text": "Massinha",
+                    "isCorrect": false,
+                    "explanation": "Massinha é modelar! O brinquedo de montar peças é LEGO!"
+                },
+                {
+                    "text": "LEGO",
+                    "isCorrect": true,
+                    "explanation": "Crie o que quiser! LEGO! As famosas peças de encaixar que permitem construir um universo inteiro. A imaginação é o limite!",
+                    "imageUrl": "https://exemplo.com/brinquedo_lego_caixa.jpg",
+                    "imageDescription": "Imagem da caixa ou peças de LEGO."
+                },
+                {
+                    "text": "Play-Doh",
+                    "isCorrect": false,
+                    "explanation": "Play-Doh é massinha! O brinquedo de montar peças é LEGO!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira as crianças usam um elástico grande e pulam sobre ele em diferentes alturas?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Pula Corda",
+                    "isCorrect": false,
+                    "explanation": "Pula Corda é com corda! O elástico é outro!"
+                },
+                {
+                    "text": "Amarelinha",
+                    "isCorrect": false,
+                    "explanation": "Amarelinha é no chão! O elástico é outro!"
+                },
+                {
+                    "text": "Elástico (ou Pular Elástico)",
+                    "isCorrect": true,
+                    "explanation": "Pura coordenação! Elástico (ou Pular Elástico)! Brincadeira com um elástico esticado onde se pula sobre ele, dentro dele, em diferentes níveis de altura. Teste de agilidade!",
+                    "imageUrl": "https://exemplo.com/brincadeira_pular_elastico.jpg",
+                    "imageDescription": "Imagem de crianças brincando de pular elástico."
+                },
+                {
+                    "text": "Cinco Marias",
+                    "isCorrect": false,
+                    "explanation": "Cinco Marias é com saquinhos! O elástico é outro!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do jogo de tabuleiro onde o objetivo é desvendar um assassinato na mansão?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Banco Imobiliário",
+                    "isCorrect": false,
+                    "explanation": "Banco Imobiliário é dinheiro! O jogo de mistério é Detetive!"
+                },
+                {
+                    "text": "Detetive",
+                    "isCorrect": true,
+                    "explanation": "Mistério na mansão! Detetive! Investigue para descobrir quem, com que arma e onde o crime foi cometido!",
+                    "imageUrl": "https://exemplo.com/jogo_detetive_tabuleiro.jpg",
+                    "imageDescription": "Imagem do tabuleiro do jogo Detetive."
+                },
+                {
+                    "text": "War",
+                    "isCorrect": false,
+                    "explanation": "War é guerra! O jogo de mistério é Detetive!"
+                },
+                {
+                    "text": "Perfil",
+                    "isCorrect": false,
+                    "explanation": "Perfil é adivinhação! O jogo de mistério é Detetive!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira as crianças sentam em círculo e passam uma mensagem cochichando uma para a outra?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Mímica",
+                    "isCorrect": false,
+                    "explanation": "Mímica é fazer gestos! Passar mensagem cochichando é Telefone sem fio!"
+                },
+                {
+                    "text": "Escravos de Jó",
+                    "isCorrect": false,
+                    "explanation": "Escravos de Jó é passar objeto! Passar mensagem cochichando é Telefone sem fio!"
+                },
+                {
+                    "text": "Telefone sem fio",
+                    "isCorrect": true,
+                    "explanation": "Distorsão na certa! Telefone sem fio! Uma brincadeira onde a mensagem vai passando de ouvido em ouvido e geralmente chega hilária no final! Cuidado com os 'fios'!",
+                    "imageUrl": "https://exemplo.com/brincadeira_telefone_sem_fio.jpg",
+                    "imageDescription": "Imagem de crianças brincando de telefone sem fio."
+                },
+                {
+                    "text": "Stop!",
+                    "isCorrect": false,
+                    "explanation": "Stop! é jogo de escrever palavras! Passar mensagem cochichando é Telefone sem fio!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira uma pessoa grita 'Stop!' e todos precisam parar imóveis, como estátuas?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "1, 2, 3 Inglês",
+                    "isCorrect": false,
+                    "explanation": "1, 2, 3 Inglês é parar quando a pessoa se vira! Stop! é parar ao ouvir a palavra!"
+                },
+                {
+                    "text": "Pega-pega Congelante",
+                    "isCorrect": false,
+                    "explanation": "Pega-pega Congelante é ficar congelado ao ser tocado! Estátua é parar ao ouvir a palavra!"
+                },
+                {
+                    "text": "Estátua (ou Stop!)",
+                    "isCorrect": true,
+                    "explanation": "Congelou! Estátua (ou Stop!)! A brincadeira de parar como estátua ao som ou comando. Quem se mexer sai. Teste de equilíbrio!",
+                    "imageUrl": "https://exemplo.com/brincadeira_estatua.jpg",
+                    "imageDescription": "Imagem de crianças brincando de estátua."
+                },
+                {
+                    "text": "Cabra Cega",
+                    "isCorrect": false,
+                    "explanation": "Cabra Cega é pegar de olhos vendados! Estátua é parar!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do jogo de adivinhação onde o objetivo é descobrir qual personagem o adversário escolheu fazendo perguntas de sim ou não?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Perfil",
+                    "isCorrect": false,
+                    "explanation": "Perfil é com dicas variadas! O jogo de adivinhar personagem com perguntas de sim ou não é Cara a Cara!"
+                },
+                {
+                    "text": "Detetive",
+                    "isCorrect": false,
+                    "explanation": "Detetive é sobre mistério! O jogo de adivinhar personagem com perguntas de sim ou não é Cara a Cara!"
+                },
+                {
+                    "text": "Cara a Cara (ou Adivinha Quem É?)",
+                    "isCorrect": true,
+                    "explanation": "Quem é você? Cara a Cara (ou Adivinha Quem É?)! O jogo onde você faz perguntas de sim ou não para eliminar personagens e descobrir qual o adversário escolheu. Lógica e dedução!",
+                    "imageUrl": "https://exemplo.com/jogo_cara_a_cara.jpg",
+                    "imageDescription": "Imagem da caixa ou tabuleiro do jogo Cara a Cara."
+                },
+                {
+                    "text": "Stop!",
+                    "isCorrect": false,
+                    "explanation": "Stop! é sobre escrever palavras! O jogo de adivinhar personagem com perguntas de sim ou não é Cara a Cara!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo dos anos 80 que era um computador educativo infantil?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Genius",
+                    "isCorrect": false,
+                    "explanation": "Genius é jogo de memória! O computador educativo é outro."
+                },
+                {
+                    "text": "Pense Bem",
+                    "isCorrect": true,
+                    "explanation": "Pense Bem! O computador educativo da CCE nos anos 80, com teclado de membrana e cartuchos de jogos e atividades. Muitas crianças aprenderam brincando com ele! 'Pense Bem, para o seu filho ir mais longe!'",
+                    "imageUrl": "https://exemplo.com/brinquedo_pense_bem.jpg",
+                    "imageDescription": "Imagem do brinquedo Pense Bem."
+                },
+                {
+                    "text": "Atari",
+                    "isCorrect": false,
+                    "explanation": "Atari é console de videogame! Pense Bem é computador educativo!"
+                },
+                {
+                    "text": "Master System",
+                    "isCorrect": false,
+                    "explanation": "Master System é console de videogame! Pense Bem é computador educativo!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira uma pessoa no centro do círculo, com os olhos vendados, tenta pegar os outros, guiando-se pelo som?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Esconde-esconde",
+                    "isCorrect": false,
+                    "explanation": "Esconde-esconde é sobre se esconder! Pegar de olhos vendados é Cabra Cega!"
+                },
+                {
+                    "text": "Pega-pega",
+                    "isCorrect": false,
+                    "explanation": "Pega-pega é correr e pegar de olhos abertos! Pegar de olhos vendados é Cabra Cega!"
+                },
+                {
+                    "text": "Cabra Cega",
+                    "isCorrect": true,
+                    "explanation": "Não vale espiar! Cabra Cega! O pegador, com os olhos vendados, tenta tocar em alguém. Quem for pego vira o pegador. Atenção aos sons!",
+                    "imageUrl": "https://exemplo.com/brincadeira_cabra_cega.jpg",
+                    "imageDescription": "Imagem de crianças brincando de cabra cega."
+                },
+                {
+                    "text": "Estátua",
+                    "isCorrect": false,
+                    "explanation": "Estátua é parar! Cabra Cega é pegar de olhos vendados!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo dos anos 90 que era uma massa gelatinosa e grudenta que vinha em um potinho?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Massinha de Modelar",
+                    "isCorrect": false,
+                    "explanation": "Massinha é para modelar! O brinquedo grudento e gelatinoso é outro."
+                },
+                {
+                    "text": "Gelouco",
+                    "isCorrect": true,
+                    "explanation": "Que grude! Gelouco (ou Slime/Geleca em outras versões)! A massa pegajosa e maleável que vinha em potinhos. Podia fazer bolhas, esticar e grudar nas coisas (para o desespero dos pais!).",
+                    "imageUrl": "https://exemplo.com/brinquedo_gelouco.jpg",
+                    "imageDescription": "Imagem do brinquedo Gelouco ou Slime."
+                },
+                {
+                    "text": "Mola Maluca",
+                    "isCorrect": false,
+                    "explanation": "Mola Maluca é uma mola! Gelouco é uma massa gelatinosa!"
+                },
+                {
+                    "text": "Play-Doh",
+                    "isCorrect": false,
+                    "explanation": "Play-Doh é marca de massinha! Gelouco é massa gelatinosa grudenta!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira as crianças precisam correr para um 'pique' (base) para não serem pegas pela pessoa que está 'pegando'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Esconde-esconde",
+                    "isCorrect": false,
+                    "explanation": "Esconde-esconde tem pique, mas a brincadeira é se esconder! Pega-pega é correr para pegar e correr para o pique!"
+                },
+                {
+                    "text": "Amarelinha",
+                    "isCorrect": false,
+                    "explanation": "Amarelinha é pular em desenho no chão! Pique é mais comum em Pega-pega."
+                },
+                {
+                    "text": "Pega-pega",
+                    "isCorrect": true,
+                    "explanation": "Corre, corre! Pega-pega! Uma pessoa persegue as outras e quem for tocado vira o pegador. Em muitas variações, existe um 'pique' ou base onde você está seguro. Velocidade e estratégia de fuga!",
+                    "imageUrl": "https://exemplo.com/brincadeira_pega_pega.jpg",
+                    "imageDescription": "Imagem de crianças brincando de pega-pega."
+                },
+                {
+                    "text": "Gato Esconde Rato",
+                    "isCorrect": false,
+                    "explanation": "Gato Esconde Rato é com um objeto escondido! Pega-pega é correr e tocar!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do jogo de tabuleiro onde o objetivo é desvendar um assassinato em uma mansão, investigando o local, a arma e o culpado?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Banco Imobiliário",
+                    "isCorrect": false,
+                    "explanation": "Banco Imobiliário é sobre dinheiro! O jogo de mistério é Detetive!"
+                },
+                {
+                    "text": "Detetive",
+                    "isCorrect": true,
+                    "explanation": "Mistério na mansão! Detetive! Mova-se pela mansão, colete pistas e desvende o assassinato. Quem foi? Com o quê? Onde?",
+                    "imageUrl": "https://exemplo.com/jogo_detetive_tabuleiro.jpg",
+                    "imageDescription": "Imagem do tabuleiro do jogo Detetive."
+                },
+                {
+                    "text": "War",
+                    "isCorrect": false,
+                    "explanation": "War é sobre guerra! O jogo de mistério é Detetive!"
+                },
+                {
+                    "text": "Perfil",
+                    "isCorrect": false,
+                    "explanation": "Perfil é sobre adivinhação! O jogo de mistério é Detetive!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do brinquedo que é um cubo com cores em cada face que você gira para resolver e deixar cada face com uma única cor?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "LEGO",
+                    "isCorrect": false,
+                    "explanation": "LEGO é de encaixar peças! O brinquedo de girar um cubo para resolver cores é o Cubo Mágico!"
+                },
+                {
+                    "text": "Quebra-cabeça",
+                    "isCorrect": false,
+                    "explanation": "Quebra-cabeça é montar uma imagem! O brinquedo de girar um cubo é o Cubo Mágico!"
+                },
+                {
+                    "text": "Cubo Mágico (ou Cubo de Rubik)",
+                    "isCorrect": true,
+                    "explanation": "Que desafio! O Cubo Mágico (ou Cubo de Rubik)! O quebra-cabeça tridimensional que você gira para resolver as cores. Pura lógica e paciência!",
+                    "imageUrl": "https://exemplo.com/brinquedo_cubo_magico.jpg",
+                    "imageDescription": "Imagem de um Cubo Mágico."
+                },
+                {
+                    "text": "Genius",
+                    "isCorrect": false,
+                    "explanation": "Genius é jogo de memória! O brinquedo de girar um cubo é o Cubo Mágico!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual brincadeira as crianças pulam sobre uma corda girada por duas pessoas?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Amarelinha",
+                    "isCorrect": false,
+                    "explanation": "Amarelinha é no chão! Pular corda é com corda (e música!)"
+                },
+                {
+                    "text": "Elástico",
+                    "isCorrect": false,
+                    "explanation": "Elástico é com elástico parado! Pular corda é com corda girando!"
+                },
+                {
+                    "text": "Pula Corda",
+                    "isCorrect": true,
+                    "explanation": "Pura energia e ritmo! Pula Corda! Brincar de pular sobre a corda girando, muitas vezes acompanhado de músicas e rimas que definem o ritmo e os movimentos. Quem nunca cantou pulando corda?",
+                    "imageUrl": "https://exemplo.com/brincadeira_pula_corda.jpg",
+                    "imageDescription": "Imagem de crianças brincando de pular corda."
+                },
+                {
+                    "text": "Bambolê",
+                    "isCorrect": false,
+                    "explanation": "Bambolê é girar na cintura! Pular corda é outra coisa!"
+                }
+            ]
+        }
+    ]
+}

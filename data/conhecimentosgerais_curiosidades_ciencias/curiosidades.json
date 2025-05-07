@@ -1,0 +1,2753 @@
+{
+    "config": {
+      "theme": "Curiosidades do Mundo",
+      "totalPoints": 1000,
+      "scoring": "points"
+    },
+    "data": [
+      {
+        "question": "Qual animal é famoso por ter três corações?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Elefante",
+            "isCorrect": false,
+            "explanation": "Elefantes são gigantes e têm um coração enorme, mas é só um! Os três corações são de uma criatura marinha bem mais... flexível!"
+          },
+          {
+            "text": "Girafa",
+            "isCorrect": false,
+            "explanation": "Girafas têm um coração super potente para bombear sangue até o cérebro lá no alto, mas é apenas um. O sortudo com três é um mestre do disfarce no oceano!"
+          },
+          {
+            "text": "Polvo",
+            "isCorrect": true,
+            "explanation": "Que curioso, acertou! O polvo tem um coração principal que bombeia sangue para o corpo e dois corações 'branquiais' menores que bombeiam sangue para as brânquias. Três corações para um animal tão esperto e camuflado!",
+            "imageUrl": "https://exemplo.com/polvo_curiosidade.jpg",
+            "imageDescription": "Imagem de um polvo subaquático."
+          },
+          {
+            "text": "Baleia Azul",
+            "isCorrect": false,
+            "explanation": "A Baleia Azul tem o maior coração do mundo, do tamanho de um carro pequeno! Mas ainda assim, é só um. Os três corações são de um invertebrado!"
+          }
+        ]
+      },
+      {
+        "question": "Em que país fica a Torre de Pisa, famosa por ser inclinada?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "França",
+            "isCorrect": false,
+            "explanation": "França tem a Torre Eiffel! A Torre de Pisa fica na Itália, e ela começou a inclinar logo depois de ser construída. Um erro de cálculo que virou atração!"
+          },
+          {
+            "text": "Espanha",
+            "isCorrect": false,
+            "explanation": "Espanha tem a Sagrada Família e Alhambra! A Torre de Pisa é uma maravilha italiana, famosa por... não ser reta!"
+          },
+          {
+            "text": "Itália",
+            "isCorrect": true,
+            "explanation": "Bravo! É na Itália, na cidade de Pisa! Construída como campanário (torre do sino), o solo mole fez com que ela começasse a inclinar antes mesmo de ser terminada. Tentaram corrigir, mas a inclinação virou sua marca registrada. Quase caiu, mas se equilibrou na fama!",
+            "imageUrl": "https://exemplo.com/torre_de_pisa.jpg",
+            "imageDescription": "Imagem da Torre de Pisa inclinada na Itália."
+          },
+          {
+            "text": "Grécia",
+            "isCorrect": false,
+            "explanation": "Grécia tem o Parthenon e Acrópoles! A Torre de Pisa é uma falha de engenharia italiana que deu muito certo para o turismo!"
+          }
+        ]
+      },
+      {
+        "question": "Qual o menor continente do mundo?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Europa",
+            "isCorrect": false,
+            "explanation": "Europa é um continente grande, cheio de países! O menor é bem menor e é um país-continente!"
+          },
+          {
+            "text": "Austrália (Oceania)",
+            "isCorrect": true,
+            "explanation": "Surpreendente, mas é isso mesmo! A Austrália (considerada o continente/região da Oceania) é o menor continente em área terrestre. Pequenino, mas cheio de cangurus e paisagens únicas!",
+            "imageUrl": "https://exemplo.com/australia_map.jpg",
+            "imageDescription": "Mapa do continente da Austrália / Oceania."
+          },
+          {
+            "text": "América do Sul",
+            "isCorrect": false,
+            "explanation": "América do Sul é gigante, com a Floresta Amazônica e os Andes! O menor continente é bem mais isolado e menorzinho."
+          },
+          {
+            "text": "Antártida",
+            "isCorrect": false,
+            "explanation": "A Antártida é grande, fria e coberta de gelo! É um continente, mas não é o menor em área terrestre (descontando o gelo!)."
+          }
+        ]
+      },
+      {
+        "question": "De que material é feita a parte mais resistente do corpo humano?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Osso",
+            "isCorrect": false,
+            "explanation": "Ossos são duros e resistentes, mas a parte mais resistente está na boca! Pense no que você usa para mastigar..."
+          },
+          {
+            "text": "Pele",
+            "isCorrect": false,
+            "explanation": "Pele é flexível e protege tudo, mas não é a parte mais resistente. A parte mais dura e resistente é para 'quebrar' coisas!"
+          },
+          {
+            "text": "Esmalte do Dente",
+            "isCorrect": true,
+            "explanation": "Que curioso! O esmalte que cobre a parte externa dos dentes é a substância mais dura e mineralizada produzida pelo corpo humano. Mais duro que os ossos! Seus dentes são mais 'casca grossa' do que você pensava!",
+            "imageUrl": "https://exemplo.com/esmalte_dente.jpg",
+            "imageDescription": "Imagem de dentes humanos em close-up, mostrando o esmalte."
+          },
+          {
+            "text": "Unhas",
+            "isCorrect": false,
+            "explanation": "Unhas são feitas de queratina e são flexíveis! A parte mais resistente é mineralizada e usada para 'moer'."
+          }
+        ]
+      },
+      {
+        "question": "Qual a única letra que não aparece na tabela periódica dos elementos?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Z",
+            "isCorrect": false,
+            "explanation": "A letra Z aparece, como no Zinco (Zn) e Zircônio (Zr)! A letra que está 'excluída' é outra."
+          },
+          {
+            "text": "X",
+            "isCorrect": false,
+            "explanation": "A letra X aparece, como no Xenônio (Xe)! A letra que é a 'ovelha negra' da tabela é outra."
+          },
+          {
+            "text": "J",
+            "isCorrect": true,
+            "explanation": "Surpreendente, mas é a letra J! Por alguma razão (histórica, talvez?), a letra J é a única que não aparece como símbolo ou dentro do nome de nenhum elemento químico na tabela periódica. Uma curiosidade que só químicos (e quizzeiros!) sabem!",
+            "imageUrl": "https://exemplo.com/tabela_periodica_curiosidade.jpg",
+            "imageDescription": "Imagem colorida da Tabela Periódica dos Elementos Químicos."
+          },
+          {
+            "text": "Q",
+            "isCorrect": false,
+            "explanation": "A letra Q aparece, como no elemento recém-nomeado Nihônio, cujo símbolo provisório já usou Q (Unq)! A letra que nunca deu as caras na tabela é a J."
+          }
+        ]
+      },
+      {
+        "question": "Qual inseto é capaz de voar para trás?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Borboleta",
+            "isCorrect": false,
+            "explanation": "Borboletas voam para frente, de flor em flor! O mestre do voo para trás é um inseto que faz 'zum-zum'."
+          },
+          {
+            "text": "Abelha",
+            "isCorrect": false,
+            "explanation": "Abelhas são excelentes voadoras, para frente! O inseto que tem essa manobra aérea especial é um parente delas, mas com menos 'trabalho'."
+          },
+          {
+            "text": "Mosca",
+            "isCorrect": false,
+            "explanation": "Moscas são ágeis e irritantes, voam para todos os lados, mas voar para trás não é a especialidade delas. O voo para trás é de um mestre da polinização."
+          },
+          {
+            "text": "Beija-flor (é uma ave, mas o voo é peculiar)",
+            "isCorrect": true,
+            "explanation": "Haha, pegadinha! O beija-flor NÃO é um inseto, é uma ave! Mas o *padrão* de voo de pairar no ar e voar para trás é a característica dele, e a pergunta pode ter sido formulada para focar nisso pela similaridade com insetos que pairam. No reino animal, ele é o mais famoso por essa habilidade, mesmo sendo ave! Que curioso, né? Entre os *insetos*, a capacidade de voar para trás de forma controlada é rara, mas algumas mariposas e moscas da fruta *podem* fazer movimentos para trás, mas o beija-flor é o mais icônico por isso!",
+            "imageUrl": "https://exemplo.com/beija_flor_voando.jpg",
+            "imageDescription": "Imagem de um beija-flor pairando no ar perto de uma flor."
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome da fobia de palavras longas?",
+        "level": "difícil",
+        "options": [
+          {
+            "text": "Claustrofobia",
+            "isCorrect": false,
+            "explanation": "Claustrofobia é medo de espaços fechados! A fobia de palavras longas é, ironicamente... um nome longo!"
+          },
+          {
+            "text": "Agorafobia",
+            "isCorrect": false,
+            "explanation": "Agorafobia é medo de espaços abertos ou multidões! A fobia de palavras longas é sobre... ler ou ouvir palavras longas!"
+          },
+          {
+            "text": "Hipopotomonstrosesquipedaliofobia",
+            "isCorrect": true,
+            "explanation": "Que curiosidade irônica! A fobia de palavras longas se chama... Hipopotomonstrosesquipedaliofobia! É uma das fobias com o nome mais longo que existe, o que a torna ainda mais desafiadora para quem a tem. O nome em si já causa um arrepio!",
+            "imageUrl": "https://exemplo.com/palavra_longa_fobia.jpg",
+            "imageDescription": "Imagem abstrata relacionada a medo ou palavras longas."
+          },
+          {
+            "text": "Acrofobia",
+            "isCorrect": false,
+            "explanation": "Acrofobia é medo de altura! A fobia de palavras longas é um 'tamanho' diferente de medo, o tamanho das palavras!"
+          }
+        ]
+      },
+      {
+        "question": "Em qual cidade está localizado o famoso Museu do Louvre?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Londres",
+            "isCorrect": false,
+            "explanation": "Londres tem o British Museum e a National Gallery! O Louvre, lar da Mona Lisa, fica em outra capital europeia super famosa."
+          },
+          {
+            "text": "Paris",
+            "isCorrect": true,
+            "explanation": "Oui, c'est ça! É em Paris, na França! O Museu do Louvre é um dos maiores e mais famosos museus de arte do mundo, com a Pirâmide de Vidro na entrada e coleções incríveis, incluindo a Mona Lisa. Imperdível (se você tiver tempo para ver tudo!)!",
+            "imageUrl": "https://exemplo.com/museu_do_louvre_paris.jpg",
+            "imageDescription": "Imagem externa do Museu do Louvre com a Pirâmide de Vidro em Paris."
+          },
+          {
+            "text": "Roma",
+            "isCorrect": false,
+            "explanation": "Roma tem museus maravilhosos, como os Museus Vaticanos e a Galleria Borghese! Mas o Louvre é uma joia francesa!"
+          },
+          {
+            "text": "Madri",
+            "isCorrect": false,
+            "explanation": "Madri tem o Museu do Prado! O Louvre é uma parada obrigatória para quem visita Paris!"
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome da capital do Canadá?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Toronto",
+            "isCorrect": false,
+            "explanation": "Toronto é a maior cidade do Canadá, super famosa! Mas não é a capital política."
+          },
+          {
+            "text": "Vancouver",
+            "isCorrect": false,
+            "explanation": "Vancouver é uma cidade linda na costa oeste! Mas a capital do Canadá fica mais para o leste."
+          },
+          {
+            "text": "Montreal",
+            "isCorrect": false,
+            "explanation": "Montreal é uma cidade bilíngue e vibrante! Mas a capital é outra cidade, conhecida pelos prédios do governo."
+          },
+          {
+            "text": "Ottawa",
+            "isCorrect": true,
+            "explanation": "Acertou! Ottawa é a capital do Canadá. Fica na província de Ontário, perto da fronteira com Quebec, e é o centro político do país. Menos badalada que Toronto ou Vancouver, mas super importante!",
+            "imageUrl": "https://exemplo.com/parliament_hill_ottawa.jpg",
+            "imageDescription": "Imagem do Parliament Hill em Ottawa, sede do governo canadense."
+          }
+        ]
+      },
+      {
+        "question": "Qual é o único alimento que não estraga?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Arroz cru",
+            "isCorrect": false,
+            "explanation": "Arroz cru dura muito, mas pode ser afetado por umidade ou insetos ao longo de MUITO tempo. O alimento 'eterno' é doce e pegajoso!"
+          },
+          {
+            "text": "Mel",
+            "isCorrect": true,
+            "explanation": "Que doçura de acerto! O mel, armazenado corretamente em um recipiente fechado, não estraga. Suas propriedades químicas e baixo teor de água inibem o crescimento de bactérias e fungos. Encontraram mel em tumbas egípcias que ainda era comestível! Uma curiosidade deliciosa!",
+            "imageUrl": "https://exemplo.com/pote_de_mel.jpg",
+            "imageDescription": "Imagem de um pote de mel dourado com um pegador de mel."
+          },
+          {
+            "text": "Açúcar",
+            "isCorrect": false,
+            "explanation": "Açúcar puro é muito estável, mas pode empedrar ou ser contaminado por umidade se não for bem armazenado. O alimento que realmente desafia o tempo é feito por abelhas!"
+          },
+          {
+            "text": "Sal",
+            "isCorrect": false,
+            "explanation": "Sal é um mineral e não estraga, mas é um tempero, não um alimento que nos nutre por si só como o mel. O mel é o alimento 'eterno'!"
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome científico do 'nome científico'?",
+        "level": "difícil",
+        "options": [
+          {
+            "text": "Taxonomia",
+            "isCorrect": false,
+            "explanation": "Taxonomia é a ciência da classificação! O nome científico (aquele com dois nomes) é uma parte da taxonomia."
+          },
+          {
+            "text": "Nomenclatura Científica",
+            "isCorrect": true,
+            "explanation": "Curiosidade metalinguística! O 'nome científico' dos seres vivos (como *Homo sapiens* para humanos) é chamado de Nomenclatura Científica, ou mais especificamente Nomenclatura Binomial (porque usa dois nomes). É o sistema universal para nomear espécies. Chique, né?",
+            "imageUrl": "https://exemplo.com/nomenclatura_binomial.jpg",
+            "imageDescription": "Ilustração de exemplos de nomes científicos (ex: Homo sapiens, Panthera tigris)."
+          },
+          {
+            "text": "Sistemática",
+            "isCorrect": false,
+            "explanation": "Sistemática é o estudo da diversidade e relação entre os seres vivos! Nomenclatura é como damos nome a eles."
+          },
+          {
+            "text": "Biologia",
+            "isCorrect": false,
+            "explanation": "Biologia é a ciência da vida! A Nomenclatura Científica é uma ferramenta usada na biologia para nomear seres vivos."
+          }
+        ]
+      },
+      {
+        "question": "Qual país é conhecido como a 'Terra do Sol Nascente'?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "China",
+            "isCorrect": false,
+            "explanation": "China é um país enorme com uma história milenar! Mas a 'Terra do Sol Nascente', por sua localização a leste, é outra."
+          },
+          {
+            "text": "Coreia do Sul",
+            "isCorrect": false,
+            "explanation": "Coreia do Sul é conhecida pela tecnologia e K-Pop! O país a leste, famoso por receber o primeiro sol, é o Japão."
+          },
+          {
+            "text": "Japão",
+            "isCorrect": true,
+            "explanation": "Perfeito! O Japão (日本 - Nihon/Nippon) é literalmente a 'Terra do Sol Nascente' em japonês. Localizado a leste do continente asiático, era visto de onde o sol 'nascia'. Uma curiosidade cultural e geográfica interessante!",
+            "imageUrl": "https://exemplo.com/bandeira_japao.jpg",
+            "imageDescription": "Imagem da bandeira do Japão, com o sol vermelho ao centro."
+          },
+          {
+            "text": "Vietnã",
+            "isCorrect": false,
+            "explanation": "Vietnã é um país do sudeste asiático com paisagens lindas! A 'Terra do Sol Nascente' é o Japão."
+          }
+        ]
+      },
+      {
+        "question": "Qual a cor mais comum usada em bandeiras nacionais no mundo?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Azul",
+            "isCorrect": false,
+            "explanation": "Azul é super comum, representa o céu, mar, paz! Mas tem uma cor ainda mais frequente nas bandeiras do mundo."
+          },
+          {
+            "text": "Vermelho",
+            "isCorrect": true,
+            "explanation": "Curiosamente, é o vermelho! Representa sangue, coragem, revolução... ou até mesmo o sol. É a cor que aparece no maior número de bandeiras nacionais. Uma curiosidade sobre simbolismo!",
+            "imageUrl": "https://exemplo.com/bandeiras_vermelhas.jpg",
+            "imageDescription": "Colagem de diversas bandeiras nacionais que contêm a cor vermelha."
+          },
+          {
+            "text": "Verde",
+            "isCorrect": false,
+            "explanation": "Verde é comum, representa natureza, esperança, terra! Mas o campeão das cores nas bandeiras é o vermelho!"
+          },
+          {
+            "text": "Branco",
+            "isCorrect": false,
+            "explanation": "Branco representa paz, pureza! É comum, mas não tanto quanto o vermelho."
+          }
+        ]
+      },
+      {
+        "question": "Qual órgão do corpo humano pode regenerar grande parte de si mesmo?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Coração",
+            "isCorrect": false,
+            "explanation": "O coração é vital, mas sua capacidade de regeneração é muito limitada. O órgão que pode se curar de forma impressionante é outro."
+          },
+          {
+            "text": "Cérebro",
+            "isCorrect": false,
+            "explanation": "O cérebro tem plasticidade e pode criar novas conexões, mas a regeneração de tecido cerebral danificado é mínima. O órgão que 'renasce das cinzas' é outro!"
+          },
+          {
+            "text": "Pulmão",
+            "isCorrect": false,
+            "explanation": "Pulmões são essenciais, mas a regeneração de tecido pulmonar é limitada. O órgão que pode crescer de volta é o 'filtro' do corpo!"
+          },
+          {
+            "text": "Fígado",
+            "isCorrect": true,
+            "explanation": "Que poder! O fígado é o único órgão interno do corpo humano capaz de regenerar uma grande parte de sua massa. Se você remover até 75% de um fígado saudável, ele pode voltar ao seu tamanho original! Um superpoder real dentro de você!",
+            "imageUrl": "https://exemplo.com/figado_regeneracao.jpg",
+            "imageDescription": "Ilustração mostrando o fígado humano e o conceito de regeneração."
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome do medo de altura?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Claustrofobia",
+            "isCorrect": false,
+            "explanation": "Claustrofobia é medo de espaços fechados! Medo de altura é sobre estar no... alto!"
+          },
+          {
+            "text": "Agorafobia",
+            "isCorrect": false,
+            "explanation": "Agorafobia é medo de espaços abertos ou multidões! Medo de altura é sobre olhar para... baixo (de um lugar alto!)"
+          },
+          {
+            "text": "Acrofobia",
+            "isCorrect": true,
+            "explanation": "Isso! Acrofobia! O medo extremo e irracional de altura. Olhar para baixo de um prédio, estar em uma montanha alta... pode causar pânico em quem tem acrofobia. Melhor ficar no térreo, né?",
+            "imageUrl": "https://exemplo.com/acrofobia_altura.jpg",
+            "imageDescription": "Imagem sugestiva de vertigem ou altura (sem pessoas em perigo real)."
+          },
+          {
+            "text": "Hidrofobia",
+            "isCorrect": false,
+            "explanation": "Hidrofobia é medo de água! Medo de altura é sobre o oposto do chão!"
+          }
+        ]
+      },
+      {
+        "question": "Qual é o animal mais barulhento do mundo em relação ao seu tamanho?",
+        "level": "difícil",
+        "options": [
+          {
+            "text": "Elefante",
+            "isCorrect": false,
+            "explanation": "Elefantes são barulhentos e enormes, mas a pergunta é 'em relação ao tamanho'! O campeão do barulho é minúsculo!"
+          },
+          {
+            "text": "Baleia Azul",
+            "isCorrect": false,
+            "explanation": "Baleia Azul é o animal mais barulhento do mundo, com sons subaquáticos super altos! Mas ela é GIGANTE. A pergunta é sobre o barulho proporcional ao tamanho."
+          },
+          {
+            "text": "Camarão Pistola (ou Mantis Shrimp)",
+            "isCorrect": false,
+            "explanation": "Camarão Pistola tem um soco super rápido que faz barulho, mas o campeão proporcional é um inseto aquático."
+          },
+          {
+            "text": "Barata d'água (Micronecta scholtzi)",
+            "isCorrect": true,
+            "explanation": "Que surpresa! O animal mais barulhento em relação ao seu tamanho é uma pequena barata d'água chamada *Micronecta scholtzi*! Com apenas 2 mm de comprimento, ela produz sons de 'canto' de acasalamento esfregando seus genitais (sim!) que podem chegar a 99 decibéis, o equivalente a ouvir uma orquestra barulhenta da primeira fila! Proporcionalmente, é insano!",
+            "imageUrl": "https://exemplo.com/micronecta_scholtzi.jpg",
+            "imageDescription": "Imagem de close-up da barata d'água Micronecta scholtzi."
+          }
+        ]
+      },
+      {
+        "question": "Qual o esporte mais praticado no mundo?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Basquete",
+            "isCorrect": false,
+            "explanation": "Basquete é popular em muitos países, mas não é o número 1 em participação global. Pense em um esporte que se joga com os pés!"
+          },
+          {
+            "text": "Tênis",
+            "isCorrect": false,
+            "explanation": "Tênis é popular, mas requer equipamentos e quadras específicas. O esporte mais praticado é mais acessível, só precisa de uma bola e... pés!"
+          },
+          {
+            "text": "Futebol (Soccer)",
+            "isCorrect": true,
+            "explanation": "Não é surpresa, é o Futebol! O esporte mais popular e praticado no mundo, em todos os continentes, com ligas, torneios e Copas que param o planeta. Uma paixão global!",
+            "imageUrl": "https://exemplo.com/futebol_jogo.jpg",
+            "imageDescription": "Imagem de uma partida de futebol com muitos jogadores e torcedores."
+          },
+          {
+            "text": "Críquete",
+            "isCorrect": false,
+            "explanation": "Críquete é super popular em alguns países (Índia, Paquistão, Austrália!), mas não tem a mesma base de praticantes que o Futebol em todo o mundo."
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome da famosa rua em Nova York conhecida por seus teatros e espetáculos musicais?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Wall Street",
+            "isCorrect": false,
+            "explanation": "Wall Street é famosa pelas finanças e pela bolsa de valores! A rua dos espetáculos musicais é outra."
+          },
+          {
+            "text": "Fifth Avenue",
+            "isCorrect": false,
+            "explanation": "Fifth Avenue é famosa pelas lojas de luxo! A rua dos teatros e musicais é outra, que brilha à noite!"
+          },
+          {
+            "text": "Times Square",
+            "isCorrect": false,
+            "explanation": "Times Square é uma praça famosa pelos telões e agito, onde a Broadway cruza! Mas a rua dos teatros é... a própria Broadway!"
+          },
+          {
+            "text": "Broadway",
+            "isCorrect": true,
+            "explanation": "É isso! A Broadway! A avenida em Nova York sinônimo de teatro musical de alta qualidade, com seus inúmeros teatros e espetáculos que atraem milhões. 'O show tem que continuar!'",
+            "imageUrl": "https://exemplo.com/broadway_new_york.jpg",
+            "imageDescription": "Imagem noturna da Broadway com os letreiros dos teatros iluminados."
+          }
+        ]
+      },
+      {
+        "question": "Quantos lados tem um heptadecágono?",
+        "level": "difícil",
+        "options": [
+          {
+            "text": "7",
+            "isCorrect": false,
+            "explanation": "Hepta significa 7 (heptágono)! Mas 'decágono' adiciona algo mais... pense em 10!"
+          },
+          {
+            "text": "10",
+            "isCorrect": false,
+            "explanation": "Decágono tem 10 lados! 'Hepta' adiciona 7 a isso!"
+          },
+          {
+            "text": "17",
+            "isCorrect": true,
+            "explanation": "Que curioso termo! Um heptadecágono é um polígono com 17 lados. A nomenclatura vem do grego: 'hepta' (7) + 'deca' (10) + 'gono' (ângulo/lado). Uma curiosidade da geometria!",
+            "imageUrl": "https://exemplo.com/poligono_17_lados.jpg",
+            "imageDescription": "Ilustração de um polígono com 17 lados."
+          },
+          {
+            "text": "70",
+            "isCorrect": false,
+            "explanation": "Setenta? Não! É uma combinação de 7 e 10!"
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome da menor ave do mundo?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Beija-flor",
+            "isCorrect": false,
+            "explanation": "Beija-flores são pequenos e ágeis, mas o menor de todos é uma espécie bem específica, menor que alguns insetos!"
+          },
+          {
+            "text": "Pardal",
+            "isCorrect": false,
+            "explanation": "Pardais são aves pequenas comuns, mas o menor do mundo é minúsculo!"
+          },
+          {
+            "text": "Colibri Abelha Cubano (Zunzuncito)",
+            "isCorrect": true,
+            "explanation": "Que fofura! A menor ave do mundo é o Colibri Abelha Cubano (ou Zunzuncito), encontrado em Cuba. Ele pesa menos que uma moeda de 1 real e mede apenas cerca de 5-6 cm! É menor que alguns insetos grandes. Uma curiosidade voadora!",
+            "imageUrl": "https://exemplo.com/zunzuncito_ave.jpg",
+            "imageDescription": "Imagem de um pequeno Colibri Abelha Cubano pairando no ar."
+          },
+          {
+            "text": "Canário",
+            "isCorrect": false,
+            "explanation": "Canários são aves pequenas e cantoras, mas o menor do mundo é bem menor e exótico!"
+          }
+        ]
+      },
+      {
+        "question": "Qual o único mamífero que consegue voar?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Esquilo Voador",
+            "isCorrect": false,
+            "explanation": "Esquilos voadores na verdade planam, não voam de verdade com movimento ativo das asas! O mamífero que voa mesmo tem asas de verdade."
+          },
+          {
+            "text": "Ornitorrinco",
+            "isCorrect": false,
+            "explanation": "Ornitorrincos botam ovos e são aquáticos/terrestres, super estranhos, mas não voam! O mamífero voador noturno é outro."
+          },
+          {
+            "text": "Morcego",
+            "isCorrect": true,
+            "explanation": "Acertou! O morcego é o único mamífero capaz de voar. Ele tem membranas entre os dedos e o corpo que formam asas, permitindo o voo ativo. Os únicos mamíferos com superpoder de voar!",
+            "imageUrl": "https://exemplo.com/morcego_voando.jpg",
+            "imageDescription": "Imagem de um morcego voando à noite."
+          },
+          {
+            "text": "Golfinho",
+            "isCorrect": false,
+            "explanation": "Golfinhos são mamíferos marinhos inteligentes que saltam para fora da água, mas não voam! O mamífero voador vive na terra e no ar."
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome da maior floresta tropical do mundo?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Floresta Negra (Alemanha)",
+            "isCorrect": false,
+            "explanation": "A Floresta Negra na Alemanha é linda, mas é bem pequena comparada à maior floresta tropical do mundo, que fica na América do Sul!"
+          },
+          {
+            "text": "Floresta Amazônica",
+            "isCorrect": true,
+            "explanation": "É isso! A Floresta Amazônica! A maior floresta tropical do mundo, abrangendo nove países da América do Sul, principalmente o Brasil. É um ecossistema vital para o planeta, cheio de biodiversidade e mistérios. Uma maravilha natural!",
+            "imageUrl": "https://exemplo.com/floresta_amazonica.jpg",
+            "imageDescription": "Vista aérea da Floresta Amazônica com densa vegetação e rio."
+          },
+          {
+            "text": "Floresta do Congo (África)",
+            "isCorrect": false,
+            "explanation": "A Floresta do Congo é a segunda maior floresta tropical do mundo, na África! Mas a número 1 é a Amazônica."
+          },
+          {
+            "text": "Floresta de Bornéu (Ásia)",
+            "isCorrect": false,
+            "explanation": "A Floresta de Bornéu na Ásia é importante e lar de orangotangos! Mas a maior floresta tropical é a Amazônica."
+          }
+        ]
+      },
+      {
+        "question": "Qual o país com a maior população do mundo?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Estados Unidos",
+            "isCorrect": false,
+            "explanation": "Estados Unidos tem uma população grande, a terceira maior! Mas os dois primeiros lugares são ocupados por países na Ásia."
+          },
+          {
+            "text": "Índia",
+            "isCorrect": true,
+            "explanation": "Curiosidade atualizada! Recentemente, a Índia superou a China e se tornou o país com a maior população do mundo. Mais de 1.4 bilhão de pessoas! Uma mudança demográfica significativa!",
+            "imageUrl": "https://exemplo.com/populacao_india.jpg",
+            "imageDescription": "Imagem de uma grande multidão na Índia, representando a alta população."
+          },
+          {
+            "text": "China",
+            "isCorrect": false,
+            "explanation": "A China foi o país mais populoso por muito tempo, mas recentemente foi superada. A Índia assumiu o primeiro lugar!"
+          },
+          {
+            "text": "Rússia",
+            "isCorrect": false,
+            "explanation": "Rússia é o maior país em área terrestre, mas não em população. Sua população é bem menor que a dos líderes globais."
+          }
+        ]
+      },
+      {
+        "question": "Em qual país foi inventado o papel?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Egito",
+            "isCorrect": false,
+            "explanation": "O Egito antigo usava papiro para escrever, mas o papel como conhecemos hoje, feito de fibras vegetais, foi inventado em outro lugar, na Ásia!"
+          },
+          {
+            "text": "Grécia",
+            "isCorrect": false,
+            "explanation": "A Grécia antiga usava pergaminho! O papel foi uma invenção de uma civilização asiática milenar."
+          },
+          {
+            "text": "China",
+            "isCorrect": true,
+            "explanation": "Impressionante! O papel foi inventado na China antiga, por volta do ano 105 d.C., por Cai Lun. Essa invenção revolucionou a comunicação e a disseminação do conhecimento no mundo. Um marco na história da tecnologia!",
+            "imageUrl": "https://exemplo.com/invenção_papel_china.jpg",
+            "imageDescription": "Ilustração de Cai Lun ou de métodos antigos de fabricação de papel na China."
+          },
+          {
+            "text": "Índia",
+            "isCorrect": false,
+            "explanation": "A Índia tem muitas contribuições para a ciência e cultura, mas a invenção do papel é atribuída a um país vizinho na Ásia."
+          }
+        ]
+      },
+      {
+        "question": "Qual o único osso do corpo humano que não se conecta a nenhum outro osso?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Patela (osso do joelho)",
+            "isCorrect": false,
+            "explanation": "A patela se conecta ao fêmur! O osso 'solitário' fica no pescoço!"
+          },
+          {
+            "text": "Estribo (osso do ouvido)",
+            "isCorrect": false,
+            "explanation": "O estribo é o menor osso do corpo e se conecta a outros ossículos no ouvido! O osso 'solitário' é maior e fica na garganta."
+          },
+          {
+            "text": "Osso Hióide",
+            "isCorrect": true,
+            "explanation": "Que curioso! O osso hióide, localizado na base da língua e acima da laringe, é o único osso no corpo humano que não se articula diretamente com nenhum outro osso. Ele é ancorado por músculos e ligamentos. Um osso meio 'flutuante' no seu pescoço!",
+            "imageUrl": "https://exemplo.com/osso_hioide_ilustracao.jpg",
+            "imageDescription": "Ilustração mostrando a localização do osso hióide no pescoço."
+          },
+          {
+            "text": "Clavícula (osso da coleira)",
+            "isCorrect": false,
+            "explanation": "A clavícula se conecta ao esterno e à escápula! O osso 'solitário' é outro."
+          }
+        ]
+      },
+      {
+        "question": "Em qual oceano está localizada a Fossa das Marianas, o ponto mais profundo conhecido da Terra?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Oceano Atlântico",
+            "isCorrect": false,
+            "explanation": "O Oceano Atlântico tem fossas profundas, mas a mais profunda de todas, a Fossa das Marianas, fica do outro lado do mundo!"
+          },
+          {
+            "text": "Oceano Índico",
+            "isCorrect": false,
+            "explanation": "O Oceano Índico tem profundidades impressionantes, mas a Fossa das Marianas, a mais profunda, fica no maior oceano do planeta!"
+          },
+          {
+            "text": "Oceano Pacífico",
+            "isCorrect": true,
+            "explanation": "É isso! A Fossa das Marianas está localizada no Oceano Pacífico, perto das Ilhas Marianas. O ponto mais profundo dela, a Challenger Deep, tem cerca de 11 km de profundidade! Tão fundo que se o Everest fosse colocado nela, ainda sobraria mais de 2 km de água acima do pico! Uma curiosidade sobre as profundezas da Terra!",
+            "imageUrl": "https://exemplo.com/fossa_das_marianas.jpg",
+            "imageDescription": "Ilustração comparando a profundidade da Fossa das Marianas com a altura do Monte Everest."
+          },
+          {
+            "text": "Oceano Ártico",
+            "isCorrect": false,
+            "explanation": "O Oceano Ártico é o menor e mais raso dos oceanos principais! A Fossa das Marianas fica no oceano GIGANTE!"
+          }
+        ]
+      },
+      {
+        "question": "Qual país tem a maior quantidade de pirâmides no mundo?",
+        "level": "difícil",
+        "options": [
+          {
+            "text": "Egito",
+            "isCorrect": false,
+            "explanation": "O Egito é famoso por suas pirâmides, as mais icônicas e antigas! Mas um país vizinho ao sul, na África, tem um número muito maior (embora menores!)."
+          },
+          {
+            "text": "México",
+            "isCorrect": false,
+            "explanation": "O México tem pirâmides pré-colombianas impressionantes (Teotihuacan, Chichén Itzá)! Mas a pergunta é sobre pirâmides no estilo egípcio, e o país com mais delas não fica nas Américas."
+          },
+          {
+            "text": "Sudão",
+            "isCorrect": true,
+            "explanation": "Que curiosidade histórica! O Sudão, ao sul do Egito, tem mais pirâmides do que o próprio Egito! Os antigos reinos núbios construíram pirâmides em locais como Meroë. Elas são geralmente menores e mais íngremes que as egípcias famosas, mas são centenas! Uma surpresa arqueológica!",
+            "imageUrl": "https://exemplo.com/piramides_sudao.jpg",
+            "imageDescription": "Imagem das pirâmides de Meroë no Sudão."
+          },
+          {
+            "text": "Peru",
+            "isCorrect": false,
+            "explanation": "O Peru tem ruínas incas e pré-incas fascinantes, mas pirâmides no estilo egípcio ou em grande quantidade como no Egito ou Sudão não são a marca do Peru."
+          }
+        ]
+      },
+      {
+        "question": "Qual a menor capital de país do mundo em população?",
+        "level": "difícil",
+        "options": [
+          {
+            "text": "Cidade do Vaticano",
+            "isCorrect": false,
+            "explanation": "A Cidade do Vaticano é o menor país do mundo, sim! Mas sua 'capital' (ela é uma cidade-estado) tem uma população maior do que a capital de outro país insular bem menor."
+          },
+          {
+            "text": "Ngerulmud (Palau)",
+            "isCorrect": true,
+            "explanation": "Que curiosidade geográfica! Ngerulmud, a capital da República de Palau (um país insular na Oceania), é considerada a capital de país menos populosa do mundo, com menos de 300 habitantes. É mais um centro administrativo do que uma cidade grande! Uma capital em 'miniatura'!",
+            "imageUrl": "https://exemplo.com/ngerulmud_palau.jpg",
+            "imageDescription": "Imagem de Ngerulmud, Palau, mostrando alguns prédios governamentais."
+          },
+          {
+            "text": "Funafuti (Tuvalu)",
+            "isCorrect": false,
+            "explanation": "Funafuti é a capital de Tuvalu, outro país insular pequeno! Mas Ngerulmud, em Palau, tem uma população na capital ainda menor."
+          },
+          {
+            "text": "Basseterre (São Cristóvão e Nevis)",
+            "isCorrect": false,
+            "explanation": "Basseterre é a capital de São Cristóvão e Nevis, um país caribenho pequeno! Mas a capital menos populosa do mundo fica na Oceania."
+          }
+        ]
+      },
+      {
+        "question": "Qual a substância mais viciante do mundo (segundo alguns estudos de dependência química)?",
+        "level": "difícil",
+        "options": [
+          {
+            "text": "Cocaína",
+            "isCorrect": false,
+            "explanation": "Cocaína é altamente viciante, um estimulante perigoso! Mas há uma substância legal, presente em cigarros, considerada ainda mais difícil de largar por alguns especialistas."
+          },
+          {
+            "text": "Álcool",
+            "isCorrect": false,
+            "explanation": "Álcool causa dependência, é um problema sério! Mas a substância que 'fisga' mais rápido e é mais difícil de parar é outra."
+          },
+          {
+            "text": "Heroína",
+            "isCorrect": false,
+            "explanation": "Heroína é um opioide extremamente viciante e perigoso! Mas alguns estudos colocam uma substância legal, amplamente usada, no topo da lista de dificuldade para abandonar."
+          },
+          {
+            "text": "Nicotina",
+            "isCorrect": true,
+            "explanation": "Surpreendente e preocupante! Segundo alguns cientistas e índices de dependência, a nicotina (presente no tabaco) é a substância mais viciante do mundo, considerando a rapidez com que a dependência se instala e a dificuldade para parar de usar. Uma curiosidade que acende um alerta!",
+            "imageUrl": "https://exemplo.com/cigarro_nicotina.jpg",
+            "imageDescription": "Imagem de um cigarro ou folha de tabaco, representando a nicotina."
+          }
+        ]
+      },
+      {
+        "question": "Quantas estrelas existem na bandeira da China?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "1",
+            "isCorrect": false,
+            "explanation": "Tem uma estrela grande, sim, mas tem outras menores ao redor dela! Conte com cuidado!"
+          },
+          {
+            "text": "4",
+            "isCorrect": false,
+            "explanation": "Quatro? Não é 4, mas está perto! É o número de estrelas pequenas!"
+          },
+          {
+            "text": "5",
+            "isCorrect": true,
+            "explanation": "Acertou! A bandeira da China tem 5 estrelas: uma estrela grande e quatro estrelas menores posicionadas à direita da grande. Elas representam o Partido Comunista Chinês (a grande) e as quatro classes sociais. Uma curiosidade sobre simbolismo político!",
+            "imageUrl": "https://exemplo.com/bandeira_china.jpg",
+            "imageDescription": "Imagem da bandeira da China com 5 estrelas."
+          },
+          {
+            "text": "52",
+            "isCorrect": false,
+            "explanation": "Cinquenta e duas? Não! Esse é o número de estados dos EUA mais o Distrito de Columbia (se contarmos de um certo jeito!)! A bandeira da China tem apenas 5 estrelas."
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome da maior estrutura feita por seres vivos?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Floresta Amazônica",
+            "isCorrect": false,
+            "explanation": "A Amazônia é a maior floresta, cheia de vida, mas a pergunta é sobre uma *estrutura* construída por seres vivos, não um ecossistema. Pense em algo no mar!"
+          },
+          {
+            "text": "Grande Muralha da China",
+            "isCorrect": false,
+            "explanation": "A Grande Muralha da China é a maior estrutura *feita por humanos* e é visível do espaço (com ressalvas!). Mas a maior feita por *seres vivos* é subaquática!"
+          },
+          {
+            "text": "Recife de Corais da Grande Barreira (Austrália)",
+            "isCorrect": true,
+            "explanation": "Impressionante! A Grande Barreira de Corais, na costa da Austrália, é a maior estrutura feita por organismos vivos (corais) no mundo! É tão vasta que pode ser vista do espaço. Um ecossistema submarino colossal e cheio de vida. Uma maravilha da biologia marinha!",
+            "imageUrl": "https://exemplo.com/grande_barreira_corais.jpg",
+            "imageDescription": "Vista aérea da Grande Barreira de Corais na Austrália, mostrando as formações coloridas."
+          },
+          {
+            "text": "Formigueiros gigantes",
+            "isCorrect": false,
+            "explanation": "Formigueiros podem ser enormes, construídos por insetos! Mas a maior estrutura feita por seres vivos é muito, muito maior e é feita por criaturas marinhas minúsculas."
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome do animal conhecido por ter a mordida mais forte do mundo em relação ao seu tamanho?",
+        "level": "difícil",
+        "options": [
+          {
+            "text": "Tigre",
+            "isCorrect": false,
+            "explanation": "Tigres têm mordidas poderosas, mas são animais grandes! O campeão em força *proporcional* é bem menor e vive na água."
+          },
+          {
+            "text": "Tub... Shark",
+            "isCorrect": false,
+            "explanation": "Tub... Shark têm mordidas assustadoras, mas a força *proporcional* de um animal pequeno supera a deles. Pense em algo com mandíbulas fortes e um nome que sugere 'poder'."
+          },
+          {
+            "text": "Jacaré",
+            "isCorrect": false,
+            "explanation": "Jacarés têm mordidas fortes para segurar a presa, mas a força *proporcional* do campeão da mordida é de um animal bem menor."
+          },
+          {
+            "text": "Besouro Rinoceronte (Onthophagus taurus)",
+            "isCorrect": true,
+            "explanation": "Que surpresa assustadora! O animal com a mordida mais forte em relação ao seu tamanho é um pequeno besouro chamado *Onthophagus taurus* (um tipo de besouro rinoceronte ou escaravelho). Ele consegue morder com uma força 100 vezes maior que o seu próprio peso! Uma curiosidade que prova que tamanho não é documento quando se trata de mandíbulas!",
+            "imageUrl": "https://exemplo.com/besouro_rinoceronte_onthophagus.jpg",
+            "imageDescription": "Imagem de close-up do besouro Onthophagus taurus."
+          }
+        ]
+      },
+      {
+        "question": "Qual o metal mais abundante na crosta terrestre?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Ferro",
+            "isCorrect": false,
+            "explanation": "Ferro é muito comum e importante, mas não é o mais abundante metal na crosta! Pense em algo que você usa todo dia na cozinha!"
+          },
+          {
+            "text": "Ouro",
+            "isCorrect": false,
+            "explanation": "Ouro é raro e valioso, longe de ser o mais abundante! O metal mais comum forma panelas e latas!"
+          },
+          {
+            "text": "Alumínio",
+            "isCorrect": true,
+            "explanation": "Que leve e abundante! O Alumínio é o metal mais abundante na crosta terrestre. Embora seja comum em minerais, produzi-lo na forma metálica pura consome muita energia, por isso é mais caro que o ferro. Uma curiosidade geológica e econômica!",
+            "imageUrl": "https://exemplo.com/aluminio_minerio.jpg",
+            "imageDescription": "Imagem de minério de bauxita, a principal fonte de alumínio."
+          },
+          {
+            "text": "Cobre",
+            "isCorrect": false,
+            "explanation": "Cobre é importante para fios e encanamentos, mas não é o metal mais abundante na crosta. O campeão é mais leve!"
+          }
+        ]
+      },
+      {
+        "question": "Qual a única cidade que fica em dois continentes?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Moscou (Rússia)",
+            "isCorrect": false,
+            "explanation": "Moscou é a capital da Rússia, um país que abrange Europa e Ásia, mas a cidade de Moscou em si é considerada inteiramente na Europa. A cidade 'dividida' é outra, mais ao sul."
+          },
+          {
+            "text": "Istambul (Turquia)",
+            "isCorrect": true,
+            "explanation": "Exatamente! Istambul, na Turquia! É a única cidade no mundo que está localizada em dois continentes: a parte europeia (onde fica a maior parte dos pontos turísticos históricos) e a parte asiática, separadas pelo Estreito de Bósforo. Uma curiosidade transcontinental!",
+            "imageUrl": "https://exemplo.com/istambul_bosphorus.jpg",
+            "imageDescription": "Vista aérea ou panorâmica de Istambul mostrando o Estreito de Bósforo e as duas partes da cidade."
+          },
+          {
+            "text": "Cairo (Egito)",
+            "isCorrect": false,
+            "explanation": "O Cairo é a capital do Egito, um país que está majoritariamente na África, com uma pequena parte na Ásia (Península do Sinai). Mas a cidade do Cairo em si é considerada na África. A cidade em dois continentes é Istambul!"
+          },
+          {
+            "text": "Dubai (Emirados Árabes)",
+            "isCorrect": false,
+            "explanation": "Dubai é uma cidade nos Emirados Árabes, que fica inteiramente na Ásia. A cidade 'dividida' é outra, na Turquia."
+          }
+        ]
+      },
+      {
+        "question": "Qual a invenção chinesa que é considerada uma das 'Quatro Grandes Invenções' da China antiga?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "O Telescópio",
+            "isCorrect": false,
+            "explanation": "O telescópio foi popularizado na Europa (Galileu!), não é uma das 'Quatro Grandes Invenções' da China antiga. Pense em algo que mudou a escrita, a navegação, a guerra ou a impressão!"
+          },
+          {
+            "text": "O Papel",
+            "isCorrect": true,
+            "explanation": "Bingo! O Papel é uma das 'Quatro Grandes Invenções' da China antiga (junto com a Pólvora, a Bússola e a Impressão). Sua invenção teve um impacto gigantesco no desenvolvimento da civilização em todo o mundo. Uma curiosidade histórica!",
+            "imageUrl": "https://exemplo.com/papel_antigo.jpg",
+            "imageDescription": "Imagem de um rolo de papel antigo ou manuscrito em papel."
+          },
+          {
+            "text": "A Lâmpada Elétrica",
+            "isCorrect": false,
+            "explanation": "A lâmpada elétrica é uma invenção moderna (Edison, etc.), não da China antiga! As 'Quatro Grandes Invenções' são muito, muito mais antigas!"
+          },
+          {
+            "text": "O Automóvel",
+            "isCorrect": false,
+            "explanation": "O automóvel é uma invenção moderna (Benz, Ford!), não da China antiga. As 'Quatro Grandes Invenções' são da antiguidade!"
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome do processo pelo qual as plantas produzem seu próprio alimento usando luz solar?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Respiração",
+            "isCorrect": false,
+            "explanation": "Respiração é como os seres vivos liberam energia do alimento (usando oxigênio!), não como as plantas *produzem* o alimento. Pense em 'luz'!"
+          },
+          {
+            "text": "Fotossíntese",
+            "isCorrect": true,
+            "explanation": "Exato! Fotossíntese! As plantas usam a energia da luz solar, dióxido de carbono e água para produzir glicose (seu alimento) e liberar oxigênio. É a base da cadeia alimentar na Terra e um superpoder das plantas. Uma curiosidade da biologia!",
+            "imageUrl": "https://exemplo.com/fotossintese_diagrama.jpg",
+            "imageDescription": "Diagrama mostrando o processo de fotossíntese em uma folha de planta."
+          },
+          {
+            "text": "Transpiração",
+            "isCorrect": false,
+            "explanation": "Transpiração é a perda de água pelas plantas! Não tem a ver com a produção de alimento."
+          },
+          {
+            "text": "Germinação",
+            "isCorrect": false,
+            "explanation": "Germinação é quando uma semente começa a brotar! Não é o processo de produção de alimento pela planta adulta."
+          }
+        ]
+      },
+      {
+        "question": "Qual planeta do nosso sistema solar é conhecido como o 'Planeta Vermelho'?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Vênus",
+            "isCorrect": false,
+            "explanation": "Vênus é o planeta 'gêmeo' da Terra em tamanho, super quente e com atmosfera densa! O 'Planeta Vermelho' é outro, famoso por ter poeira avermelhada."
+          },
+          {
+            "text": "Marte",
+            "isCorrect": true,
+            "explanation": "Perfeito! Marte! O quarto planeta a partir do Sol é conhecido como o 'Planeta Vermelho' por causa do óxido de ferro (ferrugem) em sua superfície. É o planeta mais explorado por sondas espaciais e o próximo alvo da exploração humana. Uma curiosidade astronômica!",
+            "imageUrl": "https://exemplo.com/planeta_marte.jpg",
+            "imageDescription": "Imagem do planeta Marte mostrando sua superfície avermelhada."
+          },
+          {
+            "text": "Júpiter",
+            "isCorrect": false,
+            "explanation": "Júpiter é o maior planeta do sistema solar, um gigante gasoso com uma mancha vermelha gigante! Mas o 'Planeta Vermelho' (o planeta *inteiro*) é Marte."
+          },
+          {
+            "text": "Saturno",
+            "isCorrect": false,
+            "explanation": "Saturno é famoso por seus anéis! O 'Planeta Vermelho' é outro, com poeira ferruginosa."
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome do menor país do mundo em área territorial?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Mônaco",
+            "isCorrect": false,
+            "explanation": "Mônaco é um principado pequeno e rico na costa da França, famoso por cassinos! Mas o menor país do mundo é ainda menor e fica dentro de outra cidade!"
+          },
+          {
+            "text": "Nauru",
+            "isCorrect": false,
+            "explanation": "Nauru é um país insular pequeno na Oceania! Mas o menor do mundo em área é minúsculo e sem litoral (bem, o litoral é uma praça!)."
+          },
+          {
+            "text": "Cidade do Vaticano",
+            "isCorrect": true,
+            "explanation": "Que pequeno e poderoso! A Cidade do Vaticano é o menor país do mundo em área territorial (0.49 km²) e também em população (cerca de 800 habitantes, a maioria clérigos). Fica dentro da cidade de Roma, na Itália. Uma curiosidade geopolítica e religiosa!",
+            "imageUrl": "https://exemplo.com/cidade_do_vaticano_vista.jpg",
+            "imageDescription": "Vista aérea da Cidade do Vaticano, mostrando a Basílica de São Pedro e arredores."
+          },
+          {
+            "text": "San Marino",
+            "isCorrect": false,
+            "explanation": "San Marino é uma república antiga e pequena cercada pela Itália! Mas o menor país em área é o Vaticano."
+          }
+        ]
+      },
+      {
+        "question": "Quantas letras tem o alfabeto havaiano?",
+        "level": "difícil",
+        "options": [
+          {
+            "text": "26 (igual ao inglês)",
+            "isCorrect": false,
+            "explanation": "26 é o alfabeto inglês! O alfabeto havaiano é bem menor, focado nos sons da língua."
+          },
+          {
+            "text": "18",
+            "isCorrect": false,
+            "explanation": "Dezoito? Não, é um pouco menos que isso. Pense em 12 mais alguns extras..."
+          },
+          {
+            "text": "13",
+            "isCorrect": true,
+            "explanation": "Que curioso e compacto! O alfabeto havaiano tem apenas 13 letras: as 5 vogais (a, e, i, o, u) e 8 consoantes (h, k, l, m, n, p, w, e o 'okina, que é uma parada glotal, considerada uma consoante). Poucas letras, muitos sons interessantes! Aloha!",
+            "imageUrl": "https://exemplo.com/alfabeto_havaiano.jpg",
+            "imageDescription": "Representação visual do alfabeto havaiano com suas letras."
+          },
+          {
+            "text": "9",
+            "isCorrect": false,
+            "explanation": "Nove? Não, são todas as vogais e algumas consoantes a mais."
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome do medo de espaços fechados?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Acrofobia",
+            "isCorrect": false,
+            "explanation": "Acrofobia é medo de altura! Medo de espaços fechados é o oposto do medo de espaços abertos!"
+          },
+          {
+            "text": "Agorafobia",
+            "isCorrect": false,
+            "explanation": "Agorafobia é medo de espaços abertos ou multidões! A fobia de espaços fechados é o oposto."
+          },
+          {
+            "text": "Claustrofobia",
+            "isCorrect": true,
+            "explanation": "Exato! Claustrofobia! O medo irracional e extremo de espaços confinados ou fechados, como elevadores pequenos, salas apertadas ou túneis. Causa pânico e desconforto. Apertado só na resposta certa!",
+            "imageUrl": "https://exemplo.com/claustrofobia_closed_space.jpg",
+            "imageDescription": "Imagem sugestiva de um espaço pequeno e fechado."
+          },
+          {
+            "text": "Hidrofobia",
+            "isCorrect": false,
+            "explanation": "Hidrofobia é medo de água! Medo de espaços fechados é sobre... paredes e tetos próximos!"
+          }
+        ]
+      },
+      {
+        "question": "Qual a menor unidade de informação em computação?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Byte",
+            "isCorrect": false,
+            "explanation": "Byte é um grupo de 8 bits! A menor unidade é ainda menor."
+          },
+          {
+            "text": "Kilobyte",
+            "isCorrect": false,
+            "explanation": "Kilobyte é 1024 bytes! A menor unidade é a base de tudo."
+          },
+          {
+            "text": "Bit",
+            "isCorrect": true,
+            "explanation": "É isso! O Bit (Binary Digit)! A menor unidade de informação em computação, representando um 0 ou 1 (ligado ou desligado). Tudo no seu computador, celular ou na internet é feito de bilhões e trilhões de bits. A menor pecinha do quebra-cabeça digital!",
+            "imageUrl": "https://exemplo.com/bit_binary.jpg",
+            "imageDescription": "Imagem representando um bit (0 ou 1) ou código binário."
+          },
+          {
+            "text": "Megabyte",
+            "isCorrect": false,
+            "explanation": "Megabyte é mais de um milhão de bytes! A menor unidade é a base binária."
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome do processo pelo qual a água muda do estado líquido para o gasoso (vapor)?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Condensação",
+            "isCorrect": false,
+            "explanation": "Condensação é o contrário, do gasoso para o líquido (como a névoa no espelho!). O processo de virar vapor é outro."
+          },
+          {
+            "text": "Solidificação",
+            "isCorrect": false,
+            "explanation": "Solidificação é do líquido para o sólido (virar gelo!). O processo de virar vapor é outro."
+          },
+          {
+            "text": "Evaporação (ou Vaporização)",
+            "isCorrect": true,
+            "explanation": "Exato! Evaporação (ou Vaporização)! Quando a água líquida absorve energia (calor) e suas moléculas se movem tão rápido que escapam para a atmosfera como vapor d'água. É por isso que poças secam e a roupa no varal seca! Uma curiosidade da física!",
+            "imageUrl": "https://exemplo.com/evaporation_diagram.jpg",
+            "imageDescription": "Diagrama mostrando o processo de evaporação da água."
+          },
+          {
+            "text": "Fusão",
+            "isCorrect": false,
+            "explanation": "Fusão é do sólido para o líquido (gelo derretendo!). O processo de virar vapor é outro."
+          }
+        ]
+      },
+      {
+        "question": "Qual o animal terrestre mais rápido do mundo?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Leão",
+            "isCorrect": false,
+            "explanation": "Leões são rápidos e poderosos caçadores, mas não são os mais rápidos em terra. O campeão tem pintinhas!"
+          },
+          {
+            "text": "Onça-pintada",
+            "isCorrect": false,
+            "explanation": "Onças são ágeis e fortes, mas não são as mais rápidas. O animal terrestre mais rápido é conhecido por sua velocidade de 'raio'!"
+          },
+          {
+            "text": "Guepardo (Chita)",
+            "isCorrect": true,
+            "explanation": "É ele! O Guepardo (Chita)! Capaz de atingir velocidades de até 100-120 km/h em curtas distâncias, é o animal terrestre mais rápido do mundo. Uma máquina de velocidade com pintinhas! Zap!",
+            "imageUrl": "https://exemplo.com/guepardo_correndo.jpg",
+            "imageDescription": "Imagem de um guepardo correndo em alta velocidade."
+          },
+          {
+            "text": "Cavalo",
+            "isCorrect": false,
+            "explanation": "Cavalos de corrida são super rápidos, mas o campeão absoluto em terra é o Guepardo!"
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome do instrumento musical de sopro feito de metal, com um som agudo e brilhante, comum em orquestras e jazz?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Trombone",
+            "isCorrect": false,
+            "explanation": "Trombone é de metal, mas tem uma vara e um som mais grave/médio! O instrumento com som agudo e brilhante é outro."
+          },
+          {
+            "text": "Clarinete",
+            "isCorrect": false,
+            "explanation": "Clarinete é de sopro, mas geralmente de madeira e com som diferente do agudo e brilhante. O instrumento de metal que brilha no jazz é outro."
+          },
+          {
+            "text": "Saxofone",
+            "isCorrect": false,
+            "explanation": "Saxofone é de metal e comum no jazz, com um som rico! Mas o instrumento super agudo e brilhante que 'lidera' a seção de metais é o Trompete."
+          },
+          {
+            "text": "Trompete",
+            "isCorrect": true,
+            "explanation": "Perfeito! O Trompete! Instrumento de sopro de metal com válvulas (ou pistos) que produz um som agudo, potente e brilhante. Essencial em orquestras, bandas marciais e um dos instrumentos mais icônicos do jazz. BRILHA!",
+            "imageUrl": "https://exemplo.com/trompete_instrumento.jpg",
+            "imageDescription": "Imagem de um trompete de metal dourado."
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome da linha imaginária que divide a Terra em Hemisfério Norte e Hemisfério Sul?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Meridiano de Greenwich",
+            "isCorrect": false,
+            "explanation": "O Meridiano de Greenwich divide a Terra em Hemisfério Leste e Oeste! A linha que divide Norte e Sul é outra."
+          },
+          {
+            "text": "Círculo Polar Ártico",
+            "isCorrect": false,
+            "explanation": "O Círculo Polar Ártico é uma linha de latitude no Hemisfério Norte! A linha que separa Norte e Sul é a principal linha de latitude."
+          },
+          {
+            "text": "Linha do Equador",
+            "isCorrect": true,
+            "explanation": "Exato! A Linha do Equador! Uma linha imaginária de latitude 0º que circunda a Terra, dividindo-a perfeitamente em Hemisfério Norte (Acima) e Hemisfério Sul (Abaixo). O 'meio' do mundo!",
+            "imageUrl": "https://exemplo.com/linha_do_equador_mapa.jpg",
+            "imageDescription": "Ilustração da Terra mostrando a Linha do Equador."
+          },
+          {
+            "text": "Trópico de Câncer",
+            "isCorrect": false,
+            "explanation": "O Trópico de Câncer é uma linha de latitude ao norte do Equador! A linha que divide os hemisférios é o próprio Equador."
+          }
+        ]
+      },
+      {
+        "question": "Qual o maior animal que já viveu na Terra (incluindo os extintos)?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Dinossauro Argentinossauro",
+            "isCorrect": false,
+            "explanation": "Argentinossauro foi um dos maiores dinossauros terrestres, gigantesco! Mas o maior animal de todos os tempos (incluindo no mar!) é ainda maior e vive até hoje!"
+          },
+          {
+            "text": "Diplodoco",
+            "isCorrect": false,
+            "explanation": "Diplodoco foi um dinossauro super longo! Mas o maior animal de todos os tempos, em peso e tamanho, é um mamífero marinho."
+          },
+          {
+            "text": "Baleia Azul",
+            "isCorrect": true,
+            "explanation": "Impressionante! A Baleia Azul (Balaenoptera musculus) é considerada o maior animal que já viveu na Terra, podendo atingir mais de 30 metros de comprimento e pesar mais de 180 toneladas. Maior que qualquer dinossauro conhecido! Uma gigante gentil dos oceanos!",
+            "imageUrl": "https://exemplo.com/baleia_azul_tamanho.jpg",
+            "imageDescription": "Ilustração comparando o tamanho de uma Baleia Azul com outros animais ou objetos."
+          },
+          {
+            "text": "Titanossauro",
+            "isCorrect": false,
+            "explanation": "Titanossauros foram um grupo de dinossauros saurópodes gigantes! Mas a Baleia Azul supera todos eles em tamanho e peso."
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome do fenômeno natural onde luzes coloridas aparecem no céu perto dos polos da Terra?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Arco-íris",
+            "isCorrect": false,
+            "explanation": "Arco-íris aparece pela refração da luz do sol em gotículas de água! O fenômeno luminoso nos polos é outro, mais 'celestial'."
+          },
+          {
+            "text": "Aurora Boreal (ou Austral)",
+            "isCorrect": true,
+            "explanation": "Que espetáculo! As Auroras Boreal (no Hemisfério Norte) e Austral (no Hemisfério Sul) são fenômenos luminosos causados pela interação de partículas carregadas do sol com a atmosfera da Terra. Elas pintam o céu noturno com cores vibrantes perto dos polos. Uma maravilha da física espacial!",
+            "imageUrl": "https://exemplo.com/aurora_boreal.jpg",
+            "imageDescription": "Imagem de uma Aurora Boreal com luzes verdes e roxas no céu noturno."
+          },
+          {
+            "text": "Relâmpago Cativo",
+            "isCorrect": false,
+            "explanation": "Relâmpago Cativo é um tipo de raio dentro da nuvem! As auroras são fenômenos de larga escala no céu noturno polar."
+          },
+          {
+            "text": "Halo Solar",
+            "isCorrect": false,
+            "explanation": "Halo Solar é um anel de luz ao redor do sol ou da lua, causado por cristais de gelo na atmosfera! As auroras são luzes coloridas e dinâmicas nos polos."
+          }
+        ]
+      },
+      {
+        "question": "Qual planeta é famoso por seus anéis proeminentes?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Júpiter",
+            "isCorrect": false,
+            "explanation": "Júpiter tem anéis, mas são muito finos e difíceis de ver! O planeta famoso pelos anéis GIGANTES e visíveis é outro."
+          },
+          {
+            "text": "Urano",
+            "isCorrect": false,
+            "explanation": "Urano tem anéis, mas eles são menos proeminentes e foram descobertos bem depois. O planeta ICÔNICO pelos anéis é o Saturno."
+          },
+          {
+            "text": "Saturno",
+            "isCorrect": true,
+            "explanation": "Acertou! Saturno! O sexto planeta a partir do Sol é instantaneamente reconhecível por seu vasto e complexo sistema de anéis, feitos principalmente de gelo e poeira espacial. Uma joia do nosso sistema solar!",
+            "imageUrl": "https://exemplo.com/planeta_saturno.jpg",
+            "imageDescription": "Imagem do planeta Saturno com seus anéis em destaque."
+          },
+          {
+            "text": "Netuno",
+            "isCorrect": false,
+            "explanation": "Netuno tem anéis tênues, descobertos por sondas! O planeta famoso pelos anéis é o Saturno."
+          }
+        ]
+      },
+      {
+        "question": "Qual a capital da Austrália?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Sydney",
+            "isCorrect": false,
+            "explanation": "Sydney é a cidade mais famosa da Austrália, com a Ópera icônica! Mas não é a capital política."
+          },
+          {
+            "text": "Melbourne",
+            "isCorrect": false,
+            "explanation": "Melbourne é uma cidade grande e culturalmente rica! Mas a capital da Austrália foi construída 'do zero' para ser a capital."
+          },
+          {
+            "text": "Canberra",
+            "isCorrect": true,
+            "explanation": "Surpreendente, mas é Canberra! A capital da Austrália foi escolhida e planejada (é uma cidade artificial!) como um compromisso entre as rivais Sydney e Melbourne para ver quem seria a capital. Uma curiosidade política e geográfica australiana!",
+            "imageUrl": "https://exemplo.com/canberra_city.jpg",
+            "imageDescription": "Vista panorâmica de Canberra, Austrália, mostrando prédios governamentais."
+          },
+          {
+            "text": "Brisbane",
+            "isCorrect": false,
+            "explanation": "Brisbane é uma cidade importante na costa leste! Mas a capital, a cidade planejada, é Canberra."
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome do deserto mais seco do mundo?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Deserto do Saara (África)",
+            "isCorrect": false,
+            "explanation": "O Saara é o maior deserto quente do mundo, imenso e seco! Mas o mais seco de todos fica em outro continente, na América do Sul."
+          },
+          {
+            "text": "Deserto de Gobi (Ásia)",
+            "isCorrect": false,
+            "explanation": "O Deserto de Gobi na Ásia é grande e frio! Mas o mais seco de todos os desertos do mundo, onde quase não chove, fica no Chile."
+          },
+          {
+            "text": "Deserto do Atacama (Chile)",
+            "isCorrect": true,
+            "explanation": "É ele! O Deserto do Atacama, no Chile! É considerado o deserto mais seco do mundo, com algumas áreas onde a chuva é quase inexistente há centenas de anos. O solo é tão seco que parece a superfície de Marte, e é usado pela NASA para testar equipamentos. Uma curiosidade climática extrema!",
+            "imageUrl": "https://exemplo.com/deserto_do_atacama.jpg",
+            "imageDescription": "Paisagem árida do Deserto do Atacama no Chile."
+          },
+          {
+            "text": "Vale da Morte (EUA)",
+            "isCorrect": false,
+            "explanation": "O Vale da Morte é super quente e seco, com temperaturas extremas! Mas o deserto mais seco do mundo fica na América do Sul."
+          }
+        ]
+      },
+      {
+        "question": "Quantos fusos horários a Rússia abrange?",
+        "level": "difícil",
+        "options": [
+          {
+            "text": "5",
+            "isCorrect": false,
+            "explanation": "Cinco fusos? A Rússia é GIGANTE de leste a oeste! São bem mais que cinco!"
+          },
+          {
+            "text": "8",
+            "isCorrect": false,
+            "explanation": "Oito fusos? Ainda está pouco! A Rússia é o maior país do mundo em área, cruzando quase metade do hemisfério norte!"
+          },
+          {
+            "text": "11",
+            "isCorrect": true,
+            "explanation": "Impressionante! A Rússia abrange 11 fusos horários, do Oceano Báltico no oeste ao Oceano Pacífico no leste. Isso significa que pode ser manhã de segunda-feira em uma ponta do país e noite de domingo na outra! Uma curiosidade sobre a geografia (e a gestão de horários!) de um país continental!",
+            "imageUrl": "https://exemplo.com/fusos_horarios_russia.jpg",
+            "imageDescription": "Mapa da Rússia dividido em 11 faixas de fusos horários."
+          },
+          {
+            "text": "14",
+            "isCorrect": false,
+            "explanation": "Quatorze? Exagerou um pouco! São 'apenas' 11, o que já é um recorde!"
+          }
+        ]
+      },
+      {
+        "question": "Qual animal pode girar a cabeça quase 360 graus?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Cachorro",
+            "isCorrect": false,
+            "explanation": "Cachorros são flexíveis, mas não conseguem girar a cabeça 360 graus! O animal que consegue tem olhos grandes e vive na noite."
+          },
+          {
+            "text": "Gato",
+            "isCorrect": false,
+            "explanation": "Gatos são ágeis e podem girar a cabeça bem, mas não uma volta completa! O mestre da rotação de pescoço é um predador noturno."
+          },
+          {
+            "text": "Cobra",
+            "isCorrect": false,
+            "explanation": "Cobras não têm pescoço longo para girar a cabeça assim! O animal que gira a cabeça tem asas e caça ratos."
+          },
+          {
+            "text": "Coruja",
+            "isCorrect": true,
+            "explanation": "Que giro! As corujas podem girar a cabeça em cerca de 270 graus para cada lado (quase uma volta completa!), totalizando uns 330 graus de movimento. Elas precisam fazer isso porque seus olhos são fixos nas órbitas. Uma curiosidade anatômica e de caça!",
+            "imageUrl": "https://exemplo.com/coruja_girando_cabeça.jpg",
+            "imageDescription": "Imagem de uma coruja girando a cabeça em um ângulo extremo."
+          }
+        ]
+      },
+      {
+        "question": "Em qual país está a Grande Esfinge de Gizé?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Grécia",
+            "isCorrect": false,
+            "explanation": "Grécia tem esfinges mitológicas, mas a Grande Esfinge de Gizé, com corpo de leão e cabeça humana, fica no Egito!"
+          },
+          {
+            "text": "Egito",
+            "isCorrect": true,
+            "explanation": "É claro! A Grande Esfinge de Gizé está no Egito, perto das pirâmides! Uma das estátuas mais antigas e misteriosas do mundo, guardando os segredos dos faraós. Majestosa!",
+            "imageUrl": "https://exemplo.com/grande_esfinge_gize.jpg",
+            "imageDescription": "Imagem da Grande Esfinge de Gizé com as pirâmides ao fundo."
+          },
+          {
+            "text": "Iraque",
+            "isCorrect": false,
+            "explanation": "O Iraque tem ruínas mesopotâmicas incríveis! Mas a Esfinge e as pirâmides são do Egito!"
+          },
+          {
+            "text": "Síria",
+            "isCorrect": false,
+            "explanation": "A Síria tem sítios arqueológicos importantes! Mas a Grande Esfinge de Gizé é um símbolo do Egito!"
+          }
+        ]
+      },
+      {
+        "question": "Qual a invenção que usa um campo eletromagnético giratório para gerar movimento (presente em ventiladores, liquidificadores, etc.)?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Gerador Elétrico",
+            "isCorrect": false,
+            "explanation": "O gerador elétrico faz o contrário: ele usa movimento para gerar eletricidade! A invenção que usa eletricidade para gerar movimento é outra."
+          },
+          {
+            "text": "Transformador",
+            "isCorrect": false,
+            "explanation": "O transformador muda a tensão da eletricidade! Ele não gera movimento."
+          },
+          {
+            "text": "Motor Elétrico",
+            "isCorrect": true,
+            "explanation": "Impressionante! O motor elétrico, inventado (em sua forma moderna e prática) por Nikola Tesla, usa a interação de campos eletromagnéticos giratórios (no caso dos motores de corrente alternada) para converter energia elétrica em energia mecânica (movimento). Presente em milhares de aparelhos no seu dia a dia! Uma invenção revolucionária!",
+            "imageUrl": "https://exemplo.com/motor_eletrico.jpg",
+            "imageDescription": "Ilustração ou imagem de um motor elétrico."
+          },
+          {
+            "text": "Resistor",
+            "isCorrect": false,
+            "explanation": "O resistor limita a passagem de corrente elétrica! Ele não gera movimento."
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome do ponto mais baixo conhecido na superfície terrestre (sem ser no oceano)?",
+        "level": "difícil",
+        "options": [
+          {
+            "text": "Mar Cáspio",
+            "isCorrect": false,
+            "explanation": "O Mar Cáspio é a maior lagoa de água salgada do mundo e está abaixo do nível do mar! Mas o ponto mais baixo em terra firme é ainda mais baixo e famoso."
+          },
+          {
+            "text": "Lagoa Salgada (Bolívia)",
+            "isCorrect": false,
+            "explanation": "Existem lagos salgados em altitudes baixas, mas o ponto mais baixo *absoluto* em terra firme fica em Israel/Jordânia."
+          },
+          {
+            "text": "Mar Morto",
+            "isCorrect": true,
+            "explanation": "Que curiosidade geográfica extrema! O Mar Morto, localizado entre Israel e a Jordânia, é o ponto mais baixo em terra firme na superfície da Terra, com suas margens a mais de 430 metros abaixo do nível do mar. A água é tão salgada que você flutua! Um lugar único no planeta!",
+            "imageUrl": "https://exemplo.com/mar_morto_vista.jpg",
+            "imageDescription": "Imagem do Mar Morto com pessoas flutuando ou a paisagem ao redor."
+          },
+          {
+            "text": "Depressão do Mar Cáspio",
+            "isCorrect": false,
+            "explanation": "A Depressão do Mar Cáspio é uma grande área abaixo do nível do mar, mas o ponto mais baixo é o Mar Morto."
+          }
+        ]
+      },
+      {
+        "question": "Quantas patas tem uma aranha?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "6",
+            "isCorrect": false,
+            "explanation": "Seis patas são para insetos! As aranhas não são insetos e têm um par de patas a mais."
+          },
+          {
+            "text": "8",
+            "isCorrect": true,
+            "explanation": "Que aracnídeo! As aranhas pertencem à classe Arachnida e têm 8 patas. Diferente dos insetos que têm 6. Uma curiosidade da zoologia!",
+            "imageUrl": "https://exemplo.com/aranha_oito_patas.jpg",
+            "imageDescription": "Imagem de uma aranha mostrando suas oito patas."
+          },
+          {
+            "text": "10",
+            "isCorrect": false,
+            "explanation": "Dez patas são para crustáceos como caranguejos! Aranhas têm menos patas."
+          },
+          {
+            "text": "4",
+            "isCorrect": false,
+            "explanation": "Quatro patas são para mamíferos (na maioria)! Aranhas têm o dobro disso!"
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome do osso que fica entre o cotovelo e o ombro no braço humano?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Rádio",
+            "isCorrect": false,
+            "explanation": "O Rádio é um dos ossos do antebraço (entre o cotovelo e o pulso)! O osso entre o cotovelo e o ombro é outro."
+          },
+          {
+            "text": "Ulna",
+            "isCorrect": false,
+            "explanation": "A Ulna é o outro osso do antebraço! O osso do 'braço' (parte superior) é o Úmero."
+          },
+          {
+            "text": "Fêmur",
+            "isCorrect": false,
+            "explanation": "O Fêmur é o osso da coxa (entre o quadril e o joelho)! O osso do braço é outro."
+          },
+          {
+            "text": "Úmero",
+            "isCorrect": true,
+            "explanation": "Isso! O Úmero! O osso longo do braço, que se articula com a escápula no ombro e com o rádio e a ulna no cotovelo. O 'braço forte' é sustentado por ele!",
+            "imageUrl": "https://exemplo.com/umero_ilustracao.jpg",
+            "imageDescription": "Ilustração do osso úmero no braço humano."
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome da figura de linguagem que usa palavras com sons parecidos para criar um jogo de palavras (ex: 'Três pratos de trigo para três tigres tristes')?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Metáfora",
+            "isCorrect": false,
+            "explanation": "Metáfora é comparar algo implicitamente ('Ele é um leão' = corajoso)! O jogo de palavras com sons parecidos é outra figura."
+          },
+          {
+            "text": "Ironia",
+            "isCorrect": false,
+            "explanation": "Ironia é dizer o contrário do que se pensa (geralmente para criticar)! O jogo de palavras com sons parecidos é outra coisa, mais sonora!"
+          },
+          {
+            "text": "Aliteração",
+            "isCorrect": false,
+            "explanation": "Aliteração é a repetição de sons consonantais (como em 'O rato roeu a roupa...')! A figura que usa palavras com sons parecidos para criar um jogo é a Paronomásia."
+          },
+          {
+            "text": "Paronomásia",
+            "isCorrect": true,
+            "explanation": "Que curioso jogo de palavras! A Paronomásia (ou paranomásia) é a figura de linguagem que usa palavras parônimas (com grafia/som parecidos, mas significado diferente) para criar um efeito sonoro e de sentido, como no exemplo 'Três pratos de trigo para três tigres tristes' ou 'cavaleiro/cavalheiro'. Uma curiosidade da língua portuguesa!",
+            "imageUrl": "https://exemplo.com/paronomasia_ilustracao.jpg",
+            "imageDescription": "Ilustração com palavras ou frases que demonstram paronomásia."
+          }
+        ]
+      },
+      {
+        "question": "Qual o único país que tem a forma de um 'bota' no mapa?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Grécia",
+            "isCorrect": false,
+            "explanation": "A Grécia tem um formato irregular, com muitas ilhas! O país em forma de bota é seu vizinho!"
+          },
+          {
+            "text": "Espanha",
+            "isCorrect": false,
+            "explanation": "A Espanha faz parte da Península Ibérica, com Portugal! A forma de bota é exclusiva do seu vizinho do leste."
+          },
+          {
+            "text": "Itália",
+            "isCorrect": true,
+            "explanation": "É isso! A Itália! Localizada na Europa, sua península tem um formato característico de bota chutando uma bola (a Sicília!). Uma forma fácil de reconhecer no mapa!",
+            "imageUrl": "https://exemplo.com/italia_mapa_bota.jpg",
+            "imageDescription": "Mapa da Itália destacando seu formato de bota."
+          },
+          {
+            "text": "Portugal",
+            "isCorrect": false,
+            "explanation": "Portugal faz parte da Península Ibérica, junto com a Espanha! O país em forma de bota é a Itália."
+          }
+        ]
+      },
+      {
+        "question": "Qual a substância que compõe a maior parte da atmosfera da Terra?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Oxigênio",
+            "isCorrect": false,
+            "explanation": "Oxigênio é vital para respirar, mas compõe apenas cerca de 21% da atmosfera! O gás mais abundante é outro."
+          },
+          {
+            "text": "Dióxido de Carbono",
+            "isCorrect": false,
+            "explanation": "Dióxido de Carbono é importante para o efeito estufa e plantas, mas é apenas uma pequena fração da atmosfera (menos de 1%)! O gás principal é outro."
+          },
+          {
+            "text": "Nitrogênio",
+            "isCorrect": true,
+            "explanation": "Que curioso! Embora o Oxigênio seja o mais vital para nós, o Nitrogênio (N₂) compõe cerca de 78% da atmosfera da Terra, sendo o gás mais abundante. Ele é relativamente inerte, mas é essencial para a vida de outras formas (ciclo do nitrogênio!). Respire fundo... 78% é Nitrogênio!",
+            "imageUrl": "https://exemplo.com/atmosfera_composicao.jpg",
+            "imageDescription": "Gráfico ou ilustração mostrando a composição gasosa da atmosfera da Terra."
+          },
+          {
+            "text": "Argônio",
+            "isCorrect": false,
+            "explanation": "Argônio é um gás nobre e o terceiro mais abundante (cerca de 0.9%), mas o campeão absoluto da atmosfera é o Nitrogênio!"
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome do fenômeno físico que faz objetos parecerem mais leves ou flutuar em um líquido?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Gravidade",
+            "isCorrect": false,
+            "explanation": "Gravidade puxa as coisas para baixo! Estamos falando da força que empurra para cima em um líquido."
+          },
+          {
+            "text": "Pressão",
+            "isCorrect": false,
+            "explanation": "Pressão existe nos líquidos, mas o fenômeno que faz objetos flutuar é uma força específica para cima."
+          },
+          {
+            "text": "Empuxo",
+            "isCorrect": true,
+            "explanation": "Exato! O Empuxo! É a força para cima exercida por um fluido (líquido ou gás) que se opõe ao peso de um objeto imerso. É por isso que barcos flutuam e balões sobem (o ar é um fluido!). Uma curiosidade da física de fluidos!",
+            "imageUrl": "https://exemplo.com/empuxo_ilustracao.jpg",
+            "imageDescription": "Ilustração mostrando a força de empuxo agindo em um objeto em um líquido."
+          },
+          {
+            "text": "Tensão Superficial",
+            "isCorrect": false,
+            "explanation": "Tensão superficial é a força que age na superfície de um líquido (fazendo insetos flutuar nela!). O empuxo age no volume imerso do objeto."
+          }
+        ]
+      },
+      {
+        "question": "Qual a menor criatura viva independente (sem ser vírus, que precisa de células) conhecida?",
+        "level": "difícil",
+        "options": [
+          {
+            "text": "Bactéria",
+            "isCorrect": false,
+            "explanation": "Bactérias são microscópicas, sim! Mas a menor criatura viva independente (uma célula) é ainda menor e sem parede celular."
+          },
+          {
+            "text": "Ameba",
+            "isCorrect": false,
+            "explanation": "Amebas são unicelulares, mas são maiores que a menor forma de vida independente conhecida. Pense em uma bactéria 'simplificada'."
+          },
+          {
+            "text": "Vírus",
+            "isCorrect": false,
+            "explanation": "Vírus são menores que bactérias, mas não são considerados 'vivos' independentemente porque precisam invadir células para se reproduzir. A pergunta é sobre vida INDEPENDENTE."
+          },
+          {
+            "text": "Micoplasma",
+            "isCorrect": true,
+            "explanation": "Que minúsculo! Os micoplasmas são um gênero de bactérias que são as menores criaturas vivas independentes conhecidas, com células que medem apenas cerca de 0.2 a 0.3 micrômetros. Elas não têm parede celular. Minúsculas, mas vivas por conta própria! Uma curiosidade da microbiologia!",
+            "imageUrl": "https://exemplo.com/micoplasma_ilustracao.jpg",
+            "imageDescription": "Ilustração microscópica de micoplasmas."
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome do maior vulcão ativo do mundo (em volume)?",
+        "level": "difícil",
+        "options": [
+          {
+            "text": "Monte Fuji (Japão)",
+            "isCorrect": false,
+            "explanation": "O Monte Fuji é o pico mais alto do Japão e um vulcão conhecido! Mas o maior em volume é um gigante no Havaí."
+          },
+          {
+            "text": "Vesúvio (Itália)",
+            "isCorrect": false,
+            "explanation": "O Vesúvio é famoso por destruir Pompeia! Mas em volume, o maior vulcão ativo é muito, muito maior e fica em uma ilha no Pacífico."
+          },
+          {
+            "text": "Mauna Loa (Havaí)",
+            "isCorrect": true,
+            "explanation": "Impressionante! O Mauna Loa, no Havaí (EUA), é considerado o maior vulcão ativo do mundo em volume e área. Ele forma uma montanha subaquática imensa, e se medido da base no fundo do oceano até o pico, é mais alto que o Monte Everest. Um gigante adormecido (às vezes!)!",
+            "imageUrl": "https://exemplo.com/mauna_loa_hawaii.jpg",
+            "imageDescription": "Imagem do vulcão Mauna Loa no Havaí."
+          },
+          {
+            "text": "Monte Etna (Itália)",
+            "isCorrect": false,
+            "explanation": "O Monte Etna na Sicília é um dos vulcões mais ativos do mundo em erupções frequentes! Mas o maior em volume é o Mauna Loa."
+          }
+        ]
+      },
+      {
+        "question": "Qual a unidade de medida de força no Sistema Internacional (SI)?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Watt",
+            "isCorrect": false,
+            "explanation": "Watt é a unidade de Potência! A unidade de Força recebeu o nome de um famoso cientista!"
+          },
+          {
+            "text": "Joule",
+            "isCorrect": false,
+            "explanation": "Joule é a unidade de Energia ou Trabalho! A unidade de Força é outra, relacionada a leis do movimento."
+          },
+          {
+            "text": "Newton",
+            "isCorrect": true,
+            "explanation": "Que força! A unidade de medida de força no Sistema Internacional é o Newton (N), em homenagem a Isaac Newton e suas leis do movimento. Um Newton é a força necessária para acelerar uma massa de 1 quilograma a 1 metro por segundo ao quadrado. Sinta a força!",
+            "imageUrl": "https://exemplo.com/newton_unidade_forca.jpg",
+            "imageDescription": "Ilustração ou fórmula F=ma representando a Segunda Lei de Newton."
+          },
+          {
+            "text": "Pascal",
+            "isCorrect": false,
+            "explanation": "Pascal é a unidade de Pressão! A unidade de Força é o Newton."
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome da energia gerada pelo movimento do vento?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Energia Solar",
+            "isCorrect": false,
+            "explanation": "Energia solar vem do sol! A energia do vento é capturada por hélices gigantes!"
+          },
+          {
+            "text": "Energia Hídrica",
+            "isCorrect": false,
+            "explanation": "Energia hídrica vem do movimento da água (rios, quedas d'água)! A energia do vento é outra."
+          },
+          {
+            "text": "Energia Geotérmica",
+            "isCorrect": false,
+            "explanation": "Energia geotérmica vem do calor do interior da Terra! A energia do vento vem... do vento!"
+          },
+          {
+            "text": "Energia Eólica",
+            "isCorrect": true,
+            "explanation": "Voou na resposta certa! A energia eólica é a energia gerada pelo movimento das massas de ar (vento), capturada por turbinas eólicas (cataventos modernos) que movem geradores. Uma forma de energia renovável e limpa! Gerando energia com a força do vento!",
+            "imageUrl": "https://exemplo.com/energia_eolica_turbinas.jpg",
+            "imageDescription": "Imagem de turbinas eólicas em um campo, gerando energia."
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome da capital da Nova Zelândia?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Auckland",
+            "isCorrect": false,
+            "explanation": "Auckland é a maior cidade da Nova Zelândia, super conhecida! Mas não é a capital política."
+          },
+          {
+            "text": "Queenstown",
+            "isCorrect": false,
+            "explanation": "Queenstown é famosa por esportes de aventura! A capital da Nova Zelândia é outra cidade na Ilha Norte."
+          },
+          {
+            "text": "Christchurch",
+            "isCorrect": false,
+            "explanation": "Christchurch é a maior cidade da Ilha Sul! A capital é outra cidade na Ilha Norte, conhecida por seu porto."
+          },
+          {
+            "text": "Wellington",
+            "isCorrect": true,
+            "explanation": "Acertou! Wellington é a capital da Nova Zelândia. Localizada no extremo sul da Ilha Norte, é uma cidade vibrante e o centro do governo neozelandês. Uma curiosidade geográfica!",
+            "imageUrl": "https://exemplo.com/wellington_new_zealand.jpg",
+            "imageDescription": "Vista panorâmica de Wellington, Nova Zelândia."
+          }
+        ]
+      },
+      {
+        "question": "Qual o animal conhecido por mudar de cor para se camuflar com o ambiente?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Onça-pintada",
+            "isCorrect": false,
+            "explanation": "Onças usam suas pintas para se camuflar na floresta, mas não mudam de cor ativamente. O mestre do disfarce muda a cor da pele!"
+          },
+          {
+            "text": "Urso Polar",
+            "isCorrect": false,
+            "explanation": "Ursos polares são brancos para se camuflar na neve, mas não mudam de cor. O animal que muda de cor é um réptil!"
+          },
+          {
+            "text": "Camaleão",
+            "isCorrect": true,
+            "explanation": "Que mestre do disfarce! Os camaleões são famosos por sua habilidade de mudar a cor e o padrão da pele para se misturar com o ambiente, se comunicar com outros camaleões ou regular a temperatura. Pura camuflagem e comunicação visual!",
+            "imageUrl": "https://exemplo.com/camaleao_mudando_cor.jpg",
+            "imageDescription": "Imagem de um camaleão em uma folha, mostrando sua capacidade de mudar de cor."
+          },
+          {
+            "text": "Lobo",
+            "isCorrect": false,
+            "explanation": "Lobos usam o pelo para se camuflar na neve ou floresta, mas não mudam de cor ativamente. O mestre da mudança de cor é um réptil que se move devagar!"
+          }
+        ]
+      },
+      {
+        "question": "Qual a temperatura em que a água ferve no nível do mar?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "0°C",
+            "isCorrect": false,
+            "explanation": "0°C é a temperatura que a água congela (vira gelo)! A temperatura de fervura é bem mais alta."
+          },
+          {
+            "text": "50°C",
+            "isCorrect": false,
+            "explanation": "50°C é água quente, mas não fervendo! Fervura é quando a água vira vapor rapidamente, a 100°C."
+          },
+          {
+            "text": "100°C",
+            "isCorrect": true,
+            "explanation": "Exato! A água ferve a 100°C (ou 212°F) no nível do mar. Em altitudes mais altas, onde a pressão atmosférica é menor, a água ferve em temperaturas mais baixas. Uma curiosidade da física do cotidiano!",
+            "imageUrl": "https://exemplo.com/agua_fervendo.jpg",
+            "imageDescription": "Imagem de água fervendo em uma panela com bolhas e vapor."
+          },
+          {
+            "text": "200°C",
+            "isCorrect": false,
+            "explanation": "200°C é temperatura de forno! A água ferve a 100°C."
+          }
+        ]
+      },
+      {
+        "question": "Quantos planetas rochosos (telúricos) existem no nosso sistema solar?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "2",
+            "isCorrect": false,
+            "explanation": "Dois? São mais que isso! Os planetas rochosos são os mais próximos do Sol."
+          },
+          {
+            "text": "4",
+            "isCorrect": true,
+            "explanation": "É isso! Existem 4 planetas rochosos (ou telúricos) no nosso sistema solar: Mercúrio, Vênus, Terra e Marte. São os planetas internos, compostos principalmente por rocha e metal. Depois vêm os gigantes gasosos! Uma curiosidade astronômica!",
+            "imageUrl": "https://exemplo.com/planetas_rochosos_sistema_solar.jpg",
+            "imageDescription": "Ilustração dos quatro planetas rochosos do sistema solar (Mercúrio, Vênus, Terra, Marte)."
+          },
+          {
+            "text": "6",
+            "isCorrect": false,
+            "explanation": "Seis? Não, os planetas rochosos são apenas os 4 mais próximos do Sol."
+          },
+          {
+            "text": "8",
+            "isCorrect": false,
+            "explanation": "Oito é o total de planetas (se excluirmos Plutão!). Nem todos são rochosos."
+          }
+        ]
+      },
+      {
+        "question": "Qual o maior animal carnívoro terrestre do mundo?",
+        "level": "difícil",
+        "options": [
+          {
+            "text": "Tigre",
+            "isCorrect": false,
+            "explanation": "Tigres são os maiores felinos, predadores incríveis! Mas o maior carnívoro *terrestre* é um urso!"
+          },
+          {
+            "text": "Leão",
+            "isCorrect": false,
+            "explanation": "Leões são grandes e caçam em grupo! Mas o maior carnívoro terrestre é ainda maior e vive no frio."
+          },
+          {
+            "text": "Urso Pardo (Kodiak)",
+            "isCorrect": false,
+            "explanation": "Ursos Pardos (especialmente os Kodiak) são GIGANTES e carnívoros (embora comam de tudo!). Mas o maior carnívoro *terrestre* é o Urso Polar."
+          },
+          {
+            "text": "Urso Polar",
+            "isCorrect": true,
+            "explanation": "Que gigante branco! O Urso Polar é considerado o maior carnívoro terrestre do mundo. Eles são predadores poderosos no Ártico, caçando focas principalmente. Uma curiosidade da zoologia polar!",
+            "imageUrl": "https://exemplo.com/urso_polar_gigante.jpg",
+            "imageDescription": "Imagem de um Urso Polar grande na neve ou gelo."
+          }
+        ]
+      },
+      {
+        "question": "Qual a capital da África do Sul?",
+        "level": "difícil",
+        "options": [
+          {
+            "text": "Pretoria",
+            "isCorrect": false,
+            "explanation": "Pretoria é uma das capitais, a administrativa! Mas a África do Sul tem três capitais. Qual delas é a *legislativa* ou a *judicial*?"
+          },
+          {
+            "text": "Cidade do Cabo",
+            "isCorrect": false,
+            "explanation": "Cidade do Cabo é uma das capitais, a legislativa! Mas a África do Sul tem três capitais. Qual delas é a *administrativa* ou a *judicial*?"
+          },
+          {
+            "text": "Bloemfontein",
+            "isCorrect": false,
+            "explanation": "Bloemfontein é uma das capitais, a judicial! Mas a África do Sul tem três capitais. A pergunta pode se referir a uma delas ou ao fato de ter várias."
+          },
+          {
+            "text": "A África do Sul tem três capitais (Pretoria, Cidade do Cabo, Bloemfontein)",
+            "isCorrect": true,
+            "explanation": "Que curioso! A África do Sul é o único país do mundo com três capitais: Pretoria (administrativa), Cidade do Cabo (legislativa) e Bloemfontein (judicial). Essa divisão histórica reflete diferentes interesses regionais. Um fato único na geografia política!",
+            "imageUrl": "https://exemplo.com/africa_sul_capitais_mapa.jpg",
+            "imageDescription": "Mapa da África do Sul destacando as três cidades capitais."
+          }
+        ]
+      },
+      {
+        "question": "Qual o menor oceano do mundo?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Oceano Atlântico",
+            "isCorrect": false,
+            "explanation": "O Atlântico é o segundo maior oceano! O menor é o mais frio e polar."
+          },
+          {
+            "text": "Oceano Índico",
+            "isCorrect": false,
+            "explanation": "O Índico é o terceiro maior! O menor é o que fica no Polo Norte."
+          },
+          {
+            "text": "Oceano Ártico",
+            "isCorrect": true,
+            "explanation": "É isso! O Oceano Ártico! Localizado principalmente dentro do Círculo Polar Ártico, é o menor e mais raso dos cinco oceanos. Coberto por gelo na maior parte do ano. O pequeno notável gelado!",
+            "imageUrl": "https://exemplo.com/oceano_artico_mapa.jpg",
+            "imageDescription": "Mapa da região do Oceano Ártico."
+          },
+          {
+            "text": "Oceano Antártico",
+            "isCorrect": false,
+            "explanation": "O Oceano Antártico circunda a Antártida! Ele é grande, mas não é o menor. O menor é o Ártico."
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome do processo pelo qual as plantas liberam vapor de água para a atmosfera?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Fotossíntese",
+            "isCorrect": false,
+            "explanation": "Fotossíntese é como as plantas fazem comida! A liberação de água é outro processo."
+          },
+          {
+            "text": "Respiração",
+            "isCorrect": false,
+            "explanation": "Respiração é como plantas e animais liberam energia! A liberação de vapor de água é outra função vital."
+          },
+          {
+            "text": "Transpiração",
+            "isCorrect": true,
+            "explanation": "Exato! Transpiração! É o processo onde as plantas absorvem água pelas raízes e a liberam como vapor através de pequenos poros nas folhas (estômatos). Ajuda a puxar mais água para cima e a resfriar a planta. É por isso que florestas são úmidas! Uma curiosidade da botânica!",
+            "imageUrl": "https://exemplo.com/transpiracao_planta_diagrama.jpg",
+            "imageDescription": "Diagrama mostrando o processo de transpiração em uma planta."
+          },
+          {
+            "text": "Germinação",
+            "isCorrect": false,
+            "explanation": "Germinação é semente brotando! Transpiração é planta liberando água."
+          }
+        ]
+      },
+      {
+        "question": "Qual o país que tem a maior linha costeira do mundo?",
+        "level": "difícil",
+        "options": [
+          {
+            "text": "Rússia",
+            "isCorrect": false,
+            "explanation": "A Rússia é enorme e tem muito litoral, sim! Mas o campeão absoluto da linha costeira é um país com muitas ilhas e fiordes no norte."
+          },
+          {
+            "text": "Austrália",
+            "isCorrect": false,
+            "explanation": "A Austrália é uma ilha-continente grande, com muito litoral! Mas o país com a maior linha costeira é ainda mais recortado e cheio de ilhas."
+          },
+          {
+            "text": "Canadá",
+            "isCorrect": true,
+            "explanation": "Curiosidade impressionante! O Canadá tem a maior linha costeira do mundo, com mais de 243.000 quilômetros, incluindo o litoral de suas inúmeras ilhas árticas. É mais do que o litoral da Rússia, Austrália e Brasil JUNTOS! Um litoral interminável!",
+            "imageUrl": "https://exemplo.com/canada_litoral_mapa.jpg",
+            "imageDescription": "Mapa do Canadá destacando sua vasta e recortada linha costeira."
+          },
+          {
+            "text": "Indonésia",
+            "isCorrect": false,
+            "explanation": "A Indonésia é um arquipélago com milhares de ilhas, somando um litoral imenso! Mas o Canadá a supera como o país com a maior linha costeira total."
+          }
+        ]
+      },
+      {
+        "question": "Qual a cor que os touros reagem em uma tourada?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Vermelho",
+            "isCorrect": false,
+            "explanation": "Essa é a crença popular por causa da capa do toureiro! Mas touros (e o gado em geral) são daltônicos para o vermelho e o verde. Eles reagem a outra coisa!"
+          },
+          {
+            "text": "Verde",
+            "isCorrect": false,
+            "explanation": "Touros não distinguem bem vermelho e verde! Eles reagem ao movimento, não à cor."
+          },
+          {
+            "text": "Azul",
+            "isCorrect": false,
+            "explanation": "Touros enxergam azul e amarelo, mas a reação deles na tourada não é pela cor, é pelo... movimento!"
+          },
+          {
+            "text": "Eles reagem ao movimento, não à cor",
+            "isCorrect": true,
+            "explanation": "Curiosidade desmistificada! Touros são daltônicos para o vermelho e o verde. Eles não ficam bravos com a cor vermelha da capa do toureiro (muleta). Eles reagem ao movimento rápido que o toureiro faz com ela! É a agitação da capa que os irrita, não a cor. O vermelho é mais para o público e a tradição!",
+            "imageUrl": "https://exemplo.com/touro_reagindo_movimento.jpg",
+            "imageDescription": "Imagem de um touro reagindo ao movimento da capa de um toureiro."
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome do maior osso do corpo humano?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Úmero",
+            "isCorrect": false,
+            "explanation": "O Úmero é o osso do braço, grande, mas não o maior! O maior osso sustenta a maior parte do seu peso."
+          },
+          {
+            "text": "Tíbia",
+            "isCorrect": false,
+            "explanation": "A Tíbia é o maior osso da parte inferior da perna, suporta peso, mas não é o maior osso do corpo inteiro. O maior osso fica na coxa!"
+          },
+          {
+            "text": "Crânio",
+            "isCorrect": false,
+            "explanation": "O Crânio é um conjunto de ossos que protege o cérebro, importante, mas não é um único osso e não é o maior! O maior é um osso longo."
+          },
+          {
+            "text": "Fêmur",
+            "isCorrect": true,
+            "explanation": "É isso! O Fêmur! O osso da coxa é o maior, mais longo e mais forte osso do corpo humano. Ele conecta o quadril ao joelho. Um osso que aguenta o tranco!",
+            "imageUrl": "https://exemplo.com/femur_ilustracao.jpg",
+            "imageDescription": "Ilustração do osso fêmur na coxa humana."
+          }
+        ]
+      },
+      {
+        "question": "Quantas cores primárias existem na síntese aditiva de cores (luz)?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "2",
+            "isCorrect": false,
+            "explanation": "Duas? Não, são mais que isso. Pense nas cores que juntas formam o branco!"
+          },
+          {
+            "text": "3",
+            "isCorrect": true,
+            "explanation": "Exato! Na síntese aditiva (mistura de luzes coloridas), as cores primárias são 3: Vermelho, Verde e Azul (RGB). Ao misturar essas luzes em diferentes intensidades, podemos criar todas as outras cores, e misturando as três com intensidade máxima, obtemos a luz branca. Uma curiosidade da física da luz!",
+            "imageUrl": "https://exemplo.com/cores_primarias_aditivas_rgb.jpg",
+            "imageDescription": "Diagrama mostrando as cores primárias aditivas (RGB) e suas misturas."
+          },
+          {
+            "text": "4",
+            "isCorrect": false,
+            "explanation": "Quatro? Não, as primárias da luz são as 3 que juntas dão o branco. Quatro pode ser em outros sistemas de cor."
+          },
+          {
+            "text": "7",
+            "isCorrect": false,
+            "explanation": "Sete? Sete são as cores do arco-íris! As primárias da luz são apenas 3."
+          }
+        ]
+      },
+      {
+        "question": "Qual o planeta mais quente do nosso sistema solar?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Mercúrio",
+            "isCorrect": false,
+            "explanation": "Mercúrio é o planeta mais próximo do Sol, então é super quente de um lado (e super frio do outro, pois não tem atmosfera!). Mas o planeta mais quente é o Vênus, por causa da atmosfera."
+          },
+          {
+            "text": "Vênus",
+            "isCorrect": true,
+            "explanation": "Curioso! Embora Mercúrio seja mais perto do Sol, Vênus é o planeta mais quente do nosso sistema solar devido ao seu efeito estufa extremo. Sua atmosfera densa de dióxido de carbono aprisiona o calor, elevando a temperatura da superfície a cerca de 462°C, quente o suficiente para derreter chumbo! Uma sauna espacial!",
+            "imageUrl": "https://exemplo.com/planeta_venus.jpg",
+            "imageDescription": "Imagem do planeta Vênus."
+          },
+          {
+            "text": "Terra",
+            "isCorrect": false,
+            "explanation": "A Terra tem temperaturas variadas e agradáveis (na maior parte!). Os planetas mais quentes são bem mais próximos do Sol e inóspitos!"
+          },
+          {
+            "text": "Marte",
+            "isCorrect": false,
+            "explanation": "Marte é conhecido por ser frio, mesmo sendo o 'Planeta Vermelho'! Os planetas mais quentes são mais próximos do Sol."
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome do medo de lugares altos?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Claustrofobia",
+            "isCorrect": false,
+            "explanation": "Claustrofobia é medo de espaços fechados! Medo de lugares altos é o oposto do medo de espaços baixos (não, isso não existe!)."
+          },
+          {
+            "text": "Agorafobia",
+            "isCorrect": false,
+            "explanation": "Agorafobia é medo de espaços abertos ou multidões! Medo de lugares altos é sobre a... altura em si!"
+          },
+          {
+            "text": "Acrofobia",
+            "isCorrect": true,
+            "explanation": "É isso! Acrofobia! O medo de altura ou lugares altos. Olhar para baixo e sentir aquele frio na barriga (ou pavor!) é característico dessa fobia. Melhor subir em banquinhos baixos!",
+            "imageUrl": "https://exemplo.com/acrofobia_predio_alto.jpg",
+            "imageDescription": "Imagem sugestiva de uma pessoa olhando para baixo de um prédio alto."
+          },
+          {
+            "text": "Hidrofobia",
+            "isCorrect": false,
+            "explanation": "Hidrofobia é medo de água! Medo de lugares altos é sobre... o ar lá em cima!"
+          }
+        ]
+      },
+      {
+        "question": "Quantos estados o Brasil tem?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "20",
+            "isCorrect": false,
+            "explanation": "Vinte? O Brasil é bem maior que isso! São mais de 20 estados!"
+          },
+          {
+            "text": "26",
+            "isCorrect": true,
+            "explanation": "É isso! O Brasil tem 26 estados, mais o Distrito Federal. Cada um com sua capital e características únicas. Uma curiosidade básica da geografia brasileira!",
+            "imageUrl": "https://exemplo.com/mapa_brasil_estados.jpg",
+            "imageDescription": "Mapa do Brasil mostrando a divisão por estados."
+          },
+          {
+            "text": "27",
+            "isCorrect": false,
+            "explanation": "Vinte e sete? Quase lá! São 26 estados mais o Distrito Federal. O total de unidades federativas é 27, mas a pergunta é sobre estados!"
+          },
+          {
+            "text": "52",
+            "isCorrect": false,
+            "explanation": "Cinquenta e dois? Esse número é mais parecido com o número de estados de outro país grande nas Américas! O Brasil tem 26 estados."
+          }
+        ]
+      },
+      {
+        "question": "Qual a capital do Egito?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Alexandria",
+            "isCorrect": false,
+            "explanation": "Alexandria é uma cidade histórica no Egito, com um farol famoso no passado! Mas a capital atual é a maior cidade do país."
+          },
+          {
+            "text": "Gizé",
+            "isCorrect": false,
+            "explanation": "Gizé é onde ficam as famosas pirâmides e a Esfinge! É perto da capital, mas não é a capital."
+          },
+          {
+            "text": "Cairo",
+            "isCorrect": true,
+            "explanation": "Acertou! O Cairo é a capital do Egito, a maior cidade do país e uma das maiores da África e do Oriente Médio. Uma metrópole vibrante e cheia de história, perto das pirâmides! 'Um Alf Layla wa Layla' (Mil e Uma Noites)!",
+            "imageUrl": "https://exemplo.com/cairo_city_view.jpg",
+            "imageDescription": "Vista panorâmica da cidade do Cairo, Egito."
+          },
+          {
+            "text": "Luxor",
+            "isCorrect": false,
+            "explanation": "Luxor é uma cidade importante com templos antigos no sul do Egito! Mas a capital é o Cairo, no norte."
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome da menor célula do corpo humano?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Glóbulo Branco",
+            "isCorrect": false,
+            "explanation": "Glóbulos brancos são células de defesa, importantes, mas não são as menores. Pense em algo relacionado à reprodução!"
+          },
+          {
+            "text": "Neurônio",
+            "isCorrect": false,
+            "explanation": "Neurônios (células nervosas) são complexos, mas não são as menores células. A menor célula é bem... comum!"
+          },
+          {
+            "text": "Espermatozoide",
+            "isCorrect": true,
+            "explanation": "Que curioso! O espermatozoide (a célula sexual masculina) é geralmente considerado a menor célula do corpo humano em volume (o núcleo é pequeno, embora tenha uma 'cauda'). O óvulo (feminino) é a maior célula. Uma curiosidade da biologia humana!",
+            "imageUrl": "https://exemplo.com/espermatozoide_ilustracao.jpg",
+            "imageDescription": "Ilustração de um espermatozoide humano."
+          },
+          {
+            "text": "Célula Muscular",
+            "isCorrect": false,
+            "explanation": "Células musculares podem ser longas! A menor célula é minúscula e ligada à reprodução."
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome da menor quantidade de luz (partícula fundamental) que existe?",
+        "level": "difícil",
+        "options": [
+          {
+            "text": "Elétron",
+            "isCorrect": false,
+            "explanation": "Elétron é uma partícula fundamental da matéria, com carga elétrica! O 'pacote' de luz é outra partícula sem massa."
+          },
+          {
+            "text": "Átomo",
+            "isCorrect": false,
+            "explanation": "Átomo é a unidade básica da matéria! A luz é energia, não matéria, e sua menor unidade é uma partícula diferente."
+          },
+          {
+            "text": "Nêutron",
+            "isCorrect": false,
+            "explanation": "Nêutron é uma partícula no núcleo do átomo, sem carga! A menor quantidade de luz é uma partícula associada à energia eletromagnética."
+          },
+          {
+            "text": "Fóton",
+            "isCorrect": true,
+            "explanation": "Que partícula de luz! O Fóton é a menor quantidade (quantum) de energia luminosa (e de toda a radiação eletromagnética). Pense nele como um 'pacote' de luz que viaja na velocidade da luz. A base da óptica quântica! Uma curiosidade da física moderna!",
+            "imageUrl": "https://exemplo.com/foton_ilustracao.jpg",
+            "imageDescription": "Ilustração representando um fóton ou partícula de luz."
+          }
+        ]
+      },
+      {
+        "question": "Qual o animal que tem a maior expectativa de vida do mundo?",
+        "level": "difícil",
+        "options": [
+          {
+            "text": "Tartaruga Gigante (Galápagos)",
+            "isCorrect": false,
+            "explanation": "Tartarugas gigantes vivem muito, centenas de anos! Mas o campeão da longevidade é um animal marinho ainda mais 'devagar' e sem espinha dorsal."
+          },
+          {
+            "text": "Baleia Boreal (Bowhead Whale)",
+            "isCorrect": false,
+            "explanation": "Baleias boreais vivem muito, mais de 200 anos! Mas o campeão absoluto da longevidade animal é um invertebrado subaquático."
+          },
+          {
+            "text": "Tubarão da Groenlândia",
+            "isCorrect": false,
+            "explanation": "Tubarões da Groenlândia vivem centenas de anos, são os vertebrados mais longevos! Mas o campeão ABSOLUTO da longevidade é um molusco."
+          },
+          {
+            "text": "Marisco-islandês (Ocean Quahog)",
+            "isCorrect": true,
+            "explanation": "Que longevidade molusca! O Marisco-islandês (*Arctica islandica*) é considerado o animal com a maior expectativa de vida do mundo, com alguns indivíduos vivendo mais de 500 anos! Eles crescem muito lentamente no fundo do oceano frio. Uma curiosidade sobre a vida em 'câmera lenta'!",
+            "imageUrl": "https://exemplo.com/marisco_islandes.jpg",
+            "imageDescription": "Imagem de um Marisco-islandês aberto."
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome do único animal que não tem cordas vocais?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Cobra",
+            "isCorrect": false,
+            "explanation": "Cobras fazem sons (sibilos!), embora de forma diferente. O animal 'mudo' que você procura vive na água e tem uma mandíbula gigante!"
+          },
+          {
+            "text": "Tartaruga",
+            "isCorrect": false,
+            "explanation": "Tartarugas podem fazer sons (silvos, gemidos!), especialmente durante o acasalamento. O animal 'mudo' vive no oceano e tem uma barbatana."
+          },
+          {
+            "text": "Girafa",
+            "isCorrect": true,
+            "explanation": "Que curioso! A girafa é geralmente considerada o único mamífero que não possui cordas vocais funcionais. Elas não 'falam' ou 'mugem' como outros mamíferos, mas podem fazer alguns sons (bufos, gemidos), embora não através de cordas vocais. Um mamífero super alto e silencioso!",
+            "imageUrl": "https://exemplo.com/girafa_silenciosa.jpg",
+            "imageDescription": "Imagem de uma girafa comendo folhas de uma árvore alta."
+          },
+          {
+            "text": "Peixe",
+            "isCorrect": false,
+            "explanation": "Alguns peixes podem fazer sons (grunhidos, cliques!) usando bexigas natatórias ou esfregando partes do corpo. O animal 'mudo' é terrestre e tem um pescoço longo."
+          }
+        ]
+      },
+      {
+        "question": "Qual a maior ilha do mundo?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Austrália",
+            "isCorrect": false,
+            "explanation": "A Austrália é tão grande que é considerada um continente/região, não uma ilha! A maior ilha 'de verdade' é bem menor que a Austrália."
+          },
+          {
+            "text": "Groenlândia",
+            "isCorrect": true,
+            "explanation": "É isso! A Groenlândia (pertencente à Dinamarca) é a maior ilha do mundo. Coberta principalmente por gelo, é um território vasto no Atlântico Norte. Uma ilha gigante no gelo!",
+            "imageUrl": "https://exemplo.com/mapa_groenlandia.jpg",
+            "imageDescription": "Mapa da ilha da Groenlândia."
+          },
+          {
+            "text": "Bornéu",
+            "isCorrect": false,
+            "explanation": "Bornéu é a terceira maior ilha do mundo, na Ásia! A maior é a Groenlândia."
+          },
+          {
+            "text": "Nova Guiné",
+            "isCorrect": false,
+            "explanation": "Nova Guiné é a segunda maior ilha do mundo, na Oceania! A maior é a Groenlândia."
+          }
+        ]
+      },
+      {
+        "question": "Quantos segundos tem um dia terrestre?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "3.600",
+            "isCorrect": false,
+            "explanation": "3.600 segundos é o número de segundos em UMA HORA! Um dia tem 24 horas!"
+          },
+          {
+            "text": "60.000",
+            "isCorrect": false,
+            "explanation": "Sessenta mil segundos? Quase, mas não. Faça a conta: 24 horas * 60 minutos/hora * 60 segundos/minuto!"
+          },
+          {
+            "text": "86.400",
+            "isCorrect": true,
+            "explanation": "Que curioso! Um dia (24 horas) tem exatamente 86.400 segundos! 24 * 60 * 60 = 86.400. Parece muito, né? O tempo voa (ou não!)!",
+            "imageUrl": "https://exemplo.com/relogio_digital_segundos.jpg",
+            "imageDescription": "Imagem de um relógio digital exibindo segundos."
+          },
+          {
+            "text": "100.000",
+            "isCorrect": false,
+            "explanation": "Cem mil segundos? Exagerou! Um dia tem 86.400 segundos!"
+          }
+        ]
+      },
+      {
+        "question": "Qual a substância mais abundante no universo?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Oxigênio",
+            "isCorrect": false,
+            "explanation": "Oxigênio é abundante na Terra, vital para nós! Mas no universo, a substância mais comum é a mais simples de todas."
+          },
+          {
+            "text": "Ferro",
+            "isCorrect": false,
+            "explanation": "Ferro é comum em planetas rochosos e estrelas, mas no vasto espaço, a substância mais abundante é um gás leve."
+          },
+          {
+            "text": "Carbono",
+            "isCorrect": false,
+            "explanation": "Carbono é a base da vida e comum em estrelas, mas a substância mais abundante no universo é um gás primordial."
+          },
+          {
+            "text": "Hidrogênio",
+            "isCorrect": true,
+            "explanation": "Que curioso! O Hidrogênio é a substância mais abundante no universo, compondo cerca de 75% da massa bariônica (matéria 'normal'). É o elemento mais simples, formado logo após o Big Bang, e o combustível das estrelas. O 'tijolo' fundamental do universo!",
+            "imageUrl": "https://exemplo.com/hidrogenio_universo.jpg",
+            "imageDescription": "Ilustração representando nuvens de hidrogênio no espaço ou o átomo de hidrogênio."
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome da fobia de lugares abertos ou multidões?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Claustrofobia",
+            "isCorrect": false,
+            "explanation": "Claustrofobia é medo de espaços fechados! A fobia de espaços abertos é o oposto."
+          },
+          {
+            "text": "Acrofobia",
+            "isCorrect": false,
+            "explanation": "Acrofobia é medo de altura! Medo de espaços abertos é sobre... a amplitude do espaço!"
+          },
+          {
+            "text": "Agorafobia",
+            "isCorrect": true,
+            "explanation": "Exato! Agorafobia! O medo irracional de lugares abertos, multidões, ou situações onde seria difícil escapar. Pode levar a pessoa a evitar sair de casa. Um medo de 'sair para o mundo'!",
+            "imageUrl": "https://exemplo.com/agorafobia_multidao.jpg",
+            "imageDescription": "Imagem sugestiva de um espaço aberto ou multidão causando desconforto."
+          },
+          {
+            "text": "Misofobia",
+            "isCorrect": false,
+            "explanation": "Misofobia é medo de germes/sujeira! Agorafobia é sobre espaços e multidões."
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome do maior deserto de gelo do mundo?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Oceano Ártico",
+            "isCorrect": false,
+            "explanation": "O Oceano Ártico é coberto por gelo, sim! Mas a pergunta é sobre um deserto de gelo em *terra firme*, um continente!"
+          },
+          {
+            "text": "Groenlândia",
+            "isCorrect": false,
+            "explanation": "A Groenlândia é a maior ilha coberta por gelo! Mas o maior deserto de gelo do mundo é um continente inteiro."
+          },
+          {
+            "text": "Patagônia",
+            "isCorrect": false,
+            "explanation": "A Patagônia tem geleiras incríveis, mas não é um deserto de gelo continental. O maior fica no extremo sul do planeta!"
+          },
+          {
+            "text": "Antártida",
+            "isCorrect": true,
+            "explanation": "É isso! A Antártida! O continente no Polo Sul é o maior deserto de gelo do mundo. É considerado um deserto porque tem pouquíssima precipitação. Um continente gelado e vasto!",
+            "imageUrl": "https://exemplo.com/continente_antartida.jpg",
+            "imageDescription": "Vista aérea ou paisagem da Antártida coberta por gelo e neve."
+          }
+        ]
+      },
+      {
+        "question": "Quantos corações tem uma minhoca?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "1",
+            "isCorrect": false,
+            "explanation": "Um coração? Elas precisam de mais 'bombas' para circular o sangue pelo corpo segmentado! Pense em um número ímpar (não, é par!) um pouco maior."
+          },
+          {
+            "text": "2",
+            "isCorrect": false,
+            "explanation": "Dois corações? Ainda não é suficiente para a circulação eficiente! Elas têm um número de 'pares' de corações."
+          },
+          {
+            "text": "5 (ou 5 pares)",
+            "isCorrect": true,
+            "explanation": "Que curioso animal! A minhoca (e outros anelídeos) não tem um único coração central como nós, mas sim 5 pares de 'pseudo-corações' ou arcos aórticos que bombeiam o sangue pelo corpo. São 10 'corações' no total, organizados em 5 pares! Uma curiosidade da zoologia de invertebrados!",
+            "imageUrl": "https://exemplo.com/minhoca_ilustracao.jpg",
+            "imageDescription": "Ilustração da anatomia da minhoca, mostrando os arcos aórticos."
+          },
+          {
+            "text": "10",
+            "isCorrect": false,
+            "explanation": "Dez é o número total de pseudo-corações, mas a contagem comum é em 'pares'. São 5 pares, totalizando 10!"
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome da energia armazenada devido à posição ou condição de um objeto?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Energia Cinética",
+            "isCorrect": false,
+            "explanation": "Energia cinética é a energia do *movimento*! A energia armazenada pela posição é outra, 'potencial'."
+          },
+          {
+            "text": "Energia Térmica",
+            "isCorrect": false,
+            "explanation": "Energia térmica é a energia associada ao calor! A energia armazenada pela posição ou condição é outra."
+          },
+          {
+            "text": "Energia Potencial",
+            "isCorrect": true,
+            "explanation": "Exato! Energia Potencial! A energia que um objeto possui devido à sua posição (como uma bola no alto de uma rampa) ou estado (como uma mola comprimida). É a energia que tem o 'potencial' de se transformar em movimento ou trabalho. Uma curiosidade da física!",
+            "imageUrl": "https://exemplo.com/energia_potencial_ilustracao.jpg",
+            "imageDescription": "Ilustração de um objeto (bola) no alto de uma rampa, representando energia potencial gravitacional."
+          },
+          {
+            "text": "Energia Sonora",
+            "isCorrect": false,
+            "explanation": "Energia sonora é energia de vibração (som)! A energia armazenada pela posição é 'potencial'."
+          }
+        ]
+      },
+      {
+        "question": "Em qual país está localizado o Monte Everest, o ponto mais alto da Terra acima do nível do mar?",
+        "level": "médio",
+        "options": [
+          {
+            "text": "Índia",
+            "isCorrect": false,
+            "explanation": "A Índia está perto da Cordilheira do Himalaia, mas o Monte Everest fica na fronteira de outros dois países."
+          },
+          {
+            "text": "China / Nepal",
+            "isCorrect": true,
+            "explanation": "É isso! O Monte Everest fica na fronteira entre o Nepal e a China (Região Autônoma do Tibete). A subida pode ser feita por ambos os lados. O pico mais alto do mundo, dividido entre dois países fascinantes!",
+            "imageUrl": "https://exemplo.com/monte_everest_vista.jpg",
+            "imageDescription": "Imagem do Monte Everest."
+          },
+          {
+            "text": "Paquistão",
+            "isCorrect": false,
+            "explanation": "O Paquistão tem montanhas altíssimas (K2!), mas o Monte Everest fica mais para o leste, na fronteira China/Nepal."
+          },
+          {
+            "text": "Butão",
+            "isCorrect": false,
+            "explanation": "O Butão é um país na Cordilheira do Himalaia, mas o Monte Everest fica na fronteira dos seus vizinhos China e Nepal."
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome da galáxia onde está o nosso Sistema Solar?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Andrômeda",
+            "isCorrect": false,
+            "explanation": "Andrômeda é a galáxia grande mais próxima da nossa, visível a olho nu! Mas a galáxia onde vivemos é outra, com um nome... leitoso!"
+          },
+          {
+            "text": "Via Láctea",
+            "isCorrect": true,
+            "explanation": "Perfeito! A Via Láctea! É a galáxia espiral onde o nosso Sistema Solar está localizado, com bilhões de estrelas, planetas e nuvens de gás e poeira. Do grego, significa 'Caminho do Leite', pela aparência esbranquiçada no céu noturno. Nosso lar cósmico!",
+            "imageUrl": "https://exemplo.com/via_lactea_ceu.jpg",
+            "imageDescription": "Imagem da Via Láctea vista do solo em um céu escuro."
+          },
+          {
+            "text": "Triângulo",
+            "isCorrect": false,
+            "explanation": "A Galáxia do Triângulo é uma galáxia vizinha pequena! A galáxia onde estamos é a Via Láctea."
+          },
+          {
+            "text": "Centaurus A",
+            "isCorrect": false,
+            "explanation": "Centaurus A é uma galáxia ativa e gigante, mas distante! A galáxia onde está o Sistema Solar é a Via Láctea."
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome do medo de injeções ou agulhas?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Hemofobia",
+            "isCorrect": false,
+            "explanation": "Hemofobia é medo de sangue! O medo de injeções e agulhas é outro, 'espetado'!"
+          },
+          {
+            "text": "Tripanofobia",
+            "isCorrect": true,
+            "explanation": "Que curioso! Tripanofobia é o medo extremo de injeções, agulhas ou procedimentos médicos que envolvam picadas. Pode causar desmaios ou pânico. Uma fobia que dificulta ir ao médico ou doar sangue!",
+            "imageUrl": "https://exemplo.com/tripanofobia_agulha.jpg",
+            "imageDescription": "Imagem sugestiva de uma agulha médica (sem causar desconforto real)."
+          },
+          {
+            "text": "Necrofobia",
+            "isCorrect": false,
+            "explanation": "Necrofobia é medo de morte ou coisas mortas! Tripanofobia é medo de agulhas!"
+          },
+          {
+            "text": "Dentofobia",
+            "isCorrect": false,
+            "explanation": "Dentofobia é medo de dentista! Embora possa envolver agulhas, o medo específico de injeções/agulhas é a Tripanofobia."
+          }
+        ]
+      },
+      {
+        "question": "Qual a maior montanha do sistema solar (não na Terra)?",
+        "level": "difícil",
+        "options": [
+          {
+            "text": "Monte Everest (Terra)",
+            "isCorrect": false,
+            "explanation": "Everest é o mais alto da Terra! A maior montanha do sistema solar é muito, muito maior e fica em outro planeta."
+          },
+          {
+            "text": "Mauna Kea (Havaí, Terra)",
+            "isCorrect": false,
+            "explanation": "Mauna Kea é o mais alto da Terra se medido da base no fundo do oceano! Mas a maior montanha do sistema solar é um vulcão gigantesco em Marte."
+          },
+          {
+            "text": "Olimpo Mons (Marte)",
+            "isCorrect": true,
+            "explanation": "Gigante! O Olimpo Mons (Monte Olimpo) em Marte é o maior vulcão e a maior montanha conhecida no sistema solar. Com cerca de 21.9 km de altura (quase 3 vezes o Everest!) e 600 km de diâmetro, é uma estrutura colossal. Uma curiosidade geológica espacial!",
+            "imageUrl": "https://exemplo.com/olimpo_mons_marte.jpg",
+            "imageDescription": "Imagem do vulcão Olimpo Mons em Marte, vista do espaço."
+          },
+          {
+            "text": "Monte Fuji (Japão, Terra)",
+            "isCorrect": false,
+            "explanation": "O Monte Fuji é um vulcão conhecido na Terra! A maior montanha do sistema solar é muito maior e fica em Marte."
+          }
+        ]
+      },
+      {
+        "question": "Qual o nome da forma de energia associada ao movimento das partículas em uma substância (basicamente, calor)?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "Energia Cinética",
+            "isCorrect": false,
+            "explanation": "Energia cinética é a energia do movimento, sim! Mas a energia associada ao *movimento microscópico* das partículas (calor) tem um nome específico."
+          },
+          {
+            "text": "Energia Potencial",
+            "isCorrect": false,
+            "explanation": "Energia potencial é energia de posição ou estado! A energia do calor é associada ao movimento."
+          },
+          {
+            "text": "Energia Térmica",
+            "isCorrect": true,
+            "explanation": "É isso! Energia Térmica! É a forma de energia associada ao movimento aleatório e vibração das partículas (átomos, moléculas) em uma substância. Quanto mais as partículas se movem, maior a energia térmica e mais quente a substância está. Uma curiosidade da física!",
+            "imageUrl": "https://exemplo.com/energia_termica_particulas.jpg",
+            "imageDescription": "Ilustração mostrando partículas (átomos/moléculas) se movendo rapidamente em um material quente."
+          },
+          {
+            "text": "Energia Química",
+            "isCorrect": false,
+            "explanation": "Energia química é a energia armazenada nas ligações químicas! A energia do calor é associada ao movimento das partículas."
+          }
+        ]
+      },
+      {
+        "question": "Quantos continentes a Terra possui (contagem tradicional)?",
+        "level": "fácil",
+        "options": [
+          {
+            "text": "4",
+            "isCorrect": false,
+            "explanation": "Quatro? Existem mais massas de terra continentais! Pense nos continentes principais que você aprende na escola."
+          },
+          {
+            "text": "5",
+            "isCorrect": false,
+            "explanation": "Cinco? Depende de como você conta! Alguns modelos consideram 5, mas o modelo mais comum (que separa as Américas) tem um número maior."
+          },
+          {
+            "text": "6 (ou 7, dependendo do modelo)",
+            "isCorrect": true,
+            "explanation": "Curiosidade de contagem! Existem diferentes modelos, mas os mais comuns são 6 (Europa, Ásia, África, América do Norte, América do Sul, Oceania/Austrália) ou 7 (separando Europa e Ásia como continentes distintos, e contando a Antártida). O modelo de 6 que junta Europa e Ásia como Eurásia, mas conta as Américas separadamente, é bastante usado. Uma curiosidade de geografia!",
+            "imageUrl": "https://exemplo.com/mapa_continentes_6ou7.jpg",
+            "imageDescription": "Mapa mundi mostrando a divisão da Terra em 6 ou 7 continentes."
+          },
+          {
+            "text": "7 (ou 8, dependendo do modelo)",
+            "isCorrect": false,
+            "explanation": "Oito? Não, o número máximo de continentes na contagem tradicional é 7. Existem 6 ou 7, dependendo da classificação."
+          }
+        ]
+      }
+    ]
+  }

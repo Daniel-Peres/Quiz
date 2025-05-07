@@ -1,0 +1,2859 @@
+{
+    "config": {
+        "theme": "Haikyu!!",
+        "totalPoints": 1000,
+        "scoring": "points"
+    },
+    "data": [
+        {
+            "question": "Qual a posição principal de Shoyo Hinata no Karasuno?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Levantador",
+                    "isCorrect": false,
+                    "explanation": "Levantador? Com a altura dele? Nããão! O Hinata sonha em ser o 'Pequeno Gigante', pulando mais alto que todo mundo. Ele deixa os levantamentos para o Kageyama!"
+                },
+                {
+                    "text": "Líbero",
+                    "isCorrect": false,
+                    "explanation": "Líbero usa uma camisa diferente e foca na defesa e recepção. O Hinata foca em atacar e pontuar! A defesa não é bem a praia dele (ainda!)."
+                },
+                {
+                    "text": "Ponta",
+                    "isCorrect": false,
+                    "explanation": "Ele ataca pelas pontas, sim, mas sua posição principal, especialmente no início, que aproveita sua velocidade e salto, é outra... Pense em 'centro'."
+                },
+                {
+                    "text": "Central",
+                    "isCorrect": true,
+                    "explanation": "Bingo! Embora seja pequeno, Hinata é um Central (Middle Blocker). Ele usa sua velocidade e super salto para o Ataque Rápido Monstro com o Kageyama! Voa, pequeno corvo!",
+                    "imageUrl": "https://exemplo.com/hinata_salto.jpg",
+                    "imageDescription": "Imagem de Hinata pulando incrivelmente alto para um ataque rápido."
+                }
+            ]
+        },
+        {
+            "question": "Qual apelido Tsukishima Kei deu para Tobio Kageyama?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Rei da Quadra",
+                    "isCorrect": true,
+                    "explanation": "Haha, acertou! 'Rei da Quadra' (王様 - Ousama). Tsukishima adora provocar o Kageyama com esse apelido do passado, lembrando a arrogância dele no fundamental. É a cara do Tsukki ser sarcástico assim!",
+                    "imageUrl": "https://exemplo.com/kageyama_rei.jpg",
+                    "imageDescription": "Imagem de Kageyama com uma expressão séria ou arrogante, remetendo ao apelido 'Rei da Quadra'."
+                },
+                {
+                    "text": "Gênio do Vôlei",
+                    "isCorrect": false,
+                    "explanation": "Gênio ele é, mas não é esse o apelido que o Tsukishima usa pra irritar. O Tsukki prefere algo mais... *cortante*."
+                },
+                {
+                    "text": "Brutamontes",
+                    "isCorrect": false,
+                    "explanation": "Brutamontes? Não, o Kageyama é mais sobre precisão assustadora nos levantamentos. O Tsukishima tem um apelido bem específico que pega na ferida do Kageyama."
+                },
+                {
+                    "text": "Levantador Incrível",
+                    "isCorrect": false,
+                    "explanation": "Incrível ele é, mas o Tsukishima não daria um elogio assim de graça! O apelido dele é provocativo e relembra um trauma do Kageyama."
+                }
+            ]
+        },
+        {
+            "question": "Qual escola é a grande rival histórica do Karasuno nas 'Batalhas na Lixeira'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Aoba Johsai (Seijoh)",
+                    "isCorrect": false,
+                    "explanation": "O Seijoh é um rival forte e o time do Oikawa, mas a rivalidade histórica das 'Batalhas na Lixeira' é com outro time de Tóquio, um 'gato' esperto!"
+                },
+                {
+                    "text": "Shiratorizawa",
+                    "isCorrect": false,
+                    "explanation": "Shiratorizawa, do Ushijima, é o 'rei' da província de Miyagi e um super rival, mas a 'Batalha na Lixeira' acontece contra um rival de longa data de Tóquio, com outro mascote."
+                },
+                {
+                    "text": "Nekoma",
+                    "isCorrect": true,
+                    "explanation": "É isso aí! Nekoma High! A rivalidade 'Corvos vs Gatos' (Karasuno vs Nekoma) é lendária, remontando aos tempos dos técnicos Ukai Sr. e Nekomata. A 'Batalha na Lixeira' finalmente acontece em quadra!",
+                    "imageUrl": "https://exemplo.com/karasuno_nekoma.jpg",
+                    "imageDescription": "Imagem promocional ou cena do confronto entre Karasuno e Nekoma."
+                },
+                {
+                    "text": "Date Tech",
+                    "isCorrect": false,
+                    "explanation": "O Date Tech e seu 'Muro de Ferro' são um desafio e tanto, mas a 'Batalha na Lixeira' é um encontro muito esperado contra um time de Tóquio com um histórico antigo."
+                }
+            ]
+        },
+        {
+            "question": "Quem é conhecido como o 'Pequeno Gigante' original que inspirou Hinata?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Karasuno #10 (da geração de Hinata)",
+                    "isCorrect": false,
+                    "explanation": "Opa, o Hinata usa a #10 inspirada nele, mas ele não é o 'Pequeno Gigante' original! Ele é o herdeiro do título, mas quem veio antes?"
+                },
+                {
+                    "text": "Ukai Keishin (o técnico atual)",
+                    "isCorrect": false,
+                    "explanation": "O técnico Ukai foi um jogador habilidoso no passado, mas não era ele o 'Pequeno Gigante'. Ele era levantador, se não me engano! O 'Pequeno Gigante' jogava em outra posição..."
+                },
+                {
+                    "text": "Um ex-jogador do Karasuno",
+                    "isCorrect": true,
+                    "explanation": "Exatamente! O 'Pequeno Gigante' foi um As do Karasuno na geração anterior, que mesmo baixo, conseguia pular e pontuar como os gigantes. Hinata o viu na TV e se inspirou!",
+                    "imageUrl": "https://exemplo.com/pequeno_gigante_flashback.jpg",
+                    "imageDescription": "Imagem de flashback do Pequeno Gigante jogando pelo Karasuno."
+                },
+                {
+                    "text": "Oikawa Tooru",
+                    "isCorrect": false,
+                    "explanation": "Oikawa? Ele é 'O Grande Rei', com certeza! Mas não é o 'Pequeno Gigante'. O 'Pequeno Gigante' é uma lenda do Karasuno que inspirou o Hinata."
+                }
+            ]
+        },
+        {
+            "question": "Qual é a especialidade do líbero Yu Nishinoya?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Bloqueio",
+                    "isCorrect": false,
+                    "explanation": "Bloqueio? O Nishinoya, o 'Guardião do Karasuno', é o menor do time! O forte dele é o chão, não o 'muro' na rede!"
+                },
+                {
+                    "text": "Saque viagem",
+                    "isCorrect": false,
+                    "explanation": "O Nishinoya tem um saque legal, o 'Rolling Thunder', mas não é um saque viagem poderoso como o do Oikawa ou Ushijima. A especialidade dele é outra, é... cair!"
+                },
+                {
+                    "text": "Recepção (Rolling Thunder/Rolling Receive)",
+                    "isCorrect": true,
+                    "explanation": "Yeah! Rolling Thunder! A recepção (e a defesa em geral) é a especialidade do Nishinoya. Ele se joga no chão, faz milagres e protege a quadra. 'Rolling Thunder' é o nome da técnica de recepção dele!",
+                    "imageUrl": "https://exemplo.com/nishinoya_rolling_thunder.jpg",
+                    "imageDescription": "Imagem de Nishinoya realizando sua técnica de recepção 'Rolling Thunder'."
+                },
+                {
+                    "text": "Levantamento",
+                    "isCorrect": false,
+                    "explanation": "Levantamento? Ele pode fazer um levantamento para a ponta (lembram do 'Rolling Thunder' versão levantamento?), mas a especialidade dele, o que ele ama, é a defesa!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o lema da bandeira do Karasuno High?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Voar",
+                    "isCorrect": true,
+                    "explanation": "Acertou! 'Voar' (飛べ - Tobe)! É o grito de guerra e o lema do Karasuno, inspirando os corvos a superarem seus limites e alcançarem novas alturas. É a cara deles!"
+                },
+                {
+                    "text": "Não Cair",
+                    "isCorrect": false,
+                    "explanation": "Não cair é importante na defesa, mas o lema principal é sobre ascensão, sobre ir além... algo que só pássaros podem fazer!"
+                },
+                {
+                    "text": "Conectar",
+                    "isCorrect": false,
+                    "explanation": "Conexão é vital no vôlei, e o Karasuno aprendeu isso, mas o lema da bandeira é mais sobre a aspiração do time, sobre o que eles buscam."
+                },
+                {
+                    "text": "Reconstruir",
+                    "isCorrect": false,
+                    "explanation": "Reconstruir o 'Ninho dos Corvos Caídos' foi o objetivo, mas o lema na bandeira é a palavra poderosa que os impulsiona para frente."
+                }
+            ]
+        },
+        {
+            "question": "Qual é o nome do ataque rápido combinado entre Hinata e Kageyama no início da série?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Ataque Sincronizado",
+                    "isCorrect": false,
+                    "explanation": "É sincronizado, claro, mas o nome que eles e os outros deram para essa loucura é bem mais... 'monstruoso'!"
+                },
+                {
+                    "text": "Vôlei Rápido",
+                    "isCorrect": false,
+                    "explanation": "É rápido, super rápido! Mas o apelido pegou por ser algo tão inesperado e eficaz que parecia irreal."
+                },
+                {
+                    "text": "Ataque Rápido Monstro (ou Insano)",
+                    "isCorrect": true,
+                    "explanation": "Exato! O 'Ataque Rápido Monstro' (ou Insano - 変人速攻 - Henjin Sokkou)! O levantamento preciso do Kageyama para o corte de olhos fechados do Hinata era imparável e assustador. Uma verdadeira aberração na quadra!",
+                    "imageUrl": "https://exemplo.com/ataque_rapido_monstro.jpg",
+                    "imageDescription": "Imagem de Hinata atacando enquanto Kageyama faz o levantamento, no ataque rápido monstro."
+                },
+                {
+                    "text": "Combinação Karasuno",
+                    "isCorrect": false,
+                    "explanation": "É uma combinação do Karasuno, a mais icônica! Mas o nome oficial (ou não oficial, mas muito usado) reflete o quão bizarro e eficaz era no início."
+                }
+            ]
+        },
+        {
+            "question": "Qual membro do Karasuno é conhecido por seus saques viagem poderosos?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Tanaka Ryunosuke",
+                    "isCorrect": false,
+                    "explanation": "O Tanaka é puro poder e espírito, mas o saque dele não é o saque viagem. Ele é mais do ataque puro e da torcida barulhenta!"
+                },
+                {
+                    "text": "Sawamura Daichi",
+                    "isCorrect": false,
+                    "explanation": "O Daichi é a base sólida do time, ótimo na recepção e defesa. O saque dele é consistente, mas não do tipo 'viagem' e super potente."
+                },
+                {
+                    "text": "Asahi Azumane",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Asahi, o Ás do Karasuno! Ele domina o saque viagem (spike serve) e, quando acerta, é uma bomba difícil de receber. Demorou pra ele recuperar a confiança nesse saque!",
+                    "imageUrl": "https://exemplo.com/asahi_saque.jpg",
+                    "imageDescription": "Imagem de Asahi realizando seu saque viagem."
+                },
+                {
+                    "text": "Kageyama Tobio",
+                    "isCorrect": false,
+                    "explanation": "Kageyama tem um saque em suspensão poderoso, sim, mas o 'saque viagem' é a marca registrada de outro jogador do Karasuno, o nosso Ás!"
+                }
+            ]
+        },
+        {
+            "question": "Qual é o apelido do meio de rede Tetsuro Kuroo do Nekoma?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Gato Líder",
+                    "isCorrect": false,
+                    "explanation": "Líder ele é, o capitão do Nekoma! Mas o apelido dele se refere mais à sua... 'cara' e ao fato dele ser um gato (Nekoma = gato)."
+                },
+                {
+                    "text": "Comandante Estratégico",
+                    "isCorrect": false,
+                    "explanation": "Estratégico ele é, especialmente com os bloqueios 'read block'! Mas o apelido é mais sobre a aparência e o tema animal."
+                },
+                {
+                    "text": "Coringa",
+                    "isCorrect": false,
+                    "explanation": "Coringa não, ele é bem sério (às vezes!), mas adora provocar. O apelido dele tem a ver com a expressão facial."
+                },
+                {
+                    "text": "Gato Zangado (ou Gato Trapaceiro)",
+                    "isCorrect": true,
+                    "explanation": "Haha! Sim, 'Gato Zangado' (寝癖頭 - Nekoma-gashira, literalmente 'cabeça com cabelo bagunçado/de quem dormiu', mas frequentemente traduzido como Gato Trapaceiro ou Gato Zangado pelo visual do cabelo!). O Kuroo é o capitão estratégico e sarcástico do Nekoma, com aquele cabelo que parece que ele acabou de acordar!",
+                    "imageUrl": "https://exemplo.com/kuroo_cabelo.jpg",
+                    "imageDescription": "Imagem do Kuroo destacando seu cabelo espetado."
+                }
+            ]
+        },
+        {
+            "question": "Qual jogador do Aoba Johsai é conhecido como 'O Grande Rei'?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Hajime Iwaizumi",
+                    "isCorrect": false,
+                    "explanation": "Iwa-chan é o Ás e a base moral do Seijoh, mas o 'Grande Rei' é o levantador egocêntrico que joga ao lado dele. Ele é o parceiro perfeito do 'Rei da Quadra'."
+                },
+                {
+                    "text": "Tooru Oikawa",
+                    "isCorrect": true,
+                    "explanation": "Mandou bem! Oikawa Tooru é 'O Grande Rei' (大王様 - Dai Ousama)! O levantador estrela do Seijoh, rival do Kageyama, conhecido por seus saques poderosos, sets precisos e... personalidade irritante e carismática. Ele sabe que é bom!",
+                    "imageUrl": "https://exemplo.com/oikawa_saque.jpg",
+                    "imageDescription": "Imagem de Oikawa realizando seu saque poderoso."
+                },
+                {
+                    "text": "Issei Matsukawa",
+                    "isCorrect": false,
+                    "explanation": "Matsukawa é um bloqueador forte do Seijoh, parte do 'Muro' deles. Mas o 'Grande Rei' é o levantador e capitão!"
+                },
+                {
+                    "text": "Takahiro Hanamaki",
+                    "isCorrect": false,
+                    "explanation": "Hanamaki também é parte do ataque do Seijoh, um jogador sólido. Mas o 'Grande Rei' é aquele que comanda o ritmo do time, o levantador!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do 'craque' do Shiratorizawa Academy, conhecido por seu poder e ataque de canhotinho?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Satori Tendo",
+                    "isCorrect": false,
+                    "explanation": "O Tendo é o 'Guess Monster', um bloqueador genial que 'lê' os atacantes! Mas o 'craque' que você procura é o Ás canhotinho, a parede ofensiva do Shiratorizawa."
+                },
+                {
+                    "text": "Wakatoshi Ushijima",
+                    "isCorrect": true,
+                    "explanation": "É ele mesmo! Ushijima Wakatoshi, o Ás esquerdo (canhoto) do Shiratorizawa e um dos 3 melhores Ases do Japão! Seu poder e técnica são insanos, e derrotá-lo é o grande objetivo do Karasuno em Miyagi. 'Esquerdo domina o mundo!'",
+                    "imageUrl": "https://exemplo.com/ushijima_ataque.jpg",
+                    "imageDescription": "Imagem de Ushijima realizando um ataque poderoso com a mão esquerda."
+                },
+                {
+                    "text": "Eita Semi",
+                    "isCorrect": false,
+                    "explanation": "Semi é o levantador que estava no banco do Shiratorizawa. O 'craque' é o Ás que ele serve, o cara que pontua loucamente!"
+                },
+                {
+                    "text": "Tsutomu Goshiki",
+                    "isCorrect": false,
+                    "explanation": "Goshiki é o futuro Ás do Shiratorizawa, ambicioso e talentoso. Mas o Ás *atual*, o 'craque' que enfrentou o Karasuno, é outro cara canhoto e assustador!"
+                }
+            ]
+        },
+        {
+            "question": "Qual a função do 'Libero' em uma partida de vôlei?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Fazer levantamentos precisos",
+                    "isCorrect": false,
+                    "explanation": "Levantadores fazem isso! Líberos são focados na defesa. Eles não podem levantar (a não ser sob certas condições muito específicas) e não podem atacar ou bloquear!"
+                },
+                {
+                    "text": "Fazer bloqueios poderosos",
+                    "isCorrect": false,
+                    "explanation": "De jeito nenhum! Líberos são pequenos e ágeis, focados em receber e defender. Eles não podem nem tentar bloquear!"
+                },
+                {
+                    "text": "Focar na defesa e recepção, não pode atacar ou bloquear",
+                    "isCorrect": true,
+                    "explanation": "Exato! O líbero é o especialista em defesa (recepção de saque e defesa de ataque). Eles usam uma camisa diferente, não podem sacar, bloquear ou atacar na frente da linha de 3 metros. Eles são os guardiões da quadra de trás, como nosso Nishinoya!",
+                    "imageUrl": "https://exemplo.com/libero_defesa.jpg",
+                    "imageDescription": "Imagem de um jogador (líbero) realizando uma defesa no chão."
+                },
+                {
+                    "text": "Ser o principal atacante do time",
+                    "isCorrect": false,
+                    "explanation": "Essa é a função do 'Ás'! O líbero é o especialista em *impedir* que o ataque do outro time funcione, focando na defesa."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do meio de rede do Nekoma conhecido por sua capacidade de 'leitura' e passes precisos?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Tetsuro Kuroo",
+                    "isCorrect": false,
+                    "explanation": "O Kuroo é o capitão e um meio de rede, mas ele é mais conhecido pelo 'read block' e pela provocação. O 'cérebro' por trás dos passes do Nekoma é outro, o levantador que usa o cabelo de pudim!"
+                },
+                {
+                    "text": "Kenma Kozume",
+                    "isCorrect": true,
+                    "explanation": "Kenma! O 'cérebro' do Nekoma, com cara de quem tá sempre jogando videogame! Ele é o levantador que lê o jogo, a quadra e até os jogadores adversários, ajustando os passes para os atacantes. Essencial para a 'conexão' do Nekoma!",
+                    "imageUrl": "https://exemplo.com/kenma_pensando.jpg",
+                    "imageDescription": "Imagem de Kenma com uma expressão pensativa ou concentrada."
+                },
+                {
+                    "text": "Lev Haiba",
+                    "isCorrect": false,
+                    "explanation": "Lev é o gigante russo-japonês, um atacante em crescimento do Nekoma! Ele tem potencial, mas o levantador que 'lê' o jogo é o baixinho gamer."
+                },
+                {
+                    "text": "Taketora Yamamoto",
+                    "isCorrect": false,
+                    "explanation": "Yamamoto é o Ás do Nekoma, puro espírito e rivalidade com o Tanaka! O 'cérebro' estratégico que decide as jogadas é o levantador."
+                }
+            ]
+        },
+        {
+            "question": "O que é um 'Open Spike' (Ataque Aberto) no vôlei, como o que o Asahi costuma fazer?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Um ataque super rápido, antes do bloqueio se formar",
+                    "isCorrect": false,
+                    "explanation": "Isso é mais parecido com o ataque rápido do Hinata! O ataque aberto é o oposto, um ataque mais 'lento' e dependente de força."
+                },
+                {
+                    "text": "Um ataque feito com a palma da mão aberta",
+                    "isCorrect": false,
+                    "explanation": "Ataques são geralmente feitos com a mão aberta e firme, mas 'aberto' aqui se refere a outra coisa, ao tempo do passe."
+                },
+                {
+                    "text": "Um ataque alto, onde a bola é levantada mais alta para o atacante usar toda a sua força",
+                    "isCorrect": true,
+                    "explanation": "Isso! É quando o levantador manda a bola bem alta para o atacante (geralmente o Ás) ter tempo de correr, saltar e usar toda a força para bater na bola, mesmo contra um bloqueio formado. É o tipo de ataque que o Asahi domina!",
+                    "imageUrl": "https://exemplo.com/asahi_ataque_aberto.jpg",
+                    "imageDescription": "Imagem de Asahi saltando alto para um ataque poderoso contra um bloqueio."
+                },
+                {
+                    "text": "Um ataque feito da linha de trás, sem pular",
+                    "isCorrect": false,
+                    "explanation": "Ataques da linha de trás são ataques de fundo, e mesmo eles são geralmente feitos com salto. O ataque aberto é sobre a altura do passe e o poder do atacante na rede."
+                }
+            ]
+        },
+        {
+            "question": "Qual a principal característica da personalidade de Kiyoko Shimizu, a gerente do Karasuno?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Barulhenta e extrovertida",
+                    "isCorrect": false,
+                    "explanation": "Essa é mais a Yachi no começo, ou o Tanaka e o Nishinoya! A Kiyoko é mais reservada, mas tem uma presença forte."
+                },
+                {
+                    "text": "Tímida e insegura",
+                    "isCorrect": false,
+                    "explanation": "Ela pode parecer quieta, mas insegura? De jeito nenhum! A Kiyoko é super confiante e focada no trabalho dela como gerente."
+                },
+                {
+                    "text": "Calma, focada e secretamente muito forte/assustadora",
+                    "isCorrect": true,
+                    "explanation": "Perfeito! A Kiyoko é a calma no meio do furacão do Karasuno. Focada no trabalho de gerente, fala pouco, mas quando fala... ou age... todos obedecem (especialmente Tanaka e Nishinoya!). Ela tem uma aura de 'não mexa comigo' que é hilária!",
+                    "imageUrl": "https://exemplo.com/kiyoko_seria.jpg",
+                    "imageDescription": "Imagem de Kiyoko com uma expressão séria e focada."
+                },
+                {
+                    "text": "Preocupada e chorona",
+                    "isCorrect": false,
+                    "explanation": "Definitivamente não é a Kiyoko! Preocupada talvez (pelo time), mas chorona? Ela é a rocha da equipe (junto com o Daichi)!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o principal medo de Asahi Azumane, o Ás do Karasuno?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Altura",
+                    "isCorrect": false,
+                    "explanation": "Ele é alto! Medo de altura não faria sentido. O medo dele é mais... interno, relacionado ao vôlei."
+                },
+                {
+                    "text": "Bloqueios triplos",
+                    "isCorrect": false,
+                    "explanation": "Bloqueios o frustram, sim, especialmente os do Date Tech, mas o medo dele é mais profundo, ligado à responsabilidade de ser o Ás."
+                },
+                {
+                    "text": "Falhar como Ás e não conseguir pontuar para o time",
+                    "isCorrect": true,
+                    "explanation": "Precisamente! O Asahi tem pavor de ser bloqueado ou não conseguir fazer a bola cair, sentindo que falhou com a equipe. Esse medo o fez até desistir de jogar por um tempo. Ele pode parecer um viking, mas por dentro é um gatinho assustado!",
+                    "imageUrl": "https://exemplo.com/asahi_preocupado.jpg",
+                    "imageDescription": "Imagem de Asahi com uma expressão apreensiva ou preocupada."
+                },
+                {
+                    "text": "O técnico Ukai bravo",
+                    "isCorrect": false,
+                    "explanation": "O técnico Ukai é intenso, mas o medo do Asahi é mais sobre a pressão de ser o Ás e as expectativas."
+                }
+            ]
+        },
+        {
+            "question": "Quem é o 'Guess Monster' do Shiratorizawa, conhecido por prever os ataques adversários?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Wakatoshi Ushijima",
+                    "isCorrect": false,
+                    "explanation": "Ushijima é o atacante poderoso, não o bloqueador que adivinha os ataques. Ele é a força bruta, não a mente que 'lê' o jogo assim."
+                },
+                {
+                    "text": "Satori Tendo",
+                    "isCorrect": true,
+                    "explanation": "É ele! Tendo Satori, o 'Guess Monster' (ゲス・モンスター)! Ele tem um estilo único de bloqueio onde ele 'lê' ou 'adivinha' para onde a bola vai e salta com tudo. Sua personalidade excêntrica e falante combina perfeitamente com esse apelido maluco!",
+                    "imageUrl": "https://exemplo.com/tendo_guess_monster.jpg",
+                    "imageDescription": "Imagem de Tendo com uma expressão animada ou 'malvada' durante um bloqueio."
+                },
+                {
+                    "text": "Tsutomu Goshiki",
+                    "isCorrect": false,
+                    "explanation": "Goshiki é um atacante promissor. O 'Guess Monster' é o meio de rede alto e excêntrico que faz bloqueios espetaculares!"
+                },
+                {
+                    "text": "Hayato Yamagata",
+                    "isCorrect": false,
+                    "explanation": "Yamagata é o líbero do Shiratorizawa, ótimo na defesa. O 'Guess Monster' é um bloqueador com uma leitura de jogo única."
+                }
+            ]
+        },
+        {
+            "question": "Quem é o capitão do time de vôlei masculino do Nekoma High?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Kenma Kozume",
+                    "isCorrect": false,
+                    "explanation": "Kenma é o levantador e 'cérebro' do time, mas ele não é o capitão. Ele deixa a parte de 'liderar' e 'falar' para outro cara com um cabelo estranho."
+                },
+                {
+                    "text": "Tetsuro Kuroo",
+                    "isCorrect": true,
+                    "explanation": "Ele mesmo! Kuroo Tetsuro, o capitão com cabelo de galo (ou gato zangado!) e mestre em provocar o Tsukishima. Ele é a espinha dorsal e a voz de comando do Nekoma!",
+                    "imageUrl": "https://exemplo.com/kuroo_capitao.jpg",
+                    "imageDescription": "Imagem do Kuroo usando a braçadeira de capitão ou liderando o time."
+                },
+                {
+                    "text": "Lev Haiba",
+                    "isCorrect": false,
+                    "explanation": "Lev é o novato gigante e atacante. Ele tem potencial para ser o Ás, mas a liderança fica com o meio de rede."
+                },
+                {
+                    "text": "Taketora Yamamoto",
+                    "isCorrect": false,
+                    "explanation": "Yamamoto é o Ás e puro espírito de luta, rival do Tanaka. Ele tem cara de líder, mas a braçadeira de capitão é do Kuroo."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do treinador do Karasuno High, que costumava ser um jogador no passado?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Ukai Ikkei (Ukai Sr.)",
+                    "isCorrect": false,
+                    "explanation": "Ukai Ikkei é o lendário ex-treinador (e avô do Keishin!) que começou a rivalidade com o Nekoma. O técnico *atual*, que também jogou, é outro!"
+                },
+                {
+                    "text": "Takeda Ittetsu (Sensei Takeda)",
+                    "isCorrect": false,
+                    "explanation": "O Sensei Takeda é o professor e conselheiro do clube, que faz todo o trabalho administrativo e motivacional. Mas o treinador técnico, que manja de vôlei e jogou, é o Ukai mais jovem!"
+                },
+                {
+                    "text": "Ukai Keishin",
+                    "isCorrect": true,
+                    "explanation": "Exato! Ukai Keishin! O neto do lendário técnico, ex-levantador e agora treinador do Karasuno. Ele largou o trabalho na loja para treinar os corvos e levá-los de volta ao topo!",
+                    "imageUrl": "https://exemplo.com/ukai_keishin_treinando.jpg",
+                    "imageDescription": "Imagem de Ukai Keishin treinando os jogadores do Karasuno."
+                },
+                {
+                    "text": "Washijo Tanji (Treinador do Shiratorizawa)",
+                    "isCorrect": false,
+                    "explanation": "Esse é o temido treinador do Shiratorizawa, focado em força bruta. O treinador do Karasuno é outro, com um estilo mais... 'adaptável'!"
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "question": "Qual a especialidade de Tadashi Yamaguchi que ele treinou intensamente para dominar?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Ataque Rápido Monstro (versão dele)",
+                    "isCorrect": false,
+                    "explanation": "O Ataque Rápido é coisa do Hinata e Kageyama! Yamaguchi focou em algo que ele pudesse fazer sozinho para entrar no jogo... e assustar os adversários desde o início!"
+                },
+                {
+                    "text": "Bloqueio em Leitura (Read Block)",
+                    "isCorrect": false,
+                    "explanation": "Bloqueio é mais a praia do Tsukishima e dos caras do Date Tech! A especialidade do Yamaguchi envolve mandar a bola para o outro lado da quadra de um jeito bem específico."
+                },
+                {
+                    "text": "Saque Flutuante com Salto (Jump Float Serve)",
+                    "isCorrect": true,
+                    "explanation": "Isso mesmo! O Saque Flutuante com Salto (ジャンプフローターサーブ)! Depois de falhar, Yamaguchi treinou incansavelmente, pedindo ajuda ao Shimada Mart, para dominar essa arma imprevisível e se tornar um 'Pinpoint Server'. Ele pode mudar o rumo de um set com ele!",
+                    "imageUrl": "https://exemplo.com/yamaguchi_saque.jpg",
+                    "imageDescription": "Imagem de Yamaguchi realizando seu saque flutuante com salto."
+                },
+                {
+                    "text": "Recepção Defensiva",
+                    "isCorrect": false,
+                    "explanation": "Recepção e defesa são essenciais, mas não são a especialidade que o Yamaguchi desenvolveu para se tornar um substituto valioso. Ele entra para... sacar!"
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "question": "Qual dos 'reis' da quadra é conhecido como 'O Grande Rei'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Kageyama Tobio",
+                    "isCorrect": false,
+                    "explanation": "O Kageyama é o 'Rei da Quadra', sim, mas o 'Grande Rei' é o cara que tem mais tempo de reinado e uma personalidade... maior! Pense no levantador do Seijoh."
+                },
+                {
+                    "text": "Tooru Oikawa",
+                    "isCorrect": true,
+                    "explanation": "Bingo! Oikawa Tooru! Ele se autodenomina 'O Grande Rei' (大王様 - Dai Ousama), o senpai do Kageyama que ele admira/odeia. Poderoso no saque e nos sets, e mestre em irritar os outros com seu charme e petulância. O verdadeiro monarca da quadra (na cabeça dele)!",
+                    "imageUrl": "https://exemplo.com/oikawa_grande_rei.jpg",
+                    "imageDescription": "Imagem de Oikawa com uma pose confiante ou 'real'."
+                },
+                {
+                    "text": "Wakatoshi Ushijima",
+                    "isCorrect": false,
+                    "explanation": "Ushijima é o 'craque' do Shiratorizawa, um dos melhores do Japão! Ele é uma 'parede ofensiva', mas o título de 'Grande Rei' pertence a um certo levantador com uma legião de fãs."
+                },
+                {
+                    "text": "Kenma Kozume",
+                    "isCorrect": false,
+                    "explanation": "Kenma é o 'cérebro' do Nekoma, silencioso e estratégico. Definitivamente não é um 'rei' barulhento! O 'Grande Rei' adora ser o centro das atenções."
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "question": "Qual time é conhecido como 'Os Gatos' na rivalidade histórica com o Karasuno ('Os Corvos')?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Aoba Johsai (Seijoh)",
+                    "isCorrect": false,
+                    "explanation": "Seijoh é do Oikawa, um grande rival, mas o mascote deles não é um gato. Eles são mais focados em 'unidade'."
+                },
+                {
+                    "text": "Date Tech",
+                    "isCorrect": false,
+                    "explanation": "Date Tech é o 'Muro de Ferro', conhecido pelo bloqueio. O mascote deles não é um gato!"
+                },
+                {
+                    "text": "Nekoma High",
+                    "isCorrect": true,
+                    "explanation": "Miaaau! Acertou! Nekoma (音駒) literalmente tem o kanji de 'gato' (猫) no nome! Eles são 'Os Gatos' na lendária 'Batalha na Lixeira' contra os 'Corvos' do Karasuno. Kuroo, Kenma, Lev... puro instinto felino em quadra!",
+                    "imageUrl": "https://exemplo.com/nekoma_gatos.jpg",
+                    "imageDescription": "Logo ou imagem do time do Nekoma, remetendo a gatos."
+                },
+                {
+                    "text": "Fukurodani Academy",
+                    "isCorrect": false,
+                    "explanation": "Fukurodani é o time do Bokuto e Akaashi, conhecido por ser um dos top 5 de Tóquio. O mascote deles é uma coruja! Os gatos são de outro time de Tóquio."
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "question": "Qual jogador do Karasuno tem o famoso grito de 'Rolling Thunder!' durante suas recepções?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Shoyo Hinata",
+                    "isCorrect": false,
+                    "explanation": "Hinata grita 'WOOSH!' ou 'Plaaay!' quando pula, mas 'Rolling Thunder!' é a marca registrada de um defensor espetacular, o nosso líbero!"
+                },
+                {
+                    "text": "Yu Nishinoya",
+                    "isCorrect": true,
+                    "explanation": "Yeahhh! É o Nishinoya! O 'Guardião do Karasuno'! 'Rolling Thunder!' (ローリングサンダー!) é o nome que ele deu para sua técnica de recepção/defesa, mesmo que seja basicamente ele caindo e rolando. O importante é a atitude (e o grito!)!",
+                    "imageUrl": "https://exemplo.com/nishinoya_rolling_thunder_gritando.jpg",
+                    "imageDescription": "Imagem de Nishinoya realizando ou gritando 'Rolling Thunder!'."
+                },
+                {
+                    "text": "Daichi Sawamura",
+                    "isCorrect": false,
+                    "explanation": "O Daichi é a base sólida da defesa, calmo e confiável. Ele não tem um grito de técnica especial, é mais 'recebido!' ou 'minha!'."
+                },
+                {
+                    "text": "Ryunosuke Tanaka",
+                    "isCorrect": false,
+                    "explanation": "Tanaka grita muito, mas geralmente é 'OOOOOSSS!' ou provocações! 'Rolling Thunder!' é do baixinho barulhento da defesa."
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "question": "Quem é o estrategista e 'cérebro' silencioso do time do Nekoma?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Tetsuro Kuroo",
+                    "isCorrect": false,
+                    "explanation": "Kuroo é o capitão e estratégico no bloqueio, mas o 'cérebro' que lê o jogo e decide as jogadas no *levantamento* é outro cara, aquele com cara de quem preferia estar jogando videogame!"
+                },
+                {
+                    "text": "Kenma Kozume",
+                    "isCorrect": true,
+                    "explanation": "Exato! Kenma Kozume! O levantador que parece desinteressado, mas que observa e analisa tudo em quadra como se fosse um jogo de estratégia. Ele não tem a energia do Hinata, mas a inteligência dele é o que conecta todo o Nekoma!",
+                    "imageUrl": "https://exemplo.com/kenma_analisando.jpg",
+                    "imageDescription": "Imagem de Kenma com uma expressão analítica ou focada."
+                },
+                {
+                    "text": "Morisuke Yaku",
+                    "isCorrect": false,
+                    "explanation": "Yaku é o líbero incrível do Nekoma, o 'Guardião'. Ele cuida da defesa, mas o 'cérebro' por trás do ataque é o levantador."
+                },
+                {
+                    "text": "Shohei Fukunaga",
+                    "isCorrect": false,
+                    "explanation": "Fukunaga é o ponta silencioso e com cara de peixe. Ele tem seus momentos, mas a estratégia do time é comandada pelo levantador Kenma."
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "question": "Qual a característica notável do saque de Tooru Oikawa?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Saque em Suspensão Preciso",
+                    "isCorrect": false,
+                    "explanation": "O saque dele é em suspensão, sim, e preciso, mas a característica mais *famosa* e assustadora é outra... a 'viagem'!"
+                },
+                {
+                    "text": "Saque Flutuante",
+                    "isCorrect": false,
+                    "explanation": "Saque flutuante é mais a praia do Yamaguchi! O Oikawa tem um saque poderoso que não 'flutua', ele vai reto e rápido como um tiro!"
+                },
+                {
+                    "text": "Saque Viagem Poderoso (Jump Serve)",
+                    "isCorrect": true,
+                    "explanation": "Boooom! Acertou! O Saque Viagem com Salto (ジャンプサーブ - Jumpu Saabu)! O Oikawa é um mestre nisso, conseguindo colocar uma força e precisão incríveis no saque, mirando em pontos fracos ou diretamente no líbero para dificultar a recepção. É uma das armas mais temidas dele!",
+                    "imageUrl": "https://exemplo.com/oikawa_saque_poderoso.jpg",
+                    "imageDescription": "Imagem de Oikawa realizando seu saque viagem com potência."
+                },
+                {
+                    "text": "Saque por Baixo Surpresa",
+                    "isCorrect": false,
+                    "explanation": "Saque por baixo é coisa de iniciante (tipo o Hinata no começo!). O Oikawa, 'O Grande Rei', só usa saques que intimidam desde o primeiro toque na bola!"
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "question": "Quem é o 'Ás' do time de vôlei masculino do Karasuno?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Shoyo Hinata",
+                    "isCorrect": false,
+                    "explanation": "O Hinata sonha em ser o Ás, o 'Pequeno Gigante'! Mas no início da série, o Ás oficial e mais experiente do Karasuno é outro cara, com um visual... mais adulto?"
+                },
+                {
+                    "text": "Ryunosuke Tanaka",
+                    "isCorrect": false,
+                    "explanation": "Tanaka é um ponta super importante, com ataques poderosos e espírito de luta! Mas o título de Ás principal (pelo menos no início) pertence a um colega mais velho, que voltou ao time."
+                },
+                {
+                    "text": "Asahi Azumane",
+                    "isCorrect": true,
+                    "explanation": "Sim! Asahi Azumane! O Ás do Karasuno! Depois de um tempo fora, ele volta para ser a força de ataque principal do time. Ele tem a pressão de carregar o ataque, o que o deixou abalado no passado, mas ele é essencial!",
+                    "imageUrl": "https://exemplo.com/asahi_as.jpg",
+                    "imageDescription": "Imagem de Asahi em pose de ataque poderoso."
+                },
+                {
+                    "text": "Daichi Sawamura",
+                    "isCorrect": false,
+                    "explanation": "Daichi é o capitão, a base e a defesa do time. Ele é um jogador versátil, mas não o Ás, o cara que foca em 'atacar e pontuar'!"
+                }
+            ]
+        },
+        {
+            "id": 28,
+            "question": "Qual jogador do Nekoma tem ascendência russa e japonesa e está aprendendo vôlei, sonhando em ser o Ás?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Tetsuro Kuroo",
+                    "isCorrect": false,
+                    "explanation": "Kuroo é o capitão 'gato zangado', 100% japonês (pelo que sabemos!). O novato com ascendência estrangeira é outro, bem mais alto e barulhento!"
+                },
+                {
+                    "text": "Kenma Kozume",
+                    "isCorrect": false,
+                    "explanation": "Kenma é japonês, o cérebro gamer do time. O gigante novato com sangue russo-japonês é o alvo dos levantamentos dele (ou deveria ser!)."
+                },
+                {
+                    "text": "Lev Haiba",
+                    "isCorrect": true,
+                    "explanation": "Hai, Haiba Lev (灰羽 リエーフ)! O meio de rede alto, atlético, mas ainda novato do Nekoma, com mãe russa e pai japonês. Ele é meio 'gato bobo', mas tem um potencial GIGANTE (literalmente!) para ser o futuro Ás. Ele e Hinata são rivais na busca pelo título de Ás!",
+                    "imageUrl": "https://exemplo.com/lev_haiba_salto.jpg",
+                    "imageDescription": "Imagem de Lev Haiba pulando para um ataque ou bloqueio."
+                },
+                {
+                    "text": "Taketora Yamamoto",
+                    "isCorrect": false,
+                    "explanation": "Yamamoto é o Ás atual do Nekoma, puro espírito de tigre! O novato de ascendência russa é o Lev Haiba, que quer roubar o posto dele!"
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "question": "O que significa 'MSBY' no time em que Hinata joga no arco pós-timeskip?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Miya, Shoyo, Bokuto, Yamagata",
+                    "isCorrect": false,
+                    "explanation": "Perto! Tem Miya, Shoyo e Bokuto, mas o Yamagata não está nesse time profissional. Tem outro 'Y' e um 'M' diferente!"
+                },
+                {
+                    "text": "Musubi Black Jackals",
+                    "isCorrect": true,
+                    "explanation": "Boa! MSBY Black Jackals! É o nome do time profissional (V.League Division 1) para o qual Hinata vai após o timeskip, jogando ao lado de feras como Bokuto (Fukurodani), Miya Atsumu (Inarizaki) e Sakusa Kiyoomi (Itachiyama). É onde o pequeno corvo vira um Chacal Preto e 'Voa' ainda mais alto!",
+                    "imageUrl": "https://exemplo.com/msby_black_jackals_logo.jpg",
+                    "imageDescription": "Logo do time MSBY Black Jackals."
+                },
+                {
+                    "text": "Miyagi Strong Boys' Volleyball",
+                    "isCorrect": false,
+                    "explanation": "Esse nome soa legal, mas não é o nome do time profissional. O time é de outra região e o nome vem de... jogadores!"
+                },
+                {
+                    "text": "Master Serves By You",
+                    "isCorrect": false,
+                    "explanation": "Nome criativo, mas não! MSBY é uma sigla formada pelas iniciais dos nomes de alguns jogadores (ou tem a ver com o patrocinador, dependendo da interpretação, mas a versão mais comum é baseada nos jogadores)."
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "question": "Qual a principal frustração de Tobio Kageyama em relação ao Hinata no início?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "A altura dele",
+                    "isCorrect": false,
+                    "explanation": "A altura do Hinata surpreende o Kageyama, mas a frustração principal não é essa. Ele consegue lidar com a altura, o problema é a... falta de habilidade *básica*."
+                },
+                {
+                    "text": "A falta de habilidade técnica básica (recepção, etc.)",
+                    "isCorrect": true,
+                    "explanation": "Isso irritava o 'Rei' Kageyama até a alma no início! Hinata tinha salto e velocidade incríveis, mas não conseguia receber uma bola ou sequer fazer um saque decente. Kageyama ficava frustrado por ter que compensar tanto a falta de fundamentos do Hinata. 'Você só tem salto e velocidade!' ele gritava. Haha!",
+                    "imageUrl": "https://exemplo.com/kageyama_frustrado_hinata.jpg",
+                    "imageDescription": "Imagem de Kageyama com uma expressão de raiva ou frustração olhando para Hinata."
+                },
+                {
+                    "text": "O barulho que ele faz",
+                    "isCorrect": false,
+                    "explanation": "Hinata é barulhento, sim, mas Kageyama lida com isso (ou tenta!). A maior frustração era técnica, não sonora."
+                },
+                {
+                    "text": "A energia excessiva dele",
+                    "isCorrect": false,
+                    "explanation": "A energia do Hinata é cansativa, mas o Kageyama até se beneficia dela em quadra. O que realmente o tirava do sério era a... 'incompetência' básica."
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "question": "Qual escola é lar do 'Ace' Bokuto Kotaro e do levantador Akaashi Keiji?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Nekoma High",
+                    "isCorrect": false,
+                    "explanation": "Nekoma é dos Gatos, Kuroo e Kenma! Bokuto e Akaashi são de outro time forte de Tóquio, com outro mascote (que faz 'uhu!')."
+                },
+                {
+                    "text": "Itachiyama Institute",
+                    "isCorrect": false,
+                    "explanation": "Itachiyama é o time do Sakusa, outro dos top 3 Ases! Bokuto e Akaashi são de um rival direto de Tóquio, que participa dos campos de treino com Karasuno e Nekoma."
+                },
+                {
+                    "text": "Fukurodani Academy",
+                    "isCorrect": true,
+                    "explanation": "Uhu! Acertou! Fukurodani Academy (梟谷)! O time da Coruja! É onde joga o 'Bokuto san' (um dos 5 melhores Ases do Japão, apesar dos seus 'modos emo') e seu dedicado levantador Akaashi, que tenta manter o Bokuto nos eixos. Um duo icônico!",
+                    "imageUrl": "https://exemplo.com/bokuto_akaashi.jpg",
+                    "imageDescription": "Imagem de Bokuto e Akaashi interagindo ou jogando juntos."
+                },
+                {
+                    "text": "Shiratorizawa Academy",
+                    "isCorrect": false,
+                    "explanation": "Shiratorizawa é do Ushijima em Miyagi. Bokuto e Akaashi jogam em Tóquio e são de um time diferente, com um mascote que faz 'uhu!'."
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "question": "O que é um 'Broad Attack' (Ataque Amplo), como o que o Hinata aprende a usar?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Um ataque feito com muita força",
+                    "isCorrect": false,
+                    "explanation": "Muita força é bom, mas o 'Broad Attack' se refere à *distância* e *velocidade* do atacante na rede. Não é só força."
+                },
+                {
+                    "text": "Um ataque onde o atacante corre em paralelo à rede antes de pular, vindo de longe",
+                    "isCorrect": true,
+                    "explanation": "Exatamente! O 'Broad Attack' (ブロード攻撃 - Buroodo Kougeki)! O atacante (como o Hinata!) corre pela rede e ataca em alta velocidade de uma posição mais afastada, enganando o bloqueio. É uma evolução do ataque rápido, onde a velocidade horizontal do Hinata é super bem usada!",
+                    "imageUrl": "https://exemplo.com/hinata_broad_attack.jpg",
+                    "imageDescription": "Imagem de Hinata correndo em paralelo à rede antes de pular para o broad attack."
+                },
+                {
+                    "text": "Um ataque rápido com os olhos fechados",
+                    "isCorrect": false,
+                    "explanation": "Isso é o 'Ataque Rápido Monstro' original! O 'Broad Attack' é uma técnica diferente, focada na corrida lateral."
+                },
+                {
+                    "text": "Um ataque feito pela linha de trás",
+                    "isCorrect": false,
+                    "explanation": "Ataque de fundo é feito de trás da linha de 3 metros. O 'Broad Attack' é feito na rede, mas o atacante vem correndo de lado, de longe."
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "question": "Qual a relação entre Keishin Ukai (o técnico) e Ikkei Ukai (o ex-técnico lendário)?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Irmãos",
+                    "isCorrect": false,
+                    "explanation": "Não! A diferença de idade é grande demais para serem irmãos. Eles são da mesma família, mas de gerações diferentes."
+                },
+                {
+                    "text": "Pai e Filho",
+                    "isCorrect": false,
+                    "explanation": "Quase! Mas não. Um é o avô do outro! Pense em quem seria mais velho para ser o lendário ex-técnico."
+                },
+                {
+                    "text": "Neto e Avô",
+                    "isCorrect": true,
+                    "explanation": "Isso! Ukai Keishin é o neto de Ukai Ikkei! O lendário técnico que começou a rivalidade com o Nekoma é o avô do nosso técnico fumante e ex-jogador de vôlei. O legado da família Ukai continua no Karasuno!",
+                    "imageUrl": "https://exemplo.com/ukai_sr_jr.jpg",
+                    "imageDescription": "Imagem de Ukai Keishin e Ukai Ikkei juntos ou separadamente, representando a relação."
+                },
+                {
+                    "text": "Primos",
+                    "isCorrect": false,
+                    "explanation": "Primos? Não, a ligação é mais direta, na linha de sucessão familiar (e de técnicos do Karasuno!)."
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "question": "Qual jogador do Aoba Johsai (Seijoh) é conhecido por ser o Ás e a 'rocha' do time, contrastando com a personalidade do Oikawa?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Tooru Oikawa",
+                    "isCorrect": false,
+                    "explanation": "Oikawa é 'O Grande Rei', o levantador talentoso e irritante! Ele não é o Ás, e a personalidade dele é tudo menos 'rocha calma'! Ele é a tempestade no copo d'água!"
+                },
+                {
+                    "text": "Hajime Iwaizumi",
+                    "isCorrect": true,
+                    "explanation": "É ele! Iwaizumi Hajime (岩泉 一)! O Ás e vice-capitão do Seijoh. Ele é o amigo de infância e a 'rocha' que mantém o Oikawa nos eixos com seus 'Iwa-chans' e socos (de carinho, claro!). Ele é a força e a moral do time!",
+                    "imageUrl": "https://exemplo.com/iwaizumi_as.jpg",
+                    "imageDescription": "Imagem de Iwaizumi realizando um ataque ou repreendendo Oikawa."
+                },
+                {
+                    "text": "Issei Matsukawa",
+                    "isCorrect": false,
+                    "explanation": "Matsukawa é um bloqueador do Seijoh, parte do seu muro. A 'rocha' e Ás do time é outro, o parceiro inseparável do Oikawa."
+                },
+                {
+                    "text": "Takahiro Hanamaki",
+                    "isCorrect": false,
+                    "explanation": "Hanamaki é outro atacante do Seijoh. O Ás e a 'rocha' que equilibra a equipe é o Iwaizumi!"
+                }
+            ]
+        },
+        {
+            "id": 35,
+            "question": "O que Kageyama Tobio costuma gritar para o Hinata quando quer que ele pule para o Ataque Rápido Monstro?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Pula!",
+                    "isCorrect": false,
+                    "explanation": "Ele quer que ele pule, mas o comando é mais curto e direto, um som que virou a marca registrada da dupla!"
+                },
+                {
+                    "text": "Rápido!",
+                    "isCorrect": false,
+                    "explanation": "É rápido, mas o comando não é esse. É o som que ele faz para o Hinata reagir."
+                },
+                {
+                    "text": "Voa!",
+                    "isCorrect": false,
+                    "explanation": "Voar é o lema do time! O som que o Kageyama faz é um grunhido, um som de 'agora'!"
+                },
+                {
+                    "text": "WOOSH! (ou alguma variação)",
+                    "isCorrect": true,
+                    "explanation": "WOOSH! (abreviação de ボール - Bōru, bola, ou simplesmente o som do passe/salto)! Kageyama faz um som curto (às vezes traduzido como 'Hey', 'Oi', ou apenas o som do 'WOOSH!' do passe) para indicar o momento exato do levantamento, e Hinata, com os olhos fechados, salta. É a linguagem secreta e barulhenta deles!",
+                    "imageUrl": "https://exemplo.com/kageyama_hinata_woosh.jpg",
+                    "imageDescription": "Imagem de Kageyama fazendo o passe e Hinata pulando para o ataque rápido."
+                }
+            ]
+        },
+        {
+            "id": 36,
+            "question": "Qual dos membros do Karasuno é conhecido por se meter em brigas (geralmente com o Tanaka) e ter uma irmã fã do Tsukishima?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Yu Nishinoya",
+                    "isCorrect": false,
+                    "explanation": "Nishinoya e Tanaka são a dupla dinâmica da bagunça e reverência à Kiyoko, mas o cara que briga e tem uma irmã com crush no Tsukki é outro... o careca!"
+                },
+                {
+                    "text": "Ryunosuke Tanaka",
+                    "isCorrect": true,
+                    "explanation": "É ele! Tanaka Ryunosuke! O 'senpai' barulhento, fiel seguidor da Kiyoko, parceiro de confusão do Noya e... sim, tem uma irmã mais velha, Saeko Tanaka, que ama encher o saco dele e acha o Tsukishima 'cool'. Ele é a energia e a alma do Karasuno!",
+                    "imageUrl": "https://exemplo.com/tanaka_gritando.jpg",
+                    "imageDescription": "Imagem de Tanaka gritando ou em uma pose de luta/desafio."
+                },
+                {
+                    "text": "Daichi Sawamura",
+                    "isCorrect": false,
+                    "explanation": "Daichi é o capitão maduro que *separa* as brigas do Tanaka e Nishinoya! Ele não se mete nelas, ele as resolve (com punhos de ferro metafóricos!)."
+                },
+                {
+                    "text": "Chikara Ennoshita",
+                    "isCorrect": false,
+                    "explanation": "Ennoshita é o 'segundo ano' que tenta controlar o Tanaka e Nishinoya, e que tem potencial para ser o próximo capitão. Ele não tem uma irmã que apareceu tanto na história assim."
+                }
+            ]
+        },
+        {
+            "id": 37,
+            "question": "Qual time é considerado um dos Top 3 em Tóquio e tem como Ás o Sakusa Kiyoomi?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Nekoma High",
+                    "isCorrect": false,
+                    "explanation": "Nekoma é forte, um dos rivais de Tóquio, mas o Ás deles é o Yamamoto. O time do Sakusa, um dos top 3 Áses do Japão, é outro."
+                },
+                {
+                    "text": "Fukurodani Academy",
+                    "isCorrect": false,
+                    "explanation": "Fukurodani é do Bokuto e Akaashi, também um dos top 5 de Tóquio. Mas o time do Sakusa, o cara das mãos 'flexíveis' e que se preocupa com germes, é outro."
+                },
+                {
+                    "text": "Itachiyama Institute",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Itachiyama Institute (井闥山学院)! É o time do Sakusa Kiyoomi, o Ás germofóbico com pulsos super flexíveis que permite cortes incríveis. Eles são um dos Top 3 de Tóquio e um dos favoritos nacionais. Sinistro!",
+                    "imageUrl": "https://exemplo.com/sakusa_ataque.jpg",
+                    "imageDescription": "Imagem de Sakusa Kiyoomi realizando um ataque com seu pulso flexível."
+                },
+                {
+                    "text": "Inarizaki High",
+                    "isCorrect": false,
+                    "explanation": "Inarizaki é o time dos irmãos Miya, um super time de Hyogo, não de Tóquio. O time do Sakusa fica em Tóquio."
+                }
+            ]
+        },
+        {
+            "id": 38,
+            "question": "Quem é o levantador do Inarizaki High, conhecido como 'O Levantador Mais Forte do Colegial'?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Kageyama Tobio",
+                    "isCorrect": false,
+                    "explanation": "Kageyama é um gênio, o 'Rei da Quadra'! Mas o título de 'Mais Forte' na época do jogo contra o Inarizaki pertencia a um dos gêmeos desse time, conhecido por sua personalidade... forte!"
+                },
+                {
+                    "text": "Atsumu Miya",
+                    "isCorrect": true,
+                    "explanation": "É ele! Miya Atsumu (宮 侑)! O levantador arrogante, talentoso e provocador do Inarizaki, que se autodenomina 'O Levantador Mais Forte do Colegial'. Ele pode fazer qualquer atacante brilhar e adora desafiar o Kageyama. E tem um irmão gêmeo que joga com ele!",
+                    "imageUrl": "https://exemplo.com/miya_atsumu_levantamento.jpg",
+                    "imageDescription": "Imagem de Miya Atsumu fazendo um levantamento ou sacando."
+                },
+                {
+                    "text": "Osamu Miya",
+                    "isCorrect": false,
+                    "explanation": "Osamu é o irmão gêmeo do Atsumu, um atacante poderoso do Inarizaki (e competidor de quem come mais!). O levantador 'Mais Forte' é o Atsumu."
+                },
+                {
+                    "text": "Shinsuke Kita",
+                    "isCorrect": false,
+                    "explanation": "Kita é o capitão calmo e focado do Inarizaki, o que mantém o time na linha com sua 'rotina'. Ele não é o levantador 'Mais Forte', é o líder espiritual!"
+                }
+            ]
+        },
+        {
+            "id": 39,
+            "question": "Qual o nome da técnica de bloqueio que Tsukishima Kei aprimora com a ajuda de Kuroo e Bokuto?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Muro de Ferro",
+                    "isCorrect": false,
+                    "explanation": "Muro de Ferro é do Date Tech, bloqueio coordenado e pesado! Tsukishima aprende um tipo de bloqueio mais estratégico durante o acampamento."
+                },
+                {
+                    "text": "Bloqueio Rápido",
+                    "isCorrect": false,
+                    "explanation": "Bloqueio Rápido pode existir, mas a técnica que Tsukishima aprende é sobre *ler* o jogo e reagir, não só ser rápido."
+                },
+                {
+                    "text": "Bloqueio em Leitura (Read Blocking)",
+                    "isCorrect": true,
+                    "explanation": "Exato! Bloqueio em Leitura (リードブロック - Riido Burokku)! Em vez de pular com o atacante (Commit Block), Tsukishima aprende a atrasar o salto para 'ler' para onde o levantamento vai e fechar o bloqueio na hora certa. Kuroo e Bokuto foram essenciais nesse aprendizado durante o acampamento de treino em Tóquio. Finalmente, Tsukki achou algo no vôlei que o empolgou!",
+                    "imageUrl": "https://exemplo.com/tsukishima_read_block.jpg",
+                    "imageDescription": "Imagem de Tsukishima realizando um bloqueio em leitura, observando o levantador."
+                },
+                {
+                    "text": "Bloqueio Simples",
+                    "isCorrect": false,
+                    "explanation": "Bloqueio simples é o básico. Tsukishima aprende uma técnica mais avançada e inteligente para maximizar a eficácia do bloqueio dele."
+                }
+            ]
+        },
+        {
+            "id": 40,
+            "question": "Quem é o jogador do Karasuno que, inicialmente, só conseguia fazer o saque por baixo e falhava na recepção, mas melhora drasticamente?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Tsukishima Kei",
+                    "isCorrect": false,
+                    "explanation": "Tsukishima era decente nos fundamentos básicos, só não tinha paixão. O jogador que começou bem 'ruim' nessas áreas era o nosso protagonista barulhento!"
+                },
+                {
+                    "text": "Tobio Kageyama",
+                    "isCorrect": false,
+                    "explanation": "Kageyama era um gênio dos fundamentos (exceto talvez socialmente!). O saque e a recepção eram os pontos fracos do parceiro dele!"
+                },
+                {
+                    "text": "Shoyo Hinata",
+                    "isCorrect": true,
+                    "explanation": "É ele! Hinata Shoyo! Nosso pequeno corvo começou com um saque por baixo fraquíssimo e era um desastre na recepção e defesa. Mas com treino duro (e ajuda do Kageyama, Nishinoya, Daichi e outros!), ele melhorou DEMAIS, virando um jogador completo! O trabalho duro compensa, né?",
+                    "imageUrl": "https://exemplo.com/hinata_treinando_recepcao.jpg",
+                    "imageDescription": "Imagem de Hinata treinando recepção ou saque."
+                },
+                {
+                    "text": "Daichi Sawamura",
+                    "isCorrect": false,
+                    "explanation": "Daichi é a personificação da recepção e defesa sólidas desde o início! O jogador que lutava com esses fundamentos era o Hinata."
+                }
+            ]
+        },
+        {
+            "id": 41,
+            "question": "Quem é o membro do Karasuno conhecido por sua personalidade gentil, sendo o 'levantador substituto' ou 'levantador veterano'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Kageyama Tobio",
+                    "isCorrect": false,
+                    "explanation": "Kageyama é o levantador principal, mas 'gentil'? Haha, acho que não é bem a palavra que usariam pra ele! O levantador veterano é outro, com uma aura mais... suave."
+                },
+                {
+                    "text": "Sugawara Koushi",
+                    "isCorrect": true,
+                    "explanation": "Exato! Sugawara Koushi (菅原 孝支)! O 'levantador veterano' e vice-capitão! Ele é a voz da razão, super gentil e um excelente suporte moral para o time. Mesmo no banco, ele analisa o jogo e dá conselhos valiosos. O 'Mamãe Karasuno'!",
+                    "imageUrl": "https://exemplo.com/sugawara_gentil.jpg",
+                    "imageDescription": "Imagem de Sugawara com um sorriso gentil ou falando com os companheiros de equipe."
+                },
+                {
+                    "text": "Daichi Sawamura",
+                    "isCorrect": false,
+                    "explanation": "Daichi é o capitão e um ótimo defensor, mas não é levantador. O levantador veterano que você procura é o Suga!"
+                },
+                {
+                    "text": "Hisashi Kinoshita",
+                    "isCorrect": false,
+                    "explanation": "Kinoshita é um dos jogadores de segundo ano, mas não é levantador. O levantador gentil e veterano é o Sugawara!"
+                }
+            ]
+        },
+        {
+            "id": 42,
+            "question": "Qual a característica mais marcante (e irritante para os adversários) do saque de Satori Tendo do Shiratorizawa?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Poder extremo",
+                    "isCorrect": false,
+                    "explanation": "O Ushijima tem poder extremo! O saque do Tendo não é sobre força, é sobre... imprevisibilidade!"
+                },
+                {
+                    "text": "Efeito viagem forte",
+                    "isCorrect": false,
+                    "explanation": "Efeito viagem é mais a praia do Oikawa e Asahi! O saque do Tendo é flutuante, mas de um jeito que confunde."
+                },
+                {
+                    "text": "Flutuante, com uma trajetória instável e difícil de prever",
+                    "isCorrect": true,
+                    "explanation": "Isso! O Saque Flutuante Instável (フローターサーブ)! O saque do Tendo não tem força do Ushijima ou Oikawa, mas a bola 'flutua' de forma tão imprevisível que é um pesadelo para receber. Combinado com a personalidade dele, é pura tortura para o adversário!",
+                    "imageUrl": "https://exemplo.com/tendo_saque_flutuante.jpg",
+                    "imageDescription": "Imagem de Tendo realizando seu saque flutuante com uma expressão excêntrica."
+                },
+                {
+                    "text": "Saque por baixo muito rápido",
+                    "isCorrect": false,
+                    "explanation": "Saque por baixo é coisa do Hinata iniciante! O Tendo usa um saque em suspensão, mas o truque é a 'flutuação'."
+                }
+            ]
+        },
+        {
+            "id": 43,
+            "question": "Quem é o 'irmão gêmeo' e atacante oposto do levantador Miya Atsumu no Inarizaki?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Shinsuke Kita",
+                    "isCorrect": false,
+                    "explanation": "Kita é o capitão sério do Inarizaki, a base da rotina. Ele não é o gêmeo do Atsumu, ele é o 'pai' (metaforicamente) do time!"
+                },
+                {
+                    "text": "Rintaro Suna",
+                    "isCorrect": false,
+                    "explanation": "Suna é o meio de rede sarcástico e eficiente do Inarizaki. Ele joga com os gêmeos, mas não é um deles!"
+                },
+                {
+                    "text": "Osamu Miya",
+                    "isCorrect": true,
+                    "explanation": "Exato! Miya Osamu (宮 治)! O irmão gêmeo do Atsumu, que também joga no Inarizaki como atacante oposto e ponta. Ele é mais calmo que o Atsumu, mas tem um talento parecido. E vive brigando com o irmão sobre quem é melhor (e quem come mais Onigiri!).",
+                    "imageUrl": "https://exemplo.com/miya_gêmeos.jpg",
+                    "imageDescription": "Imagem dos irmãos gêmeos Miya, Atsumu e Osamu."
+                },
+                {
+                    "text": "Aran Ojiro",
+                    "isCorrect": false,
+                    "explanation": "Aran é o Ás poderoso do Inarizaki, um dos 5 melhores do país! Ele não é irmão do Atsumu, é o cara que recebe os melhores passes dele (quando o Atsumu não tá provocando!)."
+                }
+            ]
+        },
+        {
+            "id": 44,
+            "question": "Qual dos jogadores do Karasuno é apelidado de 'Tsukki', conhecido por seu sarcasmo e inteligência no bloqueio?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Daichi Sawamura",
+                    "isCorrect": false,
+                    "explanation": "Daichi é o capitão sério e confiável, nada de sarcasmo! O 'Tsukki' é outro cara alto com óculos."
+                },
+                {
+                    "text": "Koshi Sugawara",
+                    "isCorrect": false,
+                    "explanation": "Suga é o gentil levantador veterano, o oposto do sarcasmo! O 'Tsukki' adora alfinetar todo mundo, especialmente o Hinata e o Kageyama."
+                },
+                {
+                    "text": "Kei Tsukishima",
+                    "isCorrect": true,
+                    "explanation": "É ele! Tsukishima Kei (月島 蛍)! 'Tsukki'! O meio de rede alto, com óculos e uma língua afiada que adora provocar. Ele pode parecer preguiçoso, mas sua inteligência e seu bloqueio em leitura são essenciais para o Karasuno. 'Urusai, Yamaguchi!'",
+                    "imageUrl": "https://exemplo.com/tsukishima_sarcástico.jpg",
+                    "imageDescription": "Imagem de Tsukishima com uma expressão sarcástica ou indiferente."
+                },
+                {
+                    "text": "Tadashi Yamaguchi",
+                    "isCorrect": false,
+                    "explanation": "Yamaguchi é o amigo leal do Tsukishima e especialista em saque. Ele chama o amigo de 'Tsukki!', mas não é ele o 'Tsukki'."
+                }
+            ]
+        },
+        {
+            "id": 45,
+            "question": "O que é um 'Commit Block' (Bloqueio de Compromisso), usado por alguns bloqueadores?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Bloquear pulando ao mesmo tempo que o levantador toca na bola",
+                    "isCorrect": false,
+                    "explanation": "Pular cedo não é o 'Commit Block'. O 'Compromisso' é com o atacante, não com o levantador."
+                },
+                {
+                    "text": "Bloquear pulando com força total, sem se preocupar com a direção do ataque",
+                    "isCorrect": false,
+                    "explanation": "Força é bom, mas o 'Commit Block' é sobre timing, não só força. E você *precisa* se preocupar um pouco com a direção, só que você aposta em um atacante."
+                },
+                {
+                    "text": "Bloquear 'apostando' no atacante principal antes mesmo do levantamento ser finalizado, pulando assim que o atacante corre",
+                    "isCorrect": true,
+                    "explanation": "Isso! O 'Commit Block' (コミットブロック - Komitto Burokku)! O bloqueador 'se compromete' com o Ás ou atacante principal do outro time, pulando assim que vê a corrida dele, antes mesmo de o levantador terminar o passe. É arriscado, mas se der certo, para o Ás na hora! É o oposto do 'Read Block' do Tsukishima e Nekoma.",
+                    "imageUrl": "https://exemplo.com/commit_block.jpg",
+                    "imageDescription": "Diagrama ou imagem de um jogador realizando um bloqueio de compromisso."
+                },
+                {
+                    "text": "Bloquear usando apenas uma mão",
+                    "isCorrect": false,
+                    "explanation": "Bloqueio com uma mão é incomum e arriscado. 'Commit Block' é uma estratégia de timing e aposta."
+                }
+            ]
+        },
+        {
+            "id": 46,
+            "question": "Qual a escola conhecida pelo seu forte 'sistema de recepção' e 'conexão' em quadra?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Karasuno High",
+                    "isCorrect": false,
+                    "explanation": "O Karasuno melhora na recepção, mas eles são mais conhecidos pelo ataque rápido e o lema 'Voar'! A 'conexão' é a marca registrada de outro time, um dos rivais de Tóquio."
+                },
+                {
+                    "text": "Date Tech High",
+                    "isCorrect": false,
+                    "explanation": "Date Tech é o 'Muro de Ferro', especialistas em bloqueio! Recepção não é o foco principal deles."
+                },
+                {
+                    "text": "Nekoma High",
+                    "isCorrect": true,
+                    "explanation": "É o Nekoma! O time do 'Conectar' (繋ぐ - Tsunagu)! Eles são mestres em recepção, defesa e em manter a bola em jogo, não importa o quê. Sua força está em sua defesa sólida e na 'conexão' entre os jogadores, liderados pelo levantador Kenma. Os Gatos são difíceis de derrubar!",
+                    "imageUrl": "https://exemplo.com/nekoma_recepcao.jpg",
+                    "imageDescription": "Imagem do time do Nekoma defendendo ou recebendo a bola em conjunto."
+                },
+                {
+                    "text": "Aoba Johsai (Seijoh)",
+                    "isCorrect": false,
+                    "explanation": "Seijoh tem ótimos jogadores e um sistema de ataque forte, mas a fama do 'sistema de recepção' e 'conexão' é do rival felino de Tóquio."
+                }
+            ]
+        },
+        {
+            "id": 47,
+            "question": "Quem é o capitão calmo, focado e com uma rotina rígida do time do Inarizaki High?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Atsumu Miya",
+                    "isCorrect": false,
+                    "explanation": "Atsumu é o levantador talentoso, mas 'calmo' e 'rotina rígida'? Ele é a bagunça talentosa do time! O capitão é outro, o que mantém os gêmeos na linha."
+                },
+                {
+                    "text": "Osamu Miya",
+                    "isCorrect": false,
+                    "explanation": "Osamu é o gêmeo atacante, mais quieto que o Atsumu, mas ainda sim não é o capitão super regrado do Inarizaki."
+                },
+                {
+                    "text": "Shinsuke Kita",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Kita Shinsuke (北 信介)! O capitão com cara de poucos amigos e uma rotina impecável dentro e fora da quadra. Ele não tem os talentos 'brilhantes' dos gêmeos ou do Aran, mas sua consistência e disciplina são o 'ar' que o time do Inarizaki respira. Respeito!",
+                    "imageUrl": "https://exemplo.com/kita_rotina.jpg",
+                    "imageDescription": "Imagem de Kita em uma pose séria ou realizando sua rotina."
+                },
+                {
+                    "text": "Rintaro Suna",
+                    "isCorrect": false,
+                    "explanation": "Suna é o meio de rede com ataques flexíveis e sarcasmo. O capitão que prega a rotina é o Kita."
+                }
+            ]
+        },
+        {
+            "id": 48,
+            "question": "Qual a técnica de ataque que Kageyama Tobio desenvolve com Hinata Shoyo que é uma evolução do Ataque Rápido Monstro, permitindo que Hinata veja e escolha o melhor ângulo?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Ataque Amplo (Broad Attack)",
+                    "isCorrect": false,
+                    "explanation": "Ataque Amplo é a corrida lateral antes do ataque. A técnica que Kageyama e Hinata desenvolvem é sobre o *controle* do passe."
+                },
+                {
+                    "text": "Ataque Rápido com Controle de Passe (Minus Tempo - Evoluído)",
+                    "isCorrect": true,
+                    "explanation": "Isso! O Ataque Rápido com Controle de Passe ( ou a evolução do Ataque Rápido Minus Tempo)! Kageyama aprende a ajustar a velocidade e trajetória do passe para que Hinata, com os olhos abertos, possa ver o bloqueio e decidir o ângulo do ataque. É o poder do monstro, mas com o cérebro do corvo pequeno!",
+                    "imageUrl": "https://exemplo.com/kageyama_hinata_rapido_controlado.jpg",
+                    "imageDescription": "Imagem de Hinata atacando com os olhos abertos após um passe controlado de Kageyama."
+                },
+                {
+                    "text": "Ataque Sincronizado",
+                    "isCorrect": false,
+                    "explanation": "Ataque sincronizado envolve vários jogadores. Essa técnica é focada na dupla Kageyama-Hinata e no controle do passe."
+                },
+                {
+                    "text": "Ataque Fantasma",
+                    "isCorrect": false,
+                    "explanation": "Ataque fantasma é uma finta ou toque leve. Essa técnica é um ataque poderoso e direto, só que com mais 'visão'."
+                }
+            ]
+        },
+        {
+            "id": 49,
+            "question": "Quem é o 'Ás' do time do Inarizaki High, considerado um dos 5 melhores Ases do Japão?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Atsumu Miya",
+                    "isCorrect": false,
+                    "explanation": "Atsumu é o levantador 'Mais Forte', um gênio! Mas o Ás, o cara que finaliza as jogadas no Inarizaki e é um dos top 5, é outro."
+                },
+                {
+                    "text": "Osamu Miya",
+                    "isCorrect": false,
+                    "explanation": "Osamu é um atacante poderoso, o irmão gêmeo do Atsumu. Mas o Ás principal, o que está no ranking dos melhores, é o número 4 deles."
+                },
+                {
+                    "text": "Shinsuke Kita",
+                    "isCorrect": false,
+                    "explanation": "Kita é o capitão e 'pai' do Inarizaki. Ele não é o Ás. O Ás é o cara que recebe os passes e detona a bola."
+                },
+                {
+                    "text": "Aran Ojiro",
+                    "isCorrect": true,
+                    "explanation": "Isso! Aran Ojiro (尾白 アラン)! O Ás do Inarizaki e um dos 5 melhores do país, junto com Ushijima e Bokuto. Ele é super poderoso e confiável, a 'rocha' de ataque que finaliza as jogadas. Respeitável!",
+                    "imageUrl": "https://exemplo.com/aran_ojiro_ataque.jpg",
+                    "imageDescription": "Imagem de Aran Ojiro realizando um ataque poderoso."
+                }
+            ]
+        },
+        {
+            "id": 50,
+            "question": "Qual dos senpais de segundo ano do Karasuno é conhecido por ser o 'controlador' de Tanaka e Nishinoya e um potencial futuro capitão?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Hisashi Kinoshita",
+                    "isCorrect": false,
+                    "explanation": "Kinoshita é um dos segundos anos, especialista em saque jump float. Mas quem tenta manter Tanaka e Noya na linha é outro amigo deles."
+                },
+                {
+                    "text": "Kazuhito Narita",
+                    "isCorrect": false,
+                    "explanation": "Narita é outro segundo ano, meio de rede. O cara que tem a paciência (ou falta dela) para lidar com Tanaka e Noya é outro, o 'capitão reserva'."
+                },
+                {
+                    "text": "Chikara Ennoshita",
+                    "isCorrect": true,
+                    "explanation": "É ele! Ennoshita Chikara (縁下 力)! O líder (relutante?) do trio de segundo ano, que frequentemente precisa controlar as loucuras de Tanaka e Nishinoya. Ele é um jogador sólido e foi cotado para ser o próximo capitão, pois tem a força de vontade (e a paciência de um santo!) para lidar com os 'problemas' do time.",
+                    "imageUrl": "https://exemplo.com/ennoshita_controlando.jpg",
+                    "imageDescription": "Imagem de Ennoshita tentando controlar Tanaka e Nishinoya."
+                },
+                {
+                    "text": "Koshi Sugawara",
+                    "isCorrect": false,
+                    "explanation": "Sugawara é um terceiro ano, o levantador veterano e vice-capitão. O 'controlador' dos segundos anos é outro, que está na mesma série que Tanaka e Noya."
+                }
+            ]
+        },
+        {
+            "id": 51,
+            "question": "Qual o nome do ginásio onde acontece o Torneio de Primavera (Haruko) Nacional, o grande objetivo do Karasuno?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Tokyo Metropolitan Gymnasium",
+                    "isCorrect": true,
+                    "explanation": "Acertou! O Tokyo Metropolitan Gymnasium (東京体育館 - Toukyou Taiikukan)! É o palco dos sonhos do Karasuno, o lugar onde eles finalmente jogam as Nacionais. Chegar lá já é uma vitória, mas competir lá é a glória máxima. Onde os 'Pequenos Gigantes' nascem!",
+                    "imageUrl": "https://exemplo.com/tokyo_metropolitan_gym.jpg",
+                    "imageDescription": "Imagem externa ou interna do Tokyo Metropolitan Gymnasium."
+                },
+                {
+                    "text": "Sendai City Gymnasium",
+                    "isCorrect": false,
+                    "explanation": "Sendai City Gymnasium é onde acontecem as preliminares da província de Miyagi. O Nacional é em Tóquio!"
+                },
+                {
+                    "text": "Miyagi Prefectural Gymnasium",
+                    "isCorrect": false,
+                    "explanation": "Outro ginásio usado nas preliminares de Miyagi. O palco das Nacionais é bem maior e fica na capital."
+                },
+                {
+                    "text": "Shiratorizawa Academy Gymnasium",
+                    "isCorrect": false,
+                    "explanation": "O ginásio do Shiratorizawa é só para jogos em casa ou treinos. O Nacional é um evento público em um ginásio icônico."
+                }
+            ]
+        },
+        {
+            "id": 53,
+            "question": "Quem é o levantador 'gênio' do Shiratorizawa, conhecido por seus passes que maximizam a força do Ushijima?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Eita Semi",
+                    "isCorrect": true,
+                    "explanation": "É ele! Semi Eita (瀬見 英太)! O levantador oficial do Shiratorizawa que, embora tenha talento, foi 'substituído' por Shirabu porque o estilo de Semi não 'combinava' perfeitamente com a força do Ushijima (ele queria ser mais vistoso!). Mas ele ainda é um ótimo levantador e manda um saque poderoso!",
+                    "imageUrl": "https://exemplo.com/semi_levantando.jpg",
+                    "imageDescription": "Imagem de Semi realizando um levantamento."
+                },
+                {
+                    "text": "Kenjiro Shirabu",
+                    "isCorrect": false,
+                    "explanation": "Shirabu é o levantador titular do Shiratorizawa que joga para o Ushijima. Ele é super focado nisso, mas 'gênio' talvez seja mais aplicado ao Semi ou ao próprio Ushijima na área de ataque. E Semi é o 'veterano' que estava lá antes de Shirabu."
+                },
+                {
+                    "text": "Tsutomu Goshiki",
+                    "isCorrect": false,
+                    "explanation": "Goshiki é o atacante de primeiro ano que quer superar o Ushijima. Ele não é levantador!"
+                },
+                {
+                    "text": "Atsumu Miya",
+                    "isCorrect": false,
+                    "explanation": "Atsumu é do Inarizaki! O levantador 'gênio' do Shiratorizawa que jogava com o Ushijima é o Semi."
+                }
+            ]
+        },
+        {
+            "id": 54,
+            "question": "Qual o nome da assistente técnica que se junta ao Karasuno, inicialmente muito tímida?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Kiyoko Shimizu",
+                    "isCorrect": false,
+                    "explanation": "Kiyoko é a gerente veterana, calma e assustadora (no bom sentido!). A assistente técnica que se junta depois é outra, mais... 'coração acelerado'!"
+                },
+                {
+                    "text": "Hitoka Yachi",
+                    "isCorrect": true,
+                    "explanation": "É a Yachi! Hitoka Yachi (谷地 仁花)! A novata super tímida e nervosa que se torna a segunda gerente do Karasuno. Com a ajuda da Kiyoko e do time, ela supera seus medos e se torna uma parte vital da equipe. De 'medrosa de cidade grande' para gerente confiante!",
+                    "imageUrl": "https://exemplo.com/yachi_nervosa_depois.jpg",
+                    "imageDescription": "Imagem de Yachi, talvez no início nervosa e depois mais confiante."
+                },
+                {
+                    "text": "Saeko Tanaka",
+                    "isCorrect": false,
+                    "explanation": "Saeko é a irmã do Tanaka, super energética e fã do Karasuno. Ela ajuda o time às vezes (com o carro!), mas não é a assistente técnica/gerente oficial."
+                },
+                {
+                    "text": "Akiteru Tsukishima",
+                    "isCorrect": false,
+                    "explanation": "Akiteru é o irmão mais velho do Tsukishima, ex-jogador do Karasuno. Ele não é gerente, é o cara que assiste os jogos e dá conselhos ao Tsukki."
+                }
+            ]
+        },
+        {
+            "id": 55,
+            "question": "Quem é o bloqueador central do Inarizaki conhecido por sua habilidade de 'torcer' o corpo no ar para atacar?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Shinsuke Kita",
+                    "isCorrect": false,
+                    "explanation": "Kita é o capitão, a 'rotina'. Ele não tem esse ataque acrobático. O jogador que se 'torce' é outro meio de rede do Inarizaki."
+                },
+                {
+                    "text": "Osamu Miya",
+                    "isCorrect": false,
+                    "explanation": "Osamu é um atacante poderoso, um dos gêmeos. O meio de rede que usa a 'torção' é o Suna."
+                },
+                {
+                    "text": "Rintaro Suna",
+                    "isCorrect": true,
+                    "explanation": "Isso! Suna Rintaro (角名 倫太郎)! O meio de rede alto e sarcástico do Inarizaki. Ele tem a habilidade única de 'torcer' o tronco no ar para atacar em ângulos inesperados, tornando seus cortes super difíceis de bloquear ou defender. Um ataque 'flexível' e perigoso!",
+                    "imageUrl": "https://exemplo.com/suna_ataque_torcendo.jpg",
+                    "imageDescription": "Imagem de Suna torcendo o corpo no ar para atacar."
+                },
+                {
+                    "text": "Atsumu Miya",
+                    "isCorrect": false,
+                    "explanation": "Atsumu é o levantador. O cara que se 'torce' para atacar é o meio de rede do time dele."
+                }
+            ]
+        },
+        {
+            "id": 56,
+            "question": "Qual o principal ponto forte (além do ataque) de Kotaro Bokuto, o Ás do Fukurodani?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Recepção",
+                    "isCorrect": false,
+                    "explanation": "Recepção não é o forte do Bokuto. Ele é um Ás, foca em atacar! Ele tem outras qualidades que ajudam o time, mas não na defesa básica."
+                },
+                {
+                    "text": "Bloqueio em Leitura (Read Block)",
+                    "isCorrect": false,
+                    "explanation": "Bloqueio em leitura é do Nekoma/Tsukishima. Bokuto é puro instinto e poder no ataque, não um leitor de jogo nesse nível no bloqueio."
+                },
+                {
+                    "text": "Saque em Suspensão Poderoso",
+                    "isCorrect": true,
+                    "explanation": "Exato! O saque em suspensão do Bokuto é tão poderoso quanto o ataque dele (quando ele não entra nos seus 'modos emo'!). É uma arma que ele usa para pontuar diretamente ou quebrar a recepção adversária. BOOM!",
+                    "imageUrl": "https://exemplo.com/bokuto_saque.jpg",
+                    "imageDescription": "Imagem de Bokuto realizando seu saque poderoso."
+                },
+                {
+                    "text": "Levantamento",
+                    "isCorrect": false,
+                    "explanation": "Levantamento? Bokuto é um Ás que quer receber a bola pra atacar, não pra levantar! Essa é a função do Akaashi (e ele já tem trabalho demais!)."
+                }
+            ]
+        },
+        {
+            "id": 57,
+            "question": "Quem é o meio de rede do Karasuno que se recupera de uma lesão no joelho durante a série?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Kei Tsukishima",
+                    "isCorrect": false,
+                    "explanation": "Tsukishima tem seus altos e baixos de 'paixão' pelo vôlei, mas não sofreu uma lesão séria no joelho durante a série principal. O meio de rede lesionado foi outro."
+                },
+                {
+                    "text": "Shoyo Hinata",
+                    "isCorrect": false,
+                    "explanation": "Hinata teve febre antes de um jogo importante e uma 'exaustão' nas Nacionais, mas não uma lesão no joelho que o tirasse de quadra por um tempo. O meio de rede que se lesionou foi um dos veteranos."
+                },
+                {
+                    "text": "Kazuhito Narita",
+                    "isCorrect": true,
+                    "explanation": "É ele! Narita Kazuhito (成田 一仁)! Um dos meio de rede de segundo ano que teve uma lesão no joelho e precisou de tempo para se recuperar. Ele e Kinoshita entram em quadra quando os titulares (Tsukishima, Hinata) precisam de substituição. O 'terno' do Karasuno!",
+                    "imageUrl": "https://exemplo.com/narita_jogando.jpg",
+                    "imageDescription": "Imagem de Narita jogando em quadra."
+                },
+                {
+                    "text": "Tadashi Yamaguchi",
+                    "isCorrect": false,
+                    "explanation": "Yamaguchi é especialista em saque, não meio de rede titular, e a luta dele foi mais psicológica com o saque, não por lesão no joelho."
+                }
+            ]
+        },
+        {
+            "id": 58,
+            "question": "O que o treinador Washijo Tanji do Shiratorizawa valoriza acima de tudo em um jogador?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Técnica apurada",
+                    "isCorrect": false,
+                    "explanation": "Técnica é importante, mas não é o Foco principal dele. Ele prefere algo mais... físico e instintivo."
+                },
+                {
+                    "text": "Altura e Poder (instinto, físico)",
+                    "isCorrect": true,
+                    "explanation": "Isso! Altura e Poder Físico, e o instinto para usá-los! Washijo acredita que jogadores talentosos e fisicamente imponentes devem usar seu poder bruto e instinto para dominar o jogo, sem se preocupar tanto com técnicas complexas ou 'truques'. É por isso que ele ama o Ushijima e despreza o 'vôlei de gambiarra' do Karasuno. Força bruta > delicadeza!",
+                    "imageUrl": "https://exemplo.com/washijo_serio.jpg",
+                    "imageDescription": "Imagem do treinador Washijo com uma expressão séria ou brava."
+                },
+                {
+                    "text": "Estratégia e inteligência em quadra",
+                    "isCorrect": false,
+                    "explanation": "Estratégia e inteligência são coisas que o Washijo não valoriza tanto. Ele acha que o talento físico inato e a força instintiva são o que definem os 'reis'."
+                },
+                {
+                    "text": "Trabalho em equipe",
+                    "isCorrect": false,
+                    "explanation": "Trabalho em equipe é legal, mas Washijo foca no 'Ás' e no talento individual. Ele acredita que a equipe deve servir o Ás, não o contrário."
+                }
+            ]
+        },
+        {
+            "id": 59,
+            "question": "Qual jogador do Karasuno tem o 'salto mais alto' (excluindo o salto do Hinata para o ataque rápido inicial, que é especial pela corrida)?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Shoyo Hinata",
+                    "isCorrect": false,
+                    "explanation": "O Hinata tem um salto incrível, mas há um veterano no time com um salto 'puro' ainda mais alto! O salto do Hinata é potencializado pela velocidade, o desse cara é só... PÁ! Para cima!"
+                },
+                {
+                    "text": "Tobio Kageyama",
+                    "isCorrect": false,
+                    "explanation": "Kageyama tem um bom salto para levantador, mas não o mais alto do time. O rei do salto 'puro' é outro."
+                },
+                {
+                    "text": "Ryunosuke Tanaka",
+                    "isCorrect": false,
+                    "explanation": "Tanaka tem um bom ataque, mas não é conhecido por ter o maior salto vertical do time. O cara que salta mais alto 'parado' é o Ás!"
+                },
+                {
+                    "text": "Asahi Azumane",
+                    "isCorrect": true,
+                    "explanation": "Sim! Asahi Azumane! O Ás do Karasuno! Embora Hinata tenha o 'salto monstruoso' com corrida, Asahi, com seu salto vertical puro e poderoso, é o jogador do Karasuno com o maior alcance de ataque e o salto mais alto 'puro'. Ele é a muralha ofensiva que precisa superar as muralhas adversárias! O Rei Leão!",
+                    "imageUrl": "https://exemplo.com/asahi_salto_alto.jpg",
+                    "imageDescription": "Imagem de Asahi no ápice do seu salto vertical para um ataque."
+                }
+            ]
+        },
+        {
+            "id": 60,
+            "question": "O que é uma 'Pipe Attack' (Ataque Pipe) e qual jogador do Karasuno a utiliza (eventualmente)?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Ataque pela ponta direita, com corrida diagonal (Asahi)",
+                    "isCorrect": false,
+                    "explanation": "Ataque pela ponta direita é comum, mas o ataque pipe é feito de outro lugar... da linha de trás!"
+                },
+                {
+                    "text": "Ataque rápido pelo meio, com o atacante vindo de trás da linha de 3 metros (Hinata)",
+                    "isCorrect": true,
+                    "explanation": "Bingo! A Pipe Attack (パイプ攻撃 - Paipu Kougeki)! É um ataque feito pelo meio (posição 6) onde o atacante corre de trás da linha de 3 metros, pula e ataca como se estivesse na rede. Hinata aprende a usar essa técnica para adicionar outra ameaça vindo da defesa. É o 'Ataque Rápido Monstro' de fundo de quadra!",
+                    "imageUrl": "https://exemplo.com/hinata_pipe_attack.jpg",
+                    "imageDescription": "Imagem de Hinata realizando um ataque pipe, vindo de trás da linha de 3 metros."
+                },
+                {
+                    "text": "Ataque coordenado com finta e toque leve na bola (Sugawara)",
+                    "isCorrect": false,
+                    "explanation": "Isso seria mais uma finta ou toque. O Pipe Attack é um ataque completo e poderoso, mas feito da segunda linha."
+                },
+                {
+                    "text": "Ataque onde o jogador usa o bloqueio adversário a seu favor ('tool'/'wipe') (Tsukishima)",
+                    "isCorrect": false,
+                    "explanation": "Isso é o 'tool' ou 'wipe'. O Pipe Attack é sobre a posição de ataque, vindo de trás da linha de 3 metros pelo meio."
+                }
+            ]
+        },
+        {
+            "id": 62,
+            "question": "Quem é o veterano do Karasuno que, apesar de não ser titular, tem um saque flutuante com salto confiável e vira um 'Pinpoint Server'?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Daichi Sawamura",
+                    "isCorrect": false,
+                    "explanation": "Daichi é o capitão e um defensor sólido, mas o saque flutuante com salto é a especialidade de um dos segundos anos, que treinou muito para isso."
+                },
+                {
+                    "text": "Koshi Sugawara",
+                    "isCorrect": false,
+                    "explanation": "Sugawara é o levantador veterano, com um saque flutuante normal. O 'Pinpoint Server' com saque flutuante COM SALTO é o Yamaguchi!"
+                },
+                {
+                    "text": "Tadashi Yamaguchi",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Yamaguchi Tadashi (山口 忠)! Depois de falhar na sua primeira chance, ele treinou *incansavelmente* seu saque flutuante com salto (Jump Float Serve) com o Shimada Mart, tornando-se um 'Pinpoint Server' valioso para entrar no final dos sets e pressionar o adversário. O rei da superação pelo saque!",
+                    "imageUrl": "https://exemplo.com/yamaguchi_pinpoint_serve.jpg",
+                    "imageDescription": "Imagem de Yamaguchi realizando um saque flutuante com foco e determinação."
+                },
+                {
+                    "text": "Hisashi Kinoshita",
+                    "isCorrect": false,
+                    "explanation": "Kinoshita é outro segundo ano com um saque flutuante, mas o título de 'Pinpoint Server' que lutou e dominou essa técnica é do Yamaguchi."
+                }
+            ]
+        },
+        {
+            "id": 63,
+            "question": "Qual a comida favorita de Shoyo Hinata (e que ele come em grande quantidade!)?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Curry",
+                    "isCorrect": false,
+                    "explanation": "Curry é bom, mas a paixão culinária do Hinata em especial nos campos de treino é outra coisa, algo frito e delicioso!"
+                },
+                {
+                    "text": "Gyoza",
+                    "isCorrect": false,
+                    "explanation": "Gyoza é ótimo, mas a comida que faz os olhos do Hinata brilharem nos campos de treino (e que ele come até explodir!) é frita!"
+                },
+                {
+                    "text": "Arroz com Frango Frito (Karaage)",
+                    "isCorrect": true,
+                    "explanation": "É isso! Arroz com Frango Frito (Karaage)! O Hinata AMA Karaage, especialmente durante os campos de treino onde ele pode comer à vontade para recuperar as energias (e crescer, quem sabe!). A força do pequeno corvo vem do frango frito!",
+                    "imageUrl": "https://exemplo.com/hinata_comendo_karaage.jpg",
+                    "imageDescription": "Imagem de Hinata comendo arroz e karaage com muita felicidade."
+                },
+                {
+                    "text": "Lamén",
+                    "isCorrect": false,
+                    "explanation": "Lamén é clássico, mas o amor do Hinata nos campos de treino é por algo mais... 'crocante' e energizante!"
+                }
+            ]
+        },
+        {
+            "id": 64,
+            "question": "Qual o nome do treinador do Shiratorizawa Academy, conhecido por ser rigoroso e focar em força individual?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Ukai Keishin",
+                    "isCorrect": false,
+                    "explanation": "Esse é o técnico do Karasuno! O técnico do Shiratorizawa tem uma filosofia bem diferente, focada em talento individual e força bruta, não em 'gambiarra'!"
+                },
+                {
+                    "text": "Nekomata Yasufumi",
+                    "isCorrect": false,
+                    "explanation": "Esse é o lendário técnico do Nekoma, mestre da 'conexão'! O técnico do Shiratorizawa é focado em 'quebrar' a conexão adversária com poder."
+                },
+                {
+                    "text": "Washijo Tanji",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Washijo Tanji (鷲匠 鍛治)! O treinador 'ditador' do Shiratorizawa, que só valoriza altura e poder. Ele foi rival do avô do Ukai e acredita que talentos natos (como o Ushijima) são a chave para vencer, desprezando times que se baseiam em técnica e coordenação de jogadores 'medianos'. O vilão (ameaçador) perfeito para o Karasuno!",
+                    "imageUrl": "https://exemplo.com/washijo_cara_feia.jpg",
+                    "imageDescription": "Imagem do treinador Washijo com uma expressão brava ou desapontada."
+                },
+                {
+                    "text": "Nobuteru Irihata",
+                    "isCorrect": false,
+                    "explanation": "Irihata é o técnico do Aoba Johsai. O técnico rigoroso e 'old school' do Shiratorizawa é o Washijo."
+                }
+            ]
+        },
+        {
+            "id": 65,
+            "question": "Qual jogador do Aoba Johsai (Seijoh) tem um saque flutuante flutuante (sim, flutuante duas vezes de tão 'flutuante') e é considerado um dos melhores sacadores?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Tooru Oikawa",
+                    "isCorrect": false,
+                    "explanation": "Oikawa tem um saque **viagem** poderoso! O jogador do Seijoh com o saque flutuante 'imprevisível' é outro."
+                },
+                {
+                    "text": "Hajime Iwaizumi",
+                    "isCorrect": false,
+                    "explanation": "Iwaizumi é o Ás, com ataques fortes. O especialista em saque flutuante do Seijoh é um dos 'veteranos' do time."
+                },
+                {
+                    "text": "Akira Kunimi",
+                    "isCorrect": false,
+                    "explanation": "Kunimi é o ponta 'preguiçoso' mas eficiente de primeiro ano. O sacador flutuante notável do Seijoh é mais velho."
+                },
+                {
+                    "text": "Shinji Watari",
+                    "isCorrect": true,
+                    "explanation": "É ele! Watari Shinji (渡 親治)! O líbero (ou ex-líbero?) do Aoba Johsai que tem um saque flutuante em suspensão extremamente instável e difícil de receber. Mesmo sendo líbero, ele é um sacador de respeito que pode causar estragos na recepção adversária. Uma arma secreta do Seijoh!",
+                    "imageUrl": "https://exemplo.com/watari_saque_flutuante.jpg",
+                    "imageDescription": "Imagem de Watari realizando seu saque flutuante."
+                }
+            ]
+        },
+        {
+            "id": 66,
+            "question": "Quem é o ex-jogador do Karasuno e amigo de infância do técnico Ukai, que treina Yamaguchi no saque flutuante com salto?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Shimada Mart (Makoto Shimada)",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Shimada Makoto (嶋田 誠)! O dono do 'Shimada Mart' e ex-aluno do Karasuno. Ele era especialista em ataques com finta e, mais importante, treinou o Yamaguchi pacientemente para dominar o saque flutuante com salto. Um 'professor' essencial para o Karasuno atual!",
+                    "imageUrl": "https://exemplo.com/shimada_mart.jpg",
+                    "imageDescription": "Imagem de Shimada Makoto ou da loja Shimada Mart."
+                },
+                {
+                    "text": "Takano (ex-jogador)",
+                    "isCorrect": false,
+                    "explanation": "Takano é o amigo do Shimada, que joga no time local deles. Quem treinou o Yamaguchi foi o Shimada!"
+                },
+                {
+                    "text": "Ukai Ikkei (Ukai Sr.)",
+                    "isCorrect": false,
+                    "explanation": "Ukai Sr. é o avô do técnico e o lendário ex-técnico, mas ele não treinou especificamente o Yamaguchi no saque. Quem fez isso foi um ex-aluno com uma loja."
+                },
+                {
+                    "text": "Akiteru Tsukishima",
+                    "isCorrect": false,
+                    "explanation": "Akiteru é o irmão do Tsukishima, ex-jogador. Ele dá conselhos ao Tsukki, mas não foi ele quem treinou o Yamaguchi no saque."
+                }
+            ]
+        },
+        {
+            "id": 67,
+            "question": "Qual a principal tática ofensiva do Inarizaki High, conhecida por sua velocidade e coordenação entre os Miya?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Ataque Sincronizado",
+                    "isCorrect": false,
+                    "explanation": "Ataque sincronizado é a tática do Karasuno contra bloqueios múltiplos. O Inarizaki foca mais em algo com... ritmo e velocidade, com os Miya no centro!"
+                },
+                {
+                    "text": "Hiper Ataque Rápido (Hyper Quick)",
+                    "isCorrect": true,
+                    "explanation": "É isso! O Hiper Ataque Rápido (ハイパー速攻 - Haipaa Sokkou)! Uma versão evoluída e super rápida do ataque rápido, onde Atsumu Miya (o levantador) e Osamu Miya (o atacante) executam ataques em velocidade insana, aproveitando a 'sintonia' de gêmeos. É como o ataque rápido do Karasuno, mas elevado à potência máxima e com mais variações. A combinação Miya é assustadora!",
+                    "imageUrl": "https://exemplo.com/miya_hyper_quick.jpg",
+                    "imageDescription": "Imagem mostrando a coordenação dos irmãos Miya em um ataque rápido."
+                },
+                {
+                    "text": "Ataque Amplo (Broad Attack)",
+                    "isCorrect": false,
+                    "explanation": "Ataque Amplo é a corrida lateral do Hinata. O Inarizaki tem uma tática rápida que envolve os gêmeos."
+                },
+                {
+                    "text": "Bloqueio Ofensivo",
+                    "isCorrect": false,
+                    "explanation": "Bloqueio é defesa. A principal tática ofensiva do Inarizaki é o ataque rápido e coordenado dos gêmeos."
+                }
+            ]
+        },
+        {
+            "id": 68,
+            "question": "Quem é o levantador titular do Shiratorizawa que prefere fazer passes que facilitam a força bruta do Ushijima, em vez de passes mais vistosos?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Eita Semi",
+                    "isCorrect": false,
+                    "explanation": "Semi é o levantador que *queria* fazer passes mais vistosos! O levantador titular que foca na força do Ushijima é outro, o que joga com a camisa #10."
+                },
+                {
+                    "text": "Kenjiro Shirabu",
+                    "isCorrect": true,
+                    "explanation": "Exato! Shirabu Kenjiro (白布 賢二郎)! O levantador titular que foi escolhido por sua disposição em fazer levantamentos simples e diretos que permitem ao Ushijima usar toda a sua força. Ele não se importa em ser 'menos notado', contanto que o Ás marque o ponto. Puro foco no resultado!",
+                    "imageUrl": "https://exemplo.com/shirabu_levantando_ushijima.jpg",
+                    "imageDescription": "Imagem de Shirabu fazendo um levantamento para Ushijima."
+                },
+                {
+                    "text": "Tsutomu Goshiki",
+                    "isCorrect": false,
+                    "explanation": "Goshiki é um atacante, o próximo Ás ambicioso. O levantador que foca no Ushijima é o Shirabu."
+                },
+                {
+                    "text": "Atsumu Miya",
+                    "isCorrect": false,
+                    "explanation": "Atsumu Miya é do Inarizaki! O levantador do Shiratorizawa focado no Ushijima é o Shirabu."
+                }
+            ]
+        },
+        {
+            "id": 69,
+            "question": "Qual o nome do capitão do Aoba Johsai (Seijoh), conhecido por sua liderança e saques poderosos?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Hajime Iwaizumi",
+                    "isCorrect": false,
+                    "explanation": "Iwaizumi é o Ás e vice-capitão, a 'rocha'! Mas o capitão com os saques famosos é o 'Grande Rei'!"
+                },
+                {
+                    "text": "Tooru Oikawa",
+                    "isCorrect": true,
+                    "explanation": "Ele mesmo! Oikawa Tooru (及川 徹)! Além de ser 'O Grande Rei' e levantador estrela, ele é o capitão do Aoba Johsai. Sua liderança (e capacidade de tirar o melhor do time, mesmo que de forma manipuladora!) e seus saques violentos o tornam o comandante perfeito para o Seijoh.",
+                    "imageUrl": "https://exemplo.com/oikawa_capitao.jpg",
+                    "imageDescription": "Imagem de Oikawa usando a braçadeira de capitão ou liderando o time."
+                },
+                {
+                    "text": "Issei Matsukawa",
+                    "isCorrect": false,
+                    "explanation": "Matsukawa é um bloqueador do Seijoh, parte do muro. O capitão é o levantador!"
+                },
+                {
+                    "text": "Takahiro Hanamaki",
+                    "isCorrect": false,
+                    "explanation": "Hanamaki é um atacante do Seijoh. O capitão é o levantador e 'Grande Rei'!"
+                }
+            ]
+        },
+        {
+            "id": 70,
+            "question": "O que Hinata Shoyo aprende durante o acampamento de treinamento no Rio de Janeiro (Brasil) pós-timeskip?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Dominar o bloqueio em leitura (Read Block)",
+                    "isCorrect": false,
+                    "explanation": "Bloqueio em leitura é mais a praia do Tsukishima e Kuroo. O treino no Brasil focou em outra coisa... em melhorar todos os fundamentos e se tornar um jogador completo!"
+                },
+                {
+                    "text": "Desenvolver um saque viagem poderoso",
+                    "isCorrect": false,
+                    "explanation": "Ele melhora o saque, sim, mas o foco principal do treino no Brasil não foi só o saque viagem. Foi algo mais amplo."
+                },
+                {
+                    "text": "Melhorar seus fundamentos (recepção, defesa) e se tornar um jogador 'completo'",
+                    "isCorrect": true,
+                    "explanation": "Bingo! Hinata vai para o Brasil para jogar Vôlei de Praia (Beach Volleyball), que exige que cada jogador domine *todos* os fundamentos (recepção, defesa, passe, ataque). Esse treino o transforma em um jogador incrivelmente completo e versátil, não dependendo apenas do Kageyama para atacar. É a 'transformação' dele em um jogador que pode brilhar sozinho!",
+                    "imageUrl": "https://exemplo.com/hinata_volei_praia.jpg",
+                    "imageDescription": "Imagem de Hinata jogando vôlei de praia no Rio de Janeiro."
+                },
+                {
+                    "text": "Criar um novo tipo de ataque rápido com um novo levantador",
+                    "isCorrect": false,
+                    "explanation": "Ele joga com novos parceiros, sim, mas o foco principal do treino no Brasil foi nos *fundamentos individuais* para ele se tornar independente, não em criar uma nova dupla de ataque rápido."
+                }
+            ]
+        },
+        {
+            "id": 71,
+            "question": "Quem é o 'Ás Inabalável' do Johzenji High, conhecido por seu estilo de jogo livre e caótico?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Tetsuro Kuroo",
+                    "isCorrect": false,
+                    "explanation": "Kuroo é do Nekoma, o 'Gato Zangado'! O 'Ás Inabalável' é de outro time de Tóquio, que adora uma bagunça organizada na quadra!"
+                },
+                {
+                    "text": "Terushima Yuji",
+                    "isCorrect": true,
+                    "explanation": "Exato! Terushima Yuji (照島 遊児)! O capitão e Ás do Johzenji, famoso por seu estilo de jogo super livre, imprevisível e cheio de 'brincadeiras'. Ele não é o mais técnico, mas a energia e a liberdade dele (e do time!) são contagiantes. O 'Jogo Divertido'!",
+                    "imageUrl": "https://exemplo.com/terushima_sorriso.jpg",
+                    "imageDescription": "Imagem de Terushima com seu sorriso característico."
+                },
+                {
+                    "text": "Kotaro Bokuto",
+                    "isCorrect": false,
+                    "explanation": "Bokuto é o Ás do Fukurodani, um dos Top 5! Ele tem seus 'modos', mas o 'Ás Inabalável' com estilo de jogo livre é o Terushima do Johzenji."
+                },
+                {
+                    "text": "Motoki Ezoe",
+                    "isCorrect": false,
+                    "explanation": "Ezoe é um jogador do Johzenji, mas o 'Ás Inabalável' e líder do time é o Terushima."
+                }
+            ]
+        },
+        {
+            "id": 72,
+            "question": "Qual técnica o meio de rede Hinata Shoyo desenvolve para 'escapar' do bloqueio usando o toque na mão do bloqueador?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Pipe Attack (Ataque Pipe)",
+                    "isCorrect": false,
+                    "explanation": "Pipe Attack é atacar do fundo pelo meio. A técnica de 'escapar' do bloqueio é outra, usando a mão do adversário!"
+                },
+                {
+                    "text": "Ataque Amplo (Broad Attack)",
+                    "isCorrect": false,
+                    "explanation": "Ataque Amplo é a corrida lateral. 'Escapar' do bloqueio envolve usar a mão do bloqueador como 'ferramenta'."
+                },
+                {
+                    "text": "Tool / Wipe (Uso do Bloqueio)",
+                    "isCorrect": true,
+                    "explanation": "Isso! Tool ou Wipe (ブロックアウト - Burokku Auto, ou 'Block Out')! Hinata aprende a 'usar' o bloqueio adversário, mirando nas pontas dos dedos do bloqueador para que a bola vá para fora, marcando ponto. É uma jogada inteligente para contornar um bloqueio alto. O pequeno corvo aprendendo a ser esperto!",
+                    "imageUrl": "https://exemplo.com/hinata_tool_wipe.jpg",
+                    "imageDescription": "Imagem de Hinata atacando e usando a mão do bloqueador para a bola ir para fora."
+                },
+                {
+                    "text": "Finta Rápida",
+                    "isCorrect": false,
+                    "explanation": "Finta é um toque leve. 'Tool'/'Wipe' é um ataque completo que usa a mão do bloqueador."
+                }
+            ]
+        },
+        {
+            "id": 73,
+            "question": "Quem é o levantador do Fukurodani, conhecido por ser calmo, analítico e por lidar com os 'modos emo' do Bokuto?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Kotaro Bokuto",
+                    "isCorrect": false,
+                    "explanation": "Bokuto é o Ás barulhento e cheio de 'modos'! Ele não é o levantador, e definitivamente não é calmo! O levantador dele é que tem que ter paciência de santo!"
+                },
+                {
+                    "text": "Keiji Akaashi",
+                    "isCorrect": true,
+                    "explanation": "É ele! Akaashi Keiji (赤葦 京治)! O levantador do Fukurodani, super calmo e racional. Ele é essencial para manter o Bokuto focado e jogar no seu melhor, sabendo exatamente como lidar com os altos e baixos emocionais do Ás. O 'cuidador' do Bokuto san!",
+                    "imageUrl": "https://exemplo.com/akaashi_calmo.jpg",
+                    "imageDescription": "Imagem de Akaashi com uma expressão calma ou pensativa."
+                },
+                {
+                    "text": "Tetsuro Kuroo",
+                    "isCorrect": false,
+                    "explanation": "Kuroo é do Nekoma, o levantador deles é o Kenma. O levantador do Fukurodani que lida com o Bokuto é o Akaashi."
+                },
+                {
+                    "text": "Atsumu Miya",
+                    "isCorrect": false,
+                    "explanation": "Atsumu Miya é do Inarizaki, o levantador 'Mais Forte'! O levantador do Fukurodani é o Akaashi."
+                }
+            ]
+        },
+        {
+            "id": 74,
+            "question": "Qual o nome da irmã mais velha de Ryunosuke Tanaka, que é uma fã entusiasmada do Karasuno?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Hitoka Yachi",
+                    "isCorrect": false,
+                    "explanation": "Yachi é a gerente novata, amiga do Hinata e Yamaguchi. A irmã do Tanaka é mais velha e tem um carro maneiro!"
+                },
+                {
+                    "text": "Kiyoko Shimizu",
+                    "isCorrect": false,
+                    "explanation": "Kiyoko é a gerente veterana e objeto de adoração de Tanaka (e Nishinoya!). Ela não é a irmã dele!"
+                },
+                {
+                    "text": "Saeko Tanaka",
+                    "isCorrect": true,
+                    "explanation": "É ela! Tanaka Saeko (田中 冴子)! A irmã mais velha do Tanaka, super barulhenta, energética e uma fã *fervorosa* do Karasuno! Ela joga taiko (tambor japonês) e aparece nos jogos com o carro dela para dar uma força extra para os corvos. E adora provocar o irmão e achar o Tsukishima 'cool'. Família Tanaka é pura energia!",
+                    "imageUrl": "https://exemplo.com/saeko_tanaka.jpg",
+                    "imageDescription": "Imagem de Saeko Tanaka torcendo ou dirigindo seu carro."
+                },
+                {
+                    "text": "Akiteru Tsukishima",
+                    "isCorrect": false,
+                    "explanation": "Akiteru é o irmão do Tsukishima. A irmã do Tanaka é a Saeko."
+                }
+            ]
+        },
+        {
+            "id": 75,
+            "question": "Quem é o meio de rede do Shiratorizawa conhecido como 'Guess Monster' por 'adivinhar' os ataques adversários?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Wakatoshi Ushijima",
+                    "isCorrect": false,
+                    "explanation": "Ushijima é o Ás poderoso, não o bloqueador que adivinha. Ele *é* o ataque que o 'Guess Monster' tenta parar!"
+                },
+                {
+                    "text": "Satori Tendo",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Tendo Satori (天童 覚)! O meio de rede com personalidade excêntrica e o apelido 'Guess Monster' (ゲス・モンスター - Gesu Monsutaa) porque ele bloqueia 'adivinhando' para onde a bola vai, baseando-se na intuição e nas características do atacante. Ele é o 'vilão' divertido do arco do Shiratorizawa. Shaa-pu!",
+                    "imageUrl": "https://exemplo.com/tendo_guess_monster_pose.jpg",
+                    "imageDescription": "Imagem de Tendo em uma pose característica do 'Guess Monster'."
+                },
+                {
+                    "text": "Tsutomu Goshiki",
+                    "isCorrect": false,
+                    "explanation": "Goshiki é o atacante ambicioso. O 'Guess Monster' é o meio de rede com cabelo vermelho."
+                },
+                {
+                    "text": "Reon Ohira",
+                    "isCorrect": false,
+                    "explanation": "Ohira é um dos atacantes do Shiratorizawa. O 'Guess Monster' é o meio de rede Tendo."
+                }
+            ]
+        },
+        {
+            "id": 76,
+            "question": "Qual a escola conhecida por usar um 'Ataque Rápido Coordenado' onde vários atacantes correm ao mesmo tempo para confundir o bloqueio?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Aoba Johsai (Seijoh)",
+                    "isCorrect": false,
+                    "explanation": "Seijoh tem ótimas jogadas, mas o ataque rápido coordenado em vários pontos é a especialidade de outro time, que usa isso para quebrar o 'Muro de Ferro'."
+                },
+                {
+                    "text": "Nekoma High",
+                    "isCorrect": false,
+                    "explanation": "Nekoma foca em defesa e 'conexão'. O ataque rápido coordenado é de outro time de Miyagi."
+                },
+                {
+                    "text": "Karasuno High",
+                    "isCorrect": true,
+                    "explanation": "Isso mesmo! O Karasuno (烏野)! Eles desenvolvem o 'Ataque Sincronizado' (シンクロ攻撃 - Shinkuro Kougeki), onde múltiplos jogadores (Hinata, Tanaka, Asahi, etc.) correm para atacar ao mesmo tempo, forçando os bloqueadores adversários a adivinhar quem vai receber o levantamento. É a bagunça organizada do Karasuno que engana os muros inimigos!",
+                    "imageUrl": "https://exemplo.com/karasuno_ataque_sincronizado_time.jpg",
+                    "imageDescription": "Imagem mostrando a equipe do Karasuno executando o ataque sincronizado."
+                },
+                {
+                    "text": "Date Tech High",
+                    "isCorrect": false,
+                    "explanation": "Date Tech é o 'Muro de Ferro'! Eles são o time que sofre contra o ataque sincronizado, não quem o usa."
+                }
+            ]
+        },
+        {
+            "id": 77,
+            "question": "Qual jogador do Inarizaki tem uma presença calma e assustadora na quadra, conhecido por seus ataques 'flexíveis' e sarcasmo?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Shinsuke Kita",
+                    "isCorrect": false,
+                    "explanation": "Kita é o capitão 'rotina', calmo sim, mas não 'assustador' ou sarcástico de um jeito que intimida os adversários em quadra. O meio de rede que faz isso é outro."
+                },
+                {
+                    "text": "Atsumu Miya",
+                    "isCorrect": false,
+                    "explanation": "Atsumu é assustador no talento e arrogância, mas não é 'calmo'. Ele é explosivo! O jogador calmo e assustador com ataques flexíveis é o Suna."
+                },
+                {
+                    "text": "Rintaro Suna",
+                    "isCorrect": true,
+                    "explanation": "Exato! Suna Rintaro (角名 倫太郎)! O meio de rede alto e inexpressivo do Inarizaki, com uma presença calma que contrasta com os gêmeos Miya. Sua habilidade de 'torcer' o corpo para atacar em ângulos imprevisíveis o torna uma ameaça silenciosa e assustadora que pode furar qualquer bloqueio. E ele adora gravar tudo e dar 'zoom' nos momentos engraçados!",
+                    "imageUrl": "https://exemplo.com/suna_calmo.jpg",
+                    "imageDescription": "Imagem de Suna com uma expressão calma ou analítica."
+                },
+                {
+                    "text": "Aran Ojiro",
+                    "isCorrect": false,
+                    "explanation": "Aran é o Ás poderoso, direto e confiável. A calma assustadora com ataques flexíveis é a marca do meio de rede Suna."
+                }
+            ]
+        },
+        {
+            "id": 78,
+            "question": "Quem é o jogador do Karasuno que inicialmente sofre com ansiedade na hora de sacar sob pressão, mas supera isso?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Tobio Kageyama",
+                    "isCorrect": false,
+                    "explanation": "Kageyama tem pressão como levantador, mas a ansiedade específica na hora do saque, que o fez errar em momentos cruciais, era do Yamaguchi!"
+                },
+                {
+                    "text": "Tadashi Yamaguchi",
+                    "isCorrect": true,
+                    "explanation": "É ele! Yamaguchi Tadashi (山口 忠)! Ele era o único primeiro ano que não era titular e sentia uma pressão enorme para entrar e usar seu saque flutuante com salto. Errou em momentos importantes, mas com apoio dos amigos e treino duro, superou a ansiedade e se tornou o 'Pinpoint Server' confiável. Que superação!",
+                    "imageUrl": "https://exemplo.com/yamaguchi_superando_ansiedade.jpg",
+                    "imageDescription": "Imagem de Yamaguchi realizando um saque importante com determinação."
+                },
+                {
+                    "text": "Chikara Ennoshita",
+                    "isCorrect": false,
+                    "explanation": "Ennoshita teve um momento de 'fuga' no passado, mas a luta contra a ansiedade específica na hora do saque sob pressão é a história do Yamaguchi."
+                },
+                {
+                    "text": "Hisashi Kinoshita",
+                    "isCorrect": false,
+                    "explanation": "Kinoshita também tem um saque flutuante, mas a história de superação da ansiedade no saque sob pressão é a do Yamaguchi."
+                }
+            ]
+        },
+        {
+            "id": 79,
+            "question": "Qual o nome da tática que o Nekoma usa para defender e manter a bola em jogo, focando em 'conectar' os lances?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Muro de Ferro",
+                    "isCorrect": false,
+                    "explanation": "Muro de Ferro é o bloqueio do Date Tech! A tática do Nekoma é sobre defender e passar a bola para manter o rally vivo."
+                },
+                {
+                    "text": "Contra-ataque Rápido",
+                    "isCorrect": false,
+                    "explanation": "Contra-ataque vem depois da defesa, mas a tática principal do Nekoma é a defesa e recepção em si, a 'conexão'."
+                },
+                {
+                    "text": "Sistema de Recepção e Conexão",
+                    "isCorrect": true,
+                    "explanation": "Exatamente! O 'Sistema de Recepção e Conexão' (繋ぎ - Tsunagi, que significa 'conectar')! O Nekoma foca em ter uma defesa e recepção impecáveis, com todos os jogadores prontos para manter a bola em jogo e passá-la de volta para o levantador. Eles podem não ter super-ataques, mas são mestres em não deixar a bola cair. A 'conexão' deles é sua maior arma!",
+                    "imageUrl": "https://exemplo.com/nekoma_conexao.jpg",
+                    "imageDescription": "Imagem do time do Nekoma se movimentando em sincronia para defender ou receber."
+                },
+                {
+                    "text": "Bloqueio em Leitura (Read Block)",
+                    "isCorrect": false,
+                    "explanation": "Bloqueio em leitura é uma parte da defesa na rede do Nekoma, mas a tática geral é focada na recepção e em manter o rally vivo em toda a quadra ('conexão')."
+                }
+            ]
+        },
+        {
+            "id": 80,
+            "question": "Quem é o jogador do Shiratorizawa conhecido por seu poder de ataque, sendo um dos 3 melhores Ases do Japão?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Kotaro Bokuto",
+                    "isCorrect": false,
+                    "explanation": "Bokuto é do Fukurodani, outro dos Top 5 Ases! O Ás do Shiratorizawa é o gigante canhoto."
+                },
+                {
+                    "text": "Aran Ojiro",
+                    "isCorrect": false,
+                    "explanation": "Aran é o Ás do Inarizaki, também um dos Top 5! O Ás do Shiratorizawa é o 'Rei' da província de Miyagi."
+                },
+                {
+                    "text": "Wakatoshi Ushijima",
+                    "isCorrect": true,
+                    "explanation": "É ele! Ushijima Wakatoshi (牛島 若利)! O Ás canhoto (esquerda) do Shiratorizawa e um dos 3 melhores Ases do Japão (na época do colegial). Seu poder e consistência são a força motriz do Shiratorizawa e o grande obstáculo do Karasuno em Miyagi. O 'Rei' que o Kageyama tanto almeja superar!",
+                    "imageUrl": "https://exemplo.com/ushijima_poder.jpg",
+                    "imageDescription": "Imagem de Ushijima realizando um ataque muito poderoso."
+                },
+                {
+                    "text": "Satori Tendo",
+                    "isCorrect": false,
+                    "explanation": "Tendo é o 'Guess Monster', um ótimo bloqueador. O Ás do Shiratorizawa é o Ushijima!"
+                }
+            ]
+        },
+        {
+            "id": 81,
+            "question": "Qual a frase que Tsukishima Kei diz para Yamaguchi para pará-lo quando ele começa a gritar?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Yamaguchi, para!",
+                    "isCorrect": false,
+                    "explanation": "Ele quer que ele pare, mas a frase icônica é mais curta, direta e... rude, do jeito que só o Tsukki faz!"
+                },
+                {
+                    "text": "Cala a boca, Yamaguchi!",
+                    "isCorrect": true,
+                    "explanation": "Hahaha! Exatamente! 'Urusai, Yamaguchi!' (うるさい、山口 - Cala a boca, Yamaguchi!) Essa é a frase clássica do Tsukishima para o seu melhor amigo, geralmente quando Yamaguchi está muito empolgado ou nervoso. É a demonstração de afeto (peculiar) do Tsukki!",
+                    "imageUrl": "https://exemplo.com/tsukishima_urusai_yamaguchi.jpg",
+                    "imageDescription": "Imagem de Tsukishima falando com Yamaguchi, com uma expressão indiferente."
+                },
+                {
+                    "text": "Tsukki!",
+                    "isCorrect": false,
+                    "explanation": "Essa é a frase que o Yamaguchi grita para o Tsukishima! Não o contrário."
+                },
+                {
+                    "text": "Relaxa, Yamaguchi",
+                    "isCorrect": false,
+                    "explanation": "Tsukishima não é conhecido por ser relaxado ou pedir para os outros relaxarem! A frase dele é para calar o amigo!"
+                }
+            ]
+        },
+        {
+            "id": 82,
+            "question": "Quem é o capitão do Fukurodani, conhecido por sua personalidade instável e por ser um dos Top 5 Ases do Japão?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Keiji Akaashi",
+                    "isCorrect": false,
+                    "explanation": "Akaashi é o levantador calmo e o 'cuidador' do time! O Ás instável e capitão é o Bokuto!"
+                },
+                {
+                    "text": "Kotaro Bokuto",
+                    "isCorrect": true,
+                    "explanation": "Uhu! É ele! Bokuto Kotaro (木兎 光太郎)! O Ás do Fukurodani, o terceiro melhor do Japão (na época). Ele tem uma energia incrível, mas também entra nos seus famosos 'modos emo' quando algo dá errado. É o capitão barulhento e o 'aluno' do Akaashi em como ser um Ás estável. HEY HEY HEEEY!",
+                    "imageUrl": "https://exemplo.com/bokuto_heyheyheey.jpg",
+                    "imageDescription": "Imagem de Bokuto fazendo sua pose ou grito 'Hey Hey Heey!'."
+                },
+                {
+                    "text": "Tetsuro Kuroo",
+                    "isCorrect": false,
+                    "explanation": "Kuroo é o capitão do Nekoma! O capitão instável e Ás do Fukurodani é o Bokuto."
+                },
+                {
+                    "text": "Wakatoshi Ushijima",
+                    "isCorrect": false,
+                    "explanation": "Ushijima é o Ás do Shiratorizawa! O capitão instável e Ás do Fukurodani é o Bokuto."
+                }
+            ]
+        },
+        {
+            "id": 83,
+            "question": "Qual a função principal de um 'Ponta' (Outside Hitter / Wing Spiker) no vôlei?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Organizar o ataque e fazer levantamentos precisos",
+                    "isCorrect": false,
+                    "explanation": "Essa é a função do Levantador! Pontas são focado em outra coisa... bater na bola!"
+                },
+                {
+                    "text": "Focar na defesa e recepção no fundo de quadra",
+                    "isCorrect": false,
+                    "explanation": "Essa é a função do Líbero! Pontas participam da defesa/recepção, mas a função principal é outra, na rede!"
+                },
+                {
+                    "text": "Ser a principal força de ataque e participar da recepção",
+                    "isCorrect": true,
+                    "explanation": "Exato! Pontas (Outside Hitter / Wing Spiker) são os atacantes mais versáteis, geralmente responsáveis pela maior parte dos ataques (pelas pontas!) e também pela recepção de saque no fundo de quadra. Tanaka, Asahi, Daichi, Yamamoto, Iwaizumi... eles fazem um pouco de tudo, mas brilham atacando!",
+                    "imageUrl": "https://exemplo.com/ponta_atacando.jpg",
+                    "imageDescription": "Imagem de um jogador na posição de ponta realizando um ataque."
+                },
+                {
+                    "text": "Fazer bloqueios no meio da rede",
+                    "isCorrect": false,
+                    "explanation": "Bloqueio no meio é a função principal dos Meios de Rede! Pontas bloqueiam também, mas não é a função primária deles."
+                }
+            ]
+        },
+        {
+            "id": 84,
+            "question": "Qual o nome da escola rival do Fukurodani em Tóquio, que também é uma das Top 3 da região?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Nekoma High",
+                    "isCorrect": false,
+                    "explanation": "Nekoma é um rival de Tóquio, mas não faz parte do Top 3 da região (junto com Fukurodani e Itachiyama). Eles são mais a 'conexão' vs 'poder'."
+                },
+                {
+                    "text": "Johzenji High",
+                    "isCorrect": false,
+                    "explanation": "Johzenji é outro time de Tóquio com estilo caótico, mas não é do Top 3 da região. O rival do Fukurodani que faz parte desse trio de elite é o time do Sakusa!"
+                },
+                {
+                    "text": "Itachiyama Institute",
+                    "isCorrect": true,
+                    "explanation": "Isso! Itachiyama Institute (井闥山学院)! O time do Sakusa Kiyoomi, o Ás germofóbico! Eles são, junto com Fukurodani, um dos times mais fortes de Tóquio (e do Japão!). Bokuto e Akaashi os encaram como um dos grandes obstáculos em Tóquio. Rivais de peso!",
+                    "imageUrl": "https://exemplo.com/itachiyama_logo.jpg",
+                    "imageDescription": "Logo ou imagem do time do Itachiyama Institute."
+                },
+                {
+                    "text": "Mujinazaka High",
+                    "isCorrect": false,
+                    "explanation": "Mujinazaka é o time do Ás Kiryu, mas eles são de outra província (Oita!), não de Tóquio. O rival do Fukurodani em Tóquio é o Itachiyama."
+                }
+            ]
+        },
+        {
+            "id": 85,
+            "question": "Quem é o jogador do Shiratorizawa conhecido por ser o 'futuro Ás' e ter uma rivalidade unilateral com o Ushijima?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Eita Semi",
+                    "isCorrect": false,
+                    "explanation": "Semi é o levantador veterano. O 'futuro Ás' que admira e quer superar o Ushijima é um jogador de primeiro ano."
+                },
+                {
+                    "text": "Kenjiro Shirabu",
+                    "isCorrect": false,
+                    "explanation": "Shirabu é o levantador titular. O 'futuro Ás' é um atacante de primeiro ano que quer roubar o posto do Ushijima (um dia!)."
+                },
+                {
+                    "text": "Tsutomu Goshiki",
+                    "isCorrect": true,
+                    "explanation": "É ele! Goshiki Tsutomu (五色 工)! O ponta de primeiro ano do Shiratorizawa, super energético e com um complexo de rivalidade unilateral com o Ushijima, decidido a se tornar o próximo Ás. Ele é talentoso, mas a ingenuidade e a vontade de aparecer às vezes o colocam em apuros. Um filhote de águia ambicioso!",
+                    "imageUrl": "https://exemplo.com/goshiki_determinado.jpg",
+                    "imageDescription": "Imagem de Goshiki com uma expressão determinada ou competitiva."
+                },
+                {
+                    "text": "Reon Ohira",
+                    "isCorrect": false,
+                    "explanation": "Ohira é um dos atacantes veteranos do Shiratorizawa, forte e confiável. O 'futuro Ás' é o Goshiki."
+                }
+            ]
+        },
+        {
+            "id": 86,
+            "question": "O que significa o gesto que o time do Nekoma faz antes dos jogos, colocando a mão na frente do rosto?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Representar a cara de um gato",
+                    "isCorrect": true,
+                    "explanation": "Miaaau! Acertou! Eles colocam a mão na frente do rosto para simular a cara de um gato (Nekoma = Escola Gato!). É o gesto icônico deles, mostrando o espírito felino do time e preparando-se para a 'caçada' em quadra. Super temático!",
+                    "imageUrl": "https://exemplo.com/nekoma_gesto_gato.jpg",
+                    "imageDescription": "Imagem do time do Nekoma fazendo o gesto de 'cara de gato'."
+                },
+                {
+                    "text": "Cobrir o rosto para não mostrar nervosismo",
+                    "isCorrect": false,
+                    "explanation": "Eles podem estar nervosos, mas o gesto é sobre o mascote do time, não sobre esconder emoções!"
+                },
+                {
+                    "text": "Um cumprimento ao adversário",
+                    "isCorrect": false,
+                    "explanation": "Eles se cumprimentam de outra forma. O gesto da mão é interno do time e representa a identidade deles."
+                },
+                {
+                    "text": "Esconder a estratégia secreta",
+                    "isCorrect": false,
+                    "explanation": "Haha, bem que eles gostariam! Mas o gesto é um ritual do time, não uma tática secreta. É sobre ser um gato!"
+                }
+            ]
+        },
+        {
+            "id": 87,
+            "question": "Quem é o 'Ás' do Mujinazaka High, um dos 3 melhores Ases do Japão (junto com Ushijima e Sakusa)?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Kotaro Bokuto",
+                    "isCorrect": false,
+                    "explanation": "Bokuto é um dos Top 5, sim, mas o terceiro dos Top 3 (além de Ushijima e Sakusa) é o Ás de outro time, de outra província."
+                },
+                {
+                    "text": "Aran Ojiro",
+                    "isCorrect": false,
+                    "explanation": "Aran é o Ás do Inarizaki, também um dos Top 5! O terceiro dos Top 3 é o Ás do Mujinazaka."
+                },
+                {
+                    "text": "Kiyoomi Sakusa",
+                    "isCorrect": false,
+                    "explanation": "Sakusa é um dos Top 3 (do Itachiyama)! Você precisa encontrar o *terceiro* Ás que completa o trio principal mencionado na série."
+                },
+                {
+                    "text": "Kiyoomi Sakusa ou Wakatoshi Ushijima",
+                    "isCorrect": false,
+                    "explanation": "Ushijima e Sakusa são dois dos Top 3. Quem é o terceiro que completa a lista?"
+                },
+                {
+                    "text": "Kiyoomi Sakusa ou Ushijima Wakatoshi",
+                    "isCorrect": false,
+                    "explanation": "Ushijima e Sakusa são dois dos Top 3. Quem é o terceiro que completa a lista?"
+                },
+                {
+                    "text": "Korai Hoshiumi",
+                    "isCorrect": false,
+                    "explanation": "Hoshiumi é o 'Pequeno Gigante' do Kamomedai, um atacante incrível, mas não faz parte do trio 'Top 3 Ases' originais mencionados na série. Ele é de uma 'categoria' diferente!"
+                },
+                {
+                    "text": "Shingo Nakashima",
+                    "isCorrect": false,
+                    "explanation": "Nakashima é o Ás do Wakunan, um Ás resiliente, mas não faz parte dos Top 3 do Japão."
+                },
+                {
+                    "text": "Wakatsu Kiryu",
+                    "isCorrect": true,
+                    "explanation": "É ele! Kiryu Wakatsu (桐生 八)! O Ás do Mujinazaka High, de Oita, e o terceiro dos Top 3 Ases do colegial no Japão (junto com Ushijima e Sakusa). Ele é super poderoso, mesmo tendo um complexo por não ser tão 'cool' quanto os outros Ases. O 'Touro' dos Top 3!",
+                    "imageUrl": "https://exemplo.com/kiryu_wakatsu_ataque.jpg",
+                    "imageDescription": "Imagem de Wakatsu Kiryu realizando um ataque poderoso."
+                }
+            ]
+        },
+        {
+            "id": 88,
+            "question": "Quem é o levantador do Karasuno que, embora não seja o titular, ajuda Kageyama a entender a importância de 'confiar' nos seus atacantes?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Tobio Kageyama",
+                    "isCorrect": false,
+                    "explanation": "Kageyama é o levantador que precisa aprender a confiar! Ele não se ensina isso, outro levantador gentil o ajuda nessa lição."
+                },
+                {
+                    "text": "Sugawara Koushi",
+                    "isCorrect": true,
+                    "explanation": "Exatamente! Sugawara Koushi (菅原 孝支)! O levantador veterano e gentil! Ele mostra ao Kageyama que um levantador não precisa ser perfeito, mas sim ter a confiança de seus atacantes e, mais importante, *confiar* neles para fazer o seu melhor com qualquer passe. O Suga ensinou essa lição vital ao 'Rei'!",
+                    "imageUrl": "https://exemplo.com/sugawara_aconselhando_kageyama.jpg",
+                    "imageDescription": "Imagem de Sugawara falando ou aconselhando Kageyama."
+                },
+                {
+                    "text": "Daichi Sawamura",
+                    "isCorrect": false,
+                    "explanation": "Daichi é o capitão, a base. A lição sobre confiança nos atacantes veio de outro membro do time."
+                },
+                {
+                    "text": "Hitoka Yachi",
+                    "isCorrect": false,
+                    "explanation": "Yachi é a gerente! A lição sobre confiança veio de um colega de quadra, um levantador!"
+                }
+            ]
+        },
+        {
+            "id": 89,
+            "question": "Qual a escola conhecida por seu estilo de jogo 'divertido', 'caótico' e atlético, com o lema 'Joguem Divertidamente'?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Karasuno High",
+                    "isCorrect": false,
+                    "explanation": "Karasuno é intenso e barulhento, mas o lema deles é 'Voar'! O time focado em 'Jogar Divertidamente' é outro, de Tóquio."
+                },
+                {
+                    "text": "Johzenji High",
+                    "isCorrect": true,
+                    "explanation": "É o Johzenji (条善寺)! O time do Ás Terushima! Eles abraçam um estilo de jogo super atlético, acrobático e, acima de tudo, 'divertido'! Eles se adaptam e improvisam constantemente, tornando os jogos contra eles imprevisíveis e emocionantes. Pura alegria e caos em quadra!",
+                    "imageUrl": "https://exemplo.com/johzenji_time_divertido.jpg",
+                    "imageDescription": "Imagem do time do Johzenji com expressões animadas ou fazendo jogadas acrobáticas."
+                },
+                {
+                    "text": "Nekoma High",
+                    "isCorrect": false,
+                    "explanation": "Nekoma foca em 'conexão' e defesa. O estilo 'divertido' e caótico é do Johzenji!"
+                },
+                {
+                    "text": "Fukurodani Academy",
+                    "isCorrect": false,
+                    "explanation": "Fukurodani é forte, com Bokuto e Akaashi, mas o estilo 'divertido' e caótico como filosofia é a marca do Johzenji."
+                }
+            ]
+        },
+        {
+            "id": 90,
+            "question": "Quem é o levantador do Aoba Johsai que tem uma forte rivalidade com Kageyama Tobio e é o 'Grande Rei'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Hajime Iwaizumi",
+                    "isCorrect": false,
+                    "explanation": "Iwaizumi é o Ás e vice-capitão, o parceiro do 'Grande Rei'! A rivalidade com Kageyama e o título de 'Grande Rei' são do levantador!"
+                },
+                {
+                    "text": "Tooru Oikawa",
+                    "isCorrect": true,
+                    "explanation": "É ele, 'O Grande Rei'! Oikawa Tooru (及川 徹)! Levantador estrela, capitão do Seijoh e rival de longa data do Kageyama desde os tempos de Kitagawa Daiichi. Ele tem inveja do talento natural do Kageyama, mas usa isso como motivação para ser ainda melhor. A rivalidade deles é épica!",
+                    "imageUrl": "https://exemplo.com/oikawa_rivalidade_kageyama.jpg",
+                    "imageDescription": "Imagem de Oikawa olhando para Kageyama com uma expressão competitiva."
+                },
+                {
+                    "text": "Shinji Watari",
+                    "isCorrect": false,
+                    "explanation": "Watari é o líbero/sacador flutuante. O 'Grande Rei' e rival do Kageyama é o levantador Oikawa!"
+                },
+                {
+                    "text": "Issei Matsukawa",
+                    "isCorrect": false,
+                    "explanation": "Matsukawa é um bloqueador. A rivalidade entre levantadores é entre Oikawa e Kageyama!"
+                }
+            ]
+        },
+        {
+            "id": 92,
+            "question": "Quem é o Ás do Kamomedai High, conhecido como o 'Pequeno Gigante' moderno?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Shoyo Hinata",
+                    "isCorrect": false,
+                    "explanation": "Hinata é o 'Pequeno Gigante' do Karasuno que se inspira no original! O 'Pequeno Gigante' moderno, que ele enfrenta nas Nacionais, é outro jogador baixo e talentoso."
+                },
+                {
+                    "text": "Korai Hoshiumi",
+                    "isCorrect": true,
+                    "explanation": "É ele! Hoshiumi Korai (星海 光来)! O Ás do Kamomedai High, e o 'Pequeno Gigante' da geração de Hinata. Apesar de baixo, ele tem um salto incrível, técnica apurada e um espírito de luta imenso, sendo capaz de executar ataques e saques que rivalizam com jogadores muito mais altos. A rivalidade entre ele e Hinata nas Nacionais é épica!",
+                    "imageUrl": "https://exemplo.com/hoshiumi_salto.jpg",
+                    "imageDescription": "Imagem de Korai Hoshiumi pulando incrivelmente alto para um ataque."
+                },
+                {
+                    "text": "Wakatsu Kiryu",
+                    "isCorrect": false,
+                    "explanation": "Kiryu é um dos Top 3 Ases, do Mujinazaka! O 'Pequeno Gigante' moderno é o Hoshiumi do Kamomedai."
+                },
+                {
+                    "text": "Kotaro Bokuto",
+                    "isCorrect": false,
+                    "explanation": "Bokuto é um dos Top 5 Ases, do Fukurodani! O 'Pequeno Gigante' moderno é o Hoshiumi, que aparece mais tarde na série."
+                }
+            ]
+        },
+        {
+            "id": 93,
+            "question": "Qual a principal característica do saque de Tobio Kageyama?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Saque Flutuante com Salto Imprevisível",
+                    "isCorrect": false,
+                    "explanation": "Saque Flutuante com Salto é a especialidade do Yamaguchi! O saque do Kageyama é mais direto e potente."
+                },
+                {
+                    "text": "Saque Viagem Poderoso",
+                    "isCorrect": false,
+                    "explanation": "Saque Viagem é a marca registrada do Oikawa e Asahi! O saque do Kageyama é diferente, mas igualmente poderoso."
+                },
+                {
+                    "text": "Saque em Suspensão com Potência e Controle",
+                    "isCorrect": true,
+                    "explanation": "Exato! O Saque em Suspensão (ジャンプサーブ - Jumpu Saabu)! O saque do Kageyama é uma bomba que combina força bruta com controle direcional. Ele consegue mirar em áreas específicas da quadra ou diretamente nos jogadores para quebrar a recepção. Um saque digno de um 'Rei'!",
+                    "imageUrl": "https://exemplo.com/kageyama_saque_suspensao.jpg",
+                    "imageDescription": "Imagem de Kageyama realizando seu saque em suspensão."
+                },
+                {
+                    "text": "Saque por Baixo Surpresa",
+                    "isCorrect": false,
+                    "explanation": "Saque por baixo é coisa do Hinata no começo! O Kageyama usa um saque em suspensão, uma arma ofensiva poderosa!"
+                }
+            ]
+        },
+        {
+            "id": 94,
+            "question": "O que significa 'Tempo Zero' (ou Minus Tempo) no ataque rápido de Kageyama e Hinata?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "O ataque é feito exatamente no momento em que a bola cruza a rede",
+                    "isCorrect": false,
+                    "explanation": "Não é quando cruza a rede. É sobre o timing do ataque e do passe."
+                },
+                {
+                    "text": "O atacante pula e ataca antes mesmo do passe atingir o ponto mais alto",
+                    "isCorrect": true,
+                    "explanation": "Bingo! 'Tempo Zero' ou 'Minus Tempo' (マイナステンポ - Mainasu Tenpo)! Kageyama faz o levantamento para o Hinata de forma tão rápida e precisa que Hinata salta para atacar ANTES que o passe atinja seu ápice. Isso pega o bloqueio totalmente desprevenido. É por isso que é um 'ataque rápido monstro' – o tempo de ataque é praticamente inexistente para o adversário!",
+                    "imageUrl": "https://exemplo.com/minus_tempo_diagrama.jpg",
+                    "imageDescription": "Diagrama explicando o timing do ataque rápido minus tempo de Kageyama e Hinata."
+                },
+                {
+                    "text": "O atacante e o levantador decidem a jogada em tempo real, sem sinal",
+                    "isCorrect": false,
+                    "explanation": "Decidir em tempo real é importante, mas 'Tempo Zero' se refere ao timing específico entre o passe e o salto do atacante."
+                },
+                {
+                    "text": "O ataque é tão rápido que parece que o tempo parou",
+                    "isCorrect": false,
+                    "explanation": "Parece, mas a explicação técnica é sobre o timing do salto em relação ao passe."
+                }
+            ]
+        },
+        {
+            "id": 95,
+            "question": "Qual jogador do Karasuno é conhecido por sua personalidade barulhenta, lealdade aos senpais e rivalidade com o Yamamoto do Nekoma?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Shoyo Hinata",
+                    "isCorrect": false,
+                    "explanation": "Hinata é barulhento, sim! Mas a lealdade aos senpais (especialmente à Kiyoko!) e a rivalidade com o Yamamoto são a cara de outro cara... o careca!"
+                },
+                {
+                    "text": "Ryunosuke Tanaka",
+                    "isCorrect": true,
+                    "explanation": "É ele! Tanaka Ryunosuke (田中 龍之介)! O 'senpai' barulhento e espirituoso, leal devoto da Kiyoko e do time, e rival jurado (no bom sentido!) do Yamamoto do Nekoma pela 'honra' de ser o Ás e o cara mais 'durão'. Ele é a alma do Karasuno e adora um 'OOOOOSSS!'!",
+                    "imageUrl": "https://exemplo.com/tanaka_oooooss.jpg",
+                    "imageDescription": "Imagem de Tanaka gritando 'OOOOOSSS!' ou em uma pose espirituosa."
+                },
+                {
+                    "text": "Yu Nishinoya",
+                    "isCorrect": false,
+                    "explanation": "Nishinoya é barulhento e leal, parceiro de Tanaka nas loucuras! Mas a rivalidade com o Yamamoto e a devoção à Kiyoko são mais associadas ao Tanaka."
+                },
+                {
+                    "text": "Daichi Sawamura",
+                    "isCorrect": false,
+                    "explanation": "Daichi é o capitão calmo e confiável, que *controla* a barulheira de Tanaka e Nishinoya! Ele não é barulhento, é a voz da razão."
+                }
+            ]
+        },
+        {
+            "id": 96,
+            "question": "Quem é o Ás do Kamomedai High, um jogador baixo com um salto e técnica incríveis, comparado ao 'Pequeno Gigante'?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Shoyo Hinata",
+                    "isCorrect": false,
+                    "explanation": "Hinata é o 'Pequeno Gigante' do Karasuno! Mas o Ás do Kamomedai que tem características parecidas e é considerado o 'Pequeno Gigante' moderno é outro jogador, que ele enfrenta nas Nacionais."
+                },
+                {
+                    "text": "Korai Hoshiumi",
+                    "isCorrect": true,
+                    "explanation": "Certíssimo! Hoshiumi Korai (星海 光来)! O 'Pequeno Gigante' de Kamomedai, um Ás baixo com habilidades aéreas e técnicas que o tornam um adversário formidável. Ele e Hinata são dois 'pequenos gigantes' que se inspiram e rivalizam nas quadras. O 'Monstro da Altura'!",
+                    "imageUrl": "https://exemplo.com/hoshiumi_ataque.jpg",
+                    "imageDescription": "Imagem de Korai Hoshiumi no ápice de seu salto realizando um ataque."
+                },
+                {
+                    "text": "Korai Hoshiumi ou Hirugami Sachiro",
+                    "isCorrect": false,
+                    "explanation": "Hoshiumi é o Ás. Hirugami é um meio de rede especialista em bloqueio. O 'Pequeno Gigante' moderno é o Hoshiumi!"
+                },
+                {
+                    "text": "Sachiro Hirugami",
+                    "isCorrect": false,
+                    "explanation": "Hirugami é o meio de rede 'cai fora' do Kamomedai, especialista em bloqueio. O 'Pequeno Gigante' e Ás do time é o Hoshiumi."
+                }
+            ]
+        },
+        {
+            "id": 97,
+            "question": "O que é uma 'finta' (dump) no vôlei, usada por levantadores como uma surpresa?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Um saque com efeito que 'engana' a recepção",
+                    "isCorrect": false,
+                    "explanation": "Isso seria um saque flutuante ou viagem. Uma finta é feita pelo levantador na rede."
+                },
+                {
+                    "text": "Um ataque poderoso feito pelo levantador",
+                    "isCorrect": false,
+                    "explanation": "Pode ter força, mas a finta é mais sobre toque e surpresa, não sobre força bruta de ataque."
+                },
+                {
+                    "text": "Um toque leve na bola feito pelo levantador para 'surpreender' o adversário, jogando para uma área vazia da quadra",
+                    "isCorrect": true,
+                    "explanation": "Exatamente! Uma Finta (フェイント - Feinto)! O levantador (como Kageyama, Oikawa, Kenma, Sugawara) finge que vai levantar, mas dá um toque suave na bola, jogando-a por cima do bloqueio ou para um espaço vazio na quadra adversária. É uma jogada inteligente e rápida para pegar a defesa desprevenida. Pura malandragem!",
+                    "imageUrl": "https://exemplo.com/levantador_finta.jpg",
+                    "imageDescription": "Imagem de um levantador realizando uma finta na rede."
+                },
+                {
+                    "text": "Um bloqueio feito por apenas um jogador",
+                    "isCorrect": false,
+                    "explanation": "Isso é um bloqueio individual. Finta é uma jogada ofensiva feita pelo levantador."
+                }
+            ]
+        },
+        {
+            "id": 98,
+            "question": "Qual o nome do irmão mais velho de Kei Tsukishima, que também jogou vôlei no Karasuno?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Akiteru Tsukishima",
+                    "isCorrect": true,
+                    "explanation": "É ele! Tsukishima Akiteru (月島 明光)! O irmão mais velho do Kei, que jogou no Karasuno no passado, mas não alcançou o destaque que esperava. Ele ama vôlei e apoia o Kei, ajudando-o a reencontrar a paixão pelo esporte e superar seus complexos. O irmão 'cool' que inspira o Tsukki!",
+                    "imageUrl": "https://exemplo.com/akiteru_tsukishima.jpg",
+                    "imageDescription": "Imagem de Akiteru Tsukishima assistindo a um jogo ou interagindo com Kei."
+                },
+                {
+                    "text": "Shimada Makoto",
+                    "isCorrect": false,
+                    "explanation": "Shimada é o dono do Shimada Mart que treinou o Yamaguchi! Ele não é irmão do Tsukishima."
+                },
+                {
+                    "text": "Saeko Tanaka",
+                    "isCorrect": false,
+                    "explanation": "Saeko é a irmã do Tanaka! O irmão do Tsukishima é o Akiteru."
+                },
+                {
+                    "text": "Chikara Ennoshita",
+                    "isCorrect": false,
+                    "explanation": "Ennoshita é um colega de time do Tsukishima, um dos segundos anos. Não é irmão dele!"
+                }
+            ]
+        },
+        {
+            "id": 99,
+            "question": "Qual a principal lição que Shoyo Hinata aprende com o 'Pequeno Gigante' (o original) ao vê-lo jogar?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Que a altura não importa, o que importa é o salto",
+                    "isCorrect": false,
+                    "explanation": "O salto é crucial, sim, mas a lição é mais profunda do que só a habilidade física. É sobre *como* ele usava suas ferramentas."
+                },
+                {
+                    "text": "Que mesmo sendo pequeno, ele pode lutar e pontuar em quadra",
+                    "isCorrect": true,
+                    "explanation": "Exato! A lição principal é que, mesmo sendo baixo, o 'Pequeno Gigante' usava sua velocidade, agilidade e salto para lutar contra os jogadores altos e marcar pontos, mostrando a Hinata que não é a altura que define um Ás, mas sim a habilidade de fazer a bola cair, não importa o tamanho. 'Não é a altura, é a paisagem!', inspirando Hinata a 'Voar'!",
+                    "imageUrl": "https://exemplo.com/pequeno_gigante_inspirando_hinata.jpg",
+                    "imageDescription": "Imagem de Hinata assistindo ao Pequeno Gigante na TV, inspirado."
+                },
+                {
+                    "text": "Como fazer um saque viagem poderoso",
+                    "isCorrect": false,
+                    "explanation": "O saque do Pequeno Gigante não foi o foco da inspiração de Hinata. Foi o ataque dele contra os bloqueios!"
+                },
+                {
+                    "text": "Como ser um levantador genial como Kageyama",
+                    "isCorrect": false,
+                    "explanation": "O Pequeno Gigante era um Ás, um atacante! Hinata se inspirou no ataque dele, não na posição de levantador."
+                }
+            ]
+        },
+        {
+            "id": 100,
+            "question": "Qual o nome do meio de rede do Kamomedai High, conhecido por ser um mestre do bloqueio 'cai fora' (depois de tocar na bola)?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Korai Hoshiumi",
+                    "isCorrect": false,
+                    "explanation": "Hoshiumi é o Ás, o 'Pequeno Gigante' moderno! O mestre do bloqueio 'cai fora' é o meio de rede dele."
+                },
+                {
+                    "text": "Sachiro Hirugami",
+                    "isCorrect": true,
+                    "explanation": "É ele! Hirugami Sachiro (昼神 幸郎)! O meio de rede do Kamomedai, apelidado de 'O Bloqueador que Cai Fora' (昼神の『止まれ』 - Hirugami no 'Tomare', 'Pare' de Hirugami). Ele é um mestre em tocar a bola no bloqueio e depois sair rápido da rede para participar da defesa, dificultando o contra-ataque adversário. Uma tática de bloqueio diferente e super eficaz!",
+                    "imageUrl": "https://exemplo.com/hirugami_bloqueio.jpg",
+                    "imageDescription": "Imagem de Sachiro Hirugami realizando seu bloqueio e saindo rápido da rede."
+                },
+                {
+                    "text": "Gao Hakuba",
+                    "isCorrect": false,
+                    "explanation": "Hakuba é outro jogador alto do Kamomedai. O especialista no bloqueio 'cai fora' é o Hirugami."
+                },
+                {
+                    "text": "Tsukishima Kei",
+                    "isCorrect": false,
+                    "explanation": "Tsukishima aprimora o 'read block'! O bloqueador que domina o 'cai fora' é o Hirugami do Kamomedai."
+                }
+            ]
+        },
+        {
+            "id": 91,
+            "question": "Qual o apelido dado à dupla de meio de rede do Date Tech, famosos pelo 'Muro de Ferro'?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Torres Gêmeas",
+                    "isCorrect": false,
+                    "explanation": "Torres Gêmeas pode até fazer sentido pela altura, mas o apelido deles é outro, algo que remete a uma barreira física."
+                },
+                {
+                    "text": "O Muro",
+                    "isCorrect": false,
+                    "explanation": "O time é o 'Muro de Ferro', mas a dupla de meio de rede tem um apelido mais específico, que descreve o quão sólidos eles são."
+                },
+                {
+                    "text": "O Bloqueio Inabalável",
+                    "isCorrect": false,
+                    "explanation": "Eles são inabaláveis, sim, mas o apelido é mais simples, direto e representa a fundação do muro."
+                },
+                {
+                    "text": "Futakuchi e Aone",
+                    "isCorrect": false,
+                    "explanation": "Futakuchi e Aone são os jogadores, sim, mas o apelido se refere à *dupla* deles, ao 'paredão' que eles formam no meio."
+                },
+                {
+                    "text": "O Muro de Ferro (a dupla)",
+                    "isCorrect": false,
+                    "explanation": "O time é o 'Muro de Ferro'! A dupla de meio de rede tem um apelido que descreve a 'parede' que eles formam juntos."
+                },
+                {
+                    "text": "Os Pilares do Muro",
+                    "isCorrect": true,
+                    "explanation": "É isso! 'Os Pilares do Muro' (鉄壁の二枚看板 - Teppeki no Nimai Kanban, 'As Duas Tábuas do Muro de Ferro')! Futakuchi Kenji (o capitão falante) e Aone Takanobu (o gigante silencioso) são os dois principais meio de rede do Date Tech, a base sólida do 'Muro de Ferro'. Eles são os pilares que param os ataques adversários!",
+                    "imageUrl": "https://exemplo.com/date_tech_pilares.jpg",
+                    "imageDescription": "Imagem de Futakuchi e Aone juntos em pose de bloqueio."
+                }
+            ]
+        },
+        {
+            "question": "Qual o principal ponto fraco de Hinata Shoyo no início da série?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Salto",
+                    "isCorrect": false,
+                    "explanation": "Salto? Essa é a maior qualidade dele! Ele pode não ser alto, mas o salto dele é fenomenal e permite o ataque rápido."
+                },
+                {
+                    "text": "Velocidade",
+                    "isCorrect": false,
+                    "explanation": "Velocidade também é um dos pontos fortes dele, especialmente na corrida para o ataque rápido. O problema é outro aspecto do jogo."
+                },
+                {
+                    "text": "Recepção e defesa",
+                    "isCorrect": true,
+                    "explanation": "Bingo! A recepção (receber saques e ataques) e a defesa eram o calcanhar de Aquiles do Hinata no início. Ele precisou de MUITO treino extra, especialmente com o Nishinoya e o Daichi, para melhorar nisso. Quase pegou uma bolada na cara mil vezes!",
+                    "imageUrl": "https://exemplo.com/hinata_recepcao_ruim.jpg",
+                    "imageDescription": "Imagem de Hinata tentando (e talvez falhando) em uma recepção ou defesa no início da série."
+                },
+                {
+                    "text": "Saque",
+                    "isCorrect": false,
+                    "explanation": "O saque dele no início era bem fraquinho e inconsistente (aquele saque sem pulo!), mas a recepção era um problema *maior* que afetava ele em todas as rotações."
+                }
+            ]
+        }
+    ]
+}

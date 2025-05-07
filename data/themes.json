@@ -1,218 +1,261 @@
 [
     {
-        "id": "conhecimentos_gerais",
-        "name": "Conhecimentos Gerais",
-        "file": "conhecimentosgerais/conhecimentosgerais.json",
-        "description": "Perguntas sobre diversos assuntos."
-    },
-    {
-        "id": "aws",
-        "name": "AWS Web Services",
-        "description": "Desafios sobre a nuvem da Amazon.",
+        "id": "certificacoes_cloud",
+        "name": "Certificações Cloud",
+        "description": "Domine as nuvens! Teste seus conhecimentos sobre as principais certificações de cloud computing e acelere sua jornada tecnológica.",
         "subThemes": [
             {
-                "id": "aws_saa_c03",
-                "name": "Solutions Architect Associate (SAA-C03)",
-                "file": "aws/aws-saa-c03.json",
-                "description": "Questões nível Associado para SAA-C03."
+                "id": "aws-aif-c01",
+                "name": "AI Practitioner (AIF-C01)",
+                "file": "certificacoes_cloud/aws-aif-c01.json",
+                "description": "Questões sobre IA/ML e serviços AWS relacionados (AIF-C01)."
             },
             {
-                "id": "aws_clf_c02",
+                "id": "aws-clf-c02",
                 "name": "Cloud Practitioner Foundational (CLF-C02)",
-                "file": "aws/aws-clf-c02.json",
+                "file": "certificacoes_cloud/aws-clf-c02.json",
                 "description": "Questões nível Fundamental para CLF-C02."
             },
             {
-                "id": "aws_aif_c01",
-                "name": "AI Practitioner (AIF-C01)",
-                "file": "aws/aws-aif-c01.json",
-                "description": "Questões sobre IA/ML e serviços AWS relacionados (AIF-C01)."
+                "id": "aws-saa-c03",
+                "name": "Solutions Architect Associate (SAA-C03)",
+                "file": "certificacoes_cloud/aws-saa-c03.json",
+                "description": "Questões nível Associado para SAA-C03."
             }
         ]
     },
     {
-        "id": "copadomundo",
-        "name": "Copa do Mundo Fifa",
-        "description": "Desafios sobre as Copas do Mundo FIFA.",
+        "id": "conhecimentosgerais_curiosidades_ciencias",
+        "name": "Conhecimentos, Curiosidades & Ciências",
+        "description": "Desafie sua mente! Explore um universo de conhecimentos gerais, fatos curiosos e as maravilhas da ciência e da natureza.",
         "subThemes": [
             {
-                "id": "historia_das_copas_fifa",
-                "name": "Copa do Mundo Fifa Geral",
-                "file": "copa_do_mundo/historia_das_copas_fifa.json",
-                "description": "Questões gerais sobre Copa do Mundo FIFA."
+                "id": "conhecimentosgerais",
+                "name": "Conhecimentos Gerais",
+                "file": "conhecimentosgerais_curiosidades_ciencias/conhecimentosgerais.json",
+                "description": "Que tal testar o que você sabe? Um caldeirão de perguntas sobre os mais variados assuntos para desafiar sua cultura geral!"
             },
             {
-                "id": "copa_do_mundo_1930_1934_1938",
-                "name": "Copa do Mundo Fifa 1930, 1934 e 1938",
-                "file": "copa_do_mundo/copa_do_mundo_1930_1934_1938.json",
-                "description": "Questões sobre as Copas do Mundo FIFA 1930, 1934 e 1938."
+                "id": "sistema_solar",
+                "name": "Sistema Solar",
+                "file": "conhecimentosgerais_curiosidades_ciencias/sistema_solar.json",
+                "description": "Prepare-se para uma jornada interplanetária! Descubra segredos e maravilhas dos planetas, luas e astros que compõem nossa vizinhança cósmica."
+            },
+            {
+                "id": "ciencias_gerais_e_natureza",
+                "name": "Ciências Gerais e Natureza",
+                "file": "conhecimentosgerais_curiosidades_ciencias/ciencias_gerais_e_natureza.json",
+                "description": "Explore o incrível mundo da ciência e as maravilhas da natureza ao nosso redor."
+            },
+            {
+                "id": "curiosidades",
+                "name": "Curiosidades",
+                "file": "conhecimentosgerais_curiosidades_ciencias/curiosidades.json",
+                "description": "Descubra fatos e informações surpreendentes que vão explodir sua mente!"
             }
         ]
     },
     {
         "id": "desenhos_e_animes",
         "name": "Desenhos e Animes",
-        "description": "Desafios sobre sobre o universo dos desenhos e animes (Naruto, Pokemon, Dragon Ball Z, Desenhos clássicos.",
+        "description": "Prepare a pipoca e o controle remoto! Uma maratona de perguntas nostálgicas e atuais sobre os universos incríveis dos desenhos animados e animes que todos amamos.",
         "subThemes": [
             {
-                "id": "desenhos_geral.json",
-                "name": "Desenhos animados - Geral",
+                "id": "desenhos_geral",
+                "name": "Desenhos Animados - Geral",
                 "file": "desenhos_e_animes/desenhos_geral.json",
-                "description": "Questões sobre o universo dos desenhos animados."
+                "description": "Do traço clássico à animação digital, um quiz divertido sobre o universo geral dos desenhos que encantam gerações!"
             },
             {
                 "id": "dragon_ball_z",
                 "name": "Dragon Ball Z",
                 "file": "desenhos_e_animes/dragon_ball_z.json",
-                "description": "Questões sobre o universo Dragon Ball Z."
+                "description": "Eleve seu Ki ao máximo! Teste seus conhecimentos sobre as sagas épicas, personagens poderosos e as Esferas do Dragão em Dragon Ball Z."
             },
             {
                 "id": "naruto",
                 "name": "Naruto",
                 "file": "desenhos_e_animes/naruto.json",
-                "description": "Questões sobre o universo Naruto."
+                "description": "Acredite! Mostre que você é um verdadeiro Hokage neste desafio sobre o mundo ninja de Naruto, seus jutsus e aventuras emocionantes."
             },
             {
                 "id": "pokemon",
                 "name": "Pokemon",
                 "file": "desenhos_e_animes/pokemon.json",
-                "description": "Questões sobre o universo Pokemon."
+                "description": "Jornada para ser um Mestre! Capture todo o seu conhecimento sobre espécies, evoluções e batalhas do universo Pokémon."
             },
             {
                 "id": "one_piece",
                 "name": "One Piece",
                 "file": "desenhos_e_animes/one_piece.json",
-                "description": "Questões sobre o universo One Piece."
+                "description": "Em busca do grande tesouro! Navegue pelos mares perigosos e teste sua sabedoria sobre a tripulação do Chapéu de Palha e suas incríveis aventuras."
             },
             {
                 "id": "desenhos_anos_80_e_90",
-                "name": "Desenhos das décadas de 80 e 90",
+                "name": "Desenhos das Décadas de 80 e 90",
                 "file": "desenhos_e_animes/desenhos_anos_80_e_90.json",
-                "description": "Questões sobre Desenhos das décadas de 80 e 90."
+                "description": "Sessão nostalgia ativada! Relembre e acerte tudo sobre os desenhos que fizeram a alegria das tardes nas décadas de 80 e 90."
             },
             {
                 "id": "desenhos_antes_anos_80",
-                "name": "Desenhos de antes do anos 80",
+                "name": "Desenhos de Antes dos Anos 80",
                 "file": "desenhos_e_animes/desenhos_antes_anos_80.json",
-                "description": "Questões sobre os desenhos de antes do anos 80."
+                "description": "Uma viagem no tempo aos primórdios da animação! Teste seus conhecimentos sobre os desenhos clássicos que encantaram o mundo antes de 1980."
             },
             {
                 "id": "desenhos_pos_anos_2000",
-                "name": "Desenhos criados depois dos anos 2000",
+                "name": "Desenhos Pós Anos 2000",
                 "file": "desenhos_e_animes/desenhos_pos_anos_2000.json",
-                "description": "Questões sobre desenhos criados depois dos anos 2000."
+                "description": "A evolução da animação! Explore os desenhos que definiram o novo milênio e continuam conquistando fãs."
+            },
+            {
+                "id": "haikyu!!",
+                "name": "Haikyu!!",
+                "file": "desenhos_e_animes/haikyu!!.json",
+                "description": "Voe para a vitória! Teste seus conhecimentos sobre as jogadas, times e a paixão pelo vôlei no emocionante anime Haikyu!!"
+            }
+        ]
+    },
+    {
+        "id": "esportes",
+        "name": "Esportes",
+        "description": "Entre em campo e mostre que você é um craque! Desafios sobre diversas modalidades, atletas icônicos e os momentos mais emocionantes da história esportiva.",
+        "subThemes": [
+            {
+                "id": "copa_do_mundo_1930_1934_1938",
+                "name": "Copas do Mundo: Primórdios (1930-1938)",
+                "file": "esportes/copa_do_mundo_1930_1934_1938.json",
+                "description": "Uma viagem às raízes do maior torneio de futebol! Teste seus conhecimentos sobre as primeiras edições da Copa do Mundo FIFA."
+            },
+            {
+                "id": "historia_das_copas_fifa",
+                "name": "História Geral das Copas do Mundo FIFA",
+                "file": "esportes/historia_das_copas_fifa.json",
+                "description": "Gols, glórias e grandes histórias! Desafie sua memória sobre os momentos mais marcantes e as lendas de todas as Copas do Mundo."
+            },
+            {
+                "id": "historia_das_olimpiadas",
+                "name": "História das Olimpíadas",
+                "file": "esportes/historia_das_olimpiadas.json",
+                "description": "Do Olimpo à era moderna! Explore a trajetória épica dos Jogos Olímpicos, seus atletas inesquecíveis e o verdadeiro espírito esportivo."
+            },
+            {
+                "id": "historia_do_futebol_brasileiro",
+                "name": "História do Futebol Brasileiro",
+                "file": "esportes/historia_do_futebol_brasileiro.json",
+                "description": "A nação da bola no pé! Teste seus conhecimentos sobre os craques, as conquistas e a paixão que movem o futebol no Brasil."
+            },
+            {
+                "id": "ufc",
+                "name": "UFC & MMA",
+                "file": "esportes/ufc.json",
+                "description": "Luzes, câmera, octógono! Mostre que você entende tudo sobre os maiores finalizadores, nocautes incríveis e as lendas do UFC e do MMA."
             }
         ]
     },
     {
         "id": "filmes_e_series",
         "name": "Filmes e Séries",
-        "description": "Desafios sobre História.",
+        "description": "Pipoca na mão e play na diversão! Teste seus conhecimentos sobre os universos cinematográficos e as maratonas de séries que conquistaram corações e mentes.",
         "subThemes": [
             {
                 "id": "filmes_e_series_gerais",
                 "name": "Filmes e Séries - Geral",
                 "file": "filmes_e_series/filmes_e_series_gerais.json",
-                "description": "Questões sobre filmes e séries em geral"
+                "description": "Dos clássicos imortais aos blockbusters modernos, um quiz eclético para quem ama a sétima arte e as grandes produções da TV."
             },
             {
                 "id": "game_of_thrones",
-                "name": "Game_of_Thrones",
+                "name": "Game of Thrones",
                 "file": "filmes_e_series/game_of_thrones.json",
-                "description": "Questões sobre Game_of_Thrones."
+                "description": "Valar Morghulis! Prove seu conhecimento sobre as nobres casas, as batalhas sangrentas e as intrigas pelo Trono de Ferro de Westeros."
             },
             {
                 "id": "harry_potter",
                 "name": "Harry Potter",
                 "file": "filmes_e_series/harry_potter.json",
-                "description": "Questões sobre a Harry Potter."
+                "description": "Alohomora! Abra as portas do mundo mágico e teste seus feitiços e sabedoria sobre a saga de Harry Potter e seus amigos."
+            },
+            {
+                "id": "novelas_brasileiras",
+                "name": "Novelas Brasileiras",
+                "file": "filmes_e_series/novelas_brasileiras.json",
+                "description": "Cenas dos próximos capítulos! Relembre os dramas, romances, vilões e bordões que marcaram época nas novelas brasileiras."
             },
             {
                 "id": "senhor_dos_aneis",
                 "name": "O Senhor dos Anéis",
                 "file": "filmes_e_series/senhor_dos_aneis.json",
-                "description": "Questões sobre a O Senhor dos Anéis."
+                "description": "Uma jornada épica pela Terra-média! Mostre que você é um verdadeiro portador do anel com este quiz sobre a obra de Tolkien."
             },
             {
                 "id": "star_wars",
                 "name": "Star Wars",
                 "file": "filmes_e_series/star_wars.json",
-                "description": "Questões sobre a Star Wars."
+                "description": "Que a Força esteja com você, sempre! Desafios de uma galáxia muito, muito distante para testar seu domínio sobre a saga Star Wars."
             }
         ]
     },
     {
-        "id": "historia",
-        "name": "História",
-        "description": "Desafios sobre História.",
+        "id": "historia_geral",
+        "name": "História Geral",
+        "description": "Uma jornada pelos séculos! Explore os eventos marcantes, as grandes personalidades e as transformações que definiram o curso da humanidade.",
         "subThemes": [
             {
                 "id": "historia_do_brasil",
-                "name": "Historia do Brasil",
-                "file": "historia/historia_do_brasil.json",
-                "description": "Questões sobre História do Brasil."
-            },
-            {
-                "id": "historia_do_futebol_brasileiro",
-                "name": "Historia do Futebol Brasileiro",
-                "file": "historia/historia_do_futebol_brasileiro.json",
-                "description": "Questões sobre a História do Futebol Brasileiro."
-            },
-            {
-                "id": "historia_das_olimpiadas",
-                "name": "Historia das Olimpíadas",
-                "file": "historia/historia_das_olimpiadas.json",
-                "description": "Questões sobre a História das Olimpíadas."
+                "name": "História do Brasil",
+                "file": "historia_geral/historia_do_brasil.json",
+                "description": "Do Pau-Brasil ao Plano Real! Teste seus conhecimentos sobre os momentos cruciais, figuras emblemáticas e as diversas fases da história brasileira."
             },
             {
                 "id": "primeira_guerra_mundial",
-                "name": "Historia da Primeira Guerra Mundial",
-                "file": "historia/primeira_guerra_mundial.json",
-                "description": "Questões sobre a História da Primeira Guerra Mundial."
+                "name": "Primeira Guerra Mundial",
+                "file": "historia_geral/primeira_guerra_mundial.json",
+                "description": "A Grande Guerra que mudou o mundo! Desafios sobre as trincheiras, as nações envolvidas e os desdobramentos do primeiro conflito global."
             },
             {
                 "id": "segunda_guerra_mundial",
-                "name": "Historia da Segunda Guerra Mundial",
-                "file": "historia/segunda_guerra_mundial.json",
-                "description": "Questões sobre a História da Segunda Guerra Mundial."
+                "name": "Segunda Guerra Mundial",
+                "file": "historia_geral/segunda_guerra_mundial.json",
+                "description": "O maior conflito da história em detalhes! Teste seus conhecimentos sobre as batalhas decisivas, os líderes e o impacto duradouro da Segunda Guerra Mundial."
             }
         ]
     },
     {
-        "id": "tecnologia",
-        "name": "Tecnologia",
-        "description": "Desafios sobre Tecnologia.",
+        "id": "lazer_e_jogos",
+        "name": "Lazer e Jogos",
+        "description": "Aperte o start na diversão! Desafios sobre jogos, brincadeiras e tudo aquilo que torna o tempo livre muito mais animado e interessante.",
+        "subThemes": [
+            {
+                "id": "brinquedos_e_brincadeiras",
+                "name": "Brinquedos e Brincadeiras",
+                "file": "lazer_e_jogos/brinquedos_e_brincadeiras.json",
+                "description": "Do pega-pega ao videogame, relembre e teste seus conhecimentos sobre os brinquedos e brincadeiras que atravessam gerações!"
+            }
+        ]
+    },
+    {
+        "id": "tecnologia_e_computacao",
+        "name": "Tecnologia e Computação",
+        "description": "Do silício aos confins do espaço! Desvende os mistérios da tecnologia, da programação e das inovações que estão transformando o nosso mundo.",
         "subThemes": [
             {
                 "id": "tecnologia_espacial",
                 "name": "Tecnologia Espacial",
-                "file": "tecnologia/tecnologia_espacial.json",
-                "description": "Questões gerais sobre o Tecnologia Espacial."
+                "file": "tecnologia_e_computacao/tecnologia_espacial.json",
+                "description": "Contagem regressiva para o conhecimento! Teste o que você sabe sobre foguetes, satélites e as maravilhas da exploração espacial."
             },
             {
                 "id": "tecnologia_linguagem_de_programacao",
-                "name": "Tecnologia Espacial",
-                "file": "tecnologia/tecnologia_linguagem_de_programacao.json",
-                "description": "Questões gerais sobre linguagens de programação."
+                "name": "Linguagens de Programação",
+                "file": "tecnologia_e_computacao/tecnologia_linguagem_de_programacao.json",
+                "description": "Debugue seu cérebro! Desafios sobre algoritmos, sintaxes e a lógica por trás das linguagens que constroem o mundo digital."
             },
             {
                 "id": "tecnologia_militar",
-                "name": "Tecnologia militar",
-                "file": "tecnologia/tecnologia_militar.json",
-                "description": "Questões gerais sobre o Tecnologia militar."
-            }
-        ]
-    },
-    {
-        "id": "universo",
-        "name": "Universo",
-        "description": "Desafios sobre o Universo.",
-        "subThemes": [
-            {
-                "id": "sistema_solar",
-                "name": "Sistema Solar",
-                "file": "universo/sistema_solar.json",
-                "description": "Questões gerais sobre o Sistema Solar."
+                "name": "Tecnologia Militar",
+                "file": "tecnologia_e_computacao/tecnologia_militar.json",
+                "description": "Estratégia e inovação no campo de batalha! Explore os avanços tecnológicos, desde drones a sistemas de defesa, que definem a guerra moderna."
             }
         ]
     }

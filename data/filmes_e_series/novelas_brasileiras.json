@@ -1,0 +1,2192 @@
+{
+    "config": {
+        "theme": "Novelas Brasileiras",
+        "totalPoints": 1000,
+        "scoring": "points"
+    },
+    "data": [
+        {
+            "question": "Em qual novela a personagem Odete Roitman perguntou: 'Quem matou Odete Roitman?' (e a resposta só veio no último capítulo)?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Tieta",
+                    "isCorrect": false,
+                    "explanation": "Em Tieta, a pergunta era sobre a volta da 'ovelha negra' da família, não sobre um assassinato misterioso de uma vilã em Nova Iorque! Essa foi em outra novela inesquecível!"
+                },
+                {
+                    "text": "Vale Tudo",
+                    "isCorrect": true,
+                    "explanation": "É ela! Vale Tudo (1988)! O suspense 'Quem matou Odete Roitman?' parou o país e a vilã interpretada por Beatriz Segall se tornou um ícone. No último capítulo, descobrimos que a 'assassina' era Leila, por engano! Que choque!",
+                    "imageUrl": "https://exemplo.com/vale_tudo_odete_roitman.jpg",
+                    "imageDescription": "Imagem de Beatriz Segall como Odete Roitman em Vale Tudo."
+                },
+                {
+                    "text": "Roque Santeiro",
+                    "isCorrect": false,
+                    "explanation": "Roque Santeiro tinha mistérios (o próprio Roque Santeiro estava vivo!), mas o assassinato da vilã em Nova Iorque é de outra novela. Essa foi em Asa Branca!"
+                },
+                {
+                    "text": "Rainha da Sucata",
+                    "isCorrect": false,
+                    "explanation": "Rainha da Sucata tinha rivalidade entre Maria do Carmo e Laurinha Figureira, mas o assassinato que parou o país e virou bordão foi em Vale Tudo!"
+                }
+            ]
+        },
+        {
+            "question": "Qual a novela que contava a história de uma clone (Jade) no Marrocos e no Brasil, com muitos conflitos culturais e temas científicos?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Terra Nostra",
+                    "isCorrect": false,
+                    "explanation": "Terra Nostra era sobre imigrantes italianos no Brasil! A novela da clone que misturava cultura marroquina e ciência é outra!"
+                },
+                {
+                    "text": "O Clone",
+                    "isCorrect": true,
+                    "explanation": "É ela! O Clone (2001)! Com a história de amor entre Jade (Giovanna Antonelli) e Lucas (Murilo Benício) e a polêmica criação do primeiro clone humano (Léo). Misturava cultura islâmica, ciência, drogas e muito drama! 'Não é o que parece!'",
+                    "imageUrl": "https://exemplo.com/o_clone_jade_lucas.jpg",
+                    "imageDescription": "Imagem de Giovanna Antonelli e Murilo Benício como Jade e Lucas em O Clone."
+                },
+                {
+                    "text": "Caminho das Índias",
+                    "isCorrect": false,
+                    "explanation": "Caminho das Índias explorava a cultura indiana! A novela que misturava cultura islâmica (Marrocos) e clonagem é O Clone!"
+                },
+                {
+                    "text": "Salve Jorge",
+                    "isCorrect": false,
+                    "explanation": "Salve Jorge falava sobre tráfico humano na Turquia! A novela com tema de clonagem e cultura marroquina é O Clone!"
+                }
+            ]
+        },
+        {
+            "question": "Quem viveu a icônica vilã Nazaré Tedesco em 'Senhora do Destino'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Claudia Raia",
+                    "isCorrect": false,
+                    "explanation": "Claudia Raia é uma atriz maravilhosa e fez vilãs, mas a rainha das tesouradas e escadas rolantes foi outra atriz!"
+                },
+                {
+                    "text": "Renata Sorrah",
+                    "isCorrect": true,
+                    "explanation": "Não podia ser outra! Renata Sorrah deu vida à inesquecível vilã Nazaré Tedesco em Senhora do Destino (2004). Mestre em armações, sarcasmo e cenas icônicas (quem esquece a escada?!). Uma das maiores vilãs da teledramaturgia! 'O tempo ruge, e a fúria acende!'",
+                    "imageUrl": "https://exemplo.com/nazare_tedesco_senhora_destino.jpg",
+                    "imageDescription": "Imagem de Renata Sorrah como Nazaré Tedesco."
+                },
+                {
+                    "text": "Adriana Esteves",
+                    "isCorrect": false,
+                    "explanation": "Adriana Esteves fez a Carminha, outra vilã lendária (em Avenida Brasil!). Mas a vilã da escada e das tesouradas é a Nazaré, vivida por Renata Sorrah!"
+                },
+                {
+                    "text": "Glória Pires",
+                    "isCorrect": false,
+                    "explanation": "Glória Pires fez vilãs icônicas (como a Maria de Fátima em Vale Tudo!), mas a Nazaré Tedesco é da Renata Sorrah!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela o personagem Félix, vivido por Mateus Solano, tinha o bordão 'Salva, Salva!' (ao jogar as pessoas na piscina)?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Avenida Brasil",
+                    "isCorrect": false,
+                    "explanation": "Avenida Brasil tinha vilões memoráveis (Carminha, Max!), mas o vilão do 'Salva, Salva!' e da piscina é de outra novela, mais recente!"
+                },
+                {
+                    "text": "Amor à Vida",
+                    "isCorrect": true,
+                    "explanation": "Genial! É em Amor à Vida (2013)! O inesquecível vilão Félix Khoury, com seu sarcasmo, maldades e bordões icônicos, incluindo o hilário 'Salva, Salva!' ao jogar as pessoas na piscina. Mateus Solano brilhou nesse papel que conquistou o público! 'Sou mau, mas sou engraçado!'",
+                    "imageUrl": "https://exemplo.com/felix_amor_a_vida.jpg",
+                    "imageDescription": "Imagem de Mateus Solano como Félix em Amor à Vida."
+                },
+                {
+                    "text": "Insensato Coração",
+                    "isCorrect": false,
+                    "explanation": "Insensato Coração tinha vilanias, mas o vilão com o bordão da piscina é o Félix de Amor à Vida!"
+                },
+                {
+                    "text": "Fina Estampa",
+                    "isCorrect": false,
+                    "explanation": "Fina Estampa tinha a Tereza Cristina, outra vilã excêntrica! Mas o vilão que joga gente na piscina gritando 'Salva, Salva!' é o Félix!"
+                }
+            ]
+        },
+        {
+            "question": "Qual a novela que contava a saga de duas irmãs gêmeas, Ruth e Raquel (ambas vividas por Glória Pires), uma boa e outra má?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Mulheres Apaixonadas",
+                    "isCorrect": false,
+                    "explanation": "Mulheres Apaixonadas tinha várias histórias de mulheres, mas não a de irmãs gêmeas idênticas (uma boa, uma má) trocando de lugar!"
+                },
+                {
+                    "text": "Vale Tudo",
+                    "isCorrect": false,
+                    "explanation": "Vale Tudo tinha Glória Pires como a vilã Maria de Fátima, mas não a história de gêmeas idênticas trocando de identidade. Essa é outra novela da Glória Pires!"
+                },
+                {
+                    "text": "Mulheres de Areia",
+                    "isCorrect": true,
+                    "explanation": "É ela! Mulheres de Areia (1993)! Glória Pires brilhou interpretando as irmãs gêmeas Ruth (a boa) e Raquel (a má), com a Raquel tentando roubar a vida da irmã. As famosas 'mulheres de areia' esculpidas por Tonho da Lua também são inesquecíveis! Que atuação!",
+                    "imageUrl": "https://exemplo.com/mulheres_de_areia_gemeas.jpg",
+                    "imageDescription": "Imagem de Glória Pires como as gêmeas Ruth e Raquel."
+                },
+                {
+                    "text": "O Rei do Gado",
+                    "isCorrect": false,
+                    "explanation": "O Rei do Gado falava de latifundiários e sem-terra, com a rivalidade entre os Mezenga e Berdinazzi! A história das gêmeas idênticas é de outra novela."
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela a personagem Clara (Giovanna Antonelli) se apaixonou por uma mulher, Marina (Tainá Müller), gerando grande repercussão sobre o tema da homossexualidade?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Em Família",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Em Família (2014)! A trama de Clara e Marina (o casal 'Clarina') foi um dos pontos altos da novela e gerou muita discussão positiva sobre a representatividade LGBTQ+ na TV brasileira. O primeiro beijo entre elas foi um marco! Amor sem preconceitos!",
+                    "imageUrl": "https://exemplo.com/em_familia_clarina.jpg",
+                    "imageDescription": "Imagem de Giovanna Antonelli e Tainá Müller como Clara e Marina em Em Família."
+                },
+                {
+                    "text": "Salve Jorge",
+                    "isCorrect": false,
+                    "explanation": "Salve Jorge tinha a Delegada Helô (Giovanna Antonelli) e o Capitão Théo (Rodrigo Lombardi), mas a trama de um casal lésbico com grande repercussão é de outra novela da Giovanna Antonelli."
+                },
+                {
+                    "text": "Babilonia",
+                    "isCorrect": false,
+                    "explanation": "Babilonia teve um beijo lésbico no primeiro capítulo que gerou polêmica, mas a trama de um casal que conquistou o público pela história de amor foi em Em Família!"
+                },
+                {
+                    "text": "Amor à Vida",
+                    "isCorrect": false,
+                    "explanation": "Amor à Vida teve o casal gay Félix e Niko que conquistou o público! Mas o casal lésbico de grande repercussão com a Giovanna Antonelli foi em Em Família!"
+                }
+            ]
+        },
+        {
+            "question": "Quem viveu a vilã Perpétua em 'Tieta', famosa por guardar o objeto misterioso em uma caixa?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Joana Fomm",
+                    "isCorrect": true,
+                    "explanation": "Inesquecível! Joana Fomm deu vida à Perpétua em Tieta (1989), a irmã puritana e reprimida de Tieta que guardava um objeto misterioso em uma caixa no armário. O segredo da caixa virou um dos grandes mistérios e fontes de humor da novela. Que curiosidade novelística!",
+                    "imageUrl": "https://exemplo.com/perpétua_tieta_caixa.jpg",
+                    "imageDescription": "Imagem de Joana Fomm como Perpétua com sua caixa."
+                },
+                {
+                    "text": "Arlete Salles",
+                    "isCorrect": false,
+                    "explanation": "Arlete Salles é uma atriz incrível e fez vários papéis marcantes, mas a Perpétua de Tieta é da Joana Fomm!"
+                },
+                {
+                    "text": "Lília Cabral",
+                    "isCorrect": false,
+                    "explanation": "Lília Cabral é mestre em papéis dramáticos e vilanias, mas a Perpétua de Tieta é da Joana Fomm, com aquela caixa misteriosa!"
+                },
+                {
+                    "text": "Andrea Beltrão",
+                    "isCorrect": false,
+                    "explanation": "Andrea Beltrão fez a Tonha em Tieta, a beata ingênua! A vilã reprimida da caixa misteriosa é a Perpétua, irmã de Tieta."
+                }
+            ]
+        },
+        {
+            "question": "Em 'Avenida Brasil', qual o nome da personagem vilã interpretada por Adriana Esteves, casada com Tufão?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Odete Roitman",
+                    "isCorrect": false,
+                    "explanation": "Odete Roitman é a vilã de Vale Tudo! A vilã de Avenida Brasil casada com Tufão é a Carminha!"
+                },
+                {
+                    "text": "Nazaré Tedesco",
+                    "isCorrect": false,
+                    "explanation": "Nazaré Tedesco é a vilã de Senhora do Destino! A vilã de Avenida Brasil casada com Tufão é a Carminha!"
+                },
+                {
+                    "text": "Maria de Fátima",
+                    "isCorrect": false,
+                    "explanation": "Maria de Fátima é a vilã de Vale Tudo! A vilã de Avenida Brasil, mestre em dissimulação, é a Carminha!"
+                },
+                {
+                    "text": "Carminha",
+                    "isCorrect": true,
+                    "explanation": "Não é lixo, é luxo! Carminha (Avenida Brasil, 2012), interpretada por Adriana Esteves, se tornou uma das maiores vilãs da história! Dissimulada, cruel, mas cheia de camadas e um humor ácido. 'Oi, oi, oi!' O Brasil amou odiar a Carminha!",
+                    "imageUrl": "https://exemplo.com/carminha_avenida_brasil.jpg",
+                    "imageDescription": "Imagem de Adriana Esteves como Carminha em Avenida Brasil."
+                }
+            ]
+        },
+        {
+            "question": "Qual a novela que tinha a rivalidade entre o 'rei do gado' Antônio Mezenga e o 'rei do café com leite' Bruno Berdinazzi?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Terra Nostra",
+                    "isCorrect": false,
+                    "explanation": "Terra Nostra falava da saga de imigrantes italianos. A novela dos latifundiários rivais (gado vs café) é O Rei do Gado!"
+                },
+                {
+                    "text": "O Rei do Gado",
+                    "isCorrect": true,
+                    "explanation": "Que sucesso! O Rei do Gado (1996) contava a história da rivalidade entre as famílias de Bruno Mezenga (Antônio Fagundes), o 'rei do gado', e Geremias Berdinazzi (Raul Cortez), o 'rei do café com leite', e o romance proibido entre seus descendentes, Luana e Bruno (filho). Luta por terra e amor proibido!",
+                    "imageUrl": "https://exemplo.com/o_rei_do_gado_antonio_fagundes.jpg",
+                    "imageDescription": "Imagem de Antônio Fagundes como Bruno Mezenga em O Rei do Gado."
+                },
+                {
+                    "text": "Pantanal",
+                    "isCorrect": false,
+                    "explanation": "Pantanal se passava no Pantanal e tinha misticismo e conflitos familiares! A novela dos reis rivais de gado e café é O Rei do Gado!"
+                },
+                {
+                    "text": "Cabocla",
+                    "isCorrect": false,
+                    "explanation": "Cabocla falava de coronéis e costumes do interior! A novela dos reis rivais de gado e café é O Rei do Gado!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela a personagem Bebel (Camila Pitanga) tinha o bordão 'Sou a Bebel, 'garota de programa', e daí?'",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Mulheres Apaixonadas",
+                    "isCorrect": false,
+                    "explanation": "Mulheres Apaixonadas tinha a Salete e o Fernandinho, a Dóris e os avós... A Bebel com o bordão é de outra novela da Camila Pitanga."
+                },
+                {
+                    "text": "Paraíso Tropical",
+                    "isCorrect": true,
+                    "explanation": "É ela! Paraíso Tropical (2007)! A personagem Bebel, interpretada por Camila Pitanga, e seu romance com Olavo (Wagner Moura) fizeram grande sucesso. O bordão 'Sou a Bebel, 'garota de programa', e daí?' virou febre e representou a atitude da personagem. Que química!",
+                    "imageUrl": "https://exemplo.com/paraiso_tropical_bebel.jpg",
+                    "imageDescription": "Imagem de Camila Pitanga como Bebel em Paraíso Tropical."
+                },
+                {
+                    "text": "Cama de Gato",
+                    "isCorrect": false,
+                    "explanation": "Cama de Gato tinha Marcos Palmeira e Paola Oliveira! A Bebel com o bordão famoso é de outra novela, passada em Copacabana!"
+                },
+                {
+                    "text": "Insensato Coração",
+                    "isCorrect": false,
+                    "explanation": "Insensato Coração tinha a vilã Norma (Glória Pires)! A Bebel com o bordão é de outra novela, onde ela fez par romântico com um vilão."
+                }
+            ]
+        },
+        {
+            "question": "Qual a novela que tinha a icônica abertura com a música 'Que Rei Sou Eu?', mostrando a personagem de Tereza Rachel dançando?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Guerra dos Sexos",
+                    "isCorrect": false,
+                    "explanation": "Guerra dos Sexos tinha brigas e comédia! A novela com a abertura 'Que Rei Sou Eu?' era uma fantasia medieval."
+                },
+                {
+                    "text": "Que Rei Sou Eu?",
+                    "isCorrect": true,
+                    "explanation": "Não podia ser outra! Que Rei Sou Eu? (1989) era uma comédia ambientada em um reino fictício medieval (Avilan). A abertura com a música tema interpretada por Nara Leão e a performance de Tereza Rachel como a Rainha Valentine são inesquecíveis! 'Que rei sou eu? Que rei sou eu?'",
+                    "imageUrl": "https://exemplo.com/que_rei_sou_eu_abertura.jpg",
+                    "imageDescription": "Cena ou imagem da abertura da novela Que Rei Sou Eu? com Tereza Rachel."
+                },
+                {
+                    "text": "Deus Salve o Rei",
+                    "isCorrect": false,
+                    "explanation": "Deus Salve o Rei é uma novela medieval mais recente! A novela clássica com a abertura 'Que Rei Sou Eu?' é a de 1989!"
+                },
+                {
+                    "text": "O Salvador da Pátria",
+                    "isCorrect": false,
+                    "explanation": "O Salvador da Pátria tinha o Sassá Mutema! A novela com a abertura e música 'Que Rei Sou Eu?' é outra, com tema medieval!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela a personagem Ritinha (Isis Valverde) se dividia entre o amor por Ruy e Zeca, e se envolvia com o 'misticismo' de sereias?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "A Força do Querer",
+                    "isCorrect": true,
+                    "explanation": "É ela! A Força do Querer (2017)! A história de Ritinha e sua 'dualidade' entre Ruy (Fiuk) e Zeca (Marco Pigossi), e a subtrama com 'misticismo' de sereias (ela se sentia uma!). A novela abordou temas como identidade de gênero (Ivan/Ivana) e vício em jogo (Silvana), mas a Ritinha sereia é inesquecível! 'Égua!'",
+                    "imageUrl": "https://exemplo.com/a_forca_do_querer_ritinha_sereia.jpg",
+                    "imageDescription": "Imagem de Isis Valverde como Ritinha, talvez em cenas relacionadas a sereias."
+                },
+                {
+                    "text": "Gabriela",
+                    "isCorrect": false,
+                    "explanation": "Gabriela era sensual e inocente em Ilhéus! A personagem com 'misticismo' de sereia é a Ritinha de A Força do Querer!"
+                },
+                {
+                    "text": "Amor de Mãe",
+                    "isCorrect": false,
+                    "explanation": "Amor de Mãe contava a história de três mães e a busca por um filho! A novela da 'sereia' e do triângulo amoroso Ruy/Zeca é A Força do Querer!"
+                },
+                {
+                    "text": "Salve-se Quem Puder",
+                    "isCorrect": false,
+                    "explanation": "Salve-se Quem Puder era uma comédia com três protagonistas entrando em programa de proteção! A novela da 'sereia' é A Força do Querer!"
+                }
+            ]
+        },
+        {
+            "question": "Quem viveu o personagem Sassá Mutema em 'O Salvador da Pátria', um boia-fria que ascendeu na política?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Lima Duarte",
+                    "isCorrect": false,
+                    "explanation": "Lima Duarte fez o Sinhozinho Malta em Roque Santeiro! O Sassá Mutema é de outro ator, que fez um personagem com sotaque e ingenuidade marcantes."
+                },
+                {
+                    "text": "Regina Duarte",
+                    "isCorrect": false,
+                    "explanation": "Regina Duarte fez a Viúva Porcina e a Raquel em Vale Tudo! O Sassá Mutema é um personagem masculino!"
+                },
+                {
+                    "text": "Francisco Cuoco",
+                    "isCorrect": false,
+                    "explanation": "Francisco Cuoco fez o protagonista de O Astro! O Sassá Mutema, o boia-fria que vira político, é de outro ator."
+                },
+                {
+                    "text": "Lima Duarte (Ops, já tentei!)",
+                    "isCorrect": false,
+                    "explanation": "Já tentamos o Lima Duarte! O ator que fez o Sassá Mutema em O Salvador da Pátria foi o..."
+                },
+                {
+                    "text": "Lauro Corona",
+                    "isCorrect": false,
+                    "explanation": "Lauro Corona foi um ator famoso, fez vários papéis, mas faleceu cedo e não viveu o Sassá Mutema. O ator que o viveu é outro."
+                },
+                {
+                    "text": "Cassio Gabus Mendes",
+                    "isCorrect": false,
+                    "explanation": "Cassio Gabus Mendes fez vários papéis importantes, mas não viveu o Sassá Mutema. O ator que o interpretou é conhecido por papéis do 'povo'."
+                },
+                {
+                    "text": "Tarcísio Meira",
+                    "isCorrect": false,
+                    "explanation": "Tarcísio Meira é uma lenda, fez papéis de destaque em várias novelas, mas não viveu o Sassá Mutema. O ator que o viveu é outro, com um estilo mais popular."
+                },
+                {
+                    "text": "José Wilker",
+                    "isCorrect": false,
+                    "explanation": "José Wilker fez Roque Santeiro e muitos outros papéis! O Sassá Mutema é de outro ator, que interpretou a ingenuidade política do personagem."
+                },
+                {
+                    "text": "Lima Duarte (De novo?! Não!)",
+                    "isCorrect": false,
+                    "explanation": "Vamos parar de tentar o Lima Duarte para o Sassá Mutema! Pense no ator que fez um personagem simples do interior que se envolve na política."
+                },
+                {
+                    "text": "Roberto Bonfim",
+                    "isCorrect": false,
+                    "explanation": "Roberto Bonfim fez vários papéis de coronéis e homens fortes! O Sassá Mutema, o boia-fria, é de outro ator."
+                },
+                {
+                    "text": "Nelson Xavier",
+                    "isCorrect": false,
+                    "explanation": "Nelson Xavier fez Chico Xavier e outros papéis marcantes! O Sassá Mutema é de outro ator, que fez um personagem símbolo do povo."
+                },
+                {
+                    "text": "Fábio Jr.",
+                    "isCorrect": false,
+                    "explanation": "Fábio Jr. é cantor e ator, fez sucesso em novelas! Mas o Sassá Mutema é de outro ator, que interpretou a ascensão política do personagem."
+                },
+                {
+                    "text": "Luís Fernando Guimarães",
+                    "isCorrect": false,
+                    "explanation": "Luís Fernando Guimarães é mestre na comédia! O Sassá Mutema é um personagem dramático."
+                },
+                {
+                    "text": "Marcos Palmeira",
+                    "isCorrect": false,
+                    "explanation": "Marcos Palmeira fez muitos papéis rurais, como em Pantanal e O Rei do Gado! Mas o Sassá Mutema é de outro ator."
+                },
+                {
+                    "text": "Osmar Prado",
+                    "isCorrect": true,
+                    "explanation": "Bingo! Osmar Prado interpretou o Sassá Mutema em O Salvador da Pátria (1989), o boia-fria ingênuo que, de repente, se torna um político importante e um símbolo do povo. Sua história refletia a esperança e a desilusão política da época. Que atuação!",
+                    "imageUrl": "https://exemplo.com/sassa_mutema_osmar_prado.jpg",
+                    "imageDescription": "Imagem de Osmar Prado como Sassá Mutema."
+                }
+            ]
+        },
+        {
+            "question": "Quem viveu a vilã Laura Prudente da Costa, a 'Cachorra' em 'Celebridade'?",
+            "level": "médil",
+            "options": [
+                {
+                    "text": "Adriana Esteves",
+                    "isCorrect": false,
+                    "explanation": "Adriana Esteves fez a Carminha! A vilã 'Cachorra' de Celebridade é a Cláudia Abreu!"
+                },
+                {
+                    "text": "Alessandra Negrini",
+                    "isCorrect": false,
+                    "explanation": "Alessandra Negrini fez as gêmeas Paula e Taís em Paraíso Tropical! A vilã 'Cachorra' de Celebridade é a Cláudia Abreu!"
+                },
+                {
+                    "text": "Cláudia Abreu",
+                    "isCorrect": true,
+                    "explanation": "Que atuação! Cláudia Abreu brilhou como Laura Prudente da Costa, a 'Cachorra', em Celebridade (2003), a grande rival de Maria Clara Diniz. Uma vilã dissimulada e ambiciosa que fez de tudo para destruir a vida da protagonista. Inesquecível e odiada (no bom sentido!)!",
+                    "imageUrl": "https://exemplo.com/laura_prudente_da_costa_celebridade.jpg",
+                    "imageDescription": "Imagem de Cláudia Abreu como Laura Prudente da Costa."
+                },
+                {
+                    "text": "Glória Pires",
+                    "isCorrect": false,
+                    "explanation": "Glória Pires fez a Maria de Fátima, a Raquel, a Norma... mas a vilã 'Cachorra' de Celebridade é a Cláudia Abreu!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela a personagem Paula (Alessandra Negrini) tinha uma irmã gêmea má, Taís, e se envolvia com o personagem Daniel (Fábio Assunção)?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Mulheres de Areia",
+                    "isCorrect": false,
+                    "explanation": "Mulheres de Areia tinha as gêmeas Ruth e Raquel (Glória Pires)! A novela com as gêmeas Paula e Taís (Alessandra Negrini) é outra!"
+                },
+                {
+                    "text": "O Clone",
+                    "isCorrect": false,
+                    "explanation": "O Clone tinha a história de uma clone (Jade) e um protótipo (Léo), não de gêmeas idênticas! A novela das gêmeas Paula e Taís é Paraíso Tropical!"
+                },
+                {
+                    "text": "Paraíso Tropical",
+                    "isCorrect": true,
+                    "explanation": "Drama em dose dupla! Paraíso Tropical (2007) contava a história de Paula e Taís (ambas interpretadas por Alessandra Negrini), irmãs gêmeas idênticas, uma boa e uma má, que se envolvem em muitas confusões e na vida de Daniel (Fábio Assunção). E ainda tinha o vilão Olavo (Wagner Moura)! Que trama!",
+                    "imageUrl": "https://exemplo.com/paraiso_tropical_gemeas.jpg",
+                    "imageDescription": "Imagem de Alessandra Negrini como as gêmeas Paula e Taís em Paraíso Tropical."
+                },
+                {
+                    "text": "Gêmeas",
+                    "isCorrect": false,
+                    "explanation": "Existe uma novela com o título 'Gêmeas' (colombiana/mexicana!), mas a novela brasileira com as gêmeas Paula e Taís é Paraíso Tropical!"
+                }
+            ]
+        },
+        {
+            "question": "Quem viveu o protagonista Tufão, jogador de futebol aposentado, em 'Avenida Brasil'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Tony Ramos",
+                    "isCorrect": false,
+                    "explanation": "Tony Ramos é um ícone da TV, fez vários protagonistas! Mas o Tufão, o ex-jogador em Avenida Brasil, é outro ator."
+                },
+                {
+                    "text": "Cauã Reymond",
+                    "isCorrect": false,
+                    "explanation": "Cauã Reymond fez o Jorginho em Avenida Brasil, filho de Tufão! O Tufão, o patriarca ex-jogador, é o Murilo Benício."
+                },
+                {
+                    "text": "Murilo Benício",
+                    "isCorrect": true,
+                    "explanation": "Que personagem querido! Murilo Benício interpretou o Tufão em Avenida Brasil (2012), o ex-jogador de futebol ingênuo e bondoso, casado com a vilã Carminha. Sua bondade era o centro da trama, contrastando com a maldade da esposa. Um Tufão que conquistou o Brasil!",
+                    "imageUrl": "https://exemplo.com/tufao_murilo_benicio_avenida_brasil.jpg",
+                    "imageDescription": "Imagem de Murilo Benício como Tufão em Avenida Brasil."
+                },
+                {
+                    "text": "Marcos Palmeira",
+                    "isCorrect": false,
+                    "explanation": "Marcos Palmeira fez muitos papéis importantes, mas o Tufão de Avenida Brasil é do Murilo Benício!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela a personagem Altiva (Eva Wilma) era uma vilã caricata que tinha o bordão 'Sou má, sou má!'?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "A Indomada",
+                    "isCorrect": true,
+                    "explanation": "Que vilã! Em A Indomada (1997), Eva Wilma interpretou a icônica vilã Altiva, cheia de mistérios e maldades (e uma queda por um motoqueiro!). Seu bordão 'Sou má, sou má!' (dito de forma teatral) a tornou inesquecível. Uma vilã digna de nota!",
+                    "imageUrl": "https://exemplo.com/altiva_eva_wilma_a_indomada.jpg",
+                    "imageDescription": "Imagem de Eva Wilma como Altiva em A Indomada."
+                },
+                {
+                    "text": "Meu Bem Querer",
+                    "isCorrect": false,
+                    "explanation": "Meu Bem Querer tinha a Patrícia Pillar e o Murilo Benício! A vilã que dizia 'Sou má, sou má!' é de outra novela!"
+                },
+                {
+                    "text": "O Cravo e a Rosa",
+                    "isCorrect": false,
+                    "explanation": "O Cravo e a Rosa era uma comédia de época com Catalina e Petruchio! A vilã que dizia 'Sou má, sou má!' é de outra novela, mais dramática."
+                },
+                {
+                    "text": "Porto dos Milagres",
+                    "isCorrect": false,
+                    "explanation": "Porto dos Milagres também é baseada em Jorge Amado! A vilã com bordão famoso é a Altiva de A Indomada!"
+                }
+            ]
+        },
+        {
+            "question": "Quem viveu o protagonista Timóteo em 'O Cravo e a Rosa', um caipira que se apaixona pela 'fera' Catarina?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Eduardo Moscovis",
+                    "isCorrect": true,
+                    "explanation": "Exato! Eduardo Moscovis interpretou Petruchio em O Cravo e a Rosa (2000), o caipira brigão que se casa com a 'fera' Catarina (Adriana Esteves) por interesse, mas acaba se apaixonando de verdade. Uma comédia romântica de época hilária! 'Calixto!'",
+                    "imageUrl": "https://exemplo.com/o_cravo_e_a_rosa_petruchio.jpg",
+                    "imageDescription": "Imagem de Eduardo Moscovis como Petruchio em O Cravo e a Rosa."
+                },
+                {
+                    "text": "Marcos Palmeira",
+                    "isCorrect": false,
+                    "explanation": "Marcos Palmeira fez papéis rurais, sim, mas o Petruchio de O Cravo e a Rosa é do Eduardo Moscovis!"
+                },
+                {
+                    "text": "Murilo Benício",
+                    "isCorrect": false,
+                    "explanation": "Murilo Benício fez o Tufão e o Lucas/Léo! O Petruchio de O Cravo e a Rosa é do Eduardo Moscovis!"
+                },
+                {
+                    "text": "Fábio Assunção",
+                    "isCorrect": false,
+                    "explanation": "Fábio Assunção fez o Renato em Celebridade e o Ricardo em O Dono do Mundo! O Petruchio caipira é do Eduardo Moscovis!"
+                }
+            ]
+        },
+        {
+            "question": "Qual a novela que contava a saga de imigrantes italianos no Brasil no final do século XIX e início do XX, com a música tema 'Torna a Surriento'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "O Clone",
+                    "isCorrect": false,
+                    "explanation": "O Clone falava de cultura árabe e clonagem! A novela dos imigrantes italianos é Terra Nostra!"
+                },
+                {
+                    "text": "Chocolate com Pimenta",
+                    "isCorrect": false,
+                    "explanation": "Chocolate com Pimenta era uma comédia romântica de época! A novela da saga dos imigrantes italianos é Terra Nostra!"
+                },
+                {
+                    "text": "Terra Nostra",
+                    "isCorrect": true,
+                    "explanation": "É ela! Terra Nostra (1999)! A novela que contava a difícil jornada e a vida dos imigrantes italianos no Brasil em busca de uma nova vida, com a emocionante história de amor de Giuliana (Ana Paula Arósio) e Matteo (Thiago Lacerda). A música tema é de arrepiar! 'Andorinha, andorinha...'",
+                    "imageUrl": "https: //exemplo.com/terra_nostra_casal.jpg",
+                    "imageDescription": "Imagem de Ana Paula Arósio e Thiago Lacerda como Giuliana e Matteo em Terra Nostra."
+                },
+                {
+                    "text": "Esperança",
+                    "isCorrect": false,
+                    "explanation": "Esperança também falava de imigrantes, mas de outras nacionalidades! A novela específica sobre os imigrantes italianos no final do século XIX é Terra Nostra!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela a personagem Maria de Fátima (Glória Pires) dizia para sua mãe, Raquel (Regina Duarte): 'Tenho nojo de você! Nojo!'",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Água Viva",
+                    "isCorrect": false,
+                    "explanation": "Água Viva tinha a história de amor e conflitos familiares! A cena de nojo da filha pela mãe é em Vale Tudo!"
+                },
+                {
+                    "text": "Vale Tudo",
+                    "isCorrect": true,
+                    "explanation": "Cena icônica da vilania! Em Vale Tudo (1988), a ambiciosa Maria de Fátima (Glória Pires) sente nojo da mãe, Raquel (Regina Duarte), uma mulher batalhadora e ética, por não ter 'visão de águia' para os negócios e não querer aplicar golpes. Uma cena que chocou pela ingratidão da filha! 'Nojo!'",
+                    "imageUrl": "https: //exemplo.com/vale_tudo_nojo.jpg",
+                    "imageDescription": "Imagem da cena entre Glória Pires (Maria de Fátima) e Regina Duarte (Raquel) em Vale Tudo."
+                },
+                {
+                    "text": "Por Amor",
+                    "isCorrect": false,
+                    "explanation": "Por Amor tinha a Helena (Regina Duarte) que trocava os bebês por amor à filha (Maria Eduarda)! A cena de nojo da filha pela mãe é em Vale Tudo!"
+                },
+                {
+                    "text": "Páginas da Vida",
+                    "isCorrect": false,
+                    "explanation": "Páginas da Vida abordava temas sociais e familiares! A cena de nojo da filha pela mãe ética é em Vale Tudo!"
+                }
+            ]
+        },
+        {
+            "question": "Quem viveu a personagem Mônica (Renée de Vielmond), uma mulher que troca de identidade e vive uma vida dupla em 'Água Viva'?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Betty Faria",
+                    "isCorrect": false,
+                    "explanation": "Betty Faria fez a Lígia em Água Viva, a protagonista! A personagem que troca de identidade é outra, a Mônica, vivida por Renée de Vielmond!"
+                },
+                {
+                    "text": "Glória Pires",
+                    "isCorrect": false,
+                    "explanation": "Glória Pires fez a Maria de Fátima e as gêmeas Ruth/Raquel, mestras em identidades! Mas a personagem de Água Viva que troca de identidade é a Mônica."
+                },
+                {
+                    "text": "Renée de Vielmond",
+                    "isCorrect": true,
+                    "explanation": "Mistério e identidade dupla! Renée de Vielmond interpretou a Mônica em Água Viva (1980), uma personagem que troca de identidade e vive uma vida dupla, fugindo de um passado sombrio. Uma trama complexa e envolvente que marcou a novela. Quem era ela de verdade?!",
+                    "imageUrl": "https: //exemplo.com/agua_viva_monica.jpg",
+                    "imageDescription": "Imagem de Renée de Vielmond como Mônica em Água Viva."
+                },
+                {
+                    "text": "Isabela Garcia",
+                    "isCorrect": false,
+                    "explanation": "Isabela Garcia fez a Maria Helena em Água Viva, a irmã da Lígia! A personagem que troca de identidade é a Mônica."
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela a personagem Helena (Regina Duarte) troca de bebês na maternidade para salvar a filha, em um grande sacrifício materno?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Vale Tudo",
+                    "isCorrect": false,
+                    "explanation": "Vale Tudo tinha a Raquel (Regina Duarte) e a filha Maria de Fátima! A novela da Helena que troca bebês por amor à filha é Por Amor!"
+                },
+                {
+                    "text": "Senhora do Destino",
+                    "isCorrect": false,
+                    "explanation": "Senhora do Destino tinha a Maria do Carmo (Susana Vieira) que tem a filha roubada! A novela da Helena que troca bebês é Por Amor!"
+                },
+                {
+                    "text": "Por Amor",
+                    "isCorrect": true,
+                    "explanation": "Que amor! Em Por Amor (1997), a Helena (Regina Duarte) e sua filha Maria Eduarda (Gabriela Duarte) dão à luz no mesmo dia. Quando o bebê de Eduarda morre, Helena troca os bebês na maternidade para que a filha não sofra. Um sacrifício materno extremo e controverso que dividiu o público. Até onde vai o amor de mãe?!",
+                    "imageUrl": "https: //exemplo.com/por_amor_helena_eduarda_bebes.jpg",
+                    "imageDescription": "Imagem de Regina Duarte e Gabriela Duarte como Helena e Eduarda, talvez com bebês."
+                },
+                {
+                    "text": "Páginas da Vida",
+                    "isCorrect": false,
+                    "explanation": "Páginas da Vida falava de uma médica que adota uma criança com Síndrome de Down! A novela da mãe que troca bebês é Por Amor!"
+                }
+            ]
+        },
+        {
+            "question": "Quem viveu o personagem Nando, o músico e surfista, em 'Top Model', que fazia par romântico com Duda (Malu Mader)?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Fábio Jr.",
+                    "isCorrect": false,
+                    "explanation": "Fábio Jr. é cantor e ator, fez novelas, mas o Nando de Top Model é outro ator bonitão!"
+                },
+                {
+                    "text": "Maurício Mattar",
+                    "isCorrect": true,
+                    "explanation": "Ídolo dos anos 90! Maurício Mattar interpretou o Nando em Top Model (1989), o músico e surfista pai de uma turma de filhos, que se apaixona pela modelo Duda (Malu Mader). Um romance que marcou uma geração! 'Em busca da felicidade...' (era o tema de abertura!).",
+                    "imageUrl": "https://exemplo.com/top_model_nando_duda.jpg",
+                    "imageDescription": "Imagem de Maurício Mattar e Malu Mader como Nando e Duda em Top Model."
+                },
+                {
+                    "text": "Marcelo Novaes",
+                    "isCorrect": false,
+                    "explanation": "Marcelo Novaes fez o Raí em Quatro por Quatro e o Max em Avenida Brasil! O Nando de Top Model é o Maurício Mattar!"
+                },
+                {
+                    "text": "Leonardo Brício",
+                    "isCorrect": false,
+                    "explanation": "Leonardo Brício fez o Ulisses em Tieta e o Enrico em Meu Bem Querer! O Nando de Top Model é o Maurício Mattar!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela o personagem Léo (Fábio Assunção) era um vilão charmoso que roubava a identidade do irmão gêmeo, Pedro (Eriberto Leão)?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "O Clone",
+                    "isCorrect": false,
+                    "explanation": "O Clone tinha irmãos gêmeos (Lucas e Diogo) e um clone (Léo), mas não a história de um gêmeo roubando a identidade do outro assim! A novela dos gêmeos com identidade roubada é outra!"
+                },
+                {
+                    "text": "Paraíso Tropical",
+                    "isCorrect": false,
+                    "explanation": "Paraíso Tropical tinha as gêmeas Paula e Taís roubando identidades! A novela dos irmãos gêmeos Léo e Pedro com identidade roubada é Insensato Coração!"
+                },
+                {
+                    "text": "Insensato Coração",
+                    "isCorrect": true,
+                    "explanation": "Vilão inesquecível! Em Insensato Coração (2011), Léo (Fábio Assunção), um vilão charmoso e ambicioso, arma para o irmão gêmeo, Pedro (Eriberto Leão), e rouba sua identidade para ascender na vida. Uma trama cheia de suspense e reviravoltas familiares. O Fábio Assunção brilhou na vilania!",
+                    "imageUrl": "https://exemplo.com/insensato_coracao_leo_pedro.jpg",
+                    "imageDescription": "Imagem de Fábio Assunção e Eriberto Leão como os gêmeos Léo e Pedro em Insensato Coração."
+                },
+                {
+                    "text": "Celebridade",
+                    "isCorrect": false,
+                    "explanation": "Celebridade tinha o Fábio Assunção como Renato! A novela dos irmãos gêmeos com identidade roubada é Insensato Coração!"
+                }
+            ]
+        },
+        {
+            "question": "Qual a novela que contava a história de Berdinazzi e Mezenga e tinha a personagem Luana (Patrícia Pillar), uma 'sem-terra' que se apaixona pelo filho do latifundiário?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "O Rei do Gado",
+                    "isCorrect": true,
+                    "explanation": "É ela! O Rei do Gado (1996)! Além da rivalidade entre as famílias Berdinazzi e Mezenga, a novela contava a linda e difícil história de amor entre Luana (Patrícia Pillar), uma sem-terra, e Bruno Mezenga (Murilo Benício na segunda fase), filho do 'rei do gado'. Terra, amor e conflitos sociais!",
+                    "imageUrl": "https://exemplo.com/o_rei_do_gado_luana_bruno.jpg",
+                    "imageDescription": "Imagem de Patrícia Pillar e Murilo Benício como Luana e Bruno em O Rei do Gado."
+                },
+                {
+                    "text": "Terra Nostra",
+                    "isCorrect": false,
+                    "explanation": "Terra Nostra era sobre imigrantes italianos! A novela dos latifundiários e da sem-terra é O Rei do Gado!"
+                },
+                {
+                    "text": "Pantanal",
+                    "isCorrect": false,
+                    "explanation": "Pantanal falava do Pantanal! A novela sobre a questão agrária e o amor entre sem-terra e latifundiário é O Rei do Gado!"
+                },
+                {
+                    "text": "Cabocla",
+                    "isCorrect": false,
+                    "explanation": "Cabocla falava de coronéis e costumes do interior! A novela da sem-terra e do filho do latifundiário é O Rei do Gado!"
+                }
+            ]
+        },
+        {
+            "question": "Quem viveu a personagem Dona Flor (Giulia Gam na versão de 1998) em 'Dona Flor e Seus Dois Maridos' (novela de 1998)?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Sônia Braga",
+                    "isCorrect": false,
+                    "explanation": "Sônia Braga viveu Dona Flor na versão CINEMA (famosíssima!) e na versão de 1993 (minissérie) e também fez a Tieta e a Gabriela! Mas na novela de 1998, a Dona Flor é a Giulia Gam!"
+                },
+                {
+                    "text": "Betty Faria",
+                    "isCorrect": false,
+                    "explanation": "Betty Faria viveu a Tieta e a Lígia em Água Viva! A Dona Flor na novela de 1998 é a Giulia Gam!"
+                },
+                {
+                    "text": "Giulia Gam",
+                    "isCorrect": true,
+                    "explanation": "Que personagem! Giulia Gam interpretou Dona Flor na novela Dona Flor e Seus Dois Maridos (1998), baseada na obra de Jorge Amado. A história de uma mulher viúva que se casa novamente, mas o espírito do primeiro marido retorna, gerando um triângulo amoroso... inusitado. 'É cheiro de Vadinho!'",
+                    "imageUrl": "https://exemplo.com/dona_flor_giulia_gam.jpg",
+                    "imageDescription": "Imagem de Giulia Gam como Dona Flor na novela de 1998."
+                },
+                {
+                    "text": "Gabriela Duarte",
+                    "isCorrect": false,
+                    "explanation": "Gabriela Duarte viveu a Maria Eduarda em Por Amor! A Dona Flor na novela de 1998 é a Giulia Gam!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela a personagem Maria Eduarda (Gabriela Duarte), filha de Helena, se casou com Marcelo (Fábio Assunção) e viveu um grande drama com a perda do bebê e a troca na maternidade?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "História de Amor",
+                    "isCorrect": false,
+                    "explanation": "História de Amor também é do Manoel Carlos, mas a trama da troca de bebês é em Por Amor! História de Amor tinha a Helena (Regina Duarte) com a filha Joyce e o namorado Carlos."
+                },
+                {
+                    "text": "Anjo Mau",
+                    "isCorrect": false,
+                    "explanation": "Anjo Mau tinha a Nice (Glória Pires), a babá 'má'! A novela da troca de bebês na maternidade é Por Amor!"
+                },
+                {
+                    "text": "Por Amor",
+                    "isCorrect": true,
+                    "explanation": "Drama familiar! Em Por Amor (1997), Maria Eduarda (Gabriela Duarte), a filha mimada de Helena, casa-se com Marcelo (Fábio Assunção) e sofre a perda do bebê, sem saber que sua mãe trocou os recém-nascidos. O drama da troca de bebês foi o centro da novela. Que segredo!",
+                    "imageUrl": "https://exemplo.com/por_amor_eduarda_marcelo.jpg",
+                    "imageDescription": "Imagem de Gabriela Duarte e Fábio Assunção como Maria Eduarda e Marcelo em Por Amor."
+                },
+                {
+                    "text": "Páginas da Vida",
+                    "isCorrect": false,
+                    "explanation": "Páginas da Vida tinha a Nanda (Fernanda Vasconcellos) com a filha Olívia! A novela da Maria Eduarda e do Marcelo com a troca de bebês é Por Amor!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela a personagem Catarina (Adriana Esteves) era conhecida como a 'fera' por seu gênio forte, e se casou com o caipira Petruchio?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Tieta",
+                    "isCorrect": false,
+                    "explanation": "Tieta era a 'ovelha negra' que voltou rica! A 'fera' casada com um caipira é a Catarina!"
+                },
+                {
+                    "text": "Mulheres de Areia",
+                    "isCorrect": false,
+                    "explanation": "Mulheres de Areia tinha as gêmeas Ruth e Raquel (uma boa e uma má)! A 'fera' briguenta casada com um caipira é a Catarina de O Cravo e a Rosa!"
+                },
+                {
+                    "text": "Chocolate com Pimenta",
+                    "isCorrect": false,
+                    "explanation": "Chocolate com Pimenta tinha a Ana Francisca, a 'patinha feia' que voltou rica para se vingar! A 'fera' que briga com um caipira é a Catarina!"
+                },
+                {
+                    "text": "O Cravo e a Rosa",
+                    "isCorrect": true,
+                    "explanation": "Que casal! Em O Cravo e a Rosa (2000), Catarina (Adriana Esteves) era uma mulher moderna e feminista para a época, com um gênio forte que a fez ser chamada de 'a fera'. Seu casamento arranjado com o caipira Petruchio (Eduardo Moscovis) rendeu cenas hilárias e românticas. 'Petruchioooo!'",
+                    "imageUrl": "https://exemplo.com/o_cravo_e_a_rosa_catarina.jpg",
+                    "imageDescription": "Imagem de Adriana Esteves como Catarina em O Cravo e a Rosa."
+                }
+            ]
+        },
+        {
+            "question": "Quem viveu o personagem Giovanni Improtta em 'Senhora do Destino', um bicheiro boa praça com frases de efeito?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Antônio Fagundes",
+                    "isCorrect": false,
+                    "explanation": "Antônio Fagundes fez o Reginaldo em Senhora do Destino, filho de Maria do Carmo! O bicheiro com frases de efeito é o José Wilker!"
+                },
+                {
+                    "text": "José Mayer",
+                    "isCorrect": false,
+                    "explanation": "José Mayer viveu o Comandante Ferreirão em Senhora do Destino! O bicheiro 'felomenal' é o Giovanni Improtta!"
+                },
+                {
+                    "text": "Marcello Antony",
+                    "isCorrect": false,
+                    "explanation": "Marcello Antony viveu o Viriato em Senhora do Destino, filho de Maria do Carmo! O bicheiro com frases de efeito é o Giovanni Improtta!"
+                },
+                {
+                    "text": "José Wilker",
+                    "isCorrect": true,
+                    "explanation": "Genial! José Wilker interpretou o Giovanni Improtta em Senhora do Destino (2004), um bicheiro carismático, apaixonado por sua esposa e cheio de frases de efeito que misturavam português e italiano. 'O que que há?!', 'Favelado!', 'Felomenal!'... Impossível não gostar dele!",
+                    "imageUrl": "https://exemplo.com/giovanni_improtta_jose_wilker.jpg",
+                    "imageDescription": "Imagem de José Wilker como Giovanni Improtta em Senhora do Destino."
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela o personagem Crô (Marcelo Serrado) era o mordomo afetado e fiel à vilã Tereza Cristina (Christiane Torloni)?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Insensato Coração",
+                    "isCorrect": false,
+                    "explanation": "Insensato Coração tinha a vilã Norma! O mordomo fiel a uma vilã excêntrica é de outra novela, mais recente!"
+                },
+                {
+                    "text": "Passione",
+                    "isCorrect": false,
+                    "explanation": "Passione tinha a vilã Clara! O mordomo que faz a linha 'diva' e é fiel à sua patroa é de outra novela!"
+                },
+                {
+                    "text": "Fina Estampa",
+                    "isCorrect": true,
+                    "explanation": "É ele! Fina Estampa (2011)! Crô (Crodoaldo Valério), interpretado por Marcelo Serrado, era o mordomo fiel, afetado, cheio de trejeitos e frases de efeito, confidente e cúmplice das armações da vilã Tereza Cristina. A dupla era hilária e roubava a cena! 'Zoiudo!'",
+                    "imageUrl": "https://exemplo.com/fina_estampa_cro_tereza_cristina.jpg",
+                    "imageDescription": "Imagem de Marcelo Serrado e Christiane Torloni como Crô e Tereza Cristina em Fina Estampa."
+                },
+                {
+                    "text": "Salve Jorge",
+                    "isCorrect": false,
+                    "explanation": "Salve Jorge tinha a Wanda e a Lívia Marini, vilãs do tráfico! O mordomo fiel e afetado é de Fina Estampa!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela a personagem Duda (Malu Mader) era uma modelo famosa que vivia com um surfista e seus filhos?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Celebridade",
+                    "isCorrect": false,
+                    "explanation": "Celebridade tinha a Malu Mader como a rica empresária Maria Clara! A novela dela como modelo é outra!"
+                },
+                {
+                    "text": "Paraíso Tropical",
+                    "isCorrect": false,
+                    "explanation": "Paraíso Tropical tinha a Malu Mader como a Paula (gêmea boa)! A novela dela como modelo é outra!"
+                },
+                {
+                    "text": "Top Model",
+                    "isCorrect": true,
+                    "explanation": "É ela! Top Model (1989)! Malu Mader interpretou Duda, a modelo famosa que vai morar com o surfista Nando (Maurício Mattar) e seus 5 filhos de mães diferentes. Uma comédia romântica leve que marcou os anos 80! 'Em busca da felicidade!'",
+                    "imageUrl": "https://exemplo.com/top_model_novela.jpg",
+                    "imageDescription": "Cena ou imagem promocional da novela Top Model."
+                },
+                {
+                    "text": "Meu Bem Querer",
+                    "isCorrect": false,
+                    "explanation": "Meu Bem Querer tinha Malu Mader e Cláudia Abreu rivais por causa do Sérgio Bross! A novela da Malu como modelo é Top Model!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela a personagem Maria do Carmo (Susana Vieira) lutava para reencontrar a filha roubada por Nazaré Tedesco?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Por Amor",
+                    "isCorrect": false,
+                    "explanation": "Por Amor tinha a troca de bebês! A mãe que busca a filha roubada pela Nazaré é a Maria do Carmo em Senhora do Destino!"
+                },
+                {
+                    "text": "Senhora do Destino",
+                    "isCorrect": true,
+                    "explanation": "Que saga! Em Senhora do Destino (2004), Maria do Carmo (Susana Vieira) passou a novela toda buscando a filha roubada (Isabel/Lindalva) pela vilã Nazaré Tedesco. Uma mãe que não desiste!",
+                    "imageUrl": "https://exemplo.com/maria_do_carmo_senhora_destino.jpg",
+                    "imageDescription": "Imagem de Susana Vieira como Maria do Carmo."
+                },
+                {
+                    "text": "Cheias de Charme",
+                    "isCorrect": false,
+                    "explanation": "Cheias de Charme falava de empregadas que viram cantoras! A mãe que busca a filha roubada é a Maria do Carmo em Senhora do Destino!"
+                },
+                {
+                    "text": "Avenida Brasil",
+                    "isCorrect": false,
+                    "explanation": "Avenida Brasil era sobre a vingança de Nina contra Carminha! A mãe que busca a filha roubada pela Nazaré é a Maria do Carmo em Senhora do Destino!"
+                }
+            ]
+        },
+        {
+            "question": "Qual a novela que tinha a icônica abertura com a música 'Que Rei Sou Eu?', mostrando a personagem da Rainha Valentine?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Guerra dos Sexos",
+                    "isCorrect": false,
+                    "explanation": "Guerra dos Sexos tinha brigas e comédia! A novela com a abertura 'Que Rei Sou Eu?' era uma fantasia medieval!"
+                },
+                {
+                    "text": "Que Rei Sou Eu?",
+                    "isCorrect": true,
+                    "explanation": "Não podia ser outra! Que Rei Sou Eu? (1989)! A abertura com a música tema de Nara Leão e a performance da Rainha Valentine (Tereza Rachel) marcou essa novela ambientada em um reino fictício. 'Que rei sou eu? Que rei sou eu?'",
+                    "imageUrl": "https://exemplo.com/que_rei_sou_eu_abertura.jpg",
+                    "imageDescription": "Cena ou imagem da abertura da novela Que Rei Sou Eu?."
+                },
+                {
+                    "text": "Deus Salve o Rei",
+                    "isCorrect": false,
+                    "explanation": "Deus Salve o Rei é uma novela medieval mais recente! A novela clássica com a abertura 'Que Rei Sou Eu?' é a de 1989!"
+                },
+                {
+                    "text": "O Salvador da Pátria",
+                    "isCorrect": false,
+                    "explanation": "O Salvador da Pátria tinha o Sassá Mutema! A novela com a abertura e música 'Que Rei Sou Eu?' é outra!"
+                }
+            ]
+        },
+        {
+            "question": "Qual a novela que contava a história de amor entre um 'mendigo' (Ricardo) e uma jovem rica (Eduarda), com a famosa frase 'Eu sou você amanhã!'?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "A Próxima Vítima",
+                    "isCorrect": false,
+                    "explanation": "A Próxima Vítima era um suspense com assassinatos! A novela do mendigo e da frase é O Dono do Mundo!"
+                },
+                {
+                    "text": "O Salvador da Pátria",
+                    "isCorrect": false,
+                    "explanation": "O Salvador da Pátria tinha o Sassá Mutema! A novela do mendigo e da frase famosa é O Dono do Mundo!"
+                },
+                {
+                    "text": "O Dono do Mundo",
+                    "isCorrect": true,
+                    "explanation": "Que drama! O Dono do Mundo (1991) contava a história de Ricardo (Fábio Assunção) e Eduarda (Malu Mader). A frase 'Eu sou você amanhã!' dita por Filinto (Stepan Nercessian) a Felipe Barreto (Antônio Fagundes) marcou a novela. Imprevisibilidade da vida!",
+                    "imageUrl": "https://exemplo.com/o_dono_do_mundo_fabio_assuncao.jpg",
+                    "imageDescription": "Imagem de Fábio Assunção como Ricardo em O Dono do Mundo."
+                },
+                {
+                    "text": "Despedida de Solteiro",
+                    "isCorrect": false,
+                    "explanation": "Despedida de Solteiro era sobre amigos presos! A novela do mendigo e da frase 'Eu sou você amanhã!' é O Dono do Mundo!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela a personagem Maria de Fátima (Glória Pires) aplicava golpes e enganava as pessoas para subir na vida?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Mulheres de Areia",
+                    "isCorrect": false,
+                    "explanation": "Mulheres de Areia tinha as gêmeas Ruth e Raquel! A vilã golpista que enganava para ascender socialmente é a Maria de Fátima de Vale Tudo!"
+                },
+                {
+                    "text": "Vale Tudo",
+                    "isCorrect": true,
+                    "explanation": "Que vilã! Em Vale Tudo (1988), Maria de Fátima (Glória Pires) era uma jovem sem escrúpulos que aplicava golpes para subir na vida, inclusive contra a própria mãe. Um símbolo da falta de ética!",
+                    "imageUrl": "https://exemplo.com/vale_tudo_maria_de_fatima.jpg",
+                    "imageDescription": "Imagem de Glória Pires como Maria de Fátima."
+                },
+                {
+                    "text": "Água Viva",
+                    "isCorrect": false,
+                    "explanation": "Água Viva falava de uma família no Rio! A vilã golpista que subia na vida é a Maria de Fátima de Vale Tudo!"
+                },
+                {
+                    "text": "Louco Amor",
+                    "isCorrect": false,
+                    "explanation": "Louco Amor tinha história de amor e conflitos! A vilã golpista é a Maria de Fátima de Vale Tudo!"
+                }
+            ]
+        },
+        {
+            "question": "Qual a novela que tinha a música tema 'Dona da Minha História' (Elis Regina na versão original) e contava a história de amor proibido de uma escrava branca?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Sinhá Moça",
+                    "isCorrect": false,
+                    "explanation": "Sinhá Moça falava sobre a luta abolicionista! Mas a novela com a música tema de Elis Regina e a escrava 'branca' é A Escrava Isaura!"
+                },
+                {
+                    "text": "Gabriela",
+                    "isCorrect": false,
+                    "explanation": "Gabriela contava a história de uma mulher sensual em Ilhéus! A novela da escrava com a música tema é A Escrava Isaura!"
+                },
+                {
+                    "text": "A Escrava Isaura",
+                    "isCorrect": true,
+                    "explanation": "Clássico mundial! A Escrava Isaura (1976) contava a história de Isaura (Lucélia Santos), uma escrava que sonhava com a liberdade e o amor, perseguida pelo cruel Leôncio. A música tema de Elis Regina é inesquecível!",
+                    "imageUrl": "https://exemplo.com/a_escrava_isaura_lucelia_santos.jpg",
+                    "imageDescription": "Imagem de Lucélia Santos como Escrava Isaura."
+                },
+                {
+                    "text": "Xica da Silva",
+                    "isCorrect": false,
+                    "explanation": "Xica da Silva (Manchete!) falava de uma escrava que ascendeu! A novela da escrava 'branca' da Globo com a música tema de Elis Regina é A Escrava Isaura!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela a personagem Ritinha (Isis Valverde) se dividia entre Ruy e Zeca, e se sentia uma 'sereia'?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "A Força do Querer",
+                    "isCorrect": true,
+                    "explanation": "É ela! A Força do Querer (2017)! Ritinha (Isis Valverde) era a 'sereia' que se dividia entre Ruy (Fiuk) e Zeca (Marco Pigossi), trazendo misticismo e drama para a novela que também abordou temas sociais importantes!",
+                    "imageUrl": "https://exemplo.com/a_forca_do_querer_ritinha_sereia.jpg",
+                    "imageDescription": "Imagem de Isis Valverde como Ritinha, talvez em cenas relacionadas a sereias."
+                },
+                {
+                    "text": "Gabriela",
+                    "isCorrect": false,
+                    "explanation": "Gabriela era sensual e inocente em Ilhéus! A personagem com 'misticismo' de sereia é a Ritinha de A Força do Querer!"
+                },
+                {
+                    "text": "Amor de Mãe",
+                    "isCorrect": false,
+                    "explanation": "Amor de Mãe falava de mães e a busca por um filho! A novela da 'sereia' é A Força do Querer!"
+                },
+                {
+                    "text": "Salve-se Quem Puder",
+                    "isCorrect": false,
+                    "explanation": "Salve-se Quem Puder era comédia! A novela da 'sereia' é A Força do Querer!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela a personagem Maria Clara Diniz (Malu Mader) era uma rica empresária que rivalizava com a vilã Laura, a 'Cachorra'?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Celebridade",
+                    "isCorrect": true,
+                    "explanation": "É ela! Celebridade (2003)! Malu Mader era Maria Clara Diniz, a rica empresária de comunicação que tinha como grande rival a vilã Laura Prudente da Costa (Cláudia Abreu), a 'Cachorra'. O mundo da fama e suas rivalidades!",
+                    "imageUrl": "https://exemplo.com/celebridade_maria_clara_laura.jpg",
+                    "imageDescription": "Imagem de Malu Mader e Cláudia Abreu como Maria Clara e Laura em Celebridade."
+                },
+                {
+                    "text": "Top Model",
+                    "isCorrect": false,
+                    "explanation": "Top Model tinha Malu Mader como a modelo Duda! A rivalidade com a 'Cachorra' é em Celebridade!"
+                },
+                {
+                    "text": "Força de um Desejo",
+                    "isCorrect": false,
+                    "explanation": "Força de um Desejo era de época! A rivalidade com a 'Cachorra' é em Celebridade!"
+                },
+                {
+                    "text": "Insensato Coração",
+                    "isCorrect": false,
+                    "explanation": "Insensato Coração tinha vilanias de Léo e Norma! A rivalidade com a 'Cachorra' é em Celebridade!"
+                }
+            ]
+        },
+        {
+            "question": "Qual a novela que tinha a história de amor entre Tieta e Ricardo (Cássio Gabus Mendes), e a volta de Tieta a Santana do Agreste?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Gabriela",
+                    "isCorrect": false,
+                    "explanation": "Gabriela contava a história de uma mulher sensual em Ilhéus! A novela da volta da 'ovelha negra' a Santana do Agreste é Tieta!"
+                },
+                {
+                    "text": "Tieta",
+                    "isCorrect": true,
+                    "explanation": "É ela! Tieta (1989)! Baseada na obra de Jorge Amado, contava a volta de Tieta (Betty Faria) a Santana do Agreste após anos exilada pela família, e seu romance com o sobrinho Ricardo (Cássio Gabus Mendes). Uma novela tropical e inesquecível!",
+                    "imageUrl": "https://exemplo.com/tieta_novela.jpg",
+                    "imageDescription": "Imagem de Betty Faria como Tieta."
+                },
+                {
+                    "text": "Porto dos Milagres",
+                    "isCorrect": false,
+                    "explanation": "Porto dos Milagres também é baseada em Jorge Amado, mas tem outra história! A novela da volta de Tieta é a Tieta!"
+                },
+                {
+                    "text": "Dona Flor e Seus Dois Maridos",
+                    "isCorrect": false,
+                    "explanation": "Dona Flor e Seus Dois Maridos também é de Jorge Amado, mas é outra história! A novela da volta de Tieta é a Tieta!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela a personagem Paula (Alessandra Negrini) tinha uma irmã gêmea má, Taís, e se envolvia com Daniel (Fábio Assunção)?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Mulheres de Areia",
+                    "isCorrect": false,
+                    "explanation": "Mulheres de Areia tinha as gêmeas Ruth e Raquel (Glória Pires)! A novela com as gêmeas Paula e Taís (Alessandra Negrini) é Paraíso Tropical!"
+                },
+                {
+                    "text": "O Clone",
+                    "isCorrect": false,
+                    "explanation": "O Clone tinha clone e irmãos gêmeos, mas não a história das gêmeas idênticas assim! A novela das gêmeas Paula e Taís é Paraíso Tropical!"
+                },
+                {
+                    "text": "Paraíso Tropical",
+                    "isCorrect": true,
+                    "explanation": "Drama em dose dupla! Paraíso Tropical (2007) contava a história das gêmeas Paula e Taís (Alessandra Negrini), uma boa e uma má, que se envolvem na vida de Daniel (Fábio Assunção). Muita confusão e rivalidade familiar!",
+                    "imageUrl": "https://exemplo.com/paraiso_tropical_gemeas.jpg",
+                    "imageDescription": "Imagem de Alessandra Negrini como as gêmeas Paula e Taís em Paraíso Tropical."
+                },
+                {
+                    "text": "Gêmeas",
+                    "isCorrect": false,
+                    "explanation": "Existe novela com o título 'Gêmeas', mas a brasileira com as gêmeas Paula e Taís é Paraíso Tropical!"
+                }
+            ]
+        },
+        {
+            "question": "Quem viveu o protagonista Petruchio em 'O Cravo e a Rosa', um caipira que se apaixona pela 'fera' Catarina?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Eduardo Moscovis",
+                    "isCorrect": true,
+                    "explanation": "É ele! Eduardo Moscovis interpretou Petruchio em O Cravo e a Rosa (2000), o caipira que se casa (e se apaixona) pela briguenta Catarina! Uma comédia romântica divertida!",
+                    "imageUrl": "https://exemplo.com/o_cravo_e_a_rosa_petruchio.jpg",
+                    "imageDescription": "Imagem de Eduardo Moscovis como Petruchio em O Cravo e a Rosa."
+                },
+                {
+                    "text": "Marcos Palmeira",
+                    "isCorrect": false,
+                    "explanation": "Marcos Palmeira fez papéis rurais, mas o Petruchio é do Eduardo Moscovis!"
+                },
+                {
+                    "text": "Murilo Benício",
+                    "isCorrect": false,
+                    "explanation": "Murilo Benício fez o Tufão! O Petruchio é do Eduardo Moscovis!"
+                },
+                {
+                    "text": "Fábio Assunção",
+                    "isCorrect": false,
+                    "explanation": "Fábio Assunção fez o Renato em Celebridade! O Petruchio é do Eduardo Moscovis!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela a personagem Maria Regina (Letícia Spiller) tinha a frase 'Eu sou rica!' como bordão?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Quatro por Quatro",
+                    "isCorrect": false,
+                    "explanation": "Quatro por Quatro tinha vingança feminina! A novela da personagem que diz 'Eu sou rica!' é Suave Veneno!"
+                },
+                {
+                    "text": "Suave Veneno",
+                    "isCorrect": true,
+                    "explanation": "Vilã clássica! Em Suave Veneno (1999), Letícia Spiller viveu a vilã Maria Regina, filha do protagonista, famosa por seu bordão arrogante 'Eu sou rica!'.",
+                    "imageUrl": "https://exemplo.com/suave_veneno_maria_regina.jpg",
+                    "imageDescription": "Imagem de Letícia Spiller como Maria Regina em Suave Veneno."
+                },
+                {
+                    "text": "Esplendor",
+                    "isCorrect": false,
+                    "explanation": "Esplendor era romance e mistério! A novela da vilã que dizia 'Eu sou rica!' é Suave Veneno!"
+                },
+                {
+                    "text": "Kubanacan",
+                    "isCorrect": false,
+                    "explanation": "Kubanacan era comédia musical! A novela da vilã que se exibia com a riqueza é Suave Veneno!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela a personagem Maria do Carmo (Susana Vieira) tinha um 'par romântico' com o Comandante Ferreirão (José Mayer)?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Por Amor",
+                    "isCorrect": false,
+                    "explanation": "Por Amor tinha a Helena e o Atílio! A novela da Maria do Carmo com o Comandante Ferreirão é Senhora do Destino!"
+                },
+                {
+                    "text": "Senhora do Destino",
+                    "isCorrect": true,
+                    "explanation": "Que casal! Em Senhora do Destino (2004), Maria do Carmo (Susana Vieira) e o Comandante Ferreirão (José Mayer) viveram um romance que conquistou o público! Um amor que superou as diferenças!",
+                    "imageUrl": "https://exemplo.com/senhora_do_destino_maria_do_carmo_ferreirao.jpg",
+                    "imageDescription": "Imagem de Susana Vieira e José Mayer como Maria do Carmo e Ferreirão em Senhora do Destino."
+                },
+                {
+                    "text": "A Indomada",
+                    "isCorrect": false,
+                    "explanation": "A Indomada tinha a Eulália e o Teobaldo! A novela da Maria do Carmo com o Comandante Ferreirão é Senhora do Destino!"
+                },
+                {
+                    "text": "Tieta",
+                    "isCorrect": false,
+                    "explanation": "Tieta tinha Tieta e Ricardo! A novela da Maria do Carmo com o Comandante Ferreirão é Senhora do Destino!"
+                }
+            ]
+        },
+        {
+            "question": "Qual a novela que contava a história de uma moça do interior, Gabriela (Sônia Braga na versão original), que chega em Ilhéus e encanta a todos?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Tieta",
+                    "isCorrect": false,
+                    "explanation": "Tieta contava a volta de uma mulher rica a Santana do Agreste! A novela da moça sensual que chega em Ilhéus é Gabriela!"
+                },
+                {
+                    "text": "Cravo e a Rosa",
+                    "isCorrect": false,
+                    "explanation": "O Cravo e a Rosa era sobre um casal briguento! A novela da moça sensual de Ilhéus é Gabriela!"
+                },
+                {
+                    "text": "Gabriela",
+                    "isCorrect": true,
+                    "explanation": "Sensualidade em pessoa! Gabriela, Cravo e Canela (1975, versão com Sônia Braga), baseada em Jorge Amado. Contava a história de Gabriela, que chega em Ilhéus e conquista a todos. Um ícone!",
+                    "imageUrl": "https://exemplo.com/gabriela_sonia_braga.jpg",
+                    "imageDescription": "Imagem de Sônia Braga como Gabriela."
+                },
+                {
+                    "text": "Dona Flor e Seus Dois Maridos",
+                    "isCorrect": false,
+                    "explanation": "Dona Flor e Seus Dois Maridos também é de Jorge Amado, mas é outra história! A novela da moça sensual de Ilhéus é Gabriela!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela a personagem Maria Eduarda (Gabriela Duarte), filha de Helena, sofreu com a perda do bebê e a troca na maternidade?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "História de Amor",
+                    "isCorrect": false,
+                    "explanation": "História de Amor também é do Manoel Carlos, mas a trama da troca de bebês é em Por Amor!"
+                },
+                {
+                    "text": "Anjo Mau",
+                    "isCorrect": false,
+                    "explanation": "Anjo Mau tinha a babá Nice! A novela da troca de bebês na maternidade é Por Amor!"
+                },
+                {
+                    "text": "Por Amor",
+                    "isCorrect": true,
+                    "explanation": "Drama intenso! Em Por Amor (1997), Maria Eduarda (Gabriela Duarte) perde o bebê e sua mãe Helena (Regina Duarte) o troca pelo da própria irmã na maternidade. Um segredo que marcou a novela!",
+                    "imageUrl": "https://exemplo.com/por_amor_eduarda_marcelo.jpg",
+                    "imageDescription": "Imagem de Gabriela Duarte e Fábio Assunção como Maria Eduarda e Marcelo em Por Amor."
+                },
+                {
+                    "text": "Páginas da Vida",
+                    "isCorrect": false,
+                    "explanation": "Páginas da Vida falava de adoção e preconceito! A novela da Maria Eduarda e da troca de bebês é Por Amor!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela a personagem Catarina (Adriana Esteves) era conhecida como a 'fera' e se casou com o caipira Petruchio?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Tieta",
+                    "isCorrect": false,
+                    "explanation": "Tieta era a 'ovelha negra'! A 'fera' casada com caipira é a Catarina de O Cravo e a Rosa!"
+                },
+                {
+                    "text": "Mulheres de Areia",
+                    "isCorrect": false,
+                    "explanation": "Mulheres de Areia tinha as gêmeas Ruth e Raquel! A 'fera' que briga com Petruchio é a Catarina!"
+                },
+                {
+                    "text": "Chocolate com Pimenta",
+                    "isCorrect": false,
+                    "explanation": "Chocolate com Pimenta tinha a Ana Francisca! A 'fera' que briga com caipira é a Catarina!"
+                },
+                {
+                    "text": "O Cravo e a Rosa",
+                    "isCorrect": true,
+                    "explanation": "Que casal! Em O Cravo e a Rosa (2000), Catarina (Adriana Esteves) era a 'fera' de gênio forte que se casa com o caipira Petruchio (Eduardo Moscovis). Comédia e romance na medida certa!",
+                    "imageUrl": "https://exemplo.com/o_cravo_e_a_rosa_catarina.jpg",
+                    "imageDescription": "Imagem de Adriana Esteves como Catarina em O Cravo e a Rosa."
+                }
+            ]
+        },
+        {
+            "question": "Quem viveu o personagem Giovanni Improtta em 'Senhora do Destino', um bicheiro boa praça com bordões marcantes como 'Felomenal!'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Antônio Fagundes",
+                    "isCorrect": false,
+                    "explanation": "Antônio Fagundes fez o Reginaldo! O bicheiro é o José Wilker em Senhora do Destino!"
+                },
+                {
+                    "text": "José Mayer",
+                    "isCorrect": false,
+                    "explanation": "José Mayer viveu o Comandante Ferreirão! O bicheiro 'felomenal' é o Giovanni Improtta!"
+                },
+                {
+                    "text": "Marcello Antony",
+                    "isCorrect": false,
+                    "explanation": "Marcello Antony viveu o Viriato! O bicheiro com frases de efeito é o Giovanni Improtta!"
+                },
+                {
+                    "text": "José Wilker",
+                    "isCorrect": true,
+                    "explanation": "Genial! José Wilker interpretou o bicheiro Giovanni Improtta em Senhora do Destino (2004), com seus bordões que caíram no gosto popular. 'Felomenal!'",
+                    "imageUrl": "https://exemplo.com/giovanni_improtta_jose_wilker.jpg",
+                    "imageDescription": "Imagem de José Wilker como Giovanni Improtta."
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela o personagem Crô (Marcelo Serrado) era o mordomo fiel e afetado da vilã Tereza Cristina (Christiane Torloni)?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Insensato Coração",
+                    "isCorrect": false,
+                    "explanation": "Insensato Coração tinha a vilã Norma! O mordomo afetado e fiel é o Crô de Fina Estampa!"
+                },
+                {
+                    "text": "Passione",
+                    "isCorrect": false,
+                    "explanation": "Passione tinha a vilã Clara! O mordomo que faz a linha 'diva' e é fiel à sua patroa é o Crô!"
+                },
+                {
+                    "text": "Fina Estampa",
+                    "isCorrect": true,
+                    "explanation": "Dupla hilária! Em Fina Estampa (2011), Crô (Marcelo Serrado) era o mordomo fiel e afetado de Tereza Cristina (Christiane Torloni), roubando a cena com seus trejeitos e bordões. 'Zoiudo!'",
+                    "imageUrl": "https://exemplo.com/fina_estampa_cro_tereza_cristina.jpg",
+                    "imageDescription": "Imagem de Marcelo Serrado e Christiane Torloni como Crô e Tereza Cristina em Fina Estampa."
+                },
+                {
+                    "text": "Salve Jorge",
+                    "isCorrect": false,
+                    "explanation": "Salve Jorge tinha as vilãs Wanda e Lívia! O mordomo fiel e afetado é de Fina Estampa!"
+                }
+            ]
+        },
+        {
+            "question": "Qual a novela que tinha a história de um 'lobisomem' (Hércules) em uma cidade com realismo mágico?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Saramandaia (versão original ou remake)",
+                    "isCorrect": true,
+                    "explanation": "Fantástico! Em Saramandaia (versão original 1976 e remake 2013), a cidade de Bole-Bole era cheia de realismo mágico e personagens que se transformavam, incluindo Hércules (Tony Ramos na original, Sérgio Guizé no remake), que virava lobisomem nas noites de lua cheia. Voava, Benvindo!",
+                    "imageUrl": "https://exemplo.com/saramandaia_hercules_lobisomem.jpg",
+                    "imageDescription": "Imagem relacionada ao personagem Hércules ou ao realismo mágico de Saramandaia."
+                },
+                {
+                    "text": "Pedra sobre Pedra",
+                    "isCorrect": false,
+                    "explanation": "Pedra sobre Pedra também tinha realismo mágico e mistérios! Mas o lobisomem era em Saramandaia!"
+                },
+                {
+                    "text": "Fera Ferida",
+                    "isCorrect": false,
+                    "explanation": "Fera Ferida tinha realismo mágico e vingança! O lobisomem era em Saramandaia!"
+                },
+                {
+                    "text": "Amor Perfeito",
+                    "isCorrect": false,
+                    "explanation": "Amor Perfeito tem elementos religiosos e realismo mágico, mas a novela do lobisomem é Saramandaia!"
+                }
+            ]
+        },
+        {
+            "question": "Quem viveu a personagem Tieta em 'Tieta' (novela de 1989), a 'ovelha negra' que volta rica para Santana do Agreste?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Sônia Braga",
+                    "isCorrect": false,
+                    "explanation": "Sônia Braga viveu a Tieta na versão cinema! Na novela de 1989, a Tieta é a Betty Faria."
+                },
+                {
+                    "text": "Regina Duarte",
+                    "isCorrect": false,
+                    "explanation": "Regina Duarte viveu a Viúva Porcina! A Tieta é a Betty Faria!"
+                },
+                {
+                    "text": "Betty Faria",
+                    "isCorrect": true,
+                    "explanation": "É ela! Betty Faria interpretou a inesquecível Tieta (1989), baseada na obra de Jorge Amado. Expulsa da cidade na juventude, ela retorna rica e poderosa, chocando a família e a sociedade de Santana do Agreste. Pura irreverência!",
+                    "imageUrl": "https://exemplo.com/tieta_betty_faria.jpg",
+                    "imageDescription": "Imagem de Betty Faria como Tieta."
+                },
+                {
+                    "text": "Lúcia Veríssimo",
+                    "isCorrect": false,
+                    "explanation": "Lúcia Veríssimo fez a Elisa em Tieta! A personagem título é a Betty Faria!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela a personagem Clara (Alinne Moraes) sofreu um acidente que a deixou tetraplégica?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Páginas da Vida",
+                    "isCorrect": false,
+                    "explanation": "Páginas da Vida tinha a Nanda que morre e a filha que é rejeitada! A novela da personagem que ficou tetraplégica é Viver a Vida!"
+                },
+                {
+                    "text": "Viver a Vida",
+                    "isCorrect": true,
+                    "explanation": "Que drama! Em Viver a Vida (2009), a modelo Clara (Alinne Moraes) sofreu um acidente que a deixou tetraplégica, mudando completamente sua vida e a da sua família. Uma trama emocionante sobre superação e a importância da vida!",
+                    "imageUrl": "https://exemplo.com/viver_a_vida_clara.jpg",
+                    "imageDescription": "Imagem de Alinne Moraes como Clara em Viver a Vida."
+                },
+                {
+                    "text": "Em Família",
+                    "isCorrect": false,
+                    "explanation": "Em Família tinha a Clara (Giovanna Antonelli) que viveu um romance lésbico! A personagem que ficou tetraplégica é a Clara de Viver a Vida!"
+                },
+                {
+                    "text": "Mulheres Apaixonadas",
+                    "isCorrect": false,
+                    "explanation": "Mulheres Apaixonadas tinha a cadeirante Luciana (Camila Pitanga), mas não a trama central de uma personagem que fica tetraplégica. Essa é em Viver a Vida!"
+                }
+            ]
+        },
+        {
+            "question": "Quem viveu o personagem Tarcísio em 'O Beijo do Vampiro', o vampiro que se apaixona por uma mortal?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Fábio Assunção",
+                    "isCorrect": false,
+                    "explanation": "Fábio Assunção fez o Léo em Insensato Coração e o Renato em Celebridade! O vampiro de O Beijo do Vampiro é o Tarcísio Meira!"
+                },
+                {
+                    "text": "Alexandre Borges",
+                    "isCorrect": false,
+                    "explanation": "Alexandre Borges fez vários papéis marcantes, mas o vampiro de O Beijo do Vampiro é o Tarcísio Meira!"
+                },
+                {
+                    "text": "Tarcísio Meira",
+                    "isCorrect": true,
+                    "explanation": "O vampiro mais charmoso! Tarcísio Meira interpretou o Conde Bóris Vladescu em O Beijo do Vampiro (2002), o vampiro que retorna para conquistar o amor de sua vida, Lívia, reencarnada em Zeca (Kayky Brito). Uma novela cheia de fantasia e humor! 'Vida longa aos vampiros!'",
+                    "imageUrl": "https://exemplo.com/o_beijo_do_vampiro_tarcisio_meira.jpg",
+                    "imageDescription": "Imagem de Tarcísio Meira como o Conde Bóris em O Beijo do Vampiro."
+                },
+                {
+                    "text": "José Mayer",
+                    "isCorrect": false,
+                    "explanation": "José Mayer fez vários protagonistas! O vampiro de O Beijo do Vampiro é o Tarcísio Meira!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela a personagem Ana Francisca (Mariana Ximenes) era uma moça simples que volta rica para se vingar da cidade que a desprezou?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Tieta",
+                    "isCorrect": false,
+                    "explanation": "Tieta volta rica para se vingar, sim! Mas a vingança dela é contra a família que a exilou. A novela da moça simples que volta rica para se vingar da cidade é Chocolate com Pimenta!"
+                },
+                {
+                    "text": "O Cravo e a Rosa",
+                    "isCorrect": false,
+                    "explanation": "O Cravo e a Rosa era comédia com a 'fera' e o caipira! A novela da moça simples que volta rica é Chocolate com Pimenta!"
+                },
+                {
+                    "text": "Chocolate com Pimenta",
+                    "isCorrect": true,
+                    "explanation": "Que vingança doce e apimentada! Em Chocolate com Pimenta (2003), Ana Francisca (Mariana Ximenes), a 'patinha feia' que é humilhada na cidade de Ventura, volta anos depois rica e poderosa, dona da fábrica de chocolates, para se vingar de todos que a maltrataram. Mas o amor pelo Danilo (Murilo Benício) complica tudo! 'Fabricar chocolate, fabricar chocolate!'",
+                    "imageUrl": "https://exemplo.com/chocolate_com_pimenta_ana_francisca.jpg",
+                    "imageDescription": "Imagem de Mariana Ximenes como Ana Francisca em Chocolate com Pimenta."
+                },
+                {
+                    "text": "Alma Gêmea",
+                    "isCorrect": false,
+                    "explanation": "Alma Gêmea falava de reencarnação! A novela da moça simples que volta rica para se vingar é Chocolate com Pimenta!"
+                }
+            ]
+        },
+        {
+            "question": "Quem viveu o personagem Lucas Ferraz em 'O Clone', o jovem que se apaixona por Jade?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Fábio Assunção",
+                    "isCorrect": false,
+                    "explanation": "Fábio Assunção fez o Léo em O Clone, o clone! O Lucas, o original que se apaixona por Jade, é o Murilo Benício!"
+                },
+                {
+                    "text": "Rodrigo Lombardi",
+                    "isCorrect": false,
+                    "explanation": "Rodrigo Lombardi fez o Raj em Caminho das Índias! O Lucas de O Clone é o Murilo Benício!"
+                },
+                {
+                    "text": "Cauã Reymond",
+                    "isCorrect": false,
+                    "explanation": "Cauã Reymond fez o Jorginho em Avenida Brasil e o Halley em A Favorita! O Lucas de O Clone é o Murilo Benício!"
+                },
+                {
+                    "text": "Murilo Benício",
+                    "isCorrect": true,
+                    "explanation": "Protagonista! Murilo Benício interpretou Lucas Ferraz (e também seu irmão gêmeo Diogo, e o clone Léo!) em O Clone (2001). Sua história de amor com Jade (Giovanna Antonelli) e os conflitos causados pela existência do clone foram o centro da trama. 'Khalti Latiffa!'",
+                    "imageUrl": "https://exemplo.com/o_clone_lucas_murilo_benicio.jpg",
+                    "imageDescription": "Imagem de Murilo Benício como Lucas em O Clone."
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela o personagem Pedro (Reynaldo Gianecchini) e a personagem Camila (Carolina Dieckmann) enfrentaram o drama da leucemia?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Por Amor",
+                    "isCorrect": false,
+                    "explanation": "Por Amor tinha a troca de bebês! A novela que abordou a leucemia é Laços de Família!"
+                },
+                {
+                    "text": "Páginas da Vida",
+                    "isCorrect": false,
+                    "explanation": "Páginas da Vida abordou a Síndrome de Down e outros temas! A novela com a leucemia e a cena da raspagem de cabelo é Laços de Família!"
+                },
+                {
+                    "text": "Laços de Família",
+                    "isCorrect": true,
+                    "explanation": "Que drama emocionante! Em Laços de Família (2000), a personagem Camila (Carolina Dieckmann) foi diagnosticada com leucemia, e sua irmã (e mãe biológica, sem saber!), Helena (Vera Fischer), fez de tudo para salvá-la, incluindo ter outro filho para ser doador. A cena de Camila raspando o cabelo é icônica! 'Chora, Helena!'",
+                    "imageUrl": "https://exemplo.com/lacos_de_familia_camila.jpg",
+                    "imageDescription": "Imagem de Carolina Dieckmann como Camila, possivelmente na cena da raspagem de cabelo."
+                },
+                {
+                    "text": "Mulheres Apaixonadas",
+                    "isCorrect": false,
+                    "explanation": "Mulheres Apaixonadas abordou temas sociais! A novela com a leucemia e a cena da raspagem de cabelo é Laços de Família!"
+                }
+            ]
+        },
+        {
+            "question": "Quem viveu o personagem Arthur (Fábio Assunção), o empresário que aposta que transforma Eliza (Marina Ruy Barbosa) em modelo em 'Totalmente Demais'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Hum",
+                    "isCorrect": false,
+                    "explanation": "Hum? Não é um nome! O ator que viveu o Arthur é o Fábio Assunção!"
+                },
+                {
+                    "text": "Fábio Assunção",
+                    "isCorrect": true,
+                    "explanation": "É ele! Fábio Assunção interpretou Arthur em Totalmente Demais (2015), o charmoso empresário que faz uma aposta para transformar a 'flor do Lins', Eliza (Marina Ruy Barbosa), em uma modelo de sucesso. Um mentor (e depois par romântico!) inesquecível!",
+                    "imageUrl": "https://exemplo.com/totalmente_demais_arthur_eliza.jpg",
+                    "imageDescription": "Imagem de Fábio Assunção e Marina Ruy Barbosa como Arthur e Eliza em Totalmente Demais."
+                },
+                {
+                    "text": "Cauã Reymond",
+                    "isCorrect": false,
+                    "explanation": "Cauã Reymond fez o Jorginho em Avenida Brasil! O empresário de Totalmente Demais é o Fábio Assunção!"
+                },
+                {
+                    "text": "Murilo Benício",
+                    "isCorrect": false,
+                    "explanation": "Murilo Benício fez o Tufão! O empresário de Totalmente Demais é o Fábio Assunção!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela o personagem Agenor (Tony Ramos) era um ilusionista que fingia ter poderes sobrenaturais?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "O Dono do Mundo",
+                    "isCorrect": false,
+                    "explanation": "O Dono do Mundo tinha o Felipe Barreto, o 'dono do mundo'! A novela do ilusionista é O Astro!"
+                },
+                {
+                    "text": "Celebridade",
+                    "isCorrect": false,
+                    "explanation": "Celebridade falava do mundo da fama! A novela do ilusionista é O Astro!"
+                },
+                {
+                    "text": "O Astro (versão original ou remake)",
+                    "isCorrect": true,
+                    "explanation": "É ela! O Astro (versão original 1977 e remake 2011) contava a história de Herculano Quintanilha (Tony Ramos na original e Rodrigo Lombardi no remake), um ilusionista que fingia ter poderes de prever o futuro. Um drama cheio de mistério e magia (ou seria só truque?).",
+                    "imageUrl": "https://exemplo.com/o_astro_ilusionista.jpg",
+                    "imageDescription": "Imagem de Tony Ramos ou Rodrigo Lombardi como o protagonista de O Astro, talvez com elementos de ilusionismo."
+                },
+                {
+                    "text": "Insensato Coração",
+                    "isCorrect": false,
+                    "explanation": "Insensato Coração tinha vilões e reviravoltas! A novela do ilusionista é O Astro!"
+                }
+            ]
+        },
+        {
+            "question": "Quem viveu o personagem Zeca, o 'filho' do Velho do Rio e par romântico de Juma Marruá no remake de 'Pantanal'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Murilo Benício",
+                    "isCorrect": false,
+                    "explanation": "Murilo Benício viveu o Lucas, Diogo e Léo em O Clone! O Zeca de Pantanal remake é o José Loreto!"
+                },
+                {
+                    "text": "Jesuíta Barbosa",
+                    "isCorrect": false,
+                    "explanation": "Jesuíta Barbosa viveu o Jove em Pantanal remake, o filho de José Leôncio que se apaixona por Juma! O Zeca é o rival dele, filho do Tenório."
+                },
+                {
+                    "text": "José Loreto",
+                    "isCorrect": true,
+                    "explanation": "É ele! José Loreto interpretou Zeca em Pantanal (remake 2022), o peão que se envolve com Ritinha (Isabel Teixeira) e depois com Guta (Julia Dalavia), e tem uma rivalidade com Jove por causa de Juma. Filho do Tenório (Murilo Benício) e rival de Jove! 'Égua, sô!'",
+                    "imageUrl": "https://exemplo.com/pantanal_remake_zeca_jose_loreto.jpg",
+                    "imageDescription": "Imagem de José Loreto como Zeca em Pantanal remake."
+                },
+                {
+                    "text": "Marco Pigossi",
+                    "isCorrect": false,
+                    "explanation": "Marco Pigossi viveu o Zeca na versão original de Pantanal (Manchete)! No remake da Globo, o Zeca é o José Loreto!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela a personagem vilã Raquel (Glória Pires) se fingia de sua irmã gêmea boa, Ruth, para enganar as pessoas?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Vale Tudo",
+                    "isCorrect": false,
+                    "explanation": "Vale Tudo tinha a Glória Pires como vilã Maria de Fátima (filha) e a Raquel (mãe)! As gêmeas que trocam de lugar são em Mulheres de Areia!"
+                },
+                {
+                    "text": "Por Amor",
+                    "isCorrect": false,
+                    "explanation": "Por Amor tinha a Helena trocando bebês! As gêmeas que trocam de lugar são em Mulheres de Areia!"
+                },
+                {
+                    "text": "Insensato Coração",
+                    "isCorrect": false,
+                    "explanation": "Insensato Coração tinha o vilão Léo (Fábio Assunção) que roubava a identidade do irmão gêmeo Pedro! As gêmeas que trocam de lugar são em Mulheres de Areia!"
+                },
+                {
+                    "text": "Mulheres de Areia",
+                    "isCorrect": true,
+                    "explanation": "Drama de gêmeas! Em Mulheres de Areia (1993), Raquel (Glória Pires) era a irmã gêmea má de Ruth (Glória Pires). Após ser dada como morta, Raquel rouba a identidade de Ruth para se vingar e reconquistar o amor de Marcos (Guilherme Fontes). Que confusão de identidades!",
+                    "imageUrl": "https://exemplo.com/mulheres_de_areia_gemeas_gloria_pires.jpg",
+                    "imageDescription": "Imagem de Glória Pires como as gêmeas Ruth e Raquel em Mulheres de Areia."
+                }
+            ]
+        },
+        {
+            "question": "Quem viveu a personagem Juma Marruá no remake de 'Pantanal' (2022), a 'mulher-onça'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Isabel Teixeira",
+                    "isCorrect": false,
+                    "explanation": "Isabel Teixeira viveu a Maria Bruaca no remake de Pantanal! A Juma Marruá é a Alanis Guillen!"
+                },
+                {
+                    "text": "Dira Paes",
+                    "isCorrect": false,
+                    "explanation": "Dira Paes viveu a Filó no remake de Pantanal! A Juma Marruá é a Alanis Guillen!"
+                },
+                {
+                    "text": "Alanis Guillen",
+                    "isCorrect": true,
+                    "explanation": "Que personagem icônica! Alanis Guillen viveu Juma Marruá no remake de Pantanal (2022), a jovem selvagem que se transforma em onça para se defender. Sua história de amor com Jove e a relação com o Velho do Rio encantaram o Brasil novamente!",
+                    "imageUrl": "https://exemplo.com/pantanal_remake_juma_alanis.jpg",
+                    "imageDescription": "Imagem de Alanis Guillen como Juma Marruá no remake de Pantanal."
+                },
+                {
+                    "text": "Cristiana Oliveira",
+                    "isCorrect": false,
+                    "explanation": "Cristiana Oliveira viveu a Juma Marruá na versão original de Pantanal (Manchete)! No remake da Globo, a Juma é a Alanis Guillen!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela a personagem Odete Roitman (Beatriz Segall) perguntou: 'Quem matou Odete Roitman?'",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Tieta",
+                    "isCorrect": false,
+                    "explanation": "Em Tieta, a pergunta era sobre a volta de Tieta! O assassinato da vilã Odete Roitman é em Vale Tudo!"
+                },
+                {
+                    "text": "Vale Tudo",
+                    "isCorrect": true,
+                    "explanation": "Que pergunta clássica! Em Vale Tudo (1988), o assassinato da vilã Odete Roitman (Beatriz Segall) virou um mistério nacional e parou o país! A resposta, no último capítulo, chocou a todos!",
+                    "imageUrl": "https://exemplo.com/vale_tudo_quem_matou_odete.jpg",
+                    "imageDescription": "Imagem de Beatriz Segall como Odete Roitman, talvez com um ponto de interrogação."
+                },
+                {
+                    "text": "Roque Santeiro",
+                    "isCorrect": false,
+                    "explanation": "Roque Santeiro tinha mistérios, mas não o assassinato da vilã Odete Roitman! Esse foi em Vale Tudo!"
+                },
+                {
+                    "text": "Rainha da Sucata",
+                    "isCorrect": false,
+                    "explanation": "Rainha da Sucata tinha a rivalidade entre Maria do Carmo e Laurinha! O assassinato de Odete Roitman é em Vale Tudo!"
+                }
+            ]
+        },
+        {
+            "question": "Qual a novela que contava a história de um casal que se comunica após a morte de um deles, com tema de espiritismo e vida após a morte?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Alma Gêmea",
+                    "isCorrect": false,
+                    "explanation": "Alma Gêmea falava de reencarnação! A novela sobre comunicação após a morte e espiritismo é A Viagem!"
+                },
+                {
+                    "text": "Além do Tempo",
+                    "isCorrect": false,
+                    "explanation": "Além do Tempo tinha duas fases e reencarnação! A novela sobre comunicação com o mundo espiritual após a morte é A Viagem!"
+                },
+                {
+                    "text": "A Viagem",
+                    "isCorrect": true,
+                    "explanation": "Que viagem! A Viagem (versão original 1975, remake 1994) contava a história de Alexandre, que morre e inferniza a vida de todos do 'além', e a comunicação de Diná com ele e outros espíritos. Um sucesso com tema espírita!",
+                    "imageUrl": "https://exemplo.com/a_viagem_novela.jpg",
+                    "imageDescription": "Imagem promocional da novela A Viagem (versão original ou remake)."
+                },
+                {
+                    "text": "O Profeta (remake)",
+                    "isCorrect": false,
+                    "explanation": "O Profeta (remake) falava de um vidente! A novela sobre comunicação com o mundo espiritual após a morte é A Viagem!"
+                }
+            ]
+        },
+        {
+            "question": "Quem viveu a protagonista Lígia em 'Água Viva', uma mulher que enfrenta conflitos familiares e busca o amor?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Regina Duarte",
+                    "isCorrect": false,
+                    "explanation": "Regina Duarte viveu a Lígia no remake de Água Viva (minissérie)! Na novela original de 1980, a Lígia é a Betty Faria!"
+                },
+                {
+                    "text": "Sônia Braga",
+                    "isCorrect": false,
+                    "explanation": "Sônia Braga viveu a Maria de Lourdes em Água Viva! A protagonista Lígia é a Betty Faria!"
+                },
+                {
+                    "text": "Betty Faria",
+                    "isCorrect": true,
+                    "explanation": "Protagonista inesquecível! Betty Faria interpretou Lígia em Água Viva (1980), uma mulher que enfrenta dramas familiares e busca o amor verdadeiro em meio à alta sociedade carioca. Um clássico dos anos 80!",
+                    "imageUrl": "https://exemplo.com/agua_viva_ligia_betty_faria.jpg",
+                    "imageDescription": "Imagem de Betty Faria como Lígia em Água Viva."
+                },
+                {
+                    "text": "Malu Mader",
+                    "isCorrect": false,
+                    "explanation": "Malu Mader fez a Duda em Top Model e a Maria Clara em Celebridade! A Lígia de Água Viva é a Betty Faria!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela o personagem Félix (Mateus Solano) tinha um caso de amor com Niko (Thiago Fragoso), marcando a representatividade gay na TV?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Em Família",
+                    "isCorrect": false,
+                    "explanation": "Em Família teve o casal lésbico Clarina! O casal gay Félix e Niko é de outra novela, mais dramática (e divertida!)"
+                },
+                {
+                    "text": "Amor à Vida",
+                    "isCorrect": true,
+                    "explanation": "Que casal querido! Em Amor à Vida (2013), o vilão Félix (Mateus Solano) se apaixonou por Niko (Thiago Fragoso), um chef de cozinha. A história de amor deles e o primeiro beijo gay em novela das 21h emocionaram o público e marcaram a representatividade LGBTQ+ na TV brasileira. 'Salva, salva, Niko!'",
+                    "imageUrl": "https://exemplo.com/amor_a_vida_felix_niko.jpg",
+                    "imageDescription": "Imagem de Mateus Solano e Thiago Fragoso como Félix e Niko em Amor à Vida."
+                },
+                {
+                    "text": "Babilonia",
+                    "isCorrect": false,
+                    "explanation": "Babilonia teve beijo lésbico polêmico! O casal gay que conquistou o público é Félix e Niko em Amor à Vida!"
+                },
+                {
+                    "text": "A Força do Querer",
+                    "isCorrect": false,
+                    "explanation": "A Força do Querer teve a trama de Ivan/Ivana! O casal gay Félix e Niko é de Amor à Vida!"
+                }
+            ]
+        },
+        {
+            "question": "Quem viveu a personagem Jove no remake de 'Pantanal' (2022), o filho do 'rei do gado' José Leôncio que se apaixona por Juma?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "José Loreto",
+                    "isCorrect": false,
+                    "explanation": "José Loreto viveu o Zeca no remake de Pantanal! O Jove é o Jesuíta Barbosa!"
+                },
+                {
+                    "text": "Murilo Benício",
+                    "isCorrect": false,
+                    "explanation": "Murilo Benício viveu o Tenório no remake de Pantanal, pai do Zeca! O Jove é o filho do José Leôncio!"
+                },
+                {
+                    "text": "Jesuíta Barbosa",
+                    "isCorrect": true,
+                    "explanation": "É ele! Jesuíta Barbosa interpretou Jove em Pantanal (remake 2022), o filho 'moderno' de José Leôncio (Marcos Palmeira) que se muda do Rio para o Pantanal e se apaixona por Juma (Alanis Guillen). Um choque de culturas!",
+                    "imageUrl": "https://exemplo.com/pantanal_remake_jove_jesuita.jpg",
+                    "imageDescription": "Imagem de Jesuíta Barbosa como Jove em Pantanal remake."
+                },
+                {
+                    "text": "Marcos Palmeira",
+                    "isCorrect": false,
+                    "explanation": "Marcos Palmeira viveu o José Leôncio, o pai de Jove! O Jove é o Jesuíta Barbosa!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela a personagem Camila (Carolina Dieckmann) raspou a cabeça devido à leucemia, em uma cena emocionante?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Por Amor",
+                    "isCorrect": false,
+                    "explanation": "Por Amor tinha a troca de bebês! A novela da cena da raspagem de cabelo pela leucemia é Laços de Família!"
+                },
+                {
+                    "text": "Páginas da Vida",
+                    "isCorrect": false,
+                    "explanation": "Páginas da Vida abordou a Síndrome de Down! A novela da leucemia e da raspagem de cabelo é Laços de Família!"
+                },
+                {
+                    "text": "Laços de Família",
+                    "isCorrect": true,
+                    "explanation": "Cena icônica e emocionante! Em Laços de Família (2000), a personagem Camila (Carolina Dieckmann), diagnosticada com leucemia, raspa a cabeça em uma cena tocante que se tornou um símbolo da luta contra a doença e um dos momentos mais marcantes da teledramaturgia! Inesquecível!",
+                    "imageUrl": "https://exemplo.com/lacos_de_familia_camila_raspando.jpg",
+                    "imageDescription": "Imagem da cena de Camila (Carolina Dieckmann) raspando o cabelo em Laços de Família."
+                },
+                {
+                    "text": "Mulheres Apaixonadas",
+                    "isCorrect": false,
+                    "explanation": "Mulheres Apaixonadas abordou temas sociais! A novela da leucemia e da raspagem de cabelo é Laços de Família!"
+                }
+            ]
+        },
+        {
+            "question": "Quem viveu o personagem José Leôncio no remake de 'Pantanal' (2022), o 'rei do gado'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Antonio Fagundes",
+                    "isCorrect": false,
+                    "explanation": "Antônio Fagundes viveu o Bruno Mezenga, o 'rei do gado' em O Rei do Gado! No remake de Pantanal, o rei do gado é o Marcos Palmeira!"
+                },
+                {
+                    "text": "Murilo Benício",
+                    "isCorrect": false,
+                    "explanation": "Murilo Benício viveu o Tenório no remake de Pantanal, o vilão! O 'rei do gado' é o Marcos Palmeira!"
+                },
+                {
+                    "text": "Marcos Palmeira",
+                    "isCorrect": true,
+                    "explanation": "É ele! Marcos Palmeira interpretou José Leôncio em Pantanal (remake 2022), o 'rei do gado' que tenta construir uma vida no Pantanal e lida com os mistérios da família e da natureza. Um personagem central na trama!",
+                    "imageUrl": "https://exemplo.com/pantanal_remake_jose_leoncio.jpg",
+                    "imageDescription": "Imagem de Marcos Palmeira como José Leôncio em Pantanal remake."
+                },
+                {
+                    "text": "Osmar Prado",
+                    "isCorrect": false,
+                    "explanation": "Osmar Prado viveu o Velho do Rio no remake de Pantanal! O 'rei do gado' é o José Leôncio, vivido por Marcos Palmeira!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela a personagem vilã Odete Roitman (Beatriz Segall) era uma socialite arrogante e preconceituosa?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Tieta",
+                    "isCorrect": false,
+                    "explanation": "Tieta falava da volta de Tieta! A socialite arrogante e preconceituosa é a Odete Roitman de Vale Tudo!"
+                },
+                {
+                    "text": "Vale Tudo",
+                    "isCorrect": true,
+                    "explanation": "Vilã lendária! Em Vale Tudo (1988), Odete Roitman (Beatriz Segall) era a socialite riquíssima, arrogante, esnobe e preconceituosa que odiava o Brasil. Sua vilania e seu assassinato misterioso pararam o país!",
+                    "imageUrl": "https://exemplo.com/vale_tudo_odete_roitman.jpg",
+                    "imageDescription": "Imagem de Beatriz Segall como Odete Roitman em Vale Tudo."
+                },
+                {
+                    "text": "Roque Santeiro",
+                    "isCorrect": false,
+                    "explanation": "Roque Santeiro tinha Sinhozinho Malta e Viúva Porcina! A socialite arrogante é a Odete Roitman!"
+                },
+                {
+                    "text": "Rainha da Sucata",
+                    "isCorrect": false,
+                    "explanation": "Rainha da Sucata tinha a rivalidade entre Maria do Carmo e Laurinha Figureira! A socialite arrogante e preconceituosa é a Odete Roitman!"
+                }
+            ]
+        },
+        {
+            "question": "Qual novela dos anos 80 teve a música 'Oceano' de Djavan como tema de um casal?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Vale Tudo",
+                    "isCorrect": false,
+                    "explanation": "Vale Tudo tinha a música tema 'Vale Tudo' (gal Costa)! 'Oceano' é tema de casal em outra novela dos anos 80!"
+                },
+                {
+                    "text": "Tieta",
+                    "isCorrect": false,
+                    "explanation": "Tieta tinha 'Tieta' (Luiz Caldas) como tema! 'Oceano' é tema de casal em outra novela de 1989!"
+                },
+                {
+                    "text": "Top Model",
+                    "isCorrect": true,
+                    "explanation": "É ela! Top Model (1989)! A linda música 'Oceano' de Djavan foi tema do casal Duda (Malu Mader) e Nando (Maurício Mattar). A trilha sonora dessa novela marcou uma geração!",
+                    "imageUrl": "https://exemplo.com/top_model_duda_nando.jpg",
+                    "imageDescription": "Imagem de Malu Mader e Maurício Mattar como Duda e Nando em Top Model."
+                },
+                {
+                    "text": "O Salvador da Pátria",
+                    "isCorrect": false,
+                    "explanation": "O Salvador da Pátria tinha 'O Salvador da Pátria' (novela) como tema! 'Oceano' é tema de casal em Top Model!"
+                }
+            ]
+        },
+        {
+            "question": "Quem viveu a personagem Odete Roitman em 'Vale Tudo', a vilã assassinada no final?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Glória Pires",
+                    "isCorrect": false,
+                    "explanation": "Glória Pires viveu Maria de Fátima em Vale Tudo! A vilã Odete Roitman é da Beatriz Segall!"
+                },
+                {
+                    "text": "Renata Sorrah",
+                    "isCorrect": false,
+                    "explanation": "Renata Sorrah viveu Nazaré Tedesco! A vilã de Vale Tudo é a Odete Roitman!"
+                },
+                {
+                    "text": "Beatriz Segall",
+                    "isCorrect": true,
+                    "explanation": "Ícone da vilania! Beatriz Segall interpretou Odete Roitman em Vale Tudo (1988), a socialite arrogante cujo assassinato misterioso parou o Brasil. Inesquecível!",
+                    "imageUrl": "https://exemplo.com/vale_tudo_odete_roitman_beatriz.jpg",
+                    "imageDescription": "Imagem de Beatriz Segall como Odete Roitman."
+                },
+                {
+                    "text": "Cláudia Abreu",
+                    "isCorrect": false,
+                    "explanation": "Cláudia Abreu viveu Laura em Celebridade! A vilã de Vale Tudo é a Odete Roitman!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome da novela que se passava na fictícia cidade de Asa Branca e tinha como personagem principal o 'morto que voltou', Roque Santeiro?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Saramandaia",
+                    "isCorrect": false,
+                    "explanation": "Saramandaia se passava em Bole-Bole e tinha realismo fantástico! A novela do 'morto que voltou' em Asa Branca é a do Roque Santeiro!"
+                },
+                {
+                    "text": "Tieta",
+                    "isCorrect": false,
+                    "explanation": "Tieta se passava em Santana do Agreste e tinha a volta da personagem título! A novela do 'santo' que estava vivo em Asa Branca é a do Roque Santeiro!"
+                },
+                {
+                    "text": "Roque Santeiro",
+                    "isCorrect": true,
+                    "explanation": "Clássico absoluto! Roque Santeiro (1985) contava a história de Roque (José Wilker), considerado um santo em Asa Branca, que, para a surpresa de todos, estava vivo. Uma comédia dramática genial com personagens inesquecíveis como Viúva Porcina, Sinhozinho Malta e Dona Beija (ops, Dona Beija é outra novela!). 'Foi bonito, foi!'",
+                    "imageUrl": "https://exemplo.com/roque_santeiro_personagens.jpg",
+                    "imageDescription": "Imagem do elenco ou personagens de Roque Santeiro (José Wilker, Regina Duarte, Lima Duarte)."
+                },
+                {
+                    "text": "Gabriela",
+                    "isCorrect": false,
+                    "explanation": "Gabriela se passava em Ilhéus e tinha a história da personagem título! A novela do 'santo' de Asa Branca é a do Roque Santeiro!"
+                }
+            ]
+        },
+        {
+            "question": "Quem viveu o personagem Sinhozinho Malta em 'Roque Santeiro', conhecido por seu 'Meu punhal de ouro, cravejado de brilhantes!'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Ary Fontoura",
+                    "isCorrect": false,
+                    "explanation": "Ary Fontoura é um mestre da atuação, fez personagens inesquecíveis, mas o Sinhozinho Malta é de outro ator!"
+                },
+                {
+                    "text": "Lima Duarte",
+                    "isCorrect": true,
+                    "explanation": "Não podia ser outro! Lima Duarte imortalizou Sinhozinho Malta em Roque Santeiro (1985), o poderoso coronel de Asa Branca apaixonado por Viúva Porcina e sempre exibindo seu punhal. Um personagem icônico e cheio de trejeitos! 'Não sou mais aquele que um dia fui...'",
+                    "imageUrl": "https://exemplo.com/sinhozinho_malta_lima_duarte.jpg",
+                    "imageDescription": "Imagem de Lima Duarte como Sinhozinho Malta com seu punhal."
+                },
+                {
+                    "text": "José Wilker",
+                    "isCorrect": false,
+                    "explanation": "José Wilker viveu o próprio Roque Santeiro! O coronel do punhal de ouro é o Sinhozinho Malta, vivido por Lima Duarte!"
+                },
+                {
+                    "text": "Francisco Cuoco",
+                    "isCorrect": false,
+                    "explanation": "Francisco Cuoco é um grande ator, fez vários protagonistas! O Sinhozinho Malta é do Lima Duarte!"
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela a personagem vilã Carminha (Adriana Esteves) tentava se vingar da enteada Rita (Débora Falabella), que ela abandonou no lixão?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Senhora do Destino",
+                    "isCorrect": false,
+                    "explanation": "Senhora do Destino tinha Nazaré Tedesco! A novela da vilã que abandonou a enteada no lixão e sofre vingança é Avenida Brasil!"
+                },
+                {
+                    "text": "Fina Estampa",
+                    "isCorrect": false,
+                    "explanation": "Fina Estampa tinha Tereza Cristina! A novela da vilã que abandonou a enteada no lixão e sofre vingança é Avenida Brasil!"
+                },
+                {
+                    "text": "Insensato Coração",
+                    "isCorrect": false,
+                    "explanation": "Insensato Coração tinha Norma e Léo! A novela da vilã que abandonou a enteada no lixão e sofre vingança é Avenida Brasil!"
+                },
+                {
+                    "text": "Avenida Brasil",
+                    "isCorrect": true,
+                    "explanation": "Que vingança! Em Avenida Brasil (2012), a vilã Carminha (Adriana Esteves) abandonou a enteada Rita (Débora Falabella) no lixão, e anos depois, Rita volta como Nina para se vingar. A rivalidade entre elas e o cenário do lixão foram centrais na novela!",
+                    "imageUrl": "https://exemplo.com/avenida_brasil_carminha_nina.jpg",
+                    "imageDescription": "Imagem de Adriana Esteves como Carminha e Débora Falabella como Nina em Avenida Brasil."
+                }
+            ]
+        },
+        {
+            "question": "Em qual novela a personagem Maria Clara Diniz (Malu Mader) era uma rica empresária de comunicação que se apaixonou por um 'cachorro sem dono' (Renato, vivido por Fábio Assunção)?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Celebridade",
+                    "isCorrect": true,
+                    "explanation": "É ela! Celebridade (2003)! A novela sobre o mundo das celebridades, com a rivalidade entre Maria Clara Diniz e a vilã Laura Prudente da Costa (Cláudia Abreu), a 'cachorra'. Maria Clara se apaixonou pelo lutador Renato Mendes. Uma novela que explorou a fama e seus perigos! 'Quem é essa gente?!'",
+                    "imageUrl": "https://exemplo.com/celebridade_maria_clara_renato.jpg",
+                    "imageDescription": "Imagem de Malu Mader e Fábio Assunção como Maria Clara e Renato em Celebridade."
+                },
+                {
+                    "text": "Top Model",
+                    "isCorrect": false,
+                    "explanation": "Top Model falava do mundo da moda e tinha o surfista Duda (Malu Mader)! A novela da rica empresária de comunicação e do 'cachorro sem dono' é Celebridade!"
+                },
+                {
+                    "text": "Força de um Desejo",
+                    "isCorrect": false,
+                    "explanation": "Força de um Desejo era de época, sobre barões do café e escravidão! A novela da empresária de comunicação é Celebridade!"
+                },
+                {
+                    "text": "Insensato Coração",
+                    "isCorrect": false,
+                    "explanation": "Insensato Coração tinha o Fábio Assunção (como Léo, o vilão) e a Natália do Vale (como rica empresária!), mas a novela da dupla Malu Mader e Fábio Assunção como empresária e lutador é Celebridade!"
+                }
+            ]
+        },
+        {
+            "question": "Quem viveu o 'santo' que não era santo, Roque Santeiro, na novela homônima de 1985?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Lima Duarte",
+                    "isCorrect": false,
+                    "explanation": "Lima Duarte viveu o Sinhozinho Malta em Roque Santeiro! O 'santo' que estava vivo é outro ator!"
+                },
+                {
+                    "text": "Regina Duarte",
+                    "isCorrect": false,
+                    "explanation": "Regina Duarte viveu a Viúva Porcina! O 'santo' da novela é um personagem masculino!"
+                },
+                {
+                    "text": "José Wilker",
+                    "isCorrect": true,
+                    "explanation": "É ele! José Wilker interpretou Roque Santeiro em Roque Santeiro (1985), o personagem que todos acreditavam ter morrido como mártir em Asa Branca, mas que aparece vivo, bagunçando a crença popular e a vida da Viúva Porcina. Um papel inesquecível!",
+                    "imageUrl": "https: //exemplo.com/roque_santeiro_jose_wilker.jpg",
+                    "imageDescription": "Imagem de José Wilker como Roque Santeiro."
+                },
+                {
+                    "text": "Osmar Prado",
+                    "isCorrect": false,
+                    "explanation": "Osmar Prado viveu o Sassá Mutema em O Salvador da Pátria! O 'santo' de Asa Branca é o Roque Santeiro, vivido por José Wilker!"
+                }
+            ]
+        },
+        {
+            "question": "Quem viveu o vilão Olavo Novaes em 'Paraíso Tropical', conhecido por sua elegância e frases de efeito como 'Paraíso Tropical!'?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Fábio Assunção",
+                    "isCorrect": false,
+                    "explanation": "Fábio Assunção viveu o Daniel em Paraíso Tropical, o mocinho! O vilão elegante é o Wagner Moura!"
+                },
+                {
+                    "text": "Marcelo Serrado",
+                    "isCorrect": false,
+                    "explanation": "Marcelo Serrado viveu o Crô em Fina Estampa! O vilão elegante de Paraíso Tropical é o Olavo!"
+                },
+                {
+                    "text": "Wagner Moura",
+                    "isCorrect": true,
+                    "explanation": "Vilão icônico! Wagner Moura interpretou Olavo Novaes em Paraíso Tropical (2007), o vilão elegante, sarcástico e cheio de mistérios, que se envolveu com Bebel (Camila Pitanga). Suas frases de efeito e a química com Bebel o tornaram inesquecível. 'Muito cafona, Bebel!'",
+                    "imageUrl": "https://exemplo.com/paraiso_tropical_olavo_wagner_moura.jpg",
+                    "imageDescription": "Imagem de Wagner Moura como Olavo Novaes em Paraíso Tropical."
+                },
+                {
+                    "text": "Tony Ramos",
+                    "isCorrect": false,
+                    "explanation": "Tony Ramos fez o Antenor em Paraíso Tropical, o avô dos protagonistas! O vilão elegante é o Olavo, neto dele!"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1423 @@
+{
+    "config": {
+        "theme": "Ciências Gerais e Natureza",
+        "totalPoints": 1000,
+        "scoring": "points"
+    },
+    "data": [
+        {
+            "question": "Qual a unidade básica da vida?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Átomo",
+                    "isCorrect": false,
+                    "explanation": "Átomos são os blocos de construção da matéria, sim! Mas a unidade básica *da vida* é outra, que tem membrana, núcleo, etc."
+                },
+                {
+                    "text": "Molécula",
+                    "isCorrect": false,
+                    "explanation": "Moléculas são formadas por átomos! As moléculas são importantes para a vida, mas a unidade básica *viva* é maior e mais complexa."
+                },
+                {
+                    "text": "Célula",
+                    "isCorrect": true,
+                    "explanation": "Exato! A Célula! É a menor unidade estrutural e funcional de todos os organismos vivos conhecidos. Desde bactérias unicelulares até os trilhões de células no corpo humano. O 'tijolo' da vida!",
+                    "imageUrl": "https://exemplo.com/celula_biologia.jpg",
+                    "imageDescription": "Ilustração genérica de uma célula animal ou vegetal."
+                },
+                {
+                    "text": "Gene",
+                    "isCorrect": false,
+                    "explanation": "Genes são segmentos de DNA que contêm informações hereditárias! São importantes *dentro* da célula, mas não são a unidade básica da vida em si."
+                }
+            ]
+        },
+        {
+            "question": "Qual planeta do nosso sistema solar é conhecido como o 'Planeta Vermelho'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Vênus",
+                    "isCorrect": false,
+                    "explanation": "Vênus é o planeta 'gêmeo' da Terra em tamanho, mas é super quente! O 'Planeta Vermelho' é outro, com poeira avermelhada."
+                },
+                {
+                    "text": "Marte",
+                    "isCorrect": true,
+                    "explanation": "Perfeito! Marte! Sua cor avermelhada vem do óxido de ferro em sua superfície. É um dos planetas mais estudados e o próximo destino dos humanos! Uma curiosidade astronômica!",
+                    "imageUrl": "https://exemplo.com/planeta_marte.jpg",
+                    "imageDescription": "Imagem do planeta Marte."
+                },
+                {
+                    "text": "Júpiter",
+                    "isCorrect": false,
+                    "explanation": "Júpiter é um gigante gasoso com uma grande mancha vermelha, mas o planeta *inteiro* é o Planeta Vermelho!"
+                },
+                {
+                    "text": "Saturno",
+                    "isCorrect": false,
+                    "explanation": "Saturno é famoso pelos anéis! O 'Planeta Vermelho' é o Marte."
+                }
+            ]
+        },
+        {
+            "question": "Qual a força fundamental que mantém os planetas em órbita ao redor do Sol?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Força Eletromagnética",
+                    "isCorrect": false,
+                    "explanation": "A força eletromagnética age entre partículas carregadas! A força que atrai corpos com massa é outra."
+                },
+                {
+                    "text": "Força Nuclear Forte",
+                    "isCorrect": false,
+                    "explanation": "A força nuclear forte mantém prótons e nêutrons unidos no núcleo do átomo! É uma força de curto alcance."
+                },
+                {
+                    "text": "Força Gravitacional",
+                    "isCorrect": true,
+                    "explanation": "Exato! A Força Gravitacional! É a força de atração mútua entre corpos com massa. Quanto maior a massa e mais perto os corpos estão, maior a gravidade. É ela que mantém a Lua ao redor da Terra e a Terra (e outros planetas) ao redor do Sol. Pura atração!",
+                    "imageUrl": "https://exemplo.com/gravidade_orbita.jpg",
+                    "imageDescription": "Ilustração mostrando a força gravitacional mantendo um planeta em órbita ao redor de uma estrela."
+                },
+                {
+                    "text": "Força Nuclear Fraca",
+                    "isCorrect": false,
+                    "explanation": "A força nuclear fraca está envolvida na decadência radioativa! A força de longo alcance que age entre corpos celestes é a gravidade."
+                }
+            ]
+        },
+        {
+            "question": "Qual gás as plantas absorvem da atmosfera durante a fotossíntese?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Oxigênio",
+                    "isCorrect": false,
+                    "explanation": "As plantas *liberam* oxigênio durante a fotossíntese! Elas absorvem outro gás (que nós exalamos!)."
+                },
+                {
+                    "text": "Nitrogênio",
+                    "isCorrect": false,
+                    "explanation": "Nitrogênio é o gás mais abundante na atmosfera, mas as plantas o absorvem principalmente do solo! O gás que elas pegam do ar para fazer fotossíntese é outro."
+                },
+                {
+                    "text": "Dióxido de Carbono",
+                    "isCorrect": true,
+                    "explanation": "Isso! Dióxido de Carbono (CO₂)! As plantas usam o dióxido de carbono do ar, água e luz solar para criar glicose (alimento) e liberar oxigênio. Uma troca vital para a vida na Terra!",
+                    "imageUrl": "https://exemplo.com/fotossintese_co2.jpg",
+                    "imageDescription": "Diagrama simplificado do processo de fotossíntese mostrando a absorção de CO2."
+                },
+                {
+                    "text": "Hidrogênio",
+                    "isCorrect": false,
+                    "explanation": "Hidrogênio é um gás leve e abundante no universo, mas as plantas não o absorvem diretamente do ar para a fotossíntese. Elas pegam CO₂ e água!"
+                }
+            ]
+        },
+        {
+            "question": "Qual a unidade de medida de temperatura no Sistema Internacional (SI)?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Celsius",
+                    "isCorrect": false,
+                    "explanation": "Celsius é uma escala de temperatura super comum no Brasil! Mas a escala 'oficial' no Sistema Internacional é outra, que começa no zero absoluto."
+                },
+                {
+                    "text": "Fahrenheit",
+                    "isCorrect": false,
+                    "explanation": "Fahrenheit é usado nos EUA! A escala no Sistema Internacional é a Kelvin."
+                },
+                {
+                    "text": "Kelvin",
+                    "isCorrect": true,
+                    "explanation": "Exato! O Kelvin (K)! É a escala de temperatura do Sistema Internacional. O zero Kelvin é o zero absoluto (a temperatura mais baixa teoricamente possível, onde as partículas param de se mover). Não tem graus (º) no Kelvin, é só Kelvin! Uma curiosidade da termodinâmica!",
+                    "imageUrl": "https://exemplo.com/escala_kelvin.jpg",
+                    "imageDescription": "Ilustração comparando as escalas Celsius, Fahrenheit e Kelvin."
+                },
+                {
+                    "text": "Rankine",
+                    "isCorrect": false,
+                    "explanation": "Rankine é outra escala de temperatura absoluta (baseada em Fahrenheit), mas a escala do SI é a Kelvin!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do maior mamífero terrestre vivo?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Rinoceronte Branco",
+                    "isCorrect": false,
+                    "explanation": "Rinocerontes brancos são enormes, o maior rinoceronte! Mas o maior mamífero terrestre é ainda maior e mais famoso."
+                },
+                {
+                    "text": "Hipopótamo",
+                    "isCorrect": false,
+                    "explanation": "Hipopótamos são pesados e perigosos, grandes mamíferos! Mas o maior em tamanho e peso é o elefante."
+                },
+                {
+                    "text": "Elefante Africano",
+                    "isCorrect": true,
+                    "explanation": "Gigante! O Elefante Africano é o maior mamífero terrestre vivo, podendo pesar mais de 6 toneladas e medir mais de 3 metros de altura no ombro. Com suas presas e tromba, é uma criatura imponente! Uma curiosidade da megafauna!",
+                    "imageUrl": "https://exemplo.com/elefante_africano.jpg",
+                    "imageDescription": "Imagem de um elefante africano adulto."
+                },
+                {
+                    "text": "Urso Polar",
+                    "isCorrect": false,
+                    "explanation": "Urso Polar é o maior carnívoro terrestre! Mas o maior mamífero terrestre (carnívoro ou não) é o elefante africano."
+                }
+            ]
+        },
+        {
+            "question": "Qual a substância mais abundante na Terra (considerando o planeta inteiro, não só a crosta)?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Oxigênio",
+                    "isCorrect": false,
+                    "explanation": "Oxigênio é muito abundante na crosta e na atmosfera! Mas no planeta inteiro, incluindo o núcleo, o elemento mais comum é um metal pesado."
+                },
+                {
+                    "text": "Silício",
+                    "isCorrect": false,
+                    "explanation": "Silício é o segundo mais abundante na crosta (depois do oxigênio), base de rochas! Mas no planeta inteiro, incluindo o núcleo metálico, o elemento campeão é o Ferro."
+                },
+                {
+                    "text": "Ferro",
+                    "isCorrect": true,
+                    "explanation": "Que pesado e abundante! O Ferro é o elemento mais abundante na Terra como um todo, compondo a maior parte do núcleo do planeta. Na crosta, ele é apenas o quarto mais abundante. Uma curiosidade geológica profunda!",
+                    "imageUrl": "https://exemplo.com/nucleo_terra_ilustracao.jpg",
+                    "imageDescription": "Ilustração mostrando as camadas internas da Terra, destacando o núcleo de ferro."
+                },
+                {
+                    "text": "Alumínio",
+                    "isCorrect": false,
+                    "explanation": "Alumínio é o metal mais abundante na crosta! Mas no planeta inteiro, o Ferro no núcleo domina."
+                }
+            ]
+        },
+        {
+            "question": "Qual a unidade de medida de energia ou trabalho no Sistema Internacional (SI)?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Newton",
+                    "isCorrect": false,
+                    "explanation": "Newton é a unidade de Força! A unidade de Energia recebeu o nome de um físico inglês."
+                },
+                {
+                    "text": "Watt",
+                    "isCorrect": false,
+                    "explanation": "Watt é a unidade de Potência (energia por tempo)! A unidade de Energia sem considerar o tempo é o Joule."
+                },
+                {
+                    "text": "Joule",
+                    "isCorrect": true,
+                    "explanation": "Exato! O Joule (J)! É a unidade de energia ou trabalho no Sistema Internacional. Um Joule é o trabalho realizado ao aplicar uma força de um Newton por uma distância de um metro. Tudo o que envolve energia (calor, movimento, eletricidade) pode ser medido em Joules! Força x Distância = Trabalho!",
+                    "imageUrl": "https://exemplo.com/joule_energia.jpg",
+                    "imageDescription": "Ilustração relacionada a energia ou trabalho, como uma lâmpada acendendo ou um objeto sendo movido."
+                },
+                {
+                    "text": "Pascal",
+                    "isCorrect": false,
+                    "explanation": "Pascal é a unidade de Pressão! A unidade de Energia é o Joule."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do processo onde um sólido passa diretamente para o estado gasoso, sem virar líquido?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Evaporação",
+                    "isCorrect": false,
+                    "explanation": "Evaporação é do líquido para o gasoso! O processo onde um sólido pula a fase líquida é outro."
+                },
+                {
+                    "text": "Condensação",
+                    "isCorrect": false,
+                    "explanation": "Condensação é do gasoso para o líquido! Estamos falando do sólido virando gás direto!"
+                },
+                {
+                    "text": "Sublimação",
+                    "isCorrect": true,
+                    "explanation": "Que salto de estado! Sublimação é o processo físico onde uma substância no estado sólido passa diretamente para o estado gasoso, sem passar pela fase líquida. O gelo seco (CO₂ sólido) fazendo fumaça é um exemplo clássico! Uma curiosidade da química e física dos estados da matéria!",
+                    "imageUrl": "https://exemplo.com/sublimacao_gelo_seco.jpg",
+                    "imageDescription": "Imagem de gelo seco liberando 'fumaça' (CO2 gasoso)."
+                },
+                {
+                    "text": "Fusão",
+                    "isCorrect": false,
+                    "explanation": "Fusão é do sólido para o líquido! A sublimação pula a fase líquida!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o animal marinho conhecido por ter a maior mordida do mundo?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Tubarão Branco",
+                    "isCorrect": false,
+                    "explanation": "Tubarões brancos têm mordidas fortes e assustadoras! Mas o animal com a mordida mais potente de todas é um réptil gigante."
+                },
+                {
+                    "text": "Orca",
+                    "isCorrect": false,
+                    "explanation": "Orcas são predadores poderosos, mas a força da mordida delas não supera a do campeão dos mares (que não é mamífero!)."
+                },
+                {
+                    "text": "Lula Colossal",
+                    "isCorrect": false,
+                    "explanation": "Lulas colossais têm bicos poderosos, mas a força da mordida não é comparável à do animal com a mordida mais potente, que tem escamas e vive na água salgada."
+                },
+                {
+                    "text": "Crocodilo de Água Salgada",
+                    "isCorrect": true,
+                    "explanation": "Assustadoramente forte! O Crocodilo de Água Salgada (*Crocodylus porosus*) é considerado o animal com a mordida mais potente do mundo, capaz de fechar suas mandíbulas com uma força incrível. Uma máquina de triturar! Melhor manter distância!",
+                    "imageUrl": "https://exemplo.com/crocodilo_agua_salgada_mordida.jpg",
+                    "imageDescription": "Imagem de um crocodilo de água salgada com a boca aberta ou mordendo algo."
+                }
+            ]
+        },
+        {
+            "question": "Qual a unidade de medida de potência no Sistema Internacional (SI)?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Newton",
+                    "isCorrect": false,
+                    "explanation": "Newton é a unidade de Força! Potência é a rapidez com que a energia é transferida."
+                },
+                {
+                    "text": "Joule",
+                    "isCorrect": false,
+                    "explanation": "Joule é a unidade de Energia! Potência é energia por unidade de tempo."
+                },
+                {
+                    "text": "Watt",
+                    "isCorrect": true,
+                    "explanation": "Exato! O Watt (W)! É a unidade de potência no Sistema Internacional, em homenagem a James Watt. Um Watt é igual a um Joule por segundo (1W = 1J/s). É a taxa de transferência ou conversão de energia. Lâmpadas, motores... tudo tem sua potência em Watts!",
+                    "imageUrl": "https://exemplo.com/watt_potencia.jpg",
+                    "imageDescription": "Ilustração relacionada a potência, como uma lâmpada com a indicação de Watts."
+                },
+                {
+                    "text": "Volt",
+                    "isCorrect": false,
+                    "explanation": "Volt é a unidade de Tensão Elétrica! Potência é a rapidez com que a energia é usada ou transferida."
+                }
+            ]
+        },
+        {
+            "question": "Qual a camada mais externa da Terra?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Núcleo",
+                    "isCorrect": false,
+                    "explanation": "O Núcleo é a camada mais interna e quente da Terra! A camada mais externa é a casca fina que pisamos."
+                },
+                {
+                    "text": "Manto",
+                    "isCorrect": false,
+                    "explanation": "O Manto é a camada entre o núcleo e a crosta, feita de rocha quente e pastosa! A camada mais externa e sólida é a Crosta."
+                },
+                {
+                    "text": "Crosta Terrestre",
+                    "isCorrect": true,
+                    "explanation": "É isso! A Crosta Terrestre! É a camada mais fina e externa da Terra, composta por rochas e minerais. É onde vivemos e onde estão continentes e oceanos. Uma casca sólida sobre um interior muito quente!",
+                    "imageUrl": "https://exemplo.com/camadas_terra_crosta.jpg",
+                    "imageDescription": "Diagrama mostrando as camadas internas da Terra, destacando a Crosta."
+                },
+                {
+                    "text": "Atmosfera",
+                    "isCorrect": false,
+                    "explanation": "A Atmosfera é a camada de gases ao redor da Terra! A Crosta é a camada sólida externa do planeta."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do processo de transformação de uma lagarta em borboleta?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Germinação",
+                    "isCorrect": false,
+                    "explanation": "Germinação é semente brotando! A transformação de lagarta em borboleta é uma mudança radical de forma."
+                },
+                {
+                    "text": "Reprodução",
+                    "isCorrect": false,
+                    "explanation": "Reprodução é ter filhotes! A transformação de lagarta em borboleta acontece *dentro* do ciclo de vida de um indivíduo."
+                },
+                {
+                    "text": "Fotossíntese",
+                    "isCorrect": false,
+                    "explanation": "Fotossíntese é como plantas fazem comida! A transformação de lagarta em borboleta é um processo de desenvolvimento animal."
+                },
+                {
+                    "text": "Metamorfose",
+                    "isCorrect": true,
+                    "explanation": "Que transformação! Metamorfose é o processo biológico pelo qual um animal passa por uma mudança física e/ou estrutural notável após o nascimento ou eclosão. A transformação de lagarta em pupa (crisálida) e depois em borboleta é um exemplo clássico e impressionante de metamorfose completa. Pura magia da natureza!",
+                    "imageUrl": "https://exemplo.com/metamorfose_borboleta.jpg",
+                    "imageDescription": "Ilustração ou imagem das diferentes fases da metamorfose da borboleta (ovo, lagarta, pupa, borboleta)."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do maior osso do corpo humano?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Úmero",
+                    "isCorrect": false,
+                    "explanation": "O Úmero é o osso do braço, grande, mas não o maior! O maior osso sustenta a maior parte do seu peso."
+                },
+                {
+                    "text": "Tíbia",
+                    "isCorrect": false,
+                    "explanation": "A Tíbia é o maior osso da parte inferior da perna, suporta peso, mas não é o maior osso do corpo inteiro. O maior osso fica na coxa!"
+                },
+                {
+                    "text": "Crânio",
+                    "isCorrect": false,
+                    "explanation": "O Crânio é um conjunto de ossos! A pergunta é sobre um único osso, o maior."
+                },
+                {
+                    "text": "Fêmur",
+                    "isCorrect": true,
+                    "explanation": "É isso! O Fêmur! O osso da coxa é o maior, mais longo e mais forte osso do corpo humano. Ele conecta o quadril ao joelho. Um osso que aguenta o tranco!",
+                    "imageUrl": "https://exemplo.com/femur_ilustracao.jpg",
+                    "imageDescription": "Ilustração do osso fêmur na coxa humana."
+                }
+            ]
+        },
+        {
+            "question": "Qual a unidade de medida de pressão no Sistema Internacional (SI)?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Newton",
+                    "isCorrect": false,
+                    "explanation": "Newton é a unidade de Força! Pressão é força por área."
+                },
+                {
+                    "text": "Joule",
+                    "isCorrect": false,
+                    "explanation": "Joule é a unidade de Energia! Pressão é força por área."
+                },
+                {
+                    "text": "Watt",
+                    "isCorrect": false,
+                    "explanation": "Watt é a unidade de Potência! Pressão é força por área."
+                },
+                {
+                    "text": "Pascal",
+                    "isCorrect": true,
+                    "explanation": "Exato! O Pascal (Pa)! É a unidade de pressão no Sistema Internacional, em homenagem a Blaise Pascal. Um Pascal é a pressão exercida por uma força de um Newton sobre uma área de um metro quadrado (1Pa = 1N/m²). Pneus, pressão atmosférica... tudo medido em Pascais (ou seus múltiplos)! Força / Área = Pressão!",
+                    "imageUrl": "https://exemplo.com/pascal_pressao.jpg",
+                    "imageDescription": "Ilustração representando a unidade Pascal como força por área."
+                }
+            ]
+        },
+        {
+            "question": "Qual o processo pelo qual a água no estado gasoso (vapor) passa para o estado líquido?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Evaporação",
+                    "isCorrect": false,
+                    "explanation": "Evaporação é do líquido para o gasoso! O processo do vapor virando líquido é o contrário."
+                },
+                {
+                    "text": "Condensação",
+                    "isCorrect": true,
+                    "explanation": "É isso! Condensação! Quando o vapor de água na atmosfera perde energia (esfria) e volta para o estado líquido, formando nuvens, orvalho ou a 'suadeira' no copo gelado. Uma curiosidade da física do cotidiano!",
+                    "imageUrl": "https://exemplo.com/condensacao_vapor.jpg",
+                    "imageDescription": "Imagem de vapor de água se condensando em uma superfície fria (ex: espelho embaçado)."
+                },
+                {
+                    "text": "Solidificação",
+                    "isCorrect": false,
+                    "explanation": "Solidificação é do líquido para o sólido (virar gelo)! O processo do vapor virando líquido é a condensação."
+                },
+                {
+                    "text": "Sublimação",
+                    "isCorrect": false,
+                    "explanation": "Sublimação é do sólido direto para o gasoso! O processo do gasoso virando líquido é a condensação."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome da camada de ozônio na atmosfera da Terra?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Troposfera",
+                    "isCorrect": false,
+                    "explanation": "A Troposfera é a camada mais baixa da atmosfera, onde o tempo acontece e voamos de avião (abaixo do limite!). A camada de ozônio fica acima dela."
+                },
+                {
+                    "text": "Estratosfera",
+                    "isCorrect": true,
+                    "explanation": "Exato! A camada de ozônio (uma região com alta concentração de gás ozônio, O₃) está localizada principalmente na Estratosfera, a camada da atmosfera acima da Troposfera. Ela é vital para absorver a maior parte da radiação ultravioleta (UV) nociva do Sol, protegendo a vida na Terra. Nosso protetor solar natural gigante!",
+                    "imageUrl": "https://exemplo.com/camada_ozonio_atmosfera.jpg",
+                    "imageDescription": "Diagrama mostrando as camadas da atmosfera da Terra, destacando a camada de ozônio na Estratosfera."
+                },
+                {
+                    "text": "Mesosfera",
+                    "isCorrect": false,
+                    "explanation": "A Mesosfera é a camada acima da Estratosfera, onde meteoros queimam! A camada de ozônio fica abaixo dela."
+                },
+                {
+                    "text": "Termosfera",
+                    "isCorrect": false,
+                    "explanation": "A Termosfera é a camada mais alta da atmosfera, onde a Estação Espacial Internacional orbita! A camada de ozônio fica muito abaixo."
+                }
+            ]
+        },
+        {
+            "question": "Qual o animal terrestre mais venenoso do mundo?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Cobra Taipan do Interior",
+                    "isCorrect": false,
+                    "explanation": "A Taipan do Interior (ou Taipan Ocidental) é considerada a cobra terrestre mais venenosa! Mas a pergunta é sobre o animal terrestre mais venenoso *em geral*, que não é uma cobra."
+                },
+                {
+                    "text": "Aranha Teia de Funil Australiana",
+                    "isCorrect": false,
+                    "explanation": "A Aranha Teia de Funil Australiana tem um veneno perigoso para humanos! Mas o animal terrestre mais venenoso do mundo é menor e vive na América do Sul."
+                },
+                {
+                    "text": "Escorpião Amarelo Brasileiro",
+                    "isCorrect": false,
+                    "explanation": "O Escorpião Amarelo é perigoso no Brasil, mas o animal terrestre mais venenoso do mundo tem outra forma e cor, e vive na floresta tropical."
+                },
+                {
+                    "text": "Sapo Dardo Dourado (Phyllobates terribilis)",
+                    "isCorrect": true,
+                    "explanation": "Que pequeno e letal! O Sapo Dardo Dourado, encontrado na Colômbia, é considerado o animal terrestre mais venenoso do mundo. Sua pele contém batracotoxina, uma neurotoxina tão potente que apenas alguns microgramas podem matar um humano. Apenas tocá-lo pode ser fatal! Uma curiosidade assustadora da natureza!",
+                    "imageUrl": "https://exemplo.com/sapo_dardo_dourado.jpg",
+                    "imageDescription": "Imagem de um Sapo Dardo Dourado (Phyllobates terribilis)."
+                }
+            ]
+        },
+        {
+            "question": "Qual a unidade de medida de corrente elétrica no Sistema Internacional (SI)?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Volt",
+                    "isCorrect": false,
+                    "explanation": "Volt é a unidade de Tensão Elétrica! A corrente elétrica é medida em Ampères."
+                },
+                {
+                    "text": "Ohm",
+                    "isCorrect": false,
+                    "explanation": "Ohm é a unidade de Resistência Elétrica! A corrente elétrica é o 'fluxo' de carga."
+                },
+                {
+                    "text": "Ampère",
+                    "isCorrect": true,
+                    "explanation": "Exato! O Ampère (A)! É a unidade de corrente elétrica no Sistema Internacional, em homenagem a André-Marie Ampère. Representa a quantidade de carga elétrica que passa por um ponto em um circuito por unidade de tempo. O 'fluxo' da eletricidade!",
+                    "imageUrl": "https://exemplo.com/ampere_corrente_eletrica.jpg",
+                    "imageDescription": "Ilustração representando o fluxo de corrente elétrica em um circuito, com a indicação da unidade Ampère."
+                },
+                {
+                    "text": "Watt",
+                    "isCorrect": false,
+                    "explanation": "Watt é a unidade de Potência! A unidade de corrente elétrica é o Ampère."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do maior vulcão do sistema solar (não na Terra)?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Monte Fuji (Terra)",
+                    "isCorrect": false,
+                    "explanation": "O Monte Fuji é um vulcão conhecido na Terra! O maior vulcão do sistema solar é muito maior e fica em Marte."
+                },
+                {
+                    "text": "Vesúvio (Itália)",
+                    "isCorrect": false,
+                    "explanation": "O Vesúvio é famoso por destruir Pompeia! Mas em tamanho, o maior vulcão do sistema solar é colossal e fica em outro planeta."
+                },
+                {
+                    "text": "Olimpo Mons (Marte)",
+                    "isCorrect": true,
+                    "explanation": "Colossal! O Olimpo Mons (Monte Olimpo) em Marte é o maior vulcão conhecido no sistema solar. Ele é um vulcão escudo gigante, com cerca de 21.9 km de altura e 600 km de diâmetro. Uma maravilha geológica extraterrestre!",
+                    "imageUrl": "https://exemplo.com/olimpo_mons_marte.jpg",
+                    "imageDescription": "Imagem do vulcão Olimpo Mons em Marte, vista do espaço."
+                },
+                {
+                    "text": "Mauna Loa (Havaí, Terra)",
+                    "isCorrect": false,
+                    "explanation": "Mauna Loa é o maior vulcão ativo da Terra em volume! Mas o maior do sistema solar é o Olimpo Mons em Marte."
+                }
+            ]
+        },
+        {
+            "question": "Qual a ciência que estuda os fenômenos relacionados ao clima e às suas variações?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Meteorologia",
+                    "isCorrect": false,
+                    "explanation": "Meteorologia estuda o *tempo* (condições atmosféricas de curto prazo)! A ciência que estuda o *clima* (condições de longo prazo) é outra."
+                },
+                {
+                    "text": "Hidrologia",
+                    "isCorrect": false,
+                    "explanation": "Hidrologia estuda a água na Terra! A ciência que estuda o clima é a Climatologia."
+                },
+                {
+                    "text": "Climatologia",
+                    "isCorrect": true,
+                    "explanation": "É isso! Climatologia! É o ramo da ciência que estuda o clima da Terra, seus padrões, causas, variações e efeitos ao longo do tempo e em diferentes regiões. Essencial para entender as mudanças climáticas! O estudo do clima!",
+                    "imageUrl": "https://exemplo.com/climatologia_diagrama.jpg",
+                    "imageDescription": "Diagrama ou gráfico relacionado a dados climáticos ou zonas climáticas da Terra."
+                },
+                {
+                    "text": "Geologia",
+                    "isCorrect": false,
+                    "explanation": "Geologia estuda as rochas e a estrutura da Terra! A ciência que estuda o clima é a Climatologia."
+                }
+            ]
+        },
+        {
+            "question": "Qual o animal conhecido por ter as maiores presas do mundo?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Rinoceronte",
+                    "isCorrect": false,
+                    "explanation": "Rinocerontes têm chifres, não presas (dentes modificados)! O animal com as maiores presas é um gigante mamífero."
+                },
+                {
+                    "text": "Morsa",
+                    "isCorrect": false,
+                    "explanation": "Morsas têm presas longas, sim! Mas o animal com as maiores presas *do mundo* é um gigante terrestre."
+                },
+                {
+                    "text": "Narval",
+                    "isCorrect": false,
+                    "explanation": "Narvais têm um longo 'chifre' (um dente modificado!), mas não são presas. O animal com as maiores presas é o elefante."
+                },
+                {
+                    "text": "Elefante Africano",
+                    "isCorrect": true,
+                    "explanation": "Gigante de presas! O Elefante Africano macho tem as maiores presas do mundo, que são dentes incisivos que crescem continuamente e podem atingir mais de 3 metros de comprimento e pesar dezenas de quilos! Uma característica impressionante desses mamíferos!",
+                    "imageUrl": "https://exemplo.com/elefante_africano_presas.jpg",
+                    "imageDescription": "Imagem de um elefante africano com presas grandes."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do processo pelo qual a energia da luz solar é convertida em energia elétrica?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Fotossíntese",
+                    "isCorrect": false,
+                    "explanation": "Fotossíntese converte luz solar em energia *química* (alimento das plantas)! A conversão em energia *elétrica* é outra."
+                },
+                {
+                    "text": "Eletromagnetismo",
+                    "isCorrect": false,
+                    "explanation": "Eletromagnetismo é a interação entre eletricidade e magnetismo! A conversão de luz em eletricidade é um efeito específico."
+                },
+                {
+                    "text": "Efeito Fotovoltaico",
+                    "isCorrect": true,
+                    "explanation": "É isso! O Efeito Fotovoltaico! É o fenômeno físico onde a luz que atinge certos materiais (como silício em painéis solares) libera elétrons, gerando uma corrente elétrica. É assim que painéis solares produzem energia limpa! Luz virando eletricidade!",
+                    "imageUrl": "https://exemplo.com/efeito_fotovoltaico_painel_solar.jpg",
+                    "imageDescription": "Diagrama mostrando o efeito fotovoltaico em uma célula solar ou imagem de um painel solar."
+                },
+                {
+                    "text": "Energia Eólica",
+                    "isCorrect": false,
+                    "explanation": "Energia eólica vem do vento! A conversão de luz solar em eletricidade é o efeito fotovoltaico."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do ramo da física que estuda o calor e a temperatura e sua relação com energia e trabalho?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Mecânica",
+                    "isCorrect": false,
+                    "explanation": "Mecânica estuda o movimento e as forças! O ramo que estuda calor e temperatura é outro."
+                },
+                {
+                    "text": "Óptica",
+                    "isCorrect": false,
+                    "explanation": "Óptica estuda a luz! O ramo que estuda calor e temperatura é a Termodinâmica."
+                },
+                {
+                    "text": "Acústica",
+                    "isCorrect": false,
+                    "explanation": "Acústica estuda o som! O ramo que estuda calor e temperatura é a Termodinâmica."
+                },
+                {
+                    "text": "Termodinâmica",
+                    "isCorrect": true,
+                    "explanation": "Que ciência quente! Termodinâmica é o ramo da física que estuda as leis que governam a transferência de calor e a conversão de energia entre diferentes formas, como calor e trabalho. Essencial para entender máquinas a vapor, refrigeração e a energia no universo! As leis do calor e da energia!",
+                    "imageUrl": "https://exemplo.com/termodinamica_ilustracao.jpg",
+                    "imageDescription": "Ilustração relacionada a calor, temperatura, trabalho e energia, como um motor a vapor ou um termômetro."
+                }
+            ]
+        },
+        {
+            "question": "Qual o animal conhecido por ter o maior cérebro em relação ao seu tamanho corporal?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Humano",
+                    "isCorrect": false,
+                    "explanation": "Humanos têm cérebros grandes e complexos, sim! Mas em relação ao tamanho do corpo, o campeão é uma ave pequena."
+                },
+                {
+                    "text": "Golfinho",
+                    "isCorrect": false,
+                    "explanation": "Golfinhos são super inteligentes e têm cérebros grandes! Mas a proporção cérebro/corpo não é a maior. O campeão é uma ave."
+                },
+                {
+                    "text": "Corvo",
+                    "isCorrect": false,
+                    "explanation": "Corvos são aves inteligentes e com cérebros relativamente grandes! Mas o campeão em proporção é um pássaro canoro minúsculo."
+                },
+                {
+                    "text": "Musaranho (shrew)",
+                    "isCorrect": false,
+                    "explanation": "Musaranhos têm cérebros grandes em relação ao seu tamanho para mamíferos! Mas o campeão absoluto no reino animal (entre os que têm cérebro grande) é uma ave."
+                },
+                {
+                    "text": "Tupinambis (lagarto)",
+                    "isCorrect": false,
+                    "explanation": "Tupinambis são lagartos! Estamos falando de um animal com cérebro grande em relação ao corpo, o campeão é uma ave."
+                },
+                {
+                    "text": "Formiga (reina)",
+                    "isCorrect": false,
+                    "explanation": "Formigas rainhas têm cérebros! Mas a proporção cérebro/corpo do campeão é muito maior, e é uma ave."
+                },
+                {
+                    "text": "Polvo",
+                    "isCorrect": false,
+                    "explanation": "Polvos são super inteligentes, mas não têm um cérebro central gigante assim! O campeão em proporção é uma ave."
+                },
+                {
+                    "text": "Pardal (house sparrow)",
+                    "isCorrect": false,
+                    "explanation": "Pardais são aves, mas o campeão em proporção é um pássaro canoro ainda menor."
+                },
+                {
+                    "text": "Beija-flor",
+                    "isCorrect": false,
+                    "explanation": "Beija-flores são aves, mas o campeão em proporção cérebro/corpo é outro pássaro canoro muito pequeno."
+                },
+                {
+                    "text": "Pintassilgo Americano",
+                    "isCorrect": false,
+                    "explanation": "Pintassilgos são aves, mas o campeão em proporção cérebro/corpo é outro pássaro canoro muito pequeno."
+                },
+                {
+                    "text": "Melro-preto (common blackbird)",
+                    "isCorrect": false,
+                    "explanation": "Melros são aves, mas o campeão em proporção cérebro/corpo é outro pássaro canoro muito pequeno."
+                },
+                {
+                    "text": "Canário",
+                    "isCorrect": false,
+                    "explanation": "Canários são aves, mas o campeão em proporção cérebro/corpo é outro pássaro canoro muito pequeno."
+                },
+                {
+                    "text": "Zebrafinch",
+                    "isCorrect": false,
+                    "explanation": "Zebrafinches são aves, mas o campeão em proporção cérebro/corpo é outro pássaro canoro muito pequeno."
+                },
+                {
+                    "text": "Chapim Real (Great Tit)",
+                    "isCorrect": false,
+                    "explanation": "Chapins são aves, mas o campeão em proporção cérebro/corpo é outro pássaro canoro muito pequeno."
+                },
+                {
+                    "text": "Falcão",
+                    "isCorrect": false,
+                    "explanation": "Falcões são aves! O campeão em proporção cérebro/corpo é um pássaro canoro muito pequeno."
+                },
+                {
+                    "text": "Águia",
+                    "isCorrect": false,
+                    "explanation": "Águias são aves! O campeão em proporção cérebro/corpo é um pássaro canoro muito pequeno."
+                },
+                {
+                    "text": "Beija-flor (de novo!)",
+                    "isCorrect": false,
+                    "explanation": "Beija-flores são aves, mas o campeão em proporção cérebro/corpo é outro pássaro canoro muito pequeno."
+                },
+                {
+                    "text": "Pisco-de-peito-ruivo (European Robin)",
+                    "isCorrect": true,
+                    "explanation": "Que curioso! O Pisco-de-peito-ruivo (*Erithacus rubecula*) é considerado o animal (entre os que têm cérebro 'grande' e complexo) com o maior cérebro em relação ao tamanho do seu corpo, superando até os humanos nessa proporção. Uma ave pequena com um 'cabeção' proporcional! Uma curiosidade neurobiológica!",
+                    "imageUrl": "https://exemplo.com/pisco_peito_ruivo.jpg",
+                    "imageDescription": "Imagem de um Pisco-de-peito-ruivo (European Robin)."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome da ciência que estuda os oceanos?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Geologia",
+                    "isCorrect": false,
+                    "explanation": "Geologia estuda as rochas! A ciência dos oceanos é outra."
+                },
+                {
+                    "text": "Meteorologia",
+                    "isCorrect": false,
+                    "explanation": "Meteorologia estuda o tempo e a atmosfera! A ciência dos oceanos é outra."
+                },
+                {
+                    "text": "Oceanografia",
+                    "isCorrect": true,
+                    "explanation": "Exato! Oceanografia! É a ciência que estuda os oceanos em todos os seus aspectos: físico (correntes, ondas), químico (composição da água), geológico (fundo do mar) e biológico (vida marinha). O estudo dos mares!",
+                    "imageUrl": "https://exemplo.com/oceanografia_barco.jpg",
+                    "imageDescription": "Imagem de um barco de pesquisa oceanográfica no mar."
+                },
+                {
+                    "text": "Limnologia",
+                    "isCorrect": false,
+                    "explanation": "Limnologia estuda águas continentais (rios, lagos)! A ciência dos oceanos é a Oceanografia."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do gás nobre mais abundante na atmosfera da Terra (excluindo nitrogênio e oxigênio)?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Hélio",
+                    "isCorrect": false,
+                    "explanation": "Hélio é um gás nobre e importante (para balões e ciência!), mas é muito menos abundante na atmosfera do que o segundo gás nobre mais comum."
+                },
+                {
+                    "text": "Neônio",
+                    "isCorrect": false,
+                    "explanation": "Neônio é um gás nobre (para letreiros luminosos!), mas é muito menos abundante na atmosfera do que o segundo gás nobre mais comum."
+                },
+                {
+                    "text": "Argônio",
+                    "isCorrect": true,
+                    "explanation": "Que nobre e comum! O Argônio (Ar) é o gás nobre mais abundante na atmosfera da Terra, compondo cerca de 0.9% do ar que respiramos (depois do nitrogênio e oxigênio). É usado em lâmpadas e processos industriais. Um gás inerte e discreto!",
+                    "imageUrl": "https://exemplo.com/argonio_ilustracao.jpg",
+                    "imageDescription": "Ilustração do elemento Argônio ou da atmosfera terrestre (com porcentagens de gases)."
+                },
+                {
+                    "text": "Criptônio",
+                    "isCorrect": false,
+                    "explanation": "Criptônio é um gás nobre (para lâmpadas especiais!), mas é muito menos abundante na atmosfera do que o Argônio."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do maior sistema de montanhas subaquáticas do mundo?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Fossa das Marianas",
+                    "isCorrect": false,
+                    "explanation": "A Fossa das Marianas é a mais profunda, não um sistema de montanhas! Pense em uma 'cordilheira' gigante no fundo do oceano."
+                },
+                {
+                    "text": "Andes (América do Sul)",
+                    "isCorrect": false,
+                    "explanation": "Os Andes são uma cordilheira na América do Sul, mas são montanhas *terrestres*! A pergunta é sobre montanhas *subaquáticas*."
+                },
+                {
+                    "text": "Cordilheira Mesoatlântica",
+                    "isCorrect": true,
+                    "explanation": "Impressionante! A Cordilheira Mesoatlântica é o maior sistema de montanhas subaquáticas do mundo, estendendo-se por mais de 16.000 km ao longo do fundo do Oceano Atlântico. É onde as placas tectônicas estão se separando. Uma 'espinha dorsal' gigante no fundo do mar!",
+                    "imageUrl": "https://exemplo.com/cordilheira_mesoatlantica_mapa.jpg",
+                    "imageDescription": "Mapa do fundo do Oceano Atlântico destacando a Cordilheira Mesoatlântica."
+                },
+                {
+                    "text": "Himalaias (Ásia)",
+                    "isCorrect": false,
+                    "explanation": "Os Himalaias têm as montanhas mais altas da Terra (Everest!), mas são montanhas *terrestres*! A Cordilheira Mesoatlântica é subaquática."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do gás que as plantas liberam durante a fotossíntese?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Dióxido de Carbono",
+                    "isCorrect": false,
+                    "explanation": "As plantas *absorvem* dióxido de carbono! Elas *liberam* outro gás vital para a nossa respiração."
+                },
+                {
+                    "text": "Nitrogênio",
+                    "isCorrect": false,
+                    "explanation": "Nitrogênio é o gás mais abundante no ar, mas as plantas não o liberam (ou absorvem) durante a fotossíntese! Elas liberam oxigênio."
+                },
+                {
+                    "text": "Oxigênio",
+                    "isCorrect": true,
+                    "explanation": "Salvador! O Oxigênio (O₂)! Durante a fotossíntese, as plantas usam luz, água e CO₂ para criar açúcar (alimento) e liberam Oxigênio como 'subproduto'. É por isso que as plantas são essenciais para a vida na Terra! Obrigado, plantas!",
+                    "imageUrl": "https://exemplo.com/fotossintese_oxigenio.jpg",
+                    "imageDescription": "Diagrama simplificado do processo de fotossíntese mostrando a liberação de O2."
+                },
+                {
+                    "text": "Hidrogênio",
+                    "isCorrect": false,
+                    "explanation": "Hidrogênio é um gás leve! O gás que as plantas liberam após usarem CO₂ e água é o Oxigênio."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do processo pelo qual a água muda do estado sólido (gelo) para o estado líquido?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Evaporação",
+                    "isCorrect": false,
+                    "explanation": "Evaporação é do líquido para o gasoso! O gelo virando água líquida é outro processo."
+                },
+                {
+                    "text": "Condensação",
+                    "isCorrect": false,
+                    "explanation": "Condensação é do gasoso para o líquido! O gelo virando água líquida é outro processo."
+                },
+                {
+                    "text": "Fusão",
+                    "isCorrect": true,
+                    "explanation": "É isso! Fusão! Quando uma substância no estado sólido absorve calor e suas partículas ganham energia suficiente para romper as ligações rígidas e se moverem mais livremente, passando para o estado líquido. É por isso que o gelo derrete! Uma curiosidade da física!",
+                    "imageUrl": "https://exemplo.com/fusao_gelo_derretendo.jpg",
+                    "imageDescription": "Imagem de cubos de gelo derretendo em um copo com água."
+                },
+                {
+                    "text": "Solidificação",
+                    "isCorrect": false,
+                    "explanation": "Solidificação é do líquido para o sólido (virar gelo)! A fusão é o contrário, do sólido para o líquido."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome da ciência que estuda os insetos?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Zoologia",
+                    "isCorrect": false,
+                    "explanation": "Zoologia estuda os animais em geral! A ciência que foca especificamente nos insetos é outra."
+                },
+                {
+                    "text": "Botânica",
+                    "isCorrect": false,
+                    "explanation": "Botânica estuda as plantas! A ciência que estuda os insetos é a Entomologia."
+                },
+                {
+                    "text": "Entomologia",
+                    "isCorrect": true,
+                    "explanation": "Exato! Entomologia! É o ramo da zoologia que se dedica ao estudo dos insetos, o maior grupo de animais do planeta. Seis patas e muitas curiosidades!",
+                    "imageUrl": "https://exemplo.com/entomologia_insetos.jpg",
+                    "imageDescription": "Imagem de diversos insetos ou de um pesquisador estudando insetos."
+                },
+                {
+                    "text": "Ornitologia",
+                    "isCorrect": false,
+                    "explanation": "Ornitologia estuda as aves! A ciência que estuda os insetos é a Entomologia."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do maior lago de água doce do mundo em volume?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Lago Superior (América do Norte)",
+                    "isCorrect": false,
+                    "explanation": "O Lago Superior é o maior lago de água doce do mundo em área de superfície! Mas o maior em volume é outro, muito mais profundo e antigo, na Sibéria."
+                },
+                {
+                    "text": "Lago Vitória (África)",
+                    "isCorrect": false,
+                    "explanation": "O Lago Vitória é um lago grande na África, fonte do Rio Nilo! Mas o maior em volume de água doce é o Lago Baikal."
+                },
+                {
+                    "text": "Lago Baikal (Sibéria, Rússia)",
+                    "isCorrect": true,
+                    "explanation": "Impressionante! O Lago Baikal, na Sibéria (Rússia), é o maior lago de água doce do mundo em volume, contendo cerca de 20% de toda a água doce líquida da superfície da Terra! É também o lago mais profundo e mais antigo do mundo. Um tesouro da natureza!",
+                    "imageUrl": "https://exemplo.com/lago_baikal_siberia.jpg",
+                    "imageDescription": "Imagem do Lago Baikal na Sibéria, possivelmente no inverno."
+                },
+                {
+                    "text": "Lago Michigan (América do Norte)",
+                    "isCorrect": false,
+                    "explanation": "O Lago Michigan é um dos Grandes Lagos da América do Norte! O maior lago de água doce em volume é o Baikal na Sibéria."
+                }
+            ]
+        },
+        {
+            "question": "Qual a velocidade da luz no vácuo?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "300 km/s",
+                    "isCorrect": false,
+                    "explanation": "300 km/s é rápido, mas a velocidade da luz é MUITO maior! Pense em 300 SEIS vezes mais rápido (em metros!) ou três centenas de MILHARES em km!"
+                },
+                {
+                    "text": "300.000 km/s",
+                    "isCorrect": true,
+                    "explanation": "Impressionante! A velocidade da luz no vácuo é de aproximadamente 299.792 km/s, geralmente arredondada para 300.000 km/s (ou 3 x 10⁸ m/s). É a velocidade mais alta possível no universo e a base para muita coisa na física (E=mc²!). Rápido que só!",
+                    "imageUrl": "https://exemplo.com/velocidade_da_luz_ilustracao.jpg",
+                    "imageDescription": "Ilustração representando a luz viajando rapidamente."
+                },
+                {
+                    "text": "343 m/s",
+                    "isCorrect": false,
+                    "explanation": "343 m/s é a velocidade aproximada do SOM no ar! A velocidade da luz é milhões de vezes maior."
+                },
+                {
+                    "text": "1.080 km/h",
+                    "isCorrect": false,
+                    "explanation": "1.080 km/h é a velocidade de um carro super rápido ou de um avião! A velocidade da luz é incomparavelmente maior."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do processo pelo qual as rochas são quebradas em pedaços menores pela ação do clima?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Erosão",
+                    "isCorrect": false,
+                    "explanation": "Erosão é o transporte dos pedaços de rocha e solo (por vento, água, etc.)! A quebra da rocha em si é outra coisa."
+                },
+                {
+                    "text": "Sedimentação",
+                    "isCorrect": false,
+                    "explanation": "Sedimentação é o acúmulo de sedimentos! A quebra da rocha é o processo inicial."
+                },
+                {
+                    "text": "Intemperismo",
+                    "isCorrect": true,
+                    "explanation": "Quebrando tudo (lentamente)! Intemperismo é o processo de desagregação (quebra física) e decomposição (alteração química) das rochas pela ação de agentes atmosféricos (chuva, vento, temperatura), água e organismos. É o início da formação do solo! Forças da natureza em ação!",
+                    "imageUrl": "https://exemplo.com/intemperismo_rochas.jpg",
+                    "imageDescription": "Imagem de rochas mostrando sinais de quebra ou desintegração pela ação do clima."
+                },
+                {
+                    "text": "Solidificação",
+                    "isCorrect": false,
+                    "explanation": "Solidificação é líquido virando sólido! A quebra de rocha é um processo geológico e climático."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome da maior célula do corpo humano?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Glóbulo Vermelho",
+                    "isCorrect": false,
+                    "explanation": "Glóbulos vermelhos transportam oxigênio, são muitas e pequenas! A maior célula é visível a olho nu."
+                },
+                {
+                    "text": "Neurônio",
+                    "isCorrect": false,
+                    "explanation": "Neurônios podem ter longas extensões (axônios!), mas o corpo celular em si não é o maior. A maior célula é feminina e reprodutiva."
+                },
+                {
+                    "text": "Espermatozoide",
+                    "isCorrect": false,
+                    "explanation": "O espermatozoide é geralmente a *menor* célula em volume! A maior é o óvulo."
+                },
+                {
+                    "text": "Óvulo",
+                    "isCorrect": true,
+                    "explanation": "Que grande! O óvulo (a célula sexual feminina) é a maior célula do corpo humano, sendo visível a olho nu (cerca de 0.1 mm de diâmetro). É o gameta feminino que se une ao espermatozoide na fecundação. A maior célula é feminina e reprodutiva!",
+                    "imageUrl": "https://exemplo.com/ovulo_ilustracao.jpg",
+                    "imageDescription": "Ilustração microscópica de um óvulo humano, talvez comparado a um espermatozoide."
+                }
+            ]
+        },
+        {
+            "question": "Qual a unidade de medida de energia no Sistema Internacional (SI)?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Newton",
+                    "isCorrect": false,
+                    "explanation": "Newton é a unidade de Força! Energia é o que permite realizar trabalho."
+                },
+                {
+                    "text": "Watt",
+                    "isCorrect": false,
+                    "explanation": "Watt é a unidade de Potência (energia por tempo)! A unidade de Energia é o Joule."
+                },
+                {
+                    "text": "Joule",
+                    "isCorrect": true,
+                    "explanation": "Exato! O Joule (J)! É a unidade padrão de energia ou trabalho no Sistema Internacional. Tudo o que usa ou transfere energia (calor, movimento, eletricidade) é medido em Joules! Uma unidade fundamental da física!",
+                    "imageUrl": "https://exemplo.com/joule_unidade.jpg",
+                    "imageDescription": "Ilustração relacionada a energia (ex: bateria) ou trabalho."
+                },
+                {
+                    "text": "Pascal",
+                    "isCorrect": false,
+                    "explanation": "Pascal é a unidade de Pressão! Energia é o Joule."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do maior deserto quente do mundo?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Deserto do Atacama (Chile)",
+                    "isCorrect": false,
+                    "explanation": "O Atacama é o deserto mais seco do mundo! O maior deserto quente fica na África."
+                },
+                {
+                    "text": "Deserto de Gobi (Ásia)",
+                    "isCorrect": false,
+                    "explanation": "O Deserto de Gobi é grande, mas é um deserto frio! O maior deserto quente é o Saara."
+                },
+                {
+                    "text": "Deserto do Saara (África)",
+                    "isCorrect": true,
+                    "explanation": "Que vastidão quente! O Deserto do Saara, no norte da África, é o maior deserto quente do mundo. É tão grande quanto os Estados Unidos! Uma imensidão de areia e calor!",
+                    "imageUrl": "https://exemplo.com/deserto_saara_vista.jpg",
+                    "imageDescription": "Imagem de dunas de areia no Deserto do Saara."
+                },
+                {
+                    "text": "Deserto da Arábia (Oriente Médio)",
+                    "isCorrect": false,
+                    "explanation": "O Deserto da Arábia é grande, mas o Saara o supera em área!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome da maior galáxia próxima da Via Láctea?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Galáxia do Triângulo",
+                    "isCorrect": false,
+                    "explanation": "A Galáxia do Triângulo é uma galáxia próxima, mas é menor que a maior vizinha da Via Láctea. Pense em uma galáxia famosa e visível a olho nu."
+                },
+                {
+                    "text": "Andrômeda",
+                    "isCorrect": true,
+                    "explanation": "Impressionante! A Galáxia de Andrômeda (M31) é a maior galáxia próxima da Via Láctea e a mais distante objeto visível a olho nu. Ela é um pouco maior que a Via Láctea e está em rota de colisão conosco (daqui a bilhões de anos!). Nossa grande vizinha!",
+                    "imageUrl": "https://exemplo.com/galaxia_andromeda.jpg",
+                    "imageDescription": "Imagem da Galáxia de Andrômeda vista do espaço."
+                },
+                {
+                    "text": "Nuvens de Magalhães",
+                    "isCorrect": false,
+                    "explanation": "As Nuvens de Magalhães (Grande e Pequena) são galáxias anãs satélites da Via Láctea! São muito menores que Andrômeda."
+                },
+                {
+                    "text": "Centaurus A",
+                    "isCorrect": false,
+                    "explanation": "Centaurus A é uma galáxia ativa, mas não é a vizinha mais próxima e gigante da Via Láctea. Essa é Andrômeda!"
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do pigmento nas plantas que absorve a luz solar para a fotossíntese?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Carotenoide",
+                    "isCorrect": false,
+                    "explanation": "Carotenoides são pigmentos (dão cor laranja a cenouras!), ajudam na fotossíntese, mas o principal pigmento que absorve a luz é o que dá a cor verde às plantas!"
+                },
+                {
+                    "text": "Antocianina",
+                    "isCorrect": false,
+                    "explanation": "Antocianinas dão cores vermelhas, roxas, azuis a flores e frutas! O pigmento principal da fotossíntese é verde."
+                },
+                {
+                    "text": "Clorofila",
+                    "isCorrect": true,
+                    "explanation": "Que verde! Clorofila é o principal pigmento encontrado nos cloroplastos das células vegetais. É ela que absorve a energia da luz solar (principalmente as cores azul e vermelha do espectro) para dar início ao processo de fotossíntese. É por isso que as plantas são verdes! O 'captador' de luz!",
+                    "imageUrl": "https://exemplo.com/clorofila_folha.jpg",
+                    "imageDescription": "Imagem de folhas de plantas verdes, representando a clorofila."
+                },
+                {
+                    "text": "Melanina",
+                    "isCorrect": false,
+                    "explanation": "Melanina é o pigmento que dá cor à pele, cabelo e olhos de animais! O pigmento das plantas para fotossíntese é a clorofila."
+                }
+            ]
+        },
+        {
+            "question": "Qual a unidade de medida de resistência elétrica no Sistema Internacional (SI)?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Volt",
+                    "isCorrect": false,
+                    "explanation": "Volt é a unidade de Tensão! Resistência é a oposição ao fluxo de corrente."
+                },
+                {
+                    "text": "Ampère",
+                    "isCorrect": false,
+                    "explanation": "Ampère é a unidade de Corrente Elétrica! Resistência é a oposição ao fluxo."
+                },
+                {
+                    "text": "Ohm",
+                    "isCorrect": true,
+                    "explanation": "Exato! O Ohm (Ω)! É a unidade de resistência elétrica no Sistema Internacional, em homenagem a Georg Simon Ohm e sua Lei de Ohm (V=IR ou R=V/I). Representa a oposição que um material oferece à passagem da corrente elétrica. Quanto maior o Ohm, mais difícil a corrente passa!",
+                    "imageUrl": "https://exemplo.com/ohm_resistencia_eletrica.jpg",
+                    "imageDescription": "Ilustração de um resistor em um circuito elétrico, com a indicação da unidade Ohm."
+                },
+                {
+                    "text": "Watt",
+                    "isCorrect": false,
+                    "explanation": "Watt é a unidade de Potência! Resistência é o Ohm."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome da ciência que estuda os terremotos?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Meteorologia",
+                    "isCorrect": false,
+                    "explanation": "Meteorologia estuda o tempo! A ciência dos terremotos é sobre o interior da Terra e suas vibrações."
+                },
+                {
+                    "text": "Vulcanologia",
+                    "isCorrect": false,
+                    "explanation": "Vulcanologia estuda vulcões! A ciência dos terremotos estuda as vibrações da Terra."
+                },
+                {
+                    "text": "Sismologia",
+                    "isCorrect": true,
+                    "explanation": "É isso! Sismologia! É a ciência que estuda os terremotos e a propagação das ondas sísmicas pela Terra. Sismólogos usam sismógrafos para detectar e medir os tremores. O estudo dos tremores de terra!",
+                    "imageUrl": "https://exemplo.com/sismografo_ilustracao.jpg",
+                    "imageDescription": "Imagem de um sismógrafo ou ilustração de ondas sísmicas."
+                },
+                {
+                    "text": "Geografia",
+                    "isCorrect": false,
+                    "explanation": "Geografia estuda a superfície terrestre! A Sismologia é um ramo específico que estuda os terremotos."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do processo pelo qual uma substância passa do estado líquido para o estado sólido?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Evaporação",
+                    "isCorrect": false,
+                    "explanation": "Evaporação é do líquido para o gasoso! Virar sólido é o oposto de derreter!"
+                },
+                {
+                    "text": "Condensação",
+                    "isCorrect": false,
+                    "explanation": "Condensação é do gasoso para o líquido! Virar sólido é do líquido para o sólido!"
+                },
+                {
+                    "text": "Solidificação (ou Congelação)",
+                    "isCorrect": true,
+                    "explanation": "Exato! Solidificação (ou Congelação, no caso da água)! Quando uma substância no estado líquido perde energia (esfria) e suas partículas diminuem o movimento, formando ligações mais rígidas e passando para o estado sólido. É por isso que a água vira gelo! Uma curiosidade da física!",
+                    "imageUrl": "https://exemplo.com/solidificacao_agua_congelando.jpg",
+                    "imageDescription": "Imagem de água se transformando em gelo."
+                },
+                {
+                    "text": "Fusão",
+                    "isCorrect": false,
+                    "explanation": "Fusão é do sólido para o líquido (derreter)! Solidificação é o contrário."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do osso do antebraço que fica do lado do polegar?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Ulna",
+                    "isCorrect": false,
+                    "explanation": "A Ulna é o osso do antebraço que fica do lado do dedo mínimo! O osso do lado do polegar é o Rádio."
+                },
+                {
+                    "text": "Úmero",
+                    "isCorrect": false,
+                    "explanation": "O Úmero é o osso do braço (parte superior)! A pergunta é sobre o antebraço."
+                },
+                {
+                    "text": "Rádio",
+                    "isCorrect": true,
+                    "explanation": "É isso! O Rádio! Um dos dois ossos longos do antebraço (entre o cotovelo e o pulso). Ele fica do lado do polegar, e gira sobre a ulna, permitindo os movimentos de rotação da mão e do punho. Um 'rádio' no seu braço!",
+                    "imageUrl": "https://exemplo.com/radio_ulna_ilustracao.jpg",
+                    "imageDescription": "Ilustração dos ossos Rádio e Ulna no antebraço."
+                },
+                {
+                    "text": "Fíbula",
+                    "isCorrect": false,
+                    "explanation": "A Fíbula é um osso da parte inferior da perna! A pergunta é sobre o antebraço."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome da maior floresta temperada do mundo?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Floresta Negra (Alemanha)",
+                    "isCorrect": false,
+                    "explanation": "A Floresta Negra é famosa, mas pequena comparada à maior floresta temperada. Pense em algo na Rússia/Canadá."
+                },
+                {
+                    "text": "Floresta Amazônica (América do Sul)",
+                    "isCorrect": false,
+                    "explanation": "A Amazônia é tropical, não temperada! A maior floresta temperada fica em altas latitudes."
+                },
+                {
+                    "text": "Taiga (Floresta Boreal)",
+                    "isCorrect": true,
+                    "explanation": "Impressionante! A Taiga, também conhecida como Floresta Boreal, é a maior floresta temperada (ou subtipo de floresta temperada/fria) do mundo, abrangendo vastas áreas do Canadá, Alasca, Sibéria e Escandinávia. Composta principalmente por coníferas, é um bioma imenso e vital! A grande floresta do norte!",
+                    "imageUrl": "https://exemplo.com/taiga_floresta_boreal.jpg",
+                    "imageDescription": "Vista aérea ou paisagem da floresta Taiga/Boreal, com muitas coníferas."
+                },
+                {
+                    "text": "Floresta Valdiviana (Chile/Argentina)",
+                    "isCorrect": false,
+                    "explanation": "A Floresta Valdiviana é uma floresta temperada pluvial no Chile/Argentina, linda e única! Mas a maior em área é a Taiga."
+                }
+            ]
+        },
+        {
+            "question": "Qual a unidade de medida de tensão elétrica (diferença de potencial) no Sistema Internacional (SI)?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Ampère",
+                    "isCorrect": false,
+                    "explanation": "Ampère é a unidade de Corrente Elétrica! Tensão é a 'força' que move a carga."
+                },
+                {
+                    "text": "Ohm",
+                    "isCorrect": false,
+                    "explanation": "Ohm é a unidade de Resistência Elétrica! Tensão é a 'pressão' que empurra a carga."
+                },
+                {
+                    "text": "Volt",
+                    "isCorrect": true,
+                    "explanation": "É isso! O Volt (V)! É a unidade de tensão elétrica ou diferença de potencial no Sistema Internacional, em homenagem a Alessandro Volta. Representa a 'pressão' ou 'energia' por carga que empurra os elétrons em um circuito. Baterias, tomadas... tudo tem seus Volts! A 'força' da eletricidade!",
+                    "imageUrl": "https://exemplo.com/volt_tensao_eletrica.jpg",
+                    "imageDescription": "Ilustração de um circuito elétrico com uma bateria e a indicação da unidade Volt."
+                },
+                {
+                    "text": "Watt",
+                    "isCorrect": false,
+                    "explanation": "Watt é a unidade de Potência! Tensão é o Volt."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do processo pelo qual as plantas perdem água na forma de vapor?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Fotossíntese",
+                    "isCorrect": false,
+                    "explanation": "Fotossíntese é como as plantas fazem comida! A perda de água é outro processo."
+                },
+                {
+                    "text": "Respiração",
+                    "isCorrect": false,
+                    "explanation": "Respiração é liberar energia! A perda de água é um processo para mover a água e resfriar."
+                },
+                {
+                    "text": "Transpiração",
+                    "isCorrect": true,
+                    "explanation": "Exato! Transpiração! A perda de vapor de água pelas plantas, principalmente pelos estômatos nas folhas. Ajuda a 'puxar' água das raízes para cima e a resfriar a planta. Uma curiosidade da botânica!",
+                    "imageUrl": "https://exemplo.com/transpiracao_planta_ilustracao.jpg",
+                    "imageDescription": "Diagrama mostrando a água saindo de uma folha durante a transpiração."
+                },
+                {
+                    "text": "Germinação",
+                    "isCorrect": false,
+                    "explanation": "Germinação é a semente brotando! Transpiração é a perda de água pela planta adulta."
+                }
+            ]
+        },
+        {
+            "question": "Qual a substância que dá a cor vermelha ao sangue (em vertebrados)?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Clorofila",
+                    "isCorrect": false,
+                    "explanation": "Clorofila dá a cor verde às plantas! No sangue, o pigmento que transporta oxigênio e dá a cor vermelha é outro."
+                },
+                {
+                    "text": "Melanina",
+                    "isCorrect": false,
+                    "explanation": "Melanina dá cor à pele, cabelo e olhos! No sangue, o pigmento é outro, com Ferro."
+                },
+                {
+                    "text": "Hemoglobina",
+                    "isCorrect": true,
+                    "explanation": "É isso! Hemoglobina! Uma proteína encontrada nos glóbulos vermelhos que contém ferro. Ela se liga ao oxigênio nos pulmões e o transporta para o resto do corpo. A presença do ferro na hemoglobina é o que dá a cor vermelha ao sangue quando está oxigenado. Nosso transportador de oxigênio!",
+                    "imageUrl": "https://exemplo.com/hemoglobina_ilustracao.jpg",
+                    "imageDescription": "Ilustração da molécula de hemoglobina ou de glóbulos vermelhos."
+                },
+                {
+                    "text": "Bilirrubina",
+                    "isCorrect": false,
+                    "explanation": "Bilirrubina é um pigmento amarelo/alaranjado resultante da quebra da hemoglobina! Não é ela que dá a cor vermelha ao sangue em si."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do processo pelo qual a água passa do estado líquido para o estado gasoso?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Condensação",
+                    "isCorrect": false,
+                    "explanation": "Condensação é do gás para o líquido! O líquido virando gás é o oposto."
+                },
+                {
+                    "text": "Solidificação",
+                    "isCorrect": false,
+                    "explanation": "Solidificação é do líquido para o sólido! O líquido virando gás é outro processo."
+                },
+                {
+                    "text": "Evaporação (ou Vaporização)",
+                    "isCorrect": true,
+                    "explanation": "É isso! Evaporação! Quando a água líquida ganha energia e suas moléculas se movem rápido o suficiente para escapar como vapor. Acontece em poças, rios, oceanos! Uma curiosidade da física!",
+                    "imageUrl": "https://exemplo.com/evaporacao_sol.jpg",
+                    "imageDescription": "Ilustração mostrando o sol aquecendo a água e causando evaporação."
+                },
+                {
+                    "text": "Fusão",
+                    "isCorrect": false,
+                    "explanation": "Fusão é do sólido para o líquido! O líquido virando gás é a evaporação."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,2716 @@
+{
+    "config": {
+        "theme": "UFC",
+        "totalPoints": 1000,
+        "scoring": "points"
+    },
+    "data": [
+        {
+            "question": "Qual lutador é conhecido pelo apelido 'The Notorious'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Anderson Silva",
+                    "isCorrect": false,
+                    "explanation": "A lenda brasileira é o 'Spider'! O 'Notório' é um falastrão que veio da Irlanda e balançou o mundo das lutas!"
+                },
+                {
+                    "text": "Georges St-Pierre",
+                    "isCorrect": false,
+                    "explanation": "GSP é 'Rush', o canadense implacável! O 'Notório' é mestre na 'Arte Suave' de falar (e nocautear!)."
+                },
+                {
+                    "text": "Conor McGregor",
+                    "isCorrect": true,
+                    "explanation": "Bingo! Conor McGregor! O irlandês mais famoso do UFC, mestre da 'mic fight' e dos nocautes relâmpago. 'The Notorious' faz jus ao nome, sempre no centro das atenções (e das polêmicas!).",
+                    "imageUrl": "https://exemplo.com/conor_mcgregor_notorious.jpg",
+                    "imageDescription": "Imagem de Conor McGregor em uma pose característica ou com o cinturão."
+                },
+                {
+                    "text": "Jon Jones",
+                    "isCorrect": false,
+                    "explanation": "Jon Jones é 'Bones', um gênio imprevisível do peso meio-pesado/pesado! O 'Notório' é um cara que lutou em pesos mais leves (e mais pesados também, por que não?)."
+                }
+            ]
+        },
+        {
+            "question": "Qual o nome do presidente do UFC, famoso por seus anúncios explosivos e coletivas de imprensa?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Joe Rogan",
+                    "isCorrect": false,
+                    "explanation": "Joe Rogan é o comentarista mais famoso e o cara do podcast! O presidente é quem dá as notícias (boas ou ruins!) e as esporradas."
+                },
+                {
+                    "text": "Dana White",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Dana White! O chefe careca e esquentado que comanda o UFC com punho de ferro (e muitas palavrões!). As 'Dana White's Contender Series' e as coletivas pós-luta dele são um show à parte!",
+                    "imageUrl": "https://exemplo.com/dana_white_bravo.jpg",
+                    "imageDescription": "Imagem de Dana White em uma coletiva de imprensa ou anunciando uma luta."
+                },
+                {
+                    "text": "Bruce Buffer",
+                    "isCorrect": false,
+                    "explanation": "Bruce Buffer é o cara que anuncia as lutas com aquela voz icônica e o 'It's TIME!'! O presidente é quem manda ele anunciar!"
+                },
+                {
+                    "text": "Lorenzo Fertitta",
+                    "isCorrect": false,
+                    "explanation": "Lorenzo Fertitta foi um dos ex-donos do UFC (com o irmão Frank). O presidente 'barra pesada' atual é o Dana!"
+                }
+            ]
+        },
+        {
+            "question": "Qual peso a categoria Peso Pena (Featherweight) geralmente comporta no UFC?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Até 66 kg (145 lbs)",
+                    "isCorrect": true,
+                    "explanation": "Isso aí! Peso Pena vai até 66 kg (145 libras). É a categoria onde lendas como Aldo e McGregor fizeram história! Rapidez e potência equilibradas!",
+                    "imageUrl": "https://exemplo.com/featherweight_ufc.jpg",
+                    "imageDescription": "Imagem de lutadores da categoria peso pena ou cinturão da categoria."
+                },
+                {
+                    "text": "Até 70 kg (155 lbs)",
+                    "isCorrect": false,
+                    "explanation": "70 kg é o Peso Leve (Lightweight)! Uma categoria acima do Pena, lar de monstros como Khabib e Oliveira."
+                },
+                {
+                    "text": "Até 77 kg (170 lbs)",
+                    "isCorrect": false,
+                    "explanation": "77 kg é o Peso Meio-Médio (Welterweight)! Categoria do GSP e do Usman. Bem mais pesada que o Peso Pena!"
+                },
+                {
+                    "text": "Até 61 kg (135 lbs)",
+                    "isCorrect": false,
+                    "explanation": "61 kg é o Peso Galo (Bantamweight)! Uma categoria abaixo do Pena, cheia de velocidade e trocadores insanos!"
+                }
+            ]
+        },
+        {
+            "question": "Qual a forma mais comum de vitória que acontece quando um lutador não tem mais condições de continuar lutando, seja por golpes ou lesão?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Decisão dos Juízes",
+                    "isCorrect": false,
+                    "explanation": "Decisão é quando a luta vai até o fim e os juízes dão o placar. Estamos falando de quando alguém 'apaga' ou se machuca feio *durante* a luta!"
+                },
+                {
+                    "text": "Finalização (Submission)",
+                    "isCorrect": false,
+                    "explanation": "Finalização é quando alguém desiste de uma chave de braço, estrangulamento, etc. Estamos falando de 'apagar' por golpe ou lesão, sem desistir ativamente."
+                },
+                {
+                    "text": "Nocaute Técnico (TKO) / Nocaute (KO)",
+                    "isCorrect": true,
+                    "explanation": "É isso! Nocaute (KO) ou Nocaute Técnico (TKO)! Quando o árbitro (ou o médico, no caso de TKO) interrompe a luta porque um lutador não pode mais se defender. 'It's all over!' do Bruce Buffer na certa!",
+                    "imageUrl": "https://exemplo.com/ko_tko_ufc.jpg",
+                    "imageDescription": "Imagem do árbitro interrompendo uma luta ou um lutador sendo nocauteado."
+                },
+                {
+                    "text": "Desistência",
+                    "isCorrect": false,
+                    "explanation": "Desistência geralmente se refere a finalização. Nocaute é quando o corpo (ou a lesão) decide por você!"
+                }
+            ]
+        },
+        {
+            "question": "Quem é o lutador brasileiro conhecido como 'Spider'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "José Aldo",
+                    "isCorrect": false,
+                    "explanation": "Aldo é o 'Campeão do Povo', a lenda peso pena! O 'Spider' é outro ícone brasileiro, rei do peso médio com golpes mirabolantes."
+                },
+                {
+                    "text": "Vitor Belfort",
+                    "isCorrect": false,
+                    "explanation": "Belfort é o 'Phenom', pura explosão! O 'Spider' se movia como... uma aranha, com uma envergadura assustadora para a categoria."
+                },
+                {
+                    "text": "Anderson Silva",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Anderson 'Spider' Silva! Um dos maiores de todos os tempos, ex-campeão peso médio por anos a fio, famoso por seus nocautes plásticos e esquivas inacreditáveis. 'O Predador' na sua melhor fase! Que saudades!",
+                    "imageUrl": "https://exemplo.com/anderson_silva_spider.jpg",
+                    "imageDescription": "Imagem de Anderson Silva em posição de luta ou com o cinturão."
+                },
+                {
+                    "text": "Charles Oliveira",
+                    "isCorrect": false,
+                    "explanation": "Charles 'Do Bronx' é o rei das finalizações, campeão peso leve! O 'Spider' dominou a categoria de cima por muito tempo."
+                }
+            ]
+        },
+        {
+            "question": "Qual a cidade sede mais frequente dos grandes eventos numerados do UFC nos Estados Unidos?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Nova York",
+                    "isCorrect": false,
+                    "explanation": "Nova York tem o Madison Square Garden, um palco clássico! Mas a cidade que mais recebeu eventos do UFC, especialmente no início da era moderna, é outra, capital da 'Diversão'!"
+                },
+                {
+                    "text": "Los Angeles",
+                    "isCorrect": false,
+                    "explanation": "LA tem eventos, claro! Mas a 'casa' oficial dos grandes shows do UFC, onde fica o Instituto de Performance, é outra cidade no deserto."
+                },
+                {
+                    "text": "Las Vegas",
+                    "isCorrect": true,
+                    "explanation": "É isso aí! Las Vegas, Nevada! A 'Cidade do Pecado' é a capital mundial das lutas e a casa do UFC. A maioria dos grandes eventos numerados acontece nos cassinos e arenas de Vegas. 'What happens in Vegas, stays in Vegas'... a não ser que seja um nocaute histórico!",
+                    "imageUrl": "https://exemplo.com/ufc_las_vegas_arena.jpg",
+                    "imageDescription": "Imagem de uma arena em Las Vegas durante um evento do UFC."
+                },
+                {
+                    "text": "Miami",
+                    "isCorrect": false,
+                    "explanation": "Miami recebe eventos de vez em quando, mas a 'casa' do UFC, onde a história foi feita e continua sendo escrita, é Las Vegas!"
+                }
+            ]
+        },
+        {
+            "question": "O que significa a sigla 'MMA' no contexto das lutas como o UFC?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Mixed Martial Arts (Artes Marciais Mistas)",
+                    "isCorrect": true,
+                    "explanation": "Acertou em cheio! MMA significa Mixed Martial Arts, ou Artes Marciais Mistas! É a combinação de diversas disciplinas de luta (Boxe, Jiu-Jitsu, Wrestling, Muay Thai, Karatê, etc.) que vemos no UFC. É por isso que é tão imprevisível e emocionante!",
+                    "imageUrl": "https://exemplo.com/mma_lutas.jpg",
+                    "imageDescription": "Imagem de dois lutadores de MMA em combate."
+                },
+                {
+                    "text": "Major Martial Arts",
+                    "isCorrect": false,
+                    "explanation": "Perto, mas não! Não é 'Major'. A sigla se refere à 'mistura' das artes marciais!"
+                },
+                {
+                    "text": "Mixed Match Association",
+                    "isCorrect": false,
+                    "explanation": "Association não! E Match também não. A sigla foca nas 'Artes Marciais'."
+                },
+                {
+                    "text": "Modern Martial Arts",
+                    "isCorrect": false,
+                    "explanation": "É moderno, sim, mas a sigla oficial se refere à 'mistura' de estilos, não à modernidade!"
+                }
+            ]
+        },
+        {
+            "question": "Qual lutador é conhecido por suas quedas implacáveis e controle no chão, sendo uma lenda do Wrestling no MMA?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Anderson Silva",
+                    "isCorrect": false,
+                    "explanation": "O Spider é mestre no Boxe e Muay Thai, especialista em lutar em pé! O rei das quedas e do chão que você procura é outro, um canadense fenomenal."
+                },
+                {
+                    "text": "Conor McGregor",
+                    "isCorrect": false,
+                    "explanation": "Conor foca na trocação em pé e no nocaute! As quedas e o controle no chão são a praia de outro cara que dominou uma categoria por anos."
+                },
+                {
+                    "text": "Khabib Nurmagomedov",
+                    "isCorrect": false,
+                    "explanation": "Khabib é o 'Eagle', um monstro do Sambo e Wrestling, com quedas e ground and pound espetaculares! Mas a lenda do Wrestling *original* no UFC, de outra categoria, é o GSP!"
+                },
+                {
+                    "text": "Georges St-Pierre",
+                    "isCorrect": true,
+                    "explanation": "É ele! Georges St-Pierre (GSP)! O ex-campeão Peso Meio-Médio, famoso por suas quedas perfeitas, controle posicional e ground and pound chato de sair (para o adversário!). Um mestre em anular os oponentes e uma lenda do Wrestling no MMA. 'I'm not impressed by your performance!'",
+                    "imageUrl": "https://exemplo.com/gsp_queda.jpg",
+                    "imageDescription": "Imagem de GSP realizando uma queda em um oponente."
+                }
+            ]
+        },
+        {
+            "question": "Qual a principal característica do estilo de luta de Stephen 'Wonderboy' Thompson?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Jiu-Jitsu agressivo e finalizações rápidas",
+                    "isCorrect": false,
+                    "explanation": "Jiu-Jitsu é a 'Arte Suave'! Wonderboy é mestre em outra arte marcial, com golpes e movimentação únicos em pé."
+                },
+                {
+                    "text": "Boxe clássico e potente",
+                    "isCorrect": false,
+                    "explanation": "Boxe é uma base, sim, mas o estilo do Wonderboy vem de outra modalidade, com chutes e movimentação bem diferentes do boxe puro."
+                },
+                {
+                    "text": "Wrestling dominante e controle no chão",
+                    "isCorrect": false,
+                    "explanation": "Wrestling é sobre quedas! Wonderboy quer lutar em pé, com chutes e golpes de longa distância. O chão não é o foco dele."
+                },
+                {
+                    "text": "Karate Tradicional (Kenpo) com movimentação única e chutes precisos",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Wonderboy vem do Karate Kenpo! Seu estilo é marcado pela base lateral, movimentação fluida, chutes rodados e retos super rápidos e precisos, e um senso de distância que enlouquece os adversários. É como lutar contra um fantasma que chuta!",
+                    "imageUrl": "https://exemplo.com/wonderboy_chute.jpg",
+                    "imageDescription": "Imagem de Stephen 'Wonderboy' Thompson realizando um chute de Karate."
+                }
+            ]
+        },
+        {
+            "question": "Qual lutador brasileiro do peso médio é conhecido por suas falas polêmicas, rivalidades intensas e o apelido 'The American Gangster' (mesmo sendo brasileiro!)?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Anderson Silva",
+                    "isCorrect": false,
+                    "explanation": "O Spider é mais 'silencioso' (a não ser na 'mic fight' com o Sonnen!). O 'Gangster' polêmico é outro brasileiro que causou muito no peso médio."
+                },
+                {
+                    "text": "Vitor Belfort",
+                    "isCorrect": false,
+                    "explanation": "O 'Phenom' é polêmico, sim, mas o apelido 'American Gangster' e as falas são de outro cara do peso médio."
+                },
+                {
+                    "text": "Chael Sonnen",
+                    "isCorrect": false,
+                    "explanation": "Chael Sonnen se autodenominava 'American Gangster' e era o rei da provocação! Mas a pergunta é sobre um lutador *brasileiro* que ganhou esse apelido por... absorver a persona do rival?"
+                },
+                {
+                    "text": "Paulo Costa",
+                    "isCorrect": true,
+                    "explanation": "Borrachinha! Paulo 'Borrachinha' Costa! Ele meio que 'abraçou' a persona do 'American Gangster' depois da rivalidade com o Chael Sonnen. Agora ele vive o personagem nas redes sociais, sempre com bom humor (e polêmica!). 'Secret Juice!'",
+                    "imageUrl": "https://exemplo.com/paulo_costa_borrachinha.jpg",
+                    "imageDescription": "Imagem de Paulo Costa em uma pose característica ou com uma garrafa de 'suco secreto'."
+                }
+            ]
+        },
+        {
+            "question": "O que é um 'Guilhotina' (Guillotine Choke) no Jiu-Jitsu / MMA?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Uma chave de braço",
+                    "isCorrect": false,
+                    "explanation": "Chave de braço ataca a articulação do braço. A Guilhotina ataca... o pescoço!"
+                },
+                {
+                    "text": "Um golpe de cotovelo rodado",
+                    "isCorrect": false,
+                    "explanation": "Golpe de cotovelo é striking! A Guilhotina é uma técnica de grappling, uma espécie de estrangulamento."
+                },
+                {
+                    "text": "Um estrangulamento onde o lutador usa o braço para comprimir a garganta do oponente, geralmente pela frente",
+                    "isCorrect": true,
+                    "explanation": "Exato! A Guilhotina é um estrangulamento onde você 'guilhotina' o pescoço do oponente com o braço, comprimindo a traqueia ou as carótidas. Um dos estrangulamentos mais comuns e perigosos do MMA. 'Tap, tap, tap!'",
+                    "imageUrl": "https://exemplo.com/guillotine_choke_mma.jpg",
+                    "imageDescription": "Ilustração ou imagem de um lutador aplicando uma guilhotina."
+                },
+                {
+                    "text": "Uma queda poderosa",
+                    "isCorrect": false,
+                    "explanation": "Queda é levar pro chão! A Guilhotina é uma forma de finalizar alguém no chão ou na transição para o chão."
+                }
+            ]
+        },
+        {
+            "question": "Qual lutador é o único na história do UFC a conquistar cinturões em três categorias de peso diferentes?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Randy Couture",
+                    "isCorrect": false,
+                    "explanation": "Randy Couture foi campeão em duas categorias (Peso Pesado e Meio-Pesado)! Mas conquistar 3 cinturões é um feito de outro lutador, um canadense lendário."
+                },
+                {
+                    "text": "Conor McGregor",
+                    "isCorrect": false,
+                    "explanation": "Conor foi o primeiro a ser campeão em duas categorias *simultaneamente* (Pena e Leve)! Mas conquistar 3 cinturões *diferentes* (não simultâneos) é um feito único do GSP."
+                },
+                {
+                    "text": "BJ Penn",
+                    "isCorrect": false,
+                    "explanation": "BJ Penn foi campeão em duas categorias (Peso Leve e Meio-Médio)! O único a chegar em 3 cinturões é o GSP."
+                },
+                {
+                    "text": "Georges St-Pierre",
+                    "isCorrect": true,
+                    "explanation": "É ele! Georges St-Pierre (GSP)! Ele foi campeão Peso Meio-Médio (duas vezes), conquistou o cinturão Peso Médio (contra Bisping) e foi campeão interino Peso Meio-Médio também (se contarmos os títulos 'lineares' e 'interinos', o GSP é o único com *três* cinturões diferentes no UFC). Uma lenda imbatível!",
+                    "imageUrl": "https://exemplo.com/gsp_tres_cinturoes.jpg",
+                    "imageDescription": "Imagem de Georges St-Pierre com múltiplos cinturões."
+                }
+            ]
+        },
+        {
+            "question": "Quem é o ex-campeão Peso Pesado do UFC conhecido pelo apelido 'The Last Emperor', apesar de sua fase de maior sucesso ter sido no PRIDE?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Brock Lesnar",
+                    "isCorrect": false,
+                    "explanation": "Brock Lesnar foi campeão Peso Pesado, um monstro do Wrestling! Mas o 'Último Imperador' é uma lenda russa, campeão de outro evento antes de ir para o UFC."
+                },
+                {
+                    "text": "Randy Couture",
+                    "isCorrect": false,
+                    "explanation": "Randy Couture é 'The Natural', uma lenda americana Peso Pesado/Meio-Pesado! O 'Último Imperador' é um russo que foi campeão do PRIDE."
+                },
+                {
+                    "text": "Fedor Emelianenko",
+                    "isCorrect": true,
+                    "explanation": "É ele! Fedor Emelianenko! Considerado por muitos o maior Peso Pesado de todos os tempos, mesmo tendo feito apenas 4 lutas no UFC (pelo extinto Strikeforce, que foi comprado pelo UFC). Ele foi campeão do PRIDE e manteve uma invencibilidade por quase 10 anos. O 'Último Imperador' do MMA!",
+                    "imageUrl": "https://exemplo.com/fedor_last_emperor.jpg",
+                    "imageDescription": "Imagem de Fedor Emelianenko em pose de luta ou com o cinturão do PRIDE."
+                },
+                {
+                    "text": "Cain Velasquez",
+                    "isCorrect": false,
+                    "explanation": "Cain Velasquez foi um campeão Peso Pesado dominante, pura força e cardio! Mas o apelido 'Último Imperador' é do Fedor."
+                }
+            ]
+        },
+        {
+            "question": "Qual a categoria de peso onde Jon Jones fez a maior parte de sua carreira e se tornou uma lenda?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Peso Médio (Middleweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Médio é a categoria do Spider e do Adesanya! Jon Jones lutava (e dominava) em uma categoria acima dessa, com caras mais pesados."
+                },
+                {
+                    "text": "Peso Meio-Pesado (Light Heavyweight)",
+                    "isCorrect": true,
+                    "explanation": "É isso aí! Peso Meio-Pesado (Light Heavyweight - até 93 kg)! Jon 'Bones' Jones foi o rei absoluto dessa categoria por anos, com recordes de defesas de cinturão. Sua envergadura e jogo completo eram (e são!) um pesadelo para qualquer um. Uma lenda imbatível nos 93 kg!",
+                    "imageUrl": "https://exemplo.com/jon_jones_lhw_cinturao.jpg",
+                    "imageDescription": "Imagem de Jon Jones com o cinturão Peso Meio-Pesado."
+                },
+                {
+                    "text": "Peso Pesado (Heavyweight)",
+                    "isCorrect": false,
+                    "explanation": "Jon Jones subiu para o Peso Pesado no final da carreira (e já conquistou o cinturão!), mas a maior parte de sua história e defesas de título foram na categoria de baixo, nos 93 kg."
+                },
+                {
+                    "text": "Peso Super Pesado (Super Heavyweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Super Pesado não existe no UFC! O Jon Jones subiu para o Peso Pesado (acima de 93 kg)."
+                }
+            ]
+        },
+        {
+            "question": "Qual a principal crítica (no início) feita ao estilo de luta de Conor McGregor no MMA?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Falta de poder de nocaute",
+                    "isCorrect": false,
+                    "explanation": "Falta de poder de nocaute? Justamente o contrário! Ele apagava todo mundo! A crítica era em outra área... o chão!"
+                },
+                {
+                    "text": "Deficiências no Wrestling e Jiu-Jitsu (jogo de chão)",
+                    "isCorrect": true,
+                    "explanation": "Exato! A principal dúvida sobre McGregor no início era seu jogo de chão, Wrestling e Jiu-Jitsu, comparado com lutadores de elite dessas áreas. Será que ele conseguiria lidar com as quedas e o controle no solo? Ele evoluiu muito, mas ainda é visto por muitos como um 'striker' de elite com gaps no grappling. 'Left hand power!'",
+                    "imageUrl": "https://exemplo.com/mcgregor_chao.jpg",
+                    "imageDescription": "Imagem de Conor McGregor em uma posição de luta no chão."
+                },
+                {
+                    "text": "Cardio fraco",
+                    "isCorrect": false,
+                    "explanation": "O cardio dele já foi questionado em lutas mais longas, sim, mas a crítica *inicial* e principal era sobre o jogo de chão, não a resistência."
+                },
+                {
+                    "text": "Falta de agressividade",
+                    "isCorrect": false,
+                    "explanation": "Falta de agressividade? McGregor é a definição de agressividade e pressão em pé! A crítica era em outra área, onde a luta não é em pé."
+                }
+            ]
+        },
+        {
+            "question": "Quem foi o primeiro lutador brasileiro a conquistar um cinturão no UFC?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Anderson Silva",
+                    "isCorrect": false,
+                    "explanation": "Anderson foi campeão depois, no peso médio! O primeiro campeão brasileiro é uma lenda do Jiu-Jitsu, bem no início do UFC."
+                },
+                {
+                    "text": "Royce Gracie",
+                    "isCorrect": true,
+                    "explanation": "O pioneiro! Royce Gracie! Vencedor do UFC 1, 2 e 4, mostrando a superioridade do Jiu-Jitsu Brasileiro para o mundo. Ele foi o primeiro brasileiro (e um dos primeiros campeões de fato) a dominar o octógono. O patriarca do sucesso brasileiro no UFC!",
+                    "imageUrl": "https://exemplo.com/royce_gracie_ufc1.jpg",
+                    "imageDescription": "Imagem de Royce Gracie lutando no início do UFC."
+                },
+                {
+                    "text": "Vitor Belfort",
+                    "isCorrect": false,
+                    "explanation": "Vitor Belfort foi um dos primeiros brasileiros a ter sucesso e conquistar cinturões, mas ele veio *depois* da era inicial dominada pelo Royce."
+                },
+                {
+                    "text": "José Aldo",
+                    "isCorrect": false,
+                    "explanation": "José Aldo é uma lenda, campeão peso pena! Mas ele veio muito depois do primeiro campeão brasileiro da história do UFC."
+                }
+            ]
+        },
+        {
+            "question": "O que é 'Ground and Pound' no MMA?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Golpes (socos/cotoveladas) desferidos de cima para baixo em um oponente no chão",
+                    "isCorrect": true,
+                    "explanation": "Exatamente! Ground and Pound (GNP)! É quando um lutador derruba o oponente e desfere golpes de cima para baixo enquanto o oponente está no chão. Uma tática brutal e eficaz para buscar o nocaute! O favorito do Khabib e do GSP!",
+                    "imageUrl": "https://exemplo.com/ground_and_pound_mma.jpg",
+                    "imageDescription": "Imagem de um lutador aplicando ground and pound."
+                },
+                {
+                    "text": "Uma técnica de finalização no chão",
+                    "isCorrect": false,
+                    "explanation": "Finalização é submissão! Ground and Pound são golpes!"
+                },
+                {
+                    "text": "Uma queda de alto impacto",
+                    "isCorrect": false,
+                    "explanation": "Queda é levar pro chão! Ground and Pound é o que você faz *depois* que chega lá!"
+                },
+                {
+                    "text": "Uma técnica de defesa no chão para evitar golpes",
+                    "isCorrect": false,
+                    "explanation": "Defesa é outra coisa! Ground and Pound é ofensivo!"
+                }
+            ]
+        },
+        {
+            "question": "Qual lutador é conhecido por ser um mestre na 'luta em pé' (striking) com um jogo de pernas evasivo e golpes plásticos, sendo um ex-campeão Peso Médio?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Georges St-Pierre",
+                    "isCorrect": false,
+                    "explanation": "GSP é um mestre completo, mas seu forte era o Wrestling! O mestre da luta em pé com jogo de pernas incrível é o Spider."
+                },
+                {
+                    "text": "Anderson Silva",
+                    "isCorrect": true,
+                    "explanation": "É ele! Anderson 'Spider' Silva! Ex-campeão Peso Médio, famoso por seu Striking vindo do Boxe/Muay Thai/Taekwondo, com jogo de pernas, esquivas e golpes plásticos (como o chute no Belfort!). Um artista na trocação!",
+                    "imageUrl": "https://exemplo.com/anderson_silva_striking.jpg",
+                    "imageDescription": "Imagem de Anderson Silva realizando um golpe plástico."
+                },
+                {
+                    "text": "Israel Adesanya",
+                    "isCorrect": false,
+                    "explanation": "Adesanya é o 'Stylebender', mestre do Striking moderno, ex-campeão Peso Médio! Ele se inspira no Spider, mas o pioneiro desse estilo na categoria foi o próprio Spider."
+                },
+                {
+                    "text": "Jose Aldo",
+                    "isCorrect": false,
+                    "explanation": "Aldo tem um Muay Thai brutal, especialmente os chutes na perna! Mas o mestre do jogo de pernas evasivo e golpes plásticos no Peso Médio é o Spider."
+                }
+            ]
+        },
+        {
+            "question": "Quantos rounds geralmente tem uma luta principal (main event) ou disputa de cinturão em um evento numerado do UFC?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "3 rounds de 5 minutos",
+                    "isCorrect": false,
+                    "explanation": "3 rounds são para lutas sem cinturão! As lutas mais importantes são mais longas!"
+                },
+                {
+                    "text": "5 rounds de 5 minutos",
+                    "isCorrect": true,
+                    "explanation": "Isso! 5 rounds de 5 minutos! Lutas principais e disputas de cinturão no UFC vão até 5 rounds, a menos que terminem antes. O teste supremo de habilidade e gás!",
+                    "imageUrl": "https://exemplo.com/ufc_5_rounds.jpg",
+                    "imageDescription": "Imagem de lutadores no final de uma luta intensa ou levantando os braços após 5 rounds."
+                },
+                {
+                    "text": "5 rounds de 3 minutos",
+                    "isCorrect": false,
+                    "explanation": "Rounds no UFC são de 5 minutos, não 3! 3 minutos por round é mais comum em Boxe amador."
+                },
+                {
+                    "text": "7 rounds de 5 minutos",
+                    "isCorrect": false,
+                    "explanation": "7 rounds seria uma maratona! Lutas no UFC são de 3 ou 5 rounds!"
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "question": "Qual lutadora brasileira dominou o peso galo e peso pena feminino, sendo considerada por muitos a GOAT (Maior de Todos os Tempos) feminina?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Cris Cyborg",
+                    "isCorrect": false,
+                    "explanation": "Cyborg é uma lenda do peso pena e ex-campeã do UFC, pura força! Mas a 'Leoa' que dominou duas categorias e bateu lendas é outra brasileira."
+                },
+                {
+                    "text": "Ronda Rousey",
+                    "isCorrect": false,
+                    "explanation": "Ronda foi a pioneira e campeã dominante do peso galo, mestre do Judô! Mas a lutadora que a nocauteou e depois limpou as duas categorias foi a 'Leoa'."
+                },
+                {
+                    "text": "Amanda Nunes",
+                    "isCorrect": true,
+                    "explanation": "É ela! Amanda 'Leoa' Nunes! A única mulher na história do UFC a ser campeã simultaneamente em duas categorias (Peso Galo e Peso Pena). Bateu lendas como Ronda Rousey, Cris Cyborg e Holly Holm. A GOAT feminina, sem discussão (pelo menos por um bom tempo!).",
+                    "imageUrl": "https://exemplo.com/amanda_nunes_leoa.jpg",
+                    "imageDescription": "Imagem de Amanda Nunes com os dois cinturões do UFC."
+                },
+                {
+                    "text": "Valentina Shevchenko",
+                    "isCorrect": false,
+                    "explanation": "Valentina 'Bullet' é a rainha dominante do peso mosca! Teve lutas duríssimas com a Amanda, mas não dominou duas categorias como a 'Leoa'."
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "question": "Qual a categoria de peso onde Khabib Nurmagomedov foi campeão invicto?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Peso Pena (Featherweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Pena é a categoria do Aldo e McGregor! Khabib lutava em uma categoria acima, onde o corte de peso já era um drama!"
+                },
+                {
+                    "text": "Peso Meio-Médio (Welterweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Meio-Médio é a categoria do GSP e Usman! Khabib era grande para o peso, mas lutava em uma categoria abaixo dessa."
+                },
+                {
+                    "text": "Peso Leve (Lightweight)",
+                    "isCorrect": true,
+                    "explanation": "É isso! Peso Leve (Lightweight - até 70 kg)! Khabib 'The Eagle' Nurmagomedov dominou essa categoria com seu Wrestling e Sambo implacáveis, aposentando-se invicto (29-0). Pisar no gás dele no chão era impossível! 'Send me location!'",
+                    "imageUrl": "https://exemplo.com/khabib_lightweight_cinturao.jpg",
+                    "imageDescription": "Imagem de Khabib Nurmagomedov com o cinturão Peso Leve."
+                },
+                {
+                    "text": "Peso Super Leve (Super Lightweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Super Leve não existe no UFC! Khabib reinou nos 70 kg!"
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "question": "Quem é o lutador neozelandês (com raízes nigerianas) conhecido como 'The Stylebender', ex-campeão Peso Médio com um striking plástico?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Robert Whittaker",
+                    "isCorrect": false,
+                    "explanation": "Whittaker é o 'Reaper', ex-campeão Peso Médio da Austrália! Ele teve lutas épicas com o 'Stylebender', mas não é ele."
+                },
+                {
+                    "text": "Israel Adesanya",
+                    "isCorrect": true,
+                    "explanation": "É ele! Israel 'The Stylebender' Adesanya! Ex-campeão Peso Médio, com uma base de Kickboxing e uma movimentação e golpes em pé que parecem saídos de um videogame. Um mestre do striking moderno, fã de anime e que adora uma 'Performance da Noite'! 'I am the Last Stylebender!'",
+                    "imageUrl": "https://exemplo.com/adesanya_stylebender.jpg",
+                    "imageDescription": "Imagem de Israel Adesanya em uma pose característica ou lutando em pé."
+                },
+                {
+                    "text": "Kamaru Usman",
+                    "isCorrect": false,
+                    "explanation": "Usman é o 'Nigerian Nightmare', ex-campeão Peso Meio-Médio, mestre do Wrestling! O 'Stylebender' luta na categoria de baixo e foca na trocação."
+                },
+                {
+                    "text": "Alex Pereira",
+                    "isCorrect": false,
+                    "explanation": "Alex 'Poatan' Pereira é o carrasco do Adesanya no Kickboxing e MMA, campeão em duas categorias no UFC! Mas o apelido 'Stylebender' é do Israel Adesanya."
+                }
+            ]
+        },
+        {
+            "id": 24,
+            "question": "O que significa 'Tapping Out' (Dar os Três Tapinhas) em uma luta de MMA?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Comemorar a vitória",
+                    "isCorrect": false,
+                    "explanation": "Comemorar é depois que a luta acaba! Dar os tapinhas é algo que você faz *durante* a luta, e significa o contrário de vitória!"
+                },
+                {
+                    "text": "Pedir para o árbitro parar a luta por lesão",
+                    "isCorrect": false,
+                    "explanation": "Pedir para parar por lesão é diferente (geralmente falando ou gesticulando). Dar os tapinhas significa que você não aguenta mais uma finalização!"
+                },
+                {
+                    "text": "Desistir de uma finalização (Submission)",
+                    "isCorrect": true,
+                    "explanation": "Exato! Tapping Out (Dar os três tapinhas no corpo do adversário ou no chão/lona) é o sinal universal de que você está desistindo de uma finalização (estrangulamento ou chave de articulação) porque não quer se machucar seriamente ou 'apagar'. Salvar os ossos (e a consciência!) é importante!",
+                    "imageUrl": "https://exemplo.com/tapping_out_mma.jpg",
+                    "imageDescription": "Ilustração ou imagem de um lutador dando os três tapinhas."
+                },
+                {
+                    "text": "Pedir tempo para descansar",
+                    "isCorrect": false,
+                    "explanation": "Pedir tempo para descansar não existe no MMA! A luta só para se houver nocaute, finalização, lesão ou fim do round."
+                }
+            ]
+        },
+        {
+            "id": 25,
+            "question": "Qual lutador brasileiro é uma lenda do peso pena, ex-campeão por muitos anos, conhecido por seus chutes na perna devastadores?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Anderson Silva",
+                    "isCorrect": false,
+                    "explanation": "Spider é do peso médio! O rei dos chutes na perna no peso pena é outro brasileiro, uma lenda do WEC/UFC."
+                },
+                {
+                    "text": "José Aldo",
+                    "isCorrect": true,
+                    "explanation": "É ele! José Aldo Júnior! O 'Campeão do Povo'! Reinou no peso pena por anos, com um Muay Thai afiado e chutes na perna que destruíam os adversários. Um dos maiores de todos os tempos, que fez a transição do WEC para o UFC mantendo o cinturão. Respeito!",
+                    "imageUrl": "https://exemplo.com/jose_aldo_leg_kick.jpg",
+                    "imageDescription": "Imagem de José Aldo realizando um chute baixo (leg kick)."
+                },
+                {
+                    "text": "Charles Oliveira",
+                    "isCorrect": false,
+                    "explanation": "Charles 'Do Bronx' é do peso leve, mestre no Jiu-Jitsu! O rei dos chutes na perna no peso pena é o Aldo."
+                },
+                {
+                    "text": "Renan Barão",
+                    "isCorrect": false,
+                    "explanation": "Renan Barão foi campeão peso galo e teve uma fase dominante! Mas a lenda dos chutes na perna no peso pena é o Aldo."
+                }
+            ]
+        },
+        {
+            "id": 26,
+            "question": "Qual a categoria de peso onde a maioria dos lutadores pesa entre 70 kg e 77 kg (155-170 lbs)?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Peso Leve (Lightweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Leve vai até 70 kg! A categoria que vai de 70 a 77 kg é a de cima, do GSP e do Usman."
+                },
+                {
+                    "text": "Peso Meio-Médio (Welterweight)",
+                    "isCorrect": true,
+                    "explanation": "Isso! Peso Meio-Médio (Welterweight - até 77 kg)! Uma das categorias mais recheadas de talentos no UFC, lar de lendas como GSP, Matt Hughes, Robbie Lawler e Kamaru Usman. Pura força, técnica e cardio!",
+                    "imageUrl": "https://exemplo.com/welterweight_ufc.jpg",
+                    "imageDescription": "Imagem de lutadores da categoria peso meio-médio ou cinturão da categoria."
+                },
+                {
+                    "text": "Peso Médio (Middleweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Médio vai até 84 kg! Bem mais pesada que a categoria entre 70 e 77 kg."
+                },
+                {
+                    "text": "Peso Super Leve (Super Lightweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Super Leve não existe no UFC! A categoria entre 70 e 77 kg é a Meio-Média."
+                }
+            ]
+        },
+        {
+            "id": 27,
+            "question": "Qual o nome do icônico anunciador de lutas do UFC, famoso pelo bordão 'It's TIME!'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Joe Rogan",
+                    "isCorrect": false,
+                    "explanation": "Joe Rogan é o comentarista! O cara que grita 'It's TIME!' com toda a pompa é outro."
+                },
+                {
+                    "text": "Dana White",
+                    "isCorrect": false,
+                    "explanation": "Dana White é o presidente! Ele anuncia as lutas, mas não com a mesma teatralidade do mestre de cerimônias!"
+                },
+                {
+                    "text": "Bruce Buffer",
+                    "isCorrect": true,
+                    "explanation": "É ele! Bruce Buffer! 'The Voice of the Octagon'! Com seu estilo único, giros e o famoso grito 'It's TIIIIIIIIIIME!', ele é parte essencial do show do UFC, anunciando os lutadores com a energia que a gente ama! O irmão dele também anuncia lutas!",
+                    "imageUrl": "https://exemplo.com/bruce_buffer_itstime.jpg",
+                    "imageDescription": "Imagem de Bruce Buffer anunciando no octógono com o microfone."
+                },
+                {
+                    "text": "Michael Buffer",
+                    "isCorrect": false,
+                    "explanation": "Michael Buffer é o famoso anunciador do Boxe ('Let's get ready to rumble!')! O irmão dele é quem anuncia as lutas do UFC!"
+                }
+            ]
+        },
+        {
+            "id": 29,
+            "question": "Quem é a lutadora, ex-campeã Peso Galo, que revolucionou o esporte feminino com seu Judô de elite e finalizações de chave de braço?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Amanda Nunes",
+                    "isCorrect": false,
+                    "explanation": "Amanda Nunes é a 'Leoa', mestre no Boxe e Jiu-Jitsu! A pioneira do Judô no UFC feminino foi outra, que a Amanda viria a nocautear depois."
+                },
+                {
+                    "text": "Cris Cyborg",
+                    "isCorrect": false,
+                    "explanation": "Cyborg é a rainha do Striking no Peso Pena! A pioneira do Judô e das chaves de braço que dominou o Peso Galo foi outra."
+                },
+                {
+                    "text": "Ronda Rousey",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Ronda 'Rowdy' Rousey! Medalhista Olímpica de Judô, ela trouxe seu grappling de elite (especialmente a chave de braço!) para o MMA e dominou o Peso Galo feminino no início. Uma super estrela que abriu portas, mesmo que o fim tenha sido... rápido.",
+                    "imageUrl": "https://exemplo.com/ronda_rousey_armbar.jpg",
+                    "imageDescription": "Imagem de Ronda Rousey aplicando uma chave de braço."
+                },
+                {
+                    "text": "Valentina Shevchenko",
+                    "isCorrect": false,
+                    "explanation": "Valentina é 'Bullet', mestre do Muay Thai e Kickboxing no Peso Mosca! A pioneira do Judô no Peso Galo foi a Ronda."
+                }
+            ]
+        },
+        {
+            "id": 30,
+            "question": "O que é um 'Rear-Naked Choke' (Mata-Leão) no Jiu-Jitsu / MMA?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Uma chave de pé",
+                    "isCorrect": false,
+                    "explanation": "Chave de pé ataca a articulação do pé/tornozelo. O Mata-Leão ataca... o pescoço!"
+                },
+                {
+                    "text": "Um estrangulamento aplicado pelas costas do oponente",
+                    "isCorrect": true,
+                    "explanation": "Exato! O Rear-Naked Choke (Mata-Leão)! É um dos estrangulamentos mais eficazes, aplicado pelas costas do oponente, comprimindo as artérias carótidas para cortar o fluxo sanguíneo para o cérebro. É a finalização favorita do Khabib e de muitos grapplers! Se pegou, já era! Boa noite, cinderela!",
+                    "imageUrl": "https://exemplo.com/rear_naked_choke_mma.jpg",
+                    "imageDescription": "Ilustração ou imagem de um lutador aplicando um mata-leão."
+                },
+                {
+                    "text": "Um golpe de joelhada voadora",
+                    "isCorrect": false,
+                    "explanation": "Joelhado é striking! O Mata-Leão é uma técnica de grappling, um estrangulamento!"
+                },
+                {
+                    "text": "Uma raspagem do chão para montar",
+                    "isCorrect": false,
+                    "explanation": "Raspagem é inversão de posição no chão! O Mata-Leão é uma técnica para fazer o oponente desistir ou apagar."
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "question": "Qual lutador é conhecido como 'The Nigerian Nightmare' e foi um campeão dominante do Peso Meio-Médio, com um Wrestling e Ground and Pound fortes?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Israel Adesanya",
+                    "isCorrect": false,
+                    "explanation": "Adesanya é o 'Stylebender', rei do striking no Peso Médio! O 'Pesadelo Nigeriano' luta na categoria de cima e domina no Wrestling."
+                },
+                {
+                    "text": "Francis Ngannou",
+                    "isCorrect": false,
+                    "explanation": "Ngannou é o 'Predador', campeão Peso Pesado com o soco mais forte do mundo! O 'Pesadelo Nigeriano' reina nos 77 kg com Wrestling e pressão."
+                },
+                {
+                    "text": "Kamaru Usman",
+                    "isCorrect": true,
+                    "explanation": "É ele! Kamaru 'The Nigerian Nightmare' Usman! Ex-campeão Peso Meio-Médio, com um Wrestling avassalador que o permitia controlar e amassar os oponentes no chão (e na grade!). Ele evoluiu muito no striking também, mostrando mãos pesadas. Um verdadeiro 'pesadelo' para quem o enfrentava!",
+                    "imageUrl": "https://exemplo.com/kamaru_usman_wrestling.jpg",
+                    "imageDescription": "Imagem de Kamaru Usman aplicando uma queda ou controlando um oponente na grade."
+                },
+                {
+                    "text": "Anthony Joshua",
+                    "isCorrect": false,
+                    "explanation": "Anthony Joshua é um boxeador! O 'Pesadelo Nigeriano' que domina o UFC é o Kamaru Usman."
+                }
+            ]
+        },
+        {
+            "id": 32,
+            "question": "Qual a categoria de peso onde Deiveson Figueiredo e Brandon Moreno fizeram uma rivalidade épica, com múltiplos combates pelo cinturão?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Peso Galo (Bantamweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Galo é a categoria do Sterling e O'Malley! Deiveson e Moreno lutavam na categoria de baixo, a mais leve do UFC masculino."
+                },
+                {
+                    "text": "Peso Mosca (Flyweight)",
+                    "isCorrect": true,
+                    "explanation": "É isso! Peso Mosca (Flyweight - até 57 kg)! Deiveson 'Deus da Guerra' Figueiredo e Brandon 'The Assassin Baby' Moreno fizeram a maior rivalidade da história dessa categoria, trocando o cinturão em 4 lutas incríveis. Pura ação nos pesos mais leves!",
+                    "imageUrl": "https://exemplo.com/deiveson_moreno_faceoff.jpg",
+                    "imageDescription": "Imagem de Deiveson Figueiredo e Brandon Moreno em uma encarada antes da luta."
+                },
+                {
+                    "text": "Peso Palha (Strawweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Palha só existe no UFC feminino! A categoria mais leve do masculino é a Peso Mosca."
+                },
+                {
+                    "text": "Peso Super Mosca (Super Flyweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Super Mosca não existe no UFC! A rivalidade entre Deiveson e Moreno foi no Peso Mosca."
+                }
+            ]
+        },
+        {
+            "id": 33,
+            "question": "Quem é o ex-campeão Peso Pesado que se tornou o primeiro lutador a conquistar cinturões em duas categorias de peso diferentes no UFC?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Brock Lesnar",
+                    "isCorrect": false,
+                    "explanation": "Brock Lesnar foi campeão Peso Pesado, mas não conquistou cinturão em outra categoria. O pioneiro das duas categorias é uma lenda americana mais 'velha'!"
+                },
+                {
+                    "text": "Randy Couture",
+                    "isCorrect": true,
+                    "explanation": "É ele! Randy 'The Natural' Couture! O primeiro lutador a conquistar cinturões no Peso Pesado e no Peso Meio-Pesado. Ele provou que era possível dominar em mais de uma categoria, abrindo caminho para lendas como BJ Penn, GSP e McGregor. Uma lenda de verdade!",
+                    "imageUrl": "https://exemplo.com/randy_couture_dois_cinturoes.jpg",
+                    "imageDescription": "Imagem de Randy Couture com dois cinturões do UFC."
+                },
+                {
+                    "text": "Daniel Cormier",
+                    "isCorrect": false,
+                    "explanation": "DC foi campeão em duas categorias (Peso Pesado e Meio-Pesado), uma lenda! Mas ele fez isso *depois* do Randy Couture, que foi o primeiro."
+                },
+                {
+                    "text": "Jon Jones",
+                    "isCorrect": false,
+                    "explanation": "Jon Jones também conquistou cinturões em duas categorias (Meio-Pesado e Pesado)! Mas o primeiro a conseguir esse feito foi o Randy Couture."
+                }
+            ]
+        },
+        {
+            "id": 34,
+            "question": "Qual golpe de Boxe é considerado o mais básico, mas essencial, para manter a distância e preparar outros ataques?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Cruzado (Hook)",
+                    "isCorrect": false,
+                    "explanation": "Cruzado é um golpe potente, mas de perto! O golpe básico para manter distância e 'tocar' o adversário é outro, reto e rápido."
+                },
+                {
+                    "text": "Direto (Straight)",
+                    "isCorrect": false,
+                    "explanation": "Direto é um golpe reto e potente, geralmente com a mão de trás! O golpe básico, mais leve e com a mão da frente, é o Jab."
+                },
+                {
+                    "text": "Jab",
+                    "isCorrect": true,
+                    "explanation": "É o Jab! O golpe reto com a mão da frente, rápido e com menos força. Essencial para medir a distância, incomodar o adversário, quebrar o ritmo e preparar golpes mais pesados. O pilar da luta em pé! 'Just the tip!'",
+                    "imageUrl": "https://exemplo.com/jab_boxe.jpg",
+                    "imageDescription": "Ilustração ou imagem de um lutador aplicando um jab."
+                },
+                {
+                    "text": "Uppercut",
+                    "isCorrect": false,
+                    "explanation": "Uppercut é um golpe de baixo para cima, de curta distância! O golpe básico para manter distância é o Jab."
+                }
+            ]
+        },
+        {
+            "id": 36,
+            "question": "Qual a categoria de peso mais pesada do UFC, sem limite máximo de peso (apenas mínimo de 93 kg / 206 lbs)?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Peso Meio-Pesado (Light Heavyweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Meio-Pesado vai até 93 kg! A categoria mais pesada é a de cima, onde não tem limite!"
+                },
+                {
+                    "text": "Peso Cruzador (Cruiserweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Cruzador existe em Boxe, mas não no UFC! A categoria mais pesada no UFC é a Peso Pesado."
+                },
+                {
+                    "text": "Peso Pesado (Heavyweight)",
+                    "isCorrect": true,
+                    "explanation": "Exato! Peso Pesado (Heavyweight - acima de 93 kg)! É a categoria dos 'gigantes', onde um soco pode acabar com a luta a qualquer momento. Miocic, Ngannou, Lesnar, Velasquez... o poder bruto reina aqui!",
+                    "imageUrl": "https://exemplo.com/heavyweight_ufc.jpg",
+                    "imageDescription": "Imagem de lutadores da categoria Peso Pesado ou cinturão da categoria."
+                },
+                {
+                    "text": "Peso Super Pesado (Super Heavyweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Super Pesado não existe no UFC! A categoria sem limite máximo (acima de 93 kg) é a Peso Pesado."
+                }
+            ]
+        },
+        {
+            "id": 38,
+            "question": "O que é uma 'chave de braço' (Armbar) no Jiu-Jitsu / MMA?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Um estrangulamento",
+                    "isCorrect": false,
+                    "explanation": "Estrangulamento ataca o pescoço! Chave de braço ataca... a articulação do cotovelo!"
+                },
+                {
+                    "text": "Uma técnica que força a hiperextensão da articulação do cotovelo",
+                    "isCorrect": true,
+                    "explanation": "Exato! A Chave de Braço (Armbar)! Uma finalização onde o lutador prende o braço do oponente e usa a alavancagem do próprio corpo (geralmente com o quadril) para forçar a hiperextensão da articulação do cotovelo. Dói DEMAIS e pode quebrar o braço se não desistir (tap!). A especialidade da Ronda Rousey!",
+                    "imageUrl": "https://exemplo.com/armbar_mma.jpg",
+                    "imageDescription": "Ilustração ou imagem de um lutador aplicando uma chave de braço."
+                },
+                {
+                    "text": "Uma queda",
+                    "isCorrect": false,
+                    "explanation": "Queda é levar pro chão! Chave de braço é para finalizar *no* chão."
+                },
+                {
+                    "text": "Um golpe de perna",
+                    "isCorrect": false,
+                    "explanation": "Golpe de perna é striking! Chave de braço é grappling!"
+                }
+            ]
+        },
+        {
+            "id": 39,
+            "question": "Qual a categoria de peso onde Aljamain Sterling e Sean O'Malley se destacam atualmente (ou se destacaram recentemente)?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Peso Mosca (Flyweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Mosca é do Deiveson e Moreno! Sterling e O'Malley lutam na categoria de cima, a dos 'baixinhos' rápidos e potentes."
+                },
+                {
+                    "text": "Peso Galo (Bantamweight)",
+                    "isCorrect": true,
+                    "explanation": "É isso! Peso Galo (Bantamweight - até 61 kg)! Essa categoria é uma das mais empolgantes, cheia de lutadores super rápidos, técnicos e com poder de nocaute. Sterling (ex-campeão, mestre no grappling) e O'Malley (campeão, mestre no striking) são dois dos maiores nomes recentes dela! Que rivalidade!",
+                    "imageUrl": "https://exemplo.com/bantamweight_ufc.jpg",
+                    "imageDescription": "Imagem de lutadores da categoria Peso Galo ou cinturão da categoria."
+                },
+                {
+                    "text": "Peso Pena (Featherweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Pena é do Aldo e Volkanovski! Sterling e O'Malley lutam na categoria de baixo, nos 61 kg."
+                },
+                {
+                    "text": "Peso Leve (Lightweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Leve é dos 70 kg! Sterling e O'Malley são bem menores e mais leves."
+                }
+            ]
+        },
+        {
+            "id": 40,
+            "question": "Quem é o ex-campeão Peso Leve que é um mestre do Boxe e foi o primeiro a nocautear Conor McGregor no MMA?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Khabib Nurmagomedov",
+                    "isCorrect": false,
+                    "explanation": "Khabib finalizou o McGregor! O primeiro a nocauteá-lo no MMA foi um ex-campeão Peso Leve com um Boxe afiado."
+                },
+                {
+                    "text": "Dustin Poirier",
+                    "isCorrect": false,
+                    "explanation": "Dustin Poirier nocauteou McGregor *duas vezes* no Peso Leve, mas ele não foi o *primeiro* a fazer isso no MMA! O primeiro a apagar o Conor (em outra categoria) foi o Eddie Alvarez."
+                },
+                {
+                    "text": "Eddie Alvarez",
+                    "isCorrect": true,
+                    "explanation": "É ele! Eddie Alvarez! O 'The Underground King'! Foi campeão Peso Leve do UFC e o primeiro (e único, por um bom tempo!) a nocautear Conor McGregor no MMA, em 2016, perdendo o cinturão para ele. Um lutador casca grossa com um Boxe potente!",
+                    "imageUrl": "https://exemplo.com/eddie_alvarez_ko_mcgregor.jpg",
+                    "imageDescription": "Imagem de Eddie Alvarez nocauteando Conor McGregor."
+                },
+                {
+                    "text": "Tony Ferguson",
+                    "isCorrect": false,
+                    "explanation": "Tony Ferguson nunca lutou contra o Conor McGregor! O primeiro a nocauteá-lo foi o Eddie Alvarez."
+                }
+            ]
+        },
+        {
+            "id": 41,
+            "question": "Qual a principal diferença entre Nocaute (KO) e Nocaute Técnico (TKO)?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "KO é por soco, TKO é por chute",
+                    "isCorrect": false,
+                    "explanation": "Não importa qual golpe! A diferença é sobre quem para a luta e a condição do lutador."
+                },
+                {
+                    "text": "KO é quando o lutador 'apaga' completamente, TKO é quando o lutador não tem mais defesa, e o árbitro/médico para a luta",
+                    "isCorrect": true,
+                    "explanation": "Exato! KO (Knockout) é quando um golpe deixa o lutador inconsciente ou incapaz de continuar instantaneamente, sem a intervenção do árbitro ser estritamente necessária para 'salvá-lo'. TKO (Technical Knockout) é quando o lutador ainda está consciente, mas não consegue mais se defender de forma inteligente, e o árbitro (ou o médico, ou o córner) decide parar a luta para evitar mais danos. O resultado final é o mesmo: a luta acaba por superioridade de golpes!",
+                    "imageUrl": "https://exemplo.com/ko_vs_tko.jpg",
+                    "imageDescription": "Ilustração mostrando a diferença entre KO (inconsciente) e TKO (sem defesa)."
+                },
+                {
+                    "text": "KO acontece no primeiro round, TKO nos rounds finais",
+                    "isCorrect": false,
+                    "explanation": "Pode acontecer a qualquer momento da luta! A diferença não é o round."
+                },
+                {
+                    "text": "KO é no chão, TKO é em pé",
+                    "isCorrect": false,
+                    "explanation": "Pode acontecer em pé ou no chão (no Ground and Pound)! A diferença é sobre a condição do lutador e a intervenção."
+                }
+            ]
+        },
+        {
+            "id": 43,
+            "question": "Qual o nome da técnica de Wrestling usada para derrubar o oponente, geralmente mirando nas pernas?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Guilhotina (Guillotine Choke)",
+                    "isCorrect": false,
+                    "explanation": "Guilhotina é um estrangulamento! Estamos falando de levar a luta pro chão usando as pernas do adversário como alvo!"
+                },
+                {
+                    "text": "Chave de Braço (Armbar)",
+                    "isCorrect": false,
+                    "explanation": "Chave de braço é finalização! A técnica para derrubar o oponente é outra, focada em controle e força nas pernas."
+                },
+                {
+                    "text": "Queda (Takedown)",
+                    "isCorrect": true,
+                    "explanation": "É isso! Queda (Takedown)! Uma técnica fundamental do Wrestling e do MMA para tirar o oponente da base em pé e levá-lo para o chão. Quedas de uma perna, de duas pernas, quedas no clinch... dominar as quedas é crucial para controlar onde a luta acontece. O forte do GSP, Khabib, Usman, etc!",
+                    "imageUrl": "https://exemplo.com/takedown_mma.jpg",
+                    "imageDescription": "Ilustração ou imagem de um lutador realizando uma queda."
+                },
+                {
+                    "text": "Ground and Pound",
+                    "isCorrect": false,
+                    "explanation": "Ground and Pound é bater *no* chão! Queda é para *chegar* no chão!"
+                }
+            ]
+        },
+        {
+            "id": 44,
+            "question": "Quem é o ex-campeão Peso Pesado e Meio-Pesado, uma lenda americana conhecida como 'The Natural'?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Chuck Liddell",
+                    "isCorrect": false,
+                    "explanation": "Chuck Liddell é 'The Iceman', ex-campeão Meio-Pesado com um nocaute assustador! O 'Natural' é outro, que lutou na mesma época (e categoria!) que ele."
+                },
+                {
+                    "text": "Randy Couture",
+                    "isCorrect": true,
+                    "explanation": "Certíssimo! Randy 'The Natural' Couture! Um dos pioneiros do esporte, campeão em duas categorias (Peso Pesado e Meio-Pesado) em fases diferentes da carreira, lutando até uma idade avançada. Ele adaptava seu estilo de luta de Wrestling e Boxe para cada oponente. Uma inspiração de longevidade e técnica!",
+                    "imageUrl": "https://exemplo.com/randy_couture_natural.jpg",
+                    "imageDescription": "Imagem de Randy Couture em pose de luta ou com um cinturão."
+                },
+                {
+                    "text": "Frank Mir",
+                    "isCorrect": false,
+                    "explanation": "Frank Mir foi campeão Peso Pesado, mestre no Jiu-Jitsu! O 'Natural' é o Randy Couture."
+                },
+                {
+                    "text": "Dan Henderson",
+                    "isCorrect": false,
+                    "explanation": "Hendo é uma lenda do PRIDE/UFC com o 'H-Bomb' (direto de direita)! Ele lutou em várias categorias, mas o apelido 'The Natural' é do Randy Couture."
+                }
+            ]
+        },
+        {
+            "id": 45,
+            "question": "Qual lutador brasileiro é o recordista de finalizações na história do UFC?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Demian Maia",
+                    "isCorrect": false,
+                    "explanation": "Demian Maia é um dos maiores nomes do Jiu-Jitsu no MMA, com finalizações incríveis! Mas o recordista é outro, que lutou na categoria de baixo."
+                },
+                {
+                    "text": "Antônio Rodrigo Nogueira (Minotauro)",
+                    "isCorrect": false,
+                    "explanation": "Minotauro é uma lenda do Jiu-Jitsu Peso Pesado/PRIDE/UFC, com finalizações históricas! Mas o recordista no UFC, com mais finalizações, é o Charles 'Do Bronx'."
+                },
+                {
+                    "text": "Royce Gracie",
+                    "isCorrect": false,
+                    "explanation": "Royce Gracie foi o pioneiro do Jiu-Jitsu no UFC, finalizando todo mundo no início! Mas o recorde de finalizações *na história* do UFC (contando todos os eventos) é do Charles Oliveira."
+                },
+                {
+                    "text": "Charles Oliveira",
+                    "isCorrect": true,
+                    "explanation": "É ele! Charles 'Do Bronx' Oliveira! Com seu Jiu-Jitsu agressivo e criativo, ele tem o recorde absoluto de finalizações no UFC. Uma máquina de 'pegar' gente no chão, de todos os jeitos e posições. O 'Rei das Finalizações'!",
+                    "imageUrl": "https://exemplo.com/charles_oliveira_record.jpg",
+                    "imageDescription": "Imagem de Charles Oliveira celebrando uma vitória ou com um cinturão."
+                }
+            ]
+        },
+        {
+            "id": 46,
+            "question": "Qual a categoria de peso onde a maioria dos lutadores pesa entre 61 kg e 66 kg (135-145 lbs)?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Peso Galo (Bantamweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Galo vai até 61 kg! A categoria que vai de 61 a 66 kg é a de cima, do Aldo e McGregor."
+                },
+                {
+                    "text": "Peso Pena (Featherweight)",
+                    "isCorrect": true,
+                    "explanation": "Isso! Peso Pena (Featherweight - até 66 kg)! Categoria cheia de ação, velocidade e lutadores explosivos. Foi o palco do reinado do José Aldo e da ascensão meteórica do Conor McGregor. Pura adrenalina!",
+                    "imageUrl": "https://exemplo.com/featherweight_ufc_cinturao.jpg",
+                    "imageDescription": "Imagem de lutadores da categoria Peso Pena ou cinturão da categoria."
+                },
+                {
+                    "text": "Peso Leve (Lightweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Leve vai até 70 kg! Bem mais pesada que a categoria entre 61 e 66 kg."
+                },
+                {
+                    "text": "Peso Mosca (Flyweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Mosca vai até 57 kg! Bem mais leve que a categoria entre 61 e 66 kg."
+                }
+            ]
+        },
+        {
+            "id": 47,
+            "question": "O que é um 'Cruzado' (Hook) no Boxe / MMA?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Um golpe reto com a mão da frente",
+                    "isCorrect": false,
+                    "explanation": "Golpe reto com a mão da frente é o Jab! O Cruzado é um golpe lateral e potente."
+                },
+                {
+                    "text": "Um golpe reto com a mão de trás",
+                    "isCorrect": false,
+                    "explanation": "Golpe reto com a mão de trás é o Direto! O Cruzado é um golpe lateral!"
+                },
+                {
+                    "text": "Um golpe lateral desferido com o braço flexionado, visando a lateral da cabeça ou o corpo",
+                    "isCorrect": true,
+                    "explanation": "Exato! O Cruzado (Hook)! Um golpe potente desferido com o braço flexionado, vindo de lado. Pode pegar no queixo, na têmpora, ou no corpo. É um golpe perigoso de curta e média distância, capaz de causar nocautes espetaculares! 'Overhand right!' (ops, isso é outra coisa, mas é golpe potente!).",
+                    "imageUrl": "https://exemplo.com/hook_boxe.jpg",
+                    "imageDescription": "Ilustração ou imagem de um lutador aplicando um cruzado."
+                },
+                {
+                    "text": "Um golpe de baixo para cima",
+                    "isCorrect": false,
+                    "explanation": "Golpe de baixo para cima é o Uppercut! O Cruzado é lateral."
+                }
+            ]
+        },
+        {
+            "id": 49,
+            "question": "Quem é o ex-campeão Peso Pesado conhecido como 'The Predator', famoso por seu poder de nocaute assustador?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Stipe Miocic",
+                    "isCorrect": false,
+                    "explanation": "Miocic é o 'maior Peso Pesado do UFC' para muitos, com recorde de defesas de título! O 'Predador' foi quem o nocauteou."
+                },
+                {
+                    "text": "Brock Lesnar",
+                    "isCorrect": false,
+                    "explanation": "Brock Lesnar é a 'Fera', um monstro do Wrestling! O 'Predador' é um cara com o soco mais potente já registrado."
+                },
+                {
+                    "text": "Francis Ngannou",
+                    "isCorrect": true,
+                    "explanation": "É ele! Francis 'The Predator' Ngannou! Ex-campeão Peso Pesado, dono do soco mais potente já registrado no UFC. Com a força de um caminhão, ele nocauteava seus adversários de forma brutal e rápida. Um verdadeiro 'predador' no octógono! 'The Power!'",
+                    "imageUrl": "https://exemplo.com/francis_ngannou_predator.jpg",
+                    "imageDescription": "Imagem de Francis Ngannou em pose de luta ou celebrando um nocaute."
+                },
+                {
+                    "text": "Cain Velasquez",
+                    "isCorrect": false,
+                    "explanation": "Cain Velasquez foi um campeão Peso Pesado dominante, com um gás incrível! O 'Predador' com o soco mais potente é o Ngannou."
+                }
+            ]
+        },
+        {
+            "id": 50,
+            "question": "O que é uma 'Raspagem' (Sweep) no Jiu-Jitsu / MMA?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Uma técnica para derrubar o oponente (Takedown)",
+                    "isCorrect": false,
+                    "explanation": "Derrubar é Takedown! Raspagem é uma técnica feita do chão para... inverter a posição!"
+                },
+                {
+                    "text": "Uma técnica feita do chão para inverter a posição com o oponente, terminando por cima",
+                    "isCorrect": true,
+                    "explanation": "Isso! A Raspagem (Sweep)! Uma técnica usada quando você está por baixo no chão (na guarda, por exemplo) para desequilibrar o oponente, tirá-lo da base e terminar a ação por cima, invertendo a posição. É uma forma de virar o jogo no chão e pontuar (ou buscar o Ground and Pound!). A 'Arte Suave' em ação!",
+                    "imageUrl": "https://exemplo.com/jiujitsu_sweep_mma.jpg",
+                    "imageDescription": "Ilustração ou imagem de um lutador realizando uma raspagem no chão."
+                },
+                {
+                    "text": "Um golpe de perna desferido no chão",
+                    "isCorrect": false,
+                    "explanation": "Golpe de perna no chão não é raspagem! Raspagem é sobre posicionamento!"
+                },
+                {
+                    "text": "Uma finalização com as pernas",
+                    "isCorrect": false,
+                    "explanation": "Finalização com as pernas pode ser um triângulo ou uma chave de pé. Raspagem é para inverter posição, não para finalizar."
+                }
+            ]
+        },
+        {
+            "id": 51,
+            "question": "Qual lutador é conhecido como 'The King of Cringe' (O Rei do Constra... vergonha alheia) por suas falas e trejeitos?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Conor McGregor",
+                    "isCorrect": false,
+                    "explanation": "Conor é 'The Notorious', mestre na 'mic fight', sim! Mas o 'Rei do Cringe' tem um estilo de falar e umas 'performances' que são de outro nível de... constrangimento!"
+                },
+                {
+                    "text": "Henry Cejudo",
+                    "isCorrect": true,
+                    "explanation": "É ele! Henry 'Triple C' Cejudo! Campeão em duas categorias e medalhista de ouro Olímpico no Wrestling! Apesar do talento absurdo, suas tentativas de criar uma persona de 'Rei do Cringe' com falas ensaiadas e performances... duvidosas... renderam a ele esse apelido. 'Bend the knee!'",
+                    "imageUrl": "https://exemplo.com/henry_cejudo_cringe.jpg",
+                    "imageDescription": "Imagem de Henry Cejudo fazendo uma pose ou falando de forma 'cringe'."
+                },
+                {
+                    "text": "Colby Covington",
+                    "isCorrect": false,
+                    "explanation": "Colby é 'Chaos', um mestre do trash talk e das provocações políticas! Ele é odiado, mas o 'Cringe' é outro campeão duplo (e Olímpico!)."
+                },
+                {
+                    "text": "Sean O'Malley",
+                    "isCorrect": false,
+                    "explanation": "O'Malley é 'Sugar', cheio de estilo e confiança! Ele pode ser polêmico, mas o título de 'Rei do Cringe' pertence ao Triple C!"
+                }
+            ]
+        },
+        {
+            "id": 52,
+            "question": "Qual a categoria de peso onde Valentina Shevchenko reinou por muito tempo?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Peso Galo Feminino (Women's Bantamweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Galo é a categoria da Amanda Nunes e Ronda Rousey! Valentina lutava (e lutou) lá, mas ela foi a campeã dominante de uma categoria *abaixo* do Galo."
+                },
+                {
+                    "text": "Peso Mosca Feminino (Women's Flyweight)",
+                    "isCorrect": true,
+                    "explanation": "É isso! Peso Mosca Feminino (Flyweight - até 57 kg)! Valentina 'Bullet' Shevchenko dominou essa categoria com seu Muay Thai de elite e jogo completo, defendendo o cinturão várias vezes. A 'Bullet' era imparável nessa divisão!",
+                    "imageUrl": "https://exemplo.com/valentina_shevchenko_flyweight.jpg",
+                    "imageDescription": "Imagem de Valentina Shevchenko com o cinturão Peso Mosca."
+                },
+                {
+                    "text": "Peso Palha Feminino (Women's Strawweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Palha é a categoria da Weili Zhang e Joanna Jedrzejczyk, a mais leve! Valentina reinou na categoria de cima, nos 57 kg."
+                },
+                {
+                    "text": "Peso Pena Feminino (Women's Featherweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Pena é a categoria acima do Galo! Valentina desceu de peso para reinar nos 57 kg!"
+                }
+            ]
+        },
+        {
+            "id": 53,
+            "question": "Quem é o comentarista do UFC mais famoso, conhecido por seu podcast e por gritar empolgado durante os nocautes?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Bruce Buffer",
+                    "isCorrect": false,
+                    "explanation": "Bruce Buffer é o anunciador 'It's TIME!'! O comentarista que pira nos nocautes e tem um podcast famoso é outro."
+                },
+                {
+                    "text": "Daniel Cormier",
+                    "isCorrect": false,
+                    "explanation": "DC é comentarista agora (e ótimo!), mas o mais famoso, que está lá há mais tempo e tem o podcast, é o Joe Rogan."
+                },
+                {
+                    "text": "Michael Bisping",
+                    "isCorrect": false,
+                    "explanation": "Bisping é ex-campeão e comentarista, com um sotaque britânico inconfundível! Mas o mais famoso, que grita nos nocautes, é o Joe Rogan."
+                },
+                {
+                    "text": "Joe Rogan",
+                    "isCorrect": true,
+                    "explanation": "É ele! Joe Rogan! Comentarista do UFC há décadas, mestre em Jits e Taekwondo, e dono do podcast mais famoso do mundo. Ninguém narra um nocaute ou finalização com tanta paixão (e gritos!) quanto ele. 'OHHHHHHHH!!! He's hurt! He's HURT!'",
+                    "imageUrl": "https://exemplo.com/joe_rogan_comentando.jpg",
+                    "imageDescription": "Imagem de Joe Rogan na cabine de comentários do UFC."
+                }
+            ]
+        },
+        {
+            "id": 54,
+            "question": "O que é um 'Triangle Choke' (Estrangulamento Triângulo) no Jiu-Jitsu / MMA?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Um estrangulamento aplicado com os braços",
+                    "isCorrect": false,
+                    "explanation": "O Triângulo usa os braços *também*, mas o principal é a... perna!"
+                },
+                {
+                    "text": "Um estrangulamento aplicado com as pernas e o braço do oponente, formando um 'triângulo'",
+                    "isCorrect": true,
+                    "explanation": "Exato! O Estrangulamento Triângulo! Uma finalização super eficaz onde o lutador usa as próprias pernas para 'prender' o pescoço e o braço do oponente, formando um 'triângulo' com as coxas, e usa o braço livre para apertar ainda mais. Causa pressão nas carótidas e pode apagar rápido. Uma técnica linda de se ver (se você não for a vítima!)!",
+                    "imageUrl": "https://exemplo.com/triangle_choke_mma.jpg",
+                    "imageDescription": "Ilustração ou imagem de um lutador aplicando um estrangulamento triângulo."
+                },
+                {
+                    "text": "Uma queda que termina com o oponente em posição triangular",
+                    "isCorrect": false,
+                    "explanation": "Queda é derrubar! O Triângulo é uma finalização no chão."
+                },
+                {
+                    "text": "Um golpe de perna rodado",
+                    "isCorrect": false,
+                    "explanation": "Golpe de perna é striking! O Triângulo é grappling!"
+                }
+            ]
+        },
+        {
+            "id": 55,
+            "question": "Quem é o ex-campeão Peso Pesado do UFC e astro do Wrestling profissional (WWE) conhecido como 'The Beast Incarnate'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Cain Velasquez",
+                    "isCorrect": false,
+                    "explanation": "Cain Velasquez foi campeão Peso Pesado, um monstro do cardio e Wrestling! Mas a 'Besta Encarnada' que veio da WWE é outra."
+                },
+                {
+                    "text": "Shane Carwin",
+                    "isCorrect": false,
+                    "explanation": "Shane Carwin era um Peso Pesado com um soco de caminhão, ex-campeão interino! Mas a 'Besta' que fez a transição do Pro-Wrestling é o Brock Lesnar."
+                },
+                {
+                    "text": "Brock Lesnar",
+                    "isCorrect": true,
+                    "explanation": "É ele! Brock Lesnar! Ex-campeão Peso Pesado do UFC, famoso por sua força física absurda e base de Wrestling de elite. Fez uma carreira de sucesso no Wrestling profissional (WWE) antes e depois do UFC. 'The Beast Incarnate' causou um furor no octógono!",
+                    "imageUrl": "https://exemplo.com/brock_lesnar_ufc.jpg",
+                    "imageDescription": "Imagem de Brock Lesnar no octógono do UFC."
+                },
+                {
+                    "text": "Francis Ngannou",
+                    "isCorrect": false,
+                    "explanation": "Ngannou é 'The Predator', o cara do super soco! A 'Besta Encarnada' que veio da WWE é o Brock Lesnar."
+                }
+            ]
+        },
+        {
+            "id": 56,
+            "question": "Qual a categoria de peso mais leve do UFC masculino?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Peso Galo (Bantamweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Galo vai até 61 kg! A categoria mais leve é a de baixo, onde os lutadores são ainda menores e mais rápidos!"
+                },
+                {
+                    "text": "Peso Mosca (Flyweight)",
+                    "isCorrect": true,
+                    "explanation": "É isso! Peso Mosca (Flyweight - até 57 kg)! A categoria onde Deiveson Figueiredo e Brandon Moreno fizeram história com 4 lutas pelo cinturão. Não se engane pelo tamanho, esses caras são pura técnica, velocidade e coração! 'Voa, mosca!'",
+                    "imageUrl": "https://exemplo.com/flyweight_ufc_cinturao.jpg",
+                    "imageDescription": "Imagem de lutadores da categoria Peso Mosca ou cinturão da categoria."
+                },
+                {
+                    "text": "Peso Palha (Strawweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Palha só existe no UFC feminino! A categoria mais leve do masculino é a Peso Mosca."
+                },
+                {
+                    "text": "Peso Leve Júnior (Junior Lightweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Leve Júnior não existe no UFC! A categoria mais leve do masculino é a Peso Mosca."
+                }
+            ]
+        },
+        {
+            "id": 57,
+            "question": "Quem é o comentarista do UFC, ex-campeão Meio-Pesado e Peso Pesado, conhecido pelo apelido 'DC'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Michael Bisping",
+                    "isCorrect": false,
+                    "explanation": "Bisping é ex-campeão Peso Médio e comentarista! O comentarista ex-campeão duplo é o 'DC'."
+                },
+                {
+                    "text": "Randy Couture",
+                    "isCorrect": false,
+                    "explanation": "Randy Couture é 'The Natural', ex-campeão duplo, mas não é comentarista regular do UFC. O comentarista 'DC' é outro ex-campeão duplo!"
+                },
+                {
+                    "text": "Jon Jones",
+                    "isCorrect": false,
+                    "explanation": "Jon Jones é ex-campeão Meio-Pesado e Peso Pesado (rival do DC!), mas não é comentarista do UFC. O comentarista 'DC' é o Daniel Cormier!"
+                },
+                {
+                    "text": "Daniel Cormier",
+                    "isCorrect": true,
+                    "explanation": "É ele! Daniel 'DC' Cormier! Ex-campeão Peso Meio-Pesado e Peso Pesado simultaneamente! Lutador Olímpico de Wrestling e agora um dos comentaristas mais queridos e engraçados do UFC. Ele manja TUDO de luta e adora discutir com o Joe Rogan! 'Pull the plug!'",
+                    "imageUrl": "https://exemplo.com/daniel_cormier_dc.jpg",
+                    "imageDescription": "Imagem de Daniel Cormier como comentarista ou com seus dois cinturões."
+                }
+            ]
+        },
+        {
+            "id": 58,
+            "question": "O que é um 'Uppercut' no Boxe / MMA?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Um golpe lateral na cabeça",
+                    "isCorrect": false,
+                    "explanation": "Golpe lateral é o Cruzado! O Uppercut vem de baixo para cima!"
+                },
+                {
+                    "text": "Um golpe reto no rosto",
+                    "isCorrect": false,
+                    "explanation": "Golpe reto é Jab ou Direto! O Uppercut vem de baixo para cima!"
+                },
+                {
+                    "text": "Um golpe desferido de baixo para cima, visando o queixo ou o corpo do oponente",
+                    "isCorrect": true,
+                    "explanation": "Exato! O Uppercut! Um golpe potente que viaja em uma trajetória ascendente, geralmente visando o queixo do oponente quando ele está se inclinando para a frente ou no clinch. Capaz de causar nocautes espetaculares, jogando a cabeça do adversário para trás. Boom! Para cima!",
+                    "imageUrl": "https://exemplo.com/uppercut_boxe.jpg",
+                    "imageDescription": "Ilustração ou imagem de um lutador aplicando um uppercut."
+                },
+                {
+                    "text": "Um chute alto na cabeça",
+                    "isCorrect": false,
+                    "explanation": "Chute é kickboxing/muay thai! Uppercut é golpe de punho!"
+                }
+            ]
+        },
+        {
+            "id": 59,
+            "question": "Quem é o ex-campeão Peso Mosca do UFC conhecido por sua velocidade absurda e jogo completo, sendo considerado por muitos o GOAT pound-for-pound?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Henry Cejudo",
+                    "isCorrect": false,
+                    "explanation": "Cejudo é o 'Triple C', ex-campeão Mosca e Galo! Ele é rápido e completo, mas o GOAT P4P para muitos, com o recorde de defesas no Mosca, é o Demetrious 'Mighty Mouse'."
+                },
+                {
+                    "text": "Brandon Moreno",
+                    "isCorrect": false,
+                    "explanation": "Moreno é 'The Assassin Baby', campeão Peso Mosca! Ele é excelente, mas o GOAT P4P da categoria, com uma sequência de defesas de título histórica, é o Mighty Mouse."
+                },
+                {
+                    "text": "Deiveson Figueiredo",
+                    "isCorrect": false,
+                    "explanation": "Deiveson é 'Deus da Guerra', ex-campeão Peso Mosca! Um finalizador perigoso! Mas o GOAT P4P dessa categoria é o Mighty Mouse, que reinou antes dele."
+                },
+                {
+                    "text": "Demetrious Johnson",
+                    "isCorrect": true,
+                    "explanation": "É ele! Demetrious 'Mighty Mouse' Johnson! Ex-campeão Peso Mosca, com o recorde de defesas de cinturão seguidas no UFC (11!). Sua velocidade, técnica em todas as áreas (striking, wrestling, jiu-jitsu) e inteligência em luta o tornam um dos lutadores mais completos da história. O GOAT pound-for-pound para muita gente. Voa, ratinho!",
+                    "imageUrl": "https://exemplo.com/demetrious_johnson_mma.jpg",
+                    "imageDescription": "Imagem de Demetrious Johnson lutando ou com o cinturão Peso Mosca."
+                }
+            ]
+        },
+        {
+            "id": 60,
+            "question": "Qual lutador, ex-campeão Peso Pena, é conhecido por seu Boxe de volume e queixo duro, com o apelido 'Blessed'?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Conor McGregor",
+                    "isCorrect": false,
+                    "explanation": "Conor é 'The Notorious', nocauteador! Ele lutou contra o 'Blessed', mas não é ele."
+                },
+                {
+                    "text": "José Aldo",
+                    "isCorrect": false,
+                    "explanation": "Aldo é o 'Campeão do Povo', com Muay Thai e chutes na perna! O 'Blessed' dominou a categoria depois dele com Boxe e volume."
+                },
+                {
+                    "text": "Max Holloway",
+                    "isCorrect": true,
+                    "explanation": "É ele! Max 'Blessed' Holloway! Ex-campeão Peso Pena, recordista de golpes conectados no UFC e com um Boxe de volume e resistência inacreditáveis. Ele não para de bater e absorve golpe como ninguém. 'It is what it is!'",
+                    "imageUrl": "https://exemplo.com/max_holloway_blessed.jpg",
+                    "imageDescription": "Imagem de Max Holloway lutando em pé ou celebrando."
+                },
+                {
+                    "text": "Alexander Volkanovski",
+                    "isCorrect": false,
+                    "explanation": "Volkanovski é 'The Great', ex-campeão Peso Pena que superou o 'Blessed'! Mas o 'Blessed' é o Max Holloway."
+                }
+            ]
+        },
+        {
+            "id": 61,
+            "question": "O que é um 'Single Leg Takedown' (Queda de Uma Perna) no Wrestling / MMA?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Uma queda onde o lutador mira nas duas pernas do oponente",
+                    "isCorrect": false,
+                    "explanation": "Mirar nas duas pernas é o Double Leg! O Single Leg é... focado em uma só!"
+                },
+                {
+                    "text": "Uma queda onde o lutador mira em apenas uma perna do oponente para derrubar",
+                    "isCorrect": true,
+                    "explanation": "Isso! A Queda de Uma Perna (Single Leg Takedown)! É uma das quedas mais básicas e eficazes, onde o lutador 'abraça' ou segura uma perna do oponente para tirá-lo do equilíbrio e levá-lo ao chão. Uma ferramenta essencial no MMA para controlar a distância e buscar o grappling. Clássico do Wrestling!",
+                    "imageUrl": "https://exemplo.com/single_leg_takedown_mma.jpg",
+                    "imageDescription": "Ilustração ou imagem de um lutador aplicando uma queda de uma perna."
+                },
+                {
+                    "text": "Uma finalização que ataca a perna",
+                    "isCorrect": false,
+                    "explanation": "Finalização na perna é outra coisa (chave de joelho, chave de calcanhar)! Single Leg é para derrubar!"
+                },
+                {
+                    "text": "Um golpe de perna (chute)",
+                    "isCorrect": false,
+                    "explanation": "Golpe de perna é striking! Single Leg é Wrestling!"
+                }
+            ]
+        },
+        {
+            "id": 62,
+            "question": "Quem é o ex-campeão Peso Galo e Peso Mosca, medalhista de ouro Olímpico no Wrestling, conhecido como 'Triple C'?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Demetrious Johnson",
+                    "isCorrect": false,
+                    "explanation": "Mighty Mouse foi campeão Peso Mosca, uma lenda! Mas o campeão duplo (Mosca e Galo) com medalha Olímpica é o Cejudo."
+                },
+                {
+                    "text": "Dominick Cruz",
+                    "isCorrect": false,
+                    "explanation": "Dominick Cruz é 'The Dominator', ex-campeão Peso Galo! Sua movimentação é única, mas ele não tem ouro Olímpico nem cinturão no Mosca."
+                },
+                {
+                    "text": "TJ Dillashaw",
+                    "isCorrect": false,
+                    "explanation": "TJ Dillashaw foi campeão Peso Galo! Teve uma luta com o Cejudo pelo cinturão Mosca, mas não conquistou os dois cinturões nem tem ouro Olímpico."
+                },
+                {
+                    "text": "Henry Cejudo",
+                    "isCorrect": true,
+                    "explanation": "É ele! Henry 'Triple C' Cejudo! Campeão Olímpico de Wrestling (daí um 'C'), campeão Peso Mosca do UFC (segundo 'C'), e campeão Peso Galo do UFC (terceiro 'C'). O único lutador a ter ouro Olímpico e dois cinturões do UFC. Habilidades de luta de elite e uma persona... única!",
+                    "imageUrl": "https://exemplo.com/henry_cejudo_triplec.jpg",
+                    "imageDescription": "Imagem de Henry Cejudo com seus dois cinturões e/ou medalha olímpica."
+                }
+            ]
+        },
+        {
+            "id": 63,
+            "question": "Qual a categoria de peso mais leve do UFC feminino?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Peso Mosca Feminino (Women's Flyweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Mosca vai até 57 kg! A categoria mais leve das mulheres é a de baixo!"
+                },
+                {
+                    "text": "Peso Galo Feminino (Women's Bantamweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Galo vai até 61 kg! A categoria mais leve é bem abaixo dessa!"
+                },
+                {
+                    "text": "Peso Palha Feminino (Women's Strawweight)",
+                    "isCorrect": true,
+                    "explanation": "É isso! Peso Palha Feminino (Strawweight - até 52 kg)! A categoria onde lendas como Joanna Jedrzejczyk, Weili Zhang e Carla Esparza fizeram história. Muita velocidade e técnica nos 52 kg!",
+                    "imageUrl": "https://exemplo.com/strawweight_ufc.jpg",
+                    "imageDescription": "Imagem de lutadoras da categoria Peso Palha ou cinturão da categoria."
+                },
+                {
+                    "text": "Peso Átomo Feminino (Women's Atomweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Átomo existe em outros eventos, mas não no UFC! A categoria mais leve das mulheres no UFC é a Peso Palha."
+                }
+            ]
+        },
+        {
+            "id": 64,
+            "question": "Quem é o ex-campeão Peso Leve conhecido por seu estilo de luta imprevisível, golpes de 'capoeira' e o apelido 'Showtime'?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Anthony Pettis",
+                    "isCorrect": true,
+                    "explanation": "É ele! Anthony 'Showtime' Pettis! Ex-campeão Peso Leve (WEC/UFC), conhecido por seus golpes plásticos e inovadores, incluindo o famoso 'Showtime Kick' (chute na grade) que virou lenda. Um lutador criativo e empolgante de assistir. 'Showtime!'",
+                    "imageUrl": "https://exemplo.com/anthony_pettis_showtime_kick.jpg",
+                    "imageDescription": "Imagem de Anthony Pettis realizando um golpe plástico, talvez o chute na grade."
+                },
+                {
+                    "text": "Benson Henderson",
+                    "isCorrect": false,
+                    "explanation": "Benson 'Smooth' Henderson foi campeão Peso Leve, rival do Pettis! Ele é super flexível e resiliente, mas não tem o estilo de luta 'Showtime' com golpes de 'capoeira'."
+                },
+                {
+                    "text": "Edson Barboza",
+                    "isCorrect": false,
+                    "explanation": "Edson Barboza é um mestre do Muay Thai com chutes assustadores! Ele tem golpes plásticos, sim, mas o apelido 'Showtime' e o chute na grade são do Pettis."
+                },
+                {
+                    "text": "Charles Oliveira",
+                    "isCorrect": false,
+                    "explanation": "Charles 'Do Bronx' é rei do Jiu-Jitsu e tem um striking cada vez melhor! Mas o estilo 'Showtime' com golpes de 'capoeira' e o chute na grade é do Anthony Pettis."
+                }
+            ]
+        },
+        {
+            "id": 65,
+            "question": "O que é um 'Double Leg Takedown' (Queda de Duas Pernas) no Wrestling / MMA?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Uma queda onde o lutador mira em apenas uma perna do oponente",
+                    "isCorrect": false,
+                    "explanation": "Mirar em uma perna é o Single Leg! O Double Leg, como o nome diz, é nas duas!"
+                },
+                {
+                    "text": "Uma queda onde o lutador mira nas duas pernas do oponente para derrubar",
+                    "isCorrect": true,
+                    "explanation": "Isso! A Queda de Duas Pernas (Double Leg Takedown)! Uma das quedas mais poderosas e diretas, onde o lutador 'abraça' as duas pernas do oponente e o puxa ou empurra para derrubar. É o pão com manteiga de muitos wrestlers para levar a luta pro chão. Força e técnica combinadas!",
+                    "imageUrl": "https://exemplo.com/double_leg_takedown_mma.jpg",
+                    "imageDescription": "Ilustração ou imagem de um lutador aplicando uma queda de duas pernas."
+                },
+                {
+                    "text": "Uma finalização que prende as duas pernas",
+                    "isCorrect": false,
+                    "explanation": "Prender as duas pernas pode ser para controlar ou buscar outra posição. Double Leg é para derrubar!"
+                },
+                {
+                    "text": "Um golpe que atinge as duas pernas do oponente ao mesmo tempo",
+                    "isCorrect": false,
+                    "explanation": "Golpe é striking! Double Leg é Wrestling!"
+                }
+            ]
+        },
+        {
+            "id": 66,
+            "question": "Quem é o ex-campeão Peso Galo, conhecido por sua movimentação evasiva e ângulos únicos, com o apelido 'The Dominator'?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "TJ Dillashaw",
+                    "isCorrect": false,
+                    "explanation": "TJ Dillashaw foi campeão Peso Galo, com um striking influenciado pelo Alpha Male! Mas o 'Dominador' com a movimentação única é outro ex-campeão."
+                },
+                {
+                    "text": "Cody Garbrandt",
+                    "isCorrect": false,
+                    "explanation": "Cody Garbrandt é 'No Love', ex-campeão Peso Galo com Boxe potente! O 'Dominador' é um cara com um estilo de luta totalmente diferente, difícil de acertar."
+                },
+                {
+                    "text": "Urijah Faber",
+                    "isCorrect": false,
+                    "explanation": "Urijah Faber é 'The California Kid', uma lenda do Peso Galo e Pena! Ele é um grappler com mãos pesadas, mas a movimentação única e evasiva é a marca do 'Dominador'."
+                },
+                {
+                    "text": "Dominick Cruz",
+                    "isCorrect": true,
+                    "explanation": "É ele! Dominick 'The Dominator' Cruz! Ex-campeão Peso Galo, com um estilo de movimentação evasiva, entradas e saídas anguladas que tornavam um pesadelo prever seus ataques. Um mestre do footwork e da estratégia no octógono, mesmo com as lesões. Único no seu estilo!",
+                    "imageUrl": "https://exemplo.com/dominick_cruz_movement.jpg",
+                    "imageDescription": "Imagem de Dominick Cruz se movimentando no octógono com seu footwork característico."
+                }
+            ]
+        },
+        {
+            "id": 67,
+            "question": "Qual o nome do golpe potente com a mão de trás, vindo em trajetória reta, no Boxe / MMA?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Jab",
+                    "isCorrect": false,
+                    "explanation": "Jab é com a mão da frente! Estamos falando do golpe reto e potente com a mão de trás!"
+                },
+                {
+                    "text": "Cruzado (Hook)",
+                    "isCorrect": false,
+                    "explanation": "Cruzado é lateral! O golpe reto e potente com a mão de trás é o Direto!"
+                },
+                {
+                    "text": "Direto (Straight / Cross)",
+                    "isCorrect": true,
+                    "explanation": "Isso! O Direto (Straight ou Cross)! O golpe reto e potente desferido com a mão de trás, cruzando na frente do corpo (quando a base é oposta à do adversário). É um dos golpes mais fortes para nocaute, especialmente quando bem coordenado. O poder que apaga as luzes!",
+                    "imageUrl": "https://exemplo.com/straight_cross_boxe.jpg",
+                    "imageDescription": "Ilustração ou imagem de um lutador aplicando um golpe direto (cross)."
+                },
+                {
+                    "text": "Uppercut",
+                    "isCorrect": false,
+                    "explanation": "Uppercut vem de baixo para cima! O golpe reto e potente com a mão de trás é o Direto!"
+                }
+            ]
+        },
+        {
+            "id": 68,
+            "question": "Quem foi a primeira campeã Peso Palha feminino do UFC?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Joanna Jedrzejczyk",
+                    "isCorrect": false,
+                    "explanation": "Joanna foi uma campeã dominante no Peso Palha, mas não foi a *primeira*. Ela conquistou o cinturão depois da primeira campeã."
+                },
+                {
+                    "text": "Ronda Rousey",
+                    "isCorrect": false,
+                    "explanation": "Ronda Rousey foi a primeira campeã Peso Galo feminino! A primeira no Peso Palha é outra lutadora, que venceu a primeira temporada do TUF feminino."
+                },
+                {
+                    "text": "Carla Esparza",
+                    "isCorrect": true,
+                    "explanation": "Certíssimo! Carla 'Cookie Monster' Esparza! Ela foi a vencedora da 20ª temporada do The Ultimate Fighter (a primeira com mulheres) e, ao vencer o torneio, se tornou a primeira campeã Peso Palha feminino do UFC. A pioneira da categoria!",
+                    "imageUrl": "https://exemplo.com/carla_esparza_ufc.jpg",
+                    "imageDescription": "Imagem de Carla Esparza com o cinturão Peso Palha."
+                },
+                {
+                    "text": "Weili Zhang",
+                    "isCorrect": false,
+                    "explanation": "Weili Zhang foi campeã Peso Palha, uma força da natureza! Mas ela veio muito depois da primeira campeã da categoria."
+                }
+            ]
+        },
+        {
+            "id": 69,
+            "question": "Qual a técnica de estrangulamento no chão que envolve prender o pescoço e um braço do oponente com as pernas, formando um 'triângulo'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Mata-Leão (Rear-Naked Choke)",
+                    "isCorrect": false,
+                    "explanation": "Mata-Leão é pelas costas! O Triângulo usa as pernas na frente!"
+                },
+                {
+                    "text": "Guilhotina (Guillotine Choke)",
+                    "isCorrect": false,
+                    "explanation": "Guilhotina usa os braços para estrangular o pescoço pela frente! O Triângulo usa as pernas (e um braço do oponente)."
+                },
+                {
+                    "text": "Chave de Braço (Armbar)",
+                    "isCorrect": false,
+                    "explanation": "Chave de braço ataca o cotovelo! O Triângulo ataca o pescoço (e o fluxo sanguíneo!)."
+                },
+                {
+                    "text": "Estrangulamento Triângulo (Triangle Choke)",
+                    "isCorrect": true,
+                    "explanation": "Exato! Estrangulamento Triângulo! Uma finalização clássica e eficaz do Jiu-Jitsu onde você usa suas pernas para 'estrangular' o pescoço e um braço do adversário, criando uma pressão que pode levar ao 'tap' ou apagar. Uma das finalizações mais bonitas do MMA!",
+                    "imageUrl": "https://exemplo.com/triangle_choke_grappling.jpg",
+                    "imageDescription": "Ilustração ou imagem de um lutador aplicando um estrangulamento triângulo."
+                }
+            ]
+        },
+        {
+            "id": 70,
+            "question": "Quem é o ex-campeão Peso Meio-Médio e Peso Médio, conhecido por ser um 'mestre do clinch' e do ground and pound, com o apelido 'The Count'?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Anderson Silva",
+                    "isCorrect": false,
+                    "explanation": "Spider é o rei do striking! O 'Conde' era um inglês com Boxe e coração gigantes que foi campeão do Peso Médio."
+                },
+                {
+                    "text": "Luke Rockhold",
+                    "isCorrect": false,
+                    "explanation": "Luke Rockhold foi campeão Peso Médio, com um jogo de chão e chutes fortes! Ele perdeu o cinturão para o 'Conde'."
+                },
+                {
+                    "text": "Georges St-Pierre",
+                    "isCorrect": false,
+                    "explanation": "GSP é 'Rush', mestre das quedas e controle! O 'Conde' é um inglês com um olho só que superou tudo para ser campeão."
+                },
+                {
+                    "text": "Michael Bisping",
+                    "isCorrect": true,
+                    "explanation": "É ele! Michael 'The Count' Bisping! Ex-campeão Peso Médio do UFC, conhecido por sua resistência, Boxe de volume, 'clinch' forte e uma personalidade falante e polêmica. Superou uma lesão ocular séria para conquistar o cinturão de forma surpreendente. 'The Ultimate Fighter' original que virou campeão!",
+                    "imageUrl": "https://exemplo.com/michael_bisping_count.jpg",
+                    "imageDescription": "Imagem de Michael Bisping com o cinturão Peso Médio ou em pose de luta."
+                }
+            ]
+        },
+        {
+            "id": 71,
+            "question": "O que é um 'Standing Guillotine' (Guilhotina em Pé)?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Uma guilhotina aplicada quando ambos os lutadores estão de pé",
+                    "isCorrect": true,
+                    "explanation": "Exato! É a Guilhotina (estrangulamento no pescoço pela frente) aplicada quando os dois lutadores ainda estão de pé, geralmente durante uma tentativa de queda do oponente. É perigoso e pode levar a luta para o chão de forma controlada (ou não!) ou até finalizar em pé se bem encaixada!",
+                    "imageUrl": "https://exemplo.com/standing_guillotine_mma.jpg",
+                    "imageDescription": "Ilustração ou imagem de um lutador aplicando uma guilhotina em pé."
+                },
+                {
+                    "text": "Uma guilhotina aplicada no chão, mas com o lutador de cima",
+                    "isCorrect": false,
+                    "explanation": "Guilhotina no chão é Guilhotina! 'Standing' significa em pé!"
+                },
+                {
+                    "text": "Uma queda que termina em posição de guilhotina",
+                    "isCorrect": false,
+                    "explanation": "É uma finalização, não uma queda! Embora possa começar de uma tentativa de queda."
+                },
+                {
+                    "text": "Um golpe de joelho no corpo",
+                    "isCorrect": false,
+                    "explanation": "Golpe de joelho é striking! Standing Guillotine é grappling/estrangulamento!"
+                }
+            ]
+        },
+        {
+            "id": 72,
+            "question": "Quem é a ex-campeã Peso Palha feminino conhecida por seu Muay Thai agressivo e 'pressão para a frente'?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Carla Esparza",
+                    "isCorrect": false,
+                    "explanation": "Carla Esparza é mestre no Wrestling! A campeã Peso Palha com Muay Thai e pressão para a frente é a Joanna."
+                },
+                {
+                    "text": "Rose Namajunas",
+                    "isCorrect": false,
+                    "explanation": "Rose 'Thug Rose' é uma striker e grappler de elite, ex-campeã Peso Palha! Mas o estilo de Muay Thai agressivo e pressão constante é a marca da Joanna."
+                },
+                {
+                    "text": "Weili Zhang",
+                    "isCorrect": false,
+                    "explanation": "Weili Zhang é uma potência física com striking e grappling fortes! Teve batalhas épicas com a campeã de Muay Thai, mas não é ela."
+                },
+                {
+                    "text": "Joanna Jedrzejczyk",
+                    "isCorrect": true,
+                    "explanation": "É ela! Joanna Jedrzejczyk! Ex-campeã dominante do Peso Palha, com um Muay Thai polonês de alto nível, volume de golpes insano e uma pressão constante para cima das adversárias. Uma striker implacável que fez história na categoria!",
+                    "imageUrl": "https://exemplo.com/joanna_jedrzejczyk_muaythai.jpg",
+                    "imageDescription": "Imagem de Joanna Jedrzejczyk em uma pose de Muay Thai ou golpeando."
+                }
+            ]
+        },
+        {
+            "id": 73,
+            "question": "O que é 'Clipping' (ou 'Calf Kick' / Chute na Panturrilha)?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Um chute alto na cabeça",
+                    "isCorrect": false,
+                    "explanation": "Chute alto é high kick! Clipping/Calf Kick é um chute baixo, na perna!"
+                },
+                {
+                    "text": "Um chute baixo mirado na panturrilha do oponente",
+                    "isCorrect": true,
+                    "explanation": "Exato! Clipping ou Calf Kick (Chute na Panturrilha)! Um chute baixo mirado especificamente na panturrilha do adversário. Não parece perigoso, mas causa MUITA dor, tira a mobilidade e pode até nocautear (tecnicamente, por paralisar a perna). Virou uma arma muito usada no MMA recente! Dói só de pensar!",
+                    "imageUrl": "https://exemplo.com/calf_kick_mma.jpg",
+                    "imageDescription": "Ilustração ou imagem de um lutador aplicando um chute na panturrilha."
+                },
+                {
+                    "text": "Um golpe de cotovelo no corpo",
+                    "isCorrect": false,
+                    "explanation": "Golpe de cotovelo é outra coisa! Clipping é chute!"
+                },
+                {
+                    "text": "Uma queda mirando na perna",
+                    "isCorrect": false,
+                    "explanation": "Queda é Takedown! Clipping é chute!"
+                }
+            ]
+        },
+        {
+            "id": 74,
+            "question": "Quem é o ex-campeão Peso Meio-Pesado e Peso Pesado, conhecido por seu poder de nocaute e a rivalidade épica com Chuck Liddell?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Randy Couture",
+                    "isCorrect": false,
+                    "explanation": "Randy Couture é 'The Natural', campeão em duas categorias! Ele lutou contra o Liddell, mas a rivalidade épica do nocaute *dele* contra o Liddell é a do Tito Ortiz."
+                },
+                {
+                    "text": "Tito Ortiz",
+                    "isCorrect": true,
+                    "explanation": "É ele! Tito Ortiz! Ex-campeão Peso Meio-Pesado, conhecido por seu Ground and Pound e a rivalidade intensa e pessoal com Chuck Liddell (e com o próprio Dana White!). Eles tiveram lutas enormes e que ajudaram a impulsionar o UFC na 'Era de Ouro'. O 'Bad Boy de Huntington Beach'!",
+                    "imageUrl": "https://exemplo.com/tito_ortiz_ufc.jpg",
+                    "imageDescription": "Imagem de Tito Ortiz no octógono ou em uma encarada com Chuck Liddell."
+                },
+                {
+                    "text": "Chuck Liddell",
+                    "isCorrect": false,
+                    "explanation": "Chuck Liddell é 'The Iceman'! A pergunta é sobre o rival dele que era campeão e teve a rivalidade épica."
+                },
+                {
+                    "text": "Vitor Belfort",
+                    "isCorrect": false,
+                    "explanation": "Vitor Belfort é 'The Phenom', campeão em duas categorias! Ele teve rivalidades, mas a épica com o Liddell é a do Tito Ortiz."
+                }
+            ]
+        },
+        {
+            "id": 75,
+            "question": "O que é uma 'chave de calcanhar' (Heel Hook) no Jiu-Jitsu / MMA?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Uma finalização que ataca o joelho e tornozelo ao mesmo tempo, 'torcendo' o calcanhar",
+                    "isCorrect": true,
+                    "explanation": "Exato! A Chave de Calcanhar (Heel Hook)! Uma finalização de perna super perigosa onde o lutador isola o pé do oponente e 'torce' o calcanhar, colocando uma pressão enorme na articulação do joelho e tornozelo. Pode causar lesões graves se o oponente não desistir rápido. Uma das finalizações mais temidas no grappling!",
+                    "imageUrl": "https://exemplo.com/heel_hook_mma.jpg",
+                    "imageDescription": "Ilustração ou imagem de um lutador aplicando uma chave de calcanhar."
+                },
+                {
+                    "text": "Uma chave de pé simples",
+                    "isCorrect": false,
+                    "explanation": "Chave de pé é diferente! A Heel Hook é mais complexa e perigosa, focada no 'torcer' do calcanhar."
+                },
+                {
+                    "text": "Um chute baixo na perna",
+                    "isCorrect": false,
+                    "explanation": "Chute baixo é striking! Heel Hook é finalização!"
+                },
+                {
+                    "text": "Uma queda que mira no calcanhar",
+                    "isCorrect": false,
+                    "explanation": "Queda é Takedown! Heel Hook é finalização!"
+                }
+            ]
+        },
+        {
+            "id": 76,
+            "question": "Quem é o ex-campeão Peso Galo conhecido como 'The Dominator' por sua movimentação única?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "TJ Dillashaw",
+                    "isCorrect": false,
+                    "explanation": "TJ foi campeão Peso Galo, sim! Mas o 'Dominador' com a movimentação evasiva e única é o Dominick Cruz."
+                },
+                {
+                    "text": "Cody Garbrandt",
+                    "isCorrect": false,
+                    "explanation": "Cody é 'No Love', ex-campeão Peso Galo! Ele tem Boxe potente, mas não a movimentação do 'Dominator'."
+                },
+                {
+                    "text": "Dominick Cruz",
+                    "isCorrect": true,
+                    "explanation": "É ele! Dominick 'The Dominator' Cruz! Com seu estilo de luta 'danceado', passos angulares e entradas/saídas rápidas, ele tornava um pesadelo para os adversários encontrá-lo no octógono. Um gênio tático do movimento no Peso Galo, apesar das lesões que o assombraram!",
+                    "imageUrl": "https://exemplo.com/dominick_cruz_shadow_boxing.jpg",
+                    "imageDescription": "Imagem de Dominick Cruz treinando ou se movimentando no octógono."
+                },
+                {
+                    "text": "Urijah Faber",
+                    "isCorrect": false,
+                    "explanation": "Faber é 'The California Kid', lenda do WEC/UFC! Ele teve lutas com o 'Dominador', mas não é ele."
+                }
+            ]
+        },
+        {
+            "id": 77,
+            "question": "Qual o nome do golpe de perna rodado que pode ser desferido no corpo ou na cabeça, como o famoso chute do Anderson Silva em Belfort?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Chute Circular (Roundhouse Kick)",
+                    "isCorrect": false,
+                    "explanation": "Chute Circular é comum, mas o chute 'rodado' do Anderson Silva tem outro nome (e é mais giratório!)."
+                },
+                {
+                    "text": "Chute Frontal (Front Kick)",
+                    "isCorrect": false,
+                    "explanation": "Chute Frontal é reto para frente! O chute famoso do Anderson Silva girou!"
+                },
+                {
+                    "text": "Chute Giratório Rodado (Spinning Wheel Kick / Spinning Heel Kick)",
+                    "isCorrect": true,
+                    "explanation": "Exato! Chute Giratório Rodado (Spinning Wheel Kick ou Spinning Heel Kick)! O famoso chute do Anderson Silva que apagou o Vitor Belfort foi um chute frontal que *girou*. Golpes giratórios adicionam potência e imprevisibilidade, mas são mais arriscados. Quando pegam, é nocaute na certa! 'É nocaute!'",
+                    "imageUrl": "https://exemplo.com/anderson_silva_spinning_kick.jpg",
+                    "imageDescription": "Imagem de Anderson Silva realizando seu famoso chute giratório em Vitor Belfort."
+                },
+                {
+                    "text": "Chute na Panturrilha (Calf Kick)",
+                    "isCorrect": false,
+                    "explanation": "Chute na panturrilha é baixo! O chute famoso do Anderson Silva foi na cabeça!"
+                }
+            ]
+        },
+        {
+            "id": 78,
+            "question": "Quem é o ex-campeão Peso Pena, considerado o GOAT da categoria por muitos, com um Boxe de volume e queixo duro?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "José Aldo",
+                    "isCorrect": false,
+                    "explanation": "Aldo é o 'Campeão do Povo', uma lenda! Mas o GOAT do Peso Pena para muitos, que superou Aldo, é o Max Holloway ou o Volkanovski."
+                },
+                {
+                    "text": "Conor McGregor",
+                    "isCorrect": false,
+                    "explanation": "McGregor foi campeão, mas por pouco tempo! O GOAT do Peso Pena é o cara que defendeu o cinturão várias vezes com Boxe e volume."
+                },
+                {
+                    "text": "Alexander Volkanovski",
+                    "isCorrect": false,
+                    "explanation": "Volkanovski é 'The Great', o campeão que tirou o cinturão do Holloway e o defendeu várias vezes! Ele é o GOAT para muitos, sim, mas a pergunta aponta para um ex-campeão com Boxe de volume e queixo duro, que é o Max Holloway."
+                },
+                {
+                    "text": "Max Holloway",
+                    "isCorrect": true,
+                    "explanation": "É ele! Max 'Blessed' Holloway! Ex-campeão Peso Pena, conhecido por seu Boxe incessante, volume de golpes absurdo e um queixo de ferro. Ele detém recordes de golpes no UFC e superou lendas como Aldo. O GOAT do Peso Pena para uma grande parte dos fãs. 'The best boxer in the UFC, baby!'",
+                    "imageUrl": "https://exemplo.com/max_holloway_boxing.jpg",
+                    "imageDescription": "Imagem de Max Holloway golpeando com volume no octógono."
+                }
+            ]
+        },
+        {
+            "id": 79,
+            "question": "O que é 'Cutting Weight' (Corte de Peso) no MMA?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Perder peso rapidamente antes da pesagem para lutar em uma categoria menor",
+                    "isCorrect": true,
+                    "explanation": "Exato! Corte de Peso! O processo de perder uma grande quantidade de peso (geralmente líquido) nos dias e horas antes da pesagem oficial para se encaixar no limite da categoria. É uma parte brutal e perigosa do esporte, mas muito comum para lutar contra adversários potencialmente menores no dia da luta. 'Almost there!'",
+                    "imageUrl": "https://exemplo.com/weight_cutting_ufc.jpg",
+                    "imageDescription": "Imagem de um lutador na sauna ou desidratando antes da pesagem."
+                },
+                {
+                    "text": "Ganhar massa muscular rapidamente antes da luta",
+                    "isCorrect": false,
+                    "explanation": "Ganhar músculo é o oposto! Corte de peso é para PERDER peso, principalmente líquido."
+                },
+                {
+                    "text": "Treinar com pesos pesados para ficar mais forte",
+                    "isCorrect": false,
+                    "explanation": "Treinar com pesos é parte da preparação física, mas corte de peso é um processo focado na perda de peso *imediata* antes da pesagem."
+                },
+                {
+                    "text": "Cortar o excesso de cabelo antes da luta para ficar mais leve",
+                    "isCorrect": false,
+                    "explanation": "Haha! Bem que alguns gostariam! Mas corte de peso é perder quilos, não gramas de cabelo!"
+                }
+            ]
+        },
+        {
+            "id": 80,
+            "question": "Qual o nome do golpe de Boxe vindo de baixo para cima, visando o queixo?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Jab",
+                    "isCorrect": false,
+                    "explanation": "Jab é reto com a mão da frente! O golpe de baixo para cima é outro!"
+                },
+                {
+                    "text": "Direto (Straight / Cross)",
+                    "isCorrect": false,
+                    "explanation": "Direto é reto com a mão de trás! O golpe de baixo para cima é outro!"
+                },
+                {
+                    "text": "Cruzado (Hook)",
+                    "isCorrect": false,
+                    "explanation": "Cruzado é lateral! O golpe de baixo para cima é outro!"
+                },
+                {
+                    "text": "Uppercut",
+                    "isCorrect": true,
+                    "explanation": "É ele! O Uppercut! Perfeito para pegar o oponente que inclina a cabeça para a frente ou está na curta distância. Um golpe potente que pode terminar a luta instantaneamente. Para cima!",
+                    "imageUrl": "https://exemplo.com/uppercut_mma.jpg",
+                    "imageDescription": "Ilustração ou imagem de um lutador aplicando um uppercut."
+                }
+            ]
+        },
+        {
+            "id": 81,
+            "question": "Qual golpe é considerado uma falta grave no UFC, podendo levar à interrupção da luta ou desqualificação?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Chute baixo (Leg Kick)",
+                    "isCorrect": false,
+                    "explanation": "Chute baixo na perna é golpe legal e super eficaz (e doloroso!). Não é falta!"
+                },
+                {
+                    "text": "Soco no corpo",
+                    "isCorrect": false,
+                    "explanation": "Soco no corpo é totalmente legal! É um golpe válido para minar o gás do adversário."
+                },
+                {
+                    "text": "Joelhada na cabeça de um oponente no chão (quando não há regras específicas)",
+                    "isCorrect": true,
+                    "explanation": "Exato! Joelhada ou tiro de meta (soccer kick) na cabeça de um oponente considerado 'down' (com 3 pontos de contato no chão) são faltas graves em muitas jurisdições onde o UFC opera (baseado nas Regras Unificadas de MMA). Pode ser game over pro faltoso! Regra básica: não bata em quem já está caído (de um certo jeito!).",
+                    "imageUrl": "https://exemplo.com/illegal_knee_mma.jpg",
+                    "imageDescription": "Ilustração mostrando uma joelhada ilegal em um lutador no chão."
+                },
+                {
+                    "text": "Cotovelada no rosto",
+                    "isCorrect": false,
+                    "explanation": "Cotovelada no rosto é golpe legal e cortante no MMA! É uma das armas mais usadas no Ground and Pound."
+                }
+            ]
+        },
+        {
+            "id": 82,
+            "question": "Quem é o ex-campeão Peso Galo conhecido por sua movimentação evasiva e ângulos únicos, com o apelido 'The Dominator'?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "TJ Dillashaw",
+                    "isCorrect": false,
+                    "explanation": "TJ foi campeão Peso Galo, com um estilo de Boxe/Wrestling influenciado pelo Alpha Male! Mas o 'Dominador' com a movimentação evasiva e única é o Dominick Cruz."
+                },
+                {
+                    "text": "Cody Garbrandt",
+                    "isCorrect": false,
+                    "explanation": "Cody é 'No Love', ex-campeão Peso Galo com Boxe potente! O 'Dominador' é um cara com um estilo de luta totalmente diferente, difícil de acertar."
+                },
+                {
+                    "text": "Dominick Cruz",
+                    "isCorrect": true,
+                    "explanation": "É ele! Dominick 'The Dominator' Cruz! Ex-campeão Peso Galo, com um estilo de movimentação evasiva, entradas e saídas angulares que tornavam um pesadelo prever seus ataques. Um mestre do footwork e da estratégia no octógono, mesmo com as lesões. Único no seu estilo!",
+                    "imageUrl": "https://exemplo.com/dominick_cruz_footwork.jpg",
+                    "imageDescription": "Imagem de Dominick Cruz demonstrando seu footwork característico."
+                },
+                {
+                    "text": "Urijah Faber",
+                    "isCorrect": false,
+                    "explanation": "Faber é 'The California Kid', lenda do WEC/UFC! Ele teve lutas com o 'Dominador', mas não é ele."
+                }
+            ]
+        },
+        {
+            "id": 83,
+            "question": "Qual o nome do lutador conhecido como 'The Highlight' por seus nocautes e lutas empolgantes no Peso Leve?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Dustin Poirier",
+                    "isCorrect": false,
+                    "explanation": "Dustin Poirier é 'The Diamond', um trocador e finalizador de elite! 'The Highlight' é outro cara do Peso Leve, conhecido por ir pra guerra!"
+                },
+                {
+                    "text": "Tony Ferguson",
+                    "isCorrect": false,
+                    "explanation": "Tony Ferguson é 'El Cucuy', lutador maluco e imprevisível! 'The Highlight' é outro cara do Peso Leve, que veio do Wrestling mas adora trocar porrada!"
+                },
+                {
+                    "text": "Justin Gaethje",
+                    "isCorrect": true,
+                    "explanation": "É ele! Justin 'The Highlight' Gaethje! Ex-campeão interino Peso Leve, conhecido por seu estilo de luta 'tudo ou nada', que garante lutas insanas, nocautes e bônus de 'Luta/Performance da Noite'. Ele pode ter base de Wrestling, mas adora dar show em pé! Pura emoção!",
+                    "imageUrl": "https://exemplo.com/justin_gaethje_highlight.jpg",
+                    "imageDescription": "Imagem de Justin Gaethje lutando de forma agressiva ou celebrando uma vitória."
+                },
+                {
+                    "text": "Michael Chandler",
+                    "isCorrect": false,
+                    "explanation": "Michael Chandler é pura explosão no Peso Leve! Ele teve lutas incríveis contra 'The Highlight', mas não é ele o 'Highlight' original."
+                }
+            ]
+        },
+        {
+            "id": 84,
+            "question": "O que é um 'D'Arce Choke' ou 'Brabo Choke' no Jiu-Jitsu / MMA?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Um estrangulamento aplicado com o braço e o ombro, geralmente partindo da lateral ou norte-sul",
+                    "isCorrect": true,
+                    "explanation": "Exato! O D'Arce Choke (ou Brabo Choke)! É um estrangulamento onde um braço do lutador passa por baixo da axila do oponente e o outro por cima do pescoço, apertando com o ombro ou bíceps. Pode ser aplicado de várias posições no chão, especialmente quando o oponente está tentando fugir. Uma finalização sorrateira!",
+                    "imageUrl": "https://exemplo.com/darce_choke_mma.jpg",
+                    "imageDescription": "Ilustração ou imagem de um lutador aplicando um D'Arce Choke."
+                },
+                {
+                    "text": "Uma variação do mata-leão",
+                    "isCorrect": false,
+                    "explanation": "É um estrangulamento, sim, mas a mecânica é diferente do Mata-Leão (que usa os antebraços no pescoço pelas costas). O D'Arce usa o braço e o ombro, geralmente pela lateral."
+                },
+                {
+                    "text": "Uma chave de ombro",
+                    "isCorrect": false,
+                    "explanation": "Chave de ombro ataca a articulação do ombro! O D'Arce é um estrangulamento no pescoço!"
+                },
+                {
+                    "text": "Uma queda que termina em posição de controle lateral",
+                    "isCorrect": false,
+                    "explanation": "Queda é derrubar! O D'Arce é uma finalização no chão."
+                }
+            ]
+        },
+        {
+            "id": 85,
+            "question": "Qual lutador brasileiro é conhecido por seus golpes plásticos e evasivos, popularizando um estilo único de Striking na era moderna do UFC?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "José Aldo",
+                    "isCorrect": false,
+                    "explanation": "Aldo é o 'Campeão do Povo', mestre do Muay Thai com chutes na perna! Seus golpes são eficazes, mas não são conhecidos por serem 'plásticos' ou 'evasivos' como os do Spider."
+                },
+                {
+                    "text": "Vitor Belfort",
+                    "isCorrect": false,
+                    "explanation": "Vitor Belfort é o 'Phenom', com Boxe rápido e explosivo! Seus golpes são potentes, mas não são conhecidos por serem tão 'plásticos' e 'evasivos' como os do Anderson Silva."
+                },
+                {
+                    "text": "Charles Oliveira",
+                    "isCorrect": false,
+                    "explanation": "Charles 'Do Bronx' é rei do Jiu-Jitsu e tem um Boxe crescente! Seus golpes são eficazes, mas o estilo 'plástico' e 'evasivo' no Striking é a marca registrada de outro brasileiro."
+                },
+                {
+                    "text": "Anderson Silva",
+                    "isCorrect": true,
+                    "explanation": "É ele! Anderson 'Spider' Silva! Com sua base de Boxe, Muay Thai e Taekwondo, ele popularizou um estilo de Striking único no UFC, com jogo de pernas evasivo, golpes de ângulos estranhos e nocautes plásticos. O chute frontal em Vitor Belfort é um exemplo perfeito desse estilo! Um artista no octógono!",
+                    "imageUrl": "https://exemplo.com/anderson_silva_plastico.jpg",
+                    "imageDescription": "Imagem de Anderson Silva se esquivando ou realizando um golpe plástico."
+                }
+            ]
+        },
+        {
+            "id": 86,
+            "question": "Quem é a lutadora brasileira conhecida como 'The Lioness', que dominou o Peso Galo e Pena feminino no UFC?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Cris Cyborg",
+                    "isCorrect": false,
+                    "explanation": "Cyborg é uma lenda do Peso Pena! Mas a 'Leoa' que dominou duas categorias e bateu lendas (incluindo a Cyborg!) é outra brasileira."
+                },
+                {
+                    "text": "Ronda Rousey",
+                    "isCorrect": false,
+                    "explanation": "Ronda Rousey foi a pioneira do Peso Galo, mas foi nocauteada pela 'Leoa'! A 'Leoa' dominou a categoria depois dela."
+                },
+                {
+                    "text": "Amanda Nunes",
+                    "isCorrect": true,
+                    "explanation": "É ela! Amanda 'Leoa' Nunes! A única mulher a ser campeã em duas categorias simultaneamente no UFC. Uma potência no Boxe e no Jiu-Jitsu que nocauteou e finalizou as maiores lendas do esporte feminino. A GOAT feminina!",
+                    "imageUrl": "https://exemplo.com/amanda_nunes_lioness.jpg",
+                    "imageDescription": "Imagem de Amanda Nunes com os dois cinturões e a bandeira do Brasil."
+                },
+                {
+                    "text": "Claudia Gadelha",
+                    "isCorrect": false,
+                    "explanation": "Claudinha Gadelha é uma lutadora forte do Peso Palha! Mas a 'Leoa' que dominou duas categorias é a Amanda Nunes."
+                }
+            ]
+        },
+        {
+            "id": 87,
+            "question": "Qual golpe de perna é desferido em uma trajetória circular, visando as costelas, a cabeça ou as pernas do oponente?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Chute Frontal (Front Kick)",
+                    "isCorrect": false,
+                    "explanation": "Chute Frontal é reto para frente! O chute circular vem de lado!"
+                },
+                {
+                    "text": "Joelhada (Knee Strike)",
+                    "isCorrect": false,
+                    "explanation": "Joelhado é com o joelho! O chute circular é com a perna/canela/pé!"
+                },
+                {
+                    "text": "Chute Circular (Roundhouse Kick)",
+                    "isCorrect": true,
+                    "explanation": "Exato! O Chute Circular (Roundhouse Kick)! Um dos chutes mais comuns e potentes, desferido com a perna em uma trajetória circular, atingindo a coxa, corpo ou cabeça do adversário. Essencial no Muay Thai e Kickboxing! 'Head kick KO!'",
+                    "imageUrl": "https://exemplo.com/roundhouse_kick_mma.jpg",
+                    "imageDescription": "Ilustração ou imagem de um lutador aplicando um chute circular."
+                },
+                {
+                    "text": "Chave de Pé (Foot Lock)",
+                    "isCorrect": false,
+                    "explanation": "Chave de pé é finalização! Chute Circular é striking!"
+                }
+            ]
+        },
+        {
+            "id": 88,
+            "question": "Quem é o ex-campeão Peso Leve conhecido por seu Boxe de volume e queixo duro, com o apelido 'The Diamond'?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Conor McGregor",
+                    "isCorrect": false,
+                    "explanation": "Conor é 'The Notorious'! Ele lutou com 'The Diamond', mas não é ele."
+                },
+                {
+                    "text": "Khabib Nurmagomedov",
+                    "isCorrect": false,
+                    "explanation": "Khabib é 'The Eagle', mestre do Wrestling! Ele finalizou 'The Diamond', mas não é ele."
+                },
+                {
+                    "text": "Justin Gaethje",
+                    "isCorrect": false,
+                    "explanation": "Gaethje é 'The Highlight'! Ele teve lutas épicas com 'The Diamond', mas não é ele."
+                },
+                {
+                    "text": "Dustin Poirier",
+                    "isCorrect": true,
+                    "explanation": "É ele! Dustin 'The Diamond' Poirier! Ex-campeão interino Peso Leve, com um Boxe de volume, potência e resistência de alto nível. Conhecido por protagonizar lutas que são verdadeiras guerras no octógono. 'Let's go P, L, C!'",
+                    "imageUrl": "https://exemplo.com/dustin_poirier_diamond.jpg",
+                    "imageDescription": "Imagem de Dustin Poirier em pose de luta ou com o cinturão interino."
+                }
+            ]
+        },
+        {
+            "id": 89,
+            "question": "Qual lutador é conhecido por seu estilo de Striking vindo do Karate e Sanda, com movimentos angulares e imprevisíveis?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Lyoto Machida",
+                    "isCorrect": false,
+                    "explanation": "Lyoto Machida é 'The Dragon', mestre do Karate tradicional! Ele lutava em categorias mais pesadas e seu estilo, embora único, é diferente do striking angulado e imprevisível de outro lutador mais leve."
+                },
+                {
+                    "text": "Stephen Thompson",
+                    "isCorrect": false,
+                    "explanation": "Stephen Thompson é 'Wonderboy', mestre do Karate Kenpo! Ele tem um estilo único, mas o lutador com movimentos angulares de Karate/Sanda no UFC é o Song Yadong."
+                },
+                {
+                    "text": "Israel Adesanya",
+                    "isCorrect": false,
+                    "explanation": "Adesanya é 'The Stylebender', mestre do Kickboxing! Ele não tem base de Karate ou Sanda."
+                },
+                {
+                    "text": "Song Yadong",
+                    "isCorrect": true,
+                    "explanation": "É ele! Song Yadong (宋亚东)! O lutador chinês com base de Sanda (Kickboxing Chinês) e influências de Karate. Seu striking é marcado por movimentos angulares, imprevisibilidade e poder de nocaute para a categoria Peso Galo/Pena. 'Kung Fu Kid!'",
+                    "imageUrl": "https://exemplo.com/song_yadong_striking.jpg",
+                    "imageDescription": "Imagem de Song Yadong realizando um golpe de Sanda/Karate."
+                }
+            ]
+        },
+        {
+            "id": 90,
+            "question": "Qual ex-campeã Peso Palha feminino da China é conhecido por sua força física e as batalhas épicas contra Joanna Jedrzejczyk?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Zhang Weili",
+                    "isCorrect": true,
+                    "explanation": "É ela! Zhang Weili (张伟丽)! Ex-campeã Peso Palha, a primeira campeã chinesa do UFC. Sua força física, striking poderoso e grappling sólido a tornam uma ameaça para qualquer uma na categoria. Suas lutas contra Joanna Jedrzejczyk são consideradas duas das melhores lutas femininas da história do MMA! Que guerra!",
+                    "imageUrl": "https://exemplo.com/zhang_weili_ufc.jpg",
+                    "imageDescription": "Imagem de Zhang Weili com o cinturão Peso Palha."
+                },
+                {
+                    "text": "Joanna Jedrzejczyk",
+                    "isCorrect": false,
+                    "explanation": "Joanna foi a campeã que lutou contra a força da chinesa! A pergunta é sobre a campeã chinesa que lutou contra a Joanna."
+                },
+                {
+                    "text": "Carla Esparza",
+                    "isCorrect": false,
+                    "explanation": "Carla Esparza foi a primeira campeã Peso Palha e reconquistou o cinturão depois. Mas ela não é da China e não teve as batalhas épicas contra a Joanna como a Weili."
+                },
+                {
+                    "text": "Yan Xiaonan",
+                    "isCorrect": false,
+                    "explanation": "Yan Xiaonan é outra lutadora chinesa do Peso Palha! Mas a campeã que teve as batalhas épicas contra a Joanna é a Weili Zhang."
+                }
+            ]
+        },
+        {
+            "id": 91,
+            "question": "Qual o nome do golpe de cotovelo giratório (spinning back elbow) que resultou em nocautes espetaculares no UFC?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Cotovelada no Clinch",
+                    "isCorrect": false,
+                    "explanation": "Cotovelada no clinch é de curta distância e sem girar! O golpe que nocauteia girando é outro!"
+                },
+                {
+                    "text": "Cotovelada Giratória (Spinning Back Elbow)",
+                    "isCorrect": true,
+                    "explanation": "É isso! O Cotovelada Giratória (Spinning Back Elbow)! Um golpe de striking avançado onde o lutador gira o corpo rapidamente e acerta o oponente com o cotovelo nas costas do movimento. Vimos nocautes inacreditáveis com esse golpe no UFC, como o de Jon Jones em Gustafsson ou o de Matt Brown em Diego Sanchez. Requer timing e coragem!",
+                    "imageUrl": "https://exemplo.com/spinning_back_elbow_mma.jpg",
+                    "imageDescription": "Ilustração ou imagem de um lutador aplicando um cotovelada giratória."
+                },
+                {
+                    "text": "Soco Rodado (Spinning Backfist)",
+                    "isCorrect": false,
+                    "explanation": "Soco rodado é com o punho! A cotovelada giratória usa o cotovelo!"
+                },
+                {
+                    "text": "Superman Punch",
+                    "isCorrect": false,
+                    "explanation": "Superman Punch é um soco que simula um voo! A cotovelada giratória é outra coisa, rodada e com o cotovelo!"
+                }
+            ]
+        },
+        {
+            "id": 92,
+            "question": "Quem é o ex-campeão Peso Galo e Peso Pena (WEC/UFC), conhecido por seu Wrestling de elite e Ground and Pound, apelidado 'The California Kid'?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "TJ Dillashaw",
+                    "isCorrect": false,
+                    "explanation": "TJ foi campeão Peso Galo, um dos rivais de 'The California Kid'! Mas o 'California Kid' original é o Urijah Faber."
+                },
+                {
+                    "text": "Dominick Cruz",
+                    "isCorrect": false,
+                    "explanation": "Dominick Cruz é 'The Dominator', um dos maiores rivais de 'The California Kid'! Mas o 'California Kid' é o Urijah Faber."
+                },
+                {
+                    "text": "Cody Garbrandt",
+                    "isCorrect": false,
+                    "explanation": "Cody 'No Love' Garbrandt foi pupilo e colega de equipe de 'The California Kid'! Mas o 'California Kid' é o Urijah Faber."
+                },
+                {
+                    "text": "Urijah Faber",
+                    "isCorrect": true,
+                    "explanation": "É ele! Urijah 'The California Kid' Faber! Uma lenda do WEC e do UFC, ex-campeão Peso Pena do WEC, que competiu pelo cinturão Peso Galo do UFC várias vezes. Mestre do Wrestling, guilhotinas e Ground and Pound, e líder da Team Alpha Male. Um dos lutadores mais populares e respeitados dos pesos mais leves!",
+                    "imageUrl": "https://exemplo.com/urijah_faber_california_kid.jpg",
+                    "imageDescription": "Imagem de Urijah Faber com seu sorriso característico ou em pose de luta."
+                }
+            ]
+        },
+        {
+            "id": 93,
+            "question": "O que é uma 'Decisão Unânime' dos Juízes em uma luta do UFC?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Quando todos os três juízes pontuam a luta para o mesmo lutador",
+                    "isCorrect": true,
+                    "explanation": "Exato! Decisão Unânime! Quando todos os três juízes laterais (que ficam anotando os pontos a cada round) chegam ao mesmo placar a favor de um lutador. Mostra que a vitória foi clara para todos. 'And the NEWWWWWW!' (se for disputa de cinturão!).",
+                    "imageUrl": "https://exemplo.com/unanimous_decision_ufc.jpg",
+                    "imageDescription": "Imagem de um lutador com o braço levantado pelo árbitro após uma decisão."
+                },
+                {
+                    "text": "Quando dois juízes pontuam para um lutador e um para o outro",
+                    "isCorrect": false,
+                    "explanation": "Isso é Decisão Dividida (Split Decision)! Unânime é quando todos concordam!"
+                },
+                {
+                    "text": "Quando a luta termina em empate",
+                    "isCorrect": false,
+                    "explanation": "Empate é empate! Decisão Unânime é uma vitória clara pontuada pelos juízes."
+                },
+                {
+                    "text": "Quando um juiz para a luta por considerar um lutador dominante",
+                    "isCorrect": false,
+                    "explanation": "Juízes não param a luta! Quem para é o árbitro (TKO) ou o médico. Juízes só dão os pontos no final dos rounds."
+                }
+            ]
+        },
+        {
+            "id": 94,
+            "question": "Qual ex-campeão Peso Leve e Meio-Médio, conhecido por seu Wrestling de elite e por ser um 'devorador de lendas' (vencendo muitos ícones em fim de carreira)?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Georges St-Pierre",
+                    "isCorrect": false,
+                    "explanation": "GSP é 'Rush', um 'devorador de lendas' em sua própria categoria, sim! Mas a lenda que desceu de peso e venceu vários ícones do PRIDE no UFC é o Dan Henderson."
+                },
+                {
+                    "text": "Randy Couture",
+                    "isCorrect": false,
+                    "explanation": "Randy Couture é 'The Natural', campeão em duas categorias! Ele lutou contra alguns ícones, mas o 'devorador de lendas' famoso por vencer veteranos do PRIDE no UFC é o Dan Henderson."
+                },
+                {
+                    "text": "Dan Henderson",
+                    "isCorrect": true,
+                    "explanation": "É ele! Dan 'Hendo' Henderson! Ex-campeão em outros eventos (PRIDE, Strikeforce) em várias categorias. No UFC, ele ficou conhecido por vencer muitos ícones do PRIDE (Fedor, Shogun, Wanderlei, Minotauro) quando esses eventos foram adquiridos. Um lutador super resiliente com um direto de direita (H-Bomb) que era dinamite! Um verdadeiro 'devorador'!",
+                    "imageUrl": "https://exemplo.com/dan_henderson_hbomb.jpg",
+                    "imageDescription": "Imagem de Dan Henderson comemorando uma vitória ou aplicando seu direto de direita."
+                },
+                {
+                    "text": "Vitor Belfort",
+                    "isCorrect": false,
+                    "explanation": "Vitor Belfort é 'The Phenom'! Ele lutou contra o Dan Henderson! O 'devorador de lendas' em questão é o Hendo."
+                }
+            ]
+        },
+        {
+            "id": 95,
+            "question": "Qual a categoria de peso feminino onde Weili Zhang e Joanna Jedrzejczyk tiveram duas lutas consideradas das melhores do MMA feminino?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Peso Mosca Feminino (Women's Flyweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Mosca é da Valentina Shevchenko! As batalhas épicas entre Weili e Joanna foram na categoria mais leve!"
+                },
+                {
+                    "text": "Peso Palha Feminino (Women's Strawweight)",
+                    "isCorrect": true,
+                    "explanation": "É isso! Peso Palha Feminino (Strawweight - até 52 kg)! Weili Zhang e Joanna Jedrzejczyk protagonizaram duas guerras nesse peso que ficarão para a história do MMA feminino. Pura resiliência, trocação e coração deixados no octógono!",
+                    "imageUrl": "https://exemplo.com/weili_joanna_fight.jpg",
+                    "imageDescription": "Imagem da primeira luta entre Weili Zhang e Joanna Jedrzejczyk (rosto inchado)."
+                },
+                {
+                    "text": "Peso Galo Feminino (Women's Bantamweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Galo é da Amanda Nunes e Ronda Rousey! Weili e Joanna lutam em uma categoria bem mais leve!"
+                },
+                {
+                    "text": "Peso Pena Feminino (Women's Featherweight)",
+                    "isCorrect": false,
+                    "explanation": "Peso Pena é dos 66 kg! Weili e Joanna lutam nos 52 kg!"
+                }
+            ]
+        },
+        {
+            "id": 96,
+            "question": "Quem é o ex-campeão Peso Galo conhecido por seu Boxe potente e nocaute espetacular em Cody Garbrandt?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Dominick Cruz",
+                    "isCorrect": false,
+                    "explanation": "Dominick Cruz é 'The Dominator', mestre da movimentação! Ele tem um bom Boxe, mas o campeão conhecido pelo Boxe potente e nocaute no Cody é o TJ."
+                },
+                {
+                    "text": "Urijah Faber",
+                    "isCorrect": false,
+                    "explanation": "Faber é 'The California Kid', mestre do Wrestling/Grappling! Ele tem mãos pesadas, mas o Boxe puro e o nocaute no Cody são a marca do TJ."
+                },
+                {
+                    "text": "Aljamain Sterling",
+                    "isCorrect": false,
+                    "explanation": "Aljamain Sterling é 'Funk Master', mestre do grappling! Ele foi campeão depois do Petr Yan. O ex-campeão conhecido pelo Boxe e nocaute no Cody é o TJ."
+                },
+                {
+                    "text": "TJ Dillashaw",
+                    "isCorrect": true,
+                    "explanation": "É ele! TJ Dillashaw! Ex-campeão Peso Galo, com um Boxe afiado (influência da Team Alpha Male e Duane Ludwig) e poder de nocaute. Sua performance e nocaute contra o então campeão Cody Garbrandt foi espetacular! 'The Viper!'",
+                    "imageUrl": "https://exemplo.com/tj_dillashaw_boxe.jpg",
+                    "imageDescription": "Imagem de TJ Dillashaw golpeando com Boxe ou comemorando um nocaute."
+                }
+            ]
+        },
+        {
+            "id": 97,
+            "question": "O que é um 'Slam' (Arremesso) no Wrestling / MMA?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Uma queda onde o lutador levanta o oponente e o arremessa com força no chão",
+                    "isCorrect": true,
+                    "explanation": "Exato! O Slam (Arremesso)! É uma técnica de queda onde o lutador levanta o oponente no ar e o joga com força no chão. É potente, impressionante e pode até causar nocaute! Embora perigoso, é uma forma de punir quem está tentando uma finalização por baixo ou simplesmente garantir a queda com estilo. 'OH MY GOD! What a slam!'",
+                    "imageUrl": "https://exemplo.com/slam_mma.jpg",
+                    "imageDescription": "Ilustração ou imagem de um lutador realizando um slam em um oponente."
+                },
+                {
+                    "text": "Uma finalização que aperta o corpo do oponente",
+                    "isCorrect": false,
+                    "explanation": "Slam é para arremessar! Não para apertar e finalizar (embora possa levar a isso)."
+                },
+                {
+                    "text": "Um golpe de soco no corpo",
+                    "isCorrect": false,
+                    "explanation": "Golpe de soco é striking! Slam é Wrestling!"
+                },
+                {
+                    "text": "Uma raspagem do chão",
+                    "isCorrect": false,
+                    "explanation": "Raspagem é inverter posição no chão! Slam é arremessar do alto (ou de pé) para o chão!"
+                }
+            ]
+        },
+        {
+            "id": 98,
+            "question": "Quem é o ex-campeão Peso Galo e Peso Mosca, medalhista Olímpico de Wrestling, conhecido como 'Triple C'?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Demetrious Johnson",
+                    "isCorrect": false,
+                    "explanation": "Mighty Mouse foi campeão Peso Mosca, uma lenda! Mas o campeão duplo (Mosca e Galo) com medalha Olímpica é o Cejudo."
+                },
+                {
+                    "text": "Dominick Cruz",
+                    "isCorrect": false,
+                    "explanation": "Dominick Cruz é 'The Dominator', ex-campeão Peso Galo! Sua movimentação é única, mas ele não tem ouro Olímpico nem cinturão no Mosca."
+                },
+                {
+                    "text": "Henry Cejudo",
+                    "isCorrect": true,
+                    "explanation": "É ele! Henry 'Triple C' Cejudo! Campeão Olímpico de Wrestling (daí um 'C'), campeão Peso Mosca do UFC (segundo 'C'), e campeão Peso Galo do UFC (terceiro 'C'). O único lutador a ter ouro Olímpico e dois cinturões do UFC. Habilidades de luta de elite e uma persona... única!",
+                    "imageUrl": "https://exemplo.com/henry_cejudo_medal_ufc.jpg",
+                    "imageDescription": "Imagem de Henry Cejudo com seus cinturões e/ou medalha olímpica."
+                },
+                {
+                    "text": "TJ Dillashaw",
+                    "isCorrect": false,
+                    "explanation": "TJ Dillashaw foi campeão Peso Galo! Teve uma luta com o Cejudo pelo cinturão Mosca, mas não conquistou os dois cinturões nem tem ouro Olímpico."
+                }
+            ]
+        },
+        {
+            "id": 99,
+            "question": "Qual o nome do golpe de soco que simula um voo, onde o lutador salta em direção ao oponente com o soco?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Soco Rodado (Spinning Backfist)",
+                    "isCorrect": false,
+                    "explanation": "Soco rodado é giratório! O soco que simula um voo é outro!"
+                },
+                {
+                    "text": "Soco Voador (Superman Punch)",
+                    "isCorrect": true,
+                    "explanation": "É ele! O Superman Punch (Soco Superman)! Um golpe onde o lutador finge uma queda ou step e 'salta' para frente, desferindo um soco (geralmente um Direto) com a mão de trás. Parece que o lutador está voando como o Superman! Requer coordenação e pega o adversário desprevenido. Uma das jogadas mais bonitas e eficazes do striking!",
+                    "imageUrl": "https://exemplo.com/superman_punch_mma.jpg",
+                    "imageDescription": "Ilustração ou imagem de um lutador realizando um Superman Punch."
+                },
+                {
+                    "text": "Soco de Mergulho (Dive Punch)",
+                    "isCorrect": false,
+                    "explanation": "Não é 'mergulho'! É 'Superman' porque parece que ele está voando!"
+                },
+                {
+                    "text": "Soco Saltitante (Bouncing Punch)",
+                    "isCorrect": false,
+                    "explanation": "Não é só saltitante! O nome remete ao super-herói porque a pose no ar lembra ele voando!"
+                }
+            ]
+        },
+        {
+            "id": 100,
+            "question": "Quem é o ex-campeão Peso Meio-Pesado do UFC conhecido como 'The Iceman' por sua calma no octógono e poder de nocaute?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Randy Couture",
+                    "isCorrect": false,
+                    "explanation": "Randy Couture é 'The Natural'! O 'Iceman' era rival dele e famoso pelos nocautes com a mão direita."
+                },
+                {
+                    "text": "Tito Ortiz",
+                    "isCorrect": false,
+                    "explanation": "Tito Ortiz é o 'Huntington Beach Bad Boy'! Ele teve rivalidade com o 'Iceman', mas não é ele."
+                },
+                {
+                    "text": "Jon Jones",
+                    "isCorrect": false,
+                    "explanation": "Jon Jones é 'Bones'! Ele dominou a categoria Meio-Pesado depois do 'Iceman'. O 'Iceman' é o Chuck Liddell."
+                },
+                {
+                    "text": "Chuck Liddell",
+                    "isCorrect": true,
+                    "explanation": "É ele! Chuck 'The Iceman' Liddell! Ex-campeão Peso Meio-Pesado, conhecido por sua calma antes da luta e por ter um direto de direita ('overhand right') devastador que nocauteou muitos adversários. Uma lenda que ajudou a popularizar o UFC na 'Era de Ouro'. O cara que não piscava!",
+                    "imageUrl": "https://exemplo.com/chuck_liddell_iceman.jpg",
+                    "imageDescription": "Imagem de Chuck Liddell encarando calmamente ou celebrando um nocaute."
+                }
+            ]
+        }
+    ]
+}
