@@ -1,149 +1,2909 @@
 {
-    "config": {
-      "theme": "Star Wars",
-      "totalPoints": 1000,
-      "scoring": "points"
+  "config": {
+    "theme": "Star Wars",
+    "totalPoints": 1000,
+    "scoring": "points"
+  },
+  "data": [
+    {
+      "id": "01",
+      "question": "Qual é o nome do planeta natal de Luke Skywalker?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Coruscant",
+          "isCorrect": false,
+          "explanation": "Coruscant é chique, mas muito urbano para o nosso garoto da fazenda.\nEle prefere um lugar com mais... areia. Em toda parte.\nE menos tráfego aéreo, com certeza."
+        },
+        {
+          "text": "Alderaan",
+          "isCorrect": false,
+          "explanation": "Alderaan era lindo e pacífico, mas digamos que\n teve um probleminha com uma estação espacial metida a besta.\nMuito cedo, Luke, muito cedo para visitar."
+        },
+        {
+          "text": "Tatooine",
+          "isCorrect": true,
+          "explanation": "Acertou! Onde os sóis são duplos e a vida é simples.\nExceto quando Jawas roubam seus dróides ou\nTusken Raiders atacam. Fora isso, tranquilão.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/4/4b/Tatooine_TPM.png/revision/latest?cb=20131019125024&path-prefix=pt",
+          "imageDescription": "Paisagem desértica de Tatooine com seus dois sóis."
+        },
+        {
+          "text": "Naboo",
+          "isCorrect": false,
+          "explanation": "Naboo tem muita grama e lagos bonitos.\nLuke provavelmente ia se sentir deslocado sem\numa boa tempestade de areia para reclamar ou um Hutt para negociar."
+        }
+      ]
     },
-    "data": [
-      {
-        "question": "Qual é o nome da arma gigante do Império que destrói planetas, vista em 'Uma Nova Esperança'?",
-        "level": "fácil",
-        "options": [
-          {
-            "text": "Estrela Negra",
-            "isCorrect": false,
-            "explanation": "Nããão, Estrela Negra é um termo errado! Tente o nome certo da estação que faz 'pew' em planetas!"
-          },
-          {
-            "text": "Estrela da Morte",
-            "isCorrect": true,
-            "explanation": "Que a Força esteja com você! A Estrela da Morte, vista em 'Uma Nova Esperança' (1977), é a arma do Império que pulveriza planetas como Alderaan. Luke a destruiu com um tiro preciso. Parabéns, piloto rebelde!",
-            "imageUrl": "https://lumiere-a.akamaihd.net/v1/images/databank_deathstar_01_169_6f316d0e.jpeg",
-            "imageDescription": "Imagem da Estrela da Morte, uma esfera cinza com um superlaser verde, flutuando no espaço, simbolizando o poder do Império em Star Wars."
-          },
-          {
-            "text": "Base Starkiller",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! Starkiller é de 'O Despertar da Força', bem mais tarde. Tente a arma clássica de 1977!"
-          },
-          {
-            "text": "Executor",
-            "isCorrect": false,
-            "explanation": "Nããão, Executor é o cruzador de Darth Vader! Tente a estação esférica que destrói planetas!"
-          }
-        ]
-      },
-      {
-        "question": "Qual personagem, um contrabandista, é o capitão da Millennium Falcon?",
-        "level": "fácil",
-        "options": [
-          {
-            "text": "Lando Calrissian",
-            "isCorrect": false,
-            "explanation": "Nããão, Lando é amigo, mas não o dono original! Tente o cara com colete e um wookiee como copiloto!"
-          },
-          {
-            "text": "Han Solo",
-            "isCorrect": true,
-            "explanation": "Você é rápido como a Falcon! Han Solo, o contrabandista mais charmoso da galáxia, pilota a Millennium Falcon com Chewbacca, enfrentando o Império e fazendo o Corredor de Kessel em 12 parsecs. Parabéns, canalha adorável!",
-            "imageUrl": "https://lumiere-a.akamaihd.net/v1/images/databank_hansolo_01_169_7b52a4a4.jpeg",
-            "imageDescription": "Imagem de Han Solo com seu blaster, em frente à Millennium Falcon, com um fundo estelar, representando seu papel em Star Wars."
-          },
-          {
-            "text": "Boba Fett",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! Boba Fett é caçador de recompensas, não piloto da Falcon. Tente o contrabandista mais famoso!"
-          },
-          {
-            "text": "Luke Skywalker",
-            "isCorrect": false,
-            "explanation": "Nããão, Luke pilota X-Wings, não a Falcon! Tente o cara que deve dinheiro a Jabba!"
-          }
-        ]
-      },
-      {
-        "question": "Qual planeta desértico, com dois sóis, é o lar de Luke Skywalker em 'Uma Nova Esperança'?",
-        "level": "fácil",
-        "options": [
-          {
-            "text": "Hoth",
-            "isCorrect": false,
-            "explanation": "Nããão, Hoth é o planeta gelado de 'O Império Contra-Ataca'! Tente um lugar mais quente e arenoso!"
-          },
-          {
-            "text": "Tatooine",
-            "isCorrect": true,
-            "explanation": "Você é um fazendeiro de umidade! Tatooine, o planeta desértico com dois sóis, é onde Luke Skywalker cresce, sonhando com aventuras. De Jawas a banthas, é o canto mais empoeirado da galáxia. Parabéns, Jedi!",
-            "imageUrl": "https://lumiere-a.akamaihd.net/v1/images/databank_tatooine_01_169_6cd7d756.jpeg",
-            "imageDescription": "Imagem de Tatooine com seus dois sóis no horizonte, dunas de areia e uma fazenda de umidade, cenário clássico de Star Wars."
-          },
-          {
-            "text": "Naboo",
-            "isCorrect": false,
-            "explanarion": "Quase, mas não! Naboo é o planeta verde de Padmé. Tente algo mais seco e com droides à venda!"
-          },
-          {
-            "text": "Coruscant",
-            "isCorrect": false,
-            "explanation": "Nããão, Coruscant é a cidade-planeta! Tente o deserto onde Luke olha os sóis!"
-          }
-        ]
-      },
-      {
-        "question": "Qual mestre Jedi treina Luke Skywalker em 'O Império Contra-Ataca' no planeta Dagobah?",
-        "level": "médio",
-        "options": [
-          {
-            "text": "Obi-Wan Kenobi",
-            "isCorrect": false,
-            "explanation": "Nããão, Obi-Wan começa o treinamento, mas não em Dagobah! Tente um Jedi mais velho, pequeno e verde!"
-          },
-          {
-            "text": "Yoda",
-            "isCorrect": true,
-            "explanation": "Forte com a Força, você é! Yoda, o mestre Jedi, treina Luke em Dagobah em 'O Império Contra-Ataca', ensinando sabedoria e a levantar X-Wings com a mente. 'Fazer ou não fazer, tentar não há!' Parabéns, padawan!",
-            "imageUrl": "https://lumiere-a.akamaihd.net/v1/images/databank_yoda_01_169_7f8b6ac8.jpeg",
-            "imageDescription": "Imagem de Yoda em Dagobah, com sua bengala e expressão sábia, em um pântano verde, representando seu treinamento de Luke em Star Wars."
-          },
-          {
-            "text": "Qui-Gon Jinn",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! Qui-Gon treina Anakin, não Luke. Tente o Jedi que vive num pântano!"
-          },
-          {
-            "text": "Mace Windu",
-            "isCorrect": false,
-            "explanation": "Nããão, Mace Windu é do Conselho Jedi, não treina Luke! Tente o mestre mais sábio e enrugado!"
-          }
-        ]
-      },
-      {
-        "question": "Qual batalha espacial, em 'O Retorno do Jedi', resulta na destruição da segunda Estrela da Morte?",
-        "level": "difícil",
-        "options": [
-          {
-            "text": "Batalha de Yavin",
-            "isCorrect": false,
-            "explanation": "Nããão, Yavin é a batalha da primeira Estrela da Morte em 'Uma Nova Esperança'! Tente a batalha com uma armadilha imperial!"
-          },
-          {
-            "text": "Batalha de Endor",
-            "isCorrect": true,
-            "explanation": "Você é um almirante rebelde! A Batalha de Endor, em 'O Retorno do Jedi', vê a Aliança Rebelde e Ewoks derrotarem o Império, destruindo a segunda Estrela da Morte. Lando pilotou a Falcon no golpe final. Parabéns, herói galáctico!",
-            "imageUrl": "https://lumiere-a.akamaihd.net/v1/images/databank_battleofendor_01_169_5e5b5b7a.jpeg",
-            "imageDescription": "Imagem da Batalha de Endor, com a Millennium Falcon voando entre caças TIE e a segunda Estrela da Morte explodindo, capturando a vitória rebelde em Star Wars."
-          },
-          {
-            "text": "Batalha de Hoth",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! Hoth é uma batalha terrestre em 'O Império Contra-Ataca'. Tente a batalha espacial com Ewoks em terra!"
-          },
-          {
-            "text": "Batalha de Scarif",
-            "isCorrect": false,
-            "explanation": "Nããão, Scarif é de 'Rogue One', não da segunda Estrela da Morte! Tente a batalha com a Falcon no centro!"
-          }
-        ]
-      }
-    ]
-  }
+    {
+      "id": "02",
+      "question": "Quem é o Mestre Jedi que treinou Obi-Wan Kenobi?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Mace Windu",
+          "isCorrect": false,
+          "explanation": "Mace Windu era poderoso, mas seu Padawan foi outro.\nEle provavelmente diria: 'Este não é o Mestre que você procura!'\nCom uma certa autoridade roxa e um olhar de poucos amigos."
+        },
+        {
+          "text": "Yoda",
+          "isCorrect": false,
+          "explanation": "Yoda treinou muitos, mas o mestre direto de Obi-Wan não foi.\n'Paciência você deve ter, meu jovem Padawan... para achar a resposta certa!'\nE talvez um pouco menos de altura."
+        },
+        {
+          "text": "Qui-Gon Jinn",
+          "isCorrect": true,
+          "explanation": "Correto! Qui-Gon Jinn, o Jedi com um talento especial para encontrar\n'verminhões' e apostar alto em corridas de pod.\nUm verdadeiro mentor inspirador e um tanto rebelde!",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/4/4d/Qui-Gon_Jinn_SW_Book_of_Sith.png/revision/latest?cb=20120424193648&path-prefix=pt",
+          "imageDescription": "Retrato de Qui-Gon Jinn, Mestre Jedi."
+        },
+        {
+          "text": "Plo Koon",
+          "isCorrect": false,
+          "explanation": "Plo Koon é legal com sua máscara e tudo mais,\nmas Obi-Wan não estava em sua lista de alunos.\nEle estava ocupado demais sendo o Jedi favorito de Ahsoka e respirando anti-oxi."
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "question": "Qual é a famosa frase de Han Solo para a Princesa Leia quando ela diz 'Eu te amo'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Eu também te amo.",
+          "isCorrect": false,
+          "explanation": "Muito direto para o nosso contrabandista favorito.\nEle gosta de se fazer de difícil, sabe?\nRomance? Só depois de um bom tiroteio e uma fuga ousada."
+        },
+        {
+          "text": "Eu sei.",
+          "isCorrect": true,
+          "explanation": "Clássico Han Solo! Tão charmoso e humilde quanto um Hutt.\nMas, no fundo, a gente sabe que ele sentiu o mesmo.\nSó não queria admitir na frente dos Wookiees e dos Ugnaughts.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/8/8c/Han_Solo_Bespin.png/revision/latest?cb=20130203005204&path-prefix=pt",
+          "imageDescription": "Han Solo em Bespin, pouco antes de ser congelado em carbonita."
+        },
+        {
+          "text": "Legal.",
+          "isCorrect": false,
+          "explanation": "Essa seria uma resposta fria até para Hoth.\nHan Solo pode ser um canalha, mas ele tem mais\nemoção que um dróide de protocolo (geralmente) enferrujado."
+        },
+        {
+          "text": "Por que você demorou tanto?",
+          "isCorrect": false,
+          "explanation": "Engraçadinho, mas não foi essa.\nEle estava mais preocupado em ser congelado em carbonita\nnaquele momento. Prioridades, né? E um belo enfeite de parede."
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "question": "Qual a cor do sabre de luz de Mace Windu?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Azul",
+          "isCorrect": false,
+          "explanation": "Azul é uma cor clássica, tipo 'Jedi padrão'.\nMas Mace Windu não é um Jedi padrão.\nEle é 'bad motherfu... Jedi', com carteirinha e tudo."
+        },
+        {
+          "text": "Verde",
+          "isCorrect": false,
+          "explanation": "Verde também é popular entre os Jedi mais sábios e consulares.\nMas Mace precisava de algo com um pouco mais de... atitude.\nAlgo que dissesse 'Eu sou o cara com A carteira'."
+        },
+        {
+          "text": "Vermelho",
+          "isCorrect": false,
+          "explanation": "Vermelho? Isso é coisa de Sith!\nMace Windu pode ser durão, mas ele luta pela luz.\nA não ser que você seja o Palpatine, aí a história muda de cor rapidinho."
+        },
+        {
+          "text": "Roxo",
+          "isCorrect": true,
+          "explanation": "Exatamente! Roxo, porque Samuel L. Jackson pediu.\nE quando Samuel L. Jackson pede um sabre de luz roxo,\nvocê dá um sabre de luz roxo. Simples assim, sem discussão.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/4/48/Mace_Windu_Section_Image.png/revision/latest?cb=20170713012803&path-prefix=pt",
+          "imageDescription": "Mace Windu empunhando seu sabre de luz roxo."
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "question": "Qual o nome do Wookiee copiloto de Han Solo?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Tarfful",
+          "isCorrect": false,
+          "explanation": "Tarfful é um Wookiee bacana, ajudou Yoda e tudo mais.\nMas o co-piloto oficial da Millennium Falcon é outro brutamontes peludo.\nProvavelmente cheira melhor, também, depois de um banho de lama."
+        },
+        {
+          "text": "Lumpawaroo",
+          "isCorrect": false,
+          "explanation": "Lumpy? Esse é o filho do nosso Wookiee favorito!\nEle ainda estava aprendendo a não arrancar os braços das pessoas\nquando Chewie já estava voando pela galáxia e reclamando do frio."
+        },
+        {
+          "text": "Chewbacca",
+          "isCorrect": true,
+          "explanation": "RAWRGWAWGGR! Traduzindo: Você acertou!\nO melhor amigo peludo que um contrabandista poderia pedir.\nLeal, forte e ótimo em arrancar braços de dróides e consertar hiperpropulsores.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/4/48/Chewbacca_TLJ.png/revision/latest?cb=20230614070549&path-prefix=pt",
+          "imageDescription": "Chewbacca, o leal Wookiee copiloto."
+        },
+        {
+          "text": "Wullffwarro",
+          "isCorrect": false,
+          "explanation": "Esse é o pai do Chewie! Imagina as reuniões de família.\n'Filho, quando eu tinha sua idade, eu já tinha arrancado o dobro\nde braços de Trandoshanos!' Que pressão familiar, hein?"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "question": "Como se chama a estação espacial bélica capaz de destruir planetas?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Sun Crusher",
+          "isCorrect": false,
+          "explanation": "O Sun Crusher era poderoso, mas um pouco exagerado, não?\n'Vamos explodir sóis!' O Império era mais focado em planetas.\nMais prático para dominação galáctica e menos superaquecimento."
+        },
+        {
+          "text": "Death Star (Estrela da Morte)",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! Não é uma lua, é uma estação espacial!\nCom um pequeno defeito de design, mas quem nunca errou\nnum projeto de bilhões de créditos, né? Acontece nas melhores tiranias.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/8/8c/DeathStar2_Render.png/revision/latest?cb=20150121004120&path-prefix=pt",
+          "imageDescription": "A Estrela da Morte II, antes de sua destruição."
+        },
+        {
+          "text": "Starkiller Base",
+          "isCorrect": false,
+          "explanation": "A Base Starkiller era tipo a Estrela da Morte 2.0, só que maior\ne com mais complexo de inferioridade, sugando sóis inteiros.\nMas a original é a Estrela da Morte, a vovó das superarmas."
+        },
+        {
+          "text": "Malevolence",
+          "isCorrect": false,
+          "explanation": "O Malevolence era um couraçado Separatista gigante com canhões iônicos.\nAssustador, mas não explodia planetas. Só desligava suas naves\ne te deixava boiando no espaço. Que chato, e que frio!"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "question": "Quem primeiro disse a frase icônica: 'Que a Força esteja com você' nos filmes?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Darth Vader",
+          "isCorrect": false,
+          "explanation": "Vader até poderia dizer isso, mas geralmente num tom tipo:\n'Que a Força esteja com você... porque você vai precisar.'\nNão era bem um desejo de boa sorte, mais uma ameaça velada."
+        },
+        {
+          "text": "Han Solo",
+          "isCorrect": false,
+          "explanation": "Han Solo? O cara que achava a Força uma 'religião antiga'?\nEle demorou pra acreditar, quanto mais pra desejar aos outros.\n'Boa sorte, garoto', era mais o estilo dele, com um sorrisinho."
+        },
+        {
+          "text": "General Dodonna",
+          "isCorrect": true,
+          "explanation": "Surpresa! Embora Obi-Wan a popularize, General Dodonna diz isso primeiro\naos pilotos Rebeldes antes do ataque à Estrela da Morte em Episódio IV.\nUm líder inspirador e bem informado!",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/9/9c/Dodonna-FFGPromo.jpg/revision/latest?cb=20190814133007&path-prefix=pt",
+          "imageDescription": "General Jan Dodonna planejando o ataque."
+        },
+        {
+          "text": "Imperador Palpatine",
+          "isCorrect": false,
+          "explanation": "Palpatine diria algo mais como: 'Que a Força (Sombria) sirva aos meus propósitos!'\nEle não é muito de compartilhar o poder, sabe?\nPrefere 'poder ilimitado!' para ele mesmo, e muitos raios."
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "question": "Qual o nome do caçador de recompensas que capturou Han Solo em Bespin?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "IG-88",
+          "isCorrect": false,
+          "explanation": "IG-88 é um dróide assassino eficiente, com certeza.\nMas quem levou a fama (e o Han congelado) foi outro.\nProvavelmente IG-88 ficou calculando as chances de sucesso e perdeu o timing."
+        },
+        {
+          "text": "Bossk",
+          "isCorrect": false,
+          "explanation": "Bossk, o Trandoshan estiloso, estava na caçada.\nMas parece que o cara com armadura mandaloriana foi mais rápido.\nBossk deve ter ficado roendo os cotocos de raiva e prometendo vingança."
+        },
+        {
+          "text": "Dengar",
+          "isCorrect": false,
+          "explanation": "Dengar, o 'enfaixadão', também estava no páreo.\nMas a competição era forte e o prêmio era alto.\nTalvez ele tenha parado pra trocar as bandagens ou tomar um café."
+        },
+        {
+          "text": "Boba Fett",
+          "isCorrect": true,
+          "explanation": "Correto! Boba Fett, o cara que não precisou de muitas palavras.\nSó de um bom jetpack, um foguete no pulso e muita paciência.\n'Sem desintegrações!' foi a ordem, para tristeza dele.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/f/f0/Boba_Fett_RotJ.png/revision/latest?cb=20201220220018&path-prefix=pt",
+          "imageDescription": "Boba Fett com sua icônica armadura Mandaloriana."
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "question": "Qual a espécie de Yoda?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Wookiee",
+          "isCorrect": false,
+          "explanation": "Wookiee ele não é, embora pequeno e peludo fosse engraçado.\nImagine um Wookiee falando tudo invertido.\n'GRRRRAAAAAWWWRRR paciente você deve ser!'"
+        },
+        {
+          "text": "Ewok",
+          "isCorrect": false,
+          "explanation": "Pequeno e peludo, sim, mas Ewok também não.\nEwoks são mais de música com capacetes de Stormtrooper.\nYoda é mais de levantar X-Wings do pântano com a mente."
+        },
+        {
+          "text": "Desconhecida",
+          "isCorrect": true,
+          "explanation": "Pois é! Ninguém sabe o nome da espécie do Yoda (ou do Grogu).\nÉ um dos grandes mistérios da galáxia, guardado a sete chaves.\nTalvez seja 'Pequenos Verdes Orelhudos Sábios'?",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/d/d6/Yoda_SWSB.png/revision/latest?cb=20150206140125&path-prefix=pt",
+          "imageDescription": "Mestre Yoda meditando."
+        },
+        {
+          "text": "Lannik",
+          "isCorrect": false,
+          "explanation": "Lanniks são orelhudos e alguns são Jedi, como Even Piell.\nMas o Yoda é único, original, inigualável.\nE muito, muito verde, com uma gramática peculiar."
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Qual o nome do pai de Luke Skywalker, que mais tarde se tornou Darth Vader?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Obi-Wan Kenobi",
+          "isCorrect": false,
+          "explanation": "Obi-Wan foi um mentor, quase uma figura paterna, o 'tio Ben' da história.\nMas o pai biológico de Luke tinha uns problemas respiratórios\ne uma queda por roupas pretas. Literalmente, uma queda."
+        },
+        {
+          "text": "Han Solo",
+          "isCorrect": false,
+          "explanation": "Han Solo virou cunhado, o que é quase família.\nMas se ele fosse o pai de Luke, a primeira palavra de Luke seria 'Chewie!'\nE ele teria aprendido a atirar primeiro, com certeza absoluta."
+        },
+        {
+          "text": "Anakin Skywalker",
+          "isCorrect": true,
+          "explanation": "Exatamente! Anakin Skywalker, o garoto prodígio que... bem, teve seus altos e baixos.\nPrincipalmente baixos, quando virou Darth Vader e odiava areia.\nMas ei, redenção no final! spoilers à parte.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/6/6f/Anakin_Skywalker_RotS.png/revision/latest?cb=20130621175844&path-prefix=pt",
+          "imageDescription": "Anakin Skywalker antes de sua queda para o Lado Sombrio."
+        },
+        {
+          "text": "Imperador Palpatine",
+          "isCorrect": false,
+          "explanation": "Credo! Palpatine era mais uma figura de 'vovô do mal'.\nSe ele fosse pai do Luke, as festas de Dia dos Pais seriam... eletrizantes.\nE não no bom sentido, com muitos raios e risadas malignas."
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "question": "Em qual planeta a Princesa Leia é mantida prisioneira no Episódio IV: Uma Nova Esperança?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Bespin",
+          "isCorrect": false,
+          "explanation": "Bespin é onde Han Solo virou picolé de contrabandista.\nLeia esteve lá, mas sua prisão inicial foi em um lugar\nmuito menos charmoso e com mais cheiro de óleo de tie fighter e desespero."
+        },
+        {
+          "text": "Estrela da Morte",
+          "isCorrect": true,
+          "explanation": "Correto! Cela 2187, um clássico do turismo imperial.\nCom direito a interrogatório com dróide sinistro e visita\nde um Wookiee disfarçado de prisioneiro. Que hospitalidade de primeira!",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/8/83/LeiaDeathStar.png/revision/latest?cb=20130122003931&path-prefix=pt",
+          "imageDescription": "Princesa Leia em sua cela na Estrela da Morte."
+        },
+        {
+          "text": "Coruscant",
+          "isCorrect": false,
+          "explanation": "Coruscant era o centro da República (e depois do Império).\nMas a Leia foi capturada em trânsito, e levada para um lugar\nonde pudessem pressioná-la sobre a base Rebelde. Uma péssima escolha de voo."
+        },
+        {
+          "text": "Yavin IV",
+          "isCorrect": false,
+          "explanation": "Yavin IV era a base Rebelde! Seria muito azar\nser presa no seu próprio esconderijo, não acha?\nA menos que fosse uma festa surpresa muito mal planejada pelos Stormtroopers."
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "question": "Qual é o nome da nave espacial de Han Solo e Chewbacca?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Slave I",
+          "isCorrect": false,
+          "explanation": "Slave I é a nave estilosa do Boba Fett, vertical e intimidadora.\nHan Solo precisava de algo com mais espaço para... 'carga especial'.\nE talvez um lugar para jogar Dejarik e esconderijo para convidados."
+        },
+        {
+          "text": "X-Wing",
+          "isCorrect": false,
+          "explanation": "X-Wings são ágeis e ótimas para explodir Estrelas da Morte.\nMas Han Solo é um contrabandista, não um piloto de caça certinho.\nEle precisa de algo que 'pareça um pedaço de sucata' mas voe como um raio."
+        },
+        {
+          "text": "Millennium Falcon",
+          "isCorrect": true,
+          "explanation": "Essa mesmo! A 'lata velha mais rápida da galáxia'.\nFez o Corredor de Kessel em menos de 12 parsecs!\n(Não pergunte como, só aceite e inveje o recorde.)",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/5/52/Millennium_Falcon_Fathead_TLJ.png/revision/latest?cb=20230607060359&path-prefix=pt",
+          "imageDescription": "A Millennium Falcon em voo."
+        },
+        {
+          "text": "Star Destroyer",
+          "isCorrect": false,
+          "explanation": "Um Star Destroyer? Han Solo comandando um desses?\nEle ia repintar de vermelho e instalar um bar de primeira e um cassino.\nMas, realisticamente, ele prefere algo menos... imperial e mais manobrável."
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "question": "Quem treinou Anakin Skywalker para se tornar um Jedi após a morte de Qui-Gon Jinn?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Yoda",
+          "isCorrect": false,
+          "explanation": "Yoda supervisionou o treinamento de muitos jovens, inclusive Anakin.\nMas o mestre direto dele, aquele que o acompanhou no dia a dia,\nfoi outro Jedi bem conhecido (e barbudo na maior parte do tempo)."
+        },
+        {
+          "text": "Mace Windu",
+          "isCorrect": false,
+          "explanation": "Mace Windu tinha suas dúvidas sobre Anakin desde o início.\nTreiná-lo? Provavelmente não estava nos seus planos nem nos piores pesadelos.\n'O garoto é perigoso', ele diria, e com razão (infelizmente)."
+        },
+        {
+          "text": "Obi-Wan Kenobi",
+          "isCorrect": true,
+          "explanation": "Exato! Obi-Wan assumiu a responsabilidade, mesmo sendo jovem.\nUma promessa é uma promessa, especialmente para Qui-Gon.\nE assim começou uma bela e trágica amizade (e rivalidade e memes).",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/2/2c/Obi-Wan_TPM.png/revision/latest?cb=20130427003138&path-prefix=pt",
+          "imageDescription": "Obi-Wan Kenobi como um jovem Cavaleiro Jedi."
+        },
+        {
+          "text": "Plo Koon",
+          "isCorrect": false,
+          "explanation": "Plo Koon era um membro respeitado do Conselho Jedi, e muito legal.\nMas o fardo de treinar 'O Escolhido' caiu nos ombros\nde alguém que já tinha um laço com ele. Que sorte, hein? (Só que não)."
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "question": "Qual o título ostentado por Anakin Skywalker antes de sua queda para o Lado Sombrio?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Mestre Jedi",
+          "isCorrect": false,
+          "explanation": "Ah, o sonho dele! Mas o Conselho não concedeu o rank de Mestre.\n'Isso é um absurdo! É injusto!' ele diria, fazendo biquinho.\nE a gente sabe onde essa birra foi parar. Que ultraje!"
+        },
+        {
+          "text": "Cavaleiro Jedi",
+          "isCorrect": true,
+          "explanation": "Correto! Anakin Skywalker era um Cavaleiro Jedi talentoso e heroico.\nUm pouco impulsivo, um pouco arrogante, mas um herói da República.\nAntes de... bem, você sabe, o Lado Sombrio e os problemas com areia.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/c/c2/Anakin_jeunesith.jpg/revision/latest?cb=20080722141300&path-prefix=pt",
+          "imageDescription": "Anakin Skywalker como Cavaleiro Jedi durante as Guerras Clônicas."
+        },
+        {
+          "text": "Padawan",
+          "isCorrect": false,
+          "explanation": "Ele foi Padawan de Obi-Wan por um bom tempo, com sua trancinha estilosa.\nMas ele já tinha sua trancinha cortada e suas próprias missões\nquando as coisas começaram a desandar de verdade e a Força desequilibrou."
+        },
+        {
+          "text": "Senador",
+          "isCorrect": false,
+          "explanation": "Anakin e política não combinavam muito bem, era explosivo demais.\nEle preferia 'negociações agressivas' com sabre de luz.\nDeixava a diplomacia para Padmé, que tinha mais paciência."
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "question": "Que tipo de dróide é R2-D2?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Dróide de Protocolo",
+          "isCorrect": false,
+          "explanation": "Dróides de protocolo são tipo o C-3PO, fluentes em milhões de formas de comunicação.\nR2-D2 é fluente em 'bipes', 'salvar o dia' e 'ser teimoso'.\nMuito mais prático e barulhento."
+        },
+        {
+          "text": "Dróide de Batalha",
+          "isCorrect": false,
+          "explanation": "Dróides de batalha são aqueles magrelos dos Separatistas, 'Roger, roger!'.\nR2-D2 é mais versátil: mecânico, co-piloto, espião, porta-sabre...\nE aparentemente imortal, o pequeno tanque de guerra."
+        },
+        {
+          "text": "Dróide Astromecânico",
+          "isCorrect": true,
+          "explanation": "Isso aí! Um pequeno gênio da mecânica e navegação.\nSempre pronto com a ferramenta certa ou um plano mirabolante.\nO canivete suíço dos dróides, e o mais corajoso.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/e/eb/ArtooTFA.png/revision/latest?cb=20160101163424&path-prefix=pt",
+          "imageDescription": "R2-D2, o leal dróide astromecânico."
+        },
+        {
+          "text": "Dróide Médico",
+          "isCorrect": false,
+          "explanation": "R2-D2 até pode dar um choque para reanimar alguém (ou fritar um Jawa).\nMas cirurgias complexas? Melhor chamar um 2-1B.\nA menos que você goste de diagnósticos em forma de assobio e um braço mecânico extra."
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "question": "Qual é o nome do planeta natal dos Wookiees, como Chewbacca?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Endor",
+          "isCorrect": false,
+          "explanation": "Endor tem os Ewoks, que são peludos e pequenos.\nWookiees são peludos e gigantes. Confusão de pelos!\nEles provavelmente competiriam por produtos de cabelo."
+        },
+        {
+          "text": "Kashyyyk",
+          "isCorrect": true,
+          "explanation": "Acertou! Kashyyyk, o planeta com árvores gigantescas.\nÉ tipo uma casa na árvore radical para Wookiees.\nSó não peça para eles descerem rápido demais.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/5/51/Kashyyyk_detail_ROTS.png/revision/latest?cb=20130225043525&path-prefix=pt",
+          "imageDescription": "Paisagem do planeta Kashyyyk, com suas árvores gigantes."
+        },
+        {
+          "text": "Dagobah",
+          "isCorrect": false,
+          "explanation": "Dagobah é um pântano fedorento onde Yoda se escondeu.\nWookiees preferem um clima mais... arejado.\nE menos cobras rastejantes."
+        },
+        {
+          "text": "Nal Hutta",
+          "isCorrect": false,
+          "explanation": "Nal Hutta é o lar dos Hutts. Wookiees e Hutts...\nDigamos que não são os melhores amigos.\nChewbacca provavelmente tem algumas dívidas por lá."
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "question": "Qual é a arma principal dos Stormtroopers Imperiais?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Sabre de Luz",
+          "isCorrect": false,
+          "explanation": "Sabres de luz são para Jedi e Sith. Stormtroopers com sabres?\nSeria um desastre! Mais perigoso para eles mesmos.\nImagina o tanto de capacete chamuscado."
+        },
+        {
+          "text": "Rifle Blaster E-11",
+          "isCorrect": true,
+          "explanation": "Correto! O famoso E-11, conhecido por sua precisão... questionável.\nA menos que o roteiro exija que eles acertem.\nMas é estiloso, temos que admitir.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/b/bf/E-11_Blaster_Rifle_SWBFII.png/revision/latest?cb=20171120032822&path-prefix=pt",
+          "imageDescription": "Um rifle blaster E-11, arma padrão dos Stormtroopers."
+        },
+        {
+          "text": "Arco de Energia Wookiee",
+          "isCorrect": false,
+          "explanation": "Essa é a arma do Chewie! Poderosa, mas um pouco grande demais\npara os Stormtroopers. Eles já têm dificuldade em mirar,\nimagina com um trabuco desses."
+        },
+        {
+          "text": "Canhão de Íons Pesado",
+          "isCorrect": false,
+          "explanation": "Canhões de íons são para desabilitar naves, geralmente.\nStormtroopers precisam de algo mais portátil para... errar alvos.\nE para fazer aquele som icônico de 'piu piu'."
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "question": "Quem é o Imperador do Império Galáctico?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Grand Moff Tarkin",
+          "isCorrect": false,
+          "explanation": "Tarkin era o manda-chuva da Estrela da Morte, durão e sinistro.\nMas acima dele, havia alguém com mais rugas e um gosto peculiar\npor capuzes e raios saindo dos dedos."
+        },
+        {
+          "text": "Darth Vader",
+          "isCorrect": false,
+          "explanation": "Vader era o braço direito (mecânico) e o terror do Império.\nMas ele ainda respondia a um mestre ainda mais sombrio.\nAlguém que realmente gostava de sussurrar 'Gooood'."
+        },
+        {
+          "text": "Sheev Palpatine (Darth Sidious)",
+          "isCorrect": true,
+          "explanation": "Ele mesmo! O Senador que virou Chanceler que virou Imperador.\nPalpatine, também conhecido como Darth Sidious. Mestre da manipulação\ne dos planos malignos de longa duração. Um currículo invejável.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/d/d8/Palpatine_ROTJ.png/revision/latest?cb=20220224233350&path-prefix=pt",
+          "imageDescription": "Imperador Palpatine em seu trono."
+        },
+        {
+          "text": "Conde Dookan",
+          "isCorrect": false,
+          "explanation": "Conde Dooku (ou Tyranus) era um lorde Sith importante nas Guerras Clônicas.\nMas ele foi... substituído. O RH do Lado Sombrio é bem rigoroso\ncom a performance dos aprendizes."
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "question": "Qual o nome do dróide de protocolo dourado, companheiro de R2-D2?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "BB-8",
+          "isCorrect": false,
+          "explanation": "BB-8 é o dróide bolinha laranja e branco, super fofo e ágil.\nMas o companheiro clássico do R2 é mais alto, mais dourado\ne muito, mas muito mais reclamão."
+        },
+        {
+          "text": "K-2SO",
+          "isCorrect": false,
+          "explanation": "K-2SO é um dróide imperial reprogramado, sarcástico e leal.\nEle é mais para 'missões suicidas com estatísticas pessimistas'.\nO amigo do R2 é mais sobre etiqueta e pânico."
+        },
+        {
+          "text": "C-3PO",
+          "isCorrect": true,
+          "explanation": "Acertou! C-3PO, fluente em mais de seis milhões de formas de comunicação.\nE provavelmente reclamou em todas elas.\n'Oh, céus!' é seu bordão favorito.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/5/51/C-3PO_SWFB.png/revision/latest?cb=20160920025002&path-prefix=pt",
+          "imageDescription": "C-3PO, o dróide de protocolo dourado."
+        },
+        {
+          "text": "L3-37",
+          "isCorrect": false,
+          "explanation": "L3-37 era a dróide copiloto de Lando, defensora dos direitos dos dróides.\nEla era mais sobre revolução do que sobre tradução.\nE tinha uma personalidade... forte. Muito forte."
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "question": "Em qual filme Luke Skywalker descobre que Darth Vader é seu pai?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Episódio IV: Uma Nova Esperança",
+          "isCorrect": false,
+          "explanation": "Em 'Uma Nova Esperança', Obi-Wan conta uma versão... editada da história.\n'Vader traiu e assassinou seu pai.' Detalhes, detalhes...\nO plot twist veio depois, para chocar a todos."
+        },
+        {
+          "text": "Episódio V: O Império Contra-Ataca",
+          "isCorrect": true,
+          "explanation": "Correto! No confronto em Bespin, após perder uma mão.\n'Não, EU sou seu pai!' Uma das revelações mais chocantes\ndo cinema. Pobre Luke, que Dia dos Pais terrível.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/e/e9/LukeSkywalkercroppedESB.png/revision/latest?cb=20130120041958&path-prefix=pt",
+          "imageDescription": "Luke Skywalker confrontando Darth Vader em Bespin."
+        },
+        {
+          "text": "Episódio VI: O Retorno de Jedi",
+          "isCorrect": false,
+          "explanation": "Em 'O Retorno de Jedi', Luke já sabe e tenta trazer o pai de volta.\nA revelação bombástica já tinha acontecido.\nAgora era hora da terapia familiar Jedi."
+        },
+        {
+          "text": "Episódio I: A Ameaça Fantasma",
+          "isCorrect": false,
+          "explanation": "Luke nem era nascido em 'A Ameaça Fantasma'.\nAnakin era só um garotinho fofo que gostava de podracing.\nQuem diria que viraria o vilão asmático da galáxia?"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "question": "Qual o nome do mentor de Darth Sidious (Imperador Palpatine)?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Darth Maul",
+          "isCorrect": false,
+          "explanation": "Darth Maul era aprendiz de Sidious, não seu mestre.\nUm aprendiz com chifres e muita raiva guardada.\nSidious gostava de aprendizes... descartáveis."
+        },
+        {
+          "text": "Darth Plagueis",
+          "isCorrect": true,
+          "explanation": "Exato! Darth Plagueis, o Sábio. Tão poderoso e tão sábio que podia\n... bem, você conhece a tragédia, contada por Palpatine.\nIrônico, não? Ele podia salvar os outros da morte, mas não a si mesmo.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/4/40/Darth_Plagueis_Cover.jpg/revision/latest?cb=20111224000550&path-prefix=pt",
+          "imageDescription": "Representação artística de Darth Plagueis."
+        },
+        {
+          "text": "Darth Tyranus",
+          "isCorrect": false,
+          "explanation": "Darth Tyranus (Conde Dooku) também foi aprendiz de Sidious.\nUm substituto elegante para Maul, mas ainda assim, um peão.\nSidious não era de dividir o topo da pirâmide Sith."
+        },
+        {
+          "text": "Darth Bane",
+          "isCorrect": false,
+          "explanation": "Darth Bane foi o criador da 'Regra de Dois' dos Sith.\nMuito antes de Palpatine. Ele foi um Sith fundamental,\nmas o mestre direto de Palpatine foi outro."
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "question": "Qual a principal base da Aliança Rebelde no início do Episódio IV?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Hoth",
+          "isCorrect": false,
+          "explanation": "Hoth veio depois, uma base gelada e secreta.\nNo início do Episódio IV, eles estavam em um lugar mais... com cara de selva.\nE com templos antigos bem estilosos."
+        },
+        {
+          "text": "Dagobah",
+          "isCorrect": false,
+          "explanation": "Dagobah era o esconderijo particular do Mestre Yoda.\nA Aliança Rebelde precisava de um lugar um pouco maior\npara estacionar suas X-Wings e planejar a revolução."
+        },
+        {
+          "text": "Yavin IV",
+          "isCorrect": true,
+          "explanation": "Correto! A lua de Yavin IV, com seus templos Massassi.\nUm lugar perfeito para lançar um ataque desesperado\ncontra uma estação espacial gigante. Bons tempos!",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/d/d4/Yavin-4-SWCT.png/revision/latest?cb=20180330033352&path-prefix=pt",
+          "imageDescription": "A base Rebelde em Yavin IV."
+        },
+        {
+          "text": "Endor",
+          "isCorrect": false,
+          "explanation": "A lua florestal de Endor foi crucial mais tarde, na batalha final.\nMas no começo, os Ewoks ainda estavam vivendo suas vidas pacatas,\nsem saber da guerra galáctica que bateria à sua porta."
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "question": "Qual o nome do planeta desértico onde Rey foi encontrada em 'O Despertar da Força'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Tatooine",
+          "isCorrect": false,
+          "explanation": "Tatooine já tem dois Skywalkers famosos, chega de protagonistas por lá!\nRey precisava de seu próprio deserto para chamar de lar.\nCom menos Jawas e mais sucata de Star Destroyer."
+        },
+        {
+          "text": "Jakku",
+          "isCorrect": true,
+          "explanation": "Isso mesmo, Jakku! Um cemitério de naves e sonhos perdidos.\nO lugar perfeito para uma sucateira talentosa encontrar um dróide\ncom um mapa muito importante. Destino ou coincidência?",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/9/96/Jakku_surface.png/revision/latest?cb=20170713010145&path-prefix=pt",
+          "imageDescription": "Paisagem desértica do planeta Jakku, com destroços de naves."
+        },
+        {
+          "text": "Jedha",
+          "isCorrect": false,
+          "explanation": "Jedha era uma lua sagrada para os Jedi, rica em cristais Kyber.\nAté a Estrela da Morte dar um 'oi'. Rey estava em um lugar\nmais focado em sobrevivência do que em peregrinação."
+        },
+        {
+          "text": "Pasaana",
+          "isCorrect": false,
+          "explanation": "Pasaana é outro planeta desértico, onde rolou um festival bacana.\nMas Rey já tinha saído de Jakku quando visitou Pasaana.\nEla estava expandindo seus horizontes desérticos."
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "question": "Como é chamado o poder místico que permeia a galáxia e que os Jedi utilizam?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "A Mágica",
+          "isCorrect": false,
+          "explanation": "Mágica? Isso é para contos de fadas com dragões e duendes.\nEm Star Wars, é algo mais... cósmico. E com mais sabres de luz.\nMenos 'Abracadabra', mais 'Use a Força'."
+        },
+        {
+          "text": "A Energia Vital",
+          "isCorrect": false,
+          "explanation": "Está perto! Realmente tem a ver com energia e vida.\nMas tem um nome específico que todo fã de Star Wars conhece.\nÉ quase uma religião para alguns contrabandistas céticos."
+        },
+        {
+          "text": "A Força",
+          "isCorrect": true,
+          "explanation": "Exatamente! A Força. Ela cerca-nos, penetra-nos; ela une a galáxia.\nE te permite fazer truques mentais e levantar pedras.\nMuito útil para impressionar em festas.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/3/34/ForceTree.png/revision/latest?cb=20180127234248&path-prefix=pt",
+          "imageDescription": "Representação artística da Força conectando seres vivos."
+        },
+        {
+          "text": "O Ki",
+          "isCorrect": false,
+          "explanation": "Ki é mais para animes com cabelos espetados e gritos poderosos.\nA Força é mais sutil... a menos que você seja Palpatine\nsoltando raios. Aí não tem nada de sutil."
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "question": "Qual o título do líder da Primeira Ordem, que sucedeu o Império?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "General Hux",
+          "isCorrect": false,
+          "explanation": "General Hux era um oficial de alto escalão, com discursos inflamados.\nMas acima dele, havia alguém com mais cicatrizes e um fetiche\npor hologramas gigantes e roupões dourados."
+        },
+        {
+          "text": "Kylo Ren",
+          "isCorrect": false,
+          "explanation": "Kylo Ren era o 'garoto problema' da Primeira Ordem, com seus ataques de fúria.\nEle chegou a ser Líder Supremo, mas o fundador e mestre original\nera outra figura misteriosa e enrugada."
+        },
+        {
+          "text": "Líder Supremo Snoke",
+          "isCorrect": true,
+          "explanation": "Correto! Líder Supremo Snoke, o enigmático e poderoso chefão.\nQue gostava de aparecer em tamanho colossal e dar ordens.\nAté que um certo aprendiz resolveu mudar de ideia sobre a hierarquia.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/0/02/Snoke_TLJ.png/revision/latest?cb=20230614073542&path-prefix=pt",
+          "imageDescription": "Líder Supremo Snoke em seu trono."
+        },
+        {
+          "text": "Capitã Phasma",
+          "isCorrect": false,
+          "explanation": "Capitã Phasma comandava os Stormtroopers com sua armadura cromada estilosa.\nMas ela não era a cabeça da organização.\nEra mais a 'gerente de RH dos soldados', com uma queda por disciplina."
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "question": "Qual o nome do pequeno dróide esférico que acompanha Poe Dameron e Rey?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "R2-D2",
+          "isCorrect": false,
+          "explanation": "R2-D2 é um clássico, mas ele é mais um barrilzinho astuto.\nO dróide esférico é mais novo, mais moderno e rola por aí\ncom um charme irresistível e muitos 'beeps' animados."
+        },
+        {
+          "text": "C-3PO",
+          "isCorrect": false,
+          "explanation": "C-3PO é dourado e cheio de etiqueta, não muito de rolar.\nEle prefere andar de forma desajeitada e se preocupar com tudo.\nUm dróide esférico seria prático demais para ele."
+        },
+        {
+          "text": "BB-8",
+          "isCorrect": true,
+          "explanation": "Isso aí! BB-8, o dróide mais fofo e leal da nova trilogia.\nCom seu 'joinha' de isqueiro e sons adoráveis.\nQuem não queria um BB-8 para chamar de seu?",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/9/91/BB8-SWCA2015.png/revision/latest?cb=20150416222059&path-prefix=pt",
+          "imageDescription": "O dróide esférico BB-8."
+        },
+        {
+          "text": "D-O",
+          "isCorrect": false,
+          "explanation": "D-O é outro dróide pequeno e simpático, mas com um design diferente.\nEle parece um cone com uma roda. BB-8 é todo redondinho.\nCada um com sua fofura particular."
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "question": "Qual o nome do planeta onde se localiza a Cidade das Nuvens, administrada por Lando Calrissian?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Coruscant",
+          "isCorrect": false,
+          "explanation": "Coruscant é uma cidade-planeta, com arranha-céus até perder de vista.\nA Cidade das Nuvens flutua em um planeta gasoso.\nMenos trânsito, mais... nuvens. Literalmente."
+        },
+        {
+          "text": "Kamino",
+          "isCorrect": false,
+          "explanation": "Kamino é um planeta aquático, lar dos clonadores.\nA Cidade das Nuvens fica bem alto na atmosfera.\nTroque tempestades por um pôr do sol eterno (ou quase)."
+        },
+        {
+          "text": "Bespin",
+          "isCorrect": true,
+          "explanation": "Acertou! Bespin, o gigante gasoso onde a Cidade das Nuvens é uma joia flutuante.\nUm ótimo lugar para negócios... e para armadilhas imperiais.\nLando sabe bem disso.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/2/2c/Cloud_City_sunset.png/revision/latest?cb=2013022504 Cloud City_sunset.png/revision/latest?cb=20130225041214&path-prefix=pt",
+          "imageDescription": "A Cidade das Nuvens flutuando sobre o planeta Bespin."
+        },
+        {
+          "text": "Mustafar",
+          "isCorrect": false,
+          "explanation": "Mustafar é um inferno vulcânico. Cidade das Nuvens lá?\nSó se fossem nuvens de cinza e enxofre.\nLando tem um gosto mais refinado para suas operações."
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "question": "Quem são os nativos peludos e habitantes da lua florestal de Endor?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Wookiees",
+          "isCorrect": false,
+          "explanation": "Wookiees são altos e vivem em Kashyyyk. Os de Endor são... menores.\nE provavelmente usam menos produtos para desembaraçar o pelo.\nMas ambos são ótimos em emboscadas na floresta."
+        },
+        {
+          "text": "Jawas",
+          "isCorrect": false,
+          "explanation": "Jawas são pequenos, usam capuzes e vivem em desertos como Tatooine.\nOs habitantes de Endor são mais... orgânicos. E menos 'Utinni!'.\nEles preferem tambores a dróides velhos."
+        },
+        {
+          "text": "Ewoks",
+          "isCorrect": true,
+          "explanation": "Yub nub! Correto! Os Ewoks, os ursinhos guerreiros de Endor.\nSubestimados pelo Império, mas mortais com armadilhas de tronco.\nNunca mexa com um Ewok faminto por vitória.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/1/1a/Ewok_NEGAS.png/revision/latest?cb=20100212160313&path-prefix=pt",
+          "imageDescription": "Um grupo de Ewoks na lua florestal de Endor."
+        },
+        {
+          "text": "Tusken Raiders (Povo da Areia)",
+          "isCorrect": false,
+          "explanation": "Os Tusken Raiders são do deserto, fazem barulhos assustadores e andam em Banthas.\nOs nativos de Endor são mais de cabanas em árvores e festas com fogueira.\nBem menos intimidador à primeira vista."
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "question": "Qual a cor predominante do sabre de luz dos Sith?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Azul",
+          "isCorrect": false,
+          "explanation": "Azul é a cor clássica dos Guardiões Jedi. Os Sith preferem algo mais...\nintenso. Algo que combine com seus roupões pretos\ne seu mau humor constante. Tipo 'raiva engarrafada'."
+        },
+        {
+          "text": "Verde",
+          "isCorrect": false,
+          "explanation": "Verde é comum entre os Jedi Consulares, mais ligados à Força Viva.\nOs Sith têm uma ligação diferente com a Força... uma mais 'agressiva'.\nEles não são muito chegados em meditação e paz interior."
+        },
+        {
+          "text": "Roxo",
+          "isCorrect": false,
+          "explanation": "Roxo é a cor estilosa do Mace Windu. Única e especial.\nOs Sith geralmente seguem um código de cores mais... previsível.\nAlgo que grite 'Eu sou do mal!'"
+        },
+        {
+          "text": "Vermelho",
+          "isCorrect": true,
+          "explanation": "Exato! Vermelho sangue, vermelho raiva, vermelho 'estou prestes a te desintegrar'.\nOs Sith 'sangram' seus cristais Kyber para obter essa cor.\nÉ o acessório perfeito para dominar a galáxia.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/8/8a/Sith_lightsaber_pike_Fathead.png/revision/latest?cb=20230607060704&path-prefix=pt",
+          "imageDescription": "Um sabre de luz vermelho, característico dos Sith."
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "question": "Qual o nome do jogo de tabuleiro holográfico que Chewbacca joga na Millennium Falcon?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Pazaak",
+          "isCorrect": false,
+          "explanation": "Pazaak é um jogo de cartas popular, tipo um blackjack galáctico.\nO jogo da Falcon é mais... tridimensional. E com monstros.\nProvavelmente com menos chances de perder seus créditos."
+        },
+        {
+          "text": "Sabacc",
+          "isCorrect": false,
+          "explanation": "Sabacc é outro jogo de cartas famoso, onde Han Solo ganhou a Falcon.\nMas o jogo com hologramas é diferente, mais visual.\nE onde é sempre bom 'deixar o Wookiee vencer'."
+        },
+        {
+          "text": "Dejarik",
+          "isCorrect": true,
+          "explanation": "Corretíssimo! Dejarik, o xadrez holográfico com criaturas exóticas.\nOnde um movimento errado pode custar um braço (se você for um dróide).\nChewie é um ótimo jogador, mas um péssimo perdedor.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/5/5f/Dejarik_Holochess_-_SW_Card_Trader.png/revision/latest?cb=20200316040451&path-prefix=pt",
+          "imageDescription": "Tabuleiro do jogo holográfico Dejarik com suas peças monstruosas."
+        },
+        {
+          "text": "Holocron Pursuit",
+          "isCorrect": false,
+          "explanation": "Isso soa como um jogo de aventura, não um passatempo casual na nave.\nO jogo da Falcon é mais estratégico, tipo um 'bate-monstro'.\nE com certeza mais antigo que a internet."
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "question": "Qual o nome do Lorde Sith que usa uma máscara preta e tem respiração ruidosa?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Darth Maul",
+          "isCorrect": false,
+          "explanation": "Darth Maul tem uma cara sinistra com chifres e tatuagens.\nMas a respiração pesada e a máscara icônica são de outro vilão.\nEle era mais ágil e menos... asmático."
+        },
+        {
+          "text": "Imperador Palpatine",
+          "isCorrect": false,
+          "explanation": "Palpatine é o chefão enrugado que solta raios.\nEle prefere capuzes a máscaras e sua respiração é mais... risada maligna.\nO cara da máscara é seu funcionário mais famoso."
+        },
+        {
+          "text": "Darth Vader",
+          "isCorrect": true,
+          "explanation": "Correto! Darth Vader, o terror da galáxia com seu capacete reluzente.\nSua respiração é a trilha sonora do medo imperial.\nE um lembrete constante para não atravessar o caminho dele.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/3/32/Darth_Vader_Original_Trilogy_Poster.jpg/revision/latest?cb=20170715033402&path-prefix=pt",
+          "imageDescription": "Darth Vader com sua imponente máscara preta."
+        },
+        {
+          "text": "Kylo Ren",
+          "isCorrect": false,
+          "explanation": "Kylo Ren usa uma máscara para homenagear o avô (Vader).\nMas a respiração icônica e o status de 'vilão original' são do próprio Vader.\nKylo ainda estava no jardim de infância do Lado Sombrio."
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "question": "Qual a famosa frase de Almirante Ackbar ao perceber uma armadilha?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "É uma cilada, Bino!",
+          "isCorrect": false,
+          "explanation": "Essa é de outra galáxia, uma bem, bem distante e com mais caminhões.\nAckbar é mais direto e menos... poético.\nE provavelmente não conhece o Pedro."
+        },
+        {
+          "text": "Corram para as colinas!",
+          "isCorrect": false,
+          "explanation": "Um clássico do pânico, mas não a frase específica dele.\nAckbar tem um jeito único de anunciar o perigo iminente.\nCom um toque de peixe e muita urgência."
+        },
+        {
+          "text": "Eles nos enganaram!",
+          "isCorrect": false,
+          "explanation": "Poderia ser, mas a frase que virou meme é outra.\nMais curta, mais impactante e com mais 'cara de peixe surpreso'.\nÉ quase um grito de guerra para os fãs."
+        },
+        {
+          "text": "É uma armadilha! (It's a trap!)",
+          "isCorrect": true,
+          "explanation": "Exato! A frase que ecoa em todas as convenções de fãs.\nAlmirante Ackbar, o mestre em identificar emboscadas.\nE em ter uma cabeça de Mon Calamari muito expressiva.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/2/29/Ackbar_HS.jpg/revision/latest?cb=20170909233339&path-prefix=pt",
+          "imageDescription": "Almirante Ackbar exclamando sua famosa frase."
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "question": "Qual o nome do planeta natal de Padmé Amidala?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Alderaan",
+          "isCorrect": false,
+          "explanation": "Alderaan era o lar da Princesa Leia (adotiva) e de Bail Organa.\nPadmé vem de um lugar com arquitetura mais... renascentista.\nE com mais Gungans subaquáticos."
+        },
+        {
+          "text": "Coruscant",
+          "isCorrect": false,
+          "explanation": "Coruscant era o centro político onde Padmé trabalhou como Senadora.\nMas seu planeta natal é mais pacífico e verdejante.\nMenos poluição luminosa, mais lagos serenos."
+        },
+        {
+          "text": "Tatooine",
+          "isCorrect": false,
+          "explanation": "Tatooine? Padmé visitou, conheceu um certo Anakin por lá...\nMas ela definitivamente não é fã de areia.\nSeu planeta é o oposto do clima desértico."
+        },
+        {
+          "text": "Naboo",
+          "isCorrect": true,
+          "explanation": "Correto! Naboo, com seus palácios elegantes e paisagens deslumbrantes.\nUm lugar tão bonito que é difícil acreditar que gerou Jar Jar Binks.\nMas também nos deu Padmé, então tudo bem.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/6/60/Naboo_landscape.png/revision/latest?cb=20130225041933&path-prefix=pt",
+          "imageDescription": "Paisagem do planeta Naboo, com sua arquitetura característica."
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "question": "Que tipo de caça estelar Luke Skywalker pilota para destruir a primeira Estrela da Morte?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Y-Wing",
+          "isCorrect": false,
+          "explanation": "Y-Wings são bombardeiros resistentes, mas Luke estava em algo mais ágil.\nEle precisava de velocidade e manobrabilidade para aquele 'tiro de um em um milhão'.\nE para ouvir Obi-Wan na sua cabeça."
+        },
+        {
+          "text": "A-Wing",
+          "isCorrect": false,
+          "explanation": "A-Wings são interceptadores rápidos, mas não o veículo de Luke naquela missão.\nEle estava usando o caça padrão da Aliança Rebelde.\nO 'faz-tudo' dos pilotos heróicos."
+        },
+        {
+          "text": "TIE Fighter",
+          "isCorrect": false,
+          "explanation": "TIE Fighters são do Império! Luke estava do lado dos mocinhos.\nA menos que ele tenha roubado um e ninguém percebeu.\nO que seria uma história interessante, mas não canônica."
+        },
+        {
+          "text": "X-Wing",
+          "isCorrect": true,
+          "explanation": "Exatamente! Um Incom T-65 X-Wing, o caça estelar icônico.\nCom suas asas que se abrem em 'X' e um dróide astromecânico de copiloto.\nPerfeito para salvar a galáxia no último segundo.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/8/80/X-wing_Fathead.png/revision/latest?cb=20230607060059&path-prefix=pt",
+          "imageDescription": "Um caça estelar X-Wing em voo de ataque."
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "question": "Qual o nome do mestre de Yoda?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Mace Windu",
+          "isCorrect": false,
+          "explanation": "Mace Windu era contemporâneo de Yoda, um grande Mestre Jedi.\nMas o mestre de Yoda é uma figura mais antiga e menos conhecida.\nProvavelmente falava de forma ainda mais invertida."
+        },
+        {
+          "text": "Qui-Gon Jinn",
+          "isCorrect": false,
+          "explanation": "Qui-Gon foi treinado por Dooku, que foi treinado por Yoda!\nA linhagem é longa, mas o mestre direto de Yoda é outro.\nUm nome que poucos lembram, mas que moldou o maior Jedi."
+        },
+        {
+          "text": "N'Kata Del Gormo",
+          "isCorrect": true,
+          "explanation": "Correto! De acordo com lendas, N'Kata Del Gormo, um Mestre Hysalrian.\nEnsinou Yoda e um amigo humano após caírem em seu planeta pantanoso.\nQuem diria que o pequeno Yoda também teve seu 'momento Dagobah'?",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/9/99/NKataDelGormo.jpg/revision/latest?cb=20080421154211&path-prefix=pt",
+          "imageDescription": "Representação artística de N'Kata Del Gormo, mestre de Yoda."
+        },
+        {
+          "text": "Ele nasceu sabendo tudo",
+          "isCorrect": false,
+          "explanation": "Yoda é sábio, mas até ele precisou de um mestre!\nNinguém nasce sabendo levantar X-Wings com a mente.\nIsso requer muito treino e, provavelmente, muita paciência do instrutor."
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "question": "Qual é o metal resistente a sabres de luz usado na armadura dos Mandalorianos?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Adamantium",
+          "isCorrect": false,
+          "explanation": "Adamantium é de outra franquia de heróis com garras.\nOs Mandalorianos têm seu próprio metal especial.\nProvavelmente mais difícil de encontrar que um Jawa honesto."
+        },
+        {
+          "text": "Vibranium",
+          "isCorrect": false,
+          "explanation": "Vibranium também é de outro universo, usado em escudos e panteras.\nO metal Mandaloriano é único na galáxia de Star Wars.\nE muito mais estiloso, com certeza."
+        },
+        {
+          "text": "Beskar (Aço Mandaloriano)",
+          "isCorrect": true,
+          "explanation": "This is the way! Beskar é o aço Mandaloriano puro e resistente.\nCapaz de desviar tiros de blaster e até golpes de sabre de luz.\nUm acessório indispensável para qualquer caçador de recompensas que se preze.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/2/2c/Beskar_MandoS2.png/revision/latest?cb=20201115003317&path-prefix=pt",
+          "imageDescription": "Peças de Beskar puro, o Aço Mandaloriano."
+        },
+        {
+          "text": "Durasteel (DurAço)",
+          "isCorrect": false,
+          "explanation": "DurAço é comum e forte, usado em muitas coisas na galáxia.\nMas para resistir a um sabre de luz, você precisa de algo mais... premium.\nAlgo que diga 'eu levo minha proteção a sério'."
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "question": "Qual o nome do líder dos Gungans que se torna amigo de Qui-Gon Jinn e Obi-Wan Kenobi?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Capitão Tarpals",
+          "isCorrect": false,
+          "explanation": "Capitão Tarpals era um Gungan respeitado e corajoso.\nMas o líder principal, aquele com o jeito mais... peculiar de falar,\nfoi quem fez a aliança com os humanos de Naboo."
+        },
+        {
+          "text": "Jar Jar Binks",
+          "isCorrect": false,
+          "explanation": "Meesa... não! Jar Jar era um exilado que os ajudou.\nMas ele não era o líder, apesar de seus... talentos únicos.\nEle era mais o 'alívio cômico que tropeça em tudo'."
+        },
+        {
+          "text": "Chefe Nass (Boss Nass)",
+          "isCorrect": true,
+          "explanation": "Yousa right! Chefe Nass, o líder dos Gungans de Otoh Gunga.\nCom seu jeito único de balançar as bochechas e sua desconfiança inicial.\nMas no fim, ele se mostrou um aliado valioso (e barulhento).",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/d/d2/BossNass-SWCT.png/revision/latest?cb=20200111103336&path-prefix=pt",
+          "imageDescription": "Chefe Nass, o líder dos Gungans."
+        },
+        {
+          "text": "General Tobler",
+          "isCorrect": false,
+          "explanation": "General Gungan? Talvez existisse um, mas o grande chefe,\naquele que tomava as decisões importantes (e cuspia um bocado),\nera o Chefe Nass. Um líder de peso, literalmente."
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "question": "Qual o nome do evento catastrófico que aniquilou os Jedi, ordenado por Palpatine?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "A Grande Purgação",
+          "isCorrect": false,
+          "explanation": "A Grande Purgação Mandaloriana foi outra coisa, mais focada nos guerreiros de Beskar.\nO evento contra os Jedi teve um nome mais... numérico.\nE muito mais triste para os fãs da Ordem Jedi."
+        },
+        {
+          "text": "A Batalha de Geonosis",
+          "isCorrect": false,
+          "explanation": "A Batalha de Geonosis foi o início das Guerras Clônicas, onde muitos Jedi caíram.\nMas a ordem final, a traição dos clones, foi um evento específico.\nCom um nome bem sinistro."
+        },
+        {
+          "text": "Ordem 66",
+          "isCorrect": true,
+          "explanation": "Correto. A Ordem 66, o comando secreto que transformou os Clones em\ncaçadores de Jedi. Um dos momentos mais sombrios da saga.\nPreparem os lenços, pessoal.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/e/ee/Order66_scene.png/revision/latest?cb=20071126195736&path-prefix=pt",
+          "imageDescription": "Soldados Clones executando a Ordem 66 contra os Jedi."
+        },
+        {
+          "text": "O Massacre do Templo Jedi",
+          "isCorrect": false,
+          "explanation": "O Massacre do Templo Jedi foi uma parte crucial da Ordem 66.\nLiderado por Anakin, já como Vader. Mas o nome do evento geral\nque varreu a galáxia é Ordem 66. Que dia horrível para ser Jedi."
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "question": "Qual o nome do contrabandista charmoso, amigo de Han Solo, e administrador original da Cidade das Nuvens?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Boba Fett",
+          "isCorrect": false,
+          "explanation": "Boba Fett é um caçador de recompensas, não um administrador de cidades flutuantes.\nEle é mais de desintegrar alvos do que de gerenciar refinarias de gás Tibanna.\nE seu charme é mais... intimidador."
+        },
+        {
+          "text": "Greedo",
+          "isCorrect": false,
+          "explanation": "Greedo? Aquele que atirou primeiro (ou segundo, dependendo da versão)?\nEle não durou muito para administrar nada.\nE seu charme era, digamos, questionável."
+        },
+        {
+          "text": "Lando Calrissian",
+          "isCorrect": true,
+          "explanation": "Olá, o que temos aqui? Lando Calrissian, é claro!\nO Barão Administrador original, com sua capa estilosa e sorriso de um milhão de créditos.\nAmigo de Han... quando não está tentando entregá-lo ao Império.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/8/87/Lando_ROTJpromo.jpg/revision/latest?cb=20130508031332&path-prefix=pt",
+          "imageDescription": "Lando Calrissian com seu característico charme e capa."
+        },
+        {
+          "text": "Jabba the Hutt",
+          "isCorrect": false,
+          "explanation": "Jabba? Administrando a Cidade das Nuvens? Seria uma bagunça gosmenta.\nEle prefere seu palácio no deserto e dançarinas Twi'lek.\nE seu charme é... inexistente."
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "question": "Qual a espécie de Greedo, o caçador de recompensas que confronta Han Solo na Cantina de Mos Eisley?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Trandoshan",
+          "isCorrect": false,
+          "explanation": "Trandoshans são répteis humanoides, como Bossk. Greedo é diferente.\nMenos escamoso, mais... verde e com olhos grandes.\nE aparentemente, um péssimo atirador."
+        },
+        {
+          "text": "Rodiano",
+          "isCorrect": true,
+          "explanation": "Maclunkey! Você acertou! Greedo é um Rodiano.\nCom suas antenas flexíveis e pele verde.\nUma pena que sua carreira de caçador de recompensas foi tão curta.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/2/22/Greedo_CISWH.png/revision/latest?cb=20200220015014&path-prefix=pt",
+          "imageDescription": "Greedo, o caçador de recompensas Rodiano."
+        },
+        {
+          "text": "Duros",
+          "isCorrect": false,
+          "explanation": "Duros são aqueles com cabeças grandes e bulbosas, como Cad Bane (em parte).\nGreedo tem um focinho mais pronunciado.\nE uma voz bem particular."
+        },
+        {
+          "text": "Ithoriano",
+          "isCorrect": false,
+          "explanation": "Ithorianos são os 'Cabeças de Martelo', com suas bocas dos lados do pescoço.\nGreedo tem uma boca mais... convencional.\nPerfeita para dizer 'Eu estava esperando por você, Solo'."
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "question": "Qual o nome do sistema de governo que precedeu o Império Galáctico?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "A Velha República",
+          "isCorrect": false,
+          "explanation": "A Velha República existiu milhares de anos antes.\nO governo imediatamente anterior ao Império era apenas 'A República'.\nOu, mais formalmente, A República Galáctica."
+        },
+        {
+          "text": "A Aliança Rebelde",
+          "isCorrect": false,
+          "explanation": "A Aliança Rebelde lutou CONTRA o Império.\nEles não eram o governo anterior, mas sim a esperança de um futuro governo.\nCom menos superarmas e mais senadores honestos."
+        },
+        {
+          "text": "A República Galáctica",
+          "isCorrect": true,
+          "explanation": "Correto! A República Galáctica, que por mil gerações os Jedi foram os guardiões da paz.\nAté que um certo Chanceler resolveu que 'democracia' era superestimada.\nE que um Império soava muito melhor.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/6/6b/Galactic_Senate_entrance_ROTS.png/revision/latest?cb=20130220010302&path-prefix=pt",
+          "imageDescription": "O Edifício do Senado Galáctico em Coruscant, símbolo da República."
+        },
+        {
+          "text": "A Confederação dos Sistemas Independentes",
+          "isCorrect": false,
+          "explanation": "A Confederação (Separatistas) lutou contra a República.\nEles queriam se separar, não eram o governo estabelecido.\nEram os 'vilões' das Guerras Clônicas, liderados por Dooku."
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "question": "Qual o nome do planeta gelado que serve de base para a Aliança Rebelde em 'O Império Contra-Ataca'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Endor",
+          "isCorrect": false,
+          "explanation": "Endor é uma lua florestal, cheia de árvores e Ewoks.\nO planeta gelado é bem menos acolhedor.\nE com mais Wampas famintos."
+        },
+        {
+          "text": "Tatooine",
+          "isCorrect": false,
+          "explanation": "Tatooine é um deserto com dois sóis. O oposto de gelado!\nA Aliança Rebelde precisava de um lugar discreto e... frio.\nMuito, muito frio."
+        },
+        {
+          "text": "Hoth",
+          "isCorrect": true,
+          "explanation": "Brrr, acertou! Hoth, o planeta congelante.\nOnde Tauntauns são o melhor meio de transporte (e saco de dormir de emergência).\nE onde AT-ATs imperiais adoram passear.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/6/64/Hoth_Snow_Plain.png/revision/latest?cb=20130204060510&path-prefix=pt",
+          "imageDescription": "Paisagem gelada do planeta Hoth, com a Base Echo ao fundo."
+        },
+        {
+          "text": "Bespin",
+          "isCorrect": false,
+          "explanation": "Bespin é um gigante gasoso com a Cidade das Nuvens flutuando.\nNão exatamente 'gelado' no sentido de neve e gelo.\nMais para 'ventoso com possibilidade de traição'."
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "question": "Qual o nome do senador de Naboo que se torna Chanceler Supremo e, posteriormente, Imperador?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Bail Organa",
+          "isCorrect": false,
+          "explanation": "Bail Organa era um senador honrado de Alderaan, pai adotivo de Leia.\nEle lutou CONTRA a ascensão do Império.\nUm dos poucos políticos decentes na galáxia."
+        },
+        {
+          "text": "Finis Valorum",
+          "isCorrect": false,
+          "explanation": "Valorum foi Chanceler antes de Palpatine.\nEle foi deposto por uma moção de desconfiança (influenciada por Palpatine, claro).\nUm peão no grande jogo do futuro Imperador."
+        },
+        {
+          "text": "Sheev Palpatine",
+          "isCorrect": true,
+          "explanation": "Ele mesmo! O astuto Senador Palpatine de Naboo.\nQue manipulou seu caminho até o topo, com um sorriso no rosto e maldade no coração.\n'A carreira política dele, nós observaremos com grande interesse'.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/7/71/Palpatine_TPM.png/revision/latest?cb=20070923011040&path-prefix=pt",
+          "imageDescription": "Senador Palpatine de Naboo, antes de se tornar Chanceler e Imperador."
+        },
+        {
+          "text": "Mon Mothma",
+          "isCorrect": false,
+          "explanation": "Mon Mothma foi uma líder crucial da Aliança Rebelde.\nEla se opôs a Palpatine e ajudou a fundar a Rebelião.\nUma verdadeira heroína da democracia."
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "question": "Como são chamados os guerreiros da Ordem Jedi que ainda estão em treinamento sob a tutela de um Mestre?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Younglings (Iniciados)",
+          "isCorrect": false,
+          "explanation": "Younglings são as crianças Jedi, o primeiro estágio do treinamento.\nEles aprendem o básico antes de serem escolhidos por um Mestre.\nE brincam com sabres de luz de treino (espero)."
+        },
+        {
+          "text": "Cavaleiros Jedi",
+          "isCorrect": false,
+          "explanation": "Cavaleiros Jedi já passaram pelo treinamento de Padawan.\nEles são membros plenos da Ordem, realizando missões sozinhos.\nJá não precisam mais carregar a mochila do Mestre."
+        },
+        {
+          "text": "Padawan",
+          "isCorrect": true,
+          "explanation": "Correto! Um Padawan é um aprendiz Jedi.\nEles usam uma trancinha característica e seguem seu Mestre por toda a galáxia.\nAprendendo os caminhos da Força e, às vezes, como NÃO fazer as coisas.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/b/b0/Anakin_Padawan.jpg/revision/latest?cb=20071220214551&path-prefix=pt",
+          "imageDescription": "Um jovem Anakin Skywalker como Padawan, com sua trança característica."
+        },
+        {
+          "text": "Mestres Jedi",
+          "isCorrect": false,
+          "explanation": "Mestres Jedi são os mais experientes e sábios da Ordem.\nEles são os que TÊM Padawans, não os que SÃO Padawans.\nA menos que estejam se disfarçando muito bem."
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "question": "Qual o nome da criatura gigante e gosmenta que mantém Leia como prisioneira em 'O Retorno de Jedi'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Rancor",
+          "isCorrect": false,
+          "explanation": "O Rancor era o 'bichinho de estimação' de Jabba, mantido no porão.\nLeia foi prisioneira de Jabba, mas não diretamente do Rancor.\nEla teve mais sorte (e uma corrente) que o Gamorreano."
+        },
+        {
+          "text": "Sarlacc",
+          "isCorrect": false,
+          "explanation": "O Sarlacc é aquela coisa gigante no poço, que digere suas vítimas por mil anos.\nLeia não chegou tão perto assim do almoço eterno.\nBoba Fett, por outro lado..."
+        },
+        {
+          "text": "Jabba the Hutt",
+          "isCorrect": true,
+          "explanation": "Ho ho ho! Acertou! Jabba the Hutt, o gangster mais nojento da galáxia.\nQue cometeu o erro de subestimar uma princesa e sua corrente.\nUm erro fatal e muito satisfatório de assistir.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/e/e2/JabbaTheHuttMain-SWCT.png/revision/latest?cb=20201009231536&path-prefix=pt",
+          "imageDescription": "Jabba the Hutt em seu palácio, com Leia Organa acorrentada."
+        },
+        {
+          "text": "Wampa",
+          "isCorrect": false,
+          "explanation": "Wampas são as criaturas das neves de Hoth. Jabba prefere o calor do deserto.\nE Leia provavelmente prefere não ser pendurada de cabeça para baixo\nem nenhuma caverna, seja ela de gelo ou de areia."
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "question": "Qual é a frase de efeito de Darth Vader ao usar a Força para estrangular alguém remotamente?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Sinta o poder do Lado Sombrio!",
+          "isCorrect": false,
+          "explanation": "Ele até poderia dizer isso, mas sua frase mais icônica nesse contexto é outra.\nMais sutil, mais ameaçadora e geralmente acompanhada de um gesto com os dedos.\nUm clássico da gerência por intimidação."
+        },
+        {
+          "text": "Sua falta de fé é perturbadora.",
+          "isCorrect": true,
+          "explanation": "Exatamente! Uma maneira educada de dizer 'você está demitido... da vida'.\nDarth Vader não tolera ceticismo em suas reuniões.\nÉ uma política de RH bem rigorosa.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/8/83/VaderForceChoke.png/revision/latest?cb=20130215061510&path-prefix=pt",
+          "imageDescription": "Darth Vader usando o estrangulamento da Força em um oficial."
+        },
+        {
+          "text": "Ajoelhe-se perante mim!",
+          "isCorrect": false,
+          "explanation": "Essa é mais genérica de vilão. Vader é mais específico em suas ameaças.\nEle gosta de deixar claro o motivo do... desligamento.\nE ele tem um jeito particular de expressar sua decepção."
+        },
+        {
+          "text": "Você falhou comigo pela última vez.",
+          "isCorrect": false,
+          "explanation": "Essa também é clássica dele, mas geralmente precede uma ação mais... final.\nA 'falta de fé' é o aviso antes do aperto no pescoço.\nÉ bom prestar atenção nas palavras dele."
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "question": "Qual o nome do planeta natal de Han Solo?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Tatooine",
+          "isCorrect": false,
+          "explanation": "Han Solo passou um tempo em Tatooine, fez uns 'negócios' por lá.\nMas seu planeta natal é outro, mais industrializado.\nE onde ele aprendeu a pilotar como um louco."
+        },
+        {
+          "text": "Chandrila",
+          "isCorrect": false,
+          "explanation": "Chandrila é um planeta importante para a Nova República, lar de Mon Mothma.\nHan Solo é mais das ruas e dos becos espaciais.\nMenos política, mais contrabando."
+        },
+        {
+          "text": "Corellia",
+          "isCorrect": true,
+          "explanation": "Correto! Corellia, o planeta conhecido por seus estaleiros e pilotos habilidosos.\nO lugar perfeito para um jovem encrenqueiro como Han começar sua carreira.\nE sonhar em ter sua própria nave rápida.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/1/1a/Corellia_landscape.jpg/revision/latest?cb=20090109040652&path-prefix=pt",
+          "imageDescription": "Vista industrial do planeta Corellia."
+        },
+        {
+          "text": "Kashyyyk",
+          "isCorrect": false,
+          "explanation": "Kashyyyk é o lar dos Wookiees. Han Solo é humano (apesar de peludo no peito).\nEle visitou Kashyyyk, claro, para conhecer a família do Chewie.\nMas não nasceu lá, com certeza."
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "question": "Qual o nome do veículo de transporte imperial quadrúpede usado na Batalha de Hoth?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "AT-ST (Transporte Batedor Todo Terreno)",
+          "isCorrect": false,
+          "explanation": "O AT-ST é o 'chicken walker', bípede e ágil (mais ou menos).\nO veículo quadrúpede é maior, mais lento e muito mais intimidador.\nParece um cachorro mecânico gigante e raivoso."
+        },
+        {
+          "text": "Speeder Bike",
+          "isCorrect": false,
+          "explanation": "Speeder bikes são para reconhecimento rápido em florestas e desertos.\nNa neve de Hoth, o Império usou algo com mais... presença.\nE com canhões pesados para atirar na base rebelde."
+        },
+        {
+          "text": "AT-AT (Transporte Blindado Todo Terreno)",
+          "isCorrect": true,
+          "explanation": "Exato! O AT-AT, a máquina de guerra imperial que parece um dinossauro metálico.\nLento mas poderoso, aterrorizando os rebeldes em Hoth.\nAté que Luke teve uma ideia com um cabo de arpão...",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/a/ac/ATAT-SWFB.png/revision/latest?cb=20160816031938&path-prefix=pt",
+          "imageDescription": "Um AT-AT Imperial avançando sobre a neve de Hoth."
+        },
+        {
+          "text": "Droid Tanque Hailfire",
+          "isCorrect": false,
+          "explanation": "O Hailfire é um dróide tanque separatista, com rodas gigantes e mísseis.\nO Império tinha seus próprios brinquedos de destruição em massa.\nCom um design mais... quadrúpede e imponente."
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "question": "Qual o nome do chanceler que antecedeu Palpatine e foi destituído do cargo?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Bail Organa",
+          "isCorrect": false,
+          "explanation": "Bail Organa era um Senador, não Chanceler nesse período.\nEle era um dos bons, tentando manter a República unida.\nMas a maré estava virando para o lado sombrio."
+        },
+        {
+          "text": "Mon Mothma",
+          "isCorrect": false,
+          "explanation": "Mon Mothma também era Senadora e depois líder da Rebelião.\nEla nunca foi Chanceler da República que Palpatine corrompeu.\nEla estava ocupada demais planejando como derrubá-lo."
+        },
+        {
+          "text": "Finis Valorum",
+          "isCorrect": true,
+          "explanation": "Correto! Chanceler Finis Valorum.\nUm político aparentemente decente, mas que caiu numa armadilha de Palpatine.\nSua queda abriu caminho para a ascensão do futuro Imperador. Que azar!",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/8/85/Valorum_dagobah.jpg/revision/latest?cb=20070921191843&path-prefix=pt",
+          "imageDescription": "Chanceler Finis Valorum em seu gabinete."
+        },
+        {
+          "text": "Mas Amedda",
+          "isCorrect": false,
+          "explanation": "Mas Amedda era o Vice-Chanceler, o braço direito de Palpatine.\nUm bajulador Chagriano com um chapéu engraçado.\nEle ajudou Palpatine, não o antecedeu."
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "question": "Qual é o nome da lua florestal onde ocorre a batalha final contra a segunda Estrela da Morte?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Yavin IV",
+          "isCorrect": false,
+          "explanation": "Yavin IV foi palco da destruição da PRIMEIRA Estrela da Morte.\nA segunda teve seu fim em um lugar com mais árvores e ursinhos de pelúcia.\nUma batalha um pouco mais... fofa, mas igualmente decisiva."
+        },
+        {
+          "text": "Dagobah",
+          "isCorrect": false,
+          "explanation": "Dagobah é um pântano. A batalha final precisava de um gerador de escudo.\nE de uma tribo de nativos para ajudar a explodir tudo.\nYoda provavelmente só assistiu de longe, comendo pipoca da Força."
+        },
+        {
+          "text": "Kashyyyk",
+          "isCorrect": false,
+          "explanation": "Kashyyyk é o planeta dos Wookiees, também cheio de árvores.\nMas a batalha do gerador de escudo foi em uma LUA florestal.\nCom habitantes um pouco menores e mais... primitivos (mas eficientes)."
+        },
+        {
+          "text": "Lua Florestal de Endor",
+          "isCorrect": true,
+          "explanation": "Yub Nub! Acertou! A Lua Florestal de Endor.\nOnde pequenos Ewoks com lanças e pedras ajudaram a derrotar o Império.\nNunca subestime o poder de um exército de pelúcia determinado!",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/9/93/Endor_EW_promo.png/revision/latest?cb=20200227044314&path-prefix=pt",
+          "imageDescription": "A Lua Florestal de Endor, com Ewoks e a vegetação densa."
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "question": "Qual o nome do líder militar do Império que supervisionou a construção da primeira Estrela da Morte e a destruiu Alderaan?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Almirante Thrawn",
+          "isCorrect": false,
+          "explanation": "Thrawn é um gênio militar Chiss, mas ele brilha mais no Universo Expandido (Legends) e em 'Rebels'.\nO destruidor de Alderaan foi um humano com uma frieza de gelar a espinha.\nE um queixo bem proeminente."
+        },
+        {
+          "text": "Diretor Krennic",
+          "isCorrect": false,
+          "explanation": "Krennic estava OBCECADO pela Estrela da Morte, era o projeto da vida dele!\nMas quem deu a ordem final para o 'teste' em Alderaan foi seu superior.\nAquele com a postura impecável e o olhar de quem não tem amigos."
+        },
+        {
+          "text": "Grand Moff Tarkin",
+          "isCorrect": true,
+          "explanation": "Correto! Wilhuff Tarkin, o homem que segurava a coleira de Vader (às vezes).\nEle demonstrou o poder da estação espacial com uma crueldade sem igual.\nUm verdadeiro vilão de primeira classe (imperial).",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/c/c1/Tarkin_HS.jpg/revision/latest?cb=20170909234113&path-prefix=pt",
+          "imageDescription": "Grand Moff Tarkin a bordo da Estrela da Morte."
+        },
+        {
+          "text": "General Veers",
+          "isCorrect": false,
+          "explanation": "General Veers liderou o ataque dos AT-ATs em Hoth.\nUm comandante eficiente, mas não o cabeça por trás da doutrina Tarkin\nde governar pelo medo e explodir planetas aleatórios."
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "question": "Qual a espécie de Sebulba, o principal rival de Anakin Skywalker na corrida de Pods em Tatooine?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Hutt",
+          "isCorrect": false,
+          "explanation": "Hutts são grandes e gosmentos, como Jabba. Sebulba é mais... ágil.\nE trapaceiro de um jeito diferente, com menos lesmas e mais sabotagem mecânica.\nAlém de ser um péssimo perdedor."
+        },
+        {
+          "text": "Rodiano",
+          "isCorrect": false,
+          "explanation": "Rodianos são como Greedo, verdes e com antenas. Sebulba tem uma aparência mais... simiesca.\nCom pernas curtas e braços longos, perfeito para pilotar pods (e trapacear).\nE uma cara de poucos amigos."
+        },
+        {
+          "text": "Dug",
+          "isCorrect": true,
+          "explanation": "Wizard! Acertou! Sebulba é um Dug.\nEles andam com os braços e usam as pernas como mãos.\nUma anatomia peculiar para um piloto de corrida tão sujo!",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/4/4c/Sebulba-SWCT.png/revision/latest?cb=20200110112036&path-prefix=pt",
+          "imageDescription": "Sebulba, o piloto de corrida Dug, ao lado de seu Podracer."
+        },
+        {
+          "text": "Gran",
+          "isCorrect": false,
+          "explanation": "Grans são aqueles com três olhos, como Ree-Yees no palácio de Jabba.\nSebulba tem apenas dois olhos, mas ambos focados em vencer a qualquer custo.\nE em fazer Anakin comer poeira (o que não deu muito certo)."
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "question": "Qual o nome do dróide médico que reconstrói Luke Skywalker após o ataque do Wampa em Hoth?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "FX-7",
+          "isCorrect": false,
+          "explanation": "FX-7 é um dróide médico assistente, com vários braços articulados.\nEle ajudou, com certeza, mas o dróide principal na cirurgia de Luke era outro.\nUm com uma voz mais calma e tranquilizadora."
+        },
+        {
+          "text": "2-1B",
+          "isCorrect": true,
+          "explanation": "Diagnóstico correto! 2-1B (Too-Onebee) foi o dróide cirurgião chefe.\nEle cuidou dos ferimentos de Luke e depois instalou sua mão biônica.\nUm verdadeiro anjo da guarda metálico.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/6/67/2-1B_Card_Trader.png/revision/latest?cb=20180307045131&path-prefix=pt",
+          "imageDescription": "O dróide médico 2-1B cuidando de um paciente."
+        },
+        {
+          "text": "AZI-3",
+          "isCorrect": false,
+          "explanation": "AZI-3 é um dróide médico da época das Guerras Clônicas, amigo dos clones.\nEle é mais de investigar chips inibidores do que de tratar congelamento.\nE provavelmente não estava em Hoth."
+        },
+        {
+          "text": "GH-7",
+          "isCorrect": false,
+          "explanation": "GH-7 era um dróide médico a bordo da Estrela da Morte.\nLuke provavelmente não gostaria de ser tratado por um dróide imperial.\nA menos que fosse uma emergência muito, muito grande."
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "question": "Qual personagem diz a frase: 'Ajude-me Obi-Wan Kenobi, você é minha única esperança'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Luke Skywalker",
+          "isCorrect": false,
+          "explanation": "Luke precisou muito da ajuda de Obi-Wan, é verdade.\nMas essa frase icônica foi dita por outra pessoa, em uma gravação holográfica.\nUma mensagem desesperada que iniciou toda a aventura."
+        },
+        {
+          "text": "Han Solo",
+          "isCorrect": false,
+          "explanation": "Han Solo? Pedindo ajuda de forma tão formal? Improvável!\nEle é mais de 'Preciso de ajuda, velho!' ou 'Chewie, tira a gente daqui!'.\nE ele nem acreditava na Força no começo."
+        },
+        {
+          "text": "Princesa Leia Organa",
+          "isCorrect": true,
+          "explanation": "Correto! A Princesa Leia, em sua mensagem desesperada para o General Kenobi.\nUm pedido que colocou R2-D2 em uma missão crucial.\nE mudou o destino da galáxia (e de um certo garoto da fazenda).",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/7/77/Leia_hologram_ANH.png/revision/latest?cb=20130122003336&path-prefix=pt",
+          "imageDescription": "Holograma da Princesa Leia pedindo ajuda a Obi-Wan Kenobi."
+        },
+        {
+          "text": "C-3PO",
+          "isCorrect": false,
+          "explanation": "C-3PO certamente precisou de ajuda muitas vezes ('Estamos condenados!').\nMas essa frase específica, com tanto peso e esperança,\nveio de uma líder da Rebelião em apuros."
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "question": "Qual o nome do planeta onde Anakin Skywalker duela com Obi-Wan Kenobi e é gravemente ferido, levando à sua transformação em Darth Vader?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Coruscant",
+          "isCorrect": false,
+          "explanation": "Coruscant foi palco de muitas batalhas e intrigas políticas.\nMas o duelo final entre Anakin e Obi-Wan aconteceu em um lugar muito mais... quente.\nE com menos prédios e mais rios de lava."
+        },
+        {
+          "text": "Geonosis",
+          "isCorrect": false,
+          "explanation": "Geonosis foi onde as Guerras Clônicas começaram, com um grande duelo na arena.\nMas a briga feia entre mestre e ex-aprendiz foi em outro planeta.\nUm com um cenário bem mais dramático e vulcânico."
+        },
+        {
+          "text": "Mustafar",
+          "isCorrect": true,
+          "explanation": "Acertou! O planeta vulcânico de Mustafar.\nOnde Anakin perdeu a luta, alguns membros e ganhou um traje preto vitalício.\nUm péssimo dia para ser 'O Escolhido'.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/9/92/Mustafar-SWCT.png/revision/latest?cb=20200210070103&path-prefix=pt",
+          "imageDescription": "Paisagem vulcânica do planeta Mustafar."
+        },
+        {
+          "text": "Naboo",
+          "isCorrect": false,
+          "explanation": "Naboo é o planeta natal de Padmé, um lugar de beleza e paz (geralmente).\nO confronto final entre Anakin e Obi-Wan foi em um cenário de pesadelo.\nBem longe dos lagos tranquilos de Naboo."
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "question": "Qual o nome do General Grievous antes de se tornar um ciborgue?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Ele sempre foi um ciborgue",
+          "isCorrect": false,
+          "explanation": "Embora pareça que ele nasceu com peças sobressalentes, Grievous teve uma vida orgânica.\nEle era um guerreiro temido antes do... upgrade.\nProvavelmente tossia menos naquela época."
+        },
+        {
+          "text": "Qymaen jai Sheelal",
+          "isCorrect": true,
+          "explanation": "Impressionante! Qymaen jai Sheelal era seu nome Kaleesh.\nUm herói de seu povo, antes de um acidente trágico e da manipulação Sith.\nQuem diria que por baixo daquela carcaça metálica havia tanta história?",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/0/07/Grievous_Kaleesh.jpg/revision/latest?cb=20130219051612&path-prefix=pt",
+          "imageDescription": "Representação artística de Qymaen jai Sheelal antes de se tornar General Grievous."
+        },
+        {
+          "text": "Sev'rance Tann",
+          "isCorrect": false,
+          "explanation": "Sev'rance Tann era uma general Chiss do exército Separatista.\nGrievous era de outra espécie, os Kaleesh.\nE tinha uma coleção de sabres de luz muito maior."
+        },
+        {
+          "text": "Nute Gunray",
+          "isCorrect": false,
+          "explanation": "Nute Gunray era o Vice-Rei Neimoidiano da Federação de Comércio.\nCovarde e ganancioso, bem diferente do guerreiro que Grievous foi.\nE com um chapéu muito mais esquisito."
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "question": "Qual o nome da organização criminosa liderada por Dryden Vos em 'Solo: Uma História Star Wars'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Sindicato Pyke",
+          "isCorrect": false,
+          "explanation": "O Sindicato Pyke é outra organização poderosa, envolvida com especiarias.\nDryden Vos liderava um grupo diferente, mais... elegante e brutal.\nCom um gosto por artefatos raros e punições severas."
+        },
+        {
+          "text": "Sol Negro (Black Sun)",
+          "isCorrect": false,
+          "explanation": "O Sol Negro é um sindicato do crime infame com tentáculos por toda a galáxia.\nDryden Vos era o rosto público de uma facção específica desse submundo.\nMas o grupo que ele liderava diretamente tinha outro nome."
+        },
+        {
+          "text": "Aurora Escarlate (Crimson Dawn)",
+          "isCorrect": true,
+          "explanation": "Exato! Aurora Escarlate, a organização com um líder surpresa nas sombras.\nDryden Vos era o tenente de confiança (e descartável).\nUm nome chique para um bando de criminosos perigosos.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/7/78/Crimson_Dawn_logo.svg/revision/latest?path-prefix=pt",
+          "imageDescription": "O símbolo da organização criminosa Aurora Escarlate."
+        },
+        {
+          "text": "Clã Hutt",
+          "isCorrect": false,
+          "explanation": "Os Hutts têm seus próprios impérios criminosos, com muitos tentáculos (figurativos).\nDryden Vos não era um Hutt, e sua organização tinha um estilo diferente.\nMenos lesmas, mais festas em iates espaciais."
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "question": "Qual o nome do piloto de X-Wing, amigo de infância de Luke Skywalker, que morre na Batalha de Yavin?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Wedge Antilles",
+          "isCorrect": false,
+          "explanation": "Wedge é uma lenda! Sobreviveu a DUAS Estrelas da Morte.\nO amigo de Luke que morreu era menos sortudo, infelizmente.\nMas lutou bravamente até o fim."
+        },
+        {
+          "text": "Jek Porkins",
+          "isCorrect": false,
+          "explanation": "Porkins (Red Six) também morreu na Batalha de Yavin, mas não era o amigo de infância.\nEle teve problemas com seu estabilizador. 'Estou bem... argh!'.\nUma baixa sentida, mas não o 'Biggs'."
+        },
+        {
+          "text": "Biggs Darklighter",
+          "isCorrect": true,
+          "explanation": "Correto! Biggs Darklighter, o amigo de Tatooine que se juntou à Rebelião.\nEle e Luke sonhavam em sair daquele deserto juntos.\nSua morte foi um golpe duro para Luke durante a batalha.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/7/70/BiggsDarklighter-PilotArmor-SWCT.png/revision/latest?cb=20200310004813&path-prefix=pt",
+          "imageDescription": "Biggs Darklighter em seu traje de piloto Rebelde."
+        },
+        {
+          "text": "Dak Ralter",
+          "isCorrect": false,
+          "explanation": "Dak era o artilheiro de Luke no Snowspeeder em Hoth.\nEle morreu lá, não em Yavin. 'Eu me sinto como se pudesse encarar o Império inteiro sozinho!'\nFamosas últimas palavras (quase)."
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "question": "Qual a cor do sabre de luz de Rey no final de 'A Ascensão Skywalker'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Azul",
+          "isCorrect": false,
+          "explanation": "Rey usou o sabre azul de Anakin/Luke por muito tempo.\nMas no final, ela construiu o seu próprio, com uma cor especial.\nSimbolizando seu próprio caminho na Força."
+        },
+        {
+          "text": "Verde",
+          "isCorrect": false,
+          "explanation": "O sabre verde de Luke também foi importante em sua jornada.\nMas o sabre pessoal de Rey tinha uma tonalidade diferente.\nAlgo novo, mas com um toque de tradição."
+        },
+        {
+          "text": "Amarelo",
+          "isCorrect": true,
+          "explanation": "Acertou! Um belo sabre de luz amarelo.\nUma cor rara, associada aos Guardiões do Templo Jedi.\nMostrando que Rey encontrou seu lugar e propósito.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/5/5a/ReySkywalkerYellowLightsaber-TROSVD.png/revision/latest?cb=20200324041910&path-prefix=pt",
+          "imageDescription": "Rey Skywalker com seu sabre de luz amarelo recém-construído."
+        },
+        {
+          "text": "Roxo",
+          "isCorrect": false,
+          "explanation": "Roxo é a cor de Mace Windu, muito estilosa.\nMas Rey optou por uma cor que refletisse sua própria identidade.\nE amarelo combina bem com o pôr do sol de Tatooine."
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "question": "Qual o nome do Imperador que aparece como um holograma gigante em 'O Império Contra-Ataca'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Líder Supremo Snoke",
+          "isCorrect": false,
+          "explanation": "Snoke também gostava de hologramas gigantes, mas ele é da Primeira Ordem.\nEm 'O Império Contra-Ataca', o Imperador original ainda estava no comando.\nE com um rosto bem mais enrugado e sinistro."
+        },
+        {
+          "text": "Darth Vader",
+          "isCorrect": false,
+          "explanation": "Vader era o braço direito, mas o holograma gigante era de seu Mestre.\nAquele que dava as ordens e puxava as cordinhas por trás de tudo.\nCom uma voz rouca e cheia de maldade."
+        },
+        {
+          "text": "Imperador Palpatine (Darth Sidious)",
+          "isCorrect": true,
+          "explanation": "Correto! O próprio Imperador Palpatine, ou Darth Sidious.\nDando uma bronca em Vader por causa da Estrela da Morte e do jovem Skywalker.\nUm chefe bem exigente, mesmo à distância.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/d/d7/Palpatine_Hologram_TESB.png/revision/latest?cb=20130204044313&path-prefix=pt",
+          "imageDescription": "Holograma do Imperador Palpatine falando com Darth Vader."
+        },
+        {
+          "text": "Grand Moff Tarkin",
+          "isCorrect": false,
+          "explanation": "Tarkin já tinha virado poeira cósmica junto com a primeira Estrela da Morte.\nO Imperador sobreviveu para continuar seus planos malignos.\nE para aparecer em hologramas assustadores."
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "question": "Qual o nome da cantina em Mos Eisley onde Luke e Obi-Wan conhecem Han Solo e Chewbacca?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Dex's Diner",
+          "isCorrect": false,
+          "explanation": "Dex's Diner fica em Coruscant, um lugar mais... familiar (e gorduroso).\nA cantina de Mos Eisley é bem mais perigosa.\nE com uma banda com instrumentos muito estranhos."
+        },
+        {
+          "text": "Outlander Club",
+          "isCorrect": false,
+          "explanation": "O Outlander Club também é em Coruscant, onde Obi-Wan e Anakin caçam Zam Wesell.\nA cantina de Mos Eisley é em Tatooine, um 'antro de escória e vilania'.\nMas com ótimos drinks azuis."
+        },
+        {
+          "text": "Chalmun's Cantina (Cantina de Mos Eisley)",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! Chalmun's Cantina, mais conhecida como a Cantina de Mos Eisley.\nOnde você pode encontrar pilotos, contrabandistas e caçadores de recompensa.\nE onde é melhor atirar primeiro (ou ter um bom argumento holográfico).",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/c/c7/MosEisleyCantina-Exterior-FOTF.png/revision/latest?cb=20200313002955&path-prefix=pt",
+          "imageDescription": "Exterior da Cantina de Mos Eisley em Tatooine."
+        },
+        {
+          "text": "79's",
+          "isCorrect": false,
+          "explanation": "79's é um bar popular entre os clones em Coruscant.\nA cantina de Tatooine tem uma clientela bem mais... diversificada.\nE provavelmente menos clones de armadura branca."
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "question": "Qual o nome da espécie de Jabba the Hutt?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Gamorreano",
+          "isCorrect": false,
+          "explanation": "Gamorreanos são os guardas porcos do Jabba. Ele é o chefe!\nJabba é muito maior, mais gosmento e com um apetite insaciável.\nEles são os funcionários, ele é o CEO do crime."
+        },
+        {
+          "text": "Rodiano",
+          "isCorrect": false,
+          "explanation": "Rodianos são como Greedo. Jabba é... bem, Jabba.\nUma montanha de lesma com um senso de humor doentio.\nE uma risada que ecoa por todo o palácio."
+        },
+        {
+          "text": "Hutt",
+          "isCorrect": true,
+          "explanation": "Ho ho ho! Correto! Jabba é um Hutt, uma das criaturas mais poderosas e repulsivas da galáxia.\nLíder de um império criminoso vasto e com um gosto por entretenimento cruel.\nNão é o tipo de chefe que você quer ter.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/1/19/JabbaTheHutt-SWCT.png/revision/latest?cb=20190902224731&path-prefix=pt",
+          "imageDescription": "Jabba the Hutt em seu trono, com seu típico sorriso desdenhoso."
+        },
+        {
+          "text": "Twi'lek",
+          "isCorrect": false,
+          "explanation": "Twi'leks são a espécie de Bib Fortuna e Oola, com seus lekkus na cabeça.\nJabba gosta de tê-los por perto, mas ele mesmo é de uma espécie bem diferente.\nE muito, muito maior."
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "question": "Qual o nome do caçador de recompensas Mandaloriano que é o protagonista da série 'The Mandalorian'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Boba Fett",
+          "isCorrect": false,
+          "explanation": "Boba Fett é um Mandaloriano lendário, mas o protagonista da série é outro.\nEste novo herói segue o Credo e tem um companheiro verdinho muito fofo.\nThis is the way... de encontrar a resposta certa."
+        },
+        {
+          "text": "Jango Fett",
+          "isCorrect": false,
+          "explanation": "Jango Fett foi o 'pai' de Boba e o modelo para o exército clone.\nMas a série se passa muito depois, com um novo Mandaloriano misterioso.\nQue raramente tira o capacete (por um bom motivo)."
+        },
+        {
+          "text": "Din Djarin",
+          "isCorrect": true,
+          "explanation": "Acertou! Din Djarin, também conhecido como Mando.\nO caçador de recompensas com um coração de ouro (Beskar, na verdade).\nE um talento especial para encontrar problemas e adotar crianças verdes.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/2/2d/TheMandalorian-S2PromoPoster.jpg/revision/latest?cb=20200915191926&path-prefix=pt",
+          "imageDescription": "Din Djarin, O Mandaloriano, com Grogu (A Criança)."
+        },
+        {
+          "text": "Paz Vizsla",
+          "isCorrect": false,
+          "explanation": "Paz Vizsla é outro Mandaloriano parrudo e orgulhoso de seu clã.\nEle e Mando tiveram seus desentendimentos, mas o protagonista é Din Djarin.\nAquele com a armadura brilhante e o pequeno companheiro."
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "question": "Qual o nome da Almirante da Resistência com cabelo roxo que se sacrifica usando o hiperespaço para destruir uma nave da Primeira Ordem?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "General Leia Organa",
+          "isCorrect": false,
+          "explanation": "Leia é a líder suprema da Resistência, uma heroína incansável.\nMas o sacrifício heroico com o 'Holdo Maneuver' foi de outra oficial.\nUma que Poe Dameron demorou para entender."
+        },
+        {
+          "text": "Comandante D'Acy",
+          "isCorrect": false,
+          "explanation": "Comandante D'Acy era uma oficial leal na ponte de comando.\nMas a Almirante com o plano ousado (e visualmente espetacular)\nfoi outra figura, com uma calma enervante."
+        },
+        {
+          "text": "Almirante Amilyn Holdo",
+          "isCorrect": true,
+          "explanation": "Correto! Almirante Holdo, com seu cabelo roxo icônico e coragem inabalável.\nEla ensinou a Poe uma lição sobre liderança e fez um dos sacrifícios\nmais visualmente impressionantes da saga. Que a Força esteja com ela.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/8/89/Amilyn_Holdo_TLJ.png/revision/latest?cb=20230614073411&path-prefix=pt",
+          "imageDescription": "Almirante Amilyn Holdo em seu uniforme da Resistência."
+        },
+        {
+          "text": "Kaydel Ko Connix",
+          "isCorrect": false,
+          "explanation": "Tenente Connix, interpretada pela filha de Carrie Fisher, era uma oficial da Resistência.\nMas a Almirante do sacrifício no hiperespaço foi Holdo.\nUma verdadeira líder até o fim."
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "question": "Qual o nome do planeta onde Luke Skywalker se exilou e foi encontrado por Rey?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Dagobah",
+          "isCorrect": false,
+          "explanation": "Dagobah foi o exílio de Yoda. Luke escolheu um lugar com mais... ilhas.\nE Porgs. Muitos Porgs curiosos.\nE leite verde de Thala-sirens."
+        },
+        {
+          "text": "Jakku",
+          "isCorrect": false,
+          "explanation": "Jakku é o planeta desértico onde Rey cresceu. Luke foi para um lugar mais úmido.\nE com uma história Jedi muito mais antiga.\nPerfeito para um Mestre Jedi desiludido."
+        },
+        {
+          "text": "Ahch-To",
+          "isCorrect": true,
+          "explanation": "Isso aí! Ahch-To, o planeta oceânico com o primeiro Templo Jedi.\nOnde Luke decidiu que ser Jedi não era mais para ele (por um tempo).\nAté uma jovem persistente aparecer com um sabre de luz.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/b/b5/Ahch-To_TLJ.png/revision/latest?cb=20171220004911&path-prefix=pt",
+          "imageDescription": "As ilhas rochosas de Ahch-To, local do primeiro Templo Jedi."
+        },
+        {
+          "text": "Crait",
+          "isCorrect": false,
+          "explanation": "Crait é o planeta mineral com a superfície salgada e solo vermelho.\nOnde a Resistência teve sua última batalha desesperada.\nLuke apareceu lá... de um jeito especial, mas não era seu exílio."
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "question": "Qual o nome da Batalha Espacial que ocorre no início do Episódio III, onde Anakin e Obi-Wan resgatam o Chanceler Palpatine?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Batalha de Yavin",
+          "isCorrect": false,
+          "explanation": "A Batalha de Yavin foi a destruição da primeira Estrela da Morte, anos depois.\nNo Episódio III, a guerra ainda estava a todo vapor.\nE os caças eram bem diferentes."
+        },
+        {
+          "text": "Batalha de Endor",
+          "isCorrect": false,
+          "explanation": "A Batalha de Endor marcou o fim da segunda Estrela da Morte e do Imperador.\nEssa batalha inicial do Episódio III foi sobre a capital da República.\nCom muitas naves e dróides abutres."
+        },
+        {
+          "text": "Batalha de Coruscant",
+          "isCorrect": true,
+          "explanation": "Correto! A Batalha de Coruscant, um confronto massivo nos céus da capital.\nCom Anakin mostrando suas habilidades de piloto (e sua queda por manobras arriscadas).\n'É aqui que a diversão começa!'",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/a/ae/Battle_of_Coruscant.png/revision/latest?cb=20130205044249&path-prefix=pt",
+          "imageDescription": "A Batalha de Coruscant com inúmeras naves em combate sobre o planeta."
+        },
+        {
+          "text": "Cerco ao Planeta Mandalore",
+          "isCorrect": false,
+          "explanation": "O Cerco a Mandalore aconteceu simultaneamente, mas não foi onde Palpatine foi resgatado.\nEssa batalha foi mais focada em Ahsoka e nos Mandalorianos.\nEnquanto Anakin e Obi-Wan estavam ocupados salvando o chefe."
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "question": "Qual o nome da criatura que vive no compactador de lixo da Estrela da Morte e quase devora Luke Skywalker?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Rancor",
+          "isCorrect": false,
+          "explanation": "O Rancor vivia no palácio de Jabba, não na Estrela da Morte.\nEle gostava de comer guardas Gamorreanos, não heróis rebeldes.\nA criatura do compactador era mais... aquática."
+        },
+        {
+          "text": "Sarlacc",
+          "isCorrect": false,
+          "explanation": "O Sarlacc fica no Grande Poço de Carkoon em Tatooine.\nO compactador da Estrela da Morte tinha um monstro residente diferente.\nMenos tentáculos visíveis, mais olho e um grito estranho."
+        },
+        {
+          "text": "Dianoga",
+          "isCorrect": true,
+          "explanation": "Bingo! A Dianoga, também conhecida como o 'monstro do lixo'.\nUm cefalópode com um olho só que adora águas sujas.\nQuase transformou Luke em lanche. Que nojo!",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/7/75/DianogaEye-ANH.png/revision/latest?cb=20130309052713&path-prefix=pt",
+          "imageDescription": "O olho da Dianoga emergindo da água suja do compactador de lixo."
+        },
+        {
+          "text": "Opee Sea Killer",
+          "isCorrect": false,
+          "explanation": "O Opee Sea Killer é um peixe gigante dos oceanos de Naboo.\nA Dianoga é menor, mas igualmente assustadora quando te agarra pelo pé.\nE vive em condições bem menos higiênicas."
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "question": "No Senado Galáctico, qual era o número do setor que Padmé Amidala representava por Naboo?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Setor Arkanis",
+          "isCorrect": false,
+          "explanation": "O Setor Arkanis inclui planetas como Tatooine. Naboo fica em outro lugar.\nUm lugar com mais verde e menos areia, lembra?\nE com certeza com representantes mais bem vestidos."
+        },
+        {
+          "text": "Setor Corporativo",
+          "isCorrect": false,
+          "explanation": "O Setor Corporativo tinha seus próprios representantes e interesses.\nNaboo, embora tivesse relações comerciais, era representado por seu próprio setor.\nUm com um nome mais... florido, talvez?"
+        },
+        {
+          "text": "Setor Chommel",
+          "isCorrect": true,
+          "explanation": "Acertou! Naboo faz parte do Setor Chommel.\nUm setor relativamente pacífico e próspero... até a Federação de Comércio aparecer.\nDepois disso, foi só ladeira abaixo para a República.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/d/d0/ChommellSector-TORHope.png/revision/latest?cb=20220410011927&path-prefix=pt",
+          "imageDescription": "Mapa galáctico destacando o Setor Chommel."
+        },
+        {
+          "text": "Setor Moddell",
+          "isCorrect": false,
+          "explanation": "O Setor Moddell é vizinho, mas não o setor específico de Naboo.\nCada planeta tinha sua 'vaga de estacionamento' no Senado.\nE a de Naboo era no Chommel."
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "question": "Qual o nome da célula rebelde liderada por Saw Gerrera, conhecida por suas táticas extremistas?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Esquadrão Fênix",
+          "isCorrect": false,
+          "explanation": "O Esquadrão Fênix, de 'Rebels', era mais alinhado com a Aliança Rebelde principal.\nSaw Gerrera e seu grupo eram... mais independentes.\nE com uma definição bem mais flexível de 'danos colaterais'."
+        },
+        {
+          "text": "Aliança para Restaurar a República",
+          "isCorrect": false,
+          "explanation": "Essa é a Aliança Rebelde oficial. Saw Gerrera, embora lutasse contra o Império,\ndivergia das táticas da Aliança. Ele achava que eles eram 'leves demais'.\nUm radical com pulmões problemáticos."
+        },
+        {
+          "text": "Os Partidários (The Partisans)",
+          "isCorrect": true,
+          "explanation": "Correto. Os Partidários, liderados por Saw Gerrera.\nEles eram tão extremos que até a Aliança Rebelde se distanciava deles.\n'Mentiras! Enganos!' era o lema não oficial do grupo.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/3/39/Partisan_Flag.svg/revision/latest?path-prefix=pt",
+          "imageDescription": "O símbolo dos Partidários de Saw Gerrera."
+        },
+        {
+          "text": "Célula Espectro",
+          "isCorrect": false,
+          "explanation": "Célula Espectro é o nome do grupo da tripulação da Ghost em 'Rebels'.\nEles trabalhavam com a Rebelião, mas Saw e seus métodos eram únicos.\nE geralmente envolviam muitas explosões."
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "question": "Qual o nome do cristal usado na construção de sabres de luz?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Cristal Adegan",
+          "isCorrect": false,
+          "explanation": "Cristais Adegan são um tipo, mas o nome genérico mais conhecido é outro.\nPense no coração do sabre de luz, a fonte de seu poder e cor.\nÉ um cristal que 'chama' o usuário da Força."
+        },
+        {
+          "text": "Pedra Kaiburr",
+          "isCorrect": false,
+          "explanation": "A Pedra Kaiburr é um artefato poderoso que amplifica a Força, mas não é o cristal padrão dos sabres.\nOs cristais de sabre são mais comuns (relativamente falando).\nE vêm em várias cores, depois de sintonizados."
+        },
+        {
+          "text": "Cristal Kyber",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! Cristais Kyber, sintonizados com a Força.\nEles escolhem o Jedi (ou Sith, que os 'sangra' para ficarem vermelhos).\nSão o coração pulsante da arma mais elegante da galáxia.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/8/89/Kyber_Crystals_SWCT.png/revision/latest?cb=20180317022942&path-prefix=pt",
+          "imageDescription": "Diversos Cristais Kyber brutos, antes de serem sintonizados."
+        },
+        {
+          "text": "Gema de Corusca",
+          "isCorrect": false,
+          "explanation": "Gemas de Corusca são pedras preciosas brilhantes, mas não para sabres de luz.\nElas são mais para joias e decoração.\nSabres de luz precisam de algo com uma conexão mais... espiritual."
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "question": "Em 'O Ataque dos Clones', qual o nome do planeta onde Obi-Wan descobre a fábrica de clones?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Geonosis",
+          "isCorrect": false,
+          "explanation": "Geonosis é onde Obi-Wan encontra as fábricas de dróides Separatistas.\nA fábrica de clones fica em um planeta mais... aquático e tempestuoso.\nE com habitantes de pescoço comprido muito elegantes."
+        },
+        {
+          "text": "Naboo",
+          "isCorrect": false,
+          "explanation": "Naboo é o lar de Padmé e dos Gungans. Não há fábricas de clones por lá.\nA tecnologia de clonagem era um segredo bem guardado.\nEm um planeta que não constava nos arquivos Jedi."
+        },
+        {
+          "text": "Kamino",
+          "isCorrect": true,
+          "explanation": "Correto! O planeta tempestuoso de Kamino.\nOnde os Kaminoanos, mestres da clonagem, criaram o Grande Exército da República.\nA mando de um misterioso Jedi chamado Sifo-Dyas (ou assim diziam).",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/c/c4/Kamino-AOTC.png/revision/latest?cb=20130202051501&path-prefix=pt",
+          "imageDescription": "As plataformas oceânicas de Kamino, local da produção de clones."
+        },
+        {
+          "text": "Coruscant",
+          "isCorrect": false,
+          "explanation": "Coruscant é o centro da República. Manter uma fábrica secreta de clones lá seria... complicado.\nOs Kaminoanos preferiam a privacidade de seu mundo isolado.\nLonge de olhos curiosos e senadores intrometidos."
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "question": "Qual o nome da organização de caçadores de recompensa à qual Boba Fett e outros notáveis pertenciam?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Sindicato dos Caçadores",
+          "isCorrect": false,
+          "explanation": "Um nome genérico demais para um grupo tão infame.\nA guilda deles tinha um nome mais... profissional.\nE um código de conduta (às vezes)."
+        },
+        {
+          "text": "Guilda dos Caçadores de Recompensa",
+          "isCorrect": true,
+          "explanation": "Isso aí! A Guilda dos Caçadores de Recompensa (Bounty Hunters' Guild).\nUma organização que regulava (ou tentava regular) a profissão.\nCom líderes como Bossk e depois Greef Karga. 'Trazer quente ou frio'.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/0/0a/Bounty_hunter_guild_logo.svg/revision/latest?path-prefix=pt",
+          "imageDescription": "O símbolo da Guilda dos Caçadores de Recompensa."
+        },
+        {
+          "text": "Os Companheiros da Cantina",
+          "isCorrect": false,
+          "explanation": "Eles podem se encontrar na cantina, mas a organização é mais formal.\nNão é um clube do livro para quem gosta de desintegrar alvos.\nÉ um negócio sério (e perigoso)."
+        },
+        {
+          "text": "Assassinos de Aluguel Anônimos",
+          "isCorrect": false,
+          "explanation": "Eles não são muito anônimos, especialmente os mais famosos como Boba Fett.\nA Guilda dava um certo ar de legitimidade à profissão.\nE um lugar para pegar novos contratos (e fofocas)."
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "question": "Qual o nome do código de conduta seguido por alguns Mandalorianos, como Din Djarin, que inclui não remover o capacete na frente de outros?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "O Código de Honra",
+          "isCorrect": false,
+          "explanation": "Honra é importante para os Mandalorianos, mas o código específico tem outro nome.\nAlgo que remete ao 'caminho' que eles seguem.\nE que causa muitos problemas quando se precisa comer em público."
+        },
+        {
+          "text": "A Resolução Mandaloriana",
+          "isCorrect": false,
+          "explanation": "Resolução soa muito político. O código deles é mais... fundamental.\nUma série de preceitos que definem sua identidade como povo.\nE que os torna bem misteriosos."
+        },
+        {
+          "text": "O Credo (The Creed)",
+          "isCorrect": true,
+          "explanation": "This is the Way. O Credo é o conjunto de antigas tradições seguidas por alguns.\nIncluindo a regra do capacete, que é levada muito a sério.\n'O capacete fica.' Simples assim.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/b/be/Mythosaur μεγαλύτεDetail.png/revision/latest?cb=20200102000647&path-prefix=pt",
+          "imageDescription": "Símbolo do Mitosauro, frequentemente associado à cultura Mandaloriana e ao Credo."
+        },
+        {
+          "text": "As Leis de Mandalore",
+          "isCorrect": false,
+          "explanation": "Mandalore teve várias leis e governos ao longo de sua história.\nMas 'O Credo' é específico para o grupo de Din Djarin e outros 'Filhos do Observatório'.\nUma tradição mais fundamentalista."
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "question": "Qual o nome da antiga inimiga de Ahsoka Tano que se torna uma caçadora de recompensas e depois aliada relutante em 'The Clone Wars'?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Asajj Ventress",
+          "isCorrect": true,
+          "explanation": "Correto! Asajj Ventress, a ex-aprendiz Sith de Dooku.\nDepois de ser traída, ela trilhou seu próprio caminho como caçadora de recompensas.\nE teve uma relação complexa de rivalidade e respeito com Ahsoka.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/3/31/AsajjVentress-DarkDisciple.png/revision/latest?cb=20150710175754&path-prefix=pt",
+          "imageDescription": "Asajj Ventress como caçadora de recompensas."
+        },
+        {
+          "text": "Barriss Offee",
+          "isCorrect": false,
+          "explanation": "Barriss Offee foi amiga de Ahsoka, mas a traiu e bombardeou o Templo Jedi.\nEla não virou caçadora de recompensas, mas sim uma prisioneira da República.\nUma das maiores decepções para Ahsoka."
+        },
+        {
+          "text": "Aurra Sing",
+          "isCorrect": false,
+          "explanation": "Aurra Sing era uma caçadora de recompensas cruel e mentora de Boba Fett por um tempo.\nEla era inimiga de Ahsoka, mas não teve o mesmo arco de redenção/aliança que Ventress.\nMais vilã clássica, menos anti-heroína."
+        },
+        {
+          "text": "Bo-Katan Kryze",
+          "isCorrect": false,
+          "explanation": "Bo-Katan era uma Mandaloriana, às vezes aliada, às vezes rival de Ahsoka.\nSua jornada envolve a liderança de Mandalore, não a vida de caçadora de recompensas.\nMas ambas são guerreiras formidáveis."
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "question": "Qual o nome da operação secreta do Império para extrair cristais kyber de Jedha, resultando na destruição da Cidade Sagrada?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Projeto Estrela Negra",
+          "isCorrect": false,
+          "explanation": "Isso soa como um nome alternativo para a Estrela da Morte.\nA operação em Jedha era mais sobre o 'combustível' da superarma.\nE menos sobre o nome da arma em si."
+        },
+        {
+          "text": "Iniciativa Celestial",
+          "isCorrect": false,
+          "explanation": "Um nome muito poético para uma operação imperial de mineração e destruição.\nO Império preferia nomes mais... diretos e ameaçadores.\nOu codinomes que não levantassem suspeitas (inicialmente)."
+        },
+        {
+          "text": "Operação: Colheita Estelar (Operation: Stardust)",
+          "isCorrect": true,
+          "explanation": "Exato! Embora 'Stardust' fosse o codinome dos planos da Estrela da Morte roubados por Jyn Erso,\na extração em Jedha era parte integral do projeto.\nA Cidade Sagrada foi um dos primeiros alvos de teste da arma que ajudou a construir.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/c/c0/Jedha_City_destruction.png/revision/latest?cb=20170406051131&path-prefix=pt",
+          "imageDescription": "A destruição da Cidade Sagrada de Jedha pela Estrela da Morte."
+        },
+        {
+          "text": "Protocolo Cinza",
+          "isCorrect": false,
+          "explanation": "Protocolos geralmente se referem a ordens de contingência ou ações específicas.\nA operação em Jedha era um projeto de longo prazo.\nPara alimentar a maior arma da galáxia."
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "question": "Qual o nome do Lorde Sith que fundou a 'Regra de Dois', estipulando que só podem existir dois Sith por vez: um Mestre e um Aprendiz?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Darth Sidious",
+          "isCorrect": false,
+          "explanation": "Sidious seguiu a Regra de Dois (e tentou contorná-la às vezes).\nMas ele não a criou. Ele foi o culminar de milênios dessa tradição.\nUm mestre da manipulação e do poder."
+        },
+        {
+          "text": "Darth Plagueis",
+          "isCorrect": false,
+          "explanation": "Plagueis foi o mestre de Sidious, também um seguidor da Regra de Dois.\nMas o fundador dessa doutrina viveu muito antes.\nEm uma era onde os Sith eram numerosos e se destruíam."
+        },
+        {
+          "text": "Darth Bane",
+          "isCorrect": true,
+          "explanation": "Correto! Darth Bane, após a derrota dos Sith na guerra contra os Jedi.\nEle instituiu a Regra de Dois para garantir a sobrevivência e o fortalecimento da Ordem Sith.\nConcentrando o poder em vez de diluí-lo.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/3/30/Bane_PoD.jpg/revision/latest?cb=20061018033301&path-prefix=pt",
+          "imageDescription": "Darth Bane, o Lorde Sith fundador da Regra de Dois."
+        },
+        {
+          "text": "Exar Kun",
+          "isCorrect": false,
+          "explanation": "Exar Kun foi um poderoso Lorde Sith da Velha República, antes de Bane.\nEle liderou uma grande guerra contra os Jedi, mas não criou a Regra de Dois.\nSua era foi marcada por muitos Sith, não apenas dois."
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "question": "Qual o nome da espécie de anfíbios inteligentes de Naboo que tem uma Grande Armada e vive em cidades subaquáticas como Otoh Gunga?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Mon Calamari",
+          "isCorrect": false,
+          "explanation": "Mon Calamari são como o Almirante Ackbar, de um planeta aquático diferente.\nOs anfíbios de Naboo são mais... desajeitados em terra.\nE com uma forma de falar bem peculiar."
+        },
+        {
+          "text": "Quarren",
+          "isCorrect": false,
+          "explanation": "Quarrens também são de Mon Cala (Dac), com tentáculos na face.\nOs nativos de Naboo têm orelhas longas e olhos esbugalhados.\nE uma tendência a causar problemas acidentais."
+        },
+        {
+          "text": "Gungan",
+          "isCorrect": true,
+          "explanation": "Meesa acha que você acertou! Os Gungans, liderados por Chefe Nass.\nCom seus escudos de energia e catapultas de 'boomas'.\nAliados improváveis, mas cruciais na Batalha de Naboo.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/8/8f/GunganFacingTheDroidArmy-TPM.png/revision/latest?cb=20130228041913&path-prefix=pt",
+          "imageDescription": "A Grande Armada Gungan enfrentando o exército de dróides."
+        },
+        {
+          "text": "Selkath",
+          "isCorrect": false,
+          "explanation": "Selkath são os nativos de Manaan, um planeta oceânico conhecido pelo kolto.\nOs Gungans são de Naboo e têm uma cultura e aparência bem distintas.\nE muito mais 'blblblbl' na fala."
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "question": "Qual o nome do droide tático Separatista que comanda exércitos de dróides de batalha com uma voz calma e calculista?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Droideka",
+          "isCorrect": false,
+          "explanation": "Droidekas são os dróides destruidores com escudos e canhões laser duplos.\nEles rolam para a batalha, mas não comandam exércitos.\nSão mais 'força bruta' do que 'estrategistas'."
+        },
+        {
+          "text": "Super Dróide de Batalha B2",
+          "isCorrect": false,
+          "explanation": "Os B2s são versões mais parruda dos dróides de batalha B1.\nCom blasters nos pulsos, mas ainda precisam de ordens.\nO cérebro por trás das operações era outro tipo de dróide."
+        },
+        {
+          "text": "Dróide Tático Série T",
+          "isCorrect": true,
+          "explanation": "Roger, roger! Correto! Os Dróides Táticos Série T, como o General Kalani.\nConhecidos por sua inteligência artificial avançada e sua calma perturbadora.\nAnalisando o campo de batalha e prevendo resultados (nem sempre com sucesso).",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/c/cd/TacticalDroid-HF.png/revision/latest?cb=20210219001438&path-prefix=pt",
+          "imageDescription": "Um Dróide Tático Separatista Série T."
+        },
+        {
+          "text": "MagnaGuarda IG-100",
+          "isCorrect": false,
+          "explanation": "MagnaGuardas são os guarda-costas de elite de líderes Separatistas como Grievous.\nEles são durões com seus eletrobastões, mas não comandam frotas.\nSão mais 'seguranças VIP' do que 'generais'."
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "question": "Qual o nome do planeta natal de Chewbacca, coberto por árvores gigantescas chamadas wroshyr?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Endor",
+          "isCorrect": false,
+          "explanation": "Endor tem árvores e nativos peludos (Ewoks), mas não é o lar dos Wookiees.\nAs árvores de lá são grandes, mas as de Kashyyyk são COLOSSAIS.\nE os habitantes são bem mais altos e barulhentos."
+        },
+        {
+          "text": "Felucia",
+          "isCorrect": false,
+          "explanation": "Felucia é um planeta exótico com plantas gigantes e coloridas.\nMas Kashyyyk é o mundo florestal icônico dos Wookiees.\nCom uma ecologia única e cidades construídas nas alturas."
+        },
+        {
+          "text": "Kashyyyk",
+          "isCorrect": true,
+          "explanation": "RAWRGWAWGGR! Acertou! Kashyyyk, o planeta onde cada dia é o Dia da Árvore.\nCom cidades inteiras construídas nos galhos das árvores wroshyr.\nUm paraíso para Wookiees e um pesadelo para quem tem medo de altura.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/5/51/Kashyyyk_detail_ROTS.png/revision/latest?cb=20130225043525&path-prefix=pt",
+          "imageDescription": "Uma cidade Wookiee construída nas árvores wroshyr de Kashyyyk."
+        },
+        {
+          "text": "Dathomir",
+          "isCorrect": false,
+          "explanation": "Dathomir é o lar das Irmãs da Noite e dos Zabrak Irmãos da Noite.\nUm planeta sombrio e místico, bem diferente das florestas ensolaradas de Kashyyyk.\nE com muito menos Wookiees por metro quadrado."
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "question": "Qual o nome do programa de treinamento de clones que Jango Fett supervisionou em Kamino?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Projeto 'Legião 501'",
+          "isCorrect": false,
+          "explanation": "A Legião 501 foi uma unidade de elite de clones, depois liderada por Vader.\nMas o programa de treinamento geral tinha um nome mais... abrangente.\nE menos específico de uma única legião."
+        },
+        {
+          "text": "Iniciativa 'Alfa'",
+          "isCorrect": false,
+          "explanation": "Alfa-17 foi um clone ARC Trooper que ajudou a treinar comandantes clones.\nMas o programa em si não era chamado assim.\nEra algo mais relacionado à sua natureza e propósito."
+        },
+        {
+          "text": "Programa de Comando Avançado de Reconhecimento (ARC)",
+          "isCorrect": false,
+          "explanation": "O programa ARC produziu os soldados clone de elite, os ARC Troopers.\nJango Fett esteve envolvido no treinamento deles, mas o nome do programa geral de todos os clones era outro.\nAlgo que refletia sua criação em massa."
+        },
+        {
+          "text": "Programa de Treinamento de Cadetes Clones",
+          "isCorrect": true,
+          "explanation": "Correto. Jango Fett foi fundamental no 'Programa de Treinamento de Cadetes Clones'.\nEle não apenas forneceu o material genético, mas também ajudou a moldar os clones\npara serem soldados eficientes, ensinando táticas e habilidades de combate.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/f/f9/Clonecadets.jpg/revision/latest?cb=20111002190051&path-prefix=pt",
+          "imageDescription": "Cadetes clones durante uma sessão de treinamento em Kamino."
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "question": "Qual o nome do Moff imperial que desertou e ajudou a fundar a Aliança Rebelde, tornando-se uma figura chave na sua inteligência?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Kallus",
+          "isCorrect": false,
+          "explanation": "Agente Kallus desertou, virou Fulcrum e ajudou a Rebelião em 'Rebels'.\nMas o Moff que foi um dos fundadores originais é outro personagem,\nmais das sombras e da organização inicial."
+        },
+        {
+          "text": "Gideon",
+          "isCorrect": false,
+          "explanation": "Moff Gideon é um vilão implacável em 'The Mandalorian', obcecado com Grogu.\nEle definitivamente não ajudaria a fundar a Rebelião.\nA menos que fosse uma armadilha muito, muito elaborada."
+        },
+        {
+          "text": "Tarkin",
+          "isCorrect": false,
+          "explanation": "Grand Moff Tarkin? Ajudando a Rebelião? Impossível!\nEle era o epítome da lealdade imperial e da crueldade.\nProvavelmente explodiria a Rebelião só por diversão."
+        },
+        {
+          "text": "Mon Mothma (Embora Senadora, não Moff, ela desertou e foi fundamental)",
+          "isCorrect": true,
+          "explanation": "Na verdade, Mon Mothma era Senadora, não Moff. Ela foi uma figura central na fundação.\nSe a pergunta se refere a um 'Moff' especificamente, pode ser uma pegadinha.\nMas ela é a desertora de alto escalão mais icônica que co-fundou a Aliança.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/3/36/MonMothma-SWCT.png/revision/latest?cb=20200309073109&path-prefix=pt",
+          "imageDescription": "Mon Mothma, uma das líderes fundadoras da Aliança Rebelde."
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "question": "Qual o nome do planeta capital da Confederação de Sistemas Independentes (Separatistas) durante as Guerras Clônicas?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Geonosis",
+          "isCorrect": false,
+          "explanation": "Geonosis foi onde a Confederação foi formalmente criada e onde ficavam suas primeiras fábricas de dróides.\nMas sua capital administrativa, onde o Conselho Separatista se reunia, era outra.\nUm planeta com um nome que soa... estéril."
+        },
+        {
+          "text": "Mustafar",
+          "isCorrect": false,
+          "explanation": "Mustafar se tornou o refúgio final do Conselho Separatista antes de Vader... visitá-los.\nNão era sua capital principal, mais um esconderijo vulcânico.\nE um péssimo lugar para reuniões de negócios."
+        },
+        {
+          "text": "Raxus Prime",
+          "isCorrect": true,
+          "explanation": "Correto! Raxus Prime, um planeta tóxico e de sucata, serviu como capital Separatista por um tempo.\nOnde o Conde Dooku e outros líderes tramavam contra a República.\nUm lugar adequado para vilões, convenhamos.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/f/f4/Raxus_Prime_TFU.jpg/revision/latest?cb=20080507011710&path-prefix=pt",
+          "imageDescription": "Paisagem industrial e poluída de Raxus Prime."
+        },
+        {
+          "text": "Serenno",
+          "isCorrect": false,
+          "explanation": "Serenno era o planeta natal do Conde Dooku, um lugar de riqueza e aristocracia.\nEle mantinha uma base lá, mas a capital oficial da Confederação ficava em outro lugar.\nProvavelmente para não sujar os tapetes caros de Dooku."
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "question": "Qual a designação do clone trooper que descobriu a conspiração do Chip Inibidor e tentou alertar os Jedi?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "CT-7567 (Rex)",
+          "isCorrect": false,
+          "explanation": "Capitão Rex descobriu sobre os chips e os removeu com a ajuda de Ahsoka.\nMas o clone que primeiro sucumbiu ao mau funcionamento e tentou avisar foi outro.\nUm com um nome que soa como algo que se guarda."
+        },
+        {
+          "text": "CT-5555 (Fives / Cincos)",
+          "isCorrect": true,
+          "explanation": "Exato! Fives (CT-5555), um soldado ARC.\nSua investigação sobre o chip quase expôs todo o plano de Palpatine.\nUma história trágica de um herói incompreendido. #FivesWasRight",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/8/8c/Fives-PhaseIIHelmet-Closeup.png/revision/latest?cb=20200903012352&path-prefix=pt",
+          "imageDescription": "Clone Trooper Fives (CT-5555) em sua armadura ARC."
+        },
+        {
+          "text": "CC-2224 (Cody)",
+          "isCorrect": false,
+          "explanation": "Comandante Cody era leal a Obi-Wan... até a Ordem 66.\nEle não descobriu a conspiração, infelizmente.\nE quase matou seu general e amigo. Que tristeza."
+        },
+        {
+          "text": "CT-9904 (Crosshair)",
+          "isCorrect": false,
+          "explanation": "Crosshair, da Força Clone 99, teve seu chip intensificado e se voltou contra seus irmãos.\nEle não tentou alertar ninguém, pelo contrário.\nEra um 'bom soldado que seguia ordens' (do jeito errado)."
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "question": "Qual o nome do Mestre Jedi de pele verde e longas orelhas que serviu no Conselho Jedi durante a Invasão de Naboo e as Guerras Clônicas?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Ki-Adi-Mundi",
+          "isCorrect": false,
+          "explanation": "Ki-Adi-Mundi tinha uma cabeça cônica e era um Cereano. Não era verde.\nEle se preocupava com o ataque dos Wookiees aos dróides, ou algo assim.\nUm membro importante do Conselho, mas não o nosso verdinho orelhudo."
+        },
+        {
+          "text": "Plo Koon",
+          "isCorrect": false,
+          "explanation": "Plo Koon era um Kel Dor, usava uma máscara e óculos de proteção.\nMuito sábio e respeitado, especialmente por Ahsoka.\nMas não era verde nem tinha orelhas tão longas (as dele eram pontudas)."
+        },
+        {
+          "text": "Even Piell",
+          "isCorrect": false,
+          "explanation": "Even Piell era um Lannik, pequeno e com orelhas grandes, mas não era verde.\nEle era um general durão que foi capturado na Cidadela.\nUm herói de guerra, mas não o que procuramos."
+        },
+        {
+          "text": "Yarael Poof",
+          "isCorrect": true,
+          "explanation": "Correto! Mestre Yarael Poof, um Quermiano com um pescoço loooongo e pele clara (às vezes esverdeada na iluminação).\nEle tinha quatro braços (geralmente escondidos) e era um ilusionista habilidoso.\nUm membro distinto do Conselho na época de Qui-Gon.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/7/79/YaraelPoof-SWCT.png/revision/latest?cb=20170917034037&path-prefix=pt",
+          "imageDescription": "Mestre Jedi Yarael Poof, membro do Conselho Jedi."
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "question": "Como se chama o fenômeno da Força que permite a alguns usuários prever ataques e desviar tiros de blaster, muitas vezes instintivamente?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Telecinese da Força",
+          "isCorrect": false,
+          "explanation": "Telecinese é mover objetos com a mente. Desviar tiros é mais... reativo.\nEmbora a Força esteja envolvida em ambos, a previsão é chave aqui.\nÉ como ter um 'sentido aranha' galáctico."
+        },
+        {
+          "text": "Empurrão da Força",
+          "isCorrect": false,
+          "explanation": "Empurrão da Força é para... empurrar coisas (ou pessoas).\nDesviar tiros requer uma percepção aguçada do perigo iminente.\nE reflexos que fariam um gato parecer lento."
+        },
+        {
+          "text": "Sentido da Força (Precognição)",
+          "isCorrect": true,
+          "explanation": "Exatamente! O Sentido da Força, ou uma forma de Precognição.\nPermite que Jedi (e outros sensitivos) antecipem o perigo.\n'Sinta, não pense. Use seus instintos.' Obi-Wan aprovaria.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/c/c9/LukeTrainingANH.png/revision/latest?cb=20130310033918&path-prefix=pt",
+          "imageDescription": "Luke Skywalker treinando com o capacete de viseira baixa, usando o Sentido da Força."
+        },
+        {
+          "text": "Velocidade da Força",
+          "isCorrect": false,
+          "explanation": "Velocidade da Força aumenta a agilidade e rapidez do usuário.\nAjuda a desviar, mas a capacidade de prever o tiro é mais fundamental.\nPrimeiro você vê (com a Força), depois você desvia (com velocidade)."
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "question": "Qual o nome do planeta desértico onde a Aliança Rebelde estabeleceu sua base principal após a Batalha de Yavin, antes de se mudarem para Hoth?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Jakku",
+          "isCorrect": false,
+          "explanation": "Jakku é um cemitério de naves, não uma base rebelde principal.\nA Rebelião precisava de um lugar mais... organizado.\nE com menos chance de encontrar sucateiros curiosos."
+        },
+        {
+          "text": "Jedha",
+          "isCorrect": false,
+          "explanation": "Jedha foi devastada pelo Império. Não seria um bom lugar para uma base.\nA Rebelião procurava locais secretos e defensáveis.\nE, de preferência, sem superlasers por perto."
+        },
+        {
+          "text": "Dantooine",
+          "isCorrect": true,
+          "explanation": "Correto! Dantooine. Leia mencionou ao Tarkin que era a base principal (para enganá-lo).\nEles realmente tiveram um posto avançado lá por um tempo.\n'Eles estão em Dantooine.' 'Ela mentiu!' Clássico.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/3/37/Dantooine_TEA.png/revision/latest?cb=20220716044420&path-prefix=pt",
+          "imageDescription": "Paisagem de Dantooine, um dos primeiros refúgios da Aliança Rebelde."
+        },
+        {
+          "text": "Lothal",
+          "isCorrect": false,
+          "explanation": "Lothal foi crucial para a célula rebelde de 'Rebels', mas não a base principal da Aliança.\nEra um planeta sob forte ocupação imperial.\nA Aliança precisava de mais espaço e menos stormtroopers."
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "question": "Quem foi o Mestre Jedi que originalmente encontrou Anakin Skywalker em Tatooine e o apresentou ao Conselho Jedi?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Obi-Wan Kenobi",
+          "isCorrect": false,
+          "explanation": "Obi-Wan era o Padawan na época e acompanhou seu mestre.\nEle teve suas dúvidas sobre Anakin, mas a decisão de levá-lo\nfoi de um Jedi mais experiente (e teimoso)."
+        },
+        {
+          "text": "Mace Windu",
+          "isCorrect": false,
+          "explanation": "Mace Windu estava no Conselho e desconfiou de Anakin desde o início.\nEle não foi quem o encontrou. Provavelmente teria dito 'Deixe-o no deserto'.\nO que, pensando bem..."
+        },
+        {
+          "text": "Yoda",
+          "isCorrect": false,
+          "explanation": "Yoda também era do Conselho e sentiu o perigo em Anakin.\nEle não estava em Tatooine procurando por 'O Escolhido'.\nEstava ocupado demais falando de forma invertida e sendo sábio."
+        },
+        {
+          "text": "Qui-Gon Jinn",
+          "isCorrect": true,
+          "explanation": "Exato! Qui-Gon Jinn, o Mestre Jedi que via a Força Viva em tudo.\nEle insistiu que Anakin fosse treinado, contra a vontade do Conselho.\n'A vontade da Força', ele diria. E que vontade complicada, hein?",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/a/a4/Qui-GonJinnMotP.png/revision/latest?cb=20130227040354&path-prefix=pt",
+          "imageDescription": "Qui-Gon Jinn encontrando o jovem Anakin Skywalker em Tatooine."
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "question": "Qual o nome da organização de mercenários e piratas liderada por Hondo Ohnaka?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Cartel Hutt",
+          "isCorrect": false,
+          "explanation": "O Cartel Hutt é dos... Hutts. Hondo é um Weequay, um pirata independente.\nEle faz negócios com qualquer um, mas não responde aos Hutts.\nA menos que o preço seja muito bom."
+        },
+        {
+          "text": "Bando da Morte (Death Watch)",
+          "isCorrect": false,
+          "explanation": "O Bando da Morte é uma facção Mandaloriana radical.\nHondo é mais sobre lucro e sobrevivência do que sobre restaurar a glória de Mandalore.\nE ele tem um senso de humor muito melhor."
+        },
+        {
+          "text": "Gangue Pirata de Ohnaka",
+          "isCorrect": true,
+          "explanation": "Isso cheira a lucro! A Gangue Pirata de Ohnaka.\nUm bando desorganizado, mas oportunista, de Weequays e outros malandros.\nLiderados pelo carismático (e totalmente não confiável) Hondo. 'Hoje nós somos amigos!'",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/8/84/Hondo_Ohnaka_TCW.jpg/revision/latest?cb=20111014003620&path-prefix=pt",
+          "imageDescription": "Hondo Ohnaka, o carismático líder pirata Weequay."
+        },
+        {
+          "text": "Sindicato Pyke",
+          "isCorrect": false,
+          "explanation": "O Sindicato Pyke controla o comércio de especiarias de Kessel.\nHondo se envolveu com eles, mas sua gangue era separada.\nEle é um empresário independente do crime!"
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "question": "Qual o nome do planeta natal dos Mon Calamari e dos Quarren, que forneceram muitas naves para a Aliança Rebelde?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Corellia",
+          "isCorrect": false,
+          "explanation": "Corellia é famosa por seus estaleiros e pilotos, mas não é o lar dos Mon Calamari.\nAs naves de lá são mais... industriais. As dos Mon Calamari são mais orgânicas.\nE com um cheiro sutil de maresia."
+        },
+        {
+          "text": "Kuat",
+          "isCorrect": false,
+          "explanation": "Os Estaleiros de Kuat produziam Star Destroyers para o Império.\nOs Mon Calamari e Quarren usavam sua própria tecnologia para construir naves para a Rebelião.\nCom um design bem diferente e menos... triangular."
+        },
+        {
+          "text": "Mon Cala (ou Dac)",
+          "isCorrect": true,
+          "explanation": "Correto! Mon Cala, também chamado de Dac pelos nativos Quarren.\nUm planeta aquático cujos habitantes transformaram suas cidades e naves de recreio\nem poderosas naves de guerra para a Aliança. Lar do Almirante Ackbar!",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/2/23/Mon_Cala_SWCT.png/revision/latest?cb=20180403010015&path-prefix=pt",
+          "imageDescription": "O planeta aquático de Mon Cala, lar dos Mon Calamari e Quarren."
+        },
+        {
+          "text": "Rodia",
+          "isCorrect": false,
+          "explanation": "Rodia é o planeta natal dos Rodianos, como Greedo. Um planeta de selva.\nMon Cala é todo coberto por oceanos.\nE seus habitantes são mais... anfíbios."
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "question": "Qual o nome do caçador de recompensas que Darth Vader contrata e adverte especificamente com a frase 'Sem desintegrações'?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "IG-88",
+          "isCorrect": false,
+          "explanation": "IG-88 estava lá, um dróide assassino eficiente.\nMas a advertência sobre desintegrações foi para um caçador específico.\nAlguém com reputação de... exagerar um pouco no trabalho."
+        },
+        {
+          "text": "Bossk",
+          "isCorrect": false,
+          "explanation": "Bossk, o Trandoshan, também estava na lista de Vader.\nMas ele é mais de caçar Wookiees do que de desintegrar alvos (geralmente).\nA bronca foi para o cara da armadura mandaloriana."
+        },
+        {
+          "text": "Boba Fett",
+          "isCorrect": true,
+          "explanation": "Exato! Boba Fett. Vader conhecia sua reputação.\n'Eu quero eles vivos. Sem desintegrações.'\nUm pequeno lembrete para o caçador mais temido da galáxia não se empolgar demais.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/7/7f/BobaFettHS-TESB.png/revision/latest?cb=20130908002836&path-prefix=pt",
+          "imageDescription": "Boba Fett recebendo instruções de Darth Vader."
+        },
+        {
+          "text": "Dengar",
+          "isCorrect": false,
+          "explanation": "Dengar, o 'Corelliano enfaixado', era outro da equipe de elite.\nMas a fama de desintegrar pertencia a Boba Fett.\nProvavelmente porque ele era muito bom nisso (até demais)."
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "question": "Qual é o nome da antiga técnica Sith que permite transferir a consciência para outro corpo ou objeto, buscando a imortalidade?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Consumo da Força",
+          "isCorrect": false,
+          "explanation": "Consumo da Força (Force Drain) é sobre sugar a energia vital de outros.\nA transferência de consciência é mais... existencial.\nE um pesadelo para quem acredita em 'descansar em paz'."
+        },
+        {
+          "text": "Alquimia Sith",
+          "isCorrect": false,
+          "explanation": "Alquimia Sith envolve a criação de monstros e armas infundidas com o Lado Sombrio.\nA imortalidade por transferência é uma arte específica, mais focada no espírito.\nE bem mais complexa que criar um Tuk'ata."
+        },
+        {
+          "text": "Transferência de Essência",
+          "isCorrect": true,
+          "explanation": "Absolutamente! Transferência de Essência é a técnica sombria.\nUsada por Lordes Sith desesperados para enganar a morte.\nComo Palpatine tentou (e conseguiu por um tempo). 'O Lado Sombrio é um caminho para muitas habilidades...'",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/b/b2/SithAlchemyArt-TOR.jpg/revision/latest?cb=20121001202909&path-prefix=pt",
+          "imageDescription": "Arte conceitual representando rituais sombrios Sith, aludindo a técnicas como a Transferência de Essência."
+        },
+        {
+          "text": "Caminhada Espiritual da Força",
+          "isCorrect": false,
+          "explanation": "Caminhada Espiritual é mais sobre projeção astral ou comunicação além do véu.\nA Transferência de Essência é sobre roubar o corpo de alguém.\nBem menos sutil e muito mais invasivo."
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "question": "Qual o nome do planeta prisão de segurança máxima da República onde o Mestre Jedi Even Piell foi mantido cativo e uma missão de resgate foi liderada por Anakin e Obi-Wan?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Belsavis",
+          "isCorrect": false,
+          "explanation": "Belsavis é um planeta prisão, mas de outra era (The Old Republic).\nA prisão de Even Piell era uma fortaleza específica, quase impenetrável.\nE com um diretor Separatista muito sádico."
+        },
+        {
+          "text": "Kessel",
+          "isCorrect": false,
+          "explanation": "Kessel é famosa por suas minas de especiarias e trabalho escravo.\nNão era a prisão de alta segurança onde Piell estava.\nLá, a preocupação era mais com rotas de fuga do que com minérios."
+        },
+        {
+          "text": "A Cidadela (The Citadel)",
+          "isCorrect": true,
+          "explanation": "Correto! A Cidadela, em Lola Sayu.\nProjetada para manter Jedi prisioneiros, com defesas formidáveis.\nA missão de resgate foi brutal e teve um custo alto. 'Missão cumprida, mas a que preço?'",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/6/6d/CitadelLolaSayu-TCW.png/revision/latest?cb=20190720000905&path-prefix=pt",
+          "imageDescription": "A imponente e sombria prisão conhecida como A Cidadela."
+        },
+        {
+          "text": "Stygeon Prime",
+          "isCorrect": false,
+          "explanation": "Stygeon Prime abrigava 'A Espiral', outra prisão Separatista, onde Darth Maul foi mantido.\nA Cidadela era diferente, especificamente anti-Jedi.\nE com um campo de energia bem problemático."
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "question": "Qual o nome da 'Criança da Força' (não Anakin) que, segundo uma antiga profecia Jedi, traria equilíbrio à Força, mas que os Sith também buscavam?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "O Pastor (The Herder)",
+          "isCorrect": false,
+          "explanation": "Isso soa mais como um título do que um nome de profecia.\nA profecia da Criança da Força é mais específica.\nE ligada a um ser de imenso poder e destino."
+        },
+        {
+          "text": "O Mortis",
+          "isCorrect": false,
+          "explanation": "Os seres de Mortis (Pai, Filho, Filha) eram personificações da Força.\nAnakin foi testado lá, mas a profecia da 'Criança' é separada.\nEmbora haja conexões temáticas, claro."
+        },
+        {
+          "text": "A Criança do Sol (Sun Child)",
+          "isCorrect": false,
+          "explanation": "Uma bela imagem, mas não o termo usado na profecia.\nA profecia fala de uma criança específica, ligada ao equilíbrio.\nE que causou muita dor de cabeça para Jedi e Sith."
+        },
+        {
+          "text": "O Escolhido (The Chosen One) - referindo-se a uma interpretação alternativa ou a um ser além de Anakin.",
+          "isCorrect": true,
+          "explanation": "Exato. Enquanto Anakin era 'O Escolhido' mais conhecido, algumas lendas e interpretações sugerem\nque o conceito poderia se aplicar a outros ou que a profecia era mais complexa.\nOs Sith certamente tinham seus próprios candidatos e interpretações.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/e/e3/Jedi_Temple_Guard_Final.png/revision/latest?cb=20160907043017&path-prefix=pt",
+          "imageDescription": "Um Guarda do Templo Jedi, protetor dos segredos e profecias da Ordem."
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "question": "Qual o nome da arma Mandaloriana ancestral, um sabre de luz de lâmina negra, símbolo de liderança para o povo Mandaloriano?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Beskad",
+          "isCorrect": false,
+          "explanation": "Beskads são espadas tradicionais Mandalorianas feitas de Beskar.\nO sabre negro é único, um artefato Jedi roubado e adaptado.\nCom uma história sangrenta e muito poder simbólico."
+        },
+        {
+          "text": "Kal (Espada Cerimonial)",
+          "isCorrect": false,
+          "explanation": "Kals são espadas cerimoniais, mas o Darksaber é uma arma de combate real.\nE um símbolo que une (ou divide) os clãs Mandalorianos.\nQuem o empunha, governa Mandalore (em teoria)."
+        },
+        {
+          "text": "Darksaber (Sabre Negro)",
+          "isCorrect": true,
+          "explanation": "Corretíssimo! O Darksaber, criado por Tarre Vizsla, o primeiro Mandaloriano Jedi.\nSua lâmina negra e som único o tornam inconfundível.\nE altamente cobiçado por quem busca poder em Mandalore.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/7/7c/Darksaber-FFGSwA.png/revision/latest?cb=20180403005902&path-prefix=pt",
+          "imageDescription": "O Darksaber, com sua característica lâmina de energia negra."
+        },
+        {
+          "text": "Lança de Beskar",
+          "isCorrect": false,
+          "explanation": "Lanças de Beskar são poderosas e podem resistir a sabres de luz.\nMas o Darksaber é uma arma de energia, um sabre de luz único.\nCom uma história que remonta à Velha República."
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "question": "Qual o nome da antiga superarma Sith, mencionada em lendas, capaz de destruir estrelas e consumir a energia vital de planetas inteiros?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Estrela da Morte",
+          "isCorrect": false,
+          "explanation": "A Estrela da Morte é imperial, não uma lenda Sith ancestral (embora use cristais Kyber).\nA superarma Sith das lendas é ainda mais... apocalíptica.\nE com um nome que soa como algo saído de um pesadelo cósmico."
+        },
+        {
+          "text": "Malevolence",
+          "isCorrect": false,
+          "explanation": "O Malevolence era um couraçado Separatista com canhões iônicos.\nTerrível, mas não no nível de destruir estrelas.\nA superarma Sith lendária era de uma escala de poder diferente."
+        },
+        {
+          "text": "Forja Estelar (Star Forge)",
+          "isCorrect": true,
+          "explanation": "Você conhece seus artefatos Sith! A Forja Estelar, uma gigantesca fábrica espacial\nque extraía energia de uma estrela e produzia frotas inteiras.\nUma criação do Império Infinito dos Rakata, depois usada pelos Sith.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/9/92/StarForge-KOTOR.png/revision/latest?cb=20190712014320&path-prefix=pt",
+          "imageDescription": "A colossal Forja Estelar orbitando uma estrela."
+        },
+        {
+          "text": "Devastador de Mundos",
+          "isCorrect": false,
+          "explanation": "Devastadores de Mundos eram máquinas imperiais que consumiam planetas para recursos.\nA Forja Estelar era mais antiga e ligada à energia estelar e produção em massa.\nUm conceito ainda mais grandioso e aterrorizante."
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "question": "Qual o nome da inteligência artificial dróide ancestral que continha um vasto conhecimento da história Jedi e Sith, procurada por Luke Skywalker em sua busca por Exegol?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "O Oráculo de Si'kla",
+          "isCorrect": false,
+          "explanation": "Isso soa como um artefato místico, não uma IA dróide.\nA inteligência que Luke procurava era mais... tecnológica.\nE provavelmente com uma voz bem antiga e cheia de bipes."
+        },
+        {
+          "text": "O Holocron de Tedryn",
+          "isCorrect": false,
+          "explanation": "Holocrons guardam conhecimento, mas a IA específica era um dróide.\nUm repositório de dados de uma era esquecida.\nQue poderia ajudar a encontrar um planeta Sith escondido."
+        },
+        {
+          "text": "AIA (Autômato de Informações Antigas)",
+          "isCorrect": false,
+          "explanation": "Um nome genérico. A IA dróide tinha um nome mais específico nas lendas e materiais de apoio.\nAlgo que sugerisse sua função de guia ou repositório.\nE sua idade avançada."
+        },
+        {
+          "text": "O Navegador Sith (Sith Wayfinder) - como um objeto contendo ou guiado por uma IA ancestral.",
+          "isCorrect": true,
+          "explanation": "Correto! O Navegador Sith era o artefato chave, e a busca por ele e por conhecimento ancestral\n(muitas vezes ligado a dróides ou IAs antigas que os interpretavam) era crucial.\nNo filme, o dróide que ajuda a traduzir a adaga, Babu Frik, acessa memórias antigas.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/a/a7/SithWayfinder-TROS.png/revision/latest?cb=20200318020817&path-prefix=pt",
+          "imageDescription": "Um Navegador Sith, artefato que guiava para Exegol."
+        }
+      ]
+    },
+    {
+      "id": "97",
+      "question": "Qual o nome da espécie humanoide senciente do planeta Utapau, caracterizada por sua pele pálida, corpos esguios e duas classes distintas: os Pau'ans (altos) e os Utai (baixos)?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Kel Dor",
+          "isCorrect": false,
+          "explanation": "Kel Dors são como Plo Koon, precisam de máscaras para respirar em atmosferas de oxigênio.\nOs habitantes de Utapau têm uma aparência bem diferente.\nMais pálida e com uma estrutura social dividida."
+        },
+        {
+          "text": "Muun",
+          "isCorrect": false,
+          "explanation": "Muuns são altos e esguios, como San Hill do Clã Bancário Intergaláctico.\nMas os Utai de Utapau são bem baixinhos e robustos.\nEles vivem em harmonia (ou quase) com os Pau'ans."
+        },
+        {
+          "text": "Pau'an e Utai",
+          "isCorrect": true,
+          "explanation": "Exatamente! Os Pau'ans, os 'Antigos' de Utapau, altos e imponentes.\nE os Utai, os trabalhadores baixinhos e com olhos grandes.\nJuntos, eles formam a sociedade de Utapau, onde Obi-Wan enfrentou Grievous.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/a/a0/PauanUtai-ROTS.png/revision/latest?cb=20130214060936&path-prefix=pt",
+          "imageDescription": "Um Pau'an e um Utai, as duas espécies nativas de Utapau."
+        },
+        {
+          "text": "Kaminoano",
+          "isCorrect": false,
+          "explanation": "Kaminoanos são os clonadores de pescoço comprido de Kamino.\nOs Pau'ans e Utai têm uma aparência e cultura totalmente diferentes.\nE vivem em um planeta de sumidouros, não oceanos."
+        }
+      ]
+    },
+    {
+      "id": "98",
+      "question": "Qual o nome do antigo Lorde Sith cujo espírito ficou preso em seu amuleto e tentou corromper Ulic Qel-Droma e Exar Kun?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Naga Sadow",
+          "isCorrect": false,
+          "explanation": "Naga Sadow foi um poderoso Lorde Sith da antiguidade, mestre da alquimia Sith.\nMas o espírito preso no amuleto que influenciou Exar Kun e Ulic foi outro.\nUm com um legado ainda mais sombrio e direto."
+        },
+        {
+          "text": "Marka Ragnos",
+          "isCorrect": false,
+          "explanation": "O espírito de Marka Ragnos apareceu para coroar Exar Kun como Lorde Sombrio.\nMas o amuleto específico que corrompeu Ulic e guiou Kun pertencia a outro Sith.\nUm que também era mestre da manipulação espiritual."
+        },
+        {
+          "text": "Freedon Nadd",
+          "isCorrect": true,
+          "explanation": "Você é um estudioso do Lado Sombrio! Freedon Nadd.\nSeu espírito permaneceu ligado a Onderon e seus artefatos por séculos.\nCorrompendo gerações e preparando o terreno para novos Lordes Sith.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/5/57/Freedon_Nadd_TotJ.jpg/revision/latest?cb=20080315025210&path-prefix=pt",
+          "imageDescription": "Representação do espírito de Freedon Nadd."
+        },
+        {
+          "text": "Darth Andeddu",
+          "isCorrect": false,
+          "explanation": "Darth Andeddu era um Lorde Sith conhecido por seus conhecimentos sobre a transferência de essência.\nEle também tinha seu próprio holocron e segredos de imortalidade.\nMas o espírito do amuleto de Onderon era de Freedon Nadd."
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "question": "Qual era o nome da Academia Imperial secreta em Carida, conhecida por treinar os Stormtroopers de elite e oficiais de comando, incluindo Han Solo por um breve período?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Academia de Arkanis",
+          "isCorrect": false,
+          "explanation": "A Academia de Arkanis era para pilotos. Carida era mais... brutal.\nFocada em formar a elite da infantaria e do comando imperial.\nCom um treinamento que quebrava os fracos (ou os fazia desertar)."
+        },
+        {
+          "text": "Academia Real Imperial (Coruscant)",
+          "isCorrect": false,
+          "explanation": "A Academia de Coruscant era prestigiosa, mas Carida era o 'moedor de carne'.\nOnde os melhores dos melhores (ou os mais sortudos) se formavam.\nE onde Han Solo aprendeu que não gostava de seguir ordens."
+        },
+        {
+          "text": "Academia Preparatória Imperial para Oficiais (Prefsbelt)",
+          "isCorrect": false,
+          "explanation": "Prefsbelt era uma academia preparatória. Carida era o nível profissional.\nOnde o treinamento era intenso e a disciplina, férrea.\nUm lugar para se tornar um Stormtrooper de verdade (ou um contrabandista)."
+        },
+        {
+          "text": "Academia Imperial de Carida",
+          "isCorrect": true,
+          "explanation": "Exato! A Academia Imperial de Carida (formalmente apenas 'Academia Imperial').\nUma das mais infames e rigorosas instituições de treinamento do Império.\nOnde apenas os mais fortes e leais (ou sortudos) sobreviviam e se destacavam.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/a/a3/Carida_Academy.jpg/revision/latest?cb=20100201025558&path-prefix=pt",
+          "imageDescription": "Símbolo ou vista da Academia Imperial em Carida."
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "question": "Durante as Guerras Clônicas, qual o nome da arma secreta Separatista, um super-tanque dróide com um canhão de ondas de choque devastador, que Ahsoka Tano e Anakin Skywalker enfrentaram em Malastare?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Tanque Ogro AAT",
+          "isCorrect": false,
+          "explanation": "O AAT (Armored Assault Tank) é um tanque Separatista comum.\nA arma secreta de Malastare era muito maior e mais... única.\nE causou um estrago considerável antes de ser detida."
+        },
+        {
+          "text": "Defoliador",
+          "isCorrect": false,
+          "explanation": "O Defoliador era uma arma que destruía matéria orgânica, usada em Ryloth.\nA superarma de Malastare era um tanque com um canhão sônico.\nProjetado para dizimar exércitos e fortificações."
+        },
+        {
+          "text": "Canhão Sônico LR1K (Tanque 'The Decimator')",
+          "isCorrect": false,
+          "explanation": "Decimator é um nome intimidador, mas a arma de Malastare tinha outro nome.\nE estava ligada à libertação de uma criatura ainda mais perigosa.\nUma consequência não intencional de seu poder."
+        },
+        {
+          "text": "O Martelo Eletropróton (Electro-proton Bomb / Supertank 'Dark Reaper')",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! Embora o 'Dark Reaper' seja mais associado ao jogo de mesmo nome,\na arma em Malastare que liberou a Besta Zillo era um super-tanque com uma bomba eletropróton.\nO conceito de uma arma devastadora que acorda algo pior é o ponto chave.",
+          "imageUrl": "https://static.wikia.nocookie.net/starwars/images/8/8d/Zillo_Beast_Malastare.jpg/revision/latest?cb=20100410014934&path-prefix=pt",
+          "imageDescription": "A Besta Zillo, despertada pela arma secreta em Malastare."
+        }
+      ]
+    }
+  ]
+}

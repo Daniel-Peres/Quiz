@@ -1,149 +1,2909 @@
 {
-    "config": {
-      "theme": "Game of Thrones",
-      "totalPoints": 1000,
-      "scoring": "points"
+  "config": {
+    "theme": "Game of Thrones e Casa do Dragão",
+    "totalPoints": 1000,
+    "scoring": "points"
+  },
+  "data": [
+    {
+      "id": "01",
+      "question": "Qual o lema da Casa Stark em 'Game of Thrones'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "O Inverno Está Chegando",
+          "isCorrect": true,
+          "explanation": "Correto! E eles não cansam de nos lembrar disso,\nmesmo quando o verão dura uma década.\nÉ tipo o 'eu te avisei' de Westeros.\nPreparem os casacos!",
+          "imageUrl": "https://www.shutterstock.com/image-vector/winter-coming-typography-tshirt-graphic-260nw-666087550.jpg",
+          "imageDescription": "O lema da Casa Stark 'Winter is Coming' sobreposto ao brasão do lobo gigante."
+        },
+        {
+          "text": "Ouça-me Rugir!",
+          "isCorrect": false,
+          "explanation": "Esse é o lema dos Lannister!\nRicos, loiros e sempre pagando suas dívidas...\n...ou pelo menos é o que dizem.\nMas o rugido deles é mais um 'onde está meu ouro?'."
+        },
+        {
+          "text": "Fogo e Sangue",
+          "isCorrect": false,
+          "explanation": "Targaryen na área! Este lema grita 'dragões à solta'.\nEles levam o churrasco a um nível totalmente diferente.\nMelhor não irritá-los na hora do almoço.\nOu nunca."
+        },
+        {
+          "text": "Nós Não Semeamos",
+          "isCorrect": false,
+          "explanation": "Esse é dos Greyjoy, os piratas mal-humorados de Westeros.\nEles preferem pegar dos outros do que plantar.\nBasicamente, o 'delivery' deles é um navio de guerra.\nPraticidade é tudo!"
+        }
+      ]
     },
-    "data": [
-      {
-        "question": "Qual casa de Westeros, conhecida por seu lema 'Winter is Coming', governa o Norte?",
-        "level": "fácil",
-        "options": [
-          {
-            "text": "Lannister",
-            "isCorrect": false,
-            "explanation": "Nããão, os Lannisters são de Casterly Rock, com 'Hear Me Roar' e muito ouro. O Norte é mais frio e tem lobos no brasão!"
-          },
-          {
-            "text": "Stark",
-            "isCorrect": true,
-            "explanation": "Você é um verdadeiro Lorde do Norte! A Casa Stark, de Winterfell, com seu lema 'Winter is Coming', é liderada por Ned, Jon e cia., sempre enfrentando o frio e traições. O lobo corre forte em você, parabéns!",
-            "imageUrl": "https://www.hbo.com/content/dam/hbodata/series/game-of-thrones/houses/stark sigil.jpg",
-            "imageDescription": "Imagem do brasão da Casa Stark, com um lobo cinzento em fundo branco, simbolizando a força e resiliência do Norte em Game of Thrones."
-          },
-          {
-            "text": "Targaryen",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! Targaryens são os dragões de 'Fire and Blood', não do Norte. Tente uma casa mais gelada e leal!"
-          },
-          {
-            "text": "Baratheon",
-            "isCorrect": false,
-            "explanation": "Nããão, Baratheons são de Storm’s End, com cervos e ‘Ours is the Fury’. O Norte tem outra vibe, mais invernal!"
-          }
-        ]
-      },
-      {
-        "question": "Qual personagem, conhecido como 'Bastardo de Winterfell', é revelado como herdeiro do Trono de Ferro?",
-        "level": "médio",
-        "options": [
-          {
-            "text": "Theon Greyjoy",
-            "isCorrect": false,
-            "explanation": "Nããão, Theon é das Ilhas de Ferro, não de Winterfell, e sua história é mais... complicada. Tente um bastardo com sangue de dragão!"
-          },
-          {
-            "text": "Jon Snow",
-            "isCorrect": true,
-            "explanation": "Você sabe de nada... e acertou! Jon Snow, o 'Bastardo de Winterfell', é revelado como Aegon Targaryen, herdeiro do Trono de Ferro. De lobo a dragão, ele é o herói que Westeros merece. Parabéns, Guardião da Muralha!",
-            "imageUrl": "https://www.hbo.com/content/dam/hbodata/series/game-of-thrones/characters/jon-snow.jpg",
-            "imageDescription": "Imagem de Jon Snow com sua espada Garra e capa preta, em um cenário nevado, representando sua jornada em Game of Thrones."
-          },
-          {
-            "text": "Ramsay Bolton",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! Ramsay é um bastardo cruel, mas não de Winterfell nem herdeiro. Tente alguém mais nobre e menos psicopata!"
-          },
-          {
-            "text": "Gendry",
-            "isCorrect": false,
-            "explanation": "Nããão, Gendry é bastardo de Robert Baratheon, não de Winterfell. Tente o cara que enfrenta White Walkers!"
-          }
-        ]
-      },
-      {
-        "question": "Qual criatura mítica, extinta por séculos, é trazida de volta por Daenerys Targaryen?",
-        "level": "fácil",
-        "options": [
-          {
-            "text": "White Walker",
-            "isCorrect": false,
-            "explanation": "Nããão, White Walkers são os zumbis de gelo do Norte, não extintos. Tente algo mais... quente e alado!"
-          },
-          {
-            "text": "Dragão",
-            "isCorrect": true,
-            "explanation": "Dracarys, você acertou! Daenerys Targaryen traz dragões de volta, chocando Drogon, Rhaegal e Viserion. Essas feras aladas cospem fogo e roubam a cena em Westeros. Parabéns, Mãe dos Dragões!",
-            "imageUrl": "https://www.hbo.com/content/dam/hbodata/series/game-of-thrones/creatures/dragon.jpg",
-            "imageDescription": "Imagem de Drogon, o dragão de Daenerys, voando com asas abertas e fogo na boca, simbolizando o poder dos Targaryens em Game of Thrones."
-          },
-          {
-            "text": "Lobo gigante",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! Lobos gigantes são dos Starks, e nunca estiveram extintos. Tente algo mais lendário e escamoso!"
-          },
-          {
-            "text": "Kraken",
-            "isCorrect": false,
-            "explanation": "Nããão, krakens são lendas das Ilhas de Ferro, não trazidos de volta. Tente algo que voa e queima!"
-          }
-        ]
-      },
-      {
-        "question": "Qual batalha de 2019, na última temporada, mostrou a luta contra o Rei da Noite e seus White Walkers?",
-        "level": "difícil",
-        "options": [
-          {
-            "text": "Batalha dos Bastardos",
-            "isCorrect": false,
-            "explanation": "Nããão, a Batalha dos Bastardos foi contra Ramsay Bolton, não zumbis. Tente uma batalha mais... gelada e sobrenatural!"
-          },
-          {
-            "text": "Batalha de Winterfell",
-            "isCorrect": true,
-            "explanation": "Você enfrentou a escuridão e venceu! A Batalha de Winterfell, em 2019, foi o confronto épico contra o Rei da Noite, com Jon, Arya e cia. lutando na neve. Arya deu o golpe final, provando que até o inverno tem medo dela. Parabéns, herói!",
-            "imageUrl": "https://www.hbo.com/content/dam/hbodata/series/game-of-thrones/episodes/s8/e3/battle-of-winterfell.jpg",
-            "imageDescription": "Imagem da Batalha de Winterfell, com guerreiros enfrentando White Walkers na neve, iluminados por fogo, capturando a tensão do confronto de 2019."
-          },
-          {
-            "text": "Saque de Porto Real",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! O Saque de Porto Real foi contra Cersei, não o Rei da Noite. Tente algo mais ao norte e congelante!"
-          },
-          {
-            "text": "Batalha da Água Negra",
-            "isCorrect": false,
-            "explanation": "Nããão, Água Negra foi com fogovivo em Porto Real. Tente uma batalha com mortos-vivos e dragões!"
-          }
-        ]
-      },
-      {
-        "question": "Qual personagem, conhecido como 'Mindinho', manipulou eventos em Westeros até sua execução pelos Starks?",
-        "level": "médio",
-        "options": [
-          {
-            "text": "Varys",
-            "isCorrect": false,
-            "explanation": "Nããão, Varys é o Mestre dos Sussurros, mais leal ao reino. Tente alguém mais traiçoeiro, com um apelido de dedo!"
-          },
-          {
-            "text": "Petyr Baelish",
-            "isCorrect": true,
-            "explanation": "Você desmascarou o vilão! Petyr Baelish, o Mindinho, manipulou todos em Westeros com suas intrigas, até os Starks o julgarem. De bordéis a tronos, ele jogou o jogo... e perdeu. Parabéns, mestre das intrigas!",
-            "imageUrl": "https://www.hbo.com/content/dam/hbodata/series/game-of-thrones/characters/petyr-baelish.jpg",
-            "imageDescription": "Imagem de Petyr Baelish, o Mindinho, com um sorriso astuto, em um cenário de Porto Real, representando sua natureza manipuladora em Game of Thrones."
-          },
-          {
-            "text": "Tyrion Lannister",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! Tyrion é esperto, mas não tão traiçoeiro. Tente alguém mais ardiloso e menos amante de vinho!"
-          },
-          {
-            "text": "Littlefinger",
-            "isCorrect": false,
-            "explanation": "Ops, Littlefinger é o apelido, mas queremos o nome real! Tente o cara que manipulou até o caos em Westeros!"
-          }
-        ]
-      }
-    ]
-  }
+    {
+      "id": "02",
+      "question": "Qual substância foi usada para destruir o Grande Septo de Baelor em Porto Real por Cersei Lannister?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Fogo de Dragão",
+          "isCorrect": false,
+          "explanation": "Quase! Dragões causam um estrago parecido,\nmas Cersei não tinha um delivery de dragões disponível.\nEla optou por algo mais... subterrâneo.\nE explosivo!"
+        },
+        {
+          "text": "Fogovivo",
+          "isCorrect": true,
+          "explanation": "Exato! O famoso 'cheirinho verde' que explode.\nCersei realmente sabe como acender uma festa.\nOu, no caso, acabar com ela e com todos os seus inimigos.\nBoom!",
+          "imageUrl": "https://www.gettyimages.com.br/detail/foto/game-of-thrones-the-winds-of-winter-imagem-royalty-free/1137892121",
+          "imageDescription": "Cena da explosão do Grande Septo de Baelor com Fogovivo em Game of Thrones."
+        },
+        {
+          "text": "Piche Inflamável",
+          "isCorrect": false,
+          "explanation": "Piche é bom para grudar, não para explodir com tanto estilo.\nCersei precisava de algo com mais 'oomph'.\nAlgo que dissesse 'adeus, inimigos' em letras garrafais verdes.\nE ela conseguiu."
+        },
+        {
+          "text": "Pólvora Comum",
+          "isCorrect": false,
+          "explanation": "Pólvora? Que amadorismo! Cersei é mais sofisticada.\nEla usou a receita secreta dos piromantes.\nAlgo que faz 'KABOOM' e deixa todo mundo de queixo caído.\nLiteralmente, para alguns."
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "question": "Em 'House of the Dragon', quem foi o primeiro Lorde Comandante da Guarda Real de Viserys I, conhecido por sua lealdade e substituído por Sor Criston Cole após sua morte?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Sor Harrold Westerling",
+          "isCorrect": true,
+          "explanation": "Acertou em cheio! Um verdadeiro escudo juramentado.\nLeal até o fim, um exemplo para a Guarda Real.\nInfelizmente, nem toda maçã cai perto da árvore de lealdade...\nné, Sor Criston?",
+          "imageUrl": "https://www.gettyimages.com.br/detail/foto/graham-mctavish-attends-the-sky-group-premiere-imagem-royalty-free/1413656562",
+          "imageDescription": "Ator Graham McTavish, que interpreta Sor Harrold Westerling em House of the Dragon."
+        },
+        {
+          "text": "Sor Ryam Redwyne",
+          "isCorrect": false,
+          "explanation": "Sor Ryam foi um grande Lorde Comandante, mas para o Rei Jaehaerys I.\nUma lenda em seu próprio tempo, mas não o que procuramos aqui.\nEle já tinha pendurado as chuteiras (ou a armadura).\nOu quase."
+        },
+        {
+          "text": "Sor Steffon Darklyn",
+          "isCorrect": false,
+          "explanation": "Sor Steffon serviu Viserys I e foi leal aos Negros,\nmas não era o Lorde Comandante no início do reinado.\nEle guardou a coroa de Aegon por um tempo.\nUm bom rapaz, mas não o primeiro."
+        },
+        {
+          "text": "Sor Erryk Cargyll",
+          "isCorrect": false,
+          "explanation": "Sor Erryk e seu irmão Arryk foram figuras trágicas na Dança,\nmas Harrold Westerling já liderava a Guarda antes.\nEsses gêmeos tiveram um final bem complicado.\nLealdades divididas, sabe como é."
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "question": "Qual destes não é um dos dragões de Daenerys Targaryen?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Drogon",
+          "isCorrect": false,
+          "explanation": "Drogon é o maior e mais feroz, o garanhão negro de Daenerys.\nEle cospe fogo e não aceita 'não' como resposta.\nDefinitivamente um dos filhotes dela.\nO preferido, talvez?"
+        },
+        {
+          "text": "Viserion",
+          "isCorrect": false,
+          "explanation": "Viserion, nomeado em homenagem ao irmão Viserys, era um dos três.\nTeve um destino... gelado e azulado, digamos.\nMas começou como um dragãozinho da Dany.\nCoisas que acontecem."
+        },
+        {
+          "text": "Balerion",
+          "isCorrect": true,
+          "explanation": "Balerion, o Terror Negro! Dragão lendário, mas de Aegon, o Conquistador.\nDaenerys nasceu muito depois do tempo dele.\nEste aqui é história antiga, não da turma da Dany.\nUm vovô dos dragões!",
+          "imageUrl": "https://www.gettyimages.com.br/detail/ilustra%C3%A7%C3%A3o/balerion-the-black-dread-dragon-with-rider-ilustra%C3%A7%C3%A3o-royalty-free/1294421782",
+          "imageDescription": "Ilustração de Balerion, o Terror Negro, lendário dragão da Casa Targaryen."
+        },
+        {
+          "text": "Rhaegal",
+          "isCorrect": false,
+          "explanation": "Rhaegal, o esverdeado, nomeado em homenagem ao irmão Rhaegar.\nTambém um dos trigêmeos alados de Daenerys.\nVoou pelos céus e participou de muitas aventuras.\nAté que não participou mais."
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "question": "Quem é o personagem principal em 'Game of Thrones' que é exilado para a Patrulha da Noite no início da série?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Robb Stark",
+          "isCorrect": false,
+          "explanation": "Robb Stark virou o Rei do Norte, não um patrulheiro.\nEle tinha outros lobos para caçar, ou melhor, leões.\nSeu caminho foi para o sul, não para a Muralha.\nE terminou... bem, você sabe."
+        },
+        {
+          "text": "Theon Greyjoy",
+          "isCorrect": false,
+          "explanation": "Theon teve seus... problemas, mas não foi para a Patrulha.\nEle foi 'hóspede' dos Stark e depois fez escolhas ruins.\nSua jornada foi mais sobre perder partes do que ganhar um manto negro.\nQue dó."
+        },
+        {
+          "text": "Jaime Lannister",
+          "isCorrect": false,
+          "explanation": "Jaime? Na Patrulha? Com aquele cabelo?\nEle era da Guarda Real, um cavaleiro dourado (literalmente).\nA Muralha é muito fria para o gosto dele.\nE não tem espelhos suficientes."
+        },
+        {
+          "text": "Jon Snow",
+          "isCorrect": true,
+          "explanation": "Exatamente! O bastardo de Winterfell que não sabia de nada.\nMas aprendeu muito na Muralha e além.\nTrocou o conforto duvidoso de casa pelo frio eterno.\nHerói!",
+          "imageUrl": "https://www.shutterstock.com/image-photo/los-angeles-ca-september-22-kit-260nw-1511620880.jpg",
+          "imageDescription": "Kit Harington como Jon Snow em Game of Thrones, com vestes da Patrulha da Noite."
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "question": "Qual o nome do continente principal onde se passa a maior parte da trama de 'Game of Thrones' e 'House of the Dragon'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Essos",
+          "isCorrect": false,
+          "explanation": "Essos é o vasto continente a leste, lar dos Dothraki e das Cidades Livres.\nDaenerys passou um bom tempo por lá.\nMas o Trono de Ferro fica do outro lado do Mar Estreito.\nViagem longa!"
+        },
+        {
+          "text": "Westeros",
+          "isCorrect": true,
+          "explanation": "Corretíssimo! Onde os Sete Reinos disputam o poder.\nE onde o inverno está sempre chegando.\nÉ o palco principal de todas as intrigas e batalhas.\nNão faltam emoções por lá!",
+          "imageUrl": "https://www.shutterstock.com/image-vector/westeros-map-poster-fantasy-world-260nw-1431010490.jpg",
+          "imageDescription": "Mapa estilizado de Westeros, o continente principal de Game of Thrones."
+        },
+        {
+          "text": "Sothoryos",
+          "isCorrect": false,
+          "explanation": "Sothoryos? Continente misterioso e perigoso ao sul.\nPouco explorado, cheio de selvas e doenças.\nMelhor deixar quieto e ficar por Westeros mesmo.\nOu nem isso, dependendo do dia."
+        },
+        {
+          "text": "Ulthos",
+          "isCorrect": false,
+          "explanation": "Ulthos é ainda mais misterioso que Sothoryos, lá no leste distante.\nNinguém sabe direito o que tem por lá.\nProvavelmente mais coisas querendo te matar.\nVamos focar em Westeros, que já dá trabalho suficiente."
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "question": "Qual Casa Nobre de Westeros tem um leão como símbolo e 'Ouça-me Rugir!' como lema?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Casa Baratheon",
+          "isCorrect": false,
+          "explanation": "Os Baratheon têm um veado coroado e o lema 'Nossa é a Fúria'.\nSão fortes e temperamentais, mas o rugido é de outra família.\nRobert até casou com uma Lannister, mas o lema não pegou.\nConfusões de família."
+        },
+        {
+          "text": "Casa Targaryen",
+          "isCorrect": false,
+          "explanation": "Os Targaryen são dos dragões de três cabeças e 'Fogo e Sangue'.\nEles preferem queimar a rugir, geralmente.\nUma abordagem mais... direta.\nE quente."
+        },
+        {
+          "text": "Casa Lannister",
+          "isCorrect": true,
+          "explanation": "Acertou! Os Lannisters de Rochedo Casterly são os dos leões.\nEles sempre pagam suas dívidas... e adoram ouro!\nE não se meta com os filhotes da leoa Cersei.\nRrrroar!",
+          "imageUrl": "https://www.shutterstock.com/image-vector/golden-lion-on-red-background-260nw-1097998331.jpg",
+          "imageDescription": "Brasão da Casa Lannister: um leão dourado em campo carmesim."
+        },
+        {
+          "text": "Casa Tyrell",
+          "isCorrect": false,
+          "explanation": "Os Tyrell de Jardim de Cima usam uma rosa dourada e 'Crescendo Fortes'.\nSão mais sutis, preferem as intrigas da corte e casamentos arranjados.\nMenos rugido, mais perfume.\nE espinhos escondidos."
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "question": "Em 'House of the Dragon', qual é a principal causa do conflito conhecido como 'A Dança dos Dragões'?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Uma invasão dos Ândalos.",
+          "isCorrect": false,
+          "explanation": "Os Ândalos invadiram Westeros milênios antes!\nA Dança é uma briga de família, não uma invasão externa.\nEles já tinham se estabelecido há muito tempo.\nHistória antiga essa."
+        },
+        {
+          "text": "A disputa pela sucessão ao Trono de Ferro entre Rhaenyra Targaryen e Aegon II Targaryen.",
+          "isCorrect": true,
+          "explanation": "Bingo! A morte do Rei Viserys I acendeu o pavio.\nIrmã contra meio-irmão, dragão contra dragão.\nUma guerra civil que dividiu o reino e os Targaryen.\nConfusão e gritaria (e fogo)!",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/poster-for-the-hbo-series-house-of-the-dragon-is-fotografia-de-not%C3%ADcias/1407608771",
+          "imageDescription": "Poster promocional de House of the Dragon destacando a rivalidade e os dragões."
+        },
+        {
+          "text": "A Rebelião de Robert Baratheon.",
+          "isCorrect": false,
+          "explanation": "A Rebelião de Robert aconteceu quase 200 anos DEPOIS da Dança.\nEssa foi a que tirou os Targaryen do poder.\nA Dança foi uma briga interna deles pelo poder.\nLinhas do tempo são importantes!"
+        },
+        {
+          "text": "A ameaça dos Caminhantes Brancos.",
+          "isCorrect": false,
+          "explanation": "Os Caminhantes Brancos são uma ameaça muito antiga, e depois futura.\nDurante a Dança, o problema era bem mais 'quente' e escamoso.\nEles estavam ocupados demais se matando para se preocupar com o gelo.\nPrioridades, né?"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "question": "Qual personagem de 'Game of Thrones' era conhecido como 'O Regicida'?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Ned Stark",
+          "isCorrect": false,
+          "explanation": "Ned Stark? O poço da honra?\nEle até decapitou gente, mas não um rei que ele jurou proteger.\nEsse apelido não combina com o perfil dele.\nCoitado do Ned."
+        },
+        {
+          "text": "Stannis Baratheon",
+          "isCorrect": false,
+          "explanation": "Stannis queria ser rei, e até matou o irmão com magia de sombra.\nMas 'Regicida' não foi o apelido que pegou.\nEle era mais o 'Rei Que Rangia os Dentes'.\nSempre sério."
+        },
+        {
+          "text": "Jaime Lannister",
+          "isCorrect": true,
+          "explanation": "Ele mesmo! Sor Jaime Lannister, por matar o Rei Louco Aerys II Targaryen.\nUm apelido que o perseguiu por toda a vida.\nÀs vezes, fazer a coisa certa (ou errada?) te marca para sempre.\nComplexo, o rapaz.",
+          "imageUrl": "https://www.gettyimages.com.br/detail/foto/nikolaj-coster-waldau-stars-as-jaime-lannister-imagem-royalty-free/185224217",
+          "imageDescription": "Nikolaj Coster-Waldau como Jaime Lannister, o Regicida."
+        },
+        {
+          "text": "Tyrion Lannister",
+          "isCorrect": false,
+          "explanation": "Tyrion matou o pai, o que é bem chocante (literalmente, no caso).\nMas 'Regicida' se refere a matar um rei.\nEle colecionou outros apelidos, como 'Duende'.\nMas não esse."
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Qual era o nome do cavalo branco de Daenerys Targaryen, um presente de Khal Drogo?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Estrela Prateada",
+          "isCorrect": false,
+          "explanation": "Um nome poético, mas não o da égua dela.\nA égua era tão bela quanto a lua, diziam.\nMas o nome era mais simples e direto.\nQuase isso!"
+        },
+        {
+          "text": "Alvorada",
+          "isCorrect": false,
+          "explanation": "Alvorada soa como um nome de espada famosa, não de cavalo.\nEmbora a égua fosse rápida como o amanhecer.\nContinue tentando, está perto do significado!\nMas não do nome."
+        },
+        {
+          "text": "Ventania",
+          "isCorrect": false,
+          "explanation": "Rápida como o vento, certamente era.\nMas 'Ventania' não foi o nome escolhido por Daenerys.\nDrogo deu um presente especial, com um nome especial.\nPense em prata!"
+        },
+        {
+          "text": "Prata",
+          "isCorrect": true,
+          "explanation": "Correto! Uma linda égua prateada que Drogo lhe deu.\nSimples, elegante e combinava com seus cabelos.\nInfelizmente, sua jornada foi curta, como muitas em Essos.\nMas era um belo animal.",
+          "imageUrl": "https://www.imdb.com/title/tt0944947/mediaindex/rm1370020096/",
+          "imageDescription": "Daenerys Targaryen montando sua égua prateada, um presente de Khal Drogo."
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "question": "Quem matou o Rei da Noite em 'Game of Thrones'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Jon Snow",
+          "isCorrect": false,
+          "explanation": "Jon lutou bravamente contra ele, quase foi de base!\nMas o golpe final veio de outra mão ágil.\nO Rei da Noite subestimou os pequenos.\nClássico erro de vilão."
+        },
+        {
+          "text": "Daenerys Targaryen",
+          "isCorrect": false,
+          "explanation": "Dany e seus dragões deram um trabalhão, tostaram muitos mortos!\nMas o Rei da Noite era resistente ao fogo (de dragão, pelo menos).\nEla ajudou a limpar o campo, mas o 'checkmate' foi de outra pessoa.\nDracarys não foi o suficiente."
+        },
+        {
+          "text": "Arya Stark",
+          "isCorrect": true,
+          "explanation": "A pequena grande assassina! Com um truque de adaga,\nArya mandou o Rei da Noite e seu exército para o beleléu.\n'Hoje não', disse ela para o Deus da Morte (e para o Inverno).\nQue manobra!",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/episode-3-maisie-williams-as-arya-stark-photo-fotografia-de-not%C3%ADcias/1140670875",
+          "imageDescription": "Arya Stark no momento crucial da Batalha de Winterfell, prestes a derrotar o Rei da Noite."
+        },
+        {
+          "text": "Bran Stark",
+          "isCorrect": false,
+          "explanation": "Bran serviu de isca, o Corvo de Três Olhos com o alvo nas costas.\nEle sabia o que ia acontecer, provavelmente.\nMas a ação ficou por conta da irmã.\n'Eu vou ser isca', disse o garoto visionário."
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "question": "Qual é o nome da espada de aço Valiriano de Jon Snow?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Gelo",
+          "isCorrect": false,
+          "explanation": "Gelo era a espada ancestral da Casa Stark, empunhada por Ned.\nUma belezura de espadão, mas foi... encurtada, digamos.\nE depois reforjada. Jon usou outra.\nLágrimas de Stark."
+        },
+        {
+          "text": "Garralonga",
+          "isCorrect": true,
+          "explanation": "Isso aí! Presente do Lorde Comandante Mormont.\nUma espada com história e uma nova cabeça de lobo no pomo.\nPerfeita para caçar Caminhantes Brancos.\nE cortar umas cordas também.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/sword-long-claw-game-thrones-260nw-1436493890.jpg",
+          "imageDescription": "Réplica da espada Garralonga (Longclaw) de Jon Snow, com o pomo de lobo."
+        },
+        {
+          "text": "Agulha",
+          "isCorrect": false,
+          "explanation": "Agulha é a espada fina e ágil de Arya Stark.\nPerfeita para o estilo 'dança da água' dela.\nNão combina muito com o estilo mais... direto de Jon.\n'Enfie-os com a ponta fina!'"
+        },
+        {
+          "text": "Lamento da Viúva",
+          "isCorrect": false,
+          "explanation": "Lamento da Viúva foi uma das espadas reforjadas de Gelo.\nJoffrey que deu esse nome simpático.\nCoube a outros Lannisters depois.\nDefinitivamente não é a de Jon."
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "question": "Em 'House of the Dragon', qual era a doença que afligia o Rei Viserys I Targaryen, causando sua deterioração física progressiva?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Escamagris",
+          "isCorrect": false,
+          "explanation": "Escamagris transforma a pele em pedra, é horrível!\nMas não foi isso que pegou o Rei Viserys.\nEle teve seus problemas de pele, mas de outra natureza.\nMenos pedra, mais... decomposição."
+        },
+        {
+          "text": "Febre do Inverno",
+          "isCorrect": false,
+          "explanation": "A Febre do Inverno é uma doença que varre durante invernos rigorosos.\nViserys reinou em tempos de relativa paz e verão.\nSeu mal era mais pessoal e persistente.\nNão era um resfriado forte."
+        },
+        {
+          "text": "Uma forma de lepra ou infecção necrosante",
+          "isCorrect": true,
+          "explanation": "Correto! Embora não nomeada explicitamente como 'lepra' moderna,\nViserys sofria de uma doença degenerativa que causava necrose.\nPerdendo dedos, pele, um olho... foi definhando aos poucos.\nQue sofrimento real!",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/in-this-screengrab-paddy-considine-accepts-the-fotografia-de-not%C3%ADcias/1458071583",
+          "imageDescription": "Paddy Considine como Rei Viserys I em avançado estado de sua doença em House of the Dragon."
+        },
+        {
+          "text": "Envenenamento lento por arsênico",
+          "isCorrect": false,
+          "explanation": "Teorias da conspiração sempre surgem, né?\nMas a doença de Viserys parecia ser de causas naturais (ou mágicas desconhecidas).\nNinguém precisou envenená-lo; o corpo dele já estava fazendo o serviço.\nTriste fim."
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "question": "Qual personagem de 'Game of Thrones' é conhecido por sua baixa estatura e grande inteligência, sendo frequentemente chamado de 'Duende'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Varys",
+          "isCorrect": false,
+          "explanation": "Varys, o Aranha Mestre dos Sussurros, é careca e eunuco.\nMas sua estatura é normal, só suas informações que são gigantescas.\nEle sabe de tudo, mas não é o Duende.\n'Passarinhos' por toda parte."
+        },
+        {
+          "text": "Tyrion Lannister",
+          "isCorrect": true,
+          "explanation": "Ele mesmo! O mais sagaz (e talvez o mais bebido) dos Lannisters.\nO que lhe falta em altura, sobra em cérebro e sarcasmo.\n'Eu bebo e sei das coisas.'\nUm gigante entre os homens, metaforicamente.",
+          "imageUrl": "https://www.adorocinema.com/series/serie-7157/fotos/detalhe/?cmediafile=21240756",
+          "imageDescription": "Peter Dinklage como Tyrion Lannister, com uma taça de vinho, em Game of Thrones."
+        },
+        {
+          "text": "Petyr Baelish 'Mindinho'",
+          "isCorrect": false,
+          "explanation": "Mindinho era mestre em manipular e subir na vida.\nMas sua estatura era comum, só suas ambições que eram enormes.\nEle tinha um bordel, não problemas de altura.\nCaos é uma escada."
+        },
+        {
+          "text": "Samwell Tarly",
+          "isCorrect": false,
+          "explanation": "Sam é mais cheinho e intelectual, mas não um anão.\nEle adora livros e tem um coração de ouro.\nMatou um Caminhante Branco, o corajoso!\nMas o apelido 'Duende' não é dele."
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "question": "Qual o nome da fortaleza ancestral da Casa Targaryen em Westeros, construída com magia valiriana antes da Perdição, e que se tornou seu principal assento após a fuga de Valíria?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Harrenhal",
+          "isCorrect": false,
+          "explanation": "Harrenhal é uma fortaleza gigantesca e amaldiçoada, mas construída por Harren, o Negro.\nOs Targaryen a conquistaram com dragões, não a construíram como refúgio da Perdição.\nMuito grande e assombrada.\nNão era o lar original deles em Westeros."
+        },
+        {
+          "text": "Pedra do Dragão (Dragonstone)",
+          "isCorrect": true,
+          "explanation": "Exatamente! Dragonstone era o posto mais ocidental de Valíria em Westeros.\nConstruída com magia valiriana, tornou-se o refúgio dos Targaryen antes da Perdição.\nLar ancestral e estratégico.\nCheia de gárgulas e obsidiana.",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/the-dragonstone-set-during-a-visit-to-the-game-fotografia-de-not%C3%ADcias/1137892194",
+          "imageDescription": "O imponente castelo de Pedra do Dragão (Dragonstone) como visto na série."
+        },
+        {
+          "text": "Valyria",
+          "isCorrect": false,
+          "explanation": "Valyria era a cidade capital do império valiriano em Essos, não uma fortaleza em Westeros.\nFoi completamente destruída pela Perdição.\nUm lugar de mistério e ruínas fumegantes.\nNão vá nadar por lá."
+        },
+        {
+          "text": "Fortaleza Vermelha",
+          "isCorrect": false,
+          "explanation": "A Fortaleza Vermelha foi construída por Aegon, o Conquistador, em Porto Real.\nBem DEPOIS da Perdição e da chegada dos Targaryen a Pedra do Dragão.\nÉ o assento do Trono de Ferro, não o refúgio original.\nConstruída para durar (até que não dure)."
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "question": "Em 'Game of Thrones', qual é o nome do grupo de habitantes que vivem Para-Lá-da-Muralha e não se submetem aos reis de Westeros?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Os Imaculados",
+          "isCorrect": false,
+          "explanation": "Os Imaculados são soldados eunucos de elite, comprados em Astapor.\nConhecidos por sua disciplina e lealdade a Daenerys.\nEles vêm de Essos, não do Norte gelado.\nMuito disciplinados para serem o Povo Livre."
+        },
+        {
+          "text": "Os Dothraki",
+          "isCorrect": false,
+          "explanation": "Os Dothraki são cavaleiros nômades do Mar Dothraki em Essos.\nEles seguem o mais forte e amam seus cavalos.\nDefinitivamente não são do gelo.\nMuito sol e pouca neve para eles."
+        },
+        {
+          "text": "O Povo Livre",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! Eles se autodenominam o Povo Livre.\nOs sulistas os chamam de 'selvagens', mas eles só não se ajoelham para ninguém.\nLiderados por um tempo por Mance Rayder.\nLivres, porém friorentos.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/kristofer-hivju-tormund-giantsbane-game-260nw-698151832.jpg",
+          "imageDescription": "Kristofer Hivju como Tormund Giantsbane, um conhecido membro do Povo Livre."
+        },
+        {
+          "text": "A Irmandade Sem Bandeiras",
+          "isCorrect": false,
+          "explanation": "A Irmandade Sem Bandeiras opera nas Terras Fluviais.\nSeguidores do Senhor da Luz, liderados por Beric Dondarrion (e suas muitas vidas).\nEles lutam pelos camponeses, não vivem no extremo norte.\nFora da lei, mas com um propósito (divino?)."
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "question": "Durante a Dança dos Dragões, qual foi o nome do pacto crucial entre o Príncipe Jacaerys Velaryon e Cregan Stark, que assegurou o apoio militar do Norte para a facção dos Negros?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "O Pacto do Dragão e do Lobo",
+          "isCorrect": false,
+          "explanation": "Um nome bem apropriado e descritivo para a aliança!\nMas os meistres, em sua sabedoria, registraram outro nome oficial.\nQuase lá na ideia, mas a nomenclatura é outra.\nContinue pensando em gelo e fogo!"
+        },
+        {
+          "text": "A Promessa de Winterfell",
+          "isCorrect": false,
+          "explanation": "Soa poético e remete ao lar dos Stark, mas não foi este o termo.\nA promessa envolvia mais do que um local, era um acordo de sangue e guerra.\nO Norte se lembra, mas de um pacto com outro nome.\nTente de novo!"
+        },
+        {
+          "text": "O Pacto de Gelo e Fogo",
+          "isCorrect": true,
+          "explanation": "Corretíssimo! O Pacto de Gelo e Fogo foi selado entre Jace e Cregan Stark.\nJacaerys prometeu uma princesa Targaryen em casamento para o herdeiro Stark em troca do apoio vital do Norte.\nUm acordo que moldou a guerra.\nQuando o gelo e o fogo se unem, a história é feita!",
+          "imageUrl": "https://www.vanityfair.com/hollywood/photos/2019/02/game-of-thrones-season-8-photos/embed/60a2c725a3b2f2d9a0b3e2a5",
+          "imageDescription": "Arte conceitual representando a união de forças ou símbolos de gelo e fogo, aludindo a pactos."
+        },
+        {
+          "text": "O Juramento dos Primeiros Homens",
+          "isCorrect": false,
+          "explanation": "Esse juramento é muito mais antigo, datando da aurora dos dias em Westeros!\nRelacionado ao pacto original com os Filhos da Floresta.\nNão tem a ver com a Dança dos Dragões diretamente.\nConfundindo as eras e os acordos!"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "question": "Qual é a capital dos Sete Reinos e a cidade onde está localizado o Trono de Ferro?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Winterfell",
+          "isCorrect": false,
+          "explanation": "Winterfell é o lar ancestral dos Starks, no Norte.\nÉ grande e importante, mas não a capital de tudo.\nLá tem mais neve e menos intrigas da corte (às vezes).\nO Norte se lembra, mas o rei senta em outro lugar."
+        },
+        {
+          "text": "Lannisporto",
+          "isCorrect": false,
+          "explanation": "Lannisporto é uma grande cidade portuária perto de Rochedo Casterly.\nPrincipal cidade das Terras Ocidentais, rica e movimentada.\nMas o Trono de Ferro fica mais a leste.\nOuro corre lá, mas o poder central não."
+        },
+        {
+          "text": "Porto Real (King's Landing)",
+          "isCorrect": true,
+          "explanation": "Certíssimo! King's Landing é a capital fedorenta e populosa.\nConstruída por Aegon, o Conquistador, onde ele desembarcou pela primeira vez.\nE o Trono de Ferro, desconfortável como sempre, está lá.\nCuidado com o cheiro!",
+          "imageUrl": "https://www.shutterstock.com/image-photo/aerial-view-kings-landing-game-260nw-1932092573.jpg",
+          "imageDescription": "Vista aérea de Porto Real (King's Landing), com a Fortaleza Vermelha em destaque."
+        },
+        {
+          "text": "Vilavelha (Oldtown)",
+          "isCorrect": false,
+          "explanation": "Vilavelha (Oldtown) é a cidade mais antiga de Westeros, lar da Cidadela.\nMuito conhecimento e história, mas não o centro do poder político.\nOs meistres estudam lá, os reis governam de Porto Real.\nCheia de livros, não de reis (geralmente)."
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "question": "Quem foi o lendário fundador da Casa Baratheon, que era meio-irmão de Aegon, o Conquistador, e recebeu Ponta Tempestade após derrotar o último Rei da Tempestade?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Robert Baratheon",
+          "isCorrect": false,
+          "explanation": "Robert Baratheon liderou a rebelião que o tornou rei, séculos depois.\nEle foi um grande Baratheon, mas não o fundador da Casa.\nEle se beneficiou do trabalho dos ancestrais.\nMarteladas e vinho!"
+        },
+        {
+          "text": "Orys Baratheon",
+          "isCorrect": true,
+          "explanation": "Exato! Orys Baratheon, o fiel general e meio-irmão (segundo rumores) de Aegon.\nEle derrotou Argilac, o Arrogante, casou com sua filha Argella e adotou o brasão e o lema dos Durrandon.\nAssim nasceu a Casa Baratheon em Ponta Tempestade.\nComeços tempestuosos e vitoriosos!",
+          "imageUrl": "https://www.imdb.com/title/tt0944947/mediaviewer/rm2128023297",
+          "imageDescription": "Arte conceitual de um guerreiro Baratheon ou do castelo de Ponta Tempestade, simbolizando a casa."
+        },
+        {
+          "text": "Lyonel Baratheon, o 'Trovão Risonho'",
+          "isCorrect": false,
+          "explanation": "Lyonel Baratheon foi um cavaleiro famoso e herói de torneios.\nLutou em um Julgamento por Sete, uma figura lendária e amada.\nMas ele veio bem depois do fundador Orys.\nGrande guerreiro, mas não o primeiro da linhagem."
+        },
+        {
+          "text": "Steffon Baratheon",
+          "isCorrect": false,
+          "explanation": "Steffon Baratheon foi o pai de Robert, Stannis e Renly.\nLorde de Ponta Tempestade, mas morreu em um trágico naufrágio.\nSua morte teve grandes consequências para seus filhos e o reino.\nTrágico, mas não o fundador."
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "question": "Qual o nome da ordem religiosa militante que Cersei Lannister empodera em Porto Real, mas que eventualmente se volta contra ela, culminando na sua Caminhada da Vergonha?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Os Filhos da Harpia",
+          "isCorrect": false,
+          "explanation": "Os Filhos da Harpia eram insurgentes em Meereen, lutando contra Daenerys.\nUsavam máscaras douradas e causavam problemas em Essos.\nLonge das tramas religiosas de Porto Real.\nProblema da Dany, não da Cersei (diretamente)."
+        },
+        {
+          "text": "Os Segundos Filhos",
+          "isCorrect": false,
+          "explanation": "Os Segundos Filhos são uma famosa companhia de mercenários em Essos.\nLiderados por um tempo por Daario Naharis (para sorte de Daenerys).\nLutam por dinheiro, não por fé (geralmente).\nContratados, não fanáticos religiosos."
+        },
+        {
+          "text": "Os Pardais (Fé Militante)",
+          "isCorrect": true,
+          "explanation": "Correto! Liderados pelo Alto Pardal, eles restauraram a Fé Militante.\nCersei achou que podia usá-los como arma, mas o tiro saiu pela culatra espetacularmente.\nAcabou fazendo uma longa e humilhante caminhada da vergonha.\nShame! Shame! Shame!",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/jonathan-pryce-as-high-sparrow-in-game-of-fotografia-de-not%C3%ADcias/1137892103",
+          "imageDescription": "Jonathan Pryce como o Alto Pardal, líder dos Pardais, em Game of Thrones."
+        },
+        {
+          "text": "A Guarda Real",
+          "isCorrect": false,
+          "explanation": "A Guarda Real jura proteger o rei (ou rainha) com suas vidas.\nSão cavaleiros de elite, não fanáticos religiosos (em teoria).\nCersei tinha problemas com alguns deles, mas por outros motivos.\nEscudos Brancos, não Pardais em fúria."
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "question": "Qual é o nome do deus adorado pelos Homens Sem Rosto de Bravos, ao qual Arya Stark serve por um tempo?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "R'hllor, o Senhor da Luz",
+          "isCorrect": false,
+          "explanation": "O Senhor da Luz gosta de fogo e profecias, bem diferente.\nMelisandre seria uma sacerdotisa dele, não dos Sem Rosto.\nMuito brilho para assassinos discretos.\n'A noite é escura e cheia de terrores', não 'valar morghulis'."
+        },
+        {
+          "text": "O Deus Afogado",
+          "isCorrect": false,
+          "explanation": "Este é o deus dos Homens de Ferro, que não temem se molhar.\n'O que está morto não pode morrer', mas os Sem Rosto lidam com mortes bem permanentes.\nMuito específico das Ilhas de Ferro.\nEles preferem um bom mergulho a trocar de rosto."
+        },
+        {
+          "text": "O Deus de Muitas Faces",
+          "isCorrect": true,
+          "explanation": "Correto! Ele representa todas as divindades da morte.\nOs Homens Sem Rosto acreditam que todos os deuses da morte são apenas uma face deste.\nUm presente caro para quem quer alguém 'desaparecido'.\nValar Morghulis!",
+          "imageUrl": "https://www.imdb.com/title/tt0944947/mediaviewer/rm2614929920/",
+          "imageDescription": "O Salão das Faces na Casa do Preto e Branco em Bravos."
+        },
+        {
+          "text": "Os Sete Deuses",
+          "isCorrect": false,
+          "explanation": "A Fé dos Sete é a religião principal de Westeros.\nPai, Mãe, Guerreiro, Donzela, Velha, Ferreiro e Estranho.\nOs Sem Rosto têm uma abordagem mais... singular para a divindade.\nEles não cobram dízimo, cobram vidas."
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "question": "Como é chamada a única cidade permanente dos Dothraki, sagrada e onde é proibido derramar sangue?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Qarth",
+          "isCorrect": false,
+          "explanation": "Qarth é uma cidade rica de mercadores, com portões imponentes.\nDaenerys passou por lá, mas não é a cidade sagrada dos Dothraki.\nMuito chique e murada para eles.\nEles preferem acampamentos abertos."
+        },
+        {
+          "text": "Vaes Dothrak",
+          "isCorrect": true,
+          "explanation": "Exatamente! Onde os Dosh Khaleen, as viúvas dos Khals, residem.\nÉ proibido lutar ou carregar lâminas lá.\nUm lugar de paz forçada no meio de um povo guerreiro.\nRespeito às tradições, mesmo para eles.",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/daenerys-targaryen-emilia-clarke-is-brought-to-fotografia-de-not%C3%ADcias/1137892029",
+          "imageDescription": "Visão de Vaes Dothrak com as estátuas de cavalos na entrada."
+        },
+        {
+          "text": "Pentos",
+          "isCorrect": false,
+          "explanation": "Pentos é uma das Cidades Livres, onde Daenerys conheceu Khal Drogo.\nUma cidade de comércio, não o centro espiritual dos Dothraki.\nEles apenas 'visitam' para negócios (ou saques).\nMuito urbana para o gosto deles."
+        },
+        {
+          "text": "Meereen",
+          "isCorrect": false,
+          "explanation": "Meereen é uma das cidades da Baía dos Escravos que Daenerys conquistou.\nConhecida por suas pirâmides e... problemas com harpia.\nDefinitivamente não é Vaes Dothrak.\nLá o sangue foi bem derramado."
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "question": "Qual o nome do dedicado Meistre que serviu à Casa Stark em Winterfell durante a infância dos filhos de Ned e Catelyn?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Meistre Pycelle",
+          "isCorrect": false,
+          "explanation": "Pycelle era o Grande Meistre em Porto Real, servindo aos Lannisters (principalmente).\nUm velho bajulador e um tanto quanto suspeito.\nMuito longe de Winterfell para cuidar dos Starkinhos.\nE com uma lealdade bem diferente."
+        },
+        {
+          "text": "Meistre Aemon",
+          "isCorrect": false,
+          "explanation": "Meistre Aemon (Targaryen!) serviu na Patrulha da Noite por décadas.\nSábio e cego, uma figura respeitada na Muralha.\nMas não era o tutor dos jovens Stark.\nEle tinha outros 'corvos' para cuidar."
+        },
+        {
+          "text": "Meistre Cressen",
+          "isCorrect": false,
+          "explanation": "Meistre Cressen servia Stannis Baratheon em Pedra do Dragão.\nTeve um fim trágico tentando envenenar Melisandre.\nSua lealdade era aos Baratheon, não aos Stark.\nUm brinde... fatal."
+        },
+        {
+          "text": "Meistre Luwin",
+          "isCorrect": true,
+          "explanation": "Correto! O gentil e sábio Meistre Luwin.\nEle ensinou, curou e aconselhou os filhos Stark.\nLeal até o fim, uma figura paterna após a partida de Ned.\nUm verdadeiro guardião do conhecimento e das crianças.",
+          "imageUrl": "https://www.adorocinema.com/series/serie-7157/fotos/detalhe/?cmediafile=20282013",
+          "imageDescription": "Ator Donald Sumpter como Meistre Luwin em Game of Thrones."
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "question": "Qual é o título oficial do líder eleito da Patrulha da Noite, responsável por comandar os 'corvos' na Muralha?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Rei Para-Lá-da-Muralha",
+          "isCorrect": false,
+          "explanation": "Esse título pertence ao líder do Povo Livre, como Mance Rayder.\nO oposto da Patrulha da Noite, na verdade.\nUm une os selvagens, o outro os combate (ou tenta).\nInimigos jurados, geralmente."
+        },
+        {
+          "text": "Guardião do Norte",
+          "isCorrect": false,
+          "explanation": "Guardião do Norte é um título dos Lordes de Winterfell, como Ned Stark.\nResponsável por proteger a vasta região nortenha.\nA Patrulha é independente, embora proteja o Norte (e o resto).\nUma grande responsabilidade, mas diferente."
+        },
+        {
+          "text": "Senhor Comandante",
+          "isCorrect": true,
+          "explanation": "Exatamente! O 998º foi Jeor Mormont, seguido por Jon Snow.\nEleito pelos irmãos da Patrulha para liderá-los.\nUm cargo vitalício de grande honra e perigo.\n'E agora começa a minha vigia...'",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/lord-commander-jeor-mormont-james-cosmo-photo-fotografia-de-not%C3%ADcias/1137892093",
+          "imageDescription": "James Cosmo como Jeor Mormont, o Senhor Comandante da Patrulha da Noite."
+        },
+        {
+          "text": "Primeiro Patrulheiro",
+          "isCorrect": false,
+          "explanation": "Primeiro Patrulheiro é um cargo importante, como Benjen Stark ou Sor Alliser Thorne.\nMas está abaixo do Senhor Comandante na hierarquia.\nLidera expedições para lá da Muralha.\nUm trabalho arriscado e essencial."
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "question": "Qual animal aquático figura no sigilo da Casa Tully de Correrrio, acompanhado do lema 'Família, Dever, Honra'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Um kraken dourado",
+          "isCorrect": false,
+          "explanation": "O kraken é o símbolo temível da Casa Greyjoy das Ilhas de Ferro.\nEles são mais do tipo 'piratas do mar profundo'.\nOs Tully são de água doce, mais tranquilos (às vezes).\nLulas gigantes não combinam com rios."
+        },
+        {
+          "text": "Um cisne negro",
+          "isCorrect": false,
+          "explanation": "Cisnes são elegantes, mas não o símbolo dos Tully.\nTalvez alguma casa menor goste de cisnes, mas não os senhores de Correrrio.\nEles preferem algo mais... escorregadio.\nPense em pesca!"
+        },
+        {
+          "text": "Uma truta saltante prateada",
+          "isCorrect": true,
+          "explanation": "Correto! A truta prateada pulando em um campo listrado de azul e vermelho.\nRepresenta as ricas águas do Tridente que cercam Correrrio.\nUm símbolo de prosperidade e agilidade.\nPeixe fresco no cardápio!",
+          "imageUrl": "https://www.shutterstock.com/image-vector/fish-jumping-out-water-logo-260nw-1933486211.jpg",
+          "imageDescription": "Ilustração de uma truta saltando, similar ao sigilo da Casa Tully."
+        },
+        {
+          "text": "Um caranguejo gigante",
+          "isCorrect": false,
+          "explanation": "Caranguejos são legais, mas não para os Tully.\nTalvez a Casa Celtigar, que vive perto do mar, aprecie caranguejos.\nMas os Tully são mais de peixe de rio.\nMenos pinças, mais escamas."
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "question": "Quem é o irmão cavaleiro de Margaery Tyrell, famoso por sua beleza e habilidade em torneios, conhecido como 'O Cavaleiro das Flores'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Garlan Tyrell",
+          "isCorrect": false,
+          "explanation": "Garlan, o Galante, é o irmão mais velho, um guerreiro muito competente.\nMas 'Cavaleiro das Flores' é a alcunha do irmão mais novo.\nGarlan é mais discreto, menos exibicionista.\nMas igualmente perigoso em batalha."
+        },
+        {
+          "text": "Willas Tyrell",
+          "isCorrect": false,
+          "explanation": "Willas é o herdeiro de Jardim de Cima, inteligente e gentil.\nMas uma lesão em um torneio o deixou aleijado.\nEle aprecia cavalos e falcões, não mais justas.\nUm bom rapaz, mas não o florido."
+        },
+        {
+          "text": "Mace Tyrell",
+          "isCorrect": false,
+          "explanation": "Mace Tyrell é o pai de Margaery e Loras, Lorde de Jardim de Cima.\nUm homem ambicioso, mas não exatamente um ícone de beleza ou campeão de torneios.\nEle prefere comandar do que lutar.\nO 'Ás de Jardim de Cima', mas não o das flores."
+        },
+        {
+          "text": "Loras Tyrell",
+          "isCorrect": true,
+          "explanation": "Ele mesmo! Sor Loras Tyrell, o queridinho das multidões.\nJovem, impetuoso e muito habilidoso com a lança (e com as rosas).\nUm verdadeiro galã dos Sete Reinos.\nAté que as coisas ficaram... espinhosas.",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/finn-jones-as-loras-tyrell-photo-helen-sloan-fotografia-de-not%C3%ADcias/1137892101",
+          "imageDescription": "Finn Jones como Sor Loras Tyrell, o Cavaleiro das Flores."
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "question": "Em 'House of the Dragon' e na lore de Westeros, qual é o nome do imponente dragão negro montado por Aegon, o Conquistador, cujo imenso crânio adornava a Fortaleza Vermelha?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Vhagar",
+          "isCorrect": false,
+          "explanation": "Vhagar foi um dos três grandes dragões da Conquista, montado por Visenya.\nUm dragão antigo e poderoso, que viveu até a Dança dos Dragões.\nMas o Terror Negro era outro.\nPoderoso, mas não o 'chefe'."
+        },
+        {
+          "text": "Meraxes",
+          "isCorrect": false,
+          "explanation": "Meraxes foi o dragão de Rhaenys Targaryen, irmã-esposa de Aegon.\nTambém um dos três da Conquista, mas teve um fim trágico em Dorne.\nBelo e feroz, mas não o de Aegon.\nUma flechada no olho não é legal."
+        },
+        {
+          "text": "Balerion, o Terror Negro",
+          "isCorrect": true,
+          "explanation": "Corretíssimo! O maior dragão Targaryen que já existiu.\nSeu fogo forjou o Trono de Ferro e sua sombra cobria cidades inteiras.\nSeu crânio era uma lembrança assustadora do poder dos dragões.\nO chefão dos dragões!",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/skulls-of-dragons-lie-in-the-cellars-of-the-red-fotografia-de-not%C3%ADcias/1137892218",
+          "imageDescription": "Crânios de dragões, incluindo o de Balerion, na Fortaleza Vermelha."
+        },
+        {
+          "text": "Syrax",
+          "isCorrect": false,
+          "explanation": "Syrax era o dragão amarelo de Rhaenyra Targaryen, bem depois da Conquista.\nUm dragão fêmea, não tão grande quanto os da primeira geração.\nImportante na Dança, mas não o Terror Negro.\nOutra época, outro dragão."
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "question": "Qual o nome dado à vasta e gélida região ao extremo norte de Westeros, considerada o lar ancestral dos Outros (Caminhantes Brancos)?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "O Norte",
+          "isCorrect": false,
+          "explanation": "O Norte é uma das grandes regiões de Westeros, governada pelos Stark.\nÉ frio, sim, mas ainda habitável por humanos.\nAs Terras de Sempre Inverno ficam AINDA MAIS ao norte.\nLá o inverno realmente nunca acaba."
+        },
+        {
+          "text": "Para-Lá-da-Muralha",
+          "isCorrect": false,
+          "explanation": "Essa é a área ao norte da Muralha, habitada pelo Povo Livre.\nExtremamente fria e perigosa, mas os Outros vêm de mais longe ainda.\nÉ o quintal deles, digamos assim.\nMas a casa principal é mais ao norte."
+        },
+        {
+          "text": "Skagos",
+          "isCorrect": false,
+          "explanation": "Skagos é uma ilha grande e selvagem a leste da costa norte.\nConhecida por seus habitantes canibais (segundo rumores) e unicórnios.\nAssustadora, mas não o lar dos Outros.\nMelhor evitar, de qualquer forma."
+        },
+        {
+          "text": "As Terras de Sempre Inverno",
+          "isCorrect": true,
+          "explanation": "Exato! Um lugar de frio eterno, escuridão e magia ancestral.\nDe onde os Caminhantes Brancos surgiram durante a Longa Noite.\nNinguém são se aventura por lá.\nDeixe o gelo para os especialistas (ou para os mortos).",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/fantasy-winter-landscape-snowcovered-rocks-260nw-2096543155.jpg",
+          "imageDescription": "Paisagem ártica e desolada, representando as Terras de Sempre Inverno."
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "question": "Qual era o nome do rei Targaryen deposto por Robert Baratheon, conhecido como o 'Rei Louco' por sua crueldade e paranoia crescentes?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Aegon V Targaryen",
+          "isCorrect": false,
+          "explanation": "Aegon V, o Improvável (ou Egg), foi um bom rei, preocupado com o povo.\nBem diferente do Rei Louco.\nEle morreu na tragédia de Solarestival.\nUm rei lembrado com carinho, não com medo."
+        },
+        {
+          "text": "Jaehaerys II Targaryen",
+          "isCorrect": false,
+          "explanation": "Jaehaerys II foi o pai do Rei Louco, um rei sábio mas que reinou pouco.\nEle alertou sobre os perigos, mas seu filho não ouviu.\nUm bom governante, ofuscado pela loucura do filho.\nTal pai, nem sempre tal filho."
+        },
+        {
+          "text": "Aerys II Targaryen",
+          "isCorrect": true,
+          "explanation": "Corretíssimo! Pai de Rhaegar, Viserys e Daenerys.\nSua obsessão por fogovivo e o grito 'Queimem todos!' levaram à sua queda.\nJaime Lannister o silenciou para sempre.\nUm reinado que terminou em chamas (quase).",
+          "imageUrl": "https://www.imdb.com/title/tt0944947/mediaviewer/rm3081319937",
+          "imageDescription": "Representação artística de Aerys II Targaryen, o Rei Louco, em sua paranoia."
+        },
+        {
+          "text": "Maekar I Targaryen",
+          "isCorrect": false,
+          "explanation": "Maekar I foi pai de Aegon V e Meistre Aemon.\nUm rei severo, mas não louco.\nEle governou antes da época do Rei Louco.\nOutra geração de Targaryens."
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "question": "Qual é a temida alcunha de Sandor Clegane, o guerreiro marcado por queimaduras e irmão de Sor Gregor Clegane?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "O Montanha Que Cavalga",
+          "isCorrect": false,
+          "explanation": "Essa é a alcunha do seu irmão GIGANTE, Sor Gregor Clegane.\nSandor é grande, mas não TANTO.\nE ele tem mais personalidade (e traumas).\nDois irmãos, duas alcunhas assustadoras."
+        },
+        {
+          "text": "O Cavaleiro Sorridente",
+          "isCorrect": false,
+          "explanation": "Definitivamente não! Sorrir não é o forte de Sandor.\nEssa alcunha pertenceu a um fora da lei infame do passado.\nSandor é mais do tipo 'rosnar e praguejar'.\nMuito sisudo para sorrisos."
+        },
+        {
+          "text": "Cão de Caça (The Hound)",
+          "isCorrect": true,
+          "explanation": "Acertou! Devido ao sigilo de sua casa (três cães) e sua natureza brutal.\nUm nome que ele abraça com um certo orgulho cínico.\nLeal à sua maneira, mas sempre pronto para uma briga.\nAu au... GRRRR!",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/rory-mccann-as-sandor-clegane-the-hound-photo-fotografia-de-not%C3%ADcias/1137892173",
+          "imageDescription": "Rory McCann como Sandor Clegane, o Cão de Caça."
+        },
+        {
+          "text": "O Touro Branco",
+          "isCorrect": false,
+          "explanation": "O Touro Branco era Sor Gerold Hightower, Lorde Comandante da Guarda Real de Aerys II.\nUm cavaleiro lendário, mas não o Sandor.\nSandor nunca foi da Guarda Real (e nem branco como um touro).\nOutro guerreiro, outra era."
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "question": "Como se chama a espada de aço Valiriano que Jaime Lannister dá a Brienne de Tarth, forjada a partir da Gelo, espada ancestral dos Stark?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Lamento da Viúva",
+          "isCorrect": false,
+          "explanation": "Lamento da Viúva é a OUTRA espada forjada de Gelo.\nJoffrey a nomeou e a usou (brevemente).\nBrienne recebeu a 'irmã' dela.\nDuas espadas, dois destinos."
+        },
+        {
+          "text": "Garralonga",
+          "isCorrect": false,
+          "explanation": "Garralonga é a espada de aço Valiriano de Jon Snow.\nPresente de Jeor Mormont, com um pomo de lobo.\nUma espada nobre, mas não a de Brienne.\nCada herói com sua lâmina."
+        },
+        {
+          "text": "Agulha",
+          "isCorrect": false,
+          "explanation": "Agulha é a pequena e letal espada de Arya Stark.\nPerfeita para seu estilo de luta rápido.\nBrienne precisaria de algo um pouco... maior.\n'Enfie-os com a ponta fina', mas não essa."
+        },
+        {
+          "text": "Cumpridora de Promessas (Oathkeeper)",
+          "isCorrect": true,
+          "explanation": "Correto! Um nome que reflete a missão que Jaime lhe deu.\nE a própria natureza honrada de Brienne.\nUma lâmina com um grande legado e propósito.\nPromessas a cumprir, sempre.",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/brienne-of-tarth-gwendoline-christie-photo-helen-fotografia-de-not%C3%ADcias/1137892042",
+          "imageDescription": "Gwendoline Christie como Brienne de Tarth, segurando a espada Cumpridora de Promessas."
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "question": "Qual é o nome do filho mais velho de Ned e Catelyn Stark, que se torna o 'Rei do Norte' após a morte de seu pai?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Brandon 'Bran' Stark",
+          "isCorrect": false,
+          "explanation": "Bran é o segundo filho homem, que fica aleijado e se torna o Corvo de Três Olhos.\nSua jornada é mística, não de liderança militar (inicialmente).\nEle vê o passado, o presente e o futuro, mas não usou a coroa do Norte.\nRodas em vez de trono."
+        },
+        {
+          "text": "Rickon Stark",
+          "isCorrect": false,
+          "explanation": "Rickon é o filho mais novo, ainda uma criança durante a maior parte da saga.\nTeve um destino trágico e não chegou a liderar.\nCorreu em zigue-zague quando não devia.\nMuito jovem para ser rei."
+        },
+        {
+          "text": "Jon Snow",
+          "isCorrect": false,
+          "explanation": "Jon Snow é o filho bastardo (ou não tão bastardo assim) de Ned.\nEle também se torna Rei do Norte, mas DEPOIS de Robb.\nSua coroa veio mais tarde e com outras circunstâncias.\nO Lobo Branco, mas não o primeiro."
+        },
+        {
+          "text": "Robb Stark",
+          "isCorrect": true,
+          "explanation": "Ele mesmo! O Jovem Lobo, que liderou os nortenhos em rebelião.\nNunca perdeu uma batalha, mas perdeu a guerra (e a cabeça).\nUm líder carismático e trágico.\n'O Rei do Nooooooorte!'",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/robb-stark-richard-madden-photo-helen-sloan-hbo-fotografia-de-not%C3%ADcias/1137892159",
+          "imageDescription": "Richard Madden como Robb Stark, o Jovem Lobo e Rei do Norte."
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "question": "Em 'House of the Dragon', quem é o benevolente, porém frequentemente indeciso, rei Targaryen e pai de Rhaenyra?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Jaehaerys I Targaryen",
+          "isCorrect": false,
+          "explanation": "Jaehaerys, o Conciliador, foi o avô de Viserys.\nReinau por muito tempo e com sabedoria, mas já era falecido.\nUm grande rei, mas de outra geração.\nO Velho Rei, não o pai de Rhaenyra."
+        },
+        {
+          "text": "Aegon II Targaryen",
+          "isCorrect": false,
+          "explanation": "Aegon II é o meio-irmão de Rhaenyra, que disputa o trono com ela.\nEle é o 'usurpador' (do ponto de vista dela).\nDefinitivamente não é o pai dela, mas sim o rival.\nVerde de inveja (e de cor)."
+        },
+        {
+          "text": "Rei Viserys I Targaryen",
+          "isCorrect": true,
+          "explanation": "Correto! Um homem que desejava a paz, mas cujas decisões (e indecisões)\nlevaram à catastrófica Dança dos Dragões.\nAmava sua filha, mas o dever e a tradição o pressionavam.\nUm bom homem, mas talvez não um grande rei.",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/paddy-considine-as-king-viserys-targaryen-in-fotografia-de-not%C3%ADcias/1415830948",
+          "imageDescription": "Paddy Considine como Rei Viserys I Targaryen em House of the Dragon."
+        },
+        {
+          "text": "Daemon Targaryen",
+          "isCorrect": false,
+          "explanation": "Daemon é o irmão mais novo de Viserys I, tio e depois marido de Rhaenyra.\nO Príncipe Rebelde, imprevisível e perigoso.\nEle causa problemas para Viserys, não é ele.\nMuito caótico para ser o rei (na época)."
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "question": "Qual é o nome da mais poderosa e rica das Cidades Livres em Essos, famosa por seus banqueiros e pelo Titã que guarda seu porto?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Volantis",
+          "isCorrect": false,
+          "explanation": "Volantis é a mais antiga e populosa das Cidades Livres, com seu Muro Negro.\nMas Bravos é mais conhecida pelo poder financeiro.\nGrande e antiga, mas o dinheiro fala mais alto em Bravos.\nEscravos e tigres, não o Titã."
+        },
+        {
+          "text": "Pentos",
+          "isCorrect": false,
+          "explanation": "Pentos é uma cidade de comércio, onde Daenerys começou sua jornada.\nImportante, mas não tão influente financeiramente quanto Bravos.\nMagísteres e queijo, mas sem o Banco de Ferro.\nUm bom lugar para começar, não para dominar."
+        },
+        {
+          "text": "Myr",
+          "isCorrect": false,
+          "explanation": "Myr é conhecida por seus artesãos, especialmente rendas e vidros coloridos.\nUma cidade de belas artes, mas não de grandes bancos.\nEles fazem coisas bonitas, não controlam a economia mundial.\nVidro, não ferro (do banco)."
+        },
+        {
+          "text": "Bravos",
+          "isCorrect": true,
+          "explanation": "Exatamente! Lar do Banco de Ferro, que 'sempre recebe o que lhe é devido'.\nE do Titã de Bravos, uma colossal estátua defensiva.\nUma cidade de canais, assassinos e muita, muita grana.\nValar Dohaeris (todos os homens devem servir... ao banco?).",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/the-titan-of-braavos-a-colossal-statue-that-fotografia-de-not%C3%ADcias/1137892201",
+          "imageDescription": "O Titã de Bravos guardando a entrada do porto da cidade."
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "question": "Qual é o orgulhoso e desafiador lema da Casa Greyjoy das Ilhas de Ferro, refletindo sua cultura refratária à agricultura?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "O Inverno Está Chegando",
+          "isCorrect": false,
+          "explanation": "Esse é o lema famoso da Casa Stark.\nOs Greyjoy se preocupam mais com o mar do que com a neve.\nEles preferem pagar o 'preço de ferro'.\nCasacos de pele não são muito úteis em navios."
+        },
+        {
+          "text": "Nossa é a Fúria",
+          "isCorrect": false,
+          "explanation": "Lema da Casa Baratheon, cheio de vigor e temperamento.\nOs Greyjoy também são furiosos, mas seu lema é mais... prático.\nEles são menos sobre fúria e mais sobre pilhagem.\nMartelos contra machados."
+        },
+        {
+          "text": "Nós Não Semeamos",
+          "isCorrect": true,
+          "explanation": "Corretíssimo! Eles preferem tomar dos outros (o 'preço de ferro')\nDo que cultivar a terra (o 'preço de ouro').\nUma filosofia de vida bem pirata.\n'Para que plantar se podemos roubar?'",
+          "imageUrl": "https://www.shutterstock.com/image-vector/kraken-symbol-on-shield-game-260nw-1107710312.jpg",
+          "imageDescription": "O sigilo da Casa Greyjoy, o kraken dourado, sobre um escudo."
+        },
+        {
+          "text": "Insubmissos, Não Curvados, Não Quebrados",
+          "isCorrect": false,
+          "explanation": "Este é o lema resiliente da Casa Martell de Dorne.\nEles também são teimosos, mas de um jeito diferente dos Greyjoy.\nMais sobre resistir à opressão do que sobre não plantar.\nSol e areia, não sal e ferro."
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "question": "Após herdar os poderes do vidente anterior, qual personagem principal de 'Game of Thrones' se torna o novo 'Corvo de Três Olhos'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Jon Snow",
+          "isCorrect": false,
+          "explanation": "Jon tem suas próprias conexões místicas (especialmente com Fantasma).\nMas ele é mais um guerreiro e líder do que um vidente onisciente.\nSua jornada é com a espada, não com as raízes da árvore-coração.\nEle sabe 'alguma coisa', mas não tudo."
+        },
+        {
+          "text": "Daenerys Targaryen",
+          "isCorrect": false,
+          "explanation": "Daenerys é a Mãe dos Dragões, com visões ocasionais na Casa dos Imortais.\nMas seus poderes são ligados ao fogo e sangue, não à visão verde.\nEla quebra correntes, não observa todas as linhas do tempo.\nMuito ocupada queimando coisas."
+        },
+        {
+          "text": "Arya Stark",
+          "isCorrect": false,
+          "explanation": "Arya se torna uma assassina sem rosto, uma agente da morte.\nSuas habilidades são furtivas e letais, não psíquicas.\nEla vê com muitos rostos, mas não através do tempo.\n'Uma garota não é o Corvo de Três Olhos.'"
+        },
+        {
+          "text": "Bran Stark",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! Após uma longa jornada e treinamento,\nBran se torna o repositório de toda a história e conhecimento.\nEle pode ver o passado, o presente e vislumbres do futuro.\n'Eu sou o Corvo de Três Olhos agora.' E que olhar!",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/bran-stark-isaac-hempstead-wright-photo-helen-fotografia-de-not%C3%B3cias/1137892039",
+          "imageDescription": "Isaac Hempstead Wright como Bran Stark, o Corvo de Três Olhos."
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "question": "Qual é a bebida alcoólica mais apreciada e frequentemente consumida por Tyrion Lannister ao longo da série 'Game of Thrones'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Cerveja Forte do Norte",
+          "isCorrect": false,
+          "explanation": "Cerveja é boa, mas Tyrion tem um paladar mais... sofisticado (e caro).\nEle provavelmente não recusaria, mas prefere algo com mais 'bouquet'.\nDeixe a cerveja para os nortenhos e selvagens.\nEle é um Lannister, afinal."
+        },
+        {
+          "text": "Hidromel Dornês",
+          "isCorrect": false,
+          "explanation": "Hidromel é doce e forte, mas o vinho é a paixão de Tyrion.\nEle pode ter experimentado em suas viagens, mas sempre volta ao seu favorito.\n'Eu bebo (vinho) e sei das coisas.'\nMenos abelhas, mais uvas."
+        },
+        {
+          "text": "Vinho (especialmente Arbor Gold ou tinto forte)",
+          "isCorrect": true,
+          "explanation": "Corretíssimo! Seja um dourado do Arbor ou um tinto encorpado,\nTyrion raramente é visto sem uma taça (ou um odre) por perto.\n'Tudo é melhor com um pouco de vinho na barriga.'\nSua filosofia de vida, praticamente.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/editorial-use-only-peter-dinklage-260nw-1917022159.jpg",
+          "imageDescription": "Peter Dinklage como Tyrion Lannister, apreciando uma taça de vinho."
+        },
+        {
+          "text": "Leite de Papoula",
+          "isCorrect": false,
+          "explanation": "Leite de Papoula é um analgésico forte, usado para dor.\nTyrion já deve ter precisado, mas não é sua bebida de escolha para recreação.\nEle prefere ficar espirituoso, não sonolento.\nA menos que a dor seja MUITO forte."
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "question": "Em 'House of the Dragon', qual é o nome da elegante dragão fêmea de cor amarelada, montada pela Princesa Rhaenyra Targaryen?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Vhagar",
+          "isCorrect": false,
+          "explanation": "Vhagar é uma dragão fêmea antiga e colossal, cor de bronze com tons esverdeados.\nFoi montada por Laena Velaryon e depois por Aemond Targaryen.\nMuito maior e mais velha que a de Rhaenyra.\nUma avó dos dragões, basicamente."
+        },
+        {
+          "text": "Dreamfyre (Sonhofogoso)",
+          "isCorrect": false,
+          "explanation": "Dreamfyre era uma dragão fêmea azul-prateada, montada por Rhaena (filha de Aenys I) e depois por Helaena Targaryen.\nOutra bela dragão, mas não a de Rhaenyra.\nEla botou os ovos que podem ter ido para Daenerys!\nConexões misteriosas."
+        },
+        {
+          "text": "Syrax",
+          "isCorrect": true,
+          "explanation": "Exatamente! Syrax, nomeada em homenagem a uma deusa valiriana.\nUma dragão relativamente jovem, mas leal e poderosa em combate.\nCompanheira constante de Rhaenyra desde a juventude.\nBeleza e força alada!",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/a-view-of-the-house-of-the-dragon-immersive-fotografia-de-not%C3%ADcias/1407608767",
+          "imageDescription": "Representação de Syrax, o dragão de Rhaenyra, em material promocional de House of the Dragon."
+        },
+        {
+          "text": "Caraxes, o Wyrm de Sangue",
+          "isCorrect": false,
+          "explanation": "Caraxes é o temível dragão vermelho de Daemon Targaryen.\nLongo, esguio e muito agressivo.\nUm veterano de muitas batalhas, mas não a montaria de Rhaenyra.\nO 'bad boy' dos dragões."
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "question": "Qual é o nome da montanha imponente no Vale de Arryn, em cujo cume se localiza o Ninho da Águia, a inexpugnável fortaleza da Casa Arryn?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "O Dedo do Dragão",
+          "isCorrect": false,
+          "explanation": "Soa como um lugar rochoso e perigoso, mas não é a montanha do Ninho.\nPode ser uma formação geológica em algum lugar, mas não essa.\nOs Arryn preferem algo mais... vertical.\nE com uma bela vista para jogar inimigos."
+        },
+        {
+          "text": "A Lança do Gigante",
+          "isCorrect": true,
+          "explanation": "Correto! Uma montanha altíssima e de difícil acesso.\nO Ninho da Águia fica no seu pico, quase inatingível.\nUm lugar seguro, mas com um sistema de elevador bem rústico.\n'Voar' é a melhor forma de chegar (ou sair).",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/the-vale-of-arryn-one-of-the-constituent-fotografia-de-not%C3%ADcias/1137892204",
+          "imageDescription": "O Ninho da Águia, fortaleza da Casa Arryn, situado no topo da Lança do Gigante."
+        },
+        {
+          "text": "A Garganta do Trovão",
+          "isCorrect": false,
+          "explanation": "Um nome dramático, talvez para um desfiladeiro ou passagem montanhosa.\nMas a montanha do Ninho tem um nome mais... pontudo.\nOs Arryn gostam de altura e isolamento.\nMenos barulho, mais altitude."
+        },
+        {
+          "text": "Pedra do Rei",
+          "isCorrect": false,
+          "explanation": "Pedra do Rei (Kingstone) não é um local proeminente em Westeros.\nPode ser um nome comum para alguma rocha, mas não a montanha do Vale.\nLá, o que importa é a águia e o ninho.\nE a altura para ver tudo lá de cima."
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "question": "Qual é o nome da antiga e respeitada ordem de estudiosos, curandeiros e conselheiros que forjam correntes de diferentes metais para simbolizar seu conhecimento, e servem às casas nobres de Westeros?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Os Alquimistas da Guilda",
+          "isCorrect": false,
+          "explanation": "Os Alquimistas são especialistas em substâncias como o Fogovivo.\nSão mais pirotécnicos do que médicos ou historiadores.\nSeu conhecimento é perigoso e específico.\n'PUM!' em vez de 'Hmm, interessante'."
+        },
+        {
+          "text": "Os Homens Sem Rosto",
+          "isCorrect": false,
+          "explanation": "Eles são assassinos de aluguel que adoram o Deus de Muitas Faces.\nSeu conhecimento é sobre como dar o 'presente' da morte.\nMuito discretos e letais, não usam correntes visíveis.\nSilenciosos, não estudiosos."
+        },
+        {
+          "text": "Os Meistres da Cidadela",
+          "isCorrect": true,
+          "explanation": "Exatamente! Baseados em Vilavelha, eles são a espinha dorsal intelectual de Westeros.\nCada elo na corrente de um Meistre representa um campo de estudo dominado.\nSábios, curandeiros e portadores de corvos.\n'Um corvo chegou...'",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/the-citadel-library-where-maesters-are-trained-fotografia-de-not%C3%ADcias/1137892188",
+          "imageDescription": "A grande biblioteca da Cidadela em Vilavelha, onde os Meistres são treinados."
+        },
+        {
+          "text": "Os Irmãos Juramentados da Patrulha da Noite",
+          "isCorrect": false,
+          "explanation": "A Patrulha da Noite defende a Muralha, não estuda em bibliotecas (geralmente).\nEles têm seus próprios meistres, mas a ordem em si é militar.\nSua corrente é o dever, não o conhecimento acadêmico.\n'A espada na escuridão...'"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "question": "Qual foi o nome do grande torneio realizado em Porto Real para celebrar a nomeação de Eddard Stark como Mão do Rei, durante o qual Sor Gregor Clegane matou Sor Hugh do Vale?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "O Torneio de Ashford",
+          "isCorrect": false,
+          "explanation": "O Torneio de Ashford Meadow é famoso pelos contos de Dunk e Egg.\nAconteceu muito antes, em uma era mais cavalheiresca (às vezes).\nLá, o mistério era mais sobre quem era o cavaleiro do que quem morreria.\nOutra época, outro torneio."
+        },
+        {
+          "text": "O Torneio de Lannisporto",
+          "isCorrect": false,
+          "explanation": "Lannisporto certamente sedia torneios, sendo uma cidade rica.\nMas o evento específico da morte de Sor Hugh foi em Porto Real.\nLá se celebrava a nova Mão, não apenas justas locais.\nA capital queria um show."
+        },
+        {
+          "text": "O Torneio da Mão",
+          "isCorrect": true,
+          "explanation": "Correto! Um evento grandioso que rapidamente se tornou sombrio.\nCom a morte de Sor Hugh e a brutalidade do Montanha.\nIntrigas e violência borbulhando sob a superfície da celebração.\nBem-vindo a Porto Real, Ned!",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/ser-gregor-clegane-the-mountain-conan-stevens-fotografia-de-not%C3%ADcias/1137892109",
+          "imageDescription": "Sor Gregor Clegane, o Montanha, em armadura de torneio, palco de sua brutalidade."
+        },
+        {
+          "text": "O Casamento Púrpura",
+          "isCorrect": false,
+          "explanation": "O Casamento Púrpura foi a festa de casamento de Joffrey e Margaery.\nFamoso pela morte de Joffrey, não de Sor Hugh.\nUm evento bem mais... venenoso.\nE satisfatório para muitos."
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "question": "Quem foi o último rei da dinastia Targaryen a ocupar o Trono de Ferro antes de ser deposto e morto durante a Rebelião de Robert?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Rhaegar Targaryen",
+          "isCorrect": false,
+          "explanation": "Rhaegar era o Príncipe Herdeiro, filho do Rei Louco.\nEle morreu na Batalha do Tridente, mas nunca chegou a ser rei.\nSua 'captura' de Lyanna Stark foi o estopim da rebelião.\nUm príncipe amado por alguns, odiado por outros."
+        },
+        {
+          "text": "Aegon IV Targaryen, o Indigno",
+          "isCorrect": false,
+          "explanation": "Aegon, o Indigno, reinou muito antes, conhecido por sua corrupção e muitos bastardos.\nEle causou muitos problemas, incluindo as Rebeliões Blackfyre.\nMas não foi o último rei antes de Robert.\nUm péssimo rei, mas de outra época."
+        },
+        {
+          "text": "Aerys II Targaryen",
+          "isCorrect": true,
+          "explanation": "Ele mesmo, o Rei Louco! Sua crescente paranoia e crueldade,\nculminando no assassinato de Rickard e Brandon Stark, levaram à rebelião.\nFoi morto por Jaime Lannister nos degraus do Trono de Ferro.\nUm fim flamejante para uma dinastia.",
+          "imageUrl": "https://www.imdb.com/title/tt0944947/mediaviewer/rm2999371265",
+          "imageDescription": "Arte conceitual do Trono de Ferro, símbolo da monarquia Targaryen deposta."
+        },
+        {
+          "text": "Viserys III Targaryen",
+          "isCorrect": false,
+          "explanation": "Viserys, irmão de Daenerys, se autoproclamou rei no exílio.\nMas ele nunca se sentou no Trono de Ferro, exceto em seus sonhos.\nRecebeu uma 'coroa de ouro' bem diferente dos Dothraki.\nO Rei Pedinte, não o último rei reinante."
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "question": "Em 'House of the Dragon', qual é o nome da esposa de Lorde Corlys Velaryon, uma princesa Targaryen que já foi preterida na sucessão ao trono e é conhecida como 'A Rainha Que Nunca Foi'?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Alicent Hightower",
+          "isCorrect": false,
+          "explanation": "Alicent se tornou rainha ao casar com Viserys I, mas não é a 'Rainha Que Nunca Foi'.\nEla é mãe de Aegon II, rival de Rhaenyra.\nUma figura central dos Verdes, mas com outra história.\nAmiga de infância que virou... complicada."
+        },
+        {
+          "text": "Rhaenyra Targaryen",
+          "isCorrect": false,
+          "explanation": "Rhaenyra foi nomeada herdeira por Viserys I, mas teve que lutar pelo trono.\nEla é a 'Rainha Negra', não a 'Rainha Que Nunca Foi'.\nSeu destino foi trágico, mas ela foi coroada (por sua facção).\nUma rainha em guerra."
+        },
+        {
+          "text": "Princesa Rhaenys Targaryen",
+          "isCorrect": true,
+          "explanation": "Correto! Filha do Príncipe Aemon (filho de Jaehaerys I).\nEla tinha uma forte reivindicação ao trono, mas o Grande Conselho escolheu Viserys.\nCasou-se com Corlys Velaryon e montava o dragão Meleys.\nUma figura poderosa e respeitada.",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/eve-best-as-princess-rhaenys-targaryen-in-house-fotografia-de-not%C3%ADcias/1415830975",
+          "imageDescription": "Eve Best como Princesa Rhaenys Targaryen em House of the Dragon."
+        },
+        {
+          "text": "Laena Velaryon",
+          "isCorrect": false,
+          "explanation": "Laena Velaryon foi filha de Rhaenys e Corlys, esposa de Daemon Targaryen.\nEla montava Vhagar e era uma figura forte.\nMas 'A Rainha Que Nunca Foi' é sua mãe.\nTeve um fim trágico com seu dragão."
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "question": "Qual é o nome da antiga e secreta organização de 'sábios' em Porto Real, detentora do conhecimento para produzir em massa a perigosa substância conhecida como Fogovivo?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Os Meistres da Cidadela",
+          "isCorrect": false,
+          "explanation": "Os Meistres desconfiam da magia e de substâncias como o Fogovivo.\nEles são estudiosos de muitas artes, mas não os principais produtores do 'fogo verde'.\nSeu conhecimento é vasto, mas direcionado a outros campos.\nMais livros, menos explosões."
+        },
+        {
+          "text": "A Fé dos Sete",
+          "isCorrect": false,
+          "explanation": "A Fé condena muitas coisas, e provavelmente a produção em massa de Fogovivo.\nEles lidam com o espiritual, não com a pirotecnia de guerra.\nSeptões e septãs, não piromantes.\nRezas, não receitas explosivas."
+        },
+        {
+          "text": "A Guilda dos Alquimistas",
+          "isCorrect": true,
+          "explanation": "Exatamente! Uma ordem antiga e misteriosa com sede em Porto Real.\nEles chamam o Fogovivo de 'A Substância' e guardam seus segredos zelosamente.\nForneceram a Cersei o arsenal para o Grande Septo.\n'PUM!' é a especialidade deles.",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/game-of-thrones-blackwater-wildfire-explosion-fotografia-de-not%C3%ADcias/1137892122",
+          "imageDescription": "Explosão de Fogovivo na Batalha da Água Negra, uma criação da Guilda dos Alquimistas."
+        },
+        {
+          "text": "Os Homens Sem Rosto",
+          "isCorrect": false,
+          "explanation": "Os Homens Sem Rosto usam venenos e lâminas, são assassinos discretos.\nFogovivo é muito barulhento e chamativo para o estilo deles.\nEles preferem um toque sutil, não uma explosão em massa.\n'Valar Morghulis', não 'Valar Boom.'"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "question": "De qual terrível e contagiosa doença, que petrifica a pele, Sor Jorah Mormont foi milagrosamente curado por Samwell Tarly na Cidadela?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Febre do Inverno",
+          "isCorrect": false,
+          "explanation": "A Febre do Inverno é uma doença comum e mortal durante os invernos rigorosos.\nMas não causa petrificação da pele.\nJorah sofreu de algo bem mais... escamoso.\nFrio e tosse, não pele de pedra."
+        },
+        {
+          "text": "Peste Cinzenta",
+          "isCorrect": false,
+          "explanation": "Peste Cinzenta é uma doença fatal, mas seus sintomas são diferentes.\nEscamagris é a que transforma as pessoas em 'Homens de Pedra'.\nUm nome parecido, mas uma condição distinta.\nAmbas ruins, mas só uma petrifica."
+        },
+        {
+          "text": "Escamagris (Greyscale)",
+          "isCorrect": true,
+          "explanation": "Correto! Uma doença temida que lentamente transforma a carne em pedra.\nA cura era considerada impossível ou extremamente perigosa.\nSam arriscou tudo e conseguiu o impossível.\nHerói dos livros (e das peles)!",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/samwell-tarly-john-bradley-and-jorah-mormont-iain-fotografia-de-not%C3%ADcias/1137892181",
+          "imageDescription": "Jorah Mormont mostrando os efeitos da Escamagris em seu braço."
+        },
+        {
+          "text": "Maldição de Valíria",
+          "isCorrect": false,
+          "explanation": "A Perdição de Valíria foi um cataclismo, não uma doença contagiosa.\nDestruiu uma civilização inteira com fogo e terremotos.\nJorah pegou sua doença em contato com os Homens de Pedra.\nNão por visitar ruínas fumegantes (ainda bem)."
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "question": "Qual era o apelido carinhoso do jovem príncipe Aegon Targaryen que viajou incógnito com Sor Duncan, o Alto, e que mais tarde se tornou o Rei Aegon V, o Improvável?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Aemon",
+          "isCorrect": false,
+          "explanation": "Aemon era o nome de seu irmão mais velho, que se tornou Meistre na Muralha.\nUm nome Targaryen comum, mas não o apelido dele.\nEle era mais... cabeça dura.\nPense em algo que quebra."
+        },
+        {
+          "text": "Egg (Ovo)",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! Por causa de sua cabeça raspada quando criança.\nUm nome simples para um príncipe disfarçado de escudeiro.\nSuas aventuras com Dunk são lendárias.\nDe 'Ovo' a Rei, uma jornada e tanto!",
+          "imageUrl": "https://www.vanityfair.com/hollywood/2021/01/game-of-thrones-prequel-tales-of-dunk-and-egg-hbo-max/amp",
+          "imageDescription": "Arte conceitual ou ilustração representando Dunk (Sor Duncan) e Egg (Aegon V)."
+        },
+        {
+          "text": "Young Griff (Jovem Griff)",
+          "isCorrect": false,
+          "explanation": "Jovem Griff é o nome usado por outro (suposto) Aegon Targaryen.\nO filho de Rhaegar que teria sobrevivido ao Saque de Porto Real.\nUma figura misteriosa e controversa nos livros.\nOutro Aegon, outra história."
+        },
+        {
+          "text": "Daeron, o Bêbado",
+          "isCorrect": false,
+          "explanation": "Daeron, o Bêbado, era um dos tios de Egg, conhecido por... bem, beber.\nEle teve visões proféticas, mas não era o jovem príncipe em questão.\nCada Targaryen com sua peculiaridade.\nAlguns veem o futuro, outros o fundo do copo."
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "question": "Em 'House of the Dragon', quem é o Lorde da Casa Strong que serve como Mão do Rei Viserys I, conhecido por sua integridade, e é pai de Sor Harwin 'Quebraossos' e do astuto Larys Strong?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Lorde Jason Lannister",
+          "isCorrect": false,
+          "explanation": "Jason Lannister era o Senhor de Rochedo Casterly na época, irmão gêmeo de Tyland.\nEle cortejou Rhaenyra, mas não foi Mão de Viserys.\nUm Lannister típico, orgulhoso e um pouco arrogante.\nOuro e leões, não a Mão (neste caso)."
+        },
+        {
+          "text": "Lorde Corlys Velaryon",
+          "isCorrect": false,
+          "explanation": "Corlys, a Serpente Marinha, era o Mestre dos Navios e um aventureiro rico.\nEle era influente e poderoso, mas Lyonel Strong foi quem assumiu como Mão.\nSua expertise era o mar, não a política da corte (diretamente).\nMuito ocupado navegando pelo mundo."
+        },
+        {
+          "text": "Lorde Lyonel Strong",
+          "isCorrect": true,
+          "explanation": "Correto! Um homem honrado e justo que sucedeu Otto Hightower como Mão.\nPai de dois filhos muito diferentes que teriam papéis importantes na Dança.\nSua integridade contrastava com as intrigas da corte.\nUm bom homem em tempos difíceis.",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/gavin-spokes-attends-the-house-of-the-dragon-fotografia-de-not%C3%ADcias/1413656545",
+          "imageDescription": "Gavin Spokes, ator que interpreta Lorde Lyonel Strong em House of the Dragon."
+        },
+        {
+          "text": "Sor Otto Hightower",
+          "isCorrect": false,
+          "explanation": "Otto Hightower foi Mão de Jaehaerys I e de Viserys I (duas vezes!).\nEle era pai de Alicent e um jogador político astuto.\nMas a pergunta se refere a quem o sucedeu e era pai dos Strong.\nSempre de olho no poder."
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "question": "Qual importante Casa das Terras da Tempestade, cujo sigilo é um relâmpago púrpura bifurcado, era aliada próxima dos Baratheon e teve um membro notável, Sor Beric, que foi repetidamente ressuscitado por Thoros de Myr?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Casa Tarth",
+          "isCorrect": false,
+          "explanation": "A Casa Tarth da Ilha Safira é leal aos Baratheon, lar de Brienne.\nSeu sigilo é um sol e uma lua crescente em quartos.\nFamosos por sua beleza (ou tamanho, no caso de Brienne), não por relâmpagos.\nSafiras e honra."
+        },
+        {
+          "text": "Casa Selmy",
+          "isCorrect": false,
+          "explanation": "A Casa Selmy é famosa por produzir grandes cavaleiros, como Barristan Selmy.\nSeu sigilo são três talos de trigo dourados em campo marrom.\nMuita habilidade marcial, mas o relâmpago é de outra casa.\nLendas da cavalaria."
+        },
+        {
+          "text": "Casa Dondarrion",
+          "isCorrect": true,
+          "explanation": "Exatamente! Sor Beric Dondarrion, o Senhor do Relâmpago.\nEle liderou a Irmandade Sem Bandeiras e voltou da morte várias vezes.\nSeu sigilo e sua história são eletrizantes.\n'A noite é escura e cheia de terrores... e relâmpagos!'",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/beric-dondarrion-richard-dormer-photo-helen-fotografia-de-not%C3%ADcias/1137892035",
+          "imageDescription": "Richard Dormer como Sor Beric Dondarrion, com sua espada flamejante."
+        },
+        {
+          "text": "Casa Connington",
+          "isCorrect": false,
+          "explanation": "A Casa Connington de Poleiro do Grifo teve um papel importante com Jon Connington.\nSeu sigilo são dois grifos combatentes.\nExilados e retornados, mas não os Senhores do Relâmpago.\nGrifos, não faíscas."
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "question": "Qual o nome da antiga e crucial profecia em que Rhaegar Targaryen (e muitos outros) acreditava, prevendo o retorno de um herói lendário para combater a escuridão, muitas vezes associada ao 'Príncipe Que Foi Prometido'?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "A Canção do Gelo e Fogo",
+          "isCorrect": false,
+          "explanation": "A Canção de Gelo e Fogo é o nome da saga em si, e Rhaegar acreditava que seu filho era parte dela.\nMas a profecia específica do herói tem outro nome mais antigo.\nÉ o tema geral, não o nome da profecia do campeão.\nUma bela melodia, mas não a profecia em si."
+        },
+        {
+          "text": "A Profecia do Dragão de Três Cabeças",
+          "isCorrect": false,
+          "explanation": "O dragão de três cabeças é o sigilo Targaryen e uma visão de Daenerys.\nSugere três cavaleiros de dragão ou três aspectos de um líder.\nMas a profecia do herói contra a escuridão é mais específica.\nImportante, mas diferente."
+        },
+        {
+          "text": "A Profecia de Azor Ahai (e o Príncipe Que Foi Prometido)",
+          "isCorrect": true,
+          "explanation": "Correto! Azor Ahai foi um herói lendário que forjou a Luminífera para derrotar a escuridão.\nA profecia diz que ele renascerá, e o Príncipe Que Foi Prometido é frequentemente visto como essa reencarnação.\nUma esperança contra a Longa Noite.\nLuz contra as trevas!",
+          "imageUrl": "https://www.vanityfair.com/hollywood/2017/08/game-of-thrones-azor-ahai-prophecy-jon-daenerys/amp",
+          "imageDescription": "Arte ou símbolo representando a profecia de Azor Ahai ou a Luminífera."
+        },
+        {
+          "text": "O Último Herói",
+          "isCorrect": false,
+          "explanation": "A lenda do Último Herói conta sobre um homem que buscou os Filhos da Floresta durante a Longa Noite.\nÉ uma história relacionada, mas a profecia de Azor Ahai é mais central para a luta contra os Outros.\nUm conto de desespero e esperança, mas não a profecia principal.\nUma peça do quebra-cabeça."
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "question": "Conforme narrado em 'Fogo & Sangue', quem foi a primeira e mais amada irmã-esposa de Aegon, o Conquistador, conhecida por sua beleza, espírito aventureiro, paixão pela música e poesia, e por montar o dragão Meraxes?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Visenya Targaryen",
+          "isCorrect": false,
+          "explanation": "Visenya era a irmã mais velha, uma guerreira austera que montava Vhagar.\nEla empunhava a espada Irmã Negra e era mais pragmática que sonhadora.\nCrucial para a Conquista, mas Rhaenys era a mais amada por Aegon.\nFogo e aço, não música e poesia."
+        },
+        {
+          "text": "Shaena Targaryen",
+          "isCorrect": false,
+          "explanation": "Não há uma Shaena Targaryen proeminente como esposa de Aegon I.\nTalvez um nome de alguma linhagem secundária ou um erro.\nAs esposas da Conquista são bem conhecidas.\nNome errado na lista de casamento."
+        },
+        {
+          "text": "Rhaenys Targaryen",
+          "isCorrect": true,
+          "explanation": "Exatamente! A mais jovem das três, Rhaenys era graciosa e amava voar em Meraxes.\nEla era a favorita de Aegon e supervisionou muitas das leis e costumes do novo reino.\nSeu legado, embora tragicamente interrompido em Dorne, foi duradouro.\nBeleza, dragões e um toque de alegria.",
+          "imageUrl": "https://www.vanityfair.com/culture/photos/2016/09/game-of-thrones-illustrated-images/embed/57cf17c4a8074e6319108a60",
+          "imageDescription": "Ilustração representando Rhaenys Targaryen, possivelmente com seu dragão Meraxes."
+        },
+        {
+          "text": "Daena, a Desafiante",
+          "isCorrect": false,
+          "explanation": "Daena, a Desafiante, foi uma princesa Targaryen muito posterior, filha de Aegon III.\nConhecida por sua beleza e espírito rebelde, mãe de Daemon Blackfyre.\nUma figura forte, mas de uma era completamente diferente.\nOutra rebelde, outro tempo."
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "question": "Qual era o nome do leal lobo gigante que acompanhava Robb Stark, o Rei do Norte, em suas batalhas?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Fantasma (Ghost)",
+          "isCorrect": false,
+          "explanation": "Fantasma é o lobo albino de Jon Snow, silencioso e observador.\nAcompanhou Jon em suas aventuras na Muralha e além.\nUm companheiro espectral, mas não o de Robb.\nOutro Stark, outro lobo."
+        },
+        {
+          "text": "Nymeria",
+          "isCorrect": false,
+          "explanation": "Nymeria é a loba de Arya Stark, que se tornou líder de uma grande matilha.\nSelvagem e independente, como sua dona.\nEla vaga pelas Terras Fluviais, não acompanhava Robb.\nUma loba livre!"
+        },
+        {
+          "text": "Vento Cinzento (Grey Wind)",
+          "isCorrect": true,
+          "explanation": "Correto! Vento Cinzento era um guerreiro formidável ao lado de Robb.Sua presença no campo de batalha era temida pelos inimigos.\nUm símbolo da fúria do Jovem Lobo.\nUivando para a vitória (quase sempre).",
+          "imageUrl": "https://www.imdb.com/title/tt0944947/mediaviewer/rm2027601408/",
+          "imageDescription": "Robb Stark com seu lobo gigante, Vento Cinzento, em prontidão."
+        },
+        {
+          "text": "Cão Felpudo (Shaggydog)",
+          "isCorrect": false,
+          "explanation": "Cão Felpudo era o lobo negro de Rickon Stark, o mais selvagem e indomável dos filhotes.\nRefletia a natureza um pouco negligenciada de Rickon.\nTeve um fim trágico, como muitos.\nUm nome fofo para um lobo nem tanto."
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "question": "Qual personagem eunuco em 'Game of Thrones' é conhecido por sua vasta rede de espiões (os 'passarinhos'), sua calma enigmática e o título de Mestre dos Sussurros?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Petyr Baelish 'Mindinho'",
+          "isCorrect": false,
+          "explanation": "Mindinho também era mestre em informações e intrigas, mas não era eunuco.\nSeus métodos eram mais sobre manipulação financeira e social.\nEle subia a escada do caos, Varys preferia observar das sombras.\nAmbos perigosos, mas diferentes."
+        },
+        {
+          "text": "Theon Greyjoy",
+          "isCorrect": false,
+          "explanation": "Theon se tornou um eunuco (Reek) sob as torturas de Ramsay Bolton.\nMas ele não era o Mestre dos Sussurros, era uma vítima.\nSua história é trágica, não de espionagem habilidosa.\n'Meu nome é Reek!'"
+        },
+        {
+          "text": "Lorde Varys, a Aranha",
+          "isCorrect": true,
+          "explanation": "Exatamente! Com sua aparência inofensiva e voz suave,\nVarys tecia uma teia de informações por todos os Sete Reinos e além.\nSempre alegando servir 'ao Reino'.\n'Os passarinhos cantam para mim.'",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/conleth-hill-as-varys-photo-helen-sloan-hbo-fotografia-de-not%C3%ADcias/1137892068",
+          "imageDescription": "Conleth Hill como Lorde Varys, o Mestre dos Sussurros."
+        },
+        {
+          "text": "Meistre Pycelle",
+          "isCorrect": false,
+          "explanation": "Grande Meistre Pycelle era velho e fingia ser mais frágil do que era.\nEle passava informações, mas para os Lannisters, e não tinha a rede de Varys.\nMais um bajulador do que um mestre espião.\nE definitivamente não era eunuco."
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "question": "Em 'House of the Dragon', qual é o nome do pai calculista e ambicioso de Alicent Hightower, que serviu como Mão do Rei Jaehaerys I e depois, por duas vezes, ao Rei Viserys I?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Lorde Lyonel Strong",
+          "isCorrect": false,
+          "explanation": "Lorde Lyonel Strong sucedeu Otto como Mão de Viserys I.\nEra um homem honrado, pai de Harwin e Larys.\nBem diferente do ambicioso Otto.\nUm breve período de integridade no cargo."
+        },
+        {
+          "text": "Lorde Corlys Velaryon",
+          "isCorrect": false,
+          "explanation": "Corlys, a Serpente Marinha, era Mestre dos Navios e muito rico.\nUm aventureiro e estrategista naval, não a Mão manipuladora.\nEle tinha suas próprias ambições, mas eram mais marítimas.\nO mar era seu tabuleiro."
+        },
+        {
+          "text": "Sor Otto Hightower",
+          "isCorrect": true,
+          "explanation": "Correto! Um político astuto e pragmático.\nSempre buscando aumentar o poder e a influência de sua Casa.\nSuas maquinações foram cruciais para a ascensão dos Verdes.\n'A Mão que puxa os cordelinhos.'",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/rhys-ifans-as-otto-hightower-in-house-of-the-fotografia-de-not%C3%ADcias/1415830966",
+          "imageDescription": "Rhys Ifans como Sor Otto Hightower, a Mão do Rei."
+        },
+        {
+          "text": "Lorde Hobert Hightower",
+          "isCorrect": false,
+          "explanation": "Lorde Hobert Hightower era o irmão mais velho de Otto, o Lorde de Vilavelha.\nEle apoiava as ambições de Otto, mas não era a Mão em Porto Real.\nO poder da família vinha de várias frentes.\nVilavelha também tinha seus interesses."
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "question": "Qual é o nome da imponente fortaleza ancestral da Casa Lannister, escavada em um gigantesco rochedo e famosa por suas inesgotáveis (ou assim se dizia) minas de ouro?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Jardim de Cima (Highgarden)",
+          "isCorrect": false,
+          "explanation": "Jardim de Cima é o belo e fértil castelo da Casa Tyrell na Campina.\nConhecido por suas rosas e riqueza agrícola, não por minas de ouro.\nFlores e fartura, não ouro e rocha.\nUm lugar mais agradável, com certeza."
+        },
+        {
+          "text": "Ponta Tempestade (Storm's End)",
+          "isCorrect": false,
+          "explanation": "Ponta Tempestade é a fortaleza antiga e resistente da Casa Baratheon.\nConstruída para resistir a qualquer tempestade, mas não para minerar ouro.\nFúria e ventos, não pepitas.\nMuito sólida, pouco dourada."
+        },
+        {
+          "text": "Rochedo Casterly (Casterly Rock)",
+          "isCorrect": true,
+          "explanation": "Exatamente! Uma fortaleza quase inexpugnável e fonte da imensa riqueza Lannister.\nLendas dizem que Lann, o Esperto, a tomou dos Casterly com astúcia.\nO rugido do leão ecoa de suas minas.\n'Um Lannister sempre paga suas dívidas' (com ouro de lá).",
+          "imageUrl": "https://www.gettyimages.com.br/detail/ilustra%C3%A7%C3%A3o/casterly-rock-seat-of-house-lannister-in-game-ilustra%C3%A7%C3%A3o-royalty-free/1294421730",
+          "imageDescription": "Ilustração de Rochedo Casterly, a fortaleza da Casa Lannister."
+        },
+        {
+          "text": "Pedra do Dragão (Dragonstone)",
+          "isCorrect": false,
+          "explanation": "Pedra do Dragão é a fortaleza vulcânica ancestral dos Targaryen.\nConhecida por sua obsidiana (vidro de dragão) e arquitetura sinistra.\nFogo e sangue, não ouro e dívidas.\nDragões preferem cavernas a minas."
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "question": "Qual é o nome do filho mais novo de Ned e Catelyn Stark, cujo lobo gigante, Cão Felpudo, era o mais selvagem e agressivo do grupo?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Bran Stark",
+          "isCorrect": false,
+          "explanation": "Bran é o segundo mais novo, seu lobo é Verão.\nVerão era leal e protetor, especialmente após a queda de Bran.\nMenos selvagem que Cão Felpudo.\nUm lobo para o futuro Corvo."
+        },
+        {
+          "text": "Robb Stark",
+          "isCorrect": false,
+          "explanation": "Robb era o mais velho, seu lobo era Vento Cinzento.\nVento Cinzento era um guerreiro ao lado de Robb.\nLíder da matilha, não o mais novo ou selvagem.\nO Jovem Lobo e seu companheiro."
+        },
+        {
+          "text": "Rickon Stark",
+          "isCorrect": true,
+          "explanation": "Correto! O pequeno Rickon, muitas vezes esquecido e assustado.\nSeu lobo, Cão Felpudo, refletia sua natureza indomada e raiva.\nUma dupla que merecia um destino melhor.\nSelvagens até o fim.",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/art-parkinson-as-rickon-stark-photo-helen-sloan-fotografia-de-not%C3%ADcias/1137892027",
+          "imageDescription": "Art Parkinson como Rickon Stark em Game of Thrones."
+        },
+        {
+          "text": "Jon Snow",
+          "isCorrect": false,
+          "explanation": "Jon é primo/irmão dos Stark, seu lobo é Fantasma.\nFantasma é albino e silencioso, único como Jon.\nNão é filho de Catelyn, nem o mais novo.\nO lobo branco da Muralha."
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "question": "Qual sacerdotisa vermelha de Asshai é uma fervorosa seguidora do Senhor da Luz (R'hllor), conhecida por suas profecias, magia de fogo e sombras, e por aconselhar Stannis Baratheon?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Mirri Maz Duur",
+          "isCorrect": false,
+          "explanation": "Mirri Maz Duur era uma maegi da terra dos Lhazarenos, versada em magia de sangue.\nEla traiu Daenerys, causando a morte de Drogo e Rhaego.\nSua magia era sombria, mas não do Senhor da Luz.\n'Só a morte paga pela vida.'"
+        },
+        {
+          "text": "Quaithe da Sombra",
+          "isCorrect": false,
+          "explanation": "Quaithe era uma misteriosa feiticeira de Asshai que usava uma máscara laqueada.\nEla dava conselhos enigmáticos a Daenerys.\nSua magia era ligada às sombras, mas sua lealdade a R'hllor não é clara.\n'Para ir ao norte, você deve ir ao sul...'"
+        },
+        {
+          "text": "Melisandre",
+          "isCorrect": true,
+          "explanation": "Ela mesma! A Mulher Vermelha, com sua fé inabalável e métodos extremos.\nQueimava hereges e criava sombras assassinas em nome de seu deus.\nTrouxe Jon Snow de volta à vida.\n'A noite é escura e cheia de terrores.'",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/melisandre-carice-van-houten-photo-helen-sloan-fotografia-de-not%C3%ADcias/1137892136",
+          "imageDescription": "Carice van Houten como Melisandre, a sacerdotisa vermelha."
+        },
+        {
+          "text": "Senhora Coração de Pedra (Lady Stoneheart)",
+          "isCorrect": false,
+          "explanation": "Senhora Coração de Pedra é Catelyn Stark ressuscitada, buscando vingança.\nSua 'magia' é uma sede de sangue fria e implacável.\nNão serve a R'hllor, mas à sua própria dor.\nUma figura trágica e assustadora."
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "question": "Qual é o nome do vasto continente localizado a leste de Westeros, caracterizado por suas diversas culturas, cidades livres, o Mar Dothraki e a Baía dos Escravos?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Westeros",
+          "isCorrect": false,
+          "explanation": "Westeros é onde fica Porto Real, Winterfell e a Muralha.\nÉ o continente principal da maioria das tramas dos Sete Reinos.\nSeparado de Essos pelo Mar Estreito.\nOnde o inverno está sempre chegando."
+        },
+        {
+          "text": "Sothoryos",
+          "isCorrect": false,
+          "explanation": "Sothoryos é o continente selvagem e pouco explorado ao sul de Essos.\nConhecido por suas selvas, doenças e criaturas perigosas.\nNão é o lar das Cidades Livres ou dos Dothraki.\nMelhor não ir de férias para lá."
+        },
+        {
+          "text": "Essos",
+          "isCorrect": true,
+          "explanation": "Correto! Um continente imenso e exótico.\nDesde as Cidades Livres como Bravos e Pentos, até o deserto vermelho e as terras sombrias de Asshai.\nDaenerys viajou extensivamente por lá.\nUm mundo de maravilhas e perigos.",
+          "imageUrl": "https://www.shutterstock.com/image-vector/map-two-continents-vintage-style-260nw-1727540731.jpg",
+          "imageDescription": "Mapa estilizado mostrando os continentes de Westeros e Essos."
+        },
+        {
+          "text": "Ulthos",
+          "isCorrect": false,
+          "explanation": "Ulthos é um misterioso continente a sudeste de Essos, sobre o qual quase nada se sabe.\nCoberto por densas selvas, é uma terra de lendas e especulações.\nDefinitivamente não é onde Daenerys esteve.\n'Aqui há dragões' (talvez, ninguém sabe)."
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "question": "Em 'House of the Dragon', qual é o nome do carismático e perigoso irmão mais novo do Rei Viserys I, conhecido como o 'Príncipe Rebelde' e montador do temível dragão Caraxes?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Aemond Targaryen",
+          "isCorrect": false,
+          "explanation": "Aemond é filho de Viserys I e Alicent, sobrinho de Daemon.\nConhecido por ser caolho e montar Vhagar.\nUm príncipe igualmente perigoso, mas de outra geração.\nO 'Caça-Kin' original."
+        },
+        {
+          "text": "Aegon II Targaryen",
+          "isCorrect": false,
+          "explanation": "Aegon II é outro filho de Viserys I e Alicent, que disputa o trono com Rhaenyra.\nEle é sobrinho de Daemon, não seu irmão.\nO rei dos Verdes, não o Príncipe Rebelde.\nMais interessado em festas (inicialmente)."
+        },
+        {
+          "text": "Príncipe Daemon Targaryen",
+          "isCorrect": true,
+          "explanation": "Exatamente! Um guerreiro experiente, ex-comandante da Patrulha da Cidade.\nAmbicioso, imprevisível e com uma moralidade... flexível.\nSua lealdade (e amor) por Rhaenyra é complexa e crucial.\nO 'bad boy' favorito de muitos.",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/matt-smith-as-prince-daemon-targaryen-in-house-fotografia-de-not%C3%ADcias/1415830965",
+          "imageDescription": "Matt Smith como Príncipe Daemon Targaryen em House of the Dragon."
+        },
+        {
+          "text": "Larys Strong, o 'Pé Torto'",
+          "isCorrect": false,
+          "explanation": "Larys Strong é um mestre dos sussurros e manipulador.\nEle não é um Targaryen nem um guerreiro montador de dragões.\nSuas armas são segredos e intrigas, não uma espada.\nAssustador à sua maneira."
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "question": "Qual era o nome do idoso e sábio Meistre cego que serviu na Patrulha da Noite por muitas décadas, sendo um dos últimos Targaryen conhecidos em Westeros e conselheiro de Jon Snow?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Meistre Luwin",
+          "isCorrect": false,
+          "explanation": "Meistre Luwin serviu os Stark em Winterfell.\nEle era sábio e bondoso, mas não cego nem um Targaryen.\nSua lealdade era ao Norte.\nUm bom homem, mas de outra casa e local."
+        },
+        {
+          "text": "Grande Meistre Pycelle",
+          "isCorrect": false,
+          "explanation": "Pycelle servia em Porto Real, era velho mas não cego (só fingia fraqueza).\nSua lealdade era aos Lannisters e ao poder.\nNão tinha a sabedoria ou a nobreza de Aemon.\nUm político, não um sábio recluso."
+        },
+        {
+          "text": "Meistre Aemon",
+          "isCorrect": true,
+          "explanation": "Correto! Aemon Targaryen, irmão do Rei Aegon V.\nEle renunciou a qualquer reivindicação ao trono para servir na Muralha.\nSua sabedoria e gentileza foram um farol para Jon.\n'O amor é a morte do dever', disse ele.",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/peter-vaughan-as-maester-aemon-photo-helen-fotografia-de-not%C3%ADcias/1137892153",
+          "imageDescription": "Peter Vaughan como Meistre Aemon Targaryen na Patrulha da Noite."
+        },
+        {
+          "text": "Meistre Cressen",
+          "isCorrect": false,
+          "explanation": "Meistre Cressen servia Stannis Baratheon em Pedra do Dragão.\nEle era idoso e leal, mas não cego nem um Targaryen.\nTentou envenenar Melisandre e falhou tragicamente.\nUm último ato de desespero."
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "question": "Qual Casa nobre governa a região desértica de Dorne, no sul de Westeros, e ostenta um sol vermelho transpassado por uma lança dourada como seu sigilo?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Casa Tyrell",
+          "isCorrect": false,
+          "explanation": "Os Tyrell são de Jardim de Cima, na fértil Campina.\nSeu sigilo é uma rosa dourada em campo verde.\nEles são ricos e ambiciosos, mas preferem flores a lanças.\n'Crescendo Fortes', não 'Insubmissos, Não Curvados, Não Quebrados'."
+        },
+        {
+          "text": "Casa Hightower",
+          "isCorrect": false,
+          "explanation": "Os Hightower são de Vilavelha, patronos da Cidadela.\nSeu sigilo é uma torre branca com uma chama no topo.\nAntigos e orgulhosos, mas seu símbolo é de conhecimento e vigilância.\n'Nós Iluminamos o Caminho.'"
+        },
+        {
+          "text": "Casa Martell",
+          "isCorrect": true,
+          "explanation": "Exatamente! Os Príncipes (e Princesas) de Dorne.\nConhecidos por sua independência, cultura distinta e temperamento passional.\nSeu lema é 'Insubmissos, Não Curvados, Não Quebrados'.\nO sol e a lança representam sua história e resistência.",
+          "imageUrl": "https://www.shutterstock.com/image-vector/sun-pierced-spear-sigil-noble-260nw-2104508288.jpg",
+          "imageDescription": "O sigilo da Casa Martell: um sol vermelho transpassado por uma lança dourada."
+        },
+        {
+          "text": "Casa Dayne",
+          "isCorrect": false,
+          "explanation": "A Casa Dayne de Alvorada é outra nobre casa dornesa.\nFamosa pela espada Alvorada e por cavaleiros lendários como Arthur Dayne.\nSeu sigilo é uma espada e uma estrela cadente.\nHonra e estrelas, não o sol e a lança dos Martell."
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "question": "Qual cavaleiro exilado de Westeros, originalmente da Ilha dos Ursos, se torna um dos mais devotados e protetores conselheiros de Daenerys Targaryen, amando-a secretamente?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Sor Barristan Selmy",
+          "isCorrect": false,
+          "explanation": "Sor Barristan, o Ousado, também serviu Daenerys lealmente após ser dispensado por Joffrey.\nMas seu amor por ela era mais paternal e honrado.\nEle era um grande cavaleiro, mas Jorah era o 'friendzoned'.\n'Mesmo agora, eu protegeria você.'"
+        },
+        {
+          "text": "Daario Naharis",
+          "isCorrect": false,
+          "explanation": "Daario Naharis, o capitão dos Corvos Tormentosos, foi amante de Daenerys.\nEle era charmoso e letal, mas seu relacionamento era mais passional que de conselho devotado.\nJorah estava lá antes e depois dele.\nAmor e guerra, mas não o exilado original."
+        },
+        {
+          "text": "Sor Jorah Mormont",
+          "isCorrect": true,
+          "explanation": "Correto! Exilado por vender caçadores furtivos como escravos.\nEle encontrou redenção (e um amor impossível) ao lado de Daenerys.\nSua lealdade e conselhos foram cruciais para ela.\n'Khaleesi, por favor...'",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/jorah-mormont-iain-glen-photo-helen-sloan-hbo-fotografia-de-not%C3%ADcias/1137892105",
+          "imageDescription": "Iain Glen como Sor Jorah Mormont, o leal conselheiro de Daenerys."
+        },
+        {
+          "text": "Tyrion Lannister",
+          "isCorrect": false,
+          "explanation": "Tyrion também se tornou conselheiro de Daenerys, como sua Mão.\nEle a admirava e respeitava, mas não estava apaixonado por ela dessa forma.\nSua lealdade era mais estratégica e intelectual.\n'Eu bebo e sei das coisas' (sobre política, não sobre amor por ela)."
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "question": "Qual material vulcânico, também conhecido coloquialmente como 'vidro de dragão', é uma das poucas substâncias conhecidas capazes de matar instantaneamente os Caminhantes Brancos?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Aço Valiriano",
+          "isCorrect": false,
+          "explanation": "Aço Valiriano também pode matar Caminhantes Brancos, é verdade.\nMas 'vidro de dragão' é outro material, mais frágil mas igualmente eficaz.\nAmbos são raros e preciosos na luta contra os mortos.\nEspadas e adagas, duas opções."
+        },
+        {
+          "text": "Gelo comum",
+          "isCorrect": false,
+          "explanation": "Gelo é o elemento dos Caminhantes Brancos, não sua fraqueza.\nEles manipulam o frio e trazem tempestades de inverno.\nTentar matá-los com gelo seria... ineficaz.\n'Você quer brincar na neve?' Não com eles."
+        },
+        {
+          "text": "Obsidiana",
+          "isCorrect": true,
+          "explanation": "Exatamente! Este vidro vulcânico, quando transformado em armas,\nDesfaz os Caminhantes Brancos em pedaços ao contato.\nEncontrado em grandes quantidades em Pedra do Dragão.\nUma arma crucial na Longa Noite.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/raw-black-obsidian-stone-on-260nw-1930198085.jpg",
+          "imageDescription": "Pedaços brutos de obsidiana, o material conhecido como vidro de dragão."
+        },
+        {
+          "text": "Fogovivo",
+          "isCorrect": false,
+          "explanation": "Fogovivo é ótimo para queimar Criaturas (os mortos reanimados).\nMas sua eficácia contra os próprios Caminhantes Brancos (os 'generais' de gelo) não é tão clara.\nObsidiana e aço valiriano são as apostas seguras.\nFogo verde para os zumbis, vidro de dragão para os chefões."
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "question": "Em 'House of the Dragon', qual é o título e nome do lendário Lorde da Casa Velaryon, o navegador mais famoso de Westeros, conhecido como 'A Serpente Marinha' por suas nove grandes viagens?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Lorde Wyman Manderly",
+          "isCorrect": false,
+          "explanation": "Lorde Manderly é o corpulento Senhor de Porto Branco, no Norte.\nConhecido por sua astúcia e... tortas especiais.\nUm homem do mar, mas não A Serpente Marinha.\nFiel aos Stark (e à boa comida)."
+        },
+        {
+          "text": "Lorde Monford Velaryon",
+          "isCorrect": false,
+          "explanation": "Monford Velaryon foi um descendente de Corlys, que viveu na época de Game of Thrones.\nApoiou Stannis, mas não era o famoso navegador.\nO nome Velaryon carrega tradição marítima, mas Corlys é a lenda.\nOutra época, outro Velaryon."
+        },
+        {
+          "text": "Lorde Corlys Velaryon",
+          "isCorrect": true,
+          "explanation": "Correto! Suas viagens a Essos e além trouxeram imensa riqueza e fama à Casa Velaryon.\nCasado com a Princesa Rhaenys, ele é uma figura poderosa e influente.\nSeu apoio (e sua frota) é crucial na Dança dos Dragões.\nO mestre dos mares!",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/steve-toussaint-as-lord-corlys-velaryon-in-house-fotografia-de-not%C3%ADcias/1415830951",
+          "imageDescription": "Steve Toussaint como Lorde Corlys Velaryon, A Serpente Marinha."
+        },
+        {
+          "text": "Sor Vaemond Velaryon",
+          "isCorrect": false,
+          "explanation": "Vaemond Velaryon é o irmão mais novo de Corlys.\nEle é ambicioso e vocal sobre a sucessão em Derivamarca.\nMas não tem o renome ou as realizações de seu irmão mais velho.\nMais problemas do que viagens."
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "question": "Qual é o nome da sinistra fortaleza ancestral da Casa Bolton, localizada no Norte e conhecida por sua câmara de tortura e pela prática de esfolar seus inimigos?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Winterfell",
+          "isCorrect": false,
+          "explanation": "Winterfell é o lar dos Stark, um lugar de honra (geralmente).\nFoi brevemente ocupada e profanada pelos Bolton, mas não é sua fortaleza original.\nOs Starks preferem lobos a homens esfolados.\n'O Inverno Está Chegando', não 'Nossas Lâminas São Afiadas'."
+        },
+        {
+          "text": "Harrenhal",
+          "isCorrect": false,
+          "explanation": "Harrenhal é uma fortaleza gigantesca e amaldiçoada, palco de muitos horrores.\nMas não é o lar ancestral dos Bolton.\nOs Bolton também são sinistros, mas em seu próprio castelo.\nFantasmas e desgraça, mas de outros donos."
+        },
+        {
+          "text": "Forte do Pavor (Dreadfort)",
+          "isCorrect": true,
+          "explanation": "Exatamente! Um nome que já diz tudo.\nLar de Ramsay Bolton e suas terríveis 'brincadeiras'.\nO sigilo do homem esfolado adorna suas paredes.\nUm lugar para se evitar a todo custo.",
+          "imageUrl": "https://www.imdb.com/title/tt0944947/mediaviewer/rm2515329024/",
+          "imageDescription": "O sinistro sigilo da Casa Bolton, o homem esfolado, representando o Forte do Pavor."
+        },
+        {
+          "text": "Torralta (High Tower)",
+          "isCorrect": false,
+          "explanation": "A Torralta fica em Vilavelha, sede da Casa Hightower e da Cidadela.\nUm farol de conhecimento e civilização (supostamente).\nMuito diferente da brutalidade do Forte do Pavor.\nLivros e estrelas, não peles e gritos."
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "question": "Qual é o título dado à esposa principal de um poderoso Khal Dothraki, como Daenerys Targaryen foi para Khal Drogo?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Princesa do Mar Dothraki",
+          "isCorrect": false,
+          "explanation": "Os Dothraki não têm 'princesas' no sentido westerosi.\nSeu sistema de liderança é baseado na força e nos Khals.\nUm título muito formal para um povo nômade.\nEles não se curvam a ninguém."
+        },
+        {
+          "text": "Rainha dos Cavaleiros",
+          "isCorrect": false,
+          "explanation": "Eles são senhores dos cavalos, mas 'rainha' não é um termo Dothraki.\nA esposa do Khal tem um título específico em sua língua.\nPense em 'Khal' e adicione um toque feminino.\nQuase lá!"
+        },
+        {
+          "text": "Khaleesi",
+          "isCorrect": true,
+          "explanation": "Corretíssimo! Significa 'rainha' na língua Dothraki, a esposa do Khal.\nDaenerys abraçou esse título e o usou para ganhar respeito.\nUma posição de honra (e perigo) no khalasar.\n'Minha Lua, Minha Vida! Minha Khaleesi!'",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/emilia-clarke-as-daenerys-targaryen-photo-helen-fotografia-de-not%C3%ADcias/1137892078",
+          "imageDescription": "Emilia Clarke como Daenerys Targaryen em seu papel de Khaleesi dos Dothraki."
+        },
+        {
+          "text": "Primeira Esposa",
+          "isCorrect": false,
+          "explanation": "Embora ela seja a esposa principal, o título Dothraki é mais específico.\n'Primeira Esposa' soa muito... burocrático para eles.\nKhaleesi tem mais impacto e tradição.\nÉ mais do que apenas um número na lista."
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "question": "Qual é o nome do membro da Casa Tarly que se junta à Patrulha da Noite, torna-se o fiel intendente e melhor amigo de Jon Snow, e mais tarde viaja para a Cidadela para se tornar um Meistre?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Dickon Tarly",
+          "isCorrect": false,
+          "explanation": "Dickon era o irmão mais novo de Sam, o favorito do pai.\nUm guerreiro habilidoso, mas não muito inteligente.\nEle ficou em Monte Chifre (e teve um fim quente).\nMais músculos, menos cérebro."
+        },
+        {
+          "text": "Randyll Tarly",
+          "isCorrect": false,
+          "explanation": "Randyll Tarly era o pai severo e implacável de Sam.\nUm grande comandante militar, mas um péssimo pai (para Sam).\nEle desprezava a natureza estudiosa de Sam.\n'Você é uma desgraça para a Casa Tarly!'"
+        },
+        {
+          "text": "Samwell Tarly",
+          "isCorrect": true,
+          "explanation": "Ele mesmo! O corajoso (às vezes) e inteligente Sam.\nAmante de livros, matou um Caminhante Branco e um Thenn.\nSua lealdade a Jon e Gilly é inabalável.\nO herói improvável que todos amamos.",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/john-bradley-as-samwell-tarly-photo-helen-sloan-fotografia-de-not%C3%ADcias/1137892100",
+          "imageDescription": "John Bradley como Samwell Tarly, o leal amigo de Jon Snow."
+        },
+        {
+          "text": "Grenn",
+          "isCorrect": false,
+          "explanation": "Grenn foi um dos amigos de Jon na Patrulha da Noite.\nCorajoso e leal, morreu defendendo o portão em Castelo Negro.\nUm bom irmão de juramento, mas não o intelectual do grupo.\n'Mantenham o portão!'"
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "question": "Qual das cidades da Baía dos Escravos em Essos é renomada por treinar e vender os Imaculados, guerreiros eunucos de elite conhecidos por sua disciplina e destemor em batalha?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Yunkai",
+          "isCorrect": false,
+          "explanation": "Yunkai, a Cidade Amarela, também era uma cidade escravagista.\nMas sua 'especialidade' eram escravos de prazer (os 'sábios mestres' diziam).\nNão eram os produtores principais dos Imaculados.\nMais seda, menos lanças."
+        },
+        {
+          "text": "Meereen",
+          "isCorrect": false,
+          "explanation": "Meereen era a maior das cidades da Baía dos Escravos, com suas grandes pirâmides.\nDaenerys a conquistou e tentou governá-la.\nMas Astapor era o centro de treinamento dos Imaculados.\nProblemas com Harpias, não com treinamento de eunucos."
+        },
+        {
+          "text": "Astapor",
+          "isCorrect": true,
+          "explanation": "Correto! A Cidade Vermelha, onde os Imaculados eram brutalmente treinados.\nDaenerys 'comprou' um exército inteiro deles e depois os libertou.\nUm lugar de crueldade e disciplina férrea.\n'Matem os Mestres!'",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/the-unsullied-army-lines-up-in-astapor-photo-fotografia-de-not%C3%ADcias/1137892202",
+          "imageDescription": "O exército dos Imaculados em formação na cidade de Astapor."
+        },
+        {
+          "text": "Nova Ghis",
+          "isCorrect": false,
+          "explanation": "Nova Ghis é uma cidade do Império Ghiscari renascido, que tenta rivalizar com as Cidades Livres.\nEles têm seus próprios exércitos de legionários, não Imaculados.\nOutra cultura escravagista, mas com diferentes soldados.\nLegiões, não eunucos."
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "question": "Em 'House of the Dragon', qual é o nome do magnífico dragão de escamas douradas montado por Aegon II Targaryen, descrito como o mais belo dragão já visto em Westeros?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Vhagar",
+          "isCorrect": false,
+          "explanation": "Vhagar era montada por Aemond Targaryen (irmão de Aegon II) durante a Dança.\nEra uma dragão fêmea colossal, cor de bronze e verde, não dourada.\nAntiga e poderosa, mas não a beleza dourada de Aegon.\nUma lenda viva, mas de outra cor."
+        },
+        {
+          "text": "Caraxes, o Wyrm de Sangue",
+          "isCorrect": false,
+          "explanation": "Caraxes era o dragão vermelho e temível de Daemon Targaryen.\nConhecido por seu corpo longo e natureza agressiva.\nDefinitivamente não dourado nem o mais belo (embora impressionante).\nFeroz, não classicamente belo."
+        },
+        {
+          "text": "Sunfyre, o Dourado",
+          "isCorrect": true,
+          "explanation": "Exatamente! Suas escamas brilhavam como ouro batido ao sol.\nUm espetáculo magnífico no céu, e um combatente feroz.\nLeal a Aegon II até o fim amargo.\nBeleza e poder em forma de dragão.",
+          "imageUrl": "https://www.imdb.com/title/tt5770786/mediaviewer/rm389337089",
+          "imageDescription": "Arte conceitual de Sunfyre, o dragão dourado de Aegon II Targaryen."
+        },
+        {
+          "text": "Dreamfyre (Sonhofogoso)",
+          "isCorrect": false,
+          "explanation": "Dreamfyre era a dragão fêmea azul-prateada de Helaena Targaryen (esposa de Aegon II).\nTambém bela, mas não a dourada montaria de Aegon.\nConhecida por botar muitos ovos.\nOutra beleza alada da família."
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "question": "Qual é o termo usado para descrever os cadáveres reanimados pelos Caminhantes Brancos, que formam a maior parte de seu temível exército de mortos-vivos?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Os Outros (The Others)",
+          "isCorrect": false,
+          "explanation": "Os Outros são os próprios Caminhantes Brancos, seres de gelo com olhos azuis brilhantes.\nEles são os líderes e criadores do exército, não os soldados rasos.\nOs 'generais' do apocalipse de gelo.\nEles dão as ordens, não são a horda."
+        },
+        {
+          "text": "Espectros da Neve",
+          "isCorrect": false,
+          "explanation": "Um nome poético, mas não o termo oficial usado na saga.\n'Criaturas' é mais direto e descreve sua natureza.\nSoa legal, mas não é o que eles são chamados.\nPoderia ser uma banda de metal nórdico."
+        },
+        {
+          "text": "Criaturas (Wights)",
+          "isCorrect": true,
+          "explanation": "Correto! Humanos ou animais mortos e reanimados pela magia dos Caminhantes Brancos.\nDifíceis de matar, a menos que com fogo, vidro de dragão ou aço valiriano.\nUm exército que cresce a cada morte inimiga.\nZumbis de gelo, basicamente.",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/a-wight-attacks-jon-snow-in-his-chambers-at-fotografia-de-not%C3%ADcias/1137892210",
+          "imageDescription": "Uma Criatura (Wight) do exército dos mortos atacando."
+        },
+        {
+          "text": "Filhos do Gelo",
+          "isCorrect": false,
+          "explanation": "Outro nome que soa apropriado, mas não é o termo canônico.\nOs Caminhantes Brancos poderiam ser chamados assim, mas suas tropas são 'Criaturas'.\nEvoca a imagem certa, mas não o nome certo.\nLegal, mas não oficial."
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "question": "Qual das filhas de Ned e Catelyn Stark rejeita os papéis tradicionais de uma senhora, aprende esgrima com Syrio Forel, e eventualmente se torna uma habilidosa assassina treinada pelos Homens Sem Rosto?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Sansa Stark",
+          "isCorrect": false,
+          "explanation": "Sansa sonhava em ser uma dama e rainha, inicialmente.\nEla aprendeu sobre política e sobrevivência da maneira mais difícil.\nSuas armas eram a cortesia e a astúcia, não uma espada.\n'A cortesia é a armadura de uma dama.'"
+        },
+        {
+          "text": "Myrcella Baratheon",
+          "isCorrect": false,
+          "explanation": "Myrcella era filha de Cersei, prometida aos Martell em Dorne.\nUma jovem gentil e inocente, não uma guerreira ou assassina.\nSua história é mais sobre ser um peão político.\nUm destino trágico em Dorne."
+        },
+        {
+          "text": "Arya Stark",
+          "isCorrect": true,
+          "explanation": "Ela mesma! A pequena loba que preferia uma espada a uma agulha de costura.\nTreinou com Syrio, sobreviveu sozinha e se tornou Ninguém.\nSua lista de vingança era longa, e ela cumpriu alguns nomes.\n'Valar Morghulis.'",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/maisie-williams-as-arya-stark-photo-helen-sloan-fotografia-de-not%C3%ADcias/1137892132",
+          "imageDescription": "Maisie Williams como Arya Stark, a jovem guerreira e assassina."
+        },
+        {
+          "text": "Lyanna Mormont",
+          "isCorrect": false,
+          "explanation": "Lyanna Mormont, a jovem Senhora da Ilha dos Ursos, era uma líder feroz e destemida.\nEla inspirava seus homens e não temia ninguém.\nMas não treinou como assassina sem rosto.\n'Nós não somos uma casa grande, mas somos uma casa orgulhosa!'"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "question": "Qual era o nome da selvagem do Povo Livre, habilidosa com o arco e flecha, que se tornou o interesse amoroso de Jon Snow e é famosa por lhe dizer: 'Você não sabe de nada, Jon Snow'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Osha",
+          "isCorrect": false,
+          "explanation": "Osha era uma selvagem capturada que se tornou serva dos Stark.\nEla protegeu Bran e Rickon, mas não era o amor de Jon.\nForte e leal, mas com outra história.\n'Os velhos deuses estão observando.'"
+        },
+        {
+          "text": "Val",
+          "isCorrect": false,
+          "explanation": "Val era a irmã da esposa de Mance Rayder, conhecida como a 'Princesa Selvagem'.\nJon a resgatou e a respeitava, mas Ygritte foi seu primeiro amor selvagem.\nBela e enigmática, mas não a dona da famosa frase.\nOutra figura forte do Povo Livre."
+        },
+        {
+          "text": "Ygritte",
+          "isCorrect": true,
+          "explanation": "Correto! A espirituosa e independente Ygritte.\nEla capturou Jon (e seu coração) e o ensinou sobre o Povo Livre.\nSua morte nos braços dele foi um momento trágico.\n'Você não sabe de nada, Jon Snow.' E ele realmente não sabia (sobre muitas coisas).",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/rose-leslie-as-ygritte-photo-helen-sloan-hbo-fotografia-de-not%C3%ADcias/1137892168",
+          "imageDescription": "Rose Leslie como Ygritte, a selvagem amada por Jon Snow."
+        },
+        {
+          "text": "Gilly (Goiva)",
+          "isCorrect": false,
+          "explanation": "Gilly era uma das filhas/esposas de Craster, resgatada por Samwell Tarly.\nEla se tornou o amor de Sam e mãe do pequeno Sam.\nUma história de sobrevivência e amor, mas não com Jon.\nDo terror de Craster à segurança (relativa) com Sam."
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "question": "Que evento cataclísmico, ocorrido séculos antes da Conquista de Aegon, destruiu o antigo Império Valiriano e sua capital, transformando a região em ruínas fumegantes e perigosas?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "A Longa Noite",
+          "isCorrect": false,
+          "explanation": "A Longa Noite foi um inverno que durou uma geração, trazendo os Outros.\nAconteceu milênios antes da Perdição de Valíria.\nUm evento de escuridão e gelo, não de fogo e terremotos.\nOutro apocalipse, outra era."
+        },
+        {
+          "text": "A Dança dos Dragões",
+          "isCorrect": false,
+          "explanation": "A Dança dos Dragões foi a guerra civil Targaryen que ocorreu APÓS a Conquista.\nDestruiu muitos dragões e enfraqueceu a Casa Targaryen.\nMas Valíria já estava em ruínas há muito tempo.\nUma tragédia familiar, não um cataclismo natural."
+        },
+        {
+          "text": "A Perdição de Valíria (The Doom of Valyria)",
+          "isCorrect": true,
+          "explanation": "Exatamente! Um evento misterioso e terrível, envolvendo erupções vulcânicas e terremotos.\nAniquilou a maior civilização do mundo e a fonte da magia valiriana (e do aço).\nOs Targaryen sobreviveram porque já estavam em Pedra do Dragão.\nFogo e fúria da natureza.",
+          "imageUrl": "https://www.imdb.com/title/tt0944947/mediaviewer/rm3316138240/",
+          "imageDescription": "Arte conceitual representando a destruição cataclísmica da Perdição de Valíria."
+        },
+        {
+          "text": "A Rebelião Blackfyre",
+          "isCorrect": false,
+          "explanation": "As Rebeliões Blackfyre foram uma série de guerras civis entre Targaryens e seus parentes bastardos.\nAconteceram séculos depois da Perdição.\nDisputas dinásticas sangrentas, mas não a destruição de Valíria.\nDragões contra dragões (de novo)."
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "question": "Em 'House of the Dragon', quem são os dois principais filhos homens de Alicent Hightower e do Rei Viserys I, cujas reivindicações ao Trono de Ferro em oposição a Rhaenyra formam o cerne da facção dos 'Verdes'?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Jacaerys e Lucerys Velaryon",
+          "isCorrect": false,
+          "explanation": "Jacaerys e Lucerys são filhos de Rhaenyra Targaryen, os 'Negros'.\nSua legitimidade é questionada pelos Verdes.\nEles lutam AO LADO de Rhaenyra, não contra ela como Verdes.\nOs herdeiros da Rainha Negra."
+        },
+        {
+          "text": "Daemon e Viserys Targaryen (o mais jovem)",
+          "isCorrect": false,
+          "explanation": "Daemon é irmão de Viserys I e tio/marido de Rhaenyra, um líder dos Negros.\nViserys (o mais jovem) é filho de Rhaenyra e Daemon.\nEles são da facção oposta aos Verdes.\nO Príncipe Rebelde e seu filho."
+        },
+        {
+          "text": "Aegon II e Aemond 'Caolho' Targaryen",
+          "isCorrect": true,
+          "explanation": "Correto! Aegon é coroado rei pelos Verdes, desafiando a nomeação de Rhaenyra.\nAemond, seu irmão mais novo, é um guerreiro formidável e cruel, montador de Vhagar.\nJuntos, são pilares da facção de Alicent.\nOs príncipes da usurpação (segundo os Negros).",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/tom-glynn-carney-and-ewan-mitchell-attend-the-fotografia-de-not%C3%ADcias/1449411009",
+          "imageDescription": "Atores Tom Glynn-Carney (Aegon II) e Ewan Mitchell (Aemond) que interpretam os príncipes Verdes."
+        },
+        {
+          "text": "Harwin 'Quebraossos' e Larys Strong",
+          "isCorrect": false,
+          "explanation": "Harwin Strong era o suposto pai dos filhos de Rhaenyra e um apoiador dela.\nLarys Strong é um manipulador que se alinha com os Verdes, mas não é filho de Viserys.\nEles são da Casa Strong, não príncipes Targaryen Verdes.\nForça bruta e intriga sutil."
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "question": "Qual foi o nome do ex-patrulheiro da noite que conseguiu unir as diversas tribos do Povo Livre, incluindo gigantes e Thenns, sob seu comando, proclamando-se Rei-Para-Lá-da-Muralha em 'Game of Thrones'?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Tormund Terror dos Gigantes",
+          "isCorrect": false,
+          "explanation": "Tormund era um líder selvagem importante e lugar-tenente de Mance.\nEle se tornou um aliado crucial de Jon Snow depois.\nMas Mance Rayder foi quem uniu todas as tribos primeiro.\nO ruivo favorito de todos, mas não o Rei original."
+        },
+        {
+          "text": "Styr, o Magnar de Thenn",
+          "isCorrect": false,
+          "explanation": "Styr era o líder careca e assustador dos Thenns, um povo disciplinado do Povo Livre.\nEle era um comandante formidável sob Mance.\nMas não o rei que uniu a todos.\nCanibalismo e orelhas grandes."
+        },
+        {
+          "text": "Mance Rayder",
+          "isCorrect": true,
+          "explanation": "Exatamente! Um homem carismático que abandonou a Patrulha da Noite.\nEle viu a ameaça dos Caminhantes Brancos e uniu os clãs rivais para escapar para o sul.\nUm músico e um líder nato.\n'Nós não nos ajoelhamos.'",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/ciaran-hinds-as-mance-rayder-photo-helen-sloan-fotografia-de-not%C3%ADcias/1137892057",
+          "imageDescription": "Ciarán Hinds como Mance Rayder, o Rei-Para-Lá-da-Muralha."
+        },
+        {
+          "text": "Craster",
+          "isCorrect": false,
+          "explanation": "Craster era um selvagem que vivia em seu reduto, casando com suas próprias filhas.\nEle fazia acordos com os Caminhantes Brancos, não os unia contra eles.\nUm personagem desprezível, não um rei unificador.\nNenhum prêmio de pai do ano para ele."
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "question": "Qual é o nome da sombria e antiga fortaleza, construída sobre uma série de ilhotas rochosas e pontes precárias, que serve como o principal assento da Casa Greyjoy nas Ilhas de Ferro?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Dez Torres (Ten Towers)",
+          "isCorrect": false,
+          "explanation": "Dez Torres é a fortaleza da Casa Harlaw, uma das mais poderosas casas vassalas dos Greyjoy.\nLocalizada na ilha de Harlaw, é grande e importante, mas não Pyke.\nUma casa aliada, mas não a sede principal.\nMuitas torres, mas não a dos Greyjoy."
+        },
+        {
+          "text": "Velha Wyk (Old Wyk)",
+          "isCorrect": false,
+          "explanation": "Velha Wyk é a ilha mais sagrada dos Homens de Ferro, onde os reis eram coroados antigamente.\nMas a fortaleza principal dos Greyjoy fica em outra ilha.\nUm lugar de tradição, não o castelo principal.\nLá fica o Morro do Rei."
+        },
+        {
+          "text": "Pyke",
+          "isCorrect": true,
+          "explanation": "Correto! Um castelo austero e varrido pelo vento, espalhado por várias rochas no mar.\nReflete a natureza dura e implacável dos Homens de Ferro.\nUm lugar de sal, pedra e o eterno som das ondas.\n'Nós Não Semeamos' daqui.",
+          "imageUrl": "https://www.gettyimages.com.br/detail/ilustra%C3%A7%C3%A3o/pyke-castle-seat-of-house-greyjoy-in-game-of-ilustra%C3%A7%C3%A3o-royalty-free/1294421818",
+          "imageDescription": "Ilustração do castelo de Pyke, a fortaleza da Casa Greyjoy."
+        },
+        {
+          "text": "Escudoria (Shield Islands)",
+          "isCorrect": false,
+          "explanation": "As Ilhas Escudo guardam a foz do Rio Vago e são estrategicamente importantes.\nForam palco de muitas batalhas, mas não são o lar dos Greyjoy.\nDefendem a Campina, não abrigam os lulas gigantes.\nUma barreira contra os Homens de Ferro, ironicamente."
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "question": "Qual era o nome do nobre senhor das Terras da Tempestade que formou a Irmandade Sem Bandeiras para proteger o povo durante a Guerra dos Cinco Reis, e que foi ressuscitado múltiplas vezes pelo sacerdote Thoros de Myr?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Lorde Edric Storm",
+          "isCorrect": false,
+          "explanation": "Edric Storm era um dos bastardos reconhecidos de Robert Baratheon.\nEle foi protegido por Stannis e depois enviado para Essos por segurança.\nNão liderou a Irmandade.\nUm jovem com sangue real, mas não o Senhor do Relâmpago."
+        },
+        {
+          "text": "Sor Davos Seaworth",
+          "isCorrect": false,
+          "explanation": "Davos, o Cavaleiro das Cebolas, era o leal conselheiro de Stannis Baratheon.\nUm homem honrado e pragmático, mas não o líder da Irmandade.\nEle contrabandeava cebolas, não voltava da morte (ainda bem).\n'A lealdade é um fardo.'"
+        },
+        {
+          "text": "Lorde Beric Dondarrion",
+          "isCorrect": true,
+          "explanation": "Exatamente! O Senhor do Relâmpago, com sua espada flamejante.\nEnviado por Ned Stark para prender Gregor Clegane, ele se tornou um fora da lei justiceiro.\nCada ressurreição lhe custava uma parte de si mesmo.\n'A morte é tão terrivelmente final.' (Não para ele, aparentemente).",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/richard-dormer-as-beric-dondarrion-photo-helen-fotografia-de-not%C3%ADcias/1137892158",
+          "imageDescription": "Richard Dormer como Lorde Beric Dondarrion com sua espada em chamas."
+        },
+        {
+          "text": "Anguy, o Arqueiro",
+          "isCorrect": false,
+          "explanation": "Anguy era um arqueiro campeão que se juntou à Irmandade.\nConhecido por sua mira incrível, mas não era o líder.\nUm membro valioso, mas não o ressuscitado.\nFlechas certeiras, não múltiplas vidas."
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "question": "Qual é o nome do veneno insípido, inodoro e altamente letal, feito a partir de uma planta rara de Asshai, que foi usado para assassinar o Rei Joffrey Baratheon durante seu banquete de casamento?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Lágrimas de Lys",
+          "isCorrect": false,
+          "explanation": "Lágrimas de Lys é um veneno conhecido, que mata sem deixar vestígios visíveis.\nMas o veneno do Casamento Púrpura tinha um nome mais... sufocante.\nEste é sutil, o outro foi mais dramático.\nSilencioso, mas não o culpado aqui."
+        },
+        {
+          "text": "Basilisco em Pó",
+          "isCorrect": false,
+          "explanation": "Sangue de basilisco é um veneno potente, mas os sintomas são diferentes.\nO veneno que matou Joffrey causou asfixia e uma morte horrível.\nEste é mais exótico, o outro mais direto.\nPetrifica ou enlouquece, não sufoca."
+        },
+        {
+          "text": "O Estrangulador",
+          "isCorrect": true,
+          "explanation": "Correto! Um veneno que causa o fechamento da garganta, levando à asfixia.\nAdministrado em uma das joias da rede de cabelo de Sansa (ou no vinho).\nUm fim terrível para um rei terrível.\nNinguém sentiu muita falta.",
+          "imageUrl": "https://www.imdb.com/title/tt2832378/mediaviewer/rm2969624320",
+          "imageDescription": "O cálice de vinho de Joffrey, momentos antes de ser envenenado no Casamento Púrpura."
+        },
+        {
+          "text": "Essência de Beladona",
+          "isCorrect": false,
+          "explanation": "Beladona (Nightshade) é venenosa, mas O Estrangulador é mais específico e raro.\nOs sintomas de Joffrey eram muito característicos.\nUm veneno clássico, mas não o escolhido para o rei mimado.\nDilata as pupilas, mas não garante um espetáculo tão público."
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "question": "Durante a Dança dos Dragões, qual foi o nome do confronto aéreo sobre a Baía dos Naufrágios, perto de Ponta Tempestade, onde o Príncipe Aemond Targaryen, montado em Vhagar, perseguiu e matou o jovem Príncipe Lucerys Velaryon e seu dragão Arrax, marcando um ponto de não retorno na guerra?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "A Batalha de Pouso de Gralhas",
+          "isCorrect": false,
+          "explanation": "Pouso de Gralhas foi uma batalha sangrenta onde Rhaenys Targaryen e Meleys enfrentaram Aegon II e Aemond.\nUm evento brutal, mas não a morte de Lucerys.\nLá, uma rainha caiu, não um jovem príncipe mensageiro.\nDragões contra dragões, mas em outro local."
+        },
+        {
+          "text": "A Queda de Harrenhal",
+          "isCorrect": false,
+          "explanation": "Harrenhal trocou de mãos várias vezes durante a Dança.\nDaemon Targaryen a tomou sem luta no início.\nMas não foi onde Lucerys encontrou seu fim.\nUm castelo amaldiçoado, palco de outras tragédias."
+        },
+        {
+          "text": "O Duelo sobre Ponta Tempestade / Baía dos Naufrágios",
+          "isCorrect": true,
+          "explanation": "Correto! Lucerys foi enviado como mensageiro e encontrou Aemond em Ponta Tempestade.\nA perseguição e a morte de Luke e Arrax por Aemond e a colossal Vhagar transformaram a guerra fria em quente.\n'Olho por olho, filho por filho.'\nUm ato que clamava por vingança.",
+          "imageUrl": "https://www.imdb.com/title/tt11198330/mediaviewer/rm329781505/",
+          "imageDescription": "Arte conceitual de Aemond em Vhagar confrontando Lucerys em Arrax sobre Ponta Tempestade."
+        },
+        {
+          "text": "A Batalha da Goela",
+          "isCorrect": false,
+          "explanation": "A Batalha da Goela foi uma grande batalha naval e aérea entre a frota Velaryon e a Triarquia.\nMuitos dragões lutaram e morreram lá, incluindo Jacaerys Velaryon.\nMas a morte de Lucerys foi um evento anterior e mais pessoal.\nUma carnificina no mar, mas não o fim de Luke."
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "question": "Qual é o nome da espada ancestral de aço Valiriano da Casa Tarly de Monte Chifre, que Samwell Tarly desafiadoramente rouba de seu pai, Lorde Randyll Tarly, antes de partir para a Cidadela com Gilly e o pequeno Sam?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Lamento da Viúva (Widow's Wail)",
+          "isCorrect": false,
+          "explanation": "Lamento da Viúva foi uma das duas espadas reforjadas de Gelo, a espada Stark.\nFoi presenteada a Joffrey e depois usada por Tommen (ou guardada para ele).\nNão pertencia aos Tarly.\nUma espada Lannister, não Tarly."
+        },
+        {
+          "text": "Alvorada (Dawn)",
+          "isCorrect": false,
+          "explanation": "Alvorada é a espada ancestral da Casa Dayne, forjada do coração de uma estrela caída.\nEmpunhada apenas por cavaleiros Dayne dignos, como Sor Arthur Dayne.\nNão é de aço Valiriano e não pertence aos Tarly.\nBrilhante como o amanhecer, mas de outra casa."
+        },
+        {
+          "text": "Veneno do Coração (Heartsbane)",
+          "isCorrect": true,
+          "explanation": "Exatamente! Uma grande espada de montante, orgulho da Casa Tarly.\nSam a tomou como um ato de rebelião e para protegê-la de cair em mãos indignas (ou para usá-la contra os Outros).\nUm fardo pesado, mas uma arma poderosa.\n'Eu sou Samwell Tarly, da Casa Tarly. E esta é Veneno do Coração!'",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/john-bradley-as-samwell-tarly-photo-helen-sloan-fotografia-de-not%C3%ADcias/1137892100",
+          "imageDescription": "Samwell Tarly (John Bradley) segurando a espada Veneno do Coração (Heartsbane)."
+        },
+        {
+          "text": "Chuva Rubra (Red Rain)",
+          "isCorrect": false,
+          "explanation": "Chuva Rubra é a espada de aço Valiriano da Casa Drumm das Ilhas de Ferro.\nConquistada em um saque há muito tempo.\nUma espada pirata, não a herança dos Tarly.\nFerro e sangue, não chifres e caça."
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "question": "Quem foi o lendário fundador da Casa Lannister durante a Era dos Heróis, que, usando apenas sua inteligência e astúcia, teria enganado a Casa Casterly para lhes tomar Rochedo Casterly, sua rica fortaleza?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Tyland Lannister",
+          "isCorrect": false,
+          "explanation": "Tyland Lannister foi um importante membro da Casa durante a Dança dos Dragões.\nServiu como Mestre da Moeda e sofreu torturas terríveis.\nMas não foi o fundador lendário.\nUma figura histórica, não mítica."
+        },
+        {
+          "text": "Damon Lannister, o Leão Cinzento",
+          "isCorrect": false,
+          "explanation": "Damon Lannister foi um Lorde de Rochedo Casterly que enfrentou rebeliões e guerras.\nUma figura importante na história Lannister, mas não o fundador original.\nLiderou exércitos, não usou apenas a astúcia para ganhar o Rochedo.\nUm leão guerreiro, não o trapaceiro original."
+        },
+        {
+          "text": "Lann, o Esperto (Lann the Clever)",
+          "isCorrect": true,
+          "explanation": "Correto! Uma figura ardilosa da Era dos Heróis.\nAs lendas contam várias versões de como ele conseguiu o Rochedo sem derramar sangue.\nSeja encontrando uma passagem secreta ou enchendo o castelo de ratos.\nO ancestral de todos os Lannisters astutos.",
+          "imageUrl": "https://www.vanityfair.com/hollywood/2017/07/game-of-thrones-lann-the-clever-lannisters-casterly-rock/amp",
+          "imageDescription": "Arte ou ilustração representando a astúcia de Lann, o Esperto, ou o imponente Rochedo Casterly."
+        },
+        {
+          "text": "Gerold Lannister, o Dourado",
+          "isCorrect": false,
+          "explanation": "Gerold Lannister foi um Lorde de Rochedo Casterly mais recente.\nPai de Tywin, Tygett, Gerion, Kevan e Genna Lannister.\nEle quase arruinou a casa com sua benevolência excessiva.\nUm bom homem, mas não o fundador esperto."
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "question": "Qual era o nome da loba gigante de Sansa Stark, que infelizmente foi sacrificada por ordem do Rei Robert Baratheon, a pedido de Cersei, no lugar da loba de Arya, Nymeria?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Verão (Summer)",
+          "isCorrect": false,
+          "explanation": "Verão era o lobo de Bran Stark, leal e protetor.\nEle sobreviveu por muito tempo, ajudando Bran em sua jornada.\nUm companheiro valente, mas não a loba de Sansa.\nTestemunha de muitos segredos."
+        },
+        {
+          "text": "Cão Felpudo (Shaggydog)",
+          "isCorrect": false,
+          "explanation": "Cão Felpudo era o lobo negro e selvagem de Rickon Stark.\nSeu destino foi trágico, como o de seu dono.\nMuito indomável para ser a gentil loba de Sansa.\nUm nome irônico para um lobo feroz."
+        },
+        {
+          "text": "Lady",
+          "isCorrect": true,
+          "explanation": "Correto! A mais dócil e bem-comportada dos lobos gigantes.\nSeu destino injusto foi um dos primeiros sinais da crueldade que Sansa enfrentaria.\nUma perda que marcou profundamente Sansa.\nUma verdadeira dama, até o fim.",
+          "imageUrl": "https://www.imdb.com/title/tt1829962/mediaviewer/rm2889370112",
+          "imageDescription": "Sansa Stark com sua loba gigante, Lady, em um momento de ternura."
+        },
+        {
+          "text": "Nymeria",
+          "isCorrect": false,
+          "explanation": "Nymeria era a loba de Arya, que foi afugentada para evitar ser morta.\nEla sobreviveu e liderou uma matilha selvagem.\nLady foi morta EM LUGAR de Nymeria.\nUma loba livre e indomável."
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "question": "Em qual das cidades da Baía dos Escravos, conhecida como a 'Cidade Vermelha', Daenerys Targaryen adquire seu exército de Imaculados e os liberta, virando a cidade de cabeça para baixo?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Yunkai",
+          "isCorrect": false,
+          "explanation": "Yunkai, a 'Cidade Amarela', foi a próxima cidade que Daenerys libertou.\nMas os Imaculados vieram de outra cidade.\nLá, os escravos eram mais 'de prazer'.\nLibertada, mas não o lar original dos Imaculados."
+        },
+        {
+          "text": "Meereen",
+          "isCorrect": false,
+          "explanation": "Meereen foi a maior cidade que Daenerys conquistou e tentou governar.\nEla enfrentou muitos desafios lá, incluindo os Filhos da Harpia.\nMas Astapor foi onde ela conseguiu seu exército.\nUma rainha em uma cidade difícil."
+        },
+        {
+          "text": "Astapor",
+          "isCorrect": true,
+          "explanation": "Exatamente! Onde os Imaculados eram brutalmente treinados.\nDaenerys usou um de seus dragões como 'pagamento' e depois o recuperou em grande estilo.\nUm movimento ousado que lhe deu um exército leal.\n'Dracarys!' e liberdade.",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/daenerys-targaryen-emilia-clarke-inspects-the-fotografia-de-not%C3%ADcias/1137892030",
+          "imageDescription": "Daenerys Targaryen com seu exército de Imaculados recém-libertado em Astapor."
+        },
+        {
+          "text": "Qarth",
+          "isCorrect": false,
+          "explanation": "Qarth é uma cidade antiga e rica de mercadores, onde Daenerys visitou a Casa dos Imortais.\nEla não obteve um exército lá, apenas visões e perigos.\nMuito opulenta e misteriosa.\n'Os Treze' não vendiam exércitos."
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "question": "Qual título é frequentemente usado para se referir à herdeira do Senhorio de Dorne, que, de acordo com as leis e costumes dorneses, pode herdar antes de um irmão mais novo?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Senhora de Lançassolar",
+          "isCorrect": false,
+          "explanation": "Lançassolar é a capital de Dorne, então a governante seria Senhora de lá.\nMas o título de herdeira (ou governante em si) é mais específico.\nPense no título real que os Martell usam.\nQuase lá!"
+        },
+        {
+          "text": "Rainha de Dorne",
+          "isCorrect": false,
+          "explanation": "Dorne manteve o título de 'Principado' mesmo após se juntar aos Sete Reinos.\nSeus governantes são Príncipes ou Princesas, não Reis ou Rainhas.\nUma questão de tradição e orgulho dornês.\nEles não se curvam facilmente."
+        },
+        {
+          "text": "Princesa de Dorne",
+          "isCorrect": true,
+          "explanation": "Correto! Seja a governante titular ou a herdeira aparente.\nDorne permite que mulheres herdem igualmente aos homens, ou até antes de irmãos mais novos.\nComo a Princesa Arianne Martell nos livros.\nUm lugar de igualdade (e vingança).",
+          "imageUrl": "https://www.imdb.com/title/tt3658012/mediaviewer/rm2024680960",
+          "imageDescription": "As Serpentes de Areia, filhas de Oberyn Martell, representando a força feminina de Dorne."
+        },
+        {
+          "text": "Khaleesi do Deserto",
+          "isCorrect": false,
+          "explanation": "Khaleesi é um título Dothraki, não dornês.\nDorne tem desertos, mas sua cultura é muito diferente da dos Dothraki.\nEles preferem vinho e intrigas a cavalgar em hordas.\nLanças e sol, não arakhs e grama."
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "question": "Qual dos irmãos Baratheon serviu como Mestre dos Navios no pequeno conselho do Rei Robert Baratheon, antes de se retirar para Pedra do Dragão sentindo-se desprezado?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Renly Baratheon",
+          "isCorrect": false,
+          "explanation": "Renly serviu como Mestre das Leis, era o irmão mais novo e charmoso.\nEle tinha suas próprias ambições ao trono, mas o Mestre dos Navios era o irmão do meio.\nMais popular, mas não o comandante naval.\nFlores e sorrisos."
+        },
+        {
+          "text": "Robert Baratheon",
+          "isCorrect": false,
+          "explanation": "Robert era o Rei, ele nomeava o Mestre dos Navios, não ocupava o cargo.\nEle preferia caçar, beber e... outras coisas.\nDeixava a administração para os outros (geralmente para Jon Arryn).\n'O Usurpador' tinha outras preocupações."
+        },
+        {
+          "text": "Stannis Baratheon",
+          "isCorrect": true,
+          "explanation": "Exatamente! Stannis era um comandante naval experiente e austero.\nEle se sentiu menosprezado quando Robert deu Ponta Tempestade a Renly.\nSua rigidez e senso de dever o tornavam impopular, mas competente.\nO homem que rangia os dentes e conhecia navios.",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/stephen-dillane-as-stannis-baratheon-photo-helen-fotografia-de-not%C3%ADcias/1137892192",
+          "imageDescription": "Stephen Dillane como Stannis Baratheon, o Mestre dos Navios."
+        },
+        {
+          "text": "Sor Davos Seaworth",
+          "isCorrect": false,
+          "explanation": "Davos se tornou conselheiro de Stannis DEPOIS que Stannis já era Lorde de Pedra do Dragão.\nEle era um ex-contrabandista e um excelente marinheiro, mas não Mestre dos Navios de Robert.\nLeal a Stannis, não a Robert.\nO Cavaleiro das Cebolas."
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "question": "Em 'House of the Dragon', qual é o nome da filha da Mão do Rei Otto Hightower, que começa como a melhor amiga da Princesa Rhaenyra, mas se torna sua madrasta e principal adversária na corte?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Laena Velaryon",
+          "isCorrect": false,
+          "explanation": "Laena Velaryon foi filha de Rhaenys e Corlys, e esposa de Daemon Targaryen.\nUma nobre poderosa e montadora de Vhagar, mas não a rival de infância de Rhaenyra.\nSua história é trágica, mas diferente.\nOutra forte mulher da época."
+        },
+        {
+          "text": "Helaena Targaryen",
+          "isCorrect": false,
+          "explanation": "Helaena é filha de Alicent e Viserys, esposa-irmã de Aegon II.\nConhecida por suas profecias enigmáticas e amor pelos filhos.\nUma figura trágica dos Verdes, mas não a amiga que virou rival.\n'Cuidado com a besta sob as tábuas.'"
+        },
+        {
+          "text": "Alicent Hightower",
+          "isCorrect": true,
+          "explanation": "Correto! De confidente de Rhaenyra a Rainha Consorte e líder da facção dos Verdes.\nSua amizade se desfez em meio a deveres, ambições e desconfianças.\nUma rivalidade que mergulhou o reino em guerra.\nDe verde esperança a verde inveja (e guerra).",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/olivia-cooke-as-queen-alicent-hightower-in-house-fotografia-de-not%C3%ADcias/1415830969",
+          "imageDescription": "Olivia Cooke como Rainha Alicent Hightower em House of the Dragon."
+        },
+        {
+          "text": "Mysaria, a Verme Branco",
+          "isCorrect": false,
+          "explanation": "Mysaria foi uma dançarina de Lys que se tornou amante e Mestre dos Sussurros de Daemon.\nUma figura influente nas sombras, mas não amiga de Rhaenyra nem rainha.\nEla jogava seu próprio jogo.\nEspiã e manipuladora."
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "question": "Qual é o nome da antiga fé praticada principalmente no Norte de Westeros e Para-Lá-da-Muralha, cujos deuses são espíritos da natureza sem nome, e cujos locais sagrados são bosques com represeiros de face esculpida?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "A Fé dos Sete",
+          "isCorrect": false,
+          "explanation": "A Fé dos Sete é a religião dominante no sul de Westeros.\nCom seus sete aspectos de um único deus, septos e septões.\nMuito diferente da fé antiga e naturalista do Norte.\nLivros sagrados versus árvores que observam."
+        },
+        {
+          "text": "O Culto de R'hllor",
+          "isCorrect": false,
+          "explanation": "R'hllor, o Senhor da Luz, é um deus de fogo e sombra, popular em Essos.\nSeus seguidores veem o mundo como uma luta entre luz e trevas.\nMelisandre é sua sacerdotisa.\nMuito fogo para os deuses silenciosos da floresta."
+        },
+        {
+          "text": "Os Deuses Antigos (da Floresta)",
+          "isCorrect": true,
+          "explanation": "Exatamente! A religião dos Filhos da Floresta e dos Primeiros Homens.\nNão há templos ou textos sagrados, apenas os bosques de represeiros.\nJuramentos são feitos perante essas árvores que tudo veem.\nSilêncio e sabedoria ancestral.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/weirwood-tree-heart-winterfell-3d-260nw-1404390668.jpg",
+          "imageDescription": "Um represeiro com um rosto esculpido, símbolo dos Deuses Antigos."
+        },
+        {
+          "text": "O Deus Afogado",
+          "isCorrect": false,
+          "explanation": "O Deus Afogado é a divindade dos Homens de Ferro das Ilhas de Ferro.\nUma fé brutal que valoriza o combate e o mar.\n'O que está morto não pode morrer.'\nSal e água, não terra e árvores."
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "question": "Qual cavaleiro do Vale, recém-nomeado para a guarda de Jon Arryn, foi morto por Sor Gregor Clegane com um golpe de lança na garganta durante o Torneio da Mão em Porto Real?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Sor Loras Tyrell",
+          "isCorrect": false,
+          "explanation": "Loras Tyrell, o Cavaleiro das Flores, participou do torneio e até derrotou Gregor (com um truque).\nMas ele não foi morto ali.\nSobreviveu para enfrentar outros perigos.\nBonito e sortudo (naquele dia)."
+        },
+        {
+          "text": "Sor Jaime Lannister",
+          "isCorrect": false,
+          "explanation": "Jaime Lannister também participou do torneio, mas não foi morto.\nEle era o Regicida, um dos melhores espadachins do reino.\nGregor não o enfrentaria tão facilmente.\nO Leão Dourado ainda tinha muito o que viver."
+        },
+        {
+          "text": "Sor Hugh do Vale",
+          "isCorrect": true,
+          "explanation": "Correto! Um jovem cavaleiro buscando fama e fortuna.\nSua morte brutal e aparentemente acidental foi um mau presságio.\nE talvez não tão acidental assim...\nUma vida curta e um fim trágico.",
+          "imageUrl": "https://www.imdb.com/title/tt1601373/mediaviewer/rm2562319872/",
+          "imageDescription": "Cavaleiros justando em um torneio, representando o perigo do evento."
+        },
+        {
+          "text": "Sandor Clegane, o Cão",
+          "isCorrect": false,
+          "explanation": "O Cão participou e até salvou Loras de Gregor.\nEle odeia o irmão e o fogo, mas não foi morto no torneio.\nEle tinha muitas galinhas para comer ainda.\nO anti-herói favorito de muitos."
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "question": "Qual é o nome da região mais meridional de Westeros, conhecida por seu clima árido e quente, sua cultura distinta influenciada pelos Rhoynar, e sua capital Lançassolar?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "A Campina (The Reach)",
+          "isCorrect": false,
+          "explanation": "A Campina é uma região fértil e rica, lar dos Tyrell.\nConhecida por seus campos verdes e cavaleiros.\nMuito diferente do deserto de Dorne.\nFlores e fartura."
+        },
+        {
+          "text": "As Terras da Tempestade (Stormlands)",
+          "isCorrect": false,
+          "explanation": "As Terras da Tempestade são uma região costeira e montanhosa, lar dos Baratheon.\nConhecida por suas tempestades e guerreiros ferozes.\nNão é o sul ensolarado e arenoso.\nFúria e ventos."
+        },
+        {
+          "text": "Dorne",
+          "isCorrect": true,
+          "explanation": "Exatamente! A última região a se juntar aos Sete Reinos, e com seus próprios termos.\nFamosa por seus vinhos fortes, cavalos de areia e temperamento independente.\n'Insubmissos, Não Curvados, Não Quebrados.'\nSol, areia e vingança.",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/the-water-gardens-of-dorne-a-palace-of-house-fotografia-de-not%C3%ADcias/1137892206",
+          "imageDescription": "Os Jardins de Água em Dorne, um oásis na região desértica."
+        },
+        {
+          "text": "As Terras Ocidentais (Westerlands)",
+          "isCorrect": false,
+          "explanation": "As Terras Ocidentais são o lar dos Lannister, ricas em ouro.\nMontanhosas e com uma costa rochosa.\nNão é a região desértica do sul.\nOuro e leões."
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "question": "Em 'House of the Dragon', qual é o nome do cavaleiro da Guarda Real, inicialmente de origem comum, que ganha o favor da Princesa Rhaenyra e a escolhe para a Guarda Real, mas cujo relacionamento com ela se deteriora, levando-o a se tornar um dos mais ferrenhos apoiadores de Aegon II?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Sor Harrold Westerling",
+          "isCorrect": false,
+          "explanation": "Sor Harrold era o Lorde Comandante da Guarda Real, um homem honrado.\nEle serviu Viserys lealmente e tentou manter a paz.\nNão teve um relacionamento complicado com Rhaenyra dessa forma.\nUm escudo juramentado até o fim."
+        },
+        {
+          "text": "Sor Erryk Cargyll",
+          "isCorrect": false,
+          "explanation": "Sor Erryk e seu irmão Arryk eram gêmeos na Guarda Real.\nErryk escolheu apoiar Rhaenyra e teve um destino trágico.\nSua lealdade foi clara, sem a reviravolta de Criston.\nUm dilema de lealdade fraterna."
+        },
+        {
+          "text": "Sor Criston Cole",
+          "isCorrect": true,
+          "explanation": "Correto! De campeão a Mão do Rei (para Aegon II).\nSeu orgulho ferido e ressentimento o transformaram em um inimigo implacável de Rhaenyra.\nUm personagem complexo e controverso.\nO 'Fazedor de Reis' dos Verdes.",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/fabien-frankel-as-ser-criston-cole-in-house-of-fotografia-de-not%C3%ADcias/1415830960",
+          "imageDescription": "Fabien Frankel como Sor Criston Cole em House of the Dragon."
+        },
+        {
+          "text": "Sor Steffon Darklyn",
+          "isCorrect": false,
+          "explanation": "Sor Steffon Darklyn foi um membro da Guarda Real de Viserys I.\nEle permaneceu leal a Rhaenyra e tentou coroá-la com a coroa de Viserys.\nNão teve a trajetória de ascensão e queda de Criston Cole.\nLeal aos Negros."
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "question": "Qual é o nome da principal e mais antiga fortaleza da Patrulha da Noite, localizada aproximadamente no centro da Muralha e servindo como seu quartel-general?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Atalaialeste-do-mar (Eastwatch-by-the-Sea)",
+          "isCorrect": false,
+          "explanation": "Atalaialeste é um dos castelos da Patrulha, localizado na extremidade leste da Muralha, perto do mar.\nImportante para a defesa naval, mas não o quartel-general.\nGuarda contra selvagens e contrabandistas marítimos.\nOnde os navios chegam."
+        },
+        {
+          "text": "Torre Sombria (Shadow Tower)",
+          "isCorrect": false,
+          "explanation": "A Torre Sombria fica na extremidade oeste da Muralha, perto das montanhas.\nComandada por homens experientes, mas não é a sede principal.\nGuarda uma passagem perigosa.\nOnde as sombras são mais longas."
+        },
+        {
+          "text": "Castelo Negro (Castle Black)",
+          "isCorrect": true,
+          "explanation": "Exatamente! O coração da Patrulha da Noite.\nApesar de seu estado precário, é onde o Senhor Comandante reside e as decisões são tomadas.\nLar de Jon Snow por muitos anos.\n'A espada na escuridão.'",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/castle-black-the-primary-stronghold-of-the-fotografia-de-not%C3%ADcias/1137892049",
+          "imageDescription": "O pátio de Castelo Negro, a principal fortaleza da Patrulha da Noite."
+        },
+        {
+          "text": "Guarda-Noite (Nightfort)",
+          "isCorrect": false,
+          "explanation": "O Guarda-Noite é o mais antigo e maior castelo da Muralha, mas foi abandonado.\nRepleto de lendas sombrias, como o Rei da Noite original.\nBran e seus companheiros passaram por lá.\nUm lugar assombrado e em ruínas."
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "question": "Qual metal místico, forjado com feitiços na antiga Valíria, é usado na confecção de espadas ancestrais extremamente afiadas, leves e capazes de matar Caminhantes Brancos?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Aço de Dragão",
+          "isCorrect": false,
+          "explanation": "Embora o fogo de dragão fosse usado na forja, o nome do metal é outro.\n'Aço de Dragão' soa legal, mas não é o termo correto.\nPense na civilização que o criou.\nQuase lá!"
+        },
+        {
+          "text": "Obsidiana (Vidro de Dragão)",
+          "isCorrect": false,
+          "explanation": "Obsidiana também mata Caminhantes Brancos, mas é um vidro vulcânico, não um metal forjado.\nÉ mais frágil que o aço valiriano, mas abundante em certos locais.\nOutra arma vital, mas diferente.\nPedra, não metal."
+        },
+        {
+          "text": "Aço Valiriano",
+          "isCorrect": true,
+          "explanation": "Correto! Um segredo perdido com a Perdição de Valíria.\nEspadas de aço valiriano são relíquias preciosas e incrivelmente eficazes.\nLeves, fortes e com um padrão ondulado distintivo.\nA melhor amiga de um guerreiro contra o mal.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/ancient-sword-on-dark-background-260nw-1046999695.jpg",
+          "imageDescription": "Uma espada com padrões ondulados, representando o aço valiriano."
+        },
+        {
+          "text": "Ferro Negro de Volantis",
+          "isCorrect": false,
+          "explanation": "O ferro negro de Volantis pode ser de boa qualidade, mas não tem as propriedades mágicas do aço valiriano.\nÉ apenas metal comum, por mais bem trabalhado que seja.\nNão vai te ajudar muito contra um Caminhante Branco.\nBom para armaduras, não para matar Outros."
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "question": "Qual é o nome da habilidade rara e muitas vezes temida, possuída por alguns personagens como Bran Stark, que lhes permite entrar na mente de animais (e às vezes humanos) e controlar suas ações?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Visão Verde (Greensight)",
+          "isCorrect": false,
+          "explanation": "Visão Verde é a habilidade de ter sonhos proféticos e ver através dos olhos dos represeiros.\nEstá relacionada à troca-peles, mas é mais sobre visão do que controle.\nBran também tem isso, mas é uma habilidade distinta.\nVer o passado e o futuro."
+        },
+        {
+          "text": "Magia de Sangue (Bloodmagic)",
+          "isCorrect": false,
+          "explanation": "Magia de Sangue é poderosa e perigosa, envolvendo sacrifícios e rituais.\nMirri Maz Duur a usou em Khal Drogo.\nNão tem a ver com controlar animais diretamente.\n'Só a morte paga pela vida.'"
+        },
+        {
+          "text": "Troca-peles (Skinchanging / Warging)",
+          "isCorrect": true,
+          "explanation": "Exatamente! Aqueles que podem fazer isso são chamados de troca-peles ou 'wargs' (se controlam lobos/cães).\nÉ uma conexão profunda e perigosa com o mundo natural.\nBran é um troca-peles excepcionalmente poderoso.\n'Eu sou o lobo agora.'",
+          "imageUrl": "https://www.imdb.com/title/tt2178782/mediaviewer/rm2580430080",
+          "imageDescription": "Olhos de Bran Stark revirando enquanto ele usa sua habilidade de warg."
+        },
+        {
+          "text": "Feitiçaria de Asshai",
+          "isCorrect": false,
+          "explanation": "Asshai é um lugar de muita magia sombria e misteriosa.\nMas 'troca-peles' é uma tradição mais ligada aos Primeiros Homens e ao Norte.\nMelisandre e Quaithe vêm de Asshai, mas suas magias são diferentes.\nSombras e profecias."
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "question": "Em 'House of the Dragon', qual é a relação de parentesco direto entre a Princesa Rhaenyra Targaryen e o Príncipe Daemon Targaryen antes de se casarem, um fato comum nas tradições matrimoniais da Casa Targaryen?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Irmãos",
+          "isCorrect": false,
+          "explanation": "Rhaenyra e Daemon não são irmãos diretos.\nDaemon é irmão do pai de Rhaenyra, o Rei Viserys I.\nPense uma geração acima para Daemon.\nCasamentos entre irmãos aconteciam, mas não neste caso."
+        },
+        {
+          "text": "Primos de primeiro grau",
+          "isCorrect": false,
+          "explanation": "Eles são parentes próximos, mas não primos diretos.\nA relação é mais próxima que isso.\nA árvore genealógica Targaryen é... compacta.\nUm pouco mais perto!"
+        },
+        {
+          "text": "Tio e sobrinha",
+          "isCorrect": true,
+          "explanation": "Correto! Daemon é o irmão mais novo do Rei Viserys I, pai de Rhaenyra.\nO casamento entre tio e sobrinha (ou tia e sobrinho) era uma prática Targaryen para manter o sangue puro.\nUma união controversa, mas poderosa.\n'Fogo e Sangue', e casamentos em família.",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/emma-darcy-and-matt-smith-in-house-of-the-dragon-fotografia-de-not%C3%ADcias/1418645301",
+          "imageDescription": "Emma D'Arcy (Rhaenyra) e Matt Smith (Daemon) como o casal Targaryen."
+        },
+        {
+          "text": "Nenhuma relação de sangue direta",
+          "isCorrect": false,
+          "explanation": "Definitivamente têm sangue direto! São ambos Targaryens de linhagem pura.\nA Casa Targaryen era famosa por seus casamentos incestuosos.\nManter o sangue do dragão, eles diziam.\nMuito sangue em comum."
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "question": "Qual é o nome do continente principal onde a vasta maioria dos eventos da saga 'As Crônicas de Gelo e Fogo' de George R.R. Martin se desenrola, incluindo os Sete Reinos e a Muralha?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Terra Média (Middle-earth)",
+          "isCorrect": false,
+          "explanation": "Terra Média é o continente de 'O Senhor dos Anéis' de J.R.R. Tolkien.\nLar de hobbits, elfos e Sauron.\nOutra grande saga de fantasia, mas um universo diferente.\n'Um Anel para a todos governar', não 'O inverno está chegando'."
+        },
+        {
+          "text": "Essos",
+          "isCorrect": false,
+          "explanation": "Essos é o grande continente a leste de Westeros.\nImportante para a história de Daenerys e as Cidades Livres.\nMas os Sete Reinos e a Muralha ficam em Westeros.\nSeparado pelo Mar Estreito."
+        },
+        {
+          "text": "Westeros",
+          "isCorrect": true,
+          "explanation": "Exatamente! Desde as terras geladas Para-Lá-da-Muralha até os desertos de Dorne.\nÉ o palco principal das disputas pelo Trono de Ferro.\nUm continente de beleza e brutalidade.\nOnde as estações duram anos.",
+          "imageUrl": "https://www.shutterstock.com/image-vector/map-fictional-continent-westeros-vector-260nw-1445017778.jpg",
+          "imageDescription": "Um mapa detalhado do continente de Westeros."
+        },
+        {
+          "text": "Nárnia (Narnia)",
+          "isCorrect": false,
+          "explanation": "Nárnia é o mundo mágico de 'As Crônicas de Nárnia' de C.S. Lewis.\nCom Aslan, feiticeiras brancas e crianças entrando por guarda-roupas.\nUma fantasia mais voltada para o público jovem.\nLeões falantes, não dragões (geralmente)."
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "question": "Qual era o nome da infame companhia de mercenários em Essos, conhecida por sua indisciplina e por mudar de lado frequentemente, que foi comandada por Daario Naharis antes de ele jurar lealdade a Daenerys Targaryen?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Os Segundos Filhos (Second Sons)",
+          "isCorrect": false,
+          "explanation": "Os Segundos Filhos são outra companhia de mercenários famosa.\nForam liderados por Mero (o Bastardo do Titã) e depois por Ben Mulato Plumm.\nTyrion Lannister se juntou a eles por um tempo.\nConfiáveis... às vezes."
+        },
+        {
+          "text": "A Companhia Dourada (Golden Company)",
+          "isCorrect": false,
+          "explanation": "A Companhia Dourada é a mais famosa e disciplinada das companhias livres.\nFundada por exilados de Westeros, seu lema é 'Nossa palavra é ouro'.\nNunca quebraram um contrato (até encontrarem Cersei?).\nMuito profissionais para Daario."
+        },
+        {
+          "text": "Os Corvos Tormentosos (Stormcrows)",
+          "isCorrect": true,
+          "explanation": "Correto! Uma companhia mista de homens de várias origens.\nDaario Naharis se tornou seu capitão após matar os dois líderes anteriores.\nEle os liderou a se juntar a Daenerys em Yunkai.\n'Um corvo por um corvo, ou talvez dois.'",
+          "imageUrl": "https://www.imdb.com/title/tt2178782/mediaviewer/rm902361088",
+          "imageDescription": "Daario Naharis com os outros capitães dos Corvos Tormentosos antes de tomar o comando."
+        },
+        {
+          "text": "Os Bravos Companheiros (Brave Companions / Bloody Mummers)",
+          "isCorrect": false,
+          "explanation": "Os Bravos Companheiros, ou Saltimbancos Sangrentos, eram um bando de mercenários cruéis e sádicos.\nLiderados por Vargo Hoat, eram conhecidos por sua brutalidade.\nJaime Lannister perdeu a mão para eles.\nEscória, não apenas indisciplinados."
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "question": "Qual foi o nome da série de grandes conflitos civis em Westeros, ocorridos cerca de um século antes dos eventos de 'Game of Thrones', desencadeados pela legitimação dos bastardos de Aegon IV Targaryen, o Indigno, e a disputa pelo trono entre Daemon Blackfyre e Daeron II Targaryen?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "A Dança dos Dragões",
+          "isCorrect": false,
+          "explanation": "A Dança dos Dragões foi uma guerra civil Targaryen anterior.\nOcorreu entre Rhaenyra e Aegon II pelo trono de Viserys I.\nDragões contra dragões, mas um conflito diferente.\nOutra geração, outra tragédia."
+        },
+        {
+          "text": "A Guerra dos Nove Reis de Tostão (War of the Ninepenny Kings)",
+          "isCorrect": false,
+          "explanation": "Essa guerra foi travada contra a Banda dos Nove, um grupo de mercenários e exilados que tentou invadir Westeros.\nBarristan Selmy e outros heróis lutaram nela.\nFoi um conflito importante, mas posterior às Rebeliões Blackfyre.\nUma ameaça externa, não interna (principalmente)."
+        },
+        {
+          "text": "As Rebeliões Blackfyre",
+          "isCorrect": true,
+          "explanation": "Exatamente! Uma série de cinco rebeliões sangrentas.\nOs descendentes de Daemon Blackfyre, portador da espada Blackfyre, tentaram tomar o trono.\nDividiram o reino por décadas e deixaram cicatrizes profundas.\nO dragão negro contra o dragão vermelho.",
+          "imageUrl": "https://www.imdb.com/title/tt0944947/mediaviewer/rm1999971841/",
+          "imageDescription": "Símbolo de um dragão negro, aludindo à Casa Blackfyre e suas rebeliões."
+        },
+        {
+          "text": "A Conquista de Dorne",
+          "isCorrect": false,
+          "explanation": "A Conquista (ou tentativa de) Dorne por Daeron I Targaryen foi um conflito separado.\nOs Targaryen sofreram grandes perdas tentando subjugar os dorneses.\nMostrou a resiliência de Dorne, mas não foi uma guerra civil pelo trono principal.\n'O Jovem Dragão' e sua ambição."
+        }
+      ]
+    },
+    {
+      "id": "97",
+      "question": "Em 'House of the Dragon', qual é o nome da colossal e antiga dragão fêmea, a última sobrevivente dos dragões da Conquista de Aegon, que foi montada por Visenya Targaryen, Laena Velaryon e, mais tarde, pelo Príncipe Aemond Targaryen?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Meraxes",
+          "isCorrect": false,
+          "explanation": "Meraxes foi um dos três dragões da Conquista, montada por Rhaenys Targaryen.\nEla morreu com sua montadora em Dorne.\nGrande e poderosa, mas não sobreviveu até a Dança.\nUma flecha no olho é o fim."
+        },
+        {
+          "text": "Balerion, o Terror Negro",
+          "isCorrect": false,
+          "explanation": "Balerion foi o maior dragão da Conquista, montado por Aegon I.\nEle morreu de velhice antes da Dança dos Dragões.\nSeu crânio adornava a Fortaleza Vermelha.\nO chefão, mas já aposentado (e morto)."
+        },
+        {
+          "text": "Vhagar",
+          "isCorrect": true,
+          "explanation": "Correto! A Rainha de todos os dragões vivos durante a Dança.\nSua idade e tamanho a tornavam uma arma terrível.\nSua participação na guerra foi decisiva e devastadora.\nUma lenda viva e cuspidora de fogo.",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/a-dragon-in-flight-from-the-hbo-series-house-of-fotografia-de-not%C3%ADcias/1407608777",
+          "imageDescription": "Vhagar, a colossal dragão fêmea, em voo ou em batalha."
+        },
+        {
+          "text": "Syrax",
+          "isCorrect": false,
+          "explanation": "Syrax era a dragão amarela de Rhaenyra Targaryen.\nImportante e leal, mas muito mais jovem e menor que Vhagar.\nEla não era uma veterana da Conquista.\nOutra geração de poder alado."
+        }
+      ]
+    },
+    {
+      "id": "98",
+      "question": "Qual é o nome da jovem dos Palustres (Crannogmen) que, junto com seu irmão Jojen, acompanha Bran Stark em sua perigosa jornada Para-Lá-da-Muralha para encontrar o Corvo de Três Olhos, protegendo-o com suas habilidades de caça e combate?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Osha",
+          "isCorrect": false,
+          "explanation": "Osha era uma selvagem que também protegeu Bran e Rickon.\nMas ela não era dos Palustres nem irmã de Jojen.\nSua jornada com os meninos foi para o sul (inicialmente) e depois para a Última Lareira.\nForte e pragmática."
+        },
+        {
+          "text": "Lyanna Stark",
+          "isCorrect": false,
+          "explanation": "Lyanna Stark era tia de Bran, irmã de Ned.\nSua 'abdução' por Rhaegar foi o estopim da Rebelião de Robert.\nEla morreu muito antes da jornada de Bran.\nUma figura central do passado."
+        },
+        {
+          "text": "Meera Reed",
+          "isCorrect": true,
+          "explanation": "Exatamente! Filha de Howland Reed, Senhor de Atalaia da Água Cinzenta.\nUma caçadora habilidosa com lança e rede, e protetora feroz de Bran.\nSua lealdade e coragem foram essenciais para a sobrevivência do grupo.\nUma verdadeira heroína dos pântanos.",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/ellie-kendrick-as-meera-reed-photo-helen-sloan-fotografia-de-not%C3%ADcias/1137892084",
+          "imageDescription": "Ellie Kendrick como Meera Reed, a protetora de Bran Stark."
+        },
+        {
+          "text": "Gilly (Goiva)",
+          "isCorrect": false,
+          "explanation": "Gilly era uma das filhas/esposas de Craster, que fugiu com Sam.\nEla não acompanhou Bran, sua jornada foi com Sam para a Cidadela.\nUma mãe corajosa, mas não a caçadora dos Palustres.\nSobrevivente e amada por Sam."
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "question": "Qual foi o nome da grande batalha naval e terrestre em que Stannis Baratheon tentou tomar Porto Real durante a Guerra dos Cinco Reis, mas foi engenhosamente derrotado pela defesa liderada por Tyrion Lannister, que incluiu o uso massivo de Fogovivo e uma corrente gigante através da Baía da Água Negra?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "A Batalha do Tridente",
+          "isCorrect": false,
+          "explanation": "A Batalha do Tridente foi a batalha decisiva da Rebelião de Robert.\nOnde Robert matou Rhaegar Targaryen.\nAconteceu muito antes, e em terra, não na baía de Porto Real.\nO fim de uma era."
+        },
+        {
+          "text": "O Saque de Porto Real",
+          "isCorrect": false,
+          "explanation": "O Saque de Porto Real ocorreu no final da Rebelião de Robert.\nQuando as forças Lannister tomaram a cidade e mataram a família real Targaryen.\nUma traição e um massacre, não a defesa contra Stannis.\nUm evento infame."
+        },
+        {
+          "text": "A Batalha da Água Negra (Battle of the Blackwater)",
+          "isCorrect": true,
+          "explanation": "Correto! Uma vitória crucial para os Lannisters e uma derrota devastadora para Stannis.\nO Fogovivo destruiu grande parte de sua frota, e a chegada de Tywin Lannister e dos Tyrell selou seu destino.\nTyrion foi o herói (não reconhecido) do dia.\nFogo verde e estratégia brilhante!",
+          "imageUrl": "https://www.gettyimages.com.br/detail/fotografia-de-not%C3%ADcias/game-of-thrones-blackwater-wildfire-explosion-fotografia-de-not%C3%ADcias/1137892122",
+          "imageDescription": "A explosão de Fogovivo iluminando a Batalha da Água Negra."
+        },
+        {
+          "text": "A Batalha dos Bastardos",
+          "isCorrect": false,
+          "explanation": "A Batalha dos Bastardos foi entre Jon Snow e Ramsay Bolton pelo controle de Winterfell.\nUma batalha épica e sangrenta no Norte, muito depois da Água Negra.\nCães e gigantes, não navios e fogovivo.\nO Norte se lembra (e luta)."
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "question": "Quem foi a lendária princesa guerreira do povo Rhoynar que, para escapar da expansão valiriana em Essos, liderou seu povo em uma frota de dez mil navios através do Mar Estreito, desembarcou em Dorne, casou-se com Mors Martell e queimou sua frota para simbolizar que Dorne seria seu novo e definitivo lar?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Daenerys Targaryen, a Nascida da Tormenta",
+          "isCorrect": false,
+          "explanation": "Daenerys também liderou seu povo (os Dothraki e Imaculados) através do Mar Estreito para Westeros.\nMas a história dos dez mil navios e a queima da frota é de uma figura muito mais antiga.\nOutra rainha conquistadora, mas de outra era.\n'Mhysa!' não 'Nymeria!'"
+        },
+        {
+          "text": "Visenya Targaryen",
+          "isCorrect": false,
+          "explanation": "Visenya foi uma das irmãs-esposas de Aegon, o Conquistador.\nEla ajudou a conquistar Westeros com seus irmãos, não fugiu de Essos dessa maneira.\nUma guerreira e montadora de dragão, mas não a líder dos Rhoynar.\nIrmã Negra e Vhagar."
+        },
+        {
+          "text": "Nymeria de Ny Sar",
+          "isCorrect": true,
+          "explanation": "Exatamente! Uma figura seminal na história de Dorne.\nSua chegada e casamento com Mors Martell unificaram a região e estabeleceram a Casa Nymeros Martell.\nA queima dos navios foi um ato de comprometimento total com sua nova terra.\nUma líder lendária e ancestral de muitos dorneses.",
+          "imageUrl": "https://www.imdb.com/title/tt0944947/mediaviewer/rm3601398272/",
+          "imageDescription": "Arte conceitual representando a chegada de Nymeria e seus navios a Dorne."
+        },
+        {
+          "text": "Elia Martell",
+          "isCorrect": false,
+          "explanation": "Elia Martell foi a princesa dornesa esposa de Rhaegar Targaryen.\nSua morte e a de seus filhos durante o Saque de Porto Real foram um dos catalisadores do ódio de Dorne pelos Lannisters.\nUma figura trágica, mas não a ancestral guerreira dos Rhoynar.\n'Você a estuprou. Você a assassinou. Você matou os filhos dela.'"
+        }
+      ]
+    }
+  ]
+}
