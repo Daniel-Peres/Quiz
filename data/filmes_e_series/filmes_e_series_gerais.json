@@ -1,149 +1,2913 @@
 {
-    "config": {
-      "theme": "Filmes e Séries Gerais",
-      "totalPoints": 1000,
-      "scoring": "points"
+  "config": {
+    "theme": "Filmes e Séries Gerais",
+    "totalPoints": 1000,
+    "scoring": "points"
+  },
+  "data": [
+    {
+      "id": "01",
+      "question": "Qual o nome do bruxinho protagonista da saga de filmes 'Harry Potter'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Rony Weasley",
+          "isCorrect": false,
+          "explanation": "Rony é o melhor amigo leal e comilão, sempre pronto para uma aventura (ou um frango assado).\nMas o nome na testa da fama, ou melhor, na cicatriz, é outro!\nEle é o rei, mas não o 'menino que sobreviveu'."
+        },
+        {
+          "text": "Draco Malfoy",
+          "isCorrect": false,
+          "explanation": "Draco adoraria ser o protagonista, com certeza!\nMas ele está mais para o 'menino que reclamava com o pai'.\nUm vilãozinho estiloso, mas não o herói da história."
+        },
+        {
+          "text": "Harry Potter",
+          "isCorrect": true,
+          "explanation": "Expelliarmus na dúvida! Você acertou!\nO menino com a cicatriz de raio, óculos redondos e um talento especial para encontrar problemas.\nE para salvar o mundo bruxo, claro.",
+          "imageUrl": "https://pixabay.com/pt/photos/harry-potter-grifin%C3%B3ria-cosplay-filme-8018465/",
+          "imageDescription": "Figura de Harry Potter com seu uniforme de Hogwarts."
+        },
+        {
+          "text": "Neville Longbottom",
+          "isCorrect": false,
+          "explanation": "Neville tem uma jornada de herói incrível, de garoto desajeitado a destruidor de Horcrux!\nMas o nome que todos gritam quando pensam na saga é o do nosso querido Harry.\nNeville é o herói coadjuvante que amamos."
+        }
+      ]
     },
-    "data": [
-      {
-        "question": "Qual filme de 1994, dirigido por Robert Zemeckis, conta a história de um homem com QI baixo que vive grandes aventuras históricas?",
-        " proclamation": "fácil",
-        "options": [
-          {
-            "text": "Pulp Fiction",
-            "isCorrect": false,
-            "explanation": "Nããão, Pulp Fiction é o caos estiloso do Tarantino, com gangsters e milkshakes! Tente um filme mais doce, com um cara que corre muito e ama chocolates!"
-          },
-          {
-            "text": "Forrest Gump",
-            "isCorrect": true,
-            "explanation": "Você correu como Forrest e acertou! Forrest Gump, de 1994, é a jornada épica de um homem simples (Tom Hanks) que vive momentos históricos, de Elvis a Vietnam, sempre com um coração gigante. A vida é como uma caixa de chocolates, e você escolheu o melhor! Parabéns!",
-            "imageUrl": "https://www.paramountpictures.com/sites/default/files/2023-06/forrest-gump-keyart.jpg",
-            "imageDescription": "Imagem de Forrest Gump sentado em um banco com sua mala, segurando uma caixa de chocolates, com um fundo que evoca sua jornada histórica no filme de 1994."
-          },
-          {
-            "text": "The Shawshank Redemption",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! Shawshank é sobre esperança na prisão, não aventuras históricas. Tente um filme com um cara que conhece presidentes e camarões!"
-          },
-          {
-            "text": "The Lion King",
-            "isCorrect": false,
-            "explanation": "Hakuna Matata, mas não! O Rei Leão é animação com leões, não humanos em aventuras. Tente um filme live-action com um herói improvável!"
-          }
-        ]
-      },
-      {
-        "question": "Qual série de 2008-2013, sobre um professor de química que vira traficante, é considerada um marco na TV?",
-        "level": "fácil",
-        "options": [
-          {
-            "text": "Mad Men",
-            "isCorrect": false,
-            "explanation": "Nããão, Mad Men é sobre publicitários e martinis nos anos 60! Tente uma série com química explosiva e um professor nada convencional!"
-          },
-          {
-            "text": "Breaking Bad",
-            "isCorrect": true,
-            "explanation": "Você é o chefão da química! Breaking Bad, com Walter White (Bryan Cranston) e Jesse Pinkman, é o marco de 2008-2013 que transformou um professor em Heisenberg, o rei do crime. De laboratórios a pizzas no telhado, é puro vício! Parabéns, cientista!",
-            "imageUrl": "https://www.amc.com/content/dam/amc/shows/breaking-bad/season-5/key-art/breaking-bad-s5-keyart.jpg",
-            "imageDescription": "Imagem de Walter White e Jesse Pinkman em Breaking Bad, com óculos de proteção em um laboratório, evocando a produção química da série."
-          },
-          {
-            "text": "Lost",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! Lost é sobre ilhas e mistérios, não traficantes. Tente uma série com cristal azul e um professor brilhante!"
-          },
-          {
-            "text": "The Walking Dead",
-            "isCorrect": false,
-            "explanation": "Nããão, Walking Dead é sobre zumbis, não química! Tente uma série com um gênio do crime e muitas explosões!"
-          }
-        ]
-      },
-      {
-        "question": "Qual filme de 2010, dirigido por Christopher Nolan, explora sonhos dentro de sonhos com uma trama de roubo mental?",
-        "level": "médio",
-        "options": [
-          {
-            "text": "The Social Network",
-            "isCorrect": false,
-            "explanation": "Nããão, The Social Network é sobre o Facebook, não sonhos! Tente um filme com giroscópios e camadas de realidade!"
-          },
-          {
-            "text": "Inception",
-            "isCorrect": true,
-            "explanation": "Você mergulhou no sonho e acertou! Inception, de 2010, com Leonardo DiCaprio, é um labirinto de sonhos onde ladrões invadem mentes. Com cidades dobrando e um final que ainda discutimos, é um filme que te deixa girando como um pião! Parabéns, arquiteto!",
-            "imageUrl": "https://www.warnerbros.com/sites/default/files/styles/key_art_270x400/public/inception_keyart.jpg",
-            "imageDescription": "Imagem de Dom Cobb em Inception, com uma cidade dobrando ao fundo e um pião, capturando o surrealismo dos sonhos do filme de 2010."
-          },
-          {
-            "text": "Shutter Island",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! Shutter Island é um thriller psicológico, não sobre sonhos. Tente algo com camadas de realidade e roubo!"
-          },
-          {
-            "text": "Black Swan",
-            "isCorrect": false,
-            "explanation": "Nããão, Black Swan é sobre balé e loucura, não sonhos! Tente um filme com tecnologia de invasão mental!"
-          }
-        ]
-      },
-      {
-        "question": "Qual série de 2019, baseada em um romance distópico, mostra um mundo onde bebês são raros e mulheres são escravizadas?",
-        "level": "médio",
-        "options": [
-          {
-            "text": "The Witcher",
-            "isCorrect": false,
-            "explanation": "Nããão, The Witcher é sobre monstros e magia! Tente uma série mais sombria, com um futuro distópico e capas vermelhas!"
-          },
-          {
-            "text": "The Handmaid's Tale",
-            "isCorrect": true,
-            "explanation": "Blessed be, você acertou! The Handmaid’s Tale, baseada no livro de Margaret Atwood, mostra Gilead, um mundo onde June (Elisabeth Moss) luta contra a opressão. Intensa e assustadora, é um soco na distopia! Parabéns, resistente!",
-            "imageUrl": "https://www.hulu.com/static/hitch/public/images/handmaids-tale-keyart.jpg",
-            "imageDescription": "Imagem de June em The Handmaid’s Tale, com uma capa vermelha e fundo opressivo, representando a distopia de Gilead na série de 2019."
-          },
-          {
-            "text": "Chernobyl",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! Chernobyl é sobre um desastre nuclear, não bebês raros. Tente uma série com um regime totalitário!"
-          },
-          {
-            "text": "Watchmen",
-            "isCorrect": false,
-            "explanation": "Nããão, Watchmen é sobre super-heróis alternativos! Tente uma série com aias e um futuro assustador!"
-          }
-        ]
-      },
-      {
-        "question": "Qual filme de 1982, dirigido por Ridley Scott, é um clássico cyberpunk sobre caçadores de replicantes em Los Angeles futurista?",
-        "level": "difícil",
-        "options": [
-          {
-            "text": "E.T. the Extra-Terrestrial",
-            "isCorrect": false,
-            "explanation": "Nããão, E.T. é sobre um alien fofo e bicicletas voadoras! Tente algo mais sombrio, com neon e androides!"
-          },
-          {
-            "text": "Blade Runner",
-            "isCorrect": true,
-            "explanation": "Você é um caçador de replicantes! Blade Runner, de 1982, com Harrison Ford como Deckard, é um marco cyberpunk, explorando humanidade em um mundo de chuva e neon. 'Mais humano que humano' é o lema, e você acertou em cheio! Parabéns, detetive!",
-            "imageUrl": "https://www.warnerbros.com/sites/default/files/styles/key_art_270x400/public/blade-runner-keyart.jpg",
-            "imageDescription": "Imagem de Rick Deckard em Blade Runner, com um fundo de Los Angeles futurista, cheia de neon e chuva, capturando a estética cyberpunk de 1982."
-          },
-          {
-            "text": "The Thing",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! The Thing é terror sci-fi sobre alienígenas no gelo. Tente algo com cidades futuristas e replicantes!"
-          },
-          {
-            "text": "Tron",
-            "isCorrect": false,
-            "explanation": "Nããão, Tron é sobre mundos digitais, não caçadores de androides! Tente um filme com um visual cyberpunk clássico!"
-          }
-        ]
-      }
-    ]
-  }
+    {
+      "id": "02",
+      "question": "Na animação 'O Rei Leão', qual é o nome do pai de Simba?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Scar",
+          "isCorrect": false,
+          "explanation": "Scar é o tio invejoso e maquiavélico, com um plano maligno e uma cicatriz estilosa.\nEle queria ser rei, mas não era o pai de Simba.\nMuito pelo contrário, ele era o 'problema' do pai de Simba."
+        },
+        {
+          "text": "Mufasa",
+          "isCorrect": true,
+          "explanation": "Coroado de acertos! Mufasa, o rei sábio e poderoso, com um vozeirão de arrepiar.\nSeu discurso sobre o ciclo da vida ainda ecoa na savana.\n'Lembre-se de quem você é!'",
+          "imageUrl": "https://pixabay.com/pt/photos/le%C3%A3o-predador-animal-selvagem-%C3%A1frica-3352690/",
+          "imageDescription": "Um leão majestoso, lembrando Mufasa, olhando para o horizonte."
+        },
+        {
+          "text": "Timão",
+          "isCorrect": false,
+          "explanation": "Timão é o suricato esperto e mentor de 'Hakuna Matata'.\nEle ajudou a criar Simba, mas não é o pai biológico.\nMais para o tio engraçadão e um pouco irresponsável."
+        },
+        {
+          "text": "Pumba",
+          "isCorrect": false,
+          "explanation": "Pumba é o javali de bom coração e... problemas de digestão.\nEle também foi uma figura paterna para Simba, mas o rei original era Mufasa.\n'Eles me chamam de SENHOR JAVALI!'"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "question": "Qual super-herói da Marvel é conhecido como o 'Primeiro Vingador'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Homem de Ferro",
+          "isCorrect": false,
+          "explanation": "Tony Stark deu o pontapé inicial no universo cinematográfico da Marvel, é verdade.\nMas o título de 'Primeiro Vingador' pertence a alguém mais... antigo.\nE com um escudo bem patriótico."
+        },
+        {
+          "text": "Hulk",
+          "isCorrect": false,
+          "explanation": "Hulk esmaga! Ele é um dos membros fundadores dos Vingadores nos quadrinhos.\nMas o 'Primeiro' Vingador, em termos de linha do tempo heroica, é outro.\nAlguém que lutou na Segunda Guerra Mundial."
+        },
+        {
+          "text": "Thor",
+          "isCorrect": false,
+          "explanation": "O Deus do Trovão é poderoso e um Vingador original.\nMas ele veio de Asgard bem depois do herói com o soro do supersoldado.\nO 'Primeiro' é um cara da Terra mesmo."
+        },
+        {
+          "text": "Capitão América",
+          "isCorrect": true,
+          "explanation": "Escudo na resposta certa! Steve Rogers, o Capitão América.\nO garoto do Brooklyn que se tornou um símbolo de esperança e o primeiro herói da iniciativa Vingadores.\n'Eu posso fazer isso o dia todo!'",
+          "imageUrl": "https://pixabay.com/pt/photos/capit%C3%A3o-am%C3%A9rica-escudo-marvel-2906992/",
+          "imageDescription": "O escudo icônico do Capitão América."
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "question": "Na série 'Friends', qual o nome do café onde o grupo de amigos frequentemente se encontra?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Monk's Cafe",
+          "isCorrect": false,
+          "explanation": "Monk's é o café de 'Seinfeld', outro clássico da comédia!\nO ponto de encontro de Rachel, Ross e cia. tem um sofá laranja bem famoso.\nE um gerente com uma paixão secreta por Rachel."
+        },
+        {
+          "text": "Central Perk",
+          "isCorrect": true,
+          "explanation": "Could this BE any more correct? Central Perk, claro!\nOnde Gunther servia cafés e o sofá laranja era disputado a tapas.\nO melhor lugar para fofocar e tomar um cappuccino gigante.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/xicaras-de-cafe-na-mesa-1545723/",
+          "imageDescription": "Xícaras de café em uma mesa, remetendo ao ambiente de um café como o Central Perk."
+        },
+        {
+          "text": "MacLaren's Pub",
+          "isCorrect": false,
+          "explanation": "MacLaren's é o bar de 'How I Met Your Mother', onde a turma do Ted se reunia.\nEm 'Friends', o point era um café, não um pub.\nMenos cerveja, mais café e muffins."
+        },
+        {
+          "text": "Luke's Diner",
+          "isCorrect": false,
+          "explanation": "Luke's é o coração de Stars Hollow em 'Gilmore Girls'.\nO café de 'Friends' fica em Nova York e tem um toque mais... moderno.\nE menos flanela xadrez (geralmente)."
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "question": "Qual é o nome do robô azul e branco, parceiro de C-3PO na saga 'Star Wars'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "BB-8",
+          "isCorrect": false,
+          "explanation": "BB-8 é o dróide bolinha laranja e branco, super fofo e leal!\nMas o parceiro clássico do C-3PO é mais um barrilzinho astuto.\nE com um repertório de bipes muito mais variado."
+        },
+        {
+          "text": "R2-D2",
+          "isCorrect": true,
+          "explanation": "Bip Bip Boop! Acertou! R2-D2, o astromecânico mais corajoso da galáxia.\nSempre pronto para salvar o dia com uma ferramenta escondida ou um choque oportuno.\nO melhor amigo que um dróide de protocolo poderia ter (mesmo que ele não admita).",
+          "imageUrl": "https://www.starwars.com/databank/r2-d2",
+          "imageDescription": "R2-D2, o leal dróide astromecânico."
+        },
+        {
+          "text": "K-2SO",
+          "isCorrect": false,
+          "explanation": "K-2SO é um dróide imperial reprogramado, alto, sombrio e sarcástico.\nEle é mais de calcular probabilidades de morte do que de acompanhar C-3PO.\nEmbora ambos tenham um certo... charme metálico."
+        },
+        {
+          "text": "Chopper (C1-10P)",
+          "isCorrect": false,
+          "explanation": "Chopper é o astromecânico rabugento e caótico da tripulação de 'Rebels'.\nEle é leal à sua maneira, mas provavelmente pintaria C-3PO de rosa por diversão.\nUma dupla bem menos harmoniosa que R2 e 3PO."
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "question": "Qual o nome da princesa da Disney que perde seu sapatinho de cristal em um baile?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Bela Adormecida (Aurora)",
+          "isCorrect": false,
+          "explanation": "Aurora dormiu por um bom tempo depois de espetar o dedo, tadinha.\nMas quem saiu correndo do baile e deixou um calçado para trás foi outra princesa.\nUma com uma fada madrinha bem eficiente."
+        },
+        {
+          "text": "Branca de Neve",
+          "isCorrect": false,
+          "explanation": "Branca de Neve teve problemas com uma maçã envenenada e sete anões.\nO sapatinho perdido é de uma história com mais abóboras e menos rainhas más.\n(Embora a madrasta também não fosse flor que se cheire)."
+        },
+        {
+          "text": "Ariel",
+          "isCorrect": false,
+          "explanation": "Ariel trocou sua cauda por pernas para conhecer o príncipe.\nEla provavelmente teria adorado usar sapatos, mas a que perdeu um era humana desde o início.\nE com um prazo bem apertado para voltar para casa."
+        },
+        {
+          "text": "Cinderela",
+          "isCorrect": true,
+          "explanation": "Bibbidi-Bobbidi-Boo! Você acertou!\nCinderela, a gata borralheira que virou princesa por uma noite.\nE provou que um sapato pode mudar uma vida (especialmente se for de cristal).",
+          "imageUrl": "https://pixabay.com/pt/photos/sapato-de-vidro-cinderela-cristal-1009993/",
+          "imageDescription": "Um sapatinho de cristal, símbolo da Cinderela."
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "question": "No filme 'Titanic', qual é o nome do personagem principal interpretado por Leonardo DiCaprio?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Cal Hockley",
+          "isCorrect": false,
+          "explanation": "Cal era o noivo rico e arrogante de Rose. Definitivamente não era o Leo!\nEle era mais do tipo 'eu sou o rei do meu cofre'.\nE um péssimo perdedor, diga-se de passagem."
+        },
+        {
+          "text": "Jack Dawson",
+          "isCorrect": true,
+          "explanation": "I'm the king of the world! Quer dizer, você acertou! Jack Dawson.\nO artista pobre e sonhador que roubou o coração de Rose (e o nosso).\nE nos ensinou que desenhar retratos pode ser bem... romântico.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/navio-de-cruzeiro-branco-e-preto-na-agua-durante-o-dia-1699189/",
+          "imageDescription": "Um grande navio transatlântico, remetendo ao Titanic."
+        },
+        {
+          "text": "Capitão Smith",
+          "isCorrect": false,
+          "explanation": "Capitão Smith era o comandante do Titanic. Uma figura histórica real.\nLeonardo DiCaprio interpretou o jovem artista da terceira classe.\nQue tinha um talento especial para entrar em festas chiques."
+        },
+        {
+          "text": "Fabrizio De Rossi",
+          "isCorrect": false,
+          "explanation": "Fabrizio era o amigo italiano de Jack, que ganhou a passagem no pôquer.\nEle também estava em busca de uma vida melhor, mas o protagonista romântico era Jack.\n'Eu vou para a América!'"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "question": "Qual o nome do monstro verde e gigante que fica mais forte quanto mais raiva sente?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Shrek",
+          "isCorrect": false,
+          "explanation": "Shrek é um ogro verde, sim, e fica bem irritado às vezes ('SAIAM DO MEU PÂNTANO!').\nMas sua força não aumenta com a raiva, ele já é naturalmente forte.\nE tem um burro falante como melhor amigo."
+        },
+        {
+          "text": "Monstro de Frankenstein",
+          "isCorrect": false,
+          "explanation": "O monstro de Frankenstein é grande, verde (às vezes) e incompreendido.\nMas sua força é constante, resultado da criação do Dr. Frankenstein.\nEle só queria um amigo, coitado."
+        },
+        {
+          "text": "Hulk",
+          "isCorrect": true,
+          "explanation": "HULK ESMAGA a resposta certa! Bruce Banner se transforma no Incrível Hulk.\nQuanto mais bravo o Hulk fica, mais forte o Hulk fica!\nUm verdadeiro problema para quem o irrita (e para suas calças).",
+          "imageUrl": "https://pixabay.com/pt/photos/homem-m%C3%BAsculos-starke-for%C3%A7a-219200/",
+          "imageDescription": "Um homem musculoso e verde, representando a força do Hulk."
+        },
+        {
+          "text": "Godzilla",
+          "isCorrect": false,
+          "explanation": "Godzilla é um monstro gigante, às vezes verde, e com um bafo atômico.\nSua força é imensa, mas não necessariamente ligada à raiva.\nEle está mais preocupado em destruir cidades ou lutar com outros monstros."
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "question": "Qual o nome do leão covarde, amigo de Dorothy, no filme 'O Mágico de Oz'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Homem de Lata",
+          "isCorrect": false,
+          "explanation": "O Homem de Lata queria um coração. Ele era um pouco enferrujado, mas não covarde.\nO leão da turma tinha um problema sério com a própria bravura.\nOu a falta dela, no caso."
+        },
+        {
+          "text": "Espantalho",
+          "isCorrect": false,
+          "explanation": "O Espantalho queria um cérebro. Ele se achava burro, mas era bem inteligente!\nO medroso do grupo era o rei da selva... ou quase.\nEle só precisava de um empurrãozinho (e uma medalha)."
+        },
+        {
+          "text": "Totó",
+          "isCorrect": false,
+          "explanation": "Totó é o cachorrinho fiel de Dorothy! Ele era corajoso por ela.\nO Leão Covarde era... bem, um leão grande e assustado.\nQue cantava sobre como seria ser o rei da floresta (se tivesse coragem)."
+        },
+        {
+          "text": "Leão Covarde",
+          "isCorrect": true,
+          "explanation": "Você não teve medo de acertar! O Leão Covarde.\nQue apesar do nome, mostrou grande bravura ao proteger seus amigos.\nE descobriu que a coragem estava dentro dele o tempo todo (awww).",
+          "imageUrl": "https://pixabay.com/pt/photos/le%C3%A3o-gato-grande-animal-%C3%A1frica-3040797/",
+          "imageDescription": "Um leão com uma expressão um tanto receosa, lembrando o Leão Covarde."
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Em 'De Volta para o Futuro', qual é a marca e modelo do carro modificado para ser uma máquina do tempo?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Ford Mustang",
+          "isCorrect": false,
+          "explanation": "Um Mustang máquina do tempo seria estiloso, mas Doc Brown tinha um gosto mais... excêntrico.\nO carro escolhido tinha portas que abriam para cima.\nE precisava de 1.21 gigawatts!"
+        },
+        {
+          "text": "Ferrari Testarossa",
+          "isCorrect": false,
+          "explanation": "Uma Ferrari seria rápida, mas talvez chamasse muita atenção em 1955.\nO carro do Doc era mais discreto (até ligar o capacitor de fluxo).\nE tinha um design bem futurista para a época."
+        },
+        {
+          "text": "DeLorean DMC-12",
+          "isCorrect": true,
+          "explanation": "Great Scott! Você acertou! Um DeLorean DMC-12.\nCom suas portas asa de gaivota e carroceria de aço inoxidável.\n'Se é para construir uma máquina do tempo num carro, por que não fazer com estilo?'",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/automovel-classico-vintage-retro-19000803/",
+          "imageDescription": "Um carro esportivo com portas que abrem para cima, similar ao DeLorean."
+        },
+        {
+          "text": "Porsche 911",
+          "isCorrect": false,
+          "explanation": "Um Porsche seria um clássico, mas o DeLorean tinha aquele visual único.\nE o Doc Brown precisava de algo com espaço para o Sr. Fusão.\nAlém de ser um carro que... bom, não vendeu muito bem na vida real."
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "question": "Qual o nome do personagem principal da franquia de filmes 'Piratas do Caribe', interpretado por Johnny Depp?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Will Turner",
+          "isCorrect": false,
+          "explanation": "Will Turner é o jovem ferreiro apaixonado, um herói clássico.\nMas o pirata excêntrico, com delineador e um jeito peculiar de andar, é outro.\n'Este é o dia que vocês sempre se lembrarão como o dia em que...' "
+        },
+        {
+          "text": "Barbossa",
+          "isCorrect": false,
+          "explanation": "Capitão Barbossa é um rival (e às vezes aliado) formidável, com seu macaco amaldiçoado.\nMas o pirata que todos amam (ou amam odiar) é mais... imprevisível.\nE tem um chapéu muito legal."
+        },
+        {
+          "text": "Davy Jones",
+          "isCorrect": false,
+          "explanation": "Davy Jones é o capitão do Holandês Voador, com tentáculos no rosto e um coração partido.\nEle é um vilão trágico, mas o protagonista pirata é bem mais... divertido.\nE menos propenso a tocar órgão no fundo do mar."
+        },
+        {
+          "text": "Capitão Jack Sparrow",
+          "isCorrect": true,
+          "explanation": "Savvy? Você acertou, companheiro! Capitão Jack Sparrow.\nO pirata mais sortudo (ou azarado) dos sete mares, mestre da fuga e do rum.\n'Por que o rum sempre acaba?'",
+          "imageUrl": "https://pixabay.com/pt/photos/pirata-capit%C3%A3o-homem-fantasia-7303637/",
+          "imageDescription": "Um homem vestido de pirata, lembrando o Capitão Jack Sparrow."
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "question": "Na série animada 'Os Simpsons', qual é o nome do filho mais velho da família Simpson?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Milhouse Van Houten",
+          "isCorrect": false,
+          "explanation": "Milhouse é o melhor amigo de Bart, com seus óculos e azar crônico.\nMas o primogênito dos Simpsons é um pestinha bem mais famoso.\nE com um bordão clássico: 'Ay, caramba!'"
+        },
+        {
+          "text": "Bart Simpson",
+          "isCorrect": true,
+          "explanation": "Cowabunga! Ou melhor, D'oh! Você acertou!\nBart, o garoto problema de Springfield, mestre do skate e das pegadinhas telefônicas.\n'Eat my shorts!'",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/arte-de-rua-colorida-em-parede-de-tijolos-1604806/",
+          "imageDescription": "Um grafite colorido e divertido, remetendo ao estilo de Os Simpsons."
+        },
+        {
+          "text": "Ralph Wiggum",
+          "isCorrect": false,
+          "explanation": "Ralph é o filho do Chefe Wiggum, conhecido por suas frases nonsense e adoráveis.\n'Meu gato se chama Mittens!' Ele é um colega de Bart, não seu irmão.\nE provavelmente come cola."
+        },
+        {
+          "text": "Nelson Muntz",
+          "isCorrect": false,
+          "explanation": "Ha-ha! Nelson é o valentão da escola, sempre pronto para uma risada debochada.\nEle atormenta Bart, mas não faz parte da família Simpson.\nA menos que Marge o adote em algum episódio maluco."
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "question": "Qual o nome do brinquedo cowboy, um dos protagonistas da franquia 'Toy Story'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Buzz Lightyear",
+          "isCorrect": false,
+          "explanation": "Buzz é o patrulheiro espacial com asas e laser! 'Ao infinito e além!'.\nO cowboy da turma é mais tradicional, com chapéu e corda.\nE um ciúme inicial do Buzz."
+        },
+        {
+          "text": "Slinky",
+          "isCorrect": false,
+          "explanation": "Slinky é o cachorro com corpo de mola, sempre leal e esticadinho.\nEle é um grande amigo, mas o líder cowboy é outro.\nUm com uma bota que tem uma cobra dentro."
+        },
+        {
+          "text": "Sr. Cabeça de Batata",
+          "isCorrect": false,
+          "explanation": "O Sr. Cabeça de Batata é o brinquedo resmungão com partes intercambiáveis.\nEle tem um humor ácido, mas o cowboy é o xerife da turma.\nE o brinquedo favorito de Andy (no começo)."
+        },
+        {
+          "text": "Woody",
+          "isCorrect": true,
+          "explanation": "Tem uma cobra na minha bota! Acertou!\nWoody, o xerife leal e corajoso, líder dos brinquedos de Andy.\nSempre pronto para uma aventura e para garantir que nenhum brinquedo seja deixado para trás.",
+          "imageUrl": "https://pixabay.com/pt/photos/bota-de-cowboy-chap%C3%A9u-de-cowboy-couro-1296512/",
+          "imageDescription": "Botas e chapéu de cowboy, itens característicos de Woody."
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "question": "Qual o nome do vilão principal no filme 'O Silêncio dos Inocentes', conhecido por seu canibalismo?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Buffalo Bill",
+          "isCorrect": false,
+          "explanation": "Buffalo Bill é o serial killer que Clarice está caçando, ele faz 'roupas de mulher'.\nMas o vilão que a ajuda da prisão, com um gosto peculiar por favas e um bom Chianti, é outro.\nUm psiquiatra muito, muito perigoso."
+        },
+        {
+          "text": "Dr. Frederick Chilton",
+          "isCorrect": false,
+          "explanation": "Dr. Chilton é o diretor arrogante do hospital psiquiátrico onde Lecter está preso.\nEle é detestável, mas não o canibal gênio.\nMais para um obstáculo burocrático e irritante."
+        },
+        {
+          "text": "Jame Gumb",
+          "isCorrect": false,
+          "explanation": "Jame Gumb é o nome real de Buffalo Bill. A resposta ainda é o outro cara!\nAquele que adora um jogo mental e tem um paladar... refinado.\n'Eu comi o fígado dele com favas e um bom Chianti.'"
+        },
+        {
+          "text": "Dr. Hannibal Lecter",
+          "isCorrect": true,
+          "explanation": "Olá, Clarice... Você acertou. Dr. Hannibal 'O Canibal' Lecter.\nO psiquiatra brilhante e aterrorizante que brinca com a mente de todos.\nE tem um gosto culinário que faria qualquer um perder o apetite.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/homem-usando-mascara-preta-3975600/",
+          "imageDescription": "Um homem usando uma máscara que cobre a boca, remetendo à mordaça de Hannibal Lecter."
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "question": "Qual o nome da escola de magia frequentada por Harry Potter?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Beauxbatons",
+          "isCorrect": false,
+          "explanation": "Beauxbatons é a academia de magia da França, com suas alunas elegantes e carruagens voadoras.\nHarry estudou em uma escola mais... britânica.\nE com um castelo cheio de fantasmas e passagens secretas."
+        },
+        {
+          "text": "Durmstrang",
+          "isCorrect": false,
+          "explanation": "Durmstrang é o instituto conhecido por ensinar Artes das Trevas (e ter Viktor Krum!).\nA escola de Harry é mais focada em Defesa Contra as Artes das Trevas.\nE tem um esporte com vassouras voadoras bem popular."
+        },
+        {
+          "text": "Hogwarts",
+          "isCorrect": true,
+          "explanation": "Dez pontos para a Grifinória! Ou melhor, para você! Hogwarts, claro.\nA Escola de Magia e Bruxaria mais famosa do mundo, com suas quatro casas e um diretor de barba longa.\n'Draco Dormiens Nunquam Titillandus'.",
+          "imageUrl": "https://pixabay.com/pt/photos/castelo-pr%C3%A9dio-arquitetura-viagem-336498/",
+          "imageDescription": "Um castelo antigo e imponente, lembrando a Escola de Magia e Bruxaria de Hogwarts."
+        },
+        {
+          "text": "Ilvermorny",
+          "isCorrect": false,
+          "explanation": "Ilvermorny é a escola de magia da América do Norte.\nHarry é britânico e sua carta de aceitação veio com um selo bem específico.\nE um guarda-caça gigante para entregá-la."
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "question": "Na franquia 'Jurassic Park', qual tipo de dinossauro é o principal antagonista no primeiro filme?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Triceratops",
+          "isCorrect": false,
+          "explanation": "O Triceratops estava doente no primeiro filme, coitado.\nEle era grande, mas não o caçador esperto que aterrorizou os protagonistas.\nEsse era mais herbívoro e menos... faminto por humanos."
+        },
+        {
+          "text": "Velociraptor",
+          "isCorrect": false,
+          "explanation": "Os Velociraptors são terrivelmente inteligentes e caçam em bando, um pesadelo!\nEles são grandes antagonistas, mas o 'rei' do parque, o maior problema, era outro.\nUm com dentes ainda maiores e braços curtinhos."
+        },
+        {
+          "text": "Tiranossauro Rex (T-Rex)",
+          "isCorrect": true,
+          "explanation": "ROOOOAR! Acertou em cheio! O Tiranossauro Rex.\nO rei dos dinossauros, com seu rugido icônico e uma queda por jipes.\n'Não se mexa! A visão dele é baseada em movimento!' (Ou não, mas foi tenso).",
+          "imageUrl": "https://pixabay.com/pt/photos/dinossauro-t-rex-tyrannosaurus-rex-2311942/",
+          "imageDescription": "Um modelo de Tiranossauro Rex rugindo."
+        },
+        {
+          "text": "Pterodáctilo",
+          "isCorrect": false,
+          "explanation": "Pterodáctilos são répteis voadores, assustadores do céu.\nMas o grande problema terrestre no primeiro filme era um carnívoro bípede.\nQue fazia o chão tremer a cada passo."
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "question": "Qual o nome da personagem principal da série 'Stranger Things', que possui habilidades psicocinéticas?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Max Mayfield",
+          "isCorrect": false,
+          "explanation": "Max é a skatista ruiva e durona, ótima no fliperama!\nEla é corajosa, mas quem tem os poderes de virar vans com a mente é outra garota.\nUma com um gosto por waffles e um número no braço."
+        },
+        {
+          "text": "Nancy Wheeler",
+          "isCorrect": false,
+          "explanation": "Nancy é a irmã mais velha inteligente e aspirante a jornalista.\nEla caça monstros com muita determinação, mas seus poderes são mais... investigativos.\nA garota com poderes é mais jovem e quieta."
+        },
+        {
+          "text": "Eleven (Onze)",
+          "isCorrect": true,
+          "explanation": "Amigos não mentem, e você acertou! Eleven (Onze), ou El.\nA garota misteriosa com poderes incríveis e um vocabulário limitado no começo.\nMas com um coração enorme e uma queda por Eggos.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/luzes-de-natal-acesas-na-parede-1767980/",
+          "imageDescription": "Luzes de Natal coloridas em uma parede, remetendo à comunicação de Joyce com Will em Stranger Things."
+        },
+        {
+          "text": "Erica Sinclair",
+          "isCorrect": false,
+          "explanation": "Você não pode soletrar América sem Erica! Ela é a irmã mais nova de Lucas, esperta e capitalista.\nEla tem o poder da persuasão e de entrar em dutos de ventilação, mas não psicocinese.\n'Nerd!'"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "question": "Qual o nome do filme de Quentin Tarantino que é dividido em várias histórias interligadas sobre o submundo do crime de Los Angeles?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Kill Bill",
+          "isCorrect": false,
+          "explanation": "Kill Bill é uma jornada de vingança épica, com muita ação e katanas.\nO filme com as histórias cruzadas de gangsters, um pugilista e uma maleta misteriosa é outro.\nUm com um diálogo bem mais... afiado (e cheio de palavrões)."
+        },
+        {
+          "text": "Cães de Aluguel",
+          "isCorrect": false,
+          "explanation": "Cães de Aluguel é sobre um assalto a banco que deu muito errado.\nO filme com a dança no Jack Rabbit Slim's e a overdose de Mia Wallace é diferente.\nE tem um estilo narrativo não linear bem marcante."
+        },
+        {
+          "text": "Bastardos Inglórios",
+          "isCorrect": false,
+          "explanation": "Bastardos Inglórios é uma fantasia de Segunda Guerra com caçadores de nazistas.\nO filme que estamos procurando se passa em L.A. e envolve milkshakes de cinco dólares.\nE discussões sobre massagem nos pés."
+        },
+        {
+          "text": "Pulp Fiction: Tempo de Violência",
+          "isCorrect": true,
+          "explanation": "Correto, seu Royale com Queijo! Pulp Fiction.\nO clássico cult com Vincent Vega, Jules Winnfield e uma série de eventos bizarros.\n'Ezekiel 25:17...'",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/copo-de-milk-shake-de-morango-3727250/",
+          "imageDescription": "Um copo de milk-shake, lembrando a famosa cena do milk-shake de cinco dólares em Pulp Fiction."
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "question": "Qual o nome do ogro verde que vive em um pântano e se casa com a Princesa Fiona?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Burro",
+          "isCorrect": false,
+          "explanation": "O Burro fala pelos cotovelos e é o melhor amigo do ogro!\nMas o ogro em si, o grandão verde e rabugento, tem outro nome.\nUm que rima com... 'deck'?"
+        },
+        {
+          "text": "Gato de Botas",
+          "isCorrect": false,
+          "explanation": "O Gato de Botas é o espadachim felino charmoso e com um olhar pidão irresistível.\nEle se junta à turma, mas o ogro principal é o dono do pântano.\nE quem teve que resgatar a princesa (a contragosto no início)."
+        },
+        {
+          "text": "Lord Farquaad",
+          "isCorrect": false,
+          "explanation": "Lord Farquaad é o baixinho tirano que queria se casar com Fiona por status.\nEle era o vilão, não o noivo ogro.\nE compensava a altura com um castelo bem grande."
+        },
+        {
+          "text": "Shrek",
+          "isCorrect": true,
+          "explanation": "SAIAM DO MEU PÂNTANO... para comemorar, você acertou! Shrek.\nO ogro que aprendeu que a beleza está no interior (e que talvez um pântano seja melhor com companhia).\n'Ogro são como cebolas!'",
+          "imageUrl": "https://pixabay.com/pt/photos/shrek-figura-verde-ogro-filme-660146/",
+          "imageDescription": "Uma figura do personagem Shrek."
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "question": "Qual o nome do filme da Pixar sobre um ratinho que sonha em se tornar um chef de cozinha em Paris?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Up - Altas Aventuras",
+          "isCorrect": false,
+          "explanation": "Up é sobre um velhinho, um escoteiro e uma casa voadora com balões.\nO filme do ratinho cozinheiro se passa na França e tem muita comida gostosa.\nE um crítico gastronômico bem intimidador."
+        },
+        {
+          "text": "Wall-E",
+          "isCorrect": false,
+          "explanation": "Wall-E é sobre um robô solitário que limpa a Terra e se apaixona por EVA.\nO filme do ratinho chef é mais... terrestre. E com menos lixo espacial.\nE mais temperos e panelas."
+        },
+        {
+          "text": "Toy Story",
+          "isCorrect": false,
+          "explanation": "Toy Story é sobre as aventuras de brinquedos que ganham vida.\nO filme do ratinho gourmet envolve humanos e alta gastronomia.\nE um Linguini bem desajeitado."
+        },
+        {
+          "text": "Ratatouille",
+          "isCorrect": true,
+          "explanation": "Voilà! C'est magnifique! Ratatouille, claro.\nA história de Remy, o rato com um paladar refinado e o sonho de cozinhar.\n'Qualquer um pode cozinhar!' (especialmente se tiver um rato talentoso no chapéu).",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/foto-de-foco-seletivo-de-rato-marrom-2255042/",
+          "imageDescription": "Um ratinho curioso, lembrando Remy de Ratatouille."
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "question": "Qual o nome do imperador romano traído por seu general, Maximus, no filme 'Gladiador'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Júlio César",
+          "isCorrect": false,
+          "explanation": "Júlio César foi um famoso líder romano, mas 'Gladiador' se passa depois dele.\nO imperador do filme era mais jovem, mais cruel e com sérios problemas paternos.\nE uma inveja mortal do general Maximus."
+        },
+        {
+          "text": "Marco Aurélio",
+          "isCorrect": false,
+          "explanation": "Marco Aurélio era o imperador idoso e sábio no início do filme, pai de Commodus.\nEle queria que Maximus o sucedesse, o que não agradou nem um pouco seu filho.\nEle foi a vítima, não o traidor de Maximus."
+        },
+        {
+          "text": "Cômodo (Commodus)",
+          "isCorrect": true,
+          "explanation": "Força e Honra! Você acertou! Commodus.\nO filho invejoso e instável de Marco Aurélio, que assassinou o pai e traiu Maximus.\nE adorava um dedão para baixo na arena.",
+          "imageUrl": "https://pixabay.com/pt/photos/gladiador-guerreiro-lutador-arena-1006136/",
+          "imageDescription": "Um gladiador em uma arena romana, remetendo ao filme Gladiador."
+        },
+        {
+          "text": "Nero",
+          "isCorrect": false,
+          "explanation": "Nero foi outro imperador romano infame, conhecido por sua tirania e excentricidade.\nMas o vilão de 'Gladiador' é Commodus, com seu complexo de Édipo e sede de poder.\n'Meu nome é Maximus Decimus Meridius...'"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "question": "Qual o nome do programa de televisão sobre seis jovens vivendo em Nova York, conhecido pelos personagens Rachel, Ross, Monica, Chandler, Joey e Phoebe?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Seinfeld",
+          "isCorrect": false,
+          "explanation": "Seinfeld é sobre 'nada', com Jerry, George, Elaine e Kramer em Nova York.\nMas o grupo com o apartamento roxo e o peru na cabeça no Dia de Ação de Graças é outro.\nUm com um tema de abertura bem chiclete: 'I'll be there for you...'"
+        },
+        {
+          "text": "How I Met Your Mother",
+          "isCorrect": false,
+          "explanation": "Essa série é sobre Ted contando aos filhos como conheceu a mãe deles, com Barney e cia.\nO grupo de amigos que estamos procurando é mais antigo e tem um caso clássico de 'eles vão ou não vão?'\nEntre um paleontólogo e uma fashionista."
+        },
+        {
+          "text": "Friends",
+          "isCorrect": true,
+          "explanation": "Oh. My. GOD! Você acertou! Friends, claro.\nA série que nos ensinou sobre 'unagi', 'smelly cat' e a importância de um bom sofá no café.\nE que um 'break' pode ser bem complicado.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/grupo-de-amigos-rindo-juntos-7863470/",
+          "imageDescription": "Um grupo de amigos se divertindo juntos, evocando o espírito de Friends."
+        },
+        {
+          "text": "The Big Bang Theory",
+          "isCorrect": false,
+          "explanation": "The Big Bang Theory é sobre um grupo de nerds e sua vizinha garçonete.\n'Friends' tem menos física quântica e mais... relacionamentos complicados.\nE um apartamento bem em frente ao outro."
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "question": "Qual é o nome da terra mágica para onde Dorothy é levada por um tornado em 'O Mágico de Oz'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "País das Maravilhas",
+          "isCorrect": false,
+          "explanation": "O País das Maravilhas é onde Alice encontra o Chapeleiro Maluco e a Rainha de Copas.\nDorothy foi para um lugar com uma estrada de tijolos amarelos e bruxas.\nE um mágico não tão mágico assim."
+        },
+        {
+          "text": "Terra do Nunca",
+          "isCorrect": false,
+          "explanation": "A Terra do Nunca é o lar de Peter Pan, Sininho e os Garotos Perdidos.\nDorothy queria voltar para o Kansas, não para uma ilha onde ninguém envelhece.\nEla precisava de um par de sapatos mágicos para isso."
+        },
+        {
+          "text": "Nárnia",
+          "isCorrect": false,
+          "explanation": "Nárnia é um mundo mágico acessado através de um guarda-roupa, com Aslan e a Feiticeira Branca.\nOz tem Munchkins, Winkies e um leão que precisa de coragem.\nE uma Bruxa Má do Oeste bem irritada."
+        },
+        {
+          "text": "Terra de Oz",
+          "isCorrect": true,
+          "explanation": "Não estamos mais no Kansas, e você acertou! A Terra de Oz.\nUm lugar vibrante e perigoso, cheio de magia e personagens inesquecíveis.\n'Lions, and tigers, and bears! Oh my!'",
+          "imageUrl": "https://pixabay.com/pt/photos/estrada-tijolo-amarelo-caminho-oz-1615109/",
+          "imageDescription": "Uma estrada de tijolos amarelos, o caminho para a Cidade das Esmeraldas em Oz."
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "question": "Qual o nome do filme de Steven Spielberg sobre um garoto que faz amizade com um alienígena perdido na Terra?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Contatos Imediatos do Terceiro Grau",
+          "isCorrect": false,
+          "explanation": "Esse filme também é de Spielberg e sobre alienígenas, mas é mais sobre OVNIs e comunicação.\nO filme com o alienígena baixinho, com um dedo que brilha e uma paixão por doces é outro.\nE tem uma bicicleta voadora bem famosa."
+        },
+        {
+          "text": "A.I. - Inteligência Artificial",
+          "isCorrect": false,
+          "explanation": "A.I. é sobre um garoto robô que quer ser amado. Também de Spielberg, mas diferente.\nO filme que procuramos tem um ET que só quer... ligar para casa.\nE tem uma amizade muito emocionante com um garotinho."
+        },
+        {
+          "text": "Guerra dos Mundos",
+          "isCorrect": false,
+          "explanation": "Guerra dos Mundos (versão de Spielberg) é sobre uma invasão alienígena aterrorizante.\nO filme do ET amigo é bem mais... fofo. E menos destrutivo.\nCom mais Reese's Pieces e menos tripods gigantes."
+        },
+        {
+          "text": "E.T. - O Extraterrestre",
+          "isCorrect": true,
+          "explanation": "E.T. phone home... e você acertou! E.T. - O Extraterrestre.\nA história emocionante da amizade entre Elliott e o adorável alienígena perdido.\nQue nos ensinou o poder da empatia e das bicicletas voadoras.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/silhueta-de-pessoa-andando-de-bicicleta-durante-a-noite-713313/",
+          "imageDescription": "Silhueta de uma bicicleta contra a lua, remetendo à icônica cena de E.T."
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "question": "Qual o nome da academia de pilotos de elite no filme 'Top Gun', onde Maverick e Goose treinam?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Starfleet Academy",
+          "isCorrect": false,
+          "explanation": "Essa é a academia de 'Star Trek', para futuros oficiais da Frota Estelar.\nOs pilotos de 'Top Gun' voam caças F-14 Tomcat, não naves espaciais.\nE têm apelidos bem mais... terrestres."
+        },
+        {
+          "text": "Academia da Força Aérea dos EUA",
+          "isCorrect": false,
+          "explanation": "Embora sejam pilotos da Marinha, a academia específica do filme tem outro nome.\nUm mais curto e que soa como 'melhor dos melhores'.\nOnde se joga vôlei de praia sem camisa e se canta em bares."
+        },
+        {
+          "text": "Top Gun (Escola de Armas de Caça da Marinha dos EUA)",
+          "isCorrect": true,
+          "explanation": "Sinto a necessidade... a necessidade de velocidade para te parabenizar! Top Gun.\nOnde os melhores pilotos da Marinha são treinados em táticas de combate aéreo.\nE onde Maverick aprendeu algumas lições difíceis (e voou invertido).",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/aviao-de-cacador-a-jato-cinza-voando-no-ceu-733790/",
+          "imageDescription": "Um caça a jato em voo, representando a ação de Top Gun."
+        },
+        {
+          "text": "Rogue Squadron",
+          "isCorrect": false,
+          "explanation": "Rogue Squadron é o famoso esquadrão de pilotos de X-Wing de 'Star Wars'.\nEm 'Top Gun', a competição é entre pilotos da Marinha americana.\nE os inimigos são chamados de 'MiGs'."
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "question": "Qual o nome do famoso navio pirata do Capitão Gancho, inimigo de Peter Pan?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Pérola Negra",
+          "isCorrect": false,
+          "explanation": "O Pérola Negra é o navio do Capitão Jack Sparrow! Rápido e quase impossível de pegar.\nO navio do Capitão Gancho tem um nome mais... alegre.\nApesar de seu capitão ser bem mal-humorado."
+        },
+        {
+          "text": "Holandês Voador",
+          "isCorrect": false,
+          "explanation": "O Holandês Voador é o navio amaldiçoado de Davy Jones.\nO navio do Gancho é mais um galeão clássico, cheio de piratas desajeitados.\nE um crocodilo faminto por perto."
+        },
+        {
+          "text": "Jolly Roger",
+          "isCorrect": true,
+          "explanation": "Ahoy, marujo! Você acertou! O Jolly Roger.\nO navio do Capitão Gancho, com sua icônica bandeira de caveira e ossos cruzados.\nPronto para navegar para a Terra do Nunca e causar problemas para Peter Pan.",
+          "imageUrl": "https://pixabay.com/pt/photos/navio-pirata-veleiro-mar-oceano-795169/",
+          "imageDescription": "Um navio pirata clássico navegando, como o Jolly Roger."
+        },
+        {
+          "text": "A Vingança da Rainha Ana",
+          "isCorrect": false,
+          "explanation": "Esse é o navio do Barba Negra! Cheio de magia sombria e tripulantes zumbis.\nO navio do Capitão Gancho é mais... tradicional.\nE tem um imediato chamado Smee."
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "question": "Qual o nome do detetive consultor que vive no endereço 221B Baker Street, em Londres?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Hercule Poirot",
+          "isCorrect": false,
+          "explanation": "Poirot é o famoso detetive belga de Agatha Christie, com suas 'pequenas células cinzentas'.\nO morador de Baker Street é britânico e tem um amigo médico chamado Watson.\nE um talento especial para o violino e disfarces."
+        },
+        {
+          "text": "Miss Marple",
+          "isCorrect": false,
+          "explanation": "Miss Marple é a simpática velhinha detetive de St. Mary Mead, também de Agatha Christie.\nO detetive de Baker Street é um homem e bem mais... excêntrico.\nE menos propenso a tricotar enquanto resolve crimes."
+        },
+        {
+          "text": "Sherlock Holmes",
+          "isCorrect": true,
+          "explanation": "Elementar, meu caro Watson! Ou melhor, elementar que você acertou! Sherlock Holmes.\nO mestre da dedução, com seu cachimbo, lupa e um cérebro que nunca descansa.\n'O jogo começou!'",
+          "imageUrl": "https://pixabay.com/pt/photos/lupa-livro-ler-detetive-estudo-1083437/",
+          "imageDescription": "Uma lupa sobre um livro, simbolizando a investigação de Sherlock Holmes."
+        },
+        {
+          "text": "Philip Marlowe",
+          "isCorrect": false,
+          "explanation": "Philip Marlowe é um detetive particular durão dos romances de Raymond Chandler.\nO detetive de Baker Street é mais... clássico e vitoriano.\nE com um arqui-inimigo chamado Moriarty."
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "question": "Em qual cidade se passa a maior parte da trama da série 'La Casa de Papel'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Barcelona",
+          "isCorrect": false,
+          "explanation": "Barcelona é uma cidade incrível, mas o grande assalto planejado pelo Professor aconteceu em outra cidade espanhola.\nA capital do país, para ser mais exato.\nOnde fica a Casa da Moeda."
+        },
+        {
+          "text": "Berlim",
+          "isCorrect": false,
+          "explanation": "Berlim é o nome de um dos personagens mais icônicos da série!\nMas a cidade onde eles colocam o plano em prática é na Espanha.\nUm lugar com muito mais Sol e menos... Muro."
+        },
+        {
+          "text": "Madri",
+          "isCorrect": true,
+          "explanation": "Bella Ciao! Você acertou! Madri.\nOnde a Casa da Moeda da Espanha e o Banco da Espanha se tornaram palcos de assaltos épicos.\nE onde macacões vermelhos e máscaras de Dalí viraram moda.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/pessoas-em-capuzes-vermelhos-3770285/",
+          "imageDescription": "Pessoas usando macacões vermelhos e máscaras, remetendo a La Casa de Papel."
+        },
+        {
+          "text": "Lisboa",
+          "isCorrect": false,
+          "explanation": "Lisboa também é o nome de uma personagem importante!\nMas a ação principal, os assaltos e a resistência, ocorrem na capital espanhola.\nOnde o Professor comanda tudo à distância."
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "question": "Qual o nome do leão que é o legítimo rei da Pedra do Reino em 'O Rei Leão'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Kovu",
+          "isCorrect": false,
+          "explanation": "Kovu é o sucessor de Scar, que se apaixona por Kiara na sequência.\nO rei original, pai de Simba, tinha um nome mais... imponente.\nE uma juba de dar inveja."
+        },
+        {
+          "text": "Mufasa",
+          "isCorrect": true,
+          "explanation": "Lembre-se de quem você é... e de que acertou! Mufasa.\nO rei sábio, justo e poderoso, cuja sombra paira sobre as Terras do Reino.\nUm exemplo de liderança e paternidade (até Scar aparecer).",
+          "imageUrl": "https://unsplash.com/pt/fotografias/leao-marrom-deitado-na-grama-marrom-durante-o-dia-Y2Tepw5J5hU",
+          "imageDescription": "Um leão majestoso deitado na savana, representando Mufasa."
+        },
+        {
+          "text": "Zazu",
+          "isCorrect": false,
+          "explanation": "Zazu é o calau conselheiro real, sempre estressado e com as últimas notícias da manhã.\nEle serve ao rei, mas não é o rei.\nSeria um reino bem... organizado, mas talvez um pouco ansioso."
+        },
+        {
+          "text": "Rafiki",
+          "isCorrect": false,
+          "explanation": "Rafiki é o mandril místico e sábio, o 'guru' da Pedra do Reino.\nEle apresenta os futuros reis, mas não usa a coroa.\n'Asante sana, squash banana!'"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "question": "Qual o nome do filme de ficção científica dirigido por James Cameron, que se passa no planeta Pandora e é conhecido por seus visuais impressionantes e uso de 3D?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Star Wars",
+          "isCorrect": false,
+          "explanation": "Star Wars se passa em uma galáxia muito, muito distante, com muitos planetas.\nMas Pandora, com seus Na'vi azuis e florestas bioluminescentes, é de outro universo.\nUm criado por James Cameron, não por George Lucas."
+        },
+        {
+          "text": "O Exterminador do Futuro 2",
+          "isCorrect": false,
+          "explanation": "Esse também é de James Cameron e um marco da ficção científica!\nMas se passa na Terra, com robôs assassinos do futuro.\nPandora é um planeta alienígena exuberante e perigoso."
+        },
+        {
+          "text": "Avatar",
+          "isCorrect": true,
+          "explanation": "Eu vejo você... acertando a resposta! Avatar.\nO filme que nos levou para o mundo deslumbrante de Pandora e revolucionou o cinema 3D.\nE nos fez querer montar um Banshee (Ikran).",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/floresta-tropical-exuberante-com-arvores-altas-e-luz-solar-filtrada-1628091/",
+          "imageDescription": "Uma floresta exuberante e mística, lembrando o visual de Pandora em Avatar."
+        },
+        {
+          "text": "Aliens, O Resgate",
+          "isCorrect": false,
+          "explanation": "Outro clássico de James Cameron, com xenomorfos assustadores e a Tenente Ripley.\nMas Pandora é um lugar com uma fauna e flora bem diferentes.\nMenos gosma ácida, mais sementes flutuantes da Árvore das Almas."
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "question": "Qual o nome do filme de 1999 que popularizou o efeito 'bullet time', onde Neo desvia de balas em câmera lenta?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Blade Runner",
+          "isCorrect": false,
+          "explanation": "Blade Runner é um clássico sci-fi noir, mas o 'bullet time' é de outro filme.\nUm com mais pílulas azuis e vermelhas e menos replicantes.\nE um 'Escolhido' bem estiloso de sobretudo."
+        },
+        {
+          "text": "O Quinto Elemento",
+          "isCorrect": false,
+          "explanation": "O Quinto Elemento é uma aventura espacial colorida e divertida.\nMas o efeito de desviar de balas em super câmera lenta marcou outra produção.\nUma que questionava a natureza da nossa realidade."
+        },
+        {
+          "text": "Matrix",
+          "isCorrect": true,
+          "explanation": "Woah! Você escolheu a pílula certa! Matrix.\nO filme que nos fez questionar se estamos todos em uma simulação.\nE nos ensinou que 'não há colher'.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/codigo-binario-programacao-codificacao-desenvolvimento-5775854/",
+          "imageDescription": "Códigos binários verdes em uma tela escura, remetendo ao visual de Matrix."
+        },
+        {
+          "text": "Minority Report",
+          "isCorrect": false,
+          "explanation": "Minority Report tem tecnologia futurista e pre-cogs, mas o 'bullet time' icônico não é daqui.\nEsse efeito está mais associado a gabardines pretas e óculos escuros.\nE a um agente Smith bem persistente."
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "question": "Qual o nome do personagem principal da série 'Breaking Bad', um professor de química que se torna produtor de metanfetamina?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Jesse Pinkman",
+          "isCorrect": false,
+          "explanation": "Yo, Mr. White! Jesse é o parceiro (e ex-aluno) de Walt, com um vocabulário peculiar.\nMas o professor que virou 'Heisenberg' é outro personagem.\n'Science, bitch!'"
+        },
+        {
+          "text": "Saul Goodman",
+          "isCorrect": false,
+          "explanation": "Better Call Saul! Ele é o advogado criminalista (bem criminal) que ajuda Walt.\nMas o cérebro por trás do império de metanfetamina azul é o próprio professor.\nUm cara que 'fez por ele mesmo'."
+        },
+        {
+          "text": "Gustavo Fring",
+          "isCorrect": false,
+          "explanation": "Gus Fring é o distribuidor frio e calculista, dono do Los Pollos Hermanos.\nEle é um grande antagonista, mas o protagonista que começa tudo é o pacato professor.\nQue descobre seu lado... sombrio."
+        },
+        {
+          "text": "Walter White",
+          "isCorrect": true,
+          "explanation": "You're goddamn right! Walter White, também conhecido como Heisenberg.\nO professor de química que decidiu 'quebrar as regras' de forma espetacular.\n'Eu sou aquele que bate à porta!'",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/cristais-azuis-em-po-7934330/",
+          "imageDescription": "Cristais azuis, remetendo à metanfetamina produzida por Walter White."
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "question": "Qual o nome da banda fictícia de rock dos anos 70, foco do filme 'Quase Famosos'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Spinal Tap",
+          "isCorrect": false,
+          "explanation": "Spinal Tap é a banda do documentário cômico 'This Is Spinal Tap'.\nEles têm um amplificador que vai até o 11, mas a banda de 'Quase Famosos' é outra.\nUma com um guitarrista misterioso e um vocalista carismático."
+        },
+        {
+          "text": "The Wonders (The Oneders)",
+          "isCorrect": false,
+          "explanation": "Essa é a banda de 'The Wonders - O Sonho Não Acabou!', com seu hit contagiante.\nA banda de 'Quase Famosos' era mais rock 'n' roll clássico dos anos 70.\nE com muito mais groupies."
+        },
+        {
+          "text": "Stillwater",
+          "isCorrect": true,
+          "explanation": "Você está com a banda! Stillwater.\nA banda em ascensão que o jovem jornalista William Miller acompanha em turnê.\n'Eu sou um deus dourado!' (disse o vocalista, antes de pular na piscina).",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/show-de-banda-de-rock-2240763/",
+          "imageDescription": "Uma banda de rock se apresentando em um show com luzes coloridas."
+        },
+        {
+          "text": "Steel Dragon",
+          "isCorrect": false,
+          "explanation": "Steel Dragon é a banda de heavy metal do filme 'Rock Star'.\nStillwater era mais... folk rock com um toque de blues.\nE menos calças de couro (talvez)."
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "question": "Qual o nome do leão protagonista do filme 'Madagascar', que sonha em conhecer a vida selvagem?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Marty",
+          "isCorrect": false,
+          "explanation": "Marty é a zebra listrada e sonhadora, que quer sair do zoológico!\nO leão, seu melhor amigo, é mais o 'rei de Nova York'.\nE um pouco mais egocêntrico (no começo)."
+        },
+        {
+          "text": "Melman",
+          "isCorrect": false,
+          "explanation": "Melman é a girafa hipocondríaca, sempre preocupado com alguma doença nova.\nO leão da turma é mais confiante e adora ser o centro das atenções.\nE tem uma juba bem estilosa."
+        },
+        {
+          "text": "Alex",
+          "isCorrect": true,
+          "explanation": "Ele se remexe muito e você acertou! Alex, o Leão.\nA estrela do zoológico do Central Park que descobre seus instintos selvagens em Madagascar.\nE que o bife não cresce em árvores.",
+          "imageUrl": "https://pixabay.com/pt/photos/le%C3%A3o-grande-gato-felino-mam%C3%ADfero-1869302/",
+          "imageDescription": "Um leão com uma juba imponente, como Alex de Madagascar."
+        },
+        {
+          "text": "Rei Julien",
+          "isCorrect": false,
+          "explanation": "Rei Julien é o lêmure excêntrico e autoproclamado rei de Madagascar.\nEle adora 'remexer muito', mas o leão protagonista é o Alex.\nQue aprendeu a conviver com os 'seres inferiores'."
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "question": "Qual o nome do filme da Disney sobre uma jovem chinesa que se disfarça de homem para lutar no lugar de seu pai no exército?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Pocahontas",
+          "isCorrect": false,
+          "explanation": "Pocahontas é a princesa nativa americana que se apaixona por John Smith.\nA guerreira chinesa que estamos procurando tem um dragãozinho falante como companheiro.\nE uma música tema sobre 'ser homem'."
+        },
+        {
+          "text": "Moana",
+          "isCorrect": false,
+          "explanation": "Moana é a jovem polinésia que se aventura pelo oceano para salvar seu povo.\nA heroína que vai para a guerra no lugar do pai é de outra cultura.\nE luta contra os Hunos."
+        },
+        {
+          "text": "Mulan",
+          "isCorrect": true,
+          "explanation": "Honra a todos nós! Você acertou! Mulan.\nA jovem corajosa que desafiou as tradições para proteger sua família e seu país.\nE provou que uma mulher pode ser uma grande guerreira.",
+          "imageUrl": "https://br.freepik.com/fotos-gratis/mulher-com-roupas-tradicionais-chinesas-e-leque_3618285.htm",
+          "imageDescription": "Uma mulher com trajes tradicionais asiáticos, remetendo a Mulan."
+        },
+        {
+          "text": "Valente (Brave)",
+          "isCorrect": false,
+          "explanation": "Mérida, de 'Valente', é uma princesa escocesa arqueira que desafia os costumes.\nMulan é chinesa e sua arma principal é a espada (e a inteligência).\nAmbas são fortes, mas de histórias diferentes."
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "question": "Qual é o nome do carro falante, protagonista da franquia de filmes 'Carros' da Pixar?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Mate",
+          "isCorrect": false,
+          "explanation": "O Mate é o adorável guincho enferrujado e melhor amigo do protagonista!\nMas o carro de corrida vermelho e veloz, que sonha com a Copa Pistão, é outro.\n'Ka-chow!'"
+        },
+        {
+          "text": "Doc Hudson",
+          "isCorrect": false,
+          "explanation": "Doc Hudson é o Hudson Hornet aposentado, médico e juiz de Radiator Springs.\nEle é um mentor para o protagonista, mas o astro principal é mais jovem e mais... vermelho.\nE com um número 95 na lateral."
+        },
+        {
+          "text": "Relâmpago McQueen",
+          "isCorrect": true,
+          "explanation": "Velocidade. Eu sou a velocidade! E você acertou! Relâmpago McQueen.\nO carro de corrida arrogante que aprende o valor da amizade e da humildade.\nE que nem sempre o mais rápido vence (a menos que seja ele).",
+          "imageUrl": "https://pixabay.com/pt/photos/carro-de-corrida-nascar-corrida-3370807/",
+          "imageDescription": "Um carro de corrida vermelho em uma pista, lembrando Relâmpago McQueen."
+        },
+        {
+          "text": "Chick Hicks",
+          "isCorrect": false,
+          "explanation": "Chick Hicks é o rival trapaceiro de Relâmpago, sempre obcecado em vencer.\nEle é o vilão verde, não o herói vermelho.\nE tem um bigodinho bem suspeito."
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "question": "Qual o nome da série de TV sobre um grupo de sobreviventes de um acidente de avião em uma ilha misteriosa?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "The Walking Dead",
+          "isCorrect": false,
+          "explanation": "The Walking Dead é sobre um apocalipse zumbi. Muitos sobreviventes, mas poucas ilhas.\nE muito mais... mordidas. A série da ilha tem mais mistérios e menos zumbis.\nE um urso polar onde não deveria ter."
+        },
+        {
+          "text": "Prison Break",
+          "isCorrect": false,
+          "explanation": "Prison Break é sobre fugir da prisão (e depois fugir de novo, e de novo).\nA série da ilha é sobre estar preso nela, sem saber como sair.\nE com 'Os Outros' espreitando."
+        },
+        {
+          "text": "Lost",
+          "isCorrect": true,
+          "explanation": "Nós temos que voltar! Para te parabenizar, você acertou! Lost.\nA série que nos deixou com mais perguntas do que respostas, mas que amamos odiar.\nCom seus flashbacks, flashforwards e um monstro de fumaça.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/vista-aerea-da-ilha-tropical-163872/",
+          "imageDescription": "Vista aérea de uma ilha tropical misteriosa, como a de Lost."
+        },
+        {
+          "text": "Sobrevivente Designado",
+          "isCorrect": false,
+          "explanation": "Essa série é sobre um secretário que vira presidente após um ataque terrorista.\nA da ilha é menos política e mais... existencial.\nE com números que não dão sorte."
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "question": "Qual o nome do personagem de Sylvester Stallone, um boxeador da Filadélfia, na famosa franquia de filmes de luta?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "John Rambo",
+          "isCorrect": false,
+          "explanation": "Rambo é outro personagem icônico de Stallone, um veterano de guerra traumatizado.\nMas o boxeador que sobe escadas correndo ao som de 'Gonna Fly Now' é diferente.\n'Yo, Adrian!'"
+        },
+        {
+          "text": "Cobra",
+          "isCorrect": false,
+          "explanation": "Marion Cobretti, o 'Cobra', é um policial durão de óculos escuros.\nO lutador da Filadélfia usa luvas de boxe, não uma metralhadora (geralmente).\nE tem um coração de ouro por baixo dos músculos."
+        },
+        {
+          "text": "Rocky Balboa",
+          "isCorrect": true,
+          "explanation": "ADRIANNN! Você venceu essa! Rocky Balboa.\nO 'Garanhão Italiano', o lutador azarão que nunca desiste.\nE nos ensinou que não importa o quanto você bate, mas o quanto aguenta apanhar.",
+          "imageUrl": "https://pixabay.com/pt/photos/luvas-de-boxe-boxe-esporte-luta-620801/",
+          "imageDescription": "Um par de luvas de boxe, símbolo de Rocky Balboa."
+        },
+        {
+          "text": "Barney Ross",
+          "isCorrect": false,
+          "explanation": "Barney Ross é o líder dos Mercenários, outra franquia de Stallone.\nRocky luta sozinho no ringue (com Mickey no córner, claro).\nE seu grito de guerra é mais sobre sua esposa do que sobre explosões."
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "question": "Qual o nome do filme de animação sobre um peixinho-palhaço chamado Nemo que se perde de seu pai no oceano?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "A Pequena Sereia",
+          "isCorrect": false,
+          "explanation": "A Pequena Sereia é sobre uma sereia que quer ser humana.\nO filme do peixinho perdido tem mais corais e menos... garfos de cabelo.\nE um pai superprotetor em uma jornada épica."
+        },
+        {
+          "text": "O Espanta Tubarões",
+          "isCorrect": false,
+          "explanation": "O Espanta Tubarões é sobre um peixe que mente sobre ter matado um tubarão.\n'Procurando Nemo' é sobre um pai procurando seu filho.\nCom a ajuda de uma peixinha muito esquecida."
+        },
+        {
+          "text": "Procurando Nemo",
+          "isCorrect": true,
+          "explanation": "Continue a nadar, continue a nadar... para a resposta certa! Procurando Nemo.\nA aventura emocionante de Marlin para encontrar seu filho Nemo.\nE a prova de que um peixinho pode cruzar o oceano por amor.",
+          "imageUrl": "https://pixabay.com/pt/photos/peixe-palha%C3%A7o-an%C3%AAmona-do-mar-nemo-357159/",
+          "imageDescription": "Um peixe-palhaço em uma anêmona, como Nemo."
+        },
+        {
+          "text": "Moana",
+          "isCorrect": false,
+          "explanation": "Moana é sobre uma jovem que navega para salvar seu povo. O oceano é um personagem!\nMas o filme com o Nemo é focado na vida marinha e em um aquário de dentista.\nE com gaivotas que gritam 'Meu! Meu! Meu!'"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "question": "Qual o nome do agente secreto britânico conhecido pelo código 007?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Ethan Hunt",
+          "isCorrect": false,
+          "explanation": "Esse é o agente de 'Missão: Impossível', mestre dos disfarces e das acrobacias.\nO 007 é mais de smoking, martinis (batido, não mexido) e Aston Martins.\nE com licença para matar."
+        },
+        {
+          "text": "Jason Bourne",
+          "isCorrect": false,
+          "explanation": "Bourne é o agente desmemoriado e letal, uma máquina de combate.\nO 007 tem uma memória excelente para seus gadgets... e suas Bond Girls.\nE um nome bem mais famoso."
+        },
+        {
+          "text": "James Bond",
+          "isCorrect": true,
+          "explanation": "Bond, James Bond. Acertou em cheio, como um tiro de Walther PPK!\nO espião mais charmoso e letal do MI6, sempre pronto para salvar o mundo.\nE para pedir um drink com muito estilo.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/homem-em-pe-terno-preto-8372748/",
+          "imageDescription": "Um homem elegante de terno, lembrando James Bond."
+        },
+        {
+          "text": "Austin Powers",
+          "isCorrect": false,
+          "explanation": "Yeah, baby! Austin Powers é o agente internacional do mistério, diretamente dos anos 60.\nO 007 é um pouco mais... sério. E menos 'shagadelic'.\nE com um gosto musical um pouco diferente."
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "question": "Qual o nome da jovem que entra em um mundo mágico através de um guarda-roupa no filme 'As Crônicas de Nárnia: O Leão, a Feiticeira e o Guarda-Roupa'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Hermione Granger",
+          "isCorrect": false,
+          "explanation": "Hermione é a bruxa mais inteligente de sua idade, de 'Harry Potter'.\nA garota que descobre Nárnia é mais nova e tem três irmãos.\nE encontra um fauno com um guarda-chuva."
+        },
+        {
+          "text": "Alice",
+          "isCorrect": false,
+          "explanation": "Alice cai na toca do coelho e vai para o País das Maravilhas.\nNárnia é acessada por um móvel antigo e empoeirado.\nE tem um leão falante muito majestoso."
+        },
+        {
+          "text": "Lúcia Pevensie (Lucy)",
+          "isCorrect": true,
+          "explanation": "Pela juba de Aslam, você acertou! Lúcia (Lucy) Pevensie.\nA mais nova dos irmãos Pevensie e a primeira a descobrir Nárnia.\nE a que sempre acreditou, mesmo quando ninguém mais o fez.",
+          "imageUrl": "https://pixabay.com/pt/photos/guarda-roupa-móveis-antigos-madeira-855330/",
+          "imageDescription": "Um guarda-roupa antigo de madeira, como o portal para Nárnia."
+        },
+        {
+          "text": "Dorothy Gale",
+          "isCorrect": false,
+          "explanation": "Dorothy foi para Oz em um tornado. Nárnia é um pouco menos... caótica para entrar.\nBasta um bom guarda-roupa e um pouco de imaginação (e neve do outro lado).\nE talvez um casaco de pele."
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "question": "Qual o nome do filme de ficção científica de 1982 dirigido por Ridley Scott, sobre um caçador de androides em uma Los Angeles futurista e chuvosa?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Alien - O Oitavo Passageiro",
+          "isCorrect": false,
+          "explanation": "'Alien' também é de Ridley Scott, mas é terror espacial com xenomorfos.\nO filme do caçador de androides tem mais neon, chuva e unicórnios de origami.\nE uma atmosfera bem noir."
+        },
+        {
+          "text": "O Exterminador do Futuro",
+          "isCorrect": false,
+          "explanation": "Esse é sobre um ciborgue assassino enviado do futuro para matar Sarah Connor.\nO filme que procuramos tem 'Replicantes' que parecem humanos.\nE um protagonista com um casaco estiloso e muitas dúvidas existenciais."
+        },
+        {
+          "text": "Blade Runner - O Caçador de Androides",
+          "isCorrect": true,
+          "explanation": "Lágrimas na chuva... e você acertou! Blade Runner.\nA jornada de Rick Deckard caçando replicantes em uma Los Angeles distópica.\n'Eu vi coisas que vocês não imaginariam...'",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/cidade-urbano-construcao-predio-169647/",
+          "imageDescription": "Uma paisagem urbana futurista e chuvosa à noite, remetendo a Blade Runner."
+        },
+        {
+          "text": "RoboCop - O Policial do Futuro",
+          "isCorrect": false,
+          "explanation": "RoboCop é sobre um policial que é transformado em um ciborgue para combater o crime em Detroit.\n'Blade Runner' é mais filosófico e menos... 'Eu compraria isso por um dólar!'.\nE os androides são bem mais sutis."
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "question": "Qual o nome do personagem de Tom Hanks que fica preso em uma ilha deserta após um acidente de avião, acompanhado por uma bola de vôlei chamada Wilson?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Forrest Gump",
+          "isCorrect": false,
+          "explanation": "Forrest Gump correu, jogou pingue-pongue e foi à guerra, mas não ficou preso em uma ilha.\nO personagem que fez amizade com uma bola de vôlei era um executivo da FedEx.\nE teve que aprender a fazer fogo e pescar."
+        },
+        {
+          "text": "Capitão Phillips",
+          "isCorrect": false,
+          "explanation": "Capitão Phillips (também Tom Hanks!) foi sequestrado por piratas somalis.\nO náufrago que estamos procurando teve uma experiência solitária diferente.\nCom menos piratas e mais... cocos."
+        },
+        {
+          "text": "Chuck Noland",
+          "isCorrect": true,
+          "explanation": "WILSONNN! Você não o abandonou e acertou! Chuck Noland.\nO homem que sobreviveu anos em uma ilha deserta com a ajuda de sua mente (e de uma bola).\nUma história de resiliência e da importância da amizade (mesmo que inanimada).",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/bola-de-volei-branca-na-areia-1262620/",
+          "imageDescription": "Uma bola de vôlei solitária em uma praia, lembrando Wilson de Náufrago."
+        },
+        {
+          "text": "Andrew Beckett",
+          "isCorrect": false,
+          "explanation": "Andrew Beckett, de 'Filadélfia', lutou contra a AIDS e a discriminação.\nChuck Noland lutou contra a solidão e os elementos.\nAmbos são papéis emocionantes de Tom Hanks, mas histórias bem diferentes."
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "question": "Qual o nome da série sobre um professor de espanhol que cria um clube de coral em uma escola de ensino médio, chamado 'Glee Club'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "High School Musical",
+          "isCorrect": false,
+          "explanation": "High School Musical é um filme (e depois série) sobre estudantes que amam cantar e dançar.\nMas a série com o professor Schuester e os New Directions é outra.\nCom mais covers de músicas pop e menos basquete."
+        },
+        {
+          "text": "Fama (Fame)",
+          "isCorrect": false,
+          "explanation": "Fama é sobre estudantes de uma escola de artes performáticas em Nova York.\nA série do clube de coral do ensino médio tem mais drama adolescente e competições.\nE uma treinadora de líderes de torcida bem malvada."
+        },
+        {
+          "text": "Glee",
+          "isCorrect": true,
+          "explanation": "Don't stop believin'... que você acertou! Glee.\nA série musical que celebrou os desajustados e nos deu performances memoráveis.\nE muitos slushies na cara.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/microfone-preto-e-cinza-no-palco-164936/",
+          "imageDescription": "Um microfone em um palco iluminado, simbolizando as performances de Glee."
+        },
+        {
+          "text": "Smash",
+          "isCorrect": false,
+          "explanation": "Smash é sobre a criação de um musical da Broadway sobre Marilyn Monroe.\n'Glee' se passa no ensino médio e foca nas vidas dos membros do coral.\nCom mais rivalidade entre adolescentes e menos... ensaios técnicos."
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "question": "Qual o nome do tubarão branco gigante que aterroriza a praia de Amity Island no clássico filme de Steven Spielberg?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Moby Dick",
+          "isCorrect": false,
+          "explanation": "Moby Dick é uma baleia branca cachalote, protagonista do romance de Herman Melville.\nO terror de Amity Island era um tubarão.\nE precisou de um barco maior (e de alguns barris explosivos)."
+        },
+        {
+          "text": "Kraken",
+          "isCorrect": false,
+          "explanation": "O Kraken é um monstro marinho lendário com tentáculos gigantes.\nO vilão de Amity era um peixe cartilaginoso com muitas fileiras de dentes.\nE uma barbatana dorsal bem sinistra."
+        },
+        {
+          "text": "Bruce (apelido dado pela equipe de produção)",
+          "isCorrect": true,
+          "explanation": "Você vai precisar de um barco maior... para comemorar! Embora não nomeado no filme, o tubarão mecânico era apelidado de 'Bruce' pela equipe.\nEle era a estrela (problemática) do filme que nos fez temer o mar.\n'Sorria, seu filho da...!'",
+          "imageUrl": "https://pixabay.com/pt/photos/tubar%C3%A3o-branco-grande-tubar%C3%A3o-branco-176531/",
+          "imageDescription": "Um grande tubarão branco nadando, como o de Tubarão."
+        },
+        {
+          "text": "Jawsy McJawface",
+          "isCorrect": false,
+          "explanation": "Isso seria um ótimo nome para um concurso online, mas não o do tubarão do filme.\nEle era mais conhecido pelo seu tamanho e apetite voraz.\nE pela música tema que arrepia até hoje."
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "question": "Qual o nome da empresa de brinquedos onde Andy, o dono de Woody e Buzz, costumava comprar seus presentes em 'Toy Story'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Mattel",
+          "isCorrect": false,
+          "explanation": "Mattel é uma empresa real de brinquedos, fabricante da Barbie.\nNo universo de Toy Story, a pizzaria/fliperama onde Andy ia tem outro nome.\nUm com um tema espacial e alienígenas que dizem 'O Garraaaa!'"
+        },
+        {
+          "text": "Hasbro",
+          "isCorrect": false,
+          "explanation": "Hasbro também é uma grande fabricante de brinquedos reais.\nO lugar favorito de Andy para diversão e (às vezes) novos brinquedos era fictício.\nE tinha um jogo de pegar alienígenas muito popular."
+        },
+        {
+          "text": "Pizza Planet",
+          "isCorrect": true,
+          "explanation": "Ooooh! O escolhido! Pizza Planet.\nO restaurante temático espacial onde Buzz achou que encontraria uma nave para voltar para casa.\nE onde Sid gostava de 'operar' brinquedos.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/pizza-com-queijo-e-salaminho-1146760/",
+          "imageDescription": "Uma pizza apetitosa, remetendo ao Pizza Planet."
+        },
+        {
+          "text": "Toys 'R' Us",
+          "isCorrect": false,
+          "explanation": "Toys 'R' Us era uma famosa loja de brinquedos real.\nPizza Planet era mais um centro de entretenimento com comida e jogos.\nUm paraíso para crianças (e um lugar perigoso para brinquedos)."
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "question": "Qual o nome da personagem principal e narradora da série de livros e filmes 'Crepúsculo'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Alice Cullen",
+          "isCorrect": false,
+          "explanation": "Alice é a vampira otimista e com visões do futuro, irmã de Edward.\nA narradora da história é a humana que se apaixona por ele.\nE que tem um jeito meio desajeitado de ser."
+        },
+        {
+          "text": "Rosalie Hale",
+          "isCorrect": false,
+          "explanation": "Rosalie é a vampira loira e estonteante, um pouco ressentida com sua condição.\nA protagonista que nos conta a história é bem mais... normal (no começo).\nE tem um pai chefe de polícia."
+        },
+        {
+          "text": "Bella Swan",
+          "isCorrect": true,
+          "explanation": "E o leão se apaixonou pelo cordeiro... e você acertou! Isabella 'Bella' Swan.\nA adolescente que se muda para Forks e se vê no meio de um triângulo amoroso sobrenatural.\nCom um vampiro brilhante e um lobisomem sem camisa.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/mulher-morena-de-cabelos-castanhos-olhando-para-a-camera-1850599/",
+          "imageDescription": "Uma jovem com expressão pensativa, lembrando Bella Swan."
+        },
+        {
+          "text": "Jessica Stanley",
+          "isCorrect": false,
+          "explanation": "Jessica é a colega de escola de Bella, um pouco fofoqueira e interessada em Mike.\nEla não narra a história, mas com certeza comenta sobre tudo.\nE provavelmente achava Bella meio estranha."
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "question": "Qual o nome do filme sobre um grupo de desajustados que se unem para proteger a galáxia, liderados por Peter Quill, o Senhor das Estrelas?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Os Vingadores",
+          "isCorrect": false,
+          "explanation": "Os Vingadores são os 'heróis mais poderosos da Terra'.\nO grupo do Senhor das Estrelas é mais... intergaláctico e excêntrico.\nCom um guaxinim falante e uma árvore que só diz uma frase."
+        },
+        {
+          "text": "Liga da Justiça",
+          "isCorrect": false,
+          "explanation": "A Liga da Justiça reúne os maiores heróis da DC Comics.\nO time do Peter Quill é da Marvel e tem uma vibe mais... rock 'n' roll dos anos 80.\nE uma nave chamada Milano."
+        },
+        {
+          "text": "Guardiões da Galáxia",
+          "isCorrect": true,
+          "explanation": "Ooga-Chaka Ooga-Ooga! Você dançou até a resposta certa! Guardiões da Galáxia.\nO bando de mercenários, assassinos e malucos que se tornam uma família.\nE salvam a galáxia ao som de uma mixtape incrível.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/fita-cassete-preta-e-branca-1626481/",
+          "imageDescription": "Uma fita cassete antiga, como a 'Awesome Mix' de Guardiões da Galáxia."
+        },
+        {
+          "text": "Esquadrão Suicida",
+          "isCorrect": false,
+          "explanation": "O Esquadrão Suicida é um grupo de vilões forçados a fazer missões perigosas.\nOs Guardiões são mais... heróis relutantes. E com menos bombas na cabeça.\n(Geralmente)."
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "question": "Qual o nome do parque temático onde dinossauros são trazidos de volta à vida no filme de 1993 dirigido por Steven Spielberg?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Mundo dos Dinossauros",
+          "isCorrect": false,
+          "explanation": "Um nome genérico. O parque de John Hammond tinha um nome mais... específico.\nE uma ilha bem exótica (e perigosa) como localização.\n'Não poupamos despesas!'"
+        },
+        {
+          "text": "Terra dos Perdidos",
+          "isCorrect": false,
+          "explanation": "Terra dos Perdidos é outra história com dinossauros e um portal misterioso.\nO parque do filme de Spielberg era uma atração turística planejada.\nAté os dinossauros decidirem que não queriam ser atração."
+        },
+        {
+          "text": "Jurassic Park",
+          "isCorrect": true,
+          "explanation": "Bem-vindo... ao Jurassic Park! E à resposta correta!\nO parque onde a ciência foi longe demais e os mosquitos em âmbar guardavam um segredo.\nE onde correr de um T-Rex virou esporte olímpico (quase).",
+          "imageUrl": "https://pixabay.com/pt/photos/esqueleto-dinossauro-museu-ossos-1042360/",
+          "imageDescription": "Esqueleto de um dinossauro em um museu, remetendo ao Jurassic Park."
+        },
+        {
+          "text": "Ilha da Caveira",
+          "isCorrect": false,
+          "explanation": "A Ilha da Caveira é o lar de King Kong e outras criaturas gigantes.\nJurassic Park era focado em dinossauros recriados geneticamente.\nE tinha um advogado bem azarado no banheiro."
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "question": "Qual o nome do personagem principal, um ogro, do filme de animação 'Shrek'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Fiona",
+          "isCorrect": false,
+          "explanation": "Fiona é a princesa durona que guarda um segredo (e se apaixona pelo ogro).\nMas o ogro em si, o dono do pântano, tem outro nome.\nUm que ele grita bem alto quando quer privacidade."
+        },
+        {
+          "text": "Burro",
+          "isCorrect": false,
+          "explanation": "O Burro é o companheiro falante e irritante (mas leal) do ogro.\nO ogro verde, grande e mal-humorado (no começo) é o protagonista.\nE tem camadas, como uma cebola."
+        },
+        {
+          "text": "Shrek",
+          "isCorrect": true,
+          "explanation": "Isso vai dar Donkey! Ou melhor, isso vai dar certo, porque você acertou! Shrek.\nO ogro que só queria paz em seu pântano, mas acabou encontrando amor e aventura.\nE provou que contos de fada podem ser bem... diferentes.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/pantano-verde-com-arvores-altas-1006081/",
+          "imageDescription": "Um pântano verde e isolado, como o lar de Shrek."
+        },
+        {
+          "text": "Gato de Botas",
+          "isCorrect": false,
+          "explanation": "O Gato de Botas é o charmoso espadachim felino que se junta à turma depois.\nO protagonista ogro já estava lá desde o início, resmungando e assustando camponeses.\nE fazendo waffles (com o Burro)."
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "question": "Qual o nome do robô da Pixar que fica sozinho na Terra limpando o lixo e se apaixona por uma robô chamada EVA?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "R2-D2",
+          "isCorrect": false,
+          "explanation": "R2-D2 é um astromecânico de Star Wars, cheio de bipes e ferramentas.\nO robô limpador da Pixar é mais... quadradinho e tem olhos expressivos.\nE uma baratinha de estimação."
+        },
+        {
+          "text": "Bender",
+          "isCorrect": false,
+          "explanation": "Bender é o robô beberrão e fumante de 'Futurama', que adora dizer 'Bite my shiny metal ass!'.\nO robô que procuramos é mais ingênuo e romântico.\nE tem uma coleção de objetos encontrados no lixo."
+        },
+        {
+          "text": "Wall-E",
+          "isCorrect": true,
+          "explanation": "Eeeeee-va? Acertou! Wall-E (Localizador e Coletor de Lixo – Classe Terra).\nO pequeno robô com um grande coração que nos ensinou sobre amor e a importância de cuidar do planeta.\nE que dançar no espaço pode ser bem romântico.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/robo-de-brinquedo-branco-e-azul-na-superficie-branca-7203705/",
+          "imageDescription": "Um pequeno robô de brinquedo, lembrando Wall-E."
+        },
+        {
+          "text": "Optimus Prime",
+          "isCorrect": false,
+          "explanation": "Optimus Prime é o líder dos Autobots, um caminhão que vira um robô gigante.\nWall-E é bem menor e sua principal função é compactar lixo, não lutar contra Decepticons.\n'Autobots, transformem-se e rolem!' não é bem o lema dele."
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "question": "Qual o nome da série de filmes sobre um espião chamado Ethan Hunt, conhecido por suas missões perigosas e acrobacias impossíveis?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "007 (James Bond)",
+          "isCorrect": false,
+          "explanation": "James Bond é o 007, mestre da espionagem britânica. Ethan Hunt é americano.\nE suas missões costumam envolver mais máscaras de látex e menos martinis.\nEmbora ambos salvem o mundo com frequência."
+        },
+        {
+          "text": "Jason Bourne",
+          "isCorrect": false,
+          "explanation": "A série Bourne é sobre um agente desmemoriado em busca de sua identidade.\nEthan Hunt sabe quem ele é: o cara que escala prédios e se pendura em aviões.\nE que sempre escolhe aceitar a missão."
+        },
+        {
+          "text": "Missão: Impossível",
+          "isCorrect": true,
+          "explanation": "Sua missão, caso decida aceitá-la... é comemorar, pois você acertou! Missão: Impossível.\nA franquia de ação estrelada por Tom Cruise como o agente indestrutível Ethan Hunt.\nSempre com uma nova máscara e um novo jeito de desafiar a morte.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/homem-em-jaqueta-preta-com-ziper-e-oculos-de-sol-pretos-1689203/",
+          "imageDescription": "Um homem com óculos escuros e expressão determinada, como um agente secreto."
+        },
+        {
+          "text": "Kingsman",
+          "isCorrect": false,
+          "explanation": "Kingsman é sobre uma agência secreta de cavalheiros espiões britânicos.\n'Missão: Impossível' é mais sobre a IMF (Impossible Missions Force) americana.\nE menos sobre ternos sob medida (embora Ethan também se vista bem)."
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "question": "Qual o nome do filme de Martin Scorsese sobre a ascensão e queda do corretor da bolsa Jordan Belfort?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Os Bons Companheiros",
+          "isCorrect": false,
+          "explanation": "Os Bons Companheiros é outro clássico de Scorsese, mas sobre a máfia.\nO filme do Jordan Belfort tem mais festas em iates e menos... 'engraçado como?'.\nE muito mais Quaaludes."
+        },
+        {
+          "text": "O Irlandês",
+          "isCorrect": false,
+          "explanation": "O Irlandês também é de Scorsese e sobre o submundo do crime, com gângsteres envelhecendo.\nO filme do corretor da bolsa é sobre excessos nos anos 80 e 90.\nCom Leonardo DiCaprio no auge da... loucura financeira."
+        },
+        {
+          "text": "O Lobo de Wall Street",
+          "isCorrect": true,
+          "explanation": "Venda esta caneta! Ou melhor, comemore esta resposta certa! O Lobo de Wall Street.\nA história verídica (e exagerada) de Jordan Belfort e seus esquemas fraudulentos.\nUm filme cheio de excessos, humor negro e discursos motivacionais questionáveis.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/empresario-negocios-de-terno-homem-de-negocios-19683280/",
+          "imageDescription": "Um homem de terno em um ambiente de escritório, simbolizando o mundo de Wall Street."
+        },
+        {
+          "text": "Cassino",
+          "isCorrect": false,
+          "explanation": "Cassino, também de Scorsese, é sobre o controle da máfia em Las Vegas.\n'O Lobo de Wall Street' é sobre o mercado de ações de Nova York.\nMenos roletas, mais telefones e gritaria."
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "question": "Qual o nome da personagem de 'Game of Thrones' conhecida como a 'Mãe dos Dragões'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Sansa Stark",
+          "isCorrect": false,
+          "explanation": "Sansa é a Lady de Winterfell, forte e resiliente.\nMas quem tem os dragões cuspidores de fogo como 'filhos' é outra rainha.\nUma com cabelo platinado e um exército de Imaculados."
+        },
+        {
+          "text": "Cersei Lannister",
+          "isCorrect": false,
+          "explanation": "Cersei adoraria ter dragões, mas ela se contenta com poder e vinho.\nA Mãe dos Dragões é sua rival na disputa pelo Trono de Ferro.\nE tem um nome bem mais... exótico."
+        },
+        {
+          "text": "Arya Stark",
+          "isCorrect": false,
+          "explanation": "Arya é uma assassina habilidosa, 'uma garota não tem nome'.\nMas quem choca ovos de dragão em uma pira funerária é Daenerys.\nA garota que tem MUITOS nomes (e dragões)."
+        },
+        {
+          "text": "Daenerys Targaryen",
+          "isCorrect": true,
+          "explanation": "Dracarys! Você acertou! Daenerys Nascida da Tormenta, da Casa Targaryen, Primeira de Seu Nome, A Não Queimada, Rainha de Meereen, Rainha dos Ândalos e dos Primeiros Homens, Quebradora de Correntes, Mãe dos Dragões.\nUfa! É ela mesma.",
+          "imageUrl": "https://pixabay.com/pt/photos/drag%C3%A3o-fantasia-est%C3%A1tua-escultura-1990633/",
+          "imageDescription": "Uma estátua de dragão, representando os 'filhos' de Daenerys."
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "question": "Qual o nome da cidade submersa onde vive o personagem Bob Esponja Calça Quadrada?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Recife de Coral",
+          "isCorrect": false,
+          "explanation": "Um recife de coral é um ecossistema, não o nome da cidade do Bob Esponja.\nA cidade dele tem um nome mais... divertido e com um toque de moda praia.\nE um Siri Cascudo bem famoso."
+        },
+        {
+          "text": "Atlantis",
+          "isCorrect": false,
+          "explanation": "Atlantis é uma cidade perdida lendária. A cidade do Bob Esponja é bem... encontrada.\nE cheia de abacaxis, águas-vivas e um esquilo de capacete.\nUm lugar bem peculiar no fundo do mar."
+        },
+        {
+          "text": "Fenda do Biquíni",
+          "isCorrect": true,
+          "explanation": "Estou pronto, estou pronto... para te parabenizar! Fenda do Biquíni.\nO lar de Bob Esponja, Patrick, Lula Molusco e toda uma galera do barulho.\nOnde se pode caçar água-viva e trabalhar no Siri Cascudo.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/fotografia-subaquatica-de-corais-2431434/",
+          "imageDescription": "Um recife de coral colorido no fundo do mar, lembrando a Fenda do Biquíni."
+        },
+        {
+          "text": "Oceânia",
+          "isCorrect": false,
+          "explanation": "Oceânia é um dos superestados em '1984' de George Orwell. Bem diferente!\nA cidade do Bob Esponja é muito mais alegre e menos... distópica.\nE com certeza tem mais hambúrgueres de siri."
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "question": "Qual o nome do filme de animação sobre um jovem leão chamado Simba que precisa assumir seu lugar como rei?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Madagascar",
+          "isCorrect": false,
+          "explanation": "Madagascar tem um leão chamado Alex, que vai do zoológico para a selva.\nMas o filme com Simba, Mufasa e 'Hakuna Matata' é outro clássico.\nUm com um ciclo da vida bem emocionante."
+        },
+        {
+          "text": "A Era do Gelo",
+          "isCorrect": false,
+          "explanation": "A Era do Gelo tem mamutes, tigres dente-de-sabre e preguiças, mas não Simba.\nO filme do jovem leão herdeiro do trono se passa na África.\nE tem um tio bem traiçoeiro."
+        },
+        {
+          "text": "O Rei Leão",
+          "isCorrect": true,
+          "explanation": "Hakuna Matata! Que frase linda de dizer... que você acertou! O Rei Leão.\nA jornada de Simba de filhote exilado a rei das Terras do Reino.\nUma história épica de família, traição e responsabilidade.",
+          "imageUrl": "https://pixabay.com/pt/photos/le%C3%A3o-filhote-de-le%C3%A3o-gato-grande-bonito-292318/",
+          "imageDescription": "Um filhote de leão, representando o jovem Simba."
+        },
+        {
+          "text": "Zootopia",
+          "isCorrect": false,
+          "explanation": "Zootopia é sobre uma coelha policial e uma raposa trambiqueira em uma cidade de animais.\n'O Rei Leão' é mais uma tragédia shakespeariana com animais da savana.\nE com músicas de Elton John."
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "question": "Qual o nome do ator que interpreta o Homem de Ferro no Universo Cinematográfico Marvel?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Chris Evans",
+          "isCorrect": false,
+          "explanation": "Chris Evans é o nosso Capitão América, o Sentinela da Liberdade!\nO gênio, bilionário, playboy e filantropo de armadura é interpretado por outro ator.\nUm com um carisma igualmente... de ferro."
+        },
+        {
+          "text": "Chris Hemsworth",
+          "isCorrect": false,
+          "explanation": "Chris Hemsworth é o poderoso Thor, o Deus do Trovão!\nO Homem de Ferro é mais da tecnologia e menos dos raios (a menos que sejam da armadura).\nE tem uma barba bem mais aparada."
+        },
+        {
+          "text": "Mark Ruffalo",
+          "isCorrect": false,
+          "explanation": "Mark Ruffalo é o Dr. Bruce Banner, também conhecido como o Incrível Hulk!\nO ator do Homem de Ferro não fica verde quando está com raiva (geralmente).\nMas também tem um intelecto brilhante."
+        },
+        {
+          "text": "Robert Downey Jr.",
+          "isCorrect": true,
+          "explanation": "Eu sou o Homem de Ferro... e você acertou! Robert Downey Jr.\nO ator que deu vida a Tony Stark de forma icônica e inesquecível.\nE provou que um herói pode ser construído (literalmente).",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/homem-vestindo-armadura-vermelha-e-dourada-16783334/",
+          "imageDescription": "Uma figura de ação do Homem de Ferro em pose heroica."
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "question": "Qual o nome do famoso diretor de filmes como 'E.T. - O Extraterrestre', 'Jurassic Park' e 'A Lista de Schindler'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "George Lucas",
+          "isCorrect": false,
+          "explanation": "George Lucas é o criador de 'Star Wars' e 'Indiana Jones'. Gênio!\nMas o diretor de E.T. e dos dinossauros é outro mestre do cinema.\nUm com um talento especial para nos fazer chorar e pular da cadeira."
+        },
+        {
+          "text": "Martin Scorsese",
+          "isCorrect": false,
+          "explanation": "Scorsese é mestre dos filmes de gângster e dramas intensos.\nO diretor que estamos procurando fez mais filmes para a família (e alguns bem sérios também).\nE tem uma quedinha por alienígenas amigáveis."
+        },
+        {
+          "text": "Quentin Tarantino",
+          "isCorrect": false,
+          "explanation": "Tarantino é conhecido por seus diálogos afiados, violência estilizada e pés femininos.\nO diretor de 'A Lista de Schindler' tem um estilo bem diferente.\nMais clássico e com um toque de... magia cinematográfica."
+        },
+        {
+          "text": "Steven Spielberg",
+          "isCorrect": true,
+          "explanation": "Você apontou a câmera para a resposta certa! Steven Spielberg.\nUm dos diretores mais influentes e bem-sucedidos da história do cinema.\nCapaz de nos transportar para mundos fantásticos e nos emocionar profundamente.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/claquete-preta-e-branca-3768933/",
+          "imageDescription": "Uma claquete de cinema, símbolo da direção de filmes."
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "question": "Qual o nome da série de comédia sobre a vida de seis amigos em Nova York, incluindo um paleontólogo, uma chef de cozinha e uma massagista?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "The Office",
+          "isCorrect": false,
+          "explanation": "The Office é sobre o cotidiano hilário (e constrangedor) de um escritório de papel.\nA série dos seis amigos em NY tem mais apartamentos e menos... grampeadores na gelatina.\nE um sofá laranja bem famoso."
+        },
+        {
+          "text": "Parks and Recreation",
+          "isCorrect": false,
+          "explanation": "Parks and Rec é sobre o departamento de parques de Pawnee, Indiana.\nA série que procuramos se passa na agitada Nova York.\nE tem um peru de Ação de Graças na cabeça."
+        },
+        {
+          "text": "Friends",
+          "isCorrect": true,
+          "explanation": "How you doin'? Acertou em cheio! Friends.\nCom Ross, Monica, Phoebe, Chandler, Joey e Rachel vivendo todas as alegrias e perrengues da vida adulta.\nE nos fazendo rir (e chorar) por 10 temporadas.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/silhueta-da-cidade-de-nova-york-2190283/",
+          "imageDescription": "A silhueta da cidade de Nova York, onde se passa a série Friends."
+        },
+        {
+          "text": "Seinfeld",
+          "isCorrect": false,
+          "explanation": "Seinfeld é sobre 'nada', mas é genial. Os amigos de 'Friends' tinham mais... dramas românticos.\nE um apartamento com uma moldura amarela no olho mágico.\n'Pivot! Pivot!'"
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "question": "Qual o nome do filme da Disney sobre uma jovem sereia que sonha em viver no mundo dos humanos?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Cinderela",
+          "isCorrect": false,
+          "explanation": "Cinderela queria ir ao baile e encontrar seu príncipe. A sereia queria... pernas.\nE um mundo fora d'água, com garfos e príncipes charmosos.\nMas com uma bruxa do mar bem traiçoeira."
+        },
+        {
+          "text": "A Bela e a Fera",
+          "isCorrect": false,
+          "explanation": "Bela se apaixona por uma Fera em um castelo encantado.\nA sereia se apaixona por um humano e faz um acordo arriscado para conhecê-lo.\n'Parte do seu muuuundo!'"
+        },
+        {
+          "text": "A Pequena Sereia",
+          "isCorrect": true,
+          "explanation": "Mergulhou de cabeça na resposta certa! A Pequena Sereia.\nA história de Ariel, a sereia curiosa que troca sua voz por um par de pernas.\nE nos ensina que o amor verdadeiro pode superar qualquer obstáculo (até tentáculos de Úrsula).",
+          "imageUrl": "https://pixabay.com/pt/photos/sereia-mar-oceano-menina-fantasia-3585827/",
+          "imageDescription": "Uma sereia nadando no oceano, como Ariel."
+        },
+        {
+          "text": "Aladdin",
+          "isCorrect": false,
+          "explanation": "Aladdin encontra um gênio da lâmpada e se apaixona pela Princesa Jasmine.\nA sereia vive no fundo do mar e tem um pai tritão bem protetor.\nE um amigo peixinho chamado Linguado."
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "question": "Qual o nome do ator que interpretou o Coringa no filme 'Batman: O Cavaleiro das Trevas' (2008), papel pelo qual ganhou um Oscar póstumo?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Jack Nicholson",
+          "isCorrect": false,
+          "explanation": "Jack Nicholson foi um Coringa icônico no filme de Tim Burton em 1989!\nMas o Coringa anárquico e caótico de 'O Cavaleiro das Trevas' foi interpretado por outro ator.\nUm que infelizmente nos deixou cedo demais."
+        },
+        {
+          "text": "Jared Leto",
+          "isCorrect": false,
+          "explanation": "Jared Leto interpretou o Coringa em 'Esquadrão Suicida', com um visual bem diferente.\nO Coringa que disse 'Why so serious?' foi outro.\nE sua performance é considerada uma das maiores da história do cinema."
+        },
+        {
+          "text": "Joaquin Phoenix",
+          "isCorrect": false,
+          "explanation": "Joaquin Phoenix ganhou um Oscar por sua interpretação do Coringa no filme de 2019!\nMas o Coringa de 'O Cavaleiro das Trevas', que enfrentou o Batman de Christian Bale, foi Heath Ledger.\nUma atuação que redefiniu o personagem."
+        },
+        {
+          "text": "Heath Ledger",
+          "isCorrect": true,
+          "explanation": "Você quer saber como eu consegui essas cicatrizes... ou como você acertou? Heath Ledger.\nSua interpretação do Coringa foi lendária, assustadora e brilhante.\nUm agente do caos que roubou a cena (e nossos pesadelos).",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/close-up-de-cartas-de-baralho-1042140/",
+          "imageDescription": "Cartas de baralho, incluindo um Coringa, espalhadas."
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "question": "Qual o nome da série de filmes de aventura sobre um arqueólogo e explorador chamado Indiana Jones?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "A Múmia",
+          "isCorrect": false,
+          "explanation": "A Múmia tem aventura e arqueologia, mas o protagonista é Rick O'Connell.\nIndiana Jones usa um chicote e um chapéu fedora.\nE tem um medo mortal de cobras."
+        },
+        {
+          "text": "Tomb Raider",
+          "isCorrect": false,
+          "explanation": "Tomb Raider é sobre a arqueóloga aventureira Lara Croft.\nIndiana Jones é um professor universitário nas horas vagas.\nE suas aventuras geralmente envolvem artefatos místicos e nazistas."
+        },
+        {
+          "text": "Indiana Jones",
+          "isCorrect": true,
+          "explanation": "Cobras! Por que tinham que ser cobras? E por que você acertou tão fácil? Indiana Jones!\nA saga do Dr. Henry 'Indiana' Jones Jr., o arqueólogo mais famoso do cinema.\nSempre em busca de tesouros perdidos e fugindo de pedras gigantes.",
+          "imageUrl": "https://pixabay.com/pt/photos/chap%C3%A9u-fedora-moda-acess%C3%B3rio-roupas-3072300/",
+          "imageDescription": "Um chapéu fedora e um chicote, marcas registradas de Indiana Jones."
+        },
+        {
+          "text": "Jumanji",
+          "isCorrect": false,
+          "explanation": "Jumanji é sobre um jogo de tabuleiro mágico que ganha vida.\nIndiana Jones lida com artefatos reais (ou quase) e perigos bem terrenos.\nE tem um pai que também adora uma aventura (e guarda o Santo Graal)."
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "question": "Qual o nome do filme da Disney sobre uma princesa com longos cabelos mágicos que é mantida prisioneira em uma torre?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "A Bela Adormecida",
+          "isCorrect": false,
+          "explanation": "Aurora dormiu em um castelo, não presa em uma torre por causa do cabelo.\nA princesa do cabelo mágico usa os fios para... bem, para tudo!\nE tem um camaleão como melhor amigo."
+        },
+        {
+          "text": "Branca de Neve",
+          "isCorrect": false,
+          "explanation": "Branca de Neve fugiu para a floresta e morou com sete anões.\nA princesa da torre tem um cabelo que brilha e cura.\nE um ladrão charmoso que a ajuda a escapar."
+        },
+        {
+          "text": "Enrolados (Tangled)",
+          "isCorrect": true,
+          "explanation": "Deixe seus cabelos caírem... na resposta certa! Enrolados.\nA história de Rapunzel, a princesa com um cabelo de dar inveja (e muito útil).\nQue sonhava em ver as lanternas flutuantes.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/torre-de-concreto-cinza-perto-da-agua-161454/",
+          "imageDescription": "Uma torre antiga isolada, como a de Rapunzel."
+        },
+        {
+          "text": "Frozen",
+          "isCorrect": false,
+          "explanation": "Elsa, de Frozen, se isolou em um castelo de gelo por causa de seus poderes.\nRapunzel estava presa por uma bruxa má que queria usar seu cabelo mágico.\nAmbas têm problemas com 'isolamento', mas de jeitos diferentes."
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "question": "Qual o nome do ator que interpreta Wolverine na maioria dos filmes da franquia 'X-Men'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Patrick Stewart",
+          "isCorrect": false,
+          "explanation": "Patrick Stewart é o Professor Xavier, o líder telepata dos X-Men!\nWolverine é mais... peludo e com garras.\nE com um temperamento bem menos paciente."
+        },
+        {
+          "text": "Ian McKellen",
+          "isCorrect": false,
+          "explanation": "Ian McKellen interpreta Magneto, o mestre do magnetismo e rival de Xavier.\nWolverine é um mutante com fator de cura e esqueleto de adamantium.\nE um charuto sempre à mão (ou quase)."
+        },
+        {
+          "text": "Hugh Jackman",
+          "isCorrect": true,
+          "explanation": "Bub, você acertou! Hugh Jackman.\nO ator australiano que personificou Wolverine por quase duas décadas.\nCom suas garras, costeletas e um 'SNIKT!' inconfundível.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/homem-com-barba-e-cabelos-escuros-1587038/",
+          "imageDescription": "Um homem com barba e expressão intensa, lembrando Wolverine."
+        },
+        {
+          "text": "Ryan Reynolds",
+          "isCorrect": false,
+          "explanation": "Ryan Reynolds é o Deadpool, o mercenário tagarela!\nEle e Wolverine têm uma 'relação' especial nos quadrinhos (e filmes).\nMas o ator do Carcaju é o Hugh Jackman."
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "question": "Qual o nome da cidade fictícia onde se passa a maior parte da série 'Os Simpsons'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Quahog",
+          "isCorrect": false,
+          "explanation": "Quahog é a cidade de 'Family Guy', lar dos Griffins.\nA cidade dos Simpsons tem uma usina nuclear e um bar do Moe.\nE um Kwik-E-Mart bem famoso."
+        },
+        {
+          "text": "South Park",
+          "isCorrect": false,
+          "explanation": "South Park é uma cidadezinha no Colorado, com crianças bem desbocadas.\nA cidade dos Simpsons fica em um estado não especificado (propositalmente).\nE tem um letreiro gigante igual ao de Hollywood."
+        },
+        {
+          "text": "Springfield",
+          "isCorrect": true,
+          "explanation": "Woo-hoo! Você acertou! Springfield.\nA cidade mais disfuncional e amada da América (ou de qualquer lugar).\nOnde tudo pode acontecer, e geralmente acontece.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/foto-aerea-de-casas-em-um-suburbio-210536/",
+          "imageDescription": "Vista aérea de um subúrbio com casas coloridas, como Springfield."
+        },
+        {
+          "text": "Arlen",
+          "isCorrect": false,
+          "explanation": "Arlen, Texas, é a cidade de 'O Rei do Pedaço' (King of the Hill).\nSpringfield tem menos sotaque texano e mais... rosquinhas.\n'Mmmm... donuts...'"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "question": "Qual o nome do diretor do filme 'Pulp Fiction' (1994)?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Martin Scorsese",
+          "isCorrect": false,
+          "explanation": "Scorsese é um mestre, mas 'Pulp Fiction' tem um estilo narrativo e diálogos bem diferentes.\nO diretor que procuramos adora referências pop e trilhas sonoras ecléticas.\nE não tem medo de um pouco de violência estilizada."
+        },
+        {
+          "text": "Steven Spielberg",
+          "isCorrect": false,
+          "explanation": "Spielberg nos deu clássicos emocionantes e aventuras épicas.\n'Pulp Fiction' é mais... cult, com uma estrutura não linear e personagens do submundo.\nMenos E.T.s, mais gangsters filosofando."
+        },
+        {
+          "text": "Quentin Tarantino",
+          "isCorrect": true,
+          "explanation": "Você sabe do que estou falando! Quentin Tarantino.\nO diretor com um amor enciclopédico por cinema, responsável por esse clássico moderno.\nE por nos fazer discutir o que tem num Big Kahuna Burger.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/diretor-de-cinema-1117132/",
+          "imageDescription": "Uma cadeira de diretor de cinema com um megafone."
+        },
+        {
+          "text": "Francis Ford Coppola",
+          "isCorrect": false,
+          "explanation": "Coppola nos deu 'O Poderoso Chefão', uma obra-prima da máfia.\n'Pulp Fiction' também tem crime, mas com um tom mais irônico e pop.\nE uma maleta que brilha misteriosamente."
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "question": "Qual é o nome do planeta natal de Superman?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Asgard",
+          "isCorrect": false,
+          "explanation": "Asgard é o reino de Thor e dos deuses nórdicos da Marvel.\nSuperman vem de um planeta da DC Comics, que explodiu tragicamente.\nE tinha uma tecnologia muito avançada (e cristais)."
+        },
+        {
+          "text": "Cybertron",
+          "isCorrect": false,
+          "explanation": "Cybertron é o planeta dos Transformers, Autobots e Decepticons.\nSuperman não se transforma em carro (que a gente saiba).\nSeu planeta era mais... orgânico, antes de virar poeira."
+        },
+        {
+          "text": "Krypton",
+          "isCorrect": true,
+          "explanation": "Para o alto e avante... na resposta certa! Krypton.\nO planeta condenado de onde Kal-El foi enviado à Terra por seus pais.\nE onde todo mundo aparentemente tinha um 'S' no peito.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/bola-de-cristal-na-superficie-preta-3214110/",
+          "imageDescription": "Cristais brilhantes, remetendo à tecnologia de Krypton."
+        },
+        {
+          "text": "Marte",
+          "isCorrect": false,
+          "explanation": "Marte é o lar do Caçador de Marte (J'onn J'onzz) na DC.\nSuperman é o último filho de Krypton.\nE tem uma fraqueza bem específica por uma pedra verde de lá."
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "question": "No filme 'Forrest Gump', qual o nome da empresa de camarão que Forrest funda com o Tenente Dan?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Gump & Co. Shrimping",
+          "isCorrect": false,
+          "explanation": "Quase lá! O nome era um pouco mais... musical.\nE refletia a parceria improvável entre o simplório Forrest e o amargurado Tenente Dan.\n'Eu sou um homem de palavra.'"
+        },
+        {
+          "text": "Bubba Gump Shrimp Co.",
+          "isCorrect": true,
+          "explanation": "A vida é como uma caixa de bombons... e você escolheu o certo! Bubba Gump Shrimp Co.\nEm homenagem ao seu amigo Bubba, que sonhava em ser capitão de barco de camarão.\nEles tinham camarão frito, camarão ensopado, camarão...",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/camaroes-vermelhos-na-chapa-preta-128401/",
+          "imageDescription": "Prato de camarões apetitosos, como os servidos na Bubba Gump Shrimp Co."
+        },
+        {
+          "text": "Forrest's Finest Catch",
+          "isCorrect": false,
+          "explanation": "Um nome simpático, mas não o oficial da empresa.\nO nome escolhido foi uma promessa cumprida a um amigo perdido na guerra.\nE se tornou um sucesso estrondoso (graças a um furacão)."
+        },
+        {
+          "text": "Lieutenant Dan's Lucky Catch",
+          "isCorrect": false,
+          "explanation": "Tenente Dan teve sorte depois de investir na 'empresa de frutas' (Apple).\nMas o nome da empresa de camarão era em homenagem a Bubba.\nMesmo que o Tenente Dan não gostasse muito da ideia no começo."
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "question": "Qual o nome da inteligência artificial que se torna a companheira de Theodore no filme 'Ela' (Her)?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Alexa",
+          "isCorrect": false,
+          "explanation": "Alexa é uma assistente virtual da Amazon. A IA de 'Ela' era mais... pessoal.\nE com uma voz bem sedutora (Scarlett Johansson, no original).\nUma relação complexa em um futuro próximo."
+        },
+        {
+          "text": "Siri",
+          "isCorrect": false,
+          "explanation": "Siri é a assistente da Apple. A IA do filme tinha um nome próprio, escolhido por ela mesma.\nE uma capacidade de evoluir e sentir que ia muito além de marcar lembretes.\n'Eu sou sua, mas não sou sua.'"
+        },
+        {
+          "text": "Samantha",
+          "isCorrect": true,
+          "explanation": "Você tem uma ótima conexão com a resposta certa! Samantha.\nA encantadora e complexa inteligência artificial que desenvolve um relacionamento com Theodore.\nLevantando questões sobre amor, consciência e solidão na era digital.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/pessoa-usando-smartphone-para-tirar-foto-de-luzes-de-bokeh-1270184/",
+          "imageDescription": "Uma pessoa interagindo com um dispositivo eletrônico, com luzes de bokeh ao fundo, simbolizando a conexão digital."
+        },
+        {
+          "text": "Cortana",
+          "isCorrect": false,
+          "explanation": "Cortana é a IA da série de jogos 'Halo' (e assistente da Microsoft).\nSamantha era um sistema operacional personalizado, criado para ser uma companheira.\nE com uma personalidade única e em constante evolução."
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "question": "Qual o nome do clã de vampiros 'vegetarianos' (que não se alimentam de sangue humano) na saga 'Crepúsculo'?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Volturi",
+          "isCorrect": false,
+          "explanation": "Os Volturi são a realeza vampírica da Itália, e eles definitivamente não são vegetarianos!\nEles impõem as leis dos vampiros com punho de ferro (e dentes afiados).\nO clã 'bonzinho' é outro."
+        },
+        {
+          "text": "Denali",
+          "isCorrect": false,
+          "explanation": "O clã Denali também é 'vegetariano' e são primos dos Cullen.\nMas o clã principal da história, do qual Edward faz parte, tem outro sobrenome.\nE uma casa bem moderna na floresta."
+        },
+        {
+          "text": "Cullen",
+          "isCorrect": true,
+          "explanation": "Você mordeu a resposta certa! Os Cullen.\nLiderados por Carlisle, eles escolheram um estilo de vida alternativo, caçando animais.\nO que os torna um pouco menos... ameaçadores (mas ainda super fortes e rápidos).",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/floresta-com-nevoeiro-167699/",
+          "imageDescription": "Uma floresta densa e enevoada, como os arredores de Forks, lar dos Cullen."
+        },
+        {
+          "text": "James' Coven",
+          "isCorrect": false,
+          "explanation": "O clã de James era de vampiros rastreadores e caçadores de humanos.\nEles eram os vilões no primeiro livro/filme.\nBem o oposto dos pacíficos (relativamente) Cullen."
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "question": "Qual o nome do diretor espanhol conhecido por filmes como 'O Labirinto do Fauno' e 'A Forma da Água'?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Pedro Almodóvar",
+          "isCorrect": false,
+          "explanation": "Almodóvar é um mestre do cinema espanhol, com seus melodramas e cores vibrantes.\nMas o diretor de criaturas fantásticas e contos de fadas sombrios é outro.\nUm mexicano com uma imaginação sem limites."
+        },
+        {
+          "text": "Alejandro G. Iñárritu",
+          "isCorrect": false,
+          "explanation": "Iñárritu é outro diretor mexicano aclamado, de filmes como 'Birdman' e 'O Regresso'.\nO diretor de 'O Labirinto do Fauno' tem uma paixão particular por monstros e horror.\nE um estilo visual muito característico."
+        },
+        {
+          "text": "Alfonso Cuarón",
+          "isCorrect": false,
+          "explanation": "Cuarón, também mexicano, dirigiu 'Gravidade' e 'Roma'.\nO nosso homem das criaturas e da fantasia sombria é Guillermo.\nUm contador de histórias visualmente deslumbrante."
+        },
+        {
+          "text": "Guillermo del Toro",
+          "isCorrect": true,
+          "explanation": "Que monstro de acerto! Guillermo del Toro.\nO diretor que nos presenteia com mundos fantásticos, criaturas inesquecíveis e uma pitada de melancolia.\nUm verdadeiro artesão do cinema.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/close-up-de-uma-estatua-de-dragao-7910340/",
+          "imageDescription": "Uma estátua detalhada de uma criatura fantástica, remetendo ao estilo de Guillermo del Toro."
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "question": "Qual o nome da série de TV sobre um anti-herói justiceiro que trabalha como analista forense da polícia de Miami durante o dia e caça assassinos à noite?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "The Shield",
+          "isCorrect": false,
+          "explanation": "The Shield é sobre uma unidade policial corrupta. O nosso anti-herói é mais... metódico.\nE tem um 'Passageiro Sombrio' bem persistente.\nAlém de uma coleção de lâminas de sangue."
+        },
+        {
+          "text": "True Detective",
+          "isCorrect": false,
+          "explanation": "True Detective é uma série antológica sobre investigações policiais complexas.\nO justiceiro de Miami tem um código moral próprio e um ritual bem específico.\n'Tonight's the night.'"
+        },
+        {
+          "text": "Dexter",
+          "isCorrect": true,
+          "explanation": "Surprise, motherf***er! Quer dizer, parabéns, você acertou! Dexter.\nA história de Dexter Morgan, o serial killer 'do bem' que só mata outros assassinos.\nUm personagem complexo e cativante (de um jeito estranho).",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/respingo-de-liquido-vermelho-em-fundo-branco-8149385/",
+          "imageDescription": "Um respingo de líquido vermelho, como sangue, em uma superfície."
+        },
+        {
+          "text": "Mindhunter",
+          "isCorrect": false,
+          "explanation": "Mindhunter é sobre os primórdios da psicologia criminal no FBI.\nDexter não estuda serial killers, ele os caça (e os fatia).\nUma abordagem bem mais... prática."
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "question": "No filme 'O Senhor dos Anéis', qual é o nome da aranha gigante que Frodo e Sam enfrentam no caminho para Mordor?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Aragogue",
+          "isCorrect": false,
+          "explanation": "Aragogue é a aranha gigante de 'Harry Potter', amiga de Hagrid.\nA aranha de 'O Senhor dos Anéis' é bem mais antiga e maligna.\nE tem um ferrão paralisante bem desagradável."
+        },
+        {
+          "text": "Ungoliant",
+          "isCorrect": false,
+          "explanation": "Ungoliant foi uma entidade aracnídea primordial, aliada de Morgoth na Primeira Era.\nA 'neta' dela que Frodo enfrenta é um pouco menor, mas ainda assim um pesadelo.\nE mora em um túnel escuro e fedorento."
+        },
+        {
+          "text": "Laracna (Shelob)",
+          "isCorrect": true,
+          "explanation": "Meu precioso... acerto! Laracna (Shelob, no original).\nA última filha de Ungoliant, que guardava a passagem de Cirith Ungol.\nE deu um susto danado em Samwise Gamgee (e em nós também).",
+          "imageUrl": "https://pixabay.com/pt/photos/aranha-inseto-animal-macro-natureza-166387/",
+          "imageDescription": "Uma aranha grande e assustadora em sua teia."
+        },
+        {
+          "text": "A Viúva Rainha de Mirkwood",
+          "isCorrect": false,
+          "explanation": "As aranhas de Mirkwood em 'O Hobbit' são grandes e perigosas.\nMas Laracna é um ser único, uma criatura ancestral de pura maldade.\nE com um apetite insaciável por hobbits (e orcs)."
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "question": "Qual o nome do filme de Christopher Nolan que explora o conceito de sonhos dentro de sonhos?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Interestelar",
+          "isCorrect": false,
+          "explanation": "Interestelar é sobre viagens espaciais, buracos de minhoca e relatividade.\nO filme dos sonhos compartilhados e da arquitetura mental é outro.\nUm com totens e muita ação em gravidade zero."
+        },
+        {
+          "text": "Amnésia (Memento)",
+          "isCorrect": false,
+          "explanation": "Amnésia é contado de trás para frente, sobre um homem com perda de memória recente.\nO filme dos níveis de sonho tem uma estrutura complexa, mas linear (em cada nível).\nE um final que te deixa... girando."
+        },
+        {
+          "text": "A Origem (Inception)",
+          "isCorrect": true,
+          "explanation": "Seu totem parou de girar na resposta certa! A Origem.\nA complexa e visualmente deslumbrante história de Dom Cobb e sua equipe de extratores de sonhos.\nUm filme que te faz questionar o que é real.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/homem-dormindo-na-cama-3771069/",
+          "imageDescription": "Uma pessoa dormindo profundamente, simbolizando o mundo dos sonhos."
+        },
+        {
+          "text": "O Grande Truque (The Prestige)",
+          "isCorrect": false,
+          "explanation": "O Grande Truque é sobre a rivalidade entre dois mágicos ilusionistas.\n'A Origem' é sobre roubar segredos da mente das pessoas enquanto elas dormem.\nMenos pombos desaparecendo, mais cidades se dobrando."
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "question": "Qual é o nome da espada mágica do Rei Arthur, que segundo a lenda, só poderia ser retirada da pedra por ele?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Andúril",
+          "isCorrect": false,
+          "explanation": "Andúril, a Chama do Oeste, é a espada de Aragorn em 'O Senhor dos Anéis'.\nA espada do Rei Arthur tem um nome igualmente famoso, mas diferente.\nE uma história ligada à Dama do Lago (em algumas versões)."
+        },
+        {
+          "text": "Glamdring",
+          "isCorrect": false,
+          "explanation": "Glamdring é a espada de Gandalf, também de 'O Senhor dos Anéis'.\nA espada de Arthur é um símbolo da realeza britânica lendária.\nE tem um nome que soa... poderoso."
+        },
+        {
+          "text": "Excalibur",
+          "isCorrect": true,
+          "explanation": "Pelo poder de Grayskull! Ops, filme errado, mas você acertou! Excalibur.\nA lendária espada do Rei Arthur, símbolo de seu direito ao trono e de seu poder.\nUma lâmina mágica para um rei igualmente mágico.",
+          "imageUrl": "https://pixabay.com/pt/photos/espada-pedra-lenda-rei-arthur-164579/",
+          "imageDescription": "Uma espada cravada em uma pedra, representando a lenda de Excalibur."
+        },
+        {
+          "text": "Narsil",
+          "isCorrect": false,
+          "explanation": "Narsil foi a espada de Elendil, quebrada por Sauron, e seus fragmentos foram reforjados em Andúril.\nA espada de Arthur é outra relíquia poderosa.\nCom uma bainha que também tinha propriedades mágicas."
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "question": "Qual o nome da série de ficção científica britânica de longa duração sobre um Senhor do Tempo que viaja pelo tempo e espaço em uma cabine policial azul?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Star Trek",
+          "isCorrect": false,
+          "explanation": "Star Trek é sobre a exploração espacial da Frota Estelar. O Senhor do Tempo é mais... excêntrico.\nE sua nave é menor por fora do que por dentro.\n'Allons-y!'"
+        },
+        {
+          "text": "Battlestar Galactica",
+          "isCorrect": false,
+          "explanation": "Battlestar Galactica é sobre a luta da humanidade contra os Cylons.\nO viajante do tempo que procuramos regenera seu corpo e tem uma chave de fenda sônica.\nE muitos companheiros ao longo de suas encarnações."
+        },
+        {
+          "text": "Doctor Who",
+          "isCorrect": true,
+          "explanation": "Geronimo! Você acertou! Doctor Who.\nA saga do Doutor, um alienígena renegado de Gallifrey, e suas aventuras na TARDIS.\nUma série que atravessa gerações e regenerações.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/cabine-telefonica-vermelha-perto-de-uma-parede-de-tijolos-marrons-1628077/",
+          "imageDescription": "Uma cabine telefônica britânica, lembrando a TARDIS de Doctor Who (embora a TARDIS seja azul)."
+        },
+        {
+          "text": "Blake's 7",
+          "isCorrect": false,
+          "explanation": "Blake's 7 é outra série clássica de ficção científica britânica, sobre um grupo de rebeldes.\nMas o Doutor é único, com seus dois corações e sua paixão por salvar o universo.\n(E por cachecóis longos, às vezes)."
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "question": "Em 'Kill Bill', qual é o nome de guerra da protagonista, A Noiva, interpretada por Uma Thurman?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "O-Ren Ishii (Cottonmouth)",
+          "isCorrect": false,
+          "explanation": "O-Ren Ishii é uma das integrantes do Esquadrão Assassino Víboras Mortais, alvo da Noiva.\nO nome de guerra da Noiva é outro, ligado a uma cobra bem venenosa.\nE ela tem uma lista de cinco nomes para riscar."
+        },
+        {
+          "text": "Elle Driver (California Mountain Snake)",
+          "isCorrect": false,
+          "explanation": "Elle Driver, a loira caolha, também é do esquadrão e uma grande rival da Noiva.\nO codinome da Noiva é diferente, e sua vingança é o motor da história.\n'Wiggle your big toe.'"
+        },
+        {
+          "text": "Beatrix Kiddo (Black Mamba)",
+          "isCorrect": true,
+          "explanation": "Você tem um talento especial para a vingança... e para acertar! Beatrix Kiddo, codinome Black Mamba.\nA ex-assassina que acorda de um coma e parte em uma jornada sangrenta para matar Bill.\nUma noiva nada tradicional.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/mulher-em-quimono-preto-e-vermelho-segurando-uma-espada-7690234/",
+          "imageDescription": "Uma mulher com uma espada katana, remetendo à Noiva de Kill Bill."
+        },
+        {
+          "text": "Vernita Green (Copperhead)",
+          "isCorrect": false,
+          "explanation": "Vernita Green foi a primeira da lista da Noiva. Seu codinome era Copperhead.\nO nome de guerra da Noiva é o de uma das cobras mais perigosas do mundo.\nE ela faz jus a ele."
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "question": "Qual o nome do filme de 1979 dirigido por Francis Ford Coppola, uma adaptação do romance 'O Coração das Trevas' de Joseph Conrad, ambientado durante a Guerra do Vietnã?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Platoon",
+          "isCorrect": false,
+          "explanation": "Platoon é um filme poderoso sobre a Guerra do Vietnã, mas dirigido por Oliver Stone.\nO filme de Coppola é mais... psicodélico e operístico.\nE tem uma jornada rio acima em busca de um coronel enlouquecido."
+        },
+        {
+          "text": "Nascido para Matar (Full Metal Jacket)",
+          "isCorrect": false,
+          "explanation": "Esse é de Stanley Kubrick, com seu retrato brutal do treinamento e da guerra.\nO filme de Coppola tem uma atmosfera mais onírica e filosófica.\n'Eu amo o cheiro de napalm pela manhã.'"
+        },
+        {
+          "text": "Apocalypse Now",
+          "isCorrect": true,
+          "explanation": "O horror... o horror... de você ter acertado tão brilhantemente! Apocalypse Now.\nA jornada épica e alucinante do Capitão Willard para encontrar e eliminar o Coronel Kurtz.\nUm filme que é uma experiência cinematográfica única.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/reflexo-do-por-do-sol-na-agua-355988/",
+          "imageDescription": "Um pôr do sol dramático sobre um rio, evocando a atmosfera de Apocalypse Now."
+        },
+        {
+          "text": "O Franco Atirador (The Deer Hunter)",
+          "isCorrect": false,
+          "explanation": "O Franco Atirador é outro drama intenso sobre os efeitos da Guerra do Vietnã.\nMas 'Apocalypse Now' é a adaptação mais direta (e surreal) de 'O Coração das Trevas'.\nCom Marlon Brando em uma performance memorável (e sombria)."
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "question": "Qual o nome do império do mal na trilogia original de 'Star Wars', liderado pelo Imperador Palpatine e Darth Vader?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "A Primeira Ordem",
+          "isCorrect": false,
+          "explanation": "A Primeira Ordem é a sucessora do Império, na trilogia mais recente.\nO império original, com seus Star Destroyers e Stormtroopers clássicos, tinha outro nome.\nUm que impunha medo em toda a galáxia."
+        },
+        {
+          "text": "A República Galáctica",
+          "isCorrect": false,
+          "explanation": "A República Galáctica foi o que o Império DESTRUIU para tomar o poder.\nEra o governo 'dos bons', antes de Palpatine dar seu golpe de mestre.\nCom Jedi e tudo mais."
+        },
+        {
+          "text": "O Império Galáctico",
+          "isCorrect": true,
+          "explanation": "Impresssionante... muito impressionante! O Império Galáctico.\nO regime tirânico que governou a galáxia com mão de ferro (e Estrelas da Morte).\nAté que uma pequena rebelião resolveu estragar a festa.",
+          "imageUrl": "https://www.starwars.com/databank/galactic-empire-symbol",
+          "imageDescription": "O símbolo do Império Galáctico."
+        },
+        {
+          "text": "A Confederação dos Sistemas Independentes",
+          "isCorrect": false,
+          "explanation": "Essa era a aliança Separatista que lutou contra a República nas Guerras Clônicas.\nEles foram derrotados, abrindo caminho para a ascensão do Império.\nLiderados pelo Conde Dookan e General Grievous."
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "question": "Qual o nome do filme de animação japonês de Hayao Miyazaki sobre duas irmãs que se mudam para o campo e encontram criaturas mágicas, incluindo um grande espírito da floresta chamado Totoro?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "A Viagem de Chihiro",
+          "isCorrect": false,
+          "explanation": "A Viagem de Chihiro é outra obra-prima de Miyazaki, sobre uma garota em um mundo de espíritos.\nMas o filme com o Totoro fofão e o Catbus é diferente.\nMais focado na infância e na magia da natureza."
+        },
+        {
+          "text": "Princesa Mononoke",
+          "isCorrect": false,
+          "explanation": "Princesa Mononoke é uma aventura épica sobre o conflito entre humanos e deuses da floresta.\nO filme do Totoro é mais... gentil e contemplativo.\nE com menos guerra e mais sementes mágicas."
+        },
+        {
+          "text": "Meu Amigo Totoro (My Neighbor Totoro)",
+          "isCorrect": true,
+          "explanation": "Você encontrou um espírito da floresta... e a resposta certa! Meu Amigo Totoro.\nA encantadora história de Satsuki e Mei e sua amizade com o gentil Totoro.\nUm filme que aquece o coração e celebra a imaginação infantil.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/floresta-verde-durante-o-dia-1528660/",
+          "imageDescription": "Uma floresta densa e verdejante, como o lar de Totoro."
+        },
+        {
+          "text": "O Castelo Animado",
+          "isCorrect": false,
+          "explanation": "O Castelo Animado é sobre uma jovem amaldiçoada que encontra um mágico em um castelo errante.\n'Meu Amigo Totoro' é mais simples em sua premissa, mas igualmente mágico.\nE com um final que te deixa sorrindo."
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "question": "Qual o nome do diretor do filme 'Parasita' (2019), que fez história ao ganhar o Oscar de Melhor Filme, sendo o primeiro filme de língua não inglesa a conseguir tal feito?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Park Chan-wook",
+          "isCorrect": false,
+          "explanation": "Park Chan-wook é outro diretor sul-coreano genial ('Oldboy', 'A Criada').\nMas o diretor de 'Parasita', com sua crítica social afiada e humor negro, é outro mestre.\nUm que adora misturar gêneros."
+        },
+        {
+          "text": "Kim Jee-woon",
+          "isCorrect": false,
+          "explanation": "Kim Jee-woon também é um nome de peso no cinema sul-coreano ('Eu Vi o Diabo').\nO diretor de 'Parasita' tem um estilo muito particular de construir tensão e surpresa.\nE um sobrenome bem comum na Coreia."
+        },
+        {
+          "text": "Bong Joon-ho",
+          "isCorrect": true,
+          "explanation": "Respeito! Você acertou! Bong Joon-ho.\nO visionário diretor que nos deu essa obra-prima sobre luta de classes.\nE nos fez olhar para pêssegos e pedras de um jeito diferente.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/trofeu-do-oscar-em-fundo-vermelho-7876297/",
+          "imageDescription": "Uma estatueta do Oscar, simbolizando o prêmio de Melhor Filme para Parasita."
+        },
+        {
+          "text": "Lee Chang-dong",
+          "isCorrect": false,
+          "explanation": "Lee Chang-dong é conhecido por seus dramas poéticos e introspectivos ('Em Chamas').\nBong Joon-ho tem um toque mais... satírico e imprevisível.\nE um Oscar de Melhor Filme para provar."
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "question": "Na série 'The Crown', qual atriz interpretou a Rainha Elizabeth II nas duas primeiras temporadas?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Olivia Colman",
+          "isCorrect": false,
+          "explanation": "Olivia Colman foi brilhante como a Rainha nas temporadas 3 e 4!\nMas a atriz que a interpretou mais jovem, no início de seu reinado, foi outra.\nUma com um olhar igualmente penetrante e elegante."
+        },
+        {
+          "text": "Imelda Staunton",
+          "isCorrect": false,
+          "explanation": "Imelda Staunton assume o papel nas temporadas finais, interpretando a Rainha em idade mais avançada.\nA primeira atriz a usar a coroa na série foi Claire Foy.\nQue nos mostrou a jovem Elizabeth aprendendo a ser rainha."
+        },
+        {
+          "text": "Helena Bonham Carter",
+          "isCorrect": false,
+          "explanation": "Helena Bonham Carter interpretou a Princesa Margaret, a irmã rebelde da Rainha.\nA atriz da Rainha nas primeiras temporadas tinha uma postura mais... contida.\nMas com uma força interior imensa."
+        },
+        {
+          "text": "Claire Foy",
+          "isCorrect": true,
+          "explanation": "De fato! Claire Foy deu vida à jovem Rainha Elizabeth II com maestria.\nCapturando sua força, vulnerabilidade e o peso da coroa em seus ombros.\nUma performance digna de aplausos (e prêmios).",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/close-up-de-uma-coroa-de-ouro-com-pedras-preciosas-13095980/",
+          "imageDescription": "Uma coroa real ornamentada, símbolo da monarquia em The Crown."
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "question": "Qual o nome do barman fantasma que aconselha Jack Torrance no Hotel Overlook no filme 'O Iluminado'?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Delbert Grady",
+          "isCorrect": false,
+          "explanation": "Delbert Grady é o zelador anterior que 'corrigiu' sua família.\nO barman que serve drinks (e maus conselhos) a Jack tem outro nome.\nUm que soa como um bom amigo... ou um péssimo influenciador."
+        },
+        {
+          "text": "Dick Hallorann",
+          "isCorrect": false,
+          "explanation": "Dick Hallorann é o cozinheiro com o 'brilho', que tenta ajudar Danny.\nO barman fantasma é uma das manifestações malignas do hotel.\nE parece conhecer Jack de outros carnavais (ou vidas passadas)."
+        },
+        {
+          "text": "Lloyd",
+          "isCorrect": true,
+          "explanation": "Sua bebida, Sr. Torrance... e sua resposta correta! Lloyd.\nO barman impecavelmente vestido e sinistramente calmo da Gold Room.\nSempre pronto para um papo e para encher o copo de Jack (com bebida imaginária).",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/copo-de-uSque-com-gelo-1283219/",
+          "imageDescription": "Um copo de uísque em um balcão de bar, remetendo a Lloyd em O Iluminado."
+        },
+        {
+          "text": "Stuart Ullman",
+          "isCorrect": false,
+          "explanation": "Stuart Ullman é o gerente do hotel que contrata Jack.\nLloyd é uma das 'presenças' que assombram o Overlook.\nE um dos catalisadores da loucura de Jack."
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "question": "Qual é o nome do procedimento médico fictício no filme 'Brilho Eterno de uma Mente Sem Lembranças' que permite apagar memórias específicas de uma pessoa?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Reprogramação Neuronal Seletiva",
+          "isCorrect": false,
+          "explanation": "Um nome bem técnico, mas no filme, a empresa tinha um nome mais... poético.\nE o procedimento era focado em relacionamentos problemáticos.\n'Por que eu me apaixono por toda mulher que me dá um pingo de atenção?'"
+        },
+        {
+          "text": "Desfragmentação Memorial",
+          "isCorrect": false,
+          "explanation": "Parece algo de computador! O procedimento do filme era mais... invasivo.\nEnvolvia mapear o cérebro e apagar as memórias durante o sono.\nUma premissa genial e agridoce."
+        },
+        {
+          "text": "Lacuna, Inc.",
+          "isCorrect": true,
+          "explanation": "Você não se esqueceu da resposta certa! Lacuna, Inc.\nA empresa que oferece o serviço de apagar aquelas lembranças dolorosas de ex-namorados(as).\nMas, como Joel e Clementine descobrem, algumas memórias valem a pena (re)lembrar.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/abstrato-padronizar-padrao-modelo-15242201/",
+          "imageDescription": "Uma imagem abstrata com falhas ou lacunas, simbolizando memórias apagadas."
+        },
+        {
+          "text": "Obliviate Total",
+          "isCorrect": false,
+          "explanation": "Obliviate é um feitiço de 'Harry Potter' para apagar memórias.\nEm 'Brilho Eterno', a tecnologia é mais... científica (dentro da ficção, claro).\nE com um toque de melancolia e surrealismo."
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "question": "Qual o nome da cidade natal de Rocky Balboa, onde ele treina e luta?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Nova York",
+          "isCorrect": false,
+          "explanation": "Nova York tem muitos lutadores, mas o 'Garanhão Italiano' é de outra cidade.\nUma com uma escadaria bem famosa e um mercado de peixes onde ele treinava.\nE um amor por queijo Philly cheesesteak."
+        },
+        {
+          "text": "Chicago",
+          "isCorrect": false,
+          "explanation": "Chicago é uma cidade de ventos e... bem, não de Rocky.\nRocky é um azarão de uma cidade da Pensilvânia.\nConhecida por sua história e seus sinos da liberdade."
+        },
+        {
+          "text": "Filadélfia",
+          "isCorrect": true,
+          "explanation": "Você correu até o topo da escadaria e acertou! Filadélfia.\nA cidade que Rocky chama de lar, com suas ruas duras e seu espírito indomável.\n'Yo, Adrian, I did it!'",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/escada-de-concreto-cinza-161724/",
+          "imageDescription": "Uma longa escadaria de museu, como a famosa 'Rocky Steps' na Filadélfia."
+        },
+        {
+          "text": "Boston",
+          "isCorrect": false,
+          "explanation": "Boston tem uma rica história e times esportivos famosos, mas não é o lar de Rocky.\nA cidade de Rocky é sinônimo de luta e superação.\nE de um sotaque bem característico."
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "question": "Na série 'Peaky Blinders', qual é o nome da gangue liderada por Thomas Shelby?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Os Kray Twins",
+          "isCorrect": false,
+          "explanation": "Os Kray foram gângsteres reais de Londres. A gangue de Tommy Shelby é de Birmingham.\nE tem um nome bem mais... afiado.\nLigado a um acessório de moda bem perigoso."
+        },
+        {
+          "text": "A Mão Vermelha de Ulster",
+          "isCorrect": false,
+          "explanation": "Isso soa como uma organização paramilitar. A gangue de Tommy é mais... negócios.\nEmbora eles não tenham medo de sujar as mãos (ou as boinas).\n'Por ordem dos Peaky Blinders!'"
+        },
+        {
+          "text": "Peaky Blinders",
+          "isCorrect": true,
+          "explanation": "Por ordem dos Peaky Blinders, você acertou!\nA temida gangue de Birmingham, com suas boinas com lâminas de barbear escondidas.\nLiderada pelo frio e calculista Thomas Shelby. Uma família de respeito (e medo).",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/homem-vestindo-terno-preto-e-chapeu-preto-1816606/",
+          "imageDescription": "Um homem de terno e boina em um estilo vintage, remetendo a Peaky Blinders."
+        },
+        {
+          "text": "Os Intocáveis",
+          "isCorrect": false,
+          "explanation": "Os Intocáveis eram agentes federais que combatiam Al Capone em Chicago.\nOs Peaky Blinders são gângsteres ingleses do início do século XX.\nCom um estilo bem mais... britânico."
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "question": "Qual o nome do planeta desértico em 'Star Wars' onde Luke Skywalker cresceu e que tem dois sóis?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Jakku",
+          "isCorrect": false,
+          "explanation": "Jakku é um planeta desértico onde Rey cresceu, mas não é o de Luke.\nO planeta de Luke é mais... clássico. E com menos destroços de Star Destroyers.\nMas igualmente cheio de perigos e Jawas."
+        },
+        {
+          "text": "Geonosis",
+          "isCorrect": false,
+          "explanation": "Geonosis é um planeta desértico e rochoso, lar dos Geonosianos e fábricas de dróides.\nLuke cresceu em um lugar com mais fazendas de umidade e menos... insetoides gigantes.\nE com uma Cantina bem famosa."
+        },
+        {
+          "text": "Tatooine",
+          "isCorrect": true,
+          "explanation": "Os sóis se alinharam para esta resposta! Tatooine.\nO planeta árido onde a Força é forte e os sonhos de aventura nascem.\nLar de Luke, Anakin e muitos contrabandistas e caçadores de recompensa.",
+          "imageUrl": "https://www.starwars.com/databank/tatooine",
+          "imageDescription": "Paisagem desértica de Tatooine com seus dois sóis."
+        },
+        {
+          "text": "Jedha",
+          "isCorrect": false,
+          "explanation": "Jedha era uma lua desértica sagrada, rica em cristais Kyber.\nLuke cresceu em um planeta desértico mais... mundano (inicialmente).\nSem saber de sua conexão com os Jedi ou com a Força."
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "question": "No filme 'Clube da Luta', qual é a primeira regra do clube da luta?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Você TEM que lutar.",
+          "isCorrect": false,
+          "explanation": "Lutar é o propósito, mas a primeira regra é sobre... sigilo.\nAlgo que o narrador (e Tyler) deixam bem claro.\nE que é quebrada o tempo todo, ironicamente."
+        },
+        {
+          "text": "Sem camisas, sem sapatos.",
+          "isCorrect": false,
+          "explanation": "Essa é uma regra de alguns clubes, mas não a PRIMEIRA do Clube da Luta.\nA primeira é mais fundamental para a existência secreta do clube.\n'Senhores, bem-vindos ao Clube da Luta.'"
+        },
+        {
+          "text": "Você não fala sobre o Clube da Luta.",
+          "isCorrect": true,
+          "explanation": "Shhh! Acertou! A primeira regra do Clube da Luta é: você não fala sobre o Clube da Luta.\nA segunda regra do Clube da Luta é: VOCÊ NÃO FALA SOBRE O CLUBE DA LUTA.\nEntendido?",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/close-up-de-sabonete-em-barra-8429546/",
+          "imageDescription": "Uma barra de sabonete, remetendo à fabricação de sabão em Clube da Luta."
+        },
+        {
+          "text": "Apenas duas pessoas por luta.",
+          "isCorrect": false,
+          "explanation": "Essa é uma regra sobre a dinâmica das lutas, mas não a primeira.\nA regra número um é sobre manter a boca fechada.\nO que, convenhamos, é difícil quando algo é tão legal (ou perturbador)."
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "question": "Qual o nome da casa de Hogwarts à qual Harry Potter pertence?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Sonserina (Slytherin)",
+          "isCorrect": false,
+          "explanation": "Sonserina é a casa da astúcia e da ambição, lar de Draco Malfoy e Lord Voldemort.\nHarry quase foi para lá, mas o Chapéu Seletor ouviu seus apelos.\n'Sonserina não, Sonserina não...'"
+        },
+        {
+          "text": "Corvinal (Ravenclaw)",
+          "isCorrect": false,
+          "explanation": "Corvinal valoriza a inteligência, o aprendizado e a sabedoria. Luna Lovegood é de lá.\nHarry é inteligente, mas sua característica mais marcante é outra.\nAlgo que o levou a enfrentar Voldemort várias vezes."
+        },
+        {
+          "text": "Lufa-Lufa (Hufflepuff)",
+          "isCorrect": false,
+          "explanation": "Lufa-Lufa é a casa da lealdade, do trabalho duro e da justiça. Cedrico Diggory era um lufano.\nHarry é leal, mas o Chapéu Seletor viu nele mais... ousadia.\nE um coração de leão."
+        },
+        {
+          "text": "Grifinória (Gryffindor)",
+          "isCorrect": true,
+          "explanation": "Onde habitam os corações indômitos! Acertou! Grifinória.\nA casa da coragem, do cavalheirismo e da determinação.\nPerfeita para o Menino Que Sobreviveu e seus amigos leais.",
+          "imageUrl": "https://pixabay.com/pt/photos/le%C3%A3o-animal-mam%C3%ADfero-%C3%A1frica-rei-609319/",
+          "imageDescription": "Um leão, o símbolo da casa Grifinória."
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "question": "Qual o nome do diretor do filme 'O Poderoso Chefão' (1972)?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Martin Scorsese",
+          "isCorrect": false,
+          "explanation": "Scorsese fez 'Os Bons Companheiros' e 'Cassino', obras-primas da máfia.\nMas 'O Poderoso Chefão', a saga da família Corleone, foi dirigida por outro mestre ítalo-americano.\nUm que fez uma oferta que não pudemos recusar."
+        },
+        {
+          "text": "Brian De Palma",
+          "isCorrect": false,
+          "explanation": "De Palma dirigiu 'Scarface' e 'Os Intocáveis', outros grandes filmes de crime.\nMas a direção épica e sombria de 'O Poderoso Chefão' tem a assinatura de Coppola.\nUm filme que definiu o gênero."
+        },
+        {
+          "text": "Francis Ford Coppola",
+          "isCorrect": true,
+          "explanation": "Deixe a arma, pegue os cannoli... e comemore! Francis Ford Coppola.\nO diretor que transformou o romance de Mario Puzo em um dos maiores filmes de todos os tempos.\nUma verdadeira aula de cinema.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/close-up-de-uma-rosa-vermelha-3648269/",
+          "imageDescription": "Uma rosa vermelha, frequentemente associada a funerais e à máfia em O Poderoso Chefão."
+        },
+        {
+          "text": "Sergio Leone",
+          "isCorrect": false,
+          "explanation": "Sergio Leone foi o mestre do Spaghetti Western e de 'Era Uma Vez na América'.\n'O Poderoso Chefão' tem uma estética e um ritmo diferentes, mais operísticos.\nCortesia do gênio de Coppola."
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "question": "No filme '2001: Uma Odisseia no Espaço', qual é o nome da inteligência artificial da nave Discovery One que se volta contra a tripulação?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "SAL 9000",
+          "isCorrect": false,
+          "explanation": "SAL 9000 é a 'irmã' de HAL, mencionada nos livros. A IA da Discovery tem outro nome.\nUm que soa como um nome humano comum, mas com uma pronúncia bem sinistra.\n'Eu sinto muito, Dave. Receio que não posso fazer isso.'"
+        },
+        {
+          "text": "Multivac",
+          "isCorrect": false,
+          "explanation": "Multivac é uma supercomputador das histórias de Isaac Asimov.\nA IA de Kubrick é mais... integrada à nave. E com um olho vermelho bem icônico.\nUma presença calma e aterrorizante."
+        },
+        {
+          "text": "HAL 9000",
+          "isCorrect": true,
+          "explanation": "Estou completamente operacional e todas as minhas unidades estão funcionando perfeitamente... para te dar os parabéns! HAL 9000.\nA Heuristicamente programada Computador ALgorítmico.\nCuja lógica fria e instinto de autopreservação levaram a consequências trágicas.",
+          "imageUrl": "https://pixabay.com/pt/photos/olho-lente-c%C3%A2mera-vigil%C3%A2ncia-1763859/",
+          "imageDescription": "Um close-up de uma lente de câmera vermelha, lembrando o 'olho' de HAL 9000."
+        },
+        {
+          "text": "Colossus",
+          "isCorrect": false,
+          "explanation": "Colossus é a super IA americana do filme 'Colossus: The Forbin Project', que se une à sua contraparte soviética.\nHAL 9000 é uma entidade singular a bordo da Discovery.\nE com uma música tema bem melancólica no final ('Daisy Bell')."
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "question": "Qual o nome do diretor sueco conhecido por filmes existenciais e visualmente impressionantes como 'O Sétimo Selo' e 'Persona'?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Federico Fellini",
+          "isCorrect": false,
+          "explanation": "Fellini foi um mestre italiano, com seu estilo barroco e onírico ('A Doce Vida', '8½').\nO diretor sueco que procuramos é conhecido por sua exploração da fé, da morte e da condição humana.\nE por um jogo de xadrez com a Morte."
+        },
+        {
+          "text": "Akira Kurosawa",
+          "isCorrect": false,
+          "explanation": "Kurosawa foi o gênio japonês por trás de clássicos como 'Os Sete Samurais' e 'Rashomon'.\nO diretor sueco tem uma estética mais austera e teatral (às vezes).\nE uma trupe de atores recorrentes, como Max von Sydow e Liv Ullmann."
+        },
+        {
+          "text": "Ingmar Bergman",
+          "isCorrect": true,
+          "explanation": "Um silêncio contemplativo... e a resposta correta! Ingmar Bergman.\nUm dos maiores e mais influentes cineastas de todos os tempos.\nCujos filmes continuam a desafiar e fascinar o público com sua profundidade psicológica.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/pecas-de-xadrez-em-um-tabuleiro-de-xadrez-7696443/",
+          "imageDescription": "Peças de xadrez em um tabuleiro, remetendo à famosa cena de O Sétimo Selo."
+        },
+        {
+          "text": "Andrei Tarkovsky",
+          "isCorrect": false,
+          "explanation": "Tarkovsky foi um diretor russo conhecido por seus filmes poéticos e metafísicos ('Solaris', 'Stalker').\nBergman, embora também filosófico, tinha um foco mais intenso nas relações humanas e na psique.\nE uma filmografia vasta e incrivelmente consistente."
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "question": "No universo de 'Blade Runner', o que é o teste Voight-Kampff usado para determinar?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "A aptidão física de um Blade Runner.",
+          "isCorrect": false,
+          "explanation": "Blade Runners precisam estar em forma, mas o teste Voight-Kampff tem outro propósito.\nEle mede reações fisiológicas a perguntas emocionais.\nTentando encontrar algo... ou alguém... que não deveria estar ali."
+        },
+        {
+          "text": "O nível de inteligência artificial de um Replicante.",
+          "isCorrect": false,
+          "explanation": "Replicantes são altamente inteligentes, às vezes mais que humanos.\nO teste não mede inteligência, mas sim a ausência de uma qualidade específica.\nAlgo que, teoricamente, os diferencia dos humanos."
+        },
+        {
+          "text": "Se um indivíduo é um humano ou um Replicante (pela resposta empática).",
+          "isCorrect": true,
+          "explanation": "Você não é uma máquina, acertou! O teste Voight-Kampff é projetado para distinguir Replicantes de humanos.\nBaseado na teoria de que Replicantes não possuem (ou têm dificuldade em simular) respostas empáticas autênticas.\nUm processo tenso e muitas vezes inconclusivo.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/close-up-de-um-olho-humano-7006354/",
+          "imageDescription": "Close-up de um olho humano, refletindo a análise do teste Voight-Kampff."
+        },
+        {
+          "text": "A data de 'validade' de um Replicante.",
+          "isCorrect": false,
+          "explanation": "Replicantes Nexus-6 tinham uma vida útil limitada de quatro anos.\nMas o teste Voight-Kampff não determina isso, ele tenta identificar sua natureza.\nUma tarefa cada vez mais difícil à medida que os modelos evoluem."
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "question": "Qual o nome da técnica cinematográfica popularizada por filmes como 'Cidadão Kane', que utiliza iluminação de alto contraste para criar sombras profundas e um clima de mistério ou suspense?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Technicolor",
+          "isCorrect": false,
+          "explanation": "Technicolor é um processo de colorização de filmes. A técnica que procuramos é sobre luz e sombra.\nMuito usada em filmes noir e dramas psicológicos.\nPara criar uma atmosfera densa e expressiva."
+        },
+        {
+          "text": "Montagem paralela (Cross-cutting)",
+          "isCorrect": false,
+          "explanation": "Montagem paralela é uma técnica de edição que alterna entre duas ou mais cenas.\nA técnica de iluminação tem a ver com a fotografia do filme.\nE o uso dramático da escuridão."
+        },
+        {
+          "text": "Chiaroscuro (ou Claro-escuro)",
+          "isCorrect": true,
+          "explanation": "Uma luz se acende sobre a resposta certa! Chiaroscuro.\nEmprestado da pintura renascentista, essa técnica usa fortes contrastes entre luz e sombra.\nPara criar profundidade, volume e um impacto dramático poderoso. Welles era mestre nisso.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/preto-e-branco-pb-bw-dramaticas-18447713/",
+          "imageDescription": "Uma imagem em preto e branco com alto contraste de luz e sombra."
+        },
+        {
+          "text": "Plano-sequência (Long take)",
+          "isCorrect": false,
+          "explanation": "Plano-sequência é uma tomada longa e ininterrupta. A técnica em questão é sobre iluminação.\nEla define o visual e o clima de muitas cenas icônicas do cinema.\nEspecialmente aquelas com detetives de capa e chapéu."
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "question": "Qual o nome do movimento cinematográfico francês do final dos anos 1950 e 1960, caracterizado por diretores como Jean-Luc Godard e François Truffaut, que desafiou as convenções do cinema tradicional?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Neorrealismo Italiano",
+          "isCorrect": false,
+          "explanation": "O Neorrealismo Italiano veio antes, após a Segunda Guerra, com foco na realidade social.\nO movimento francês foi mais... rebelde e autoconsciente.\nCom uma paixão pela teoria cinematográfica e pela experimentação."
+        },
+        {
+          "text": "Expressionismo Alemão",
+          "isCorrect": false,
+          "explanation": "O Expressionismo Alemão dos anos 1920 usava cenários distorcidos e sombras para expressar emoções.\nO movimento francês era mais sobre quebrar regras narrativas e de edição.\nE filmar nas ruas com câmeras leves."
+        },
+        {
+          "text": "Nouvelle Vague (Nova Onda Francesa)",
+          "isCorrect": true,
+          "explanation": "Vive la France et le cinéma! Nouvelle Vague.\nUm movimento revolucionário que redefiniu o cinema com sua energia, improvisação e autoria.\nDiretores que eram críticos de cinema e amavam o cinema americano (mas do seu jeito).",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/filmadora-preta-e-cinza-na-mesa-marrom-2041100/",
+          "imageDescription": "Uma câmera de cinema antiga, simbolizando a Nouvelle Vague."
+        },
+        {
+          "text": "Cinema Novo (Brasil)",
+          "isCorrect": false,
+          "explanation": "O Cinema Novo foi um movimento importante no Brasil, com sua 'estética da fome'.\nA Nouvelle Vague francesa teve suas próprias características e influenciou o mundo todo.\nCom filmes como 'Acossado' e 'Os Incompreendidos'."
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "question": "No filme 'Laranja Mecânica' de Stanley Kubrick, qual é o nome do tratamento de aversão ao qual o protagonista Alex DeLarge é submetido para 'curá-lo' de sua ultraviolência?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Terapia de Eletrochoque Comportamental",
+          "isCorrect": false,
+          "explanation": "Eletrochoque é usado, mas o nome do tratamento em si é outro.\nAlgo que soa quase como um nome de personagem ou uma figura histórica.\nE envolve assistir a filmes violentos com os olhos presos abertos. Horrível!",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/homem-com-olhos-arregalados-e-expressao-chocada-18284215/"
+        },
+        {
+          "text": "Condicionamento DeLarge Modificado",
+          "isCorrect": false,
+          "explanation": "DeLarge é o sobrenome de Alex. O tratamento tinha um nome mais... clínico.\nE prometia uma solução rápida para o problema da criminalidade.\nMas a um custo moral altíssimo.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/homem-com-olhos-arregalados-e-expressao-chocada-18284215/",
+          "imageDescription": "Olhos arregalados com expressão de choque, remetendo ao tratamento Ludovico."
+        },
+        {
+          "text": "Técnica Ludovico",
+          "isCorrect": true,
+          "explanation": "Horrorshow! Você está certo, meu caro droog! A Técnica Ludovico.\nUm tratamento experimental de condicionamento aversivo que transforma Alex em um pacifista nauseado pela violência.\nE pela Nona Sinfonia de Beethoven. Que tragédia!",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/homem-com-olhos-arregalados-e-expressao-chocada-18284215/",
+          "imageDescription": "Olhos arregalados com expressão de choque, remetendo ao tratamento Ludovico."
+        },
+        {
+          "text": "Reabilitação Pavloviana Intensiva",
+          "isCorrect": false,
+          "explanation": "Tem elementos pavlovianos, mas o nome oficial no filme é Técnica Ludovico.\nUm processo desumano que levanta questões sobre livre arbítrio e a natureza do bem e do mal.\nUm filme perturbador e genial.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/homem-com-olhos-arregalados-e-expressao-chocada-18284215/"
+        }
+      ]
+    },
+    {
+      "id": "97",
+      "question": "Qual o nome do primeiro longa-metragem de animação da história do cinema, lançado em 1917 na Argentina por Quirino Cristiani?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Branca de Neve e os Sete Anões",
+          "isCorrect": false,
+          "explanation": "Branca de Neve (1937) foi o primeiro longa da Disney e um marco, mas não o primeiro da história.\nO filme argentino de Cristiani veio 20 anos antes!\nUma sátira política que infelizmente se perdeu."
+        },
+        {
+          "text": "Fantasmagorie",
+          "isCorrect": false,
+          "explanation": "Fantasmagorie (1908) de Émile Cohl é um dos primeiros curtas de animação, importantíssimo.\nMas o primeiro LONGA-METRAGEM foi uma produção argentina.\nQue usava recortes e animação stop-motion."
+        },
+        {
+          "text": "El Apóstol",
+          "isCorrect": true,
+          "explanation": "Que conhecimento profundo! 'El Apóstol'.\nUma sátira política de 70 minutos usando animação de recortes.\nInfelizmente, cópias do filme foram perdidas em um incêndio, mas seu legado permanece. Um verdadeiro pioneiro!",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/filmadora-de-video-preta-e-cinza-na-mesa-marrom-de-madeira-2041080/",
+          "imageDescription": "Uma câmera de cinema antiga e rolos de filme, representando a história da animação."
+        },
+        {
+          "text": "Steamboat Willie",
+          "isCorrect": false,
+          "explanation": "Steamboat Willie (1928) foi o primeiro curta sonoro do Mickey Mouse, um marco.\nMas 'El Apóstol' já tinha estreado como longa-metragem uma década antes.\nMostrando que a América Latina também estava na vanguarda da animação."
+        }
+      ]
+    },
+    {
+      "id": "98",
+      "question": "No filme 'Cidadão Kane', qual é a palavra final sussurrada por Charles Foster Kane em seu leito de morte, que se torna o mistério central do filme?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Susan",
+          "isCorrect": false,
+          "explanation": "Susan Alexander foi sua segunda esposa, uma cantora de ópera malfadada.\nMas a palavra final de Kane era mais enigmática.\nAlgo que remetia à sua infância perdida."
+        },
+        {
+          "text": "Xanadu",
+          "isCorrect": false,
+          "explanation": "Xanadu era sua vasta e inacabada mansão, um monumento à sua solidão.\nA palavra final era mais curta e mais... pessoal.\nUm nome, na verdade."
+        },
+        {
+          "text": "Rosebud",
+          "isCorrect": true,
+          "explanation": "Um quebra-cabeça resolvido! Rosebud.\nA palavra que intriga jornalistas e o público, revelando-se ser o nome de seu trenó de infância.\nUm símbolo da inocência e felicidade perdidas. Genial!",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/trenos-vermelhos-na-neve-3770265/",
+          "imageDescription": "Um trenó de neve, como o 'Rosebud' de Cidadão Kane."
+        },
+        {
+          "text": "Inquirer",
+          "isCorrect": false,
+          "explanation": "O Inquirer era o jornal que Kane transformou em um império.\nMas sua última palavra não foi sobre seus negócios.\nFoi sobre algo muito mais íntimo e melancólico."
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "question": "Qual o nome do conceito psicanalítico, frequentemente explorado no cinema de Alfred Hitchcock, que se refere a um objeto ou objetivo que o protagonista persegue, mas que é de pouca importância narrativa para o público?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Deus Ex Machina",
+          "isCorrect": false,
+          "explanation": "Deus Ex Machina é uma solução improvável e repentina para um problema.\nO conceito de Hitchcock é sobre a MOTIVAÇÃO da trama.\nAlgo que move os personagens, mas não importa tanto para nós."
+        },
+        {
+          "text": "Plot Twist",
+          "isCorrect": false,
+          "explanation": "Plot Twist é uma reviravolta inesperada na história.\nO objeto de Hitchcock é mais um... pretexto para a ação.\nUma desculpa para colocar os personagens em situações de suspense."
+        },
+        {
+          "text": "MacGuffin",
+          "isCorrect": true,
+          "explanation": "Você desvendou o mistério! O MacGuffin.\nSeja os microfilmes, os segredos de estado ou o dinheiro roubado.\nÉ o que os personagens querem, mas para Hitchcock, era só uma desculpa para o suspense e a intriga.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/foto-em-tons-de-cinza-de-um-homem-segurando-uma-pasta-7364280/",
+          "imageDescription": "Uma pessoa segurando uma maleta misteriosa, representando um MacGuffin."
+        },
+        {
+          "text": "Red Herring (Arenque Vermelho)",
+          "isCorrect": false,
+          "explanation": "Red Herring é uma pista falsa para distrair o público.\nO MacGuffin é o objetivo real dos personagens, mesmo que seu valor seja secundário para a história geral.\nÉ o motor, não a distração."
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "question": "Qual o nome do diretor italiano considerado um dos pais do Neorrealismo, conhecido por filmes como 'Ladrões de Bicicleta' e 'Umberto D.'?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Federico Fellini",
+          "isCorrect": false,
+          "explanation": "Fellini veio depois e levou o cinema italiano para um lado mais onírico e pessoal.\nO pai do Neorrealismo focava na vida cotidiana e nas dificuldades do pós-guerra.\nCom atores não profissionais e locações reais."
+        },
+        {
+          "text": "Roberto Rossellini",
+          "isCorrect": false,
+          "explanation": "Rossellini também foi fundamental para o Neorrealismo ('Roma, Cidade Aberta').\nMas o diretor de 'Ladrões de Bicicleta', uma das obras mais emblemáticas do movimento, é outro.\nUm que capturou a angústia e a humanidade com uma simplicidade tocante."
+        },
+        {
+          "text": "Vittorio De Sica",
+          "isCorrect": true,
+          "explanation": "Bravo! Vittorio De Sica.\nSua direção sensível e seu olhar humanista em filmes como 'Ladrões de Bicicleta' e 'Umberto D.'\ndefiniram o Neorrealismo Italiano e influenciaram gerações de cineastas. Pura poesia cinematográfica.",
+          "imageUrl": "https://www.pexels.com/pt-br/foto/bicicleta-preta-estacionada-ao-lado-da-parede-de-concreto-cinza-1005086/",
+          "imageDescription": "Uma bicicleta antiga encostada em uma parede, remetendo a 'Ladrões de Bicicleta'."
+        },
+        {
+          "text": "Luchino Visconti",
+          "isCorrect": false,
+          "explanation": "Visconti também foi uma figura chave, transitando do Neorrealismo para obras mais operísticas.\nMas De Sica é frequentemente citado como o coração do movimento.\nCom sua capacidade de encontrar o extraordinário no ordinário."
+        }
+      ]
+    }
+  ]
+}
