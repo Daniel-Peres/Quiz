@@ -1,149 +1,2901 @@
 {
-    "config": {
-      "theme": "O Senhor dos Anéis",
-      "totalPoints": 1000,
-      "scoring": "points"
+  "config": {
+    "theme": "Senhor dos Anéis e O Hobbit",
+    "totalPoints": 1000,
+    "scoring": "points"
+  },
+  "data": [
+    {
+      "id": "01",
+      "question": "Qual o nome do mago que guia a Sociedade do Anel em sua jornada inicial?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Saruman, o Branco",
+          "isCorrect": false,
+          "explanation": "Saruman até começou bem, mas digamos que ele mudou de time no meio do jogo.\nUma pena, a cor branca combinava com ele.\nFica a dica: cuidado com quem muda de cor muito rápido!"
+        },
+        {
+          "text": "Gandalf, o Cinzento",
+          "isCorrect": true,
+          "explanation": "Acertou! Gandalf, o mestre dos fogos de artifício e de aparecer na hora certa!\nEle é tipo aquele amigo que sempre sabe o caminho,\nmesmo que às vezes pareça que está apenas improvisando com estilo.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/fantasy-illustration-gray-wizard-staff-760669660",
+          "imageDescription": "Gandalf, o Cinzento, com seu cajado, pronto para uma aventura."
+        },
+        {
+          "text": "Radagast, o Castanho",
+          "isCorrect": false,
+          "explanation": "Radagast é mais chegado nos bichinhos e cogumelos do que em grandes jornadas épicas.\nUm naturalista de mão cheia, mas talvez não o melhor guia para Mordor.\nA menos que você precise de um esquilo tradutor."
+        },
+        {
+          "text": "Alvo Dumbledore",
+          "isCorrect": false,
+          "explanation": "Err... Plataforma errada, meu caro! Dumbledore é de outra franquia mágica famosa.\nEmbora, convenhamos, uma dupla Gandalf e Dumbledore seria imbatível.\nImagina os dois debatendo qual feitiço de luz é melhor?"
+        }
+      ]
     },
-    "data": [
-      {
-        "question": "Qual é o nome do anel mágico que Frodo carrega para destruí-lo na Montanha da Perdição?",
-        "level": "fácil",
-        "options": [
-          {
-            "text": "Anel de Narya",
-            "isCorrect": false,
-            "explanation": "Nããão, Narya é o anel de fogo de Gandalf! Tente o anel que domina todos e é bem mais... maligno!"
-          },
-          {
-            "text": "Um Anel",
-            "isCorrect": true,
-            "explanation": "Meu precioso, você acertou! O Um Anel, forjado por Sauron, é o objeto central de O Senhor dos Anéis, levando Frodo numa jornada épica para destruí-lo na Montanha da Perdição. Um anel pra causar muitos problemas! Parabéns, hobbit!",
-            "imageUrl": "https://www.lotrproject.com/images/one-ring.jpg",
-            "imageDescription": "Imagem do Um Anel, dourado com inscrições élficas brilhando, em um fundo escuro, simbolizando seu poder maligno em O Senhor dos Anéis."
-          },
-          {
-            "text": "Anel de Vilya",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! Vilya é o anel de Elrond, do ar. Tente o anel que Sauron quer de volta!"
-          },
-          {
-            "text": "Anel de Nenya",
-            "isCorrect": false,
-            "explanation": "Nããão, Nenya é o anel de Galadriel! Tente o anel que corrompe quem o usa!"
-          }
-        ]
-      },
-      {
-        "question": "Qual criatura gigante ajuda os Ents na batalha contra Isengard em 'As Duas Torres'?",
-        "level": "médio",
-        "options": [
-          {
-            "text": "Troll",
-            "isCorrect": false,
-            "explanation": "Nããão, trolls são brutos que lutam por Sauron, não ajudam Ents! Tente algo mais... arbóreo e gigante!"
-          },
-          {
-            "text": "Huorn",
-            "isCorrect": true,
-            "explanation": "Você é um guardião da floresta! Huorns, árvores semi-conscientes da Floresta de Fangorn, ajudam os Ents, liderados por Barbárvore, a destruir Isengard. Eles marcham e esmagam orcs como se fossem galhos secos. Parabéns, pastor de árvores!",
-            "imageUrl": "https://www.lotrproject.com/images/huorn-battle.jpg",
-            "imageDescription": "Imagem de Huorns, árvores gigantes, marchando na batalha de Isengard, com Ents ao fundo, capturando a força da natureza em O Senhor dos Anéis."
-          },
-          {
-            "text": "Balrog",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! Balrogs são demônios de fogo, como o de Moria. Tente algo mais verde e amigável aos Ents!"
-          },
-          {
-            "text": "Warg",
-            "isCorrect": false,
-            "explanation": "Nããão, Wargs são lobos dos orcs, não aliados dos Ents! Tente algo mais ligado às florestas!"
-          }
-        ]
-      },
-      {
-        "question": "Qual é o nome do reino dos homens governado por Aragorn no final da trilogia?",
-        "level": "fácil",
-        "options": [
-          {
-            "text": "Rohan",
-            "isCorrect": false,
-            "explanation": "Nããão, Rohan é o reino dos cavaleiros, governado por Théoden! Tente o reino com uma cidade branca e um rei retornado!"
-          },
-          {
-            "text": "Gondor",
-            "isCorrect": true,
-            "explanation": "Você é digno da coroa! Gondor, com sua capital Minas Tirith, é o reino dos homens que Aragorn governa como Rei Elessar no final de O Senhor dos Anéis. Um retorno épico para um herói! Parabéns, monarca!",
-            "imageUrl": "https://www.lotrproject.com/images/minas-tirith.jpg",
-            "imageDescription": "Imagem de Minas Tirith, a cidade branca de Gondor, com suas muralhas e a torre de Ecthelion, simbolizando o reino de Aragorn em O Senhor dos Anéis."
-          },
-          {
-            "text": "Mordor",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! Mordor é a terra de Sauron, não dos homens. Tente um reino mais... heroico e brilhante!"
-          },
-          {
-            "text": "Erebor",
-            "isCorrect": false,
-            "explanation": "Nããão, Erebor é dos anões, governada por Thorin! Tente o reino dos homens com uma árvore branca!"
-          }
-        ]
-      },
-      {
-        "question": "Qual personagem, um hobbit, carrega o Um Anel por grande parte da trilogia?",
-        "level": "fácil",
-        "options": [
-          {
-            "text": "Samwise Gamgee",
-            "isCorrect": false,
-            "explanation": "Nããão, Sam é o melhor amigo, mas não o portador principal! Tente o hobbit que sofre com o peso do anel!"
-          },
-          {
-            "text": "Frodo Baggins",
-            "isCorrect": true,
-            "explanation": "Você é um herói do Condado! Frodo Baggins, o hobbit de O Senhor dos Anéis, carrega o Um Anel em uma jornada épica para destruí-lo, enfrentando orcs, Nazgûl e o próprio Sauron. Um pequeno passo para um grande feito! Parabéns!",
-            "imageUrl": "https://www.lotrproject.com/images/frodo-baggins.jpg",
-            "imageDescription": "Imagem de Frodo Baggins segurando o Um Anel, com expressão determinada, em um cenário de aventura, representando sua jornada em O Senhor dos Anéis."
-          },
-          {
-            "text": "Merry Brandybuck",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! Merry é um hobbit valente, mas não carrega o anel. Tente o primo mais... sobrecarregado!"
-          },
-          {
-            "text": "Pippin Took",
-            "isCorrect": false,
-            "explanation": "Nããão, Pippin causa confusão, mas não carrega o anel! Tente o hobbit com a missão mais perigosa!"
-          }
-        ]
-      },
-      {
-        "question": "Qual batalha épica, em 'O Retorno do Rei', ocorre nos campos diante de Minas Tirith?",
-        "level": "médio",
-        "options": [
-          {
-            "text": "Batalha do Abismo de Helm",
-            "isCorrect": false,
-            "explanation": "Nããão, o Abismo de Helm é em 'As Duas Torres', em Rohan! Tente a batalha com olifantes e a cidade branca!"
-          },
-          {
-            "text": "Batalha dos Campos de Pelennor",
-            "isCorrect": true,
-            "explanation": "Você é um cavaleiro de Gondor! A Batalha dos Campos de Pelennor, em 'O Retorno do Rei', é o confronto épico diante de Minas Tirith, com Rohan, olifantes e Aragorn salvando o dia. Épico como só Tolkien faz! Parabéns, guerreiro!",
-            "imageUrl": "https://www.lotrproject.com/images/pelennor-fields.jpg",
-            "imageDescription": "Imagem da Batalha dos Campos de Pelennor, com cavaleiros de Rohan enfrentando orcs e olifantes diante de Minas Tirith, capturando a escala épica de O Senhor dos Anéis."
-          },
-          {
-            "text": "Batalha do Portão Negro",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! O Portão Negro é a batalha final em Mordor. Tente a que acontece antes, com uma cidade em jogo!"
-          },
-          {
-            "text": "Batalha de Isengard",
-            "isCorrect": false,
-            "explanation": "Nããão, Isengard é destruída pelos Ents! Tente a batalha com Gondor e muitos orcs!"
-          }
-        ]
-      }
-    ]
-  }
+    {
+      "id": "02",
+      "question": "Qual o nome da montanha onde Smaug, o Dragão, guardava seu tesouro em 'O Hobbit'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Montanha da Perdição",
+          "isCorrect": false,
+          "explanation": "Essa é famosa, mas por outros motivos... e outros anéis!\nDigamos que é um local com um 'calor' um pouco excessivo para um dragão que já é puro fogo.\nMelhor deixar essa para os hobbits corajosos."
+        },
+        {
+          "text": "Caradhras",
+          "isCorrect": false,
+          "explanation": "Caradhras é mais conhecida por ser mal-humorada e coberta de neve.\nSmaug provavelmente preferia um lugar mais quentinho e com menos vento.\nDragões gostam de conforto, sabe?"
+        },
+        {
+          "text": "A Montanha Solitária (Erebor)",
+          "isCorrect": true,
+          "explanation": "Correto! Erebor era o lar doce (e rico) lar de Smaug.\nUm dragão precisa de um lugar espaçoso para guardar suas bugigangas douradas.\nE nada como uma montanha inteira para isso, não é mesmo?",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/lonely-mountain-erebor-on-map-middle-earth-1372770212",
+          "imageDescription": "Ilustração da Montanha Solitária (Erebor) em um mapa da Terra-média."
+        },
+        {
+          "text": "As Montanhas Sombrias",
+          "isCorrect": false,
+          "explanation": "As Montanhas Sombrias são cheias de Goblins e outros perigos, mas Smaug tinha seu próprio 'condomínio fechado'.\nEle não era de dividir o aluguel, especialmente com Goblins barulhentos.\nCada um no seu quadrado, ou melhor, na sua montanha!"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "question": "De qual raça é Legolas, um dos membros da Sociedade do Anel?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Anão",
+          "isCorrect": false,
+          "explanation": "Anões são durões e barbudos, Legolas é... bem, o oposto disso.\nImagine Legolas tentando competir com Gimli no arremesso de machado.\nSpoiler: não daria muito certo para o elfo."
+        },
+        {
+          "text": "Hobbit",
+          "isCorrect": false,
+          "explanation": "Hobbits são baixinhos e adoram uma boa refeição (ou sete).\nLegolas provavelmente come folhas e anda sobre a neve sem afundar.\nDefinitivamente não é um Hobbit!"
+        },
+        {
+          "text": "Humano",
+          "isCorrect": false,
+          "explanation": "Humanos são nobres e tal, mas Legolas tem uma certidão de nascimento bem mais antiga.\nE aquela habilidade de enxergar uma mosca a quilômetros? Coisa de elfo!\nAragorn que o diga."
+        },
+        {
+          "text": "Elfo",
+          "isCorrect": true,
+          "explanation": "Bingo! Legolas é o nosso elfo arqueiro favorito, com visão de águia e cabelo impecável.\nSempre elegante, até mesmo no meio de uma batalha contra Orcs.\nUm verdadeiro colírio para os olhos da Sociedade!",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/elf-archer-fantasy-digital-painting-1935020683",
+          "imageDescription": "Representação de um arqueiro elfo, semelhante a Legolas, em um cenário de fantasia."
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "question": "Qual o nome do cavalo branco que Gandalf cavalga, conhecido como o senhor de todos os cavalos?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Brego",
+          "isCorrect": false,
+          "explanation": "Brego é um nobre cavalo, mas ele pertence a Aragorn (pelo menos nos filmes).\nUm excelente corcel, sem dúvida, mas não o 'chefão' dos Mearas.\nCada herói com seu cavalo de respeito!"
+        },
+        {
+          "text": "Scadufax (Shadowfax)",
+          "isCorrect": true,
+          "explanation": "Exatamente! Scadufax, o magnífico Meara que só se deixava cavalgar por Gandalf.\nMais rápido que o vento e mais esperto que muito humano por aí.\nUm verdadeiro VIP equino!",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/white-horse-runs-on-water-2047030847",
+          "imageDescription": "Um majestoso cavalo branco correndo, evocando a imagem de Scadufax."
+        },
+        {
+          "text": "Hasufel",
+          "isCorrect": false,
+          "explanation": "Hasufel também é um cavalo valente de Rohan, dado a Aragorn.\nBom companheiro de viagem, mas Scadufax está em outra categoria.\nÉ como comparar um carro popular a uma Ferrari equina."
+        },
+        {
+          "text": "Bill, o Pônei",
+          "isCorrect": false,
+          "explanation": "Ah, o bravo Bill! Um herói por direito próprio, mas definitivamente não é o senhor dos Mearas.\nEle é mais o 'funcionário do mês' da categoria pônei de carga.\nMerece todo o nosso respeito (e muitas maçãs)."
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "question": "Quem foi o único dos Valar que ousou se opor diretamente a Morgoth no início dos tempos, antes da criação de Arda?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Manwë Súlimo",
+          "isCorrect": false,
+          "explanation": "Manwë é o Rei dos Valar e irmão de Melkor (Morgoth), mas ele não foi o único a se opor desde o 'pré-começo'.\nSua oposição veio, mas outro Vala teve um confronto mais direto e solitário no vazio.\nPaciência é uma virtude, mas às vezes é preciso agir!"
+        },
+        {
+          "text": "Ulmo, o Senhor das Águas",
+          "isCorrect": false,
+          "explanation": "Ulmo sempre teve uma forte ligação com os Filhos de Eru e desconfiava de Melkor.\nMas o confronto direto no vazio antes de tudo? Não foi bem ele.\nEle preferia trabalhar nos bastidores aquáticos."
+        },
+        {
+          "text": "Aulë, o Ferreiro",
+          "isCorrect": false,
+          "explanation": "Aulë era ansioso pela chegada dos Filhos de Eru e até criou os Anões!\nEle teve seus desentendimentos com Melkor, especialmente sobre a 'propriedade intelectual' da criação.\nMas o primeiro a 'levantar a voz' no vazio foi outro."
+        },
+        {
+          "text": "Tulkas Astaldo, o Valente",
+          "isCorrect": true,
+          "explanation": "Corretíssimo! Tulkas foi o último dos Valar a descer para Arda, rindo alto, e foi direto para cima de Morgoth!\nEle chegou 'causando' e botando o vilão para correr antes mesmo do 'play' oficial.\nEsse sim não temia uma boa briga pelo bem maior!",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/valiant-knight-armor-sword-shield-2043560000",
+          "imageDescription": "Ilustração de um cavaleiro valente em armadura, representando a força e coragem de Tulkas."
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "question": "Qual objeto mágico Bilbo Bolseiro encontra em uma caverna de Goblins nas Montanhas Sombrias?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Uma espada élfica que brilha azul",
+          "isCorrect": false,
+          "explanation": "Espadas élficas são demais, e Bilbo até encontra uma (Ferroada!).\nMas o 'grande achado' da caverna foi algo mais... discreto e com potencial para sumiços.\nMuito útil para evitar parentes chatos!"
+        },
+        {
+          "text": "Um mapa do tesouro de Smaug",
+          "isCorrect": false,
+          "explanation": "O mapa ele já tinha, cortesia de Thorin e Gandalf.\nO que ele achou foi algo que Gollum perdeu e, digamos, valorizava bastante.\nUm verdadeiro 'achado'!"
+        },
+        {
+          "text": "O Um Anel",
+          "isCorrect": true,
+          "explanation": "Exato! O 'precioso' anel que seria o centro de uma confusão muito maior depois.\nMal sabia Bilbo o problemão que ele tinha no bolso.\nÀs vezes, o que reluz... é encrenca!",
+          "imageUrl": "https://www.istockphoto.com/br/foto/anel-de-ouro-com-inscri%C3%A7%C3%A3o-antiga-em-uma-superf%C3%ADcie-de-madeira-escura-gm1302124348-393969817",
+          "imageDescription": "Anel de ouro com inscrição antiga em superfície escura, representando o Um Anel."
+        },
+        {
+          "text": "Uma Pedra Arken",
+          "isCorrect": false,
+          "explanation": "A Pedra Arken é o 'xodó' dos anões de Erebor, não algo perdido em cavernas de Goblins.\nBilbo teve sua participação com ela, mas bem depois e em outra montanha.\nCada tesouro no seu devido lugar (ou quase)."
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "question": "Qual é o nome da taverna em Bri onde Frodo e seus amigos hobbits conhecem Aragorn (Passolargo)?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "O Pônei Saltitante",
+          "isCorrect": true,
+          "explanation": "Cravado! O Pônei Saltitante, famoso por sua cerveja e por encontros inesperados.\nUm lugar onde um simples 'oi' pode te levar a uma jornada para destruir um anel.\nPeça uma cerveja por sua conta e risco!",
+          "imageUrl": "https://www.shutterstock.com/image-photo/medieval-tavern-interior-moody-lighting-2304851789",
+          "imageDescription": "Interior de uma taverna medieval rústica, semelhante ao Pônei Saltitante."
+        },
+        {
+          "text": "A Árvore Murcha",
+          "isCorrect": false,
+          "explanation": "Humm, esse nome não soa muito convidativo para uma cervejinha, não acha?\nOs hobbits buscavam algo um pouco mais animado e menos... seco.\nPrecisavam de um lugar com mais 'vida'!"
+        },
+        {
+          "text": "O Dragão Verde",
+          "isCorrect": false,
+          "explanation": "O Dragão Verde é uma taverna famosa, mas fica no Condado, terra dos Hobbits.\nEles estavam um pouco longe de casa quando conheceram Passolargo.\nMas com certeza sentiram falta da cerveja de lá!"
+        },
+        {
+          "text": "A Estalagem do Povo Comum",
+          "isCorrect": false,
+          "explanation": "Um nome genérico para uma taverna! O Pônei Saltitante é bem mais memorável.\nEspecialmente quando um futuro rei está te esperando em um canto escuro.\nDefinitivamente não é um lugar 'comum'."
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "question": "Quem é o pai de Legolas?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Elrond",
+          "isCorrect": false,
+          "explanation": "Elrond é um grande Senhor Élfico, mestre de Valfenda, mas não o pai de Legolas.\nEle é mais um 'chefe' e sogro de Aragorn.\nCada elfo com sua árvore genealógica élfica!"
+        },
+        {
+          "text": "Celeborn",
+          "isCorrect": false,
+          "explanation": "Celeborn é o marido de Galadriel, Senhor de Lothlórien. Um elfo poderoso.\nMas a linhagem de Legolas vem do Reino da Floresta.\nParentes distantes, talvez, mas não pai e filho."
+        },
+        {
+          "text": "Thranduil",
+          "isCorrect": true,
+          "explanation": "Correto! Thranduil, o Rei Élfico da Floresta das Trevas, é o pai estiloso de Legolas.\nConhecido por sua paixão por joias e por ser um pouco... protetor.\nTal pai, tal filho (na habilidade com o arco, pelo menos!).",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/portrait-elf-king-on-throne-1988770682",
+          "imageDescription": "Retrato de um rei élfico em seu trono, representando Thranduil."
+        },
+        {
+          "text": "Gil-galad",
+          "isCorrect": false,
+          "explanation": "Gil-galad foi um Alto Rei dos Noldor, uma lenda entre os elfos.\nMas ele viveu em uma era muito anterior à de Legolas.\nRespeito aos mais velhos, mas não é o papai aqui."
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "question": "Qual o nome da aranha gigante que Frodo e Sam enfrentam no caminho para Mordor?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Ungoliant",
+          "isCorrect": false,
+          "explanation": "Ungoliant é a mãe de todas as aranhas gigantes, uma criatura ancestral de puro terror.\nShelob é 'filhote' perto dela. Digamos que Frodo e Sam tiveram sorte de não cruzar com a 'mamãe'.\nSeria um 'game over' bem mais rápido."
+        },
+        {
+          "text": "Aragog",
+          "isCorrect": false,
+          "explanation": "Opa, Aragog é de outra floresta proibida e amigo de um certo guarda-caça de Hogwarts!\nGrande e assustadora, mas não a que infernizou Frodo e Sam.\nCada universo com suas aranhas gigantes de estimação (ou não)."
+        },
+        {
+          "text": "Laracna (Shelob)",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! Laracna (ou Shelob, no original) deu um belo susto (e uma picada) nos nossos hobbits.\nUma 'senhora' nada amigável que guardava uma passagem secreta para Mordor.\nSam precisou ser muito corajoso para enfrentá-la!",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/giant-spider-monster-its-lair-1209103174",
+          "imageDescription": "Ilustração de uma aranha gigante monstruosa em seu covil escuro."
+        },
+        {
+          "text": "A Viúva Negra da Montanha Solitária",
+          "isCorrect": false,
+          "explanation": "Uma aranha com nome de filme de espionagem na Montanha Solitária? Interessante, mas não canônico.\nLaracna tinha um covil bem mais sombrio e fedorento perto de Mordor.\nEla não era de socializar com anões."
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Qual é o principal alimento dos Elfos mencionado em 'O Senhor dos Anéis', que pode sustentar um viajante por muitos dias?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Pão de Cerveja Anão",
+          "isCorrect": false,
+          "explanation": "Pão de cerveja anão deve ser robusto e forte, mas não é a especialidade élfica.\nProvavelmente ótimo para acompanhar um javali assado, não para longas jornadas discretas.\nCada raça com sua culinária de viagem!"
+        },
+        {
+          "text": "Lembas (Pão de Viagem Élfico)",
+          "isCorrect": true,
+          "explanation": "Perfeito! Lembas, o pão de viagem élfico supernutritivo e misteriosamente saboroso.\nUma pequena mordida e você está pronto para mais uma etapa da jornada!\nSó não conte aos anões, eles podem ficar com inveja da receita.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/travelers-bread-wrapped-leaves-on-2008540367",
+          "imageDescription": "Pães de viagem embrulhados em folhas, representando o lembas élfico."
+        },
+        {
+          "text": "Cogumelos do Condado",
+          "isCorrect": false,
+          "explanation": "Os hobbits AMAM cogumelos, e com razão! Mas não são o superalimento élfico.\nDeliciosos, sim. Mágicos para longas viagens? Nem tanto.\nDeixe os cogumelos para o segundo café da manhã de Pippin."
+        },
+        {
+          "text": "Carne seca de Orc",
+          "isCorrect": false,
+          "explanation": "Eca! Definitivamente não! Elfos têm um paladar muito mais refinado que isso.\nAlém do mais, quem iria querer comer isso?\nDeixe essa 'iguaria' para os Uruk-hai famintos."
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "question": "Como se chama o guardião de Valfenda (Rivendell), pai de Arwen Undómiel?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Gandalf",
+          "isCorrect": false,
+          "explanation": "Gandalf é um visitante frequente e amigo de Valfenda, mas não seu mestre ou pai de Arwen.\nEle é mais um conselheiro andarilho com um ótimo timing para fogos de artifício.\nE para salvar o dia, claro."
+        },
+        {
+          "text": "Círdan, o Carpinteiro Naval",
+          "isCorrect": false,
+          "explanation": "Círdan é um Senhor Élfico muito antigo e sábio, guardião dos Portos Cinzentos.\nEle tem barcos e barba, mas Valfenda é em outro CEP.\nE Arwen não é sua filha."
+        },
+        {
+          "text": "Elrond Meio-Elfo",
+          "isCorrect": true,
+          "explanation": "Corretíssimo! Elrond, o sábio e poderoso Meio-Elfo, é o Senhor de Valfenda e pai de Arwen.\nUm anfitrião impecável para reuniões importantes e decisões difíceis.\nAlém de ter uma filha que conquistou o coração de um rei.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/digital-illustration-portrait-fantasy-elf-1707547495",
+          "imageDescription": "Retrato digital de um elfo nobre e sábio, representando Elrond de Valfenda."
+        },
+        {
+          "text": "Glorfindel",
+          "isCorrect": false,
+          "explanation": "Glorfindel é um herói élfico poderoso que reside em Valfenda e ajudou Frodo.\nMas ele não é o chefão de lá, nem o pai de Arwen.\nPense nele como um segurança de elite da casa."
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "question": "Qual o nome do Ent mais velho, que ajuda Merry e Pippin na Floresta de Fangorn?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Quickbeam (Galhosprestos)",
+          "isCorrect": false,
+          "explanation": "Quickbeam é um Ent ágil e um tanto 'apressado' para os padrões Ent.\nAmigo de Barbárvore, mas não o mais antigo.\nEle provavelmente não levaria uma semana para dizer 'bom dia'."
+        },
+        {
+          "text": "Fimbrethil",
+          "isCorrect": false,
+          "explanation": "Fimbrethil é uma Ent-esposa perdida, a amada de Barbárvore.\nUma figura de saudade e mistério, não o Ent que os hobbits encontraram.\nQuem sabe um dia ela volta de seu passeio?"
+        },
+        {
+          "text": "Leaflock (Ramifolha)",
+          "isCorrect": false,
+          "explanation": "Leaflock é um dos Ents mais velhos, junto com Barbárvore e Skinbark.\nMas o protagonista da aventura com os hobbits foi outro.\nEle provavelmente estava tirando um cochilo de algumas décadas."
+        },
+        {
+          "text": "Barbárvore (Treebeard)",
+          "isCorrect": true,
+          "explanation": "Hooom, hooom! Barbárvore, o pastor de árvores, é a resposta certa!\nLento para se irritar, mas terrível quando irritado, especialmente com orcs cortadores de árvores.\nNão seja apressado ao falar com ele!",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/fantasy-art-ancient-tree-spirit-1817936648",
+          "imageDescription": "Arte de fantasia representando um antigo espírito de árvore, evocando Barbárvore."
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "question": "Que criatura Gollum já foi antes de ser corrompido pelo Um Anel?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Um Anão",
+          "isCorrect": false,
+          "explanation": "Anões são resistentes, mas Gollum era de uma laia bem diferente.\nEles gostam de ouro, mas não a ponto de virar... aquilo.\n'Meu precioso machado' não soa tão bem."
+        },
+        {
+          "text": "Um Elfo",
+          "isCorrect": false,
+          "explanation": "Elfos são seres de luz e graça. A transformação em Gollum seria trágica demais!\nEles provavelmente prefeririam se exilar a virar um eremita comedor de peixe cru.\nSem chance, meu caro!"
+        },
+        {
+          "text": "Um Hobbit (da etnia Stoor/Vasa)",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! Sméagol, como era conhecido, era um tipo de Hobbit.\nO Anel tem um jeitinho especial de estragar as coisas, não é?\nDe pés peludos a... bem, Gollum.",
+          "imageUrl": "https://www.istockphoto.com/br/foto/criatura-assustadora-se-escondendo-no-escuro-gm1298320704-391238687",
+          "imageDescription": "Criatura assustadora se escondendo no escuro, lembrando Gollum/Sméagol."
+        },
+        {
+          "text": "Um Humano primitivo",
+          "isCorrect": false,
+          "explanation": "Embora tenha acabado bem primitivo, sua origem não era humana.\nOs hobbits são parentes distantes dos homens, mas são uma raça própria.\nCom costumes bem mais agradáveis antes do Anel."
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "question": "Qual o nome da fortaleza de Sauron em Mordor?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Minas Tirith",
+          "isCorrect": false,
+          "explanation": "Minas Tirith é a grande cidade-fortaleza de Gondor, o oposto da base de Sauron!\nUm lugar de esperança e resistência, não de sombras e desespero.\nTotalmente o time adversário!"
+        },
+        {
+          "text": "Isengard",
+          "isCorrect": false,
+          "explanation": "Isengard era o lar de Saruman, antes dele 'mudar de lado' e se tornar um vizinho barulhento de Rohan.\nUma fortaleza poderosa, mas não o quartel-general de Sauron.\nDigamos que era uma 'filial' do mal."
+        },
+        {
+          "text": "Barad-dûr",
+          "isCorrect": true,
+          "explanation": "Exatamente! Barad-dûr, a Torre Escura, com o Olho de Sauron sempre vigilante no topo.\nUm lugar nada aconchegante para passar as férias.\nA menos que você seja um Orc, claro.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/dark-tower-fantasy-landscape-evil-1903850482",
+          "imageDescription": "Ilustração de uma torre escura em uma paisagem de fantasia sinistra, representando Barad-dûr."
+        },
+        {
+          "text": "Dol Guldur",
+          "isCorrect": false,
+          "explanation": "Dol Guldur, a Colina da Feitiçaria na Floresta das Trevas, foi uma base importante de Sauron.\nMas Barad-dûr em Mordor era seu endereço principal, sua 'residência oficial'.\nOnde o mal realmente se sentia em casa."
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "question": "Quem se torna o Rei de Gondor ao final de 'O Senhor dos Anéis'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Faramir",
+          "isCorrect": false,
+          "explanation": "Faramir é um herói nobre e se torna Príncipe de Ithilien, casando-se com Éowyn.\nUm final feliz para ele, mas o trono de Gondor tinha outro herdeiro destinado.\nEle ficou com o prêmio de consolação de luxo!"
+        },
+        {
+          "text": "Boromir",
+          "isCorrect": false,
+          "explanation": "Boromir, infelizmente, não sobreviveu para ver o fim da Guerra do Anel.\nEle lutou bravamente e se redimiu, mas o trono não seria dele.\nUm guerreiro valente, mas com um destino trágico."
+        },
+        {
+          "text": "Aragorn (Elessar)",
+          "isCorrect": true,
+          "explanation": "Correto! Aragorn, filho de Arathorn, herdeiro de Isildur, assume seu lugar como Rei Elessar Telcontar.\nO retorno do rei, de fato! E Gondor não poderia estar em melhores mãos.\nFinalmente, o currículo de 'Passolargo' incluiu 'Rei'."
+        },
+        {
+          "text": "Denethor",
+          "isCorrect": false,
+          "explanation": "Denethor era o Regente de Gondor, pai de Boromir e Faramir.\nEle teve um final um tanto... inflamado e desesperado.\nDefinitivamente não estava em condições de continuar no cargo."
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "question": "Qual o nome da espada de Gandalf, encontrada em um tesouro de Trolls junto com Ferroada e Orcrist?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Andúril",
+          "isCorrect": false,
+          "explanation": "Andúril, a Chama do Oeste, é a espada de Aragorn, reforjada de Narsil.\nUma lâmina lendária, mas Gandalf já tinha sua própria companheira de aventuras.\nCada herói com sua arma icônica!"
+        },
+        {
+          "text": "Glamdring",
+          "isCorrect": true,
+          "explanation": "Isso aí! Glamdring, a 'Martelo dos Inimigos', era a espada do Rei de Gondolin, que Gandalf passou a empunhar.\nBrilhava na presença de Orcs, assim como Ferroada.\nUma espada com pedigree e muito estilo!",
+          "imageUrl": "https://www.shutterstock.com/image-photo/ancient-sword-glowing-runes-on-1906535893",
+          "imageDescription": "Espada antiga com runas brilhantes, representando Glamdring."
+        },
+        {
+          "text": "Narsil",
+          "isCorrect": false,
+          "explanation": "Narsil foi a espada de Elendil, que quebrou ao derrotar Sauron e cujos fragmentos cortaram o Anel da mão dele.\nUma espada de grande história, mas não a que Gandalf encontrou com os Trolls.\nEla estava esperando para ser reforjada."
+        },
+        {
+          "text": "Angrist",
+          "isCorrect": false,
+          "explanation": "Angrist foi uma faca feita pelo famoso ferreiro Telchar de Nogrod, usada por Beren para arrancar um Silmaril da coroa de Morgoth.\nUma lâmina poderosa, mas de outra era e outra história.\nGandalf não precisava de tanto poder de corte assim."
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "question": "Através de qual perigosa passagem montanhosa a Sociedade do Anel tenta cruzar para evitar a Lacuna de Rohan, mas é detida por uma tempestade de neve (e pela vontade de Saruman)?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "O Passo de Cirith Ungol",
+          "isCorrect": false,
+          "explanation": "Cirith Ungol é uma passagem para Mordor, guardada por Laracna. A Sociedade ainda estava longe disso!\nEssa parte da viagem é mais para o final, e bem mais assustadora.\nMelhor evitar aranhas gigantes quando se pode."
+        },
+        {
+          "text": "O Passo de Caradhras (Chifre Vermelho)",
+          "isCorrect": true,
+          "explanation": "Exatamente! Caradhras, o cruel Chifre Vermelho, barrou a passagem da Sociedade com sua fúria invernal.\nGandalf até tentou um 'abracadabra', mas a montanha não estava para amigos.\nResultado? Tiveram que ir por Moria. Boa sorte com isso!",
+          "imageUrl": "https://www.shutterstock.com/image-photo/snowcapped-mountain-peak-dramatic-sky-1702408903",
+          "imageDescription": "Pico de montanha nevado com céu dramático, representando o perigoso Caradhras."
+        },
+        {
+          "text": "O Portão Negro (Morannon)",
+          "isCorrect": false,
+          "explanation": "O Portão Negro é a entrada principal de Mordor. Tentar passar por ali com o Um Anel seria suicídio!\n'Olá, Sauron, viemos entregar seu anel de volta... só que não!'\nNão era uma opção muito sutil."
+        },
+        {
+          "text": "A Estrada Elevada (Great East Road)",
+          "isCorrect": false,
+          "explanation": "A Estrada Elevada é uma rota importante, mas não uma passagem montanhosa específica que a Sociedade tentou cruzar para evitar Rohan dessa forma.\nEles precisavam de um atalho mais... vertical.\nInfelizmente, o atalho não colaborou."
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "question": "Quem foi o último Alto Rei dos Noldor na Terra-média, morto na Guerra da Última Aliança?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Fingolfin",
+          "isCorrect": false,
+          "explanation": "Fingolfin foi um valente Alto Rei dos Noldor que desafiou Morgoth para um duelo singular e morreu heroicamente.\nMas isso foi na Primeira Era, muito antes da Última Aliança.\nUm herói de outra época."
+        },
+        {
+          "text": "Finwë",
+          "isCorrect": false,
+          "explanation": "Finwë foi o primeiro Alto Rei dos Noldor, pai de Fëanor, Fingolfin e Finarfin.\nEle morreu em Valinor, assassinado por Morgoth.\nSua história é o prólogo de muitas tristezas élficas."
+        },
+        {
+          "text": "Gil-galad (Ereinion)",
+          "isCorrect": true,
+          "explanation": "Correto! Ereinion Gil-galad foi o último Alto Rei dos Noldor na Terra-média.\nEle lutou ao lado de Elendil contra Sauron na Guerra da Última Aliança, onde ambos pereceram.\nUma luz que se apagou, mas sua lança era temida.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/elf-warrior-king-shining-armor-1998900449",
+          "imageDescription": "Rei guerreiro élfico em armadura brilhante, simbolizando Gil-galad."
+        },
+        {
+          "text": "Turgon",
+          "isCorrect": false,
+          "explanation": "Turgon foi o rei da cidade escondida de Gondolin, outro grande líder Noldorin da Primeira Era.\nSua cidade caiu tragicamente, e ele com ela.\nOutra história épica, mas não da Última Aliança."
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "question": "Qual o nome da mãe de Aragorn?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Arwen Undómiel",
+          "isCorrect": false,
+          "explanation": "Arwen é o grande amor e futura esposa de Aragorn, não sua mãe.\nSeria uma árvore genealógica bem confusa se fosse o caso!\nEla é a 'estrela da tarde' dele, não a matriarca."
+        },
+        {
+          "text": "Galadriel",
+          "isCorrect": false,
+          "explanation": "Galadriel é uma poderosa Senhora Élfica, avó de Arwen. Ela ajudou Aragorn e a Sociedade.\nMas definitivamente não é sua mãe.\nEla é mais uma figura de 'sogra ancestral poderosa'."
+        },
+        {
+          "text": "Gilraen",
+          "isCorrect": true,
+          "explanation": "Exatamente! Gilraen, a Bela, foi a mãe de Aragorn. Ela o criou em Valfenda após a morte de Arathorn, seu pai.\nEla compôs um triste poema (linnod) sobre a curta vida e a esperança em seu filho.\nUma mãe com grandes esperanças e um fardo pesado.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/medieval-woman-green-dress-looking-2008394099",
+          "imageDescription": "Mulher medieval em vestido, representando Gilraen, mãe de Aragorn."
+        },
+        {
+          "text": "Finduilas de Dol Amroth",
+          "isCorrect": false,
+          "explanation": "Finduilas de Dol Amroth foi a esposa de Denethor e mãe de Boromir e Faramir.\nUma figura trágica de Gondor, mas não ligada ao nascimento de Aragorn.\nCada família com suas próprias histórias e tristezas."
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "question": "Qual dos cinco Istari (Magos) foi o primeiro a chegar à Terra-média e é considerado o líder de sua ordem por Saruman, antes deste se corromper?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Gandalf, o Cinzento (Olórin)",
+          "isCorrect": false,
+          "explanation": "Gandalf chegou à Terra-média, mas não foi o primeiro nem o líder original da ordem na visão de Saruman.\nEle era mais humilde em aparência, mas sua sabedoria era profunda.\nÀs vezes, os últimos serão os primeiros (em importância)."
+        },
+        {
+          "text": "Radagast, o Castanho (Aiwendil)",
+          "isCorrect": false,
+          "explanation": "Radagast foi enviado por Yavanna e se preocupava mais com animais e plantas.\nUm mago com bom coração, mas não o líder da ordem.\nProvavelmente chegou e foi direto para a floresta mais próxima."
+        },
+        {
+          "text": "Saruman, o Branco (Curumo)",
+          "isCorrect": true,
+          "explanation": "Correto! Saruman (Curumo) foi o primeiro dos Istari a chegar e era considerado o chefe da ordem e do Conselho Branco.\nEle era o mais poderoso entre eles em conhecimento e habilidade, antes de sua queda.\nUma pena que o poder subiu à cabeça (e mudou a cor de suas vestes).",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/wise-old-wizard-white-robes-1133558864",
+          "imageDescription": "Mago idoso e sábio em vestes brancas, representando Saruman em sua forma original."
+        },
+        {
+          "text": "Alatar e Pallando (os Magos Azuis)",
+          "isCorrect": false,
+          "explanation": "Os Magos Azuis, Alatar e Pallando, foram para o leste da Terra-média e pouco se sabe sobre eles.\nEles não eram considerados os líderes da ordem por Saruman.\nForam desbravar terras distantes e talvez tenham se perdido no churrasco."
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "question": "Qual o nome do pônei que acompanha a Companhia de Thorin Escudo de Carvalho até as bordas da Floresta das Trevas em 'O Hobbit'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Bill",
+          "isCorrect": true,
+          "explanation": "Isso mesmo, o valente Bill! Sam Gamgee ficaria orgulhoso.\nEmbora este seja um Bill anterior, igualmente estóico e trabalhador.\nCarregou muita tralha de anão sem reclamar (muito)!",
+          "imageUrl": "https://www.istockphoto.com/br/foto/p%C3%B4nei-de-exmoor-com-pacote-de-sela-gm184937087-25739457",
+          "imageDescription": "Pônei com sela de carga, representando o trabalhador pônei Bill."
+        },
+        {
+          "text": "Cernelha",
+          "isCorrect": false,
+          "explanation": "Cernelha é uma parte do cavalo, não o nome de um pônei específico na história.\nA menos que os anões fossem MUITO criativos com nomes anatômicos.\nO que, conhecendo-os, não é impossível, mas não neste caso."
+        },
+        {
+          "text": "Sombracinza (Shadowfax)",
+          "isCorrect": false,
+          "explanation": "Sombracinza é um Meara, um cavalo dos reis, não um pônei de carga para anões.\nEle provavelmente se recusaria a carregar tanta bagagem.\n'Eu sou velocidade e realeza, não uma mula de carga!'"
+        },
+        {
+          "text": "Pé-Leve",
+          "isCorrect": false,
+          "explanation": "Pé-Leve seria um bom nome para um pônei, mas não o deste conto.\nEste pônei era mais 'Pé-Forte' pela quantidade de coisas que carregava.\nResistência era seu nome do meio."
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "question": "Em 'O Hobbit', qual tipo de criatura Beorn pode se transformar?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Lobo",
+          "isCorrect": false,
+          "explanation": "Lobos são comuns nas histórias, mas Beorn tinha uma transformação mais... imponente.\nEle não era de uivar para a lua, mas sim de proteger seu território com fúria.\nPense maior, mais peludo e com mais... urso."
+        },
+        {
+          "text": "Águia",
+          "isCorrect": false,
+          "explanation": "Águias são majestosas e ajudam em momentos cruciais, mas Beorn preferia manter os pés (ou patas) no chão.\nVoar é legal, mas não combina com sua hospitalidade rústica.\nEle serve mel, não plumas."
+        },
+        {
+          "text": "Urso",
+          "isCorrect": true,
+          "explanation": "Correto! Beorn, o troca-peles, podia se transformar em um urso negro enorme e assustador.\nUm anfitrião um tanto temperamental, mas um aliado poderoso.\nNão o chame de 'ursinho de pelúcia', por favor.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/grizzly-bear-standing-on-its-1898102437",
+          "imageDescription": "Urso pardo imponente em pé, representando a forma animal de Beorn."
+        },
+        {
+          "text": "Cavalo",
+          "isCorrect": false,
+          "explanation": "Cavalos são nobres, mas Beorn tinha uma pegada mais selvagem.\nSua forma animal era mais para 'abraços esmagadores' do que para cavalgadas elegantes.\nDefinitivamente não relinchava."
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "question": "Qual o nome da floresta onde os elfos liderados por Thranduil, pai de Legolas, residem?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Lothlórien",
+          "isCorrect": false,
+          "explanation": "Lothlórien é o reino de Galadriel e Celeborn, uma floresta de luz e beleza.\nOs elfos de Thranduil vivem em um lugar um pouco mais... sombrio e perigoso.\nCada clã élfico com seu habitat preferido."
+        },
+        {
+          "text": "Floresta de Fangorn",
+          "isCorrect": false,
+          "explanation": "Fangorn é o lar dos Ents, as árvores que andam e falam (bem devagar).\nElfos e Ents são antigos, mas têm endereços diferentes.\nThranduil provavelmente acharia Barbárvore um pouco... lento para seu gosto."
+        },
+        {
+          "text": "Floresta das Trevas (Mirkwood)",
+          "isCorrect": true,
+          "explanation": "Exatamente! O Reino Élfico de Thranduil fica na Floresta das Trevas.\nUm lugar cheio de aranhas gigantes e caminhos traiçoeiros.\nMas com salões subterrâneos espetaculares (e bem protegidos).",
+          "imageUrl": "https://www.shutterstock.com/image-photo/path-through-dark-mysterious-forest-1741468085",
+          "imageDescription": "Caminho através de uma floresta escura e misteriosa, representando a Floresta das Trevas."
+        },
+        {
+          "text": "A Floresta Velha",
+          "isCorrect": false,
+          "explanation": "A Floresta Velha fica perto do Condado, cheia de árvores maliciosas e o Velho Salgueiro.\nOs elfos de Thranduil preferem um ambiente um pouco mais... real.\nE com menos chances de serem engolidos por uma árvore."
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "question": "Que presente especial Galadriel dá a Samwise Gamgee em Lothlórien?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Um frasco com a luz de Eärendil",
+          "isCorrect": false,
+          "explanation": "Este presente foi para Frodo, para ajudá-lo em lugares escuros onde outras luzes se apagam.\nSam ganhou algo mais... terreno e com potencial de crescimento.\nAlgo para lembrar de casa e trazer beleza de volta."
+        },
+        {
+          "text": "Uma adaga élfica",
+          "isCorrect": false,
+          "explanation": "Adagas élficas são úteis, mas Sam já tinha sua pequena espada.\nO presente de Galadriel para ele era mais simbólico e ligado ao seu amor pela jardinagem.\nMenos luta, mais flores!"
+        },
+        {
+          "text": "Uma caixa com terra de seu pomar e uma semente de mallorn",
+          "isCorrect": true,
+          "explanation": "Correto! Sam, o jardineiro, recebeu terra mágica e uma semente de mallorn.\nPara que a beleza de Lórien pudesse florescer no Condado.\nUm presente perfeito para quem entende o valor do que cresce.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/small-wooden-box-filled-earth-1936007566",
+          "imageDescription": "Pequena caixa de madeira com terra e uma semente, simbolizando o presente de Galadriel para Sam."
+        },
+        {
+          "text": "Um arco e flechas de Lórien",
+          "isCorrect": false,
+          "explanation": "Legolas já era o arqueiro oficial da Sociedade.\nSam era mais pé no chão, literalmente.\nSeu talento era com pás e enxadas, não com arcos."
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "question": "Quem é o líder dos anões na expedição para reconquistar Erebor em 'O Hobbit'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Balin",
+          "isCorrect": false,
+          "explanation": "Balin é um anão sábio e um dos mais velhos da companhia, e até visita Bilbo anos depois.\nMas o líder da expedição, com direito a mapa e chave, era outro.\nBalin era mais um conselheiro de confiança."
+        },
+        {
+          "text": "Dwalin",
+          "isCorrect": false,
+          "explanation": "Dwalin é o primeiro anão a chegar na casa de Bilbo, um guerreiro robusto.\nForte e leal, mas não o herdeiro do trono sob a Montanha.\nEle era mais 'músculos' do que 'coroa'."
+        },
+        {
+          "text": "Gimli",
+          "isCorrect": false,
+          "explanation": "Gimli, filho de Glóin, é de outra geração de anões heroicos, amigo de Legolas.\nEle não estava nem nos planos quando a expedição de Erebor aconteceu.\nEstava provavelmente aprendendo a afiar seu primeiro machado."
+        },
+        {
+          "text": "Thorin Escudo de Carvalho",
+          "isCorrect": true,
+          "explanation": "Exatamente! Thorin Escudo de Carvalho, herdeiro do Reino sob a Montanha.\nDeterminado (e um pouco teimoso) a recuperar o tesouro de seus antepassados.\nUm líder nato, com um gosto particular por ouro.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/dwarf-king-armor-axe-fantasy-2008009703",
+          "imageDescription": "Rei anão em armadura com machado, representando Thorin Escudo de Carvalho."
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "question": "Qual o nome do Istari (Mago) que se veste de castanho e tem grande afinidade com animais e plantas?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Gandalf",
+          "isCorrect": false,
+          "explanation": "Gandalf usa cinza (e depois branco). Ele gosta de uma boa fumaça de erva-de-fumo e fogos de artifício.\nAnimais ele respeita, mas seu colega castanho é o verdadeiro 'Dr. Dolittle' da Terra-média.\nCada mago com seu hobby!"
+        },
+        {
+          "text": "Saruman",
+          "isCorrect": false,
+          "explanation": "Saruman começou de branco, depois se envolveu com cores mais... duvidosas.\nSua afinidade era mais com poder e controle do que com passarinhos e esquilos.\nA natureza, para ele, era algo a ser 'aprimorado' industrialmente."
+        },
+        {
+          "text": "Radagast",
+          "isCorrect": true,
+          "explanation": "Corretíssimo! Radagast, o Castanho, é o mago amigo da natureza.\nPrefere a companhia de coelhos de Rhosgobel a grandes conselhos de guerra.\nUm pouco excêntrico, mas com um coração de ouro (ou musgo?).",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/wizard-leaning-on-staff-forest-1723927570",
+          "imageDescription": "Mago com cajado em uma floresta, com afinidade pela natureza, como Radagast."
+        },
+        {
+          "text": "Alatar",
+          "isCorrect": false,
+          "explanation": "Alatar é um dos Magos Azuis, que foi para o Leste.\nSua cor era azul, não castanho, e suas aventuras são um mistério.\nTalvez ele tenha encontrado animais exóticos por lá, quem sabe?"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "question": "Qual destas não é uma das Três Silmarils criadas por Fëanor?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "A Estrela de Eärendil",
+          "isCorrect": true,
+          "explanation": "Boa tentativa! A Estrela de Eärendil é, na verdade, um Silmaril preso à testa de Eärendil enquanto ele navega os céus.\nMas 'Estrela de Eärendil' é como ela ficou conhecida, não o nome original da joia em si.\nAs Silmarils não tinham nomes individuais, eram 'as Silmarils'."
+        },
+        {
+          "text": "Uma joia que continha a luz das Duas Árvores de Valinor",
+          "isCorrect": false,
+          "explanation": "Isso descreve perfeitamente a essência das Silmarils.\nElas capturaram a luz de Laurelin e Telperion antes de serem destruídas.\nPura magia luminosa!"
+        },
+        {
+          "text": "Um artefato cobiçado por Morgoth",
+          "isCorrect": false,
+          "explanation": "Morgoth cobiçou TANTO as Silmarils que as roubou e as engastou em sua coroa de ferro.\nEssa cobiça causou guerras e muita desgraça.\nEle realmente precisava de um hobby menos destrutivo."
+        },
+        {
+          "text": "Uma das três gemas sagradas dos Elfos",
+          "isCorrect": false,
+          "explanation": "Sim, as Silmarils são as três gemas mais sagradas e famosas da história élfica.\nObras-primas de Fëanor, fonte de beleza e conflito.\nUm brilho que custou caro."
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "question": "Na Batalha dos Cinco Exércitos, quem NÃO era um dos cinco exércitos envolvidos?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Homens do Lago",
+          "isCorrect": false,
+          "explanation": "Os Homens do Lago, liderados por Bard, certamente estavam lá!\nTinham contas a acertar com o dragão e um tesouro a reivindicar.\nEles lutaram bravamente."
+        },
+        {
+          "text": "Elfos da Floresta",
+          "isCorrect": false,
+          "explanation": "Os Elfos da Floresta, sob o comando de Thranduil, também marcaram presença.\nInicialmente para pegar sua parte do ouro, mas acabaram lutando contra um inimigo comum.\nElegância e precisão no campo de batalha."
+        },
+        {
+          "text": "Anões de Erebor e das Colinas de Ferro",
+          "isCorrect": false,
+          "explanation": "Claro que os Anões estavam lá! Era a montanha deles, afinal.\nThorin e seus parentes das Colinas de Ferro, liderados por Dáin Pé-de-Ferro, lutaram com fúria.\nMachados e escudos em abundância!"
+        },
+        {
+          "text": "Rohirrim (Cavaleiros de Rohan)",
+          "isCorrect": true,
+          "explanation": "Correto! Os Rohirrim são famosos por suas cavalgadas épicas, mas em outra época e lugar.\nA Batalha dos Cinco Exércitos aconteceu no Norte, perto de Erebor.\nOs cavalos de Rohan estavam pastando tranquilamente bem longe dali.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/group-horsemen-armor-medieval-knights-2099495479",
+          "imageDescription": "Grupo de cavaleiros em armadura, representando os Rohirrim, mas não presentes na Batalha dos Cinco Exércitos."
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "question": "Qual é o nome da capital do reino de Rohan?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Minas Tirith",
+          "isCorrect": false,
+          "explanation": "Minas Tirith é a grande cidade branca de Gondor, não de Rohan.\nLá eles têm mais mármore e menos... estábulos.\nCada reino com sua arquitetura característica."
+        },
+        {
+          "text": "Edoras",
+          "isCorrect": true,
+          "explanation": "Exato! Edoras, com seu palácio dourado de Meduseld no topo da colina.\nLar dos Reis de Rohan e ponto de partida para muitas cavalgadas heroicas.\nO vento sopra forte por lá!",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/fantasy-viking-village-wooden-buildings-2086027591",
+          "imageDescription": "Vila de fantasia com edifícios de madeira e um grande salão, evocando Edoras."
+        },
+        {
+          "text": "Abismo de Helm",
+          "isCorrect": false,
+          "explanation": "O Abismo de Helm é uma fortaleza poderosa de Rohan, palco de uma batalha épica.\nMas é um refúgio defensivo, não a capital administrativa.\nÉ mais um 'bunker' do que um 'palácio'."
+        },
+        {
+          "text": "Isengard",
+          "isCorrect": false,
+          "explanation": "Isengard, antes da traição de Saruman, era uma fortaleza aliada a Rohan, mas não sua capital.\nDepois, virou um canteiro de obras orc bem barulhento.\nDefinitivamente não era o centro da cultura equestre."
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "question": "Como é chamado o evento em que Isildur corta o Um Anel da mão de Sauron?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "A Queda de Gondolin",
+          "isCorrect": false,
+          "explanation": "A Queda de Gondolin foi um evento trágico e épico da Primeira Era.\nUma cidade élfica magnífica destruída por Morgoth. O Um Anel nem existia ainda.\nOutra batalha, outra história."
+        },
+        {
+          "text": "A Guerra da Ira",
+          "isCorrect": false,
+          "explanation": "A Guerra da Ira foi a batalha cataclísmica que encerrou a Primeira Era, com a derrota de Morgoth.\nIsildur e Sauron são de eras posteriores.\nEssa foi uma guerra de proporções divinas!"
+        },
+        {
+          "text": "A Última Aliança de Elfos e Homens",
+          "isCorrect": true,
+          "explanation": "Correto! Foi durante a Guerra da Última Aliança que Isildur, após a morte de seu pai Elendil e de Gil-galad, pegou os restos de Narsil e cortou o Anel.\nUm momento decisivo, com consequências duradouras.\n'Eu estava lá, Gandalf... há 3000 anos.'"
+        },
+        {
+          "text": "O Desastre dos Campos de Lis",
+          "isCorrect": false,
+          "explanation": "O Desastre dos Campos de Lis foi onde Isildur perdeu o Um Anel e a vida, emboscado por orcs.\nIsso aconteceu DEPOIS dele cortar o Anel da mão de Sauron.\nUm dia de azar daqueles!"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "question": "Qual é o nome do pai de Frodo Bolseiro?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Bilbo Bolseiro",
+          "isCorrect": false,
+          "explanation": "Bilbo é o tio (ou primo mais velho, dependendo da tradução e da complexa árvore genealógica Bolseiro) que adota Frodo.\nEles são parentes próximos e muito queridos, mas não pai e filho.\nBilbo foi mais uma figura paterna."
+        },
+        {
+          "text": "Bungo Bolseiro",
+          "isCorrect": false,
+          "explanation": "Bungo Bolseiro foi o pai de Bilbo, famoso por construir o Bolsão (Bag End).\nEle era o avô de consideração de Frodo, por assim dizer.\nUm hobbit respeitável e com bom gosto para casas."
+        },
+        {
+          "text": "Drogo Bolseiro",
+          "isCorrect": true,
+          "explanation": "Acertou! Drogo Bolseiro foi o pai de Frodo. Ele e sua esposa, Prímula Brandebuque, morreram em um acidente de barco.\nÉ por isso que Frodo foi morar com Bilbo.\nUma história triste que moldou o jovem Frodo.",
+          "imageUrl": "https://www.istockphoto.com/br/foto/retrato-de-um-homem-sorridente-de-meia-idade-com-um-cachimbo-na-boca-gm1297070039-390308210",
+          "imageDescription": "Retrato de um hobbit sorridente e amigável, representando um típico pai hobbit como Drogo."
+        },
+        {
+          "text": "Paladin Tûk",
+          "isCorrect": false,
+          "explanation": "Paladin Tûk foi o pai de Pippin e Thain do Condado.\nUma figura importante, mas da família Tûk, não Bolseiro direto de Frodo.\nCada família hobbit com seus patriarcas."
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "question": "Qual o nome do principal rio que atravessa a Floresta das Trevas, enfeitiçado em alguns trechos?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Anduin, o Grande Rio",
+          "isCorrect": false,
+          "explanation": "O Anduin é o maior rio da Terra-média, mas ele contorna a Floresta das Trevas pelo oeste.\nÉ palco de muitas viagens, mas não o rio enfeitiçado DENTRO da floresta.\nEsse é outro curso d'água com seus próprios perigos."
+        },
+        {
+          "text": "Rio Brandevin (Baranduin)",
+          "isCorrect": false,
+          "explanation": "O Brandevin é o rio que faz fronteira com o Condado, lar dos hobbits.\nMuito importante para eles, mas longe da Floresta das Trevas e seus feitiços.\nMais para barcos de hobbits do que para anões perdidos."
+        },
+        {
+          "text": "Rio da Floresta (Forest River)",
+          "isCorrect": true,
+          "explanation": "Exatamente! O Rio da Floresta corre da Floresta das Trevas até o Lago Comprido.\nOs anões e Bilbo tiveram uma péssima experiência ao cruzá-lo.\nCuidado para não cair na água e dormir por dias!",
+          "imageUrl": "https://www.shutterstock.com/image-photo/dark-river-flowing-through-enchanted-forest-2107784315",
+          "imageDescription": "Rio escuro fluindo por uma floresta encantada e sombria."
+        },
+        {
+          "text": "Corrente da Prata (Celebrant)",
+          "isCorrect": false,
+          "explanation": "A Corrente da Prata é um rio que desce das Montanhas Sombrias e se junta ao Anduin perto de Lothlórien.\nUm rio élfico, mas não o que causa problemas na Floresta das Trevas.\nCada rio com sua própria magia (ou maldição)."
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "question": "Qual é o título de Elrond em Valfenda?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Rei dos Elfos",
+          "isCorrect": false,
+          "explanation": "Elrond é um senhor élfico de grande poder e sabedoria, mas 'Rei dos Elfos' é um título mais amplo.\nThranduil é Rei na Floresta das Trevas, e houve Altos Reis dos Noldor.\nElrond é 'Senhor', o que já é bem importante."
+        },
+        {
+          "text": "Guardião do Anel Vermelho",
+          "isCorrect": false,
+          "explanation": "Elrond é, de fato, o guardião de Vilya, o Anel do Ar, um dos Três Anéis Élficos.\nMas este é um segredo e uma responsabilidade, não seu título público em Valfenda.\nEle não sai por aí se apresentando assim."
+        },
+        {
+          "text": "Senhor de Valfenda (Lord of Rivendell)",
+          "isCorrect": true,
+          "explanation": "Perfeito! Elrond é o Senhor de Valfenda, o mestre do Último Lar Acolhedor a Leste do Mar.\nUm refúgio de sabedoria, cura e história.\nE um ótimo lugar para um conselho decisivo.",
+          "imageUrl": "https://www.istockphoto.com/br/foto/homem-de-fantasia-com-cabelos-compridos-e-barba-em-um-manto-gm1199530092-343213916",
+          "imageDescription": "Homem de fantasia com longos cabelos e manto, representando um nobre senhor elfo como Elrond."
+        },
+        {
+          "text": "Mestre do Saber (Master of Lore)",
+          "isCorrect": false,
+          "explanation": "Elrond é, sem dúvida, um mestre do saber e da história antiga.\nMas seu título oficial em Valfenda é 'Senhor'.\n'Mestre do Saber' é mais uma descrição de suas qualidades."
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "question": "Em 'O Senhor dos Anéis', quem é o irmão de Boromir e filho mais novo de Denethor?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Aragorn",
+          "isCorrect": false,
+          "explanation": "Aragorn e Boromir tiveram seus desentendimentos, mas não eram irmãos de sangue.\nAragorn era o herdeiro do trono, Boromir o filho do Regente.\nRivais em certos aspectos, mas não parentes diretos."
+        },
+        {
+          "text": "Faramir",
+          "isCorrect": true,
+          "explanation": "Correto! Faramir é o irmão mais novo de Boromir, um capitão de Gondor mais introspectivo e sábio.\nMuitas vezes desvalorizado pelo pai em comparação com Boromir.\nMas provou seu valor e nobreza no final.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/fantasy-illustration-noble-warrior-thoughtful-1978700459",
+          "imageDescription": "Ilustração de um nobre guerreiro com expressão pensativa, representando Faramir."
+        },
+        {
+          "text": "Imrahil",
+          "isCorrect": false,
+          "explanation": "Imrahil é o Príncipe de Dol Amroth, cunhado de Denethor (irmão de sua falecida esposa Finduilas).\nEle é tio de Boromir e Faramir, não irmão.\nUma figura importante e nobre em Gondor."
+        },
+        {
+          "text": "Beregond",
+          "isCorrect": false,
+          "explanation": "Beregond é um guarda da Cidadela de Minas Tirith, leal a Faramir e Gandalf.\nUm homem de grande coragem, mas não da família do Regente.\nEle é mais um 'funcionário do mês' da guarda."
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "question": "Qual o nome da criatura alada que os Nazgûl cavalgam após perderem seus cavalos negros no Vau do Bruinen?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Dragões de Mordor",
+          "isCorrect": false,
+          "explanation": "Dragões são poderosos, mas os Nazgûl usavam algo mais... específico e horripilante.\nSauron tinha outras bestas aladas em seu arsenal.\nPense em algo mais reptiliano e menos cuspidor de fogo."
+        },
+        {
+          "text": "Grandes Águias das Sombras",
+          "isCorrect": false,
+          "explanation": "As Grandes Águias são inimigas de Sauron, não suas montarias!\nElas resgatam heróis, não carregam Espectros do Anel.\nTotalmente o time oposto, e com penas mais limpas."
+        },
+        {
+          "text": "Besta Alada (Fell Beast)",
+          "isCorrect": true,
+          "explanation": "Exatamente! As pavorosas Bestas Aladas, criaturas reptilianas voadoras com gritos aterrorizantes.\nUma 'melhoria' sinistra em relação aos cavalos para os Nazgûl.\nDefinitivamente não são animais de estimação fofinhos.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/pterodactyl-flying-sky-3d-rendering-1938008362",
+          "imageDescription": "Criatura voadora reptiliana, semelhante a um pterodátilo, representando a Besta Alada dos Nazgûl."
+        },
+        {
+          "text": "Grifos de Isengard",
+          "isCorrect": false,
+          "explanation": "Grifos são criaturas mitológicas nobres, metade águia, metade leão.\nNão há menção deles servindo aos Nazgûl ou a Isengard.\nEles têm um padrão de elegância muito superior."
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "question": "Qual o nome do anão da companhia de Thorin que era o mais velho e o último a morrer (exceto Thorin) na Batalha dos Cinco Exércitos?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Dwalin",
+          "isCorrect": false,
+          "explanation": "Dwalin viveu até uma idade muito avançada, um dos últimos sobreviventes da companhia de Thorin.\nMas a pergunta se refere aos que morreram NA batalha, além de Thorin.\nEle foi um dos sortudos que viu a vitória."
+        },
+        {
+          "text": "Balin",
+          "isCorrect": false,
+          "explanation": "Balin também sobreviveu à Batalha dos Cinco Exércitos e mais tarde liderou uma expedição para Moria.\nEle era mais velho e sábio, mas seu fim veio depois, em Moria.\nUma história triste para um anão tão querido."
+        },
+        {
+          "text": "Fíli e Kíli",
+          "isCorrect": false,
+          "explanation": "Fíli e Kíli, os sobrinhos de Thorin, morreram heroicamente defendendo seu tio na batalha.\nJovens e leais, mas não o 'mais velho' do grupo que caiu.\nUma perda trágica para a linhagem de Durin."
+        },
+        {
+          "text": "Bombur (em termos de ser o último a cair dos que morreram, além de Thorin, Fíli e Kíli)",
+          "isCorrect": true,
+          "explanation": "Aqui há uma pegadinha! Dos que morreram na batalha, Thorin, Fíli e Kíli são os mais destacados. Não há um 'mais velho' que morreu depois deles na batalha.\nBombur sobreviveu e ficou famoso por seu tamanho.\nSe a intenção era quem morreu heroicamente, Fíli e Kíli foram os últimos defendendo Thorin.",
+          "imageUrl": "https://www.istockphoto.com/br/foto/an%C3%A3o-guerreiro-com-machado-e-capacete-gm1303999920-395268025",
+          "imageDescription": "Guerreiro anão com machado e armadura, representando os anões na Batalha dos Cinco Exércitos."
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "question": "Quem proferiu a profecia sobre a queda do Rei Bruxo de Angmar, afirmando que 'não por mão de homem ele cairá'?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Gandalf, o Cinzento",
+          "isCorrect": false,
+          "explanation": "Gandalf conhecia muitas profecias e mistérios, mas esta específica é atribuída a outro.\nEle estava mais ocupado lutando e dando conselhos práticos.\nMas com certeza conhecia o teor da profecia."
+        },
+        {
+          "text": "Elrond de Valfenda",
+          "isCorrect": false,
+          "explanation": "Elrond, com sua vasta sabedoria e conhecimento do passado, era um mestre em lore.\nMas a autoria desta profecia em particular pertence a uma figura élfica ainda mais antiga.\nEle provavelmente a citou em algum momento."
+        },
+        {
+          "text": "Glorfindel",
+          "isCorrect": true,
+          "explanation": "Correto! Foi o lorde élfico Glorfindel quem fez essa profecia séculos antes, após a Batalha de Fornost.\nEle previu que o Rei Bruxo não seria morto por um homem.\nE ele estava certo, não é, Éowyn e Merry?",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/elf-lord-golden-hair-shining-1983447800",
+          "imageDescription": "Senhor élfico com cabelos dourados e aura brilhante, como Glorfindel."
+        },
+        {
+          "text": "Galadriel de Lothlórien",
+          "isCorrect": false,
+          "explanation": "Galadriel tinha o dom da visão e podia ver em seu espelho, mas esta profecia específica não é dela.\nEla tinha suas próprias preocupações e vislumbres do futuro.\nE provavelmente concordava com a previsão de Glorfindel."
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "question": "Qual o nome da 'Árvore Branca' que é símbolo de Gondor e que definhava em Minas Tirith até o retorno do Rei?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Telperion",
+          "isCorrect": false,
+          "explanation": "Telperion foi uma das Duas Árvores de Valinor, que davam luz ao mundo antes do Sol e da Lua.\nA Árvore Branca de Gondor é uma descendente distante, mas não a original.\nEssa seria uma relíquia e tanto!"
+        },
+        {
+          "text": "Laurelin",
+          "isCorrect": false,
+          "explanation": "Laurelin foi a outra das Duas Árvores de Valinor, a dourada. A Árvore Branca, como o nome sugere, tem outra ascendência.\nAmbas são lendárias, mas apenas uma inspirou o símbolo de Gondor.\nOuro e prata, luzes ancestrais."
+        },
+        {
+          "text": "Nimloth",
+          "isCorrect": true,
+          "explanation": "Acertou! A linhagem da Árvore Branca de Gondor remonta a Nimloth, a Árvore Branca de Númenor, que por sua vez era uma muda de Celeborn, uma árvore de Tol Eressëa, descendente de Telperion.\nUm símbolo de esperança e realeza que precisava de um bom jardineiro real.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/lone-white-tree-standing-field-2020085755",
+          "imageDescription": "Árvore branca solitária em um campo, simbolizando a Árvore Branca de Gondor."
+        },
+        {
+          "text": "Mallorn",
+          "isCorrect": false,
+          "explanation": "As árvores de Mallorn são famosas em Lothlórien, com suas folhas douradas.\nLindas e altas, mas a Árvore Branca de Gondor é de outra espécie.\nCada árvore com sua realeza e simbolismo."
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "question": "De qual dos Sete Anéis dos Anões Sauron NÃO conseguiu a posse direta, sendo este o último a ser recuperado por Thráin II e depois perdido para Gandalf?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "O Anel de Thrór",
+          "isCorrect": true,
+          "explanation": "Corretíssimo! Este era o principal dos Sete Anéis dos Anões, o Anel da Casa de Durin. Sauron o tomou de Thrór em Moria, mas Thráin II o recuperou. Gandalf o encontrou com Thráin nas masmorras de Dol Guldur e o guardou até dá-lo a Thorin (indiretamente, com o mapa e a chave).\nSauron recuperou três, e os dragões consumiram os outros quatro.",
+          "imageUrl": "https://www.istockphoto.com/br/foto/close-up-de-um-anel-de-ouro-com-pedra-preciosa-vermelha-em-uma-superf%C3%ADcie-de-madeira-gm1296300387-389789174",
+          "imageDescription": "Anel de ouro com pedra preciosa, representando um dos anéis de poder dos anões."
+        },
+        {
+          "text": "O Anel dado à Casa de Fundin",
+          "isCorrect": false,
+          "explanation": "Sauron conseguiu reaver três dos Sete Anéis diretamente. Os outros quatro foram consumidos por dragões.\nA história do Anel de Thrór é a mais detalhada quanto à sua jornada.\nEste é um detalhe para os verdadeiros estudiosos!"
+        },
+        {
+          "text": "Um dos quatro anéis consumidos por dragões",
+          "isCorrect": false,
+          "explanation": "Se foi consumido por um dragão, Sauron não o teve de volta.\nA pergunta foca no anel que Sauron NÃO conseguiu reaver diretamente, e que teve uma história conhecida.\nDragões têm um apetite peculiar por joias."
+        },
+        {
+          "text": "Um dos três anéis que Sauron recapturou",
+          "isCorrect": false,
+          "explanation": "Se Sauron o recapturou, então ele conseguiu a posse direta.\nA questão é sobre o anel que escapou de seu controle final por mais tempo.\nEsse anel específico teve uma 'aventura' particular."
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "question": "Quem foi o Elfo que, junto com Beren (um mortal), recuperou uma Silmaril da coroa de Morgoth na Primeira Era?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Finrod Felagund",
+          "isCorrect": false,
+          "explanation": "Finrod Felagund ajudou Beren em sua demanda e morreu nas masmorras de Sauron por ele.\nUm ato de lealdade e amizade imenso, mas ele não foi quem fisicamente pegou a Silmaril com Beren.\nSua ajuda foi crucial, mas de outra forma."
+        },
+        {
+          "text": "Thingol",
+          "isCorrect": false,
+          "explanation": "Thingol, Rei de Doriath e pai de Lúthien, foi quem IMPÔS a Beren a tarefa de buscar uma Silmaril.\nEle não foi junto na missão, apenas esperou (impacientemente) o resultado.\nUm sogro bem exigente, digamos."
+        },
+        {
+          "text": "Lúthien Tinúviel",
+          "isCorrect": true,
+          "explanation": "Correto! Foi Lúthien Tinúviel, filha de Thingol e Melian, a Maia, quem acompanhou Beren.\nCom sua magia e canção, ela adormeceu Morgoth e seus servos, permitindo que Beren cortasse a Silmaril.\nUma história de amor e coragem épica!",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/fantasy-elf-princess-magical-forest-2077891271",
+          "imageDescription": "Princesa elfa em uma floresta mágica, representando a beleza e poder de Lúthien."
+        },
+        {
+          "text": "Celegorm",
+          "isCorrect": false,
+          "explanation": "Celegorm, um dos filhos de Fëanor, inicialmente 'ajudou' Beren e Lúthien, mas depois os traiu.\nEle estava mais interessado na Silmaril para si mesmo, devido ao juramento.\nDefinitivamente não era um companheiro confiável para essa missão."
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "question": "Qual o nome do lobo (warg) chefe que ataca a Companhia de Thorin na clareira onde são salvos pelas Águias em 'O Hobbit'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Carcharoth",
+          "isCorrect": false,
+          "explanation": "Carcharoth, o Lobo Vermelho, foi o maior lobo que já existiu, guardião dos portões de Angband na Primeira Era.\nUma criatura de terror ancestral, bem mais assustadora que os wargs das Montanhas Sombrias.\nOs wargs comuns seriam cachorrinhos perto dele."
+        },
+        {
+          "text": "Draugluin",
+          "isCorrect": false,
+          "explanation": "Draugluin foi o pai dos lobisomens de Angband na Primeira Era, servo de Sauron (e antes de Morgoth).\nOutra lenda do passado sombrio. Os wargs de 'O Hobbit' são seus 'primos pobres'.\nMenos pedigree, mas ainda assim perigosos."
+        },
+        {
+          "text": "O Grande Goblin",
+          "isCorrect": false,
+          "explanation": "O Grande Goblin era o líder dos goblins nas Montanhas Sombrias, morto por Gandalf.\nEle comandava goblins, não wargs (embora pudessem ser aliados ocasionais).\nCada um no seu quadrado (ou caverna/floresta)."
+        },
+        {
+          "text": "Não é nomeado um chefe Warg específico neste encontro.",
+          "isCorrect": true,
+          "explanation": "Exatamente! Embora os wargs sejam liderados e ajam em conjunto com os goblins, nenhum chefe warg específico é nomeado neste incidente.\nEles são uma ameaça coletiva, mas sem um 'chefão' canino destacado ali.\nTalvez o líder estivesse de folga nesse dia.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/group-dire-wolves-attacking-snowy-1906536325",
+          "imageDescription": "Grupo de lobos selvagens em um ataque, representando os Wargs."
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "question": "Qual é o nome da região natal dos Hobbits?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Rohan",
+          "isCorrect": false,
+          "explanation": "Rohan é a terra dos Senhores dos Cavalos, planícies vastas e ventosas.\nHobbits preferem tocas confortáveis e jardins, não tanto cavalgar em batalhas.\nEles apreciam um bom pasto, mas para ovelhas, não para cavalos de guerra."
+        },
+        {
+          "text": "Gondor",
+          "isCorrect": false,
+          "explanation": "Gondor é o reino dos homens do sul, com cidades de pedra e longas linhagens de reis.\nHobbits são mais simples e menos preocupados com coroas e grandes monumentos.\nA menos que seja um monumento de queijo."
+        },
+        {
+          "text": "O Condado (The Shire)",
+          "isCorrect": true,
+          "explanation": "Acertou em cheio! O Condado, com suas colinas verdes, tocas aconchegantes e tavernas amigáveis.\nO lugar perfeito para um Hobbit desfrutar de suas seis refeições diárias em paz.\nLar é onde o coração (e o estômago) está.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/idyllic-rural-landscape-rolling-hills-green-2008394189",
+          "imageDescription": "Paisagem rural idílica com colinas verdes e pequenas casas, representando o Condado."
+        },
+        {
+          "text": "Mordor",
+          "isCorrect": false,
+          "explanation": "Mordor?! Definitivamente não! Terra de sombras, cinzas e um Olho gigante que tudo vê.\nO completo oposto do que um Hobbit consideraria um 'lar doce lar'.\nA menos que gostem de férias bem... quentes e opressivas."
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "question": "Quem matou o dragão Smaug em 'O Hobbit'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Bilbo Bolseiro",
+          "isCorrect": false,
+          "explanation": "Bilbo foi muito corajoso e descobriu o ponto fraco de Smaug, o que foi crucial!\nMas o golpe final, a flecha certeira, veio de outro herói.\nBilbo era mais o 'espião' da operação."
+        },
+        {
+          "text": "Gandalf",
+          "isCorrect": false,
+          "explanation": "Gandalf ajudou a organizar a expedição e deu conselhos valiosos.\nMas na hora H da luta contra Smaug, ele estava ocupado com outros 'assuntos urgentes' (lê-se: Necromante).\nEle delegou a tarefa do dragão."
+        },
+        {
+          "text": "Thorin Escudo de Carvalho",
+          "isCorrect": false,
+          "explanation": "Thorin queria muito seu tesouro de volta e lutou bravamente na Batalha dos Cinco Exércitos.\nMas Smaug já tinha sido derrotado antes disso, por um arqueiro da Cidade do Lago.\nThorin teve outros dragões (metafóricos) para enfrentar."
+        },
+        {
+          "text": "Bard, o Arqueiro",
+          "isCorrect": true,
+          "explanation": "Correto! Bard, um descendente dos Senhores de Valle, acertou a Flecha Negra no ponto fraco de Smaug.\nUm tiro heroico que salvou a Cidade do Lago da destruição completa.\nPrecisão e coragem em uma só flechada!",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/archer-aiming-bow-arrow-flying-2099495384",
+          "imageDescription": "Arqueiro mirando com arco e flecha em direção a um dragão voador."
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "question": "Qual é o nome da espada que Bilbo encontra na caverna dos Trolls e depois dá a Frodo?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Glamdring",
+          "isCorrect": false,
+          "explanation": "Glamdring foi encontrada na mesma caverna, mas ficou com Gandalf.\nUma espada de rei, um pouco grande para um Hobbit manusear com destreza.\nMelhor deixar as espadas maiores para os magos."
+        },
+        {
+          "text": "Orcrist",
+          "isCorrect": false,
+          "explanation": "Orcrist, a 'Fende-Orcs', também veio do tesouro dos Trolls, e foi usada por Thorin.\nOutra lâmina élfica famosa, mas não a que coube a Bilbo e Frodo.\nCada herói com sua arma de estimação."
+        },
+        {
+          "text": "Ferroada (Sting)",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! Ferroada, uma adaga élfica que brilha azul na presença de Orcs.\nPerfeita para um Hobbit, e muito útil em diversas situações apertadas.\nPequena, mas perigosa!",
+          "imageUrl": "https://www.shutterstock.com/image-photo/elven-dagger-glowing-blue-runes-1935020752",
+          "imageDescription": "Adaga élfica com runas brilhando em azul, representando Ferroada."
+        },
+        {
+          "text": "Andúril",
+          "isCorrect": false,
+          "explanation": "Andúril, a Chama do Oeste, é a espada de Aragorn, reforjada de Narsil.\nUma espada de reis, com uma história muito mais longa e grandiosa.\nFerroada é mais... portátil."
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "question": "Qual dos seguintes personagens NÃO é um Hobbit?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Samwise Gamgee",
+          "isCorrect": false,
+          "explanation": "Sam é o arquétipo do amigo leal Hobbit! Jardineiro, cozinheiro e o verdadeiro herói de muitas partes da história.\nSe ele não é um Hobbit, então o Condado é uma farsa!\nCom certeza um Hobbit de primeira."
+        },
+        {
+          "text": "Peregrin Tûk (Pippin)",
+          "isCorrect": false,
+          "explanation": "Pippin, o Tûk curioso e muitas vezes causador de problemas (adoráveis).\nUm Hobbit clássico, com um gosto por aventuras (e segundos cafés da manhã).\nTotalmente Hobbit!"
+        },
+        {
+          "text": "Meriadoc Brandebuque (Merry)",
+          "isCorrect": false,
+          "explanation": "Merry, o inteligente e engenhoso amigo de Frodo.\nConhecedor de cogumelos e pronto para a luta quando necessário.\nUm Hobbit de respeito e astúcia."
+        },
+        {
+          "text": "Beregond",
+          "isCorrect": true,
+          "explanation": "Correto! Beregond é um Homem de Gondor, um guarda da Cidadela de Minas Tirith.\nAlto, corajoso e leal a Faramir, mas definitivamente não tem pés peludos.\nEle prefere botas a andar descalço.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/knight-armor-standing-guard-castle-2020085834",
+          "imageDescription": "Cavaleiro em armadura de guarda em um castelo, representando um homem de Gondor como Beregond."
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "question": "Qual é o nome do item que os anões mais desejam recuperar de Smaug, além do ouro, conhecido como o 'Coração da Montanha'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "O Colar dos Anões (Nauglamír)",
+          "isCorrect": false,
+          "explanation": "O Nauglamír é uma joia lendária da Primeira Era, feita por anões e elfos, que continha uma Silmaril.\nUma relíquia incrível, mas não o que Thorin buscava em Erebor.\nEsse colar tem sua própria história trágica."
+        },
+        {
+          "text": "A Pedra Arken (Arkenstone)",
+          "isCorrect": true,
+          "explanation": "Exatamente! A Pedra Arken, uma grande gema branca que brilhava com luz própria.\nO símbolo da realeza dos anões de Erebor e o objeto de maior desejo de Thorin.\nMais valiosa que todo o ouro para ele.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/large-faceted-white-gemstone-glowing-1983447900",
+          "imageDescription": "Grande gema branca facetada brilhando com luz interna, representando a Pedra Arken."
+        },
+        {
+          "text": "Um dos Sete Anéis dos Anões",
+          "isCorrect": false,
+          "explanation": "Os Sete Anéis foram dados aos senhores anões, e o de Thrór (avô de Thorin) foi tomado por Sauron.\nEmbora importante, a Pedra Arken era o foco principal da missão em Erebor.\nRecuperar o Anel seria outra aventura (e bem mais perigosa)."
+        },
+        {
+          "text": "O Machado de Durin",
+          "isCorrect": false,
+          "explanation": "O Machado de Durin era uma relíquia importante dos anões, mas não o 'Coração da Montanha'.\nArmas são importantes, mas a Pedra Arken tinha um valor simbólico e místico maior.\nCada tesouro com seu valor específico."
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "question": "Quem é o personagem que diz a famosa frase: 'Você não pode passar!' (You shall not pass!) na ponte de Khazad-dûm?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Aragorn",
+          "isCorrect": false,
+          "explanation": "Aragorn teve muitos momentos heroicos, mas esta frase icônica pertence a outro membro da Sociedade.\nEle estava mais ocupado garantindo que os hobbits ficassem seguros.\nE, provavelmente, pensando: 'Ainda bem que não sou eu ali!'"
+        },
+        {
+          "text": "Frodo Bolseiro",
+          "isCorrect": false,
+          "explanation": "Frodo carregava o fardo do Anel, uma tarefa gigantesca por si só.\nEnfrentar um Balrog estava um pouco acima de suas habilidades de combate na época.\nEle estava mais para 'Por favor, não me note!'"
+        },
+        {
+          "text": "Gandalf, o Cinzento",
+          "isCorrect": true,
+          "explanation": "Corretíssimo! Gandalf, em um dos momentos mais épicos, enfrenta o Balrog para proteger os outros.\nUma frase que ecoou pela Terra-média e pelos cinemas.\nDefinitivamente, um mago que sabe como fazer uma saída dramática.",
+          "imageUrl": "https://www.gettyimages.com.br/detail/foto/wizard-with-staff-and-sword-confronting-fire-royalty-free-imagem/1302124348",
+          "imageDescription": "Mago com cajado e espada enfrentando uma criatura de fogo em uma ponte estreita."
+        },
+        {
+          "text": "Legolas",
+          "isCorrect": false,
+          "explanation": "Legolas e suas flechas são incríveis, mas parar um Balrog exige um tipo diferente de magia.\nEle provavelmente estava pensando: 'Minhas flechas não vão fazer nem cócegas nisso aí!'\nMelhor deixar para o especialista em demônios antigos."
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "question": "Qual é o nome da esposa de Tom Bombadil, que adora nenúfares?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Galadriel",
+          "isCorrect": false,
+          "explanation": "Galadriel é a Senhora de Lórien, uma elfa de grande poder e beleza.\nTom Bombadil é um mistério, mas sua esposa não é a rainha élfica.\nEles vivem em mundos (e florestas) diferentes."
+        },
+        {
+          "text": "Arwen Undómiel",
+          "isCorrect": false,
+          "explanation": "Arwen é a Estrela Vespertina dos Elfos, prometida a Aragorn.\nSua história de amor é central, mas não envolve Tom Bombadil.\nA menos que Tom tenha sido um cupido secreto, o que é improvável."
+        },
+        {
+          "text": "Fruta d'Ouro (Goldberry)",
+          "isCorrect": true,
+          "explanation": "Perfeito! Fruta d'Ouro, a Filha do Rio, é a amada esposa de Tom Bombadil.\nCom sua canção e amor por flores aquáticas, ela encanta os hobbits.\nUm casal bem peculiar e mágico.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/beautiful-river-nymph-surrounded-by-water-1983448000",
+          "imageDescription": "Bela ninfa de rio cercada por nenúfares e flores aquáticas, representando Fruta d'Ouro."
+        },
+        {
+          "text": "Rosinha Villa (Rosie Cotton)",
+          "isCorrect": false,
+          "explanation": "Rosinha é a amada de Sam Gamgee, uma hobbit do Condado.\nEla se casa com Sam depois de suas aventuras, mas não tem nada a ver com o velho Tom.\nCada herói com sua respectiva amada."
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "question": "Qual cidade é conhecida como a 'Cidade dos Corsários' e é um reduto de inimigos de Gondor?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Osgiliath",
+          "isCorrect": false,
+          "explanation": "Osgiliath foi a antiga capital de Gondor, dividida pelo rio Anduin.\nEmbora tenha sido palco de muitas batalhas, não era a base principal dos Corsários.\nEla era mais 'vítima' do que 'covil'."
+        },
+        {
+          "text": "Pelargir",
+          "isCorrect": false,
+          "explanation": "Pelargir é um grande porto de Gondor, leal ao reino (na maior parte do tempo).\nAragorn o liberta dos Corsários com o Exército dos Mortos.\nEntão, é mais um 'porto libertado' do que 'cidade dos corsários'."
+        },
+        {
+          "text": "Umbar",
+          "isCorrect": true,
+          "explanation": "Correto! Umbar, ao sul de Gondor, era o principal refúgio e base de operações dos Corsários.\nInimigos de longa data de Gondor, com seus navios negros e temíveis.\nUm lugar onde é melhor não ancorar sem convite.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/pirate-ship-sailing-stormy-sea-near-2008009800",
+          "imageDescription": "Navio pirata navegando em mar tempestuoso perto de uma cidade portuária fortificada, representando Umbar."
+        },
+        {
+          "text": "Dol Amroth",
+          "isCorrect": false,
+          "explanation": "Dol Amroth é uma cidade portuária nobre de Gondor, famosa por seus cavaleiros e seu príncipe, Imrahil.\nEles lutam CONTRA os Corsários, não são eles.\nUm bastião de lealdade e bravura."
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "question": "De que material é feita a cota de malha que Thorin dá a Bilbo em 'O Hobbit', que mais tarde salva a vida de Frodo?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Aço de Gondor",
+          "isCorrect": false,
+          "explanation": "Aço de Gondor é de excelente qualidade, mas esta cota de malha específica tinha uma origem ainda mais exótica e valiosa.\nPense em algo mais leve e resistente que o aço comum.\nE com um brilho especial."
+        },
+        {
+          "text": "Ferro negro de Mordor",
+          "isCorrect": false,
+          "explanation": "Ferro de Mordor? Bilbo e Frodo jamais usariam algo vindo do Inimigo!\nAlém disso, provavelmente seria pesado e desconfortável.\nE com uma péssima reputação."
+        },
+        {
+          "text": "Mithril",
+          "isCorrect": true,
+          "explanation": "Acertou! Uma cota de malha de anéis de Mithril, leve como uma pluma e resistente como escamas de dragão.\nUm tesouro real que valia mais que o Condado inteiro!\nSorte de Frodo tê-la quando enfrentou o troll da caverna.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/close-chainmail-shirt-made-mithril-1958345789",
+          "imageDescription": "Close-up de uma cota de malha brilhante e prateada, representando o Mithril."
+        },
+        {
+          "text": "Escamas de dragão",
+          "isCorrect": false,
+          "explanation": "Embora resistente como escamas de dragão, não era feita delas (até onde sabemos).\nMithril é um metal raro e precioso extraído pelos anões.\nE provavelmente mais confortável de usar do que escamas reais."
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "question": "Qual o nome do campo de batalha onde ocorre o clímax da Guerra do Anel, em frente ao Portão Negro de Mordor?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Campos do Pelennor",
+          "isCorrect": false,
+          "explanation": "Os Campos do Pelennor foram palco de uma batalha gigantesca e crucial, que salvou Minas Tirith.\nMas a distração final, o último confronto desesperado, aconteceu em outro lugar.\nEssa foi a 'semi-final', por assim dizer."
+        },
+        {
+          "text": "Abismo de Helm",
+          "isCorrect": false,
+          "explanation": "A Batalha do Abismo de Helm foi uma vitória importante para Rohan contra as forças de Saruman.\nMas isso aconteceu bem antes do confronto final em Mordor.\nUma batalha defensiva, não o ataque ao coração do inimigo."
+        },
+        {
+          "text": "O Morannon (Portão Negro)",
+          "isCorrect": true,
+          "explanation": "Exatamente! A Batalha do Morannon foi o confronto desesperado dos exércitos do Oeste contra as hostes de Sauron.\nUma manobra para distrair o Olho de Frodo e Sam.\nOnde Aragorn fez seu discurso inspirador e lutou como um rei.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/epic-battle-scene-front-dark-gate-2107784400",
+          "imageDescription": "Cena de batalha épica em frente a um portão escuro e imponente, representando o Morannon."
+        },
+        {
+          "text": "Dagorlad (Campos de Batalha)",
+          "isCorrect": false,
+          "explanation": "Dagorlad foi o local da grande batalha da Última Aliança, séculos antes.\nUm campo historicamente importante, mas não o palco da batalha final da Guerra do Anel.\nOutra era, outra guerra, mesmo inimigo (em espírito)."
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "question": "Qual o nome do item que os anões usam para ler o mapa de Thrór que mostra a entrada secreta em Erebor?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Uma Palantír",
+          "isCorrect": false,
+          "explanation": "Palantíri são pedras videntes, usadas para comunicação e observação à distância.\nÚteis, mas não para decifrar runas lunares em um mapa antigo.\nE um pouco perigosas de se usar sem cuidado."
+        },
+        {
+          "text": "A luz de uma estrela específica",
+          "isCorrect": false,
+          "explanation": "Embora a luz das estrelas seja importante para os elfos, o mapa dos anões precisava de uma condição lunar específica.\nNão qualquer estrela, mas a lua em uma determinada fase.\nAnões e suas preferências celestiais."
+        },
+        {
+          "text": "Runas lunares (Moon-letters)",
+          "isCorrect": true,
+          "explanation": "Correto! O mapa continha runas lunares, que só podiam ser lidas sob a mesma lua e estação em que foram escritas.\nElrond ajudou a decifrá-las em Valfenda.\nUm segredo bem guardado e uma bela caligrafia celestial.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/ancient-map-glowing-runes-under-1998900530",
+          "imageDescription": "Mapa antigo com runas brilhando sob a luz da lua."
+        },
+        {
+          "text": "Um feitiço de Gandalf",
+          "isCorrect": false,
+          "explanation": "Gandalf é cheio de truques, mas as runas lunares tinham suas próprias regras.\nEle ajudou a identificar as condições, mas a magia estava na escrita.\nNem tudo se resolve com um 'abracadabra'."
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "question": "Quem se torna o novo Regente de Gondor após a morte de Denethor e antes da coroação de Aragorn?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Faramir",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! Faramir, após se recuperar de seus ferimentos e da loucura de seu pai, assume como Regente.\nEle governa com sabedoria e humildade até a chegada do Rei Elessar.\nUm bom líder interino, com certeza.",
+          "imageUrl": "https://www.gettyimages.com.br/detail/foto/thoughtful-medieval-nobleman-in-study-royalty-free-imagem/1302124400",
+          "imageDescription": "Nobre medieval pensativo em um estudo, representando Faramir como Regente."
+        },
+        {
+          "text": "Imrahil, Príncipe de Dol Amroth",
+          "isCorrect": false,
+          "explanation": "Imrahil assume o comando de Minas Tirith temporariamente quando Denethor enlouquece e Faramir está ferido.\nMas Faramir, como filho do Regente anterior, é quem formalmente assume a Regência depois.\nUma linha de sucessão respeitada."
+        },
+        {
+          "text": "Gandalf, o Branco",
+          "isCorrect": false,
+          "explanation": "Gandalf era o principal estrategista e conselheiro, mas não assumiu o título de Regente.\nEle estava mais focado em garantir que houvesse um Gondor para ser regido.\nE em preparar o caminho para o Rei."
+        },
+        {
+          "text": "Aragorn, secretamente",
+          "isCorrect": false,
+          "explanation": "Aragorn estava liderando os exércitos e provando seu direito ao trono.\nEle não assumiu a Regência, mas esperou ser coroado Rei após a vitória final.\nCada coisa a seu tempo."
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "question": "Qual o nome da aranha monstruosa, descendente de Ungoliant, que guarda uma passagem para Mordor?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Ungoliant",
+          "isCorrect": false,
+          "explanation": "Ungoliant era a mãe de todas as aranhas gigantes, uma entidade de escuridão da Primeira Era.\nA aranha que Frodo e Sam encontram é sua 'filhinha' distante.\nTal mãe, tal filha (em termos de apetite e terror)."
+        },
+        {
+          "text": "Laracna (Shelob)",
+          "isCorrect": true,
+          "explanation": "Exato! Laracna (Shelob em inglês) é a última grande cria de Ungoliant na Terra-média.\nEla habita seu covil perto de Cirith Ungol, sempre faminta.\nUm encontro nada agradável para os hobbits.",
+          "imageUrl": "https://www.istockphoto.com/br/foto/aranha-monstro-gigante-na-floresta-escura-gm1303999980-395268045",
+          "imageDescription": "Aranha monstro gigante em uma teia em uma floresta escura, representando Laracna."
+        },
+        {
+          "text": "Nindalf",
+          "isCorrect": false,
+          "explanation": "Nindalf, ou 'Campos Molhados', é uma região pantanosa, não uma aranha.\nA menos que seja uma aranha muito, muito bem camuflada no pântano!\nMas não, Laracna prefere cavernas escuras."
+        },
+        {
+          "text": "Gorgoroth",
+          "isCorrect": false,
+          "explanation": "Gorgoroth é uma vasta planície desolada em Mordor, não uma criatura.\nEmbora seja um lugar horrível, não tem oito patas e um veneno paralisante.\nPelo menos, não que saibamos."
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "question": "Qual é o nome da fortaleza de Saruman, onde ele cria seu exército de Uruk-hai?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Barad-dûr",
+          "isCorrect": false,
+          "explanation": "Barad-dûr é a Torre Escura de Sauron em Mordor, o quartel-general do mal.\nSaruman era um 'tenente' com sua própria base de operações.\nCada vilão com sua fortaleza sinistra."
+        },
+        {
+          "text": "Minas Morgul",
+          "isCorrect": false,
+          "explanation": "Minas Morgul, a 'Torre da Feitiçaria', era a fortaleza do Rei Bruxo de Angmar.\nOutro lugar terrível, mas não o lar de Saruman e seus Uruk-hai.\nSaruman preferia um visual mais... industrial."
+        },
+        {
+          "text": "Isengard (Angrenost)",
+          "isCorrect": true,
+          "explanation": "Corretíssimo! Isengard, com sua torre de Orthanc no centro, foi onde Saruman se estabeleceu.\nEle transformou o vale verdejante em uma fornalha industrial para seus exércitos.\nUm péssimo vizinho para Rohan.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/dark-fortress-tower-surrounded-by-2099495500",
+          "imageDescription": "Fortaleza escura com uma torre central, cercada por atividade industrial, representando Isengard."
+        },
+        {
+          "text": "Dol Guldur",
+          "isCorrect": false,
+          "explanation": "Dol Guldur, na Floresta das Trevas, foi uma fortaleza de Sauron (quando ele era conhecido como o Necromante).\nSaruman teve sua participação em expulsá-lo de lá, mas sua base principal era Isengard.\nEle gostava de ter seu próprio espaço para 'projetos'."
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "question": "Qual o nome do elfo que fundou o reino escondido de Gondolin na Primeira Era?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Fëanor",
+          "isCorrect": false,
+          "explanation": "Fëanor foi o criador das Silmarils e um dos elfos mais poderosos e problemáticos.\nEle liderou os Noldor de volta à Terra-média, mas Gondolin foi obra de outro.\nFëanor estava mais ocupado com juramentos e vingança."
+        },
+        {
+          "text": "Finrod Felagund",
+          "isCorrect": false,
+          "explanation": "Finrod Felagund fundou Nargothrond, outra grande cidade élfica escondida.\nAmigo dos homens e um rei sábio, mas Gondolin tinha outro arquiteto.\nCada rei com sua cidade secreta."
+        },
+        {
+          "text": "Turgon",
+          "isCorrect": true,
+          "explanation": "Exato! Turgon, filho de Fingolfin, foi guiado por Ulmo para fundar Gondolin nas Montanhas Circundantes.\nA mais bela e poderosa das cidades élficas na Terra-média, até sua trágica queda.\nUm refúgio de esperança por muito tempo.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/hidden-city-valley-surrounded-by-1983448100",
+          "imageDescription": "Cidade escondida em um vale cercado por montanhas imponentes, representando Gondolin."
+        },
+        {
+          "text": "Thingol",
+          "isCorrect": false,
+          "explanation": "Thingol (Elu Thingol) foi o rei de Doriath, outro reino élfico protegido, mas por um cinturão mágico (o Cinturão de Melian).\nGondolin era fisicamente escondida, uma obra de engenharia e segredo.\nCada um com seu método de proteção."
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "question": "Qual dos hobbits da Sociedade do Anel se torna Thain do Condado após a Guerra do Anel?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Frodo Bolseiro",
+          "isCorrect": false,
+          "explanation": "Frodo retorna ao Condado como um herói, mas suas feridas (físicas e espirituais) são profundas.\nEle parte para Valinor em busca de cura, não assume cargos políticos.\nSua jornada havia realmente terminado na Terra-média."
+        },
+        {
+          "text": "Samwise Gamgee",
+          "isCorrect": false,
+          "explanation": "Sam se torna Prefeito do Condado por muitos mandatos, uma figura muito amada e respeitada.\nEle restaura a beleza do Condado com o presente de Galadriel.\nMas o cargo de Thain é hereditário e pertence a outra família."
+        },
+        {
+          "text": "Meriadoc Brandebuque (Merry)",
+          "isCorrect": false,
+          "explanation": "Merry se torna Senhor dos Brandebuques, na Terra dos Buques, uma posição de grande honra e responsabilidade.\nEle também escreve obras sobre história e ervas.\nMas o Thain é dos Tûks."
+        },
+        {
+          "text": "Peregrin Tûk (Pippin)",
+          "isCorrect": true,
+          "explanation": "Corretíssimo! Pippin, após suas aventuras e seu serviço em Gondor, retorna e eventualmente se torna o Thain do Condado.\nUm título de grande prestígio entre os hobbits, herdado de seu pai.\nDe encrenqueiro a líder respeitado!",
+          "imageUrl": "https://www.istockphoto.com/br/foto/hobbit-alegre-em-traje-tradicional-com-um-cachimbo-gm1304000000-395268050",
+          "imageDescription": "Hobbit alegre em traje tradicional com um cachimbo, representando Pippin como Thain."
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "question": "Qual o nome do estandarte que Arwen borda para Aragorn, revelado antes da Batalha dos Campos do Pelennor?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "O Estandarte da Árvore Branca",
+          "isCorrect": false,
+          "explanation": "A Árvore Branca já é o símbolo de Gondor, presente em seus estandartes tradicionais.\nO que Arwen fez foi algo pessoal para Aragorn, simbolizando sua linhagem e destino.\nUm toque mais... real e élfico."
+        },
+        {
+          "text": "O Estandarte de Elendil (com a Árvore Branca e as Sete Estrelas)",
+          "isCorrect": true,
+          "explanation": "Perfeito! Arwen bordou o antigo estandarte de Elendil: uma Árvore Branca florescendo sob uma coroa de Sete Estrelas.\nSimbolizava a renovação do reino e a linhagem de Aragorn.\nUm presente que inspirou esperança e mostrou quem era o chefe.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/royal-banner-white-tree-seven-2008009900",
+          "imageDescription": "Estandarte real com uma árvore branca e sete estrelas sob uma coroa."
+        },
+        {
+          "text": "O Estandarte da Estrela Vespertina",
+          "isCorrect": false,
+          "explanation": "A Estrela Vespertina (Undómiel) é o título de Arwen. Seria um estandarte sobre si mesma.\nEmbora ela fosse sua inspiração, o estandarte focava na herança e no destino de Aragorn como rei.\nMas com certeza tinha o 'selo de aprovação' dela."
+        },
+        {
+          "text": "O Estandarte do Cavalo Branco de Rohan",
+          "isCorrect": false,
+          "explanation": "O Cavalo Branco é o símbolo de Rohan, não de Gondor ou da linhagem de Aragorn.\nAragorn lutou ao lado de Rohan, mas seu destino era o trono de Gondor.\nCada reino com seu animal heráldico."
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "question": "Qual dos Valar foi o responsável principal pela criação dos Anões?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Manwë Súlimo",
+          "isCorrect": false,
+          "explanation": "Manwë é o Rei dos Valar, Senhor dos Ventos, mas a criação dos Anões foi iniciativa de outro Vala.\nEle aprovou depois, mas a 'ideia original' não foi dele.\nEle estava mais preocupado com as águias e a música."
+        },
+        {
+          "text": "Ulmo, Senhor das Águas",
+          "isCorrect": false,
+          "explanation": "Ulmo se preocupava profundamente com os Filhos de Eru (Elfos e Homens) e intervinha através das águas.\nA criação dos Anões, no entanto, não está em seu portfólio.\nEle preferia a fluidez à dureza da pedra."
+        },
+        {
+          "text": "Aulë, o Ferreiro",
+          "isCorrect": true,
+          "explanation": "Exato! Aulë, o Ferreiro dos Valar, impaciente pela chegada dos Filhos de Eru, criou os Sete Pais dos Anões em segredo.\nEru Ilúvatar os santificou e lhes deu vida própria, mas adormeceu-os até a chegada dos Elfos.\nUm artesão que não aguentou esperar!",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/powerful-blacksmith-god-forging-dwarves-2107784500",
+          "imageDescription": "Poderoso deus ferreiro em sua forja, criando figuras anãs, representando Aulë."
+        },
+        {
+          "text": "Morgoth Bauglir",
+          "isCorrect": false,
+          "explanation": "Morgoth corrompia e imitava, mas não podia criar vida verdadeira.\nEle fez os Orcs como uma zombaria aos Elfos, por exemplo.\nOs Anões são uma criação original de Aulë, abençoada por Eru."
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "question": "Qual o nome do lugar onde Lúthien Tinúviel renunciou à sua imortalidade para compartilhar uma vida mortal com Beren, e onde ambos foram sepultados?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Tol Eressëa, a Ilha Solitária",
+          "isCorrect": false,
+          "explanation": "Tol Eressëa é a ilha onde muitos Eldar foram viver, perto de Valinor.\nUm lugar de bênção e paz, mas não o local da segunda vida e morte de Beren e Lúthien.\nEles escolheram um destino diferente na Terra-média."
+        },
+        {
+          "text": "Doriath, o Reino Guardado",
+          "isCorrect": false,
+          "explanation": "Doriath foi o reino de Thingol, pai de Lúthien. Ela viveu lá, mas sua vida com Beren e seu local de descanso final foram em outro lugar.\nApós muitas tristezas, Doriath também teve seu fim.\nO passado ficou para trás."
+        },
+        {
+          "text": "Tol Galen, a Ilha Verde, no rio Adurant em Ossiriand",
+          "isCorrect": true,
+          "explanation": "Corretíssimo! Após retornarem da morte por um tempo, Beren e Lúthien viveram em Tol Galen, a Ilha Verde, em Ossiriand.\nAli tiveram seu filho Dior Aranel, e ali foram sepultados juntos.\nUm lugar de beleza e amor eterno.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/fantasy-island-lush-greenery-river-2077891350",
+          "imageDescription": "Ilha de fantasia com vegetação exuberante em um rio, representando Tol Galen."
+        },
+        {
+          "text": "Valfenda (Rivendell)",
+          "isCorrect": false,
+          "explanation": "Valfenda foi fundada muito depois, na Segunda Era, por Elrond.\nBeren e Lúthien são heróis da Primeira Era. Suas histórias são antigas até para Elrond.\nEles viveram e morreram em uma Terra-média muito diferente."
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "question": "Qual o nome do rio que Frodo atravessa a cavalo, perseguido pelos Nazgûl, para chegar a Valfenda, onde as águas se levantam para varrê-los?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Anduin",
+          "isCorrect": false,
+          "explanation": "O Anduin é um rio muito maior e mais ao leste. Frodo o cruza bem depois, com a Sociedade.\nAquele momento de 'fuga aquática' aconteceu em um rio menor, mas com magia élfica potente!\nUm banho forçado para os Nazgûl."
+        },
+        {
+          "text": "Brandevin (Baranduin)",
+          "isCorrect": false,
+          "explanation": "O Brandevin margeia o Condado. Frodo já estava bem longe de casa quando teve esse aperto.\nOs Nazgûl demoraram um pouco mais para chegar tão perto do perigo aquático.\nEles preferem terra firme, aparentemente."
+        },
+        {
+          "text": "Bruinen (Sonorágua)",
+          "isCorrect": true,
+          "explanation": "Correto! O Rio Bruinen (Sonorágua) é o que protege Valfenda. Com uma ajudinha de Elrond e Gandalf, suas águas se enfureceram.\nOs cavalos dos Nazgûl não eram bons nadadores, pelo visto.\nUma cena de lavar a alma (dos Espectros, literalmente).",
+          "imageUrl": "https://www.shutterstock.com/image-photo/river-gushing-through-rocky-gorge-powerful-2020085900",
+          "imageDescription": "Rio caudaloso correndo por um desfiladeiro rochoso, evocando as águas do Bruinen."
+        },
+        {
+          "text": "Isen",
+          "isCorrect": false,
+          "explanation": "O Rio Isen fica perto de Isengard e da Lacuna de Rohan.\nFrodo passou por lá, mas a grande perseguição aquática foi mais ao norte.\nCada rio com suas próprias emoções e perigos."
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "question": "Em 'O Hobbit', qual é o nome do líder dos Homens do Lago que se torna um herói após a morte de Smaug?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "O Governador da Cidade do Lago",
+          "isCorrect": false,
+          "explanation": "O Governador era mais conhecido por sua ganância e covardia do que por heroísmo.\nEle provavelmente estava se escondendo debaixo da cama quando Smaug atacou.\nDefinitivamente não foi o herói da vez."
+        },
+        {
+          "text": "Bard, o Arqueiro",
+          "isCorrect": true,
+          "explanation": "Exatamente! Bard, com sua Flecha Negra e pontaria certeira, derrubou Smaug.\nEle se tornou o líder natural e herói do povo da Cidade do Lago (Esgaroth).\nDe arqueiro a matador de dragões e reconstrutor de cidades!",
+          "imageUrl": "https://www.istockphoto.com/br/foto/homem-medieval-com-arco-e-flecha-gm1297070090-390308220",
+          "imageDescription": "Homem medieval com arco e flecha, representando Bard, o Arqueiro."
+        },
+        {
+          "text": "Beorn",
+          "isCorrect": false,
+          "explanation": "Beorn ajudou na Batalha dos Cinco Exércitos, mas ele não era da Cidade do Lago.\nEle prefere seus salões de madeira e suas abelhas a política lacustre.\nUm herói mais... ursino."
+        },
+        {
+          "text": "Thranduil",
+          "isCorrect": false,
+          "explanation": "Thranduil, o Rei Élfico, tinha seus próprios interesses na região.\nEle participou da batalha, mas Bard foi o herói específico da Cidade do Lago.\nCada um com seu reino e seus feitos."
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "question": "Qual o nome do hobbit que acompanha Frodo desde o início de sua jornada e é seu fiel jardineiro e amigo?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Merry Brandebuque",
+          "isCorrect": false,
+          "explanation": "Merry é um grande amigo e companheiro de aventuras, mas o jardineiro fiel é outro.\nEle é mais o 'cérebro' do grupo de hobbits, sempre com um plano (ou cogumelo).\nLeal, mas com um foco diferente."
+        },
+        {
+          "text": "Pippin Tûk",
+          "isCorrect": false,
+          "explanation": "Pippin é o mais jovem e muitas vezes o mais curioso (e causador de problemas!).\nUm amigo leal, sem dúvida, mas a jardinagem não é seu forte.\nA menos que seja colher frutas do pomar alheio."
+        },
+        {
+          "text": "Samwise Gamgee (Sam)",
+          "isCorrect": true,
+          "explanation": "Correto! Samwise Gamgee, o bom e velho Sam, o mais leal dos companheiros.\nJardineiro por profissão, herói por vocação.\nCarregou Frodo (literalmente) e o peso da esperança.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/young-gardener-holding-small-plant-smiling-1983448200",
+          "imageDescription": "Jovem jardineiro sorridente segurando uma pequena planta, representando Samwise Gamgee."
+        },
+        {
+          "text": "Bilbo Bolseiro",
+          "isCorrect": false,
+          "explanation": "Bilbo foi quem começou toda a 'confusão' com o Anel, e é tio de Frodo.\nMas ele já estava aposentado de grandes jornadas quando Frodo partiu.\nPassou o bastão (e o Anel) para a nova geração."
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "question": "Qual presente Legolas dá a Aragorn em Lothlórien?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Um novo arco e flechas",
+          "isCorrect": false,
+          "explanation": "Legolas já é o mestre arqueiro, e Aragorn tem sua espada.\nEmbora um arco élfico seja um ótimo presente, não foi essa a escolha para Aragorn.\nCada um com sua especialidade."
+        },
+        {
+          "text": "Uma adaga élfica",
+          "isCorrect": true,
+          "explanation": "Exato! Legolas deu a Aragorn uma adaga élfica em uma bainha adornada com pedras preciosas.\nJunto com ela, a profecia: 'Esta é a bainha da espada que será refeita'.\nUm presente simbólico e prático.",
+          "imageUrl": "https://www.istockphoto.com/br/foto/adaga-%C3%A9lfica-ornamentada-com-bainha-gm1304000010-395268055",
+          "imageDescription": "Adaga élfica ornamentada com pedras preciosas em sua bainha."
+        },
+        {
+          "text": "Um cavalo élfico",
+          "isCorrect": false,
+          "explanation": "Cavalos élficos são magníficos, mas Aragorn já tinha seu jeito com cavalos.\nO presente foi algo mais pessoal e ligado ao seu destino com a espada.\nE mais fácil de carregar na jornada."
+        },
+        {
+          "text": "Lembas",
+          "isCorrect": false,
+          "explanation": "Lembas foi um presente para toda a Sociedade, não um item individual de Legolas para Aragorn.\nTodos precisavam de sustento para a longa viagem.\nUm presente compartilhado e muito bem-vindo."
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "question": "Qual é o nome do filho de Théoden, príncipe de Rohan, que morre na Batalha dos Vaus do Isen?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Éomer",
+          "isCorrect": false,
+          "explanation": "Éomer é sobrinho de Théoden e se torna Rei de Rohan após sua morte.\nEle luta bravamente e sobrevive à Guerra do Anel.\nUm herdeiro, não uma perda trágica antes da hora."
+        },
+        {
+          "text": "Théodred",
+          "isCorrect": true,
+          "explanation": "Correto. Théodred, o único filho de Théoden, era o herdeiro de Rohan.\nEle caiu defendendo os vaus do Isen contra as forças de Saruman.\nSua morte foi um duro golpe para Théoden e para Rohan.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/fallen-warrior-prince-medieval-battlefield-2008010000",
+          "imageDescription": "Príncipe guerreiro caído em um campo de batalha medieval, representando Théodred."
+        },
+        {
+          "text": "Gamling",
+          "isCorrect": false,
+          "explanation": "Gamling, o Velho, é um capitão leal de Rohan, que serve a Théoden e Éomer.\nUm guerreiro experiente, mas não da linhagem real direta.\nUm soldado fiel, não um príncipe."
+        },
+        {
+          "text": "Háma",
+          "isCorrect": false,
+          "explanation": "Háma era o capitão da guarda de Théoden e porteiro de Meduseld, muito leal ao rei.\nEle morre defendendo o Abismo de Helm.\nOutro herói de Rohan, mas não o filho do rei."
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "question": "Que tipo de criatura é o 'Guardião da Água' que ataca a Sociedade do Anel na entrada de Moria?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Um dragão aquático",
+          "isCorrect": false,
+          "explanation": "Dragões são temíveis, mas o Guardião era algo mais... tentacular e antigo.\nNão cuspia fogo, mas tinha um abraço bem apertado e desagradável.\nMenos escamas, mais ventosas."
+        },
+        {
+          "text": "Uma serpente marinha gigante",
+          "isCorrect": false,
+          "explanation": "Serpentes marinhas são clássicos monstros aquáticos, mas o Guardião tinha múltiplos membros.\nImagine algo saído de um pesadelo de pescador, só que pior.\nDefinitivamente não era uma enguia superdesenvolvida."
+        },
+        {
+          "text": "Um Kraken (Lula Gigante ou Polvo Gigante)",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! Uma criatura com muitos tentáculos, semelhante a um Kraken ou lula/polvo gigante.\nUm 'porteiro' nada amigável para as minas de Moria.\nClaramente não gostava de visitantes, especialmente os que sabiam a senha.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/giant-kraken-tentacles-emerging-dark-water-2099495600",
+          "imageDescription": "Tentáculos gigantes de um kraken emergindo de águas escuras perto de um portão de pedra."
+        },
+        {
+          "text": "Um elemental da água controlado por Saruman",
+          "isCorrect": false,
+          "explanation": "Saruman tinha seus truques, mas o Guardião parecia ser uma criatura antiga e independente.\nUm horror que habitava o lago escuro muito antes de Saruman pensar em dominar o mundo.\nUm problema local, não uma invocação."
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "question": "Qual o nome da colina no Condado onde Bilbo e Frodo vivem, em uma toca chamada Bolsão (Bag End)?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Colina Verdejante",
+          "isCorrect": false,
+          "explanation": "Colina Verdejante soa agradável, mas a colina específica do Bolsão tem outro nome.\nEmbora o Condado seja cheio de colinas verdes, esta é 'A' Colina.\nUm endereço nobre para um hobbit."
+        },
+        {
+          "text": "Monte Tûk",
+          "isCorrect": false,
+          "explanation": "Os Tûks são uma família importante, mas a colina do Bolsão não leva o nome deles.\nEles têm suas próprias tocas e terras, provavelmente com nomes igualmente charmosos.\nCada família com sua colina preferida."
+        },
+        {
+          "text": "A Colina (The Hill)",
+          "isCorrect": true,
+          "explanation": "Simples e direto: A Colina. O Bolsão ficava no topo dela, com uma vista privilegiada.\nUm lugar de festas, histórias e o começo de grandes aventuras.\nO melhor endereço do Condado, sem dúvida.",
+          "imageUrl": "https://www.istockphoto.com/br/foto/casa-hobbit-em-uma-colina-verde-gm1304000020-395268060",
+          "imageDescription": "Casa hobbit aconchegante construída na encosta de uma colina verde sob um céu azul."
+        },
+        {
+          "text": "Colina dos Pés Peludos",
+          "isCorrect": false,
+          "explanation": "Embora os hobbits tenham pés peludos, a colina não foi batizada em homenagem a essa característica.\nSeria um nome um tanto... peculiar, mesmo para os padrões hobbit.\nEles são mais sutis com seus nomes de lugares."
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "question": "Qual o nome do anão que acompanha Gimli na Sociedade do Anel, representando o povo de Erebor?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Balin, filho de Fundin",
+          "isCorrect": false,
+          "explanation": "Balin era um companheiro de Bilbo na jornada para Erebor, muito antes da Sociedade do Anel.\nEle era um anão sábio, mas de outra geração de aventureiros.\nGimli estava representando uma nova era."
+        },
+        {
+          "text": "Glóin, filho de Gróin",
+          "isCorrect": false,
+          "explanation": "Glóin é o PAI de Gimli! Ele também esteve na expedição de Bilbo.\nEle vai a Valfenda com Gimli, mas é Gimli quem se junta à Sociedade.\nTal pai, tal filho (em bravura e barba)."
+        },
+        {
+          "text": "Apenas Gimli se junta à Sociedade, representando os Anões.",
+          "isCorrect": true,
+          "explanation": "Correto! Gimli, filho de Glóin, foi o único anão a fazer parte da Sociedade do Anel.\nEle representou seu povo com bravura, lealdade e muitos grunhidos sobre elfos (no começo).\nUm anão entre nove companheiros.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/dwarf-warrior-axe-shield-ready-battle-2077891400",
+          "imageDescription": "Guerreiro anão com machado e escudo, pronto para a batalha, representando Gimli."
+        },
+        {
+          "text": "Dáin Pé-de-Ferro",
+          "isCorrect": false,
+          "explanation": "Dáin Pé-de-Ferro era o Rei dos Anões das Colinas de Ferro e depois Rei sob a Montanha.\nUm grande líder e guerreiro, mas ele ficou para defender seu reino.\nEle enviou Gimli como seu representante (de certa forma)."
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "question": "Qual o principal passatempo dos Ents, além de cuidar das árvores?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Contar estrelas",
+          "isCorrect": false,
+          "explanation": "Contar estrelas parece algo que um Ent faria, dada sua longevidade.\nMas eles têm um passatempo ainda mais... demorado e específico.\nAlgo que leva muito, muito tempo para ser feito direito."
+        },
+        {
+          "text": "Cantar canções sobre a história do mundo",
+          "isCorrect": false,
+          "explanation": "Ents certamente conhecem muitas canções e histórias antigas.\nMas seu 'hobby' principal é mais fundamental para sua existência.\nE provavelmente envolve menos plateia."
+        },
+        {
+          "text": "Lembrar os nomes de todas as coisas vivas",
+          "isCorrect": true,
+          "explanation": "Exato! Os Ents passam muito tempo lembrando e recitando as listas de coisas vivas.\nÉ um trabalho demorado, já que a lista é longa e está sempre mudando.\nBarbárvore provavelmente tem uma memória RAM gigantesca.",
+          "imageUrl": "https://www.istockphoto.com/br/foto/rosto-de-%C3%A1rvore-antiga-com-olhos-s%C3%A1bios-na-floresta-gm1304000030-395268065",
+          "imageDescription": "Rosto de árvore antiga com olhos sábios em uma floresta, simbolizando um Ent pensativo."
+        },
+        {
+          "text": "Dormir por décadas a fio",
+          "isCorrect": false,
+          "explanation": "Eles podem tirar longos cochilos, ficando 'arvorizados'.\nMas seu passatempo ativo envolve mais do que apenas sonhar com ovelhas (ou árvores).\nEles são pastores, afinal, e precisam manter o rebanho contado."
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "question": "Qual o nome do cavalo que Aragorn recebe em Rohan e que o acompanha em muitas batalhas?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Scadufax (Shadowfax)",
+          "isCorrect": false,
+          "explanation": "Scadufax é o cavalo de Gandalf, o senhor dos Mearas.\nAragorn não ousaria 'roubar' a montaria do mago!\nCada herói com seu corcel de confiança."
+        },
+        {
+          "text": "Hasufel",
+          "isCorrect": false,
+          "explanation": "Hasufel foi um cavalo dado a Aragorn por Éomer no início.\nUm bom cavalo, mas o que se tornou seu companheiro mais constante foi outro.\nDigamos que ele fez um 'upgrade' depois."
+        },
+        {
+          "text": "Brego",
+          "isCorrect": true,
+          "explanation": "Correto! Nos filmes, é Brego o cavalo que desenvolve um laço especial com Aragorn.\nEle o encontra ferido e o leva para o Abismo de Helm.\nNos livros, a história é um pouco diferente, mas Brego se tornou icônico.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/noble-brown-horse-standing-proudly-green-2008010100",
+          "imageDescription": "Cavalo marrom nobre em um campo verde, representando Brego."
+        },
+        {
+          "text": "Arod",
+          "isCorrect": false,
+          "explanation": "Arod foi o cavalo que Legolas e Gimli (sim, Gimli!) cavalgaram juntos em Rohan.\nUm cavalo valente para carregar um elfo e um anão.\nMas Aragorn tinha sua própria montaria."
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "question": "Qual o nome do elfo de Lothlórien que guia a Sociedade do Anel após a queda de Gandalf em Moria?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Legolas",
+          "isCorrect": false,
+          "explanation": "Legolas já era membro da Sociedade, representando os elfos da Floresta das Trevas.\nEle ajudou na orientação, mas o guia oficial de Lórien foi outro.\nEle era mais um 'consultor de rota' nesse trecho."
+        },
+        {
+          "text": "Celeborn",
+          "isCorrect": false,
+          "explanation": "Celeborn é o Senhor de Lothlórien, junto com Galadriel.\nEle os recebeu e aconselhou, mas não os acompanhou pessoalmente na jornada.\nEle tinha um reino para cuidar."
+        },
+        {
+          "text": "Haldir",
+          "isCorrect": true,
+          "explanation": "Exatamente! Haldir de Lórien, junto com seus irmãos Rúmil e Orophin, encontrou a Sociedade.\nHaldir os guiou até Caras Galadhon e intercedeu por eles.\nUm guarda de fronteira élfico muito importante (e um pouco desconfiado no início).",
+          "imageUrl": "https://www.istockphoto.com/br/foto/guerreiro-elfo-com-arco-longo-na-floresta-dourada-gm1304000040-395268070",
+          "imageDescription": "Guerreiro elfo com arco longo em uma floresta dourada, como Haldir de Lórien."
+        },
+        {
+          "text": "Gildor Inglorion",
+          "isCorrect": false,
+          "explanation": "Gildor Inglorion é um elfo que Frodo encontra no Condado, bem no início de sua jornada.\nEle oferece ajuda e conselho, mas não tem ligação com Lórien.\nUm encontro fortuito, mas de outra parte da história."
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "question": "Qual o nome da esposa de Elrond e mãe de Arwen, que foi atormentada por orcs e partiu para Valinor?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Galadriel",
+          "isCorrect": false,
+          "explanation": "Galadriel é a avó de Arwen (mãe de Celebrían). Uma elfa poderosa por direito próprio.\nMas a esposa de Elrond e mãe de Arwen teve um destino mais trágico na Terra-média.\nCada senhora élfica com sua história de provações."
+        },
+        {
+          "text": "Celebrían",
+          "isCorrect": true,
+          "explanation": "Correto. Celebrían, filha de Galadriel e Celeborn, era a esposa de Elrond.\nEla foi emboscada por orcs, ferida e atormentada, e depois partiu para Valinor em busca de cura.\nUma história triste que explica muito da seriedade de Elrond.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/beautiful-elf-queen-sad-expression-2077891500",
+          "imageDescription": "Bela rainha elfa com expressão triste, representando Celebrían."
+        },
+        {
+          "text": "Lúthien",
+          "isCorrect": false,
+          "explanation": "Lúthien Tinúviel é uma ancestral de Elrond e Arwen, uma lenda da Primeira Era.\nSua história de amor com Beren é famosa, mas ela não é a esposa de Elrond.\nEla é a 'Estrela da Manhã' original."
+        },
+        {
+          "text": "Idril Celebrindal",
+          "isCorrect": false,
+          "explanation": "Idril foi a esposa de Tuor e mãe de Eärendil (pai de Elrond), outra heroína da Primeira Era.\nEla escapou da queda de Gondolin. Avó de Elrond, não sua esposa.\nLinhagens élficas são longas e complexas!"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "question": "Como se chamava o dragão que antecedeu Smaug em Erebor, morto por Dáin I?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Ancalagon, o Negro",
+          "isCorrect": false,
+          "explanation": "Ancalagon foi o maior e mais poderoso dos dragões alados de Morgoth, morto por Eärendil na Guerra da Ira.\nUm 'chefão' dos dragões da Primeira Era. Os dragões de Erebor eram 'filhotes' perto dele.\nUma ameaça de outra magnitude."
+        },
+        {
+          "text": "Glaurung, o Dourado",
+          "isCorrect": false,
+          "explanation": "Glaurung foi o Pai dos Dragões, o primeiro dos Urulóki (dragões de fogo) da Primeira Era.\nAstuto e maligno, mas não o que atacou Erebor antes de Smaug.\nEle aterrorizou outras regiões e outros heróis."
+        },
+        {
+          "text": "Scatha, o Verme",
+          "isCorrect": false,
+          "explanation": "Scatha foi um grande dragão 'longo-verme' das Montanhas Cinzentas, morto por Fram, ancestral de Éorl de Rohan.\nEle acumulou um tesouro dos anões, mas não o de Erebor especificamente.\nCada dragão com seu cofrinho."
+        },
+        {
+          "text": "Não há registro de um dragão específico em Erebor antes de Smaug nos livros principais.",
+          "isCorrect": true,
+          "explanation": "Correto! Smaug foi o dragão que DESOLOU Erebor. Antes disso, os anões viviam lá prosperamente.\nOutros dragões existiram no Norte (como os que afugentaram os anões das Montanhas Cinzentas), mas Erebor era segura até a chegada de Smaug.\nEle foi o 'primeiro e único' grande problema alado de Erebor.",
+          "imageUrl": "https://www.istockphoto.com/br/foto/ilustra%C3%A7%C3%A3o-de-um-drag%C3%A3o-cuspindo-fogo-em-um-fundo-escuro-gm1304000050-395268075",
+          "imageDescription": "Ilustração de um dragão cuspindo fogo, representando a ameaça dos dragões."
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "question": "Qual é o nome da espada de Boromir, que ele carrega consigo como membro da Sociedade do Anel?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Narsil",
+          "isCorrect": false,
+          "explanation": "Narsil era a espada de Elendil, quebrada na guerra contra Sauron. Seus fragmentos foram levados para Valfenda.\nAragorn era o herdeiro de Narsil (depois Andúril), não Boromir.\nUma espada muito importante, mas não a dele."
+        },
+        {
+          "text": "Herugrim",
+          "isCorrect": false,
+          "explanation": "Herugrim é a espada ancestral dos Reis de Rohan, empunhada por Théoden.\nBoromir era de Gondor, e sua espada, embora boa, não tinha esse nome famoso.\nCada reino com suas lâminas reais."
+        },
+        {
+          "text": "A espada de Boromir não tem um nome específico mencionado nos livros.",
+          "isCorrect": true,
+          "explanation": "Exatamente! Ao contrário de muitas outras espadas famosas, a de Boromir não recebe um nome específico nos textos de Tolkien.\nEra uma boa espada de Gondor, sem dúvida, e ele a usou com valentia.\nMas, para Tolkien, nem toda espada precisava de um batismo épico.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/medieval-sword-shield-on-stone-1958345800",
+          "imageDescription": "Espada e escudo medievais, representando as armas de um guerreiro como Boromir."
+        },
+        {
+          "text": "Anglachel",
+          "isCorrect": false,
+          "explanation": "Anglachel (depois Gurthang) foi uma espada negra forjada pelo elfo sombrio Eöl, famosa na Primeira Era e empunhada por Túrin Turambar.\nUma espada com uma história muito sombria e poderosa, nada a ver com Boromir.\nDefinitivamente de outra prateleira (e era)."
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "question": "Quem eram os Drúedain (ou Homens Selvagens dos Bosques) que ajudaram os Rohirrim a chegar secretamente a Minas Tirith?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Um ramo perdido de Hobbits que se adaptou à vida selvagem.",
+          "isCorrect": false,
+          "explanation": "Hobbits amam conforto e comida, não tanto a vida rústica nas florestas hostis.\nOs Drúedain eram um povo distinto, muito mais antigo e com habilidades diferentes.\nMenos segundo café da manhã, mais conhecimento da natureza."
+        },
+        {
+          "text": "Elfos reclusos que viviam na Floresta de Drúadan.",
+          "isCorrect": false,
+          "explanation": "Elfos têm sua própria magia e caminhos, mas os Drúedain eram Homens, embora muito diferentes dos de Rohan ou Gondor.\nEles tinham uma conexão profunda com a floresta, mas não a imortalidade élfica.\nUm povo único com seus próprios segredos."
+        },
+        {
+          "text": "Um antigo povo de Homens, de baixa estatura, com grande conhecimento das florestas e aversão a Orcs.",
+          "isCorrect": true,
+          "explanation": "Correto! Os Drúedain, liderados por Ghân-buri-Ghân, eram um povo antigo e recluso da Floresta de Drúadan.\nEles conheciam caminhos secretos e odiavam Orcs, guiando os Rohirrim para evitar emboscadas.\nUma ajuda inesperada e crucial.",
+          "imageUrl": "https://www.istockphoto.com/br/foto/homem-tribal-da-floresta-com-pintura-facial-e-lan%C3%A7a-gm1304000060-395268080",
+          "imageDescription": "Homem tribal da floresta com pintura facial e lança, representando um Drúadan."
+        },
+        {
+          "text": "Espíritos da floresta que assumiram forma humana para ajudar na guerra.",
+          "isCorrect": false,
+          "explanation": "Embora tivessem uma forte ligação com a natureza, os Drúedain eram mortais.\nSua magia era mais conhecimento prático e furtividade do que transformação espiritual.\nEles eram de carne e osso, e muito úteis!"
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "question": "Qual dos Três Anéis dos Elfos era tradicionalmente guardado em Lothlórien?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Vilya, o Anel do Ar",
+          "isCorrect": false,
+          "explanation": "Vilya, o mais poderoso dos Três, era guardado por Elrond em Valfenda.\nEle usou seu poder para proteger aquele refúgio e curar.\nLórien tinha sua própria joia protetora."
+        },
+        {
+          "text": "Narya, o Anel de Fogo",
+          "isCorrect": false,
+          "explanation": "Narya foi dado por Círdan a Gandalf, para que ele pudesse inspirar coragem e resistir ao desgaste do tempo.\nUm anel para corações valentes, não especificamente para proteger Lórien.\nEmbora Gandalf fosse um visitante bem-vindo por lá."
+        },
+        {
+          "text": "Nenya, o Anel da Água (ou Anel de Adamante)",
+          "isCorrect": true,
+          "explanation": "Exato! Nenya, o Anel de Adamante, feito de Mithril e portando uma pedra branca, era guardado por Galadriel.\nSeu poder protegia Lothlórien do mal e do tempo, mantendo sua beleza imaculada.\nUm brilho sutil, mas poderoso.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/beautiful-silver-ring-white-gemstone-1983448300",
+          "imageDescription": "Anel de prata elegante com uma pedra branca brilhante, representando Nenya."
+        },
+        {
+          "text": "O Anel de Barahir",
+          "isCorrect": false,
+          "explanation": "O Anel de Barahir era uma herança da Casa de Isildur, passado a Aragorn. Não era um dos Três Anéis Élficos de Poder.\nUm anel de amizade e promessa, com sua própria história nobre.\nMas sem o poder de preservar reinos inteiros."
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "question": "Qual o nome do Balrog que Gandalf enfrenta em Moria?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Gothmog, Senhor dos Balrogs",
+          "isCorrect": false,
+          "explanation": "Gothmog foi o Senhor dos Balrogs na Primeira Era, morto por Ecthelion na Queda de Gondolin.\nO Balrog de Moria era um dos seus 'colegas' que sobreviveu e se escondeu.\nUm 'funcionário' de alto escalão do mal, mas não o chefão original."
+        },
+        {
+          "text": "Ancalagon, o Negro",
+          "isCorrect": false,
+          "explanation": "Ancalagon era um dragão, o maior deles, não um Balrog.\nEmbora ambos sejam servos de Morgoth e criaturas de fogo e sombra, são espécies diferentes.\nUm cospe fogo, o outro usa um chicote de fogo. Escolha seu veneno."
+        },
+        {
+          "text": "A Ruína de Durin (Durin's Bane)",
+          "isCorrect": true,
+          "explanation": "Correto! O Balrog de Moria é infamemente conhecido como 'A Ruína de Durin'.\nEle foi despertado pelos anões quando cavaram fundo demais em busca de Mithril.\nUm vizinho barulhento e muito, muito perigoso.",
+          "imageUrl": "https://www.gettyimages.com.br/detail/foto/demon-of-fire-and-shadow-with-whip-royalty-free-imagem/1302124450",
+          "imageDescription": "Demônio de fogo e sombra com um chicote flamejante, representando a Ruína de Durin."
+        },
+        {
+          "text": "Lungorthin, Senhor dos Balrogs de Gondolin",
+          "isCorrect": false,
+          "explanation": "Lungorthin é um nome às vezes associado a Gothmog ou a outro Balrog proeminente em Gondolin.\nMas 'A Ruína de Durin' é o título específico do Balrog que dormia em Moria.\nCada Balrog com sua alcunha sinistra."
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "question": "De qual raça Eärendil, o Marinheiro, pai de Elrond e Elros, NÃO era descendente direto?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Elfos (Noldor e Sindar, através de Idril e Lúthien)",
+          "isCorrect": false,
+          "explanation": "Eärendil tinha forte sangue élfico. Sua mãe, Idril, era Noldorin (e Vanyarin), e através de sua avó Lúthien, ele descendia dos Sindar e até dos Maiar.\nEle era bem 'élfico' em sua herança.\nUm currículo genético impressionante."
+        },
+        {
+          "text": "Homens (Casa de Hador e Casa de Bëor, através de Tuor e Beren)",
+          "isCorrect": false,
+          "explanation": "Sua herança humana também era nobre. Seu pai, Tuor, era da Casa de Hador, e seu avô Beren, da Casa de Bëor.\nAs três casas dos Edain estavam representadas nele.\nMeio-elfo por excelência."
+        },
+        {
+          "text": "Maiar (através de Melian, mãe de Lúthien)",
+          "isCorrect": false,
+          "explanation": "Sim, através de sua bisavó Melian, a Maia, esposa de Thingol, Eärendil tinha uma pitada de divindade em seu sangue.\nIsso provavelmente ajudou em suas grandes jornadas e em seu destino.\nUm toque de magia celestial."
+        },
+        {
+          "text": "Anões (Casa de Durin)",
+          "isCorrect": true,
+          "explanation": "Corretíssimo! Eärendil era o Meio-Elfo por excelência, unindo as linhagens de Elfos e Homens (e Maiar).\nNão há nenhuma menção de sangue anão em sua genealogia.\nAnões e Elfos/Homens tinham suas próprias árvores genealógicas, geralmente separadas.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/genealogy-tree-ancient-runes-scrolls-1998900600",
+          "imageDescription": "Árvore genealógica antiga com runas e pergaminhos, simbolizando linhagens complexas."
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "question": "Qual o nome da passagem secreta para Mordor, guardada por Laracna, cujo nome significa 'Passo da Aranha'?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Minas Morgul",
+          "isCorrect": false,
+          "explanation": "Minas Morgul é a cidade do Rei Bruxo, e há uma passagem por ali, mas 'Passo da Aranha' refere-se a outro local.\nAquela era a 'entrada principal do mal', por assim dizer.\nA passagem da aranha era um 'atalho' mais fedorento."
+        },
+        {
+          "text": "Cirith Gorgor",
+          "isCorrect": false,
+          "explanation": "Cirith Gorgor é o 'Passo Assombrado', a entrada principal para Mordor através do Portão Negro.\nUm lugar fortemente guardado, não o covil de uma aranha.\nLá o perigo eram exércitos, não uma única (mas enorme) aracnídea."
+        },
+        {
+          "text": "Cirith Ungol",
+          "isCorrect": true,
+          "explanation": "Exato! Cirith Ungol é o 'Passo da Aranha', o caminho traiçoeiro que Frodo e Sam usaram para entrar em Mordor.\nGuardado por Laracna e pela torre de mesmo nome.\nUm lugar onde é bom ter um amigo com uma espada élfica e um frasco de luz.",
+          "imageUrl": "https://www.istockphoto.com/br/foto/trilha-de-montanha-estreita-e-sinuosa-entre-rochas-%C3%ADngremes-gm1304000070-395268085",
+          "imageDescription": "Trilha de montanha estreita e sinuosa entre rochas íngremes, representando Cirith Ungol."
+        },
+        {
+          "text": "A Escadaria de Durin",
+          "isCorrect": false,
+          "explanation": "Não existe uma 'Escadaria de Durin' com esse nome. Os anões construíram muitas escadarias em Moria, mas nenhuma leva a Mordor.\nEles preferiam cavar para baixo, não para o covil de Sauron.\nPrioridades, sabe?"
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "question": "Quem foi o primeiro Senhor de Dol Amroth, conhecido por ter sangue élfico em suas veias, segundo as lendas?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Imrahil",
+          "isCorrect": false,
+          "explanation": "Imrahil é o Príncipe de Dol Amroth durante a Guerra do Anel, um nobre e valente líder.\nMas ele é um descendente, não o fundador original da linhagem.\nA história de Dol Amroth é mais antiga."
+        },
+        {
+          "text": "Adrahil I",
+          "isCorrect": false,
+          "explanation": "Adrahil foi um príncipe de Dol Amroth, pai de Imrahil. Também um ancestral, não o primeiro.\nA linhagem é longa e nobre, com muitos nomes importantes.\nMas quem começou tudo isso?"
+        },
+        {
+          "text": "Galador",
+          "isCorrect": true,
+          "explanation": "Correto! Segundo as lendas de Dol Amroth, seu primeiro senhor foi Galador, filho de Imrazôr, o Númenoriano, e da elfa Mithrellas, uma companheira de Nimrodel.\nIsso explicaria a nobreza e a beleza élfica atribuídas aos príncipes de Dol Amroth.\nUma pitada de sangue élfico faz maravilhas pela aparência!",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/noble-elf-prince-silver-armor-looking-2077891600",
+          "imageDescription": "Príncipe elfo nobre em armadura prateada, representando a linhagem de Dol Amroth."
+        },
+        {
+          "text": "Denethor",
+          "isCorrect": false,
+          "explanation": "Denethor era o Regente de Gondor, de uma linhagem de Mordomos.\nEle não tinha ligação com a fundação de Dol Amroth, embora sua esposa, Finduilas, fosse irmã de Imrahil.\nCada família com sua própria origem nobre (ou não tão élfica)."
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "question": "Qual o nome do líder dos Rohirrim que lidera a carga decisiva na Batalha dos Campos do Pelennor, mesmo mortalmente ferido?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Éomer",
+          "isCorrect": false,
+          "explanation": "Éomer lutou bravamente e sobreviveu para se tornar rei, mas a carga icônica e o sacrifício final foram de seu tio.\nEle continuou a luta, mas o grito de 'Morte!' que ecoou foi de outro.\nUm sobrinho digno, mas não o protagonista desta cena específica."
+        },
+        {
+          "text": "Erkenbrand",
+          "isCorrect": false,
+          "explanation": "Erkenbrand é um herói de Rohan que chega com reforços (e Gandalf) no Abismo de Helm.\nUma figura importante, mas não o líder da carga suicida no Pelennor.\nEle estava mais para 'salvar o dia' do que para 'morrer gloriosamente'."
+        },
+        {
+          "text": "Rei Théoden",
+          "isCorrect": true,
+          "explanation": "Exatamente! Rei Théoden, com seu grito de guerra 'Avante, Eorlingas!', liderou a magnífica carga dos Rohirrim.\nEle caiu sob seu cavalo Crinaneve, esmagado pelo Rei Bruxo, mas sua bravura inspirou a todos.\nUm fim digno para um rei renovado!",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/king-horseback-leading-charge-battle-2020086000",
+          "imageDescription": "Rei a cavalo liderando uma carga em batalha, com armadura e estandarte, representando Rei Théoden."
+        },
+        {
+          "text": "Grimbold",
+          "isCorrect": false,
+          "explanation": "Grimbold era um marechal de Rohan que lutou e morreu nos Campos do Pelennor.\nUm guerreiro valoroso, mas a liderança da carga principal e o confronto com o Rei Bruxo foram de Théoden.\nUm herói entre muitos, mas não o rei."
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "question": "Qual o nome da cidade élfica escondida, lar de Elrond e refúgio da Sociedade do Anel, também conhecida como 'A Última Casa Acolhedora'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Lothlórien",
+          "isCorrect": false,
+          "explanation": "Lothlórien é o reino dourado de Galadriel e Celeborn, um lugar de beleza e magia.\nMas a 'Última Casa Acolhedora a Leste do Mar' é outro famoso refúgio élfico.\nCada um com seu charme e propósito."
+        },
+        {
+          "text": "Gondolin",
+          "isCorrect": false,
+          "explanation": "Gondolin foi uma cidade élfica escondida lendária da Primeira Era, muito antes de Valfenda.\nSua história é épica, mas ela caiu séculos antes da Guerra do Anel.\nUm eco do passado, não um refúgio atual."
+        },
+        {
+          "text": "Valfenda (Rivendell)",
+          "isCorrect": true,
+          "explanation": "Correto! Valfenda, fundada por Elrond, era o refúgio de sabedoria e paz onde o Conselho de Elrond aconteceu.\nUm lugar de cura, conhecimento e onde muitas decisões importantes foram tomadas.\nRealmente uma casa acolhedora (se você for amigo dos elfos).",
+          "imageUrl": "https://www.istockphoto.com/br/foto/vale-%C3%A9lfico-escondido-com-cachoeiras-e-arquitetura-elegante-gm1304000080-395268090",
+          "imageDescription": "Vale élfico escondido com cachoeiras e arquitetura elegante, representando Valfenda."
+        },
+        {
+          "text": "Nargothrond",
+          "isCorrect": false,
+          "explanation": "Nargothrond foi outra grande fortaleza élfica subterrânea da Primeira Era, fundada por Finrod Felagund.\nTambém com um destino trágico, e não o local que acolheu Frodo e a Sociedade.\nAs Primeiras Eras foram duras para cidades escondidas."
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "question": "Em 'O Hobbit', qual dos anões da Companhia de Thorin era conhecido por ser o mais gordo e muitas vezes precisar de ajuda?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Dori",
+          "isCorrect": false,
+          "explanation": "Dori era forte e ajudou Bilbo em algumas ocasiões, como carregá-lo.\nMas o título de 'mais gordo' e 'precisando de ajuda constante' pertencia a outro.\nEle era mais prestativo do que necessitado."
+        },
+        {
+          "text": "Glóin",
+          "isCorrect": false,
+          "explanation": "Glóin, pai de Gimli, era um anão respeitável e um tanto cético no início.\nMas não há menção dele ser particularmente gordo ou desajeitado.\nEle estava mais preocupado com o tesouro e os contratos."
+        },
+        {
+          "text": "Bombur",
+          "isCorrect": true,
+          "explanation": "Acertou! Bombur era o anão mais pesado da companhia, famoso por seu tamanho.\nEle caiu no Rio Encantado, precisou ser carregado e sempre parecia estar com fome.\nUm desafio logístico para a expedição!",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/portly-dwarf-warrior-enjoying-large-meal-2077891700",
+          "imageDescription": "Guerreiro anão corpulento desfrutando de uma grande refeição, representando Bombur."
+        },
+        {
+          "text": "Bifur",
+          "isCorrect": false,
+          "explanation": "Bifur tinha um machado cravado na testa e só se comunicava por grunhidos.\nIsso o tornava peculiar, mas não o mais gordo.\nSeus problemas eram mais de comunicação do que de peso."
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "question": "Qual é a saudação élfica comum que significa 'uma estrela brilha sobre a hora do nosso encontro'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Mae govannen",
+          "isCorrect": false,
+          "explanation": "'Mae govannen' significa 'Bem encontrado' ou 'Bem-vindo'.\nUma saudação amigável, mas não a que se refere especificamente a uma estrela.\nÉ mais um 'Prazer em te ver!'"
+        },
+        {
+          "text": "Elen síla lúmenn' omentielvo",
+          "isCorrect": true,
+          "explanation": "Correto! Esta é a bela saudação poética dos elfos.\nMostra a importância das estrelas e do destino em sua cultura.\nE é bem mais chique do que um simples 'oi'."
+        },
+        {
+          "text": "Namárië",
+          "isCorrect": false,
+          "explanation": "'Namárië' é uma despedida, significando 'Adeus' ou 'Vá em bem'.\nFamosa pela canção de Galadriel. É para quando se está partindo, não chegando.\nA menos que você queira ser bem confuso."
+        },
+        {
+          "text": "Suilad",
+          "isCorrect": false,
+          "explanation": "'Suilad' é uma forma mais simples de 'Saudações'.\nCurta e direta, mas não carrega o mesmo peso poético da estrela e do encontro.\nPara elfos menos formais, talvez."
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "question": "Quem é o Istari (Mago) que trai a ordem e se alia a Sauron, tornando-se o Senhor de Isengard?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Gandalf, o Cinzento",
+          "isCorrect": false,
+          "explanation": "Gandalf? Traidor? Jamais! Ele é o maior inimigo de Sauron entre os Istari.\nEle pode ter ficado um pouco mais 'branco' e poderoso, mas nunca mudou de lado.\nSempre do lado do bem (e dos hobbits)."
+        },
+        {
+          "text": "Radagast, o Castanho",
+          "isCorrect": false,
+          "explanation": "Radagast se importava mais com os animais e as plantas do que com o poder.\nEle pode ter sido um pouco negligente em sua missão, mas não um traidor ativo.\nProvavelmente nem notou que Saruman virou a casaca."
+        },
+        {
+          "text": "Saruman, o Branco (depois Multicolorido)",
+          "isCorrect": true,
+          "explanation": "Exatamente! Saruman, o líder dos Istari, cedeu à tentação do poder e se aliou a Sauron (ou tentou enganá-lo).\nTransformou Isengard em uma fortaleza do mal e criou os Uruk-hai.\nUma grande decepção para o Conselho Branco.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/evil-wizard-dark-robes-atop-tower-2008010200",
+          "imageDescription": "Mago maligno em vestes escuras no topo de uma torre, com exércitos abaixo, representando Saruman."
+        },
+        {
+          "text": "Os Magos Azuis (Alatar e Pallando)",
+          "isCorrect": false,
+          "explanation": "Os Magos Azuis foram para o leste e pouco se sabe sobre seu destino.\nEles podem ter falhado ou tido sucesso, mas não há registro de traição como a de Saruman.\nContinuam sendo um dos grandes mistérios da Terra-média."
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "question": "Qual o nome da floresta que fica a leste do Condado, considerada perigosa e estranha pelos Hobbits?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Floresta das Trevas (Mirkwood)",
+          "isCorrect": false,
+          "explanation": "A Floresta das Trevas é muito maior e mais ao leste, lar de elfos e aranhas gigantes.\nOs hobbits do Condado provavelmente nunca chegaram nem perto dela.\nEssa é uma aventura para anões e Bilbos corajosos."
+        },
+        {
+          "text": "Floresta de Fangorn",
+          "isCorrect": false,
+          "explanation": "Fangorn é o lar dos Ents, uma floresta antiga e profunda.\nTambém longe do Condado e com perigos de outro tipo (como ser confundido com um orc).\nMelhor não irritar as árvores por lá."
+        },
+        {
+          "text": "A Floresta Velha (Old Forest)",
+          "isCorrect": true,
+          "explanation": "Correto! A Floresta Velha, com suas árvores maliciosas como o Velho Salgueiro.\nFica bem na fronteira leste do Condado, e os hobbits a evitam o máximo possível.\nUm lugar onde as árvores cantam e tentam te afogar.",
+          "imageUrl": "https://www.istockphoto.com/br/foto/floresta-antiga-escura-e-assustadora-com-%C3%A1rvores-retorcidas-gm1304000090-395268095",
+          "imageDescription": "Floresta antiga, escura e assustadora com árvores retorcidas e uma atmosfera sinistra."
+        },
+        {
+          "text": "Lothlórien",
+          "isCorrect": false,
+          "explanation": "Lothlórien é uma floresta élfica de beleza e luz, não um lugar perigoso para os amigos dos elfos.\nEmbora os hobbits pudessem achá-la 'estranha' no bom sentido.\nDefinitivamente não é a floresta que eles temiam."
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "question": "Qual o nome do instrumento musical que Thorin Escudo de Carvalho tocava?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Flauta",
+          "isCorrect": false,
+          "explanation": "Flautas são delicadas, talvez mais para elfos ou hobbits com pulmões menores.\nThorin, com sua dignidade real e barba imponente, preferia algo mais... sonoro.\nAlgo que combinasse com canções sobre ouro e montanhas."
+        },
+        {
+          "text": "Violino",
+          "isCorrect": false,
+          "explanation": "Violinos são elegantes, mas não parecem muito o estilo de um rei anão guerreiro.\nA menos que fosse um violino de batalha, o que é improvável.\nEle precisava de algo mais robusto."
+        },
+        {
+          "text": "Harpa",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! Thorin tocava uma harpa dourada, que ele tinha consigo na casa de Bilbo.\nEle cantou sobre as riquezas perdidas de Erebor ao som dela.\nUm toque de realeza e melancolia.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/golden-harp-resting-against-ornate-chair-1983448400",
+          "imageDescription": "Harpa dourada ornamentada, representando o instrumento de Thorin."
+        },
+        {
+          "text": "Tambor de guerra",
+          "isCorrect": false,
+          "explanation": "Tambores de guerra são para inspirar tropas, não para momentos de canção nostálgica.\nThorin era um líder, mas também tinha seu lado artístico.\nEle guardava o tambor para as batalhas."
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "question": "Quem era o 'Necromante' que Gandalf investiga em Dol Guldur durante os eventos de 'O Hobbit'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "O Rei Bruxo de Angmar",
+          "isCorrect": false,
+          "explanation": "O Rei Bruxo é um servo poderoso de Sauron, mas o Necromante era o próprio 'chefe' disfarçado.\nEle estava se reagrupando, não era apenas um de seus tenentes.\nUm mal maior se escondia nas sombras."
+        },
+        {
+          "text": "Saruman",
+          "isCorrect": false,
+          "explanation": "Saruman ainda era (supostamente) do bem nessa época, e líder do Conselho Branco.\nEle até ajudou a expulsar o Necromante de Dol Guldur (com segundas intenções, claro).\nO Necromante era o alvo, não o colega mago."
+        },
+        {
+          "text": "Sauron",
+          "isCorrect": true,
+          "explanation": "Exatamente! O Necromante era Sauron, que estava secretamente recuperando seu poder em Dol Guldur.\nGandalf descobriu sua verdadeira identidade, o que levou o Conselho Branco a atacar a fortaleza.\nO retorno do Lorde das Trevas estava começando.",
+          "imageUrl": "https://www.gettyimages.com.br/detail/foto/dark-sorcerer-figure-in-hooded-robe-royalty-free-imagem/1302124500",
+          "imageDescription": "Figura sombria de um feiticeiro em um manto com capuz, representando o Necromante/Sauron."
+        },
+        {
+          "text": "Um Balrog perdido",
+          "isCorrect": false,
+          "explanation": "Balrogs são terrores de fogo e sombra, mas o Necromante era uma inteligência maligna e manipuladora.\nEle comandava exércitos e tramava a dominação, não apenas destruição elemental.\nUm tipo diferente de 'fogo consumidor'."
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "question": "Qual o nome do elfo que é o melhor amigo de Legolas e o acompanha em suas viagens após a Guerra do Anel?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Aragorn, filho de Arathorn",
+          "isCorrect": false,
+          "explanation": "Aragorn e Legolas se tornaram grandes amigos, mas Aragorn tinha um reino para governar.\nSuas viagens juntos foram durante a Sociedade e a Guerra.\nDepois, cada um seguiu seu caminho (com visitas ocasionais)."
+        },
+        {
+          "text": "Elladan, filho de Elrond",
+          "isCorrect": false,
+          "explanation": "Elladan e seu irmão Elrohir são amigos de Aragorn e grandes guerreiros.\nMas o companheiro de viagem de Legolas em suas explorações pós-guerra foi de outra raça.\nUma amizade um tanto... improvável."
+        },
+        {
+          "text": "Gimli, filho de Glóin",
+          "isCorrect": true,
+          "explanation": "Correto! Apesar das diferenças iniciais, Legolas e Gimli se tornaram amigos inseparáveis.\nEles viajaram juntos para ver as Cavernas Cintilantes e a Floresta de Fangorn.\nUma amizade que superou preconceitos e durou a vida toda.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/elf-dwarf-standing-side-by-looking-2008010300",
+          "imageDescription": "Elfo e anão em pé lado a lado, olhando para uma paisagem, simbolizando a amizade de Legolas e Gimli."
+        },
+        {
+          "text": "Haldir de Lórien",
+          "isCorrect": false,
+          "explanation": "Haldir era um elfo de Lórien que Legolas conhecia, mas não seu companheiro de aventuras pós-guerra.\nHaldir tinha seus deveres em Lórien.\nE, infelizmente, um destino trágico (nos filmes)."
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "question": "Em que local Frodo é ferido pela lâmina de Morgul do Rei Bruxo?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "No Vau do Bruinen",
+          "isCorrect": false,
+          "explanation": "No Vau do Bruinen, Frodo escapa dos Nazgûl graças à enchente mágica.\nEle já estava ferido nesse ponto, o ataque aconteceu antes.\nO rio foi a salvação, não o local do ferimento."
+        },
+        {
+          "text": "Em Bri, na taverna do Pônei Saltitante",
+          "isCorrect": false,
+          "explanation": "Em Bri, houve um ataque dos Nazgûl aos quartos dos hobbits, mas eles não estavam lá.\nO ferimento com a lâmina de Morgul ocorreu em um acampamento ao ar livre.\nUm lugar mais ermo e assustador."
+        },
+        {
+          "text": "No Topo do Vento (Weathertop/Amon Sûl)",
+          "isCorrect": true,
+          "explanation": "Exato! Foi na antiga torre de Amon Sûl, o Topo do Vento, que os Nazgûl atacaram o grupo de Aragorn e os hobbits.\nLá, o Rei Bruxo apunhalou Frodo com sua lâmina enfeitiçada.\nUm ferimento que nunca cicatrizou completamente.",
+          "imageUrl": "https://www.istockphoto.com/br/foto/ru%C3%ADnas-antigas-no-topo-de-uma-colina-ao-p%C3%B4r-do-sol-gm1304000100-395268100",
+          "imageDescription": "Ruínas antigas no topo de uma colina ao pôr do sol, representando o Topo do Vento."
+        },
+        {
+          "text": "Nas Minas de Moria",
+          "isCorrect": false,
+          "explanation": "Em Moria, Frodo foi ferido por um golpe de lança de um capitão Orc, mas foi salvo pela cota de Mithril.\nA lâmina de Morgul foi um perigo bem anterior e de natureza diferente.\nCada perigo com sua própria arma."
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "question": "Qual dos anões da companhia de Thorin era irmão de Fíli?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Balin",
+          "isCorrect": false,
+          "explanation": "Balin e Dwalin eram irmãos, mas não parentes diretos de Fíli.\nEles eram anões mais velhos e experientes da companhia.\nUma dupla de irmãos diferente."
+        },
+        {
+          "text": "Glóin",
+          "isCorrect": false,
+          "explanation": "Glóin era pai de Gimli. Ele e Óin eram irmãos.\nFíli e seu irmão eram os mais jovens da companhia, sobrinhos de Thorin.\nUma linhagem real e aventureira."
+        },
+        {
+          "text": "Kíli",
+          "isCorrect": true,
+          "explanation": "Correto! Fíli e Kíli eram irmãos inseparáveis, os sobrinhos leais de Thorin Escudo de Carvalho.\nOs mais jovens da companhia, morreram defendendo seu tio na Batalha dos Cinco Exércitos.\nUma dupla trágica e heroica.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/two-young-dwarf-brothers-armor-standing-2077891800",
+          "imageDescription": "Dois jovens irmãos anões em armadura, lado a lado, representando Fíli e Kíli."
+        },
+        {
+          "text": "Dori",
+          "isCorrect": false,
+          "explanation": "Dori, Nori e Ori eram parentes, possivelmente irmãos ou primos.\nMas não o irmão de Fíli. A companhia tinha vários grupos familiares.\nUma verdadeira reunião de clãs anões."
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "question": "Qual o nome da Senhora de Rohan, sobrinha de Théoden, que se apaixona por Aragorn e depois se casa com Faramir?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Arwen Undómiel",
+          "isCorrect": false,
+          "explanation": "Arwen é a elfa prometida a Aragorn, filha de Elrond.\nEla não é de Rohan e sua história de amor é com o Rei Elessar.\nUma beleza élfica, não uma dama do escudo de Rohan."
+        },
+        {
+          "text": "Galadriel",
+          "isCorrect": false,
+          "explanation": "Galadriel é a Senhora de Lórien, uma elfa de imenso poder e sabedoria.\nMuito mais velha e de outra estirpe que a nobre dama de Rohan.\nEla abençoou Aragorn, mas não se apaixonou por ele dessa forma."
+        },
+        {
+          "text": "Éowyn",
+          "isCorrect": true,
+          "explanation": "Exato! Éowyn, a Dama do Escudo de Rohan, que desejava glória em batalha.\nEla se apaixonou por Aragorn, mas encontrou a felicidade e a cura com Faramir de Gondor.\nUma guerreira formidável e uma rainha sábia.",
+          "imageUrl": "https://www.istockphoto.com/br/foto/mulher-guerreira-loira-em-armadura-com-espada-gm1304000110-395268105",
+          "imageDescription": "Mulher guerreira loira em armadura com espada, representando Éowyn."
+        },
+        {
+          "text": "Gilraen",
+          "isCorrect": false,
+          "explanation": "Gilraen foi a mãe de Aragorn, uma mulher sábia e triste da linhagem dos Dúnedain.\nEla viveu em Valfenda e se preocupava com o destino de seu filho.\nUma figura materna, não um interesse romântico para ele."
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "question": "Qual o nome da Batalha final em 'O Hobbit', onde Anões, Elfos e Homens lutam juntos contra Goblins e Wargs?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "A Batalha do Abismo de Helm",
+          "isCorrect": false,
+          "explanation": "A Batalha do Abismo de Helm é de 'O Senhor dos Anéis', onde Rohan luta contra os Uruk-hai de Saruman.\nUma batalha épica, mas em outro livro e com outros inimigos (principalmente).\nCada história com sua grande batalha."
+        },
+        {
+          "text": "A Batalha dos Campos do Pelennor",
+          "isCorrect": false,
+          "explanation": "Esta é a maior batalha de 'O Senhor dos Anéis', em frente a Minas Tirith.\nEnvolveu Gondor, Rohan e as forças de Mordor. Bem diferente da batalha de 'O Hobbit'.\nEscalas e participantes distintos."
+        },
+        {
+          "text": "A Batalha dos Cinco Exércitos",
+          "isCorrect": true,
+          "explanation": "Corretíssimo! A Batalha dos Cinco Exércitos aconteceu aos pés da Montanha Solitária.\nAnões, Elfos da Floresta e Homens do Lago (com ajuda de Beorn e das Águias) contra Goblins e Wargs.\nUma confusão danada por causa de um tesouro de dragão!",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/epic-fantasy-battle-multiple-armies-clashing-2008010400",
+          "imageDescription": "Batalha de fantasia épica com múltiplos exércitos se enfrentando perto de uma montanha."
+        },
+        {
+          "text": "A Guerra da Última Aliança",
+          "isCorrect": false,
+          "explanation": "A Guerra da Última Aliança foi no final da Segunda Era, onde Elfos e Homens lutaram contra Sauron.\nMuito antes dos eventos de 'O Hobbit'.\nUma guerra para acabar com todas as guerras (daquela era, pelo menos)."
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "question": "Qual o nome da aranha que Bilbo enfrenta na Floresta das Trevas, nomeando sua espada Ferroada após a luta?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Laracna (Shelob)",
+          "isCorrect": false,
+          "explanation": "Laracna é a monstruosidade que Frodo e Sam enfrentam perto de Mordor, muito maior e mais perigosa.\nAs aranhas da Floresta das Trevas eram suas 'primas pobres', mas ainda assim assustadoras.\nBilbo teve sorte de não encontrar a 'matriarca'."
+        },
+        {
+          "text": "Ungoliant",
+          "isCorrect": false,
+          "explanation": "Ungoliant foi a mãe de todas as aranhas gigantes, uma criatura de terror da Primeira Era.\nSe Bilbo tivesse encontrado Ungoliant, a história de 'O Hobbit' seria bem mais curta e trágica.\nEle enfrentou um de seus muitos (e menores) descendentes."
+        },
+        {
+          "text": "As aranhas da Floresta das Trevas não possuem nomes individuais na narrativa.",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! Embora sejam uma ameaça significativa, as aranhas que Bilbo enfrenta na Floresta das Trevas não são nomeadas individualmente.\nEle luta contra várias delas para salvar os anões, e é após matar uma delas que ele nomeia sua espada 'Ferroada'.\nEram muitas e anônimas, mas igualmente perigosas!",
+          "imageUrl": "https://www.istockphoto.com/br/foto/aventureiro-lutando-contra-aranha-gigante-na-floresta-escura-gm1304000120-395268110",
+          "imageDescription": "Aventureiro com espada lutando contra uma aranha gigante em uma floresta escura."
+        },
+        {
+          "text": "Attercop",
+          "isCorrect": false,
+          "explanation": "'Attercop' (uma antiga palavra para aranha, significando 'cabeça de veneno') é um nome que Bilbo usa para insultar as aranhas enquanto as provoca.\nNão é o nome de uma aranha específica, mas um xingamento geral.\nBilbo era bom com palavras, mesmo sob pressão aracnídea."
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "question": "Qual o nome do 'País Abençoado' a oeste do mar, para onde muitos elfos e, eventualmente, Frodo e Bilbo, partem?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Númenor",
+          "isCorrect": false,
+          "explanation": "Númenor foi uma grande ilha-reino dos Homens, a oeste da Terra-média, mas foi afundada antes da Guerra do Anel.\nUm lugar de glória e queda, mas não o destino final dos elfos.\nEles iam para um lugar ainda mais a oeste e mais... abençoado."
+        },
+        {
+          "text": "Valinor (ou Terras Imortais / País Abençoado)",
+          "isCorrect": true,
+          "explanation": "Exatamente! Valinor, parte das Terras Imortais, é o reino dos Valar e onde muitos elfos desejam retornar.\nUm lugar de paz e beleza eterna, livre das tristezas da Terra-média.\nOnde Frodo, Bilbo e Gandalf encontraram descanso.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/beautiful-elvish-city-coast-glowing-2020086100",
+          "imageDescription": "Bela cidade élfica na costa, com luz brilhante e navios brancos, representando Valinor."
+        },
+        {
+          "text": "Beleriand",
+          "isCorrect": false,
+          "explanation": "Beleriand foi uma vasta região no noroeste da Terra-média durante a Primeira Era, onde ocorreram muitas das grandes batalhas contra Morgoth.\nA maior parte dela afundou no final da Primeira Era.\nUm lugar de lendas, mas submerso."
+        },
+        {
+          "text": "Terra-média",
+          "isCorrect": false,
+          "explanation": "Terra-média é o continente onde se passam as histórias de 'O Hobbit' e 'O Senhor dos Anéis'.\nÉ de lá que eles partem para o Oeste, buscando Valinor.\nO palco das aventuras, não o destino final de paz."
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "question": "Quem foi o ferreiro élfico que forjou os Três Anéis dos Elfos?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Fëanor",
+          "isCorrect": false,
+          "explanation": "Fëanor foi o maior artesão élfico, criador das Silmarils. Mas os Anéis de Poder foram feitos na Segunda Era, muito depois dele.\nSua obra foi mais... brilhante e causadora de problemas.\nOs Anéis vieram de outro mestre artesão."
+        },
+        {
+          "text": "Celebrimbor",
+          "isCorrect": true,
+          "explanation": "Correto! Celebrimbor, neto de Fëanor e senhor dos ferreiros élficos de Eregion.\nEle foi instruído (e enganado) por Sauron (disfarçado de Annatar) na arte da forja dos anéis, mas forjou os Três sozinho e sem a mácula de Sauron.\nUm artesão brilhante, mas com um fim trágico.",
+          "imageUrl": "https://www.gettyimages.com.br/detail/foto/elf-blacksmith-forging-a-glowing-ring-royalty-free-imagem/1302124550",
+          "imageDescription": "Ferreiro elfo forjando um anel brilhante em uma bigorna."
+        },
+        {
+          "text": "Eöl, o Elfo Escuro",
+          "isCorrect": false,
+          "explanation": "Eöl foi um grande ferreiro da Primeira Era, que forjou as espadas Anglachel e Anguirel de um meteorito.\nMas ele não teve participação na criação dos Anéis de Poder.\nSeu trabalho era mais... individual e sombrio."
+        },
+        {
+          "text": "Aulë, o Vala",
+          "isCorrect": false,
+          "explanation": "Aulë, o Vala ferreiro, ensinou os elfos (e anões) muitas artes, incluindo a metalurgia.\nMas os Anéis de Poder foram obra dos elfos de Eregion, liderados por Celebrimbor.\nAulë foi o 'professor', não o 'aluno' que fez os anéis."
+        }
+      ]
+    },
+    {
+      "id": "97",
+      "question": "Qual o nome do Ent que decide rapidamente se juntar à 'Última Marcha dos Ents' contra Isengard, ao contrário da lentidão típica de seus companheiros?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Barbárvore (Treebeard)",
+          "isCorrect": false,
+          "explanation": "Barbárvore demorou um bom tempo para se decidir, como é típico dos Ents.\nEle precisou de muita persuasão (e da visão da destruição de Saruman) para agir.\n'Não sejamos apressados' é seu lema, afinal."
+        },
+        {
+          "text": "Leaflock (Ramifolha)",
+          "isCorrect": false,
+          "explanation": "Leaflock é um dos Ents mais velhos, provavelmente ainda mais lento para tomar decisões.\nEle estava mais para 'cochilar entre as folhas' do que para marchar rapidamente.\nA pressa não era sua virtude."
+        },
+        {
+          "text": "Quickbeam (Galhosprestos / Bregalad)",
+          "isCorrect": true,
+          "explanation": "Exatamente! Quickbeam (Bregalad em Sindarin) era um Ent mais jovem e 'apressado' para os padrões Ent.\nEle já tinha visto a destruição causada por Saruman em suas árvores e se juntou à marcha imediatamente.\nUm Ent de ação!",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/younger-more-agile-tree-creature-moving-2077891900",
+          "imageDescription": "Criatura árvore mais jovem e ágil se movendo rapidamente, representando Quickbeam."
+        },
+        {
+          "text": "Skinbark (Fldscinn)",
+          "isCorrect": false,
+          "explanation": "Skinbark era outro Ent idoso, que vivia nas encostas das montanhas e cujas árvores foram destruídas por Orcs.\nEle ficou muito triste e recluso, não participando da marcha.\nAlgumas perdas são difíceis demais de superar, mesmo para um Ent."
+        }
+      ]
+    },
+    {
+      "id": "98",
+      "question": "Qual o significado do nome 'Andúril', a espada de Aragorn reforjada?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Espada Quebrada",
+          "isCorrect": false,
+          "explanation": "Isso descreve Narsil antes de ser reforjada, mas Andúril ganhou um nome novo e mais imponente.\n'Espada Quebrada' era seu passado, 'Chama do Oeste' seu futuro.\nUm nome que refletia sua nova glória."
+        },
+        {
+          "text": "Luz de Estrela",
+          "isCorrect": false,
+          "explanation": "Luz de Estrela (como 'Gil-galad') é um tema comum em nomes élficos, mas não o significado de Andúril.\nEmbora a espada brilhasse, seu nome evocava outra imagem poderosa.\nPense no pôr do sol e na esperança."
+        },
+        {
+          "text": "Chama do Oeste (Flame of the West)",
+          "isCorrect": true,
+          "explanation": "Corretíssimo! Andúril significa 'Chama do Oeste' em Quenya.\nUm nome que simboliza a esperança e o poder do Oeste retornando para combater as sombras do Leste.\nE uma espada realmente impressionante!",
+          "imageUrl": "https://www.gettyimages.com.br/detail/foto/sword-with-flaming-blade-against-dark-royalty-free-imagem/1302124600",
+          "imageDescription": "Espada com lâmina flamejante contra um fundo escuro, simbolizando Andúril, a Chama do Oeste."
+        },
+        {
+          "text": "Morte aos Orcs",
+          "isCorrect": false,
+          "explanation": "Embora fosse muito eficaz em matar orcs (como Orcrist, a 'Fende-Orcs'), seu nome não era tão... direto.\nAndúril tinha um significado mais poético e simbólico.\nMatar orcs era apenas uma de suas muitas utilidades."
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "question": "Quem dos Valar se recusou inicialmente a perdoar Fëanor e os Noldor exilados, mas depois se compadeceu com o apelo de Eärendil?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Aulë, o Ferreiro",
+          "isCorrect": false,
+          "explanation": "Aulë tinha uma relação complexa com os Noldor, sendo seu mestre na arte da forja.\nEle lamentou suas ações, mas o juiz principal do perdão era outro.\nAulë era mais um 'pai desapontado'."
+        },
+        {
+          "text": "Ulmo, Senhor das Águas",
+          "isCorrect": false,
+          "explanation": "Ulmo nunca abandonou completamente os exilados e frequentemente os ajudava secretamente.\nEle era a favor da intervenção, mas a decisão final sobre o perdão e o retorno não era só dele.\nUm aliado nas sombras, mas não o 'porteiro do perdão'."
+        },
+        {
+          "text": "Manwë Súlimo, Rei dos Valar",
+          "isCorrect": true,
+          "explanation": "Exato! Manwë, como Rei dos Valar e representante de Eru, sentiu profundamente a rebelião e o Juramento de Fëanor.\nEle sustentou a Proibição dos Noldor por muito tempo, mas o sacrifício e apelo de Eärendil o comoveram a intervir na Guerra da Ira.\nUm líder que sabe a hora de perdoar (e de enviar a cavalaria).",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/majestic-kingly-figure-clouds-holding-scepter-2008010500",
+          "imageDescription": "Figura majestosa e régia entre nuvens, segurando um cetro, representando Manwë."
+        },
+        {
+          "text": "Mandos (Námo), o Juiz",
+          "isCorrect": false,
+          "explanation": "Mandos é o Juiz dos Mortos e o Guardião das Casas dos Mortos, que proclamou a 'Maldição de Mandos' sobre os Noldor.\nSua palavra era pesada e suas profecias se cumpriam, mas o perdão final e a ação vieram de Manwë, seu irmão.\nMandos é mais o 'executor' do que o 'perdoador'."
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "question": "Qual foi o destino final do Um Anel?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Foi levado por Frodo para Valinor para ser guardado em segurança.",
+          "isCorrect": false,
+          "explanation": "Frodo foi para Valinor, mas o Anel não podia ir junto! Seria como levar uma bomba para o paraíso.\nO Anel precisava ser destruído, não apenas escondido.\nO mal precisava ser desfeito, não apenas varrido para debaixo do tapete."
+        },
+        {
+          "text": "Foi capturado por Aragorn e trancado nos cofres de Minas Tirith.",
+          "isCorrect": false,
+          "explanation": "Aragorn jamais confiaria em si mesmo ou em qualquer um para guardar o Anel.\nSua tentação era poderosa demais. A única solução era a destruição.\nEle sabia que o Anel corromperia qualquer guardião."
+        },
+        {
+          "text": "Foi destruído nas chamas da Montanha da Perdição (Orodruin).",
+          "isCorrect": true,
+          "explanation": "Finalmente! O Um Anel foi destruído quando Gollum, após arrancá-lo do dedo de Frodo, caiu com ele nas Fendas da Perdição.\nO único lugar onde poderia ser desfeito. Um final 'quente' para um objeto tão problemático.\nAdeus, Anel, e não volte mais!",
+          "imageUrl": "https://www.istockphoto.com/br/foto/vulc%C3%A3o-em-erup%C3%A7%C3%A3o-com-lava-fluindo-gm1304000130-395268115",
+          "imageDescription": "Vulcão em erupção com lava fluindo, simbolizando a Montanha da Perdição e a destruição do Anel."
+        },
+        {
+          "text": "Tom Bombadil o pegou e o transformou em uma flor.",
+          "isCorrect": false,
+          "explanation": "Tom Bombadil era imune ao poder do Anel, mas não tinha interesse em destruí-lo ou guardá-lo.\nEle provavelmente o esqueceria em algum canto. Transformá-lo em flor? Talvez, mas não foi o que aconteceu.\nO Anel precisava de um fim mais... definitivo."
+        }
+      ]
+    }
+  ]
+}

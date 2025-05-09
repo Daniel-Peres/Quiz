@@ -1,149 +1,2909 @@
 {
-    "config": {
-      "theme": "Harry Potter",
-      "totalPoints": 1000,
-      "scoring": "points"
+  "config": {
+    "theme": "Harry Potter",
+    "totalPoints": 1000,
+    "scoring": "points"
+  },
+  "data": [
+    {
+      "id": "01",
+      "question": "Qual é o feitiço usado para levitar objetos?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Alohomora",
+          "isCorrect": false,
+          "explanation": "Alohomora abre portas trancadas, não faz objetos voarem poeticamente.\nA menos que a porta decida sair voando por aí, o que seria estranho.\nPara flutuar coisas, você precisa de outro encantamento."
+        },
+        {
+          "text": "Wingardium Leviosa",
+          "isCorrect": true,
+          "explanation": "Correto! 'É Levi-Ô-sa, não Levio-SÁ!'\nEste é o feitiço que Hermione ensinou Rony a pronunciar corretamente.\nPerfeito para fazer penas (e outras coisas) flutuarem pelos ares.",
+          "imageUrl": "https://www.shutterstock.com/image-vector/magic-wand-feather-vector-illustration-260nw-1920617051.jpg",
+          "imageDescription": "Varinha mágica fazendo uma pena levitar, demonstrando o feitiço Wingardium Leviosa."
+        },
+        {
+          "text": "Expelliarmus",
+          "isCorrect": false,
+          "explanation": "Expelliarmus serve para desarmar seu oponente, fazendo a varinha dele voar.\nAté faz algo voar, mas o objetivo é outro.\nNão é bem 'levitação suave', é mais 'saia daqui, varinha!'"
+        },
+        {
+          "text": "Lumos",
+          "isCorrect": false,
+          "explanation": "Lumos cria luz na ponta da varinha, ideal para lugares escuros.\nSe você tentar levitar algo com Lumos, vai acabar apenas iluminando o objeto no chão.\nMuito útil, mas para outros propósitos."
+        }
+      ]
     },
-    "data": [
-      {
-        "question": "Qual é o nome da escola de magia frequentada por Harry Potter?",
-        "level": "fácil",
-        "options": [
-          {
-            "text": "Beauxbatons",
-            "isCorrect": false,
-            "explanation": "Nããão, Beauxbatons é a escola francesa, com carruagens voadoras! Tente a escola britânica com castelos e quadribol!"
-          },
-          {
-            "text": "Hogwarts",
-            "isCorrect": true,
-            "explanation": "Expecto Patronum, você acertou! Hogwarts, a escola de magia e bruxaria, é onde Harry, Ron e Hermione vivem aventuras, jogam quadribol e enfrentam Voldemort. De escadas móveis a fantasmas, é o lar dos bruxos! Parabéns, aluno!",
-            "imageUrl": "https://www.wizardingworld.com/images/hogwarts-castle.jpg",
-            "imageDescription": "Imagem do castelo de Hogwarts à noite, com torres iluminadas e o lago ao fundo, capturando a magia da escola de Harry Potter."
-          },
-          {
-            "text": "Durmstrang",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! Durmstrang é a escola do leste europeu, mais sombria. Tente a escola com o Expresso de Hogwarts!"
-          },
-          {
-            "text": "Ilvermorny",
-            "isCorrect": false,
-            "explanation": "Nããão, Ilvermorny é americana! Tente a escola britânica onde Harry lança feitiços e come sapos de chocolate!"
-          }
-        ]
-      },
-      {
-        "question": "Qual objeto mágico permite a Harry Potter viajar no tempo no terceiro livro/filme?",
-        "level": "médio",
-        "options": [
-          {
-            "text": "Capa da Invisibilidade",
-            "isCorrect": false,
-            "explanation": "Nããão, a Capa da Invisibilidade esconde, não viaja no tempo! Tente algo mais... giratório e temporal!"
-          },
-          {
-            "text": "Vira-tempo",
-            "isCorrect": true,
-            "explanation": "Você girou o tempo certo! O Vira-tempo, usado por Hermione em 'Prisioneiro de Azkaban', permite viagens temporais, salvando Sirius e Bicuço. Um gadget tão legal que até o Ministério da Magia controla! Parabéns, bruxo!",
-            "imageUrl": "https://www.wizardingworld.com/images/time-turner.jpg",
-            "imageDescription": "Imagem de um Vira-tempo, com sua ampulheta dourada e correntes, brilhando, representando o dispositivo de viagem no tempo de Harry Potter."
-          },
-          {
-            "text": "Pomo de Ouro",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! O Pomo de Ouro é pra quadribol, não tempo. Tente algo que Hermione usava escondido!"
-          },
-          {
-            "text": "Pensieve",
-            "isCorrect": false,
-            "explanation": "Nããão, a Penseira mostra memórias, não viaja no tempo. Tente algo mais... giratório e mágico!"
-          }
-        ]
-      },
-      {
-        "question": "Qual é o nome do vilão principal da série Harry Potter?",
-        "level": "fácil",
-        "options": [
-          {
-            "text": "Draco Malfoy",
-            "isCorrect": false,
-            "explanation": "Nããão, Draco é só um valentão de Hogwarts! O vilão principal é bem mais sombrio e sem nariz!"
-          },
-          {
-            "text": "Lord Voldemort",
-            "isCorrect": true,
-            "explanation": "Avada Kedavra, você acertou! Lord Voldemort, o Senhor das Trevas, é o vilão que aterroriza o mundo bruxo, caçando Harry por causa de uma profecia. Sem nariz, mas com muito ódio, ele é o pesadelo de Hogwarts. Boa, auror!",
-            "imageUrl": "https://www.wizardingworld.com/images/voldemort.jpg",
-            "imageDescription": "Imagem de Lord Voldemort com sua varinha e rosto pálido sem nariz, em um fundo escuro, representando sua ameaça em Harry Potter."
-          },
-          {
-            "text": "Severus Snape",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! Snape é complicado, mas não o vilão principal. Tente o cara que ama cobras e horcruxes!"
-          },
-          {
-            "text": "Bellatrix Lestrange",
-            "isCorrect": false,
-            "explanation": "Nããão, Bellatrix é uma seguidora cruel, mas não a líder. Tente o chefão das Trevas!"
-          }
-        ]
-      },
-      {
-        "question": "Qual feitiço, usado em duelos, desarma o oponente tirando sua varinha?",
-        "level": "médio",
-        "options": [
-          {
-            "text": "Expecto Patronum",
-            "isCorrect": false,
-            "explanation": "Nããão, Expecto Patronum invoca um patrono contra dementadores! Tente algo mais... desarmador e duelístico!"
-          },
-          {
-            "text": "Expelliarmus",
-            "isCorrect": true,
-            "explanation": "Você é um mestre dos duelos! Expelliarmus, o feitiço de desarme, é a marca de Harry Potter, tirando varinhas de oponentes como Draco e até Voldemort. Simples, mas poderoso, é o 'adeus, varinha!' dos bruxos. Parabéns, duelista!",
-            "imageUrl": "https://www.wizardingworld.com/images/expelliarmus.jpg",
-            "imageDescription": "Imagem de um feitiço Expelliarmus sendo lançado, com uma luz vermelha saindo de uma varinha, em um cenário de duelo mágico de Harry Potter."
-          },
-          {
-            "text": "Stupefy",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! Stupefy atordoa, não desarma. Tente o feitiço que deixa o oponente sem varinha!"
-          },
-          {
-            "text": "Lumos",
-            "isCorrect": false,
-            "explanation": "Nããão, Lumos só ilumina! Tente algo que voa varinhas pelos ares em duelos!"
-          }
-        ]
-      },
-      {
-        "question": "Qual horcrux, destruída por Ron Weasley, era um medalhão pertencente a Salazar Slytherin?",
-        "level": "difícil",
-        "options": [
-          {
-            "text": "Diadema de Ravenclaw",
-            "isCorrect": false,
-            "explanation": "Nããão, o Diadema foi destruído por Crabbe com Fogo Maldito. Tente algo que Ron enfrentou com uma espada!"
-          },
-          {
-            "text": "Medalhão de Slytherin",
-            "isCorrect": true,
-            "explanation": "Você é um caçador de horcruxes! O Medalhão de Slytherin, uma horcrux de Voldemort, foi destruído por Ron com a Espada de Gryffindor em 'Relíquias da Morte'. Ele enfrentou seus medos e deu um golpe épico. Parabéns, destruidor de trevas!",
-            "imageUrl": "https://www.wizardingworld.com/images/slytherin-locket.jpg",
-            "imageDescription": "Imagem do Medalhão de Slytherin, com detalhes verdes e dourados, brilhando sinistramente, representando sua importância como horcrux em Harry Potter."
-          },
-          {
-            "text": "Cálice de Hufflepuff",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! O Cálice foi destruído por Hermione. Tente o horcrux que atormentou Ron emocionalmente!"
-          },
-          {
-            "text": "Anel de Gaunt",
-            "isCorrect": false,
-            "explanation": "Nããão, o Anel foi destruído por Dumbledore. Tente o horcrux que Ron esfaqueou com coragem!"
-          }
-        ]
-      }
-    ]
-  }
+    {
+      "id": "02",
+      "question": "Qual animal é o símbolo da casa Lufa-Lufa (Hufflepuff)?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Leão",
+          "isCorrect": false,
+          "explanation": "O leão é o símbolo da Grifinória, representando coragem e bravura.\nA Lufa-Lufa tem um animal um pouco mais... humilde, mas igualmente nobre.\nPense em algo que cava e é leal."
+        },
+        {
+          "text": "Serpente",
+          "isCorrect": false,
+          "explanation": "A serpente representa a Sonserina, astúcia e ambição.\nDefinitivamente não é o mascote da casa conhecida por sua gentileza e fair play.\nSeria uma combinação bem... escorregadia."
+        },
+        {
+          "text": "Águia",
+          "isCorrect": false,
+          "explanation": "A águia (nos livros) é o símbolo da Corvinal, representando inteligência e sabedoria.\nOs lufanos são sábios à sua maneira, mas seu animal é mais terrestre.\nEles preferem manter as patas (ou garras) no chão."
+        },
+        {
+          "text": "Texugo",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! O texugo, com sua lealdade e persistência, é o animal da Lufa-Lufa.\nUma casa que valoriza o trabalho duro e a amizade acima de tudo.\nNão subestime um texugo lufano!",
+          "imageUrl": "https://www.shutterstock.com/image-vector/hufflepuff-emblem-design-badger-mascot-260nw-1933517069.jpg",
+          "imageDescription": "Emblema estilizado da casa Lufa-Lufa com um texugo."
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "question": "Qual é o nome do banco dos bruxos, guardado por duendes?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Nurmengard",
+          "isCorrect": false,
+          "explanation": "Nurmengard era a prisão que Grindelwald construiu para seus oponentes (e onde ele mesmo acabou preso).\nDefinitivamente não é um lugar para guardar seu ouro.\nA menos que você queira que ele fique bem... 'seguro' demais."
+        },
+        {
+          "text": "Azkaban",
+          "isCorrect": false,
+          "explanation": "Azkaban é a prisão dos bruxos, guardada por Dementadores. Um lugar horrível!\nVocê não iria querer abrir uma conta poupança lá.\nOs juros seriam pagos em alma."
+        },
+        {
+          "text": "Gringotes (Gringotts)",
+          "isCorrect": true,
+          "explanation": "Corretíssimo! Gringotes é o lugar mais seguro do mundo bruxo para guardar seus tesouros (depois de Hogwarts, talvez).\nAdministrado por duendes nem sempre amigáveis, mas eficientes.\nE com dragões guardando os cofres mais secretos!",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/fantasy-bank-building-grand-marble-260nw-2085629450.jpg",
+          "imageDescription": "Edifício de banco de fantasia com arquitetura grandiosa e cofres, representando Gringotes."
+        },
+        {
+          "text": "Ministério da Magia",
+          "isCorrect": false,
+          "explanation": "O Ministério da Magia governa o mundo bruxo, mas não é o banco.\nEles provavelmente têm um orçamento e um tesouro, mas para guardar seus galeões pessoais, Gringotes é o lugar.\nBurocracia e finanças são coisas diferentes."
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "question": "Qual poção permite que quem a bebe assuma a aparência de outra pessoa?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Felix Felicis",
+          "isCorrect": false,
+          "explanation": "Felix Felicis é a 'sorte líquida'. Faz seu dia ser incrivelmente sortudo!\nMas não muda sua aparência, apenas suas chances de sucesso.\nA menos que sua sorte seja parecer outra pessoa, o que é improvável."
+        },
+        {
+          "text": "Amortentia",
+          "isCorrect": false,
+          "explanation": "Amortentia é a poção do amor mais poderosa que existe, com um cheiro diferente para cada um.\nFaz você se apaixonar (ou ter uma forte obsessão), mas não te transforma em seu amado.\nIsso seria um nível de 'grude' um pouco extremo."
+        },
+        {
+          "text": "Veritaserum",
+          "isCorrect": false,
+          "explanation": "Veritaserum é a poção da verdade, obriga quem a bebe a dizer apenas a verdade.\nMuito útil para interrogatórios, mas não para mudar de rosto.\nSua aparência continuará a mesma, só que bem mais honesta."
+        },
+        {
+          "text": "Poção Polissuco (Polyjuice Potion)",
+          "isCorrect": true,
+          "explanation": "Exatamente! A complexa Poção Polissuco permite que você se transforme em outra pessoa por um tempo.\nSó não se esqueça de um fio de cabelo (ou algo do tipo) da pessoa em quem quer se transformar!\nE cuidado para não pegar pelo de gato...",
+          "imageUrl": "https://www.shutterstock.com/image-photo/potion-bottles-various-colors-magical-260nw-1958345789.jpg",
+          "imageDescription": "Frascos de poções de várias cores em um ambiente mágico, um deles representando a Poção Polissuco."
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "question": "Quantos objetos são considerados as Relíquias da Morte?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Sete, como as Horcruxes de Voldemort.",
+          "isCorrect": false,
+          "explanation": "Sete é o número mágico para as Horcruxes, sim.\nMas as Relíquias da Morte, os artefatos lendários dos irmãos Peverell, são em menor quantidade.\nPense em uma trindade de poder."
+        },
+        {
+          "text": "Quatro, uma para cada fundador de Hogwarts.",
+          "isCorrect": false,
+          "explanation": "Os fundadores de Hogwarts tinham seus próprios artefatos (como a espada de Gryffindor ou o diadema de Ravenclaw).\nMas as Relíquias da Morte são objetos diferentes, com uma origem e propósito distintos.\nMenos foco em casas, mais em dominar a morte."
+        },
+        {
+          "text": "Três: a Varinha das Varinhas, a Pedra da Ressurreição e a Capa da Invisibilidade.",
+          "isCorrect": true,
+          "explanation": "Perfeito! São três as Relíquias da Morte: a invencível Varinha das Varinhas, a Pedra que traz de volta os ecos dos mortos, e a Capa que torna o usuário verdadeiramente invisível.\nJuntas, dizem que tornam o possuidor o Senhor da Morte.\nUma lenda que se provou bem real para Harry.",
+          "imageUrl": "https://www.shutterstock.com/image-vector/deathly-hallows-symbol-vector-illustration-260nw-1168382182.jpg",
+          "imageDescription": "Símbolo das Relíquias da Morte: um círculo dentro de um triângulo, com uma linha vertical no centro."
+        },
+        {
+          "text": "Uma: o próprio Manto da Invisibilidade de Harry.",
+          "isCorrect": false,
+          "explanation": "A Capa da Invisibilidade de Harry é, de fato, UMA das Relíquias da Morte.\nMas ela é apenas um terço do conjunto completo.\nFaltam a varinha superpoderosa e a pedra que... bem, não funciona tão bem quanto se espera."
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "question": "Qual o nome do elfo doméstico que serve à família Malfoy e depois a Harry Potter?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Monstro (Kreacher)",
+          "isCorrect": false,
+          "explanation": "Monstro servia à nobre e mui antiga Casa dos Black, incluindo Sirius.\nEle era um tanto rabugento, mas leal à sua maneira.\nDobby é de outra família (e bem mais fã de meias)."
+        },
+        {
+          "text": "Winky",
+          "isCorrect": false,
+          "explanation": "Winky era a elfa doméstica da família Crouch, e teve um período bem difícil.\nEla gostava muito de cerveja amanteigada depois de ser demitida.\nMas o elfo dos Malfoy era outro herói de orelhas pontudas."
+        },
+        {
+          "text": "Dobby",
+          "isCorrect": true,
+          "explanation": "Dobby é um elfo livre! E o herói que tentou salvar Harry de todas as formas (às vezes desajeitadas).\nEle ganhou sua liberdade com uma meia de Harry e se tornou um amigo leal.\nUm verdadeiro ícone da liberdade élfica!",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/cute-magical-house-elf-character-260nw-2077891000.jpg",
+          "imageDescription": "Personagem de elfo doméstico mágico e fofo com grandes olhos, representando Dobby."
+        },
+        {
+          "text": "Hokey",
+          "isCorrect": false,
+          "explanation": "Hokey era a elfa doméstica idosa de Hepzibah Smith, que foi incriminada por Tom Riddle pelo roubo da taça de Lufa-Lufa e do medalhão de Sonserina.\nUma vítima da astúcia de Voldemort.\nDobby, por outro lado, era vítima dos Malfoy."
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "question": "Qual disciplina mágica Minerva McGonagall leciona em Hogwarts?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Poções",
+          "isCorrect": false,
+          "explanation": "Poções era o domínio do Professor Snape (e depois Slughorn).\nMcGonagall é mestre em outra arte da magia, uma que envolve mudança de forma.\nEla não é de ficar mexendo caldeirões."
+        },
+        {
+          "text": "Defesa Contra as Artes das Trevas",
+          "isCorrect": false,
+          "explanation": "Essa cadeira teve uma rotatividade de professores impressionante!\nMas Minerva McGonagall tinha sua própria disciplina, que lecionava com rigor e maestria.\nEla combate as Artes das Trevas, mas não as ensina (a se defender delas, pelo menos)."
+        },
+        {
+          "text": "Transfiguração",
+          "isCorrect": true,
+          "explanation": "Corretíssimo! A Professora McGonagall é a imponente e brilhante mestra de Transfiguração.\nCapaz de transformar uma escrivaninha em um porco e vice-versa.\nE não tente chegar atrasado na aula dela!",
+          "imageUrl": "https://www.shutterstock.com/image-photo/concept-art-strict-elderly-female-260nw-2306785499.jpg",
+          "imageDescription": "Arte conceitual de uma professora idosa, de aparência severa, mas sábia, em vestes de mago."
+        },
+        {
+          "text": "Feitiços",
+          "isCorrect": false,
+          "explanation": "Feitiços era a área do Professor Flitwick, um mestre em encantamentos.\nEle ensinava desde o 'Wingardium Leviosa' até feitiços mais complexos.\nMcGonagall se concentrava nas transformações."
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "question": "Qual é o nome do fantasma residente da torre da Grifinória?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Barão Sangrento",
+          "isCorrect": false,
+          "explanation": "O Barão Sangrento é o fantasma da Sonserina, assustador e coberto de sangue prateado.\nOs alunos da Grifinória têm um fantasma bem mais... amigável e com a cabeça no lugar (às vezes).\nDefinitivamente não é esse espectro soturno."
+        },
+        {
+          "text": "A Dama Cinzenta",
+          "isCorrect": false,
+          "explanation": "A Dama Cinzenta é o fantasma da Corvinal, também conhecida como Helena Ravenclaw.\nUma figura melancólica e importante para encontrar um certo diadema.\nMas a Grifinória tem seu próprio residente espectral."
+        },
+        {
+          "text": "Nick Quase Sem Cabeça",
+          "isCorrect": true,
+          "explanation": "Acertou! Sir Nicholas de Mimsy-Porpington, ou Nick Quase Sem Cabeça para os íntimos.\nUm fantasma amigável que adoraria ter sido completamente decapitado.\nSempre pronto para uma festa de aniversário de morte!",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/friendly-ghostly-knight-figure-head-260nw-2107784000.jpg",
+          "imageDescription": "Figura fantasmagórica amigável de um cavaleiro com a cabeça quase separada do corpo."
+        },
+        {
+          "text": "Frei Gorducho",
+          "isCorrect": false,
+          "explanation": "O Frei Gorducho é o fantasma da Lufa-Lufa, conhecido por sua alegria e disposição para perdoar.\nUm fantasma gente boa, mas cada casa com seu espectro particular.\nNick é o anfitrião fantasma da Grifinória."
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "question": "Como se chama a rua onde Harry Potter morava com os Dursley?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Beco Diagonal",
+          "isCorrect": false,
+          "explanation": "O Beco Diagonal é o centro comercial dos bruxos em Londres, cheio de lojas mágicas.\nHarry adorava ir lá, mas definitivamente não morava em cima da Floreios e Borrões.\nSeria um endereço bem agitado para os Dursley."
+        },
+        {
+          "text": "Godric's Hollow",
+          "isCorrect": false,
+          "explanation": "Godric's Hollow é a vila onde Harry nasceu e onde seus pais foram mortos.\nUm lugar de grande importância histórica e emocional, mas não onde ele cresceu.\nOs Dursley preferiam um lugar bem mais... normal."
+        },
+        {
+          "text": "Rua dos Alfeneiros (Privet Drive)",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! Número quatro, Rua dos Alfeneiros, era o endereço nada mágico de Harry com seus tios.\nUm lugar onde a normalidade era lei e a magia era um tabu.\nPelo menos até as cartas de Hogwarts começarem a chegar.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/suburban-street-identical-houses-under-260nw-1741468100.jpg",
+          "imageDescription": "Rua suburbana com casas idênticas sob um céu nublado, representando a Rua dos Alfeneiros."
+        },
+        {
+          "text": "Travessa do Tranco",
+          "isCorrect": false,
+          "explanation": "A Travessa do Tranco é um lugar sombrio e mal-afamado, cheio de lojas de Artes das Trevas.\nOs Dursley teriam um ataque cardíaco só de passar por perto.\nDefinitivamente não é o tipo de vizinhança que eles aprovariam."
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Qual criatura mágica puxa as carruagens da Escola de Magia e Bruxaria de Hogwarts, visíveis apenas para quem já viu a morte?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Hipogrifos",
+          "isCorrect": false,
+          "explanation": "Hipogrifos são criaturas nobres e orgulhosas, meio águia, meio cavalo.\nEles podem ser montados, mas não são os responsáveis por puxar as carruagens de Hogwarts.\nEles exigem um pouco mais de etiqueta para serem abordados."
+        },
+        {
+          "text": "Testrálios (Thestrals)",
+          "isCorrect": true,
+          "explanation": "Correto! Os Testrálios, criaturas esqueléticas e aladas com uma aparência um tanto sinistra.\nEles são gentis, mas só podem ser vistos por quem testemunhou a morte.\nUma carona um pouco macabra, mas eficiente.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/skeletal-winged-horse-creature-standing-260nw-2008010000.jpg",
+          "imageDescription": "Criatura cavalo alado esquelético em uma floresta escura, representando um Testrálio."
+        },
+        {
+          "text": "Grifos",
+          "isCorrect": false,
+          "explanation": "Grifos são criaturas majestosas, metade águia, metade leão.\nNão há menção deles puxando as carruagens de Hogwarts.\nEles provavelmente considerariam isso um trabalho abaixo de sua dignidade."
+        },
+        {
+          "text": "Centauros",
+          "isCorrect": false,
+          "explanation": "Centauros são seres orgulhosos e conhecedores dos astros, que vivem na Floresta Proibida.\nEles não são de servir aos bruxos puxando carruagens.\nPreferem observar as estrelas e manter distância."
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "question": "Qual o nome do Mapa que revela todos os cantos de Hogwarts e a localização de cada pessoa dentro do castelo?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "O Mapa Astral de Hogwarts",
+          "isCorrect": false,
+          "explanation": "Mapa Astral soa interessante, mas o mapa dos Marotos é bem mais... terreno e bisbilhoteiro.\nEle não mostra o futuro nas estrelas, mas o presente nos corredores.\nE com comentários espirituosos dos criadores."
+        },
+        {
+          "text": "O Pergaminho Secreto dos Fundadores",
+          "isCorrect": false,
+          "explanation": "Os Fundadores certamente tinham seus segredos, mas este mapa específico foi obra de uma geração posterior de bagunceiros.\nUm artefato mais recente, mas igualmente engenhoso.\nE com um toque de rebeldia adolescente."
+        },
+        {
+          "text": "O Mapa do Maroto (Marauder's Map)",
+          "isCorrect": true,
+          "explanation": "Juro solenemente não fazer nada de bom! É o Mapa do Maroto, claro!\nCriado por Aluado, Rabicho, Almofadinhas e Pontas.\nPerfeito para escapadas noturnas e para ficar de olho nos professores.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/old-parchment-map-unfolded-on-260nw-1936007500.jpg",
+          "imageDescription": "Pergaminho de mapa antigo desdobrado em uma mesa de madeira, representando o Mapa do Maroto."
+        },
+        {
+          "text": "O Guia de Hogwarts para Alunos Perdidos",
+          "isCorrect": false,
+          "explanation": "Seria útil, mas o Mapa do Maroto é muito mais do que um simples guia.\nÉ uma ferramenta de travessuras de alta tecnologia (mágica, claro).\nE não está disponível na biblioteca."
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "question": "Qual o nome da coruja de estimação de Harry Potter?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Errol",
+          "isCorrect": false,
+          "explanation": "Errol é a velha e atrapalhada coruja da família Weasley.\nCoitada, mal consegue carregar uma carta sem desmaiar.\nA coruja de Harry era bem mais... majestosa e eficiente."
+        },
+        {
+          "text": "Pichitinho (Pigwidgeon)",
+          "isCorrect": false,
+          "explanation": "Pichitinho é a minúscula e hiperativa coruja de Rony.\nAdorável, mas um pouco barulhenta e difícil de controlar.\nA coruja de Harry era de uma raça diferente e mais imponente."
+        },
+        {
+          "text": "Edwiges (Hedwig)",
+          "isCorrect": true,
+          "explanation": "Exatamente! Edwiges, a bela e leal coruja das neves.\nO primeiro presente mágico de Harry, dada por Hagrid.\nUma companheira inteligente e uma excelente entregadora de correio.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/beautiful-snowy-owl-perched-on-260nw-1898102500.jpg",
+          "imageDescription": "Bela coruja das neves empoleirada, representando Edwiges."
+        },
+        {
+          "text": "Crookshanks",
+          "isCorrect": false,
+          "explanation": "Crookshanks é o inteligentíssimo gato de Hermione, meio amassado e meio Kneazle.\nDefinitivamente não é uma coruja, e provavelmente caçaria uma se tivesse chance.\nCada um com seu animal de estimação preferido."
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "question": "Quem é o professor de Defesa Contra as Artes das Trevas no primeiro ano de Harry em Hogwarts?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Gilderoy Lockhart",
+          "isCorrect": false,
+          "explanation": "Lockhart, com seu sorriso brilhante e ego inflado, foi professor no segundo ano.\nMais preocupado com a fama do que em ensinar de verdade.\nUm desastre charmoso, mas ineficaz."
+        },
+        {
+          "text": "Remo Lupin",
+          "isCorrect": false,
+          "explanation": "Lupin foi o melhor professor de DCAT que Harry teve, mas isso foi no terceiro ano.\nUm mestre em criaturas das trevas (e em esconder seu próprio segredo peludo).\nUma pena que não durou mais."
+        },
+        {
+          "text": "Professor Quirrell",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! O gago e aparentemente nervoso Professor Quirrell.\nMal sabiam eles que ele carregava um 'passageiro extra' bem desagradável debaixo do turbante.\nUma surpresa bem... Voldemortesca no final do ano.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/nervous-looking-wizard-teacher-turban-260nw-2107784100.jpg",
+          "imageDescription": "Professor bruxo de aparência nervosa usando um grande turbante."
+        },
+        {
+          "text": "Severo Snape",
+          "isCorrect": false,
+          "explanation": "Snape sempre quis o cargo de DCAT, mas só conseguiu no sexto ano de Harry.\nNo primeiro ano, ele estava ocupado aterrorizando alunos nas aulas de Poções.\nE sendo enigmaticamente... Snape."
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "question": "Qual é o nome da plataforma na estação de King's Cross onde se pega o Expresso de Hogwarts?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Plataforma 7 ½",
+          "isCorrect": false,
+          "explanation": "Sete e meio? Parece mais plataforma de filme de comédia pastelão!\nA plataforma mágica tem um número um pouco mais... excêntrico.\nE requer uma corridinha contra uma parede."
+        },
+        {
+          "text": "Plataforma 10 ¾",
+          "isCorrect": false,
+          "explanation": "Quase lá! O número dez está envolvido, mas a fração é outra.\nUma pequena diferença que te leva para o mundo mágico ou para uma colisão dolorosa.\nDetalhes são importantes na magia!"
+        },
+        {
+          "text": "Plataforma 9 ¾",
+          "isCorrect": true,
+          "explanation": "Bingo! A famosa Plataforma Nove e Três Quartos (ou Nove e Meia, dependendo da tradução).\nEscondida entre as plataformas nove e dez, para os trouxas não desconfiarem.\nO embarque para a maior aventura da vida de muitos bruxinhos!",
+          "imageUrl": "https://www.shutterstock.com/image-photo/sign-platform-9-34-kings-260nw-1723927600.jpg",
+          "imageDescription": "Sinal da Plataforma 9 3/4 na estação de King's Cross, com um carrinho de bagagem atravessando a parede."
+        },
+        {
+          "text": "Plataforma Mágica Secreta",
+          "isCorrect": false,
+          "explanation": "Embora seja mágica e secreta, ela tem um número bem específico.\n'Plataforma Mágica Secreta' soa um pouco... óbvio demais para os bruxos discretos.\nEles gostam de um toque de mistério numérico."
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "question": "O que acontece com um bruxo que lança a Maldição da Morte (Avada Kedavra) com sucesso?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "O bruxo perde seus poderes mágicos.",
+          "isCorrect": false,
+          "explanation": "Lançar uma Maldição Imperdoável tem consequências graves, mas não a perda de poderes.\nA punição é mais... legal e definitiva.\nE o bruxo provavelmente não se importaria em perder poderes se já chegou a esse ponto."
+        },
+        {
+          "text": "A vítima é morta instantaneamente.",
+          "isCorrect": true,
+          "explanation": "Correto. O Avada Kedavra causa morte instantânea e sem deixar vestígios físicos.\nNão há contrafeitiço, não há bloqueio (exceto pelo sacrifício de amor, como no caso de Harry).\nUma das magias mais sombrias e temidas.",
+          "imageUrl": "https://www.shutterstock.com/image-vector/green-skull-crossbones-symbol-dark-260nw-1983447000.jpg",
+          "imageDescription": "Símbolo de caveira e ossos cruzados verdes em um fundo escuro, representando a Maldição da Morte."
+        },
+        {
+          "text": "O bruxo que lançou também morre.",
+          "isCorrect": false,
+          "explanation": "Isso seria um feitiço bem... autodestrutivo e pouco prático para bruxos das trevas.\nA maldição é fatal para a vítima, não para o lançador.\nA menos que o feitiço ricocheteie, o que é raro (e só aconteceu com Voldemort e Harry)."
+        },
+        {
+          "text": "A vítima fica em estado vegetativo.",
+          "isCorrect": false,
+          "explanation": "Outras maldições podem causar danos terríveis, mas o Avada Kedavra é direto ao ponto: morte.\nNão há meio-termo ou recuperação.\nÉ a luz verde que ninguém quer ver."
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "question": "Qual é o nome do Ministro da Magia no início da série Harry Potter?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Rufus Scrimgeour",
+          "isCorrect": false,
+          "explanation": "Rufus Scrimgeour se tornou Ministro mais tarde, durante a ascensão de Voldemort.\nEle tinha uma aparência de leão velho e uma postura mais dura que seu predecessor.\nMas no começo, o cargo era de outro."
+        },
+        {
+          "text": "Pius Thicknesse",
+          "isCorrect": false,
+          "explanation": "Pius Thicknesse foi Ministro sob a Maldição Imperius, um fantoche de Voldemort.\nIsso foi no auge das trevas, não no início mais 'tranquilo' da série.\nUm período sombrio para o Ministério."
+        },
+        {
+          "text": "Cornélio Fudge (Cornelius Fudge)",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! Cornélio Fudge, o Ministro que preferia ignorar o retorno de Voldemort.\nMais preocupado com sua popularidade e em evitar pânico do que em enfrentar a verdade.\nSua negação custou caro ao mundo bruxo.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/cartoonish-politician-figure-bowler-hat-260nw-2085629500.jpg",
+          "imageDescription": "Figura política caricata com chapéu-coco, representando Cornélio Fudge."
+        },
+        {
+          "text": "Kingsley Shacklebolt",
+          "isCorrect": false,
+          "explanation": "Kingsley se tornou Ministro interino (e depois efetivo) após a queda de Voldemort.\nUm Auror competente e um líder respeitado. Mas isso foi bem no final da saga.\nO mundo bruxo precisava de alguém como ele depois de tanta bagunça."
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "question": "Qual o nome da vila inteiramente bruxa mais próxima de Hogwarts?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Godric's Hollow",
+          "isCorrect": false,
+          "explanation": "Godric's Hollow é uma vila importante, mas não a mais próxima de Hogwarts para passeios de fim de semana.\nÉ mais um local de peregrinação histórica do que de compras de doces e cerveja amanteigada.\nE fica um pouco mais distante."
+        },
+        {
+          "text": "Little Whinging",
+          "isCorrect": false,
+          "explanation": "Little Whinging é o subúrbio trouxa onde os Dursley moram. O oposto de uma vila bruxa!\nOs alunos de Hogwarts não iriam querer passar o fim de semana por lá.\nA menos que gostassem de jardins impecáveis e tédio."
+        },
+        {
+          "text": "Hogsmeade",
+          "isCorrect": true,
+          "explanation": "Correto! Hogsmeade, a única vila inteiramente bruxa da Grã-Bretanha.\nOnde os alunos a partir do terceiro ano podem ir nos fins de semana para visitar lojas como a Dedosdemel e o Três Vassouras.\nUm paraíso para qualquer jovem bruxo!",
+          "imageUrl": "https://www.shutterstock.com/image-photo/charming-snowcovered-village-magical-shops-260nw-1998900000.jpg",
+          "imageDescription": "Vila charmosa coberta de neve com lojas mágicas e tavernas."
+        },
+        {
+          "text": "Ottery St Catchpole",
+          "isCorrect": false,
+          "explanation": "Ottery St Catchpole é a vila onde os Weasley moram (perto d'A Toca).\nUma vila rural com uma comunidade bruxa, mas não adjacente a Hogwarts.\nE provavelmente sem tantas lojas de doces e logros."
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "question": "Qual objeto mágico Sirius Black dá a Harry que permite comunicação bidirecional?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Um Penseira",
+          "isCorrect": false,
+          "explanation": "A Penseira serve para revisitar memórias, não para bater um papo à distância.\nMuito útil para Dumbledore, mas não para uma conversa rápida com o padrinho.\nA menos que quisessem reviver o mesmo papo várias vezes."
+        },
+        {
+          "text": "Um Espelho de Dois Lados",
+          "isCorrect": true,
+          "explanation": "Exatamente! Um par de espelhos encantados que permitem que duas pessoas se vejam e conversem, não importa a distância.\nSirius deu um a Harry, mas Harry demorou para lembrar de usá-lo.\nUma ferramenta de comunicação trágica e subutilizada.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/two-ornate-handheld-mirrors-placed-260nw-2020086000.jpg",
+          "imageDescription": "Dois espelhos de mão ornamentados colocados um ao lado do outro, representando o espelho de dois lados."
+        },
+        {
+          "text": "Um Vira-Tempo",
+          "isCorrect": false,
+          "explanation": "O Vira-Tempo permite voltar no tempo, não conversar através dele (pelo menos não diretamente).\nUsado por Hermione para assistir a mais aulas. Sirius não precisava disso para falar com Harry.\nEle precisava de algo mais... instantâneo."
+        },
+        {
+          "text": "Uma Chave de Portal",
+          "isCorrect": false,
+          "explanation": "Uma Chave de Portal transporta pessoas de um lugar para outro.\nNão serve para comunicação, a menos que você considere ser arremessado na direção de alguém uma 'conversa'.\nMuito menos sutil que um espelho."
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "question": "Qual o nome do hipogrifo que Harry e Hermione salvam da execução e que depois pertence a Sirius Black?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Fofo (Fluffy)",
+          "isCorrect": false,
+          "explanation": "Fofo é o cão de três cabeças que guardava a Pedra Filosofal.\nGrande e babão, mas definitivamente não é um hipogrifo.\nE duvido que Sirius quisesse um cão de três cabeças como animal de estimação."
+        },
+        {
+          "text": "Norberto (Norbert)",
+          "isCorrect": false,
+          "explanation": "Norberto era o dragão Ridgeback Norueguês que Hagrid criou (ilegalmente).\nDepois descobrimos que 'ele' era na verdade 'ela', Norberta.\nMas dragões e hipogrifos são bem diferentes."
+        },
+        {
+          "text": "Bicuço (Buckbeak), depois Asafugaz (Witherwings)",
+          "isCorrect": true,
+          "explanation": "Correto! Bicuço, o orgulhoso hipogrifo, foi salvo por Harry e Hermione.\nMais tarde, ele acompanha Sirius em sua fuga e é renomeado Asafugaz para despistar.\nUm amigo leal e com um ótimo senso de reverência.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/majestic-hippogriff-creature-half-eagle-260nw-1906536000.jpg",
+          "imageDescription": "Criatura hipogrifo majestosa, meio águia e meio cavalo, com grandes asas."
+        },
+        {
+          "text": "Aragogue",
+          "isCorrect": false,
+          "explanation": "Aragogue era a Acromântula gigante que vivia na Floresta Proibida, amigo de Hagrid.\nUma aranha enorme e assustadora, não um hipogrifo.\nSirius provavelmente não gostaria de ter Aragogue como companheiro de fuga."
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "question": "Qual dos fundadores de Hogwarts criou a Câmara Secreta?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Godrico Gryffindor",
+          "isCorrect": false,
+          "explanation": "Gryffindor valorizava a bravura e a nobreza. A Câmara Secreta, com seu monstro e propósitos sombrios, não faz seu estilo.\nEle preferia um bom duelo a segredos e discriminação.\nE provavelmente não gostava de basiliscos."
+        },
+        {
+          "text": "Helga Hufflepuff",
+          "isCorrect": false,
+          "explanation": "Hufflepuff era conhecida por sua lealdade e por aceitar todos os alunos.\nConstruir uma câmara para aterrorizar parte deles? Nunca!\nEla preferia uma boa torta e amizade a monstros escondidos."
+        },
+        {
+          "text": "Rowena Ravenclaw",
+          "isCorrect": false,
+          "explanation": "Ravenclaw valorizava a inteligência e o aprendizado. A Câmara não parece um projeto educacional muito bom.\nA menos que fosse para estudar anatomia de basilisco, o que é perigoso.\nEla preferia bibliotecas a masmorras secretas."
+        },
+        {
+          "text": "Salazar Slytherin",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! Salazar Slytherin, que acreditava na pureza do sangue bruxo, construiu a Câmara Secreta.\nEle a deixou para que seu herdeiro pudesse usá-la para expurgar Hogwarts de nascidos-trouxas.\nUm legado bem... problemático.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/dark-secret-chamber-underneath-castle-260nw-2085629600.jpg",
+          "imageDescription": "Câmara secreta escura e sinistra debaixo de um castelo, com esculturas de cobras."
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "question": "O que é um 'Animago'?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Um bruxo que consegue falar com cobras.",
+          "isCorrect": false,
+          "explanation": "Quem fala com cobras é um Ofidioglota (Parselmouth), como Harry e Voldemort.\nSer Animago envolve uma transformação física, não um bate-papo com répteis.\nÉ uma habilidade diferente e igualmente rara."
+        },
+        {
+          "text": "Um objeto em que um bruxo escondeu um fragmento de sua alma.",
+          "isCorrect": false,
+          "explanation": "Isso é uma Horcrux, um dos segredos mais sombrios da magia.\nSer Animago é algo que o bruxo FAZ, não algo que ele CRIA para ser imortal.\nE bem menos maligno, geralmente."
+        },
+        {
+          "text": "Um bruxo ou bruxa que pode se transformar em um animal por vontade própria.",
+          "isCorrect": true,
+          "explanation": "Correto! Um Animago aprende a se transformar em um animal específico, mantendo sua consciência humana.\nComo Minerva McGonagall (gata), Sirius Black (cão) e Pedro Pettigrew (rato).\nUma habilidade muito difícil e que requer registro no Ministério (ou não, se você for um Maroto).",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/silhouette-person-transforming-into-wolf-260nw-1998900100.jpg",
+          "imageDescription": "Silhueta de uma pessoa se transformando em um animal (lobo) sob a lua."
+        },
+        {
+          "text": "Um fantasma que pode interagir com o mundo físico.",
+          "isCorrect": false,
+          "explanation": "Fantasmas são impressões de almas que partiram, e geralmente não interagem muito fisicamente (exceto Pirraça).\nSer Animago é uma habilidade de bruxos VIVOS.\nÉ sobre transformação, não sobre ser translúcido."
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "question": "Qual o nome da loja de logros e brincadeiras dos gêmeos Weasley no Beco Diagonal?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Zonko's Joke Shop",
+          "isCorrect": false,
+          "explanation": "A Zonko's era uma loja de brincadeiras popular em Hogsmeade, que os gêmeos adoravam.\nMas eles abriram seu próprio império de travessuras no Beco Diagonal.\nCom produtos ainda mais... explosivos e criativos."
+        },
+        {
+          "text": "Gambol and Japes Wizarding Joke Shop",
+          "isCorrect": false,
+          "explanation": "Gambol and Japes é outra loja de brincadeiras mencionada, mas não a dos Weasley.\nFred e Jorge tinham um nome bem mais... pessoal e chamativo para seu empreendimento.\nAlgo que refletisse seu estilo único."
+        },
+        {
+          "text": "Weasleys' Wizard Wheezes (Gemialidades Weasley)",
+          "isCorrect": true,
+          "explanation": "Exatamente! Gemialidades Weasley, o paraíso das Vira-Vira, Orelhas Extensíveis e Feijõezinhos de Todos os Sabores (os nojentos também).\nUm sucesso estrondoso financiado pelo prêmio do Torneio Tribruxo de Harry.\nOnde a travessura encontra o empreendedorismo!",
+          "imageUrl": "https://www.shutterstock.com/image-photo/colorful-whimsical-joke-shop-facade-260nw-2008010000.jpg",
+          "imageDescription": "Fachada de loja de brincadeiras colorida e extravagante, com produtos mágicos e divertidos."
+        },
+        {
+          "text": "Quality Quidditch Supplies",
+          "isCorrect": false,
+          "explanation": "Quality Quidditch Supplies vende artigos de Quadribol, como vassouras e uniformes.\nOs gêmeos eram ótimos jogadores, mas seu negócio era mais focado em risadas do que em goles.\nA menos que você ache um balaço perdido engraçado."
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "question": "Qual criatura guarda a entrada da sala comunal da Grifinória e exige uma senha?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Uma armadura falante",
+          "isCorrect": false,
+          "explanation": "Armaduras podem ser encantadas para se mover, mas a guardiã da Grifinória é uma figura feminina pintada.\nEla é mais de debates sobre senhas do que de proteger corredores.\nE provavelmente não enferruja."
+        },
+        {
+          "text": "Um duende mal-humorado",
+          "isCorrect": false,
+          "explanation": "Duendes cuidam de Gringotes, não de entradas de salas comunais.\nEles provavelmente cobrariam uma taxa para cada aluno que entrasse.\nA guardiã da Grifinória é bem menos... mercenária."
+        },
+        {
+          "text": "A Mulher Gorda (The Fat Lady)",
+          "isCorrect": true,
+          "explanation": "Isso aí! A Mulher Gorda, um retrato falante que adora uma boa senha (e às vezes um bom vinho).\nEla pode ser um pouco temperamental, especialmente se acordada no meio da noite.\nMas é a chave para o conforto da sala comunal da Grifinória.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/portrait-plump-woman-ornate-frame-260nw-2020086001.jpg",
+          "imageDescription": "Retrato de uma mulher corpulenta em um quadro ornamentado, como a Mulher Gorda."
+        },
+        {
+          "text": "Um Trasgo de Segurança",
+          "isCorrect": false,
+          "explanation": "Um Trasgo? Na entrada da sala comunal? Seria um desastre!\nEles são conhecidos pela força bruta e falta de inteligência, não por lembrar senhas.\nOs alunos teriam que lutar para entrar todo dia."
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "question": "Quem são os quatro criadores do Mapa do Maroto?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Godrico Gryffindor, Salazar Slytherin, Helga Hufflepuff e Rowena Ravenclaw",
+          "isCorrect": false,
+          "explanation": "Esses são os quatro fundadores de Hogwarts, lendas da magia!\nO Mapa do Maroto foi criado por uma geração bem mais... levada e recente.\nPense em uma turma de amigos bagunceiros."
+        },
+        {
+          "text": "Harry Potter, Rony Weasley, Hermione Granger e Neville Longbottom",
+          "isCorrect": false,
+          "explanation": "Esse é o nosso quarteto principal, mas eles são USUÁRIOS do mapa, não seus criadores.\nEles se beneficiaram muito da genialidade dos Marotos originais.\nMas a invenção não foi deles."
+        },
+        {
+          "text": "Aluado (Lupin), Rabicho (Pettigrew), Almofadinhas (Sirius) e Pontas (James)",
+          "isCorrect": true,
+          "explanation": "Exatamente! Remo Lupin (Aluado), Pedro Pettigrew (Rabicho), Sirius Black (Almofadinhas) e James Potter (Pontas).\nOs Marotos originais, que mapearam Hogwarts para suas aventuras (e para ajudar Lupin).\nMalfeito feito!",
+          "imageUrl": "https://www.shutterstock.com/image-vector/four-animal-paw-prints-stylized-260nw-2085629700.jpg",
+          "imageDescription": "Quatro pegadas de animais estilizadas (lobo, rato, cão, cervo) representando os Marotos."
+        },
+        {
+          "text": "Alvo Dumbledore, Minerva McGonagall, Severo Snape e Filius Flitwick",
+          "isCorrect": false,
+          "explanation": "Esses são professores de Hogwarts (e Dumbledore, o diretor).\nEles provavelmente CONFISCARIAM o Mapa do Maroto, não o criariam.\nImagina o Snape ajudando a fazer um mapa para travessuras?"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "question": "Qual o nome do irmão mais velho de Rony Weasley que trabalha com dragões na Romênia?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Percy Weasley",
+          "isCorrect": false,
+          "explanation": "Percy é o irmão ambicioso e amante de regras, que trabalhava no Ministério.\nDragões seriam muito... desorganizados para o gosto dele.\nA menos que ele pudesse multá-los por cuspir fogo em local proibido."
+        },
+        {
+          "text": "Gui Weasley (Bill Weasley)",
+          "isCorrect": false,
+          "explanation": "Gui trabalhava como Desfazedor de Feitiços para Gringotes no Egito.\nUma profissão aventureira, mas com menos escamas e mais maldições antigas.\nEle lidava com tesouros, não com dragões."
+        },
+        {
+          "text": "Carlinhos Weasley (Charlie Weasley)",
+          "isCorrect": true,
+          "explanation": "Correto! Carlinhos Weasley, o segundo filho mais velho, era apaixonado por dragões.\nEle trabalhava em um reservatório de dragões na Romênia.\nUm trabalho perigoso, mas perfeito para ele!",
+          "imageUrl": "https://www.shutterstock.com/image-photo/man-protective-gear-working-large-260nw-1983448000.jpg",
+          "imageDescription": "Homem em equipamento de proteção trabalhando com um grande dragão vermelho em um santuário."
+        },
+        {
+          "text": "Fred Weasley",
+          "isCorrect": false,
+          "explanation": "Fred, junto com Jorge, era mestre em logros e brincadeiras.\nDragões poderiam ser usados em alguma pegadinha espetacular, mas não eram sua especialidade.\nEles preferiam explosões menores e mais controladas."
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "question": "Qual o nome da prisão de segurança máxima para bruxos, guardada por Dementadores?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Gringotes",
+          "isCorrect": false,
+          "explanation": "Gringotes é o banco dos bruxos. Muito seguro, mas para ouro, não para criminosos.\nOs duendes são os guardiões lá, não os Dementadores sugadores de alma.\nA menos que você não pague seu empréstimo, aí talvez..."
+        },
+        {
+          "text": "Nurmengard",
+          "isCorrect": false,
+          "explanation": "Nurmengard foi a prisão de Grindelwald, mas não a principal prisão do mundo bruxo britânico.\nE era guardada por... bem, provavelmente feitiços e paredes grossas, não Dementadores.\nCada bruxo das trevas com sua própria masmorra."
+        },
+        {
+          "text": "Azkaban",
+          "isCorrect": true,
+          "explanation": "Exatamente! Azkaban, a temida fortaleza em uma ilha no Mar do Norte.\nGuardada pelos Dementadores, que se alimentam da felicidade dos prisioneiros.\nUm lugar de onde poucos escapam (e menos ainda com a sanidade intacta).",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/dark-ominous-prison-fortress-on-260nw-1702408800.jpg",
+          "imageDescription": "Fortaleza prisão escura e sinistra em uma ilha rochosa, cercada por mar tempestuoso."
+        },
+        {
+          "text": "Ministério da Magia - Nível Nove",
+          "isCorrect": false,
+          "explanation": "O Nível Nove do Ministério abriga o Departamento de Mistérios, cheio de segredos e profecias.\nNão é uma prisão, embora seja um lugar bem restrito.\nOs Dementadores ficavam em um local bem mais... isolado e deprimente."
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "question": "Qual o feitiço de proteção mais poderoso conhecido, conjurado pelo amor sacrificial?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Protego Maxima",
+          "isCorrect": false,
+          "explanation": "Protego Maxima é um feitiço de escudo poderoso, usado para proteger áreas.\nMas a magia mais forte de todas vem de uma fonte mais... emocional.\nÉ algo que nem Voldemort conseguia entender."
+        },
+        {
+          "text": "Fianto Duri",
+          "isCorrect": false,
+          "explanation": "Fianto Duri é um encantamento que, combinado com outros, fortalece barreiras mágicas.\nMuito útil em batalhas, mas não é 'o' feitiço de proteção mais fundamental e antigo.\nPense em algo que Lily Potter usou."
+        },
+        {
+          "text": "A Magia Antiga do Sacrifício de Amor",
+          "isCorrect": true,
+          "explanation": "Correto! A proteção que Lílian Potter conferiu a Harry ao se sacrificar por ele.\nUma forma de magia antiga e poderosa que Voldemort não podia tocar.\nMais forte que qualquer varinha ou encantamento.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/glowing-magical-shield-heartshaped-aura-260nw-2085629800.jpg",
+          "imageDescription": "Escudo mágico brilhante com uma aura em forma de coração, simbolizando a proteção do amor."
+        },
+        {
+          "text": "Expecto Patronum",
+          "isCorrect": false,
+          "explanation": "O Feitiço do Patrono é poderoso contra Dementadores, conjurando um guardião de felicidade.\nMas a proteção que salvou Harry do Avada Kedavra foi ainda mais profunda.\nÉ sobre amor, não apenas lembranças felizes."
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "question": "Qual o nome do Professor de Herbologia e Diretor da Casa Lufa-Lufa?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Filius Flitwick",
+          "isCorrect": false,
+          "explanation": "Professor Flitwick ensina Feitiços e é o diretor da Corvinal.\nEle é pequeno em estatura, mas gigante em conhecimento de encantamentos.\nHerbologia fica com outra colega."
+        },
+        {
+          "text": "Severo Snape",
+          "isCorrect": false,
+          "explanation": "Snape era o mestre de Poções e diretor da Sonserina (e depois diretor de Hogwarts).\nEle provavelmente consideraria Herbologia uma disciplina muito... suja.\nPrefere caldeirões a mandrágoras barulhentas."
+        },
+        {
+          "text": "Pomona Sprout",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! Professora Sprout, com seus chapéus remendados e amor pelas plantas mágicas.\nEla cuida das estufas e dos alunos da Lufa-Lufa com igual dedicação.\nE sabe como lidar com um Salgueiro Lutador.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/friendly-female-gardener-witch-hat-260nw-2008010110.jpg",
+          "imageDescription": "Jardineira amigável com chapéu de bruxa e plantas mágicas em uma estufa."
+        },
+        {
+          "text": "Horácio Slughorn",
+          "isCorrect": false,
+          "explanation": "Slughorn foi professor de Poções (antes e depois de Snape) e diretor da Sonserina por um tempo.\nEle gostava de alunos talentosos e festas, não tanto de se sujar com terra.\nHerbologia não era seu forte."
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "question": "Qual o nome do cão de três cabeças que guardava o alçapão para a Pedra Filosofal no primeiro livro?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Canino",
+          "isCorrect": false,
+          "explanation": "Canino (Fang) é o cão de caça de Hagrid, grande e babão, mas com apenas uma cabeça.\nEle é mais medroso do que feroz, na verdade.\nO guardião da Pedra era bem mais... multiplicado."
+        },
+        {
+          "text": "Fofo (Fluffy)",
+          "isCorrect": true,
+          "explanation": "Correto! Fofo, o cão gigante de três cabeças comprado por Hagrid de 'um grego na taberna'.\nAdormecia com música, o que foi bem útil para Harry, Rony e Hermione.\nUm nome um tanto irônico para uma criatura tão temível.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/giant-threeheaded-dog-guarding-trapdoor-260nw-1958345900.jpg",
+          "imageDescription": "Cão gigante de três cabeças guardando um alçapão em um corredor escuro."
+        },
+        {
+          "text": "Cerberus",
+          "isCorrect": false,
+          "explanation": "Cerberus é o cão de três cabeças da mitologia grega que guarda a entrada do submundo.\nFofo é claramente inspirado nele, mas no mundo de Harry Potter, ele tem seu próprio nome.\nE provavelmente não responde se chamado de Cerberus."
+        },
+        {
+          "text": "Bicuço (Buckbeak)",
+          "isCorrect": false,
+          "explanation": "Bicuço é um hipogrifo, meio águia, meio cavalo.\nEle tem apenas uma cabeça e é bem mais elegante que um cão de três cabeças.\nE provavelmente não gostaria de ser confundido com um."
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "question": "O que é um 'aborto' (squib) no mundo de Harry Potter?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Um bruxo que renunciou à magia.",
+          "isCorrect": false,
+          "explanation": "Renunciar à magia é uma escolha (rara), mas um aborto não tem essa escolha.\nÉ uma questão de nascimento, não de decisão pessoal.\nUma condição, não uma filosofia."
+        },
+        {
+          "text": "Uma criatura mágica que não pode ser domesticada.",
+          "isCorrect": false,
+          "explanation": "Existem muitas criaturas mágicas indomáveis, mas 'aborto' se refere a humanos.\nÉ um termo específico para uma condição dentro da comunidade bruxa.\nNão tem a ver com animais fantásticos."
+        },
+        {
+          "text": "Uma pessoa nascida em uma família bruxa, mas sem poderes mágicos.",
+          "isCorrect": true,
+          "explanation": "Isso mesmo. Um aborto, como Argus Filch ou a Sra. Figg, nasce em uma família de bruxos mas não desenvolve habilidades mágicas.\nUma situação muitas vezes difícil e marginalizada no mundo bruxo.\nO oposto de um nascido-trouxa com magia.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/sad-person-looking-out-window-260nw-1723927650.jpg",
+          "imageDescription": "Pessoa de aparência triste olhando pela janela, simbolizando a marginalização de um aborto."
+        },
+        {
+          "text": "Um feitiço que falhou catastroficamente.",
+          "isCorrect": false,
+          "explanation": "Feitiços podem falhar, às vezes de forma espetacular, mas isso não define um 'aborto'.\n'Aborto' é sobre uma pessoa, não sobre um encantamento que deu errado.\nA menos que o feitiço fosse para dar poderes mágicos e falhasse, mas ainda assim..."
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "question": "Qual o nome da proprietária do bar Cabeça de Javali em Hogsmeade, que também é irmã de Alvo Dumbledore?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Madame Rosmerta",
+          "isCorrect": false,
+          "explanation": "Madame Rosmerta é a simpática proprietária do Três Vassouras, outro pub famoso em Hogsmeade.\nEla é muito popular entre os alunos, mas não tem parentesco com Dumbledore.\nSua especialidade é hidromel, não segredos de família."
+        },
+        {
+          "text": "Ariana Dumbledore",
+          "isCorrect": false,
+          "explanation": "Ariana era a irmã mais nova de Alvo e Aberforth, que teve uma vida trágica e morreu jovem.\nSua história é um dos grandes segredos e tristezas de Dumbledore.\nMas ela não era proprietária de nenhum bar."
+        },
+        {
+          "text": "Aberforth Dumbledore",
+          "isCorrect": false,
+          "explanation": "Aberforth é o IRMÃO de Alvo Dumbledore e o proprietário do Cabeça de Javali.\nA pergunta pede o nome da proprietÁRIA, mas Aberforth é o dono.\nEle é um tanto rude, mas tem um bom coração (e uma passagem secreta para Hogwarts)."
+        },
+        {
+          "text": "A pergunta contém uma imprecisão; o proprietário é Aberforth, irmão de Dumbledore.",
+          "isCorrect": true,
+          "explanation": "Você está certo em notar! A pergunta tradicionalmente se refere a Aberforth como o proprietário.\nEmbora não haja uma 'proprietária' irmã, Aberforth é a figura chave do Cabeça de Javali e irmão de Dumbledore.\nConsideraremos esta a resposta que busca a conexão familiar e o local.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/grufflooking-bartender-old-rustic-pub-260nw-2008010150.jpg",
+          "imageDescription": "Bartender de aparência rude em um pub antigo e rústico, representando Aberforth Dumbledore no Cabeça de Javali."
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "question": "Qual o nome da forma animalesca do Patrono de Hermione Granger?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Cervo",
+          "isCorrect": false,
+          "explanation": "O cervo é o Patrono de Harry, a mesma forma do Patrono de seu pai, James.\nUm símbolo de proteção e liderança. O de Hermione é diferente.\nMas igualmente elegante e inteligente."
+        },
+        {
+          "text": "Lontra",
+          "isCorrect": true,
+          "explanation": "Correto! O Patrono de Hermione é uma lontra ágil e esperta.\nUm animal que reflete sua inteligência e vivacidade.\nE talvez seu amor por Rony (cujo Patrono é um Jack Russell Terrier, que adora perseguir lontras... brincadeira!).",
+          "imageUrl": "https://www.shutterstock.com/image-photo/silver-glowing-otter-patronus-magical-260nw-1983448110.jpg",
+          "imageDescription": "Lontra prateada brilhante nadando em um fundo escuro, representando o Patrono de Hermione."
+        },
+        {
+          "text": "Coelho (Lebre)",
+          "isCorrect": false,
+          "explanation": "Uma lebre é o Patrono de Luna Lovegood, saltitante e um pouco etérea, como ela.\nO de Hermione é um animal aquático e brincalhão.\nCada Patrono com a personalidade de seu conjurador."
+        },
+        {
+          "text": "Gato",
+          "isCorrect": false,
+          "explanation": "Embora Hermione ame seu gato Bichento, seu Patrono não é um felino.\nO Patrono da Professora McGonagall é um gato (malhado, como sua forma Animaga).\nMas o de Hermione é mais... nadador."
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "question": "Quem foi o Comensal da Morte que traiu os pais de Harry Potter, revelando seu esconderijo a Voldemort?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Severo Snape",
+          "isCorrect": false,
+          "explanation": "Snape ouviu parte da profecia e a contou a Voldemort, o que indiretamente levou à morte dos Potter.\nMas ele não foi o guardião do segredo que os traiu diretamente. Pelo contrário, ele se arrependeu e tentou protegê-los (especialmente Lílian).\nUma história complexa de amor e ódio."
+        },
+        {
+          "text": "Sirius Black",
+          "isCorrect": false,
+          "explanation": "Sirius foi injustamente acusado dessa traição e passou anos em Azkaban por isso.\nEle era o melhor amigo de James e jamais os trairia.\nO verdadeiro traidor era outro 'amigo'."
+        },
+        {
+          "text": "Pedro Pettigrew (Rabicho)",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! Pedro Pettigrew, o covarde Rabicho, era o guardião do segredo dos Potter.\nEle os traiu para Voldemort em troca de sua própria vida.\nE depois se escondeu como um rato por doze anos. Literalmente.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/shadowy-figure-rat-lurking-darkness-260nw-2099495000.jpg",
+          "imageDescription": "Figura sombria de um rato espreitando na escuridão, representando Pedro Pettigrew."
+        },
+        {
+          "text": "Bellatrix Lestrange",
+          "isCorrect": false,
+          "explanation": "Bellatrix era uma Comensal da Morte fanática e cruel, mas ela não era a guardiã do segredo dos Potter.\nEla provavelmente teria adorado torturá-los, mas a traição veio de dentro do círculo de amigos.\nUm golpe ainda mais doloroso."
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "question": "Qual o nome do jornal bruxo mais popular na Grã-Bretanha?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "O Pasquim (The Quibbler)",
+          "isCorrect": false,
+          "explanation": "O Pasquim é o jornal editado por Xenofílio Lovegood, conhecido por suas teorias da conspiração e criaturas inventadas.\nDivertido, mas não a principal fonte de notícias (confiáveis) do mundo bruxo.\nA menos que você acredite em Bufadores de Chifre Enrugado."
+        },
+        {
+          "text": "Profeta Diário (Daily Prophet)",
+          "isCorrect": true,
+          "explanation": "Correto! O Profeta Diário é o principal jornal do mundo bruxo britânico.\nNem sempre imparcial e muitas vezes influenciado pelo Ministério da Magia.\nMas é onde todos buscam as últimas fofocas e notícias (boas ou ruins).",
+          "imageUrl": "https://www.shutterstock.com/image-photo/stack-newspapers-magical-headlines-moving-260nw-1958345880.jpg",
+          "imageDescription": "Pilha de jornais com manchetes mágicas e imagens em movimento."
+        },
+        {
+          "text": "Semanário das Bruxas (Witch Weekly)",
+          "isCorrect": false,
+          "explanation": "O Semanário das Bruxas é mais uma revista de variedades, com dicas de beleza, receitas e concursos (como o do Sorriso Mais Encantador).\nNão é o principal jornal de notícias factuais.\nMais para entretenimento do que para informação séria."
+        },
+        {
+          "text": "Notícias da Transfiguração (Transfiguration Today)",
+          "isCorrect": false,
+          "explanation": "Notícias da Transfiguração é um periódico acadêmico, provavelmente lido por especialistas como McGonagall.\nMuito específico e técnico para ser o jornal mais popular.\nA maioria dos bruxos prefere notícias mais... gerais."
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "question": "O que é um 'Bicho-Papão' (Boggart) e qual feitiço é usado para repeli-lo?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "É um fantasma que assusta crianças; feitiço: Expecto Patronum.",
+          "isCorrect": false,
+          "explanation": "Expecto Patronum é para Dementadores. Bichos-Papões são diferentes de fantasmas.\nEles se transformam no maior medo da pessoa, o que é bem mais pessoal que um fantasma genérico.\nE o feitiço é outro, bem mais... divertido."
+        },
+        {
+          "text": "É uma criatura que se alimenta de medo; feitiço: Riddikulus.",
+          "isCorrect": true,
+          "explanation": "Exatamente! O Bicho-Papão assume a forma do que mais te assusta, e o feitiço Riddikulus o transforma em algo engraçado, dissipando o medo.\nTransforme seu maior pavor em uma piada!\nSnape de vestido da avó de Neville? Impagável!",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/shadowy-shapeshifting-creature-comical-form-260nw-2008010220.jpg",
+          "imageDescription": "Criatura sombria e metamórfica se transformando em uma forma cômica e ridícula."
+        },
+        {
+          "text": "É um tipo de duende travesso; feitiço: Petrificus Totalus.",
+          "isCorrect": false,
+          "explanation": "Duendes travessos (como Diabretes da Cornualha) são um problema, mas Bichos-Papões são sobre medo, não travessura.\nPetrificus Totalus paralisa o corpo, o que não ajudaria muito contra seu maior medo.\nA menos que seu maior medo seja se mexer."
+        },
+        {
+          "text": "É uma planta venenosa que grita; feitiço: Muffliato.",
+          "isCorrect": false,
+          "explanation": "Plantas que gritam (como Mandrágoras) são outra coisa. E Muffliato abafa o som para conversas secretas.\nBicho-Papão não é planta e o feitiço é para rir, não para silenciar.\nConfusão de criaturas e feitiços aqui!"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "question": "Qual é o nome completo de Dumbledore?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Alvo Percival Wulfrico Brian Dumbledore",
+          "isCorrect": true,
+          "explanation": "Corretíssimo! Um nome tão longo e imponente quanto o próprio bruxo.\nCada nome com sua história e significado.\nNão é à toa que ele preferia ser chamado apenas de Alvo Dumbledore.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/portrait-wise-old-wizard-long-260nw-1133558864.jpg",
+          "imageDescription": "Retrato de um mago idoso e sábio com longa barba prateada e óculos de meia-lua."
+        },
+        {
+          "text": "Alvo Severo Brian Wulfrico Dumbledore",
+          "isCorrect": false,
+          "explanation": "Severo? Homenagear Snape no nome de Dumbledore seria uma reviravolta e tanto na história!\nO nome Percival tem a ver com seu pai.\nUma pequena troca, mas que muda tudo."
+        },
+        {
+          "text": "Alvo Godrico Filius Percival Dumbledore",
+          "isCorrect": false,
+          "explanation": "Godrico e Filius são nomes de outros personagens importantes (um fundador e um professor).\nDumbledore tinha seus próprios nomes de família e homenagens.\nUma salada de nomes aqui!"
+        },
+        {
+          "text": "Alvo Aberforth Armando Brian Dumbledore",
+          "isCorrect": false,
+          "explanation": "Aberforth é seu irmão e Armando Dippet seu predecessor como diretor.\nBrian e Wulfrico estão certos, mas os outros são de outros Dumbledores (ou quase).\nUma família com nomes marcantes."
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "question": "O que são as Horcruxes e quantas Voldemort criou intencionalmente?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "São feitiços de proteção; ele criou três.",
+          "isCorrect": false,
+          "explanation": "Horcruxes são o oposto de proteção para os outros; são para a imortalidade do criador.\nE o número que ele visava era bem mais... significativo e arrogante.\nTrês é muito pouco para quem quer enganar a morte."
+        },
+        {
+          "text": "São objetos onde um bruxo esconde um fragmento da alma para se tornar imortal; ele intencionava criar seis (totalizando sete fragmentos de alma).",
+          "isCorrect": true,
+          "explanation": "Exato! Voldemort dividiu sua alma em sete partes, escondendo seis fragmentos em objetos (e Harry se tornou a sétima acidental).\nUm ato de extrema maldade e magia negra para alcançar a imortalidade.\nUm plano complexo e horripilante.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/collection-dark-magical-objects-glowing-260nw-1983448250.jpg",
+          "imageDescription": "Coleção de objetos mágicos sombrios com uma aura sinistra, representando Horcruxes."
+        },
+        {
+          "text": "São guardiões mágicos de tesouros; ele criou doze.",
+          "isCorrect": false,
+          "explanation": "Guardiões mágicos são outra coisa. Horcruxes são sobre a alma do bruxo.\nE doze? Voldemort gostava do número sete por seu poder mágico.\nDoze seria exagero até para ele."
+        },
+        {
+          "text": "São poções que concedem invencibilidade; ele criou uma, a mais poderosa.",
+          "isCorrect": false,
+          "explanation": "Poções de invencibilidade não são o método de Voldemort. Ele buscou algo mais... permanente e fragmentado.\nHorcruxes são sobre dividir a alma, não sobre beber uma poção.\nE uma só? Ele era mais ambicioso que isso."
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "question": "Qual o nome da organização secreta fundada por Harry, Rony e Hermione para praticar Defesa Contra as Artes das Trevas quando Umbridge proíbe o uso prático de magia?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "A Ordem da Fênix",
+          "isCorrect": false,
+          "explanation": "A Ordem da Fênix foi fundada por Dumbledore para lutar contra Voldemort na primeira guerra, e reativada depois.\nHarry e seus amigos se juntaram a ela, mas a organização de estudos deles tinha outro nome.\nMenos 'guerra total', mais 'aula clandestina'."
+        },
+        {
+          "text": "Os Comensais da Luz",
+          "isCorrect": false,
+          "explanation": "Comensais da Luz? Soa como uma paródia dos Comensais da Morte!\nO nome do grupo de Harry era mais... militar e direto ao ponto.\nE menos... cafona, convenhamos."
+        },
+        {
+          "text": "Armada de Dumbledore (Dumbledore's Army - AD)",
+          "isCorrect": true,
+          "explanation": "Corretíssimo! A Armada de Dumbledore (AD), um nome escolhido para irritar o Ministério e Umbridge.\nUm grupo de estudantes dedicados a aprender a se defender de verdade.\nE com um líder bem inspirador (mesmo que relutante).",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/group-students-secretly-practicing-magic-260nw-2099495100.jpg",
+          "imageDescription": "Grupo de estudantes praticando magia secretamente em uma sala escondida."
+        },
+        {
+          "text": "O Clube de Duelos de Hogwarts",
+          "isCorrect": false,
+          "explanation": "O Clube de Duelos foi uma iniciativa de Lockhart (mal-sucedida, por sinal).\nA AD era clandestina e focada em defesa real, não em exibições de Lockhart.\nE com professores bem melhores (Harry, no caso)."
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "question": "Qual feitiço Dolores Umbridge força Harry a usar para escrever linhas com seu próprio sangue?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Crucio (Maldição Cruciatus)",
+          "isCorrect": false,
+          "explanation": "A Maldição Cruciatus causa dor excruciante, mas não faz você escrever com sangue.\nUmbridge era cruel, mas usou um método mais... sutil e personalizado para sua tortura.\nEla gostava de um toque 'especial' em suas punições."
+        },
+        {
+          "text": "Sectumsempra",
+          "isCorrect": false,
+          "explanation": "Sectumsempra é um feitiço sombrio que causa cortes profundos, como se por uma espada invisível.\nInventado por Snape. Umbridge usou uma pena especial, não um feitiço de corte.\nSua maldade era mais... burocrática e insidiosa."
+        },
+        {
+          "text": "A Pena de Sangue (Black Quill / Blood Quill) não requer um feitiço verbal para funcionar, ela é encantada.",
+          "isCorrect": true,
+          "explanation": "Exato! A pena que Umbridge usava era uma 'Pena de Sangue' especialmente encantada.\nNão era necessário um feitiço verbal; a própria pena era o instrumento de tortura, usando o sangue do escritor como tinta e gravando as palavras na pele.\nUma invenção particularmente sádica.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/ominous-black-quill-pen-dripping-260nw-1983448330.jpg",
+          "imageDescription": "Pena de escrita preta sinistra pingando uma substância vermelha escura em um pergaminho."
+        },
+        {
+          "text": "Flagrante",
+          "isCorrect": false,
+          "explanation": "O Feitiço Flagrante faz um objeto queimar ao toque, usado para marcar propriedade (como moedas falsas da AD).\nNão faria você escrever com sangue, apenas queimaria sua mão ao tentar usar uma pena normal.\nUmbridge tinha métodos mais... específicos."
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "question": "Qual é o nome da mãe de Lord Voldemort?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Bellatrix Lestrange",
+          "isCorrect": false,
+          "explanation": "Bellatrix era uma das mais leais e fanáticas Comensais da Morte de Voldemort, mas não sua mãe.\nEla era obcecada por ele, mas a relação era de mestre e serva (muito dedicada).\nE de uma família bruxa puro-sangue, diferente da mãe de Voldemort."
+        },
+        {
+          "text": "Narcisa Malfoy",
+          "isCorrect": false,
+          "explanation": "Narcisa Malfoy (irmã de Bellatrix) era mãe de Draco e esposa de Lúcio.\nEla temia Voldemort e acabou o traindo para salvar seu filho.\nDefinitivamente não era a mãe do Lorde das Trevas."
+        },
+        {
+          "text": "Mérope Gaunt",
+          "isCorrect": true,
+          "explanation": "Correto! Mérope Gaunt, uma descendente de Salazar Slytherin, era a mãe de Tom Riddle (Voldemort).\nEla usou uma poção do amor para enfeitiçar Tom Riddle Sr. (um trouxa), mas ele a abandonou quando o efeito passou.\nUma história triste que moldou o futuro Lorde das Trevas.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/gaunt-looking-woman-old-fashioned-dress-260nw-2020086110.jpg",
+          "imageDescription": "Mulher de aparência desolada e pobre em vestido antigo, olhando com tristeza."
+        },
+        {
+          "text": "Walburga Black",
+          "isCorrect": false,
+          "explanation": "Walburga Black era a mãe de Sirius e Régulo Black, e seu retrato ainda grita na Casa dos Black.\nUma fanática por puro-sangue, mas não a mãe de Voldemort.\nEla provavelmente o admiraria, mas não o gerou."
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "question": "Qual é o nome da casa dos Weasley?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "A Mansão Malfoy",
+          "isCorrect": false,
+          "explanation": "A Mansão Malfoy é o lar (bem menos acolhedor) dos Malfoy.\nCheia de luxo, pavões albinos e, ocasionalmente, o Lorde das Trevas.\nOs Weasley preferem algo mais... torto e aconchegante."
+        },
+        {
+          "text": "Largo Grimmauld, nº 12",
+          "isCorrect": false,
+          "explanation": "O Largo Grimmauld nº 12 é a antiga casa da família Black, sede da Ordem da Fênix.\nCheia de segredos, poeira e um elfo doméstico mal-humorado.\nA casa dos Weasley é bem mais alegre (e menos assombrada)."
+        },
+        {
+          "text": "A Toca (The Burrow)",
+          "isCorrect": true,
+          "explanation": "Correto! A Toca, com seus muitos andares tortos e atmosfera caótica, mas amorosa.\nO lar perfeito para a numerosa família Weasley e um refúgio para Harry.\nOnde sempre tem um suéter tricotado pela Sra. Weasley esperando por você.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/whimsical-crooked-house-countryside-magical-260nw-2085629900.jpg",
+          "imageDescription": "Casa torta e extravagante no campo, com vários andares e uma chaminé fumegante, representando A Toca."
+        },
+        {
+          "text": "Godric's Hollow",
+          "isCorrect": false,
+          "explanation": "Godric's Hollow é a vila natal de Harry e dos Dumbledore.\nUm lugar de grande significado, mas não o lar dos Weasley.\nEles vivem em Ottery St. Catchpole, perto d'A Toca."
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "question": "Qual feitiço Harry usa para derrotar Voldemort permanentemente na Batalha de Hogwarts?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Avada Kedavra",
+          "isCorrect": false,
+          "explanation": "Harry não usa a Maldição da Morte. Isso seria contra seus princípios!\nA derrota de Voldemort foi mais... poética e envolveu a lealdade das varinhas.\nEle usou um feitiço de defesa, não de ataque letal."
+        },
+        {
+          "text": "Sectumsempra",
+          "isCorrect": false,
+          "explanation": "Sectumsempra é um feitiço sombrio que Harry aprendeu com o Príncipe Mestiço.\nEle o usou contra Draco e Snape, mas não foi o golpe final em Voldemort.\nEssa batalha final foi mais sobre varinhas e intenções."
+        },
+        {
+          "text": "Expelliarmus",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! O bom e velho Expelliarmus, o feitiço de desarme característico de Harry.\nQuando Voldemort usou Avada Kedavra, e Harry usou Expelliarmus, a Varinha das Varinhas, que era leal a Harry, fez a maldição de Voldemort ricochetear contra ele mesmo.\nUm final irônico e brilhante!",
+          "imageUrl": "https://www.shutterstock.com/image-vector/red-green-light-beams-colliding-260nw-1998900200.jpg",
+          "imageDescription": "Feixes de luz vermelha e verde colidindo em uma explosão de magia, simbolizando o duelo final."
+        },
+        {
+          "text": "Expecto Patronum",
+          "isCorrect": false,
+          "explanation": "O Patrono é para Dementadores, não para derrotar Lordes das Trevas em duelos finais.\nA menos que Voldemort tivesse se tornado um Dementador, o que seria uma reviravolta estranha.\nO confronto final foi varinha contra varinha."
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "question": "Qual o nome da floresta proibida que fica nos terrenos de Hogwarts?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Floresta das Trevas (Mirkwood)",
+          "isCorrect": false,
+          "explanation": "A Floresta das Trevas é do universo de 'O Senhor dos Anéis', não de Harry Potter.\nA floresta de Hogwarts tem seu próprio nome e seus próprios perigos.\nE provavelmente menos elfos e mais centauros."
+        },
+        {
+          "text": "Floresta de Dean",
+          "isCorrect": false,
+          "explanation": "A Floresta de Dean é um local real na Inglaterra, onde Harry, Rony e Hermione acampam durante a busca pelas Horcruxes.\nMas não é a floresta que fica nos limites da escola.\nEssa tem um nome bem mais... direto."
+        },
+        {
+          "text": "Floresta Proibida (Forbidden Forest)",
+          "isCorrect": true,
+          "explanation": "Correto! A Floresta Proibida, lar de centauros, unicórnios, Testrálios, Acromântulas e sabe-se lá mais o quê.\nOs alunos são proibidos de entrar (a menos que seja para uma detenção com Hagrid).\nUm lugar de mistério e perigo constante.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/dark-eerie-forest-entrance-path-260nw-1741468200.jpg",
+          "imageDescription": "Entrada de uma floresta escura e sinistra com uma placa de 'Proibido Entrar'."
+        },
+        {
+          "text": "Bosque de Brocelianda",
+          "isCorrect": false,
+          "explanation": "Brocelianda é uma floresta lendária das lendas arturianas.\nA floresta de Hogwarts é bem mais... britanicamente específica.\nE com criaturas saídas diretamente da imaginação de J.K. Rowling."
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "question": "Qual o nome do diretor de Hogwarts que é também um dos bruxos mais poderosos de todos os tempos?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Severo Snape",
+          "isCorrect": false,
+          "explanation": "Snape se tornou diretor por um breve período, mas o título de 'um dos mais poderosos de todos os tempos' geralmente é reservado para outro.\nSnape era poderoso e complexo, mas Dumbledore está em outra liga.\nE com uma barba bem mais impressionante."
+        },
+        {
+          "text": "Armando Dippet",
+          "isCorrect": false,
+          "explanation": "Armando Dippet foi diretor antes de Dumbledore, mas não é descrito como um dos 'mais poderosos'.\nEle era um diretor competente em sua época, mas sem a fama lendária de seu sucessor.\nAlguns diretores são mais... administrativos."
+        },
+        {
+          "text": "Alvo Dumbledore",
+          "isCorrect": true,
+          "explanation": "Exatamente! Alvo Percival Wulfrico Brian Dumbledore.\nO único bruxo que Voldemort temia, mestre da Varinha das Varinhas (por um tempo) e um gênio da magia.\nAlém de ter um gosto peculiar por doces trouxas.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/portrait-wise-elderly-wizard-long-260nw-1133558864.jpg",
+          "imageDescription": "Retrato de um mago idoso, sábio e poderoso, com longa barba prateada e óculos de meia-lua."
+        },
+        {
+          "text": "Gilderoy Lockhart",
+          "isCorrect": false,
+          "explanation": "Lockhart? Poderoso? Só se for no poder da autopromoção e do Feitiço da Memória (que ele usava nos outros).\nUm charlatão charmoso, mas sem substância mágica real.\nEle era mais 'capa de revista' do que 'bruxo poderoso'."
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "question": "Qual é o nome do rato de estimação de Rony Weasley, que na verdade é um Animago?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Perebas (Scabbers)",
+          "isCorrect": true,
+          "explanation": "Correto! Perebas, o rato velho e aparentemente inútil de Rony.\nQue na verdade era Pedro Pettigrew disfarçado por doze longos anos.\nUma revelação chocante e um péssimo animal de estimação, no final das contas.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/common-rat-scurrying-shadows-old-260nw-2020086050.jpg",
+          "imageDescription": "Rato comum esgueirando-se nas sombras de um porão velho, representando Perebas."
+        },
+        {
+          "text": "Bichento (Crookshanks)",
+          "isCorrect": false,
+          "explanation": "Bichento é o gato de Hermione. Inteligente e perspicaz, mas não um rato.\nEle, inclusive, desconfiava muito de Perebas. Com razão!\nInstinto felino apurado."
+        },
+        {
+          "text": "Fofo (Fluffy)",
+          "isCorrect": false,
+          "explanation": "Fofo é o cão de três cabeças. Enorme e perigoso, não um ratinho de bolso.\nRony teria um pouco de dificuldade em carregar Fofo no bolso do casaco.\nE os dormitórios da Grifinória ficariam apertados."
+        },
+        {
+          "text": "Norberto (Norbert)",
+          "isCorrect": false,
+          "explanation": "Norberto é um dragão. Definitivamente não é um rato e muito menos de estimação (legalmente).\nHagrid que o diga. Criar um dragão em uma cabana de madeira não é fácil.\nE Rony já tinha medo de aranhas, imagine de um dragão!"
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "question": "Qual o nome do professor de Poções que nutre um profundo rancor por Harry Potter?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Horácio Slughorn",
+          "isCorrect": false,
+          "explanation": "Slughorn gostava de colecionar alunos famosos e talentosos, incluindo Harry (e Lílian antes dele).\nEle podia ser um pouco interesseiro, mas não tinha rancor de Harry.\nPelo contrário, via nele um troféu para seu 'Clube do Slugue'."
+        },
+        {
+          "text": "Filius Flitwick",
+          "isCorrect": false,
+          "explanation": "Professor Flitwick, de Feitiços, era um professor justo e geralmente amigável.\nEle não tinha motivos para ter rancor de Harry.\nA menos que Harry errasse muito feio um 'Wingardium Leviosa'."
+        },
+        {
+          "text": "Severo Snape",
+          "isCorrect": true,
+          "explanation": "Exatamente! Severo Snape, o mestre das Poções com um passado sombrio e complexo.\nSeu rancor por Tiago Potter se estendia a Harry, apesar de seu amor oculto por Lílian.\n'Vire para a página 394', com todo o desprezo do mundo.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/dark-brooding-potions-master-long-260nw-1983448200.jpg",
+          "imageDescription": "Mestre de poções sombrio e taciturno com longos cabelos pretos em um laboratório escuro."
+        },
+        {
+          "text": "Quirinus Quirrell",
+          "isCorrect": false,
+          "explanation": "Quirrell tinha Voldemort na parte de trás da cabeça, então seu 'rancor' era mais... terceirizado.\nEle agia sob as ordens do Lorde das Trevas.\nSnape tinha suas próprias razões (distorcidas) para implicar com Harry."
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "question": "O que são 'Trouxas' (Muggles) no universo de Harry Potter?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Bruxos que não foram para Hogwarts.",
+          "isCorrect": false,
+          "explanation": "Bruxos que não vão para Hogwarts podem estudar em outras escolas ou em casa.\nMas eles ainda são bruxos. 'Trouxa' tem a ver com a ausência de magia.\nNão com a escolha da instituição de ensino."
+        },
+        {
+          "text": "Pessoas não-mágicas.",
+          "isCorrect": true,
+          "explanation": "Correto! Trouxas são pessoas comuns, sem nenhuma gota de sangue mágico.\nComo os Dursley, que representam o pior do mundo trouxa (em termos de hospitalidade).\nVivem suas vidas sem saber da existência do mundo bruxo (a maioria, pelo menos).",
+          "imageUrl": "https://www.shutterstock.com/image-photo/group-ordinarylooking-people-street-confused-260nw-2008010100.jpg",
+          "imageDescription": "Grupo de pessoas de aparência comum na rua, parecendo confusas ou alheias a algo."
+        },
+        {
+          "text": "Criaturas mágicas consideradas inferiores pelos bruxos.",
+          "isCorrect": false,
+          "explanation": "Existem muitas criaturas mágicas, e algumas são mal compreendidas ou maltratadas.\nMas 'Trouxa' é um termo específico para humanos sem magia.\nNão se aplica a elfos domésticos, duendes ou centauros."
+        },
+        {
+          "text": "Bruxos que usam magia para o mal.",
+          "isCorrect": false,
+          "explanation": "Bruxos que usam magia para o mal são chamados de Bruxos das Trevas ou Comensais da Morte.\n'Trouxa' é sobre a falta de magia, não sobre a moralidade de quem a usa.\nSer trouxa é não ter magia, ponto final."
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "question": "Qual é a principal função de um Lembrol (Remembrall)?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Mostrar o futuro.",
+          "isCorrect": false,
+          "explanation": "Para ver o futuro, você precisaria de uma bola de cristal ou do dom da Adivinhação.\nO Lembrol lida com o passado, não com o que ainda vai acontecer.\nÉ mais sobre 'ops, esqueci!' do que 'adivinha o quê?'."
+        },
+        {
+          "text": "Lembrar o usuário de algo que ele esqueceu.",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! O Lembrol fica vermelho quando seu dono esqueceu alguma coisa.\nO problema é que ele não diz O QUE você esqueceu, o que o torna um pouco... inútil.\nNeville que o diga!",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/glowing-red-glass-orb-hand-260nw-1958345990.jpg",
+          "imageDescription": "Orbe de vidro vermelho brilhante segurado na mão, representando um Lembrol."
+        },
+        {
+          "text": "Gravar conversas secretas.",
+          "isCorrect": false,
+          "explanation": "Para gravar conversas, você precisaria de algo mais sofisticado, talvez um Feitiço de Bisbilhotice.\nO Lembrol é mais simples e focado na memória do seu dono.\nNão é um dispositivo de espionagem."
+        },
+        {
+          "text": "Ajudar a encontrar objetos perdidos.",
+          "isCorrect": false,
+          "explanation": "Existem feitiços para encontrar objetos perdidos (como Accio, se você souber o que perdeu).\nO Lembrol só te avisa que você esqueceu algo, não onde está.\nMais frustração do que solução, às vezes."
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "question": "Quem é o guarda-caça de Hogwarts e grande amigo de Harry, Rony e Hermione?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Argus Filch",
+          "isCorrect": false,
+          "explanation": "Argus Filch é o zelador de Hogwarts, sempre mal-humorado e acompanhado de sua gata, Madame Nora.\nEle detesta alunos e provavelmente não se considera amigo de nenhum deles.\nE definitivamente não é o guarda-caça."
+        },
+        {
+          "text": "Professor Silvanus Kettleburn",
+          "isCorrect": false,
+          "explanation": "Professor Kettleburn foi o professor de Trato das Criaturas Mágicas ANTES de Hagrid.\nConhecido por perder alguns membros em suas aulas. Um entusiasta, mas não o 'grande amigo'.\nHagrid assumiu a cadeira depois de sua aposentadoria."
+        },
+        {
+          "text": "Rúbeo Hagrid (Rubeus Hagrid)",
+          "isCorrect": true,
+          "explanation": "Correto! Hagrid, o meio-gigante com um coração enorme e um amor por criaturas perigosas.\nFoi ele quem resgatou Harry dos Dursley e se tornou um amigo leal e protetor.\nSempre com um chá de rocha e um conselho (nem sempre bom) à disposição.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/friendly-giant-man-long-beard-260nw-1702408850.jpg",
+          "imageDescription": "Homem gigante amigável com longa barba e casaco de pele, segurando uma lanterna."
+        },
+        {
+          "text": "Professor Grubbly-Plank",
+          "isCorrect": false,
+          "explanation": "A Professora Grubbly-Plank substituiu Hagrid algumas vezes nas aulas de Trato das Criaturas Mágicas.\nUma professora competente, mas não a figura paternal e amiga que Hagrid era para o trio.\nEla era mais... profissional."
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "question": "Qual o nome da loja no Beco Diagonal onde os bruxos compram suas varinhas?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Floreios e Borrões (Flourish and Blotts)",
+          "isCorrect": false,
+          "explanation": "Floreios e Borrões é a livraria, onde se compra os livros de Hogwarts (e os de Gilderoy Lockhart).\nVarinhas são vendidas em um lugar bem mais... específico e misterioso.\nCada especialidade com sua loja."
+        },
+        {
+          "text": "Madame Malkin - Roupas para Todas as Ocasiões",
+          "isCorrect": false,
+          "explanation": "Na Madame Malkin, você compra seus uniformes de Hogwarts e vestes a rigor.\nEssencial para a vida escolar, mas varinhas são vendidas por um artesão renomado.\nE com um processo de escolha bem mais... pessoal."
+        },
+        {
+          "text": "Olivaras (Ollivanders)",
+          "isCorrect": true,
+          "explanation": "Exatamente! Olivaras: Artesãos de Varinhas de Qualidade desde 382 a.C.\nOnde a varinha escolhe o bruxo, e o Sr. Olivaras tem uma memória impressionante para cada uma delas.\nUm lugar empoeirado, mas cheio de magia.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/old-dusty-shop-shelves-filled-260nw-1998900300.jpg",
+          "imageDescription": "Loja antiga e empoeirada com prateleiras cheias de caixas de varinhas."
+        },
+        {
+          "text": "Artigos de Qualidade para Quadribol",
+          "isCorrect": false,
+          "explanation": "Lá você compra sua Nimbus 2000 ou sua Firebolt, mas não sua varinha.\nVarinhas são para duelos e feitiços, não para marcar gols (diretamente).\nA menos que você encante a goles, o que é trapaça."
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "question": "Qual o nome do trem que leva os estudantes de Londres para Hogwarts?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "O Nôitibus Andante (Knight Bus)",
+          "isCorrect": false,
+          "explanation": "O Nôitibus Andante é um transporte de emergência para bruxos perdidos, um ônibus roxo de três andares.\nMuito útil, mas não o trem oficial para a escola.\nE uma viagem bem mais... sacolejante."
+        },
+        {
+          "text": "Expresso de Hogsmeade",
+          "isCorrect": false,
+          "explanation": "Quase! Ele vai PARA Hogsmeade (a estação mais próxima de Hogwarts), mas o nome do trem é um pouco diferente.\nUm pequeno detalhe que faz a diferença.\nÉ o Expresso *de* algum lugar."
+        },
+        {
+          "text": "Expresso de Hogwarts (Hogwarts Express)",
+          "isCorrect": true,
+          "explanation": "Perfeito! O Expresso de Hogwarts, o trem vermelho a vapor que parte da Plataforma 9 ¾.\nOnde amizades são feitas, sapos de chocolate são devorados e a jornada para a magia começa.\nTodos a bordo!",
+          "imageUrl": "https://www.shutterstock.com/image-photo/red-steam-train-traveling-through-260nw-1723927680.jpg",
+          "imageDescription": "Trem a vapor vermelho viajando por uma paisagem campestre, como o Expresso de Hogwarts."
+        },
+        {
+          "text": "O Hogwarts Flyer",
+          "isCorrect": false,
+          "explanation": "'Flyer' soa um pouco moderno demais para o mundo bruxo tradicional.\nEles preferem um bom e velho trem a vapor, com todo o seu charme.\nE menos chances de enjoar (se você não comer muitos feijõezinhos de todos os sabores)."
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "question": "Qual o doce mágico que vem com figurinhas de bruxos e bruxas famosos?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Feijõezinhos de Todos os Sabores (Bertie Bott's Every Flavour Beans)",
+          "isCorrect": false,
+          "explanation": "Feijõezinhos são uma aventura para o paladar (cera de ouvido, alguém?).\nMas as figurinhas colecionáveis vêm com outro doce clássico.\nMenos risco, mais chocolate."
+        },
+        {
+          "text": "Varinhas de Alcaçuz (Liquorice Wands)",
+          "isCorrect": false,
+          "explanation": "Varinhas de alcaçuz são gostosas, mas não vêm com brindes colecionáveis.\nA diversão é comê-las, não colecionar bruxos famosos.\nE não servem para duelar de verdade."
+        },
+        {
+          "text": "Sapos de Chocolate (Chocolate Frogs)",
+          "isCorrect": true,
+          "explanation": "Correto! Os deliciosos Sapos de Chocolate que pulam de verdade (por um tempo).\nE cada um vem com uma figurinha de um bruxo ou bruxa famoso para colecionar.\nAlvo Dumbledore é uma das mais comuns (e valiosas!).",
+          "imageUrl": "https://www.shutterstock.com/image-photo/chocolate-frog-packaging-collectible-wizard-260nw-1983448350.jpg",
+          "imageDescription": "Embalagem de Sapos de Chocolate com uma carta de bruxo colecionável ao lado."
+        },
+        {
+          "text": "Tortas de Abóbora (Pumpkin Pasties)",
+          "isCorrect": false,
+          "explanation": "Tortinhas de abóbora são um lanche popular no Expresso de Hogwarts.\nSaborosas e tradicionais, mas sem figurinhas.\nSão para comer, não para colecionar (a menos que você colecione receitas)."
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "question": "Quem é o professor de Adivinhação em Hogwarts, conhecido por suas previsões geralmente vagas ou catastróficas?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Professor Binns",
+          "isCorrect": false,
+          "explanation": "Professor Binns é o fantasma que ensina História da Magia.\nSuas aulas são tão monótonas que os alunos dormem. Ele não prevê o futuro, apenas o repete.\nE provavelmente preveria mais aulas chatas."
+        },
+        {
+          "text": "Firenze, o Centauro",
+          "isCorrect": false,
+          "explanation": "Firenze substituiu Trelawney por um tempo, ensinando Adivinhação de forma mais... astronômica.\nSuas previsões eram baseadas nos astros, não em xícaras de chá.\nE ele era bem mais calmo que a titular da cadeira."
+        },
+        {
+          "text": "Sibila Trelawney (Sybill Trelawney)",
+          "isCorrect": true,
+          "explanation": "Exatamente! Professora Sibila Trelawney, com seus óculos enormes e xales esvoaçantes.\nEla prevê a morte de um aluno todo ano e vive cercada de um ar de tragédia iminente.\nMas fez duas previsões verdadeiramente importantes (sem perceber).",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/eccentric-fortune-teller-character-large-260nw-2008010250.jpg",
+          "imageDescription": "Personagem excêntrica de vidente com grandes óculos e muitos xales, olhando para uma bola de cristal."
+        },
+        {
+          "text": "Madame Hooch",
+          "isCorrect": false,
+          "explanation": "Madame Hooch ensina a voar e é a árbitra das partidas de Quadribol.\nSuas previsões se limitam a 'se você fizer isso de novo, é falta!'.\nEla lida com o presente imediato, não com o futuro nebuloso."
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "question": "Qual o nome do elfo doméstico que trabalhava para a família Black e depois para Harry, muito a contragosto no início?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Dobby",
+          "isCorrect": false,
+          "explanation": "Dobby era o elfo dos Malfoy, depois um elfo livre e amigo de Harry.\nEle adorava Harry. O elfo da família Black era bem mais... complicado.\nE com uma lealdade distorcida."
+        },
+        {
+          "text": "Winky",
+          "isCorrect": false,
+          "explanation": "Winky servia aos Crouch. Sua história é triste, mas não ligada diretamente à família Black.\nEla tinha seus próprios problemas e lealdades.\nE uma queda por cerveja amanteigada."
+        },
+        {
+          "text": "Monstro (Kreacher)",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! Monstro, o velho e amargurado elfo doméstico da família Black.\nDevotado à sua antiga patroa e aos ideais puro-sangue, ele demorou a aceitar Harry e seus amigos.\nMas no final, mostrou uma surpreendente bravura.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/old-grumpy-house-elf-muttering-260nw-2077891110.jpg",
+          "imageDescription": "Elfo doméstico velho e rabugento resmungando em uma cozinha escura e antiga."
+        },
+        {
+          "text": "Hokey",
+          "isCorrect": false,
+          "explanation": "Hokey era a elfa de Hepzibah Smith. Uma figura do passado de Voldemort.\nMonstro tem uma história bem mais longa e conectada com os eventos da Ordem da Fênix.\nE um medalhão bem importante."
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "question": "Qual feitiço é usado para conjurar um Patrono, um guardião contra Dementadores?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Riddikulus",
+          "isCorrect": false,
+          "explanation": "Riddikulus é para Bichos-Papões, transformando o medo em algo engraçado.\nContra Dementadores, você precisa de algo mais... luminoso e feliz.\nRisadas não espantam sugadores de alma."
+        },
+        {
+          "text": "Protego",
+          "isCorrect": false,
+          "explanation": "Protego é um feitiço de escudo, que repele feitiços menores.\nÚtil em duelos, mas Dementadores não são afetados por escudos comuns.\nEles atacam sua alma, não seu corpo."
+        },
+        {
+          "text": "Expecto Patronum",
+          "isCorrect": true,
+          "explanation": "Correto! 'Expecto Patronum!' conjura um guardião prateado feito de pura felicidade e esperança.\nA única defesa eficaz contra os terríveis Dementadores.\nLembre-se de uma memória bem feliz!",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/glowing-silver-stag-patronus-emerging-260nw-1906536100.jpg",
+          "imageDescription": "Patrono cervo prateado brilhante emergindo de uma varinha em um ambiente escuro."
+        },
+        {
+          "text": "Impervius",
+          "isCorrect": false,
+          "explanation": "O Feitiço Impervius repele água e névoa (Hermione o usou nos óculos de Harry no Quadribol).\nNão repele Dementadores. Eles não se importam se você está molhado ou não.\nSua fome é por felicidade."
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "question": "Qual o nome do fantasma da casa Sonserina, coberto de sangue prateado?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Nick Quase Sem Cabeça",
+          "isCorrect": false,
+          "explanation": "Nick é o fantasma da Grifinória, conhecido por sua cabeça mal cortada.\nEle é amigável, ao contrário do fantasma da Sonserina, que é bem mais... assustador.\nE menos propenso a conversas."
+        },
+        {
+          "text": "A Dama Cinzenta",
+          "isCorrect": false,
+          "explanation": "A Dama Cinzenta (Helena Ravenclaw) é o fantasma da Corvinal.\nEla é melancólica e guarda segredos, mas não é coberta de sangue.\nSua tragédia é de outro tipo."
+        },
+        {
+          "text": "O Barão Sangrento",
+          "isCorrect": true,
+          "explanation": "Exatamente! O Barão Sangrento, o único (além de Dumbledore) que Pirraça realmente teme.\nEle se matou após assassinar Helena Ravenclaw por amor não correspondido, e carrega as manchas de sangue dela (e dele) para sempre.\nUm fantasma com uma história trágica e uma aparência temível.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/ghostly-figure-nobleman-covered-silver-260nw-2008010330.jpg",
+          "imageDescription": "Figura fantasmagórica de um nobre coberto de manchas prateadas, com uma expressão sombria."
+        },
+        {
+          "text": "Pirraça, o Poltergeist",
+          "isCorrect": false,
+          "explanation": "Pirraça não é um fantasma, mas um poltergeist, uma entidade do caos.\nEle adora pregar peças e causar confusão, mas não é o fantasma oficial de nenhuma casa.\nE ele é bem sólido quando quer jogar coisas em você."
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "question": "Qual a forma do Patrono de Luna Lovegood?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Lontra",
+          "isCorrect": false,
+          "explanation": "A lontra é o Patrono de Hermione Granger.\nO de Luna é um animal igualmente gracioso, mas mais... saltitante.\nPense em algo que se move rapidamente pelos campos."
+        },
+        {
+          "text": "Cervo",
+          "isCorrect": false,
+          "explanation": "O cervo é o Patrono de Harry (e de seu pai).\nUm animal majestoso, mas não o que representa a excêntrica Luna.\nO dela é mais leve e talvez um pouco mais... incomum."
+        },
+        {
+          "text": "Lebre",
+          "isCorrect": true,
+          "explanation": "Correto! O Patrono de Luna é uma lebre prateada.\nUm animal que reflete sua natureza gentil, um pouco tímida, mas também rápida e alerta.\nE talvez um pouco sonhadora, como ela.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/silver-glowing-hare-patronus-magical-260nw-1983448440.jpg",
+          "imageDescription": "Lebre prateada brilhante saltando em um fundo escuro, representando o Patrono de Luna."
+        },
+        {
+          "text": "Coruja",
+          "isCorrect": false,
+          "explanation": "Corujas são mensageiras e símbolos de sabedoria.\nO Patrono de Cho Chang é um cisne, por exemplo. O de Luna é terrestre.\nCada bruxo com seu animal espiritual."
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "question": "Qual dos Torneios Tribruxo Harry foi forçado a participar em seu quarto ano?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "A Copa Mundial de Quadribol",
+          "isCorrect": false,
+          "explanation": "Harry ASSISTIU à Copa Mundial de Quadribol, mas não participou como jogador.\nO Torneio Tribruxo foi uma competição escolar internacional bem mais perigosa.\nE com menos times envolvidos."
+        },
+        {
+          "text": "O Torneio dos Campeões de Hogwarts",
+          "isCorrect": false,
+          "explanation": "Não existe um 'Torneio dos Campeões de Hogwarts' com esse nome.\nO Torneio Tribruxo envolvia três escolas (originalmente), não apenas Hogwarts.\nUma competição de prestígio e muito perigo."
+        },
+        {
+          "text": "O Torneio Tribruxo (Triwizard Tournament)",
+          "isCorrect": true,
+          "explanation": "Isso aí! O Torneio Tribruxo, revivido em Hogwarts no quarto ano de Harry.\nEle foi misteriosamente escolhido como o quarto campeão, para seu horror (e o de muitos outros).\nDragões, sereianos e um labirinto mortal... diversão garantida!",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/golden-goblet-flames-emerging-it-260nw-1933517100.jpg",
+          "imageDescription": "Cálice de ouro com chamas azuis emergindo dele, representando o Cálice de Fogo."
+        },
+        {
+          "text": "A Caça ao Pomo de Ouro Interescolar",
+          "isCorrect": false,
+          "explanation": "Isso soa como uma competição de Quadribol, não o Torneio Tribruxo.\nAs tarefas do Torneio eram bem mais variadas e arriscadas do que apenas pegar um pomo.\nE o prêmio era a Taça Tribruxo, não um pomo gigante."
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "question": "Quem foi o primeiro Mestre da Varinha das Varinhas, um dos três irmãos Peverell?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Cadmo Peverell",
+          "isCorrect": false,
+          "explanation": "Cadmo Peverell foi o segundo irmão, que pediu a Pedra da Ressurreição.\nEle queria trazer de volta sua amada, mas a história não teve um final feliz.\nA Varinha das Varinhas foi do irmão mais velho."
+        },
+        {
+          "text": "Ignoto Peverell",
+          "isCorrect": false,
+          "explanation": "Ignoto Peverell foi o terceiro e mais sábio irmão, que pediu a Capa da Invisibilidade.\nEle usou seu presente para evitar a Morte até estar pronto para encontrá-la.\nUm ancestral de Harry, mas não o dono original da Varinha."
+        },
+        {
+          "text": "Antíoco Peverell",
+          "isCorrect": true,
+          "explanation": "Correto! Antíoco Peverell, o irmão mais velho e mais belicoso, pediu a varinha mais poderosa que existisse.\nEle usou a Varinha das Varinhas para vencer duelos, mas foi assassinado por ela enquanto dormia.\nUm lembrete de que grande poder atrai grandes problemas.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/ornate-elder-wand-glowing-powerful-260nw-2077891200.jpg",
+          "imageDescription": "Varinha de sabugueiro ornamentada, brilhando com poder em um fundo escuro."
+        },
+        {
+          "text": "Salazar Slytherin",
+          "isCorrect": false,
+          "explanation": "Salazar Slytherin foi um dos fundadores de Hogwarts, muito antes dos irmãos Peverell (embora os Gaunt, descendentes de Slytherin, também descendessem de Cadmo Peverell).\nA Varinha das Varinhas tem sua própria linhagem de mestres, não ligada aos fundadores diretamente."
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "question": "Qual o nome da poção que traz sorte extrema a quem a bebe?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Poção do Morto-Vivo (Draught of Living Death)",
+          "isCorrect": false,
+          "explanation": "A Poção do Morto-Vivo induz um sono tão profundo que parece a morte.\nDefinitivamente não traz sorte, a menos que sua sorte seja tirar uma soneca MUITO longa.\nE é perigosíssima se feita incorretamente."
+        },
+        {
+          "text": "Veritaserum",
+          "isCorrect": false,
+          "explanation": "Veritaserum força a dizer a verdade. Pode ser 'sorte' para quem interroga, azar para quem é interrogado.\nMas não é uma poção de sorte geral.\nHonestidade nem sempre é a melhor política (para quem tem segredos)."
+        },
+        {
+          "text": "Felix Felicis",
+          "isCorrect": true,
+          "explanation": "Exato! Felix Felicis, também conhecida como 'Sorte Líquida'.\nDeixa o bebedor incrivelmente sortudo por um período, fazendo tudo dar certo.\nMas cuidado: o excesso pode levar à imprudência, e é tóxica em grandes quantidades!",
+          "imageUrl": "https://www.shutterstock.com/image-photo/small-vial-glowing-golden-liquid-260nw-1936007600.jpg",
+          "imageDescription": "Pequeno frasco com líquido dourado brilhante, representando a poção Felix Felicis."
+        },
+        {
+          "text": "Amortentia",
+          "isCorrect": false,
+          "explanation": "Amortentia é a poção do amor. Pode te dar 'sorte' no amor (ou obsessão), mas não em outras áreas da vida.\nE amor induzido por poção não é amor de verdade.\nMelhor contar com o acaso (ou com seus próprios encantos)."
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "question": "Qual o nome da loja de doces em Hogsmeade frequentada pelos alunos de Hogwarts?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Gemialidades Weasley",
+          "isCorrect": false,
+          "explanation": "Gemialidades Weasley é a loja dos gêmeos no Beco Diagonal, cheia de logros e brincadeiras.\nEm Hogsmeade, os doces vêm de outro estabelecimento famoso.\nMenos explosões, mais açúcar."
+        },
+        {
+          "text": "Dedosdemel (Honeydukes)",
+          "isCorrect": true,
+          "explanation": "Correto! Dedosdemel, o paraíso dos doces mágicos!\nDe Penas de Algodão Doce a Sapos de Chocolate e Feijõezinhos de Todos os Sabores.\nUm lugar para estocar guloseimas para o ano letivo.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/colorful-magical-candy-store-interior-260nw-2020086200.jpg",
+          "imageDescription": "Interior de uma loja de doces mágica e colorida, cheia de guloseimas estranhas e maravilhosas."
+        },
+        {
+          "text": "O Caldeirão Furado (Leaky Cauldron)",
+          "isCorrect": false,
+          "explanation": "O Caldeirão Furado é um pub em Londres que serve de entrada para o Beco Diagonal.\nServe comida e bebida, mas não é especializado em doces como a Dedosdemel.\nMais cerveja amanteigada, menos Delícias Gasosas."
+        },
+        {
+          "text": "Três Vassouras (The Three Broomsticks)",
+          "isCorrect": false,
+          "explanation": "O Três Vassouras é o pub mais popular de Hogsmeade, ótimo para uma cerveja amanteigada.\nMas para comprar doces para levar, a Dedosdemel é o destino certo.\nCada um com sua especialidade."
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "question": "Qual é o feitiço usado para criar luz na ponta da varinha?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Nox",
+          "isCorrect": false,
+          "explanation": "Nox é o contrafeitiço que apaga a luz criada pelo Lumos.\nSe você usar Nox para criar luz, vai acabar no escuro, confuso.\nÉ o 'interruptor de desligar', não o de ligar."
+        },
+        {
+          "text": "Accio",
+          "isCorrect": false,
+          "explanation": "Accio é o feitiço convocatório, usado para trazer objetos até você.\nMuito útil se você perdeu suas chaves, mas não para iluminar o caminho.\nA menos que você convoque uma lanterna."
+        },
+        {
+          "text": "Lumos",
+          "isCorrect": true,
+          "explanation": "Exatamente! Lumos, um feitiço simples, mas incrivelmente útil.\nPerfeito para explorar corredores escuros, ler debaixo das cobertas ou procurar Testrálios.\nUma pequena luz mágica na ponta dos dedos (ou da varinha).",
+          "imageUrl": "https://www.shutterstock.com/image-vector/magic-wand-glowing-tip-light-260nw-1702408900.jpg",
+          "imageDescription": "Varinha mágica com a ponta brilhando intensamente em um fundo escuro."
+        },
+        {
+          "text": "Silencio",
+          "isCorrect": false,
+          "explanation": "Silencio, como o nome sugere, é usado para silenciar algo ou alguém.\nNão produz luz, apenas... silêncio.\nÓtimo para calar um Gira-Gira, mas não para ver no escuro."
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "question": "Qual o nome da gata de Argus Filch, o zelador de Hogwarts?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Bichento (Crookshanks)",
+          "isCorrect": false,
+          "explanation": "Bichento é o gato esperto de Hermione.\nEle e a gata de Filch não se davam muito bem, provavelmente.\nCada um com seu dono (e seu nível de inteligência felina)."
+        },
+        {
+          "text": "Madame Nora (Mrs. Norris)",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! Madame Nora, a gata magra e poeirenta que parece ter uma conexão psíquica com Filch.\nSempre patrulhando os corredores em busca de alunos aprontando.\nUma verdadeira espiã felina.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/scrawny-dustylooking-cat-patrolling-corridor-260nw-1983448400.jpg",
+          "imageDescription": "Gato magro e de aparência empoeirada patrulhando um corredor de castelo escuro."
+        },
+        {
+          "text": "Millie",
+          "isCorrect": false,
+          "explanation": "Millicent Bulstrode tinha um gato, mas o nome dele não é Madame Nora.\nA gata de Filch é uma personagem icônica por si só.\nE bem mais... detetivesca."
+        },
+        {
+          "text": "Hedwig",
+          "isCorrect": false,
+          "explanation": "Hedwig era a coruja de Harry. Uma ave nobre, não uma gata sorrateira.\nE ela entregava cartas, não dedurava alunos.\nA menos que a carta fosse sobre mau comportamento."
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "question": "Qual é a criatura mágica que pode se transformar no maior medo de uma pessoa?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Dementador",
+          "isCorrect": false,
+          "explanation": "Dementadores se alimentam de felicidade e podem fazer você reviver seus piores momentos.\nMas eles não mudam de forma. São consistentemente horríveis.\nO medo que eles causam é mais... existencial."
+        },
+        {
+          "text": "Poltergeist",
+          "isCorrect": false,
+          "explanation": "Poltergeists, como Pirraça, causam caos e pregam peças.\nEles podem ser assustadores pela bagunça, mas não se transformam nos seus medos.\nSão mais 'irritantes' do que 'metamórficos'."
+        },
+        {
+          "text": "Bicho-Papão (Boggart)",
+          "isCorrect": true,
+          "explanation": "Correto! O Bicho-Papão não tem forma própria; ele assume a forma daquilo que mais assusta quem está à sua frente.\nA melhor defesa? O feitiço Riddikulus e uma boa dose de risada.\nTransforme o medo em comédia!",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/shadowy-figure-transforming-into-giant-260nw-2099495200.jpg",
+          "imageDescription": "Figura sombria se transformando em uma aranha gigante (ou outro medo comum)."
+        },
+        {
+          "text": "Basilisco",
+          "isCorrect": false,
+          "explanation": "O Basilisco é uma serpente gigante cujo olhar direto mata.\nAssustador? Com certeza! Mas ele não muda de forma para se adequar aos seus medos.\nEle é consistentemente uma cobra gigante mortal."
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "question": "Qual dos seguintes NÃO é um dos tipos de bola usados no Quadribol?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Goles (Quaffle)",
+          "isCorrect": false,
+          "explanation": "A Goles é a bola vermelha que os artilheiros tentam arremessar através dos aros.\nVale 10 pontos cada vez que entra! Essencial para o jogo.\nA bola principal de pontuação."
+        },
+        {
+          "text": "Balaços (Bludgers)",
+          "isCorrect": false,
+          "explanation": "Os Balaços são as bolas pretas enfeitiçadas que voam por aí tentando derrubar os jogadores das vassouras.\nPerigosos e imprevisíveis. Os batedores estão lá para rebatê-los.\nAdicionam um elemento de... dor e estratégia."
+        },
+        {
+          "text": "Pomo de Ouro (Golden Snitch)",
+          "isCorrect": false,
+          "explanation": "O Pomo de Ouro é a pequena bola dourada alada cuja captura encerra o jogo e vale 150 pontos.\nO objetivo principal dos apanhadores. Rápido e difícil de pegar.\nO 'showman' do jogo."
+        },
+        {
+          "text": "Bombarda (Bombarda)",
+          "isCorrect": true,
+          "explanation": "Bombarda é um feitiço que causa explosões! (Como Bombarda Maxima).\nDefinitivamente não é uma bola de Quadribol, a menos que você queira um jogo BEM mais destrutivo.\nIsso seria considerado antijogo (e provavelmente ilegal).",
+          "imageUrl": "https://www.shutterstock.com/image-vector/magic-explosion-spell-effect-bright-260nw-1983447100.jpg",
+          "imageDescription": "Efeito de feitiço de explosão mágica com faíscas e luz brilhante."
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "question": "Qual o nome do pub em Londres que serve de entrada para o Beco Diagonal?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "O Três Vassouras",
+          "isCorrect": false,
+          "explanation": "O Três Vassouras é um pub famoso em Hogsmeade, não em Londres.\nÉ onde os alunos tomam cerveja amanteigada nos fins de semana.\nO pub de Londres tem um nome mais... rústico."
+        },
+        {
+          "text": "Cabeça de Javali",
+          "isCorrect": false,
+          "explanation": "O Cabeça de Javali também fica em Hogsmeade, um lugar mais sombrio e menos frequentado.\nConhecido por sua clientela duvidosa e por ser o local de fundação da AD.\nMas a entrada para o Beco Diagonal é outra."
+        },
+        {
+          "text": "O Caldeirão Furado (Leaky Cauldron)",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! O Caldeirão Furado, um pub aparentemente normal para os trouxas, mas um portal para o mundo mágico para os bruxos.\nBasta tocar os tijolos certos na parede dos fundos!\nOnde a magia e o mundo trouxa se encontram (discretamente).",
+          "imageUrl": "https://www.shutterstock.com/image-photo/old-london-pub-facade-sign-260nw-1702408950.jpg",
+          "imageDescription": "Fachada de um pub londrino antigo e tradicional com uma placa pendurada."
+        },
+        {
+          "text": "A Zonko's Joke Shop",
+          "isCorrect": false,
+          "explanation": "A Zonko's é uma loja de brincadeiras, não um pub.\nCheia de bombas de bosta e sabão de ovas de sapo, mas não serve cerveja amanteigada.\nE não leva ao Beco Diagonal."
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "question": "Quem escreveu o livro 'Animais Fantásticos e Onde Habitam' (a versão do universo Harry Potter)?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Alvo Dumbledore",
+          "isCorrect": false,
+          "explanation": "Dumbledore escreveu muitos artigos e talvez alguns livros, mas 'Animais Fantásticos' é obra de outro especialista.\nEle provavelmente tinha uma cópia autografada, no entanto.\nE talvez tenha escrito o prefácio."
+        },
+        {
+          "text": "Gilderoy Lockhart",
+          "isCorrect": false,
+          "explanation": "Lockhart 'escreveu' muitos livros sobre suas supostas aventuras, mas ele era um mestre em roubar as histórias dos outros.\n'Animais Fantásticos' exige conhecimento real, não apenas um sorriso bonito.\nE menos Feitiços da Memória."
+        },
+        {
+          "text": "Newt Scamander",
+          "isCorrect": true,
+          "explanation": "Correto! Newton 'Newt' Artemis Fido Scamander, o famoso Magizoologista.\nSeu livro é um texto obrigatório em Hogwarts e um guia essencial para quem lida com criaturas mágicas.\nE ele tinha uma mala bem interessante...",
+          "imageUrl": "https://www.shutterstock.com/image-photo/vintage-leather-suitcase-various-magical-260nw-1998900400.jpg",
+          "imageDescription": "Mala de couro vintage com adesivos de viagem e criaturas mágicas escapando sutilmente."
+        },
+        {
+          "text": "Rúbeo Hagrid",
+          "isCorrect": false,
+          "explanation": "Hagrid ama criaturas mágicas, mas escrever um livro didático não é bem o forte dele.\nEle prefere a prática à teoria. E seus 'animais de estimação' são um pouco... perigosos demais para um livro escolar.\nA menos que o livro viesse com um aviso de 'não tente isso em casa'."
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "question": "Qual feitiço Hermione usa para consertar os óculos de Harry no Expresso de Hogwarts?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Reparo",
+          "isCorrect": false,
+          "explanation": "Quase! 'Reparo' é um feitiço geral para consertar objetos quebrados.\nMas Hermione, sempre precisa, usou a forma mais completa e específica do encantamento.\nEla gosta de fazer as coisas direito."
+        },
+        {
+          "text": "Oculus Reparo",
+          "isCorrect": true,
+          "explanation": "Exatamente! 'Oculus Reparo', uma variação do feitiço Reparo, específica para óculos.\nA primeira demonstração da habilidade mágica de Hermione para Harry e Rony.\nE o começo de uma grande amizade (e de muitas correções gramaticais).",
+          "imageUrl": "https://www.shutterstock.com/image-vector/pair-round-glasses-being-magically-260nw-2085629950.jpg",
+          "imageDescription": "Par de óculos redondos sendo magicamente consertados com faíscas de uma varinha."
+        },
+        {
+          "text": "Wingardium Leviosa",
+          "isCorrect": false,
+          "explanation": "Wingardium Leviosa faz objetos levitarem. Não consertaria óculos quebrados.\nA menos que você quisesse fazer os cacos flutuarem no ar, o que não ajudaria muito.\nMelhor um bom e velho feitiço de conserto."
+        },
+        {
+          "text": "Accio Óculos",
+          "isCorrect": false,
+          "explanation": "Accio convocaria os óculos (ou os pedaços deles) até você.\nMas não os consertaria magicamente. Hermione é mais eficiente que isso.\nEla prefere resolver o problema na hora."
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "question": "Qual o nome do jogo de tabuleiro bruxo onde as peças se movem sozinhas e se destroem de verdade?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Gamão de Duende",
+          "isCorrect": false,
+          "explanation": "Gamão de Duende pode até existir, mas o jogo com peças autodestrutivas é outro.\nE provavelmente mais... violento e espetacular.\nDuendes são mais conhecidos por sua habilidade com finanças e metalurgia."
+        },
+        {
+          "text": "Snap Explosivo",
+          "isCorrect": false,
+          "explanation": "Snap Explosivo é um jogo de cartas que, bem, explode se você demorar muito.\nDivertido e perigoso, mas não um jogo de tabuleiro com peças animadas.\nRequer reflexos rápidos, não estratégia de xadrez."
+        },
+        {
+          "text": "Xadrez de Bruxo (Wizard's Chess)",
+          "isCorrect": true,
+          "explanation": "Correto! Xadrez de Bruxo, onde as rainhas gritam ordens e os peões são esmagados sem dó.\nUma versão bem mais... intensa do xadrez trouxa.\nRony Weasley é um mestre nisso!",
+          "imageUrl": "https://www.shutterstock.com/image-photo/magical-chess-set-pieces-moving-260nw-1958345950.jpg",
+          "imageDescription": "Jogo de xadrez mágico com peças se movendo sozinhas em um tabuleiro ornamentado."
+        },
+        {
+          "text": "Pedras Filosofais (Gobstones)",
+          "isCorrect": false,
+          "explanation": "Pedras Filosofais (Gobstones) é um jogo parecido com bolinhas de gude, mas as pedras esguicham um líquido fedorento no perdedor.\nEngraçado, mas não envolve peças de xadrez se atacando.\nMais nojento do que violento."
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "question": "Qual o nome do diretor de Hogwarts que foi morto por Severo Snape no topo da Torre de Astronomia?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Armando Dippet",
+          "isCorrect": false,
+          "explanation": "Armando Dippet foi diretor muito antes desses eventos trágicos.\nEle morreu de causas naturais (provavelmente de velhice), não assassinado.\nSua morte foi menos... dramática."
+        },
+        {
+          "text": "Gellert Grindelwald",
+          "isCorrect": false,
+          "explanation": "Grindelwald foi derrotado por Dumbledore em seu famoso duelo, não morto por Snape em Hogwarts.\nEle passou seus últimos dias em Nurmengard.\nOutro bruxo poderoso, outro destino."
+        },
+        {
+          "text": "Alvo Dumbledore",
+          "isCorrect": true,
+          "explanation": "Exatamente. Alvo Dumbledore, em um plano complexo e doloroso, foi morto por Snape.\nUm sacrifício arranjado para proteger Draco e solidificar a posição de Snape com Voldemort.\nUm dos momentos mais chocantes e tristes da saga.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/silhouette-figure-falling-high-tower-260nw-2008010440.jpg",
+          "imageDescription": "Silhueta de uma figura caindo de uma torre alta à noite, com um feixe de luz verde."
+        },
+        {
+          "text": "Phineas Nigellus Black",
+          "isCorrect": false,
+          "explanation": "Phineas Nigellus já era um retrato falante há muito tempo.\nSua 'morte' física ocorreu séculos antes.\nEle apenas observa (e critica) os eventos de sua moldura."
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "question": "Em que casa de Hogwarts Luna Lovegood pertence?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Grifinória",
+          "isCorrect": false,
+          "explanation": "Luna é corajosa à sua maneira, mas sua casa valoriza mais a inteligência e a originalidade.\nEla é amiga de muitos Grifinórios, mas seu chapéu seletor a mandou para outro lugar.\nOnde a excentricidade é bem-vinda."
+        },
+        {
+          "text": "Sonserina",
+          "isCorrect": false,
+          "explanation": "Sonserina? Luna? Dificilmente! Sua honestidade e falta de ambição pelo poder não combinam.\nEla provavelmente seria considerada muito... 'avoada' para os padrões sonserinos.\nEles não apreciariam muito seus colares de rolha de cerveja amanteigada."
+        },
+        {
+          "text": "Corvinal (Ravenclaw)",
+          "isCorrect": true,
+          "explanation": "Correto! Luna, com sua mente aberta, criatividade e inteligência peculiar, é uma orgulhosa membra da Corvinal.\nUma casa para aqueles de espírito e sagacidade sem igual.\nOnde ser diferente é ser especial.",
+          "imageUrl": "https://www.shutterstock.com/image-vector/ravenclaw-emblem-design-eagle-mascot-260nw-1933517072.jpg",
+          "imageDescription": "Emblema estilizado da casa Corvinal com uma águia (ou corvo, dependendo da interpretação)."
+        },
+        {
+          "text": "Lufa-Lufa",
+          "isCorrect": false,
+          "explanation": "Luna é leal aos seus amigos, mas a Lufa-Lufa valoriza mais o trabalho duro e a justiça.\nO Chapéu Seletor viu nela a marca da inteligência e da individualidade da Corvinal.\nEla é mais 'cabeça nas nuvens' do que 'pés no chão'."
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "question": "Qual o nome do feitiço que Harry tenta usar em Bellatrix Lestrange após ela matar Sirius Black, mas que não funciona com força total por falta de real desejo de causar dor?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Avada Kedavra",
+          "isCorrect": false,
+          "explanation": "Harry estava furioso, mas usar a Maldição da Morte não era seu estilo.\nMesmo em seu momento de maior ódio, ele não recorreu a essa magia.\nEle queria que ela sofresse, não que morresse (naquele instante)."
+        },
+        {
+          "text": "Sectumsempra",
+          "isCorrect": false,
+          "explanation": "Sectumsempra causa ferimentos físicos, e Harry já o tinha usado antes.\nMas a maldição que ele tentou em Bellatrix era uma das Imperdoáveis, focada em dor.\nAlgo que ele não conseguia conjurar com a maldade necessária."
+        },
+        {
+          "text": "Maldição Cruciatus (Crucio)",
+          "isCorrect": true,
+          "explanation": "Exatamente. Harry tentou usar a Maldição Cruciatus em Bellatrix, mas como Dumbledore explicou, é preciso realmente querer causar dor para que ela funcione plenamente.\nA raiva justa de Harry não era suficiente para sustentar tamanha crueldade.\nUm lampejo de sua verdadeira natureza.",
+          "imageUrl": "https://www.shutterstock.com/image-vector/magic-wand-emitting-red-dark-260nw-1983447200.jpg",
+          "imageDescription": "Varinha mágica emitindo uma energia vermelha e escura, simbolizando uma maldição dolorosa."
+        },
+        {
+          "text": "Expulso",
+          "isCorrect": false,
+          "explanation": "Expulso é um feitiço que causa uma explosão, para arremessar objetos ou abrir passagens.\nNão é uma maldição para causar dor direta.\nHarry queria vingança, não apenas explodir alguma coisa perto dela."
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "question": "Qual o nome do elfo que trabalhava em Hogwarts e era frequentemente explorado por Fred e Jorge Weasley para obter informações?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Dobby",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! Antes de ser um elfo livre e trabalhar remunerado em Hogwarts, Dobby foi quem os gêmeos muitas vezes 'consultavam'.\nEle tinha acesso a muitas áreas e provavelmente uma queda por ajudar quem era contra os Malfoy (e Umbridge).\nUma fonte de informação inesperada (e mal paga).",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/small-house-elf-carrying-stack-260nw-2085629990.jpg",
+          "imageDescription": "Pequeno elfo doméstico carregando uma pilha de pergaminhos ou itens de cozinha, parecendo prestativo."
+        },
+        {
+          "text": "Monstro (Kreacher)",
+          "isCorrect": false,
+          "explanation": "Monstro era leal (à sua maneira) à família Black e depois a Harry. Ele não trabalhava 'para' Hogwarts como um todo.\nE os gêmeos provavelmente não teriam paciência com o mau humor dele.\nOu ele não lhes daria nenhuma informação útil."
+        },
+        {
+          "text": "Winky",
+          "isCorrect": false,
+          "explanation": "Winky trabalhou em Hogwarts após ser demitida por Crouch, mas estava muito deprimida e alcóolatra.\nNão parecia estar em condições de ser uma espiã para os gêmeos.\nEla precisava de ajuda, não de mais trabalho."
+        },
+        {
+          "text": "Nenhum elfo específico, eles usavam vários métodos.",
+          "isCorrect": false,
+          "explanation": "Embora os gêmeos fossem engenhosos, Dobby é mencionado como uma fonte, especialmente durante os tempos de Umbridge.\nSua capacidade de aparecer e desaparecer era muito útil.\nUm pequeno grande ajudante para os Marotos da nova geração."
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "question": "Qual era o nome de solteira da mãe de Harry, Lílian Potter?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Lílian Prewett",
+          "isCorrect": false,
+          "explanation": "Prewett é o nome de solteira de Molly Weasley. Os irmãos dela, Gideão e Fábio Prewett, foram heróis da Ordem da Fênix.\nLílian era de outra família, embora também muito corajosa.\nCada heroína com sua linhagem."
+        },
+        {
+          "text": "Lílian Evans",
+          "isCorrect": true,
+          "explanation": "Correto! Antes de se casar com James Potter, ela era Lílian Evans.\nUma bruxa nascida trouxa incrivelmente talentosa e bondosa.\nE com olhos verdes que Harry herdou.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/portrait-young-woman-long-red-260nw-1958345999.jpg",
+          "imageDescription": "Retrato de uma jovem mulher com longos cabelos ruivos e olhos verdes expressivos."
+        },
+        {
+          "text": "Lílian McKinnon",
+          "isCorrect": false,
+          "explanation": "Marlene McKinnon foi uma amiga dos Potter e membra da Ordem da Fênix, morta por Comensais da Morte.\nUma aliada valente, mas não a mãe de Harry.\nO nome de solteira de Lílian era mais... comum, mas ela era extraordinária."
+        },
+        {
+          "text": "Lílian Black",
+          "isCorrect": false,
+          "explanation": "Se Lílian fosse uma Black, ela seria parente de Sirius! O que seria interessante.\nMas ela veio de uma família trouxa, os Evans.\nO que tornava o amor de Snape por ela ainda mais... complexo."
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "question": "O que era o 'Olho de Agamotto' no universo Harry Potter?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Um artefato usado por Dumbledore para ver o futuro.",
+          "isCorrect": false,
+          "explanation": "Opa, parece que cruzamos os universos! O Olho de Agamotto é do Doutor Estranho, da Marvel.\nNo mundo de Harry Potter, Dumbledore usava outros métodos (como a Penseira) para entender o passado e o presente.\nE talvez uma boa bola de cristal, quem sabe?"
+        },
+        {
+          "text": "O apelido do olho mágico de Alastor 'Olho-Tonto' Moody.",
+          "isCorrect": false,
+          "explanation": "O olho mágico de Moody era incrível, capaz de ver através de paredes e para trás da cabeça.\nMas não era chamado de 'Olho de Agamotto'. Tinha um apelido mais... direto.\nE provavelmente menos místico que um artefato de outro universo."
+        },
+        {
+          "text": "Uma joia poderosa que controlava o tempo, pertencente a um dos fundadores.",
+          "isCorrect": false,
+          "explanation": "Os Vira-Tempos controlam o tempo em pequena escala, mas 'Olho de Agamotto' não é um termo usado em Harry Potter.\nOs fundadores tinham seus próprios artefatos, mas nenhum com esse nome.\nEstamos em Hogwarts, não no Sanctum Sanctorum!"
+        },
+        {
+          "text": "Este artefato não pertence ao universo de Harry Potter.",
+          "isCorrect": true,
+          "explanation": "Corretíssimo! O Olho de Agamotto é um artefato místico do universo Marvel, usado pelo Doutor Estranho.\nEle não faz parte do cânone de Harry Potter.\nÀs vezes, os mundos mágicos se confundem na nossa imaginação!",
+          "imageUrl": "https://www.shutterstock.com/image-vector/glowing-green-amulet-intricate-design-260nw-2008010400.jpg",
+          "imageDescription": "Amuleto verde brilhante com um design intrincado, lembrando um artefato de poder de outro universo."
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "question": "Qual o nome da escola de magia brasileira mencionada em Harry Potter?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Mahoutokoro",
+          "isCorrect": false,
+          "explanation": "Mahoutokoro é a escola de magia do Japão, conhecida por suas vestes que mudam de cor.\nO Brasil tem sua própria escola, com um nome bem mais... nosso.\nE provavelmente com um currículo bem tropical."
+        },
+        {
+          "text": "Uagadou",
+          "isCorrect": false,
+          "explanation": "Uagadou é a maior escola de magia do mundo, localizada em Uganda, na África.\nFamosa por ensinar os alunos a fazer magia sem varinha.\nA escola brasileira fica um pouco mais perto de casa."
+        },
+        {
+          "text": "Castelobruxo",
+          "isCorrect": true,
+          "explanation": "Exato! Castelobruxo, localizada na floresta amazônica e parecendo um templo de ouro para os trouxas.\nEspecializada em Herbologia e Magizoologia. Gui Weasley teve um amigo por correspondência de lá.\nImagina as criaturas e plantas que eles estudam!",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/golden-temple-hidden-deep-amazon-260nw-2085629999.jpg",
+          "imageDescription": "Templo dourado escondido nas profundezas da floresta amazônica, cercado por vegetação exuberante."
+        },
+        {
+          "text": "Ilvermorny",
+          "isCorrect": false,
+          "explanation": "Ilvermorny é a escola de magia da América do Norte, com suas próprias casas e história fascinante.\nA escola brasileira tem um nome que soa bem mais... em português.\nE provavelmente com um uniforme mais leve."
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "question": "Quem foi o inventor do feitiço 'Levicorpus' (não-verbal) e seu contrafeitiço 'Liberacorpus'?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Alvo Dumbledore em sua juventude.",
+          "isCorrect": false,
+          "explanation": "Dumbledore era um gênio, mas esses feitiços específicos têm a marca de outro bruxo.\nUm pouco mais... sombrio e experimental em sua juventude.\nE que gostava de anotar suas invenções nas margens dos livros."
+        },
+        {
+          "text": "Gellert Grindelwald, como uma forma de tortura.",
+          "isCorrect": false,
+          "explanation": "Grindelwald certamente conhecia muitas formas de magia negra, mas a origem desses feitiços é outra.\nEles foram criados por um estudante de Hogwarts, não por um Lorde das Trevas em ascensão.\nEmbora pudessem ser usados para pregar peças bem cruéis."
+        },
+        {
+          "text": "O Príncipe Mestiço (Severo Snape)",
+          "isCorrect": true,
+          "explanation": "Corretíssimo! Severo Snape, em seus dias de estudante como o 'Príncipe Mestiço', inventou esses e outros feitiços.\nLevicorpus suspendia a vítima pelos tornozelos. Uma pegadinha popular entre os Marotos (contra Snape, ironicamente).\nSua criatividade era tanto para o bem quanto para o mal (ou para a vingança).",
+          "imageUrl": "https://www.shutterstock.com/image-photo/old-textbook-handwritten-notes-margins-260nw-1998900500.jpg",
+          "imageDescription": "Livro didático antigo com anotações manuscritas e feitiços rabiscados nas margens."
+        },
+        {
+          "text": "James Potter, para usar contra Snape.",
+          "isCorrect": false,
+          "explanation": "James Potter e os Marotos USARAM Levicorpus (provavelmente depois de descobri-lo ou ouvi-lo de Snape, que o criou).\nMas a invenção original foi de Snape. Uma ironia cruel que o feitiço fosse usado contra seu criador.\nO karma bruxo é implacável."
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "question": "Qual o nome da criatura mágica que se parece com um cavalo e só pode ser vista por quem já presenciou a morte?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Unicórnio",
+          "isCorrect": false,
+          "explanation": "Unicórnios são criaturas puras e mágicas, cujo sangue pode manter alguém vivo.\nMas eles são visíveis para todos (que têm a sorte de encontrá-los).\nA criatura em questão tem uma aparência mais... esquelética."
+        },
+        {
+          "text": "Hipogrifo",
+          "isCorrect": false,
+          "explanation": "Hipogrifos são meio águia, meio cavalo, e exigem respeito.\nSão visíveis para quem sabe como se aproximar. A condição de 'ver a morte' não se aplica a eles.\nBicuço não discriminava quem podia vê-lo."
+        },
+        {
+          "text": "Testrálio (Thestral)",
+          "isCorrect": true,
+          "explanation": "Exatamente! Os Testrálios, com sua aparência de cavalo alado e reptiliano, e corpo esquelético.\nPuxam as carruagens de Hogwarts e são incompreendidos por muitos.\nMas são criaturas gentis e com um ótimo senso de direção.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/black-skeletal-winged-horse-with-260nw-2008010550.jpg",
+          "imageDescription": "Cavalo alado esquelético preto com olhos brancos e reptilianos em uma floresta enevoada."
+        },
+        {
+          "text": "Centauro",
+          "isCorrect": false,
+          "explanation": "Centauros são metade homem, metade cavalo, orgulhosos e conhecedores dos astros.\nSão visíveis para todos, embora prefiram ficar na Floresta Proibida.\nEles não puxam carruagens, preferem observar o céu."
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "question": "Qual poção Harry usa para ter sorte durante a busca pela memória de Slughorn sobre as Horcruxes?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Poção Polissuco",
+          "isCorrect": false,
+          "explanation": "A Polissuco o transformaria em outra pessoa, mas não garantiria sorte na conversa.\nEle precisava de mais do que um disfarce para convencer Slughorn.\nPrecisava de um empurrãozinho do destino."
+        },
+        {
+          "text": "Veritaserum",
+          "isCorrect": false,
+          "explanation": "Tentar usar Veritaserum em Slughorn seria arriscado e provavelmente malvisto por Dumbledore.\nAlém disso, Slughorn era esperto demais para cair nessa facilmente.\nHarry precisava de uma abordagem mais... sortuda."
+        },
+        {
+          "text": "Felix Felicis",
+          "isCorrect": true,
+          "explanation": "Correto! A famosa 'Sorte Líquida'. Harry usou sua pequena dose para ter o 'dia perfeito'.\nIsso o levou a encontrar Slughorn no momento certo e a ter a coragem (e a sorte) de conseguir a memória.\nUm dia de ouro, literalmente!",
+          "imageUrl": "https://www.shutterstock.com/image-photo/small-bottle-glowing-golden-liquid-260nw-1936007600.jpg",
+          "imageDescription": "Pequeno frasco com líquido dourado e brilhante, representando a poção Felix Felicis."
+        },
+        {
+          "text": "Poção do Sono",
+          "isCorrect": false,
+          "explanation": "Uma poção do sono faria Slughorn dormir, não revelar seus segredos mais sombrios.\nHarry precisava dele acordado e cooperativo (mesmo que induzido pela sorte).\nMemórias não são reveladas durante o ronco."
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "question": "Qual o nome do irmão de Alvo Dumbledore, que é o proprietário do bar Cabeça de Javali?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Percival Dumbledore",
+          "isCorrect": false,
+          "explanation": "Percival Dumbledore era o pai de Alvo, Aberforth e Ariana.\nEle foi preso em Azkaban por atacar trouxas que maltrataram sua filha.\nUma figura trágica, mas não o irmão barman."
+        },
+        {
+          "text": "Aberforth Dumbledore",
+          "isCorrect": true,
+          "explanation": "Exatamente! Aberforth, o irmão mais novo e um tanto ressentido de Alvo.\nEle desempenha um papel crucial em ajudar Harry na Batalha de Hogwarts.\nE aparentemente, tem uma afinidade por cabras.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/gruff-elderly-bartender-long-grey-260nw-2020086150.jpg",
+          "imageDescription": "Bartender idoso de aparência rude com longa barba grisalha em um pub mal iluminado."
+        },
+        {
+          "text": "Grindelwald Dumbledore",
+          "isCorrect": false,
+          "explanation": "Gellert Grindelwald foi um grande amigo (e depois inimigo) de Alvo Dumbledore, mas não seu irmão.\nO sobrenome dele não era Dumbledore, felizmente para a família.\nSeria um Natal bem estranho."
+        },
+        {
+          "text": "Mundungo Fletcher",
+          "isCorrect": false,
+          "explanation": "Mundungo é um ladrãozinho e membro da Ordem da Fênix, não um Dumbledore.\nEle é mais conhecido por sua covardia e por vender artefatos roubados.\nDefinitivamente não tem a dignidade (ou a barba) de um Dumbledore."
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "question": "Qual dos Marotos era um lobisomem?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "James Potter (Pontas)",
+          "isCorrect": false,
+          "explanation": "James era um Animago que se transformava em um cervo (Pontas).\nIsso era para fazer companhia ao amigo lobisomem, não porque ele mesmo fosse um.\nUma amizade que ia além das transformações."
+        },
+        {
+          "text": "Sirius Black (Almofadinhas)",
+          "isCorrect": false,
+          "explanation": "Sirius se transformava em um grande cão negro (Almofadinhas).\nTambém para acompanhar o amigo em suas noites de lua cheia.\nLealdade canina em sua forma mais pura."
+        },
+        {
+          "text": "Remo Lupin (Aluado)",
+          "isCorrect": true,
+          "explanation": "Correto! Remo Lupin foi mordido por Fenrir Greyback quando criança e se tornou um lobisomem.\nSeus amigos se tornaram Animagos para poderem acompanhá-lo durante suas transformações.\n'Aluado' por causa da lua cheia, claro!",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/werewolf-howling-moon-night-forest-260nw-1906536200.jpg",
+          "imageDescription": "Lobisomem uivando para a lua cheia em uma floresta à noite."
+        },
+        {
+          "text": "Pedro Pettigrew (Rabicho)",
+          "isCorrect": false,
+          "explanation": "Pedro se transformava em um rato (Rabicho), o que foi bem útil para se esconder por anos.\nMas ele não era um lobisomem, apenas um... rato, em mais de um sentido.\nSua transformação era menos assustadora, mas sua traição foi monstruosa."
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "question": "Qual o nome da poção do amor mais poderosa que existe, cujo cheiro varia para cada pessoa?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Felix Felicis",
+          "isCorrect": false,
+          "explanation": "Felix Felicis é a sorte líquida. O cheiro dela provavelmente é de... sucesso?\nMas a poção do amor tem um aroma bem mais personalizado e sedutor.\nSorte e amor são coisas diferentes (às vezes)."
+        },
+        {
+          "text": "Poção Polissuco",
+          "isCorrect": false,
+          "explanation": "Poção Polissuco tem um gosto horrível (segundo quem usou) e cheiro que depende de quem está nela.\nNão é uma poção para atrair, mas para disfarçar.\nO amor não entra nessa receita."
+        },
+        {
+          "text": "Amortentia",
+          "isCorrect": true,
+          "explanation": "Exatamente! Amortentia, com seu brilho perolado e vapor em espirais.\nO cheiro varia, lembrando à pessoa o que mais a atrai.\nMas cuidado: ela causa uma forte paixão ou obsessão, não amor verdadeiro.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/love-potion-bottle-swirling-pink-260nw-1983448500.jpg",
+          "imageDescription": "Frasco de poção do amor com líquido rosa cintilante e vapor em espiral."
+        },
+        {
+          "text": "Veritaserum",
+          "isCorrect": false,
+          "explanation": "Veritaserum não tem cheiro (ou é incolor e inodoro). E força a dizer a verdade.\nNão tem nada a ver com amor, a menos que seja uma declaração de amor forçada.\nO que não é muito romântico."
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "question": "Quem é o Ministro da Magia que sucede Cornélio Fudge?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Pius Thicknesse",
+          "isCorrect": false,
+          "explanation": "Pius Thicknesse veio depois de Scrimgeour, já como um fantoche de Voldemort.\nScrimgeour foi o sucessor direto de Fudge, em tempos mais sombrios.\nUma dança das cadeiras bem perigosa no Ministério."
+        },
+        {
+          "text": "Kingsley Shacklebolt",
+          "isCorrect": false,
+          "explanation": "Kingsley se tornou Ministro após a queda de Voldemort, trazendo ordem e justiça.\nO sucessor imediato de Fudge foi outro, que teve um mandato curto e difícil.\nUm período de transição turbulento."
+        },
+        {
+          "text": "Rufus Scrimgeour (Rufo Scrimgeour)",
+          "isCorrect": true,
+          "explanation": "Correto! Rufus Scrimgeour, ex-chefe dos Aurores, assumiu após a queda de Fudge.\nEle tentou mostrar força contra Voldemort, mas também entrou em conflito com Harry.\nUm líder com aparência de leão, mas um mandato tragicamente curto.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/statesmanlike-figure-stern-expression-lionlike-260nw-2085629995.jpg",
+          "imageDescription": "Figura de estadista com expressão severa e juba de cabelo semelhante a um leão."
+        },
+        {
+          "text": "Alvo Dumbledore",
+          "isCorrect": false,
+          "explanation": "Dumbledore foi convidado várias vezes para ser Ministro, mas sempre recusou.\nEle sabia que o poder o corrompia. Preferiu o cargo de diretor (e de líder da resistência).\nCada um com suas responsabilidades."
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "question": "Qual o nome da prima de Dudley Dursley, que Harry acidentalmente infla como um balão?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Petúnia Dursley",
+          "isCorrect": false,
+          "explanation": "Petúnia é a tia de Harry, irmã de Lílian. Ela não foi inflada (embora merecesse, às vezes).\nA vítima do inchaço mágico foi outra parente Dursley.\nUma visita bem... memorável."
+        },
+        {
+          "text": "Marjorie 'Guida' Dursley (Marge Dursley)",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! Tia Guida (Marge), a irmã de Válter Dursley, que adorava cães e odiava Harry.\nApós muitos insultos, a magia acidental de Harry a transformou em um balão humano.\nUma cena inflada de comédia (e desespero para os Dursley).",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/large-woman-floating-air-like-260nw-2008010500.jpg",
+          "imageDescription": "Mulher grande e desagradável flutuando no ar como um balão, com uma expressão chocada."
+        },
+        {
+          "text": "Yvonne",
+          "isCorrect": false,
+          "explanation": "Yvonne era uma amiga de Petúnia que deveria ir de férias com os Dursley quando Harry foi para o zoológico.\nEla não é parente e não foi inflada.\nProvavelmente ficou bem longe dos problemas mágicos de Harry."
+        },
+        {
+          "text": "Doris Crockford",
+          "isCorrect": false,
+          "explanation": "Doris Crockford foi uma bruxa que cumprimentou Harry efusivamente no Caldeirão Furado.\nNenhuma relação com os Dursley ou com inflamentos acidentais.\nEla era fã de Harry, não uma vítima de sua magia descontrolada."
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "question": "Qual o nome do objeto mágico que permite ao usuário revisitar memórias?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Espelho de Ojesed (Mirror of Erised)",
+          "isCorrect": false,
+          "explanation": "O Espelho de Ojesed mostra o desejo mais profundo do coração de quem o olha.\nNão revisita memórias, mas revela anseios.\nUma ferramenta poderosa, mas para introspecção, não para recordar."
+        },
+        {
+          "text": "Vira-Tempo (Time-Turner)",
+          "isCorrect": false,
+          "explanation": "O Vira-Tempo permite voltar no tempo, não apenas ver memórias.\nVocê pode reviver eventos, mas é bem diferente de observar uma lembrança em uma bacia.\nE muito mais perigoso se usado incorretamente."
+        },
+        {
+          "text": "Penseira (Pensieve)",
+          "isCorrect": true,
+          "explanation": "Correto! A Penseira, uma bacia de pedra rasa onde se pode depositar e revisitar memórias.\nMuito usada por Dumbledore para analisar eventos passados e entender melhor as coisas.\nUma forma de 'backup mental' muito útil.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/shallow-stone-basin-glowing-liquid-260nw-1936007660.jpg",
+          "imageDescription": "Bacia de pedra rasa com líquido prateado brilhante e runas, representando uma Penseira."
+        },
+        {
+          "text": "Lembrol (Remembrall)",
+          "isCorrect": false,
+          "explanation": "O Lembrol fica vermelho se você esqueceu algo, mas não te mostra a memória em si.\nEle apenas te lembra QUE você esqueceu, não O QUÊ.\nUma ferramenta de alerta, não de visualização."
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "question": "Quem foi o professor de Defesa Contra as Artes das Trevas no terceiro ano de Harry, que também era um lobisomem?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Gilderoy Lockhart",
+          "isCorrect": false,
+          "explanation": "Lockhart foi no segundo ano. E ele era um charlatão, não um lobisomem.\nA menos que seu maior medo fosse se transformar em alguém competente.\nO professor do terceiro ano era bem mais... qualificado."
+        },
+        {
+          "text": "Professor Quirrell",
+          "isCorrect": false,
+          "explanation": "Quirrell foi no primeiro ano, e seu segredo era Voldemort, não licantropia.\nEle tinha um problema de 'duas caras', não de lua cheia.\nO professor lobisomem veio depois."
+        },
+        {
+          "text": "Remo Lupin",
+          "isCorrect": true,
+          "explanation": "Exatamente! Professor Remo Lupin, um dos Marotos originais (Aluado).\nO melhor professor de DCAT que Harry já teve, apesar de seu 'pequeno problema peludo'.\nEnsinou Harry a conjurar um Patrono e muito mais.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/kindly-teacher-shabby-robes-looking-260nw-2008010600.jpg",
+          "imageDescription": "Professor de aparência gentil, mas cansada, em vestes surradas, com uma lua sutil ao fundo."
+        },
+        {
+          "text": "Alastor 'Olho-Tonto' Moody (Barto Crouch Jr.)",
+          "isCorrect": false,
+          "explanation": "Olho-Tonto (ou melhor, Bartô Crouch Jr. disfarçado) foi no quarto ano.\nEle era um Comensal da Morte, não um lobisomem.\nSua transformação era com Poção Polissuco, não com a lua."
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "question": "Qual o nome da escola de magia frequentada por Fleur Delacour?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Hogwarts",
+          "isCorrect": false,
+          "explanation": "Fleur participou do Torneio Tribruxo EM Hogwarts, mas ela era de outra escola.\nEla era uma visitante internacional, não uma aluna local.\nE com um uniforme bem mais... elegante."
+        },
+        {
+          "text": "Durmstrang",
+          "isCorrect": false,
+          "explanation": "Durmstrang era a escola de Vítor Krum, conhecida por ensinar Artes das Trevas.\nFleur vinha de uma escola francesa, com um foco diferente.\nMenos magia negra, mais charme e sofisticação."
+        },
+        {
+          "text": "Academia de Magia de Beauxbatons",
+          "isCorrect": true,
+          "explanation": "Correto! Beauxbatons, a academia de magia francesa, com suas belas carruagens puxadas por Abraxanos.\nFleur era a campeã de Beauxbatons no Torneio Tribruxo.\nElegância e poder em um só pacote.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/elegant-magical-academy-carriage-pulled-260nw-2085630000.jpg",
+          "imageDescription": "Carruagem mágica elegante de cor azul-claro, puxada por cavalos alados, voando no céu."
+        },
+        {
+          "text": "Ilvermorny",
+          "isCorrect": false,
+          "explanation": "Ilvermorny é a escola da América do Norte. Fleur é europeia.\nCada continente com sua própria instituição mágica de prestígio.\nE com seus próprios uniformes e tradições."
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "question": "Qual o nome do feitiço que Petrificus Totalus causa na vítima?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Faz a vítima dormir profundamente.",
+          "isCorrect": false,
+          "explanation": "Para dormir, você usaria uma Poção do Morto-Vivo ou um feitiço sonífero.\nPetrificus Totalus é mais... rígido.\nMenos 'bons sonhos', mais 'estátua viva'."
+        },
+        {
+          "text": "Paralisa completamente o corpo da vítima.",
+          "isCorrect": true,
+          "explanation": "Exatamente! A Maldição do Corpo Preso deixa a vítima completamente paralisada, como uma estátua.\nMuito útil para imobilizar alguém rapidamente (Neville sabe bem disso).\nSó não se esqueça de despetrificá-los depois!",
+          "imageUrl": "https://www.shutterstock.com/image-vector/silhouette-person-frozen-midaction-magical-260nw-1998900600.jpg",
+          "imageDescription": "Silhueta de uma pessoa congelada em posição de ação, com um brilho mágico ao redor."
+        },
+        {
+          "text": "Faz a vítima esquecer eventos recentes.",
+          "isCorrect": false,
+          "explanation": "Para apagar memórias, o feitiço é Obliviate.\nPetrificus Totalus afeta o corpo, não a mente.\nVocê ainda lembraria de tudo, só não conseguiria se mexer."
+        },
+        {
+          "text": "Repele um feitiço lançado contra o usuário.",
+          "isCorrect": false,
+          "explanation": "Para repelir feitiços, você usaria Protego ou outros contrafeitiços.\nPetrificus Totalus é um feitiço ofensivo (ou defensivo, dependendo do uso), não um escudo.\nÉ para parar o oponente, não o feitiço dele."
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "question": "Qual a criatura que Dobby, o elfo doméstico, mais temia quando servia aos Malfoy?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "O próprio Lúcio Malfoy",
+          "isCorrect": false,
+          "explanation": "Lúcio Malfoy era um mestre cruel, mas o medo específico de Dobby era mais... universal entre os elfos domésticos quando desobedeciam.\nEra a consequência da desobediência, não apenas a figura do mestre.\nEmbora Lúcio certamente impusesse essa consequência."
+        },
+        {
+          "text": "A perspectiva de ganhar roupas",
+          "isCorrect": false,
+          "explanation": "Ganhar roupas significava liberdade para um elfo doméstico! Dobby DESEJAVA isso.\nO medo dele era o oposto: continuar escravizado e ter que se punir.\nMeias eram o sonho, não o pesadelo."
+        },
+        {
+          "text": "Ter que se punir severamente por desobedecer seus mestres.",
+          "isCorrect": true,
+          "explanation": "Isso mesmo. Elfos domésticos são condicionados a se punir brutalmente quando acreditam ter desobedecido ou falhado com seus mestres.\nPassar roupas nas próprias mãos, bater a cabeça... Dobby vivia nesse ciclo de medo e autopunição.\nAté Harry o libertar.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/small-elflike-creature-cowering-fear-260nw-2077891300.jpg",
+          "imageDescription": "Pequena criatura semelhante a um elfo encolhida de medo, com grandes olhos tristes."
+        },
+        {
+          "text": "Lord Voldemort",
+          "isCorrect": false,
+          "explanation": "Embora todos temessem Voldemort, o medo mais imediato e constante de Dobby sob os Malfoy era a compulsão de se autopunir.\nEra uma tortura diária imposta pela própria natureza de sua servidão.\nVoldemort era um medo mais... distante, mas a autopunição era presente."
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "question": "Qual o nome do irmão de Sirius Black que se tornou um Comensal da Morte mas se arrependeu e tentou destruir uma das Horcruxes de Voldemort?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Cygnus Black",
+          "isCorrect": false,
+          "explanation": "Cygnus Black foi o pai de Bellatrix, Andrômeda e Narcisa. Tio de Sirius.\nEle era da família Black puro-sangue, mas não o irmão arrependido de Sirius.\nProvavelmente concordava com muitas das ideias puro-sangue."
+        },
+        {
+          "text": "Orion Black",
+          "isCorrect": false,
+          "explanation": "Orion Black foi o pai de Sirius e Régulo. Marido de Walburga.\nEle também era um Black tradicional, mas a história do arrependimento é de seu filho mais novo.\nSirius era a 'ovelha negra', mas Régulo teve sua própria reviravolta."
+        },
+        {
+          "text": "Régulo Arturo Black (R.A.B.)",
+          "isCorrect": true,
+          "explanation": "Correto! Régulo Black, o irmão mais novo de Sirius, que inicialmente se juntou aos Comensais da Morte.\nMas ele se desiludiu e bravamente tentou destruir o Medalhão de Slytherin (uma Horcrux), sacrificando sua vida no processo.\nDeixou o famoso bilhete assinado R.A.B.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/young-wizard-dark-robes-looking-260nw-2008010660.jpg",
+          "imageDescription": "Jovem bruxo em vestes escuras olhando para um medalhão sinistro com determinação e medo."
+        },
+        {
+          "text": "Alphard Black",
+          "isCorrect": false,
+          "explanation": "Alphard Black foi o tio de Sirius que lhe deixou uma herança em ouro, o que fez com que fosse queimado da tapeçaria da família Black.\nUm gesto de bondade, mas ele não era o irmão Comensal da Morte arrependido.\nEle apoiou Sirius, não Voldemort."
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "question": "Qual é a única Maldição Imperdoável que Harry Potter usou com sucesso (embora não com força total ou intenção letal)?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Avada Kedavra",
+          "isCorrect": false,
+          "explanation": "Harry nunca usou a Maldição da Morte. Seu feitiço característico é o Expelliarmus.\nEle valoriza a vida, mesmo a de seus inimigos (na maioria das vezes).\nEssa maldição está além de seus limites morais."
+        },
+        {
+          "text": "Maldição Imperius",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! Durante a invasão a Gringotes, Harry usou a Maldição Imperius em um duende (Bogrode) e em Travers para conseguir acesso ao cofre de Bellatrix.\nEle se sentiu mal por isso, mas a situação era desesperadora.\nUma escolha difícil em tempos de guerra.",
+          "imageUrl": "https://www.shutterstock.com/image-vector/magic-wand-controlling-puppetlike-figure-260nw-1983447300.jpg",
+          "imageDescription": "Varinha mágica controlando uma figura semelhante a uma marionete com cordas brilhantes."
+        },
+        {
+          "text": "Maldição Cruciatus",
+          "isCorrect": false,
+          "explanation": "Harry tentou usar a Cruciatus em Bellatrix, mas não com força total porque lhe faltava a crueldade necessária.\nEle a usou (ou tentou usar) em Amycus Carrow após este cuspir em McGonagall, mas a questão é sobre 'sucesso' e a Imperius foi mais 'bem-sucedida' em seu objetivo.\nSua tentativa na Bellatrix não foi 'bem-sucedida' no sentido pleno da maldição."
+        },
+        {
+          "text": "Ele nunca usou nenhuma Maldição Imperdoável com sucesso.",
+          "isCorrect": false,
+          "explanation": "Embora relutantemente e em circunstâncias extremas, ele usou a Imperius em Gringotes.\nNão é algo de que ele se orgulhe, mas foi um meio para um fim maior.\nA guerra força escolhas terríveis."
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "question": "Quem foi o primeiro proprietário conhecido da Pedra da Ressurreição, uma das Relíquias da Morte?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Marvolo Gaunt",
+          "isCorrect": false,
+          "explanation": "Marvolo Gaunt possuía o anel que continha a Pedra da Ressurreição, mas ele era um descendente distante.\nEle valorizava o anel como herança de Slytherin, sem saber seu verdadeiro poder como Relíquia.\nO primeiro proprietário foi um dos irmãos Peverell."
+        },
+        {
+          "text": "Antíoco Peverell",
+          "isCorrect": false,
+          "explanation": "Antíoco Peverell foi o irmão que pediu a Varinha das Varinhas.\nA Pedra da Ressurreição foi o desejo do segundo irmão.\nCada irmão com sua Relíquia (e seu destino)."
+        },
+        {
+          "text": "Cadmo Peverell",
+          "isCorrect": true,
+          "explanation": "Correto! Cadmo Peverell, o segundo dos três irmãos da lenda, pediu à Morte o poder de trazer entes queridos de volta.\nEle recebeu a Pedra da Ressurreição, mas descobriu que os mortos não pertenciam mais ao mundo dos vivos.\nUma lição trágica sobre aceitar a perda.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/ancient-stone-ring-glowing-symbol-260nw-2008010770.jpg",
+          "imageDescription": "Anel de pedra antigo com um símbolo brilhante no centro, representando a Pedra da Ressurreição."
+        },
+        {
+          "text": "Ignoto Peverell",
+          "isCorrect": false,
+          "explanation": "Ignoto Peverell foi o irmão mais novo e mais sábio, que pediu a Capa da Invisibilidade.\nEle usou seu presente para se esconder da Morte até estar pronto.\nSua Relíquia era sobre viver, não sobre desafiar a morte diretamente."
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "question": "Qual o nome da poção que permite respirar debaixo d'água, usada por Harry na segunda tarefa do Torneio Tribruxo?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Guelricho (Gillyweed)",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! Guelricho, uma planta mágica que, ao ser comida, faz crescer guelras e membranas nas mãos e pés.\nPermitiu que Harry respirasse e nadasse no Lago Negro para resgatar Rony.\nDobby que deu a dica (e a planta!).",
+          "imageUrl": "https://www.shutterstock.com/image-photo/bunch-slimy-green-seaweedlike-plant-260nw-1998900700.jpg",
+          "imageDescription": "Miolos de uma planta verde viscosa, semelhante a algas marinhas, representando o Guelricho."
+        },
+        {
+          "text": "Poção do Sono Wiggenweld",
+          "isCorrect": false,
+          "explanation": "A Poção Wiggenweld é uma poção curativa. A Poção do Sono faria Harry dormir, não respirar na água.\nEle precisava estar bem acordado para enfrentar os Sereianos e Grindylows.\nNada de sonecas subaquáticas."
+        },
+        {
+          "text": "Poção Estimulante (Pepperup Potion)",
+          "isCorrect": false,
+          "explanation": "A Poção Estimulante cura resfriados comuns e faz sair fumaça das orelhas.\nNão ajudaria em nada com a respiração aquática.\nA menos que você quisesse espantar os peixes com o vapor."
+        },
+        {
+          "text": "Solução Redutora (Shrinking Solution)",
+          "isCorrect": false,
+          "explanation": "A Solução Redutora faz as coisas encolherem. Não faria Harry respirar debaixo d'água.\nTalvez ele ficasse pequeno demais para os monstros do lago notarem, mas ainda se afogaria.\nUma estratégia arriscada."
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "question": "Quem dos amigos de Harry NÃO se tornou um membro oficial da Armada de Dumbledore?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Gina Weasley",
+          "isCorrect": false,
+          "explanation": "Gina foi uma membra entusiasmada e talentosa da AD!\nEla desenvolveu feitiços poderosos e lutou bravamente.\nUma verdadeira Grifinória."
+        },
+        {
+          "text": "Neville Longbottom",
+          "isCorrect": false,
+          "explanation": "Neville talvez tenha sido um dos alunos que mais progrediu na AD!\nSua confiança e habilidades mágicas cresceram enormemente.\nDe aluno desajeitado a herói da resistência."
+        },
+        {
+          "text": "Luna Lovegood",
+          "isCorrect": false,
+          "explanation": "Luna, com sua perspectiva única, também era uma membra leal da AD.\nEla lutou ao lado de Harry em várias ocasiões importantes.\nCorajosa e um pouco excêntrica, como sempre."
+        },
+        {
+          "text": "Draco Malfoy",
+          "isCorrect": true,
+          "explanation": "Draco Malfoy? Na Armada de Dumbledore? Impossível!\nEle era o arqui-inimigo de Harry na escola e um aspirante a Comensal da Morte.\nEstaria mais para a 'Brigada Inquisitorial' de Umbridge.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/smirking-young-wizard-blond-hair-260nw-2020086220.jpg",
+          "imageDescription": "Jovem bruxo de cabelos loiros com um sorriso desdenhoso e vestes da Sonserina."
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "question": "Qual é o cofre da família Potter em Gringotes, de onde Hagrid retira a Pedra Filosofal?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Cofre 711",
+          "isCorrect": false,
+          "explanation": "Esse é o cofre de onde Sirius Black tirou ouro para comprar a Firebolt de Harry.\nUm cofre de família Black, não Potter.\nCada família com seu número no Gringotes."
+        },
+        {
+          "text": "Cofre 687",
+          "isCorrect": false,
+          "explanation": "Este é o cofre da família Potter, onde Harry encontra sua herança.\nMas a Pedra Filosofal estava em um cofre de segurança máxima, diferente.\nUm lugar ainda mais... secreto."
+        },
+        {
+          "text": "Cofre 713",
+          "isCorrect": true,
+          "explanation": "Correto! Cofre 713, um cofre de alta segurança que Dumbledore esvaziou (com Hagrid) no mesmo dia em que Harry o visitou pela primeira vez.\nContinha a Pedra Filosofal, antes de ser movida para Hogwarts.\nUm pequeno pacote de grandes problemas.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/heavy-steel-vault-door-gringotts-260nw-1983448550.jpg",
+          "imageDescription": "Porta de cofre de aço pesada e ornamentada em um banco subterrâneo, como em Gringotes."
+        },
+        {
+          "text": "Cofre dos Lestrange",
+          "isCorrect": false,
+          "explanation": "O cofre dos Lestrange guardava outra Horcrux (a Taça de Lufa-Lufa) e muitos tesouros sombrios.\nHarry, Rony e Hermione o invadiram, mas a Pedra Filosofal nunca esteve lá.\nCada cofre com seu conteúdo (e suas maldições)."
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "question": "Qual o nome da primeira namorada de Harry Potter em Hogwarts?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Hermione Granger",
+          "isCorrect": false,
+          "explanation": "Hermione é a melhor amiga de Harry, inteligente e leal.\nMas o romance deles ficou apenas na amizade (para alívio de Rony).\nO coração de Harry se interessou por outra pessoa primeiro."
+        },
+        {
+          "text": "Gina Weasley",
+          "isCorrect": false,
+          "explanation": "Gina se tornou a esposa de Harry, mas não foi sua primeira namorada.\nEla teve uma queda por ele desde o início, mas o primeiro beijo e namoro de Harry foi com outra garota.\nO amor verdadeiro esperou um pouco mais."
+        },
+        {
+          "text": "Cho Chang",
+          "isCorrect": true,
+          "explanation": "Isso mesmo! Cho Chang, a apanhadora da Corvinal.\nHarry teve uma queda por ela e eles tiveram um breve (e um pouco desajeitado) relacionamento.\nQue terminou com lágrimas e um pouco de ciúmes.",
+          "imageUrl": "https://www.shutterstock.com/image-photo/pretty-witch-asian-appearance-long-260nw-2008010700.jpg",
+          "imageDescription": "Bruxa bonita de aparência asiática com longos cabelos escuros e uniforme da Corvinal."
+        },
+        {
+          "text": "Luna Lovegood",
+          "isCorrect": false,
+          "explanation": "Luna se tornou uma grande amiga de Harry, mas nunca houve romance entre eles.\nEla entendia Harry de uma forma que poucos conseguiam.\nMas o interesse amoroso dele na época era outro."
+        }
+      ]
+    },
+    {
+      "id": "97",
+      "question": "Qual Departamento do Ministério da Magia é dedicado ao estudo de profecias, do tempo e da morte?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Departamento de Execução das Leis da Magia",
+          "isCorrect": false,
+          "explanation": "Este departamento cuida da aplicação das leis bruxas, incluindo Aurores e o Wizengamot.\nProfecias e mistérios ficam a cargo de outra seção.\nMais ação e menos... contemplação."
+        },
+        {
+          "text": "Departamento de Acidentes e Catástrofes Mágicas",
+          "isCorrect": false,
+          "explanation": "Eles revertem feitiços acidentais e apagam memórias de trouxas.\nUm trabalho importante, mas não envolve o estudo profundo do tempo e da morte.\nSão os 'bombeiros' do mundo mágico."
+        },
+        {
+          "text": "Departamento de Mistérios",
+          "isCorrect": true,
+          "explanation": "Correto! O enigmático Departamento de Mistérios, onde os Inomináveis (Unspeakables) conduzem pesquisas secretas.\nLá se encontram a Sala do Tempo, a Sala da Morte (com o Véu) e o Salão das Profecias.\nUm lugar onde é melhor não tocar em nada.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/dark-hallway-glowing-orbs-floating-260nw-1958345999.jpg",
+          "imageDescription": "Corredor escuro com portas misteriosas e orbes brilhantes flutuando, representando o Departamento de Mistérios."
+        },
+        {
+          "text": "Departamento para Regulamentação e Controle das Criaturas Mágicas",
+          "isCorrect": false,
+          "explanation": "Este departamento lida com hipogrifos, dragões e outras criaturas.\nNão com profecias ou os segredos da morte.\nMais escamas e pelos, menos... véus e esferas de vidro."
+        }
+      ]
+    },
+    {
+      "id": "98",
+      "question": "Quem é o autor do livro 'Hogwarts: Uma História'?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Adalberto Waffling",
+          "isCorrect": false,
+          "explanation": "Adalberto Waffling é um teórico da magia, autor de 'Teoria da Magia'.\n'Hogwarts: Uma História' é de outra autora, muito citada por Hermione.\nCada um com seu best-seller bruxo."
+        },
+        {
+          "text": "Emerico Switch",
+          "isCorrect": false,
+          "explanation": "Emerico Switch escreveu 'Guia de Transfiguração para Principiantes'.\nUm livro importante, mas não a história completa de Hogwarts.\nA autora de 'Hogwarts: Uma História' é uma historiadora renomada."
+        },
+        {
+          "text": "Batilda Bagshot",
+          "isCorrect": true,
+          "explanation": "Exatamente! A renomada historiadora mágica Batilda Bagshot.\nAmiga da família Dumbledore e moradora de Godric's Hollow.\nSeu livro é a principal fonte de informação sobre a escola (que Hermione leu várias vezes, claro).",
+          "imageUrl": "https://www.shutterstock.com/image-photo/very-old-leatherbound-book-title-260nw-2020086250.jpg",
+          "imageDescription": "Livro muito antigo encadernado em couro com o título 'Hogwarts: Uma História' em letras douradas."
+        },
+        {
+          "text": "Phyllida Spore",
+          "isCorrect": false,
+          "explanation": "Phyllida Spore é a autora de 'Mil Ervas e Fungos Medicinais'.\nUm livro essencial para Herbologia e Poções, mas não sobre a história da escola.\nEla entende de plantas, não de fundadores e fantasmas (necessariamente)."
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "question": "Qual o nome do feitiço que Voldemort usou para matar Lílian Potter, mas que ricocheteou em Harry devido à proteção do amor dela?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Crucio",
+          "isCorrect": false,
+          "explanation": "Crucio é a Maldição da Tortura. Voldemort queria matar Lílian, não torturá-la (naquele momento).\nO feitiço que ele usou foi o mais letal de todos.\nE o que o deixou em pedaços."
+        },
+        {
+          "text": "Imperio",
+          "isCorrect": false,
+          "explanation": "Imperio é a Maldição do Controle. Ele não queria controlar Lílian, mas eliminá-la para chegar a Harry.\nSeu objetivo era a morte, não a submissão.\nUm erro fatal de cálculo."
+        },
+        {
+          "text": "Avada Kedavra",
+          "isCorrect": true,
+          "explanation": "Corretíssimo! A Maldição da Morte, Avada Kedavra.\nO feitiço que nunca falha... exceto quando encontra uma magia ainda mais poderosa: o sacrifício de amor de Lílian.\nO feitiço que marcou Harry para sempre (literalmente e figurativamente).",
+          "imageUrl": "https://www.shutterstock.com/image-vector/green-bolt-energy-striking-shield-260nw-1998900800.jpg",
+          "imageDescription": "Raio de energia verde atingindo um escudo protetor brilhante que o repele."
+        },
+        {
+          "text": "Sectumsempra",
+          "isCorrect": false,
+          "explanation": "Sectumsempra é um feitiço de corte, invenção de Snape. Voldemort usava as Maldições Imperdoáveis clássicas.\nEle não precisava de feitiços 'novos' para matar.\nO Avada Kedavra era sua assinatura."
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "question": "Qual o nome do barqueiro que tradicionalmente leva os alunos do primeiro ano através do Lago Negro até o castelo de Hogwarts pela primeira vez?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Argus Filch",
+          "isCorrect": false,
+          "explanation": "Filch, o zelador? Remando barcos no lago? Improvável!\nEle provavelmente reclamaria dos alunos molhando os barcos.\nE Madame Nora ficaria enjoada."
+        },
+        {
+          "text": "Professor Flitwick",
+          "isCorrect": false,
+          "explanation": "Professor Flitwick é pequeno e poderia precisar de ajuda para remar.\nEle recebe os alunos, mas a travessia do lago é tarefa de outro funcionário.\nUm que tenha mais... porte físico."
+        },
+        {
+          "text": "Rúbeo Hagrid",
+          "isCorrect": true,
+          "explanation": "Exatamente! É Hagrid, o guarda-caça, quem tradicionalmente guia os primeiranistas nos barcos.\n'Não mais que quatro por barco!', com sua lanterna e seu jeito acolhedor.\nA primeira visão mágica de Hogwarts para muitos.",
+          "imageUrl": "https://www.shutterstock.com/image-illustration/gentle-giant-leading-small-boats-260nw-2008010800.jpg",
+          "imageDescription": "Gigante gentil liderando pequenos barcos com crianças através de um lago em direção a um castelo iluminado."
+        },
+        {
+          "text": "Alvo Dumbledore",
+          "isCorrect": false,
+          "explanation": "Dumbledore, o diretor, tem coisas mais importantes a fazer do que ser barqueiro.\nEle os recebe no Salão Principal com seu discurso de boas-vindas.\nA travessia fica a cargo de seu leal guarda-caça."
+        }
+      ]
+    }
+  ]
+}
