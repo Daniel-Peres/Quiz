@@ -581,263 +581,81 @@ input[type=number]:focus-visible {
 /* === Media Queries === */
 @media (max-width: 600px) {
     html {
-        font-size: 14px; /* Reduzido para um melhor ajuste geral */
+        font-size: 15px;
     }
 
     body {
-        padding: 5px; /* Reduzido o preenchimento do corpo */
-        /* min-height: 100vh; /* Original */
-        max-height: 100vh; /* Impõe que o corpo não exceda a altura da viewport */
-        overflow-y: hidden; /* Impede a rolagem no corpo */
-        display: flex;
-        flex-direction: column;
-        /* font-size: 15px; /* Original */
-        /* padding: 10px; /* Original */
+        padding: 10px;
     }
 
     .main-container {
-        padding: 8px; /* Preenchimento interno do container principal reduzido */
-        width: 100%;
-        flex-grow: 1; /* Permite que o container principal ocupe o espaço vertical disponível */
-        display: flex;
-        flex-direction: column;
-        overflow-y: hidden; /* Impede a rolagem dentro do container principal */
-        /* background-color: var(--light-text); /* Já definido globalmente e não precisa ser sobrescrito */
-        /* min-height: calc(100vh - 20px); /* Original, agora controlado por flex-grow e body max-height */
-        /* padding: 15px; /* Original */
+        padding: 15px;
+        min-height: calc(100vh - 20px);
     }
 
-    /* Ajustes para telas de seleção para que também não causem rolagem */
     #selection-area,
     #question-count-selection,
-    #resume-prompt { /* Adicionado #resume-prompt aqui */
-        max-width: 100%;
-        margin: 0 auto 0.8rem auto; /* Margem inferior reduzida */
-        padding: 0.8rem; /* Preenchimento reduzido */
-        flex-shrink: 0; /* Não devem crescer ou encolher excessivamente */
-        overflow-y: auto; /* Se o conteúdo de uma tela de seleção for muito grande, permite rolagem interna (fallback) */
-                           /* Para "sem rolagem" estrito, poderia ser 'hidden', mas arrisca cortar conteúdo da seleção */
-        /* #selection-area, #question-count-selection { padding: 1rem; } /* Original */
-    }
-    #selection-area h2,
-    #question-count-selection h2,
-    #resume-prompt h2 { /* Adicionado #resume-prompt h2 */
-        font-size: 1.1rem; /* Tamanho do título reduzido */
-        margin-bottom: 0.6rem;
-        /* h2 { font-size: 1.3rem; } /* Original */
-    }
-    .theme-btn {
-        padding: 0.5rem 0.8rem; /* Preenchimento do botão de tema reduzido */
-        font-size: 0.85rem; /* Fonte do botão de tema reduzida */
-    }
-    .theme-btn .description {
-        font-size: 0.7em; /* Fonte da descrição do tema reduzida */
-    }
-    .count-btn {
-        padding: 0.4rem 0.6rem; /* Preenchimento do botão de contagem reduzido */
-        font-size: 0.75rem; /* Fonte do botão de contagem reduzida */
-        /* flex-basis: calc(50% - 10px); /* Original */
-        /* min-width: 100px; /* Original */
-        /* padding: 0.6rem 0.8rem; /* Original */
-        /* font-size: 0.85rem; /* Original */
-        /* display: inline-block; /* Original */
-        /* width: auto; /* Original */
-    }
-
-
-    /* Ajustes Específicos para a Tela do Quiz */
     .quiz-container {
-        max-width: 100%; /* Já estava assim */
-        padding: 0; /* Remove preenchimento se .main-container já tiver */
-        flex-grow: 1; /* Essencial para o quiz preencher o espaço */
-        display: flex;
-        flex-direction: column;
-        overflow: hidden; /* Sem rolagem no container do quiz */
+        max-width: 100%;
     }
 
-    #quiz-title { /* h1 dentro de .quiz-container */
-        font-size: 1.2rem; /* Reduzido */
-        margin-bottom: 0.4rem; /* Reduzido */
-        padding: 0.2rem 0; /* Reduzido */
-        flex-shrink: 0; /* Não deve encolher */
-        /* h1 { font-size: 1.6rem; } /* Original */
+    #selection-area,
+    #question-count-selection {
+        padding: 1rem;
     }
 
-    #progress-container {
-        width: 100%;
-        margin-bottom: 0.4rem; /* Reduzido */
-        padding-top: 0; /* Mantido */
-        flex-shrink: 0;
-    }
-    #progress-bar-container {
-        height: 8px; /* Barra de progresso mais fina */
-    }
-    #progress-text {
-        margin-top: 0.2rem; /* Reduzido */
-        font-size: 0.75rem; /* Reduzido */
+    h1 {
+        font-size: 1.6rem;
     }
 
-    #score-container {
-        margin-top: 0.4rem; /* Reduzido */
-        padding-top: 0.2rem; /* Reduzido */
-        font-size: 0.85rem; /* Reduzido */
-        flex-shrink: 0;
-    }
-     #score-container>span {
-        margin: 0 0.2rem;
-    }
-
-    #question-container {
-        flex-grow: 1; /* Área principal que precisa se adaptar */
-        display: flex;
-        flex-direction: column;
-        overflow: hidden; /* Conteúdo interno deve caber, sem rolagem aqui */
-        margin-bottom: 0.4rem; /* Espaço antes dos controles */
+    h2 {
+        font-size: 1.3rem;
     }
 
     #question-text {
-        font-size: 0.9rem; /* Tamanho da fonte da pergunta reduzido */
-        /* color: var(--dark-text); /* Já definido globalmente */
-        margin-bottom: 0.4rem; /* Reduzido */
-        min-height: auto; /* Remove altura mínima fixa */
-        padding: 5px; /* Mantido o preenchimento pequeno */
-        line-height: 1.3; /* Altura da linha mais justa */
-        flex-shrink: 0; /* Texto da pergunta deve ser exibido, opções se adaptam */
-        /* font-size: 1.1rem; /* Original */
-        /* padding-top: 5px; /* Original */
+        font-size: 1.1rem;
+        padding-top: 5px;
     }
 
     .options-grid {
-        display: grid;
-        grid-template-columns: 1fr; /* Mantém uma coluna */
-        gap: 0.3rem; /* Espaçamento entre opções reduzido */
-        /* margin-bottom: 0.5rem; /* Removido, #question-container tem margem inferior */
-        /* perspective: 1000px; /* Já definido globalmente */
-        align-items: start; /* Evita que os cards estiquem verticalmente. Estava no original também. */
-        flex-grow: 1; /* Grid de opções ocupa o espaço restante */
-        overflow-y: hidden; /* Para "sem rolagem", IMPEDE rolagem interna. Opções podem ser cortadas se não couberem. */
-                             /* Alternativa: overflow-y: auto; permitiria rolagem SÓ das opções se necessário. */
-        /* gap: 0.8rem; /* Original */
+        grid-template-columns: 1fr;
+        gap: 0.8rem;
+        align-items: start;
+        /* <<< CORREÇÃO: Impede esticamento vertical também em mobile */
     }
 
-    .option-frame {
-        border-width: 2px; /* Borda mais fina */
-        /* padding: 0; /* Já definido globalmente */
-        /* border-radius: calc(var(--card-border-radius) - 2px); /* Calculado com base na borda */
-        height: auto; /* Altura do card de opção se ajusta ao conteúdo */
-        min-height: 35px; /* Altura mínima para toque/conteúdo */
-        box-shadow: 0 1px 2px var(--shadow-color); /* Sombra menor */
+    /* Altura fixa de 150px definida acima ainda se aplica */
+    .option-frame .front-face {
+        font-size: 0.95rem;
     }
 
-    .option-frame .front-face,
     .option-frame .back-face {
-        padding: 0.4rem; /* Preenchimento interno das faces reduzido */
-        font-size: 0.8rem; /* Ajuste geral para texto da opção */
-        /* Outras propriedades como position, width, height, display, etc., são herdadas do global e são corretas para o flip */
+        font-size: 0.8rem;
     }
-    /* Específico para o texto da explicação na face traseira, se necessário */
-    .option-frame .back-face .explanation-text {
-        font-size: 0.7rem; /* Texto da explicação menor */
-    }
-    /* Estilos originais para as faces em mobile:
-    .option-frame .front-face { font-size: 0.95rem; }
-    .option-frame .back-face { font-size: 0.8rem; }
-    Manteremos o font-size: 0.8rem para ambas aqui para simplicidade, ou você pode reintroduzir a diferença.
-    */
-
-
-    /* Imagem e explicação nos cards revelados/expandidos */
-    .option-frame.revealed .explanation-text, /* Adicionado .revealed */
-    .option-frame.expanded-correct .explanation-text {
-        font-size: 0.75rem; /* Unificado para consistência */
-    }
-    .option-image-container {
-        max-height: 70px; /* Imagem menor */
-        margin-bottom: 4px; /* Margem inferior menor */
-    }
-    .option-image {
-        max-height: 70px; /* Imagem menor */
-    }
-    .explanation-icon {
-        height: 0.9em; /* Ícone menor */
-        margin-right: 0.3em; /* Margem direita menor */
-    }
-
-
-    /* Card expandido em mobile */
-    .option-frame.expanded-correct {
-        width: clamp(270px, 90vw, 90vw); /* Largura ajustada */
-        max-height: 70vh; /* Altura máxima do card expandido */
-        padding: 12px 8px 8px 8px; /* Preenchimento ajustado */
-    }
-    .option-frame.expanded-correct .back-face {
-        padding: 15px 8px 8px 8px; /* Preenchimento ajustado */
-    }
-    .option-frame.expanded-correct .option-image-container {
-        max-height: 120px; /* Imagem no card expandido */
-    }
-    .option-frame.expanded-correct .option-image {
-        max-height: 120px; /* Imagem no card expandido */
-    }
-
 
     .controls {
-        /* display: flex; /* Já definido globalmente */
-        flex-direction: column; /* Já estava assim */
-        align-items: center; /* Já estava assim */
-        gap: 5px; /* Espaçamento entre botões de controle reduzido */
-        margin-top: 0.4rem; /* Reduzido */
-        padding-top: 0.4rem; /* Reduzido */
-        /* border-top: 1px solid var(--border-color); /* Já definido globalmente */
-        flex-shrink: 0;
-        /* gap: 8px; /* Original */
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
     }
 
     .control-btn {
-        padding: 0.5rem 0.7rem; /* Preenchimento dos botões de controle reduzido */
-        font-size: 0.85rem; /* Fonte dos botões de controle reduzida */
-        width: 85%; /* Largura ajustada */
-        max-width: 260px; /* Largura máxima ajustada */
-        /* padding: 0.7rem 1rem; /* Original */
-        /* font-size: 0.95rem; /* Original */
-        /* width: 90%; /* Original */
-        /* max-width: 300px; /* Original */
-        /* margin: 0; /* Original */
-        /* display: block; /* Original */
+        padding: 0.7rem 1rem;
+        font-size: 0.95rem;
+        width: 90%;
+        max-width: 300px;
+        margin: 0;
+        display: block;
     }
 
-    .message-area {
-        font-size: 0.75rem;
-        padding: 0.3rem 0.6rem;
-        margin-top: 0.4rem;
-        flex-shrink: 0;
+    .count-btn {
+        flex-basis: calc(50% - 10px);
+        min-width: 100px;
+        padding: 0.6rem 0.8rem;
+        font-size: 0.85rem;
+        display: inline-block;
+        width: auto;
     }
-
-    #result-container {
-        margin-top: 0.8rem; /* Reduzido */
-        padding: 0.8rem; /* Reduzido */
-        flex-grow: 1; /* Permite ocupar espaço se for a tela principal */
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        overflow-y: hidden; /* Sem rolagem na tela de resultados; conteúdo deve caber */
-    }
-    #result-container h2 {
-        font-size: 1.1rem; /* Reduzido */
-        margin-bottom: 0.4rem;
-    }
-    #result-container p {
-        font-size: 0.85rem; /* Reduzido */
-        margin-bottom: 0.3rem;
-    }
-    #result-container button#choose-another-theme-btn {
-        margin-top: 0.8rem;
-        padding: 0.6rem 1.2rem;
-        font-size: 0.9rem;
-    }
-
-    /* Garante que a classe .hide seja efetiva (já estava ok) */
-    /* .hide { display: none !important; } */
 }
 
 @media (min-width: 601px) and (max-width: 992px) {
