@@ -6,866 +6,2902 @@
     },
     "data": [
         {
-            "question": "Qual foi a transformação que Goku alcançou pela primeira vez após a morte de Kuririn no planeta Namekusei?",
-            "options": [
-                {
-                    "text": "Kaio-Ken",
-                    "isCorrect": false,
-                    "explanation": "Ah, o glorioso Kaio-Ken! Mas esse Goku já usava desde as lutas contra Vegeta e Nappa. Na verdade, a morte do Kuririn foi tão dramática que precisou de algo mais… loiro, digamos assim."
-                },
-                {
-                    "text": "Super Saiyajin",
-                    "isCorrect": true,
-                    "explanation": "Acertou direto no núcleo do ki! Goku virou Super Saiyajin pela primeira vez após ver seu melhor amigo virar pó cósmico pelas mãos de Freeza. A raiva subiu mais do que o nível de poder do Scouter!",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/b/b5/GokuSuperSaiyanFrieza.png",
-                    "imageDescription": "Imagem de Goku transformado em Super Saiyajin pela primeira vez, com aura dourada, encarando Freeza no planeta Namekusei."
-                },
-                {
-                    "text": "Ultra Instinct",
-                    "isCorrect": false,
-                    "explanation": "Isso aí é papo de Dragon Ball Super, padawan! Em DBZ, Goku ainda estava descobrindo o que era ter cabelo amarelo, não cabelo de shampoo holográfico interdimensional."
-                },
-                {
-                    "text": "Super Saiyajin 3",
-                    "isCorrect": false,
-                    "explanation": "Calma lá, guerreiro Z! Essa transformação de cabelo-cortina só apareceu muito mais tarde, na saga Majin Boo. Em Namekusei era a estreia do loiro explosivo."
-                }
-            ]
-        },
-        {
-            "question": "Qual técnica Gohan usou para derrotar Cell na saga dos Androides?",
-            "options": [
-                {
-                    "text": "Big Bang Attack",
-                    "isCorrect": false,
-                    "explanation": "Esse é o tiro de canhão do Vegeta! Apesar de ter tentado ajudar, quem brilhou no final foi o garoto com um braço só e muita teimosia saiyajin!"
-                },
-                {
-                    "text": "Final Flash",
-                    "isCorrect": false,
-                    "explanation": "Flash foi final, mas não de Cell! Essa é outra técnica do nosso príncipe do orgulho. A vitória veio mesmo foi da família Son."
-                },
-                {
-                    "text": "Masenko",
-                    "isCorrect": false,
-                    "explanation": "Gohan mandava bem no Masenko, mas Cell mal coçava com isso. Foi um golpe bem mais famoso que selou o destino do bio-androide."
-                },
-                {
-                    "text": "Kamehameha",
-                    "isCorrect": true,
-                    "explanation": "É isso aí! O Kamehameha com um braço só virou cena icônica: Gohan concentrando toda a força do pai, da amizade e de um grito épico que faria até Freeza repensar seus atos.",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/f/f9/GohanOneHandedKamehameha.png",
-                    "imageDescription": "Imagem de Gohan lançando um Kamehameha com um só braço contra Cell, no clímax da saga dos Androides."
-                }
-            ]
-        },
-        {
-            "question": "Qual personagem disse a icônica frase: 'É mais de 8000!'?",
-            "options": [
-                {
-                    "text": "Piccolo",
-                    "isCorrect": false,
-                    "explanation": "O Piccolo é mestre dos grunhidos e poses dramáticas, mas essa frase não saiu daquela antena verde. Ele só olhava de canto quando os números explodiam."
-                },
-                {
-                    "text": "Goku",
-                    "isCorrect": false,
-                    "explanation": "O Goku era o motivo dos scouters explodirem, não quem lia eles. Ele estava ocupado ficando cada vez mais apelão."
-                },
-                {
-                    "text": "Vegeta",
-                    "isCorrect": true,
-                    "explanation": "Clássico dos clássicos! Vegeta esmagando o scouter com raiva e gritando que o poder de Goku era 'mais de 8000!' virou meme eterno. Foi tão intenso que o tradutor até alterou o número na dublagem!",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/6/66/VegetaOver9000.gif",
-                    "imageDescription": "Gif de Vegeta gritando furiosamente e esmagando o scouter após ver o poder de Goku ultrapassando 8000."
-                },
-                {
-                    "text": "Kuririn",
-                    "isCorrect": false,
-                    "explanation": "O máximo que o Kuririn dizia era 'Corre, Goku!' ou gritava o nome da 18. Deixe os memes marcantes para os príncipes saiyajins, por favor!"
-                }
-            ]
-        },
-        {
-            "question": "Quem foi o vilão que matou o Android 16, provocando a transformação de Gohan em Super Saiyajin 2?",
-            "options": [
-                {
-                    "text": "Cell",
-                    "isCorrect": true,
-                    "explanation": "Exatamente! Cell esmagou a cabeça do pacífico Android 16, e isso foi a gota d’água para o Gohan explodir em fúria e cabelo espetado versão 2. Aí, meu amigo, o jogo virou!",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/9/9c/GohanSSJ2Transformation.png",
-                    "imageDescription": "Imagem de Gohan se transformando em Super Saiyajin 2 após a morte do Android 16."
-                },
-                {
-                    "text": "Freeza",
-                    "isCorrect": false,
-                    "explanation": "Freeza fez muita coisa errada, mas o Android 16 não tava nem no radar dele. Esse drama todo é exclusivo da saga dos Androides."
-                },
-                {
-                    "text": "Majin Boo",
-                    "isCorrect": false,
-                    "explanation": "Majin Boo? Esse chegou na festa quando o Gohan já era adulto e meio descuidado. Aqui o assunto é Cell e o fim da inocência do Gohan."
-                },
-                {
-                    "text": "Dr. Gero",
-                    "isCorrect": false,
-                    "explanation": "Foi ele quem criou o 16, é verdade! Mas não foi ele quem esmagou o pobre robô como se fosse uma latinha de refrigerante. Isso foi obra do bio-androide do mal!"
-                }
-            ]
-        },
-        {
-            "question": "Quem derrotou Dabura, o Rei dos Demônios, durante a saga Majin Boo?",
-            "options": [
-                {
-                    "text": "Goku",
-                    "isCorrect": false,
-                    "explanation": "O Goku tava só de espectador nesse momento, controlando os ânimos. Ele sabia que esse fight era pra resolver traumas de pai e filho."
-                },
-                {
-                    "text": "Vegeta",
-                    "isCorrect": false,
-                    "explanation": "Vegeta tava ocupado ficando malvadão de novo. Não sobrou tempo pra cuidar de Dabura nesse jogo político do Babidi."
-                },
-                {
-                    "text": "Gohan",
-                    "isCorrect": true,
-                    "explanation": "Sim! Mesmo enferrujado, o Gohan deu conta do recado. Foi um embate entre um estudioso que largou os livros e um demônio cuspidor de pedra!",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/6/65/GohanVsDabura.png",
-                    "imageDescription": "Imagem de Gohan enfrentando Dabura na nave de Babidi durante a saga Majin Boo."
-                },
-                {
-                    "text": "Piccolo",
-                    "isCorrect": false,
-                    "explanation": "Nosso Namekuseijin favorito estava mais preocupado com a situação do que entrando na porrada. O Piccolo passou essa luta."
-                }
-            ]
-        },
-        {
-            "question": "Quem foi o primeiro personagem a atingir o Super Saiyajin 2 em Dragon Ball Z?",
+            "id": "01",
+            "question": "Qual é o nome Saiyajin de Goku?",
+            "level": "fácil",
             "options": [
                 {
                     "text": "Vegeta",
                     "isCorrect": false,
-                    "explanation": "Vegeta chegou lá sim, mas só depois do Gohan. Antes disso ele ficou ocupado sendo manipulado por Babidi e surtando no orgulho."
+                    "explanation": "Vegeta é um rival feroz,\nmas não o nome de Goku.\nTente outra alternativa!"
                 },
                 {
-                    "text": "Goku",
-                    "isCorrect": false,
-                    "explanation": "Goku? Nope. O pai brilhou como SSJ3 primeiro! Quem lançou a moda do SSJ2 foi alguém que gosta de estudar e quebrar androides com um braço só."
-                },
-                {
-                    "text": "Gohan",
+                    "text": "Kakarot",
                     "isCorrect": true,
-                    "explanation": "Sim, senhor(a)! Gohan foi o primeiro a ultrapassar o limite. Na saga Cell, quando ficou pistolaça com a morte do 16, o moleque explodiu em trovões loiros!",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/e/e9/GohanSuperSaiyan2.png",
-                    "imageDescription": "Imagem de Gohan transformado em Super Saiyajin 2 com raios ao redor, após o sacrifício do Android 16."
+                    "explanation": "Acertou! Kakarot é o nome Saiyajin de Goku.\nÉ o que Raditz chama ele na Terra.\nUm nome com muito estilo!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Goku_Dragon_Ball.png",
+                    "imageDescription": "Imagem oficial de Goku, o Saiyajin Kakarot."
                 },
                 {
-                    "text": "Trunks do Futuro",
+                    "text": "Nappa",
                     "isCorrect": false,
-                    "explanation": "Trunks tem espada, estilo e cabelo roxo, mas SSJ2? Só depois! O primeiro a brilhar no modo trovão foi o Gohan mesmo."
-                }
-            ]
-        },
-        {
-            "question": "Quem ensinou Goku a técnica da fusão?",
-            "options": [
-                {
-                    "text": "Vegeta",
-                    "isCorrect": false,
-                    "explanation": "Vegeta funde, mas não ensina. Ele é mais do tipo 'eu sou o príncipe, aprenda você mesmo' — bem à la orgulho saiyajin!"
-                },
-                {
-                    "text": "Kaiô do Norte",
-                    "isCorrect": false,
-                    "explanation": "Kaiô ensinou o Kaio-Ken e a Genki Dama, mas fusão? Nem sabia dançar direito, coitado!"
-                },
-                {
-                    "text": "Senhor Kaiohshin",
-                    "isCorrect": false,
-                    "explanation": "Kaiohshin ajudou com os brincos Potara, mas a dancinha da fusão veio de outras bandas celestiais."
-                },
-                {
-                    "text": "Metamoranos",
-                    "isCorrect": true,
-                    "explanation": "Exatamente! Goku aprendeu com os Metamoranos no outro mundo. Aquela dancinha marota e sincronizada que virou febre na Terra (e vergonha no céu)!",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/9/91/GokuMetamoranFusion.png",
-                    "imageDescription": "Imagem de Goku explicando a técnica da fusão com os passos da dança Metamorana no outro mundo."
-                }
-            ]
-        },
-        {
-            "question": "Qual técnica Vegeta usou para tentar destruir Majin Boo ainda em sua forma inicial?",
-            "options": [
-                {
-                    "text": "Final Flash",
-                    "isCorrect": false,
-                    "explanation": "Final Flash é poderosa, mas ele usou essa contra o Cell. Na saga Majin Boo, ele preferiu algo mais... explosivo, literalmente."
-                },
-                {
-                    "text": "Big Bang Attack",
-                    "isCorrect": false,
-                    "explanation": "Quase! Mas o Big Bang Attack rolou contra os Androides. Quando Majin Boo apareceu, Vegeta decidiu se sacrificar com estilo."
-                },
-                {
-                    "text": "Galick Gun",
-                    "isCorrect": false,
-                    "explanation": "O bom e velho Galick Gun apareceu lá na luta com Goku! Na saga do Majin Boo, o príncipe usou outra técnica mais dramática."
-                },
-                {
-                    "text": "Auto-Destruição",
-                    "isCorrect": true,
-                    "explanation": "Sim! Vegeta fez o maior sacrifício de sua vida — abraçou o Majin Boo e explodiu com tudo. Foi a primeira vez que ele lutou por amor (e talvez por orgulho também, vai saber).",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/8/85/MajinVegetaExplosion.png",
-                    "imageDescription": "Imagem de Majin Vegeta se sacrificando ao explodir para tentar derrotar Majin Boo."
-                }
-            ]
-        },
-        {
-            "question": "Qual personagem foi absorvido por Majin Boo e deu origem ao Super Boo?",
-            "options": [
-                {
-                    "text": "Kuririn",
-                    "isCorrect": false,
-                    "explanation": "Kuririn nem entrou na lista de absorção, coitado. Passou mais tempo petrificado do que lutando nessa saga."
-                },
-                {
-                    "text": "Piccolo",
-                    "isCorrect": false,
-                    "explanation": "Piccolo foi absorvido mais tarde, mas o primeiro grande upgrade do Boo não envolveu anteninhas verdes ainda!"
-                },
-                {
-                    "text": "Gotenks",
-                    "isCorrect": false,
-                    "explanation": "Essa absorção rolou depois, pra deixar o Super Boo ainda mais doido. Mas o começo foi com alguém mais doce..."
-                },
-                {
-                    "text": "Evil Boo (Boo Cinza)",
-                    "isCorrect": true,
-                    "explanation": "Correto! O Boo malvado absorveu o Boo gordo (que era o lado bonzinho) e deu origem ao Super Boo — agora com cara de poucos amigos e zero paciência pra brincadeiras.",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/d/dc/SuperBoo.png",
-                    "imageDescription": "Imagem do Super Boo logo após a absorção do Boo Gordo pelo Boo Malvado."
-                }
-            ]
-        },
-        {
-            "question": "Qual é o nome da técnica onde Goku reúne energia de seres vivos para formar uma grande esfera?",
-            "options": [
-                {
-                    "text": "Kamehameha",
-                    "isCorrect": false,
-                    "explanation": "Essa é a técnica assinatura dele, mas não tem a ver com pedir ajuda pra galera da floresta nem levantar as mãos pro céu."
-                },
-                {
-                    "text": "Kaio-Ken",
-                    "isCorrect": false,
-                    "explanation": "Isso é um turbo no corpo, não uma coleta de energia! Aqui o Goku só fica vermelho e grita muito."
-                },
-                {
-                    "text": "Genki Dama",
-                    "isCorrect": true,
-                    "explanation": "Isso aí! Genki Dama é aquela bomba espiritual feita com a energia de todo mundo (até dos esquilos da floresta!). Só funciona com coração puro — tipo pedir favor universal.",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/f/fd/GokuSpiritBomb.png",
-                    "imageDescription": "Imagem de Goku formando uma Genki Dama com energia das pessoas e seres vivos ao redor."
-                },
-                {
-                    "text": "Final Shine Attack",
-                    "isCorrect": false,
-                    "explanation": "Essa nem é de Goku, é golpe do Vegeta lá no GT! Goku nunca usou 'shine', ele prefere explodir planetas com bolinha azul mesmo."
-                }
-            ]
-        },
-        {
-            "question": "Quem foi o responsável por cortar Freeza ao meio com seu próprio disco de energia?",
-            "options": [
-                {
-                    "text": "Goku",
-                    "isCorrect": false,
-                    "explanation": "Goku tava ocupado dando chance pra Freeza fugir. A ironia do destino veio com o próprio Freeza tropeçando no que criou."
-                },
-                {
-                    "text": "Trunks do Futuro",
-                    "isCorrect": false,
-                    "explanation": "Ele até cortou Freeza... mas foi outra versão! O clássico foi na luta contra Goku, e foi bem auto-infligido."
-                },
-                {
-                    "text": "Kuririn",
-                    "isCorrect": false,
-                    "explanation": "O Kuririn só serviu de motivação na saga, explodindo. Não tava com disco nenhum naquela hora."
-                },
-                {
-                    "text": "Freeza",
-                    "isCorrect": true,
-                    "explanation": "Plot twist! Freeza lançou o próprio ataque, mas não calculou bem a curva. Resultado: cortado ao meio pelo próprio frisbee da destruição.",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/2/2b/FriezaCutInHalf.png",
-                    "imageDescription": "Imagem de Freeza cortado ao meio pelo próprio ataque de energia durante a luta final contra Goku em Namekusei."
-                }
-            ]
-        },
-        {
-            "question": "Qual é o verdadeiro nome de Mr. Satan?",
-            "options": [
-                {
-                    "text": "Rufus",
-                    "isCorrect": false,
-                    "explanation": "Esse parece nome de dono de academia dos anos 90, mas não tem nada a ver com o herói da Terra!"
-                },
-                {
-                    "text": "Mark",
-                    "isCorrect": true,
-                    "explanation": "Isso mesmo! Mark é o nome verdadeiro do Mr. Satan. Um anagrama sutil de 'Akuma' invertido (ou só uma pegadinha com nomes mesmo).",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/5/5e/Mr.Satan.png",
-                    "imageDescription": "Imagem de Mr. Satan fazendo pose de campeão com o cinturão no ringue do Torneio de Artes Marciais."
-                },
-                {
-                    "text": "Bob",
-                    "isCorrect": false,
-                    "explanation": "Bob? Esse nome seria bom pro cachorro dele, mas não pro herói fake da Terra. Tente de novo!"
-                },
-                {
-                    "text": "Dave",
-                    "isCorrect": false,
-                    "explanation": "Dave é nome de estagiário da Capsule Corp, talvez. Mr. Satan tem um nome mais... discreto (ou não)."
-                }
-            ]
-        },
-        {
-            "question": "Quem derrotou Cell Jr. na luta final da saga dos Androides?",
-            "options": [
-                {
-                    "text": "Kuririn",
-                    "isCorrect": false,
-                    "explanation": "Kuririn tentou, deu uns tapas e correu. Mas quem realmente tirou esses pestinhas de cena foi outro com cabelo espetado e raiva acumulada."
-                },
-                {
-                    "text": "Gohan",
-                    "isCorrect": true,
-                    "explanation": "Sim! Gohan, no modo Super Saiyajin 2 nervoso, derrotou todos os Cell Jrs. como quem chuta latinha no quintal. Sem dó e nem pausa pro lanche.",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/4/4c/GohanSSJ2CellJrs.png",
-                    "imageDescription": "Imagem de Gohan SSJ2 derrotando facilmente os Cell Jr. com velocidade e força brutais."
-                },
-                {
-                    "text": "Piccolo",
-                    "isCorrect": false,
-                    "explanation": "Piccolo deu umas porradas, sim, mas no fim quem limpou a bagunça foi o Gohan versão trovão. O namekuseijin não teve chance aqui."
-                },
-                {
-                    "text": "Ten Shin Han",
-                    "isCorrect": false,
-                    "explanation": "O Ten tentou sobreviver com dignidade, mas os Cell Jrs. eram mais rápidos que delivery de senzu. Gohan teve que resolver."
-                }
-            ]
-        },
-        {
-            "question": "Qual técnica Goku usou para derrotar Kid Boo definitivamente?",
-            "options": [
-                {
-                    "text": "Kamehameha",
-                    "isCorrect": false,
-                    "explanation": "Kamehameha é clássico, mas Kid Boo era um tanque de regeneração infinita. Precisava de algo com a força coletiva do planeta inteiro!"
-                },
-                {
-                    "text": "Dragon Fist",
-                    "isCorrect": false,
-                    "explanation": "Essa técnica épica só apareceu em filmes e GT. No final oficial de DBZ, Goku mandou outra mais... cósmica."
-                },
-                {
-                    "text": "Kaio-Ken",
-                    "isCorrect": false,
-                    "explanation": "Kaio-Ken já estava aposentado nessa altura! Goku tava em modo SSJ3 e espiritualidade universal."
-                },
-                {
-                    "text": "Genki Dama",
-                    "isCorrect": true,
-                    "explanation": "Exatamente! A Genki Dama final reuniu energia de toda a Terra, dos amigos e até do Mr. Satan gritando com a galera. E Goku finalizou com estilo: cabelo dourado e coração puro.",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/7/7a/GokuSpiritBombKidBuu.png",
-                    "imageDescription": "Imagem de Goku lançando a Genki Dama final contra Kid Boo, com o planeta Terra inteiro ajudando."
-                }
-            ]
-        },
-        {
-            "question": "Quem fundiu com Vegeta para formar o Vegetto?",
-            "options": [
-                {
-                    "text": "Goku",
-                    "isCorrect": true,
-                    "explanation": "Acertou! Com os brincos Potara, Goku e Vegeta viraram o guerreiro definitivo: Vegetto. Arrogante, poderoso e com senso de humor (finalmente um saiyajin que sabe zoar!).",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/4/4f/VegettoDBZ.png",
-                    "imageDescription": "Imagem de Vegetto surgindo após a fusão Potara entre Goku e Vegeta."
-                },
-                {
-                    "text": "Gohan",
-                    "isCorrect": false,
-                    "explanation": "Essa fusão era um plano do Velho Kaiohshin, mas o Gohan deixou cair o brinco! Resultado: sem Veghen ou Gokhan por aqui."
-                },
-                {
-                    "text": "Trunks",
-                    "isCorrect": false,
-                    "explanation": "Trunks só funde com Goten, e isso vira Gotenks. Vegeta não tem paciência pra lidar com crianças fusionando."
-                },
-                {
-                    "text": "Piccolo",
-                    "isCorrect": false,
-                    "explanation": "Piccolo fundiu com Kami e Nail, mas com Vegeta? Aí não, né. Nem Potara dá conta dessa mistura."
-                }
-            ]
-        },
-        {
-            "question": "Quem treinou Gohan quando ele era criança, logo após a chegada dos Saiyajins?",
-            "options": [
-                {
-                    "text": "Goku",
-                    "isCorrect": false,
-                    "explanation": "Goku estava ocupado dando uma voltinha no além-vida. O pequeno Gohan teve que aprender na marra com outro mestre (e sem colinho de pai)."
-                },
-                {
-                    "text": "Piccolo",
-                    "isCorrect": true,
-                    "explanation": "Corretíssimo! Piccolo sequestrou, abandonou, treinou e virou praticamente um segundo pai do Gohan. A relação mais tsundere de Dragon Ball.",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/f/f4/PiccoloGohanTraining.png",
-                    "imageDescription": "Imagem de Piccolo treinando Gohan pequeno no deserto logo após a chegada dos Saiyajins."
-                },
-                {
-                    "text": "Yajirobe",
-                    "isCorrect": false,
-                    "explanation": "Yajirobe só cortou rabo de macaco gigante e comeu feijão. Treinar? Nem a própria barriga ele treina."
-                },
-                {
-                    "text": "Kami-sama",
-                    "isCorrect": false,
-                    "explanation": "Kami observava de longe, mas quem colocou Gohan pra sofrer mesmo foi o verdão casca-grossa do Piccolo."
-                }
-            ]
-        },
-        {
-            "question": "Qual foi o primeiro guerreiro Z a morrer durante a invasão dos Sayajins na Terra?",
-            "options": [
-                {
-                    "text": "Goku",
-                    "isCorrect": false,
-                    "explanation": "Goku morreu logo depois, no sacrifício contra Raditz. Mas o primeiro mesmo a virar purê de energia foi outro..."
-                },
-                {
-                    "text": "Yamcha",
-                    "isCorrect": true,
-                    "explanation": "Sim, o lendário meme do buraco! Yamcha foi abraçado por um Saibamen e explodido sem piedade. A pose do corpo no chão virou patrimônio cultural da zoeira.",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/f/f8/YamchaDead.png",
-                    "imageDescription": "Imagem clássica de Yamcha morto na cratera após ser explodido por um Saibamen."
-                },
-                {
-                    "text": "Kuririn",
-                    "isCorrect": false,
-                    "explanation": "Kuririn sobreviveu bem mais que o esperado. Só caiu depois, em outra saga e em outro planeta."
-                },
-                {
-                    "text": "Chiaotzu",
-                    "isCorrect": false,
-                    "explanation": "Chiaotzu se sacrificou depois, tentando (sem sucesso) explodir Nappa. Yamcha abriu o caminho da derrota antes."
-                }
-            ]
-        },
-        {
-            "question": "Quem cortou a cauda de Gohan quando ele virou um macaco gigante (Oozaru)?",
-            "options": [
-                {
-                    "text": "Piccolo",
-                    "isCorrect": true,
-                    "explanation": "Acertou! Piccolo não teve paciência pro Godzilla mirim e *zap*, cortou o rabo do Gohan com um ataque preciso. Drama familiar em forma de laser.",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/d/d6/PiccoloCutsTail.png",
-                    "imageDescription": "Imagem de Piccolo cortando a cauda de Gohan transformado em Oozaru."
-                },
-                {
-                    "text": "Goku",
-                    "isCorrect": false,
-                    "explanation": "Goku já não tava mais no plano dos vivos pra podar o filho. Ele teria tentado conversar antes de cortar qualquer coisa."
-                },
-                {
-                    "text": "Vegeta",
-                    "isCorrect": false,
-                    "explanation": "Vegeta adora rabo de macaco (por motivos de orgulho). Ele nunca cortaria um assim, ainda mais de outro Saiyajin."
-                },
-                {
-                    "text": "Kuririn",
-                    "isCorrect": false,
-                    "explanation": "Kuririn tava sempre um passo atrás da ação. Cortar cauda de macaco não é com ele."
-                }
-            ]
-        },
-        {
-            "question": "Quem criou os Androides 17 e 18?",
-            "options": [
-                {
-                    "text": "Bulma",
-                    "isCorrect": false,
-                    "explanation": "Bulma manja de cápsulas e tempo, mas criar assassinos cibernéticos não é bem o ramo dela. Ela desmonta, não monta esse tipo de coisa."
-                },
-                {
-                    "text": "Dr. Gero",
-                    "isCorrect": true,
-                    "explanation": "Perfeito! Dr. Gero era o cientista maluco da Força Red Ribbon que trocou o laboratório por uma vingança robótica. E ainda virou Androide depois. Que currículo!",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/f/fd/DrGeroAndroid.png",
-                    "imageDescription": "Imagem de Dr. Gero transformado em Androide com sua clássica boina e barba branca."
-                },
-                {
-                    "text": "Kami-sama",
-                    "isCorrect": false,
-                    "explanation": "Kami-sama cria Dragões e dá sabedoria, não robôs assassinos. Ainda bem!"
-                },
-                {
-                    "text": "Sr. Popo",
-                    "isCorrect": false,
-                    "explanation": "Sr. Popo mal programa a chaleira. Androides são sofisticados demais pro guardião do templo."
-                }
-            ]
-        },
-        {
-            "question": "Quem foi responsável por ensinar Goten e Trunks a técnica da Fusão?",
-            "options": [
-                {
-                    "text": "Goku",
-                    "isCorrect": false,
-                    "explanation": "Goku até demonstrou, mas ele tava ocupado demais indo e voltando do além. O responsável pela maratona da dancinha foi outro careca!"
-                },
-                {
-                    "text": "Piccolo",
-                    "isCorrect": true,
-                    "explanation": "Isso mesmo! Piccolo foi o técnico rigoroso que colocou a molecada pra alinhar dedo por dedo. E nada de errar o tempo, senão vira Gotenks barrigudo!",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/f/f0/PiccoloFusionTraining.png",
-                    "imageDescription": "Imagem de Piccolo instruindo Goten e Trunks durante o treinamento da técnica da fusão."
-                },
-                {
-                    "text": "Vegeta",
-                    "isCorrect": false,
-                    "explanation": "Vegeta mal aceitava fazer a fusão com o Goku, imagina ensinar duas crianças cheias de energia! Fora de cogitação."
-                },
-                {
-                    "text": "Kaio do Norte",
-                    "isCorrect": false,
-                    "explanation": "Kaio do Norte só assiste tudo do céu. Ele é comentarista, não treinador de dancinhas interdimensionais."
-                }
-            ]
-        },
-        {
-            "question": "O que acontece se a fusão Metamorana for feita de forma errada?",
-            "options": [
-                {
-                    "text": "Os dois explodem",
-                    "isCorrect": false,
-                    "explanation": "Calma, Dragon Ball não é tão trágico assim. Explodir é especialidade da Genki Dama, não da coreografia torta."
-                },
-                {
-                    "text": "Nada acontece",
-                    "isCorrect": false,
-                    "explanation": "Aham, senta lá. A dança feita errada gera transformações bizarras, e o universo inteiro testemunhou o desastre!"
-                },
-                {
-                    "text": "Forma falha e desajeitada",
-                    "isCorrect": true,
-                    "explanation": "Correto! Fazer a dancinha errado gera um Gotenks gordinho ou magrelo demais — potência: quase zero, vergonha: over 9000.",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/6/68/FatGotenks.png",
-                    "imageDescription": "Imagem de Gotenks na forma gorda, resultado de uma fusão Metamorana mal executada."
-                },
-                {
-                    "text": "Eles se tornam permanentes",
-                    "isCorrect": false,
-                    "explanation": "Isso só acontece com Potara. A fusão dançante tem prazo de validade, mesmo que feita errada. Alívio cômico temporário!"
-                }
-            ]
-        },
-        {
-            "question": "Quem destruiu o planeta do Kaio do Norte?",
-            "options": [
-                {
-                    "text": "Cell",
-                    "isCorrect": false,
-                    "explanation": "Cell destruiu muita coisa, mas o Kaiozama ficou a salvo dele... até um certo loiro aparecer com planos explosivos."
-                },
-                {
-                    "text": "Vegeta",
-                    "isCorrect": false,
-                    "explanation": "Vegeta destrói egos e vilões, mas planetas divinos não eram alvo dele... ainda."
-                },
-                {
-                    "text": "Goku",
-                    "isCorrect": true,
-                    "explanation": "Isso mesmo! Goku se teletransportou com Cell prestes a explodir, salvou a Terra... e BOOM! Adeus planetinha do Kaio. E sim, ele nunca reconstruiu.",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/a/aa/KingKaiPlanetDestroyed.png",
-                    "imageDescription": "Imagem do planeta do Kaio do Norte após a explosão causada por Goku levando Cell para longe."
-                },
-                {
-                    "text": "Majin Boo",
-                    "isCorrect": false,
-                    "explanation": "Majin Boo destruiu a Terra, o céu e quase tudo, mas o planetinha do Kaio do Norte já tinha ido pelos ares antes."
-                }
-            ]
-        },
-        {
-            "question": "Qual é o nome da forma final de Freeza em Dragon Ball Z?",
-            "options": [
-                {
-                    "text": "Forma Dourada",
-                    "isCorrect": false,
-                    "explanation": "Essa é lá no Super! Em DBZ, Freeza já era perigoso sem glitter. A forma final dele é muito mais... minimalista."
-                },
-                {
-                    "text": "Forma Hiper Evoluída",
-                    "isCorrect": false,
-                    "explanation": "Isso parece nome de Pokémon. Freeza prefere ser direto: forma final, e pronto. Menos papo, mais destruição."
-                },
-                {
-                    "text": "100% Power",
-                    "isCorrect": true,
-                    "explanation": "Acertou! A forma musculosa e bombada de Freeza é sua forma final 100%, onde ele brilha... antes de ser cortado em dois.",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/8/80/FriezaFinalForm100.png",
-                    "imageDescription": "Imagem de Freeza em sua forma final 100%, com músculos intensos e expressão furiosa."
-                },
-                {
-                    "text": "Forma Omega",
-                    "isCorrect": false,
-                    "explanation": "Essa forma nem existe (ainda). Se existir, será no próximo reboot de reboot de Dragon Ball."
-                }
-            ]
-        },
-        {
-            "question": "Qual guerreiro Z possui uma filha chamada Pan?",
-            "options": [
-                {
-                    "text": "Kuririn",
-                    "isCorrect": false,
-                    "explanation": "Kuririn é pai sim, mas da Marron! Pan vem de outro casal bem... híbrido."
-                },
-                {
-                    "text": "Goku",
-                    "isCorrect": false,
-                    "explanation": "Goku é avô da Pan! Aliás, ele nem sabia que tinha neta até a menina sair voando por aí."
-                },
-                {
-                    "text": "Gohan",
-                    "isCorrect": true,
-                    "explanation": "Sim! Gohan é o pai da Pan, fruto do amor nerd-lutador entre ele e Videl. Pan já nasceu chutando forte!",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/5/57/PanAndGohan.png",
-                    "imageDescription": "Imagem de Gohan segurando Pan no colo, sorrindo com Videl ao lado, após o fim da saga Majin Boo."
-                },
-                {
-                    "text": "Vegeta",
-                    "isCorrect": false,
-                    "explanation": "Vegeta é pai da Bra. E ele nem queria ser, no começo. Mas depois amoleceu... só um pouquinho!"
-                }
-            ]
-        },
-        {
-            "question": "Qual era o objetivo original da Força Ginyu ao chegar em Namekusei?",
-            "options": [
-                {
-                    "text": "Capturar Goku",
-                    "isCorrect": false,
-                    "explanation": "Goku nem tava nos planos! Eles nem sabiam que ele viria. O foco era outro... cheio de bolinhas brilhantes."
-                },
-                {
-                    "text": "Roubar senzu",
-                    "isCorrect": false,
-                    "explanation": "Eles nem sabiam o que era isso! Comer feijãozinho milagroso é coisa de guerreiro Z faminto."
-                },
-                {
-                    "text": "Encontrar e reunir as Esferas do Dragão",
-                    "isCorrect": true,
-                    "explanation": "Exatamente! A Força Ginyu foi enviada por Freeza pra reunir as esferas e pedir o desejo da imortalidade — com poses de dança no processo, claro.",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/1/1b/GinyuForceArrival.png",
-                    "imageDescription": "Imagem da Força Ginyu pousando em Namekusei, pronta para caçar as Esferas do Dragão de Freeza."
-                },
-                {
-                    "text": "Destruir o planeta",
-                    "isCorrect": false,
-                    "explanation": "Destruir o planeta era plano reserva. Primeiro, eles queriam o brinde das esferas mágicas!"
-                }
-            ]
-        },
-        {
-            "question": "Qual é o verdadeiro nome de Goku?",
-            "options": [
-                {
-                    "text": "Raditz",
-                    "isCorrect": false,
-                    "explanation": "Raditz é o irmão cabeludo do Goku que apareceu só pra causar e morrer. Nome verdadeiro do Goku? Outro saiyajin com estilo mais... protagonista."
-                },
-                {
-                    "text": "Kakarotto",
-                    "isCorrect": true,
-                    "explanation": "Exatamente! Kakarotto é o nome saiyajin de Goku. Vegeta nunca deixa a gente esquecer disso — parece até que é marca registrada do orgulho real!",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/1/1f/KakarotSaiyanArmor.png",
-                    "imageDescription": "Imagem de Goku com armadura saiyajin, sendo chamado de Kakarotto por Vegeta."
+                    "explanation": "Nappa é um companheiro Saiyajin,\nmas não o nome de Goku.\nContinue tentando!"
                 },
                 {
                     "text": "Bardock",
                     "isCorrect": false,
-                    "explanation": "Bardock é o pai do Goku! O estilo é o mesmo, mas os nomes e os destinos são bem diferentes."
-                },
-                {
-                    "text": "Tarble",
-                    "isCorrect": false,
-                    "explanation": "Tarble é irmão do Vegeta, aquele que ninguém lembra. Goku definitivamente não é esse cara."
+                    "explanation": "Bardock é o pai de Goku,\nnão o próprio Goku.\nNão confunda as gerações!"
                 }
             ]
         },
         {
-            "question": "Quem derrotou o Capitão Ginyu na saga de Namekusei?",
+            "id": "02",
+            "question": "Quem é o primeiro vilão introduzido em Dragon Ball Z?",
+            "level": "fácil",
             "options": [
                 {
-                    "text": "Vegeta",
+                    "text": "Frieza",
                     "isCorrect": false,
-                    "explanation": "Vegeta humilhou metade do time Ginyu, mas o próprio Capitão virou uma rã antes de poder virar churrasco!"
-                },
-                {
-                    "text": "Goku",
-                    "isCorrect": false,
-                    "explanation": "Goku quase virou sapo! Ele lutou contra Ginyu, sim, mas não foi ele quem resolveu o problema definitivamente."
-                },
-                {
-                    "text": "Kuririn",
-                    "isCorrect": false,
-                    "explanation": "Kuririn tava tentando não morrer. Derrotar o Capitão Ginyu? Não era missão dele."
-                },
-                {
-                    "text": "Ginyu (como sapo)",
-                    "isCorrect": true,
-                    "explanation": "Sim! No fim das contas, Ginyu tentou trocar de corpo de novo e acabou preso no corpo de um sapo. Ironia intergaláctica no modo máximo!",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/3/30/CaptainGinyuFrog.png",
-                    "imageDescription": "Imagem do Capitão Ginyu preso no corpo de um sapo após falhar ao tentar roubar o corpo de Vegeta."
-                }
-            ]
-        },
-        {
-            "question": "Qual técnica permite ao usuário se teletransportar instantaneamente?",
-            "options": [
-                {
-                    "text": "Taiyoken",
-                    "isCorrect": false,
-                    "explanation": "Essa técnica só cega geral! Nada de sumir no ar — o máximo que faz é deixar a galera tateando no escuro."
-                },
-                {
-                    "text": "Shunkan Idō (Transmissão Instantânea)",
-                    "isCorrect": true,
-                    "explanation": "Correto! Goku aprendeu essa técnica com os Yadrat após a luta com Freeza. Basta focar no ki e... puff! Tá em outro lugar. Quem precisa de avião, né?",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/e/e8/InstantTransmission.png",
-                    "imageDescription": "Imagem de Goku usando a técnica de Transmissão Instantânea com dois dedos na testa."
-                },
-                {
-                    "text": "Kaio-Ken",
-                    "isCorrect": false,
-                    "explanation": "Kaio-Ken é força bruta no modo turbo. Nada de sumir ou mudar de lugar aqui."
-                },
-                {
-                    "text": "Bukujutsu",
-                    "isCorrect": false,
-                    "explanation": "Essa é a técnica de voo — útil, mas bem mais lenta que um 'teleporte' saiyajin!"
-                }
-            ]
-        },
-        {
-            "question": "Qual personagem foi o único a resistir ao grito paralisante do Garlic Jr.?",
-            "options": [
-                {
-                    "text": "Yamcha",
-                    "isCorrect": false,
-                    "explanation": "Yamcha? O cara mal sobrevive às lutas normais... Imune a grito demoníaco? Jamais."
-                },
-                {
-                    "text": "Kuririn",
-                    "isCorrect": false,
-                    "explanation": "Kuririn é o alívio cômico da equipe, mas nesse caso ele ficou paralisado como todo mundo."
-                },
-                {
-                    "text": "Piccolo",
-                    "isCorrect": true,
-                    "explanation": "Sim! O Namekuseijin tanque de guerra resistiu ao grito do Garlic Jr., fingiu estar paralisado e meteu a porrada depois. Estratégia de mestre!",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/2/23/PiccoloGarlicJr.png",
-                    "imageDescription": "Imagem de Piccolo enfrentando Garlic Jr., resistindo ao seu ataque sonoro paralisante."
-                },
-                {
-                    "text": "Tenshinhan",
-                    "isCorrect": false,
-                    "explanation": "O Terceiro Olho não viu esse ataque vindo. Paralisou como todo mundo. Só Piccolo é tanque assim."
-                }
-            ]
-        },
-        {
-            "question": "Qual dos guerreiros Z foi o primeiro a usar o Taiyoken?",
-            "options": [
-                {
-                    "text": "Goku",
-                    "isCorrect": false,
-                    "explanation": "Goku usou, sim — e bem! Mas não foi ele quem trouxe o flash na cara pela primeira vez."
-                },
-                {
-                    "text": "Kuririn",
-                    "isCorrect": true,
-                    "explanation": "Correto! Kuririn usou o Taiyoken lá atrás, nos torneios clássicos. A técnica virou marca registrada pra fugir da treta com dignidade (ou tentar).",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/d/d1/KrillinTaiyoken.png",
-                    "imageDescription": "Imagem de Kuririn usando o Taiyoken, cegando o oponente com um clarão intenso."
-                },
-                {
-                    "text": "Piccolo",
-                    "isCorrect": false,
-                    "explanation": "Piccolo tem raio, explosão e regeneração — mas flash na cara dos outros? Não faz o estilo dele."
-                },
-                {
-                    "text": "Tenshinhan",
-                    "isCorrect": false,
-                    "explanation": "Ele também usou, mas depois! Kuririn foi pioneiro nessa técnica de 'luz e fuga'."
-                }
-            ]
-        },
-        {
-            "question": "Quem venceu o Torneio do Outro Mundo na saga filler entre Cell e Majin Boo?",
-            "options": [
-                {
-                    "text": "Paikuhan",
-                    "isCorrect": false,
-                    "explanation": "Paikuhan lutou bravamente, e até derrotou Cell no inferno! Mas no torneio... deu outro saiyajin no pódio!"
-                },
-                {
-                    "text": "Goku",
-                    "isCorrect": true,
-                    "explanation": "Exatamente! Goku venceu Paikuhan (com direito a Kamehameha reverso no ar!). Vitória suada, mas cheia de carisma e fair play celestial.",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/7/77/GokuPaikuhanFight.png",
-                    "imageDescription": "Imagem de Goku enfrentando Paikuhan no Torneio do Outro Mundo, com ataques aéreos intensos."
-                },
-                {
-                    "text": "Vegeta",
-                    "isCorrect": false,
-                    "explanation": "Vegeta nem apareceu nesse torneio. Estava ocupado com orgulho e ressentimento pós-vida."
+                    "explanation": "Frieza é um vilão poderoso,\nmas aparece depois.\nTente lembrar do começo!"
                 },
                 {
                     "text": "Cell",
                     "isCorrect": false,
-                    "explanation": "Cell só apareceu depois, e foi derrotado de novo. Ele não teve nem lugar na arquibancada celestial."
+                    "explanation": "Cell é um vilão mais tarde,\nnão o primeiro.\nContinue tentando!"
+                },
+                {
+                    "text": "Raditz",
+                    "isCorrect": true,
+                    "explanation": "Correto! Raditz é o primeiro vilão,\nirmão de Goku que invade a Terra.\nQue recepção, hein?",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Raditz_Dragon_Ball.png",
+                    "imageDescription": "Imagem oficial de Raditz, o primeiro vilão."
+                },
+                {
+                    "text": "Majin Boo",
+                    "isCorrect": false,
+                    "explanation": "Majin Boo é um vilão bem depois.\nNão é o primeiro.\nTente outra opção!"
                 }
             ]
         },
         {
-            "question": "Quem derrotou Nappa com um só golpe após ele humilhar vários Guerreiros Z?",
+            "id": "03",
+            "question": "Qual é a raça de Goku?",
+            "level": "fácil",
             "options": [
                 {
-                    "text": "Kuririn",
+                    "text": "Namekuseijin",
                     "isCorrect": false,
-                    "explanation": "Kuririn tentou brilhar, mas Nappa era um trator com bigode. Só outro careca mais poderoso resolveu isso."
+                    "explanation": "Namekuseijins são verdes,\ncomo Piccolo.\nGoku não é dessa raça."
                 },
                 {
-                    "text": "Goku",
+                    "text": "Humano",
+                    "isCorrect": false,
+                    "explanation": "Goku parece humano,\nmas é Saiyajin.\nNão se deixe enganar!"
+                },
+                {
+                    "text": "Saiyajin",
                     "isCorrect": true,
-                    "explanation": "Correto! Goku chegou atrasado (como sempre), mas resolveu rápido. Um só golpe e Nappa virou figurante da história!",
-                    "imageUrl": "https://static.wikia.nocookie.net/dragonball/images/a/ae/GokuDefeatsNappa.png",
-                    "imageDescription": "Imagem de Goku derrubando Nappa com um único golpe após chegar do treinamento com Kaio."
+                    "explanation": "Isso mesmo! Goku é um Saiyajin,\numa raça guerreira do espaço.\nEle é o herói da história!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Goku_Dragon_Ball.png",
+                    "imageDescription": "Imagem de Goku em sua forma clássica."
+                },
+                {
+                    "text": "Android",
+                    "isCorrect": false,
+                    "explanation": "Androids são máquinas,\ncomo #17 e #18.\nGoku é bem diferente!"
+                }
+            ]
+        },
+        {
+            "id": "04",
+            "question": "Quem é a esposa de Goku?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Bulma",
+                    "isCorrect": false,
+                    "explanation": "Bulma é amiga de Goku,\nmas casada com Vegeta.\nNão confunda!"
+                },
+                {
+                    "text": "Chi-Chi",
+                    "isCorrect": true,
+                    "explanation": "Correto! Chi-Chi é a esposa de Goku,\ne mãe de Gohan.\nEla é bem protetora!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:ChiChi_Dragon_Ball.png",
+                    "imageDescription": "Imagem de Chi-Chi, esposa de Goku."
+                },
+                {
+                    "text": "Videl",
+                    "isCorrect": false,
+                    "explanation": "Videl é esposa de Gohan,\nnão de Goku.\nTente outra!"
+                },
+                {
+                    "text": "Pan",
+                    "isCorrect": false,
+                    "explanation": "Pan é neta de Goku,\nnão esposa.\nFamília complicada!"
+                }
+            ]
+        },
+        {
+            "id": "05",
+            "question": "Qual técnica Goku aprende com o Rei Kai?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Kamehameha",
+                    "isCorrect": false,
+                    "explanation": "Kamehameha é do Mestre Kame,\nGoku já sabia antes.\nPense em algo novo!"
+                },
+                {
+                    "text": "Genki Dama",
+                    "isCorrect": true,
+                    "explanation": "Isso! Genki Dama (Spirit Bomb) é do Rei Kai.\nGoku usa energia de todos.\nÉ poderosa e demorada!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Spirit_Bomb.png",
+                    "imageDescription": "Imagem da Genki Dama sendo formada."
+                },
+                {
+                    "text": "Destructo Disc",
+                    "isCorrect": false,
+                    "explanation": "Destructo Disc é do Kuririn,\nnão do Rei Kai.\nTente outra!"
+                },
+                {
+                    "text": "Special Beam Cannon",
+                    "isCorrect": false,
+                    "explanation": "Special Beam Cannon é do Piccolo,\nnão do Rei Kai.\nContinue tentando!"
+                }
+            ]
+        },
+        {
+            "id": "06",
+            "question": "Quem é conhecido como o Príncipe dos Saiyajins?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "Goku é um Saiyajin,\nmas não príncipe.\nEle é mais humilde!"
+                },
+                {
+                    "text": "Nappa",
+                    "isCorrect": false,
+                    "explanation": "Nappa é um guerreiro,\nmas não príncipe.\nTente outra!"
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Vegeta é o Príncipe dos Saiyajins.\nEle é orgulhoso e poderoso.\nUm verdadeiro herdeiro!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Vegeta_Dragon_Ball.png",
+                    "imageDescription": "Imagem de Vegeta, príncipe Saiyajin."
+                },
+                {
+                    "text": "Raditz",
+                    "isCorrect": false,
+                    "explanation": "Raditz é irmão de Goku,\nnão príncipe.\nPense em alguém mais arrogante!"
+                }
+            ]
+        },
+        {
+            "id": "07",
+            "question": "Qual planeta é a terra natal dos Namekuseijins?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Planeta Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Planeta Vegeta é dos Saiyajins,\nnão dos Namekuseijins.\nPense em outro planeta!"
+                },
+                {
+                    "text": "Namek",
+                    "isCorrect": true,
+                    "explanation": "Correto! Namek é o planeta dos Namekuseijins.\nÉ verde e cheio de vida.\nLar das Dragon Balls originais!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Planet_Namek.png",
+                    "imageDescription": "Imagem do planeta Namek."
+                },
+                {
+                    "text": "Terra",
+                    "isCorrect": false,
+                    "explanation": "Terra é onde Goku vive,\nmas não é de Namekuseijins.\nPense em um planeta distante!"
+                },
+                {
+                    "text": "Alpha",
+                    "isCorrect": false,
+                    "explanation": "Alpha não existe em DBZ,\nvocê inventou!\nTente outra resposta."
+                }
+            ]
+        },
+        {
+            "id": "08",
+            "question": "Quem destruiu o Planeta Vegeta?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "Goku protege planetas,\nnão destrói.\nPense em um vilão cruel!"
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta é de lá,\nnão destruiria seu planeta.\nTente outra!"
+                },
+                {
+                    "text": "Frieza",
+                    "isCorrect": true,
+                    "explanation": "Correto! Frieza destruiu o Planeta Vegeta.\nEle temia os Saiyajins.\nVilão sem piedade!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Frieza_Dragon_Ball.png",
+                    "imageDescription": "Imagem de Frieza, o destruidor de planetas."
+                },
+                {
+                    "text": "Nappa",
+                    "isCorrect": false,
+                    "explanation": "Nappa não destruiria seu planeta.\nEle só seguia ordens.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "09",
+            "question": "Qual técnica de Goku causa dano ao seu próprio corpo se usada em excesso?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Kamehameha",
+                    "isCorrect": false,
+                    "explanation": "Kamehameha é poderosa,\nmas segura para Goku.\nNão machuca ele!"
+                },
+                {
+                    "text": "Kaioken",
+                    "isCorrect": true,
+                    "explanation": "Isso! Kaioken aumenta o poder,\nmas pode machucar Goku.\nÉ um risco calculado!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Kaioken.png",
+                    "imageDescription": "Imagem de Goku usando Kaioken."
+                },
+                {
+                    "text": "Genki Dama",
+                    "isCorrect": false,
+                    "explanation": "Genki Dama não machuca Goku,\npois usa energia externa.\nPense em algo interno!"
+                },
+                {
+                    "text": "Teletransporte",
+                    "isCorrect": false,
+                    "explanation": "Teletransporte é seguro,\nnão causa dano.\nTente outra técnica!"
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "question": "Quem tem três olhos em Dragon Ball Z?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Krillin",
+                    "isCorrect": false,
+                    "explanation": "Krillin tem dois olhos,\nnão três.\nEle é careca, mas normal!"
                 },
                 {
                     "text": "Piccolo",
                     "isCorrect": false,
-                    "explanation": "Piccolo se sacrificou protegendo Gohan. Nappa foi longe demais e pagou caro por isso depois."
+                    "explanation": "Piccolo tem dois olhos,\nmas antenas na cabeça.\nNão três olhos!"
                 },
                 {
-                    "text": "Tenshinhan",
+                    "text": "Tien",
+                    "isCorrect": true,
+                    "explanation": "Correto! Tien tem três olhos.\nIsso o ajuda em combate.\nUm detalhe único!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Tien_Shinhan_Dragon_Ball.png",
+                    "imageDescription": "Imagem de Tien com seus três olhos."
+                },
+                {
+                    "text": "Yamcha",
                     "isCorrect": false,
-                    "explanation": "Tenshinhan também caiu nessa luta. Goku resolveu tudo com um soco que parecia um episódio inteiro."
+                    "explanation": "Yamcha tem dois olhos normais.\nNada de especial na testa.\nTente outra!"
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "question": "Qual é o nome do filho mais velho de Goku?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Goten",
+                    "isCorrect": false,
+                    "explanation": "Goten é o filho mais novo.\nNão confunda as idades!\nTente outra resposta."
+                },
+                {
+                    "text": "Gohan",
+                    "isCorrect": true,
+                    "explanation": "Correto! Gohan é o filho mais velho de Goku.\nEle tem grande potencial.\nUm verdadeiro prodígio!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Gohan_Dragon_Ball.png",
+                    "imageDescription": "Imagem de Gohan, filho mais velho de Goku."
+                },
+                {
+                    "text": "Trunks",
+                    "isCorrect": false,
+                    "explanation": "Trunks é filho de Vegeta e Bulma.\nNão é filho de Goku.\nTente outra!"
+                },
+                {
+                    "text": "Pan",
+                    "isCorrect": false,
+                    "explanation": "Pan é neta de Goku,\nnão filha.\nFamília grande e confusa!"
+                }
+            ]
+        },
+        {
+            "id": "12",
+            "question": "Qual é a transformação mais famosa de Goku?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Super Saiyajin",
+                    "isCorrect": true,
+                    "explanation": "Exato! Super Saiyajin é a transformação icônica de Goku.\nCabelo dourado e poder absurdo.\nQuem não lembra do grito?",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Goku_Super_Saiyan.png",
+                    "imageDescription": "Goku transformado em Super Saiyajin."
+                },
+                {
+                    "text": "Kaioken",
+                    "isCorrect": false,
+                    "explanation": "Kaioken aumenta o poder,\nmas não muda o visual.\nPense em algo mais famoso!"
+                },
+                {
+                    "text": "Ultra Instinto",
+                    "isCorrect": false,
+                    "explanation": "Ultra Instinto é avançado,\nmais recente.\nSuper Saiyajin é mais clássico!"
+                },
+                {
+                    "text": "Fusion",
+                    "isCorrect": false,
+                    "explanation": "Fusão é técnica de união,\nnão transformação de Goku sozinho.\nTente outra!"
+                }
+            ]
+        },
+        {
+            "id": "13",
+            "question": "Qual personagem é conhecido por sua técnica 'Kamehameha'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Piccolo",
+                    "isCorrect": false,
+                    "explanation": "Piccolo tem técnicas poderosas,\nmas não o Kamehameha.\nTente outra!"
+                },
+                {
+                    "text": "Goku",
+                    "isCorrect": true,
+                    "explanation": "Correto! Goku é famoso pelo Kamehameha.\nEle aprendeu com Mestre Kame.\nUm clássico dos animes!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Goku_Kamehameha.png",
+                    "imageDescription": "Goku executando Kamehameha."
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta usa outras técnicas,\nnão o Kamehameha.\nTente outra resposta!"
+                },
+                {
+                    "text": "Krillin",
+                    "isCorrect": false,
+                    "explanation": "Krillin usa o Destructo Disc,\nnão o Kamehameha.\nContinue tentando!"
+                }
+            ]
+        },
+        {
+            "id": "14",
+            "question": "Qual é o nome do vilão que absorve Android 17 e 18 para se tornar perfeito?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Cell",
+                    "isCorrect": true,
+                    "explanation": "Isso! Cell absorve os androides para se tornar perfeito.\nVilão da saga dos Androides.\nUm verdadeiro desafio!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Cell_Dragon_Ball.png",
+                    "imageDescription": "Imagem de Cell em sua forma perfeita."
+                },
+                {
+                    "text": "Frieza",
+                    "isCorrect": false,
+                    "explanation": "Frieza não absorve androides.\nEle é um tirano galáctico.\nTente outra!"
+                },
+                {
+                    "text": "Majin Boo",
+                    "isCorrect": false,
+                    "explanation": "Majin Boo tem outras habilidades,\nnão absorve androides.\nContinue tentando!"
+                },
+                {
+                    "text": "Raditz",
+                    "isCorrect": false,
+                    "explanation": "Raditz é irmão de Goku,\nnão absorve androides.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "15",
+            "question": "Qual é o nome do irmão de Goku que aparece no início de DBZ?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Raditz",
+                    "isCorrect": true,
+                    "explanation": "Correto! Raditz é o irmão de Goku.\nEle vem para a Terra no começo.\nQue surpresa para Goku!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Raditz_Dragon_Ball.png",
+                    "imageDescription": "Imagem de Raditz, irmão de Goku."
+                },
+                {
+                    "text": "Nappa",
+                    "isCorrect": false,
+                    "explanation": "Nappa é companheiro de Raditz,\nnão irmão de Goku.\nTente outra!"
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta é príncipe Saiyajin,\nnão irmão de Goku.\nContinue tentando!"
+                },
+                {
+                    "text": "Bardock",
+                    "isCorrect": false,
+                    "explanation": "Bardock é pai de Goku,\nnão irmão.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "16",
+            "question": "Qual é o nome da técnica usada por Piccolo para esticar seus braços?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Makankosappo",
+                    "isCorrect": false,
+                    "explanation": "Makankosappo é o canhão especial dele,\nnão para esticar braços.\nTente outra!"
+                },
+                {
+                    "text": "Extensão de Braço",
+                    "isCorrect": false,
+                    "explanation": "Esse nome não é oficial,\nmas descreve a ação.\nProcure o nome correto!"
+                },
+                {
+                    "text": "Tentacle Stretch",
+                    "isCorrect": false,
+                    "explanation": "Nome inventado,\nnão oficial no DBZ.\nTente outra resposta!"
+                },
+                {
+                    "text": "Extensão de Braço (Arm Stretch)",
+                    "isCorrect": true,
+                    "explanation": "Correto! Piccolo pode esticar seus braços.\nÉ uma habilidade natural dos Namekuseijins.\nMuito útil em combate!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Piccolo_Extend_Arm.png",
+                    "imageDescription": "Imagem de Piccolo esticando o braço."
+                }
+            ]
+        },
+        {
+            "id": "17",
+            "question": "Qual é o nome da técnica de Krillin que cria discos cortantes de energia?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Destructo Disc",
+                    "isCorrect": true,
+                    "explanation": "Isso! Destructo Disc é a técnica cortante de Krillin.\nPode cortar quase tudo.\nCuidado ao usar!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Destructo_Disc.png",
+                    "imageDescription": "Imagem do Destructo Disc de Krillin."
+                },
+                {
+                    "text": "Kamehameha",
+                    "isCorrect": false,
+                    "explanation": "Kamehameha é de Goku,\nnão de Krillin.\nTente outra!"
+                },
+                {
+                    "text": "Solar Flare",
+                    "isCorrect": false,
+                    "explanation": "Solar Flare cega inimigos,\nnão corta.\nContinue tentando!"
+                },
+                {
+                    "text": "Special Beam Cannon",
+                    "isCorrect": false,
+                    "explanation": "Special Beam Cannon é do Piccolo,\nnão do Krillin.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "18",
+            "question": "Quem é o criador das Dragon Balls originais?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Kami-sama",
+                    "isCorrect": true,
+                    "explanation": "Correto! Kami-sama criou as Dragon Balls da Terra.\nEle é o guardião do planeta.\nUm verdadeiro sábio!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Kami-sama.png",
+                    "imageDescription": "Imagem de Kami-sama, criador das Dragon Balls."
+                },
+                {
+                    "text": "Dende",
+                    "isCorrect": false,
+                    "explanation": "Dende é sucessor de Kami,\nnão o criador original.\nTente outra!"
+                },
+                {
+                    "text": "Shenlong",
+                    "isCorrect": false,
+                    "explanation": "Shenlong é o dragão,\nnão o criador das esferas.\nContinue tentando!"
+                },
+                {
+                    "text": "Guru",
+                    "isCorrect": false,
+                    "explanation": "Guru é líder dos Namekuseijins,\nnão criador das Dragon Balls.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "19",
+            "question": "Qual é o nome do ataque característico de Vegeta?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Final Flash",
+                    "isCorrect": true,
+                    "explanation": "Isso! Final Flash é o ataque poderoso de Vegeta.\nEle usa contra grandes inimigos.\nUm espetáculo de energia!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Final_Flash.png",
+                    "imageDescription": "Imagem de Vegeta usando Final Flash."
+                },
+                {
+                    "text": "Kamehameha",
+                    "isCorrect": false,
+                    "explanation": "Kamehameha é de Goku,\nnão de Vegeta.\nTente outra!"
+                },
+                {
+                    "text": "Big Bang Attack",
+                    "isCorrect": false,
+                    "explanation": "Big Bang Attack é outra técnica de Vegeta,\nmas Final Flash é mais icônica.\nContinue tentando!"
+                },
+                {
+                    "text": "Galick Gun",
+                    "isCorrect": false,
+                    "explanation": "Galick Gun é usada por Vegeta,\nmas Final Flash é mais famosa.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "20",
+            "question": "Qual é o nome do mestre que treinou Goku quando ele era criança?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Mestre Kame",
+                    "isCorrect": true,
+                    "explanation": "Correto! Mestre Kame treinou Goku.\nEle é famoso pelo Kamehameha.\nUm mestre bem excêntrico!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Mestre_Kame.png",
+                    "imageDescription": "Imagem do Mestre Kame."
+                },
+                {
+                    "text": "Rei Kai",
+                    "isCorrect": false,
+                    "explanation": "Rei Kai treinou Goku depois,\nnão quando criança.\nTente outra!"
+                },
+                {
+                    "text": "Kami-sama",
+                    "isCorrect": false,
+                    "explanation": "Kami-sama é guardião,\nnão mestre de Goku.\nContinue tentando!"
+                },
+                {
+                    "text": "Piccolo",
+                    "isCorrect": false,
+                    "explanation": "Piccolo treinou Gohan,\nnão Goku.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "21",
+            "question": "Qual personagem é famoso por gritar 'It's over 9000!'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "Goku é o alvo da frase,\nmas não quem grita.\nPense em alguém com cabelo espetado!"
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": true,
+                    "explanation": "Exatamente! Vegeta explode o scouter e grita 'It's over 9000!'\nVirou meme mundial.\nQuem nunca ouviu essa frase?",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Vegeta_Over_9000.png",
+                    "imageDescription": "Vegeta segurando o scouter quebrado."
+                },
+                {
+                    "text": "Piccolo",
+                    "isCorrect": false,
+                    "explanation": "Piccolo é sério,\nmas não grita essa frase.\nTente outra opção!"
+                },
+                {
+                    "text": "Frieza",
+                    "isCorrect": false,
+                    "explanation": "Frieza nem estava na Terra ainda!\nEssa frase não é dele.\nContinue tentando!"
+                }
+            ]
+        },
+        {
+            "id": "22",
+            "question": "Qual é o nome do dragão que realiza desejos na Terra?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Porunga",
+                    "isCorrect": false,
+                    "explanation": "Porunga é o dragão de Namek.\nNa Terra, o nome é outro!\nTente lembrar!"
+                },
+                {
+                    "text": "Shenlong",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Shenlong é o dragão da Terra.\nEle realiza desejos com as Dragon Balls.\nBem imponente, né?",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Shenron_Dragon_Ball.png",
+                    "imageDescription": "Shenlong, o dragão lendário da Terra."
+                },
+                {
+                    "text": "Smaug",
+                    "isCorrect": false,
+                    "explanation": "Smaug é de outro universo!\nAqui é Dragon Ball, não Tolkien.\nTente outra!"
+                },
+                {
+                    "text": "Haku",
+                    "isCorrect": false,
+                    "explanation": "Haku é de outro anime.\nNada a ver com Dragon Ball!\nContinue tentando!"
+                }
+            ]
+        },
+        {
+            "id": "23",
+            "question": "Quem é o criador das Dragon Balls de Namek?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Kami-sama",
+                    "isCorrect": false,
+                    "explanation": "Kami-sama criou as da Terra.\nEm Namek, é outro sábio!\nPense em alguém bem velho."
+                },
+                {
+                    "text": "Guru",
+                    "isCorrect": true,
+                    "explanation": "Correto! Guru é o patriarca de Namek.\nEle criou as Dragon Balls de lá.\nUm verdadeiro sábio verde!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Grand_Elder_Guru.png",
+                    "imageDescription": "Guru, o grande patriarca de Namek."
+                },
+                {
+                    "text": "Dende",
+                    "isCorrect": false,
+                    "explanation": "Dende vira o novo patriarca,\nmas não criou as originais.\nContinue tentando!"
+                },
+                {
+                    "text": "Shenlong",
+                    "isCorrect": false,
+                    "explanation": "Shenlong é o dragão,\nnão o criador das esferas.\nTente outra!"
+                }
+            ]
+        },
+        {
+            "id": "24",
+            "question": "Qual personagem é famoso por morrer frequentemente?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "Goku morre algumas vezes,\nmas não tanto quanto outro personagem.\nTente lembrar do careca!"
+                },
+                {
+                    "text": "Krillin",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Krillin é famoso por morrer muito.\nÉ quase um hobby dele!\nSempre volta com as Dragon Balls.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Krillin_Dragon_Ball.png",
+                    "imageDescription": "Krillin, o campeão das ressurreições."
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta morre algumas vezes,\nmas não tanto quanto Krillin.\nContinue tentando!"
+                },
+                {
+                    "text": "Yamcha",
+                    "isCorrect": false,
+                    "explanation": "Yamcha também morre,\nmas Krillin bate recordes.\nTente outra!"
+                }
+            ]
+        },
+        {
+            "id": "25",
+            "question": "Qual é o nome do androide que se sacrifica para tentar derrotar Cell?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Androide 18",
+                    "isCorrect": false,
+                    "explanation": "Androide 18 sobrevive e casa com Kuririn!\nNão é ela quem se sacrifica.\nTente outro número!"
+                },
+                {
+                    "text": "Androide 16",
+                    "isCorrect": true,
+                    "explanation": "Correto! Androide 16 tenta se sacrificar para destruir Cell.\nEle era fã de pássaros e da natureza.\nUm robô com coração!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Android_16.png",
+                    "imageDescription": "Androide 16 pronto para o sacrifício."
+                },
+                {
+                    "text": "Androide 17",
+                    "isCorrect": false,
+                    "explanation": "Androide 17 é absorvido por Cell,\nmas não se sacrifica.\nContinue tentando!"
+                },
+                {
+                    "text": "Cell Jr.",
+                    "isCorrect": false,
+                    "explanation": "Cell Jr. é uma miniatura do vilão,\nsem sacrifícios heroicos.\nTente outra!"
+                }
+            ]
+        },
+        {
+            "id": "26",
+            "question": "Qual é a cor do cabelo do Super Saiyajin?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Azul",
+                    "isCorrect": false,
+                    "explanation": "Azul é do Super Saiyajin Blue,\nmas não o clássico.\nTente outra cor!"
+                },
+                {
+                    "text": "Dourado",
+                    "isCorrect": true,
+                    "explanation": "Correto! O cabelo fica dourado no Super Saiyajin clássico.\nÉ impossível não notar!\nBrilha mais que ouro.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Super_Saiyan_Goku.png",
+                    "imageDescription": "Goku com cabelo dourado de Super Saiyajin."
+                },
+                {
+                    "text": "Preto",
+                    "isCorrect": false,
+                    "explanation": "Preto é o cabelo normal dos Saiyajins.\nSuper Saiyajin muda de cor!\nTente outra!"
+                },
+                {
+                    "text": "Vermelho",
+                    "isCorrect": false,
+                    "explanation": "Vermelho é do Super Saiyajin God,\nmas não o clássico.\nContinue tentando!"
+                }
+            ]
+        },
+        {
+            "id": "27",
+            "question": "Qual é o planeta de origem dos Saiyajins?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Namek",
+                    "isCorrect": false,
+                    "explanation": "Namek é dos verdes!\nOs Saiyajins vêm de outro planeta.\nTente lembrar do nome real!"
+                },
+                {
+                    "text": "Terra",
+                    "isCorrect": false,
+                    "explanation": "Eles vivem na Terra,\nmas não nasceram aqui.\nPense em outro planeta!"
+                },
+                {
+                    "text": "Planeta Vegeta",
+                    "isCorrect": true,
+                    "explanation": "Correto! Planeta Vegeta é o lar dos Saiyajins.\nDestruído por Frieza, infelizmente.\nUm planeta com muito orgulho!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Planet_Vegeta.png",
+                    "imageDescription": "Planeta Vegeta, lar dos Saiyajins."
+                },
+                {
+                    "text": "Alpha",
+                    "isCorrect": false,
+                    "explanation": "Alpha não existe em Dragon Ball Z!\nVocê está inventando planetas!\nContinue tentando!"
+                }
+            ]
+        },
+        {
+            "id": "28",
+            "question": "Quem ensinou Gohan a lutar quando criança?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "Goku é o pai,\nmas quem treinou Gohan foi outro.\nPense em um mestre verde!"
+                },
+                {
+                    "text": "Piccolo",
+                    "isCorrect": true,
+                    "explanation": "Exatamente! Piccolo treinou Gohan.\nViraram grandes amigos depois disso.\nQuem diria, hein?",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Piccolo_Dragon_Ball.png",
+                    "imageDescription": "Piccolo, o mestre de Gohan."
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta treina Trunks,\nnão Gohan.\nContinue tentando!"
+                },
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "Kuririn é parceiro de lutas,\nmas não mestre de Gohan.\nTente outra!"
+                }
+            ]
+        },
+        {
+            "id": "29",
+            "question": "Qual é o nome do filho de Vegeta e Bulma?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Goten",
+                    "isCorrect": false,
+                    "explanation": "Goten é filho de Goku e Chi-Chi.\nMisturou as famílias!\nTente outra resposta."
+                },
+                {
+                    "text": "Trunks",
+                    "isCorrect": true,
+                    "explanation": "Correto! Trunks é o filho de Vegeta e Bulma.\nEle é famoso pelo cabelo roxo.\nE pelo futuro complicado!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Trunks_Dragon_Ball.png",
+                    "imageDescription": "Trunks, o filho de Vegeta e Bulma."
+                },
+                {
+                    "text": "Pan",
+                    "isCorrect": false,
+                    "explanation": "Pan é neta de Goku,\nnão filha de Vegeta.\nContinue tentando!"
+                },
+                {
+                    "text": "Gohan",
+                    "isCorrect": false,
+                    "explanation": "Gohan é filho de Goku.\nNada a ver com Vegeta e Bulma!\nTente outra!"
+                }
+            ]
+        },
+        {
+            "id": "30",
+            "question": "Qual técnica Vegeta usa para tentar destruir a Terra durante a saga dos Saiyajins?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Big Bang Attack",
+                    "isCorrect": false,
+                    "explanation": "Big Bang Attack aparece depois,\nnão na saga dos Saiyajins.\nTente lembrar do nome roxo!"
+                },
+                {
+                    "text": "Galick Gun",
+                    "isCorrect": true,
+                    "explanation": "Correto! Galick Gun é a técnica roxa de Vegeta.\nEle tenta destruir a Terra com ela.\nPor pouco não conseguiu!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Galick_Gun.png",
+                    "imageDescription": "Vegeta usando Galick Gun."
+                },
+                {
+                    "text": "Final Flash",
+                    "isCorrect": false,
+                    "explanation": "Final Flash aparece só na saga Cell.\nNão foi usada contra Goku na Terra.\nContinue tentando!"
+                },
+                {
+                    "text": "Kamehameha",
+                    "isCorrect": false,
+                    "explanation": "Kamehameha é do Goku,\nnão do Vegeta.\nTente outra técnica!"
+                }
+            ]
+        },
+        {
+            "id": "31",
+            "question": "Qual é o nome do androide que se casa com Kuririn?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Androide 17",
+                    "isCorrect": false,
+                    "explanation": "Androide 17 é irmão,\nmas não se casa com Kuririn.\nTente outro número!"
+                },
+                {
+                    "text": "Androide 18",
+                    "isCorrect": true,
+                    "explanation": "Correto! Androide 18 casa com Kuririn.\nFormam um casal improvável!\nE têm uma filhinha fofa.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Android_18.png",
+                    "imageDescription": "Androide 18, esposa de Kuririn."
+                },
+                {
+                    "text": "Androide 16",
+                    "isCorrect": false,
+                    "explanation": "Androide 16 gosta de pássaros,\nmas não de casamento.\nContinue tentando!"
+                },
+                {
+                    "text": "Cell",
+                    "isCorrect": false,
+                    "explanation": "Cell absorve androides,\nnão casa com eles!\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "32",
+            "question": "Qual personagem é famoso por sua obsessão por lutar contra Goku?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "Kuririn é amigo de Goku,\nnão rival.\nPense em alguém mais orgulhoso!"
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": true,
+                    "explanation": "Correto! Vegeta vive querendo lutar com Goku.\nÉ quase um passatempo para ele!\nQue rivalidade eterna!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Vegeta_Dragon_Ball.png",
+                    "imageDescription": "Vegeta, rival eterno de Goku."
+                },
+                {
+                    "text": "Piccolo",
+                    "isCorrect": false,
+                    "explanation": "Piccolo já foi rival,\nmas virou amigo.\nTente outra opção!"
+                },
+                {
+                    "text": "Yamcha",
+                    "isCorrect": false,
+                    "explanation": "Yamcha não chega nem perto dessa rivalidade.\nContinue tentando!"
+                }
+            ]
+        },
+        {
+            "id": "33",
+            "question": "Qual é o nome do ataque de energia que Gohan usa para derrotar Cell?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Kamehameha",
+                    "isCorrect": true,
+                    "explanation": "Correto! Gohan derrota Cell com um Kamehameha.\nCom a ajuda do espírito de Goku.\nUma cena épica!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Gohan_Kamehameha.png",
+                    "imageDescription": "Gohan usando Kamehameha contra Cell."
+                },
+                {
+                    "text": "Masenko",
+                    "isCorrect": false,
+                    "explanation": "Masenko é outra técnica do Gohan,\nmas não foi usada para derrotar Cell.\nContinue tentando!"
+                },
+                {
+                    "text": "Final Flash",
+                    "isCorrect": false,
+                    "explanation": "Final Flash é do Vegeta.\nGohan usou outro ataque!\nTente outra!"
+                },
+                {
+                    "text": "Special Beam Cannon",
+                    "isCorrect": false,
+                    "explanation": "Special Beam Cannon é do Piccolo.\nGohan usou um clássico!\nContinue tentando!"
+                }
+            ]
+        },
+        {
+            "id": "34",
+            "question": "Qual personagem é o responsável por criar o exército Ginyu Force?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Frieza",
+                    "isCorrect": true,
+                    "explanation": "Correto! Frieza criou a Ginyu Force para missões especiais.\nUm grupo bem... performático!\nDançarinos e guerreiros.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Frieza_Dragon_Ball.png",
+                    "imageDescription": "Frieza, criador da Ginyu Force."
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta já fez parte do exército de Frieza,\nmas não criou a Ginyu Force.\nTente outra!"
+                },
+                {
+                    "text": "Ginyu",
+                    "isCorrect": false,
+                    "explanation": "Ginyu é o capitão,\nmas não o criador do grupo.\nContinue tentando!"
+                },
+                {
+                    "text": "Zarbon",
+                    "isCorrect": false,
+                    "explanation": "Zarbon é um dos soldados de Frieza,\nmas não criou a Ginyu Force.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "35",
+            "question": "Qual é o nome da fusão entre Goten e Trunks?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Vegito",
+                    "isCorrect": false,
+                    "explanation": "Vegito é a fusão de Goku e Vegeta,\nnão de Goten e Trunks.\nTente outra!"
+                },
+                {
+                    "text": "Gotenks",
+                    "isCorrect": true,
+                    "explanation": "Correto! Gotenks é a fusão de Goten e Trunks.\nCheio de energia e travessuras!\nE com um cabelo estiloso.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Gotenks.png",
+                    "imageDescription": "Gotenks, fusão de Goten e Trunks."
+                },
+                {
+                    "text": "Gogeta",
+                    "isCorrect": false,
+                    "explanation": "Gogeta é outra fusão de Goku e Vegeta.\nDessa vez, não é o caso!\nContinue tentando!"
+                },
+                {
+                    "text": "Pantrunks",
+                    "isCorrect": false,
+                    "explanation": "Pantrunks não existe!\nVocê inventou esse nome.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "36",
+            "question": "Qual é o nome do ataque de Piccolo que perfura o inimigo em linha reta?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Masenko",
+                    "isCorrect": false,
+                    "explanation": "Masenko é do Gohan,\nnão do Piccolo.\nTente outra!"
+                },
+                {
+                    "text": "Special Beam Cannon",
+                    "isCorrect": true,
+                    "explanation": "Correto! Special Beam Cannon perfura qualquer coisa.\nPiccolo usou contra Raditz e Goku.\nUm ataque letal!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Special_Beam_Cannon.png",
+                    "imageDescription": "Piccolo usando Special Beam Cannon."
+                },
+                {
+                    "text": "Destructo Disc",
+                    "isCorrect": false,
+                    "explanation": "Destructo Disc é do Kuririn,\nnão do Piccolo.\nContinue tentando!"
+                },
+                {
+                    "text": "Kamehameha",
+                    "isCorrect": false,
+                    "explanation": "Kamehameha é do Goku.\nPiccolo é mais perfurante!\nTente outra!"
+                }
+            ]
+        },
+        {
+            "id": "37",
+            "question": "Qual personagem é famoso por sua transformação em macaco gigante (Oozaru)?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Gohan",
+                    "isCorrect": false,
+                    "explanation": "Gohan também vira Oozaru,\nmas outro personagem é mais famoso por isso.\nPense no rival de Goku!"
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": true,
+                    "explanation": "Correto! Vegeta vira Oozaru na saga Saiyajin.\nFicou gigante e destruidor!\nUm macacão de respeito.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Vegeta_Oozaru.png",
+                    "imageDescription": "Vegeta transformado em Oozaru."
+                },
+                {
+                    "text": "Piccolo",
+                    "isCorrect": false,
+                    "explanation": "Piccolo nunca vira macaco gigante.\nEle é verde, mas não peludo!\nContinue tentando!"
+                },
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "Kuririn nunca vira Oozaru.\nImagina só o tamanho da careca!\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "38",
+            "question": "Qual personagem é ressuscitado por Goku com uma semente dos deuses (Senzu Bean) durante a saga dos Saiyajins?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "Kuririn ganha várias sementes,\nmas não é ressuscitado por Goku.\nTente outro Z Fighter!"
+                },
+                {
+                    "text": "Yamcha",
+                    "isCorrect": false,
+                    "explanation": "Yamcha morre para um Saibaman,\nmas não é ressuscitado no campo de batalha.\nContinue tentando!"
+                },
+                {
+                    "text": "Gohan",
+                    "isCorrect": false,
+                    "explanation": "Gohan recebe Senzu Bean,\nmas não é ressuscitado.\nTente outro personagem!"
+                },
+                {
+                    "text": "Tien",
+                    "isCorrect": true,
+                    "explanation": "Correto! Goku salva Tien com uma Senzu Bean.\nEle estava quase indo para o outro mundo!\nQue sorte, hein?",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Tien_Shinhan_Dragon_Ball.png",
+                    "imageDescription": "Tien, salvo por uma Senzu Bean."
+                }
+            ]
+        },
+        {
+            "id": "39",
+            "question": "Qual é o nome do planeta onde Goku treina após morrer na saga dos Saiyajins?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Planeta Terra",
+                    "isCorrect": false,
+                    "explanation": "Goku treina na Terra,\nmas não após morrer.\nPense em outro planeta!"
+                },
+                {
+                    "text": "Planeta Namek",
+                    "isCorrect": false,
+                    "explanation": "Namek é importante,\nmas Goku não treina lá após morrer.\nContinue tentando!"
+                },
+                {
+                    "text": "Planeta do Senhor Kaio (Kai's Planet)",
+                    "isCorrect": true,
+                    "explanation": "Correto! Goku treina no planeta do Senhor Kaio.\nGravidade aumentada e piadas ruins!\nÓtimo lugar para ficar forte.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:King_Kai_Planet.png",
+                    "imageDescription": "Planeta do Senhor Kaio."
+                },
+                {
+                    "text": "Planeta Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Planeta Vegeta já tinha sido destruído.\nGoku treina em outro lugar!\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "40",
+            "question": "Qual é o nome do vilão que se transforma em várias formas antes de sua forma final em Namek?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Cell",
+                    "isCorrect": false,
+                    "explanation": "Cell também tem várias formas,\nmas não em Namek.\nTente outro vilão!"
+                },
+                {
+                    "text": "Frieza",
+                    "isCorrect": true,
+                    "explanation": "Correto! Frieza muda de forma várias vezes em Namek.\nCada uma mais assustadora que a outra!\nVilão com estilo.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Frieza_Final_Form.png",
+                    "imageDescription": "Frieza em sua forma final."
+                },
+                {
+                    "text": "Majin Boo",
+                    "isCorrect": false,
+                    "explanation": "Majin Boo muda de forma,\nmas não em Namek.\nContinue tentando!"
+                },
+                {
+                    "text": "Ginyu",
+                    "isCorrect": false,
+                    "explanation": "Ginyu troca de corpo,\nmas não tem várias formas.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "41",
+            "question": "Qual é o nome do ataque que Goku usa para se teletransportar?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Instant Transmission",
+                    "isCorrect": true,
+                    "explanation": "Isso mesmo! Instant Transmission é o teletransporte de Goku.\nEle pode se mover instantaneamente para onde quiser.\nMuito prático para fugir de confusões!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Instant_Transmission.png",
+                    "imageDescription": "Goku usando Instant Transmission."
+                },
+                {
+                    "text": "Kaioken",
+                    "isCorrect": false,
+                    "explanation": "Kaioken aumenta o poder, mas não teletransporta.\nTente outra técnica!"
+                },
+                {
+                    "text": "Kamehameha",
+                    "isCorrect": false,
+                    "explanation": "Kamehameha é um ataque de energia, não teletransporte.\nContinue tentando!"
+                },
+                {
+                    "text": "Destructo Disc",
+                    "isCorrect": false,
+                    "explanation": "Destructo Disc é um disco cortante, não teletransporte.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "42",
+            "question": "Qual é o nome do mestre que treinou Goku para usar o Kaioken?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Mestre Kame",
+                    "isCorrect": false,
+                    "explanation": "Mestre Kame treinou Goku em outras técnicas,\nmas não no Kaioken.\nTente outro mestre!"
+                },
+                {
+                    "text": "Rei Kai",
+                    "isCorrect": true,
+                    "explanation": "Correto! Rei Kai ensinou o Kaioken para Goku.\nUm treino duro, mas recompensador.\nCuidado com os riscos!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:King_Kai.png",
+                    "imageDescription": "Rei Kai, mestre do Kaioken."
+                },
+                {
+                    "text": "Kami-sama",
+                    "isCorrect": false,
+                    "explanation": "Kami-sama é o guardião da Terra,\nmas não ensinou o Kaioken.\nContinue tentando!"
+                },
+                {
+                    "text": "Piccolo",
+                    "isCorrect": false,
+                    "explanation": "Piccolo treinou Gohan,\nnão Goku para o Kaioken.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "43",
+            "question": "Qual é o nome do filho de Goku que também se transforma em Super Saiyajin?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Goten",
+                    "isCorrect": true,
+                    "explanation": "Correto! Goten é o filho mais novo de Goku e se transforma em Super Saiyajin.\nEle é muito poderoso para a idade.\nUm prodígio em treinamento!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Goten_Super_Saiyan.png",
+                    "imageDescription": "Goten em sua forma Super Saiyajin."
+                },
+                {
+                    "text": "Trunks",
+                    "isCorrect": false,
+                    "explanation": "Trunks é filho de Vegeta, não de Goku.\nMas também se transforma em Super Saiyajin.\nTente outra!"
+                },
+                {
+                    "text": "Gohan",
+                    "isCorrect": false,
+                    "explanation": "Gohan é filho de Goku e também vira Super Saiyajin,\nmas a pergunta pede o filho mais novo.\nContinue tentando!"
+                },
+                {
+                    "text": "Pan",
+                    "isCorrect": false,
+                    "explanation": "Pan é neta de Goku, não filha.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "44",
+            "question": "Qual é o nome do vilão que possui uma cauda de macaco e pode se transformar em Oozaru?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Raditz",
+                    "isCorrect": true,
+                    "explanation": "Isso! Raditz tem cauda e pode virar Oozaru.\nEle é irmão de Goku e um Saiyajin verdadeiro.\nCuidado com a transformação!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Raditz_Dragon_Ball.png",
+                    "imageDescription": "Raditz com sua cauda de macaco."
+                },
+                {
+                    "text": "Frieza",
+                    "isCorrect": false,
+                    "explanation": "Frieza não tem cauda e não vira Oozaru.\nTente outra opção!"
+                },
+                {
+                    "text": "Cell",
+                    "isCorrect": false,
+                    "explanation": "Cell não tem cauda nem vira Oozaru.\nContinue tentando!"
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta tem cauda e pode virar Oozaru,\nmas a pergunta pede um vilão específico.\nRaditz é mais correto!"
+                }
+            ]
+        },
+        {
+            "id": "45",
+            "question": "Qual é o nome da técnica de Piccolo que ele usa para curar ferimentos?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Regeneração",
+                    "isCorrect": true,
+                    "explanation": "Correto! Piccolo tem a habilidade de regenerar partes do corpo.\nIsso o torna um adversário difícil.\nCuidado com os ataques!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Piccolo_Regeneration.png",
+                    "imageDescription": "Piccolo regenerando seu braço."
+                },
+                {
+                    "text": "Masenko",
+                    "isCorrect": false,
+                    "explanation": "Masenko é um ataque de energia, não cura.\nTente outra!"
+                },
+                {
+                    "text": "Special Beam Cannon",
+                    "isCorrect": false,
+                    "explanation": "Special Beam Cannon é ataque perfurante.\nNão envolve cura.\nContinue tentando!"
+                },
+                {
+                    "text": "Destructo Disc",
+                    "isCorrect": false,
+                    "explanation": "Destructo Disc é técnica de Krillin.\nNão cura ferimentos.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "46",
+            "question": "Qual é o nome da transformação que Vegeta alcança após o Super Saiyajin Blue?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Ultra Instinto",
+                    "isCorrect": false,
+                    "explanation": "Ultra Instinto é uma técnica de Goku,\nnão de Vegeta.\nTente outra!"
+                },
+                {
+                    "text": "Super Saiyajin Blue Evolution",
+                    "isCorrect": true,
+                    "explanation": "Correto! Vegeta alcança o Super Saiyajin Blue Evolution.\nÉ uma forma mais poderosa do Blue.\nEle fica ainda mais feroz!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Vegeta_SSB_Evolution.png",
+                    "imageDescription": "Vegeta em Super Saiyajin Blue Evolution."
+                },
+                {
+                    "text": "Super Saiyajin God",
+                    "isCorrect": false,
+                    "explanation": "Super Saiyajin God vem antes do Blue.\nContinue tentando!"
+                },
+                {
+                    "text": "Kaioken",
+                    "isCorrect": false,
+                    "explanation": "Kaioken é uma técnica de aumento de poder,\nnão transformação.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "47",
+            "question": "Qual é o nome do vilão que destrói a Terra na saga de Majin Boo?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Kid Boo",
+                    "isCorrect": true,
+                    "explanation": "Exato! Kid Boo é a forma mais pura e destrutiva de Majin Boo.\nEle destrói a Terra com um só ataque.\nUm vilão caótico!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Kid_Buu.png",
+                    "imageDescription": "Kid Boo, forma mais perigosa de Majin Boo."
+                },
+                {
+                    "text": "Super Boo",
+                    "isCorrect": false,
+                    "explanation": "Super Boo é uma forma menos destrutiva.\nKid Boo é o verdadeiro destruidor.\nTente outra!"
+                },
+                {
+                    "text": "Fat Boo",
+                    "isCorrect": false,
+                    "explanation": "Fat Boo é a forma engraçada.\nNão destrói a Terra.\nContinue tentando!"
+                },
+                {
+                    "text": "Majin Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Majin Vegeta é aliado de Boo,\nnão destruidor da Terra.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "48",
+            "question": "Qual é o nome do personagem que possui o poder de absorver energia vital dos outros?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Cell",
+                    "isCorrect": false,
+                    "explanation": "Cell absorve androides,\nnão energia vital.\nTente outra opção!"
+                },
+                {
+                    "text": "Frieza",
+                    "isCorrect": false,
+                    "explanation": "Frieza é poderoso,\nmas não absorve energia vital.\nContinue tentando!"
+                },
+                {
+                    "text": "Majin Boo",
+                    "isCorrect": true,
+                    "explanation": "Correto! Majin Boo absorve energia vital e poderes.\nEle fica mais forte a cada absorção.\nUm verdadeiro devorador!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Majin_Buu.png",
+                    "imageDescription": "Majin Boo absorvendo energia."
+                },
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "Goku não absorve energia vital.\nEle ganha poder treinando.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "49",
+            "question": "Qual é o nome da técnica que permite a fusão entre Goku e Vegeta usando brincos?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Fusão Metamoru",
+                    "isCorrect": false,
+                    "explanation": "Fusão Metamoru é feita pela dança,\nnão pelos brincos.\nTente outra técnica!"
+                },
+                {
+                    "text": "Fusão Potara",
+                    "isCorrect": true,
+                    "explanation": "Correto! A fusão Potara usa brincos mágicos.\nCria o Vegito, um guerreiro poderoso.\nUm método elegante!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Vegito.png",
+                    "imageDescription": "Vegito, fusão Potara de Goku e Vegeta."
+                },
+                {
+                    "text": "Fusão Instantânea",
+                    "isCorrect": false,
+                    "explanation": "Fusão Instantânea não existe.\nContinue tentando!"
+                },
+                {
+                    "text": "Fusão Saiyajin",
+                    "isCorrect": false,
+                    "explanation": "Fusão Saiyajin não é um nome oficial.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "50",
+            "question": "Qual é o nome do personagem que é o mestre da técnica Kamehameha?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Mestre Kame",
+                    "isCorrect": true,
+                    "explanation": "Isso! Mestre Kame é o criador do Kamehameha.\nEle ensinou Goku e outros.\nUm mestre lendário!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Mestre_Kame.png",
+                    "imageDescription": "Mestre Kame, criador do Kamehameha."
+                },
+                {
+                    "text": "Rei Kai",
+                    "isCorrect": false,
+                    "explanation": "Rei Kai ensinou outras técnicas,\nnão o Kamehameha.\nTente outra!"
+                },
+                {
+                    "text": "Kami-sama",
+                    "isCorrect": false,
+                    "explanation": "Kami-sama é guardião da Terra,\nnão mestre do Kamehameha.\nContinue tentando!"
+                },
+                {
+                    "text": "Piccolo",
+                    "isCorrect": false,
+                    "explanation": "Piccolo não criou o Kamehameha.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "51",
+            "question": "Qual é o nome da técnica que permite a fusão entre Goten e Trunks?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Fusão Metamoru",
+                    "isCorrect": true,
+                    "explanation": "Isso! Fusão Metamoru é feita pela dança.\nCria o Gotenks, um guerreiro poderoso.\nMuito divertido de assistir!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Gotenks.png",
+                    "imageDescription": "Gotenks, fusão por dança de Goten e Trunks."
+                },
+                {
+                    "text": "Fusão Potara",
+                    "isCorrect": false,
+                    "explanation": "Fusão Potara usa brincos,\nnão dança.\nTente outra!"
+                },
+                {
+                    "text": "Fusão Instantânea",
+                    "isCorrect": false,
+                    "explanation": "Fusão Instantânea não existe.\nContinue tentando!"
+                },
+                {
+                    "text": "Fusão Saiyajin",
+                    "isCorrect": false,
+                    "explanation": "Fusão Saiyajin não é nome oficial.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "52",
+            "question": "Qual é o nome do personagem que é o melhor amigo de Goku desde a infância?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Kuririn",
+                    "isCorrect": true,
+                    "explanation": "Correto! Kuririn é o melhor amigo de Goku desde criança.\nSempre ao seu lado nas aventuras.\nUm parceiro fiel!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Kuririn.png",
+                    "imageDescription": "Kuririn, melhor amigo de Goku."
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta é rival, não amigo de infância.\nTente outra resposta!"
+                },
+                {
+                    "text": "Yamcha",
+                    "isCorrect": false,
+                    "explanation": "Yamcha é amigo, mas não o melhor desde a infância.\nContinue tentando!"
+                },
+                {
+                    "text": "Piccolo",
+                    "isCorrect": false,
+                    "explanation": "Piccolo virou amigo depois,\nnão desde a infância.\nTente outra!"
+                }
+            ]
+        },
+        {
+            "id": "53",
+            "question": "Qual é o nome do planeta onde ocorre a luta contra Cell?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Terra",
+                    "isCorrect": true,
+                    "explanation": "Correto! A luta final contra Cell acontece na Terra.\nUm combate épico que quase destrói tudo.\nO destino do planeta em jogo!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Earth.png",
+                    "imageDescription": "Planeta Terra, palco da luta contra Cell."
+                },
+                {
+                    "text": "Namek",
+                    "isCorrect": false,
+                    "explanation": "Namek é palco da luta contra Frieza,\nnão Cell.\nTente outra!"
+                },
+                {
+                    "text": "Planeta Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Planeta Vegeta foi destruído antes.\nNão é palco da luta contra Cell.\nContinue tentando!"
+                },
+                {
+                    "text": "Planeta do Senhor Kaio",
+                    "isCorrect": false,
+                    "explanation": "O planeta do Senhor Kaio é pequeno e estranho,\nnão local da luta contra Cell.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "54",
+            "question": "Qual personagem é conhecido por sua técnica 'Solar Flare' que cega inimigos?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Kuririn",
+                    "isCorrect": true,
+                    "explanation": "Correto! Kuririn usa o Solar Flare para cegar inimigos.\nMuito útil em batalhas complicadas.\nUm truque brilhante!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Solar_Flare.png",
+                    "imageDescription": "Kuririn usando Solar Flare."
+                },
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "Goku não usa Solar Flare.\nTente outra técnica!"
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta não usa Solar Flare.\nContinue tentando!"
+                },
+                {
+                    "text": "Piccolo",
+                    "isCorrect": false,
+                    "explanation": "Piccolo não usa Solar Flare.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "55",
+            "question": "Qual é o nome do personagem que é o líder do exército de Freeza?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Ginyu",
+                    "isCorrect": true,
+                    "explanation": "Isso! Capitão Ginyu é o líder da força especial de Freeza.\nConhecido por sua pose teatral.\nUm vilão carismático!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Captain_Ginyu.png",
+                    "imageDescription": "Capitão Ginyu, líder da força especial."
+                },
+                {
+                    "text": "Zarbon",
+                    "isCorrect": false,
+                    "explanation": "Zarbon é um dos soldados,\nnão o líder.\nTente outra resposta!"
+                },
+                {
+                    "text": "Dodoria",
+                    "isCorrect": false,
+                    "explanation": "Dodoria é soldado,\nnão o líder.\nContinue tentando!"
+                },
+                {
+                    "text": "Freeza",
+                    "isCorrect": false,
+                    "explanation": "Freeza é o comandante supremo,\nnão líder do exército.\nTente outra!"
+                }
+            ]
+        },
+        {
+            "id": "56",
+            "question": "Qual é o nome do vilão que é um androide criado pelo Dr. Gero para destruir Goku?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Androide 17",
+                    "isCorrect": false,
+                    "explanation": "Androide 17 é um dos androides,\nmas não o principal vilão.\nTente outra!"
+                },
+                {
+                    "text": "Androide 18",
+                    "isCorrect": false,
+                    "explanation": "Androide 18 é irmã do 17,\nnão o vilão principal.\nContinue tentando!"
+                },
+                {
+                    "text": "Androide 19",
+                    "isCorrect": false,
+                    "explanation": "Androide 19 aparece,\nmas não é o principal vilão.\nTente outra resposta!"
+                },
+                {
+                    "text": "Androide 20 (Dr. Gero)",
+                    "isCorrect": true,
+                    "explanation": "Correto! Androide 20 é o próprio Dr. Gero.\nEle criou androides para destruir Goku.\nUm vilão engenhoso!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Android_20.png",
+                    "imageDescription": "Androide 20, o Dr. Gero."
+                }
+            ]
+        },
+        {
+            "id": "57",
+            "question": "Qual é o nome da técnica usada por Goku para aumentar seu poder temporariamente, mas com risco de danos ao corpo?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Kaioken",
+                    "isCorrect": true,
+                    "explanation": "Exato! Kaioken aumenta o poder de Goku,\nmas pode causar danos se usado demais.\nUm poder perigoso!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Kaioken.png",
+                    "imageDescription": "Goku usando Kaioken."
+                },
+                {
+                    "text": "Genki Dama",
+                    "isCorrect": false,
+                    "explanation": "Genki Dama é uma técnica de energia externa,\nnão causa danos ao corpo.\nTente outra!"
+                },
+                {
+                    "text": "Kamehameha",
+                    "isCorrect": false,
+                    "explanation": "Kamehameha é um ataque,\nnão aumenta poder temporariamente.\nContinue tentando!"
+                },
+                {
+                    "text": "Teletransporte",
+                    "isCorrect": false,
+                    "explanation": "Teletransporte não aumenta poder.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "58",
+            "question": "Qual é o nome do personagem que é um Namekuseijin e rival de Goku na infância?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Piccolo",
+                    "isCorrect": true,
+                    "explanation": "Correto! Piccolo era rival de Goku no começo.\nDepois virou aliado.\nUm personagem complexo!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Piccolo_Dragon_Ball.png",
+                    "imageDescription": "Piccolo, rival e depois aliado de Goku."
+                },
+                {
+                    "text": "Kami-sama",
+                    "isCorrect": false,
+                    "explanation": "Kami-sama é guardião da Terra,\nnão rival de infância.\nTente outra!"
+                },
+                {
+                    "text": "Dende",
+                    "isCorrect": false,
+                    "explanation": "Dende é mais jovem e não rival.\nContinue tentando!"
+                },
+                {
+                    "text": "Guru",
+                    "isCorrect": false,
+                    "explanation": "Guru é líder dos Namekuseijins,\nnão rival de Goku.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "59",
+            "question": "Qual é o nome do vilão que possui a habilidade de trocar de corpo com outras pessoas?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Frieza",
+                    "isCorrect": false,
+                    "explanation": "Frieza não troca de corpo.\nTente outra opção!"
+                },
+                {
+                    "text": "Ginyu",
+                    "isCorrect": true,
+                    "explanation": "Correto! Capitão Ginyu pode trocar de corpo.\nUm poder único e assustador.\nCuidado com ele!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Captain_Ginyu.png",
+                    "imageDescription": "Capitão Ginyu, mestre da troca de corpos."
+                },
+                {
+                    "text": "Cell",
+                    "isCorrect": false,
+                    "explanation": "Cell não troca de corpo.\nContinue tentando!"
+                },
+                {
+                    "text": "Majin Boo",
+                    "isCorrect": false,
+                    "explanation": "Majin Boo não troca de corpo.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "60",
+            "question": "Qual é o nome do personagem que é o mestre da técnica 'Destructo Disc'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Kuririn",
+                    "isCorrect": true,
+                    "explanation": "Isso! Kuririn usa o Destructo Disc, um disco cortante de energia.\nMuito perigoso e preciso.\nUm ataque clássico!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Destructo_Disc.png",
+                    "imageDescription": "Kuririn usando Destructo Disc."
+                },
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "Goku não usa Destructo Disc.\nTente outra técnica!"
+                },
+                {
+                    "text": "Piccolo",
+                    "isCorrect": false,
+                    "explanation": "Piccolo tem outras técnicas.\nContinue tentando!"
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta não usa Destructo Disc.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "61",
+            "question": "Qual personagem é conhecido por sua paixão por comida e apetite insaciável?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta come bem,\nmas não chega a ser famoso pelo apetite.\nTente outro esfomeado!"
+                },
+                {
+                    "text": "Goku",
+                    "isCorrect": true,
+                    "explanation": "Correto! Goku é um devorador profissional.\nSe fosse campeonato de comida, ele seria campeão!\nNunca recusa um prato.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Goku_Eating.png",
+                    "imageDescription": "Goku comendo vários pratos de comida."
+                },
+                {
+                    "text": "Piccolo",
+                    "isCorrect": false,
+                    "explanation": "Piccolo só bebe água!\nNada de banquetes para ele.\nContinue tentando!"
+                },
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "Kuririn come normal,\nmas não é famoso por isso.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "62",
+            "question": "Qual é o nome do filho de Gohan?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Pan",
+                    "isCorrect": true,
+                    "explanation": "Exatamente! Pan é filha de Gohan e Videl.\nEla é cheia de energia e coragem.\nA próxima geração está garantida!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Pan.png",
+                    "imageDescription": "Pan, filha de Gohan."
+                },
+                {
+                    "text": "Goten",
+                    "isCorrect": false,
+                    "explanation": "Goten é irmão de Gohan,\nnão filho.\nA árvore genealógica ficou confusa!"
+                },
+                {
+                    "text": "Trunks",
+                    "isCorrect": false,
+                    "explanation": "Trunks é filho de Vegeta e Bulma.\nNada a ver com Gohan.\nContinue tentando!"
+                },
+                {
+                    "text": "Bra",
+                    "isCorrect": false,
+                    "explanation": "Bra é filha de Vegeta e Bulma.\nPan é a resposta certa!\nTente novamente."
+                }
+            ]
+        },
+        {
+            "id": "63",
+            "question": "Qual personagem é famoso por usar espadas em Dragon Ball Z?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Gohan",
+                    "isCorrect": false,
+                    "explanation": "Gohan já treinou com espada,\nmas não é o espadachim famoso.\nTente outro!"
+                },
+                {
+                    "text": "Trunks",
+                    "isCorrect": true,
+                    "explanation": "Correto! Trunks é famoso por sua espada.\nEle chegou cortando tudo no futuro!\nUm guerreiro estiloso.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Trunks_Sword.png",
+                    "imageDescription": "Trunks segurando sua espada."
+                },
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "Kuririn prefere discos cortantes a espadas.\nContinue tentando!"
+                },
+                {
+                    "text": "Piccolo",
+                    "isCorrect": false,
+                    "explanation": "Piccolo usa poderes, não espadas.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "64",
+            "question": "Qual é o nome do torneio de artes marciais mais famoso em Dragon Ball Z?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Torneio do Poder",
+                    "isCorrect": false,
+                    "explanation": "Torneio do Poder é de Dragon Ball Super.\nEm DBZ, o nome é outro!\nTente lembrar do clássico."
+                },
+                {
+                    "text": "Torneio Mundial de Artes Marciais",
+                    "isCorrect": true,
+                    "explanation": "Correto! O Torneio Mundial de Artes Marciais é o mais famoso.\nReúne lutadores do mundo todo.\nCenário de grandes batalhas!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:World_Martial_Arts_Tournament.png",
+                    "imageDescription": "Arena do Torneio Mundial de Artes Marciais."
+                },
+                {
+                    "text": "Torneio do Céu",
+                    "isCorrect": false,
+                    "explanation": "Torneio do Céu não existe em DBZ.\nContinue tentando!"
+                },
+                {
+                    "text": "Torneio dos Saiyajins",
+                    "isCorrect": false,
+                    "explanation": "Não existe torneio só de Saiyajins em DBZ.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "65",
+            "question": "Qual personagem é famoso por sua careca brilhante?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Yamcha",
+                    "isCorrect": false,
+                    "explanation": "Yamcha tem cabelo comprido.\nCareca não é com ele!\nTente outro."
+                },
+                {
+                    "text": "Kuririn",
+                    "isCorrect": true,
+                    "explanation": "Correto! Kuririn é o careca mais famoso de DBZ.\nBrilha mais que Super Saiyajin!\nUm visual aerodinâmico.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Kuririn.png",
+                    "imageDescription": "Kuririn com sua careca brilhante."
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta tem entradas, mas não é careca!\nContinue tentando!"
+                },
+                {
+                    "text": "Piccolo",
+                    "isCorrect": false,
+                    "explanation": "Piccolo não tem cabelo,\nmas também não é chamado de careca.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "66",
+            "question": "Qual é o nome do dragão de Namekusei?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Shenlong",
+                    "isCorrect": false,
+                    "explanation": "Shenlong é o dragão da Terra.\nEm Namekusei, o nome é diferente!\nTente lembrar."
+                },
+                {
+                    "text": "Porunga",
+                    "isCorrect": true,
+                    "explanation": "Correto! Porunga é o dragão de Namekusei.\nEle é ainda mais musculoso que o da Terra!\nE realiza três desejos.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Porunga.png",
+                    "imageDescription": "Porunga, o dragão de Namekusei."
+                },
+                {
+                    "text": "Haku",
+                    "isCorrect": false,
+                    "explanation": "Haku é de outro anime.\nNada a ver com Namekusei!\nContinue tentando!"
+                },
+                {
+                    "text": "Smaug",
+                    "isCorrect": false,
+                    "explanation": "Smaug é dragão de Tolkien.\nAqui é Dragon Ball!\nTente outra resposta."
+                }
+            ]
+        },
+        {
+            "id": "67",
+            "question": "Qual personagem é famoso por suas poses extravagantes e danças?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Ginyu Force",
+                    "isCorrect": true,
+                    "explanation": "Correto! A Ginyu Force é famosa por poses e danças.\nEles treinam mais as poses do que as lutas!\nUm show à parte.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Ginyu_Force.png",
+                    "imageDescription": "A Ginyu Force fazendo poses extravagantes."
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta não dança nem faz pose.\nMuito sério para isso!\nTente outra resposta."
+                },
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "Kuririn não faz poses,\napenas luta!\nContinue tentando."
+                },
+                {
+                    "text": "Piccolo",
+                    "isCorrect": false,
+                    "explanation": "Piccolo é sério demais para poses.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "68",
+            "question": "Qual é o nome do vilão que é absorvido por Majin Boo e fica preso dentro dele?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta luta contra Boo,\nmas não é absorvido.\nTente outro personagem!"
+                },
+                {
+                    "text": "Gotenks",
+                    "isCorrect": true,
+                    "explanation": "Correto! Gotenks é absorvido por Majin Boo.\nFica preso junto com Piccolo.\nQue confusão dentro do Boo!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Gotenks.png",
+                    "imageDescription": "Gotenks, absorvido por Majin Boo."
+                },
+                {
+                    "text": "Gohan",
+                    "isCorrect": false,
+                    "explanation": "Gohan também é absorvido,\nmas a pergunta pede o mais famoso.\nContinue tentando!"
+                },
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "Kuririn não é absorvido por Boo.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "69",
+            "question": "Qual personagem é conhecido por sua risada maligna e cabelo rosa?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Majin Boo",
+                    "isCorrect": false,
+                    "explanation": "Majin Boo é rosa,\nmas não tem cabelo!\nTente outro vilão estiloso."
+                },
+                {
+                    "text": "Zamasu (Goku Black - Super Saiyan Rosé)",
+                    "isCorrect": true,
+                    "explanation": "Correto! Goku Black na forma Super Saiyan Rosé tem cabelo rosa e risada sinistra.\nUm vilão de respeito!\nA moda chegou a Dragon Ball.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Goku_Black_SSR.png",
+                    "imageDescription": "Goku Black em Super Saiyan Rosé."
+                },
+                {
+                    "text": "Freeza",
+                    "isCorrect": false,
+                    "explanation": "Freeza é estiloso,\nmas não tem cabelo rosa!\nContinue tentando."
+                },
+                {
+                    "text": "Cell",
+                    "isCorrect": false,
+                    "explanation": "Cell é verde e não tem cabelo.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "70",
+            "question": "Qual é o nome do planeta onde vivem os Kais Supremos?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Planeta dos Kais",
+                    "isCorrect": true,
+                    "explanation": "Correto! Os Kais Supremos vivem no Planeta dos Kais.\nUm lugar sagrado e cheio de mistérios.\nNão é para qualquer um!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Sacred_World_of_the_Kai.png",
+                    "imageDescription": "O Planeta dos Kais Supremos."
+                },
+                {
+                    "text": "Planeta Namek",
+                    "isCorrect": false,
+                    "explanation": "Namek é dos Namekuseijins,\nnão dos Kais.\nContinue tentando!"
+                },
+                {
+                    "text": "Planeta Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Planeta Vegeta é dos Saiyajins,\nnão dos Kais Supremos.\nTente outra resposta!"
+                },
+                {
+                    "text": "Planeta Terra",
+                    "isCorrect": false,
+                    "explanation": "Terra é onde vivem os humanos.\nOs Kais Supremos estão mais distantes!\nTente outra."
+                }
+            ]
+        },
+        {
+            "id": "71",
+            "question": "Qual personagem é famoso por sua cicatriz no rosto?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Yamcha",
+                    "isCorrect": true,
+                    "explanation": "Correto! Yamcha tem uma cicatriz marcante no rosto.\nUm visual de guerreiro experiente.\nE azarado nos torneios!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Yamcha.png",
+                    "imageDescription": "Yamcha com sua cicatriz característica."
+                },
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "Kuririn tem marcas na testa,\nmas não cicatriz no rosto.\nContinue tentando!"
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta não tem cicatriz no rosto.\nTente outra resposta!"
+                },
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "Goku não tem cicatriz no rosto.\nTente outro personagem!"
+                }
+            ]
+        },
+        {
+            "id": "72",
+            "question": "Qual é o nome do androide que se torna amigo dos Guerreiros Z e adora a natureza?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Androide 16",
+                    "isCorrect": true,
+                    "explanation": "Correto! Androide 16 é pacífico e ama a natureza.\nUm robô com coração de passarinho!\nUm dos androides mais queridos.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Android_16.png",
+                    "imageDescription": "Androide 16 apreciando a natureza."
+                },
+                {
+                    "text": "Androide 17",
+                    "isCorrect": false,
+                    "explanation": "Androide 17 vira amigo,\nmas não é o amante da natureza.\nContinue tentando!"
+                },
+                {
+                    "text": "Androide 18",
+                    "isCorrect": false,
+                    "explanation": "Androide 18 é mais prática que ecológica.\nTente outra resposta!"
+                },
+                {
+                    "text": "Cell",
+                    "isCorrect": false,
+                    "explanation": "Cell não é amigo de ninguém,\napenas absorve!\nTente outra."
+                }
+            ]
+        },
+        {
+            "id": "73",
+            "question": "Qual personagem é famoso por ser o mais forte dos humanos em Dragon Ball Z?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "Kuririn é forte,\nmas não o mais forte dos humanos.\nTente outro careca!"
+                },
+                {
+                    "text": "Tien",
+                    "isCorrect": true,
+                    "explanation": "Correto! Tien é considerado o humano mais forte de DBZ.\nTrês olhos, três vezes mais poder!\nUm mestre das artes marciais.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Tien_Shinhan_Dragon_Ball.png",
+                    "imageDescription": "Tien, o humano mais forte."
+                },
+                {
+                    "text": "Yamcha",
+                    "isCorrect": false,
+                    "explanation": "Yamcha é esforçado,\nmas não o mais forte.\nContinue tentando!"
+                },
+                {
+                    "text": "Mestre Kame",
+                    "isCorrect": false,
+                    "explanation": "Mestre Kame é lendário,\nmas já passou o bastão.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "74",
+            "question": "Qual é o nome da técnica de Goku que reúne energia de todos os seres vivos?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Genki Dama",
+                    "isCorrect": true,
+                    "explanation": "Correto! Genki Dama reúne energia de todos os seres vivos.\nÉ uma bomba de esperança!\nDemora, mas vale a pena.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Spirit_Bomb.png",
+                    "imageDescription": "Goku formando a Genki Dama."
+                },
+                {
+                    "text": "Kamehameha",
+                    "isCorrect": false,
+                    "explanation": "Kamehameha é poderoso,\nmas não reúne energia de todos.\nTente outra técnica!"
+                },
+                {
+                    "text": "Kaioken",
+                    "isCorrect": false,
+                    "explanation": "Kaioken aumenta o poder,\nmas não reúne energia.\nContinue tentando!"
+                },
+                {
+                    "text": "Final Flash",
+                    "isCorrect": false,
+                    "explanation": "Final Flash é do Vegeta,\nnão do Goku.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "75",
+            "question": "Qual personagem é famoso por ser o 'herói do futuro'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Goten",
+                    "isCorrect": false,
+                    "explanation": "Goten é do presente,\nnão do futuro.\nTente outro viajante do tempo!"
+                },
+                {
+                    "text": "Trunks",
+                    "isCorrect": true,
+                    "explanation": "Correto! Trunks do Futuro salva todo mundo dos androides.\nUm verdadeiro herói de outra linha do tempo!\nEspada na mão e coragem no peito.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Future_Trunks.png",
+                    "imageDescription": "Trunks do Futuro, o herói do futuro."
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta é pai do Trunks,\nmas não é o herói do futuro.\nContinue tentando!"
+                },
+                {
+                    "text": "Gohan",
+                    "isCorrect": false,
+                    "explanation": "Gohan é forte,\nmas não é chamado de herói do futuro.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "76",
+            "question": "Qual é o nome da esposa de Vegeta?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Bulma",
+                    "isCorrect": true,
+                    "explanation": "Correto! Bulma é a esposa de Vegeta.\nUma dupla improvável, mas poderosa!\nTecnologia e força juntos.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Bulma.png",
+                    "imageDescription": "Bulma, esposa de Vegeta."
+                },
+                {
+                    "text": "Chi-Chi",
+                    "isCorrect": false,
+                    "explanation": "Chi-Chi é esposa de Goku.\nNão confunda as famílias!\nTente outra resposta."
+                },
+                {
+                    "text": "Videl",
+                    "isCorrect": false,
+                    "explanation": "Videl é esposa de Gohan.\nContinue tentando!"
+                },
+                {
+                    "text": "Lunch",
+                    "isCorrect": false,
+                    "explanation": "Lunch é uma personagem engraçada,\nmas não esposa de Vegeta.\nTente outra!"
+                }
+            ]
+        },
+        {
+            "id": "77",
+            "question": "Qual personagem é famoso por ser o 'Grande Saiyaman'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Goten",
+                    "isCorrect": false,
+                    "explanation": "Goten é parceiro, mas não o Grande Saiyaman.\nTente outro herói mascarado!"
+                },
+                {
+                    "text": "Gohan",
+                    "isCorrect": true,
+                    "explanation": "Correto! Gohan vira o Grande Saiyaman para proteger a cidade.\nUm herói com estilo... duvidoso!\nMas com boas intenções.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Great_Saiyaman.png",
+                    "imageDescription": "Gohan como Grande Saiyaman."
+                },
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "Kuririn nunca usou capa nem capacete.\nContinue tentando!"
+                },
+                {
+                    "text": "Piccolo",
+                    "isCorrect": false,
+                    "explanation": "Piccolo é sério demais para esse papel.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "78",
+            "question": "Qual personagem é famoso por sua habilidade de dividir-se em múltiplos corpos?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Piccolo",
+                    "isCorrect": true,
+                    "explanation": "Correto! Piccolo pode se dividir em múltiplos corpos.\nUma técnica surpreendente e confusa!\nMultiplicando problemas.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Piccolo_Multi-Form.png",
+                    "imageDescription": "Piccolo usando a técnica de multiplicação."
+                },
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "Kuririn não se divide.\nEle só corre rápido!\nTente outra resposta."
+                },
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "Goku não usa essa técnica em DBZ.\nContinue tentando!"
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta prefere lutar sozinho.\nNada de clones para ele!"
+                }
+            ]
+        },
+        {
+            "id": "79",
+            "question": "Qual personagem é conhecido por ser o mais inteligente do grupo?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Bulma",
+                    "isCorrect": true,
+                    "explanation": "Correto! Bulma é um gênio da ciência.\nSem ela, ninguém acharia as Dragon Balls!\nTecnologia é com ela.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Bulma.png",
+                    "imageDescription": "Bulma, a mente brilhante do grupo."
+                },
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "Goku é um gênio das lutas,\nmas não da ciência.\nContinue tentando!"
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta é inteligente em batalha,\nmas não em tecnologia.\nTente outra resposta!"
+                },
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "Kuririn é esperto,\nmas Bulma é a verdadeira gênio!"
+                }
+            ]
+        },
+        {
+            "id": "80",
+            "question": "Qual personagem é famoso por sua habilidade de se transformar em vários tipos de Boo?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Majin Boo",
+                    "isCorrect": true,
+                    "explanation": "Correto! Majin Boo tem várias formas: gordo, magro, malvado, criança...\nUm verdadeiro camaleão rosa!\nNunca se sabe o que esperar.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Majin_Buu.png",
+                    "imageDescription": "Majin Boo em uma de suas muitas formas."
+                },
+                {
+                    "text": "Cell",
+                    "isCorrect": false,
+                    "explanation": "Cell muda de forma,\nmas não são tipos de Boo!\nTente outra resposta."
+                },
+                {
+                    "text": "Freeza",
+                    "isCorrect": false,
+                    "explanation": "Freeza tem várias formas,\nmas não são Boos.\nContinue tentando!"
+                },
+                {
+                    "text": "Gotenks",
+                    "isCorrect": false,
+                    "explanation": "Gotenks muda de aparência,\nmas não vira tipos de Boo!\nTente outra resposta."
+                }
+            ]
+        },
+        {
+            "id": "81",
+            "question": "Qual personagem é conhecido por sua habilidade de aumentar de tamanho durante a luta?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Cell",
+                    "isCorrect": false,
+                    "explanation": "Cell muda de forma,\nmas não aumenta de tamanho durante a luta.\nTente outro vilão gigante."
+                },
+                {
+                    "text": "Janemba",
+                    "isCorrect": false,
+                    "explanation": "Janemba é de um filme e muda de forma,\nmas não cresce durante a luta em DBZ.\nContinue tentando!"
+                },
+                {
+                    "text": "Lord Slug",
+                    "isCorrect": true,
+                    "explanation": "Correto! Lord Slug aumenta de tamanho numa luta contra Goku.\nFicou gigante, mas não gigante o suficiente!\nO tamanho não é documento.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Lord_Slug.png",
+                    "imageDescription": "Lord Slug em sua forma gigante."
+                },
+                {
+                    "text": "Ginyu",
+                    "isCorrect": false,
+                    "explanation": "Ginyu troca de corpo,\nmas não aumenta de tamanho.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "82",
+            "question": "Qual é o nome do planeta natal de Freeza?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Planeta Freeza No. 79",
+                    "isCorrect": true,
+                    "explanation": "Correto! Freeza nasceu no Planeta Freeza No. 79.\nEle não tem muita criatividade para nomes, né?\nMas tem para ser vilão!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Frieza_Force_Planet.png",
+                    "imageDescription": "Planeta do império de Freeza."
+                },
+                {
+                    "text": "Planeta Cold",
+                    "isCorrect": false,
+                    "explanation": "Planeta Cold é do Rei Cold,\npai de Freeza.\nTente outra resposta!"
+                },
+                {
+                    "text": "Planeta Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Planeta Vegeta é dos Saiyajins,\nnão de Freeza.\nContinue tentando!"
+                },
+                {
+                    "text": "Planeta Namek",
+                    "isCorrect": false,
+                    "explanation": "Namek é dos Namekuseijins.\nFreeza só foi lá para causar problemas!"
+                }
+            ]
+        },
+        {
+            "id": "83",
+            "question": "Qual personagem é famoso por sua habilidade de absorver outros guerreiros e adquirir seus poderes?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Majin Boo",
+                    "isCorrect": true,
+                    "explanation": "Correto! Majin Boo adora absorver guerreiros e ganhar poderes novos.\nUm verdadeiro aspirador de lutadores!\nNunca se sabe quem vai sair de dentro dele.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Majin_Buu.png",
+                    "imageDescription": "Majin Boo pronto para absorver alguém."
+                },
+                {
+                    "text": "Cell",
+                    "isCorrect": false,
+                    "explanation": "Cell absorve androides,\nmas não guerreiros em geral.\nTente outra resposta!"
+                },
+                {
+                    "text": "Ginyu",
+                    "isCorrect": false,
+                    "explanation": "Ginyu troca de corpo,\nmas não absorve poderes.\nContinue tentando!"
+                },
+                {
+                    "text": "Freeza",
+                    "isCorrect": false,
+                    "explanation": "Freeza ganha poder treinando,\nnão absorvendo.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "84",
+            "question": "Qual personagem é famoso por ser o 'homem mais forte do mundo' (segundo ele mesmo)?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "Kuririn é forte, mas nunca se autoproclamou o mais forte do mundo.\nTente outro mais convencido!"
+                },
+                {
+                    "text": "Mestre Kame",
+                    "isCorrect": false,
+                    "explanation": "Mestre Kame é lendário, mas não se gaba tanto.\nTente outro personagem!"
+                },
+                {
+                    "text": "Mr. Satan",
+                    "isCorrect": true,
+                    "explanation": "Correto! Mr. Satan adora dizer que é o mais forte do mundo.\nSó não enfrenta um vilão de verdade!\nMuita lábia, pouca força.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Hercule_Satan.png",
+                    "imageDescription": "Mr. Satan fazendo pose de campeão."
+                },
+                {
+                    "text": "Yamcha",
+                    "isCorrect": false,
+                    "explanation": "Yamcha é humilde (e azarado).\nNunca se autoproclamou o mais forte!"
+                }
+            ]
+        },
+        {
+            "id": "85",
+            "question": "Qual personagem é famoso por usar roupas de tartaruga?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "Kuririn usa o uniforme,\nmas não é o mais famoso por isso.\nTente outro mestre!"
+                },
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "Goku também usa,\nmas quem realmente representa a tartaruga é outro!"
+                },
+                {
+                    "text": "Mestre Kame",
+                    "isCorrect": true,
+                    "explanation": "Correto! Mestre Kame é o mestre da escola da tartaruga.\nO uniforme laranja é a marca registrada!\nUm mestre estiloso.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Mestre_Kame.png",
+                    "imageDescription": "Mestre Kame com seu uniforme de tartaruga."
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta nunca usaria roupa de tartaruga!\nMuito orgulho para isso."
+                }
+            ]
+        },
+        {
+            "id": "86",
+            "question": "Qual é o nome do androide que se sacrifica para salvar a natureza e inspirar Gohan?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Androide 16",
+                    "isCorrect": true,
+                    "explanation": "Correto! Androide 16 se sacrifica para salvar a natureza e inspira Gohan a se transformar.\nUm robô com coração de passarinho!\nHerói ecológico.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Android_16.png",
+                    "imageDescription": "Androide 16 em seu momento heroico."
+                },
+                {
+                    "text": "Androide 17",
+                    "isCorrect": false,
+                    "explanation": "Androide 17 é forte,\nmas não se sacrifica dessa forma.\nTente outro!"
+                },
+                {
+                    "text": "Androide 18",
+                    "isCorrect": false,
+                    "explanation": "Androide 18 sobrevive e vira mãe.\nContinue tentando!"
+                },
+                {
+                    "text": "Cell",
+                    "isCorrect": false,
+                    "explanation": "Cell é o vilão dessa história.\nNada de sacrifício ecológico aqui!"
+                }
+            ]
+        },
+        {
+            "id": "87",
+            "question": "Qual personagem é famoso por ser o primeiro a morrer na saga dos Saiyajins?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "Kuririn morre bastante,\nmas não é o primeiro da saga dos Saiyajins.\nTente outro azarado!"
+                },
+                {
+                    "text": "Yamcha",
+                    "isCorrect": true,
+                    "explanation": "Correto! Yamcha é o primeiro a morrer para um Saibaman.\nVirou meme e referência!\nAzar nunca acaba.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Yamcha_Dead.png",
+                    "imageDescription": "Yamcha derrotado por um Saibaman."
+                },
+                {
+                    "text": "Tien",
+                    "isCorrect": false,
+                    "explanation": "Tien luta bravamente,\nmas não é o primeiro a cair.\nContinue tentando!"
+                },
+                {
+                    "text": "Chiaotzu",
+                    "isCorrect": false,
+                    "explanation": "Chiaotzu se sacrifica depois.\nYamcha abre a fila!"
+                }
+            ]
+        },
+        {
+            "id": "88",
+            "question": "Qual personagem é famoso por sua habilidade de explodir a si mesmo para tentar derrotar o inimigo?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "Kuririn nunca explodiu a si mesmo.\nPrefere sobreviver!\nTente outro personagem explosivo."
+                },
+                {
+                    "text": "Chiaotzu",
+                    "isCorrect": true,
+                    "explanation": "Correto! Chiaotzu se sacrifica explodindo para tentar derrotar Nappa.\nUm ato de coragem (e desespero)!\nPequeno, mas explosivo.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Chiaotzu.png",
+                    "imageDescription": "Chiaotzu em seu momento de sacrifício."
+                },
+                {
+                    "text": "Yamcha",
+                    "isCorrect": false,
+                    "explanation": "Yamcha só explode em memes.\nContinue tentando!"
+                },
+                {
+                    "text": "Piccolo",
+                    "isCorrect": false,
+                    "explanation": "Piccolo já se sacrificou,\nmas não explodindo!\nTente outra resposta."
+                }
+            ]
+        },
+        {
+            "id": "89",
+            "question": "Qual personagem é famoso por sua habilidade de se transformar em Super Saiyajin 2 primeiro?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "Goku alcança Super Saiyajin 2,\nmas não foi o primeiro.\nTente outro prodígio!"
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta também alcança,\nmas não foi o pioneiro.\nContinue tentando!"
+                },
+                {
+                    "text": "Gohan",
+                    "isCorrect": true,
+                    "explanation": "Correto! Gohan é o primeiro a virar Super Saiyajin 2, durante a luta contra Cell.\nUm momento épico!\nExplosão de poder e emoção.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Gohan_Super_Saiyan_2.png",
+                    "imageDescription": "Gohan em Super Saiyajin 2."
+                },
+                {
+                    "text": "Trunks",
+                    "isCorrect": false,
+                    "explanation": "Trunks é forte,\nmas não foi o primeiro Super Saiyajin 2.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "90",
+            "question": "Qual personagem é famoso por sua habilidade de criar clones de si mesmo?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Piccolo",
+                    "isCorrect": true,
+                    "explanation": "Correto! Piccolo pode criar clones de si mesmo.\nMultiplicando a confusão no campo de batalha!\nUm verdadeiro mestre dos truques.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Piccolo_Multi-Form.png",
+                    "imageDescription": "Piccolo criando clones."
+                },
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "Kuririn não faz clones,\napenas corre rápido.\nContinue tentando!"
+                },
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "Goku não usa essa técnica em DBZ.\nTente outra resposta!"
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta prefere lutar sozinho.\nNada de clones para ele!"
+                }
+            ]
+        },
+        {
+            "id": "91",
+            "question": "Qual personagem é famoso por ser o guardião da Terra antes de Dende?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Kami-sama",
+                    "isCorrect": true,
+                    "explanation": "Correto! Kami-sama foi o guardião da Terra antes de Dende.\nUm sábio Namekuseijin com muitos segredos.\nResponsabilidade grande!",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Kami.png",
+                    "imageDescription": "Kami-sama, guardião da Terra."
+                },
+                {
+                    "text": "Piccolo",
+                    "isCorrect": false,
+                    "explanation": "Piccolo é parte de Kami-sama,\nmas não foi guardião antes de Dende.\nContinue tentando!"
+                },
+                {
+                    "text": "Mestre Kame",
+                    "isCorrect": false,
+                    "explanation": "Mestre Kame é mestre das artes marciais,\nnão guardião da Terra.\nTente outra resposta!"
+                },
+                {
+                    "text": "Guru",
+                    "isCorrect": false,
+                    "explanation": "Guru é líder de Namek,\nnão guardião da Terra.\nTente outra!"
+                }
+            ]
+        },
+        {
+            "id": "92",
+            "question": "Qual personagem é famoso por ter sido controlado por Babidi e se tornar Majin?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Vegeta",
+                    "isCorrect": true,
+                    "explanation": "Correto! Vegeta é controlado por Babidi e vira Majin Vegeta.\nFicou ainda mais perigoso!\nMas no fundo, continuou sendo Vegeta.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Majin_Vegeta.png",
+                    "imageDescription": "Majin Vegeta com o símbolo M na testa."
+                },
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "Goku nunca foi controlado por Babidi.\nSó pelo apetite mesmo!\nTente outra resposta."
+                },
+                {
+                    "text": "Gohan",
+                    "isCorrect": false,
+                    "explanation": "Gohan nunca virou Majin.\nContinue tentando!"
+                },
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "Kuririn nunca foi controlado por Babidi.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "93",
+            "question": "Qual personagem é famoso por ter sido ressuscitado mais vezes em Dragon Ball Z?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Kuririn",
+                    "isCorrect": true,
+                    "explanation": "Correto! Kuririn é praticamente cliente VIP das Dragon Balls.\nSe morrer fosse esporte, ele seria medalhista!\nSempre volta para mais aventuras.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Kuririn.png",
+                    "imageDescription": "Kuririn, o ressuscitado número 1."
+                },
+                {
+                    "text": "Yamcha",
+                    "isCorrect": false,
+                    "explanation": "Yamcha morre, mas não tanto quanto Kuririn.\nContinue tentando!"
+                },
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "Goku morre algumas vezes,\nmas Kuririn bate recordes!\nTente outra resposta."
+                },
+                {
+                    "text": "Piccolo",
+                    "isCorrect": false,
+                    "explanation": "Piccolo já foi ressuscitado,\nmas não é o campeão.\nTente outra!"
+                }
+            ]
+        },
+        {
+            "id": "94",
+            "question": "Qual personagem é famoso por sua habilidade de mudar de cor e forma várias vezes?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Freeza",
+                    "isCorrect": true,
+                    "explanation": "Correto! Freeza tem várias formas e muda de cor em cada uma.\nUm verdadeiro camaleão galáctico!\nSempre surpreendendo os inimigos.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Frieza_Forms.png",
+                    "imageDescription": "As várias formas de Freeza."
+                },
+                {
+                    "text": "Cell",
+                    "isCorrect": false,
+                    "explanation": "Cell muda de forma,\nmas não tanto quanto Freeza.\nContinue tentando!"
+                },
+                {
+                    "text": "Gotenks",
+                    "isCorrect": false,
+                    "explanation": "Gotenks muda de aparência,\nmas não de cor e forma como Freeza.\nTente outra resposta!"
+                },
+                {
+                    "text": "Majin Boo",
+                    "isCorrect": false,
+                    "explanation": "Majin Boo muda de forma,\nmas Freeza é o verdadeiro mestre das transformações coloridas!"
+                }
+            ]
+        },
+        {
+            "id": "95",
+            "question": "Qual personagem é famoso por sua habilidade de criar um escudo de energia?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Androide 17",
+                    "isCorrect": true,
+                    "explanation": "Correto! Androide 17 cria escudos de energia quase impenetráveis.\nDefesa é com ele!\nUm verdadeiro paredão.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Android_17_Energy_Shield.png",
+                    "imageDescription": "Androide 17 com escudo de energia."
+                },
+                {
+                    "text": "Kuririn",
+                    "isCorrect": false,
+                    "explanation": "Kuririn não cria escudos de energia.\nTente outro personagem tecnológico!"
+                },
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "Goku prefere atacar do que se defender.\nContinue tentando!"
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta é ofensivo,\nnão usa escudos de energia.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "96",
+            "question": "Qual personagem é famoso por ser o 'príncipe dos Saiyajins'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "Goku é um Saiyajin,\nmas não é príncipe.\nTente outro com mais orgulho real!"
+                },
+                {
+                    "text": "Vegeta",
+                    "isCorrect": true,
+                    "explanation": "Correto! Vegeta é o príncipe dos Saiyajins.\nNunca deixa ninguém esquecer disso!\nOrgulho é o sobrenome dele.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Vegeta_Dragon_Ball.png",
+                    "imageDescription": "Vegeta em pose de príncipe."
+                },
+                {
+                    "text": "Trunks",
+                    "isCorrect": false,
+                    "explanation": "Trunks é filho do príncipe,\nmas não é o príncipe original.\nContinue tentando!"
+                },
+                {
+                    "text": "Bardock",
+                    "isCorrect": false,
+                    "explanation": "Bardock é pai de Goku,\nnão tem título de príncipe.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "97",
+            "question": "Qual personagem é famoso por ser o 'rei dos Saiyajins'?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Vegeta",
+                    "isCorrect": false,
+                    "explanation": "Vegeta é o príncipe,\nmas o rei é outro!\nTente lembrar do nome real."
+                },
+                {
+                    "text": "Rei Vegeta",
+                    "isCorrect": true,
+                    "explanation": "Correto! Rei Vegeta é o pai do Vegeta e o rei dos Saiyajins.\nPouco tempo de tela, mas muita importância!\nSangue real de verdade.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:King_Vegeta.png",
+                    "imageDescription": "Rei Vegeta, o verdadeiro rei dos Saiyajins."
+                },
+                {
+                    "text": "Bardock",
+                    "isCorrect": false,
+                    "explanation": "Bardock é pai de Goku,\nmas não é rei.\nContinue tentando!"
+                },
+                {
+                    "text": "Nappa",
+                    "isCorrect": false,
+                    "explanation": "Nappa é um guerreiro,\nmas nada de realeza para ele!"
+                }
+            ]
+        },
+        {
+            "id": "98",
+            "question": "Qual personagem é famoso por ser o 'deus da destruição' em Dragon Ball Super?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Bills (Beerus)",
+                    "isCorrect": true,
+                    "explanation": "Correto! Bills (Beerus) é o deus da destruição em Dragon Ball Super.\nUm gato roxo com apetite e temperamento explosivo!\nMelhor não irritar.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Beerus.png",
+                    "imageDescription": "Bills (Beerus), o deus da destruição."
+                },
+                {
+                    "text": "Whis",
+                    "isCorrect": false,
+                    "explanation": "Whis é o anjo assistente de Bills,\nnão o deus da destruição.\nContinue tentando!"
+                },
+                {
+                    "text": "Kaioshin",
+                    "isCorrect": false,
+                    "explanation": "Kaioshin é deus da criação,\nnão da destruição.\nTente outra resposta!"
+                },
+                {
+                    "text": "Freeza",
+                    "isCorrect": false,
+                    "explanation": "Freeza é vilão,\nmas não é deus de nada (ainda)!"
+                }
+            ]
+        },
+        {
+            "id": "99",
+            "question": "Qual personagem é famoso por ser o 'anjo assistente' do deus da destruição?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Whis",
+                    "isCorrect": true,
+                    "explanation": "Correto! Whis é o anjo assistente de Bills.\nTreinador de deuses e Saiyajins!\nSempre calmo (e faminto).",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Whis.png",
+                    "imageDescription": "Whis, o anjo assistente."
+                },
+                {
+                    "text": "Bills (Beerus)",
+                    "isCorrect": false,
+                    "explanation": "Bills é o deus da destruição,\nnão o assistente.\nTente outra resposta!"
+                },
+                {
+                    "text": "Kaioshin",
+                    "isCorrect": false,
+                    "explanation": "Kaioshin é outro tipo de deus.\nContinue tentando!"
+                },
+                {
+                    "text": "Goku",
+                    "isCorrect": false,
+                    "explanation": "Goku é aluno, não assistente.\nTente outra resposta!"
+                }
+            ]
+        },
+        {
+            "id": "100",
+            "question": "Qual personagem é famoso por ser o criador das Dragon Balls do universo 7?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Zalama",
+                    "isCorrect": true,
+                    "explanation": "Correto! Zalama é o criador das Super Dragon Balls do universo 7.\nUm nome pouco citado, mas muito importante!\nO verdadeiro gênio das esferas.",
+                    "imageUrl": "https://dragonball.fandom.com/wiki/File:Super_Dragon_Balls.png",
+                    "imageDescription": "Super Dragon Balls criadas por Zalama."
+                },
+                {
+                    "text": "Kami-sama",
+                    "isCorrect": false,
+                    "explanation": "Kami-sama criou as Dragon Balls da Terra,\nmas não as do universo 7.\nContinue tentando!"
+                },
+                {
+                    "text": "Guru",
+                    "isCorrect": false,
+                    "explanation": "Guru criou as de Namek,\nmas não as do universo 7.\nTente outra resposta!"
+                },
+                {
+                    "text": "Dende",
+                    "isCorrect": false,
+                    "explanation": "Dende mantém as esferas,\nmas não é o criador das Super Dragon Balls.\nTente outra!"
                 }
             ]
         }
