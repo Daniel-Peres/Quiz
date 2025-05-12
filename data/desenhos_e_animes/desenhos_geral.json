@@ -1,147 +1,2907 @@
 {
   "config": {
-    "theme": "Desenhos Gerais",
+    "theme": "Desenhos Animados - Geral",
     "totalPoints": 1000,
     "scoring": "points"
   },
   "data": [
     {
-      "question": "Qual desenho dos anos 90 segue as aventuras de um garoto com um laboratório secreto em seu quarto?",
+      "id": "01",
+      "question": "Qual é o nome do cachorro amarelo que é o melhor amigo de Finn em 'Hora de Aventura'?",
       "level": "fácil",
       "options": [
         {
-          "text": "Hey Arnold!",
+          "text": "Spike",
           "isCorrect": false,
-          "explanation": "Nããão, Hey Arnold! é sobre a vida urbana de um garoto com cabeça de futebol, não laboratórios! Tente um desenho com mais ciência e explosões caseiras!"
+          "explanation": "Spike é um cachorro, mas ele prefere caçar gatos em vez de salvar princesas.\nDefinitivamente, não é de 'Hora de Aventura'."
         },
         {
-          "text": "Dexter's Laboratory",
+          "text": "Jake",
           "isCorrect": true,
-          "explanation": "Omelette du fromage, você acertou! Dexter’s Laboratory, dos anos 90, mostra Dexter, o gênio mirim, criando invenções malucas enquanto foge da irmã Dee Dee. Um clássico do Cartoon Network que mistura ciência e confusão! Parabéns, cientista maluco!",
-          "imageUrl": "https://www.cartoonnetwork.com/content/dam/cartoonnetwork/shows/dexters-laboratory/key-art.jpg",
-          "imageDescription": "Imagem de Dexter em seu laboratório secreto, com óculos grandes e Dee Dee ao fundo, capturando o espírito científico e caótico de Dexter’s Laboratory."
+          "explanation": "Jake é o cão elástico e companheiro de todas as aventuras do Finn!\nEle toca violão, faz panquecas e adora uma soneca.\nSe precisar de um amigo para esticar a diversão, chame o Jake!",
+          "imageUrl": "https://www.cartoonnetwork.com.br/sites/www.cartoonnetwork.com.br/files/styles/character_detail/public/characters/character-adventure-time-jake.png",
+          "imageDescription": "Jake, o cachorro amarelo de Hora de Aventura."
         },
         {
-          "text": "Johnny Bravo",
+          "text": "Pluto",
           "isCorrect": false,
-          "explanation": "Quase, mas não! Johnny Bravo é sobre um galã de cabelo loiro, não um cientista. Tente um desenho com tubos de ensaio e robôs!"
+          "explanation": "Pluto é o cachorro do Mickey, mas nunca foi visto na Terra de Ooo.\nTalvez ele esteja ocupado perseguindo ossos."
         },
         {
-          "text": "The Powerpuff Girls",
+          "text": "Scooby",
           "isCorrect": false,
-          "explanation": "Nããão, As Meninas Superpoderosas são heroínas, não cientistas de quarto! Tente um garoto com um laboratório escondido!"
+          "explanation": "Scooby-Doo prefere resolver mistérios com biscoitos.\nHora de Aventura não está no cardápio dele!"
         }
       ]
     },
     {
-      "question": "Qual anime dos anos 2000 segue um garoto que captura criaturas em esferas para batalhas, buscando ser o maior mestre?",
+      "id": "02",
+      "question": "Qual é o nome do esquilo hiperativo do desenho 'Apenas um Show'?",
       "level": "fácil",
       "options": [
         {
-          "text": "Yu-Gi-Oh!",
+          "text": "Rigby",
+          "isCorrect": true,
+          "explanation": "Rigby é o esquilo mais elétrico e preguiçoso do parque!\nEle sempre arruma confusão com seu amigo Mordecai.\nSe tem videogame e pizza, ele está dentro!",
+          "imageUrl": "https://www.cartoonnetwork.com.br/sites/www.cartoonnetwork.com.br/files/styles/character_detail/public/characters/character-regular-show-rigby.png",
+          "imageDescription": "Rigby, o esquilo marrom de 'Apenas um Show'."
+        },
+        {
+          "text": "Alvin",
           "isCorrect": false,
-          "explanation": "Nããão, Yu-Gi-Oh! é sobre cartas mágicas, não criaturas em esferas! Tente um anime com monstrinhos e ginásios!"
+          "explanation": "Alvin é um esquilo, mas prefere cantar do que trabalhar no parque.\nA banda dele está em outro canal!"
+        },
+        {
+          "text": "Tico",
+          "isCorrect": false,
+          "explanation": "Tico é famoso, mas seu parceiro é o Teco.\nNada de Mordecai por aqui."
+        },
+        {
+          "text": "Scrat",
+          "isCorrect": false,
+          "explanation": "Scrat só pensa em nozes e catástrofes pré-históricas.\nNada de shows regulares para ele!"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "question": "Qual é o nome do vilão principal em 'As Meninas Superpoderosas'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Mojo Jojo",
+          "isCorrect": true,
+          "explanation": "Mojo Jojo é o macaco mais malvado (e tagarela) de Townsville!\nSua risada é quase tão famosa quanto seus planos mirabolantes.",
+          "imageUrl": "https://www.cartoonnetwork.com.br/sites/www.cartoonnetwork.com.br/files/styles/character_detail/public/characters/character-powerpuff-girls-mojo-jojo.png",
+          "imageDescription": "Mojo Jojo, vilão de As Meninas Superpoderosas."
+        },
+        {
+          "text": "Mandark",
+          "isCorrect": false,
+          "explanation": "Mandark é gênio, mas só dá trabalho pro Dexter.\nTownsville está fora da sua rota."
+        },
+        {
+          "text": "Plankton",
+          "isCorrect": false,
+          "explanation": "Plankton quer a fórmula do Siri Cascudo, não derrotar super-heroínas."
+        },
+        {
+          "text": "Vilãozinho",
+          "isCorrect": false,
+          "explanation": "Vilãozinho até tenta, mas Mojo Jojo rouba a cena (e o laboratório)!"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "question": "Qual é o nome do robô companheiro de Jimmy Neutron?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Goddard",
+          "isCorrect": true,
+          "explanation": "Goddard é o cachorro-robô mais leal e tecnológico da TV!\nSempre pronto para ajudar nas invenções (e nas confusões).",
+          "imageUrl": "https://static.wikia.nocookie.net/jimmyneutron/images/7/7c/Goddard.png",
+          "imageDescription": "Goddard, o cachorro-robô de Jimmy Neutron."
+        },
+        {
+          "text": "BMO",
+          "isCorrect": false,
+          "explanation": "BMO é um console, não um cachorro-robô.\nMas também é ótimo em aventuras!"
+        },
+        {
+          "text": "R2-D2",
+          "isCorrect": false,
+          "explanation": "R2-D2 está ocupado em galáxias muito, muito distantes.\nNada de laboratório aqui."
+        },
+        {
+          "text": "Wall-E",
+          "isCorrect": false,
+          "explanation": "Wall-E limpa o planeta, mas não faz parte do time do Jimmy."
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "question": "Qual é o nome do personagem principal de 'Os Simpsons'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Bart",
+          "isCorrect": false,
+          "explanation": "Bart é famoso pelas travessuras, mas o chefe da família é outro.\nEle prefere skate a rosquinhas."
+        },
+        {
+          "text": "Homer",
+          "isCorrect": true,
+          "explanation": "Homer é o rei das rosquinhas e dos cochilos no sofá!\nSe tem cerveja e TV, ele está feliz.\nD'oh!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/en/0/02/Homer_Simpson_2006.png",
+          "imageDescription": "Homer Simpson, personagem principal de Os Simpsons."
+        },
+        {
+          "text": "Marge",
+          "isCorrect": false,
+          "explanation": "Marge é a voz da razão e o cabelo mais azul da TV.\nMas não é a estrela principal."
+        },
+        {
+          "text": "Lisa",
+          "isCorrect": false,
+          "explanation": "Lisa toca saxofone e salva a família de encrencas.\nMas quem sempre arruma confusão é o Homer!"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "question": "Qual é o nome do peixe protagonista de 'Peixonauta'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Peixonauta",
+          "isCorrect": true,
+          "explanation": "Peixonauta é o peixe detetive que usa escafandro!\nMistério, aventura e água são com ele mesmo.",
+          "imageUrl": "https://mundonick.uol.com.br/sites/mundonick.uol.com.br/files/styles/character_detail/public/characters/peixonauta.png",
+          "imageDescription": "Peixonauta, o peixe detetive."
+        },
+        {
+          "text": "Nemo",
+          "isCorrect": false,
+          "explanation": "Nemo já se perdeu, mas não virou detetive.\nPeixonauta é outro peixe!"
+        },
+        {
+          "text": "Dory",
+          "isCorrect": false,
+          "explanation": "Dory esquece tudo, até o nome do desenho.\nPeixonauta não esquece nada!"
+        },
+        {
+          "text": "Marlin",
+          "isCorrect": false,
+          "explanation": "Marlin só quer encontrar o filho.\nNada de resolver mistérios subaquáticos."
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "question": "Qual é o nome do vilão de 'Pica-Pau' que sempre tenta capturá-lo?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Leôncio",
+          "isCorrect": true,
+          "explanation": "Leôncio é o urso mais persistente (e azarado) do desenho!\nSempre tentando pegar o Pica-Pau, mas só leva prejuízo.",
+          "imageUrl": "https://openclipart.org/image/400px/svg_to_png/285216/leoncio.png",
+          "imageDescription": "Leôncio, o urso de Pica-Pau."
+        },
+        {
+          "text": "Tom",
+          "isCorrect": false,
+          "explanation": "Tom persegue o Jerry, não o Pica-Pau.\nConfusão de desenhos clássicos!"
+        },
+        {
+          "text": "Coiote",
+          "isCorrect": false,
+          "explanation": "Coiote vive atrás do Papa-Léguas, não do Pica-Pau."
+        },
+        {
+          "text": "Plankton",
+          "isCorrect": false,
+          "explanation": "Plankton só quer a fórmula do hambúrguer.\nPica-Pau não está no cardápio."
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "question": "Qual é o nome do gato azul de 'O Incrível Mundo de Gumball'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Gumball",
+          "isCorrect": true,
+          "explanation": "Gumball é o gato azul mais atrapalhado de Elmore!\nSempre envolvido nas confusões com Darwin e Anais.",
+          "imageUrl": "https://www.cartoonnetwork.com.br/sites/www.cartoonnetwork.com.br/files/styles/character_detail/public/characters/character-gumball.png",
+          "imageDescription": "Gumball, o gato azul protagonista."
+        },
+        {
+          "text": "Tom",
+          "isCorrect": false,
+          "explanation": "Tom é azul, mas vive correndo atrás do Jerry.\nNada de Elmore para ele."
+        },
+        {
+          "text": "Garfield",
+          "isCorrect": false,
+          "explanation": "Garfield é laranja e prefere lasanha.\nGumball prefere aventuras!"
+        },
+        {
+          "text": "Frajola",
+          "isCorrect": false,
+          "explanation": "Frajola só pensa em pegar o Piu-Piu.\nNada de escola para ele!"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "question": "Qual é o nome do laboratório secreto do Dexter?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Laboratório de Dexter",
+          "isCorrect": true,
+          "explanation": "O nome é literal: Laboratório de Dexter!\nSó não conte para a Dee Dee, por favor.",
+          "imageUrl": "https://www.cartoonnetwork.com.br/sites/www.cartoonnetwork.com.br/files/styles/character_detail/public/characters/character-dexter.png",
+          "imageDescription": "Dexter, o dono do laboratório secreto."
+        },
+        {
+          "text": "QG dos Superamigos",
+          "isCorrect": false,
+          "explanation": "QG dos Superamigos é para heróis, não para gênios mirins.\nDexter prefere trabalhar sozinho."
+        },
+        {
+          "text": "Caverna do Dragão",
+          "isCorrect": false,
+          "explanation": "Caverna do Dragão é cheia de magia, não de ciência."
+        },
+        {
+          "text": "Esconderijo do Mandark",
+          "isCorrect": false,
+          "explanation": "Mandark tem seu próprio laboratório, mas Dexter não entra lá nem a pau!"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Qual é o nome do esquilo voador parceiro do Almôndega em 'Aqua Teen Hunger Force'?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Frylock",
+          "isCorrect": false,
+          "explanation": "Frylock é uma batata frita flutuante, não um esquilo!\nA criatividade desse desenho não tem limites."
+        },
+        {
+          "text": "Shake",
+          "isCorrect": false,
+          "explanation": "Shake é um milk-shake falante.\nEsquilo voador não está no cardápio!"
+        },
+        {
+          "text": "Emory",
+          "isCorrect": false,
+          "explanation": "Emory é um alienígena, não um esquilo.\nA nave dele não voa tão baixo."
+        },
+        {
+          "text": "Não existe esquilo voador parceiro do Almôndega",
+          "isCorrect": true,
+          "explanation": "Pegadinha! Não existe esquilo voador parceiro do Almôndega.\nSó faltava essa no Aqua Teen!",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Aqua_Teen_Hunger_Force_logo.png",
+          "imageDescription": "Logo de Aqua Teen Hunger Force."
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "question": "Qual é o nome do personagem que vive em um abacaxi no fundo do mar?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Bob Esponja",
+          "isCorrect": true,
+          "explanation": "Bob Esponja mora em um abacaxi e faz os melhores hambúrgueres do oceano!\nSó cuidado com a receita secreta.",
+          "imageUrl": "https://mundonick.uol.com.br/sites/mundonick.uol.com.br/files/styles/character_detail/public/characters/bobesponja.png",
+          "imageDescription": "Bob Esponja, morador do abacaxi."
+        },
+        {
+          "text": "Patrick",
+          "isCorrect": false,
+          "explanation": "Patrick mora embaixo de uma pedra.\nEle prefere simplicidade!"
+        },
+        {
+          "text": "Lula Molusco",
+          "isCorrect": false,
+          "explanation": "Lula Molusco mora em uma cabeça de pedra.\nE não gosta de barulho!"
+        },
+        {
+          "text": "Sandy",
+          "isCorrect": false,
+          "explanation": "Sandy vive em uma redoma cheia de ar.\nAbacaxi não é do gosto dela."
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "question": "Qual é o nome do vilão que vive tentando roubar a fórmula do Siri Cascudo?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Plankton",
+          "isCorrect": true,
+          "explanation": "Plankton é o mestre dos planos mirabolantes!\nMas a fórmula continua bem guardada.",
+          "imageUrl": "https://mundonick.uol.com.br/sites/mundonick.uol.com.br/files/styles/character_detail/public/characters/plankton.png",
+          "imageDescription": "Plankton, o vilão de Bob Esponja."
+        },
+        {
+          "text": "Sr. Siriguejo",
+          "isCorrect": false,
+          "explanation": "Sr. Siriguejo só quer dinheiro, não roubar a si mesmo!\nO Siri Cascudo é o orgulho dele."
+        },
+        {
+          "text": "Lula Molusco",
+          "isCorrect": false,
+          "explanation": "Lula Molusco só quer paz e sossego.\nNada de planos malignos."
+        },
+        {
+          "text": "Bob Esponja",
+          "isCorrect": false,
+          "explanation": "Bob Esponja é o cozinheiro, não o vilão.\nEle só quer fazer hambúrgueres!"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "question": "Qual é o nome do super-herói que lidera os Jovens Titãs?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Ciborgue",
+          "isCorrect": false,
+          "explanation": "Ciborgue é forte, mas prefere pizza e videogame.\nLiderança não é o seu forte!"
+        },
+        {
+          "text": "Robin",
+          "isCorrect": true,
+          "explanation": "Robin é o líder disciplinado (e um pouco mandão) dos Jovens Titãs!\nSempre pronto para salvar o dia (e fazer planilhas).",
+          "imageUrl": "https://www.cartoonnetwork.com.br/sites/www.cartoonnetwork.com.br/files/styles/character_detail/public/characters/character-teen-titans-robin.png",
+          "imageDescription": "Robin, líder dos Jovens Titãs."
+        },
+        {
+          "text": "Mutano",
+          "isCorrect": false,
+          "explanation": "Mutano prefere virar animais e fazer piada.\nSer chefe? Só se for da zoeira."
+        },
+        {
+          "text": "Ravena",
+          "isCorrect": false,
+          "explanation": "Ravena é poderosa, mas gosta de ficar na dela.\nLiderança não é seu superpoder."
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "question": "Qual é o nome do dinossauro roxo amigável que canta para crianças?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Barney",
+          "isCorrect": true,
+          "explanation": "Barney é o dinossauro roxo mais famoso da TV!\nEle adora cantar e abraçar.\n'I love you, you love me...' (mas não vamos cantar aqui!)",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Barney_Dinosaur.png",
+          "imageDescription": "Barney, o dinossauro roxo."
+        },
+        {
+          "text": "Dino",
+          "isCorrect": false,
+          "explanation": "Dino é da Família Dinossauro, mas não canta músicas fofas.\nEle prefere latir!"
+        },
+        {
+          "text": "Godzilla",
+          "isCorrect": false,
+          "explanation": "Godzilla não canta, só destrói cidades.\nAbraços não fazem parte do repertório dele!"
+        },
+        {
+          "text": "Rex",
+          "isCorrect": false,
+          "explanation": "Rex é um dinossauro, mas é do Toy Story.\nNada de shows musicais."
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "question": "Qual é o nome do desenho animado onde um gato e um rato vivem em eterna perseguição?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Tom e Jerry",
+          "isCorrect": true,
+          "explanation": "Tom e Jerry são os reis da perseguição!\nCorreria, armadilhas e muita confusão garantidas.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Tom_and_Jerry_title_card.png",
+          "imageDescription": "Tom e Jerry, o gato e o rato famosos."
+        },
+        {
+          "text": "Pink e Cérebro",
+          "isCorrect": false,
+          "explanation": "Pink e Cérebro querem dominar o mundo, não correr atrás um do outro.\nMas confusão também não falta!"
+        },
+        {
+          "text": "Pernalonga e Patolino",
+          "isCorrect": false,
+          "explanation": "Esses dois preferem piadas e rivalidade.\nNada de perseguição felina!"
+        },
+        {
+          "text": "Scooby-Doo",
+          "isCorrect": false,
+          "explanation": "Scooby-Doo corre de fantasmas, não de ratos.\nMistério é com ele!"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "question": "Qual é o nome do personagem que adora lasanha e odeia segundas-feiras?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Garfield",
+          "isCorrect": true,
+          "explanation": "Garfield é o gato mais preguiçoso e guloso da TV!\nSe tem lasanha, ele aparece.\nSegunda-feira? Melhor dormir até terça.",
+          "imageUrl": "https://openclipart.org/image/400px/svg_to_png/285218/garfield.png",
+          "imageDescription": "Garfield, o gato laranja."
+        },
+        {
+          "text": "Frajola",
+          "isCorrect": false,
+          "explanation": "Frajola só quer pegar o Piu-Piu.\nLasanha não está no cardápio dele."
+        },
+        {
+          "text": "Tom",
+          "isCorrect": false,
+          "explanation": "Tom prefere queijo (ou Jerry).\nLasanha não é sua praia."
+        },
+        {
+          "text": "Heathcliff",
+          "isCorrect": false,
+          "explanation": "Heathcliff é outro gato famoso, mas Garfield é o rei da lasanha!"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "question": "Qual é o nome da cidade onde se passa 'Os Flintstones'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Bedrock",
+          "isCorrect": true,
+          "explanation": "Bedrock é a cidade pré-histórica mais movimentada da TV!\nCarros de pedra, dinossauros pets e muita confusão.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Bedrock_Flintstones.png",
+          "imageDescription": "Bedrock, a cidade dos Flintstones."
+        },
+        {
+          "text": "Springfield",
+          "isCorrect": false,
+          "explanation": "Springfield é dos Simpsons.\nNada de dinossauros por lá!"
+        },
+        {
+          "text": "Elmore",
+          "isCorrect": false,
+          "explanation": "Elmore é a cidade do Gumball.\nOs Flintstones preferem pedras!"
+        },
+        {
+          "text": "Townsville",
+          "isCorrect": false,
+          "explanation": "Townsville é das Meninas Superpoderosas.\nBedrock é que tem carros sem motor!"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "question": "Qual é o nome do vilão de 'Caverna do Dragão'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Vingador",
+          "isCorrect": true,
+          "explanation": "Vingador é o vilão de capa vermelha e chifres assustadores!\nEle adora atrapalhar os planos dos jovens.",
+          "imageUrl": "https://openclipart.org/image/400px/svg_to_png/285220/vingador.png",
+          "imageDescription": "Vingador, vilão de Caverna do Dragão."
+        },
+        {
+          "text": "Mandark",
+          "isCorrect": false,
+          "explanation": "Mandark só quer derrotar o Dexter.\nCaverna do Dragão não está nos planos dele."
+        },
+        {
+          "text": "Plankton",
+          "isCorrect": false,
+          "explanation": "Plankton só quer a fórmula do hambúrguer.\nNada de magia por aqui!"
+        },
+        {
+          "text": "Mojo Jojo",
+          "isCorrect": false,
+          "explanation": "Mojo Jojo é vilão, mas só enfrenta Meninas Superpoderosas."
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "question": "Qual é o nome da irmã do Dexter?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Dee Dee",
+          "isCorrect": true,
+          "explanation": "Dee Dee é a irmã dançarina que adora apertar botões proibidos!\nDexter nunca tem paz com ela por perto.",
+          "imageUrl": "https://www.cartoonnetwork.com.br/sites/www.cartoonnetwork.com.br/files/styles/character_detail/public/characters/character-dexter-deedee.png",
+          "imageDescription": "Dee Dee, irmã do Dexter."
+        },
+        {
+          "text": "Mandy",
+          "isCorrect": false,
+          "explanation": "Mandy é de outro desenho e não dança pelo laboratório."
+        },
+        {
+          "text": "Lisa",
+          "isCorrect": false,
+          "explanation": "Lisa é dos Simpsons.\nDexter nunca ouviu falar nela!"
+        },
+        {
+          "text": "Flora",
+          "isCorrect": false,
+          "explanation": "Flora é nome de fada, não de irmã de cientista."
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "question": "Qual é o nome do desenho em que um grupo de crianças enfrenta monstros digitais?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Digimon",
+          "isCorrect": true,
+          "explanation": "Digimon são os monstros digitais mais famosos do mundo!\nAventura, amizade e batalhas épicas garantidas.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Digimon_logo.png",
+          "imageDescription": "Logo do Digimon."
         },
         {
           "text": "Pokémon",
-          "isCorrect": true,
-          "explanation": "Gotta catch ‘em all, você acertou! Pokémon, lançado em 1997 mas febre nos 2000, segue Ash Ketchum capturando criaturas como Pikachu para ser o Mestre Pokémon. De Pokébolas a badges, é um clássico que ainda faz a gente querer ser treinador! Parabéns, mestre!",
-          "imageUrl": "https://www.pokemon.com/static-assets/content-assets/pokemon-anime-key-art.jpg",
-          "imageDescription": "Imagem de Ash Ketchum com Pikachu no ombro, segurando uma Pokébola, com um fundo vibrante de batalhas Pokémon, representando o anime dos anos 2000."
+          "isCorrect": false,
+          "explanation": "Pokémon são monstros, mas não digitais.\nEles preferem Pokébolas!"
         },
         {
-          "text": "Digimon",
+          "text": "Yu-Gi-Oh!",
           "isCorrect": false,
-          "explanation": "Quase, mas não! Digimon tem criaturas digitais, mas não é o maior fenômeno. Tente o anime com Pikachu e Charizard!"
+          "explanation": "Yu-Gi-Oh! tem cartas mágicas, não monstros digitais."
         },
         {
           "text": "Beyblade",
           "isCorrect": false,
-          "explanation": "Nããão, Beyblade é sobre piões, não criaturas! Tente um anime com monstrinhos e Pokébolas!"
+          "explanation": "Beyblade são piões, não monstros digitais.\nMas as batalhas também são animadas!"
         }
       ]
     },
     {
-      "question": "Qual desenho de 1985, sobre robôs que se transformam em veículos, é um ícone dos anos 80?",
+      "id": "21",
+      "question": "Qual é o nome do desenho onde um bebê gênio lidera um grupo de crianças?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Os Anjinhos",
+          "isCorrect": true,
+          "explanation": "Tommy Pickles é o bebê gênio que lidera a turma!\nFraldas, aventuras e muita imaginação.",
+          "imageUrl": "https://mundonick.uol.com.br/sites/mundonick.uol.com.br/files/styles/character_detail/public/characters/tommy-pickles.png",
+          "imageDescription": "Tommy Pickles, líder dos Anjinhos."
+        },
+        {
+          "text": "Os Padrinhos Mágicos",
+          "isCorrect": false,
+          "explanation": "Os Padrinhos Mágicos realizam desejos, mas não usam fraldas."
+        },
+        {
+          "text": "Doug",
+          "isCorrect": false,
+          "explanation": "Doug é criativo, mas já passou da fase do berço."
+        },
+        {
+          "text": "Hey Arnold!",
+          "isCorrect": false,
+          "explanation": "Arnold tem cabeça de bigorna, mas não é bebê!"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "question": "Qual é o nome do cachorro azul que deixa pistas para seu dono?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Blue",
+          "isCorrect": true,
+          "explanation": "Blue é a cachorrinha azul que adora dar pistas!\nSe você gosta de enigmas, ela é sua parceira.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Blue%27s_Clues_logo.png",
+          "imageDescription": "Logo de Blue's Clues."
+        },
+        {
+          "text": "Clifford",
+          "isCorrect": false,
+          "explanation": "Clifford é vermelho e gigante.\nNada de pistas azuis!"
+        },
+        {
+          "text": "Bolt",
+          "isCorrect": false,
+          "explanation": "Bolt é um supercão, mas não gosta de charadas."
+        },
+        {
+          "text": "Snoopy",
+          "isCorrect": false,
+          "explanation": "Snoopy prefere imaginar aventuras do que dar pistas."
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "question": "Qual é o nome do personagem que vive dizendo 'Que que há, velhinho?'",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Pernalonga",
+          "isCorrect": true,
+          "explanation": "Pernalonga é o mestre das pegadinhas e das cenouras!\n'Que que há, velhinho?' é seu cartão de visitas.",
+          "imageUrl": "https://openclipart.org/image/400px/svg_to_png/285217/pernalonga.png",
+          "imageDescription": "Pernalonga, o coelho famoso."
+        },
+        {
+          "text": "Patolino",
+          "isCorrect": false,
+          "explanation": "Patolino é engraçado, mas não gosta de ser chamado de velhinho."
+        },
+        {
+          "text": "Frajola",
+          "isCorrect": false,
+          "explanation": "Frajola só pensa em pegar o Piu-Piu.\nFrases de efeito não são com ele."
+        },
+        {
+          "text": "Piu-Piu",
+          "isCorrect": false,
+          "explanation": "Piu-Piu só diz 'acho que vi um gatinho!'\nNada de velhinho por aqui."
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "question": "Qual é o nome do desenho em que um menino tem padrinhos mágicos?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Os Padrinhos Mágicos",
+          "isCorrect": true,
+          "explanation": "Timmy Turner tem os padrinhos mágicos mais atrapalhados do mundo!\nDesejos, confusões e varinhas voando.",
+          "imageUrl": "https://mundonick.uol.com.br/sites/mundonick.uol.com.br/files/styles/character_detail/public/characters/timmy-turner.png",
+          "imageDescription": "Timmy Turner, de Os Padrinhos Mágicos."
+        },
+        {
+          "text": "Doug",
+          "isCorrect": false,
+          "explanation": "Doug tem imaginação fértil, mas nada de padrinhos mágicos."
+        },
+        {
+          "text": "Hey Arnold!",
+          "isCorrect": false,
+          "explanation": "Arnold tem uma vovó maluca, mas nada de magia."
+        },
+        {
+          "text": "Os Anjinhos",
+          "isCorrect": false,
+          "explanation": "Os Anjinhos têm fraldas e aventuras, mas magia não faz parte."
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "question": "Qual é o nome do desenho onde um garoto chamado Ben encontra um relógio alienígena?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Ben 10",
+          "isCorrect": true,
+          "explanation": "Ben 10 é o garoto que vira 10 alienígenas diferentes!\nRelógio estiloso, aventuras intergalácticas e muita confusão.",
+          "imageUrl": "https://www.cartoonnetwork.com.br/sites/www.cartoonnetwork.com.br/files/styles/character_detail/public/characters/character-ben10.png",
+          "imageDescription": "Ben 10, o garoto do Omnitrix."
+        },
+        {
+          "text": "Danny Phantom",
+          "isCorrect": false,
+          "explanation": "Danny Phantom luta contra fantasmas, não alienígenas."
+        },
+        {
+          "text": "Generator Rex",
+          "isCorrect": false,
+          "explanation": "Generator Rex tem poderes, mas nada de relógio alienígena."
+        },
+        {
+          "text": "Bakugan",
+          "isCorrect": false,
+          "explanation": "Bakugan são esferas, não relógios.\nBen 10 é o mestre dos gadgets!"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "question": "Qual é o nome do desenho em que um pato milionário nada em uma piscina de moedas?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "DuckTales",
+          "isCorrect": true,
+          "explanation": "DuckTales é pura aventura e moedas!\nTio Patinhas nada melhor que muitos nadadores olímpicos.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:DuckTales_logo.png",
+          "imageDescription": "Logo de DuckTales."
+        },
+        {
+          "text": "Pato Donald",
+          "isCorrect": false,
+          "explanation": "Pato Donald é famoso, mas quem nada em moedas é seu tio."
+        },
+        {
+          "text": "Darkwing Duck",
+          "isCorrect": false,
+          "explanation": "Darkwing Duck combate o crime, não nada em moedas.\nMas também é estiloso!"
+        },
+        {
+          "text": "Pateta",
+          "isCorrect": false,
+          "explanation": "Pateta é desastrado, mas nunca tentou nadar em moedas.\nAinda bem!"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "question": "Qual é o nome do ratinho aprendiz de feiticeiro em 'Fantasia' da Disney?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Mickey Mouse",
+          "isCorrect": true,
+          "explanation": "Mickey Mouse faz mágica até com baldes!\nSó faltou controlar as vassouras.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Mickey_Mouse_Fantasia.png",
+          "imageDescription": "Mickey Mouse como aprendiz de feiticeiro."
+        },
+        {
+          "text": "Jerry",
+          "isCorrect": false,
+          "explanation": "Jerry só faz mágica para escapar do Tom.\nNada de chapéu de feiticeiro."
+        },
+        {
+          "text": "Stuart Little",
+          "isCorrect": false,
+          "explanation": "Stuart Little dirige carros, mas não varinhas mágicas."
+        },
+        {
+          "text": "Remy",
+          "isCorrect": false,
+          "explanation": "Remy prefere cozinhar do que conjurar feitiços.\nRatos mágicos são raros!"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "question": "Qual é o nome do desenho em que um menino tem um laboratório secreto e uma irmã curiosa?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "O Laboratório de Dexter",
+          "isCorrect": true,
+          "explanation": "Dexter tenta esconder seu laboratório, mas a Dee Dee sempre acha!\nCiência e confusão em cada episódio.",
+          "imageUrl": "https://www.cartoonnetwork.com.br/sites/www.cartoonnetwork.com.br/files/styles/character_detail/public/characters/character-dexter.png",
+          "imageDescription": "Dexter, o cientista mirim."
+        },
+        {
+          "text": "Jimmy Neutron",
+          "isCorrect": false,
+          "explanation": "Jimmy inventa muito, mas sua irmã não é tão curiosa (só um pouco irritante)."
+        },
+        {
+          "text": "Phineas e Ferb",
+          "isCorrect": false,
+          "explanation": "Phineas e Ferb constroem de tudo, mas não escondem nada da Candace."
+        },
+        {
+          "text": "Doug",
+          "isCorrect": false,
+          "explanation": "Doug prefere imaginar aventuras do que construir laboratórios secretos."
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "question": "Qual é o nome do cachorro falante que resolve mistérios com seus amigos?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Scooby-Doo",
+          "isCorrect": true,
+          "explanation": "Scooby-Doo é mestre em fugir de fantasmas e comer biscoitos!\nMistérios e lanches nunca faltam.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Scooby-Doo.png",
+          "imageDescription": "Scooby-Doo, o cachorro detetive."
+        },
+        {
+          "text": "Bolt",
+          "isCorrect": false,
+          "explanation": "Bolt é corajoso, mas não investiga mistérios.\nSó corre atrás de ação!"
+        },
+        {
+          "text": "Pluto",
+          "isCorrect": false,
+          "explanation": "Pluto é fofo, mas não fala nem resolve mistérios.\nSó late mesmo!"
+        },
+        {
+          "text": "Blue",
+          "isCorrect": false,
+          "explanation": "Blue dá pistas, mas não fala nem caça fantasmas."
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "question": "Qual é o nome do vilão de 'DuckTales' que é rival do Tio Patinhas?",
       "level": "médio",
       "options": [
         {
-          "text": "He-Man",
-          "isCorrect": false,
-          "explanation": "Nããão, He-Man é sobre espadas e magia em Eternia, não robôs! Tente um desenho com Autobots e Decepticons!"
-        },
-        {
-          "text": "Transformers",
+          "text": "Pão-Duro McMônei",
           "isCorrect": true,
-          "explanation": "Autobots, transformar e acertar! Transformers, de 1985, traz Optimus Prime e seus robôs que viram carros, aviões e mais, lutando contra Megatron. É o desenho que fez todo mundo querer um caminhão que fala! Parabéns, líder intergaláctico!",
-          "imageUrl": "https://www.hasbro.com/common/productimages/en_US/Transformers-G1-Optimus-Prime.jpg",
-          "imageDescription": "Imagem de Optimus Prime em Transformers, na forma de robô com um fundo de batalha, representando a essência do desenho icônico dos anos 80."
+          "explanation": "Pão-Duro McMônei é o pato mais pão-duro e competitivo do universo!\nSempre tentando passar o Tio Patinhas para trás.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Flintheart_Glomgold.png",
+          "imageDescription": "Pão-Duro McMônei, rival do Tio Patinhas."
         },
         {
-          "text": "Thundercats",
+          "text": "Patacôncio",
           "isCorrect": false,
-          "explanation": "Quase, mas não! Thundercats são felinos cósmicos, não robôs. Tente algo com transformações mecânicas!"
+          "explanation": "Patacôncio é rico, mas não é páreo para a rivalidade do McMônei."
         },
         {
-          "text": "G.I. Joe",
+          "text": "MacPatinhas",
           "isCorrect": false,
-          "explanation": "Nããão, G.I. Joe é sobre soldados, não robôs que mudam de forma! Tente um desenho com Cybertron!"
+          "explanation": "MacPatinhas é só um nome parecido.\nO verdadeiro rival é mais pão-duro!"
+        },
+        {
+          "text": "Gastão",
+          "isCorrect": false,
+          "explanation": "Gastão é sortudo, mas não é vilão.\nSó ganha tudo sem esforço!"
         }
       ]
     },
     {
-      "question": "Qual anime de 2013, baseado em um mangá, mostra a humanidade lutando contra gigantes devoradores de pessoas?",
+      "id": "31",
+      "question": "Qual é o nome do desenho em que um grupo de super-heróis adolescentes luta contra o crime?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Jovens Titãs",
+          "isCorrect": true,
+          "explanation": "Jovens Titãs unem forças para salvar o mundo (e pedir pizza)!\nHeróis com muito estilo e senso de humor.",
+          "imageUrl": "https://www.cartoonnetwork.com.br/sites/www.cartoonnetwork.com.br/files/styles/character_detail/public/characters/character-teen-titans-robin.png",
+          "imageDescription": "Robin, líder dos Jovens Titãs."
+        },
+        {
+          "text": "Liga da Justiça",
+          "isCorrect": false,
+          "explanation": "Liga da Justiça é para adultos!\nAqui só entram adolescentes com superpoderes."
+        },
+        {
+          "text": "X-Men",
+          "isCorrect": false,
+          "explanation": "X-Men são mutantes, mas não são titãs.\nA adolescência deles é bem diferente!"
+        },
+        {
+          "text": "Os Incríveis",
+          "isCorrect": false,
+          "explanation": "Os Incríveis são uma família superpoderosa, não um grupo de adolescentes."
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "question": "Qual é o nome do desenho em que um garoto tem um peixe dourado mágico?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Os Padrinhos Mágicos",
+          "isCorrect": true,
+          "explanation": "Cosmo vira peixe dourado para se esconder!\nMagia e confusão garantidas na vida do Timmy.",
+          "imageUrl": "https://mundonick.uol.com.br/sites/mundonick.uol.com.br/files/styles/character_detail/public/characters/cosmo.png",
+          "imageDescription": "Cosmo, padrinho mágico disfarçado de peixe."
+        },
+        {
+          "text": "Peixonauta",
+          "isCorrect": false,
+          "explanation": "Peixonauta é detetive, não mágico.\nNada de varinha por aqui!"
+        },
+        {
+          "text": "Bob Esponja",
+          "isCorrect": false,
+          "explanation": "Bob Esponja mora no fundo do mar, mas não tem peixe dourado mágico."
+        },
+        {
+          "text": "Doug",
+          "isCorrect": false,
+          "explanation": "Doug tem imaginação fértil, mas peixe mágico não faz parte."
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "question": "Qual é o nome do desenho em que um menino e seu cachorro viajam pelo tempo em uma máquina?",
       "level": "médio",
       "options": [
         {
-          "text": "Hunter x Hunter",
-          "isCorrect": false,
-          "explanation": "Nããão, Hunter x Hunter é sobre caçadores e aventuras, não gigantes! Tente um anime com muralhas e titãs assustadores!"
-        },
-        {
-          "text": "Attack on Titan",
+          "text": "As Aventuras de Peabody & Sherman",
           "isCorrect": true,
-          "explanation": "Você escalou a muralha e acertou! Attack on Titan, de 2013, segue Eren, Mikasa e Armin contra titãs colossais em um mundo cercado por muralhas. Com ação épica e reviravoltas, é um anime que te faz gritar 'Shinzou wo Sasageyo!' Parabéns, recruta!",
-          "imageUrl": "https://www.crunchyroll.com/imgsrv/display/thumbnail/1200x675/catalog/crunchyroll/Attack-on-Titan-Key-Art.jpg",
-          "imageDescription": "Imagem de Eren, Mikasa e Armin em Attack on Titan, com um Titã Colossal ao fundo, capturando a intensidade e escala do anime de 2013."
+          "explanation": "Peabody é o cachorro gênio e Sherman o menino curioso!\nJuntos, eles bagunçam a história com estilo.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Peabody_and_Sherman_logo.png",
+          "imageDescription": "Logo de As Aventuras de Peabody & Sherman."
         },
         {
-          "text": "One Punch Man",
+          "text": "Hora de Aventura",
           "isCorrect": false,
-          "explanation": "Quase, mas não! One Punch Man é sobre um herói careca, não titãs. Tente algo mais sombrio com gigantes devoradores!"
+          "explanation": "Finn e Jake viajam, mas não no tempo.\nSó pelo mundo de Ooo mesmo!"
         },
         {
-          "text": "Tokyo Ghoul",
+          "text": "Jimmy Neutron",
           "isCorrect": false,
-          "explanation": "Nããão, Tokyo Ghoul tem ghouls, não gigantes! Tente um anime com muralhas e equipamentos de manobra 3D!"
+          "explanation": "Jimmy inventa de tudo, mas máquina do tempo é raro."
+        },
+        {
+          "text": "Os Jetsons",
+          "isCorrect": false,
+          "explanation": "Os Jetsons vivem no futuro, mas não viajam no tempo."
         }
       ]
     },
     {
-      "question": "Qual desenho de 2003, criado por Genndy Tartakovsky, segue um guerreiro com uma espada mágica em um mundo futurista?",
+      "id": "34",
+      "question": "Qual é o nome do desenho em que um grupo de crianças tem poderes elementares e luta contra a Nação do Fogo?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Avatar: A Lenda de Aang",
+          "isCorrect": true,
+          "explanation": "Aang é o Avatar e domina todos os elementos!\nA Nação do Fogo não tem chance.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Avatar_The_Last_Airbender_logo.png",
+          "imageDescription": "Logo de Avatar: A Lenda de Aang."
+        },
+        {
+          "text": "Pokémon",
+          "isCorrect": false,
+          "explanation": "Pokémon tem poderes, mas não luta contra a Nação do Fogo."
+        },
+        {
+          "text": "Digimon",
+          "isCorrect": false,
+          "explanation": "Digimon são digitais, não elementares."
+        },
+        {
+          "text": "Naruto",
+          "isCorrect": false,
+          "explanation": "Naruto tem jutsus, mas nada de Nação do Fogo."
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "question": "Qual é o nome do desenho em que um garoto chamado Ash viaja pelo mundo capturando criaturas?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Pokémon",
+          "isCorrect": true,
+          "explanation": "Ash quer ser um mestre Pokémon!\nPokébolas, batalhas e muitas aventuras pelo caminho.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Pokemon_logo.png",
+          "imageDescription": "Logo de Pokémon."
+        },
+        {
+          "text": "Digimon",
+          "isCorrect": false,
+          "explanation": "Digimon tem batalhas, mas Ash não aparece por lá."
+        },
+        {
+          "text": "Yu-Gi-Oh!",
+          "isCorrect": false,
+          "explanation": "Yu-Gi-Oh! prefere cartas a Pokébolas."
+        },
+        {
+          "text": "Bakugan",
+          "isCorrect": false,
+          "explanation": "Bakugan são esferas, não criaturas de bolso."
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "question": "Qual é o nome do vilão de 'Caverna do Dragão' que usa um capuz vermelho?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Vingador",
+          "isCorrect": true,
+          "explanation": "Vingador é o vilão mais assustador do reino!\nCapuz vermelho e planos malignos são sua marca.",
+          "imageUrl": "https://openclipart.org/image/400px/svg_to_png/285220/vingador.png",
+          "imageDescription": "Vingador, vilão de Caverna do Dragão."
+        },
+        {
+          "text": "Mandark",
+          "isCorrect": false,
+          "explanation": "Mandark só quer derrotar o Dexter.\nNada de magia medieval."
+        },
+        {
+          "text": "Plankton",
+          "isCorrect": false,
+          "explanation": "Plankton só quer a fórmula do hambúrguer.\nNada de capa vermelha!"
+        },
+        {
+          "text": "Mojo Jojo",
+          "isCorrect": false,
+          "explanation": "Mojo Jojo é vilão, mas só enfrenta Meninas Superpoderosas."
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "question": "Qual é o nome do desenho em que um grupo de garotos anda de skate e vive aventuras na praia?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Rocket Power",
+          "isCorrect": true,
+          "explanation": "Rocket Power é adrenalina pura!\nSkate, surf e amizade na veia.",
+          "imageUrl": "https://mundonick.uol.com.br/sites/mundonick.uol.com.br/files/styles/character_detail/public/characters/rocket-power.png",
+          "imageDescription": "Rocket Power, grupo de amigos radicais."
+        },
+        {
+          "text": "Doug",
+          "isCorrect": false,
+          "explanation": "Doug prefere andar de bicicleta e imaginar aventuras."
+        },
+        {
+          "text": "Hey Arnold!",
+          "isCorrect": false,
+          "explanation": "Hey Arnold! é mais urbano, menos radical."
+        },
+        {
+          "text": "Recreio",
+          "isCorrect": false,
+          "explanation": "Recreio é diversão na escola, não na praia."
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "question": "Qual é o nome do desenho em que dois irmãos inventam coisas malucas nas férias de verão?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Phineas e Ferb",
+          "isCorrect": true,
+          "explanation": "Phineas e Ferb transformam qualquer verão em aventura!\nCandace nunca consegue pegar os irmãos no flagra.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Phineas_and_Ferb_logo.png",
+          "imageDescription": "Logo de Phineas e Ferb."
+        },
+        {
+          "text": "Jimmy Neutron",
+          "isCorrect": false,
+          "explanation": "Jimmy inventa muito, mas não tem um irmão tão parceiro."
+        },
+        {
+          "text": "Dexter",
+          "isCorrect": false,
+          "explanation": "Dexter prefere esconder suas invenções da irmã."
+        },
+        {
+          "text": "Doug",
+          "isCorrect": false,
+          "explanation": "Doug prefere imaginar aventuras do que construir engenhocas."
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "question": "Qual é o nome do vilão de 'Os Padrinhos Mágicos' que odeia fadas?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Sr. Crocker",
+          "isCorrect": true,
+          "explanation": "Sr. Crocker é obcecado por fadas!\nEle faria qualquer coisa para provar que elas existem.",
+          "imageUrl": "https://mundonick.uol.com.br/sites/mundonick.uol.com.br/files/styles/character_detail/public/characters/crocker.png",
+          "imageDescription": "Sr. Crocker, vilão de Os Padrinhos Mágicos."
+        },
+        {
+          "text": "Vicky",
+          "isCorrect": false,
+          "explanation": "Vicky é malvada, mas não liga para fadas.\nEla só quer atormentar o Timmy."
+        },
+        {
+          "text": "Mandark",
+          "isCorrect": false,
+          "explanation": "Mandark só quer derrotar Dexter.\nNada de fadas por aqui."
+        },
+        {
+          "text": "Plankton",
+          "isCorrect": false,
+          "explanation": "Plankton só quer hambúrguer.\nFadas não estão no cardápio."
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "question": "Qual é o nome do desenho em que um garoto tem um amigo imaginário azul?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "A Mansão Foster para Amigos Imaginários",
+          "isCorrect": true,
+          "explanation": "Mac e Bloo vivem altas aventuras na mansão!\nAmigos imaginários de todos os tipos aparecem por lá.",
+          "imageUrl": "https://www.cartoonnetwork.com.br/sites/www.cartoonnetwork.com.br/files/styles/character_detail/public/characters/character-fosters-bloo.png",
+          "imageDescription": "Bloo, amigo imaginário azul."
+        },
+        {
+          "text": "Doug",
+          "isCorrect": false,
+          "explanation": "Doug é criativo, mas seu amigo é Skeeter, não azul e imaginário."
+        },
+        {
+          "text": "Hey Arnold!",
+          "isCorrect": false,
+          "explanation": "Arnold tem muitos amigos, mas nenhum azul e imaginário."
+        },
+        {
+          "text": "Os Anjinhos",
+          "isCorrect": false,
+          "explanation": "Os Anjinhos têm imaginação, mas não amigos azuis."
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "question": "Qual é o nome do desenho em que um grupo de crianças resolve mistérios na escola?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Recreio",
+          "isCorrect": true,
+          "explanation": "Recreio é pura investigação durante o intervalo!\nTJ e sua turma sempre descobrem algo novo.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Recess_logo.png",
+          "imageDescription": "Logo de Recreio."
+        },
+        {
+          "text": "Doug",
+          "isCorrect": false,
+          "explanation": "Doug prefere imaginar aventuras do que resolver mistérios escolares."
+        },
+        {
+          "text": "Rocket Power",
+          "isCorrect": false,
+          "explanation": "Rocket Power prefere esportes radicais a mistérios."
+        },
+        {
+          "text": "Hey Arnold!",
+          "isCorrect": false,
+          "explanation": "Hey Arnold! tem confusões, mas não é focado em mistérios."
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "question": "Qual é o nome do desenho em que um menino vira fantasma para combater o mal?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Danny Phantom",
+          "isCorrect": true,
+          "explanation": "Danny Phantom é metade garoto, metade fantasma!\nCombate vilões do além com muito estilo.",
+          "imageUrl": "https://mundonick.uol.com.br/sites/mundonick.uol.com.br/files/styles/character_detail/public/characters/danny-phantom.png",
+          "imageDescription": "Danny Phantom, o garoto fantasma."
+        },
+        {
+          "text": "Ben 10",
+          "isCorrect": false,
+          "explanation": "Ben 10 vira alienígena, não fantasma."
+        },
+        {
+          "text": "Jimmy Neutron",
+          "isCorrect": false,
+          "explanation": "Jimmy Neutron é gênio, mas não fantasma."
+        },
+        {
+          "text": "Os Padrinhos Mágicos",
+          "isCorrect": false,
+          "explanation": "Timmy tem magia, mas não poderes fantasmagóricos."
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "question": "Qual é o nome do desenho em que um menino tem um diário mágico que realiza desejos?",
       "level": "difícil",
       "options": [
         {
-          "text": "Avatar: The Last Airbender",
+          "text": "Doug",
           "isCorrect": false,
-          "explanation": "Nããão, Avatar é sobre dobradores de elementos, não espadas mágicas! Tente um desenho com um samurai em um futuro distópico!"
+          "explanation": "Doug tem um diário, mas ele só serve para desabafos."
         },
         {
-          "text": "Samurai Jack",
+          "text": "Hey Arnold!",
+          "isCorrect": false,
+          "explanation": "Arnold tem um diário, mas nada de magia."
+        },
+        {
+          "text": "O Diário de Mika",
           "isCorrect": true,
-          "explanation": "Você cortou o mal com precisão! Samurai Jack, de 2003, segue Jack, um guerreiro com uma espada mágica, lutando contra Aku em um futuro sombrio. Com estilo visual único e batalhas épicas, é um clássico cult. Parabéns, samurai!",
-          "imageUrl": "https://www.cartoonnetwork.com/content/dam/cartoonnetwork/shows/samurai-jack/key-art.jpg",
-          "imageDescription": "Imagem de Samurai Jack segurando sua espada mágica, com um fundo futurista e Aku ao longe, representando o estilo visual marcante do desenho de 2003."
+          "explanation": "O Diário de Mika realiza desejos e aventuras!\nCada página é uma viagem diferente.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:O_Di%C3%A1rio_de_Mika_logo.png",
+          "imageDescription": "Logo de O Diário de Mika."
         },
         {
-          "text": "Teen Titans",
+          "text": "Os Padrinhos Mágicos",
           "isCorrect": false,
-          "explanation": "Quase, mas não! Teen Titans é sobre super-heróis adolescentes, não samurais. Tente algo mais estilizado e com um guerreiro solitário!"
+          "explanation": "Timmy tem padrinhos mágicos, não diário mágico."
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "question": "Qual é o nome do desenho em que um grupo de super-heróis é formado por animais de estimação?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Super Fofos!",
+          "isCorrect": true,
+          "explanation": "Super Fofos! são animais que salvam o dia com muita fofura.\nMissão dada é missão cumprida.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Wonder_Pets_logo.png",
+          "imageDescription": "Logo de Super Fofos! (Wonder Pets)."
         },
         {
-          "text": "Kim Possible",
+          "text": "Patrulha Canina",
           "isCorrect": false,
-          "explanation": "Nããão, Kim Possible é uma espiã adolescente, não samurai! Tente um desenho com um guerreiro de kimono em um futuro estranho!"
+          "explanation": "Patrulha Canina resolve problemas, mas não são super-heróis clássicos."
+        },
+        {
+          "text": "Os Animais do Bosque dos Vinténs",
+          "isCorrect": false,
+          "explanation": "Esses animais só querem sobreviver, nada de superpoderes."
+        },
+        {
+          "text": "Garfield e Seus Amigos",
+          "isCorrect": false,
+          "explanation": "Garfield só quer dormir e comer, salvar o mundo não é com ele."
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "question": "Qual é o nome do desenho em que um menino e seu avô viajam por universos paralelos?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Rick and Morty",
+          "isCorrect": true,
+          "explanation": "Rick é o avô cientista maluco, Morty é o neto atrapalhado!\nUniversos paralelos, confusões e muita risada.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Rick_and_Morty_logo.png",
+          "imageDescription": "Logo de Rick and Morty."
+        },
+        {
+          "text": "Hora de Aventura",
+          "isCorrect": false,
+          "explanation": "Finn e Jake viajam, mas não por universos paralelos."
+        },
+        {
+          "text": "Gravity Falls",
+          "isCorrect": false,
+          "explanation": "Gravity Falls tem mistérios, mas não viagens interdimensionais."
+        },
+        {
+          "text": "Ben 10",
+          "isCorrect": false,
+          "explanation": "Ben viaja pelo mundo, não por universos paralelos."
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "question": "Qual é o nome do desenho em que um jovem herdeiro luta para proteger sua cidade com a ajuda de um mordomo?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Batman: A Série Animada",
+          "isCorrect": true,
+          "explanation": "Bruce Wayne e Alfred são a dupla dinâmica da Mansão Wayne!\nGotham nunca dorme.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Batman_The_Animated_Series_logo.png",
+          "imageDescription": "Logo de Batman: A Série Animada."
+        },
+        {
+          "text": "DuckTales",
+          "isCorrect": false,
+          "explanation": "Tio Patinhas tem mordomo, mas não luta contra o crime."
+        },
+        {
+          "text": "Os Incríveis",
+          "isCorrect": false,
+          "explanation": "Os Incríveis são uma família de heróis, sem mordomo."
+        },
+        {
+          "text": "Jovens Titãs",
+          "isCorrect": false,
+          "explanation": "Os Titãs têm tecnologia, mas nada de mordomo."
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "question": "Qual é o nome do desenho em que um grupo de crianças se transforma em animais para combater o mal?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Animorphs",
+          "isCorrect": true,
+          "explanation": "Animorphs são mestres da transformação!\nCombater o mal nunca foi tão animal.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Animorphs_logo.png",
+          "imageDescription": "Logo de Animorphs."
+        },
+        {
+          "text": "Mutante Rex",
+          "isCorrect": false,
+          "explanation": "Rex é mutante, mas não vira animal."
+        },
+        {
+          "text": "Ben 10",
+          "isCorrect": false,
+          "explanation": "Ben vira alienígena, mas não animal terrestre."
+        },
+        {
+          "text": "Avatar",
+          "isCorrect": false,
+          "explanation": "Avatar controla elementos, não se transforma em animais."
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "question": "Qual é o nome do desenho em que um pato se transforma em super-herói à noite?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Darkwing Duck",
+          "isCorrect": true,
+          "explanation": "Darkwing Duck combate o crime com capa e muito estilo!\nÀ noite, ele vira o terror que voa na noite.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Darkwing_Duck_logo.png",
+          "imageDescription": "Logo de Darkwing Duck."
+        },
+        {
+          "text": "Pato Donald",
+          "isCorrect": false,
+          "explanation": "Pato Donald é atrapalhado, mas não vira super-herói."
+        },
+        {
+          "text": "DuckTales",
+          "isCorrect": false,
+          "explanation": "DuckTales é aventura, mas nada de super-heróis noturnos."
+        },
+        {
+          "text": "Pateta",
+          "isCorrect": false,
+          "explanation": "Pateta já foi super-herói, mas não é pato!"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "question": "Qual é o nome do desenho em que um grupo de crianças vive em uma árvore-fortaleza?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "KND: A Turma do Bairro",
+          "isCorrect": true,
+          "explanation": "KND é pura aventura e tecnologia escondida em casas na árvore!\nMissões secretas e códigos malucos.",
+          "imageUrl": "https://www.cartoonnetwork.com.br/sites/www.cartoonnetwork.com.br/files/styles/character_detail/public/characters/character-knd.png",
+          "imageDescription": "KND: A Turma do Bairro."
+        },
+        {
+          "text": "Recreio",
+          "isCorrect": false,
+          "explanation": "Recreio é na escola, não na árvore."
+        },
+        {
+          "text": "Rocket Power",
+          "isCorrect": false,
+          "explanation": "Rocket Power prefere a praia a casas na árvore."
+        },
+        {
+          "text": "Hey Arnold!",
+          "isCorrect": false,
+          "explanation": "Hey Arnold! mora em um apartamento, não em uma árvore."
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "question": "Qual é o nome do desenho em que um coelho rosa vive aventuras em uma fazenda assustadora?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Coragem, o Cão Covarde",
+          "isCorrect": false,
+          "explanation": "Coragem é um cachorro rosa, não coelho!\nMas a fazenda é assustadora mesmo."
+        },
+        {
+          "text": "Bugs Bunny",
+          "isCorrect": false,
+          "explanation": "Bugs Bunny é coelho, mas prefere cenouras e pegadinhas."
+        },
+        {
+          "text": "Ruby Gloom",
+          "isCorrect": false,
+          "explanation": "Ruby Gloom vive em uma mansão, não em fazenda."
+        },
+        {
+          "text": "Não existe um coelho rosa protagonista de fazenda assustadora",
+          "isCorrect": true,
+          "explanation": "Pegadinha! Não existe coelho rosa vivendo aventuras em fazenda assustadora.\nCoragem é um cachorro rosa!",
+          "imageUrl": "https://www.cartoonnetwork.com.br/sites/www.cartoonnetwork.com.br/files/styles/character_detail/public/characters/character-courage.png",
+          "imageDescription": "Coragem, o Cão Covarde."
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "question": "Qual é o nome do desenho em que um pato milionário nada em uma piscina de moedas?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "DuckTales",
+          "isCorrect": true,
+          "explanation": "DuckTales é pura aventura e moedas!\nTio Patinhas nada melhor que muitos nadadores olímpicos.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:DuckTales_logo.png",
+          "imageDescription": "Logo de DuckTales."
+        },
+        {
+          "text": "Pato Donald",
+          "isCorrect": false,
+          "explanation": "Pato Donald é famoso, mas quem nada em moedas é seu tio."
+        },
+        {
+          "text": "Darkwing Duck",
+          "isCorrect": false,
+          "explanation": "Darkwing Duck combate o crime, não nada em moedas.\nMas também é estiloso!"
+        },
+        {
+          "text": "Pateta",
+          "isCorrect": false,
+          "explanation": "Pateta é desastrado, mas nunca tentou nadar em moedas.\nAinda bem!"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "question": "Qual é o nome do ratinho aprendiz de feiticeiro em 'Fantasia' da Disney?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Mickey Mouse",
+          "isCorrect": true,
+          "explanation": "Mickey Mouse faz mágica até com baldes!\nSó faltou controlar as vassouras.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Mickey_Mouse_Fantasia.png",
+          "imageDescription": "Mickey Mouse como aprendiz de feiticeiro."
+        },
+        {
+          "text": "Jerry",
+          "isCorrect": false,
+          "explanation": "Jerry só faz mágica para escapar do Tom.\nNada de chapéu de feiticeiro."
+        },
+        {
+          "text": "Stuart Little",
+          "isCorrect": false,
+          "explanation": "Stuart Little dirige carros, mas não varinhas mágicas."
+        },
+        {
+          "text": "Remy",
+          "isCorrect": false,
+          "explanation": "Remy prefere cozinhar do que conjurar feitiços.\nRatos mágicos são raros!"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "question": "Qual é o nome do desenho em que um menino tem um laboratório secreto e uma irmã curiosa?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "O Laboratório de Dexter",
+          "isCorrect": true,
+          "explanation": "Dexter tenta esconder seu laboratório, mas a Dee Dee sempre acha!\nCiência e confusão em cada episódio.",
+          "imageUrl": "https://www.cartoonnetwork.com.br/sites/www.cartoonnetwork.com.br/files/styles/character_detail/public/characters/character-dexter.png",
+          "imageDescription": "Dexter, o cientista mirim."
+        },
+        {
+          "text": "Jimmy Neutron",
+          "isCorrect": false,
+          "explanation": "Jimmy inventa muito, mas sua irmã não é tão curiosa (só um pouco irritante)."
+        },
+        {
+          "text": "Phineas e Ferb",
+          "isCorrect": false,
+          "explanation": "Phineas e Ferb constroem de tudo, mas não escondem nada da Candace."
+        },
+        {
+          "text": "Doug",
+          "isCorrect": false,
+          "explanation": "Doug prefere imaginar aventuras do que construir laboratórios secretos."
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "question": "Qual é o nome do cachorro falante que resolve mistérios com seus amigos?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Scooby-Doo",
+          "isCorrect": true,
+          "explanation": "Scooby-Doo é mestre em fugir de fantasmas e comer biscoitos!\nMistérios e lanches nunca faltam.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Scooby-Doo.png",
+          "imageDescription": "Scooby-Doo, o cachorro detetive."
+        },
+        {
+          "text": "Bolt",
+          "isCorrect": false,
+          "explanation": "Bolt é corajoso, mas não investiga mistérios.\nSó corre atrás de ação!"
+        },
+        {
+          "text": "Pluto",
+          "isCorrect": false,
+          "explanation": "Pluto é fofo, mas não fala nem resolve mistérios.\nSó late mesmo!"
+        },
+        {
+          "text": "Blue",
+          "isCorrect": false,
+          "explanation": "Blue dá pistas, mas não fala nem caça fantasmas."
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "question": "Qual é o nome do vilão de 'DuckTales' que é rival do Tio Patinhas?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Pão-Duro McMônei",
+          "isCorrect": true,
+          "explanation": "Pão-Duro McMônei é o pato mais pão-duro e competitivo do universo!\nSempre tentando passar o Tio Patinhas para trás.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Flintheart_Glomgold.png",
+          "imageDescription": "Pão-Duro McMônei, rival do Tio Patinhas."
+        },
+        {
+          "text": "Patacôncio",
+          "isCorrect": false,
+          "explanation": "Patacôncio é rico, mas não é páreo para a rivalidade do McMônei."
+        },
+        {
+          "text": "MacPatinhas",
+          "isCorrect": false,
+          "explanation": "MacPatinhas é só um nome parecido.\nO verdadeiro rival é mais pão-duro!"
+        },
+        {
+          "text": "Gastão",
+          "isCorrect": false,
+          "explanation": "Gastão é sortudo, mas não é vilão.\nSó ganha tudo sem esforço!"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "question": "Qual é o nome do desenho em que um grupo de super-heróis adolescentes luta contra o crime?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Jovens Titãs",
+          "isCorrect": true,
+          "explanation": "Jovens Titãs unem forças para salvar o mundo (e pedir pizza)!\nHeróis com muito estilo e senso de humor.",
+          "imageUrl": "https://www.cartoonnetwork.com.br/sites/www.cartoonnetwork.com.br/files/styles/character_detail/public/characters/character-teen-titans-robin.png",
+          "imageDescription": "Robin, líder dos Jovens Titãs."
+        },
+        {
+          "text": "Liga da Justiça",
+          "isCorrect": false,
+          "explanation": "Liga da Justiça é para adultos!\nAqui só entram adolescentes com superpoderes."
+        },
+        {
+          "text": "X-Men",
+          "isCorrect": false,
+          "explanation": "X-Men são mutantes, mas não são titãs.\nA adolescência deles é bem diferente!"
+        },
+        {
+          "text": "Os Incríveis",
+          "isCorrect": false,
+          "explanation": "Os Incríveis são uma família superpoderosa, não um grupo de adolescentes."
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "question": "Qual é o nome do desenho em que um garoto tem um peixe dourado mágico?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Os Padrinhos Mágicos",
+          "isCorrect": true,
+          "explanation": "Cosmo vira peixe dourado para se esconder!\nMagia e confusão garantidas na vida do Timmy.",
+          "imageUrl": "https://mundonick.uol.com.br/sites/mundonick.uol.com.br/files/styles/character_detail/public/characters/cosmo.png",
+          "imageDescription": "Cosmo, padrinho mágico disfarçado de peixe."
+        },
+        {
+          "text": "Peixonauta",
+          "isCorrect": false,
+          "explanation": "Peixonauta é detetive, não mágico.\nNada de varinha por aqui!"
+        },
+        {
+          "text": "Bob Esponja",
+          "isCorrect": false,
+          "explanation": "Bob Esponja mora no fundo do mar, mas não tem peixe dourado mágico."
+        },
+        {
+          "text": "Doug",
+          "isCorrect": false,
+          "explanation": "Doug tem imaginação fértil, mas peixe mágico não faz parte."
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "question": "Qual é o nome do desenho em que um menino e seu cachorro viajam pelo tempo em uma máquina?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "As Aventuras de Peabody & Sherman",
+          "isCorrect": true,
+          "explanation": "Peabody é o cachorro gênio e Sherman o menino curioso!\nJuntos, eles bagunçam a história com estilo.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Peabody_and_Sherman_logo.png",
+          "imageDescription": "Logo de As Aventuras de Peabody & Sherman."
+        },
+        {
+          "text": "Hora de Aventura",
+          "isCorrect": false,
+          "explanation": "Finn e Jake viajam, mas não no tempo.\nSó pelo mundo de Ooo mesmo!"
+        },
+        {
+          "text": "Jimmy Neutron",
+          "isCorrect": false,
+          "explanation": "Jimmy inventa de tudo, mas máquina do tempo é raro."
+        },
+        {
+          "text": "Os Jetsons",
+          "isCorrect": false,
+          "explanation": "Os Jetsons vivem no futuro, mas não viajam no tempo."
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "question": "Qual é o nome do desenho em que um grupo de crianças tem poderes elementares e luta contra a Nação do Fogo?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Avatar: A Lenda de Aang",
+          "isCorrect": true,
+          "explanation": "Aang é o Avatar e domina todos os elementos!\nA Nação do Fogo não tem chance.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Avatar_The_Last_Airbender_logo.png",
+          "imageDescription": "Logo de Avatar: A Lenda de Aang."
+        },
+        {
+          "text": "Pokémon",
+          "isCorrect": false,
+          "explanation": "Pokémon tem poderes, mas não luta contra a Nação do Fogo."
+        },
+        {
+          "text": "Digimon",
+          "isCorrect": false,
+          "explanation": "Digimon são digitais, não elementares."
+        },
+        {
+          "text": "Naruto",
+          "isCorrect": false,
+          "explanation": "Naruto tem jutsus, mas nada de Nação do Fogo."
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "question": "Qual é o nome do desenho em que um garoto chamado Ash viaja pelo mundo capturando criaturas?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Pokémon",
+          "isCorrect": true,
+          "explanation": "Ash quer ser um mestre Pokémon!\nPokébolas, batalhas e muitas aventuras pelo caminho.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Pokemon_logo.png",
+          "imageDescription": "Logo de Pokémon."
+        },
+        {
+          "text": "Digimon",
+          "isCorrect": false,
+          "explanation": "Digimon tem batalhas, mas Ash não aparece por lá."
+        },
+        {
+          "text": "Yu-Gi-Oh!",
+          "isCorrect": false,
+          "explanation": "Yu-Gi-Oh! prefere cartas a Pokébolas."
+        },
+        {
+          "text": "Bakugan",
+          "isCorrect": false,
+          "explanation": "Bakugan são esferas, não criaturas de bolso."
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "question": "Qual é o nome do vilão de 'Caverna do Dragão' que usa um capuz vermelho?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Vingador",
+          "isCorrect": true,
+          "explanation": "Vingador é o vilão mais assustador do reino!\nCapuz vermelho e planos malignos são sua marca.",
+          "imageUrl": "https://openclipart.org/image/400px/svg_to_png/285220/vingador.png",
+          "imageDescription": "Vingador, vilão de Caverna do Dragão."
+        },
+        {
+          "text": "Mandark",
+          "isCorrect": false,
+          "explanation": "Mandark só quer derrotar o Dexter.\nNada de magia medieval."
+        },
+        {
+          "text": "Plankton",
+          "isCorrect": false,
+          "explanation": "Plankton só quer a fórmula do hambúrguer.\nNada de capa vermelha!"
+        },
+        {
+          "text": "Mojo Jojo",
+          "isCorrect": false,
+          "explanation": "Mojo Jojo é vilão, mas só enfrenta Meninas Superpoderosas."
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "question": "Qual é o nome do desenho em que um grupo de garotos anda de skate e vive aventuras na praia?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Rocket Power",
+          "isCorrect": true,
+          "explanation": "Rocket Power é adrenalina pura!\nSkate, surf e amizade na veia.",
+          "imageUrl": "https://mundonick.uol.com.br/sites/mundonick.uol.com.br/files/styles/character_detail/public/characters/rocket-power.png",
+          "imageDescription": "Rocket Power, grupo de amigos radicais."
+        },
+        {
+          "text": "Doug",
+          "isCorrect": false,
+          "explanation": "Doug prefere andar de bicicleta e imaginar aventuras."
+        },
+        {
+          "text": "Hey Arnold!",
+          "isCorrect": false,
+          "explanation": "Hey Arnold! é mais urbano, menos radical."
+        },
+        {
+          "text": "Recreio",
+          "isCorrect": false,
+          "explanation": "Recreio é diversão na escola, não na praia."
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "question": "Qual é o nome do desenho em que dois irmãos inventam coisas malucas nas férias de verão?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Phineas e Ferb",
+          "isCorrect": true,
+          "explanation": "Phineas e Ferb transformam qualquer verão em aventura!\nCandace nunca consegue pegar os irmãos no flagra.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Phineas_and_Ferb_logo.png",
+          "imageDescription": "Logo de Phineas e Ferb."
+        },
+        {
+          "text": "Jimmy Neutron",
+          "isCorrect": false,
+          "explanation": "Jimmy inventa muito, mas não tem um irmão tão parceiro."
+        },
+        {
+          "text": "Dexter",
+          "isCorrect": false,
+          "explanation": "Dexter prefere esconder suas invenções da irmã."
+        },
+        {
+          "text": "Doug",
+          "isCorrect": false,
+          "explanation": "Doug prefere imaginar aventuras do que construir engenhocas."
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "question": "Qual é o nome do vilão de 'Os Padrinhos Mágicos' que odeia fadas?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Sr. Crocker",
+          "isCorrect": true,
+          "explanation": "Sr. Crocker é obcecado por fadas!\nEle faria qualquer coisa para provar que elas existem.",
+          "imageUrl": "https://mundonick.uol.com.br/sites/mundonick.uol.com.br/files/styles/character_detail/public/characters/crocker.png",
+          "imageDescription": "Sr. Crocker, vilão de Os Padrinhos Mágicos."
+        },
+        {
+          "text": "Vicky",
+          "isCorrect": false,
+          "explanation": "Vicky é malvada, mas não liga para fadas.\nEla só quer atormentar o Timmy."
+        },
+        {
+          "text": "Mandark",
+          "isCorrect": false,
+          "explanation": "Mandark só quer derrotar Dexter.\nNada de fadas por aqui."
+        },
+        {
+          "text": "Plankton",
+          "isCorrect": false,
+          "explanation": "Plankton só quer hambúrguer.\nFadas não estão no cardápio."
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "question": "Qual é o nome do desenho em que um garoto tem um amigo imaginário azul?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "A Mansão Foster para Amigos Imaginários",
+          "isCorrect": true,
+          "explanation": "Mac e Bloo vivem altas aventuras na mansão!\nAmigos imaginários de todos os tipos aparecem por lá.",
+          "imageUrl": "https://www.cartoonnetwork.com.br/sites/www.cartoonnetwork.com.br/files/styles/character_detail/public/characters/character-fosters-bloo.png",
+          "imageDescription": "Bloo, amigo imaginário azul."
+        },
+        {
+          "text": "Doug",
+          "isCorrect": false,
+          "explanation": "Doug é criativo, mas seu amigo é Skeeter, não azul e imaginário."
+        },
+        {
+          "text": "Hey Arnold!",
+          "isCorrect": false,
+          "explanation": "Arnold tem muitos amigos, mas nenhum azul e imaginário."
+        },
+        {
+          "text": "Os Anjinhos",
+          "isCorrect": false,
+          "explanation": "Os Anjinhos têm imaginação, mas não amigos azuis."
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "question": "Qual é o nome do desenho em que um grupo de crianças resolve mistérios na escola?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Recreio",
+          "isCorrect": true,
+          "explanation": "Recreio é pura investigação durante o intervalo!\nTJ e sua turma sempre descobrem algo novo.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Recess_logo.png",
+          "imageDescription": "Logo de Recreio."
+        },
+        {
+          "text": "Doug",
+          "isCorrect": false,
+          "explanation": "Doug prefere imaginar aventuras do que resolver mistérios escolares."
+        },
+        {
+          "text": "Rocket Power",
+          "isCorrect": false,
+          "explanation": "Rocket Power prefere esportes radicais a mistérios."
+        },
+        {
+          "text": "Hey Arnold!",
+          "isCorrect": false,
+          "explanation": "Hey Arnold! tem confusões, mas não é focado em mistérios."
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "question": "Qual é o nome do desenho em que um menino vira fantasma para combater o mal?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Danny Phantom",
+          "isCorrect": true,
+          "explanation": "Danny Phantom é metade garoto, metade fantasma!\nCombate vilões do além com muito estilo.",
+          "imageUrl": "https://mundonick.uol.com.br/sites/mundonick.uol.com.br/files/styles/character_detail/public/characters/danny-phantom.png",
+          "imageDescription": "Danny Phantom, o garoto fantasma."
+        },
+        {
+          "text": "Ben 10",
+          "isCorrect": false,
+          "explanation": "Ben 10 vira alienígena, não fantasma."
+        },
+        {
+          "text": "Jimmy Neutron",
+          "isCorrect": false,
+          "explanation": "Jimmy Neutron é gênio, mas não fantasma."
+        },
+        {
+          "text": "Os Padrinhos Mágicos",
+          "isCorrect": false,
+          "explanation": "Timmy tem magia, mas não poderes fantasmagóricos."
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "question": "Qual é o nome do desenho em que um menino tem um diário mágico que realiza desejos?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Doug",
+          "isCorrect": false,
+          "explanation": "Doug tem um diário, mas ele só serve para desabafos."
+        },
+        {
+          "text": "Hey Arnold!",
+          "isCorrect": false,
+          "explanation": "Arnold tem um diário, mas nada de magia."
+        },
+        {
+          "text": "O Diário de Mika",
+          "isCorrect": true,
+          "explanation": "O Diário de Mika realiza desejos e aventuras!\nCada página é uma viagem diferente.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:O_Di%C3%A1rio_de_Mika_logo.png",
+          "imageDescription": "Logo de O Diário de Mika."
+        },
+        {
+          "text": "Os Padrinhos Mágicos",
+          "isCorrect": false,
+          "explanation": "Timmy tem padrinhos mágicos, não diário mágico."
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "question": "Qual é o nome do desenho em que um grupo de super-heróis é formado por animais de estimação?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Super Fofos!",
+          "isCorrect": true,
+          "explanation": "Super Fofos! são animais que salvam o dia com muita fofura.\nMissão dada é missão cumprida.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Wonder_Pets_logo.png",
+          "imageDescription": "Logo de Super Fofos! (Wonder Pets)."
+        },
+        {
+          "text": "Patrulha Canina",
+          "isCorrect": false,
+          "explanation": "Patrulha Canina resolve problemas, mas não são super-heróis clássicos."
+        },
+        {
+          "text": "Os Animais do Bosque dos Vinténs",
+          "isCorrect": false,
+          "explanation": "Esses animais só querem sobreviver, nada de superpoderes."
+        },
+        {
+          "text": "Garfield e Seus Amigos",
+          "isCorrect": false,
+          "explanation": "Garfield só quer dormir e comer, salvar o mundo não é com ele."
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "question": "Qual é o nome do desenho em que um menino e seu avô viajam por universos paralelos?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Rick and Morty",
+          "isCorrect": true,
+          "explanation": "Rick é o avô cientista maluco, Morty é o neto atrapalhado!\nUniversos paralelos, confusões e muita risada.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Rick_and_Morty_logo.png",
+          "imageDescription": "Logo de Rick and Morty."
+        },
+        {
+          "text": "Hora de Aventura",
+          "isCorrect": false,
+          "explanation": "Finn e Jake viajam, mas não por universos paralelos."
+        },
+        {
+          "text": "Gravity Falls",
+          "isCorrect": false,
+          "explanation": "Gravity Falls tem mistérios, mas não viagens interdimensionais."
+        },
+        {
+          "text": "Ben 10",
+          "isCorrect": false,
+          "explanation": "Ben viaja pelo mundo, não por universos paralelos."
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "question": "Qual é o nome do desenho em que um jovem herdeiro luta para proteger sua cidade com a ajuda de um mordomo?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Batman: A Série Animada",
+          "isCorrect": true,
+          "explanation": "Bruce Wayne e Alfred são a dupla dinâmica da Mansão Wayne!\nGotham nunca dorme.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Batman_The_Animated_Series_logo.png",
+          "imageDescription": "Logo de Batman: A Série Animada."
+        },
+        {
+          "text": "DuckTales",
+          "isCorrect": false,
+          "explanation": "Tio Patinhas tem mordomo, mas não luta contra o crime."
+        },
+        {
+          "text": "Os Incríveis",
+          "isCorrect": false,
+          "explanation": "Os Incríveis são uma família de heróis, sem mordomo."
+        },
+        {
+          "text": "Jovens Titãs",
+          "isCorrect": false,
+          "explanation": "Os Titãs têm tecnologia, mas nada de mordomo."
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "question": "Qual é o nome do desenho em que um grupo de crianças se transforma em animais para combater o mal?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Animorphs",
+          "isCorrect": true,
+          "explanation": "Animorphs são mestres da transformação!\nCombater o mal nunca foi tão animal.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Animorphs_logo.png",
+          "imageDescription": "Logo de Animorphs."
+        },
+        {
+          "text": "Mutante Rex",
+          "isCorrect": false,
+          "explanation": "Rex é mutante, mas não vira animal."
+        },
+        {
+          "text": "Ben 10",
+          "isCorrect": false,
+          "explanation": "Ben vira alienígena, mas não animal terrestre."
+        },
+        {
+          "text": "Avatar",
+          "isCorrect": false,
+          "explanation": "Avatar controla elementos, não se transforma em animais."
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "question": "Qual é o nome do desenho em que um pato se transforma em super-herói à noite?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Darkwing Duck",
+          "isCorrect": true,
+          "explanation": "Darkwing Duck combate o crime com capa e muito estilo!\nÀ noite, ele vira o terror que voa na noite.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Darkwing_Duck_logo.png",
+          "imageDescription": "Logo de Darkwing Duck."
+        },
+        {
+          "text": "Pato Donald",
+          "isCorrect": false,
+          "explanation": "Pato Donald é atrapalhado, mas não vira super-herói."
+        },
+        {
+          "text": "DuckTales",
+          "isCorrect": false,
+          "explanation": "DuckTales é aventura, mas nada de super-heróis noturnos."
+        },
+        {
+          "text": "Pateta",
+          "isCorrect": false,
+          "explanation": "Pateta já foi super-herói, mas não é pato!"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "question": "Qual é o nome do desenho em que um grupo de crianças vive em uma árvore-fortaleza?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "KND: A Turma do Bairro",
+          "isCorrect": true,
+          "explanation": "KND é pura aventura e tecnologia escondida em casas na árvore!\nMissões secretas e códigos malucos.",
+          "imageUrl": "https://www.cartoonnetwork.com.br/sites/www.cartoonnetwork.com.br/files/styles/character_detail/public/characters/character-knd.png",
+          "imageDescription": "KND: A Turma do Bairro."
+        },
+        {
+          "text": "Recreio",
+          "isCorrect": false,
+          "explanation": "Recreio é na escola, não na árvore."
+        },
+        {
+          "text": "Rocket Power",
+          "isCorrect": false,
+          "explanation": "Rocket Power prefere a praia a casas na árvore."
+        },
+        {
+          "text": "Hey Arnold!",
+          "isCorrect": false,
+          "explanation": "Hey Arnold! mora em um apartamento, não em uma árvore."
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "question": "Qual é o nome do desenho em que um coelho rosa vive aventuras em uma fazenda assustadora?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Coragem, o Cão Covarde",
+          "isCorrect": false,
+          "explanation": "Coragem é um cachorro rosa, não coelho!\nMas a fazenda é assustadora mesmo."
+        },
+        {
+          "text": "Bugs Bunny",
+          "isCorrect": false,
+          "explanation": "Bugs Bunny é coelho, mas prefere cenouras e pegadinhas."
+        },
+        {
+          "text": "Ruby Gloom",
+          "isCorrect": false,
+          "explanation": "Ruby Gloom vive em uma mansão, não em fazenda."
+        },
+        {
+          "text": "Não existe um coelho rosa protagonista de fazenda assustadora",
+          "isCorrect": true,
+          "explanation": "Pegadinha! Não existe coelho rosa vivendo aventuras em fazenda assustadora.\nCoragem é um cachorro rosa!",
+          "imageUrl": "https://www.cartoonnetwork.com.br/sites/www.cartoonnetwork.com.br/files/styles/character_detail/public/characters/character-courage.png",
+          "imageDescription": "Coragem, o Cão Covarde."
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "question": "Qual é o nome do desenho em que um grupo de crianças vive em uma casa na árvore e combate adultos malvados?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "KND: A Turma do Bairro",
+          "isCorrect": true,
+          "explanation": "KND é pura aventura!\nNada de adultos mandando: só missões secretas e tecnologia maluca.",
+          "imageUrl": "https://www.cartoonnetwork.com.br/sites/www.cartoonnetwork.com.br/files/styles/character_detail/public/characters/character-knd.png",
+          "imageDescription": "KND: A Turma do Bairro, grupo de crianças em casa na árvore."
+        },
+        {
+          "text": "Recreio",
+          "isCorrect": false,
+          "explanation": "Recreio é na escola, não em casa na árvore.\nAdultos só aparecem na hora do intervalo!"
+        },
+        {
+          "text": "Rocket Power",
+          "isCorrect": false,
+          "explanation": "Rocket Power prefere praia a casas na árvore.\nCombate só nas pistas de skate!"
+        },
+        {
+          "text": "Hey Arnold!",
+          "isCorrect": false,
+          "explanation": "Arnold mora em um apartamento, não em uma casa na árvore."
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "question": "Qual é o nome do desenho em que um cachorro rosa enfrenta monstros em uma fazenda isolada?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Coragem, o Cão Covarde",
+          "isCorrect": true,
+          "explanation": "Coragem é o cachorro rosa mais assustado (e corajoso) da TV!\nEle salva Muriel e Eustácio de cada criatura bizarra.",
+          "imageUrl": "https://www.cartoonnetwork.com.br/sites/www.cartoonnetwork.com.br/files/styles/character_detail/public/characters/character-courage.png",
+          "imageDescription": "Coragem, o Cão Covarde."
+        },
+        {
+          "text": "Scooby-Doo",
+          "isCorrect": false,
+          "explanation": "Scooby-Doo foge de fantasmas, mas não mora em fazenda.\nE nem é rosa!"
+        },
+        {
+          "text": "Bolt",
+          "isCorrect": false,
+          "explanation": "Bolt é branco e vive aventuras urbanas."
+        },
+        {
+          "text": "Blue",
+          "isCorrect": false,
+          "explanation": "Blue é azul e gosta de pistas, não de monstros."
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "question": "Qual é o nome do desenho em que um pato atrapalhado vive aventuras com seu tio milionário?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "DuckTales",
+          "isCorrect": true,
+          "explanation": "DuckTales é pura aventura e confusão!\nTio Patinhas e os sobrinhos sempre se metem em encrencas.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:DuckTales_logo.png",
+          "imageDescription": "Logo de DuckTales."
+        },
+        {
+          "text": "Pato Donald",
+          "isCorrect": false,
+          "explanation": "Pato Donald é atrapalhado, mas DuckTales é o time completo."
+        },
+        {
+          "text": "Darkwing Duck",
+          "isCorrect": false,
+          "explanation": "Darkwing Duck combate o crime, mas não é sobrinho do Tio Patinhas."
+        },
+        {
+          "text": "Pateta",
+          "isCorrect": false,
+          "explanation": "Pateta é desastrado, mas não tem tio milionário."
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "question": "Qual é o nome do desenho em que um grupo de crianças enfrenta monstros digitais usando digivices?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Digimon",
+          "isCorrect": true,
+          "explanation": "Digimon são monstros digitais e os digivices são essenciais!\nAventura eletrizante garantida.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Digimon_logo.png",
+          "imageDescription": "Logo de Digimon."
+        },
+        {
+          "text": "Pokémon",
+          "isCorrect": false,
+          "explanation": "Pokémon tem Pokébola, não digivice."
+        },
+        {
+          "text": "Bakugan",
+          "isCorrect": false,
+          "explanation": "Bakugan são esferas, não monstros digitais."
+        },
+        {
+          "text": "Yu-Gi-Oh!",
+          "isCorrect": false,
+          "explanation": "Yu-Gi-Oh! prefere cartas a digivices."
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "question": "Qual é o nome do desenho em que um menino chamado Timmy tem dois padrinhos mágicos?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Os Padrinhos Mágicos",
+          "isCorrect": true,
+          "explanation": "Timmy Turner tem Cosmo e Wanda para realizar desejos!\nSó cuidado com as regras das fadas.",
+          "imageUrl": "https://mundonick.uol.com.br/sites/mundonick.uol.com.br/files/styles/character_detail/public/characters/timmy-turner.png",
+          "imageDescription": "Timmy Turner, de Os Padrinhos Mágicos."
+        },
+        {
+          "text": "Doug",
+          "isCorrect": false,
+          "explanation": "Doug tem imaginação, mas nada de padrinhos mágicos."
+        },
+        {
+          "text": "Hey Arnold!",
+          "isCorrect": false,
+          "explanation": "Arnold tem amigos, não fadas mágicas."
+        },
+        {
+          "text": "Rocket Power",
+          "isCorrect": false,
+          "explanation": "Rocket Power prefere esportes a magia."
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "question": "Qual é o nome do desenho em que um grupo de crianças vive aventuras em um ônibus amarelo que pode encolher?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "O Ônibus Mágico",
+          "isCorrect": true,
+          "explanation": "A professora Frizzle leva a turma para viagens microscópicas!\nO ônibus mágico cabe em qualquer lugar.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:The_Magic_School_Bus_logo.png",
+          "imageDescription": "Logo de O Ônibus Mágico."
+        },
+        {
+          "text": "Doug",
+          "isCorrect": false,
+          "explanation": "Doug só viaja na imaginação, não de ônibus mágico."
+        },
+        {
+          "text": "Rocket Power",
+          "isCorrect": false,
+          "explanation": "Rocket Power prefere skate e praia a ônibus mágicos."
+        },
+        {
+          "text": "Recreio",
+          "isCorrect": false,
+          "explanation": "Recreio é no pátio da escola, não em ônibus mágicos."
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "question": "Qual é o nome do desenho em que um menino chamado Ash viaja pelo mundo capturando criaturas de bolso?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Pokémon",
+          "isCorrect": true,
+          "explanation": "Ash quer ser um mestre Pokémon!\nPokébolas, batalhas e muitas aventuras pelo caminho.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Pokemon_logo.png",
+          "imageDescription": "Logo de Pokémon."
+        },
+        {
+          "text": "Digimon",
+          "isCorrect": false,
+          "explanation": "Digimon são digitais, não de bolso."
+        },
+        {
+          "text": "Yu-Gi-Oh!",
+          "isCorrect": false,
+          "explanation": "Yu-Gi-Oh! prefere cartas a Pokébolas."
+        },
+        {
+          "text": "Bakugan",
+          "isCorrect": false,
+          "explanation": "Bakugan são esferas, não criaturas de bolso."
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "question": "Qual é o nome do desenho em que um menino e seu avô viajam por universos paralelos com uma arma portal?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Rick and Morty",
+          "isCorrect": true,
+          "explanation": "Rick é o avô cientista maluco e Morty é o neto atrapalhado!\nUniversos paralelos garantidos com a arma portal.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Rick_and_Morty_logo.png",
+          "imageDescription": "Logo de Rick and Morty."
+        },
+        {
+          "text": "Hora de Aventura",
+          "isCorrect": false,
+          "explanation": "Finn e Jake viajam, mas não por universos paralelos."
+        },
+        {
+          "text": "Gravity Falls",
+          "isCorrect": false,
+          "explanation": "Gravity Falls tem mistérios, mas não viagens interdimensionais."
+        },
+        {
+          "text": "Ben 10",
+          "isCorrect": false,
+          "explanation": "Ben viaja pelo mundo, não por universos paralelos."
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "question": "Qual é o nome do desenho em que um menino chamado Jimmy é um gênio inventor?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Jimmy Neutron",
+          "isCorrect": true,
+          "explanation": "Jimmy Neutron é o gênio da Retroville!\nInvenções mirabolantes e confusões garantidas.",
+          "imageUrl": "https://mundonick.uol.com.br/sites/mundonick.uol.com.br/files/styles/character_detail/public/characters/jimmy-neutron.png",
+          "imageDescription": "Jimmy Neutron, o menino gênio."
+        },
+        {
+          "text": "Dexter",
+          "isCorrect": false,
+          "explanation": "Dexter é gênio também, mas não atende por Jimmy."
+        },
+        {
+          "text": "Ben 10",
+          "isCorrect": false,
+          "explanation": "Ben 10 é aventureiro, não inventor."
+        },
+        {
+          "text": "Doug",
+          "isCorrect": false,
+          "explanation": "Doug é criativo, mas não inventor."
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "question": "Qual é o nome do desenho em que um grupo de crianças enfrenta um vilão chamado Vingador?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Caverna do Dragão",
+          "isCorrect": true,
+          "explanation": "Vingador é o vilão de capa vermelha e chifres assustadores!\nA turma nunca tem sossego com ele por perto.",
+          "imageUrl": "https://openclipart.org/image/400px/svg_to_png/285220/vingador.png",
+          "imageDescription": "Vingador, vilão de Caverna do Dragão."
+        },
+        {
+          "text": "Jovens Titãs",
+          "isCorrect": false,
+          "explanation": "Os Titãs enfrentam vilões, mas Vingador não está na lista."
+        },
+        {
+          "text": "Os Padrinhos Mágicos",
+          "isCorrect": false,
+          "explanation": "Timmy enfrenta fadas más, não vilões medievais."
+        },
+        {
+          "text": "Ben 10",
+          "isCorrect": false,
+          "explanation": "Ben 10 enfrenta alienígenas, não vilões de capa vermelha."
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "question": "Qual é o nome do desenho em que um pato se transforma em super-herói à noite?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Darkwing Duck",
+          "isCorrect": true,
+          "explanation": "Darkwing Duck combate o crime com capa e muito estilo!\nÀ noite, ele vira o terror que voa na noite.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Darkwing_Duck_logo.png",
+          "imageDescription": "Logo de Darkwing Duck."
+        },
+        {
+          "text": "Pato Donald",
+          "isCorrect": false,
+          "explanation": "Pato Donald é atrapalhado, mas não vira super-herói."
+        },
+        {
+          "text": "DuckTales",
+          "isCorrect": false,
+          "explanation": "DuckTales é aventura, mas nada de super-heróis noturnos."
+        },
+        {
+          "text": "Pateta",
+          "isCorrect": false,
+          "explanation": "Pateta já foi super-herói, mas não é pato!"
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "question": "Qual é o nome do desenho em que um grupo de crianças vive aventuras em uma árvore-fortaleza?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "KND: A Turma do Bairro",
+          "isCorrect": true,
+          "explanation": "KND é pura aventura e tecnologia escondida em casas na árvore!\nMissões secretas e códigos malucos.",
+          "imageUrl": "https://www.cartoonnetwork.com.br/sites/www.cartoonnetwork.com.br/files/styles/character_detail/public/characters/character-knd.png",
+          "imageDescription": "KND: A Turma do Bairro."
+        },
+        {
+          "text": "Recreio",
+          "isCorrect": false,
+          "explanation": "Recreio é na escola, não na árvore."
+        },
+        {
+          "text": "Rocket Power",
+          "isCorrect": false,
+          "explanation": "Rocket Power prefere a praia a casas na árvore."
+        },
+        {
+          "text": "Hey Arnold!",
+          "isCorrect": false,
+          "explanation": "Hey Arnold! mora em um apartamento, não em uma árvore."
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "question": "Qual é o nome do desenho em que um coelho rosa vive aventuras em uma fazenda assustadora?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Coragem, o Cão Covarde",
+          "isCorrect": false,
+          "explanation": "Coragem é um cachorro rosa, não coelho!\nMas a fazenda é assustadora mesmo."
+        },
+        {
+          "text": "Bugs Bunny",
+          "isCorrect": false,
+          "explanation": "Bugs Bunny é coelho, mas prefere cenouras e pegadinhas."
+        },
+        {
+          "text": "Ruby Gloom",
+          "isCorrect": false,
+          "explanation": "Ruby Gloom vive em uma mansão, não em fazenda."
+        },
+        {
+          "text": "Não existe um coelho rosa protagonista de fazenda assustadora",
+          "isCorrect": true,
+          "explanation": "Pegadinha! Não existe coelho rosa vivendo aventuras em fazenda assustadora.\nCoragem é um cachorro rosa!",
+          "imageUrl": "https://www.cartoonnetwork.com.br/sites/www.cartoonnetwork.com.br/files/styles/character_detail/public/characters/character-courage.png",
+          "imageDescription": "Coragem, o Cão Covarde."
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "question": "Qual é o nome do desenho em que um menino e um alienígena azul vivem aventuras no Havaí?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Lilo & Stitch",
+          "isCorrect": true,
+          "explanation": "Lilo é a menina e Stitch é o alienígena azul mais bagunceiro do Havaí!\nJuntos, eles provam que 'ohana' significa família.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Lilo_and_Stitch_logo.png",
+          "imageDescription": "Logo de Lilo & Stitch."
+        },
+        {
+          "text": "Ben 10",
+          "isCorrect": false,
+          "explanation": "Ben 10 tem alienígenas, mas não mora no Havaí.\nE nenhum deles é azul e fofo!"
+        },
+        {
+          "text": "Jimmy Neutron",
+          "isCorrect": false,
+          "explanation": "Jimmy tem robôs e invenções, mas nada de Havaí ou alienígenas azuis."
+        },
+        {
+          "text": "Steven Universo",
+          "isCorrect": false,
+          "explanation": "Steven tem aventuras mágicas, mas não vive no Havaí com alienígena azul."
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "question": "Qual é o nome do desenho em que um menino usa um boné azul e enfrenta criaturas sobrenaturais em uma cidade misteriosa?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Gravity Falls",
+          "isCorrect": true,
+          "explanation": "Dipper usa seu boné azul para desvendar os mistérios de Gravity Falls!\nMonstros, gnomos e até um porquinho de estimação.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Gravity_Falls_logo.png",
+          "imageDescription": "Logo de Gravity Falls."
+        },
+        {
+          "text": "Hey Arnold!",
+          "isCorrect": false,
+          "explanation": "Arnold usa boné, mas não enfrenta criaturas sobrenaturais."
+        },
+        {
+          "text": "Doug",
+          "isCorrect": false,
+          "explanation": "Doug tem imaginação fértil, mas nada de cidade misteriosa."
+        },
+        {
+          "text": "Steven Universo",
+          "isCorrect": false,
+          "explanation": "Steven enfrenta ameaças mágicas, mas não usa boné azul."
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "question": "Qual é o nome do desenho em que um menino chamado Arnold vive em uma cidade grande e tem cabeça de bigorna?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Hey Arnold!",
+          "isCorrect": true,
+          "explanation": "Arnold é famoso pela cabeça de bigorna e por resolver problemas da vizinhança!\nA cidade grande nunca é monótona.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Hey_Arnold!_logo.png",
+          "imageDescription": "Logo de Hey Arnold!."
+        },
+        {
+          "text": "Doug",
+          "isCorrect": false,
+          "explanation": "Doug é criativo, mas a cabeça dele é bem normal."
+        },
+        {
+          "text": "Rocket Power",
+          "isCorrect": false,
+          "explanation": "Rocket Power prefere praias e esportes radicais."
+        },
+        {
+          "text": "Recreio",
+          "isCorrect": false,
+          "explanation": "Recreio é na escola, não na cidade grande."
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "question": "Qual é o nome do desenho em que um grupo de crianças vive aventuras em um ônibus mágico?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "O Ônibus Mágico",
+          "isCorrect": true,
+          "explanation": "A professora Frizzle leva a turma para viagens incríveis!\nDe dentro do corpo humano ao espaço sideral.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:The_Magic_School_Bus_logo.png",
+          "imageDescription": "Logo de O Ônibus Mágico."
+        },
+        {
+          "text": "Doug",
+          "isCorrect": false,
+          "explanation": "Doug só viaja na imaginação, não de ônibus mágico."
+        },
+        {
+          "text": "Rocket Power",
+          "isCorrect": false,
+          "explanation": "Rocket Power prefere skate e praia a ônibus mágicos."
+        },
+        {
+          "text": "Recreio",
+          "isCorrect": false,
+          "explanation": "Recreio é no pátio da escola, não em ônibus mágicos."
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "question": "Qual é o nome do desenho em que um menino tem um peixe dourado chamado Douradinho?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Peixonauta",
+          "isCorrect": false,
+          "explanation": "Peixonauta é peixe detetive, mas não se chama Douradinho."
+        },
+        {
+          "text": "O Diário de Mika",
+          "isCorrect": false,
+          "explanation": "Mika tem muita imaginação, mas Douradinho não faz parte."
+        },
+        {
+          "text": "O Peixe Dourado",
+          "isCorrect": true,
+          "explanation": "O Peixe Dourado é um clássico brasileiro!\nDouradinho vive aventuras subaquáticas.",
+          "imageUrl": "https://openclipart.org/image/400px/svg_to_png/285221/goldfish.png",
+          "imageDescription": "Ilustração de um peixe dourado."
+        },
+        {
+          "text": "Os Padrinhos Mágicos",
+          "isCorrect": false,
+          "explanation": "Cosmo vira peixe, mas nunca foi chamado de Douradinho."
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "question": "Qual é o nome do desenho em que um garoto chamado Doug escreve em seu diário sobre suas aventuras?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Doug",
+          "isCorrect": true,
+          "explanation": "Doug Funnie é mestre em registrar tudo no diário!\nA criatividade dele não tem limites.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Doug_logo.png",
+          "imageDescription": "Logo de Doug."
+        },
+        {
+          "text": "Hey Arnold!",
+          "isCorrect": false,
+          "explanation": "Arnold tem cabeça de bigorna, mas não diário."
+        },
+        {
+          "text": "Rocket Power",
+          "isCorrect": false,
+          "explanation": "Rocket Power prefere esportes a diários."
+        },
+        {
+          "text": "Recreio",
+          "isCorrect": false,
+          "explanation": "Recreio é na escola, não no diário."
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "question": "Qual é o nome do desenho em que um grupo de crianças vive aventuras em um mundo digital?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Digimon",
+          "isCorrect": true,
+          "explanation": "Digimon são monstros digitais!\nCada aventura é uma batalha eletrizante.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Digimon_logo.png",
+          "imageDescription": "Logo de Digimon."
+        },
+        {
+          "text": "Pokémon",
+          "isCorrect": false,
+          "explanation": "Pokémon são criaturas de bolso, não digitais."
+        },
+        {
+          "text": "Yu-Gi-Oh!",
+          "isCorrect": false,
+          "explanation": "Yu-Gi-Oh! prefere cartas mágicas a mundos digitais."
+        },
+        {
+          "text": "Bakugan",
+          "isCorrect": false,
+          "explanation": "Bakugan são esferas, não monstros digitais."
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "question": "Qual é o nome do desenho em que um garoto chamado Steven descobre que é metade humano, metade gema?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Steven Universo",
+          "isCorrect": true,
+          "explanation": "Steven é o único garoto metade humano, metade gema!\nJunto das Crystal Gems, ele salva o mundo com música e amizade.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Steven_Universe_logo.png",
+          "imageDescription": "Logo de Steven Universo."
+        },
+        {
+          "text": "Ben 10",
+          "isCorrect": false,
+          "explanation": "Ben é humano, mas vira alienígena com o Omnitrix."
+        },
+        {
+          "text": "Hora de Aventura",
+          "isCorrect": false,
+          "explanation": "Finn é humano, mas nada de gema por aqui."
+        },
+        {
+          "text": "Pokémon",
+          "isCorrect": false,
+          "explanation": "Pokémon são criaturas, não gemas."
+        }
+      ]
+    },
+    {
+      "id": "97",
+      "question": "Qual é o nome do desenho em que um grupo de crianças se transforma em super-heróis usando anéis mágicos?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Capitão Planeta",
+          "isCorrect": true,
+          "explanation": "Com os anéis mágicos, surge o Capitão Planeta!\nHeróis ecológicos salvando o mundo.",
+          "imageUrl": "https://commons.wikimedia.org/wiki/File:Captain_Planet_logo.png",
+          "imageDescription": "Logo de Capitão Planeta."
+        },
+        {
+          "text": "Jovens Titãs",
+          "isCorrect": false,
+          "explanation": "Titãs têm superpoderes, mas nada de anéis mágicos."
+        },
+        {
+          "text": "KND: A Turma do Bairro",
+          "isCorrect": false,
+          "explanation": "KND usa tecnologia, não magia."
+        },
+        {
+          "text": "Os Incríveis",
+          "isCorrect": false,
+          "explanation": "Os Incríveis nasceram super, sem precisar de anéis."
+        }
+      ]
+    },
+    {
+      "id": "98",
+      "question": "Qual é o nome do desenho em que um menino tem um amigo imaginário em forma de coelho azul?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "A Mansão Foster para Amigos Imaginários",
+          "isCorrect": true,
+          "explanation": "Bloo é o amigo imaginário azul mais travesso da mansão!\nMac nunca fica entediado.",
+          "imageUrl": "https://www.cartoonnetwork.com.br/sites/www.cartoonnetwork.com.br/files/styles/character_detail/public/characters/character-fosters-bloo.png",
+          "imageDescription": "Bloo, amigo imaginário azul."
+        },
+        {
+          "text": "Doug",
+          "isCorrect": false,
+          "explanation": "Doug tem Skeeter, mas ele não é azul nem coelho."
+        },
+        {
+          "text": "Hey Arnold!",
+          "isCorrect": false,
+          "explanation": "Arnold tem amigos reais, não imaginários e azuis."
+        },
+        {
+          "text": "Rocket Power",
+          "isCorrect": false,
+          "explanation": "Rocket Power prefere esportes a amigos imaginários."
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "question": "Qual é o nome do desenho em que um grupo de crianças enfrenta monstros em um acampamento de verão?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Acampamento de Lazlo",
+          "isCorrect": true,
+          "explanation": "Lazlo e seus amigos vivem aventuras malucas no acampamento!\nMonstros, confusões e muita diversão.",
+          "imageUrl": "https://www.cartoonnetwork.com.br/sites/www.cartoonnetwork.com.br/files/styles/character_detail/public/characters/character-camp-lazlo.png",
+          "imageDescription": "Lazlo, do Acampamento de Lazlo."
+        },
+        {
+          "text": "Recreio",
+          "isCorrect": false,
+          "explanation": "Recreio é na escola, não no acampamento."
+        },
+        {
+          "text": "Rocket Power",
+          "isCorrect": false,
+          "explanation": "Rocket Power prefere praia a acampamento."
+        },
+        {
+          "text": "Hey Arnold!",
+          "isCorrect": false,
+          "explanation": "Arnold mora na cidade, nada de acampamento."
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "question": "Qual é o nome do desenho em que um menino se transforma em vários alienígenas diferentes usando um relógio?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Ben 10",
+          "isCorrect": true,
+          "explanation": "Ben 10 usa o Omnitrix para virar 10 alienígenas diferentes!\nA cada episódio, uma transformação nova.",
+          "imageUrl": "https://www.cartoonnetwork.com.br/sites/www.cartoonnetwork.com.br/files/styles/character_detail/public/characters/character-ben10.png",
+          "imageDescription": "Ben 10, garoto do Omnitrix."
+        },
+        {
+          "text": "Danny Phantom",
+          "isCorrect": false,
+          "explanation": "Danny vira fantasma, não alienígena."
+        },
+        {
+          "text": "Steven Universo",
+          "isCorrect": false,
+          "explanation": "Steven é metade gema, não alienígena."
+        },
+        {
+          "text": "Pokémon",
+          "isCorrect": false,
+          "explanation": "Pokémon são criaturas, não alienígenas."
         }
       ]
     }
