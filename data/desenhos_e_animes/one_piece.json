@@ -1,37 +1,2909 @@
 {
-    "config": {
-      "theme": "One Piece",
-      "totalPoints": 1000,
-      "scoring": "points"
+  "config": {
+    "theme": "One Piece",
+    "totalPoints": 1000,
+    "scoring": "points"
+  },
+  "data": [
+    {
+      "id": "01",
+      "question": "Qual é o nome do protagonista de One Piece?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Roronoa Zoro",
+          "isCorrect": false,
+          "explanation": "Zoro é o espadachim da tripulação,\nmas não é o capitão!\nTalvez um dia ele encontre o caminho certo,\nmas não é hoje."
+        },
+        {
+          "text": "Monkey D. Luffy",
+          "isCorrect": true,
+          "explanation": "Luffy é o capitão elástico que sonha alto!\nSe tem chapéu de palha e apetite infinito,\né ele mesmo.\nA resposta é esticada, mas certeira!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Monkey_D._Luffy_Anime_Pre_Timeskip_Infobox.png",
+          "imageDescription": "Luffy sorrindo com seu chapéu de palha."
+        },
+        {
+          "text": "Sanji",
+          "isCorrect": false,
+          "explanation": "Sanji prefere cozinhar e lutar com as pernas.\nCapitão? Só se for da cozinha!\nEle é o mestre do prato, não do navio."
+        },
+        {
+          "text": "Usopp",
+          "isCorrect": false,
+          "explanation": "Usopp é o atirador e contador de histórias.\nSer capitão está nas histórias dele,\nmas não na realidade.\nTalvez um dia, Usopp!"
+        }
+      ]
     },
-    "data": [
-      {
-        "question": "Em One Piece, qual é o nome do navio dos Piratas do Chapéu de Palha que tem uma figura de proa em forma de bode?",
-        "level": "médio",
-        "options": [
-          {
-            "text": "Thousand Sunny",
-            "isCorrect": true,
-            "explanation": "Argh, você é um verdadeiro nakama! O Thousand Sunny é o segundo navio dos Chapéus de Palha, construído por Franky após a perda do Going Merry. Com sua proa de bode, ele tem até um canhão Gaon e um jardim para a Nami. Navegou direitinho até o One Piece!",
-            "imageUrl": "https://static.wikia.nocookie.net/onepiece/images/7/73/Thousand_Sunny_Infobox.png",
-            "imageDescription": "Imagem do navio Thousand Sunny com sua proa em forma de bode, velas abertas e detalhes coloridos, ancorado em um mar azul."
-          },
-          {
-            "text": "Going Merry",
-            "isCorrect": false,
-            "explanation": "Quase, mas o mar te enganou! O Going Merry, primeiro navio dos Chapéus de Palha, tinha uma proa de ovelha, não de bode. Ele foi um fiel companheiro até seu final emocionante em Enies Lobby. Chorei rios!"
-          },
-          {
-            "text": "Moby Dick",
-            "isCorrect": false,
-            "explanation": "Nããão, errou de tripulação! A Moby Dick é o navio do Barba Branca, com uma proa de baleia. Nada a ver com os Chapéus de Palha, mas é um monstro dos mares!"
-          },
-          {
-            "text": "Red Force",
-            "isCorrect": false,
-            "explanation": "Ops, tá no barco errado! O Red Force é o navio do Shanks, com um dragão na proa. Parece maneiro, mas não é o lar do Luffy e cia. Tente de novo, pirata!"
-          }
-        ]
-      }
-    ]
-  }
+    {
+      "id": "02",
+      "question": "Qual é o nome do navio original dos Chapéus de Palha?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Going Merry",
+          "isCorrect": true,
+          "explanation": "O primeiro navio dos Chapéus de Palha!\nTão amado que até chorou na despedida.\nA resposta navega direto ao seu coração.",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Going_Merry_Anime_Infobox.png",
+          "imageDescription": "Going Merry navegando no mar."
+        },
+        {
+          "text": "Thousand Sunny",
+          "isCorrect": false,
+          "explanation": "Sunny é incrível, mas chegou depois!\nO primeiro amor a gente nunca esquece,\ne a resposta é outra."
+        },
+        {
+          "text": "Red Force",
+          "isCorrect": false,
+          "explanation": "Esse é o navio do Shanks!\nOs Chapéus de Palha só visitam,\nnão comandam."
+        },
+        {
+          "text": "Moby Dick",
+          "isCorrect": false,
+          "explanation": "Moby Dick é do Barba Branca.\nOs Chapéus de Palha ainda não têm\nbarba nem baleia."
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "question": "Qual fruta do diabo Luffy comeu?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Hana Hana no Mi",
+          "isCorrect": false,
+          "explanation": "Essa é da Robin!\nLuffy não faz brotar braços,\nmas estica tudo!"
+        },
+        {
+          "text": "Gomu Gomu no Mi",
+          "isCorrect": true,
+          "explanation": "A fruta que faz Luffy elástico!\nEle estica, pula e apanha como borracha.\nA resposta é flexível, mas certeira!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Gomu_Gomu_no_Mi_Anime.png",
+          "imageDescription": "Imagem da Gomu Gomu no Mi."
+        },
+        {
+          "text": "Suke Suke no Mi",
+          "isCorrect": false,
+          "explanation": "Essa fruta deixa invisível,\nmas Luffy não é de se esconder!\nEle gosta é de aparecer."
+        },
+        {
+          "text": "Mera Mera no Mi",
+          "isCorrect": false,
+          "explanation": "Essa era do Ace!\nLuffy prefere borracha a fogo.\nChurrasco só na mesa do Sanji."
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "question": "Qual destes é o apelido do Zoro?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Narigudo",
+          "isCorrect": false,
+          "explanation": "Esse é o Usopp!\nNariz de mentiroso, não de espadachim."
+        },
+        {
+          "text": "Caçador de Piratas",
+          "isCorrect": true,
+          "explanation": "Zoro ficou famoso como Caçador de Piratas!\nAntes de virar pirata, já caçava os outros.\nEspadas sempre afiadas, respostas também.",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Roronoa_Zoro_Anime_Pre_Timeskip_Infobox.png",
+          "imageDescription": "Zoro com suas três espadas."
+        },
+        {
+          "text": "Naruto do Mar",
+          "isCorrect": false,
+          "explanation": "Esse crossover não existe!\nZoro não é ninja, só se perde mesmo."
+        },
+        {
+          "text": "Cozinheiro Perna Negra",
+          "isCorrect": false,
+          "explanation": "Esse é o Sanji!\nZoro prefere espadas a panelas."
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "question": "Quem é o médico da tripulação dos Chapéus de Palha?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Franky",
+          "isCorrect": false,
+          "explanation": "Franky é o carpinteiro!\nEle conserta navios, não pessoas."
+        },
+        {
+          "text": "Chopper",
+          "isCorrect": true,
+          "explanation": "O médico mais fofo dos mares!\nChopper cuida de todos, até dos resfriados do Luffy.\nRena com diploma, pode confiar.",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Tony_Tony_Chopper_Anime_Pre_Timeskip_Infobox.png",
+          "imageDescription": "Chopper sorrindo com chapéu rosa."
+        },
+        {
+          "text": "Brook",
+          "isCorrect": false,
+          "explanation": "Brook é músico e esqueleto!\nSó cuida de ossos... os próprios."
+        },
+        {
+          "text": "Robin",
+          "isCorrect": false,
+          "explanation": "Robin é arqueóloga!\nEla cura curiosidades, não feridas."
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "question": "Qual destes personagens NÃO faz parte dos Chapéus de Palha?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Nami",
+          "isCorrect": false,
+          "explanation": "Nami é a navegadora oficial!\nSem ela, todos estariam perdidos\n(mais ainda que o Zoro)."
+        },
+        {
+          "text": "Buggy",
+          "isCorrect": true,
+          "explanation": "O palhaço Buggy só causa confusão!\nNunca foi membro da tripulação,\napesar de sempre aparecer nas horas erradas.",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Buggy_Anime_Infobox.png",
+          "imageDescription": "Buggy o palhaço pirata com nariz vermelho."
+        },
+        {
+          "text": "Sanji",
+          "isCorrect": false,
+          "explanation": "Sanji é o chef dos Chapéus de Palha!\nSem ele, só teria carne seca no navio."
+        },
+        {
+          "text": "Usopp",
+          "isCorrect": false,
+          "explanation": "Usopp é o atirador e contador de histórias!\nMembro oficial e mentiroso profissional."
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "question": "Qual o sonho de Luffy?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Ser o maior espadachim do mundo",
+          "isCorrect": false,
+          "explanation": "Esse é o sonho do Zoro!\nLuffy prefere chapéus a espadas."
+        },
+        {
+          "text": "Encontrar o All Blue",
+          "isCorrect": false,
+          "explanation": "Sanji quer o All Blue!\nLuffy quer algo ainda maior."
+        },
+        {
+          "text": "Ser o Rei dos Piratas",
+          "isCorrect": true,
+          "explanation": "O maior sonho de todos!\nLuffy quer ser o Rei dos Piratas,\ne não aceita menos que isso.",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Monkey_D._Luffy_Anime_Pre_Timeskip_Infobox.png",
+          "imageDescription": "Luffy sorrindo com o punho erguido."
+        },
+        {
+          "text": "Desenhar mapas do mundo",
+          "isCorrect": false,
+          "explanation": "Esse é o sonho da Nami!\nLuffy prefere aventuras a cartografia."
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "question": "Quem é o cozinheiro da tripulação?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Usopp",
+          "isCorrect": false,
+          "explanation": "Usopp cozinha histórias,\nmas não comida de verdade."
+        },
+        {
+          "text": "Sanji",
+          "isCorrect": true,
+          "explanation": "O chef mais estiloso dos mares!\nSanji luta com as pernas e cozinha com o coração.\nPrato do dia: vitória!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Sanji_Anime_Pre_Timeskip_Infobox.png",
+          "imageDescription": "Sanji com cigarro e terno preto."
+        },
+        {
+          "text": "Brook",
+          "isCorrect": false,
+          "explanation": "Brook só cozinha piadas!\nE às vezes, ossos."
+        },
+        {
+          "text": "Franky",
+          "isCorrect": false,
+          "explanation": "Franky é o carpinteiro!\nSó monta sanduíche... de navio."
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "question": "Qual destes personagens é um esqueleto vivo?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Brook",
+          "isCorrect": true,
+          "explanation": "Brook é o músico esquelético!\nFaz piadas de ossos e toca violino.\nA resposta é de arrepiar!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Brook_Anime_Infobox.png",
+          "imageDescription": "Brook tocando violino, só os ossos."
+        },
+        {
+          "text": "Franky",
+          "isCorrect": false,
+          "explanation": "Franky é cyborgue, não esqueleto!\nTem parafusos, mas ainda tem carne."
+        },
+        {
+          "text": "Chopper",
+          "isCorrect": false,
+          "explanation": "Chopper é uma rena fofa!\nOssos? Só quando examina pacientes."
+        },
+        {
+          "text": "Robin",
+          "isCorrect": false,
+          "explanation": "Robin é arqueóloga,\nmas não virou fóssil ainda!"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Qual é a profissão da Nami na tripulação?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Navegadora",
+          "isCorrect": true,
+          "explanation": "Nami é quem guia o navio!\nSem ela, todos estariam perdidos.\nAté o Zoro agradece!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Nami_Anime_Pre_Timeskip_Infobox.png",
+          "imageDescription": "Nami sorrindo com seu bastão."
+        },
+        {
+          "text": "Arqueóloga",
+          "isCorrect": false,
+          "explanation": "Robin é a arqueóloga!\nNami prefere mapas a ruínas."
+        },
+        {
+          "text": "Carpinteira",
+          "isCorrect": false,
+          "explanation": "Franky cuida do navio!\nNami só cuida do tesouro."
+        },
+        {
+          "text": "Médica",
+          "isCorrect": false,
+          "explanation": "Chopper é o médico!\nNami só cura a sede de dinheiro."
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "question": "Qual destes é o símbolo dos Chapéus de Palha?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Caveira com chapéu de palha",
+          "isCorrect": true,
+          "explanation": "O famoso Jolly Roger dos Chapéus de Palha!\nCaveira estilosa com chapéu de palha.\nSimples, direto e cheio de aventura.",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Straw_Hat_Pirates_Jolly_Roger.png",
+          "imageDescription": "Bandeira dos Chapéus de Palha."
+        },
+        {
+          "text": "Caveira com bigode",
+          "isCorrect": false,
+          "explanation": "Esse é o Barba Branca!\nOs Chapéus de Palha ainda não têm bigode."
+        },
+        {
+          "text": "Caveira com nariz de palhaço",
+          "isCorrect": false,
+          "explanation": "Esse é o Buggy!\nChapéu de palha é mais estiloso."
+        },
+        {
+          "text": "Caveira com três espadas",
+          "isCorrect": false,
+          "explanation": "Essa seria a bandeira do Zoro!\nMas ele não manda no navio (ainda)."
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "question": "Qual destes personagens é o carpinteiro do bando?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Franky",
+          "isCorrect": true,
+          "explanation": "Franky é o cyborgue carpinteiro!\nConstruiu até o navio novo.\nSuper resposta!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Franky_Anime_Pre_Timeskip_Infobox.png",
+          "imageDescription": "Franky fazendo pose de super."
+        },
+        {
+          "text": "Brook",
+          "isCorrect": false,
+          "explanation": "Brook é músico!\nInstrumentos, não martelos."
+        },
+        {
+          "text": "Sanji",
+          "isCorrect": false,
+          "explanation": "Sanji só monta pratos!\nNavio, só se for de sushi."
+        },
+        {
+          "text": "Robin",
+          "isCorrect": false,
+          "explanation": "Robin monta teorias!\nNavio, só para viajar na história."
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "question": "Qual destes personagens é uma arqueóloga?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Robin",
+          "isCorrect": true,
+          "explanation": "Robin é a arqueóloga misteriosa!\nSabe tudo sobre o século perdido.\nRespondeu certo, parabéns!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Nico_Robin_Anime_Pre_Timeskip_Infobox.png",
+          "imageDescription": "Robin lendo um livro."
+        },
+        {
+          "text": "Nami",
+          "isCorrect": false,
+          "explanation": "Nami prefere mapas!\nRuínas só se tiver tesouro."
+        },
+        {
+          "text": "Chopper",
+          "isCorrect": false,
+          "explanation": "Chopper é médico!\nFósseis só no museu."
+        },
+        {
+          "text": "Usopp",
+          "isCorrect": false,
+          "explanation": "Usopp é arqueólogo de mentiras!\nMas não vale ponto."
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "question": "Qual destes personagens é o atirador dos Chapéus de Palha?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Sanji",
+          "isCorrect": false,
+          "explanation": "Sanji só atira charme e chutes!\nNada de estilingue."
+        },
+        {
+          "text": "Usopp",
+          "isCorrect": true,
+          "explanation": "O rei das mentiras e do estilingue!\nUsopp acerta até o impossível.\nAlvo atingido!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Usopp_Anime_Pre_Timeskip_Infobox.png",
+          "imageDescription": "Usopp com seu estilingue."
+        },
+        {
+          "text": "Franky",
+          "isCorrect": false,
+          "explanation": "Franky atira canhões,\nmas não é o atirador oficial."
+        },
+        {
+          "text": "Brook",
+          "isCorrect": false,
+          "explanation": "Brook só atira piadas!\nE olhe lá."
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "question": "Qual destes personagens é conhecido como 'Nariz de Mentiroso'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Usopp",
+          "isCorrect": true,
+          "explanation": "Usopp é famoso pelas mentiras e pelo nariz!\nSe a resposta parece mentira, é ele mesmo.",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Usopp_Anime_Pre_Timeskip_Infobox.png",
+          "imageDescription": "Usopp mostrando seu nariz comprido."
+        },
+        {
+          "text": "Sanji",
+          "isCorrect": false,
+          "explanation": "Sanji mente só sobre receitas!\nNariz normal, pernas rápidas."
+        },
+        {
+          "text": "Chopper",
+          "isCorrect": false,
+          "explanation": "Chopper mente sobre ser um monstro!\nNariz de rena, não de Pinóquio."
+        },
+        {
+          "text": "Brook",
+          "isCorrect": false,
+          "explanation": "Brook não tem nariz!\nSó ossos e piadas."
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "question": "Qual destes personagens é um cyborg?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Franky",
+          "isCorrect": true,
+          "explanation": "Franky é metade homem, metade máquina!\nE 100% super.\nResposta mecânica, mas correta.",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Franky_Anime_Pre_Timeskip_Infobox.png",
+          "imageDescription": "Franky mostrando o braço robótico."
+        },
+        {
+          "text": "Brook",
+          "isCorrect": false,
+          "explanation": "Brook é só osso!\nNada de parafusos."
+        },
+        {
+          "text": "Chopper",
+          "isCorrect": false,
+          "explanation": "Chopper é rena, não robô!\nSó se for rena-bot."
+        },
+        {
+          "text": "Robin",
+          "isCorrect": false,
+          "explanation": "Robin é humana e misteriosa!\nNada de peças de metal."
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "question": "Qual destes personagens é um músico?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Brook",
+          "isCorrect": true,
+          "explanation": "Brook toca violino até sem músculos!\nO esqueleto mais musical do mar.",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Brook_Anime_Infobox.png",
+          "imageDescription": "Brook tocando violino."
+        },
+        {
+          "text": "Franky",
+          "isCorrect": false,
+          "explanation": "Franky faz barulho,\nmas não é música."
+        },
+        {
+          "text": "Usopp",
+          "isCorrect": false,
+          "explanation": "Usopp só canta vitória!\nInstrumento, só estilingue."
+        },
+        {
+          "text": "Sanji",
+          "isCorrect": false,
+          "explanation": "Sanji dança na cozinha,\nmas não é músico."
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "question": "Qual destes personagens é conhecido por sua paixão por dinheiro?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Nami",
+          "isCorrect": true,
+          "explanation": "Nami tem radar para tesouro!\nDinheiro é sua bússola.\nEla navega rumo à fortuna.",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Nami_Anime_Pre_Timeskip_Infobox.png",
+          "imageDescription": "Nami segurando moedas de ouro."
+        },
+        {
+          "text": "Luffy",
+          "isCorrect": false,
+          "explanation": "Luffy só pensa em carne!\nDinheiro não enche barriga."
+        },
+        {
+          "text": "Zoro",
+          "isCorrect": false,
+          "explanation": "Zoro só pensa em espadas!\nDinheiro? Só se pagar sake."
+        },
+        {
+          "text": "Chopper",
+          "isCorrect": false,
+          "explanation": "Chopper só quer algodão doce!\nDinheiro é só para remédios."
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "question": "Qual destes personagens é conhecido por se perder facilmente?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Zoro",
+          "isCorrect": true,
+          "explanation": "Zoro se perde até em linha reta!\nBússola? Só se for para confundir mais.",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Roronoa_Zoro_Anime_Pre_Timeskip_Infobox.png",
+          "imageDescription": "Zoro olhando confuso para um mapa."
+        },
+        {
+          "text": "Sanji",
+          "isCorrect": false,
+          "explanation": "Sanji se perde só na cozinha!\nNo mar, segue o cheiro da comida."
+        },
+        {
+          "text": "Luffy",
+          "isCorrect": false,
+          "explanation": "Luffy se perde nas ideias,\nmas não no caminho."
+        },
+        {
+          "text": "Nami",
+          "isCorrect": false,
+          "explanation": "Nami nunca se perde!\nEla é o GPS do bando."
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "question": "Qual destes personagens é o mais velho da tripulação?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Brook",
+          "isCorrect": true,
+          "explanation": "Brook tem mais de 90 anos!\nO esqueleto é antigo, mas a música é jovem.\nIdade não pesa quando só tem osso.",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Brook_Anime_Infobox.png",
+          "imageDescription": "Brook sorrindo com bengala."
+        },
+        {
+          "text": "Franky",
+          "isCorrect": false,
+          "explanation": "Franky é maduro,\nmas não tanto quanto um esqueleto centenário."
+        },
+        {
+          "text": "Robin",
+          "isCorrect": false,
+          "explanation": "Robin é experiente,\nmas não é múmia!"
+        },
+        {
+          "text": "Zoro",
+          "isCorrect": false,
+          "explanation": "Zoro é velho só nas piadas ruins.\nIdade? Só se for de espada."
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "question": "Qual destes personagens é o responsável por decifrar Poneglyphs?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Nico Robin",
+          "isCorrect": true,
+          "explanation": "Robin lê Poneglyphs como quem lê jornal!\nEla decifra mistérios e segredos do mundo.\nA resposta é milenar!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Nico_Robin_Anime_Pre_Timeskip_Infobox.png",
+          "imageDescription": "Robin lendo um Poneglyph."
+        },
+        {
+          "text": "Franky",
+          "isCorrect": false,
+          "explanation": "Franky monta navios,\nmas não monta frases antigas."
+        },
+        {
+          "text": "Sanji",
+          "isCorrect": false,
+          "explanation": "Sanji decifra receitas,\nmas não pedras antigas."
+        },
+        {
+          "text": "Zoro",
+          "isCorrect": false,
+          "explanation": "Zoro só decifra o caminho... errado!\nPoneglyph é muito complicado pra ele."
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "question": "Qual destes personagens é conhecido como 'Cyborg Super'?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Franky",
+          "isCorrect": true,
+          "explanation": "Franky é o cyborgue mais super do mundo!\nBraços de aço e coração de manteiga.\nResposta com parafusos e carisma.",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Franky_Anime_Pre_Timeskip_Infobox.png",
+          "imageDescription": "Franky fazendo pose de super."
+        },
+        {
+          "text": "Brook",
+          "isCorrect": false,
+          "explanation": "Brook é super... magro!\nMas cyborgue, nem um parafuso."
+        },
+        {
+          "text": "Sanji",
+          "isCorrect": false,
+          "explanation": "Sanji é super chef,\nmas não tem peças de metal."
+        },
+        {
+          "text": "Luffy",
+          "isCorrect": false,
+          "explanation": "Luffy é super elástico,\nmas não é cyborgue."
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "question": "Qual ilha é o local de nascimento de Luffy?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Ilha Dawn",
+          "isCorrect": true,
+          "explanation": "Luffy nasceu na Ilha Dawn!\nO começo de toda a aventura.\nResposta que nasce para vencer.",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Goa_Kingdom_Anime_Infobox.png",
+          "imageDescription": "Imagem da Ilha Dawn."
+        },
+        {
+          "text": "Ilha Drum",
+          "isCorrect": false,
+          "explanation": "Drum é famosa pelo frio!\nLuffy só visitou para curar o resfriado."
+        },
+        {
+          "text": "Ilha Whole Cake",
+          "isCorrect": false,
+          "explanation": "Luffy adoraria nascer em uma ilha de bolo,\nmas só visitou para comer mesmo."
+        },
+        {
+          "text": "Ilha Ohara",
+          "isCorrect": false,
+          "explanation": "Ohara é da Robin!\nLuffy só lê mangá, não Poneglyph."
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "question": "Quem foi o primeiro vilão derrotado por Luffy na Grand Line?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Crocodile",
+          "isCorrect": false,
+          "explanation": "Crocodile veio depois!\nLuffy teve que suar muito para vencer."
+        },
+        {
+          "text": "Wapol",
+          "isCorrect": false,
+          "explanation": "Wapol é o vilão da Ilha Drum,\nmas não foi o primeiro."
+        },
+        {
+          "text": "Mr. 3",
+          "isCorrect": false,
+          "explanation": "Mr. 3 tentou prender Luffy,\nmas não foi o primeiro da lista."
+        },
+        {
+          "text": "Laboon",
+          "isCorrect": true,
+          "explanation": "Laboon não é vilão, mas foi o primeiro desafio!\nLuffy deu um soco na baleia e ganhou um amigo.\nÀs vezes, a resposta é de coração.",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Laboon_Anime_Infobox.png",
+          "imageDescription": "Laboon, a baleia gigante, sorrindo."
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "question": "Qual destes personagens foi o último a entrar para os Chapéus de Palha (até o arco de Wano)?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Brook",
+          "isCorrect": false,
+          "explanation": "Brook entrou antes!\nO músico chegou no Thriller Bark."
+        },
+        {
+          "text": "Franky",
+          "isCorrect": false,
+          "explanation": "Franky já estava a bordo antes do músico esquelético."
+        },
+        {
+          "text": "Jinbe",
+          "isCorrect": true,
+          "explanation": "Jinbe é o último oficial do bando até Wano!\nO timoneiro peixe entrou com estilo.\nA resposta nada fundo!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Jinbe_Anime_Infobox.png",
+          "imageDescription": "Jinbe sorrindo com uniforme de timoneiro."
+        },
+        {
+          "text": "Robin",
+          "isCorrect": false,
+          "explanation": "Robin entrou logo após Alabasta!\nMas não foi a última."
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "question": "Qual destas é a verdadeira identidade do Barba Negra?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Marshall D. Teach",
+          "isCorrect": true,
+          "explanation": "Barba Negra é Marshall D. Teach!\nDois nomes, duas frutas, muita confusão.\nA resposta é sombria!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Marshall_D._Teach_Anime_Infobox.png",
+          "imageDescription": "Barba Negra rindo maliciosamente."
+        },
+        {
+          "text": "Edward Newgate",
+          "isCorrect": false,
+          "explanation": "Esse é o Barba Branca!\nBarba Negra é mais escuro e menos confiável."
+        },
+        {
+          "text": "Portgas D. Ace",
+          "isCorrect": false,
+          "explanation": "Ace é irmão do Luffy!\nBarba Negra só roubou o poder dele."
+        },
+        {
+          "text": "Shanks",
+          "isCorrect": false,
+          "explanation": "Shanks é ruivo!\nNada de barba negra por aqui."
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "question": "Qual destes personagens foi capitão dos Piratas do Sol?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Jinbe",
+          "isCorrect": true,
+          "explanation": "Jinbe foi o capitão dos Piratas do Sol!\nLiderou com força e honra.\nA resposta mergulha fundo.",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Jinbe_Anime_Infobox.png",
+          "imageDescription": "Jinbe com uniforme de capitão."
+        },
+        {
+          "text": "Arlong",
+          "isCorrect": false,
+          "explanation": "Arlong era só um dos líderes!\nJinbe era o verdadeiro capitão."
+        },
+        {
+          "text": "Fisher Tiger",
+          "isCorrect": false,
+          "explanation": "Fisher Tiger foi o fundador,\nmas Jinbe assumiu depois."
+        },
+        {
+          "text": "Franky",
+          "isCorrect": false,
+          "explanation": "Franky só é capitão dos parafusos!\nNada de piratas do sol."
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "question": "Qual destes personagens é conhecido como 'O Cirurgião da Morte'?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Trafalgar Law",
+          "isCorrect": true,
+          "explanation": "Law faz cirurgias que até assustam!\nO bisturi mais temido do Novo Mundo.\nResposta afiada!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Trafalgar_D._Water_Law_Anime_Infobox.png",
+          "imageDescription": "Law com seu chapéu de pelúcia."
+        },
+        {
+          "text": "Chopper",
+          "isCorrect": false,
+          "explanation": "Chopper é médico, mas só faz cirurgias fofas!\nNada de morte aqui."
+        },
+        {
+          "text": "Franky",
+          "isCorrect": false,
+          "explanation": "Franky só faz cirurgia em navio!\nPessoas, só se for para virar cyborgue."
+        },
+        {
+          "text": "Brook",
+          "isCorrect": false,
+          "explanation": "Brook já morreu, mas não é cirurgião!\nSó toca música fúnebre."
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "question": "Qual destes personagens é conhecido por seu amor por carne?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Luffy",
+          "isCorrect": true,
+          "explanation": "Luffy ama carne mais que tudo!\nSe tiver churrasco, ele chega primeiro.\nA resposta é suculenta.",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Monkey_D._Luffy_Anime_Pre_Timeskip_Infobox.png",
+          "imageDescription": "Luffy comendo carne animado."
+        },
+        {
+          "text": "Sanji",
+          "isCorrect": false,
+          "explanation": "Sanji faz a carne,\nmas não come igual ao Luffy."
+        },
+        {
+          "text": "Zoro",
+          "isCorrect": false,
+          "explanation": "Zoro prefere sake!\nCarne é só acompanhamento."
+        },
+        {
+          "text": "Chopper",
+          "isCorrect": false,
+          "explanation": "Chopper prefere algodão doce!\nCarne só se for de rena."
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "question": "Qual destes personagens é conhecido como 'Deus Usopp'?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Usopp",
+          "isCorrect": true,
+          "explanation": "Usopp virou Deus em Dressrosa!\nMentira que virou verdade.\nA resposta é lendária.",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Usopp_Anime_Post_Timeskip_Infobox.png",
+          "imageDescription": "Usopp com pose heroica."
+        },
+        {
+          "text": "Luffy",
+          "isCorrect": false,
+          "explanation": "Luffy é capitão,\nmas nunca virou Deus (ainda)."
+        },
+        {
+          "text": "Sanji",
+          "isCorrect": false,
+          "explanation": "Sanji é príncipe da cozinha,\nmas não virou Deus."
+        },
+        {
+          "text": "Franky",
+          "isCorrect": false,
+          "explanation": "Franky é super,\nmas não divino."
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "question": "Qual destes personagens foi um Shichibukai?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Crocodile",
+          "isCorrect": true,
+          "explanation": "Crocodile foi Shichibukai antes de virar vilão!\nAreia, poder e muita pose.\nA resposta é seca!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Crocodile_Anime_Infobox.png",
+          "imageDescription": "Crocodile com charuto."
+        },
+        {
+          "text": "Zoro",
+          "isCorrect": false,
+          "explanation": "Zoro só corta Shichibukai,\nnunca foi um."
+        },
+        {
+          "text": "Luffy",
+          "isCorrect": false,
+          "explanation": "Luffy é pirata raiz!\nNada de cargos oficiais."
+        },
+        {
+          "text": "Brook",
+          "isCorrect": false,
+          "explanation": "Brook só é rei do rock!\nShichibukai, só na música."
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "question": "Qual destes personagens é o irmão de Ace?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Sabo",
+          "isCorrect": true,
+          "explanation": "Sabo é o irmão jurado de Ace e Luffy!\nTrio inseparável, mesmo separados.\nA resposta é revolucionária.",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Sabo_Anime_Infobox.png",
+          "imageDescription": "Sabo com seu chapéu característico."
+        },
+        {
+          "text": "Zoro",
+          "isCorrect": false,
+          "explanation": "Zoro é irmão só de espadas!\nNada de laços de sangue."
+        },
+        {
+          "text": "Sanji",
+          "isCorrect": false,
+          "explanation": "Sanji é irmão de cozinha!\nAce não curte tanto pimenta."
+        },
+        {
+          "text": "Franky",
+          "isCorrect": false,
+          "explanation": "Franky é irmão de parafusos!\nAce nunca visitou a oficina."
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "question": "Qual destes personagens é o líder do Exército Revolucionário?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Monkey D. Dragon",
+          "isCorrect": true,
+          "explanation": "Dragon é o líder supremo dos revolucionários!\nPai do Luffy e dono do vento.\nA resposta é revolucionária!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Monkey_D._Dragon_Anime_Infobox.png",
+          "imageDescription": "Dragon com capa e olhar sério."
+        },
+        {
+          "text": "Sabo",
+          "isCorrect": false,
+          "explanation": "Sabo é o segundo no comando!\nDragon é quem manda mesmo."
+        },
+        {
+          "text": "Ivankov",
+          "isCorrect": false,
+          "explanation": "Ivankov é comandante,\nmas não o chefão."
+        },
+        {
+          "text": "Ace",
+          "isCorrect": false,
+          "explanation": "Ace é revolucionário só na carne assada!\nNada de exército aqui."
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "question": "Qual destes personagens é conhecido como 'O Ruivo'?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Shanks",
+          "isCorrect": true,
+          "explanation": "Shanks é o Ruivo mais famoso dos mares!\nUm braço a menos, mas respeito de sobra.\nA resposta é lendária.",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Shanks_Anime_Infobox.png",
+          "imageDescription": "Shanks sorrindo com cabelo vermelho."
+        },
+        {
+          "text": "Luffy",
+          "isCorrect": false,
+          "explanation": "Luffy é chapéu de palha,\nmas cabelo preto!"
+        },
+        {
+          "text": "Zoro",
+          "isCorrect": false,
+          "explanation": "Zoro é o Marimo!\nNada de ruivo por aqui."
+        },
+        {
+          "text": "Ace",
+          "isCorrect": false,
+          "explanation": "Ace é fogo,\nmas cabelo preto."
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "question": "Qual destes personagens é filho de Monkey D. Dragon?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Monkey D. Luffy",
+          "isCorrect": true,
+          "explanation": "Luffy é filho do revolucionário Dragon!\nFamília de peso e aventura.\nA resposta é genética!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Monkey_D._Luffy_Anime_Pre_Timeskip_Infobox.png",
+          "imageDescription": "Luffy sorrindo com chapéu de palha."
+        },
+        {
+          "text": "Ace",
+          "isCorrect": false,
+          "explanation": "Ace é filho do Roger!\nFamília pirata, mas não revolucionária."
+        },
+        {
+          "text": "Sabo",
+          "isCorrect": false,
+          "explanation": "Sabo é irmão de coração,\nmas não de sangue."
+        },
+        {
+          "text": "Zoro",
+          "isCorrect": false,
+          "explanation": "Zoro é filho das espadas!\nNada de Dragon."
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "question": "Qual destes personagens é conhecido como 'Barba Branca'?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Edward Newgate",
+          "isCorrect": true,
+          "explanation": "Edward Newgate é o Barba Branca!\nO pirata mais forte do mundo.\nA resposta é imponente.",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Edward_Newgate_Anime_Infobox.png",
+          "imageDescription": "Barba Branca com seu bigode branco."
+        },
+        {
+          "text": "Marshall D. Teach",
+          "isCorrect": false,
+          "explanation": "Esse é o Barba Negra!\nBranco só se for de farinha."
+        },
+        {
+          "text": "Shanks",
+          "isCorrect": false,
+          "explanation": "Shanks é ruivo!\nNada de barba branca."
+        },
+        {
+          "text": "Buggy",
+          "isCorrect": false,
+          "explanation": "Buggy é palhaço, não barba!\nSó pinta o nariz."
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "question": "Qual destes personagens é o responsável por criar o Thousand Sunny?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Franky",
+          "isCorrect": true,
+          "explanation": "Franky construiu o Sunny com paixão e parafusos!\nO navio mais estiloso dos mares.\nA resposta é super!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Franky_Anime_Pre_Timeskip_Infobox.png",
+          "imageDescription": "Franky orgulhoso ao lado do Thousand Sunny."
+        },
+        {
+          "text": "Usopp",
+          "isCorrect": false,
+          "explanation": "Usopp ajudou,\nmas quem manda no martelo é o Franky."
+        },
+        {
+          "text": "Luffy",
+          "isCorrect": false,
+          "explanation": "Luffy só queria um navio novo!\nConstruir, só castelo de areia."
+        },
+        {
+          "text": "Sanji",
+          "isCorrect": false,
+          "explanation": "Sanji só monta pratos!\nNavio, só se for de sushi."
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "question": "Qual destes personagens é conhecido como 'O Rei do Submundo'?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Donquixote Doflamingo",
+          "isCorrect": true,
+          "explanation": "Doflamingo controla o submundo com fios e charme!\nA resposta é perigosa e cheia de estilo.",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Donquixote_Doflamingo_Anime_Infobox.png",
+          "imageDescription": "Doflamingo com óculos rosa e sorriso maligno."
+        },
+        {
+          "text": "Crocodile",
+          "isCorrect": false,
+          "explanation": "Crocodile manda no deserto,\nmas não no submundo."
+        },
+        {
+          "text": "Buggy",
+          "isCorrect": false,
+          "explanation": "Buggy só manda no circo!\nSubmundo é demais pra ele."
+        },
+        {
+          "text": "Kaido",
+          "isCorrect": false,
+          "explanation": "Kaido manda nas feras,\nmas não no submundo."
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "question": "Qual destes personagens foi o primeiro a ser recrutado por Luffy?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Zoro",
+          "isCorrect": true,
+          "explanation": "Zoro foi o primeiro a se juntar ao Luffy!\nEspadas e promessas desde o começo.\nA resposta é afiada!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Roronoa_Zoro_Anime_Pre_Timeskip_Infobox.png",
+          "imageDescription": "Zoro segurando suas três espadas."
+        },
+        {
+          "text": "Nami",
+          "isCorrect": false,
+          "explanation": "Nami entrou depois,\nmas já queria o tesouro desde cedo."
+        },
+        {
+          "text": "Usopp",
+          "isCorrect": false,
+          "explanation": "Usopp só entrou depois de muita mentira!"
+        },
+        {
+          "text": "Sanji",
+          "isCorrect": false,
+          "explanation": "Sanji só entrou depois de cozinhar pra valer!"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "question": "Qual destes personagens é o atual Almirante de Frota da Marinha após a Guerra dos Melhores?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Sakazuki (Akainu)",
+          "isCorrect": true,
+          "explanation": "Sakazuki virou Almirante de Frota!\nAgora manda até nos outros almirantes.\nA resposta é quente!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Sakazuki_Anime_Infobox.png",
+          "imageDescription": "Akainu com uniforme vermelho."
+        },
+        {
+          "text": "Borsalino (Kizaru)",
+          "isCorrect": false,
+          "explanation": "Kizaru é rápido,\nmas não subiu de cargo ainda."
+        },
+        {
+          "text": "Kuzan (Aokiji)",
+          "isCorrect": false,
+          "explanation": "Aokiji preferiu esfriar a cabeça\nfora da Marinha."
+        },
+        {
+          "text": "Sengoku",
+          "isCorrect": false,
+          "explanation": "Sengoku se aposentou!\nAgora só cuida do bode."
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "question": "Qual destes personagens é conhecido como o 'Rei dos Piratas'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Gol D. Roger",
+          "isCorrect": true,
+          "explanation": "Gol D. Roger conquistou tudo!\nO sonho do Luffy é seguir seus passos.\nA resposta é lendária!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Gol_D._Roger_Anime_Infobox.png",
+          "imageDescription": "Gol D. Roger sorrindo com bigode."
+        },
+        {
+          "text": "Edward Newgate",
+          "isCorrect": false,
+          "explanation": "Barba Branca é forte,\nmas nunca foi Rei dos Piratas."
+        },
+        {
+          "text": "Shanks",
+          "isCorrect": false,
+          "explanation": "Shanks é ruivo e famoso,\nmas não é o rei (ainda)."
+        },
+        {
+          "text": "Buggy",
+          "isCorrect": false,
+          "explanation": "Buggy é rei só do circo!\nPirata, só na imaginação."
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "question": "Qual destes personagens é o capitão dos Piratas do Coração?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Trafalgar Law",
+          "isCorrect": true,
+          "explanation": "Law comanda o bando com bisturi e estilo!\nCoração forte, chapéu estiloso.\nA resposta é cirúrgica!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Trafalgar_D._Water_Law_Anime_Infobox.png",
+          "imageDescription": "Law com seu chapéu de pelúcia."
+        },
+        {
+          "text": "Eustass Kid",
+          "isCorrect": false,
+          "explanation": "Kid é capitão,\nmas dos Piratas do Kid!"
+        },
+        {
+          "text": "Bepo",
+          "isCorrect": false,
+          "explanation": "Bepo é o urso de pelúcia,\nmas não manda em ninguém."
+        },
+        {
+          "text": "Luffy",
+          "isCorrect": false,
+          "explanation": "Luffy só é capitão dos Chapéus de Palha!\nCoração, só o dele mesmo."
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "question": "Qual destes personagens é conhecido como 'O Imperador das Feras'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Kaido",
+          "isCorrect": true,
+          "explanation": "Kaido é o Imperador das Feras!\nMais forte que boi bravo.\nA resposta é bestial!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Kaido_Anime_Infobox.png",
+          "imageDescription": "Kaido em pose ameaçadora."
+        },
+        {
+          "text": "Big Mom",
+          "isCorrect": false,
+          "explanation": "Big Mom é imperatriz,\nmas não das feras!"
+        },
+        {
+          "text": "Shanks",
+          "isCorrect": false,
+          "explanation": "Shanks é imperador,\nmas não tem zoológico."
+        },
+        {
+          "text": "Barba Negra",
+          "isCorrect": false,
+          "explanation": "Barba Negra é imperador das trevas,\nmas não das feras."
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "question": "Qual destes personagens é conhecido como 'Big Mom'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Charlotte Linlin",
+          "isCorrect": true,
+          "explanation": "Big Mom é Charlotte Linlin!\nMãe de muitos e dona de doces.\nA resposta é gigante!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Charlotte_Linlin_Anime_Infobox.png",
+          "imageDescription": "Big Mom sorrindo com chapéu rosa."
+        },
+        {
+          "text": "Nami",
+          "isCorrect": false,
+          "explanation": "Nami é mãe só dos mapas!\nBig Mom é outra história."
+        },
+        {
+          "text": "Robin",
+          "isCorrect": false,
+          "explanation": "Robin só é mãe dos livros!\nNada de doces gigantes."
+        },
+        {
+          "text": "Boa Hancock",
+          "isCorrect": false,
+          "explanation": "Hancock é imperatriz,\nmas não é mãe de ninguém."
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "question": "Qual destes personagens é o irmão mais velho de Luffy?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Portgas D. Ace",
+          "isCorrect": true,
+          "explanation": "Ace é o irmão mais velho do trio!\nFogo no coração e nos punhos.\nA resposta é quente!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Portgas_D._Ace_Anime_Infobox.png",
+          "imageDescription": "Ace sorrindo com chapéu laranja."
+        },
+        {
+          "text": "Sabo",
+          "isCorrect": false,
+          "explanation": "Sabo é irmão do meio!\nAce chegou primeiro."
+        },
+        {
+          "text": "Zoro",
+          "isCorrect": false,
+          "explanation": "Zoro é irmão só das espadas!\nNada de laços de sangue."
+        },
+        {
+          "text": "Sanji",
+          "isCorrect": false,
+          "explanation": "Sanji é irmão só na cozinha!\nFamília de panelas."
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "question": "Qual destes personagens é o capitão dos Piratas do Barba Branca?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Edward Newgate",
+          "isCorrect": true,
+          "explanation": "Barba Branca é o capitão lendário!\nComanda com força e bigode.\nA resposta é gigante!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Edward_Newgate_Anime_Infobox.png",
+          "imageDescription": "Barba Branca com bigode branco."
+        },
+        {
+          "text": "Marco",
+          "isCorrect": false,
+          "explanation": "Marco é o braço direito!\nMas o capitão é outro."
+        },
+        {
+          "text": "Ace",
+          "isCorrect": false,
+          "explanation": "Ace era comandante,\nmas não capitão."
+        },
+        {
+          "text": "Jozu",
+          "isCorrect": false,
+          "explanation": "Jozu só brilha no diamante!\nCapitão, só de torcida."
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "question": "Qual destes personagens é o líder dos Piratas do Ruivo?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Shanks",
+          "isCorrect": true,
+          "explanation": "Shanks é o ruivo mais famoso dos mares!\nCapitão de respeito e de cabelo vermelho.\nA resposta é lendária!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Shanks_Anime_Infobox.png",
+          "imageDescription": "Shanks sorrindo com capa preta."
+        },
+        {
+          "text": "Buggy",
+          "isCorrect": false,
+          "explanation": "Buggy só lidera o circo!\nRuivo só se for de tinta."
+        },
+        {
+          "text": "Luffy",
+          "isCorrect": false,
+          "explanation": "Luffy é fã do Shanks,\nmas capitão só do seu próprio bando."
+        },
+        {
+          "text": "Zoro",
+          "isCorrect": false,
+          "explanation": "Zoro só lidera espadas!\nNada de ruivo por aqui."
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "question": "Qual destes personagens é conhecido como 'O Palhaço Estrela'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Buggy",
+          "isCorrect": true,
+          "explanation": "Buggy é o palhaço mais famoso dos mares!\nNariz vermelho e confusão garantida.\nA resposta é circense!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Buggy_Anime_Infobox.png",
+          "imageDescription": "Buggy com nariz vermelho brilhante."
+        },
+        {
+          "text": "Franky",
+          "isCorrect": false,
+          "explanation": "Franky é super,\nmas não faz palhaçada (só às vezes)."
+        },
+        {
+          "text": "Brook",
+          "isCorrect": false,
+          "explanation": "Brook é esqueleto,\nmas não palhaço."
+        },
+        {
+          "text": "Sanji",
+          "isCorrect": false,
+          "explanation": "Sanji só faz palhaçada na cozinha!"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "question": "Qual destes personagens é o comandante da 1ª divisão dos Piratas do Barba Branca?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Marco",
+          "isCorrect": true,
+          "explanation": "Marco é o comandante da 1ª divisão!\nFênix azul e braço direito do Barba Branca.\nA resposta renasce das cinzas.",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Marco_Anime_Infobox.png",
+          "imageDescription": "Marco transformado em fênix azul."
+        },
+        {
+          "text": "Ace",
+          "isCorrect": false,
+          "explanation": "Ace é comandante,\nmas da 2ª divisão!"
+        },
+        {
+          "text": "Jozu",
+          "isCorrect": false,
+          "explanation": "Jozu é diamante,\nmas não é o primeiro."
+        },
+        {
+          "text": "Vista",
+          "isCorrect": false,
+          "explanation": "Vista é espadachim,\nmas não é comandante da 1ª divisão."
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "question": "Qual destes personagens é o principal antagonista do arco de Alabasta?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Crocodile",
+          "isCorrect": true,
+          "explanation": "Crocodile é o vilão do deserto!\nAreia, charuto e planos mirabolantes.\nA resposta é seca!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Crocodile_Anime_Infobox.png",
+          "imageDescription": "Crocodile com charuto e capa."
+        },
+        {
+          "text": "Buggy",
+          "isCorrect": false,
+          "explanation": "Buggy só faz bagunça!\nEm Alabasta, só se perdeu."
+        },
+        {
+          "text": "Enel",
+          "isCorrect": false,
+          "explanation": "Enel é vilão do céu,\nnão do deserto."
+        },
+        {
+          "text": "Wapol",
+          "isCorrect": false,
+          "explanation": "Wapol é vilão da neve!\nAlabasta é só areia."
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "question": "Qual destes personagens é o principal antagonista do arco de Skypiea?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Enel",
+          "isCorrect": true,
+          "explanation": "Enel é o deus do trovão!\nVilão de Skypiea, adora eletrizar.\nA resposta é chocante!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Enel_Anime_Infobox.png",
+          "imageDescription": "Enel com seu tambor nas costas."
+        },
+        {
+          "text": "Crocodile",
+          "isCorrect": false,
+          "explanation": "Crocodile é vilão do deserto!\nNo céu, só areia voando."
+        },
+        {
+          "text": "Buggy",
+          "isCorrect": false,
+          "explanation": "Buggy não chega nem perto do céu!\nSó voa em pedaços."
+        },
+        {
+          "text": "Wapol",
+          "isCorrect": false,
+          "explanation": "Wapol só reina na neve!\nNo céu, só se for de avião."
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "question": "Qual destes personagens é o principal antagonista do arco de Dressrosa?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Donquixote Doflamingo",
+          "isCorrect": true,
+          "explanation": "Doflamingo controla Dressrosa com fios e charme!\nVilão com estilo e óculos rosa.\nA resposta é perigosa!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Donquixote_Doflamingo_Anime_Infobox.png",
+          "imageDescription": "Doflamingo de óculos rosa sorrindo."
+        },
+        {
+          "text": "Kaido",
+          "isCorrect": false,
+          "explanation": "Kaido só aparece depois!\nDressrosa é do Flamingo."
+        },
+        {
+          "text": "Big Mom",
+          "isCorrect": false,
+          "explanation": "Big Mom só manda em doces!\nDressrosa é de outro sabor."
+        },
+        {
+          "text": "Crocodile",
+          "isCorrect": false,
+          "explanation": "Crocodile é do deserto!\nNada de Dressrosa."
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "question": "Qual destes personagens é o principal antagonista do arco de Marineford?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Sakazuki (Akainu)",
+          "isCorrect": true,
+          "explanation": "Akainu é o vilão mais quente de Marineford!\nPunho de magma e coração gelado.\nA resposta é incandescente!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Sakazuki_Anime_Infobox.png",
+          "imageDescription": "Akainu com uniforme vermelho e olhar sério."
+        },
+        {
+          "text": "Aokiji",
+          "isCorrect": false,
+          "explanation": "Aokiji é frio,\nmas Akainu é o verdadeiro vilão."
+        },
+        {
+          "text": "Kizaru",
+          "isCorrect": false,
+          "explanation": "Kizaru só brilha,\nmas não é o principal vilão."
+        },
+        {
+          "text": "Buggy",
+          "isCorrect": false,
+          "explanation": "Buggy só faz bagunça!\nVilão, só na própria cabeça."
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "question": "Qual destes personagens é o principal antagonista do arco de Whole Cake Island?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Big Mom",
+          "isCorrect": true,
+          "explanation": "Big Mom é a dona da ilha dos doces!\nVilã com apetite insaciável.\nA resposta é açucarada!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Charlotte_Linlin_Anime_Infobox.png",
+          "imageDescription": "Big Mom comendo bolo."
+        },
+        {
+          "text": "Kaido",
+          "isCorrect": false,
+          "explanation": "Kaido só aparece depois!\nDoces não são o forte dele."
+        },
+        {
+          "text": "Katakuri",
+          "isCorrect": false,
+          "explanation": "Katakuri é forte,\nmas quem manda é a mãe."
+        },
+        {
+          "text": "Sanji",
+          "isCorrect": false,
+          "explanation": "Sanji só queria fugir do casamento!\nVilão, só para a própria família."
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "question": "Qual destes personagens é o principal antagonista do arco de Wano?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Kaido",
+          "isCorrect": true,
+          "explanation": "Kaido é o vilão de Wano!\nDragão, imperador e encrenca garantida.\nA resposta é colossal!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Kaido_Anime_Infobox.png",
+          "imageDescription": "Kaido em forma de dragão."
+        },
+        {
+          "text": "Big Mom",
+          "isCorrect": false,
+          "explanation": "Big Mom aparece,\nmas quem manda é o Kaido."
+        },
+        {
+          "text": "Orochi",
+          "isCorrect": false,
+          "explanation": "Orochi é vilão local,\nmas Kaido é o chefão."
+        },
+        {
+          "text": "Zoro",
+          "isCorrect": false,
+          "explanation": "Zoro só corta vilão!\nSer vilão não é com ele."
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "question": "Qual destes personagens é o principal antagonista do arco de Punk Hazard?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Caesar Clown",
+          "isCorrect": true,
+          "explanation": "Caesar é o cientista maluco de Punk Hazard!\nVilão químico e cheio de gás.\nA resposta é explosiva!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Caesar_Clown_Anime_Infobox.png",
+          "imageDescription": "Caesar Clown rindo com tubos de gás."
+        },
+        {
+          "text": "Doflamingo",
+          "isCorrect": false,
+          "explanation": "Doflamingo só puxa os fios!\nO vilão é o cientista mesmo."
+        },
+        {
+          "text": "Vergo",
+          "isCorrect": false,
+          "explanation": "Vergo é braço direito,\nmas não o chefão."
+        },
+        {
+          "text": "Law",
+          "isCorrect": false,
+          "explanation": "Law é aliado!\nVilão, só para os inimigos."
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "question": "Qual destes personagens é o principal antagonista do arco de Enies Lobby?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Rob Lucci",
+          "isCorrect": true,
+          "explanation": "Lucci é o leopardo mais perigoso de Enies Lobby!\nVilão de terno e garras afiadas.\nA resposta é selvagem!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Rob_Lucci_Anime_Infobox.png",
+          "imageDescription": "Rob Lucci em forma híbrida de leopardo."
+        },
+        {
+          "text": "Spandam",
+          "isCorrect": false,
+          "explanation": "Spandam só manda,\nmas quem luta é o Lucci."
+        },
+        {
+          "text": "Kaku",
+          "isCorrect": false,
+          "explanation": "Kaku é girafa,\nmas não é o principal vilão."
+        },
+        {
+          "text": "Blueno",
+          "isCorrect": false,
+          "explanation": "Blueno só abre portas!\nVilão mesmo é o Lucci."
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "question": "Qual destes personagens é o principal antagonista do arco de Thriller Bark?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Gecko Moria",
+          "isCorrect": true,
+          "explanation": "Moria é o senhor das sombras de Thriller Bark!\nVilão com cara de abóbora.\nA resposta é assustadora!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Gecko_Moria_Anime_Infobox.png",
+          "imageDescription": "Gecko Moria com sorriso sinistro."
+        },
+        {
+          "text": "Perona",
+          "isCorrect": false,
+          "explanation": "Perona só assusta com fantasmas!\nVilã, só de brincadeira."
+        },
+        {
+          "text": "Absalom",
+          "isCorrect": false,
+          "explanation": "Absalom só fica invisível!\nVilão mesmo é o Moria."
+        },
+        {
+          "text": "Hogback",
+          "isCorrect": false,
+          "explanation": "Hogback é médico maluco,\nmas não é o chefão."
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "question": "Qual destes personagens é o principal antagonista do arco de Arlong Park?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Arlong",
+          "isCorrect": true,
+          "explanation": "Arlong é o tubarão mais cruel do East Blue!\nVilão com dentes afiados e planos ainda piores.\nA resposta é aquática!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Arlong_Anime_Infobox.png",
+          "imageDescription": "Arlong mostrando os dentes."
+        },
+        {
+          "text": "Hatchan",
+          "isCorrect": false,
+          "explanation": "Hatchan só faz takoyaki!\nVilão, só no cardápio."
+        },
+        {
+          "text": "Kuroobi",
+          "isCorrect": false,
+          "explanation": "Kuroobi é forte,\nmas não é o chefe."
+        },
+        {
+          "text": "Nami",
+          "isCorrect": false,
+          "explanation": "Nami só era refém!\nVilã, nunca."
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "question": "Qual destes personagens é o principal antagonista do arco de Water 7?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Rob Lucci",
+          "isCorrect": true,
+          "explanation": "Lucci é o agente duplo de Water 7!\nVilão de terno e garras escondidas.\nA resposta é felina!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Rob_Lucci_Anime_Infobox.png",
+          "imageDescription": "Rob Lucci com olhar sério."
+        },
+        {
+          "text": "Franky",
+          "isCorrect": false,
+          "explanation": "Franky começou como vilão,\nmas virou aliado!"
+        },
+        {
+          "text": "Iceburg",
+          "isCorrect": false,
+          "explanation": "Iceburg só queria paz!\nVilão, só no nome gelado."
+        },
+        {
+          "text": "Blueno",
+          "isCorrect": false,
+          "explanation": "Blueno só abre portas!\nVilão mesmo é o Lucci."
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "question": "Qual destes personagens é o principal antagonista do arco de Sabaody Archipelago?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Sentomaru",
+          "isCorrect": false,
+          "explanation": "Sentomaru aparece,\nmas não é o chefão do arco."
+        },
+        {
+          "text": "Bartholomew Kuma",
+          "isCorrect": true,
+          "explanation": "Kuma separou os Chapéus de Palha com um tapa só!\nVilão momentâneo, mas marcante.\nA resposta é de impacto!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Bartholomew_Kuma_Anime_Infobox.png",
+          "imageDescription": "Kuma com sua bíblia e chapéu."
+        },
+        {
+          "text": "Kizaru",
+          "isCorrect": false,
+          "explanation": "Kizaru brilha muito,\nmas Kuma roubou a cena."
+        },
+        {
+          "text": "Duval",
+          "isCorrect": false,
+          "explanation": "Duval só tem cara de Sanji!\nVilão, só no visual."
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "question": "Qual destes personagens é o principal antagonista do arco de Impel Down?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Magellan",
+          "isCorrect": true,
+          "explanation": "Magellan é o diretor venenoso de Impel Down!\nVilão que ninguém quer abraçar.\nA resposta é tóxica!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Magellan_Anime_Infobox.png",
+          "imageDescription": "Magellan com asas de veneno."
+        },
+        {
+          "text": "Hannyabal",
+          "isCorrect": false,
+          "explanation": "Hannyabal só sonha em ser diretor!\nVilão, só nos sonhos."
+        },
+        {
+          "text": "Shiryu",
+          "isCorrect": false,
+          "explanation": "Shiryu é perigoso,\nmas não manda em nada (ainda)."
+        },
+        {
+          "text": "Buggy",
+          "isCorrect": false,
+          "explanation": "Buggy só fugiu da prisão!\nVilão, só do próprio cabelo."
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "question": "Qual destes personagens é o principal antagonista do arco de Reverie?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Imu",
+          "isCorrect": true,
+          "explanation": "Imu é o soberano secreto do mundo!\nVilão misterioso e sombrio.\nA resposta é enigmática!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Imu_Anime_Infobox.png",
+          "imageDescription": "Imu sentado no trono vazio."
+        },
+        {
+          "text": "Sabo",
+          "isCorrect": false,
+          "explanation": "Sabo é revolucionário!\nVilão, só para o Governo Mundial."
+        },
+        {
+          "text": "Cobra",
+          "isCorrect": false,
+          "explanation": "Cobra é rei,\nmas não é vilão!"
+        },
+        {
+          "text": "Fujitora",
+          "isCorrect": false,
+          "explanation": "Fujitora é almirante,\nmas não é o chefão do arco."
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "question": "Qual destes personagens é o principal antagonista do arco de Zou?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Jack",
+          "isCorrect": true,
+          "explanation": "Jack é o mamute destruidor de Zou!\nVilão de peso e de tromba.\nA resposta é gigante!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Jack_Anime_Infobox.png",
+          "imageDescription": "Jack com tromba de mamute."
+        },
+        {
+          "text": "Pedro",
+          "isCorrect": false,
+          "explanation": "Pedro é aliado!\nVilão, só no susto."
+        },
+        {
+          "text": "Nekomamushi",
+          "isCorrect": false,
+          "explanation": "Nekomamushi é protetor,\nvilão só para as almofadas."
+        },
+        {
+          "text": "Carrot",
+          "isCorrect": false,
+          "explanation": "Carrot é fofa,\nvilã só do estoque de cenoura."
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "question": "Qual destes personagens é o principal antagonista do arco de Fishman Island?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Hody Jones",
+          "isCorrect": true,
+          "explanation": "Hody Jones é o tubarão revoltado de Fishman Island!\nVilão com dentes afiados e ideias piores.\nA resposta é aquática!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Hody_Jones_Anime_Infobox.png",
+          "imageDescription": "Hody Jones mostrando os dentes."
+        },
+        {
+          "text": "Vander Decken IX",
+          "isCorrect": false,
+          "explanation": "Decken só joga navio!\nVilão, só de longe."
+        },
+        {
+          "text": "Shirahoshi",
+          "isCorrect": false,
+          "explanation": "Shirahoshi é princesa!\nVilã, só se for de fofura."
+        },
+        {
+          "text": "Jinbe",
+          "isCorrect": false,
+          "explanation": "Jinbe é herói!\nVilão, nunca."
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "question": "Qual destes personagens é o principal antagonista do arco de Drum Island?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Wapol",
+          "isCorrect": true,
+          "explanation": "Wapol é o rei guloso de Drum Island!\nVilão que come até o próprio castelo.\nA resposta é mastigada!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Wapol_Anime_Infobox.png",
+          "imageDescription": "Wapol comendo metal."
+        },
+        {
+          "text": "Dalton",
+          "isCorrect": false,
+          "explanation": "Dalton é aliado!\nVilão, só para os sinos."
+        },
+        {
+          "text": "Chopper",
+          "isCorrect": false,
+          "explanation": "Chopper só é monstro de fofura!\nVilão, nunca."
+        },
+        {
+          "text": "Kureha",
+          "isCorrect": false,
+          "explanation": "Kureha é médica!\nVilã, só das injeções."
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "question": "Qual destes personagens é o principal antagonista do arco de Little Garden?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Mr. 3",
+          "isCorrect": true,
+          "explanation": "Mr. 3 é o mestre das velas de Little Garden!\nVilão que gosta de cera e armadilhas.\nA resposta é grudenta!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Galdino_Anime_Infobox.png",
+          "imageDescription": "Mr. 3 com cabelo de vela."
+        },
+        {
+          "text": "Dorry",
+          "isCorrect": false,
+          "explanation": "Dorry é gigante,\nmas não é vilão!"
+        },
+        {
+          "text": "Brogy",
+          "isCorrect": false,
+          "explanation": "Brogy só briga com Dorry!\nVilão, só para o amigo."
+        },
+        {
+          "text": "Miss Goldenweek",
+          "isCorrect": false,
+          "explanation": "Miss Goldenweek só pinta!\nVilã, só de brincadeira."
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "question": "Qual destes personagens é o principal antagonista do arco de Loguetown?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Smoker",
+          "isCorrect": true,
+          "explanation": "Smoker é o caçador de piratas de Loguetown!\nVilão para os piratas, herói para a Marinha.\nA resposta é esfumaçada!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Smoker_Anime_Infobox.png",
+          "imageDescription": "Smoker com charuto e capa da Marinha."
+        },
+        {
+          "text": "Buggy",
+          "isCorrect": false,
+          "explanation": "Buggy só faz bagunça!\nVilão, só do próprio nariz."
+        },
+        {
+          "text": "Alvida",
+          "isCorrect": false,
+          "explanation": "Alvida só brilha no início!\nVilã, só de passagem."
+        },
+        {
+          "text": "Tashigi",
+          "isCorrect": false,
+          "explanation": "Tashigi é justiceira,\nmas não é vilã!"
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "question": "Qual destes personagens é o principal antagonista do arco de Jaya?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Bellamy",
+          "isCorrect": true,
+          "explanation": "Bellamy é o pirata saltitante de Jaya!\nVilão de mola e de língua solta.\nA resposta é elástica!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Bellamy_Anime_Infobox.png",
+          "imageDescription": "Bellamy com sorriso arrogante."
+        },
+        {
+          "text": "Blackbeard",
+          "isCorrect": false,
+          "explanation": "Barba Negra só aparece no final!\nVilão mesmo é o Bellamy."
+        },
+        {
+          "text": "Sarquis",
+          "isCorrect": false,
+          "explanation": "Sarquis é capanga!\nVilão, só de segunda linha."
+        },
+        {
+          "text": "Mont Blanc Cricket",
+          "isCorrect": false,
+          "explanation": "Cricket é explorador!\nVilão, só para o próprio fígado."
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "question": "Qual destes personagens é o principal antagonista do arco de Amazon Lily?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Boa Hancock",
+          "isCorrect": true,
+          "explanation": "Hancock começa como vilã,\nmas logo se apaixona pelo Luffy!\nA resposta é apaixonante.",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Boa_Hancock_Anime_Infobox.png",
+          "imageDescription": "Hancock com expressão confiante."
+        },
+        {
+          "text": "Marguerite",
+          "isCorrect": false,
+          "explanation": "Marguerite só ajuda o Luffy!\nVilã, só nas flechas."
+        },
+        {
+          "text": "Sandersonia",
+          "isCorrect": false,
+          "explanation": "Sandersonia é irmã da Hancock!\nVilã, só por tabela."
+        },
+        {
+          "text": "Marigold",
+          "isCorrect": false,
+          "explanation": "Marigold é forte,\nmas quem manda é a irmã."
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "question": "Qual destes personagens é o principal antagonista do arco de Orange Town?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Buggy",
+          "isCorrect": true,
+          "explanation": "Buggy é o palhaço explosivo de Orange Town!\nVilão de nariz vermelho e planos mirabolantes.\nA resposta é circense!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Buggy_Anime_Infobox.png",
+          "imageDescription": "Buggy com expressão maluca."
+        },
+        {
+          "text": "Alvida",
+          "isCorrect": false,
+          "explanation": "Alvida só aparece no início!\nVilã, só de passagem."
+        },
+        {
+          "text": "Richie",
+          "isCorrect": false,
+          "explanation": "Richie é só mascote!\nVilão, só no rugido."
+        },
+        {
+          "text": "Mohji",
+          "isCorrect": false,
+          "explanation": "Mohji é domador,\nmas não é o chefão."
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "question": "Qual destes personagens é o principal antagonista do arco de Syrup Village?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Kuro",
+          "isCorrect": true,
+          "explanation": "Kuro é o mordomo mais perigoso de Syrup Village!\nVilão de unhas longas e planos tortos.\nA resposta é afiada!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Kuro_Anime_Infobox.png",
+          "imageDescription": "Kuro com óculos brilhando."
+        },
+        {
+          "text": "Jango",
+          "isCorrect": false,
+          "explanation": "Jango só hipnotiza!\nVilão, só no ritmo."
+        },
+        {
+          "text": "Usopp",
+          "isCorrect": false,
+          "explanation": "Usopp só mente!\nVilão, só nas histórias."
+        },
+        {
+          "text": "Kaya",
+          "isCorrect": false,
+          "explanation": "Kaya é vítima!\nVilã, nunca."
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "question": "Qual destes personagens é o principal antagonista do arco de Baratie?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Don Krieg",
+          "isCorrect": true,
+          "explanation": "Don Krieg é o pirata de ferro do Baratie!\nVilão com armadura e ego de aço.\nA resposta é blindada!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Don_Krieg_Anime_Infobox.png",
+          "imageDescription": "Don Krieg com armadura dourada."
+        },
+        {
+          "text": "Gin",
+          "isCorrect": false,
+          "explanation": "Gin é braço direito,\nmas não manda em nada."
+        },
+        {
+          "text": "Zeff",
+          "isCorrect": false,
+          "explanation": "Zeff só manda na cozinha!\nVilão, só para os ingredientes."
+        },
+        {
+          "text": "Sanji",
+          "isCorrect": false,
+          "explanation": "Sanji só luta por comida!\nVilão, só para quem desperdiça."
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "question": "Qual destes personagens é o principal antagonista do arco de Loguetown?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Smoker",
+          "isCorrect": true,
+          "explanation": "Smoker é o caçador de piratas de Loguetown!\nVilão para os piratas, herói para a Marinha.\nA resposta é esfumaçada!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Smoker_Anime_Infobox.png",
+          "imageDescription": "Smoker com charuto e capa da Marinha."
+        },
+        {
+          "text": "Buggy",
+          "isCorrect": false,
+          "explanation": "Buggy só faz bagunça!\nVilão, só do próprio nariz."
+        },
+        {
+          "text": "Alvida",
+          "isCorrect": false,
+          "explanation": "Alvida só brilha no início!\nVilã, só de passagem."
+        },
+        {
+          "text": "Tashigi",
+          "isCorrect": false,
+          "explanation": "Tashigi é justiceira,\nmas não é vilã!"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "question": "Qual destes personagens é o principal antagonista do arco de Drum Island?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Wapol",
+          "isCorrect": true,
+          "explanation": "Wapol é o rei guloso de Drum Island!\nVilão que come até o próprio castelo.\nA resposta é mastigada!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Wapol_Anime_Infobox.png",
+          "imageDescription": "Wapol comendo metal."
+        },
+        {
+          "text": "Dalton",
+          "isCorrect": false,
+          "explanation": "Dalton é aliado!\nVilão, só para os sinos."
+        },
+        {
+          "text": "Chopper",
+          "isCorrect": false,
+          "explanation": "Chopper só é monstro de fofura!\nVilão, nunca."
+        },
+        {
+          "text": "Kureha",
+          "isCorrect": false,
+          "explanation": "Kureha é médica!\nVilã, só das injeções."
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "question": "Qual destes personagens é o principal antagonista do arco de Alabasta?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Crocodile",
+          "isCorrect": true,
+          "explanation": "Crocodile é o vilão do deserto!\nAreia, charuto e planos mirabolantes.\nA resposta é seca!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Crocodile_Anime_Infobox.png",
+          "imageDescription": "Crocodile com charuto e capa."
+        },
+        {
+          "text": "Buggy",
+          "isCorrect": false,
+          "explanation": "Buggy só faz bagunça!\nEm Alabasta, só se perdeu."
+        },
+        {
+          "text": "Enel",
+          "isCorrect": false,
+          "explanation": "Enel é vilão do céu,\nnão do deserto."
+        },
+        {
+          "text": "Wapol",
+          "isCorrect": false,
+          "explanation": "Wapol é vilão da neve!\nAlabasta é só areia."
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "question": "Qual destes personagens é o principal antagonista do arco de Skypiea?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Enel",
+          "isCorrect": true,
+          "explanation": "Enel é o deus do trovão!\nVilão de Skypiea, adora eletrizar.\nA resposta é chocante!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Enel_Anime_Infobox.png",
+          "imageDescription": "Enel com seu tambor nas costas."
+        },
+        {
+          "text": "Crocodile",
+          "isCorrect": false,
+          "explanation": "Crocodile é vilão do deserto!\nNo céu, só areia voando."
+        },
+        {
+          "text": "Buggy",
+          "isCorrect": false,
+          "explanation": "Buggy não chega nem perto do céu!\nSó voa em pedaços."
+        },
+        {
+          "text": "Wapol",
+          "isCorrect": false,
+          "explanation": "Wapol só reina na neve!\nNo céu, só se for de avião."
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "question": "Qual destes personagens é o principal antagonista do arco de Water 7?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Rob Lucci",
+          "isCorrect": true,
+          "explanation": "Lucci é o agente duplo de Water 7!\nVilão de terno e garras escondidas.\nA resposta é felina!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Rob_Lucci_Anime_Infobox.png",
+          "imageDescription": "Rob Lucci com olhar sério."
+        },
+        {
+          "text": "Franky",
+          "isCorrect": false,
+          "explanation": "Franky começou como vilão,\nmas virou aliado!"
+        },
+        {
+          "text": "Iceburg",
+          "isCorrect": false,
+          "explanation": "Iceburg só queria paz!\nVilão, só no nome gelado."
+        },
+        {
+          "text": "Blueno",
+          "isCorrect": false,
+          "explanation": "Blueno só abre portas!\nVilão mesmo é o Lucci."
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "question": "Qual destes personagens é o principal antagonista do arco de Enies Lobby?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Rob Lucci",
+          "isCorrect": true,
+          "explanation": "Lucci é o leopardo mais perigoso de Enies Lobby!\nVilão de terno e garras afiadas.\nA resposta é selvagem!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Rob_Lucci_Anime_Infobox.png",
+          "imageDescription": "Rob Lucci em forma híbrida de leopardo."
+        },
+        {
+          "text": "Spandam",
+          "isCorrect": false,
+          "explanation": "Spandam só manda,\nmas quem luta é o Lucci."
+        },
+        {
+          "text": "Kaku",
+          "isCorrect": false,
+          "explanation": "Kaku é girafa,\nmas não é o principal vilão."
+        },
+        {
+          "text": "Blueno",
+          "isCorrect": false,
+          "explanation": "Blueno só abre portas!\nVilão mesmo é o Lucci."
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "question": "Qual destes personagens é o principal antagonista do arco de Thriller Bark?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Gecko Moria",
+          "isCorrect": true,
+          "explanation": "Moria é o senhor das sombras de Thriller Bark!\nVilão com cara de abóbora.\nA resposta é assustadora!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Gecko_Moria_Anime_Infobox.png",
+          "imageDescription": "Gecko Moria com sorriso sinistro."
+        },
+        {
+          "text": "Perona",
+          "isCorrect": false,
+          "explanation": "Perona só assusta com fantasmas!\nVilã, só de brincadeira."
+        },
+        {
+          "text": "Absalom",
+          "isCorrect": false,
+          "explanation": "Absalom só fica invisível!\nVilão mesmo é o Moria."
+        },
+        {
+          "text": "Hogback",
+          "isCorrect": false,
+          "explanation": "Hogback é médico maluco,\nmas não é o chefão."
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "question": "Qual destes personagens é o principal antagonista do arco de Punk Hazard?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Caesar Clown",
+          "isCorrect": true,
+          "explanation": "Caesar é o cientista maluco de Punk Hazard!\nVilão químico e cheio de gás.\nA resposta é explosiva!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Caesar_Clown_Anime_Infobox.png",
+          "imageDescription": "Caesar Clown rindo com tubos de gás."
+        },
+        {
+          "text": "Vergo",
+          "isCorrect": false,
+          "explanation": "Vergo é braço direito,\nmas não o chefão."
+        },
+        {
+          "text": "Doflamingo",
+          "isCorrect": false,
+          "explanation": "Doflamingo só puxa os fios!\nO vilão é o cientista mesmo."
+        },
+        {
+          "text": "Law",
+          "isCorrect": false,
+          "explanation": "Law é aliado!\nVilão, só para os inimigos."
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "question": "Qual destes personagens é o principal antagonista do arco de Dressrosa?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Donquixote Doflamingo",
+          "isCorrect": true,
+          "explanation": "Doflamingo controla Dressrosa com fios e charme!\nVilão com estilo e óculos rosa.\nA resposta é perigosa!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Donquixote_Doflamingo_Anime_Infobox.png",
+          "imageDescription": "Doflamingo de óculos rosa sorrindo."
+        },
+        {
+          "text": "Trebol",
+          "isCorrect": false,
+          "explanation": "Trebol só gruda nos outros!\nChefão é o Flamingo."
+        },
+        {
+          "text": "Diamante",
+          "isCorrect": false,
+          "explanation": "Diamante brilha,\nmas quem manda é o Doflamingo."
+        },
+        {
+          "text": "Sugar",
+          "isCorrect": false,
+          "explanation": "Sugar só transforma inimigos em brinquedo!\nVilã, só de brincadeira."
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "question": "Qual destes personagens é o principal antagonista do arco de Whole Cake Island?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Big Mom",
+          "isCorrect": true,
+          "explanation": "Big Mom é a dona da ilha dos doces!\nVilã com apetite insaciável.\nA resposta é açucarada!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Charlotte_Linlin_Anime_Infobox.png",
+          "imageDescription": "Big Mom comendo bolo."
+        },
+        {
+          "text": "Katakuri",
+          "isCorrect": false,
+          "explanation": "Katakuri é forte,\nmas quem manda é a mãe."
+        },
+        {
+          "text": "Perospero",
+          "isCorrect": false,
+          "explanation": "Perospero só faz doces!\nVilão, só para os dentistas."
+        },
+        {
+          "text": "Smoothie",
+          "isCorrect": false,
+          "explanation": "Smoothie só espreme inimigos!\nVilã, só de suco."
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "question": "Qual destes personagens é o principal antagonista do arco de Wano?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Kaido",
+          "isCorrect": true,
+          "explanation": "Kaido é o vilão de Wano!\nDragão, imperador e encrenca garantida.\nA resposta é colossal!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Kaido_Anime_Infobox.png",
+          "imageDescription": "Kaido em forma de dragão."
+        },
+        {
+          "text": "Orochi",
+          "isCorrect": false,
+          "explanation": "Orochi é vilão local,\nmas Kaido é o chefão."
+        },
+        {
+          "text": "Big Mom",
+          "isCorrect": false,
+          "explanation": "Big Mom aparece,\nmas quem manda é o Kaido."
+        },
+        {
+          "text": "King",
+          "isCorrect": false,
+          "explanation": "King é comandante,\nmas não manda em tudo."
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "question": "Qual destes personagens é o principal antagonista do arco de Marineford?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Sakazuki (Akainu)",
+          "isCorrect": true,
+          "explanation": "Akainu é o vilão mais quente de Marineford!\nPunho de magma e coração gelado.\nA resposta é incandescente!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Sakazuki_Anime_Infobox.png",
+          "imageDescription": "Akainu com uniforme vermelho e olhar sério."
+        },
+        {
+          "text": "Aokiji",
+          "isCorrect": false,
+          "explanation": "Aokiji é frio,\nmas Akainu é o verdadeiro vilão."
+        },
+        {
+          "text": "Kizaru",
+          "isCorrect": false,
+          "explanation": "Kizaru só brilha,\nmas não é o principal vilão."
+        },
+        {
+          "text": "Sengoku",
+          "isCorrect": false,
+          "explanation": "Sengoku só observa!\nVilão, só no passado."
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "question": "Qual destes personagens é o principal antagonista do arco de Sabaody Archipelago?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Bartholomew Kuma",
+          "isCorrect": true,
+          "explanation": "Kuma separou os Chapéus de Palha com um tapa só!\nVilão momentâneo, mas marcante.\nA resposta é de impacto!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Bartholomew_Kuma_Anime_Infobox.png",
+          "imageDescription": "Kuma com sua bíblia e chapéu."
+        },
+        {
+          "text": "Sentomaru",
+          "isCorrect": false,
+          "explanation": "Sentomaru aparece,\nmas não é o chefão do arco."
+        },
+        {
+          "text": "Kizaru",
+          "isCorrect": false,
+          "explanation": "Kizaru brilha muito,\nmas Kuma roubou a cena."
+        },
+        {
+          "text": "Duval",
+          "isCorrect": false,
+          "explanation": "Duval só tem cara de Sanji!\nVilão, só no visual."
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "question": "Qual destes personagens é o principal antagonista do arco de Impel Down?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Magellan",
+          "isCorrect": true,
+          "explanation": "Magellan é o diretor venenoso de Impel Down!\nVilão que ninguém quer abraçar.\nA resposta é tóxica!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Magellan_Anime_Infobox.png",
+          "imageDescription": "Magellan com asas de veneno."
+        },
+        {
+          "text": "Hannyabal",
+          "isCorrect": false,
+          "explanation": "Hannyabal só sonha em ser diretor!\nVilão, só nos sonhos."
+        },
+        {
+          "text": "Shiryu",
+          "isCorrect": false,
+          "explanation": "Shiryu é perigoso,\nmas não manda em nada (ainda)."
+        },
+        {
+          "text": "Buggy",
+          "isCorrect": false,
+          "explanation": "Buggy só fugiu da prisão!\nVilão, só do próprio cabelo."
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "question": "Qual destes personagens é o principal antagonista do arco de Fishman Island?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Hody Jones",
+          "isCorrect": true,
+          "explanation": "Hody Jones é o tubarão revoltado de Fishman Island!\nVilão com dentes afiados e ideias piores.\nA resposta é aquática!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Hody_Jones_Anime_Infobox.png",
+          "imageDescription": "Hody Jones mostrando os dentes."
+        },
+        {
+          "text": "Vander Decken IX",
+          "isCorrect": false,
+          "explanation": "Decken só joga navio!\nVilão, só de longe."
+        },
+        {
+          "text": "Shirahoshi",
+          "isCorrect": false,
+          "explanation": "Shirahoshi é princesa!\nVilã, só se for de fofura."
+        },
+        {
+          "text": "Jinbe",
+          "isCorrect": false,
+          "explanation": "Jinbe é herói!\nVilão, nunca."
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "question": "Qual destes personagens é o principal antagonista do arco de Zou?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Jack",
+          "isCorrect": true,
+          "explanation": "Jack é o mamute destruidor de Zou!\nVilão de peso e de tromba.\nA resposta é gigante!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Jack_Anime_Infobox.png",
+          "imageDescription": "Jack com tromba de mamute."
+        },
+        {
+          "text": "Pedro",
+          "isCorrect": false,
+          "explanation": "Pedro é aliado!\nVilão, só no susto."
+        },
+        {
+          "text": "Nekomamushi",
+          "isCorrect": false,
+          "explanation": "Nekomamushi é protetor,\nvilão só para as almofadas."
+        },
+        {
+          "text": "Carrot",
+          "isCorrect": false,
+          "explanation": "Carrot é fofa,\nvilã só do estoque de cenoura."
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "question": "Qual destes personagens é o principal antagonista do arco de Reverie?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Imu",
+          "isCorrect": true,
+          "explanation": "Imu é o soberano secreto do mundo!\nVilão misterioso e sombrio.\nA resposta é enigmática!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Imu_Anime_Infobox.png",
+          "imageDescription": "Imu sentado no trono vazio."
+        },
+        {
+          "text": "Sabo",
+          "isCorrect": false,
+          "explanation": "Sabo é revolucionário!\nVilão, só para o Governo Mundial."
+        },
+        {
+          "text": "Cobra",
+          "isCorrect": false,
+          "explanation": "Cobra é rei,\nmas não é vilão!"
+        },
+        {
+          "text": "Fujitora",
+          "isCorrect": false,
+          "explanation": "Fujitora é almirante,\nmas não é o chefão do arco."
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "question": "Qual destes personagens é o principal antagonista do arco de Little Garden?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Mr. 3",
+          "isCorrect": true,
+          "explanation": "Mr. 3 é o mestre das velas de Little Garden!\nVilão que gosta de cera e armadilhas.\nA resposta é grudenta!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Galdino_Anime_Infobox.png",
+          "imageDescription": "Mr. 3 com cabelo de vela."
+        },
+        {
+          "text": "Dorry",
+          "isCorrect": false,
+          "explanation": "Dorry é gigante,\nmas não é vilão!"
+        },
+        {
+          "text": "Brogy",
+          "isCorrect": false,
+          "explanation": "Brogy só briga com Dorry!\nVilão, só para o amigo."
+        },
+        {
+          "text": "Miss Goldenweek",
+          "isCorrect": false,
+          "explanation": "Miss Goldenweek só pinta!\nVilã, só de brincadeira."
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "question": "Qual destes personagens é o principal antagonista do arco de Drum Island?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Wapol",
+          "isCorrect": true,
+          "explanation": "Wapol é o rei guloso de Drum Island!\nVilão que come até o próprio castelo.\nA resposta é mastigada!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Wapol_Anime_Infobox.png",
+          "imageDescription": "Wapol comendo metal."
+        },
+        {
+          "text": "Dalton",
+          "isCorrect": false,
+          "explanation": "Dalton é aliado!\nVilão, só para os sinos."
+        },
+        {
+          "text": "Chopper",
+          "isCorrect": false,
+          "explanation": "Chopper só é monstro de fofura!\nVilão, nunca."
+        },
+        {
+          "text": "Kureha",
+          "isCorrect": false,
+          "explanation": "Kureha é médica!\nVilã, só das injeções."
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "question": "Qual destes personagens é o principal antagonista do arco de Jaya?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Bellamy",
+          "isCorrect": true,
+          "explanation": "Bellamy é o pirata saltitante de Jaya!\nVilão de mola e de língua solta.\nA resposta é elástica!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Bellamy_Anime_Infobox.png",
+          "imageDescription": "Bellamy com sorriso arrogante."
+        },
+        {
+          "text": "Blackbeard",
+          "isCorrect": false,
+          "explanation": "Barba Negra só aparece no final!\nVilão mesmo é o Bellamy."
+        },
+        {
+          "text": "Sarquis",
+          "isCorrect": false,
+          "explanation": "Sarquis é capanga!\nVilão, só de segunda linha."
+        },
+        {
+          "text": "Mont Blanc Cricket",
+          "isCorrect": false,
+          "explanation": "Cricket é explorador!\nVilão, só para o próprio fígado."
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "question": "Qual destes personagens é o principal antagonista do arco de Amazon Lily?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Boa Hancock",
+          "isCorrect": true,
+          "explanation": "Hancock começa como vilã,\nmas logo se apaixona pelo Luffy!\nA resposta é apaixonante.",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Boa_Hancock_Anime_Infobox.png",
+          "imageDescription": "Hancock com expressão confiante."
+        },
+        {
+          "text": "Marguerite",
+          "isCorrect": false,
+          "explanation": "Marguerite só ajuda o Luffy!\nVilã, só nas flechas."
+        },
+        {
+          "text": "Sandersonia",
+          "isCorrect": false,
+          "explanation": "Sandersonia é irmã da Hancock!\nVilã, só por tabela."
+        },
+        {
+          "text": "Marigold",
+          "isCorrect": false,
+          "explanation": "Marigold é forte,\nmas quem manda é a irmã."
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "question": "Qual destes personagens é o principal antagonista do arco de Orange Town?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Buggy",
+          "isCorrect": true,
+          "explanation": "Buggy é o palhaço explosivo de Orange Town!\nVilão de nariz vermelho e planos mirabolantes.\nA resposta é circense!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Buggy_Anime_Infobox.png",
+          "imageDescription": "Buggy com expressão maluca."
+        },
+        {
+          "text": "Alvida",
+          "isCorrect": false,
+          "explanation": "Alvida só aparece no início!\nVilã, só de passagem."
+        },
+        {
+          "text": "Richie",
+          "isCorrect": false,
+          "explanation": "Richie é só mascote!\nVilão, só no rugido."
+        },
+        {
+          "text": "Mohji",
+          "isCorrect": false,
+          "explanation": "Mohji é domador,\nmas não é o chefão."
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "question": "Qual destes personagens é o principal antagonista do arco de Syrup Village?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Kuro",
+          "isCorrect": true,
+          "explanation": "Kuro é o mordomo mais perigoso de Syrup Village!\nVilão de unhas longas e planos tortos.\nA resposta é afiada!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Kuro_Anime_Infobox.png",
+          "imageDescription": "Kuro com óculos brilhando."
+        },
+        {
+          "text": "Jango",
+          "isCorrect": false,
+          "explanation": "Jango só hipnotiza!\nVilão, só no ritmo."
+        },
+        {
+          "text": "Usopp",
+          "isCorrect": false,
+          "explanation": "Usopp só mente!\nVilão, só nas histórias."
+        },
+        {
+          "text": "Kaya",
+          "isCorrect": false,
+          "explanation": "Kaya é vítima!\nVilã, nunca."
+        }
+      ]
+    },
+    {
+      "id": "97",
+      "question": "Qual destes personagens é o principal antagonista do arco de Baratie?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Don Krieg",
+          "isCorrect": true,
+          "explanation": "Don Krieg é o pirata de ferro do Baratie!\nVilão com armadura e ego de aço.\nA resposta é blindada!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Don_Krieg_Anime_Infobox.png",
+          "imageDescription": "Don Krieg com armadura dourada."
+        },
+        {
+          "text": "Gin",
+          "isCorrect": false,
+          "explanation": "Gin é braço direito,\nmas não manda em nada."
+        },
+        {
+          "text": "Zeff",
+          "isCorrect": false,
+          "explanation": "Zeff só manda na cozinha!\nVilão, só para os ingredientes."
+        },
+        {
+          "text": "Sanji",
+          "isCorrect": false,
+          "explanation": "Sanji só luta por comida!\nVilão, só para quem desperdiça."
+        }
+      ]
+    },
+    {
+      "id": "98",
+      "question": "Qual destes personagens é o principal antagonista do arco de Loguetown?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Smoker",
+          "isCorrect": true,
+          "explanation": "Smoker é o caçador de piratas de Loguetown!\nVilão para os piratas, herói para a Marinha.\nA resposta é esfumaçada!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Smoker_Anime_Infobox.png",
+          "imageDescription": "Smoker com charuto e capa da Marinha."
+        },
+        {
+          "text": "Buggy",
+          "isCorrect": false,
+          "explanation": "Buggy só faz bagunça!\nVilão, só do próprio nariz."
+        },
+        {
+          "text": "Alvida",
+          "isCorrect": false,
+          "explanation": "Alvida só brilha no início!\nVilã, só de passagem."
+        },
+        {
+          "text": "Tashigi",
+          "isCorrect": false,
+          "explanation": "Tashigi é justiceira,\nmas não é vilã!"
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "question": "Qual destes personagens é o principal antagonista do arco de Arlong Park?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Arlong",
+          "isCorrect": true,
+          "explanation": "Arlong é o tubarão mais cruel do East Blue!\nVilão com dentes afiados e planos ainda piores.\nA resposta é aquática!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Arlong_Anime_Infobox.png",
+          "imageDescription": "Arlong mostrando os dentes."
+        },
+        {
+          "text": "Hatchan",
+          "isCorrect": false,
+          "explanation": "Hatchan só faz takoyaki!\nVilão, só no cardápio."
+        },
+        {
+          "text": "Kuroobi",
+          "isCorrect": false,
+          "explanation": "Kuroobi é forte,\nmas não é o chefe."
+        },
+        {
+          "text": "Nami",
+          "isCorrect": false,
+          "explanation": "Nami só era refém!\nVilã, nunca."
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "question": "Qual destes personagens é o principal antagonista do arco de Skypiea?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Enel",
+          "isCorrect": true,
+          "explanation": "Enel é o deus do trovão!\nVilão de Skypiea, adora eletrizar.\nA resposta é chocante!",
+          "imageUrl": "https://onepiece.fandom.com/wiki/File:Enel_Anime_Infobox.png",
+          "imageDescription": "Enel com seu tambor nas costas."
+        },
+        {
+          "text": "Crocodile",
+          "isCorrect": false,
+          "explanation": "Crocodile é vilão do deserto!\nNo céu, só areia voando."
+        },
+        {
+          "text": "Buggy",
+          "isCorrect": false,
+          "explanation": "Buggy não chega nem perto do céu!\nSó voa em pedaços."
+        },
+        {
+          "text": "Wapol",
+          "isCorrect": false,
+          "explanation": "Wapol só reina na neve!\nNo céu, só se for de avião."
+        }
+      ]
+    }
+  ]
+}
