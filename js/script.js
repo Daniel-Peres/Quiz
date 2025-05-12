@@ -650,22 +650,30 @@ function showResults(elements) {
     let finalScoreString = "";
     let correctAnswers = 0; // Precisamos calcular acertos
 
+    // --- MODIFICAÇÃO: Calcular acertos universalmente ---
+    if (currentPointsPerQuestion > 0) {
+        correctAnswers = Math.round(score / currentPointsPerQuestion);
+    } else if (score > 0) { // Caso fallback
+        correctAnswers = Math.round(score);
+    }
+
     if (quizConfig.scoring === "percentage") {
         // Se score acumula pontos, recalcula acertos baseado em pontos por questão
-        correctAnswers = (currentPointsPerQuestion > 0) ? Math.round(score / currentPointsPerQuestion) : 0;
         const percentage = totalQPlayed > 0 ? Math.round((correctAnswers / totalQPlayed) * 100) : 0;
         finalScoreString = `Percentual: <strong>${percentage}%</strong>`;
 
     } else { // Modo "points"
+        // Dentro do bloco else (modo "points")
         // Calcula máximo para este quiz
         const totalConfigPoints = quizConfig.totalPoints || 0;
         const totalQuizQuestions = fullQuizData.length;
         const questionsPlayed = quizData.length;
         const maxPointsForThisQuiz = (totalQuizQuestions > 0 && questionsPlayed > 0)
-            ? Math.round(totalConfigPoints * (questionsPlayed / totalQuizQuestions))
-            : Math.round(questionsPlayed * currentPointsPerQuestion);
-
+        ? Math.round(totalConfigPoints * (questionsPlayed / totalQuizQuestions))
+        : Math.round(questionsPlayed * currentPointsPerQuestion);
+        
         const currentScoreRounded = Math.round(score);
+        finalScoreString = `Pontuação: <strong>${currentScoreRounded} / ${maxPointsForThisQuiz}</strong>`;
 
         elements.scoreValueElement.textContent = `${currentScoreRounded} / ${maxPointsForThisQuiz}`;
         elements.pointsDisplayContainer.classList.remove('hide');
