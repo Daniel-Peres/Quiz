@@ -236,7 +236,7 @@ h2 {
     gap: 1rem;
     margin-bottom: 1.5rem;
     perspective: 1000px;
-    align-items: start;
+    align-items: stretch;
     /* Alterado para start para consistência, mas pode ser stretch se preferir preenchimento total */
 }
 
@@ -676,7 +676,7 @@ input[type=number]:focus-visible {
         /* Card REVELADO em mobile */
         height: auto;
         /* Altura se ajusta ao conteúdo */
-        min-height: 0 !important;
+        min-height: 60px !important;
         /* <<< TENTATIVA FORÇADA: Reseta min-height. Se funcionar, investigaremos especificidade. */
         overflow: visible;
         /* Conteúdo dita a altura, não o frame */
@@ -689,6 +689,7 @@ input[type=number]:focus-visible {
         padding: 0.5rem;
         box-sizing: border-box;
         height: auto;
+        min-height: 60px;
         /* Altura da back-face determinada pelo seu conteúdo */
     }
 
@@ -1031,7 +1032,8 @@ input[type=number]:focus-visible {
     opacity: 1;
     transform-style: preserve-3d;
     transition: opacity 0.5s ease;
-    height: 180px;
+    min-height: 60px;
+    height: auto;
     /* Altura fixa para cards revelados (ajuste conforme necessário) */
 }
 
@@ -1047,7 +1049,8 @@ input[type=number]:focus-visible {
     flex-direction: column;
     overflow-y: auto;
     /* Permite rolagem vertical interna */
-    height: 100%;
+    min-height: 60px;
+    height: auto;
     /* Ocupa 100% da altura do .option-frame.revealed */
     box-sizing: border-box;
 }
@@ -1210,4 +1213,28 @@ input[type=number]:focus-visible {
         line-height: 1.4;
         overflow-wrap: break-word;
     }
+}
+
+
+.options-grid {
+    align-items: stretch;
+}
+
+.option-frame.revealed {
+    height: auto;
+    min-height: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.option-frame.revealed .back-face {
+    height: 100%;
+    min-height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.option-frame.revealed .explanation-container {
+    flex-grow: 0;
+    flex-shrink: 0;
 }
