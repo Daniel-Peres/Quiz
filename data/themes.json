@@ -1,30 +1,5 @@
 [
     {
-        "id": "certificacoes_cloud",
-        "name": "Certificações Cloud",
-        "description": "Domine as nuvens! Teste seus conhecimentos sobre as principais certificações de cloud computing e acelere sua jornada tecnológica.",
-        "subThemes": [
-            {
-                "id": "aws-aif-c01",
-                "name": "AI Practitioner (AIF-C01)",
-                "file": "certificacoes_cloud/aws-aif-c01.json",
-                "description": "Questões sobre IA/ML e serviços AWS relacionados (AIF-C01)."
-            },
-            {
-                "id": "aws-clf-c02",
-                "name": "Cloud Practitioner Foundational (CLF-C02)",
-                "file": "certificacoes_cloud/aws-clf-c02.json",
-                "description": "Questões nível Fundamental para CLF-C02."
-            },
-            {
-                "id": "aws-saa-c03",
-                "name": "Solutions Architect Associate (SAA-C03)",
-                "file": "certificacoes_cloud/aws-saa-c03.json",
-                "description": "Questões nível Associado para SAA-C03."
-            }
-        ]
-    },
-    {
         "id": "conhecimentosgerais_curiosidades_ciencias",
         "name": "Conhecimentos, Curiosidades & Ciências",
         "description": "Desafie sua mente! Explore um universo de conhecimentos gerais, fatos curiosos e as maravilhas da ciência e da natureza.",
@@ -274,6 +249,31 @@
                 "name": "Tecnologia Militar - Força Aérea",
                 "file": "tecnologia_e_computacao/tecnologia_militar_forca_aerea.json",
                 "description": "Domine os céus! Teste seus conhecimentos sobre aviões, helicópteros e a evolução da aviação militar."
+            }
+        ]
+    },
+    {
+        "id": "certificacoes_cloud",
+        "name": "Certificações Cloud",
+        "description": "Domine as nuvens! Teste seus conhecimentos sobre as principais certificações de cloud computing e acelere sua jornada tecnológica.",
+        "subThemes": [
+            {
+                "id": "aws-aif-c01",
+                "name": "AI Practitioner (AIF-C01)",
+                "file": "certificacoes_cloud/aws-aif-c01.json",
+                "description": "Questões sobre IA/ML e serviços AWS relacionados (AIF-C01)."
+            },
+            {
+                "id": "aws-clf-c02",
+                "name": "Cloud Practitioner Foundational (CLF-C02)",
+                "file": "certificacoes_cloud/aws-clf-c02.json",
+                "description": "Questões nível Fundamental para CLF-C02."
+            },
+            {
+                "id": "aws-saa-c03",
+                "name": "Solutions Architect Associate (SAA-C03)",
+                "file": "certificacoes_cloud/aws-saa-c03.json",
+                "description": "Questões nível Associado para SAA-C03."
             }
         ]
     }
