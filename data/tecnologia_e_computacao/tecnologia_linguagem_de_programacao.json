@@ -1,149 +1,2909 @@
 {
-    "config": {
-      "theme": "Tecnologia: Linguagens de Programação",
-      "totalPoints": 1000,
-      "scoring": "points"
+  "config": {
+    "theme": "Linguagens de Programação",
+    "totalPoints": 1000,
+    "scoring": "points"
+  },
+  "data": [
+    {
+      "id": "01",
+      "question": "Qual linguagem é considerada a primeira de alto nível amplamente utilizada?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "COBOL",
+          "isCorrect": false,
+          "explanation": "COBOL foi pioneira nos negócios,\nmas não foi a primeira de alto nível.\nContinue tentando!"
+        },
+        {
+          "text": "Fortran",
+          "isCorrect": true,
+          "explanation": "Fortran abriu as portas para a programação científica!\nEla foi lançada em 1957 e ainda resiste ao tempo.\nUm verdadeiro clássico dos clássicos!",
+          "imageUrl": "https://fortran-lang.org/static/img/fortran-logo-512x512.png",
+          "imageDescription": "Logo oficial do Fortran"
+        },
+        {
+          "text": "Lisp",
+          "isCorrect": false,
+          "explanation": "Lisp é veterana, mas chegou depois do Fortran.\nEla é mais filosófica que pioneira!"
+        },
+        {
+          "text": "C",
+          "isCorrect": false,
+          "explanation": "C só apareceu nos anos 70!\nVocê pulou algumas décadas aí."
+        }
+      ]
     },
-    "data": [
-      {
-        "question": "Qual linguagem de programação, criada em 1995, é amplamente usada para desenvolvimento web e conhecida por sua flexibilidade?",
-        "level": "fácil",
-        "options": [
-          {
-            "text": "Python",
-            "isCorrect": false,
-            "explanation": "Nããão, Python é um amor, mas nasceu em 1991 e é mais geral, não só web. Tente uma linguagem que faz sites brilharem e às vezes dá dor de cabeça!"
-          },
-          {
-            "text": "JavaScript",
-            "isCorrect": true,
-            "explanation": "Você é um ninja do código! JavaScript, criado em 1995 por Brendan Eich, é o coração da web, dando vida a sites interativos. De pop-ups a apps complexos, ela faz tudo... e às vezes bagunça tudo também! Parabéns, dev!",
-            "imageUrl": "https://www.javascript.com/images/js-logo.png",
-            "imageDescription": "Imagem do logotipo oficial do JavaScript, com um 'JS' estilizado em amarelo e preto, representando a linguagem essencial para desenvolvimento web."
-          },
-          {
-            "text": "Java",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! Java, também de 1995, é mais para apps e servidores. A linguagem que queremos é a rainha dos navegadores, rodando no seu browser agora!"
-          },
-          {
-            "text": "C++",
-            "isCorrect": false,
-            "explanation": "Ops, errou o alvo! C++, de 1985, é fera em jogos e sistemas, mas não é a estrela da web. Tente algo mais... scriptado e dinâmico!"
-          }
-        ]
-      },
-      {
-        "question": "Qual linguagem, lançada em 1991, é famosa por sua simplicidade e legibilidade, sendo muito usada em ciência de dados e IA?",
-        "level": "fácil",
-        "options": [
-          {
-            "text": "Ruby",
-            "isCorrect": false,
-            "explanation": "Nããão, Ruby, de 1995, é legal pra web, tipo Rails, mas não é a queridinha de dados. Tente uma linguagem que parece um pseudocódigo amigável!"
-          },
-          {
-            "text": "Python",
-            "isCorrect": true,
-            "explanation": "Slither de acerto! Python, criado por Guido van Rossum em 1991, é amado por sua clareza e versatilidade, dominando IA, dados e até web. De 'print('Hello World')' a redes neurais, é a cobra que encanta todo programador!",
-            "imageUrl": "https://www.python.org/static/community_logos/python-logo.png",
-            "imageDescription": "Imagem do logotipo do Python, com uma cobra azul e amarela, simbolizando a simplicidade e poder da linguagem em ciência de dados e IA."
-          },
-          {
-            "text": "Perl",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! Perl, de 1987, é mais pra scripts e textos. A linguagem que queremos é mais jovem e bem mais popular nos laboratórios de dados!"
-          },
-          {
-            "text": "R",
-            "isCorrect": false,
-            "explanation": "Ops, R é específica pra estatística, mas não tão versátil quanto a líder de 1991. Tente a linguagem que todo mundo usa, de web a machine learning!"
-          }
-        ]
-      },
-      {
-        "question": "Qual linguagem, criada na década de 1970, é considerada a base para muitas linguagens modernas como C++ e Java?",
-        "level": "médio",
-        "options": [
-          {
-            "text": "Pascal",
-            "isCorrect": false,
-            "explanation": "Nããão, Pascal, de 1970, é ótimo pra ensinar, mas não tão influente assim. Tente uma linguagem mais... fundacional, que tá no sangue de C++ e Java!"
-          },
-          {
-            "text": "C",
-            "isCorrect": true,
-            "explanation": "Você é um arqueólogo do código! C, criado em 1972 por Dennis Ritchie, é a avó das linguagens modernas, dando origem a C++, Java e muitas outras. De sistemas operacionais a jogos, ela é o alicerce da programação. Respeita a lenda!",
-            "imageUrl": "https://www.programiz.com/sites/tutorial2program/files/c-programming.png",
-            "imageDescription": "Imagem ilustrativa do logotipo da linguagem C, com um fundo de código, representando sua importância histórica como base para linguagens modernas."
-          },
-          {
-            "text": "Fortran",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! Fortran, de 1957, é pioneira pra cálculos científicos, mas não pariu C++ ou Java. Tente algo mais próximo dos anos 70!"
-          },
-          {
-            "text": "BASIC",
-            "isCorrect": false,
-            "explanation": "Ops, BASIC, de 1964, era pra iniciantes, mas não tão influente nas modernas. A linguagem que queremos é mais estruturada e poderosa!"
-          }
-        ]
-      },
-      {
-        "question": "Qual linguagem, lançada em 2009, é usada para contratos inteligentes na blockchain Ethereum?",
-        "level": "difícil",
-        "options": [
-          {
-            "text": "Rust",
-            "isCorrect": false,
-            "explanation": "Nããão, Rust, de 2010, é fera em desempenho, mas não é a rainha do Ethereum. Tente uma linguagem feita sob medida pra blockchains!"
-          },
-          {
-            "text": "Solidity",
-            "isCorrect": true,
-            "explanation": "Você é um gênio da blockchain! Solidity, lançada em 2009, é a linguagem dos contratos inteligentes no Ethereum, permitindo acordos digitais seguros. De NFTs a DeFi, ela é o motor da revolução cripto. Parabéns, minerador de código!",
-            "imageUrl": "https://docs.soliditylang.org/en/latest/_static/logo.svg",
-            "imageDescription": "Imagem do logotipo da Solidity, com um símbolo estilizado em azul, representando sua função em contratos inteligentes na blockchain Ethereum."
-          },
-          {
-            "text": "Go",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! Go, de 2009, é ótima pra servidores, mas não pra Ethereum. Tente algo mais... descentralizado e contratual!"
-          },
-          {
-            "text": "Haskell",
-            "isCorrect": false,
-            "explanation": "Nããão, Haskell é funcional e acadêmica, mas não tá na blockchain. A linguagem que queremos é mais jovem e cheia de criptomoedas!"
-          }
-        ]
-      },
-      {
-        "question": "Qual linguagem de programação, criada em 1983, é conhecida por sua orientação a objetos e uso em sistemas críticos como aviação?",
-        "level": "difícil",
-        "options": [
-          {
-            "text": "Lisp",
-            "isCorrect": false,
-            "explanation": "Nããão, Lisp, de 1958, é pioneira em IA, mas não em sistemas críticos. Tente uma linguagem mais estruturada e confiável pra aviões!"
-          },
-          {
-            "text": "Ada",
-            "isCorrect": true,
-            "explanation": "Você é um piloto de código! Ada, criada em 1983 em homenagem a Ada Lovelace, é a escolha para sistemas críticos em aviação, defesa e trens. Sua robustez evita bugs que poderiam derrubar um jato. Parabéns, engenheiro de software!",
-            "imageUrl": "https://www.adacore.com/uploads/technical-papers/Ada_Logo.png",
-            "imageDescription": "Imagem do logotipo da linguagem Ada, com texto estilizado em azul, representando sua confiabilidade em sistemas críticos como aviação."
-          },
-          {
-            "text": "Prolog",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! Prolog, de 1972, é pra lógica e IA, não aviação. Tente algo mais seguro e orientado a objetos!"
-          },
-          {
-            "text": "Smalltalk",
-            "isCorrect": false,
-            "explanation": "Nããão, Smalltalk, de 1972, inspirou orientação a objetos, mas não é usada em jatos. A linguagem que queremos é mais... militar e precisa!"
-          }
-        ]
-      }
-    ]
-  }
+    {
+      "id": "02",
+      "question": "Qual paradigma a linguagem Simula introduziu nos anos 60?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Programação Funcional",
+          "isCorrect": false,
+          "explanation": "Funcional é coisa de Lisp e Haskell.\nSimula foi por outro caminho!"
+        },
+        {
+          "text": "Orientação a Objetos",
+          "isCorrect": true,
+          "explanation": "Simula criou o conceito de objetos e classes!\nFoi o pontapé inicial para o Java, C++ e companhia.\nOOP nasceu aqui!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Simula_67_cover.jpg",
+          "imageDescription": "Capa do manual original do Simula 67"
+        },
+        {
+          "text": "Programação Lógica",
+          "isCorrect": false,
+          "explanation": "Prolog é quem reina na programação lógica.\nSimula foi para outro lado!"
+        },
+        {
+          "text": "Programação Imperativa",
+          "isCorrect": false,
+          "explanation": "Imperativa já existia antes de Simula.\nNada de novo sob o sol aqui!"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "question": "Por que o COBOL ainda é crítico em sistemas bancários?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "É mais rápido que C",
+          "isCorrect": false,
+          "explanation": "COBOL não é conhecido pela velocidade.\nMas sim pela robustez e legado!"
+        },
+        {
+          "text": "Sua sintaxe é intuitiva",
+          "isCorrect": false,
+          "explanation": "Sintaxe intuitiva? Só se for para quem nasceu em 1959!\nCOBOL é mais tradicional do que fácil."
+        },
+        {
+          "text": "Legado de sistemas críticos",
+          "isCorrect": true,
+          "explanation": "COBOL está no coração dos bancos!\nÉ o dinossauro que ninguém consegue aposentar.\nLegado é coisa séria!",
+          "imageUrl": "https://developer.ibm.com/languages/cobol/images/cobol-logo.png",
+          "imageDescription": "Logo do COBOL em mainframe IBM"
+        },
+        {
+          "text": "Melhor integração com Java",
+          "isCorrect": false,
+          "explanation": "Java e COBOL juntos? Só com muita gambiarra!\nEles são de gerações diferentes."
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "question": "Qual dessas linguagens foi criada para ensinar programação de forma simples?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "C",
+          "isCorrect": false,
+          "explanation": "C é poderoso, mas simples só para quem já é ninja!\nNão foi feita para ensinar iniciantes."
+        },
+        {
+          "text": "BASIC",
+          "isCorrect": true,
+          "explanation": "BASIC foi criada para ser fácil e acessível!\nMuitos deram os primeiros passos com ela.\nUma linguagem para todos!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/BASIC_logo.png",
+          "imageDescription": "Logo clássico do BASIC"
+        },
+        {
+          "text": "Assembly",
+          "isCorrect": false,
+          "explanation": "Assembly é o oposto de simples!\nSó para os corajosos."
+        },
+        {
+          "text": "FORTRAN",
+          "isCorrect": false,
+          "explanation": "Fortran foi feito para cientistas,\nnão para iniciantes curiosos."
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "question": "Qual linguagem foi desenvolvida por Guido van Rossum?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Ruby",
+          "isCorrect": false,
+          "explanation": "Ruby é japonesa!\nGuido é holandês, tente de novo."
+        },
+        {
+          "text": "Python",
+          "isCorrect": true,
+          "explanation": "Python é obra de Guido van Rossum!\nSimples, poderosa e cheia de monty python.\nA linguagem dos memes e dos cientistas!",
+          "imageUrl": "https://www.python.org/static/community_logos/python-logo.png",
+          "imageDescription": "Logo oficial do Python"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java foi criado por James Gosling.\nNada de Guido aqui!"
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP é do Rasmus Lerdorf!\nGuido não teve nada a ver com isso."
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "question": "Qual dessas linguagens foi a primeira a implementar garbage collection?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java popularizou o garbage collection,\nmas não foi a primeira!"
+        },
+        {
+          "text": "Lisp",
+          "isCorrect": true,
+          "explanation": "Lisp já fazia coleta de lixo em 1959!\nMuito antes do Java pensar em existir.\nUm verdadeiro pioneiro ecológico!",
+          "imageUrl": "https://lisp-lang.org/images/logo.png",
+          "imageDescription": "Logo da linguagem Lisp"
+        },
+        {
+          "text": "C++",
+          "isCorrect": false,
+          "explanation": "C++ deixa o lixo para você limpar.\nNada de garbage collection automático!"
+        },
+        {
+          "text": "Go",
+          "isCorrect": false,
+          "explanation": "Go tem garbage collection,\nmas chegou só em 2009!"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "question": "Qual linguagem foi criada por Dennis Ritchie nos laboratórios Bell?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java foi criada por James Gosling.\nDennis Ritchie é outro gênio!"
+        },
+        {
+          "text": "C",
+          "isCorrect": true,
+          "explanation": "C nasceu nos laboratórios Bell graças a Dennis Ritchie!\nA mãe de quase todas as linguagens modernas.\nSimples e poderosa!",
+          "imageUrl": "https://www.c-language.org/img/c-logo.png",
+          "imageDescription": "Logo oficial da linguagem C"
+        },
+        {
+          "text": "Pascal",
+          "isCorrect": false,
+          "explanation": "Pascal foi criado por Niklaus Wirth.\nDennis não passou por aqui!"
+        },
+        {
+          "text": "Perl",
+          "isCorrect": false,
+          "explanation": "Perl é obra de Larry Wall.\nDennis estava ocupado demais criando o C!"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "question": "Qual dessas linguagens é conhecida pelo lema 'write once, run anywhere'?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "C++",
+          "isCorrect": false,
+          "explanation": "C++ é portável, mas não tem esse lema.\nCuidado com os ponteiros!"
+        },
+        {
+          "text": "Java",
+          "isCorrect": true,
+          "explanation": "Java popularizou o 'write once, run anywhere'.\nA JVM faz a mágica acontecer!\nUm sonho para programadores preguiçosos.",
+          "imageUrl": "https://www.java.com/inc/BrandAssets/images/java-logo.png",
+          "imageDescription": "Logo oficial do Java"
+        },
+        {
+          "text": "Assembly",
+          "isCorrect": false,
+          "explanation": "Assembly é 'write once, run nowhere'.\nCada CPU, um pesadelo diferente!"
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python roda em muitos lugares,\nmas não tem esse slogan famoso."
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "question": "Qual dessas linguagens foi criada para desenvolvimento web no lado do cliente?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP é para o lado do servidor.\nNo navegador, não rola!"
+        },
+        {
+          "text": "JavaScript",
+          "isCorrect": true,
+          "explanation": "JavaScript nasceu para dar vida aos navegadores!\nHoje roda até geladeira, mas começou no browser.",
+          "imageUrl": "https://developer.mozilla.org/static/img/opengraph-logo.72382e605ce3.png",
+          "imageDescription": "Logo oficial do JavaScript (MDN)"
+        },
+        {
+          "text": "Ruby",
+          "isCorrect": false,
+          "explanation": "Ruby é web, mas no servidor.\nJavaScript reina no cliente!"
+        },
+        {
+          "text": "C#",
+          "isCorrect": false,
+          "explanation": "C# é web, mas com ASP.NET.\nNo navegador, só com truques!"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "O que significa 'paradigma funcional'?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Programar usando loops infinitos",
+          "isCorrect": false,
+          "explanation": "Loops infinitos só servem para travar tudo!\nParadigma funcional é mais elegante."
+        },
+        {
+          "text": "Programar usando funções puras e imutabilidade",
+          "isCorrect": true,
+          "explanation": "Funções puras, imutabilidade e recursão!\nO paraíso dos matemáticos e dos preguiçosos.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Lambda_lc.svg",
+          "imageDescription": "Símbolo Lambda, ícone do funcional"
+        },
+        {
+          "text": "Programar usando objetos e herança",
+          "isCorrect": false,
+          "explanation": "Isso é orientação a objetos!\nParadigma funcional é outra praia."
+        },
+        {
+          "text": "Programar sem usar variáveis",
+          "isCorrect": false,
+          "explanation": "Sem variáveis? Só se for código invisível!\nFuncional usa variáveis imutáveis."
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "question": "Qual linguagem foi criada por Yukihiro Matsumoto?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python é do Guido!\nMatsumoto criou outra linguagem famosa."
+        },
+        {
+          "text": "Ruby",
+          "isCorrect": true,
+          "explanation": "Ruby é a joia japonesa de Matsumoto!\nSimplicidade e felicidade para programadores.",
+          "imageUrl": "https://www.ruby-lang.org/images/header-ruby-logo.png",
+          "imageDescription": "Logo oficial do Ruby"
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP é do Rasmus Lerdorf.\nNada de Japão aqui!"
+        },
+        {
+          "text": "Go",
+          "isCorrect": false,
+          "explanation": "Go é do Google!\nMatsumoto não teve nada a ver com isso."
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "question": "O que diferencia C++ de C?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "C++ tem orientação a objetos",
+          "isCorrect": true,
+          "explanation": "C++ trouxe classes e objetos para o mundo do C!\nAgora, além de ponteiros, temos herança e polimorfismo.",
+          "imageUrl": "https://isocpp.org/assets/images/cpp_logo.png",
+          "imageDescription": "Logo oficial do C++"
+        },
+        {
+          "text": "C++ é mais antigo",
+          "isCorrect": false,
+          "explanation": "C++ é o neto do C!\nVeio depois para complicar a vida."
+        },
+        {
+          "text": "C++ não usa ponteiros",
+          "isCorrect": false,
+          "explanation": "C++ adora ponteiros tanto quanto C.\nSó adicionou mais formas de se perder!"
+        },
+        {
+          "text": "C++ foi criado por Dennis Ritchie",
+          "isCorrect": false,
+          "explanation": "Dennis Ritchie criou o C.\nC++ é do Bjarne Stroustrup!"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "question": "Qual dessas linguagens é considerada de tipagem dinâmica?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é tipado estaticamente.\nNada de surpresas em tempo de execução!"
+        },
+        {
+          "text": "Python",
+          "isCorrect": true,
+          "explanation": "Python é dinâmico!\nAqui, o tipo só aparece na hora do vamos ver.",
+          "imageUrl": "https://www.python.org/static/community_logos/python-logo.png",
+          "imageDescription": "Logo oficial do Python"
+        },
+        {
+          "text": "C",
+          "isCorrect": false,
+          "explanation": "C é tipado estaticamente.\nO compilador não deixa passar nada!"
+        },
+        {
+          "text": "C++",
+          "isCorrect": false,
+          "explanation": "C++ também é estático.\nNada de surpresas em tempo de execução!"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "question": "Qual linguagem foi criada pela Apple para substituir o Objective-C?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Swift",
+          "isCorrect": true,
+          "explanation": "Swift chegou para modernizar a programação Apple!\nRápida, segura e cheia de recursos.",
+          "imageUrl": "https://swift.org/assets/images/swift.svg",
+          "imageDescription": "Logo oficial do Swift"
+        },
+        {
+          "text": "Kotlin",
+          "isCorrect": false,
+          "explanation": "Kotlin é da JetBrains e Android.\nNada de maçã aqui!"
+        },
+        {
+          "text": "Go",
+          "isCorrect": false,
+          "explanation": "Go é do Google!\nA Apple foi por outro caminho."
+        },
+        {
+          "text": "Rust",
+          "isCorrect": false,
+          "explanation": "Rust é da Mozilla.\nA Apple prefere frutas mesmo!"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "question": "Qual dessas linguagens é conhecida pelo uso de macros poderosas?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Lisp",
+          "isCorrect": true,
+          "explanation": "Lisp faz mágica com macros!\nVocê pode até criar sua própria linguagem dentro dela.",
+          "imageUrl": "https://lisp-lang.org/images/logo.png",
+          "imageDescription": "Logo da linguagem Lisp"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java tem annotations, mas macros?\nNem pensar!"
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python tem decorators, mas macros de verdade\nsó em Lisp mesmo!"
+        },
+        {
+          "text": "C#",
+          "isCorrect": false,
+          "explanation": "C# tem recursos legais, mas macros poderosas\nnão é o forte dele."
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "question": "Qual dessas linguagens foi criada para concorrência massiva e sistemas distribuídos?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Erlang",
+          "isCorrect": true,
+          "explanation": "Erlang nasceu para telecom!\nConcorrência e tolerância a falhas são seu DNA.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Erlang_logo.svg",
+          "imageDescription": "Logo oficial do Erlang"
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python faz concorrência, mas não nasceu para isso.\nErlang é o verdadeiro mestre!"
+        },
+        {
+          "text": "Ruby",
+          "isCorrect": false,
+          "explanation": "Ruby é elegante, mas concorrência não é seu forte.\nErlang ganha fácil!"
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP nasceu para web, não para sistemas distribuídos.\nErlang é o especialista!"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "question": "Qual dessas linguagens foi criada pela Google?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Go",
+          "isCorrect": true,
+          "explanation": "Go, ou Golang, é do Google!\nSimplicidade e desempenho para todos.",
+          "imageUrl": "https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png",
+          "imageDescription": "Logo oficial do Go"
+        },
+        {
+          "text": "Rust",
+          "isCorrect": false,
+          "explanation": "Rust é da Mozilla!\nO Google foi de Go mesmo."
+        },
+        {
+          "text": "Swift",
+          "isCorrect": false,
+          "explanation": "Swift é da Apple.\nO Google ficou de fora dessa!"
+        },
+        {
+          "text": "Scala",
+          "isCorrect": false,
+          "explanation": "Scala é da academia!\nNada de Google aqui."
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "question": "Qual dessas linguagens é famosa por rodar em JVM e ser interoperável com Java?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Kotlin",
+          "isCorrect": true,
+          "explanation": "Kotlin é a queridinha do Android e roda na JVM!\nInteroperável com Java e cheia de recursos modernos.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png",
+          "imageDescription": "Logo oficial do Kotlin"
+        },
+        {
+          "text": "Swift",
+          "isCorrect": false,
+          "explanation": "Swift é da Apple e não roda na JVM.\nKotlin é quem faz esse papel!"
+        },
+        {
+          "text": "Go",
+          "isCorrect": false,
+          "explanation": "Go é do Google e não curte JVM.\nKotlin é a estrela aqui!"
+        },
+        {
+          "text": "Rust",
+          "isCorrect": false,
+          "explanation": "Rust é independente e não roda na JVM.\nKotlin é a resposta!"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "question": "O que caracteriza a linguagem Assembly?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Alta portabilidade",
+          "isCorrect": false,
+          "explanation": "Assembly é o oposto de portável!\nCada CPU, um Assembly diferente."
+        },
+        {
+          "text": "Baixo nível e próximo do hardware",
+          "isCorrect": true,
+          "explanation": "Assembly fala quase direto com o processador!\nÉ o idioma dos chips e dos hackers raiz.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/Intel_8080_microprocessor.jpg",
+          "imageDescription": "Foto de um microprocessador Intel 8080"
+        },
+        {
+          "text": "Orientação a objetos",
+          "isCorrect": false,
+          "explanation": "Objetos em Assembly? Só se for na imaginação!\nAqui é tudo na raça."
+        },
+        {
+          "text": "Tipagem dinâmica",
+          "isCorrect": false,
+          "explanation": "Tipos dinâmicos em Assembly?\nA CPU nem sabe o que é isso!"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "question": "Qual dessas linguagens foi inspirada em C, mas projetada para segurança de memória?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Rust",
+          "isCorrect": true,
+          "explanation": "Rust é o C moderno com segurança!\nSem null pointer, sem vazamento de memória.\nO sonho dos programadores cuidadosos.",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-logo-blk.svg",
+          "imageDescription": "Logo oficial do Rust"
+        },
+        {
+          "text": "Go",
+          "isCorrect": false,
+          "explanation": "Go é seguro, mas não foca tanto em memória.\nRust é o rei da segurança!"
+        },
+        {
+          "text": "Swift",
+          "isCorrect": false,
+          "explanation": "Swift é seguro, mas não foi inspirado em C.\nRust leva esse troféu!"
+        },
+        {
+          "text": "Perl",
+          "isCorrect": false,
+          "explanation": "Perl é flexível, mas segurança de memória?\nSó no sonho!"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "question": "Qual dessas linguagens foi criada para ser usada em inteligência artificial e manipulação simbólica?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "COBOL",
+          "isCorrect": false,
+          "explanation": "COBOL é ótima para bancos e negócios,\nmas IA não é seu forte!\nTente outra vez."
+        },
+        {
+          "text": "Lisp",
+          "isCorrect": true,
+          "explanation": "Lisp foi criada para manipulação simbólica e IA!\nSe você gosta de parênteses, vai adorar Lisp.",
+          "imageUrl": "https://lisp-lang.org/images/logo.png",
+          "imageDescription": "Logo da linguagem Lisp"
+        },
+        {
+          "text": "C",
+          "isCorrect": false,
+          "explanation": "C é poderosa, mas IA não era o foco.\nEla gosta mesmo é de sistemas operacionais."
+        },
+        {
+          "text": "Pascal",
+          "isCorrect": false,
+          "explanation": "Pascal foi feita para ensinar programação,\nmas não para IA!"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "question": "Qual linguagem é famosa por sua sintaxe inspirada em inglês e voltada para negócios?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "COBOL",
+          "isCorrect": true,
+          "explanation": "COBOL parece inglês de verdade!\nIdeal para quem gosta de ler código como se fosse um romance.",
+          "imageUrl": "https://developer.ibm.com/languages/cobol/images/cobol-logo.png",
+          "imageDescription": "Logo do COBOL"
+        },
+        {
+          "text": "C++",
+          "isCorrect": false,
+          "explanation": "C++ é mais parecido com hieróglifos do que com inglês!\nNão foi feito para negócios."
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python é legível, mas não foi feito para negócios.\nCOBOL é o veterano aqui!"
+        },
+        {
+          "text": "Fortran",
+          "isCorrect": false,
+          "explanation": "Fortran é para cientistas.\nNegócios? Só se for cálculo de planilhas!"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "question": "Qual dessas linguagens NÃO é considerada de propósito geral?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python faz de tudo, até café!\nDefinitivamente de propósito geral."
+        },
+        {
+          "text": "HTML",
+          "isCorrect": true,
+          "explanation": "HTML é uma linguagem de marcação,\nnão de programação geral.\nSem loops, sem condições, só tags!",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+          "imageDescription": "Logo oficial do HTML5"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é generalista, roda até em geladeira!\nDefinitivamente propósito geral."
+        },
+        {
+          "text": "Ruby",
+          "isCorrect": false,
+          "explanation": "Ruby serve para web, scripts, automação...\nPropósito geral, sim senhor!"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "question": "Em qual linguagem o conceito de 'ponteiro' é fundamental?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "C",
+          "isCorrect": true,
+          "explanation": "C e ponteiros são inseparáveis!\nSe você não gosta de ponteiros, C não é para você.",
+          "imageUrl": "https://www.c-language.org/img/c-logo.png",
+          "imageDescription": "Logo da linguagem C"
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python esconde os ponteiros para não assustar ninguém.\nAqui é tudo na paz!"
+        },
+        {
+          "text": "JavaScript",
+          "isCorrect": false,
+          "explanation": "JavaScript não tem ponteiros explícitos.\nÉ tudo indireto!"
+        },
+        {
+          "text": "Ruby",
+          "isCorrect": false,
+          "explanation": "Ruby é elegante, mas não tem ponteiros.\nSó referências!"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "question": "Qual dessas linguagens é considerada a mãe da programação orientada a objetos moderna?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Smalltalk",
+          "isCorrect": true,
+          "explanation": "Smalltalk é a mãe da OOP moderna!\nTudo é objeto, até as perguntas desse quiz.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Smalltalk_logo.png",
+          "imageDescription": "Logo do Smalltalk"
+        },
+        {
+          "text": "C++",
+          "isCorrect": false,
+          "explanation": "C++ é filho da OOP, não a mãe!\nVeio depois do Smalltalk."
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é neto da OOP!\nSmalltalk é a verdadeira matriarca."
+        },
+        {
+          "text": "Simula",
+          "isCorrect": false,
+          "explanation": "Simula é o avô da OOP.\nSmalltalk é quem popularizou tudo!"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "question": "Qual dessas linguagens foi criada para ser usada em sistemas embarcados e automação industrial?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Ada",
+          "isCorrect": true,
+          "explanation": "Ada nasceu para sistemas críticos!\nA linguagem dos aviões e foguetes.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Ada_lovelace_portrait.jpg",
+          "imageDescription": "Retrato de Ada Lovelace, inspiração da linguagem Ada"
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP é para web, não para aviões!\nNada de sistemas embarcados aqui."
+        },
+        {
+          "text": "JavaScript",
+          "isCorrect": false,
+          "explanation": "JavaScript no foguete? Só se for para exibir o painel!\nAda é quem manda nos sistemas críticos."
+        },
+        {
+          "text": "Ruby",
+          "isCorrect": false,
+          "explanation": "Ruby é para web e scripts.\nDeixe os aviões para Ada!"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "question": "Qual dessas linguagens é famosa por sua abordagem de 'concorrência leve' usando goroutines?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Go",
+          "isCorrect": true,
+          "explanation": "Go inventou as goroutines!\nConcorrência nunca foi tão fácil (ou divertida).",
+          "imageUrl": "https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png",
+          "imageDescription": "Logo oficial do Go"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java tem threads, mas goroutines são exclusivas do Go!\nMenos peso, mais diversão."
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python tem threads, mas GIL atrapalha tudo.\nGo é quem manda na concorrência leve!"
+        },
+        {
+          "text": "C++",
+          "isCorrect": false,
+          "explanation": "C++ tem threads, mas nada de goroutines.\nGo é o inovador aqui!"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "question": "Qual dessas linguagens foi criada na União Soviética?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "ALGOL",
+          "isCorrect": false,
+          "explanation": "ALGOL é europeu, mas não soviético!\nTente outra vez."
+        },
+        {
+          "text": "Refal",
+          "isCorrect": true,
+          "explanation": "Refal nasceu na URSS para manipulação simbólica!\nPouco conhecida, mas histórica.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Refal_logo.png",
+          "imageDescription": "Logo do Refal"
+        },
+        {
+          "text": "Pascal",
+          "isCorrect": false,
+          "explanation": "Pascal é suíço!\nNada de URSS aqui."
+        },
+        {
+          "text": "Prolog",
+          "isCorrect": false,
+          "explanation": "Prolog é francês!\nRefal é o soviético da lista."
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "question": "Qual dessas linguagens foi projetada para ser minimalista e fácil de aprender para crianças?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Logo",
+          "isCorrect": true,
+          "explanation": "Logo e sua tartaruga conquistaram gerações!\nIdeal para crianças e para quem gosta de desenhar com código.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/LogoTurtle.svg",
+          "imageDescription": "Tartaruga do Logo"
+        },
+        {
+          "text": "C",
+          "isCorrect": false,
+          "explanation": "C é minimalista, mas não para crianças!\nAqui é só para os fortes."
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é para adultos com paciência.\nLogo é para crianças e iniciantes!"
+        },
+        {
+          "text": "Perl",
+          "isCorrect": false,
+          "explanation": "Perl é para quem gosta de enigmas.\nLogo é para quem gosta de diversão!"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "question": "Qual dessas linguagens foi criada para ser usada em bancos de dados relacionais?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "SQL",
+          "isCorrect": true,
+          "explanation": "SQL é a rainha dos bancos de dados!\nSe não sabe SELECT, não entra no clube.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png",
+          "imageDescription": "Logo de banco de dados SQL"
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python acessa bancos, mas não foi feita para isso!\nSQL é quem manda."
+        },
+        {
+          "text": "JavaScript",
+          "isCorrect": false,
+          "explanation": "JavaScript manipula dados, mas não bancos relacionais.\nSQL é o especialista!"
+        },
+        {
+          "text": "Ruby",
+          "isCorrect": false,
+          "explanation": "Ruby usa bancos, mas SQL é quem fala a língua dos dados!"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "question": "Qual dessas linguagens foi criada por Bjarne Stroustrup?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "C++",
+          "isCorrect": true,
+          "explanation": "Bjarne Stroustrup é o pai do C++!\nEle decidiu complicar o C e criou um clássico.",
+          "imageUrl": "https://isocpp.org/assets/images/cpp_logo.png",
+          "imageDescription": "Logo do C++"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é do James Gosling.\nBjarne ficou com o C++ mesmo!"
+        },
+        {
+          "text": "C",
+          "isCorrect": false,
+          "explanation": "C é do Dennis Ritchie.\nC++ é do Bjarne!"
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python é do Guido van Rossum!\nCada um no seu quadrado."
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "question": "Qual dessas linguagens foi criada com foco em segurança de memória e concorrência?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Rust",
+          "isCorrect": true,
+          "explanation": "Rust é a fortaleza da segurança de memória!\nSem vazamentos, sem sustos, só alegria.",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-logo-blk.svg",
+          "imageDescription": "Logo do Rust"
+        },
+        {
+          "text": "C",
+          "isCorrect": false,
+          "explanation": "C é rápido, mas segurança é por sua conta!\nRust faz isso por você."
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é seguro, mas não como Rust.\nAqui é segurança hardcore!"
+        },
+        {
+          "text": "Go",
+          "isCorrect": false,
+          "explanation": "Go é seguro, mas Rust eleva o padrão!\nConcorrência e memória sob controle."
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "question": "Qual dessas linguagens foi criada para ser usada em páginas web dinâmicas no servidor?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "PHP",
+          "isCorrect": true,
+          "explanation": "PHP nasceu para web dinâmica!\nSe você já viu um site antigo, viu PHP em ação.",
+          "imageUrl": "https://www.php.net/images/logos/php-logo.svg",
+          "imageDescription": "Logo do PHP"
+        },
+        {
+          "text": "JavaScript",
+          "isCorrect": false,
+          "explanation": "JavaScript começou no navegador.\nPHP é quem manda no servidor!"
+        },
+        {
+          "text": "HTML",
+          "isCorrect": false,
+          "explanation": "HTML é estático, não dinâmico!\nPHP faz a mágica acontecer."
+        },
+        {
+          "text": "CSS",
+          "isCorrect": false,
+          "explanation": "CSS só estiliza.\nQuem faz a bagunça é o PHP!"
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "question": "Qual dessas linguagens foi criada para ser usada em dispositivos Android?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Kotlin",
+          "isCorrect": true,
+          "explanation": "Kotlin virou a queridinha do Android!\nModerna, segura e aprovada pelo Google.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Kotlin_Icon.png",
+          "imageDescription": "Logo do Kotlin"
+        },
+        {
+          "text": "Swift",
+          "isCorrect": false,
+          "explanation": "Swift é da Apple!\nAndroid prefere Kotlin."
+        },
+        {
+          "text": "C#",
+          "isCorrect": false,
+          "explanation": "C# é do Windows Phone.\nNo Android, é Kotlin!"
+        },
+        {
+          "text": "Objective-C",
+          "isCorrect": false,
+          "explanation": "Objective-C é da Apple.\nAndroid não quer nem ouvir falar!"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "question": "Qual dessas linguagens foi criada para ser usada em sistemas especialistas e IA lógica?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Prolog",
+          "isCorrect": true,
+          "explanation": "Prolog é o Sherlock Holmes da IA!\nSe você gosta de lógica, vai adorar Prolog.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Prolog-logo.png",
+          "imageDescription": "Logo do Prolog"
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python faz IA, mas não nasceu para isso.\nProlog é o rei da lógica!"
+        },
+        {
+          "text": "C++",
+          "isCorrect": false,
+          "explanation": "C++ é rápido, mas lógica não é seu forte.\nProlog é quem manda!"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é generalista.\nProlog é o especialista!"
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "question": "Qual dessas linguagens foi criada para ser usada em scripts de automação no Unix?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Shell Script",
+          "isCorrect": true,
+          "explanation": "Shell Script é o canivete suíço do Unix!\nAutomação é com ele mesmo.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg",
+          "imageDescription": "Logo do Bash/Shell Script"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java até roda no Unix, mas automação?\nShell Script faz isso dormindo."
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP é para web, não para automação de sistema!\nShell Script é o rei do terminal."
+        },
+        {
+          "text": "Swift",
+          "isCorrect": false,
+          "explanation": "Swift é da Apple, mas automação no Unix\nfica para o Shell Script mesmo."
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "question": "Qual dessas linguagens foi criada por James Gosling?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Java",
+          "isCorrect": true,
+          "explanation": "James Gosling é o pai do Java!\nTomou café e criou uma linguagem universal.",
+          "imageUrl": "https://www.java.com/inc/BrandAssets/images/java-logo.png",
+          "imageDescription": "Logo do Java"
+        },
+        {
+          "text": "C++",
+          "isCorrect": false,
+          "explanation": "C++ é do Bjarne!\nJava é do James Gosling."
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python é do Guido.\nJava é do Gosling!"
+        },
+        {
+          "text": "Ruby",
+          "isCorrect": false,
+          "explanation": "Ruby é do Matsumoto.\nJava é do James Gosling!"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "question": "Qual dessas linguagens é famosa por permitir programação orientada a eventos no navegador?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "JavaScript",
+          "isCorrect": true,
+          "explanation": "JavaScript faz mágica nos navegadores!\nClique, arraste, arraste de novo... tudo é evento.",
+          "imageUrl": "https://developer.mozilla.org/static/img/opengraph-logo.72382e605ce3.png",
+          "imageDescription": "Logo do JavaScript (MDN)"
+        },
+        {
+          "text": "C",
+          "isCorrect": false,
+          "explanation": "C não roda no navegador!\nJavaScript é quem faz a festa."
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP roda no servidor, não no navegador!\nJavaScript é o rei dos eventos."
+        },
+        {
+          "text": "Assembly",
+          "isCorrect": false,
+          "explanation": "Assembly no navegador? Só com WebAssembly!\nJavaScript é o veterano aqui."
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações científicas e matemáticas?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Fortran",
+          "isCorrect": true,
+          "explanation": "Fortran é o avô dos cálculos!\nSe tem número, tem Fortran no meio.",
+          "imageUrl": "https://fortran-lang.org/static/img/fortran-logo-512x512.png",
+          "imageDescription": "Logo do Fortran"
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP faz site, não cálculo!\nFortran é o cientista da turma."
+        },
+        {
+          "text": "JavaScript",
+          "isCorrect": false,
+          "explanation": "JavaScript faz contas, mas não nasceu para isso.\nFortran é o verdadeiro matemático!"
+        },
+        {
+          "text": "Ruby",
+          "isCorrect": false,
+          "explanation": "Ruby é elegante, mas cálculo pesado?\nFortran é quem manda!"
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "question": "Qual dessas linguagens foi criada para ser usada em sistemas de tempo real e aplicações militares?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Ada",
+          "isCorrect": true,
+          "explanation": "Ada é a linguagem dos militares e aviões!\nSegurança e precisão são suas armas.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Ada_lovelace_portrait.jpg",
+          "imageDescription": "Retrato de Ada Lovelace, inspiração da linguagem Ada"
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python é flexível, mas não é para tempo real!\nAda é a guerreira aqui."
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP em avião? Melhor não!\nAda é a escolha dos engenheiros militares."
+        },
+        {
+          "text": "Ruby",
+          "isCorrect": false,
+          "explanation": "Ruby é para web e scripts.\nAda é para missões críticas!"
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações financeiras e de negócios?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "COBOL",
+          "isCorrect": true,
+          "explanation": "COBOL é a rainha dos bancos!\nSe tem dinheiro, tem COBOL rodando por trás.",
+          "imageUrl": "https://developer.ibm.com/languages/cobol/images/cobol-logo.png",
+          "imageDescription": "Logo do COBOL"
+        },
+        {
+          "text": "JavaScript",
+          "isCorrect": false,
+          "explanation": "JavaScript faz web, não finanças!\nCOBOL é quem comanda o dinheiro."
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python faz de tudo, mas finanças é com COBOL!\nOs bancos confiam nela."
+        },
+        {
+          "text": "Ruby",
+          "isCorrect": false,
+          "explanation": "Ruby é para web, não para bancos.\nCOBOL é quem manda no cofre!"
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações científicas de álgebra simbólica?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Mathematica",
+          "isCorrect": true,
+          "explanation": "Mathematica é o cérebro da álgebra simbólica!\nSe você gosta de matemática, vai adorar.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Wolfram_Mathematica_Logo.svg",
+          "imageDescription": "Logo do Mathematica"
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python faz matemática, mas não é especialista!\nMathematica é o gênio da álgebra."
+        },
+        {
+          "text": "C",
+          "isCorrect": false,
+          "explanation": "C faz tudo, mas álgebra simbólica?\nMathematica é mais esperta!"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é generalista.\nMathematica é o especialista!"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de inteligência artificial e aprendizado de máquina?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Python",
+          "isCorrect": true,
+          "explanation": "Python virou a estrela da IA!\nCom suas bibliotecas, até robôs aprendem.",
+          "imageUrl": "https://www.python.org/static/community_logos/python-logo.png",
+          "imageDescription": "Logo do Python"
+        },
+        {
+          "text": "C",
+          "isCorrect": false,
+          "explanation": "C é rápido, mas IA moderna é com Python!\nBibliotecas são o segredo."
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP faz web, não IA!\nPython é o queridinho dos cientistas."
+        },
+        {
+          "text": "Ruby",
+          "isCorrect": false,
+          "explanation": "Ruby é elegante, mas IA é com Python mesmo!\nOs robôs agradecem."
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de blockchain?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Solidity",
+          "isCorrect": true,
+          "explanation": "Solidity é a linguagem dos contratos inteligentes!\nSe você gosta de blockchain, vai usar muito.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Solidity_logo.svg",
+          "imageDescription": "Logo do Solidity"
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python faz de tudo, mas blockchain é com Solidity!\nEthereum agradece."
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é versátil, mas contratos inteligentes?\nSolidity é o especialista!"
+        },
+        {
+          "text": "C++",
+          "isCorrect": false,
+          "explanation": "C++ é rápido, mas blockchain moderno é com Solidity!\nOs contratos agradecem."
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações científicas e de engenharia?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "MATLAB",
+          "isCorrect": true,
+          "explanation": "MATLAB é o laboratório dos engenheiros!\nSe tem matriz, tem MATLAB na jogada.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png",
+          "imageDescription": "Logo do MATLAB"
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP é para web, não para engenheiros!\nMATLAB é o rei das matrizes."
+        },
+        {
+          "text": "Ruby",
+          "isCorrect": false,
+          "explanation": "Ruby é elegante, mas engenharia é com MATLAB!\nOs cálculos agradecem."
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é generalista, mas MATLAB é o laboratório!\nEngenharia é com ele."
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de desenvolvimento rápido e prototipagem?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Python",
+          "isCorrect": true,
+          "explanation": "Python é o canivete suíço da prototipagem!\nRápido, simples e cheio de bibliotecas.",
+          "imageUrl": "https://www.python.org/static/community_logos/python-logo.png",
+          "imageDescription": "Logo do Python"
+        },
+        {
+          "text": "C",
+          "isCorrect": false,
+          "explanation": "C é rápido, mas prototipagem?\nPython ganha fácil!"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é robusto, mas prototipagem rápida?\nPython é o favorito."
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP é para web, não para prototipagem geral.\nPython é o campeão!"
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de automação industrial e PLCs?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Ladder",
+          "isCorrect": true,
+          "explanation": "Ladder é a linguagem dos PLCs!\nAutomação industrial é com ela.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Ladder_diagram_example.png",
+          "imageDescription": "Exemplo de diagrama Ladder"
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python automatiza muita coisa,\nmas PLC é com Ladder!"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é versátil, mas PLC?\nLadder é quem manda!"
+        },
+        {
+          "text": "C++",
+          "isCorrect": false,
+          "explanation": "C++ é poderoso, mas automação industrial\nprefere Ladder!"
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de processamento de texto?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Perl",
+          "isCorrect": true,
+          "explanation": "Perl é o mestre do texto!\nExpressões regulares são sua praia.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Perl-camel-small.png",
+          "imageDescription": "Mascote camelo do Perl"
+        },
+        {
+          "text": "C",
+          "isCorrect": false,
+          "explanation": "C faz tudo, mas texto mesmo é com Perl!\nExpressões regulares agradecem."
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é generalista, mas texto pesado?\nPerl é o rei!"
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP faz web, mas processamento de texto\né com Perl mesmo!"
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de automação de planilhas?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "VBA",
+          "isCorrect": true,
+          "explanation": "VBA é o mago do Excel!\nAutomação de planilhas é com ele.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Icon-VBA.png",
+          "imageDescription": "Ícone do VBA"
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python automatiza tudo, mas VBA\né o rei das planilhas!"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é robusto, mas planilhas?\nVBA é o especialista!"
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP faz web, mas planilhas?\nVBA resolve rapidinho!"
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de análise estatística?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "R",
+          "isCorrect": true,
+          "explanation": "R é o rei da estatística!\nSe tem gráfico, tem R envolvido.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg",
+          "imageDescription": "Logo do R"
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python faz estatística, mas R\né o especialista!"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é generalista, mas estatística?\nR é o mestre!"
+        },
+        {
+          "text": "C++",
+          "isCorrect": false,
+          "explanation": "C++ é rápido, mas análise estatística\né com R mesmo!"
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "question": "Qual dessas linguagens foi criada para facilitar o desenvolvimento de aplicações multiplataforma para desktop?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Java",
+          "isCorrect": true,
+          "explanation": "Java nasceu com o lema 'write once, run anywhere'!\nRoda em qualquer lugar, até na sua torradeira.",
+          "imageUrl": "https://www.java.com/inc/BrandAssets/images/java-logo.png",
+          "imageDescription": "Logo do Java"
+        },
+        {
+          "text": "C",
+          "isCorrect": false,
+          "explanation": "C é portável, mas multiplataforma sem esforço?\nJava faz isso com mais facilidade."
+        },
+        {
+          "text": "Swift",
+          "isCorrect": false,
+          "explanation": "Swift é multiplataforma, mas nasceu para a Apple!\nJava é mais universal."
+        },
+        {
+          "text": "Perl",
+          "isCorrect": false,
+          "explanation": "Perl é flexível, mas não foi feito para interfaces desktop!\nJava leva essa."
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "question": "Qual dessas linguagens é famosa por seu uso em scripts de automação e administração de sistemas no Windows?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "PowerShell",
+          "isCorrect": true,
+          "explanation": "PowerShell é o canivete suíço dos administradores Windows!\nAutomação nunca foi tão poderosa.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png",
+          "imageDescription": "Ícone do PowerShell"
+        },
+        {
+          "text": "Bash",
+          "isCorrect": false,
+          "explanation": "Bash é rei no Linux, mas no Windows quem manda é o PowerShell!\nCada um no seu sistema."
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python faz automação, mas PowerShell é nativo do Windows!\nOs administradores agradecem."
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é para aplicações, não para scripts de sistema!\nPowerShell resolve rapidinho."
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "question": "Qual dessas linguagens foi projetada para ser usada em sistemas embarcados de baixo consumo?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "C",
+          "isCorrect": true,
+          "explanation": "C é o rei dos sistemas embarcados!\nRoda até em micro-ondas e relógios.",
+          "imageUrl": "https://www.c-language.org/img/c-logo.png",
+          "imageDescription": "Logo da linguagem C"
+        },
+        {
+          "text": "JavaScript",
+          "isCorrect": false,
+          "explanation": "JavaScript até roda em IoT, mas C é quem domina o hardware!\nMenos consumo, mais controle."
+        },
+        {
+          "text": "Ruby",
+          "isCorrect": false,
+          "explanation": "Ruby é elegante, mas embarcado?\nC é o veterano dos chips."
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP é para web, não para hardware!\nC é quem fala direto com o silício."
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "question": "Qual dessas linguagens é conhecida pelo uso de 'traits' para composição de funcionalidades?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Rust",
+          "isCorrect": true,
+          "explanation": "Rust usa traits para compor comportamentos!\nMais flexível que herança múltipla.",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-logo-blk.svg",
+          "imageDescription": "Logo do Rust"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java usa interfaces, mas traits mesmo é com Rust!\nMais poder para o programador."
+        },
+        {
+          "text": "C++",
+          "isCorrect": false,
+          "explanation": "C++ tem herança múltipla, mas traits?\nRust inovou nesse ponto."
+        },
+        {
+          "text": "Go",
+          "isCorrect": false,
+          "explanation": "Go tem interfaces, mas traits são exclusividade do Rust!\nCada linguagem com seu charme."
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "question": "Qual dessas linguagens é famosa por sua filosofia 'batteries included'?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Python",
+          "isCorrect": true,
+          "explanation": "Python vem com tudo pronto!\nSó falta vir com café junto.",
+          "imageUrl": "https://www.python.org/static/community_logos/python-logo.png",
+          "imageDescription": "Logo do Python"
+        },
+        {
+          "text": "C",
+          "isCorrect": false,
+          "explanation": "C é minimalista, você tem que montar tudo!\nPython já entrega tudo de fábrica."
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP tem muita coisa, mas 'batteries included' é o lema do Python!\nFacilidade acima de tudo."
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java tem uma biblioteca enorme, mas 'batteries included'?\nPython é quem se gaba disso."
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de big data e processamento distribuído?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Scala",
+          "isCorrect": true,
+          "explanation": "Scala é a base do Apache Spark!\nBig data nunca foi tão funcional.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Scala-full-color.svg",
+          "imageDescription": "Logo do Scala"
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP é para web, não para big data!\nScala é o queridinho dos dados gigantes."
+        },
+        {
+          "text": "Ruby",
+          "isCorrect": false,
+          "explanation": "Ruby é elegante, mas big data?\nScala é quem brilha nesse universo."
+        },
+        {
+          "text": "C++",
+          "isCorrect": false,
+          "explanation": "C++ é rápido, mas big data moderno é com Scala!\nSpark agradece."
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "question": "Qual dessas linguagens é famosa por ser minimalista e baseada em indentação?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Python",
+          "isCorrect": true,
+          "explanation": "Python obriga a indentar!\nSe não indentar, nem compila. Minimalismo puro.",
+          "imageUrl": "https://www.python.org/static/community_logos/python-logo.png",
+          "imageDescription": "Logo do Python"
+        },
+        {
+          "text": "C",
+          "isCorrect": false,
+          "explanation": "C usa chaves, não indentação!\nPython é quem leva a fama."
+        },
+        {
+          "text": "Perl",
+          "isCorrect": false,
+          "explanation": "Perl aceita qualquer coisa, até código bagunçado!\nPython é o minimalista."
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java gosta de chaves e ponto e vírgula!\nPython é o rei da indentação."
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de front-end web modernas?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "TypeScript",
+          "isCorrect": true,
+          "explanation": "TypeScript é o JavaScript turbinado!\nFront-end moderno adora tipos.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg",
+          "imageDescription": "Logo do TypeScript"
+        },
+        {
+          "text": "C",
+          "isCorrect": false,
+          "explanation": "C no navegador? Só com WebAssembly!\nTypeScript é a estrela do front-end."
+        },
+        {
+          "text": "Perl",
+          "isCorrect": false,
+          "explanation": "Perl é para scripts e texto!\nFront-end é com TypeScript."
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java no navegador ficou no passado!\nHoje é TypeScript e JavaScript."
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "question": "Qual dessas linguagens foi criada por Niklaus Wirth?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Pascal",
+          "isCorrect": true,
+          "explanation": "Pascal é obra de Niklaus Wirth!\nFeita para ensinar programação de verdade.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Pascal_Programming_Language_Logo.png",
+          "imageDescription": "Logo do Pascal"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é do James Gosling!\nWirth ficou com o Pascal mesmo."
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python é do Guido van Rossum!\nPascal é do Wirth."
+        },
+        {
+          "text": "C++",
+          "isCorrect": false,
+          "explanation": "C++ é do Bjarne Stroustrup!\nPascal é do Wirth."
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "question": "Qual dessas linguagens é famosa por sua abordagem de programação concorrente baseada em 'actors'?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Erlang",
+          "isCorrect": true,
+          "explanation": "Erlang usa actors para concorrência!\nIdeal para sistemas que nunca podem parar.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/59/Erlang_logo.svg",
+          "imageDescription": "Logo do Erlang"
+        },
+        {
+          "text": "C",
+          "isCorrect": false,
+          "explanation": "C faz concorrência, mas actors?\nErlang é quem manda nisso."
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java usa threads, mas actors é com Erlang!\nTelecomunicações agradecem."
+        },
+        {
+          "text": "Go",
+          "isCorrect": false,
+          "explanation": "Go usa goroutines, não actors!\nErlang é o pioneiro."
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de computação gráfica e jogos?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "C++",
+          "isCorrect": true,
+          "explanation": "C++ é o motor dos jogos AAA!\nRápido, poderoso e cheio de engines famosas.",
+          "imageUrl": "https://isocpp.org/assets/images/cpp_logo.png",
+          "imageDescription": "Logo do C++"
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP faz web, não jogos!\nC++ é o astro dos gráficos."
+        },
+        {
+          "text": "Ruby",
+          "isCorrect": false,
+          "explanation": "Ruby é elegante, mas jogos pesados?\nC++ é quem manda."
+        },
+        {
+          "text": "Perl",
+          "isCorrect": false,
+          "explanation": "Perl é para texto, não para gráficos!\nC++ é o campeão dos games."
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "question": "Qual dessas linguagens é famosa por sua abordagem de programação reativa e pipelines de dados?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Elixir",
+          "isCorrect": true,
+          "explanation": "Elixir é a estrela da programação reativa!\nPipelines de dados nunca foram tão divertidos.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/44/Elixir_logo.png",
+          "imageDescription": "Logo do Elixir"
+        },
+        {
+          "text": "C",
+          "isCorrect": false,
+          "explanation": "C é poderoso, mas reatividade?\nElixir é quem brilha nesse quesito."
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java faz de tudo, mas pipelines reativos?\nElixir é o mestre!"
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP é para web, não para reatividade!\nElixir é a resposta."
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações científicas de álgebra computacional?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Mathematica",
+          "isCorrect": true,
+          "explanation": "Mathematica é o cérebro da álgebra computacional!\nSe você gosta de matemática, vai adorar.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Wolfram_Mathematica_Logo.svg",
+          "imageDescription": "Logo do Mathematica"
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python faz matemática, mas não é especialista!\nMathematica é o gênio da álgebra."
+        },
+        {
+          "text": "C++",
+          "isCorrect": false,
+          "explanation": "C++ é rápido, mas álgebra computacional?\nMathematica é mais esperta!"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é generalista.\nMathematica é o especialista!"
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "question": "Qual dessas linguagens é famosa por ser usada em scripts de automação de servidores web?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Bash",
+          "isCorrect": true,
+          "explanation": "Bash é o rei da automação de servidores!\nSe tem terminal, tem Bash rodando.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg",
+          "imageDescription": "Logo do Bash"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java roda em servidores, mas automação?\nBash faz isso com uma linha."
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP faz web, mas automação de servidor?\nBash é quem resolve."
+        },
+        {
+          "text": "Swift",
+          "isCorrect": false,
+          "explanation": "Swift é da Apple, automação de servidor é com Bash!\nTerminal é sua casa."
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de processamento de sinais e imagens?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "MATLAB",
+          "isCorrect": true,
+          "explanation": "MATLAB é o laboratório dos engenheiros!\nSe tem matriz, tem MATLAB na jogada.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png",
+          "imageDescription": "Logo do MATLAB"
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP é para web, não para sinais!\nMATLAB é o mestre das matrizes."
+        },
+        {
+          "text": "Ruby",
+          "isCorrect": false,
+          "explanation": "Ruby é elegante, mas sinais e imagens?\nMATLAB é quem manda."
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é generalista, mas processamento de sinais?\nMATLAB é o laboratório!"
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "question": "Qual dessas linguagens é famosa por ser usada em scripts de automação de tarefas repetitivas?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Python",
+          "isCorrect": true,
+          "explanation": "Python automatiza tudo!\nSe é repetitivo, Python resolve rapidinho.",
+          "imageUrl": "https://www.python.org/static/community_logos/python-logo.png",
+          "imageDescription": "Logo do Python"
+        },
+        {
+          "text": "C",
+          "isCorrect": false,
+          "explanation": "C é rápido, mas automação de tarefas?\nPython é mais prático."
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é robusto, mas automação rápida?\nPython é o favorito."
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP é para web, não para automação geral!\nPython é o campeão."
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações científicas de álgebra simbólica?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Maxima",
+          "isCorrect": true,
+          "explanation": "Maxima é veterana da álgebra simbólica!\nMatemáticos de plantão agradecem.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Maxima_logo.png",
+          "imageDescription": "Logo do Maxima"
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python faz matemática, mas álgebra simbólica?\nMaxima é o especialista!"
+        },
+        {
+          "text": "C++",
+          "isCorrect": false,
+          "explanation": "C++ é rápido, mas álgebra simbólica?\nMaxima é mais esperto!"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é generalista.\nMaxima é o mestre da álgebra simbólica!"
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "question": "Qual dessas linguagens é famosa por ser usada em scripts de automação de tarefas administrativas em Linux?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Bash",
+          "isCorrect": true,
+          "explanation": "Bash é o canivete suíço do Linux!\nAutomação é com ele mesmo.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg",
+          "imageDescription": "Logo do Bash"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java roda em Linux, mas automação?\nBash faz isso dormindo."
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP é para web, não para automação de sistema!\nBash é o rei do terminal."
+        },
+        {
+          "text": "Swift",
+          "isCorrect": false,
+          "explanation": "Swift é da Apple, mas automação no Linux\nfica para o Bash mesmo."
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de computação paralela e distribuída?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "MPI",
+          "isCorrect": true,
+          "explanation": "MPI é o padrão da computação paralela!\nSupercomputadores agradecem.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/MPI_logo.png",
+          "imageDescription": "Logo do MPI"
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP faz web, não computação paralela!\nMPI é o rei dos clusters."
+        },
+        {
+          "text": "Ruby",
+          "isCorrect": false,
+          "explanation": "Ruby é elegante, mas paralelismo?\nMPI é quem manda."
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java faz concorrência, mas MPI é o padrão\npara paralelismo pesado!"
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de computação científica de alto desempenho?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Fortran",
+          "isCorrect": true,
+          "explanation": "Fortran é o avô da computação científica!\nSe tem cálculo pesado, tem Fortran.",
+          "imageUrl": "https://fortran-lang.org/static/img/fortran-logo-512x512.png",
+          "imageDescription": "Logo do Fortran"
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP faz site, não cálculo pesado!\nFortran é o cientista da turma."
+        },
+        {
+          "text": "JavaScript",
+          "isCorrect": false,
+          "explanation": "JavaScript faz contas, mas não nasceu para isso.\nFortran é o verdadeiro matemático!"
+        },
+        {
+          "text": "Ruby",
+          "isCorrect": false,
+          "explanation": "Ruby é elegante, mas cálculo pesado?\nFortran é quem manda!"
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de processamento de texto e expressões regulares?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Perl",
+          "isCorrect": true,
+          "explanation": "Perl é o mestre do texto!\nExpressões regulares são sua praia.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Perl-camel-small.png",
+          "imageDescription": "Mascote camelo do Perl"
+        },
+        {
+          "text": "C",
+          "isCorrect": false,
+          "explanation": "C faz tudo, mas texto mesmo é com Perl!\nExpressões regulares agradecem."
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é generalista, mas texto pesado?\nPerl é o rei!"
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP faz web, mas processamento de texto\né com Perl mesmo!"
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de automação de planilhas do Excel?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "VBA",
+          "isCorrect": true,
+          "explanation": "VBA é o mago do Excel!\nAutomação de planilhas é com ele.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Icon-VBA.png",
+          "imageDescription": "Ícone do VBA"
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python automatiza tudo, mas VBA\né o rei das planilhas!"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é robusto, mas planilhas?\nVBA é o especialista!"
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP faz web, mas planilhas?\nVBA resolve rapidinho!"
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de análise estatística avançada?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "R",
+          "isCorrect": true,
+          "explanation": "R é o rei da estatística!\nSe tem gráfico, tem R envolvido.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg",
+          "imageDescription": "Logo do R"
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python faz estatística, mas R\né o especialista!"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é generalista, mas estatística?\nR é o mestre!"
+        },
+        {
+          "text": "C++",
+          "isCorrect": false,
+          "explanation": "C++ é rápido, mas análise estatística\né com R mesmo!"
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de automação industrial e PLCs?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Ladder",
+          "isCorrect": true,
+          "explanation": "Ladder é a linguagem dos PLCs!\nAutomação industrial é com ela.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Ladder_diagram_example.png",
+          "imageDescription": "Exemplo de diagrama Ladder"
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python automatiza muita coisa,\nmas PLC é com Ladder!"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é versátil, mas PLC?\nLadder é quem manda!"
+        },
+        {
+          "text": "C++",
+          "isCorrect": false,
+          "explanation": "C++ é poderoso, mas automação industrial\nprefere Ladder!"
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de blockchain?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Solidity",
+          "isCorrect": true,
+          "explanation": "Solidity é a linguagem dos contratos inteligentes!\nSe você gosta de blockchain, vai usar muito.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Solidity_logo.svg",
+          "imageDescription": "Logo do Solidity"
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python faz de tudo, mas blockchain é com Solidity!\nEthereum agradece."
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é versátil, mas contratos inteligentes?\nSolidity é o especialista!"
+        },
+        {
+          "text": "C++",
+          "isCorrect": false,
+          "explanation": "C++ é rápido, mas blockchain moderno é com Solidity!\nOs contratos agradecem."
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de prototipagem rápida?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Python",
+          "isCorrect": true,
+          "explanation": "Python é o canivete suíço da prototipagem!\nRápido, simples e cheio de bibliotecas.",
+          "imageUrl": "https://www.python.org/static/community_logos/python-logo.png",
+          "imageDescription": "Logo do Python"
+        },
+        {
+          "text": "C",
+          "isCorrect": false,
+          "explanation": "C é rápido, mas prototipagem?\nPython ganha fácil!"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é robusto, mas prototipagem rápida?\nPython é o favorito."
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP é para web, não para prototipagem geral.\nPython é o campeão!"
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de scripts de automação no Unix?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Shell Script",
+          "isCorrect": true,
+          "explanation": "Shell Script é o canivete suíço do Unix!\nAutomação é com ele mesmo.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg",
+          "imageDescription": "Logo do Bash/Shell Script"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java até roda no Unix, mas automação?\nShell Script faz isso dormindo."
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP é para web, não para automação de sistema!\nShell Script é o rei do terminal."
+        },
+        {
+          "text": "Swift",
+          "isCorrect": false,
+          "explanation": "Swift é da Apple, mas automação no Unix\nfica para o Shell Script mesmo."
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de computação gráfica e jogos?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "C++",
+          "isCorrect": true,
+          "explanation": "C++ é o motor dos jogos AAA!\nRápido, poderoso e cheio de engines famosas.",
+          "imageUrl": "https://isocpp.org/assets/images/cpp_logo.png",
+          "imageDescription": "Logo do C++"
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP faz web, não jogos!\nC++ é o astro dos gráficos."
+        },
+        {
+          "text": "Ruby",
+          "isCorrect": false,
+          "explanation": "Ruby é elegante, mas jogos pesados?\nC++ é quem manda."
+        },
+        {
+          "text": "Perl",
+          "isCorrect": false,
+          "explanation": "Perl é para texto, não para gráficos!\nC++ é o campeão dos games."
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de prototipagem rápida e scripts científicos?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Python",
+          "isCorrect": true,
+          "explanation": "Python é o queridinho dos cientistas!\nPrototipagem nunca foi tão fácil.",
+          "imageUrl": "https://www.python.org/static/community_logos/python-logo.png",
+          "imageDescription": "Logo do Python"
+        },
+        {
+          "text": "C",
+          "isCorrect": false,
+          "explanation": "C é rápido, mas prototipagem?\nPython é mais prático."
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é robusto, mas scripts científicos?\nPython é o favorito."
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP é para web, não para ciência!\nPython é o campeão."
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de computação paralela e distribuída?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "MPI",
+          "isCorrect": true,
+          "explanation": "MPI é o padrão da computação paralela!\nSupercomputadores agradecem.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5d/MPI_logo.png",
+          "imageDescription": "Logo do MPI"
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP faz web, não computação paralela!\nMPI é o rei dos clusters."
+        },
+        {
+          "text": "Ruby",
+          "isCorrect": false,
+          "explanation": "Ruby é elegante, mas paralelismo?\nMPI é quem manda."
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java faz concorrência, mas MPI é o padrão\npara paralelismo pesado!"
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de inteligência artificial baseadas em lógica?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Prolog",
+          "isCorrect": true,
+          "explanation": "Prolog é o detetive da IA!\nSe tem lógica, tem Prolog na jogada.\nSherlock Holmes ficaria orgulhoso.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/87/Prolog-logo.png",
+          "imageDescription": "Logo do Prolog"
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python faz IA, mas lógica pura?\nProlog é o mestre dos mistérios!"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é generalista, mas IA lógica?\nProlog é quem resolve!"
+        },
+        {
+          "text": "C++",
+          "isCorrect": false,
+          "explanation": "C++ é rápido, mas lógica declarativa?\nProlog é o especialista!"
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "question": "Qual dessas linguagens é famosa por sua abordagem funcional pura e lazy evaluation?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Haskell",
+          "isCorrect": true,
+          "explanation": "Haskell é funcional até o último bit!\nLazy evaluation é seu sobrenome.\nIdeal para quem gosta de pensar antes de agir.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Haskell-Logo.svg",
+          "imageDescription": "Logo do Haskell"
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python tem funções, mas não é puro nem preguiçoso!\nHaskell é o rei da preguiça elegante."
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java até tem lambdas, mas Haskell é pura filosofia funcional!\nAqui não tem espaço para impurezas."
+        },
+        {
+          "text": "C",
+          "isCorrect": false,
+          "explanation": "C é imperativo raiz!\nFuncional e lazy? Só no sonho."
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de sistemas operacionais modernos?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Rust",
+          "isCorrect": true,
+          "explanation": "Rust está conquistando o kernel!\nSegurança e desempenho para sistemas operacionais modernos.\nO Linux já está de olho.",
+          "imageUrl": "https://www.rust-lang.org/static/images/rust-logo-blk.svg",
+          "imageDescription": "Logo do Rust"
+        },
+        {
+          "text": "JavaScript",
+          "isCorrect": false,
+          "explanation": "JavaScript roda até em geladeira,\nmas sistemas operacionais? Melhor não!"
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP em kernel? Só se for para rodar memes!\nRust é o novo queridinho dos SOs."
+        },
+        {
+          "text": "Ruby",
+          "isCorrect": false,
+          "explanation": "Ruby é elegante, mas kernel é com Rust!\nSegurança em primeiro lugar."
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações científicas e análise numérica desde os anos 50?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Fortran",
+          "isCorrect": true,
+          "explanation": "Fortran é o avô da computação científica!\nSe tem cálculo pesado, tem Fortran.\nSobreviveu a todas as gerações.",
+          "imageUrl": "https://fortran-lang.org/static/img/fortran-logo-512x512.png",
+          "imageDescription": "Logo do Fortran"
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP faz site, não cálculo pesado!\nFortran é o cientista da turma."
+        },
+        {
+          "text": "JavaScript",
+          "isCorrect": false,
+          "explanation": "JavaScript faz contas, mas não nasceu para isso.\nFortran é o verdadeiro matemático!"
+        },
+        {
+          "text": "Ruby",
+          "isCorrect": false,
+          "explanation": "Ruby é elegante, mas cálculo pesado?\nFortran é quem manda!"
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "question": "Qual dessas linguagens é famosa por ter sido criada para ser usada em aplicações de automação industrial e robótica?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Ladder",
+          "isCorrect": true,
+          "explanation": "Ladder é a linguagem dos PLCs e robôs!\nAutomação industrial é com ela.\nOs engenheiros agradecem.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Ladder_diagram_example.png",
+          "imageDescription": "Exemplo de diagrama Ladder"
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python automatiza muita coisa,\nmas PLC é com Ladder!"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é versátil, mas PLC?\nLadder é quem manda!"
+        },
+        {
+          "text": "C++",
+          "isCorrect": false,
+          "explanation": "C++ é poderoso, mas automação industrial\nprefere Ladder!"
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de contratos inteligentes em blockchain?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Solidity",
+          "isCorrect": true,
+          "explanation": "Solidity é a linguagem dos contratos inteligentes!\nSe você gosta de blockchain, vai usar muito.\nEthereum agradece.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/Solidity_logo.svg",
+          "imageDescription": "Logo do Solidity"
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python faz de tudo, mas blockchain é com Solidity!\nOs contratos agradecem."
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é versátil, mas contratos inteligentes?\nSolidity é o especialista!"
+        },
+        {
+          "text": "C++",
+          "isCorrect": false,
+          "explanation": "C++ é rápido, mas blockchain moderno é com Solidity!\nOs contratos agradecem."
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de análise estatística e visualização de dados?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "R",
+          "isCorrect": true,
+          "explanation": "R é o rei da estatística!\nSe tem gráfico, tem R envolvido.\nOs dados dançam conforme a música.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg",
+          "imageDescription": "Logo do R"
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python faz estatística, mas R\né o especialista!"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é generalista, mas estatística?\nR é o mestre!"
+        },
+        {
+          "text": "C++",
+          "isCorrect": false,
+          "explanation": "C++ é rápido, mas análise estatística\né com R mesmo!"
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de scripts de automação no Windows?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "PowerShell",
+          "isCorrect": true,
+          "explanation": "PowerShell é o canivete suíço dos administradores Windows!\nAutomação nunca foi tão poderosa.\nO Windows agradece.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2f/PowerShell_5.0_icon.png",
+          "imageDescription": "Ícone do PowerShell"
+        },
+        {
+          "text": "Bash",
+          "isCorrect": false,
+          "explanation": "Bash é rei no Linux, mas no Windows quem manda é o PowerShell!\nCada um no seu sistema."
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python faz automação, mas PowerShell é nativo do Windows!\nOs administradores agradecem."
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é para aplicações, não para scripts de sistema!\nPowerShell resolve rapidinho."
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "question": "Qual dessas linguagens é famosa por sua abordagem de programação concorrente baseada em goroutines?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Go",
+          "isCorrect": true,
+          "explanation": "Go inventou as goroutines!\nConcorrência nunca foi tão fácil (ou divertida).\nO mascote gopher aprova.",
+          "imageUrl": "https://go.dev/blog/go-brand/Go-Logo/PNG/Go-Logo_Blue.png",
+          "imageDescription": "Logo oficial do Go"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java tem threads, mas goroutines são exclusivas do Go!\nMenos peso, mais diversão."
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python tem threads, mas GIL atrapalha tudo.\nGo é quem manda na concorrência leve!"
+        },
+        {
+          "text": "C++",
+          "isCorrect": false,
+          "explanation": "C++ tem threads, mas nada de goroutines.\nGo é o inovador aqui!"
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de scripts de automação de servidores web?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Bash",
+          "isCorrect": true,
+          "explanation": "Bash é o rei da automação de servidores!\nSe tem terminal, tem Bash rodando.\nOs sysadmins agradecem.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg",
+          "imageDescription": "Logo do Bash"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java roda em servidores, mas automação?\nBash faz isso com uma linha."
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP faz web, mas automação de servidor?\nBash é quem resolve."
+        },
+        {
+          "text": "Swift",
+          "isCorrect": false,
+          "explanation": "Swift é da Apple, automação de servidor é com Bash!\nTerminal é sua casa."
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de prototipagem rápida e scripts científicos?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Python",
+          "isCorrect": true,
+          "explanation": "Python é o queridinho dos cientistas!\nPrototipagem nunca foi tão fácil.\nA ciência agradece.",
+          "imageUrl": "https://www.python.org/static/community_logos/python-logo.png",
+          "imageDescription": "Logo do Python"
+        },
+        {
+          "text": "C",
+          "isCorrect": false,
+          "explanation": "C é rápido, mas prototipagem?\nPython é mais prático."
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é robusto, mas scripts científicos?\nPython é o favorito."
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP é para web, não para ciência!\nPython é o campeão."
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "question": "Qual dessas linguagens é famosa por permitir programação orientada a eventos no navegador?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "JavaScript",
+          "isCorrect": true,
+          "explanation": "JavaScript faz mágica nos navegadores!\nClique, arraste, arraste de novo... tudo é evento.\nO front-end agradece.",
+          "imageUrl": "https://developer.mozilla.org/static/img/opengraph-logo.72382e605ce3.png",
+          "imageDescription": "Logo do JavaScript (MDN)"
+        },
+        {
+          "text": "C",
+          "isCorrect": false,
+          "explanation": "C não roda no navegador!\nJavaScript é quem faz a festa."
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP roda no servidor, não no navegador!\nJavaScript é o rei dos eventos."
+        },
+        {
+          "text": "Assembly",
+          "isCorrect": false,
+          "explanation": "Assembly no navegador? Só com WebAssembly!\nJavaScript é o veterano aqui."
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de computação gráfica e jogos?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "C++",
+          "isCorrect": true,
+          "explanation": "C++ é o motor dos jogos AAA!\nRápido, poderoso e cheio de engines famosas.\nOs gamers agradecem.",
+          "imageUrl": "https://isocpp.org/assets/images/cpp_logo.png",
+          "imageDescription": "Logo do C++"
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP faz web, não jogos!\nC++ é o astro dos gráficos."
+        },
+        {
+          "text": "Ruby",
+          "isCorrect": false,
+          "explanation": "Ruby é elegante, mas jogos pesados?\nC++ é quem manda."
+        },
+        {
+          "text": "Perl",
+          "isCorrect": false,
+          "explanation": "Perl é para texto, não para gráficos!\nC++ é o campeão dos games."
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de big data e processamento distribuído?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Scala",
+          "isCorrect": true,
+          "explanation": "Scala é a base do Apache Spark!\nBig data nunca foi tão funcional.\nOs dados agradecem.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/39/Scala-full-color.svg",
+          "imageDescription": "Logo do Scala"
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP é para web, não para big data!\nScala é o queridinho dos dados gigantes."
+        },
+        {
+          "text": "Ruby",
+          "isCorrect": false,
+          "explanation": "Ruby é elegante, mas big data?\nScala é quem brilha nesse universo."
+        },
+        {
+          "text": "C++",
+          "isCorrect": false,
+          "explanation": "C++ é rápido, mas big data moderno é com Scala!\nSpark agradece."
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de álgebra simbólica e computacional?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Maxima",
+          "isCorrect": true,
+          "explanation": "Maxima é veterana da álgebra simbólica!\nMatemáticos de plantão agradecem.\nComputação simbólica é com ela.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Maxima_logo.png",
+          "imageDescription": "Logo do Maxima"
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python faz matemática, mas álgebra simbólica?\nMaxima é o especialista!"
+        },
+        {
+          "text": "C++",
+          "isCorrect": false,
+          "explanation": "C++ é rápido, mas álgebra simbólica?\nMaxima é mais esperto!"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é generalista.\nMaxima é o mestre da álgebra simbólica!"
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações científicas de álgebra computacional?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "Mathematica",
+          "isCorrect": true,
+          "explanation": "Mathematica é o cérebro da álgebra computacional!\nSe você gosta de matemática, vai adorar.\nOs cálculos agradecem.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Wolfram_Mathematica_Logo.svg",
+          "imageDescription": "Logo do Mathematica"
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python faz matemática, mas não é especialista!\nMathematica é o gênio da álgebra."
+        },
+        {
+          "text": "C++",
+          "isCorrect": false,
+          "explanation": "C++ é rápido, mas álgebra computacional?\nMathematica é mais esperta!"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é generalista.\nMathematica é o especialista!"
+        }
+      ]
+    },
+    {
+      "id": "97",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de análise estatística avançada?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "R",
+          "isCorrect": true,
+          "explanation": "R é o rei da estatística!\nSe tem gráfico, tem R envolvido.\nOs dados agradecem.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg",
+          "imageDescription": "Logo do R"
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python faz estatística, mas R\né o especialista!"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é generalista, mas estatística?\nR é o mestre!"
+        },
+        {
+          "text": "C++",
+          "isCorrect": false,
+          "explanation": "C++ é rápido, mas análise estatística\né com R mesmo!"
+        }
+      ]
+    },
+    {
+      "id": "98",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de scripts de automação de tarefas administrativas em Linux?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Bash",
+          "isCorrect": true,
+          "explanation": "Bash é o canivete suíço do Linux!\nAutomação é com ele mesmo.\nOs sysadmins agradecem.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Bash_Logo_Colored.svg",
+          "imageDescription": "Logo do Bash"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java roda em Linux, mas automação?\nBash faz isso dormindo."
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP é para web, não para automação de sistema!\nBash é o rei do terminal."
+        },
+        {
+          "text": "Swift",
+          "isCorrect": false,
+          "explanation": "Swift é da Apple, mas automação no Linux\nfica para o Bash mesmo."
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de automação de planilhas do Excel?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "VBA",
+          "isCorrect": true,
+          "explanation": "VBA é o mago do Excel!\nAutomação de planilhas é com ele.\nO escritório agradece.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Icon-VBA.png",
+          "imageDescription": "Ícone do VBA"
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python automatiza tudo, mas VBA\né o rei das planilhas!"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é robusto, mas planilhas?\nVBA é o especialista!"
+        },
+        {
+          "text": "PHP",
+          "isCorrect": false,
+          "explanation": "PHP faz web, mas planilhas?\nVBA resolve rapidinho!"
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "question": "Qual dessas linguagens foi criada para ser usada em aplicações de análise estatística e visualização de dados?",
+      "level": "difícil",
+      "options": [
+        {
+          "text": "R",
+          "isCorrect": true,
+          "explanation": "R é o rei da estatística!\nSe tem gráfico, tem R envolvido.\nOs dados dançam conforme a música.",
+          "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg",
+          "imageDescription": "Logo do R"
+        },
+        {
+          "text": "Python",
+          "isCorrect": false,
+          "explanation": "Python faz estatística, mas R\né o especialista!"
+        },
+        {
+          "text": "Java",
+          "isCorrect": false,
+          "explanation": "Java é generalista, mas estatística?\nR é o mestre!"
+        },
+        {
+          "text": "C++",
+          "isCorrect": false,
+          "explanation": "C++ é rápido, mas análise estatística\né com R mesmo!"
+        }
+      ]
+    }
+  ]
+}

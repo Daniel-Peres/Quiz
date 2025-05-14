@@ -6,142 +6,2902 @@
     },
     "data": [
         {
-            "question": "Qual evento de 1939 marcou o início da Segunda Guerra Mundial?",
+            "id": "01",
+            "question": "Em que data começou oficialmente a Segunda Guerra Mundial?",
             "level": "fácil",
             "options": [
                 {
-                    "text": "Ataque a Pearl Harbor",
+                    "text": "7 de dezembro de 1941",
                     "isCorrect": false,
-                    "explanation": "Nããão, tá dois anos adiantado! Pearl Harbor foi em 1941, trazendo os EUA pra guerra. O começo foi na Europa, com tanques e um país invadido!"
+                    "explanation": "Essa data marcou o ataque a Pearl Harbor.\nAinda não era a guerra mundial para todos.\nMas foi um baita susto para os EUA!\n"
                 },
                 {
-                    "text": "Invasão da Polônia",
+                    "text": "1º de setembro de 1939",
                     "isCorrect": true,
-                    "explanation": "Blitzkrieg, acertou! A invasão da Polônia pela Alemanha nazista em 1º de setembro de 1939 foi o estopim da Segunda Guerra, levando França e Reino Unido a declararem guerra. Um momento que mudou o mundo, e você sabia direitinho!",
-                    "imageUrl": "https://www.history.com/.image/t_share/MTU3ODc5MDgzMjU0NzM2MTU5/poland-invasion.jpg",
-                    "imageDescription": "Imagem de tanques alemães avançando durante a invasão da Polônia em 1939, com fumaça e destruição, marcando o início da Segunda Guerra Mundial."
+                    "explanation": "Correto! Nesse dia, a Alemanha invadiu a Polônia,\ndando início ao maior conflito da história.\nAcordar polonês nesse dia não foi fácil!\n",
+                    "imageUrl": "https://www.archives.gov/files/research/military/ww2/photos/images/ww2-1.jpg",
+                    "imageDescription": "Tropas alemãs cruzando a fronteira da Polônia em 1939."
                 },
                 {
-                    "text": "Batalha de Stalingrado",
+                    "text": "6 de junho de 1944",
                     "isCorrect": false,
-                    "explanation": "Ops, tá no meio da guerra! Stalingrado foi em 1942-43, um turning point. O começo foi mais cedo, com uma invasão relâmpago!"
+                    "explanation": "Essa foi a data do Dia D,\nmas a guerra já estava rolando há anos.\nOs alemães já estavam cansados de tanto trabalho!\n"
                 },
                 {
-                    "text": "Queda da Bastilha",
+                    "text": "8 de maio de 1945",
                     "isCorrect": false,
-                    "explanation": "Nããão, voltou séculos! A Queda da Bastilha foi em 1789, Revolução Francesa. Tente algo com aviões e tanques!"
+                    "explanation": "Essa data marcou o fim da guerra na Europa.\nMas o começo foi bem antes!\nOs soldados já estavam sonhando com férias.\n"
                 }
             ]
         },
         {
-            "question": "Qual operação de 1944 foi o maior desembarque anfíbio da história, iniciando a libertação da Europa ocupada?",
+            "id": "02",
+            "question": "Qual país foi invadido pela Alemanha, marcando o início da Segunda Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "França",
+                    "isCorrect": false,
+                    "explanation": "A França foi invadida depois,\nmas não foi a primeira vítima.\nOs franceses ainda estavam tomando café.\n"
+                },
+                {
+                    "text": "Polônia",
+                    "isCorrect": true,
+                    "explanation": "Correto! A Polônia foi pega de surpresa,\nvirou palco de tanques e confusão.\nOs poloneses não gostaram nada da visita!\n",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/205190440",
+                    "imageDescription": "Soldados alemães entrando na Polônia em 1939."
+                },
+                {
+                    "text": "Áustria",
+                    "isCorrect": false,
+                    "explanation": "A Áustria foi anexada antes, em 1938,\nnum evento chamado Anschluss.\nNem precisou de guerra, só convite!\n"
+                },
+                {
+                    "text": "Noruega",
+                    "isCorrect": false,
+                    "explanation": "A Noruega só entrou na dança depois.\nPrimeiro, os alemães foram para o leste!\nOs vikings estavam tranquilos por enquanto.\n"
+                }
+            ]
+        },
+        {
+            "id": "03",
+            "question": "Qual era o nome da aliança liderada por Alemanha, Itália e Japão?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Aliados",
+                    "isCorrect": false,
+                    "explanation": "Aliados eram os do outro lado!\nNada de Axis aqui.\nConfundir pode causar uma guerra de risadas.\n"
+                },
+                {
+                    "text": "Eixo",
+                    "isCorrect": true,
+                    "explanation": "Acertou! O Eixo era formado por Alemanha, Itália e Japão.\nEles achavam que iam girar o mundo ao contrário.\nMas acabaram girando só a própria cabeça!\n",
+                    "imageUrl": "https://www.ushmm.org/m/img/wwii-axis-leaders.jpg",
+                    "imageDescription": "Líderes do Eixo: Hitler, Mussolini e Hirohito."
+                },
+                {
+                    "text": "Tríplice Entente",
+                    "isCorrect": false,
+                    "explanation": "Essa foi da Primeira Guerra Mundial!\nConfundir guerras é como misturar café com chá.\n"
+                },
+                {
+                    "text": "Liga das Nações",
+                    "isCorrect": false,
+                    "explanation": "A Liga das Nações tentou evitar guerras...\nmas não conseguiu nem evitar confusão!\n"
+                }
+            ]
+        },
+        {
+            "id": "04",
+            "question": "Qual cidade foi bombardeada pelos Estados Unidos com a primeira bomba atômica?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Tóquio",
+                    "isCorrect": false,
+                    "explanation": "Tóquio sentiu muitos bombardeios,\nmas não foi a cidade da bomba atômica.\nAinda bem para os arranha-céus!\n"
+                },
+                {
+                    "text": "Hiroshima",
+                    "isCorrect": true,
+                    "explanation": "Certo! Hiroshima foi a primeira cidade atingida.\nA bomba mudou a história e o relógio do mundo.\nOs moradores nunca esqueceram esse dia.\n",
+                    "imageUrl": "https://www.history.com/.image/t_share/MTYyNzY2NzgxNjYwMzY5NjIz/hiroshima-bomb.jpg",
+                    "imageDescription": "Nuvem de cogumelo sobre Hiroshima após a explosão atômica."
+                },
+                {
+                    "text": "Osaka",
+                    "isCorrect": false,
+                    "explanation": "Osaka escapou da bomba atômica,\nmas não dos bombardeios convencionais.\nO sushi continuou sendo servido!\n"
+                },
+                {
+                    "text": "Nagasaki",
+                    "isCorrect": false,
+                    "explanation": "Nagasaki foi a segunda cidade atingida,\nmas não a primeira.\nA fila das bombas não era nada divertida!\n"
+                }
+            ]
+        },
+        {
+            "id": "05",
+            "question": "Qual foi o nome do plano de invasão da União Soviética pela Alemanha?",
             "level": "médio",
             "options": [
                 {
-                    "text": "Operação Barbarossa",
+                    "text": "Operação Overlord",
                     "isCorrect": false,
-                    "explanation": "Nããão, tá do lado errado! Barbarossa foi a invasão da União Soviética em 1941. A operação que buscamos é na costa francesa, com praias famosas!"
+                    "explanation": "Essa foi a invasão da Normandia.\nOs alemães estavam do outro lado dessa história!\n"
                 },
                 {
-                    "text": "Operação Overlord",
+                    "text": "Operação Barbarossa",
                     "isCorrect": true,
-                    "explanation": "Você é um general cinco estrelas! A Operação Overlord, em 6 de junho de 1944, foi o Dia D, com os Aliados desembarcando na Normandia. Praias como Omaha e Utah viram heroísmo e caos, mudando o rumo da guerra. Parabéns, soldado!",
-                    "imageUrl": "https://www.nationalww2museum.org/sites/default/files/2020-06/D-Day-landing.jpg",
-                    "imageDescription": "Imagem de soldados aliados desembarcando na praia de Omaha durante o Dia D, com barcos e fumaça ao fundo, capturando a intensidade da Operação Overlord."
+                    "explanation": "Exato! Barbarossa foi a maior invasão terrestre da história.\nOs russos sentiram o frio, e os alemães também!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/large_000000.jpg",
+                    "imageDescription": "Tropas alemãs avançando na União Soviética durante a Operação Barbarossa."
                 },
                 {
                     "text": "Operação Market Garden",
                     "isCorrect": false,
-                    "explanation": "Quase, mas não! Market Garden, em 1944, foi uma tentativa de tomar pontes na Holanda, mas falhou. Tente algo mais... praiano e épico!"
+                    "explanation": "Market Garden foi na Holanda.\nOs paraquedistas quase viraram jardineiros!\n"
                 },
                 {
                     "text": "Operação Torch",
                     "isCorrect": false,
-                    "explanation": "Nããão, tá no continente errado! Torch foi no Norte da África, em 1942. A operação que queremos é na Europa, com ondas e coragem!"
+                    "explanation": "Torch foi no Norte da África.\nNada de frio soviético por lá!\n"
                 }
             ]
         },
         {
-            "question": "Qual líder nazista foi o principal responsável pela Segunda Guerra Mundial e pelo Holocausto?",
+            "id": "06",
+            "question": "Quem era o primeiro-ministro britânico durante a maior parte da Segunda Guerra Mundial?",
             "level": "fácil",
             "options": [
                 {
-                    "text": "Joseph Stalin",
+                    "text": "Neville Chamberlain",
                     "isCorrect": false,
-                    "explanation": "Nããão, Stalin era o chefão da União Soviética, aliado dos nazistas no começo, mas depois inimigo. O cara que buscamos é bem mais... infame e bigodudo!"
-                },
-                {
-                    "text": "Adolf Hitler",
-                    "isCorrect": true,
-                    "explanation": "Você acertou no alvo! Adolf Hitler, chanceler da Alemanha nazista, foi o arquiteto da Segunda Guerra e do Holocausto, com sua ideologia de ódio e expansão. Um nome que a história nunca esquece, pelo pior motivo. Boa, historiador!",
-                    "imageUrl": "https://www.britannica.com/static/images/2020/09/hitler.jpg",
-                    "imageDescription": "Imagem de Adolf Hitler em um discurso, com o símbolo nazista ao fundo, representando sua liderança durante a Segunda Guerra Mundial."
-                },
-                {
-                    "text": "Benito Mussolini",
-                    "isCorrect": false,
-                    "explanation": "Quase, mas não! Mussolini era o ditador da Itália, aliado de Hitler, mas não o principal. Tente o líder do Terceiro Reich!"
+                    "explanation": "Chamberlain tentou evitar a guerra,\nmas acabou ficando famoso pelo guarda-chuva.\n"
                 },
                 {
                     "text": "Winston Churchill",
+                    "isCorrect": true,
+                    "explanation": "Churchill comandou com charuto e discursos épicos.\nSeus chapéus também fizeram história!\n",
+                    "imageUrl": "https://www.history.com/.image/t_share/MTYyNzY2NzgxNjYwMzY5NjIz/churchill-ww2.jpg",
+                    "imageDescription": "Winston Churchill fazendo o famoso sinal de vitória."
+                },
+                {
+                    "text": "Clement Attlee",
                     "isCorrect": false,
-                    "explanation": "Nããão, Churchill era o herói britânico, lutando contra os nazistas! O vilão que buscamos é do outro lado, com planos bem mais sinistros!"
+                    "explanation": "Attlee só pegou o bastão no finalzinho.\nChurchill já tinha feito quase tudo!\n"
+                },
+                {
+                    "text": "Anthony Eden",
+                    "isCorrect": false,
+                    "explanation": "Eden só virou chefe depois da guerra.\nNa época, era só coadjuvante!\n"
                 }
             ]
         },
         {
-            "question": "Qual batalha de 1942-1943 na União Soviética marcou a virada do front oriental contra os nazistas?",
-            "level": "difícil",
+            "id": "07",
+            "question": "Qual foi o nome do desembarque aliado na Normandia em 1944?",
+            "level": "fácil",
             "options": [
                 {
-                    "text": "Batalha de Kursk",
+                    "text": "Dia D",
+                    "isCorrect": true,
+                    "explanation": "Acertou! O Dia D foi o maior desembarque da história.\nAreia, balas e muita coragem na praia!\n",
+                    "imageUrl": "https://www.nationalww2museum.org/sites/default/files/2017-07/NormandyLanding.jpg",
+                    "imageDescription": "Desembarque dos Aliados nas praias da Normandia."
+                },
+                {
+                    "text": "Dia V",
                     "isCorrect": false,
-                    "explanation": "Nããão, Kursk foi em 1943, com tanques aos montes, mas não a virada principal. A batalha que buscamos é mais longa, gelada e decisiva!"
+                    "explanation": "V de vitória, mas só depois!\nO desembarque foi no D mesmo.\n"
+                },
+                {
+                    "text": "Operação Barbarossa",
+                    "isCorrect": false,
+                    "explanation": "Barbarossa foi do outro lado, na Rússia.\nNada de praia por lá!\n"
+                },
+                {
+                    "text": "Operação Tufão",
+                    "isCorrect": false,
+                    "explanation": "Tufão foi uma bagunça na Rússia.\nOs franceses nem sentiram o vento!\n"
+                }
+            ]
+        },
+        {
+            "id": "08",
+            "question": "Qual país foi liderado por Benito Mussolini durante a Segunda Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Alemanha",
+                    "isCorrect": false,
+                    "explanation": "Alemanha era com Hitler!\nMussolini preferia massas e discursos longos.\n"
+                },
+                {
+                    "text": "Itália",
+                    "isCorrect": true,
+                    "explanation": "Mussolini mandava na Itália.\nEra fã de gestos e de pizza (provavelmente)!\n",
+                    "imageUrl": "https://www.archivioluce.com/wp-content/uploads/2018/11/Mussolini.jpg",
+                    "imageDescription": "Benito Mussolini discursando em Roma."
+                },
+                {
+                    "text": "Japão",
+                    "isCorrect": false,
+                    "explanation": "No Japão, quem mandava era Hirohito.\nMussolini não sabia nem usar hashis!\n"
+                },
+                {
+                    "text": "França",
+                    "isCorrect": false,
+                    "explanation": "França era com De Gaulle e Pétain.\nMussolini só visitou para passear!\n"
+                }
+            ]
+        },
+        {
+            "id": "09",
+            "question": "Qual foi a batalha considerada o ponto de virada no front oriental?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Batalha de Berlim",
+                    "isCorrect": false,
+                    "explanation": "Berlim foi o fim da linha.\nO ponto de virada veio antes!\n"
                 },
                 {
                     "text": "Batalha de Stalingrado",
                     "isCorrect": true,
-                    "explanation": "Uau, você é um estrategista! A Batalha de Stalingrado, de 1942 a 1943, foi o inferno na neve onde os soviéticos derrotaram os nazistas, marcando a virada no Leste. Ruínas, frio e coragem definiram essa vitória épica. Parabéns, camarada!",
-                    "imageUrl": "https://www.historyextra.com/wp-content/uploads/2020/08/stalingrado.jpg",
-                    "imageDescription": "Imagem de soldados soviéticos lutando entre ruínas cobertas de neve em Stalingrado, capturando a brutalidade e importância da batalha de 1942-1943."
+                    "explanation": "Stalingrado virou o jogo para os soviéticos.\nDepois disso, os alemães só desceram a ladeira!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/stalingrad.jpg",
+                    "imageDescription": "Ruínas de Stalingrado após a batalha."
+                },
+                {
+                    "text": "Batalha de Kursk",
+                    "isCorrect": false,
+                    "explanation": "Kursk foi grande,\nmas Stalingrado já tinha mudado tudo.\n"
                 },
                 {
                     "text": "Batalha de Moscou",
                     "isCorrect": false,
-                    "explanation": "Quase, mas não! Moscou, em 1941, foi uma defesa heroica, mas não a virada. Tente uma cidade mais ao sul, com um nome que ecoa na história!"
-                },
-                {
-                    "text": "Batalha de Leningrado",
-                    "isCorrect": false,
-                    "explanation": "Nããão, Leningrado foi um cerco longo, até 1944. A virada veio em outra cidade, com uma batalha urbana que quebrou os nazistas!"
+                    "explanation": "Moscou foi importante,\nmas Stalingrado foi o divisor de águas!\n"
                 }
             ]
         },
         {
-            "question": "Qual arma nuclear foi lançada em Hiroshima em 6 de agosto de 1945, encerrando a Segunda Guerra no Pacífico?",
+            "id": "10",
+            "question": "Quem era o presidente dos Estados Unidos na maior parte da Segunda Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Harry S. Truman",
+                    "isCorrect": false,
+                    "explanation": "Truman só pegou o bonde andando,\nmas foi ele quem deu a ordem da bomba.\n"
+                },
+                {
+                    "text": "Franklin D. Roosevelt",
+                    "isCorrect": true,
+                    "explanation": "Roosevelt foi o comandante em chefe por quase toda a guerra.\nSó largou o cargo quando não deu mais mesmo!\n",
+                    "imageUrl": "https://www.archives.gov/files/research/military/ww2/photos/images/ww2-2.jpg",
+                    "imageDescription": "Franklin D. Roosevelt em seu escritório."
+                },
+                {
+                    "text": "Dwight D. Eisenhower",
+                    "isCorrect": false,
+                    "explanation": "Eisenhower era general, não presidente!\nMas mandava muito bem nos mapas.\n"
+                },
+                {
+                    "text": "Herbert Hoover",
+                    "isCorrect": false,
+                    "explanation": "Hoover já tinha deixado a Casa Branca.\nSó ficou com o nome de aspirador!\n"
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "question": "Qual foi a principal motivação do Japão para atacar Pearl Harbor?",
             "level": "médio",
             "options": [
                 {
-                    "text": "Fat Man",
+                    "text": "Desejo de conquistar a Austrália",
                     "isCorrect": false,
-                    "explanation": "Nããão, quase! Fat Man foi a bomba lançada em Nagasaki, dias depois. A de Hiroshima tem outro nome, bem mais... pequeno e irônico!"
+                    "explanation": "Austrália era longe demais.\nOs cangurus estavam tranquilos por enquanto!\n"
                 },
                 {
-                    "text": "Little Boy",
+                    "text": "Retaliação às sanções econômicas dos EUA",
                     "isCorrect": true,
-                    "explanation": "Boom, acertou na explosão! Little Boy foi a bomba atômica lançada em Hiroshima em 6 de agosto de 1945 pelo Enola Gay, marcando um momento trágico que levou à rendição do Japão. Um nome pequeno para um impacto gigante. Boa, cientista!",
-                    "imageUrl": "https://www.atomicarchive.com/media/images/hiroshima.jpg",
-                    "imageDescription": "Imagem da explosão de Little Boy em Hiroshima, com a nuvem em forma de cogumelo subindo, representando o impacto devastador da bomba atômica."
+                    "explanation": "Os EUA cortaram o petróleo e o Japão ficou bravo.\nPearl Harbor foi a resposta explosiva!\n",
+                    "imageUrl": "https://www.history.com/.image/t_share/MTU3ODc4NjAxNjY2MzQwMjY2/pearl-harbor.jpg",
+                    "imageDescription": "Explosão durante o ataque a Pearl Harbor."
                 },
                 {
-                    "text": "Tsar Bomba",
+                    "text": "Aliança com a União Soviética",
                     "isCorrect": false,
-                    "explanation": "Nããão, essa é muito grande! Tsar Bomba foi um teste soviético em 1961, na Guerra Fria. Tente algo de 1945, usado em combate!"
+                    "explanation": "Japão e União Soviética não eram melhores amigos.\nNem dividiram sushi!\n"
                 },
                 {
-                    "text": "Trinity",
+                    "text": "Defesa contra invasão alemã",
                     "isCorrect": false,
-                    "explanation": "Quase, mas não! Trinity foi o teste da primeira bomba atômica em 1945, nos EUA. A de Hiroshima foi usada em guerra, com outro nome!"
+                    "explanation": "Alemanha era aliada, não ameaça.\nNada de invasão germânica por lá!\n"
+                }
+            ]
+        },
+        {
+            "id": "12",
+            "question": "Qual foi o nome do pacto de não agressão entre Alemanha e União Soviética?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Pacto de Varsóvia",
+                    "isCorrect": false,
+                    "explanation": "Esse pacto veio só na Guerra Fria!\nA Segunda Guerra já tinha acabado.\n"
+                },
+                {
+                    "text": "Pacto Molotov-Ribbentrop",
+                    "isCorrect": true,
+                    "explanation": "Correto! Molotov e Ribbentrop apertaram as mãos.\nMas logo depois, um deles esqueceu o combinado!\n",
+                    "imageUrl": "https://www.bundesarchiv.de/DE/Navigation/Finden/Bilder/_functions/getBild.php?bild=bild183-1984-1206-500.jpg",
+                    "imageDescription": "Molotov e Ribbentrop assinando o pacto."
+                },
+                {
+                    "text": "Pacto de Munique",
+                    "isCorrect": false,
+                    "explanation": "Munique foi só conversa fiada.\nNinguém ficou muito amigo ali.\n"
+                },
+                {
+                    "text": "Pacto de Versalhes",
+                    "isCorrect": false,
+                    "explanation": "Versalhes foi da Primeira Guerra.\nEssa confusão é comum, relaxa!\n"
+                }
+            ]
+        },
+        {
+            "id": "13",
+            "question": "Qual foi o nome do navio de guerra alemão afundado em 1941 após perseguição britânica?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Bismarck",
+                    "isCorrect": true,
+                    "explanation": "O Bismarck era o terror dos mares.\nMas os britânicos deram um jeito!\nAfundou com direito a música depois.\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/bismarck.jpg",
+                    "imageDescription": "Navio de guerra Bismarck em alto-mar."
+                },
+                {
+                    "text": "Tirpitz",
+                    "isCorrect": false,
+                    "explanation": "O Tirpitz era irmão do Bismarck.\nMas só afundou depois, com menos glamour.\n"
+                },
+                {
+                    "text": "Hood",
+                    "isCorrect": false,
+                    "explanation": "O Hood era britânico, não alemão.\nE foi afundado pelo Bismarck!\n"
+                },
+                {
+                    "text": "Yamato",
+                    "isCorrect": false,
+                    "explanation": "Yamato era japonês.\nAlemão mesmo, só o Bismarck!\n"
+                }
+            ]
+        },
+        {
+            "id": "14",
+            "question": "Qual foi o nome do campo de concentração nazista mais famoso?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Dachau",
+                    "isCorrect": false,
+                    "explanation": "Dachau foi um dos primeiros,\nmas não o mais famoso.\n"
+                },
+                {
+                    "text": "Auschwitz",
+                    "isCorrect": true,
+                    "explanation": "Auschwitz virou símbolo do horror nazista.\nInfelizmente, ficou muito conhecido no mundo todo.\n",
+                    "imageUrl": "https://www.auschwitz.org/images/auschwitz-birkenau.jpg",
+                    "imageDescription": "Portão de entrada de Auschwitz com a inscrição Arbeit Macht Frei."
+                },
+                {
+                    "text": "Treblinka",
+                    "isCorrect": false,
+                    "explanation": "Treblinka foi terrível,\nmas Auschwitz ficou ainda mais famoso.\n"
+                },
+                {
+                    "text": "Sobibor",
+                    "isCorrect": false,
+                    "explanation": "Sobibor também foi palco de horrores,\nmas Auschwitz foi o mais lembrado.\n"
+                }
+            ]
+        },
+        {
+            "id": "15",
+            "question": "Qual foi o nome do projeto americano para desenvolver a bomba atômica?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Projeto Álamo",
+                    "isCorrect": false,
+                    "explanation": "Álamo é famoso no Texas,\nmas não tinha nada de bomba atômica lá!\n"
+                },
+                {
+                    "text": "Projeto Manhattan",
+                    "isCorrect": true,
+                    "explanation": "O Projeto Manhattan reuniu cientistas geniais.\nExplodiram átomos e mudaram a história!\n",
+                    "imageUrl": "https://www.history.com/.image/t_share/MTYyNzY2NzgxNjYwMzY5NjIz/manhattan-project.jpg",
+                    "imageDescription": "Cientistas do Projeto Manhattan em Los Alamos."
+                },
+                {
+                    "text": "Projeto Mercury",
+                    "isCorrect": false,
+                    "explanation": "Mercury era dos foguetes, anos depois.\nNada de bomba atômica por lá!\n"
+                },
+                {
+                    "text": "Projeto Apollo",
+                    "isCorrect": false,
+                    "explanation": "Apollo foi pra Lua, não para a guerra.\nOs astronautas agradeceram!\n"
+                }
+            ]
+        },
+        {
+            "id": "16",
+            "question": "Qual foi o nome do avião americano responsável por lançar a bomba atômica sobre Hiroshima?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Memphis Belle",
+                    "isCorrect": false,
+                    "explanation": "Esse ficou famoso nos filmes,\nmas não foi para o Japão.\nSó voou muito pela Europa!"
+                },
+                {
+                    "text": "Enola Gay",
+                    "isCorrect": true,
+                    "explanation": "Enola Gay entrou para a história com um voo explosivo.\nO piloto deve ter sentido o peso da missão!\n",
+                    "imageUrl": "https://www.si.edu/sites/default/files/newsdesk/press_releases/enolagay.jpg",
+                    "imageDescription": "O bombardeiro Enola Gay em exposição."
+                },
+                {
+                    "text": "Bockscar",
+                    "isCorrect": false,
+                    "explanation": "Bockscar lançou a bomba em Nagasaki,\nmas Hiroshima ficou para o Enola Gay.\n"
+                },
+                {
+                    "text": "Spirit of St. Louis",
+                    "isCorrect": false,
+                    "explanation": "Esse atravessou o Atlântico antes da guerra.\nNada de bombas atômicas para ele!"
+                }
+            ]
+        },
+        {
+            "id": "17",
+            "question": "Qual era o nome do líder da França Livre durante a ocupação nazista?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Philippe Pétain",
+                    "isCorrect": false,
+                    "explanation": "Pétain liderou o governo de Vichy,\nmas não era muito livre não!\n"
+                },
+                {
+                    "text": "Charles de Gaulle",
+                    "isCorrect": true,
+                    "explanation": "De Gaulle comandou a França Livre com bigode e bravura.\nVirou até presidente depois!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/degaulle.jpg",
+                    "imageDescription": "Charles de Gaulle discursando para a resistência francesa."
+                },
+                {
+                    "text": "Jean Moulin",
+                    "isCorrect": false,
+                    "explanation": "Moulin foi um herói da resistência,\nmas o chefe mesmo era De Gaulle.\n"
+                },
+                {
+                    "text": "Pierre Laval",
+                    "isCorrect": false,
+                    "explanation": "Laval era do governo colaboracionista.\nNada de França Livre para ele!"
+                }
+            ]
+        },
+        {
+            "id": "18",
+            "question": "Qual foi o principal caça britânico na Batalha da Grã-Bretanha?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Messerschmitt Bf 109",
+                    "isCorrect": false,
+                    "explanation": "Esse era o terror alemão nos céus.\nOs britânicos tinham outro favorito!\n"
+                },
+                {
+                    "text": "Supermarine Spitfire",
+                    "isCorrect": true,
+                    "explanation": "O Spitfire virou lenda na Batalha da Grã-Bretanha.\nOs pilotos britânicos adoravam suas asas!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/spitfire.jpg",
+                    "imageDescription": "Supermarine Spitfire voando durante a Segunda Guerra."
+                },
+                {
+                    "text": "Focke-Wulf Fw 190",
+                    "isCorrect": false,
+                    "explanation": "Esse era alemão também.\nOs britânicos preferiam chá e Spitfire!"
+                },
+                {
+                    "text": "P-51 Mustang",
+                    "isCorrect": false,
+                    "explanation": "O Mustang brilhou mais tarde.\nMas na Batalha da Grã-Bretanha, era Spitfire na cabeça!"
+                }
+            ]
+        },
+        {
+            "id": "19",
+            "question": "Qual foi o nome do tribunal internacional que julgou crimes de guerra nazistas após 1945?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Tribunal de Haia",
+                    "isCorrect": false,
+                    "explanation": "Haia é famosa por julgamentos,\nmas esse ficou para outro tribunal!"
+                },
+                {
+                    "text": "Tribunal de Nuremberg",
+                    "isCorrect": true,
+                    "explanation": "Nuremberg virou sinônimo de justiça pós-guerra.\nOs réus não gostaram nada da novidade!\n",
+                    "imageUrl": "https://www.ushmm.org/m/img/nuremberg-trials.jpg",
+                    "imageDescription": "Sessão do Tribunal de Nuremberg com réus nazistas."
+                },
+                {
+                    "text": "Tribunal de Versalhes",
+                    "isCorrect": false,
+                    "explanation": "Versalhes só julgou a Primeira Guerra.\nA segunda foi mais complicada!"
+                },
+                {
+                    "text": "Tribunal de Tóquio",
+                    "isCorrect": false,
+                    "explanation": "Tóquio julgou crimes de guerra japoneses.\nOs alemães foram para Nuremberg!"
+                }
+            ]
+        },
+        {
+            "id": "20",
+            "question": "Qual foi o nome do navio brasileiro afundado por submarinos alemães, levando o Brasil a declarar guerra?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Vital de Oliveira",
+                    "isCorrect": false,
+                    "explanation": "Esse também foi afundado,\nmas o mais famoso foi outro!"
+                },
+                {
+                    "text": "Baependi",
+                    "isCorrect": true,
+                    "explanation": "O Baependi virou símbolo da entrada do Brasil na guerra.\nOs alemães não esperavam tanto café na revanche!\n",
+                    "imageUrl": "https://www.arquivonacional.gov.br/images/baependi.jpg",
+                    "imageDescription": "Navio Baependi antes de ser afundado."
+                },
+                {
+                    "text": "Parnaíba",
+                    "isCorrect": false,
+                    "explanation": "Parnaíba navegou tranquilo.\nO Baependi é que virou notícia!"
+                },
+                {
+                    "text": "Tamandaré",
+                    "isCorrect": false,
+                    "explanation": "Tamandaré ficou só na homenagem.\nO Baependi é que afundou mesmo!"
+                }
+            ]
+        },
+        {
+            "id": "21",
+            "question": "Qual era o nome do plano de ajuda econômica dos EUA para a reconstrução da Europa?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Plano Marshall",
+                    "isCorrect": true,
+                    "explanation": "O Plano Marshall trouxe dólares e esperança.\nA Europa agradeceu e comprou muito pão!\n",
+                    "imageUrl": "https://www.history.com/.image/t_share/MTYyNzY2NzgxNjYwMzY5NjIz/marshall-plan.jpg",
+                    "imageDescription": "Distribuição de alimentos do Plano Marshall na Europa."
+                },
+                {
+                    "text": "Plano Truman",
+                    "isCorrect": false,
+                    "explanation": "Truman era presidente, mas o plano era do Marshall!\n"
+                },
+                {
+                    "text": "Plano Dawes",
+                    "isCorrect": false,
+                    "explanation": "Dawes foi da Primeira Guerra.\nMarshall levou a fama na segunda!"
+                },
+                {
+                    "text": "Plano Molotov",
+                    "isCorrect": false,
+                    "explanation": "Molotov só ajudou a fazer pacto.\nNada de reconstrução europeia!"
+                }
+            ]
+        },
+        {
+            "id": "22",
+            "question": "Qual país foi invadido pela União Soviética em 1939, junto com a Alemanha?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Finlândia",
+                    "isCorrect": false,
+                    "explanation": "A Finlândia resistiu bravamente,\nmas não foi invadida junto com a Alemanha!"
+                },
+                {
+                    "text": "Polônia",
+                    "isCorrect": true,
+                    "explanation": "A pobre Polônia foi invadida dos dois lados.\nNinguém merece tanta visita indesejada!\n",
+                    "imageUrl": "https://www.ww2db.com/image.php?image_id=101",
+                    "imageDescription": "Soldados soviéticos entrando na Polônia em 1939."
+                },
+                {
+                    "text": "Romênia",
+                    "isCorrect": false,
+                    "explanation": "Romênia só entrou na dança depois.\nA Polônia foi a estrela do início!"
+                },
+                {
+                    "text": "Hungria",
+                    "isCorrect": false,
+                    "explanation": "Hungria ficou esperando o baile.\nA Polônia já estava ocupada!"
+                }
+            ]
+        },
+        {
+            "id": "23",
+            "question": "Qual foi o nome da operação de evacuação de soldados aliados em Dunquerque?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Operação Overlord",
+                    "isCorrect": false,
+                    "explanation": "Overlord foi para invadir, não evacuar!\nDunquerque foi outra aventura."
+                },
+                {
+                    "text": "Operação Dínamo",
+                    "isCorrect": true,
+                    "explanation": "Dínamo salvou milhares de soldados.\nBarquinhos viraram heróis!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/dunkirk.jpg",
+                    "imageDescription": "Soldados aguardando evacuação em Dunquerque."
+                },
+                {
+                    "text": "Operação Market Garden",
+                    "isCorrect": false,
+                    "explanation": "Market Garden foi um salto na Holanda.\nDunquerque era só fuga mesmo!"
+                },
+                {
+                    "text": "Operação Barbarossa",
+                    "isCorrect": false,
+                    "explanation": "Barbarossa foi para o leste.\nDunquerque era para o mar!"
+                }
+            ]
+        },
+        {
+            "id": "24",
+            "question": "Qual era o nome do programa nazista de extermínio sistemático dos judeus?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Kristallnacht",
+                    "isCorrect": false,
+                    "explanation": "Kristallnacht foi o começo do terror,\nmas o programa de extermínio tinha outro nome."
+                },
+                {
+                    "text": "Solução Final",
+                    "isCorrect": true,
+                    "explanation": "A Solução Final foi o plano terrível dos nazistas.\nInfelizmente, ficou tristemente famoso.\n",
+                    "imageUrl": "https://www.ushmm.org/m/img/final-solution.jpg",
+                    "imageDescription": "Documentos relacionados à Solução Final nazista."
+                },
+                {
+                    "text": "Operação Valkyrie",
+                    "isCorrect": false,
+                    "explanation": "Valkyrie foi tentativa de matar Hitler.\nNada de extermínio em massa!"
+                },
+                {
+                    "text": "Plano Marshall",
+                    "isCorrect": false,
+                    "explanation": "Marshall só queria reconstruir a Europa.\nNada de planos sombrios!"
+                }
+            ]
+        },
+        {
+            "id": "25",
+            "question": "Qual foi o nome do submarino alemão temido no Atlântico?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Destroyer",
+                    "isCorrect": false,
+                    "explanation": "Destroyer era o caçador,\nmas o terror era o submarino mesmo!"
+                },
+                {
+                    "text": "U-boat",
+                    "isCorrect": true,
+                    "explanation": "Os U-boats fizeram os aliados suarem frio.\nOs peixes não gostavam nada deles!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/uboat.jpg",
+                    "imageDescription": "U-boat alemão navegando no Atlântico."
+                },
+                {
+                    "text": "Corveta",
+                    "isCorrect": false,
+                    "explanation": "Corveta era o navio de escolta.\nO perigo vinha debaixo d'água!"
+                },
+                {
+                    "text": "Liberty Ship",
+                    "isCorrect": false,
+                    "explanation": "Liberty Ship era o alvo favorito dos U-boats!\n"
+                }
+            ]
+        },
+        {
+            "id": "26",
+            "question": "Qual foi o nome da batalha aérea travada sobre Londres em 1940?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Batalha de Stalingrado",
+                    "isCorrect": false,
+                    "explanation": "Stalingrado foi na Rússia.\nLondres só viu aviões!"
+                },
+                {
+                    "text": "Batalha da Grã-Bretanha",
+                    "isCorrect": true,
+                    "explanation": "A Batalha da Grã-Bretanha foi puro céu e fumaça.\nChurchill agradeceu aos pilotos!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/battleofbritain.jpg",
+                    "imageDescription": "Aviões britânicos sobrevoando Londres durante a batalha."
+                },
+                {
+                    "text": "Batalha de Kursk",
+                    "isCorrect": false,
+                    "explanation": "Kursk foi tanque contra tanque.\nNada de céu britânico por lá!"
+                },
+                {
+                    "text": "Batalha de El Alamein",
+                    "isCorrect": false,
+                    "explanation": "El Alamein foi no deserto.\nLondres só viu areia de gato!"
+                }
+            ]
+        },
+        {
+            "id": "27",
+            "question": "Qual foi o nome do pacto militar entre Alemanha, Itália e Japão?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Pacto de Varsóvia",
+                    "isCorrect": false,
+                    "explanation": "Varsóvia só apareceu na Guerra Fria.\nO trio da Segunda Guerra tinha outro nome!"
+                },
+                {
+                    "text": "Pacto Tripartite",
+                    "isCorrect": true,
+                    "explanation": "O Pacto Tripartite selou a amizade do Eixo.\nMas não durou até o fim da festa!\n",
+                    "imageUrl": "https://www.archivioluce.com/wp-content/uploads/2018/11/pactotripartite.jpg",
+                    "imageDescription": "Assinatura do Pacto Tripartite entre Alemanha, Itália e Japão."
+                },
+                {
+                    "text": "Pacto de Munique",
+                    "isCorrect": false,
+                    "explanation": "Munique foi só conversa.\nO pacto mesmo era triplo!"
+                },
+                {
+                    "text": "Pacto de Locarno",
+                    "isCorrect": false,
+                    "explanation": "Locarno foi antes da guerra.\nO trio do barulho veio depois!"
+                }
+            ]
+        },
+        {
+            "id": "28",
+            "question": "Qual foi o nome da operação de invasão aliada da Sicília em 1943?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Operação Overlord",
+                    "isCorrect": false,
+                    "explanation": "Overlord foi na Normandia.\nSicília era outra praia!"
+                },
+                {
+                    "text": "Operação Husky",
+                    "isCorrect": true,
+                    "explanation": "Husky botou os aliados na Itália.\nOs italianos sentiram o peso dos cachorros!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/husky.jpg",
+                    "imageDescription": "Tropas aliadas desembarcando na Sicília durante a Operação Husky."
+                },
+                {
+                    "text": "Operação Market Garden",
+                    "isCorrect": false,
+                    "explanation": "Market Garden foi na Holanda.\nSicília ficou para os huskies!"
+                },
+                {
+                    "text": "Operação Torch",
+                    "isCorrect": false,
+                    "explanation": "Torch foi no Norte da África.\nSicília era só pizza e desembarque!"
+                }
+            ]
+        },
+        {
+            "id": "29",
+            "question": "Qual foi o nome do famoso código alemão decifrado pelos britânicos?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Código Morse",
+                    "isCorrect": false,
+                    "explanation": "Morse era universal.\nO segredo alemão era mais complicado!"
+                },
+                {
+                    "text": "Enigma",
+                    "isCorrect": true,
+                    "explanation": "O Enigma confundiu muita gente.\nMas os britânicos adoraram decifrar mistérios!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/enigma.jpg",
+                    "imageDescription": "Máquina Enigma usada pelos alemães."
+                },
+                {
+                    "text": "Ultra",
+                    "isCorrect": false,
+                    "explanation": "Ultra era o nome da operação.\nO código mesmo era Enigma!"
+                },
+                {
+                    "text": "Cifra de César",
+                    "isCorrect": false,
+                    "explanation": "César já tinha passado.\nOs alemães gostavam de tecnologia!"
+                }
+            ]
+        },
+        {
+            "id": "30",
+            "question": "Qual foi o nome da conferência onde Churchill, Roosevelt e Stalin decidiram o futuro da Europa pós-guerra?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Conferência de Potsdam",
+                    "isCorrect": false,
+                    "explanation": "Potsdam veio depois.\nO destino da Europa foi decidido antes!"
+                },
+                {
+                    "text": "Conferência de Yalta",
+                    "isCorrect": true,
+                    "explanation": "Yalta reuniu os três chefões.\nDecidiram o futuro do continente tomando chá!\n",
+                    "imageUrl": "https://www.history.com/.image/t_share/MTYyNzY2NzgxNjYwMzY5NjIz/yalta-conference.jpg",
+                    "imageDescription": "Churchill, Roosevelt e Stalin na Conferência de Yalta."
+                },
+                {
+                    "text": "Conferência de Munique",
+                    "isCorrect": false,
+                    "explanation": "Munique foi só promessa.\nYalta é que mudou tudo!"
+                },
+                {
+                    "text": "Conferência de Paris",
+                    "isCorrect": false,
+                    "explanation": "Paris ficou para os tratados.\nA grande reunião foi em Yalta!"
+                }
+            ]
+        },
+        {
+            "id": "31",
+            "question": "Qual foi o nome do comandante supremo das forças aliadas na Europa durante o Dia D?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "George S. Patton",
+                    "isCorrect": false,
+                    "explanation": "Patton era fera nos tanques,\nmas quem comandou tudo foi outro general!"
+                },
+                {
+                    "text": "Dwight D. Eisenhower",
+                    "isCorrect": true,
+                    "explanation": "Eisenhower era o chefe dos chefes no Dia D.\nDepois virou até presidente dos EUA!\n",
+                    "imageUrl": "https://www.history.com/.image/t_share/MTYyNzY2NzgxNjYwMzY5NjIz/eisenhower-d-day.jpg",
+                    "imageDescription": "General Eisenhower conversando com paraquedistas antes do Dia D."
+                },
+                {
+                    "text": "Bernard Montgomery",
+                    "isCorrect": false,
+                    "explanation": "Montgomery comandava britânicos,\nmas o chefão geral era o Ike!"
+                },
+                {
+                    "text": "Omar Bradley",
+                    "isCorrect": false,
+                    "explanation": "Bradley era importante,\nmas não era o supremo!"
+                }
+            ]
+        },
+        {
+            "id": "32",
+            "question": "Qual foi o nome do campo de batalha onde ocorreu a maior batalha de tanques da história?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Batalha de El Alamein",
+                    "isCorrect": false,
+                    "explanation": "El Alamein foi cheia de tanques,\nmas a maior ficou para outro lugar!"
+                },
+                {
+                    "text": "Batalha de Kursk",
+                    "isCorrect": true,
+                    "explanation": "Kursk virou sinônimo de tanque para todo lado.\nFoi quase um congestionamento blindado!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/kursk.jpg",
+                    "imageDescription": "Tanques soviéticos avançando em Kursk."
+                },
+                {
+                    "text": "Batalha de Stalingrado",
+                    "isCorrect": false,
+                    "explanation": "Stalingrado foi brutal,\nmas a batalha dos tanques foi em Kursk!"
+                },
+                {
+                    "text": "Batalha das Ardenas",
+                    "isCorrect": false,
+                    "explanation": "Ardenas foi importante,\nmas não bateu o recorde de tanques!"
+                }
+            ]
+        },
+        {
+            "id": "33",
+            "question": "Qual era o nome do projeto alemão de foguetes que bombardeou Londres?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "V-1 e V-2",
+                    "isCorrect": true,
+                    "explanation": "As V-1 e V-2 eram foguetes assustadores.\nLondres virou alvo de tecnologia nazista!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/v2rocket.jpg",
+                    "imageDescription": "Foguete V-2 alemão sendo preparado para lançamento."
+                },
+                {
+                    "text": "Panzerfaust",
+                    "isCorrect": false,
+                    "explanation": "Panzerfaust era para tanques,\nLondres sentiu mesmo foi as V-2!"
+                },
+                {
+                    "text": "Tiger",
+                    "isCorrect": false,
+                    "explanation": "Tiger era tanque,\nmas foguete mesmo era V-2!"
+                },
+                {
+                    "text": "U-boat",
+                    "isCorrect": false,
+                    "explanation": "U-boat assustava no mar,\nmas quem voava era V-2!"
+                }
+            ]
+        },
+        {
+            "id": "34",
+            "question": "Qual foi o nome da operação soviética para expulsar os alemães de Stalingrado?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Operação Urano",
+                    "isCorrect": true,
+                    "explanation": "Urano cercou os alemães em Stalingrado.\nFoi um giro que deixou todo mundo tonto!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/stalingrad.jpg",
+                    "imageDescription": "Soldados soviéticos avançando nas ruínas de Stalingrado."
+                },
+                {
+                    "text": "Operação Marte",
+                    "isCorrect": false,
+                    "explanation": "Marte foi outra ofensiva.\nA virada em Stalingrado foi Urano!"
+                },
+                {
+                    "text": "Operação Saturno",
+                    "isCorrect": false,
+                    "explanation": "Saturno veio depois.\nUrano é que pegou os alemães de surpresa!"
+                },
+                {
+                    "text": "Operação Bagration",
+                    "isCorrect": false,
+                    "explanation": "Bagration foi para expulsar alemães da Bielorrússia.\nStalingrado era Urano!"
+                }
+            ]
+        },
+        {
+            "id": "35",
+            "question": "Qual era o nome do líder japonês durante a Segunda Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Hideki Tojo",
+                    "isCorrect": false,
+                    "explanation": "Tojo era o primeiro-ministro,\nmas o líder máximo era outro!"
+                },
+                {
+                    "text": "Imperador Hirohito",
+                    "isCorrect": true,
+                    "explanation": "Hirohito era o imperador e símbolo do Japão.\nMandava mais que sushi em restaurante!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/hirohito.jpg",
+                    "imageDescription": "Imperador Hirohito em traje militar."
+                },
+                {
+                    "text": "Yamamoto Isoroku",
+                    "isCorrect": false,
+                    "explanation": "Yamamoto era almirante.\nO chefão mesmo era Hirohito!"
+                },
+                {
+                    "text": "Fumimaro Konoe",
+                    "isCorrect": false,
+                    "explanation": "Konoe foi primeiro-ministro,\nmas Hirohito era o imperador!"
+                }
+            ]
+        },
+        {
+            "id": "36",
+            "question": "Qual foi o nome do tratado que encerrou a Segunda Guerra Mundial na Europa?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Tratado de Versalhes",
+                    "isCorrect": false,
+                    "explanation": "Versalhes encerrou a Primeira Guerra.\nNa segunda, o fim foi diferente!"
+                },
+                {
+                    "text": "Rendição Incondicional da Alemanha",
+                    "isCorrect": true,
+                    "explanation": "A Alemanha assinou a rendição sem condições.\nFoi o fim da linha para Hitler e companhia!\n",
+                    "imageUrl": "https://www.history.com/.image/t_share/MTYyNzY2NzgxNjYwMzY5NjIz/germany-surrender.jpg",
+                    "imageDescription": "Assinatura da rendição alemã em 1945."
+                },
+                {
+                    "text": "Tratado de Paris",
+                    "isCorrect": false,
+                    "explanation": "Paris ficou para depois.\nO fim mesmo foi a rendição incondicional!"
+                },
+                {
+                    "text": "Pacto de Potsdam",
+                    "isCorrect": false,
+                    "explanation": "Potsdam veio depois da guerra.\nO fim foi com a rendição alemã!"
+                }
+            ]
+        },
+        {
+            "id": "37",
+            "question": "Qual foi o nome do movimento de resistência francês contra a ocupação nazista?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Maquis",
+                    "isCorrect": true,
+                    "explanation": "Os Maquis faziam de tudo um pouco: sabotagem, espionagem e até pão!\nViraram lenda na França ocupada.\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/maquis.jpg",
+                    "imageDescription": "Membros da resistência francesa Maquis armados nas florestas."
+                },
+                {
+                    "text": "Gestapo",
+                    "isCorrect": false,
+                    "explanation": "Gestapo era a polícia nazista.\nResistência mesmo era Maquis!"
+                },
+                {
+                    "text": "SS",
+                    "isCorrect": false,
+                    "explanation": "SS era o terror nazista.\nOs franceses preferiam a resistência!"
+                },
+                {
+                    "text": "Vichy",
+                    "isCorrect": false,
+                    "explanation": "Vichy colaborava com os alemães.\nResistência era Maquis!"
+                }
+            ]
+        },
+        {
+            "id": "38",
+            "question": "Qual foi o nome do plano alemão para assassinar Hitler em 1944?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Operação Valquíria",
+                    "isCorrect": true,
+                    "explanation": "Valquíria quase mudou o rumo da guerra.\nHitler escapou por pouco e ficou ainda mais paranoico!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/valkyrie.jpg",
+                    "imageDescription": "Conspiradores da Operação Valquíria sendo julgados."
+                },
+                {
+                    "text": "Operação Barbarossa",
+                    "isCorrect": false,
+                    "explanation": "Barbarossa foi para invadir a Rússia.\nValquíria era para explodir o chefe!"
+                },
+                {
+                    "text": "Operação Tufão",
+                    "isCorrect": false,
+                    "explanation": "Tufão foi para Moscou.\nValquíria foi no quartel alemão!"
+                },
+                {
+                    "text": "Operação Leão Marinho",
+                    "isCorrect": false,
+                    "explanation": "Leão Marinho era invasão da Inglaterra.\nValquíria era golpe interno!"
+                }
+            ]
+        },
+        {
+            "id": "39",
+            "question": "Qual foi o nome do famoso campo de concentração nazista localizado na Polônia?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Buchenwald",
+                    "isCorrect": false,
+                    "explanation": "Buchenwald era na Alemanha.\nO mais famoso na Polônia era outro!"
+                },
+                {
+                    "text": "Auschwitz",
+                    "isCorrect": true,
+                    "explanation": "Auschwitz virou símbolo do horror nazista.\nInfelizmente, ficou tristemente famoso no mundo todo.\n",
+                    "imageUrl": "https://www.auschwitz.org/images/auschwitz-birkenau.jpg",
+                    "imageDescription": "Portão de entrada de Auschwitz com a inscrição Arbeit Macht Frei."
+                },
+                {
+                    "text": "Dachau",
+                    "isCorrect": false,
+                    "explanation": "Dachau era na Alemanha.\nAuschwitz foi o maior na Polônia!"
+                },
+                {
+                    "text": "Treblinka",
+                    "isCorrect": false,
+                    "explanation": "Treblinka também foi terrível,\nmas Auschwitz ficou mais conhecido."
+                }
+            ]
+        },
+        {
+            "id": "40",
+            "question": "Qual foi o nome do famoso desembarque aliado na Itália em 1943?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Desembarque de Anzio",
+                    "isCorrect": true,
+                    "explanation": "Anzio foi pura lama, tiros e pizza fria!\nOs aliados penaram para avançar.\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/anzio.jpg",
+                    "imageDescription": "Tropas aliadas desembarcando em Anzio, Itália."
+                },
+                {
+                    "text": "Desembarque de Salerno",
+                    "isCorrect": false,
+                    "explanation": "Salerno foi antes, mas Anzio é que ficou famoso!\n"
+                },
+                {
+                    "text": "Desembarque de Normandia",
+                    "isCorrect": false,
+                    "explanation": "Normandia foi na França.\nNa Itália, era Anzio!"
+                },
+                {
+                    "text": "Desembarque de Dieppe",
+                    "isCorrect": false,
+                    "explanation": "Dieppe foi tentativa frustrada na França.\nNa Itália, era Anzio!"
+                }
+            ]
+        },
+        {
+            "id": "41",
+            "question": "Qual foi o nome do tratado que dividiu a Alemanha em zonas de ocupação após a guerra?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Tratado de Potsdam",
+                    "isCorrect": true,
+                    "explanation": "Potsdam dividiu a Alemanha em pedaços.\nVirou quebra-cabeça para os Aliados!\n",
+                    "imageUrl": "https://www.history.com/.image/t_share/MTYyNzY2NzgxNjYwMzY5NjIz/potsdam-conference.jpg",
+                    "imageDescription": "Líderes aliados reunidos na Conferência de Potsdam."
+                },
+                {
+                    "text": "Tratado de Versalhes",
+                    "isCorrect": false,
+                    "explanation": "Versalhes foi da Primeira Guerra.\nNa segunda, foi Potsdam!"
+                },
+                {
+                    "text": "Tratado de Paris",
+                    "isCorrect": false,
+                    "explanation": "Paris ficou para depois.\nO quebra-cabeça alemão foi em Potsdam!"
+                },
+                {
+                    "text": "Tratado de Munique",
+                    "isCorrect": false,
+                    "explanation": "Munique foi só conversa fiada.\nDivisão mesmo foi em Potsdam!"
+                }
+            ]
+        },
+        {
+            "id": "42",
+            "question": "Qual foi o nome do navio brasileiro que transportou tropas para a Itália?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Vital de Oliveira",
+                    "isCorrect": false,
+                    "explanation": "Vital de Oliveira era navio brasileiro,\nmas não levou a FEB para a Itália!"
+                },
+                {
+                    "text": "General Meigs",
+                    "isCorrect": true,
+                    "explanation": "O General Meigs levou a galera da FEB para a Itália.\nFoi quase um cruzeiro, mas sem diversão!\n",
+                    "imageUrl": "https://www.arquivonacional.gov.br/images/generalmeigs.jpg",
+                    "imageDescription": "Navio General Meigs transportando tropas brasileiras."
+                },
+                {
+                    "text": "Baependi",
+                    "isCorrect": false,
+                    "explanation": "Baependi foi afundado antes.\nO General Meigs é que fez a viagem!"
+                },
+                {
+                    "text": "Tamandaré",
+                    "isCorrect": false,
+                    "explanation": "Tamandaré ficou só na homenagem.\nO General Meigs é que navegou!"
+                }
+            ]
+        },
+        {
+            "id": "43",
+            "question": "Qual foi o nome do programa de propaganda nazista para conquistar corações e mentes?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Ministério da Propaganda",
+                    "isCorrect": true,
+                    "explanation": "O Ministério da Propaganda era comandado por Goebbels.\nEles eram craques em manipular notícias!\n",
+                    "imageUrl": "https://www.ushmm.org/m/img/goebbels-propaganda.jpg",
+                    "imageDescription": "Joseph Goebbels discursando para o Ministério da Propaganda."
+                },
+                {
+                    "text": "Gestapo",
+                    "isCorrect": false,
+                    "explanation": "Gestapo era polícia secreta.\nPropaganda era com Goebbels!"
+                },
+                {
+                    "text": "SS",
+                    "isCorrect": false,
+                    "explanation": "SS era força militar.\nA manipulação era do Ministério da Propaganda!"
+                },
+                {
+                    "text": "Wehrmacht",
+                    "isCorrect": false,
+                    "explanation": "Wehrmacht era o exército.\nPropaganda era outro departamento!"
+                }
+            ]
+        },
+        {
+            "id": "44",
+            "question": "Qual foi o nome do famoso comandante da Força Expedicionária Brasileira (FEB)?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "João Baptista Mascarenhas de Moraes",
+                    "isCorrect": true,
+                    "explanation": "Mascarenhas de Moraes comandou a FEB com garra.\nVirou nome de rua e até de escola!\n",
+                    "imageUrl": "https://www.arquivonacional.gov.br/images/mascarenhas.jpg",
+                    "imageDescription": "General Mascarenhas de Moraes, comandante da FEB."
+                },
+                {
+                    "text": "Newton Cruz",
+                    "isCorrect": false,
+                    "explanation": "Newton Cruz veio bem depois.\nNa guerra, era Mascarenhas!"
+                },
+                {
+                    "text": "Eurico Gaspar Dutra",
+                    "isCorrect": false,
+                    "explanation": "Dutra era ministro e depois presidente.\nA FEB era do Mascarenhas!"
+                },
+                {
+                    "text": "Cordeiro de Farias",
+                    "isCorrect": false,
+                    "explanation": "Cordeiro de Farias também lutou,\nmas o chefe era Mascarenhas!"
+                }
+            ]
+        },
+        {
+            "id": "45",
+            "question": "Qual foi o nome da famosa ponte destruída pelos Aliados na Itália para dificultar o avanço alemão?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Ponte de Remagen",
+                    "isCorrect": false,
+                    "explanation": "Remagen era na Alemanha.\nNa Itália, a ponte famosa era outra!"
+                },
+                {
+                    "text": "Ponte de Cassino",
+                    "isCorrect": false,
+                    "explanation": "Cassino era a abadia.\nA ponte famosa era outra!"
+                },
+                {
+                    "text": "Ponte de Pênsano",
+                    "isCorrect": false,
+                    "explanation": "Pênsano não entrou para a história.\nProcure outra ponte famosa!"
+                },
+                {
+                    "text": "Ponte de Gênova (Ponte de Gênova sobre o Rio Serchio)",
+                    "isCorrect": true,
+                    "explanation": "A ponte de Gênova sobre o Rio Serchio foi detonada pelos Aliados.\nOs alemães ficaram a pé e sem GPS!\n",
+                    "imageUrl": "https://www.museodellaguerra.it/archivi/foto/ponte-genova-serchio.jpg",
+                    "imageDescription": "Ruínas da ponte de Gênova sobre o Rio Serchio após destruição."
+                }
+            ]
+        },
+        {
+            "id": "46",
+            "question": "Qual foi o nome do plano secreto dos Aliados para enganar os alemães sobre o local do Dia D?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Operação Overlord",
+                    "isCorrect": false,
+                    "explanation": "Overlord foi o desembarque de verdade.\nO truque tinha outro nome!"
+                },
+                {
+                    "text": "Operação Fortitude",
+                    "isCorrect": true,
+                    "explanation": "Fortitude criou tanques infláveis e exércitos de mentira.\nOs alemães caíram direitinho no truque!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/fortitude.jpg",
+                    "imageDescription": "Tanques infláveis usados na Operação Fortitude."
+                },
+                {
+                    "text": "Operação Husky",
+                    "isCorrect": false,
+                    "explanation": "Husky foi a invasão da Sicília.\nO engodo era Fortitude!"
+                },
+                {
+                    "text": "Operação Torch",
+                    "isCorrect": false,
+                    "explanation": "Torch foi no norte da África.\nO truque do Dia D era Fortitude!"
+                }
+            ]
+        },
+        {
+            "id": "47",
+            "question": "Qual foi o nome do último grande contra-ataque alemão no front ocidental?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Batalha das Ardenas",
+                    "isCorrect": true,
+                    "explanation": "As Ardenas ficaram congeladas e cheias de confusão.\nOs alemães tentaram, mas não conseguiram virar o jogo!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/ardennes.jpg",
+                    "imageDescription": "Soldados americanos nas Ardenas durante o inverno rigoroso."
+                },
+                {
+                    "text": "Batalha de Stalingrado",
+                    "isCorrect": false,
+                    "explanation": "Stalingrado foi no leste.\nO último suspiro alemão foi nas Ardenas!"
+                },
+                {
+                    "text": "Batalha de Kursk",
+                    "isCorrect": false,
+                    "explanation": "Kursk foi duelo de tanques na Rússia.\nO ocidente tremeu nas Ardenas!"
+                },
+                {
+                    "text": "Batalha de El Alamein",
+                    "isCorrect": false,
+                    "explanation": "El Alamein foi no deserto.\nAs Ardenas eram puro gelo!"
+                }
+            ]
+        },
+        {
+            "id": "48",
+            "question": "Qual foi o nome do famoso grupo de pilotos afro-americanos que lutou na Segunda Guerra Mundial?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Tuskegee Airmen",
+                    "isCorrect": true,
+                    "explanation": "Os Tuskegee Airmen voaram alto contra o preconceito e os inimigos.\nViraram inspiração para gerações!\n",
+                    "imageUrl": "https://www.nationalww2museum.org/sites/default/files/2017-07/tuskegee.jpg",
+                    "imageDescription": "Pilotos Tuskegee Airmen ao lado de um caça."
+                },
+                {
+                    "text": "Red Tails",
+                    "isCorrect": false,
+                    "explanation": "Red Tails era o apelido dos Tuskegee Airmen.\nMas o nome oficial era outro!"
+                },
+                {
+                    "text": "Flying Tigers",
+                    "isCorrect": false,
+                    "explanation": "Flying Tigers eram voluntários na China.\nOs afro-americanos eram Tuskegee!"
+                },
+                {
+                    "text": "Eagles Squadron",
+                    "isCorrect": false,
+                    "explanation": "Eagles Squadron eram pilotos americanos na RAF.\nOs Tuskegee eram únicos!"
+                }
+            ]
+        },
+        {
+            "id": "49",
+            "question": "Qual foi o nome do navio de guerra alemão afundado pelos britânicos em 1941?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Scharnhorst",
+                    "isCorrect": false,
+                    "explanation": "Scharnhorst afundou depois.\nO terror de 1941 era outro!"
+                },
+                {
+                    "text": "Bismarck",
+                    "isCorrect": true,
+                    "explanation": "O Bismarck era o orgulho alemão.\nMas os britânicos deram um fim épico nele!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/bismarck.jpg",
+                    "imageDescription": "O couraçado Bismarck navegando antes de ser afundado."
+                },
+                {
+                    "text": "Tirpitz",
+                    "isCorrect": false,
+                    "explanation": "Tirpitz era irmão do Bismarck.\nMas afundou só em 1944!"
+                },
+                {
+                    "text": "Graf Spee",
+                    "isCorrect": false,
+                    "explanation": "Graf Spee foi afundado no Uruguai.\nO Bismarck caiu no Atlântico!"
+                }
+            ]
+        },
+        {
+            "id": "50",
+            "question": "Qual foi o nome do programa americano para decifrar códigos japoneses?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Ultra",
+                    "isCorrect": false,
+                    "explanation": "Ultra era para os alemães.\nOs japoneses tinham outro código!"
+                },
+                {
+                    "text": "Magic",
+                    "isCorrect": true,
+                    "explanation": "Magic fez mágica com os códigos japoneses.\nOs aliados sabiam tudo antes de acontecer!\n",
+                    "imageUrl": "https://www.nationalww2museum.org/sites/default/files/2017-07/magic.jpg",
+                    "imageDescription": "Equipamentos do projeto Magic para decifrar códigos japoneses."
+                },
+                {
+                    "text": "Enigma",
+                    "isCorrect": false,
+                    "explanation": "Enigma era alemão.\nO Japão foi decifrado pela Magic!"
+                },
+                {
+                    "text": "Purple",
+                    "isCorrect": false,
+                    "explanation": "Purple era o nome do código.\nMagic era o nome do projeto!"
+                }
+            ]
+        },
+        {
+            "id": "51",
+            "question": "Qual foi o nome do famoso avião bombardeiro americano usado em missões estratégicas na Europa?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "B-29 Superfortress",
+                    "isCorrect": false,
+                    "explanation": "O B-29 brilhou no Pacífico.\nNa Europa, outro bombardeiro reinava!"
+                },
+                {
+                    "text": "B-17 Flying Fortress",
+                    "isCorrect": true,
+                    "explanation": "O B-17 era a 'Fortaleza Voadora' dos céus europeus.\nOs alemães não gostavam nada dele!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/b17.jpg",
+                    "imageDescription": "Bombardeiro B-17 Flying Fortress em voo."
+                },
+                {
+                    "text": "B-24 Liberator",
+                    "isCorrect": false,
+                    "explanation": "O B-24 também bombardeou muito,\nmas o B-17 era o queridinho!"
+                },
+                {
+                    "text": "Lancaster",
+                    "isCorrect": false,
+                    "explanation": "Lancaster era britânico.\nOs americanos voavam de B-17!"
+                }
+            ]
+        },
+        {
+            "id": "52",
+            "question": "Qual foi o nome do código secreto usado pelos navajos para transmitir mensagens no Pacífico?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Código Morse",
+                    "isCorrect": false,
+                    "explanation": "Morse era universal.\nOs navajos tinham um código só deles!"
+                },
+                {
+                    "text": "Código Navajo",
+                    "isCorrect": true,
+                    "explanation": "O Código Navajo era tão secreto que nem os próprios aliados entendiam!\nOs japoneses ficaram perdidos!\n",
+                    "imageUrl": "https://www.nationalww2museum.org/sites/default/files/2017-07/navajo.jpg",
+                    "imageDescription": "Codificadores navajos do Corpo de Fuzileiros Navais dos EUA."
+                },
+                {
+                    "text": "Código Enigma",
+                    "isCorrect": false,
+                    "explanation": "Enigma era alemão.\nNo Pacífico, era Navajo!"
+                },
+                {
+                    "text": "Código Ultra",
+                    "isCorrect": false,
+                    "explanation": "Ultra era para os alemães.\nNavajo era só para os americanos!"
+                }
+            ]
+        },
+        {
+            "id": "53",
+            "question": "Qual foi o nome do campo de concentração nazista libertado pelos soviéticos em 27 de janeiro de 1945?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Auschwitz",
+                    "isCorrect": true,
+                    "explanation": "Auschwitz foi libertado pelos soviéticos.\nO portão se abriu para a esperança!\n",
+                    "imageUrl": "https://www.auschwitz.org/images/auschwitz-birkenau.jpg",
+                    "imageDescription": "Portão de entrada de Auschwitz com a inscrição Arbeit Macht Frei."
+                },
+                {
+                    "text": "Dachau",
+                    "isCorrect": false,
+                    "explanation": "Dachau foi libertado pelos americanos.\nAuschwitz ficou para os soviéticos!"
+                },
+                {
+                    "text": "Treblinka",
+                    "isCorrect": false,
+                    "explanation": "Treblinka foi destruído antes.\nAuschwitz foi libertado em 1945!"
+                },
+                {
+                    "text": "Bergen-Belsen",
+                    "isCorrect": false,
+                    "explanation": "Bergen-Belsen foi libertado depois.\nAuschwitz veio antes!"
+                }
+            ]
+        },
+        {
+            "id": "54",
+            "question": "Qual foi o nome da batalha em que os Aliados tomaram uma ilha estratégica com bandeira hasteada no monte Suribachi?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Batalha de Iwo Jima",
+                    "isCorrect": true,
+                    "explanation": "Iwo Jima ficou famosa pela foto da bandeira.\nOs fuzileiros suaram para chegar lá!\n",
+                    "imageUrl": "https://www.history.com/.image/t_share/MTYyNzY2NzgxNjYwMzY5NjIz/iwo-jima.jpg",
+                    "imageDescription": "Marines americanos hasteando a bandeira em Iwo Jima."
+                },
+                {
+                    "text": "Batalha de Okinawa",
+                    "isCorrect": false,
+                    "explanation": "Okinawa foi depois.\nA foto famosa foi em Iwo Jima!"
+                },
+                {
+                    "text": "Batalha de Guadalcanal",
+                    "isCorrect": false,
+                    "explanation": "Guadalcanal foi dura,\nmas a bandeira subiu em Iwo Jima!"
+                },
+                {
+                    "text": "Batalha de Saipan",
+                    "isCorrect": false,
+                    "explanation": "Saipan foi importante,\nmas a foto ficou para Iwo Jima!"
+                }
+            ]
+        },
+        {
+            "id": "55",
+            "question": "Qual foi o nome do acordo que permitiu a anexação dos Sudetos pela Alemanha em 1938?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Acordo de Munique",
+                    "isCorrect": true,
+                    "explanation": "Munique foi só promessa de paz.\nOs alemães adoraram a novidade!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/munich.jpg",
+                    "imageDescription": "Líderes europeus após o Acordo de Munique."
+                },
+                {
+                    "text": "Pacto de Varsóvia",
+                    "isCorrect": false,
+                    "explanation": "Varsóvia só apareceu na Guerra Fria.\nO acordo dos Sudetos foi Munique!"
+                },
+                {
+                    "text": "Tratado de Versalhes",
+                    "isCorrect": false,
+                    "explanation": "Versalhes foi da Primeira Guerra.\nMunique foi o da confusão!"
+                },
+                {
+                    "text": "Pacto de Molotov-Ribbentrop",
+                    "isCorrect": false,
+                    "explanation": "Molotov-Ribbentrop foi com a URSS.\nMunique foi com a Tchecoslováquia!"
+                }
+            ]
+        },
+        {
+            "id": "56",
+            "question": "Qual foi o nome do líder britânico que assinou o Acordo de Munique?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Winston Churchill",
+                    "isCorrect": false,
+                    "explanation": "Churchill criticou o acordo.\nQuem assinou foi outro político!"
+                },
+                {
+                    "text": "Neville Chamberlain",
+                    "isCorrect": true,
+                    "explanation": "Chamberlain voltou acenando com papel e paz.\nMas a paz foi só no discurso!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/chamberlain.jpg",
+                    "imageDescription": "Neville Chamberlain segurando o Acordo de Munique."
+                },
+                {
+                    "text": "Anthony Eden",
+                    "isCorrect": false,
+                    "explanation": "Eden era ministro, mas não assinou nada em Munique!"
+                },
+                {
+                    "text": "Clement Attlee",
+                    "isCorrect": false,
+                    "explanation": "Attlee só virou chefe depois.\nEm Munique, era Chamberlain!"
+                }
+            ]
+        },
+        {
+            "id": "57",
+            "question": "Qual foi o nome do campo de batalha onde a FEB conquistou sua vitória mais famosa?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Monte Castelo",
+                    "isCorrect": true,
+                    "explanation": "Monte Castelo foi conquistado na raça pelos brasileiros.\nVirou música, livro e orgulho nacional!\n",
+                    "imageUrl": "https://www.arquivonacional.gov.br/images/montecastelo.jpg",
+                    "imageDescription": "Soldados brasileiros comemorando a vitória em Monte Castelo."
+                },
+                {
+                    "text": "Montese",
+                    "isCorrect": false,
+                    "explanation": "Montese também foi vitória,\nmas Monte Castelo ficou mais famoso!"
+                },
+                {
+                    "text": "Pianoro",
+                    "isCorrect": false,
+                    "explanation": "Pianoro foi batalha dura,\nmas a fama ficou para Monte Castelo!"
+                },
+                {
+                    "text": "Castelnuovo",
+                    "isCorrect": false,
+                    "explanation": "Castelnuovo foi importante,\nmas Monte Castelo virou história!"
+                }
+            ]
+        },
+        {
+            "id": "58",
+            "question": "Qual foi o nome do famoso tanque soviético produzido em massa durante a guerra?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Panzer IV",
+                    "isCorrect": false,
+                    "explanation": "Panzer era alemão.\nO soviético era outro!"
+                },
+                {
+                    "text": "T-34",
+                    "isCorrect": true,
+                    "explanation": "O T-34 era tão resistente que até os alemães queriam um!\nVirou lenda nos campos de batalha.\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/t34.jpg",
+                    "imageDescription": "Tanque soviético T-34 avançando na frente oriental."
+                },
+                {
+                    "text": "Sherman",
+                    "isCorrect": false,
+                    "explanation": "Sherman era americano.\nO soviético era o T-34!"
+                },
+                {
+                    "text": "Churchill",
+                    "isCorrect": false,
+                    "explanation": "Churchill era britânico.\nO soviético era o T-34!"
+                }
+            ]
+        },
+        {
+            "id": "59",
+            "question": "Qual foi o nome do ataque aéreo americano que devastou Tóquio em 1945?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Operação Gomorra",
+                    "isCorrect": false,
+                    "explanation": "Gomorra foi em Hamburgo.\nTóquio teve outro nome de operação!"
+                },
+                {
+                    "text": "Bombardeio de Tóquio",
+                    "isCorrect": true,
+                    "explanation": "O bombardeio de Tóquio foi tão intenso que parecia apocalipse.\nOs americanos usaram bombas incendiárias!\n",
+                    "imageUrl": "https://www.history.com/.image/t_share/MTYyNzY2NzgxNjYwMzY5NjIz/tokyo-firebombing.jpg",
+                    "imageDescription": "Tóquio em chamas após o bombardeio americano de 1945."
+                },
+                {
+                    "text": "Operação Tempestade",
+                    "isCorrect": false,
+                    "explanation": "Tempestade só no nome.\nTóquio pegou fogo mesmo foi em 1945!"
+                },
+                {
+                    "text": "Operação Tufão",
+                    "isCorrect": false,
+                    "explanation": "Tufão foi na Rússia.\nTóquio sentiu o calor das bombas!"
+                }
+            ]
+        },
+        {
+            "id": "60",
+            "question": "Qual foi o nome do tratado que criou a ONU após a Segunda Guerra Mundial?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Tratado de Versalhes",
+                    "isCorrect": false,
+                    "explanation": "Versalhes foi da Primeira Guerra.\nA ONU nasceu de outro acordo!"
+                },
+                {
+                    "text": "Carta das Nações Unidas",
+                    "isCorrect": true,
+                    "explanation": "A Carta das Nações Unidas fundou a ONU.\nAgora o mundo tinha um novo clube!\n",
+                    "imageUrl": "https://www.un.org/sites/un2.un.org/files/2021/10/un-charter.jpg",
+                    "imageDescription": "Assinatura da Carta das Nações Unidas em 1945."
+                },
+                {
+                    "text": "Tratado de Potsdam",
+                    "isCorrect": false,
+                    "explanation": "Potsdam dividiu a Alemanha.\nA ONU nasceu da Carta das Nações Unidas!"
+                },
+                {
+                    "text": "Pacto de Paris",
+                    "isCorrect": false,
+                    "explanation": "Paris ficou para depois.\nA ONU foi criada pela Carta das Nações Unidas!"
+                }
+            ]
+        },
+        {
+            "id": "61",
+            "question": "Qual era o nome do navio americano que afundou no ataque a Pearl Harbor e virou memorial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "USS Missouri",
+                    "isCorrect": false,
+                    "explanation": "O Missouri foi palco da rendição japonesa,\nmas não afundou em Pearl Harbor!"
+                },
+                {
+                    "text": "USS Arizona",
+                    "isCorrect": true,
+                    "explanation": "O USS Arizona virou memorial submerso.\nAté hoje, lágrimas e flores descem ao fundo!\n",
+                    "imageUrl": "https://www.nps.gov/common/uploads/structured_data/3C7B1B5C-1DD8-B71B-0B9F1A4F9A6E7B5E.jpg",
+                    "imageDescription": "Memorial do USS Arizona em Pearl Harbor."
+                },
+                {
+                    "text": "USS Enterprise",
+                    "isCorrect": false,
+                    "explanation": "Enterprise sobreviveu a muitos combates.\nO Arizona ficou para a história!"
+                },
+                {
+                    "text": "USS Yorktown",
+                    "isCorrect": false,
+                    "explanation": "Yorktown afundou depois, em Midway.\nPearl Harbor foi o Arizona!"
+                }
+            ]
+        },
+        {
+            "id": "62",
+            "question": "Qual foi o nome do plano alemão para invadir a União Soviética?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Operação Barbarossa",
+                    "isCorrect": true,
+                    "explanation": "Operação Barbarossa foi a maior invasão terrestre da história.\nOs russos sentiram o frio, e os alemães também!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/barbarossa.jpg",
+                    "imageDescription": "Tropas alemãs avançando na União Soviética durante a Operação Barbarossa."
+                },
+                {
+                    "text": "Operação Tufão",
+                    "isCorrect": false,
+                    "explanation": "Tufão foi só para Moscou.\nO plano geral era Barbarossa!"
+                },
+                {
+                    "text": "Operação Overlord",
+                    "isCorrect": false,
+                    "explanation": "Overlord foi na Normandia.\nA Rússia sentiu mesmo foi o Barbarossa!"
+                },
+                {
+                    "text": "Operação Leão Marinho",
+                    "isCorrect": false,
+                    "explanation": "Leão Marinho era para a Inglaterra.\nRússia era Barbarossa!"
+                }
+            ]
+        },
+        {
+            "id": "63",
+            "question": "Qual foi o nome do pacto de não agressão entre Alemanha e União Soviética?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Pacto de Varsóvia",
+                    "isCorrect": false,
+                    "explanation": "Varsóvia só apareceu na Guerra Fria.\nO pacto da Segunda Guerra era outro!"
+                },
+                {
+                    "text": "Pacto Molotov-Ribbentrop",
+                    "isCorrect": true,
+                    "explanation": "Molotov e Ribbentrop apertaram as mãos.\nMas logo depois, um deles esqueceu o combinado!\n",
+                    "imageUrl": "https://www.bundesarchiv.de/DE/Navigation/Finden/Bilder/_functions/getBild.php?bild=bild183-1984-1206-500.jpg",
+                    "imageDescription": "Molotov e Ribbentrop assinando o pacto."
+                },
+                {
+                    "text": "Pacto de Munique",
+                    "isCorrect": false,
+                    "explanation": "Munique foi só conversa fiada.\nO pacto com a URSS era outro!"
+                },
+                {
+                    "text": "Pacto de Paris",
+                    "isCorrect": false,
+                    "explanation": "Paris ficou para depois.\nO pacto de não agressão era Molotov-Ribbentrop!"
+                }
+            ]
+        },
+        {
+            "id": "64",
+            "question": "Qual era o nome do principal avião de caça alemão durante a Segunda Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Spitfire",
+                    "isCorrect": false,
+                    "explanation": "Spitfire era britânico.\nO alemão era bem mais difícil de pronunciar!"
+                },
+                {
+                    "text": "Messerschmitt Bf 109",
+                    "isCorrect": true,
+                    "explanation": "O Bf 109 era o terror dos céus aliados.\nOs pilotos aliados suavam só de ouvir o nome!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/messerschmitt.jpg",
+                    "imageDescription": "Caça Messerschmitt Bf 109 alemão em voo."
+                },
+                {
+                    "text": "Mustang",
+                    "isCorrect": false,
+                    "explanation": "Mustang era americano.\nO alemão era Messerschmitt!"
+                },
+                {
+                    "text": "Zero",
+                    "isCorrect": false,
+                    "explanation": "Zero era japonês.\nO alemão era Bf 109!"
+                }
+            ]
+        },
+        {
+            "id": "65",
+            "question": "Qual foi o nome da operação aliada para invadir o sul da França em 1944?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Operação Overlord",
+                    "isCorrect": false,
+                    "explanation": "Overlord foi na Normandia.\nO sul da França teve outro nome!"
+                },
+                {
+                    "text": "Operação Dragoon",
+                    "isCorrect": true,
+                    "explanation": "Dragoon colocou os aliados na Riviera.\nOs alemães não esperavam tanto sol e praia!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/dragoon.jpg",
+                    "imageDescription": "Tropas aliadas desembarcando no sul da França."
+                },
+                {
+                    "text": "Operação Husky",
+                    "isCorrect": false,
+                    "explanation": "Husky foi na Sicília.\nO sul da França foi Dragoon!"
+                },
+                {
+                    "text": "Operação Torch",
+                    "isCorrect": false,
+                    "explanation": "Torch foi no norte da África.\nO sul da França foi Dragoon!"
+                }
+            ]
+        },
+        {
+            "id": "66",
+            "question": "Qual foi o nome do famoso bombardeiro britânico usado na destruição de represas alemãs?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Lancaster",
+                    "isCorrect": true,
+                    "explanation": "O Lancaster era o preferido dos britânicos.\nAs represas alemãs que o digam!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/lancaster.jpg",
+                    "imageDescription": "Bombardeiro Lancaster da RAF em voo."
+                },
+                {
+                    "text": "Wellington",
+                    "isCorrect": false,
+                    "explanation": "Wellington era bom,\nmas o show foi do Lancaster!"
+                },
+                {
+                    "text": "Halifax",
+                    "isCorrect": false,
+                    "explanation": "Halifax também bombardeou,\nmas as represas caíram com o Lancaster!"
+                },
+                {
+                    "text": "B-17",
+                    "isCorrect": false,
+                    "explanation": "B-17 era americano.\nAs represas sentiram o peso do Lancaster!"
+                }
+            ]
+        },
+        {
+            "id": "67",
+            "question": "Qual foi o nome da operação de sabotagem norueguesa que atrasou o programa nuclear alemão?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Operação Gunnerside",
+                    "isCorrect": true,
+                    "explanation": "Gunnerside explodiu a fábrica de água pesada.\nOs alemães ficaram só com água comum!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/gunnerside.jpg",
+                    "imageDescription": "Comando norueguês da Operação Gunnerside."
+                },
+                {
+                    "text": "Operação Market Garden",
+                    "isCorrect": false,
+                    "explanation": "Market Garden foi na Holanda.\nA sabotagem foi na Noruega!"
+                },
+                {
+                    "text": "Operação Chastise",
+                    "isCorrect": false,
+                    "explanation": "Chastise foi contra represas.\nA sabotagem nuclear foi Gunnerside!"
+                },
+                {
+                    "text": "Operação Fortitude",
+                    "isCorrect": false,
+                    "explanation": "Fortitude era enganar alemão.\nA sabotagem norueguesa foi Gunnerside!"
+                }
+            ]
+        },
+        {
+            "id": "68",
+            "question": "Qual era o nome do primeiro-ministro britânico no início da guerra?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Winston Churchill",
+                    "isCorrect": false,
+                    "explanation": "Churchill só assumiu depois.\nO começo foi com outro guarda-chuva!"
+                },
+                {
+                    "text": "Neville Chamberlain",
+                    "isCorrect": true,
+                    "explanation": "Chamberlain tentou garantir a paz, mas não deu certo.\nChurchill pegou o bastão depois!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/chamberlain.jpg",
+                    "imageDescription": "Neville Chamberlain com seu famoso guarda-chuva."
+                },
+                {
+                    "text": "Anthony Eden",
+                    "isCorrect": false,
+                    "explanation": "Eden só virou chefe depois da guerra.\nO início foi com Chamberlain!"
+                },
+                {
+                    "text": "Clement Attlee",
+                    "isCorrect": false,
+                    "explanation": "Attlee só brilhou no pós-guerra.\nChamberlain abriu a guerra!"
+                }
+            ]
+        },
+        {
+            "id": "69",
+            "question": "Qual foi o nome do tratado que pôs fim à guerra entre o Japão e os Aliados?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Tratado de Versalhes",
+                    "isCorrect": false,
+                    "explanation": "Versalhes foi da Primeira Guerra.\nO Japão assinou outro tratado!"
+                },
+                {
+                    "text": "Tratado de San Francisco",
+                    "isCorrect": true,
+                    "explanation": "San Francisco selou a paz com o Japão.\nAgora era só sushi e diplomacia!\n",
+                    "imageUrl": "https://www.unesco.org/library/sites/default/files/styles/hero_image/public/2020-06/sanfrancisco.jpg",
+                    "imageDescription": "Assinatura do Tratado de Paz de San Francisco."
+                },
+                {
+                    "text": "Tratado de Potsdam",
+                    "isCorrect": false,
+                    "explanation": "Potsdam foi a rendição.\nSan Francisco foi a paz oficial!"
+                },
+                {
+                    "text": "Carta das Nações Unidas",
+                    "isCorrect": false,
+                    "explanation": "A Carta criou a ONU.\nO tratado com o Japão foi outro!"
+                }
+            ]
+        },
+        {
+            "id": "70",
+            "question": "Qual foi o nome do famoso general americano apelidado de 'Old Blood and Guts'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Dwight D. Eisenhower",
+                    "isCorrect": false,
+                    "explanation": "Eisenhower era o chefe,\nmas não era 'Old Blood and Guts'!"
+                },
+                {
+                    "text": "George S. Patton",
+                    "isCorrect": true,
+                    "explanation": "Patton era tão durão que até os tanques tremiam.\n'Old Blood and Guts' era seu apelido de guerra!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/patton.jpg",
+                    "imageDescription": "General Patton com seu capacete característico."
+                },
+                {
+                    "text": "Omar Bradley",
+                    "isCorrect": false,
+                    "explanation": "Bradley era mais calmo.\nPatton era o explosivo do grupo!"
+                },
+                {
+                    "text": "Douglas MacArthur",
+                    "isCorrect": false,
+                    "explanation": "MacArthur era famoso no Pacífico.\n'Old Blood and Guts' era Patton!"
+                }
+            ]
+        },
+        {
+            "id": "71",
+            "question": "Qual foi o nome da conferência onde Churchill, Roosevelt e Stalin decidiram o destino da Alemanha?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Conferência de Yalta",
+                    "isCorrect": false,
+                    "explanation": "Yalta decidiu o futuro da Europa.\nO destino da Alemanha foi em outro lugar!"
+                },
+                {
+                    "text": "Conferência de Potsdam",
+                    "isCorrect": true,
+                    "explanation": "Potsdam dividiu a Alemanha e selou o pós-guerra.\nOs líderes estavam cansados, mas decidiram tudo!\n",
+                    "imageUrl": "https://www.history.com/.image/t_share/MTYyNzY2NzgxNjYwMzY5NjIz/potsdam-conference.jpg",
+                    "imageDescription": "Líderes aliados reunidos na Conferência de Potsdam."
+                },
+                {
+                    "text": "Conferência de Paris",
+                    "isCorrect": false,
+                    "explanation": "Paris ficou para os tratados.\nA Alemanha foi decidida em Potsdam!"
+                },
+                {
+                    "text": "Conferência de Casablanca",
+                    "isCorrect": false,
+                    "explanation": "Casablanca foi importante,\nmas a Alemanha foi em Potsdam!"
+                }
+            ]
+        },
+        {
+            "id": "72",
+            "question": "Qual foi o nome do campo de extermínio nazista localizado na Polônia, além de Auschwitz?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Treblinka",
+                    "isCorrect": true,
+                    "explanation": "Treblinka foi palco de horrores indescritíveis.\nInfelizmente, ficou tristemente famoso.\n",
+                    "imageUrl": "https://www.ushmm.org/m/img/treblinka.jpg",
+                    "imageDescription": "Memorial de Treblinka na Polônia."
+                },
+                {
+                    "text": "Dachau",
+                    "isCorrect": false,
+                    "explanation": "Dachau era na Alemanha.\nTreblinka foi na Polônia!"
+                },
+                {
+                    "text": "Bergen-Belsen",
+                    "isCorrect": false,
+                    "explanation": "Bergen-Belsen também era na Alemanha.\nTreblinka foi na Polônia!"
+                },
+                {
+                    "text": "Sobibor",
+                    "isCorrect": false,
+                    "explanation": "Sobibor também foi na Polônia,\nmas Treblinka ficou mais conhecido!"
+                }
+            ]
+        },
+        {
+            "id": "73",
+            "question": "Qual foi o nome da operação aliada para libertar a Holanda em 1944?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Operação Market Garden",
+                    "isCorrect": true,
+                    "explanation": "Market Garden foi ousada, mas quase deu ruim.\nOs paraquedistas viraram lenda (e filme)!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/marketgarden.jpg",
+                    "imageDescription": "Paraquedistas aliados durante a Operação Market Garden."
+                },
+                {
+                    "text": "Operação Overlord",
+                    "isCorrect": false,
+                    "explanation": "Overlord foi na França.\nA Holanda foi com Market Garden!"
+                },
+                {
+                    "text": "Operação Torch",
+                    "isCorrect": false,
+                    "explanation": "Torch foi no norte da África.\nA Holanda foi com Market Garden!"
+                },
+                {
+                    "text": "Operação Dragoon",
+                    "isCorrect": false,
+                    "explanation": "Dragoon foi no sul da França.\nA Holanda foi com Market Garden!"
+                }
+            ]
+        },
+        {
+            "id": "74",
+            "question": "Qual foi o nome do famoso caça britânico que participou da Batalha da Grã-Bretanha?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Spitfire",
+                    "isCorrect": true,
+                    "explanation": "O Spitfire virou lenda nos céus britânicos.\nOs pilotos adoravam suas asas!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/spitfire.jpg",
+                    "imageDescription": "Supermarine Spitfire voando durante a Segunda Guerra."
+                },
+                {
+                    "text": "Hurricane",
+                    "isCorrect": false,
+                    "explanation": "Hurricane ajudou muito,\nmas o Spitfire roubou a cena!"
+                },
+                {
+                    "text": "Mustang",
+                    "isCorrect": false,
+                    "explanation": "Mustang era americano.\nO britânico era Spitfire!"
+                },
+                {
+                    "text": "Zero",
+                    "isCorrect": false,
+                    "explanation": "Zero era japonês.\nO britânico era Spitfire!"
+                }
+            ]
+        },
+        {
+            "id": "75",
+            "question": "Qual foi o nome do famoso submarino alemão temido no Atlântico?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "U-boat",
+                    "isCorrect": true,
+                    "explanation": "Os U-boats fizeram os aliados suarem frio.\nOs peixes não gostavam nada deles!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/uboat.jpg",
+                    "imageDescription": "U-boat alemão navegando no Atlântico."
+                },
+                {
+                    "text": "Destroyer",
+                    "isCorrect": false,
+                    "explanation": "Destroyer era o caçador,\nmas o terror era o submarino mesmo!"
+                },
+                {
+                    "text": "Corveta",
+                    "isCorrect": false,
+                    "explanation": "Corveta era o navio de escolta.\nO perigo vinha debaixo d'água!"
+                },
+                {
+                    "text": "Liberty Ship",
+                    "isCorrect": false,
+                    "explanation": "Liberty Ship era o alvo favorito dos U-boats!\n"
+                }
+            ]
+        },
+        {
+            "id": "76",
+            "question": "Qual foi o nome do famoso código alemão decifrado pelos britânicos durante a guerra?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Código Morse",
+                    "isCorrect": false,
+                    "explanation": "Morse era universal.\nO segredo alemão era mais complicado!"
+                },
+                {
+                    "text": "Enigma",
+                    "isCorrect": true,
+                    "explanation": "O Enigma confundiu muita gente.\nMas os britânicos adoraram decifrar mistérios!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/enigma.jpg",
+                    "imageDescription": "Máquina Enigma usada pelos alemães."
+                },
+                {
+                    "text": "Ultra",
+                    "isCorrect": false,
+                    "explanation": "Ultra era o nome da operação.\nO código mesmo era Enigma!"
+                },
+                {
+                    "text": "Cifra de César",
+                    "isCorrect": false,
+                    "explanation": "César já tinha passado.\nOs alemães gostavam de tecnologia!"
+                }
+            ]
+        },
+        {
+            "id": "77",
+            "question": "Qual foi o nome do famoso comandante americano no Pacífico que prometeu 'Eu voltarei'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Dwight D. Eisenhower",
+                    "isCorrect": false,
+                    "explanation": "Eisenhower era o chefe na Europa.\nNo Pacífico, o retorno era promessa de outro general!"
+                },
+                {
+                    "text": "Douglas MacArthur",
+                    "isCorrect": true,
+                    "explanation": "MacArthur prometeu e cumpriu: voltou às Filipinas!\nOs japoneses não gostaram nada da visita!\n",
+                    "imageUrl": "https://www.history.com/.image/t_share/MTYyNzY2NzgxNjYwMzY5NjIz/macarthur-return.jpg",
+                    "imageDescription": "General MacArthur retornando às Filipinas."
+                },
+                {
+                    "text": "George S. Patton",
+                    "isCorrect": false,
+                    "explanation": "Patton era estrela na Europa.\nNo Pacífico, quem mandava era MacArthur!"
+                },
+                {
+                    "text": "Omar Bradley",
+                    "isCorrect": false,
+                    "explanation": "Bradley era importante na Europa.\nNo Pacífico, MacArthur roubou a cena!"
+                }
+            ]
+        },
+        {
+            "id": "78",
+            "question": "Qual foi o nome do ataque aéreo britânico que destruiu represas no Vale do Ruhr?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Operação Chastise",
+                    "isCorrect": true,
+                    "explanation": "Chastise usou bombas saltitantes para explodir represas.\nOs alemães ficaram sem água e sem paciência!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/chastise.jpg",
+                    "imageDescription": "Bombardeiro Lancaster da RAF após a Operação Chastise."
+                },
+                {
+                    "text": "Operação Gomorra",
+                    "isCorrect": false,
+                    "explanation": "Gomorra foi em Hamburgo.\nAs represas caíram com Chastise!"
+                },
+                {
+                    "text": "Operação Fortitude",
+                    "isCorrect": false,
+                    "explanation": "Fortitude era só enganação.\nChastise explodiu represas de verdade!"
+                },
+                {
+                    "text": "Operação Husky",
+                    "isCorrect": false,
+                    "explanation": "Husky foi na Sicília.\nAs represas sentiram o peso de Chastise!"
+                }
+            ]
+        },
+        {
+            "id": "79",
+            "question": "Qual foi o nome do famoso navio de guerra japonês afundado na Batalha de Midway?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Yamato",
+                    "isCorrect": false,
+                    "explanation": "O Yamato era o gigante dos mares,\nmas não estava em Midway!"
+                },
+                {
+                    "text": "Akagi",
+                    "isCorrect": true,
+                    "explanation": "O Akagi era orgulho japonês.\nEm Midway, virou história submersa!\n",
+                    "imageUrl": "https://pacificwar-db.com/wp-content/uploads/2019/01/akagi.jpg",
+                    "imageDescription": "Porta-aviões japonês Akagi antes da Batalha de Midway."
+                },
+                {
+                    "text": "Musashi",
+                    "isCorrect": false,
+                    "explanation": "Musashi afundou depois.\nEm Midway, o Akagi foi o destaque!"
+                },
+                {
+                    "text": "Shinano",
+                    "isCorrect": false,
+                    "explanation": "Shinano era gigante, mas não estava em Midway!"
+                }
+            ]
+        },
+        {
+            "id": "80",
+            "question": "Qual foi o nome do famoso campo de concentração nazista libertado pelos americanos em 1945?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Auschwitz",
+                    "isCorrect": false,
+                    "explanation": "Auschwitz foi libertado pelos soviéticos.\nOs americanos chegaram em outro campo!"
+                },
+                {
+                    "text": "Dachau",
+                    "isCorrect": true,
+                    "explanation": "Dachau foi libertado pelos americanos.\nO choque foi tão grande quanto a vitória!\n",
+                    "imageUrl": "https://www.ushmm.org/m/img/dachau.jpg",
+                    "imageDescription": "Portão de entrada do campo de Dachau após a libertação."
+                },
+                {
+                    "text": "Treblinka",
+                    "isCorrect": false,
+                    "explanation": "Treblinka foi destruído antes.\nDachau foi libertado pelos americanos!"
+                },
+                {
+                    "text": "Sobibor",
+                    "isCorrect": false,
+                    "explanation": "Sobibor também foi destruído antes.\nDachau ficou para os americanos!"
+                }
+            ]
+        },
+        {
+            "id": "81",
+            "question": "Qual foi o nome da famosa batalha que marcou o início da derrota japonesa no Pacífico?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Batalha de Iwo Jima",
+                    "isCorrect": false,
+                    "explanation": "Iwo Jima foi importante,\nmas a virada veio antes!"
+                },
+                {
+                    "text": "Batalha de Midway",
+                    "isCorrect": true,
+                    "explanation": "Midway virou o jogo no Pacífico.\nOs japoneses perderam quatro porta-aviões!\n",
+                    "imageUrl": "https://www.history.com/.image/t_share/MTYyNzY2NzgxNjYwMzY5NjIz/midway.jpg",
+                    "imageDescription": "Porta-aviões americano em ação na Batalha de Midway."
+                },
+                {
+                    "text": "Batalha de Okinawa",
+                    "isCorrect": false,
+                    "explanation": "Okinawa foi quase o fim.\nA virada foi em Midway!"
+                },
+                {
+                    "text": "Batalha de Guadalcanal",
+                    "isCorrect": false,
+                    "explanation": "Guadalcanal foi dura,\nmas Midway mudou tudo!"
+                }
+            ]
+        },
+        {
+            "id": "82",
+            "question": "Qual foi o nome do famoso bombardeio aéreo sobre Dresden em 1945?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Operação Gomorra",
+                    "isCorrect": false,
+                    "explanation": "Gomorra foi em Hamburgo.\nDresden pegou fogo em outra operação!"
+                },
+                {
+                    "text": "Bombardeio de Dresden",
+                    "isCorrect": true,
+                    "explanation": "O bombardeio de Dresden deixou a cidade em ruínas.\nVirou debate até hoje!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/dresden.jpg",
+                    "imageDescription": "Ruínas de Dresden após o bombardeio aliado."
+                },
+                {
+                    "text": "Operação Chastise",
+                    "isCorrect": false,
+                    "explanation": "Chastise foi contra represas.\nDresden foi bombardeada direto!"
+                },
+                {
+                    "text": "Operação Tufão",
+                    "isCorrect": false,
+                    "explanation": "Tufão foi na Rússia.\nDresden sentiu o peso das bombas!"
+                }
+            ]
+        },
+        {
+            "id": "83",
+            "question": "Qual foi o nome do famoso caça americano que escoltava bombardeiros sobre a Europa?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Spitfire",
+                    "isCorrect": false,
+                    "explanation": "Spitfire era britânico.\nO americano era outro campeão!"
+                },
+                {
+                    "text": "P-51 Mustang",
+                    "isCorrect": true,
+                    "explanation": "O Mustang voava longe e rápido.\nOs bombardeiros se sentiam protegidos!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/p51.jpg",
+                    "imageDescription": "Caça P-51 Mustang americano em voo."
+                },
+                {
+                    "text": "Zero",
+                    "isCorrect": false,
+                    "explanation": "Zero era japonês.\nO Mustang era o terror dos alemães!"
+                },
+                {
+                    "text": "Messerschmitt",
+                    "isCorrect": false,
+                    "explanation": "Messerschmitt era alemão.\nO Mustang era americano!"
+                }
+            ]
+        },
+        {
+            "id": "84",
+            "question": "Qual foi o nome do famoso ataque japonês com aviões suicidas?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Kamikaze",
+                    "isCorrect": true,
+                    "explanation": "Os Kamikazes eram pilotos determinados.\nOs navios aliados não gostavam nada deles!\n",
+                    "imageUrl": "https://www.history.com/.image/t_share/MTYyNzY2NzgxNjYwMzY5NjIz/kamikaze.jpg",
+                    "imageDescription": "Piloto kamikaze japonês se preparando para a missão."
+                },
+                {
+                    "text": "Banzai",
+                    "isCorrect": false,
+                    "explanation": "Banzai era grito de guerra.\nKamikaze era missão suicida!"
+                },
+                {
+                    "text": "Harakiri",
+                    "isCorrect": false,
+                    "explanation": "Harakiri era ritual de honra.\nKamikaze era ataque aéreo!"
+                },
+                {
+                    "text": "Seppuku",
+                    "isCorrect": false,
+                    "explanation": "Seppuku era suicídio ritual.\nKamikaze era nos céus!"
+                }
+            ]
+        },
+        {
+            "id": "85",
+            "question": "Qual foi o nome do famoso campo de concentração libertado pelos britânicos em 1945?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Auschwitz",
+                    "isCorrect": false,
+                    "explanation": "Auschwitz foi libertado pelos soviéticos.\nOs britânicos chegaram em outro campo!"
+                },
+                {
+                    "text": "Bergen-Belsen",
+                    "isCorrect": true,
+                    "explanation": "Bergen-Belsen foi libertado pelos britânicos.\nAté Anne Frank passou por lá!\n",
+                    "imageUrl": "https://www.ushmm.org/m/img/bergen-belsen.jpg",
+                    "imageDescription": "Portão de entrada do campo de Bergen-Belsen após a libertação."
+                },
+                {
+                    "text": "Dachau",
+                    "isCorrect": false,
+                    "explanation": "Dachau foi libertado pelos americanos.\nBergen-Belsen ficou com os britânicos!"
+                },
+                {
+                    "text": "Treblinka",
+                    "isCorrect": false,
+                    "explanation": "Treblinka foi destruído antes.\nBergen-Belsen foi libertado pelos britânicos!"
+                }
+            ]
+        },
+        {
+            "id": "86",
+            "question": "Qual foi o nome do famoso navio de guerra alemão afundado no Atlântico Sul em 1939?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Bismarck",
+                    "isCorrect": false,
+                    "explanation": "O Bismarck afundou no Atlântico Norte.\nNo Sul, outro navio virou notícia!"
+                },
+                {
+                    "text": "Admiral Graf Spee",
+                    "isCorrect": true,
+                    "explanation": "O Graf Spee foi encurralado e afundado perto do Uruguai.\nVirou lenda nos mares do sul!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/grafspee.jpg",
+                    "imageDescription": "Navio Admiral Graf Spee ancorado pouco antes de ser afundado."
+                },
+                {
+                    "text": "Tirpitz",
+                    "isCorrect": false,
+                    "explanation": "Tirpitz ficou no norte.\nO sul foi palco do Graf Spee!"
+                },
+                {
+                    "text": "Scharnhorst",
+                    "isCorrect": false,
+                    "explanation": "Scharnhorst era outro navio famoso.\nO Graf Spee fez história no Atlântico Sul!"
+                }
+            ]
+        },
+        {
+            "id": "87",
+            "question": "Qual foi o nome da famosa ofensiva soviética que expulsou os alemães da Bielorrússia em 1944?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Operação Urano",
+                    "isCorrect": false,
+                    "explanation": "Urano foi em Stalingrado.\nNa Bielorrússia, a ofensiva era outra!"
+                },
+                {
+                    "text": "Operação Bagration",
+                    "isCorrect": true,
+                    "explanation": "Bagration foi um rolo compressor soviético.\nOs alemães correram para o oeste!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/bagration.jpg",
+                    "imageDescription": "Tropas soviéticas avançando durante a Operação Bagration."
+                },
+                {
+                    "text": "Operação Marte",
+                    "isCorrect": false,
+                    "explanation": "Marte foi outra ofensiva.\nBagration foi o terror dos alemães!"
+                },
+                {
+                    "text": "Operação Saturno",
+                    "isCorrect": false,
+                    "explanation": "Saturno foi depois de Stalingrado.\nBagration foi na Bielorrússia!"
+                }
+            ]
+        },
+        {
+            "id": "88",
+            "question": "Qual foi o nome do famoso navio de guerra britânico afundado pelo Bismarck?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "HMS Hood",
+                    "isCorrect": true,
+                    "explanation": "O Hood era orgulho britânico.\nO Bismarck afundou ele rapidinho!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/hood.jpg",
+                    "imageDescription": "HMS Hood navegando antes de ser afundado."
+                },
+                {
+                    "text": "HMS Prince of Wales",
+                    "isCorrect": false,
+                    "explanation": "Prince of Wales lutou contra o Bismarck,\nmas quem afundou foi o Hood!"
+                },
+                {
+                    "text": "HMS Rodney",
+                    "isCorrect": false,
+                    "explanation": "Rodney ajudou a afundar o Bismarck.\nMas o Hood virou história antes!"
+                },
+                {
+                    "text": "HMS Ark Royal",
+                    "isCorrect": false,
+                    "explanation": "Ark Royal era porta-aviões.\nO Hood era o gigante afundado!"
+                }
+            ]
+        },
+        {
+            "id": "89",
+            "question": "Qual foi o nome do famoso desembarque americano em uma ilha japonesa em 1945?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Desembarque de Okinawa",
+                    "isCorrect": true,
+                    "explanation": "Okinawa foi o maior desembarque do Pacífico.\nOs americanos suaram para conquistar a ilha!\n",
+                    "imageUrl": "https://www.history.com/.image/t_share/MTYyNzY2NzgxNjYwMzY5NjIz/okinawa.jpg",
+                    "imageDescription": "Fuzileiros americanos desembarcando em Okinawa."
+                },
+                {
+                    "text": "Desembarque de Iwo Jima",
+                    "isCorrect": false,
+                    "explanation": "Iwo Jima foi famoso,\nmas o maior foi em Okinawa!"
+                },
+                {
+                    "text": "Desembarque de Guadalcanal",
+                    "isCorrect": false,
+                    "explanation": "Guadalcanal foi antes.\nOkinawa foi o último grande desembarque!"
+                },
+                {
+                    "text": "Desembarque de Saipan",
+                    "isCorrect": false,
+                    "explanation": "Saipan foi importante,\nmas Okinawa foi o maior!"
+                }
+            ]
+        },
+        {
+            "id": "90",
+            "question": "Qual foi o nome do famoso campo de concentração nazista onde Anne Frank morreu?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Auschwitz",
+                    "isCorrect": false,
+                    "explanation": "Anne Frank passou por Auschwitz,\nmas morreu em outro campo!"
+                },
+                {
+                    "text": "Bergen-Belsen",
+                    "isCorrect": true,
+                    "explanation": "Anne Frank morreu em Bergen-Belsen.\nSua história emocionou o mundo!\n",
+                    "imageUrl": "https://www.ushmm.org/m/img/bergen-belsen.jpg",
+                    "imageDescription": "Portão de entrada do campo de Bergen-Belsen após a libertação."
+                },
+                {
+                    "text": "Treblinka",
+                    "isCorrect": false,
+                    "explanation": "Treblinka foi trágico,\nmas Anne Frank morreu em Bergen-Belsen!"
+                },
+                {
+                    "text": "Sobibor",
+                    "isCorrect": false,
+                    "explanation": "Sobibor foi outro campo terrível.\nAnne Frank morreu em Bergen-Belsen!"
+                }
+            ]
+        },
+        {
+            "id": "91",
+            "question": "Qual foi o nome do famoso general francês que liderou a França Livre durante a Segunda Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Philippe Pétain",
+                    "isCorrect": false,
+                    "explanation": "Pétain liderou o governo de Vichy,\nmas não era muito livre não!"
+                },
+                {
+                    "text": "Charles de Gaulle",
+                    "isCorrect": true,
+                    "explanation": "De Gaulle comandou a França Livre com bigode e bravura.\nVirou até presidente depois!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/degaulle.jpg",
+                    "imageDescription": "Charles de Gaulle discursando para a resistência francesa."
+                },
+                {
+                    "text": "Jean Moulin",
+                    "isCorrect": false,
+                    "explanation": "Moulin foi um herói da resistência,\nmas o chefe mesmo era De Gaulle."
+                },
+                {
+                    "text": "Pierre Laval",
+                    "isCorrect": false,
+                    "explanation": "Laval era do governo colaboracionista.\nNada de França Livre para ele!"
+                }
+            ]
+        },
+        {
+            "id": "92",
+            "question": "Qual foi o nome do famoso bombardeio aliado sobre Hamburgo em 1943?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Operação Chastise",
+                    "isCorrect": false,
+                    "explanation": "Chastise foi contra represas.\nHamburgo pegou fogo em outra operação!"
+                },
+                {
+                    "text": "Operação Gomorra",
+                    "isCorrect": true,
+                    "explanation": "Gomorra transformou Hamburgo em um inferno de fogo.\nOs alemães nunca esqueceram!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/gomorrah.jpg",
+                    "imageDescription": "Hamburgo em chamas após o bombardeio da Operação Gomorra."
+                },
+                {
+                    "text": "Operação Tufão",
+                    "isCorrect": false,
+                    "explanation": "Tufão foi na Rússia.\nHamburgo sentiu o calor de Gomorra!"
+                },
+                {
+                    "text": "Operação Market Garden",
+                    "isCorrect": false,
+                    "explanation": "Market Garden foi na Holanda.\nHamburgo foi Gomorra!"
+                }
+            ]
+        },
+        {
+            "id": "93",
+            "question": "Qual foi o nome do famoso grupo de resistência judaica no Gueto de Varsóvia?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Partisans",
+                    "isCorrect": false,
+                    "explanation": "Os partisans lutaram em vários lugares,\nmas o gueto teve seu próprio grupo!"
+                },
+                {
+                    "text": "Organização de Combate Judaica (ŻOB)",
+                    "isCorrect": true,
+                    "explanation": "A ŻOB liderou o levante do Gueto de Varsóvia.\nCoragem de sobra em tempos de horror!\n",
+                    "imageUrl": "https://www.ushmm.org/m/img/warsaw-ghetto-uprising.jpg",
+                    "imageDescription": "Combatentes judeus do Gueto de Varsóvia durante o levante."
+                },
+                {
+                    "text": "Maquis",
+                    "isCorrect": false,
+                    "explanation": "Maquis era na França.\nNo Gueto de Varsóvia, era ŻOB!"
+                },
+                {
+                    "text": "Gestapo",
+                    "isCorrect": false,
+                    "explanation": "Gestapo era o inimigo.\nA resistência era ŻOB!"
+                }
+            ]
+        },
+        {
+            "id": "94",
+            "question": "Qual foi o nome do famoso caça britânico a jato introduzido no final da guerra?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Hawker Hurricane",
+                    "isCorrect": false,
+                    "explanation": "Hurricane era rápido, mas não era a jato.\nO jato britânico era outro!"
+                },
+                {
+                    "text": "Gloster Meteor",
+                    "isCorrect": true,
+                    "explanation": "O Meteor foi o primeiro caça a jato britânico.\nOs alemães ficaram de olho no céu!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/meteor.jpg",
+                    "imageDescription": "Caça Gloster Meteor britânico em voo."
+                },
+                {
+                    "text": "Supermarine Spitfire",
+                    "isCorrect": false,
+                    "explanation": "Spitfire era lendário, mas não tinha turbina!\nO Meteor era o jato!"
+                },
+                {
+                    "text": "De Havilland Mosquito",
+                    "isCorrect": false,
+                    "explanation": "Mosquito era rápido, mas não a jato.\nO Meteor voava a turbina!"
+                }
+            ]
+        },
+        {
+            "id": "95",
+            "question": "Qual foi o nome do famoso general soviético que comandou a tomada de Berlim?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Nikita Khrushchev",
+                    "isCorrect": false,
+                    "explanation": "Khrushchev só brilhou no pós-guerra.\nO chefe em Berlim era outro!"
+                },
+                {
+                    "text": "Georgy Zhukov",
+                    "isCorrect": true,
+                    "explanation": "Zhukov comandou o cerco e a vitória em Berlim.\nOs alemães não tiveram chance!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/zhukov.jpg",
+                    "imageDescription": "Marechal Zhukov em uniforme soviético."
+                },
+                {
+                    "text": "Vasily Chuikov",
+                    "isCorrect": false,
+                    "explanation": "Chuikov foi herói em Stalingrado.\nBerlim ficou para Zhukov!"
+                },
+                {
+                    "text": "Konstantin Rokossovsky",
+                    "isCorrect": false,
+                    "explanation": "Rokossovsky foi grande general,\nmas Berlim era missão do Zhukov!"
+                }
+            ]
+        },
+        {
+            "id": "96",
+            "question": "Qual foi o nome do famoso ataque aéreo americano que destruiu a cidade de Hiroshima?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Operação Downfall",
+                    "isCorrect": false,
+                    "explanation": "Downfall era o plano de invasão do Japão.\nO ataque a Hiroshima teve outro nome!"
+                },
+                {
+                    "text": "Operação Centerboard I",
+                    "isCorrect": true,
+                    "explanation": "Centerboard I lançou a bomba em Hiroshima.\nO mundo nunca mais foi o mesmo!\n",
+                    "imageUrl": "https://www.history.com/.image/t_share/MTYyNzY2NzgxNjYwMzY5NjIz/hiroshima-bomb.jpg",
+                    "imageDescription": "Nuvem de cogumelo sobre Hiroshima após a explosão atômica."
+                },
+                {
+                    "text": "Operação Torch",
+                    "isCorrect": false,
+                    "explanation": "Torch foi no norte da África.\nHiroshima sentiu o Centerboard I!"
+                },
+                {
+                    "text": "Operação Husky",
+                    "isCorrect": false,
+                    "explanation": "Husky foi na Sicília.\nHiroshima foi Centerboard I!"
+                }
+            ]
+        },
+        {
+            "id": "97",
+            "question": "Qual foi o nome do famoso navio americano que transportou a bomba atômica até Tinian?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "USS Arizona",
+                    "isCorrect": false,
+                    "explanation": "O Arizona ficou em Pearl Harbor.\nO navio da bomba era outro!"
+                },
+                {
+                    "text": "USS Indianapolis",
+                    "isCorrect": true,
+                    "explanation": "O Indianapolis levou a bomba e depois virou história de tubarão.\nMissão secreta e final trágico!\n",
+                    "imageUrl": "https://www.history.com/.image/t_share/MTYyNzY2NzgxNjYwMzY5NjIz/indianapolis.jpg",
+                    "imageDescription": "Navio USS Indianapolis em alto-mar."
+                },
+                {
+                    "text": "USS Missouri",
+                    "isCorrect": false,
+                    "explanation": "Missouri foi palco da rendição japonesa.\nO Indianapolis carregou a bomba!"
+                },
+                {
+                    "text": "USS Enterprise",
+                    "isCorrect": false,
+                    "explanation": "Enterprise era porta-aviões.\nA bomba foi de carona no Indianapolis!"
+                }
+            ]
+        },
+        {
+            "id": "98",
+            "question": "Qual foi o nome do famoso diplomata sueco que salvou milhares de judeus em Budapeste?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Oskar Schindler",
+                    "isCorrect": false,
+                    "explanation": "Schindler salvou muitos, mas era alemão.\nO sueco era outro herói!"
+                },
+                {
+                    "text": "Raoul Wallenberg",
+                    "isCorrect": true,
+                    "explanation": "Wallenberg distribuiu passaportes e esperança.\nVirou lenda humanitária!\n",
+                    "imageUrl": "https://www.ushmm.org/m/img/wallenberg.jpg",
+                    "imageDescription": "Raoul Wallenberg, diplomata sueco, em foto de época."
+                },
+                {
+                    "text": "Chiune Sugihara",
+                    "isCorrect": false,
+                    "explanation": "Sugihara era japonês e também salvou vidas.\nO sueco era Wallenberg!"
+                },
+                {
+                    "text": "Jan Karski",
+                    "isCorrect": false,
+                    "explanation": "Karski foi mensageiro da resistência.\nWallenberg salvou em Budapeste!"
+                }
+            ]
+        },
+        {
+            "id": "99",
+            "question": "Qual foi o nome da famosa batalha onde os soviéticos cercaram e derrotaram o 6º Exército alemão?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Batalha de Moscou",
+                    "isCorrect": false,
+                    "explanation": "Moscou foi dura, mas o 6º Exército caiu em outra cidade!"
+                },
+                {
+                    "text": "Batalha de Stalingrado",
+                    "isCorrect": true,
+                    "explanation": "Stalingrado virou o jogo para os soviéticos.\nDepois disso, os alemães só desceram a ladeira!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/stalingrad.jpg",
+                    "imageDescription": "Ruínas de Stalingrado após a batalha."
+                },
+                {
+                    "text": "Batalha de Kursk",
+                    "isCorrect": false,
+                    "explanation": "Kursk foi tanque contra tanque.\nO cerco foi em Stalingrado!"
+                },
+                {
+                    "text": "Batalha de Berlim",
+                    "isCorrect": false,
+                    "explanation": "Berlim foi o fim da linha.\nO 6º Exército caiu antes!"
+                }
+            ]
+        },
+        {
+            "id": "100",
+            "question": "Qual foi o nome do famoso general americano que aceitou a rendição alemã em Reims?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Dwight D. Eisenhower",
+                    "isCorrect": false,
+                    "explanation": "Eisenhower era o chefe,\nmas quem assinou foi outro general!"
+                },
+                {
+                    "text": "Walter Bedell Smith",
+                    "isCorrect": true,
+                    "explanation": "Bedell Smith assinou a rendição alemã em Reims.\nDepois disso, só festa e alívio!\n",
+                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero_image/public/2020-06/bedellsmith.jpg",
+                    "imageDescription": "General Walter Bedell Smith em uniforme militar."
+                },
+                {
+                    "text": "Omar Bradley",
+                    "isCorrect": false,
+                    "explanation": "Bradley era importante,\nmas não assinou a rendição!"
+                },
+                {
+                    "text": "George S. Patton",
+                    "isCorrect": false,
+                    "explanation": "Patton era durão,\nmas Bedell Smith levou a caneta!"
                 }
             ]
         }

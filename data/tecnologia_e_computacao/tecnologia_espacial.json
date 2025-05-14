@@ -6,142 +6,2902 @@
     },
     "data": [
         {
-            "question": "Qual missão da NASA, em 1969, levou os primeiros humanos à Lua?",
+            "id": "01",
+            "question": "Qual foi o primeiro satélite artificial colocado em órbita?",
             "level": "fácil",
             "options": [
                 {
-                    "text": "Gemini 7",
+                    "text": "Explorer 1 (EUA)",
                     "isCorrect": false,
-                    "explanation": "Nããão, Gemini 7 foi em 1965, só orbitando a Terra. A missão que pisou na Lua é mais famosa, com um pequeno passo e tudo mais!"
+                    "explanation": "Quase! O Explorer 1 foi o primeiro satélite dos EUA,\nmas chegou 4 meses depois do 'bip-bip' soviético."
                 },
+                {
+                    "text": "Sputnik 1 (URSS)",
+                    "isCorrect": true,
+                    "explanation": "Exato! Lançado em 4/10/1957, seu sinal de rádio\ncausou o maior frisson na Guerra Fria! 🛰️\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/sputnik_1.jpg",
+                    "imageDescription": "Réplica do Sputnik 1 exibida no Museu do Ar e Espaço"
+                },
+                {
+                    "text": "Vanguard 1 (EUA)",
+                    "isCorrect": false,
+                    "explanation": "Errado! Este foi o quarto satélite lançado,\ne ficou famoso por... explodir na TV ao vivo!"
+                },
+                {
+                    "text": "Alouette 1 (Canadá)",
+                    "isCorrect": false,
+                    "explanation": "Não! O Canadá entrou no espaço só em 1962,\ncom este satélite de estudo da ionosfera."
+                }
+            ]
+        },
+        {
+            "id": "02",
+            "question": "Qual cosmonauta foi o primeiro humano a orbitar a Terra?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Neil Armstrong",
+                    "isCorrect": false,
+                    "explanation": "Errou! Armstrong foi à Lua, mas Gagarin\ndeu voltinhas na Terra primeiro em 1961!"
+                },
+                {
+                    "text": "Yuri Gagarin",
+                    "isCorrect": true,
+                    "explanation": "Correto! Em 12/04/1961, ele disse:\n'A Terra é azul' e entrou para a história! 🌍\n",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/99/Gagarin_in_Sweden.jpg",
+                    "imageDescription": "Yuri Gagarin sorrindo em traje espacial"
+                },
+                {
+                    "text": "Alan Shepard",
+                    "isCorrect": false,
+                    "explanation": "Quase! Shepard foi o primeiro americano no espaço,\nmas só fez voo suborbital 23 dias depois."
+                },
+                {
+                    "text": "Valentina Tereshkova",
+                    "isCorrect": false,
+                    "explanation": "Não! Ela foi a primeira mulher no espaço em 1963,\ndois anos após Gagarin."
+                }
+            ]
+        },
+        {
+            "id": "03",
+            "question": "Qual foi a primeira sonda a pousar suavemente na Lua?",
+            "level": "fácil",
+            "options": [
                 {
                     "text": "Apollo 11",
+                    "isCorrect": false,
+                    "explanation": "Errado! Apollo 11 foi a primeira missão tripulada,\nmas as sondas robóticas chegaram antes."
+                },
+                {
+                    "text": "Luna 9",
                     "isCorrect": true,
-                    "explanation": "Houston, temos um acerto! Apollo 11, em julho de 1969, levou Neil Armstrong e Buzz Aldrin à Lua, com o famoso 'um pequeno passo para o homem'. Um marco que fez o mundo olhar pras estrelas. Você é um astronauta!",
-                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/apollo_11_moonwalk.jpg",
-                    "imageDescription": "Imagem de Neil Armstrong na Lua durante a Apollo 11, com pegadas na superfície lunar e o módulo Eagle ao fundo, capturando o momento histórico de 1969."
+                    "explanation": "Acertou! Em 1966, a Luna 9 mostrou\nque pousar na Lua não era só para sonhadores!\n",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Luna_9_lander.jpg",
+                    "imageDescription": "Modelo da sonda Luna 9"
                 },
                 {
-                    "text": "Voyager 1",
+                    "text": "Surveyor 1",
                     "isCorrect": false,
-                    "explanation": "Ops, tá muito longe! Voyager 1, de 1977, explora o espaço profundo, não a Lua. Tente uma missão com astronautas e bandeiras!"
+                    "explanation": "Quase! Surveyor 1 foi a primeira dos EUA,\nmas chegou meses depois da Luna 9."
                 },
                 {
-                    "text": "Mercury 6",
+                    "text": "Chang'e 3",
                     "isCorrect": false,
-                    "explanation": "Nããão, Mercury 6 levou John Glenn à órbita em 1962. A Lua veio depois, com uma missão mais... lunar!"
+                    "explanation": "Não! Chang’e 3 é chinesa e pousou em 2013,\nquase 50 anos depois da Luna 9!"
                 }
             ]
         },
         {
-            "question": "Qual telescópio espacial, lançado em 1990, revolucionou a astronomia com imagens detalhadas do universo?",
+            "id": "04",
+            "question": "Qual é a principal função dos satélites GPS?",
             "level": "fácil",
             "options": [
                 {
-                    "text": "Kepler",
+                    "text": "Previsão do tempo",
                     "isCorrect": false,
-                    "explanation": "Nããão, Kepler, de 2009, caça exoplanetas, mas não é o mais famoso. O telescópio que queremos é um ícone, tirando fotos estelares desde os anos 90!"
+                    "explanation": "Errado! Quem prevê o tempo são satélites meteorológicos.\nO GPS te ajuda a não se perder por aí!"
                 },
                 {
-                    "text": "Hubble",
+                    "text": "Navegação e localização",
                     "isCorrect": true,
-                    "explanation": "Estelar, você acertou! O Telescópio Espacial Hubble, lançado em 1990, nos deu imagens incríveis de galáxias, nebulosas e até buracos negros. Ele é como o fotógrafo oficial do cosmos, sempre clicando o universo em HD!",
-                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/hubble_orbit.jpg",
-                    "imageDescription": "Imagem do Telescópio Espacial Hubble em órbita, com a Terra ao fundo, destacando sua estrutura brilhante que captura imagens icônicas do universo."
+                    "explanation": "Correto! Graças ao GPS, você nunca mais se perde,\na não ser que esqueça o celular em casa!\n",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/GPS_Satellite_NASA.jpg",
+                    "imageDescription": "Satélite GPS em órbita"
                 },
                 {
-                    "text": "James Webb",
+                    "text": "Transmissão de TV",
                     "isCorrect": false,
-                    "explanation": "Quase, mas não! James Webb, de 2021, é o sucessor, vendo mais longe no infravermelho. Tente o pioneiro dos anos 90!"
+                    "explanation": "Não! TV via satélite é outra constelação,\no GPS só quer te mostrar o caminho."
                 },
                 {
-                    "text": "Spitzer",
+                    "text": "Monitoramento de poluição",
                     "isCorrect": false,
-                    "explanation": "Nããão, Spitzer, de 2003, é um telescópio infravermelho. O que buscamos é mais velho, mais famoso e com fotos que todo mundo conhece!"
+                    "explanation": "Errado! Existem satélites para isso,\nmas o GPS só monitora sua localização."
                 }
             ]
         },
         {
-            "question": "Qual sonda, lançada em 1977, é o objeto humano mais distante da Terra, ainda enviando dados do espaço interestelar?",
-            "level": "médio",
+            "id": "05",
+            "question": "Qual foi o primeiro ônibus espacial reutilizável da NASA?",
+            "level": "fácil",
             "options": [
                 {
-                    "text": "Cassini",
+                    "text": "Atlantis",
                     "isCorrect": false,
-                    "explanation": "Nããão, Cassini explorou Saturno até 2017, mas não saiu do Sistema Solar. A sonda que buscamos tá bem mais longe, viajando entre as estrelas!"
+                    "explanation": "Errado! O Atlantis voou bastante,\nmas não foi o pioneiro da frota."
                 },
                 {
-                    "text": "Voyager 1",
+                    "text": "Columbia",
                     "isCorrect": true,
-                    "explanation": "Você é um explorador cósmico! Voyager 1, lançada em 1977, é o objeto humano mais distante, agora no espaço interestelar, enviando dados a mais de 24 bilhões de km da Terra. Ela carrega um disco de ouro pra alienígenas, caso eles queiram curtir Beatles!",
-                    "imageUrl": "https://www.jpl.nasa.gov/images/voyager/voyager-spacecraft.jpg",
-                    "imageDescription": "Imagem da sonda Voyager 1, com sua antena parabólica e instrumentos, flutuando no espaço, representando sua jornada ao espaço interestelar."
+                    "explanation": "Correto! O Columbia inaugurou a era dos ônibus espaciais\nem 1981, abrindo caminho para missões incríveis!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/columbia_sts1.jpg",
+                    "imageDescription": "Ônibus espacial Columbia na plataforma de lançamento"
                 },
                 {
-                    "text": "New Horizons",
+                    "text": "Discovery",
                     "isCorrect": false,
-                    "explanation": "Quase, mas não! New Horizons, de 2006, visitou Plutão, mas ainda tá no Cinturão de Kuiper. Tente uma sonda mais antiga e mais viajada!"
+                    "explanation": "Quase! O Discovery foi o terceiro,\nmas não o primeiro a voar."
+                },
+                {
+                    "text": "Challenger",
+                    "isCorrect": false,
+                    "explanation": "Não! O Challenger foi o segundo ônibus espacial,\nmas não o pioneiro."
+                }
+            ]
+        },
+        {
+            "id": "06",
+            "question": "Qual é o principal objetivo das missões Artemis da NASA?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Explorar Vênus",
+                    "isCorrect": false,
+                    "explanation": "Errado! Vênus é quente demais para a Artemis.\nO alvo é bem mais próximo e familiar!"
+                },
+                {
+                    "text": "Levar humanos de volta à Lua",
+                    "isCorrect": true,
+                    "explanation": "Correto! A Artemis quer botar astronautas na Lua\ne, quem sabe, abrir uma filial da NASA por lá!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/artemis-astronauts.jpg",
+                    "imageDescription": "Astronautas da missão Artemis treinando na Terra"
+                },
+                {
+                    "text": "Construir estação em Marte",
+                    "isCorrect": false,
+                    "explanation": "Ainda não! Primeiro a Lua, depois Marte.\nA Artemis é só o começo da aventura."
+                },
+                {
+                    "text": "Lançar telescópios espaciais",
+                    "isCorrect": false,
+                    "explanation": "Não! A Artemis quer mesmo é pisar na Lua,\nde telescópios a NASA já entende há décadas."
+                }
+            ]
+        },
+        {
+            "id": "07",
+            "question": "Qual o principal combustível usado nos foguetes Falcon 9 da SpaceX?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Hidrogênio líquido",
+                    "isCorrect": false,
+                    "explanation": "Errado! Hidrogênio é para foguetes clássicos.\nO Falcon 9 prefere um combustível mais... explosivo!"
+                },
+                {
+                    "text": "Querosene (RP-1) e oxigênio líquido",
+                    "isCorrect": true,
+                    "explanation": "Correto! O Falcon 9 mistura RP-1 (quase um diesel espacial)\ncom oxigênio líquido para voar alto!\n",
+                    "imageUrl": "https://www.spacex.com/static/images/falcon-9/F9_Launch_Desktop.jpg",
+                    "imageDescription": "Falcon 9 decolando da Flórida"
+                },
+                {
+                    "text": "Metano líquido",
+                    "isCorrect": false,
+                    "explanation": "Quase! O metano é para o Starship,\no Falcon 9 ainda é fã do querosene."
+                },
+                {
+                    "text": "Gasolina comum",
+                    "isCorrect": false,
+                    "explanation": "Não! Gasolina só serve para carro,\no Falcon 9 é exigente no combustível."
+                }
+            ]
+        },
+        {
+            "id": "08",
+            "question": "Qual estação espacial ficou mais tempo habitada continuamente?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Mir",
+                    "isCorrect": false,
+                    "explanation": "Quase! A Mir foi campeã por anos,\nmas perdeu o trono em 2010."
+                },
+                {
+                    "text": "Estação Espacial Internacional (ISS)",
+                    "isCorrect": true,
+                    "explanation": "Correto! A ISS é o apê mais duradouro do espaço,\nhabitada sem parar desde 2000!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/iss_2021.jpg",
+                    "imageDescription": "Foto da ISS orbitando a Terra"
+                },
+                {
+                    "text": "Tiangong",
+                    "isCorrect": false,
+                    "explanation": "Errado! A Tiangong é novinha,\nmas ainda tem muito arroz para comer na órbita!"
+                },
+                {
+                    "text": "Skylab",
+                    "isCorrect": false,
+                    "explanation": "Não! O Skylab foi o primeiro laboratório dos EUA,\nmas durou só alguns anos."
+                }
+            ]
+        },
+        {
+            "id": "09",
+            "question": "Qual foi a primeira nave a pousar em Marte com sucesso?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Curiosity",
+                    "isCorrect": false,
+                    "explanation": "Errado! O Curiosity é famoso,\nmas chegou bem depois dos pioneiros."
+                },
+                {
+                    "text": "Viking 1",
+                    "isCorrect": true,
+                    "explanation": "Correto! Em 1976, a Viking 1 pousou em Marte\ne fez história com suas fotos vermelhas!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/viking_lander.jpg",
+                    "imageDescription": "Modelo da Viking 1 em Marte"
+                },
+                {
+                    "text": "Sojourner",
+                    "isCorrect": false,
+                    "explanation": "Quase! O Sojourner foi o primeiro rover,\nmas só chegou em 1997."
+                },
+                {
+                    "text": "Mars Express",
+                    "isCorrect": false,
+                    "explanation": "Não! O Mars Express é europeu e só orbita Marte,\nnunca pousou por lá."
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "question": "Qual dessas tecnologias é essencial para a comunicação entre sondas e a Terra?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Rádio de ondas curtas",
+                    "isCorrect": false,
+                    "explanation": "Errado! Ondas curtas servem para rádio amador.\nNo espaço, é preciso potência e precisão."
+                },
+                {
+                    "text": "Antenas de alta-ganho",
+                    "isCorrect": true,
+                    "explanation": "Correto! Sem antena de alta-ganho,\nas sondas só mandariam 'alô?' para o infinito!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/dsn_antenna.jpg",
+                    "imageDescription": "Antena de alta-ganho do Deep Space Network"
+                },
+                {
+                    "text": "Cabos de fibra óptica",
+                    "isCorrect": false,
+                    "explanation": "Não! Já pensou um cabo Terra-Marte?\nIa faltar extensão!"
+                },
+                {
+                    "text": "Bluetooth",
+                    "isCorrect": false,
+                    "explanation": "Errado! Bluetooth nem atravessa parede,\nimagine o Sistema Solar!"
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "question": "Qual foi a primeira mulher a viajar ao espaço?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Sally Ride",
+                    "isCorrect": false,
+                    "explanation": "Errado! Sally Ride foi a primeira americana,\nmas a pioneira veio da URSS."
+                },
+                {
+                    "text": "Valentina Tereshkova",
+                    "isCorrect": true,
+                    "explanation": "Correto! Em 1963, Tereshkova provou\nque o espaço também é lugar de mulher!\n",
+                    "imageUrl": "https://www.roscosmos.ru/media/img/tereshkova.jpg",
+                    "imageDescription": "Valentina Tereshkova em traje de voo"
+                },
+                {
+                    "text": "Mae Jemison",
+                    "isCorrect": false,
+                    "explanation": "Não! Mae Jemison foi a primeira mulher negra no espaço,\nmas décadas depois de Tereshkova."
+                },
+                {
+                    "text": "Christa McAuliffe",
+                    "isCorrect": false,
+                    "explanation": "Errado! Christa era professora e astronauta,\nmas infelizmente não chegou ao espaço."
+                }
+            ]
+        },
+        {
+            "id": "12",
+            "question": "Qual é o maior benefício do uso de foguetes reutilizáveis?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Aumentar o lixo espacial",
+                    "isCorrect": false,
+                    "explanation": "Errado! O objetivo é justamente evitar\nmais sucata flutuando sobre nossas cabeças."
+                },
+                {
+                    "text": "Reduzir custos de lançamento",
+                    "isCorrect": true,
+                    "explanation": "Correto! Reutilizar foguetes é como usar Uber Pool:\nmuito mais barato para todo mundo!\n",
+                    "imageUrl": "https://www.spacex.com/static/images/falcon-9/landing_legs.jpg",
+                    "imageDescription": "Foguete Falcon 9 pousando para reutilização"
+                },
+                {
+                    "text": "Aumentar o peso dos satélites",
+                    "isCorrect": false,
+                    "explanation": "Não! O peso máximo não muda,\no que muda é o bolso do cliente!"
+                },
+                {
+                    "text": "Permitir viagens interestelares",
+                    "isCorrect": false,
+                    "explanation": "Ainda não! Reutilização ajuda na Terra,\nmas para as estrelas, vai demorar um pouco."
+                }
+            ]
+        },
+        {
+            "id": "13",
+            "question": "Qual dessas missões foi responsável por estudar os anéis de Saturno em detalhes?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Voyager 2",
+                    "isCorrect": false,
+                    "explanation": "Quase! A Voyager 2 passou por Saturno,\nmas só fez um 'pit stop' rápido."
+                },
+                {
+                    "text": "Cassini-Huygens",
+                    "isCorrect": true,
+                    "explanation": "Correto! A Cassini ficou anos em Saturno,\nvirou até especialista em anéis!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/cassini_saturn.jpg",
+                    "imageDescription": "Imagem dos anéis de Saturno capturada pela Cassini"
+                },
+                {
+                    "text": "Galileo",
+                    "isCorrect": false,
+                    "explanation": "Não! O Galileo foi para Júpiter,\nSaturno ficou só na saudade."
                 },
                 {
                     "text": "Pioneer 10",
                     "isCorrect": false,
-                    "explanation": "Nããão, Pioneer 10, de 1972, foi pioneira, mas parou de falar em 2003. A que queremos ainda tá batendo papo com a NASA!"
+                    "explanation": "Errado! O Pioneer 10 passou por Júpiter,\nmas Saturno ficou para depois."
                 }
             ]
         },
         {
-            "question": "Qual empresa, fundada por Elon Musk, lançou o primeiro foguete reutilizável a orbitar e pousar com sucesso em 2015?",
+            "id": "14",
+            "question": "Qual dessas tecnologias é fundamental para manter astronautas vivos na ISS?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Gerador de gravidade artificial",
+                    "isCorrect": false,
+                    "explanation": "Errado! Gravidade artificial só em filmes de ficção.\nNa ISS, a galera flutua mesmo!"
+                },
+                {
+                    "text": "Sistema de suporte à vida",
+                    "isCorrect": true,
+                    "explanation": "Correto! Sem suporte à vida, a ISS seria só\num apê com vista para o vácuo!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/iss_life_support.jpg",
+                    "imageDescription": "Painel de suporte à vida na ISS"
+                },
+                {
+                    "text": "Chuveiro de alta pressão",
+                    "isCorrect": false,
+                    "explanation": "Não! Banho na ISS é só com paninho úmido.\nChuveiro é luxo de quem está na Terra."
+                },
+                {
+                    "text": "Micro-ondas espacial",
+                    "isCorrect": false,
+                    "explanation": "Errado! Micro-ondas só serve para a comida,\no ar puro é mais importante!"
+                }
+            ]
+        },
+        {
+            "id": "15",
+            "question": "Qual país lançou a primeira estação espacial da história?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Estados Unidos",
+                    "isCorrect": false,
+                    "explanation": "Errado! Os EUA lançaram o Skylab,\nmas os soviéticos chegaram antes."
+                },
+                {
+                    "text": "União Soviética",
+                    "isCorrect": true,
+                    "explanation": "Correto! Em 1971, a Salyut 1 virou\npousada orbital antes de todo mundo!\n",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Salyut_1.jpg",
+                    "imageDescription": "Estação espacial Salyut 1 em órbita"
+                },
+                {
+                    "text": "China",
+                    "isCorrect": false,
+                    "explanation": "Não! A China só entrou na corrida espacial\ndécadas depois, com a Tiangong."
+                },
+                {
+                    "text": "França",
+                    "isCorrect": false,
+                    "explanation": "Errado! A França nunca lançou estação espacial,\napenas satélites e foguetes."
+                }
+            ]
+        },
+        {
+            "id": "16",
+            "question": "Qual dessas missões foi a primeira a trazer amostras do solo lunar para a Terra?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Apollo 11",
+                    "isCorrect": true,
+                    "explanation": "Correto! Neil Armstrong e Buzz Aldrin trouxeram\num 'souvenir' lunar em 1969!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/apollo11_moonrock.jpg",
+                    "imageDescription": "Amostra de solo lunar trazida pelo Apollo 11"
+                },
+                {
+                    "text": "Luna 16",
+                    "isCorrect": false,
+                    "explanation": "Quase! A Luna 16 foi a primeira robótica,\nmas chegou depois dos americanos."
+                },
+                {
+                    "text": "Chang'e 5",
+                    "isCorrect": false,
+                    "explanation": "Não! A Chang'e 5 é moderna,\nmas só trouxe amostras em 2020."
+                },
+                {
+                    "text": "Surveyor 3",
+                    "isCorrect": false,
+                    "explanation": "Errado! O Surveyor 3 pousou,\nmas não trouxe nada de volta."
+                }
+            ]
+        },
+        {
+            "id": "17",
+            "question": "Qual dessas empresas privadas realizou o primeiro voo orbital com tripulação civil?",
             "level": "médio",
             "options": [
                 {
                     "text": "Blue Origin",
                     "isCorrect": false,
-                    "explanation": "Nããão, Blue Origin, do Jeff Bezos, faz voos suborbitais, mas não foi a primeira em foguetes reutilizáveis orbitais. Tente a empresa de um cara mais... excêntrico!"
+                    "explanation": "Errado! A Blue Origin fez voos suborbitais,\nmas não orbitou a Terra com civis."
                 },
                 {
                     "text": "SpaceX",
                     "isCorrect": true,
-                    "explanation": "Foguete na veia, você acertou! A SpaceX, de Elon Musk, revolucionou o espaço com o Falcon 9, que em 2015 orbitou e pousou direitinho, reduzindo custos e sonhando com Marte. É tipo um foguete que volta pra casa depois da festa!",
-                    "imageUrl": "https://www.spacex.com/media/falcon9_landing.jpg",
-                    "imageDescription": "Imagem de um foguete Falcon 9 da SpaceX pousando verticalmente em uma plataforma, com chamas na base, destacando a tecnologia reutilizável."
+                    "explanation": "Correto! A missão Inspiration4 da SpaceX\nlevou civis para orbitar a Terra em 2021!\n",
+                    "imageUrl": "https://www.spacex.com/static/images/inspiration4/crew_dragon.jpg",
+                    "imageDescription": "Crew Dragon da SpaceX em órbita com civis"
                 },
                 {
-                    "text": "Boeing",
+                    "text": "Virgin Galactic",
                     "isCorrect": false,
-                    "explanation": "Quase, mas não! Boeing faz naves como o Starliner, mas não lidera em foguetes reutilizáveis. Tente uma empresa mais jovem e audaciosa!"
+                    "explanation": "Não! A Virgin Galactic só faz voos suborbitais,\nnada de dar voltas completas no planeta."
                 },
                 {
                     "text": "Rocket Lab",
                     "isCorrect": false,
-                    "explanation": "Nããão, Rocket Lab é legal com seus foguetes pequenos, mas não foi a pioneira em reusabilidade orbital. Tente a gigante dos lançamentos!"
+                    "explanation": "Errado! A Rocket Lab lança satélites,\nainda não levou humanos ao espaço."
                 }
             ]
         },
         {
-            "question": "Qual projeto da NASA, iniciado nos anos 2000, enviou rovers como Curiosity e Perseverance para explorar Marte?",
+            "id": "18",
+            "question": "Qual dessas tecnologias é usada para proteger satélites de radiação espacial?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Painéis solares reforçados",
+                    "isCorrect": false,
+                    "explanation": "Errado! Painéis solares captam energia,\nmas não protegem contra radiação."
+                },
+                {
+                    "text": "Blindagem eletromagnética",
+                    "isCorrect": true,
+                    "explanation": "Correto! Blindagem especial evita que\nos circuitos fritem no espaço!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/satellite_shielding.jpg",
+                    "imageDescription": "Satélite com blindagem contra radiação"
+                },
+                {
+                    "text": "Propulsores de plasma",
+                    "isCorrect": false,
+                    "explanation": "Não! Propulsores servem para mover o satélite,\nmas não para protegê-lo."
+                },
+                {
+                    "text": "Antenas direcionais",
+                    "isCorrect": false,
+                    "explanation": "Errado! Antenas só transmitem sinais,\na radiação passa direto por elas."
+                }
+            ]
+        },
+        {
+            "id": "19",
+            "question": "Qual dessas missões foi a primeira a orbitar Júpiter?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Pioneer 10",
+                    "isCorrect": false,
+                    "explanation": "Quase! O Pioneer 10 passou por Júpiter,\nmas não ficou em órbita."
+                },
+                {
+                    "text": "Galileo",
+                    "isCorrect": true,
+                    "explanation": "Correto! A Galileo entrou em órbita de Júpiter\nem 1995 e virou moradora do gigante!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/galileo_jupiter.jpg",
+                    "imageDescription": "Sonda Galileo com Júpiter ao fundo"
+                },
+                {
+                    "text": "Voyager 1",
+                    "isCorrect": false,
+                    "explanation": "Errado! A Voyager 1 só fez uma visita rápida,\nsem estacionar no planeta gigante."
+                },
+                {
+                    "text": "Juno",
+                    "isCorrect": false,
+                    "explanation": "Não! A Juno está lá agora,\nmas a pioneira foi a Galileo."
+                }
+            ]
+        },
+        {
+            "id": "20",
+            "question": "Qual dessas descobertas foi feita graças ao telescópio espacial Hubble?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Água líquida em Marte",
+                    "isCorrect": false,
+                    "explanation": "Errado! Essa foi descoberta por sondas em Marte,\no Hubble olha mais para longe!"
+                },
+                {
+                    "text": "Expansão acelerada do universo",
+                    "isCorrect": true,
+                    "explanation": "Correto! O Hubble ajudou a provar que\no universo está acelerando sua expansão!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/hubble_ultradeepfield.jpg",
+                    "imageDescription": "Imagem do Hubble mostrando galáxias distantes"
+                },
+                {
+                    "text": "Vulcões ativos em Io",
+                    "isCorrect": false,
+                    "explanation": "Não! Os vulcões de Io foram flagrados\npela Voyager, não pelo Hubble."
+                },
+                {
+                    "text": "Asteróides troianos em Júpiter",
+                    "isCorrect": false,
+                    "explanation": "Errado! Os troianos já eram conhecidos antes,\no Hubble só confirmou algumas órbitas."
+                }
+            ]
+        },
+        {
+            "id": "21",
+            "question": "Qual foi o principal objetivo da missão Mars Pathfinder, lançada em 1996?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Levar humanos a Marte",
+                    "isCorrect": false,
+                    "explanation": "Ainda não chegamos lá! Pathfinder foi só o começo,\num robozinho curioso explorando o planeta vermelho."
+                },
+                {
+                    "text": "Demonstrar tecnologia de pouso e explorar Marte com um rover",
+                    "isCorrect": true,
+                    "explanation": "Correto! O Sojourner foi o primeiro rover a passear em Marte,\nabrindo caminho para os robôs aventureiros!\n",
+                    "imageUrl": "https://mars.nasa.gov/system/news_items/main_images/8779_PIA21497-16.jpg",
+                    "imageDescription": "Rover Sojourner em Marte durante a missão Pathfinder"
+                },
+                {
+                    "text": "Buscar vida inteligente em Marte",
+                    "isCorrect": false,
+                    "explanation": "Ainda não encontramos marcianos,\nmas encontramos muitas pedras!"
+                },
+                {
+                    "text": "Construir uma base marciana",
+                    "isCorrect": false,
+                    "explanation": "Base em Marte? Só nos filmes!\nO Pathfinder só tirou fotos e fez ciência."
+                }
+            ]
+        },
+        {
+            "id": "22",
+            "question": "Qual dessas sondas foi a primeira a sair do Sistema Solar?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Pioneer 10",
+                    "isCorrect": true,
+                    "explanation": "Correto! Pioneer 10 foi o desbravador,\nprimeira a cruzar o cinturão de asteroides e sair do Sistema Solar!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/pioneer10-artist.jpg",
+                    "imageDescription": "Ilustração da Pioneer 10 viajando pelo espaço interestelar"
+                },
+                {
+                    "text": "Voyager 2",
+                    "isCorrect": false,
+                    "explanation": "Quase! A Voyager 2 também saiu,\nmas a Pioneer 10 foi mais rápida no gatilho."
+                },
+                {
+                    "text": "Cassini",
+                    "isCorrect": false,
+                    "explanation": "Errado! Cassini ficou de namoro com Saturno\naté virar parte dos anéis."
+                },
+                {
+                    "text": "New Horizons",
+                    "isCorrect": false,
+                    "explanation": "Não! New Horizons passou por Plutão,\nmas ainda está na fila interestelar."
+                }
+            ]
+        },
+        {
+            "id": "23",
+            "question": "Qual dessas tecnologias permitiu a SpaceX pousar o primeiro estágio do Falcon 9?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Paraquedas gigantes",
+                    "isCorrect": false,
+                    "explanation": "Errado! Paraquedas funcionam na Terra,\nmas no foguete é só retrofoguete mesmo."
+                },
+                {
+                    "text": "Retropropulsão controlada",
+                    "isCorrect": true,
+                    "explanation": "Correto! Motores invertidos e pouso de pé:\num verdadeiro balé de foguete!\n",
+                    "imageUrl": "https://www.spacex.com/static/images/falcon-9/landing_legs.jpg",
+                    "imageDescription": "Falcon 9 pousando verticalmente após lançamento"
+                },
+                {
+                    "text": "Asas retráteis",
+                    "isCorrect": false,
+                    "explanation": "Não! Foguete não é avião,\nasas só atrapalhariam a festa."
+                },
+                {
+                    "text": "Propulsão iônica",
+                    "isCorrect": false,
+                    "explanation": "Errado! Propulsão iônica é para sondas,\no Falcon 9 gosta mesmo é de querosene!"
+                }
+            ]
+        },
+        {
+            "id": "24",
+            "question": "Qual foi o primeiro satélite brasileiro de sensoriamento remoto?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Amazonia-1",
+                    "isCorrect": false,
+                    "explanation": "Não! O Amazonia-1 é moderno,\nmas não foi o pioneiro brasileiro."
+                },
+                {
+                    "text": "CBERS-1",
+                    "isCorrect": true,
+                    "explanation": "Correto! Em 1999, Brasil e China lançaram o CBERS-1,\num verdadeiro Big Brother da Terra!\n",
+                    "imageUrl": "https://www.inpe.br/CBERS/fotos/cbers1.jpg",
+                    "imageDescription": "Satélite CBERS-1 em montagem no laboratório"
+                },
+                {
+                    "text": "SCD-1",
+                    "isCorrect": false,
+                    "explanation": "Quase! O SCD-1 foi o primeiro satélite brasileiro,\nmas não era de sensoriamento remoto."
+                },
+                {
+                    "text": "SGDC",
+                    "isCorrect": false,
+                    "explanation": "Errado! O SGDC é de comunicações,\no CBERS-1 é que espia a Terra."
+                }
+            ]
+        },
+        {
+            "id": "25",
+            "question": "Qual dessas missões foi a primeira a pousar no lado oculto da Lua?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Apollo 17",
+                    "isCorrect": false,
+                    "explanation": "Errado! Nenhuma Apollo pousou no lado oculto,\nsó no lado que dá tchauzinho para a Terra."
+                },
+                {
+                    "text": "Chang'e 4",
+                    "isCorrect": true,
+                    "explanation": "Correto! A Chang'e 4 foi ousada e pousou\nonde ninguém tinha ido antes, em 2019!\n",
+                    "imageUrl": "http://www.cnsa.gov.cn/n6758823/n6758844/c6805036/content.html",
+                    "imageDescription": "Imagem do rover Yutu-2 no lado oculto da Lua"
+                },
+                {
+                    "text": "Luna 2",
+                    "isCorrect": false,
+                    "explanation": "Não! A Luna 2 foi a primeira a impactar a Lua,\nmas não pousou suavemente."
+                },
+                {
+                    "text": "Surveyor 6",
+                    "isCorrect": false,
+                    "explanation": "Errado! Surveyor 6 pousou no lado visível,\no oculto ficou para os chineses."
+                }
+            ]
+        },
+        {
+            "id": "26",
+            "question": "Qual dessas descobertas foi feita pela sonda Cassini em Encélado, lua de Saturno?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Vulcões de lava quente",
+                    "isCorrect": false,
+                    "explanation": "Errado! Em Encélado, o vulcão é de gelo,\nnada de lava borbulhante!"
+                },
+                {
+                    "text": "Gêiseres de água salgada",
+                    "isCorrect": true,
+                    "explanation": "Correto! Cassini flagrou plumas de água saindo do gelo,\numa pista para vida fora da Terra!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/enceladus_geyser.jpg",
+                    "imageDescription": "Gêiseres de água em Encélado captados pela Cassini"
+                },
+                {
+                    "text": "Montanhas de diamante",
+                    "isCorrect": false,
+                    "explanation": "Seria incrível, mas não! Diamantes só nos sonhos,\npor enquanto só gelo e água salgada."
+                },
+                {
+                    "text": "Atmosfera rica em oxigênio",
+                    "isCorrect": false,
+                    "explanation": "Errado! Encélado tem atmosfera tênue,\nmas nada de oxigênio para respirar."
+                }
+            ]
+        },
+        {
+            "id": "27",
+            "question": "Qual dessas tecnologias é usada para estabilizar satélites em órbita?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Rodas de reação",
+                    "isCorrect": true,
+                    "explanation": "Correto! Rodas de reação giram para manter o satélite\nna pose perfeita para selfies espaciais!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/reaction_wheel.jpg",
+                    "imageDescription": "Roda de reação usada em satélites"
+                },
+                {
+                    "text": "Chuveiros espaciais",
+                    "isCorrect": false,
+                    "explanation": "Errado! Chuveiro só para astronauta limpo,\nsatélite não toma banho."
+                },
+                {
+                    "text": "Propulsores de plasma",
+                    "isCorrect": false,
+                    "explanation": "Não! Propulsores mudam a órbita,\nmas não estabilizam a rotação."
+                },
+                {
+                    "text": "Painéis solares retráteis",
+                    "isCorrect": false,
+                    "explanation": "Errado! Painel solar só pega energia,\nquem faz pose é a roda de reação."
+                }
+            ]
+        },
+        {
+            "id": "28",
+            "question": "Qual dessas missões foi a primeira a pousar em um cometa?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Rosetta/Philae",
+                    "isCorrect": true,
+                    "explanation": "Correto! Em 2014, a Philae fez um pouso radical\nno cometa 67P, virou celebridade espacial!\n",
+                    "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2014/11/philae_on_the_surface_of_comet_67p/15025752-1-eng-GB/Philae_on_the_surface_of_comet_67P_pillars.jpg",
+                    "imageDescription": "Ilustração da Philae pousando no cometa 67P"
+                },
+                {
+                    "text": "Hayabusa",
+                    "isCorrect": false,
+                    "explanation": "Quase! Hayabusa pousou em asteroide,\nmas não em cometa!"
+                },
+                {
+                    "text": "Deep Impact",
+                    "isCorrect": false,
+                    "explanation": "Errado! Deep Impact só lançou um projétil no cometa,\nnada de pouso suave."
+                },
+                {
+                    "text": "NEAR Shoemaker",
+                    "isCorrect": false,
+                    "explanation": "Não! NEAR pousou em asteroide,\ncometa ficou para a Philae."
+                }
+            ]
+        },
+        {
+            "id": "29",
+            "question": "Qual dessas empresas desenvolveu o foguete New Shepard para turismo suborbital?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Blue Origin",
+                    "isCorrect": true,
+                    "explanation": "Correto! Jeff Bezos quer te levar para um passeio\nrápido no espaço com o New Shepard!\n",
+                    "imageUrl": "https://www.blueorigin.com/assets/images/new-shepard-launch.jpg",
+                    "imageDescription": "Foguete New Shepard decolando"
+                },
+                {
+                    "text": "Virgin Galactic",
+                    "isCorrect": false,
+                    "explanation": "Errado! A Virgin usa avião-foguete,\no New Shepard é puro foguete vertical!"
+                },
+                {
+                    "text": "SpaceX",
+                    "isCorrect": false,
+                    "explanation": "Não! SpaceX foca em órbita,\nturismo suborbital é com a Blue Origin."
+                },
+                {
+                    "text": "Rocket Lab",
+                    "isCorrect": false,
+                    "explanation": "Errado! Rocket Lab lança satélites pequenos,\nturismo não está nos planos."
+                }
+            ]
+        },
+        {
+            "id": "30",
+            "question": "Qual dessas descobertas foi feita pela missão Juno em Júpiter?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Tempestades polares gigantes",
+                    "isCorrect": true,
+                    "explanation": "Correto! A Juno revelou ciclones monstruosos nos polos de Júpiter,\num verdadeiro 'big brother' das tempestades!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/juno_jupiter_poles.jpg",
+                    "imageDescription": "Imagem dos polos de Júpiter feita pela Juno"
+                },
+                {
+                    "text": "Anéis de poeira ao redor de Marte",
+                    "isCorrect": false,
+                    "explanation": "Errado! Marte não tem anéis,\nquem gosta de anel é Saturno."
+                },
+                {
+                    "text": "Vulcões ativos em Europa",
+                    "isCorrect": false,
+                    "explanation": "Não! Europa tem gêiseres, mas vulcão mesmo\nsó em Io, lua vizinha."
+                },
+                {
+                    "text": "Montanhas de gelo em Plutão",
+                    "isCorrect": false,
+                    "explanation": "Errado! Montanhas de Plutão foram vistas pela New Horizons,\nJuno só tem olhos para Júpiter."
+                }
+            ]
+        },
+        {
+            "id": "31",
+            "question": "O que é o efeito slingshot (gravidade assistida) em missões espaciais?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Usar a atmosfera para desacelerar",
+                    "isCorrect": false,
+                    "explanation": "Errado! Isso é aerofrenagem,\no slingshot usa planetas, não ar."
+                },
+                {
+                    "text": "Aproveitar a gravidade de um planeta para ganhar velocidade",
+                    "isCorrect": true,
+                    "explanation": "Correto! É como pegar carona no ônibus espacial,\nsó que com planetas gigantes!\n",
+                    "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2017/10/gravity_assist/17227852-1-eng-GB/Gravity_assist_pillars.jpg",
+                    "imageDescription": "Ilustração de uma nave usando gravidade assistida"
+                },
+                {
+                    "text": "Usar o campo magnético para se orientar",
+                    "isCorrect": false,
+                    "explanation": "Não! Campo magnético ajuda na bússola,\nmas não acelera a nave."
+                },
+                {
+                    "text": "Girar a nave para criar gravidade artificial",
+                    "isCorrect": false,
+                    "explanation": "Errado! Isso é só para filmes de ficção científica."
+                }
+            ]
+        },
+        {
+            "id": "32",
+            "question": "Qual dessas tecnologias é essencial para CubeSats?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Miniaturização de componentes",
+                    "isCorrect": true,
+                    "explanation": "Correto! CubeSats são pequenos, mas poderosos,\ngraças à miniaturização eletrônica!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/cubesat.jpg",
+                    "imageDescription": "Vários CubeSats sendo lançados ao espaço"
+                },
+                {
+                    "text": "Propulsores nucleares",
+                    "isCorrect": false,
+                    "explanation": "Errado! Nucleares são para missões grandes,\nos CubeSats preferem simplicidade."
+                },
+                {
+                    "text": "Cabos de fibra óptica",
+                    "isCorrect": false,
+                    "explanation": "Não! Fibra óptica é para internet,\nos CubeSats usam rádio."
+                },
+                {
+                    "text": "Blindagem de chumbo",
+                    "isCorrect": false,
+                    "explanation": "Errado! Chumbo pesaria demais,\ne CubeSat gosta de leveza."
+                }
+            ]
+        },
+        {
+            "id": "33",
+            "question": "Qual dessas missões foi a primeira a coletar amostras de um asteroide e trazê-las à Terra?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Hayabusa (Japão)",
+                    "isCorrect": true,
+                    "explanation": "Correto! Hayabusa trouxe pó de asteroide em 2010,\num souvenir espacial made in Japão!\n",
+                    "imageUrl": "https://global.jaxa.jp/projects/sat/muses_c/images/muses_c_01.jpg",
+                    "imageDescription": "Ilustração da sonda Hayabusa coletando amostras"
+                },
+                {
+                    "text": "Rosetta (ESA)",
+                    "isCorrect": false,
+                    "explanation": "Errado! Rosetta pousou em cometa,\nmas não trouxe nada de volta."
+                },
+                {
+                    "text": "OSIRIS-REx (EUA)",
+                    "isCorrect": false,
+                    "explanation": "Quase! OSIRIS-REx trouxe amostras em 2023,\nmas o Japão chegou primeiro."
+                },
+                {
+                    "text": "NEAR Shoemaker (EUA)",
+                    "isCorrect": false,
+                    "explanation": "Não! NEAR pousou em asteroide,\nmas não trouxe amostras."
+                }
+            ]
+        },
+        {
+            "id": "34",
+            "question": "Qual dessas tecnologias é usada para gerar energia em sondas distantes do Sol?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Painéis solares gigantes",
+                    "isCorrect": false,
+                    "explanation": "Errado! Longe do Sol, painel solar vira decoração,\no segredo é outro!"
+                },
+                {
+                    "text": "Gerador termoelétrico de radioisótopos (RTG)",
+                    "isCorrect": true,
+                    "explanation": "Correto! RTG é o 'fogãozinho nuclear' das sondas,\nfunciona até onde o Sol não brilha!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/rtg_diagram.jpg",
+                    "imageDescription": "Diagrama de um gerador RTG usado em sondas"
+                },
+                {
+                    "text": "Baterias alcalinas",
+                    "isCorrect": false,
+                    "explanation": "Não! Bateria alcalina só serve para controle remoto,\nsonda precisa de energia de verdade."
+                },
+                {
+                    "text": "Gerador a diesel",
+                    "isCorrect": false,
+                    "explanation": "Errado! Diesel só na Terra,\nno espaço é RTG ou nada."
+                }
+            ]
+        },
+        {
+            "id": "35",
+            "question": "Qual dessas missões foi a primeira a pousar em Titã, lua de Saturno?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Huygens (ESA/NASA)",
+                    "isCorrect": true,
+                    "explanation": "Correto! Em 2005, a Huygens desceu em Titã\ne virou celebridade das luas geladas!\n",
+                    "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2005/01/huygens_landing_on_titan/10394674-1-eng-GB/Huygens_landing_on_Titan_pillars.jpg",
+                    "imageDescription": "Ilustração da Huygens pousando em Titã"
+                },
+                {
+                    "text": "Cassini",
+                    "isCorrect": false,
+                    "explanation": "Errado! Cassini ficou na órbita,\nquem pousou foi a Huygens."
+                },
+                {
+                    "text": "Galileo",
+                    "isCorrect": false,
+                    "explanation": "Não! Galileo só visitou Júpiter,\nTitã ficou para a Huygens."
+                },
+                {
+                    "text": "Viking 2",
+                    "isCorrect": false,
+                    "explanation": "Errado! Viking só foi para Marte,\nTitã ficou para outra missão."
+                }
+            ]
+        },
+        {
+            "id": "36",
+            "question": "Qual dessas tecnologias é usada para manter a temperatura interna de satélites?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Radiadores térmicos",
+                    "isCorrect": true,
+                    "explanation": "Correto! Radiadores tiram o calor extra,\nsenão o satélite vira forno de micro-ondas!\n",
+                    "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2013/03/thermal_control/12909934-1-eng-GB/Thermal_control_pillars.jpg",
+                    "imageDescription": "Radiadores térmicos em satélite"
+                },
+                {
+                    "text": "Cobertura de lã espacial",
+                    "isCorrect": false,
+                    "explanation": "Errado! Lã só serve para cachecol,\nsatélite prefere radiador mesmo."
+                },
+                {
+                    "text": "Painéis solares giratórios",
+                    "isCorrect": false,
+                    "explanation": "Não! Painel solar só pega energia,\nnão regula temperatura."
+                },
+                {
+                    "text": "Chuveiro de gelo seco",
+                    "isCorrect": false,
+                    "explanation": "Errado! Gelo seco só em festas,\no satélite usa radiador."
+                }
+            ]
+        },
+        {
+            "id": "37",
+            "question": "Qual dessas missões foi a primeira a detectar um exoplaneta usando o método do trânsito?",
             "level": "difícil",
             "options": [
                 {
-                    "text": "Apollo Program",
+                    "text": "Kepler",
                     "isCorrect": false,
-                    "explanation": "Nããão, Apollo era pra Lua, nos anos 60-70! Marte exige rovers, não astronautas, e o programa é bem mais recente. Tente algo marciano!"
+                    "explanation": "Quase! Kepler achou milhares,\nmas não foi o pioneiro."
                 },
                 {
-                    "text": "Mars Exploration Rover Program",
+                    "text": "CoRoT (França/ESA)",
                     "isCorrect": true,
-                    "explanation": "Você é um geólogo marciano! O Mars Exploration Rover Program, da NASA, começou nos anos 2000, enviando rovers como Spirit, Opportunity, Curiosity e Perseverance para explorar Marte. Eles encontraram evidências de água e até gravaram o som do planeta. Missão cumprida, astronauta!",
-                    "imageUrl": "https://www.jpl.nasa.gov/images/mars-rover-curiosity.jpg",
-                    "imageDescription": "Imagem do rover Curiosity em Marte, navegando o terreno vermelho com crateras ao fundo, representando as explorações do Mars Exploration Rover Program."
+                    "explanation": "Correto! O CoRoT foi o pioneiro em detectar exoplanetas\npelo método do trânsito em 2007!\n",
+                    "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2006/12/corot/10195018-1-eng-GB/CoRoT_pillars.jpg",
+                    "imageDescription": "Satélite CoRoT em órbita"
                 },
                 {
-                    "text": "Viking Program",
+                    "text": "Hubble",
                     "isCorrect": false,
-                    "explanation": "Quase, mas não! Viking, nos anos 70, foi o primeiro a pousar em Marte, mas os rovers modernos são de outro programa. Tente algo dos anos 2000!"
+                    "explanation": "Errado! O Hubble ajudou, mas não foi o primeiro\nno método do trânsito."
                 },
                 {
-                    "text": "Artemis Program",
+                    "text": "TESS",
                     "isCorrect": false,
-                    "explanation": "Nããão, Artemis é pra voltar à Lua, a partir de 2020. Marte tem seus próprios exploradores robóticos, em um programa mais velho!"
+                    "explanation": "Não! TESS é moderno, mas chegou depois do CoRoT."
+                }
+            ]
+        },
+        {
+            "id": "38",
+            "question": "Qual dessas tecnologias é usada para estudar a composição atmosférica de exoplanetas?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Espectroscopia de trânsito",
+                    "isCorrect": true,
+                    "explanation": "Correto! Espectroscopia de trânsito revela os segredos\ndas atmosferas de mundos distantes!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/exoplanet_transit_spectroscopy.jpg",
+                    "imageDescription": "Ilustração de espectroscopia de trânsito em exoplaneta"
+                },
+                {
+                    "text": "Radar de penetração no solo",
+                    "isCorrect": false,
+                    "explanation": "Errado! Radar é para geologia,\natmosfera é com espectroscopia."
+                },
+                {
+                    "text": "Imagens em infravermelho",
+                    "isCorrect": false,
+                    "explanation": "Não! Imagens ajudam, mas não revelam a química\nda atmosfera como a espectroscopia."
+                },
+                {
+                    "text": "Antenas parabólicas",
+                    "isCorrect": false,
+                    "explanation": "Errado! Antena só capta sinal,\nquem vê a atmosfera é o espectrômetro."
+                }
+            ]
+        },
+        {
+            "id": "39",
+            "question": "Qual dessas missões foi a primeira a detectar ondas gravitacionais?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "LIGO",
+                    "isCorrect": true,
+                    "explanation": "Correto! Em 2015, o LIGO ouviu o 'tremor' do universo,\nconfirmando as previsões de Einstein!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/ligo.jpg",
+                    "imageDescription": "Instalação do observatório LIGO"
+                },
+                {
+                    "text": "Hubble",
+                    "isCorrect": false,
+                    "explanation": "Errado! O Hubble vê luz,\nonde gravitacional é outra vibe."
+                },
+                {
+                    "text": "Kepler",
+                    "isCorrect": false,
+                    "explanation": "Não! Kepler caça exoplanetas,\nonde gravitacional é com o LIGO."
+                },
+                {
+                    "text": "Voyager 1",
+                    "isCorrect": false,
+                    "explanation": "Errado! Voyager 1 é exploradora,\nonde gravitacional é para observatórios."
+                }
+            ]
+        },
+        {
+            "id": "40",
+            "question": "Qual dessas descobertas foi feita pela missão Gaia da ESA?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Mapa 3D da Via Láctea",
+                    "isCorrect": true,
+                    "explanation": "Correto! Gaia está fazendo o maior mapa estelar\nda história, uma selfie gigante da galáxia!\n",
+                    "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2018/04/gaia_s_sky_in_colour/17492863-1-eng-GB/Gaia_s_sky_in_colour_pillars.jpg",
+                    "imageDescription": "Mapa 3D da Via Láctea criado pela missão Gaia"
+                },
+                {
+                    "text": "Primeira foto de um buraco negro",
+                    "isCorrect": false,
+                    "explanation": "Errado! A foto do buraco negro foi do Event Horizon Telescope,\nGaia prefere estrelas brilhantes."
+                },
+                {
+                    "text": "Descoberta de água em Marte",
+                    "isCorrect": false,
+                    "explanation": "Não! Água em Marte foi descoberta por sondas,\nGaia só tem olhos para as estrelas."
+                },
+                {
+                    "text": "Pouso em asteroide",
+                    "isCorrect": false,
+                    "explanation": "Errado! Gaia só observa,\npouso é para sondas aventureiras."
+                }
+            ]
+        },
+        {
+            "id": "41",
+            "question": "Qual dessas missões foi a primeira a fotografar o lado oculto da Lua?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Apollo 8",
+                    "isCorrect": false,
+                    "explanation": "Quase! Apollo 8 viu o lado oculto,\nmas não foi a primeira a fotografar."
+                },
+                {
+                    "text": "Luna 3",
+                    "isCorrect": true,
+                    "explanation": "Correto! Em 1959, a sonda soviética Luna 3\nmostrou ao mundo o lado misterioso da Lua!\n",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Luna_3_first_image.jpg",
+                    "imageDescription": "Primeira imagem do lado oculto da Lua feita pela Luna 3"
+                },
+                {
+                    "text": "Chang'e 4",
+                    "isCorrect": false,
+                    "explanation": "Não! Chang'e 4 pousou no lado oculto,\nmas décadas depois da Luna 3."
+                },
+                {
+                    "text": "Surveyor 1",
+                    "isCorrect": false,
+                    "explanation": "Errado! Surveyor 1 pousou no lado visível da Lua."
+                }
+            ]
+        },
+        {
+            "id": "42",
+            "question": "Qual dessas tecnologias é fundamental para o funcionamento de satélites geoestacionários?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Órbita sincronizada com a rotação da Terra",
+                    "isCorrect": true,
+                    "explanation": "Correto! Satélites geoestacionários ficam parados\nno céu graças a essa dança orbital!\n",
+                    "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2015/01/geostationary_orbit/15397647-1-eng-GB/Geostationary_orbit_pillars.jpg",
+                    "imageDescription": "Ilustração de satélite geoestacionário sobre a Terra"
+                },
+                {
+                    "text": "Propulsão nuclear",
+                    "isCorrect": false,
+                    "explanation": "Errado! Propulsão nuclear é para missões distantes,\naqui só precisa de boa órbita."
+                },
+                {
+                    "text": "Blindagem contra meteoritos",
+                    "isCorrect": false,
+                    "explanation": "Não! Blindagem ajuda, mas não é o segredo\ndo geoestacionário."
+                },
+                {
+                    "text": "Antenas parabólicas gigantes",
+                    "isCorrect": false,
+                    "explanation": "Errado! Antenas são importantes,\nmas o truque está na órbita."
+                }
+            ]
+        },
+        {
+            "id": "43",
+            "question": "Qual dessas missões foi a primeira a pousar em Vênus?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Pioneer Venus",
+                    "isCorrect": false,
+                    "explanation": "Quase! Pioneer Venus orbitou e lançou sondas,\nmas não foi a primeira a pousar."
+                },
+                {
+                    "text": "Venera 7",
+                    "isCorrect": true,
+                    "explanation": "Correto! Em 1970, a Venera 7 pousou em Vênus\ne resistiu ao forno por 23 minutos!\n",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Venera_7_model.jpg",
+                    "imageDescription": "Modelo da sonda Venera 7"
+                },
+                {
+                    "text": "Magellan",
+                    "isCorrect": false,
+                    "explanation": "Errado! Magellan só orbitou Vênus,\nnada de pouso."
+                },
+                {
+                    "text": "Mariner 2",
+                    "isCorrect": false,
+                    "explanation": "Não! Mariner 2 só sobrevoou Vênus,\nnada de pouso radical."
+                }
+            ]
+        },
+        {
+            "id": "44",
+            "question": "Qual dessas tecnologias é usada para evitar colisões entre satélites?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Sistemas de detecção e manobra automática",
+                    "isCorrect": true,
+                    "explanation": "Correto! Satélites modernos desviam sozinhos,\ncomo carros autônomos do espaço!\n",
+                    "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2018/04/space_debris_avoidance/17492913-1-eng-GB/Space_debris_avoidance_pillars.jpg",
+                    "imageDescription": "Satélite desviando de detritos espaciais"
+                },
+                {
+                    "text": "Paraquedas espaciais",
+                    "isCorrect": false,
+                    "explanation": "Errado! Paraquedas só ajudam a voltar,\nmas não desviam de obstáculos."
+                },
+                {
+                    "text": "Pintura refletiva",
+                    "isCorrect": false,
+                    "explanation": "Não! Pintura é para temperatura,\ndesvio é com motores mesmo."
+                },
+                {
+                    "text": "Cabos de aço",
+                    "isCorrect": false,
+                    "explanation": "Errado! Cabo de aço só serve para elevador espacial\n(que nem existe ainda!)."
+                }
+            ]
+        },
+        {
+            "id": "45",
+            "question": "Qual dessas missões foi a primeira a detectar atmosfera em um exoplaneta?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Hubble",
+                    "isCorrect": true,
+                    "explanation": "Correto! O Hubble analisou a luz de um exoplaneta\ne revelou sua atmosfera em 2001!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/hubble_exoplanet.jpg",
+                    "imageDescription": "Ilustração do Hubble estudando exoplaneta"
+                },
+                {
+                    "text": "Kepler",
+                    "isCorrect": false,
+                    "explanation": "Errado! Kepler achou muitos exoplanetas,\nmas o Hubble estudou a atmosfera primeiro."
+                },
+                {
+                    "text": "TESS",
+                    "isCorrect": false,
+                    "explanation": "Não! TESS é mais recente,\no pioneiro foi o Hubble."
+                },
+                {
+                    "text": "Gaia",
+                    "isCorrect": false,
+                    "explanation": "Errado! Gaia faz mapas estelares,\natmosfera de exoplaneta é com o Hubble."
+                }
+            ]
+        },
+        {
+            "id": "46",
+            "question": "Qual dessas empresas é pioneira em lançamentos de pequenos satélites com foguetes leves?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Rocket Lab",
+                    "isCorrect": true,
+                    "explanation": "Correto! A Rocket Lab lança pequenos satélites\nusando foguetes Electron, quase delivery orbital!\n",
+                    "imageUrl": "https://www.rocketlabusa.com/assets/Uploads/Electron-Launch.jpg",
+                    "imageDescription": "Foguete Electron da Rocket Lab decolando"
+                },
+                {
+                    "text": "SpaceX",
+                    "isCorrect": false,
+                    "explanation": "Errado! SpaceX lança foguetes grandes,\nos pequenos são com a Rocket Lab."
+                },
+                {
+                    "text": "Blue Origin",
+                    "isCorrect": false,
+                    "explanation": "Não! Blue Origin foca em turismo e cargas grandes."
+                },
+                {
+                    "text": "Virgin Galactic",
+                    "isCorrect": false,
+                    "explanation": "Errado! Virgin Galactic faz turismo suborbital,\nnão lançamentos de satélites."
+                }
+            ]
+        },
+        {
+            "id": "47",
+            "question": "Qual dessas missões foi a primeira a pousar em um asteroide?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "NEAR Shoemaker",
+                    "isCorrect": true,
+                    "explanation": "Correto! Em 2001, a NEAR Shoemaker fez um pouso\nsuave no asteroide Eros, um feito histórico!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/near_shoemaker.jpg",
+                    "imageDescription": "Imagem do asteroide Eros pela NEAR Shoemaker"
+                },
+                {
+                    "text": "Hayabusa",
+                    "isCorrect": false,
+                    "explanation": "Quase! Hayabusa pousou depois,\nmas a NEAR foi pioneira."
+                },
+                {
+                    "text": "Rosetta",
+                    "isCorrect": false,
+                    "explanation": "Errado! Rosetta pousou em cometa,\nasteroide ficou para a NEAR."
+                },
+                {
+                    "text": "OSIRIS-REx",
+                    "isCorrect": false,
+                    "explanation": "Não! OSIRIS-REx pousou em 2020,\nmas a NEAR chegou antes."
+                }
+            ]
+        },
+        {
+            "id": "48",
+            "question": "Qual dessas tecnologias é usada para comunicação de longa distância com sondas espaciais?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Deep Space Network (DSN)",
+                    "isCorrect": true,
+                    "explanation": "Correto! O DSN é a central telefônica do espaço profundo,\nligando a Terra a sondas distantes!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/dsn_antennas.jpg",
+                    "imageDescription": "Antenas do Deep Space Network"
+                },
+                {
+                    "text": "Bluetooth",
+                    "isCorrect": false,
+                    "explanation": "Errado! Bluetooth nem atravessa parede,\nimagina cruzar o Sistema Solar!"
+                },
+                {
+                    "text": "Wi-Fi",
+                    "isCorrect": false,
+                    "explanation": "Não! Wi-Fi é para café,\ncomunicação interplanetária é com DSN."
+                },
+                {
+                    "text": "Satélite geoestacionário",
+                    "isCorrect": false,
+                    "explanation": "Errado! Geoestacionário só cobre a Terra,\nespaço profundo é com DSN."
+                }
+            ]
+        },
+        {
+            "id": "49",
+            "question": "Qual dessas missões foi a primeira a orbitar Mercúrio?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "MESSENGER",
+                    "isCorrect": true,
+                    "explanation": "Correto! A MESSENGER orbitou Mercúrio em 2011,\ndecifrando os mistérios do planeta mais quente!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/messenger_mercury.jpg",
+                    "imageDescription": "Imagem de Mercúrio feita pela MESSENGER"
+                },
+                {
+                    "text": "Mariner 10",
+                    "isCorrect": false,
+                    "explanation": "Quase! Mariner 10 só sobrevoou Mercúrio,\nnada de órbita."
+                },
+                {
+                    "text": "BepiColombo",
+                    "isCorrect": false,
+                    "explanation": "Não! BepiColombo só vai orbitar Mercúrio\nem 2025."
+                },
+                {
+                    "text": "Venera 1",
+                    "isCorrect": false,
+                    "explanation": "Errado! Venera 1 foi para Vênus,\nMercúrio ficou para a MESSENGER."
+                }
+            ]
+        },
+        {
+            "id": "50",
+            "question": "Qual dessas tecnologias é usada para proteger astronautas da radiação na ISS?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Blindagem de alumínio e polímeros",
+                    "isCorrect": true,
+                    "explanation": "Correto! Camadas especiais protegem os astronautas\ndos raios cósmicos e solares!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/iss_radiation_shield.jpg",
+                    "imageDescription": "Blindagem de proteção na ISS"
+                },
+                {
+                    "text": "Filtro solar fator 1000",
+                    "isCorrect": false,
+                    "explanation": "Errado! Filtro solar só protege na praia,\nradiação espacial exige blindagem pesada."
+                },
+                {
+                    "text": "Capacetes de chumbo",
+                    "isCorrect": false,
+                    "explanation": "Não! Chumbo pesa demais,\no segredo é alumínio e polímeros."
+                },
+                {
+                    "text": "Roupa de lã espacial",
+                    "isCorrect": false,
+                    "explanation": "Errado! Lã só esquenta,\nradiação é bloqueada por blindagem."
+                }
+            ]
+        },
+        {
+            "id": "51",
+            "question": "Qual dessas missões foi a primeira a estudar Plutão de perto?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "New Horizons",
+                    "isCorrect": true,
+                    "explanation": "Correto! Em 2015, a New Horizons passou voando por Plutão\ne mostrou um mundo surpreendente!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/new_horizons_pluto.jpg",
+                    "imageDescription": "Imagem de Plutão feita pela New Horizons"
+                },
+                {
+                    "text": "Voyager 2",
+                    "isCorrect": false,
+                    "explanation": "Errado! Voyager 2 foi para Netuno,\nPlutão ficou para a New Horizons."
+                },
+                {
+                    "text": "Pioneer 10",
+                    "isCorrect": false,
+                    "explanation": "Não! Pioneer 10 saiu do Sistema Solar,\nmas não visitou Plutão."
+                },
+                {
+                    "text": "Cassini",
+                    "isCorrect": false,
+                    "explanation": "Errado! Cassini ficou em Saturno,\nPlutão ficou para a New Horizons."
+                }
+            ]
+        },
+        {
+            "id": "52",
+            "question": "Qual dessas tecnologias é usada para captar energia solar em satélites?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Painéis solares fotovoltaicos",
+                    "isCorrect": true,
+                    "explanation": "Correto! Painéis solares são as 'baterias recarregáveis'\ndos satélites!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/solar_panels_satellite.jpg",
+                    "imageDescription": "Painéis solares em satélite em órbita"
+                },
+                {
+                    "text": "Gerador a gasolina",
+                    "isCorrect": false,
+                    "explanation": "Errado! Gasolina só serve para carro,\nsatélite prefere energia limpa."
+                },
+                {
+                    "text": "Baterias alcalinas",
+                    "isCorrect": false,
+                    "explanation": "Não! Baterias só guardam energia,\no segredo é captar do Sol."
+                },
+                {
+                    "text": "Turbinas eólicas espaciais",
+                    "isCorrect": false,
+                    "explanation": "Errado! No espaço não tem vento,\nsó luz solar mesmo."
+                }
+            ]
+        },
+        {
+            "id": "53",
+            "question": "Qual dessas missões foi a primeira a pousar em Marte e enviar imagens?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Viking 1",
+                    "isCorrect": true,
+                    "explanation": "Correto! Em 1976, a Viking 1 pousou em Marte\ne mandou fotos históricas!\n",
+                    "imageUrl": "https://mars.nasa.gov/system/news_items/main_images/8779_PIA21497-16.jpg",
+                    "imageDescription": "Imagem da superfície de Marte feita pela Viking 1"
+                },
+                {
+                    "text": "Curiosity",
+                    "isCorrect": false,
+                    "explanation": "Errado! Curiosity chegou em 2012,\nmas a Viking já tinha feito o álbum de fotos marciano."
+                },
+                {
+                    "text": "Sojourner",
+                    "isCorrect": false,
+                    "explanation": "Não! Sojourner foi o primeiro rover,\nmas não o primeiro a enviar imagens."
+                },
+                {
+                    "text": "Pathfinder",
+                    "isCorrect": false,
+                    "explanation": "Errado! Pathfinder chegou em 1997,\na Viking 1 foi pioneira."
+                }
+            ]
+        },
+        {
+            "id": "54",
+            "question": "Qual dessas tecnologias é usada para medir a altitude de sondas em pousos planetários?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Radar altímetro",
+                    "isCorrect": true,
+                    "explanation": "Correto! O radar altímetro mede a distância ao solo,\npara pousar sem esbarrar em crateras!\n",
+                    "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2016/10/schiaparelli_landing/16313245-1-eng-GB/Schiaparelli_landing_pillars.jpg",
+                    "imageDescription": "Ilustração de pouso com radar altímetro"
+                },
+                {
+                    "text": "Termômetro digital",
+                    "isCorrect": false,
+                    "explanation": "Errado! Termômetro só mede calor,\naltitude é com radar mesmo."
+                },
+                {
+                    "text": "Câmera selfie",
+                    "isCorrect": false,
+                    "explanation": "Não! Selfie é para Instagram,\naltitude é coisa séria."
+                },
+                {
+                    "text": "Sensor de fumaça",
+                    "isCorrect": false,
+                    "explanation": "Errado! Fumaça só se a nave pegar fogo,\naltitude é com radar."
+                }
+            ]
+        },
+        {
+            "id": "55",
+            "question": "Qual dessas missões foi a primeira a orbitar Saturno?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Cassini",
+                    "isCorrect": true,
+                    "explanation": "Correto! A Cassini entrou em órbita de Saturno em 2004,\numa viagem de tirar o fôlego!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/cassini_saturn.jpg",
+                    "imageDescription": "Imagem de Saturno feita pela Cassini"
+                },
+                {
+                    "text": "Voyager 1",
+                    "isCorrect": false,
+                    "explanation": "Errado! Voyager 1 só passou por Saturno,\nnada de órbita."
+                },
+                {
+                    "text": "Pioneer 11",
+                    "isCorrect": false,
+                    "explanation": "Não! Pioneer 11 também só passou,\nCassini foi a primeira a orbitar."
+                },
+                {
+                    "text": "Galileo",
+                    "isCorrect": false,
+                    "explanation": "Errado! Galileo ficou em Júpiter,\nSaturno foi com a Cassini."
+                }
+            ]
+        },
+        {
+            "id": "56",
+            "question": "Qual dessas tecnologias é usada para estabilizar a orientação de satélites no espaço?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Rodas de reação",
+                    "isCorrect": true,
+                    "explanation": "Correto! Rodas de reação giram para manter o satélite\nna pose perfeita para selfies espaciais!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/reaction_wheel.jpg",
+                    "imageDescription": "Roda de reação usada em satélites"
+                },
+                {
+                    "text": "Propulsor nuclear",
+                    "isCorrect": false,
+                    "explanation": "Errado! Propulsor nuclear é para viajar longe,\nroda de reação é para pose."
+                },
+                {
+                    "text": "Painel solar móvel",
+                    "isCorrect": false,
+                    "explanation": "Não! Painel solar só capta energia,\nquem faz pose é a roda de reação."
+                },
+                {
+                    "text": "Microfone direcional",
+                    "isCorrect": false,
+                    "explanation": "Errado! Microfone é para ouvir,\norientação é com roda de reação."
+                }
+            ]
+        },
+        {
+            "id": "57",
+            "question": "Qual dessas missões foi a primeira a detectar moléculas orgânicas em Titã?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Cassini-Huygens",
+                    "isCorrect": true,
+                    "explanation": "Correto! Cassini-Huygens encontrou moléculas orgânicas\nem Titã, lua misteriosa de Saturno!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/cassini_titan.jpg",
+                    "imageDescription": "Imagem de Titã feita pela Cassini"
+                },
+                {
+                    "text": "Galileo",
+                    "isCorrect": false,
+                    "explanation": "Errado! Galileo só estudou Júpiter,\nTitã ficou para Cassini-Huygens."
+                },
+                {
+                    "text": "Voyager 2",
+                    "isCorrect": false,
+                    "explanation": "Não! Voyager 2 passou por Saturno,\nmas não detectou moléculas orgânicas."
+                },
+                {
+                    "text": "Hubble",
+                    "isCorrect": false,
+                    "explanation": "Errado! Hubble observa de longe,\nCassini-Huygens foi no detalhe."
+                }
+            ]
+        },
+        {
+            "id": "58",
+            "question": "Qual dessas tecnologias é usada para navegação autônoma em sondas interplanetárias?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Estrela guia artificial",
+                    "isCorrect": false,
+                    "explanation": "Errado! Estrela guia é só para telescópio,\nnavegação é com outro sistema."
+                },
+                {
+                    "text": "Navegação por pulsar",
+                    "isCorrect": true,
+                    "explanation": "Correto! Pulsar é um farol cósmico,\najudando sondas a se localizarem no espaço!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/pulsar_navigation.jpg",
+                    "imageDescription": "Ilustração de navegação por pulsar"
+                },
+                {
+                    "text": "GPS interplanetário",
+                    "isCorrect": false,
+                    "explanation": "Não! GPS só funciona na Terra,\nno espaço profundo é pulsar."
+                },
+                {
+                    "text": "Bússola magnética",
+                    "isCorrect": false,
+                    "explanation": "Errado! Bússola só funciona perto da Terra,\nno espaço é pulsar."
+                }
+            ]
+        },
+        {
+            "id": "59",
+            "question": "Qual dessas missões foi a primeira a detectar água em estado líquido em Marte?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Mars Express",
+                    "isCorrect": true,
+                    "explanation": "Correto! Mars Express detectou um lago subterrâneo\nem Marte usando radar em 2018!\n",
+                    "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2018/07/mars_express_detects_water/17562173-1-eng-GB/Mars_Express_detects_water_pillars.jpg",
+                    "imageDescription": "Ilustração da Mars Express detectando água em Marte"
+                },
+                {
+                    "text": "Curiosity",
+                    "isCorrect": false,
+                    "explanation": "Errado! Curiosity achou sinais de água antiga,\nmas não líquida atualmente."
+                },
+                {
+                    "text": "Viking 2",
+                    "isCorrect": false,
+                    "explanation": "Não! Viking só encontrou solo seco,\nágua líquida ficou para o futuro."
+                },
+                {
+                    "text": "Opportunity",
+                    "isCorrect": false,
+                    "explanation": "Errado! Opportunity achou minerais,\nmas não água líquida."
+                }
+            ]
+        },
+        {
+            "id": "60",
+            "question": "Qual dessas tecnologias é usada para estudar o interior de planetas e luas?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Sismógrafos",
+                    "isCorrect": true,
+                    "explanation": "Correto! Sismógrafos detectam 'terremotos' espaciais\ne revelam o que há por dentro dos planetas!\n",
+                    "imageUrl": "https://mars.nasa.gov/system/news_items/main_images/8733_insight_seismometer.jpg",
+                    "imageDescription": "Sismógrafo da missão InSight em Marte"
+                },
+                {
+                    "text": "Câmera selfie",
+                    "isCorrect": false,
+                    "explanation": "Errado! Selfie só mostra a superfície,\no interior é com sismógrafo."
+                },
+                {
+                    "text": "Antena parabólica",
+                    "isCorrect": false,
+                    "explanation": "Não! Antena é para comunicação,\nsismógrafo é para tremor."
+                },
+                {
+                    "text": "Termômetro digital",
+                    "isCorrect": false,
+                    "explanation": "Errado! Termômetro só mede calor,\no interior é com sismógrafo."
+                }
+            ]
+        },
+        {
+            "id": "61",
+            "question": "Qual dessas missões foi a primeira a detectar moléculas orgânicas em Marte?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Curiosity",
+                    "isCorrect": true,
+                    "explanation": "Correto! O rover Curiosity encontrou moléculas orgânicas\nem Marte, animando os caçadores de ETs!\n",
+                    "imageUrl": "https://mars.nasa.gov/system/news_items/main_images/8727_PIA22487-MarsCuriositySelfie2018.jpg",
+                    "imageDescription": "Selfie do rover Curiosity em Marte"
+                },
+                {
+                    "text": "Viking 1",
+                    "isCorrect": false,
+                    "explanation": "Errado! Viking 1 procurou, mas não achou orgânicos claros,\no Curiosity foi mais sortudo."
+                },
+                {
+                    "text": "Sojourner",
+                    "isCorrect": false,
+                    "explanation": "Não! Sojourner era pequeno demais para química,\nCuriosity é que faz laboratório marciano."
+                },
+                {
+                    "text": "Phoenix",
+                    "isCorrect": false,
+                    "explanation": "Errado! Phoenix achou gelo, mas não moléculas orgânicas."
+                }
+            ]
+        },
+        {
+            "id": "62",
+            "question": "Qual dessas tecnologias é usada para aumentar a eficiência de painéis solares em satélites?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Seguidores solares (Sun trackers)",
+                    "isCorrect": true,
+                    "explanation": "Correto! Seguidores solares ajustam o ângulo dos painéis\npara captar cada raio do Sol!\n",
+                    "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2017/06/solar_array_deployment/17096886-1-eng-GB/Solar_array_deployment_pillars.jpg",
+                    "imageDescription": "Painéis solares de satélite sendo ajustados para o Sol"
+                },
+                {
+                    "text": "Pintura preta",
+                    "isCorrect": false,
+                    "explanation": "Errado! Pintura preta só esquenta,\nseguidores solares é que maximizam a energia."
+                },
+                {
+                    "text": "Baterias alcalinas",
+                    "isCorrect": false,
+                    "explanation": "Não! Bateria só armazena,\nquem capta é o painel com seguidor."
+                },
+                {
+                    "text": "Micro-ondas espaciais",
+                    "isCorrect": false,
+                    "explanation": "Errado! Micro-ondas só esquentam comida,\no segredo está no alinhamento do painel."
+                }
+            ]
+        },
+        {
+            "id": "63",
+            "question": "Qual dessas missões foi a primeira a pousar em solo marciano usando airbags?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Mars Pathfinder",
+                    "isCorrect": true,
+                    "explanation": "Correto! O Pathfinder chegou quicando em Marte com airbags,\num pouso digno de filme de ação!\n",
+                    "imageUrl": "https://mars.nasa.gov/system/news_items/main_images/8779_PIA21497-16.jpg",
+                    "imageDescription": "Ilustração do pouso do Mars Pathfinder com airbags"
+                },
+                {
+                    "text": "Curiosity",
+                    "isCorrect": false,
+                    "explanation": "Errado! Curiosity usou 'Sky Crane',\na moda dos airbags ficou para o Pathfinder."
+                },
+                {
+                    "text": "Viking 2",
+                    "isCorrect": false,
+                    "explanation": "Não! Viking 2 usou pernas de pouso,\nairbags só na nova geração."
+                },
+                {
+                    "text": "Phoenix",
+                    "isCorrect": false,
+                    "explanation": "Errado! Phoenix também usou retrofoguetes,\nairbags era coisa de Pathfinder."
+                }
+            ]
+        },
+        {
+            "id": "64",
+            "question": "Qual dessas tecnologias é usada para remover detritos espaciais da órbita?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Redes espaciais",
+                    "isCorrect": true,
+                    "explanation": "Correto! Redes espaciais capturam lixo orbital\ncomo se fosse pescaria cósmica!\n",
+                    "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2018/04/space_debris_removal/17492914-1-eng-GB/Space_debris_removal_pillars.jpg",
+                    "imageDescription": "Ilustração de rede capturando detrito espacial"
+                },
+                {
+                    "text": "Pistola laser",
+                    "isCorrect": false,
+                    "explanation": "Errado! Laser é só nos filmes,\nna vida real, rede é mais eficiente."
+                },
+                {
+                    "text": "Chuveiro de água",
+                    "isCorrect": false,
+                    "explanation": "Não! Água só faz sujeira,\nrede é que faz a limpeza."
+                },
+                {
+                    "text": "Cabo de aço",
+                    "isCorrect": false,
+                    "explanation": "Errado! Cabo de aço só serve para elevador espacial,\nque ainda é ficção."
+                }
+            ]
+        },
+        {
+            "id": "65",
+            "question": "Qual dessas missões foi a primeira a detectar vulcões ativos fora da Terra?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Voyager 1",
+                    "isCorrect": true,
+                    "explanation": "Correto! Voyager 1 flagrou vulcões em Io, lua de Júpiter,\num espetáculo de lava espacial!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/io_voyager1.jpg",
+                    "imageDescription": "Imagem de Io feita pela Voyager 1 mostrando vulcões"
+                },
+                {
+                    "text": "Galileo",
+                    "isCorrect": false,
+                    "explanation": "Errado! Galileo estudou Io depois,\nmas quem viu primeiro foi a Voyager 1."
+                },
+                {
+                    "text": "Cassini",
+                    "isCorrect": false,
+                    "explanation": "Não! Cassini ficou com Saturno,\nvulcões de Io foi com a Voyager 1."
+                },
+                {
+                    "text": "Hubble",
+                    "isCorrect": false,
+                    "explanation": "Errado! Hubble só observa de longe,\nquem viu de perto foi a Voyager 1."
+                }
+            ]
+        },
+        {
+            "id": "66",
+            "question": "Qual dessas tecnologias é usada para medir ventos em atmosferas planetárias?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "LIDAR (Light Detection and Ranging)",
+                    "isCorrect": true,
+                    "explanation": "Correto! LIDAR lança lasers e mede ventos planetários,\num verdadeiro radar Jedi!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/lidar_satellite.jpg",
+                    "imageDescription": "Satélite com equipamento LIDAR"
+                },
+                {
+                    "text": "Termômetro digital",
+                    "isCorrect": false,
+                    "explanation": "Errado! Termômetro só mede calor,\nvento é com LIDAR."
+                },
+                {
+                    "text": "Bússola magnética",
+                    "isCorrect": false,
+                    "explanation": "Não! Bússola só aponta o norte,\nLIDAR é que mede o vento."
+                },
+                {
+                    "text": "GPS",
+                    "isCorrect": false,
+                    "explanation": "Errado! GPS só localiza,\nvento é trabalho do LIDAR."
+                }
+            ]
+        },
+        {
+            "id": "67",
+            "question": "Qual dessas missões foi a primeira a detectar um campo magnético em Ganimedes?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Galileo",
+                    "isCorrect": true,
+                    "explanation": "Correto! A sonda Galileo revelou que Ganimedes\ntem campo magnético próprio, coisa rara para luas!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/galileo_ganymede.jpg",
+                    "imageDescription": "Imagem de Ganimedes feita pela Galileo"
+                },
+                {
+                    "text": "Voyager 2",
+                    "isCorrect": false,
+                    "explanation": "Errado! Voyager 2 passou por Júpiter,\nmas não detectou o campo magnético."
+                },
+                {
+                    "text": "Juno",
+                    "isCorrect": false,
+                    "explanation": "Não! Juno estuda Júpiter,\nGanimedes ficou para a Galileo."
+                },
+                {
+                    "text": "Cassini",
+                    "isCorrect": false,
+                    "explanation": "Errado! Cassini ficou em Saturno,\nGalileo é que estudou Ganimedes."
+                }
+            ]
+        },
+        {
+            "id": "68",
+            "question": "Qual dessas tecnologias é usada para criar mapas topográficos de planetas?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Radar de abertura sintética (SAR)",
+                    "isCorrect": true,
+                    "explanation": "Correto! O SAR faz mapas 3D de planetas,\num verdadeiro scanner espacial!\n",
+                    "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2016/11/sentinel-1_sar/16527379-1-eng-GB/Sentinel-1_SAR_pillars.jpg",
+                    "imageDescription": "Ilustração de radar SAR em satélite"
+                },
+                {
+                    "text": "Câmera selfie",
+                    "isCorrect": false,
+                    "explanation": "Errado! Selfie só mostra a cara,\nmapa topográfico é com SAR."
+                },
+                {
+                    "text": "Termômetro infravermelho",
+                    "isCorrect": false,
+                    "explanation": "Não! Termômetro mede calor,\nSAR mede relevo."
+                },
+                {
+                    "text": "Antena parabólica",
+                    "isCorrect": false,
+                    "explanation": "Errado! Antena só transmite,\nquem faz mapa é o SAR."
+                }
+            ]
+        },
+        {
+            "id": "69",
+            "question": "Qual dessas missões foi a primeira a detectar atmosferas em luas de outros planetas?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Voyager 1",
+                    "isCorrect": false,
+                    "explanation": "Errado! Voyager 1 passou por Titã,\nmas não detectou atmosfera detalhada."
+                },
+                {
+                    "text": "Cassini-Huygens",
+                    "isCorrect": true,
+                    "explanation": "Correto! Cassini-Huygens estudou a atmosfera densa de Titã,\numa lua com clima próprio!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/cassini_titan.jpg",
+                    "imageDescription": "Titã vista pela Cassini"
+                },
+                {
+                    "text": "Galileo",
+                    "isCorrect": false,
+                    "explanation": "Não! Galileo estudou luas de Júpiter,\nmas não detectou atmosfera densa."
+                },
+                {
+                    "text": "New Horizons",
+                    "isCorrect": false,
+                    "explanation": "Errado! New Horizons visitou Plutão,\natmosfera de lua ficou para Cassini."
+                }
+            ]
+        },
+        {
+            "id": "70",
+            "question": "Qual dessas tecnologias é usada para estudar partículas energéticas no espaço?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Espectrômetro de partículas",
+                    "isCorrect": true,
+                    "explanation": "Correto! Espectrômetros analisam partículas cósmicas\nque viajam a velocidades insanas!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/particle_spectrometer.jpg",
+                    "imageDescription": "Espectrômetro de partículas em satélite"
+                },
+                {
+                    "text": "Câmera selfie",
+                    "isCorrect": false,
+                    "explanation": "Errado! Selfie só mostra o rosto,\npartícula energética é com espectrômetro."
+                },
+                {
+                    "text": "Painel solar",
+                    "isCorrect": false,
+                    "explanation": "Não! Painel só capta energia,\nespectrômetro é que mede partículas."
+                },
+                {
+                    "text": "Sensor de fumaça",
+                    "isCorrect": false,
+                    "explanation": "Errado! Fumaça só na Terra,\nno espaço é espectrômetro."
+                }
+            ]
+        },
+        {
+            "id": "71",
+            "question": "Qual dessas missões foi a primeira a detectar plumas de água em Europa, lua de Júpiter?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Galileo",
+                    "isCorrect": true,
+                    "explanation": "Correto! Galileo sugeriu plumas de água em Europa,\numa pista para oceanos escondidos!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/europa_galileo.jpg",
+                    "imageDescription": "Europa, lua de Júpiter, vista pela Galileo"
+                },
+                {
+                    "text": "Juno",
+                    "isCorrect": false,
+                    "explanation": "Errado! Juno estuda Júpiter,\nEuropa ficou para a Galileo."
+                },
+                {
+                    "text": "Voyager 2",
+                    "isCorrect": false,
+                    "explanation": "Não! Voyager 2 passou por Europa,\nmas não detectou plumas."
+                },
+                {
+                    "text": "Cassini",
+                    "isCorrect": false,
+                    "explanation": "Errado! Cassini viu plumas em Encélado,\nEuropa foi com a Galileo."
+                }
+            ]
+        },
+        {
+            "id": "72",
+            "question": "Qual dessas tecnologias é usada para detectar exoplanetas próximos de estrelas brilhantes?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Coronógrafo",
+                    "isCorrect": true,
+                    "explanation": "Correto! Coronógrafos bloqueiam a luz da estrela\npara revelar planetas tímidos ao redor!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/coronagraph.jpg",
+                    "imageDescription": "Ilustração de coronógrafo em telescópio espacial"
+                },
+                {
+                    "text": "Micro-ondas espaciais",
+                    "isCorrect": false,
+                    "explanation": "Errado! Micro-ondas só esquentam comida,\ncoronógrafo é que esconde a estrela."
+                },
+                {
+                    "text": "Filtro polarizador",
+                    "isCorrect": false,
+                    "explanation": "Não! Filtro polarizador ajuda, mas não bloqueia\na luz como o coronógrafo."
+                },
+                {
+                    "text": "Antena parabólica",
+                    "isCorrect": false,
+                    "explanation": "Errado! Antena só capta sinal,\ncoronógrafo é para imagem."
+                }
+            ]
+        },
+        {
+            "id": "73",
+            "question": "Qual dessas missões foi a primeira a detectar poeira interestelar dentro do Sistema Solar?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Ulysses",
+                    "isCorrect": true,
+                    "explanation": "Correto! Ulysses detectou poeira interestelar cruzando\no Sistema Solar em 1992!\n",
+                    "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2008/06/ulysses/11295695-1-eng-GB/Ulysses_pillars.jpg",
+                    "imageDescription": "Ilustração da sonda Ulysses"
+                },
+                {
+                    "text": "Voyager 1",
+                    "isCorrect": false,
+                    "explanation": "Errado! Voyager 1 saiu do Sistema Solar,\nmas Ulysses detectou poeira antes."
+                },
+                {
+                    "text": "Cassini",
+                    "isCorrect": false,
+                    "explanation": "Não! Cassini estudou poeira em Saturno,\ninterestelar ficou para Ulysses."
+                },
+                {
+                    "text": "New Horizons",
+                    "isCorrect": false,
+                    "explanation": "Errado! New Horizons passou por Plutão,\nUlysses é que detectou poeira interestelar."
+                }
+            ]
+        },
+        {
+            "id": "74",
+            "question": "Qual dessas tecnologias é usada para estudar o campo gravitacional de planetas?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Gradiômetro gravitacional",
+                    "isCorrect": true,
+                    "explanation": "Correto! Gradiômetros medem variações minúsculas\nda gravidade planetária, um verdadeiro detetive cósmico!\n",
+                    "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2013/05/goce_satellite/12909934-1-eng-GB/GOCE_satellite_pillars.jpg",
+                    "imageDescription": "Satélite GOCE da ESA, equipado com gradiômetro gravitacional"
+                },
+                {
+                    "text": "Barômetro digital",
+                    "isCorrect": false,
+                    "explanation": "Errado! Barômetro mede pressão,\ngradiômetro é para gravidade."
+                },
+                {
+                    "text": "Termômetro infravermelho",
+                    "isCorrect": false,
+                    "explanation": "Não! Termômetro mede calor,\ngradiômetro é para gravidade."
+                },
+                {
+                    "text": "Laser pointer",
+                    "isCorrect": false,
+                    "explanation": "Errado! Laser pointer só serve para palestras,\ngradiômetro é que faz ciência pesada."
+                }
+            ]
+        },
+        {
+            "id": "75",
+            "question": "Qual dessas missões foi a primeira a detectar matéria escura em aglomerados de galáxias?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Chandra",
+                    "isCorrect": true,
+                    "explanation": "Correto! O observatório Chandra detectou efeitos de matéria escura\nem aglomerados de galáxias usando raios-X!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/chandra_xray.jpg",
+                    "imageDescription": "Observatório Chandra de raios-X"
+                },
+                {
+                    "text": "Hubble",
+                    "isCorrect": false,
+                    "explanation": "Errado! Hubble fotografou galáxias,\nmas matéria escura ficou para o Chandra."
+                },
+                {
+                    "text": "Kepler",
+                    "isCorrect": false,
+                    "explanation": "Não! Kepler caça exoplanetas,\nmatéria escura é com o Chandra."
+                },
+                {
+                    "text": "TESS",
+                    "isCorrect": false,
+                    "explanation": "Errado! TESS busca planetas,\nmatéria escura é outra história."
+                }
+            ]
+        },
+        {
+            "id": "76",
+            "question": "Qual dessas tecnologias é usada para detectar ondas gravitacionais no espaço?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Interferômetro a laser",
+                    "isCorrect": true,
+                    "explanation": "Correto! Interferômetros a laser detectam ondulações do espaço-tempo,\num verdadeiro ouvido cósmico!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/ligo.jpg",
+                    "imageDescription": "Interferômetro LIGO para detecção de ondas gravitacionais"
+                },
+                {
+                    "text": "Antena parabólica",
+                    "isCorrect": false,
+                    "explanation": "Errado! Antena capta rádio,\nondas gravitacionais exigem laser."
+                },
+                {
+                    "text": "Câmera infravermelha",
+                    "isCorrect": false,
+                    "explanation": "Não! Câmera só vê calor,\nlaser é que sente o espaço-tempo."
+                },
+                {
+                    "text": "Barômetro digital",
+                    "isCorrect": false,
+                    "explanation": "Errado! Barômetro mede pressão,\nlaser mede distorção."
+                }
+            ]
+        },
+        {
+            "id": "77",
+            "question": "Qual dessas missões foi a primeira a detectar neutrinos vindos do Sol?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Homestake",
+                    "isCorrect": true,
+                    "explanation": "Correto! O experimento Homestake, nos EUA,\nfoi pioneiro na detecção de neutrinos solares!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/neutrino_detector.jpg",
+                    "imageDescription": "Detector de neutrinos semelhante ao Homestake"
+                },
+                {
+                    "text": "IceCube",
+                    "isCorrect": false,
+                    "explanation": "Errado! IceCube detecta neutrinos,\nmas Homestake foi o pioneiro solar."
+                },
+                {
+                    "text": "Super-Kamiokande",
+                    "isCorrect": false,
+                    "explanation": "Não! Super-Kamiokande é moderno,\nHomestake foi o primeiro."
+                },
+                {
+                    "text": "Chandra",
+                    "isCorrect": false,
+                    "explanation": "Errado! Chandra vê raios-X,\nneutrino é com Homestake."
+                }
+            ]
+        },
+        {
+            "id": "78",
+            "question": "Qual dessas tecnologias é usada para detectar raios cósmicos no espaço?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Telescópio Cherenkov",
+                    "isCorrect": true,
+                    "explanation": "Correto! Telescópios Cherenkov captam flashes de luz\ncausados por raios cósmicos super rápidos!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/cherenkov_telescope.jpg",
+                    "imageDescription": "Telescópio Cherenkov para detecção de raios cósmicos"
+                },
+                {
+                    "text": "Câmera selfie",
+                    "isCorrect": false,
+                    "explanation": "Errado! Selfie só mostra o rosto,\nraio cósmico é com Cherenkov."
+                },
+                {
+                    "text": "Painel solar",
+                    "isCorrect": false,
+                    "explanation": "Não! Painel só capta energia,\nCherenkov é que detecta raios cósmicos."
+                },
+                {
+                    "text": "Sensor de fumaça",
+                    "isCorrect": false,
+                    "explanation": "Errado! Fumaça só na Terra,\nno espaço é Cherenkov."
+                }
+            ]
+        },
+        {
+            "id": "79",
+            "question": "Qual dessas missões foi a primeira a detectar o eco de fundo cósmico de micro-ondas?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "COBE",
+                    "isCorrect": true,
+                    "explanation": "Correto! O satélite COBE mapeou o fundo cósmico,\numa verdadeira foto do universo bebê!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/cobe_cmb.jpg",
+                    "imageDescription": "Mapa do fundo cósmico de micro-ondas feito pelo COBE"
+                },
+                {
+                    "text": "Planck",
+                    "isCorrect": false,
+                    "explanation": "Errado! Planck fez mapas incríveis,\nmas COBE foi o pioneiro."
+                },
+                {
+                    "text": "WMAP",
+                    "isCorrect": false,
+                    "explanation": "Não! WMAP refinou o mapa,\nCOBE foi o primeiro."
+                },
+                {
+                    "text": "Chandra",
+                    "isCorrect": false,
+                    "explanation": "Errado! Chandra vê raios-X,\nfundo cósmico é com COBE."
+                }
+            ]
+        },
+        {
+            "id": "80",
+            "question": "Qual dessas tecnologias é usada para detectar planetas fora do Sistema Solar por velocidade radial?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Espectrômetro Doppler",
+                    "isCorrect": true,
+                    "explanation": "Correto! O espectrômetro Doppler detecta oscilações\nna luz das estrelas causadas por planetas!\n",
+                    "imageUrl": "https://www.eso.org/public/images/eso0727a/",
+                    "imageDescription": "Espectrômetro Doppler em telescópio astronômico"
+                },
+                {
+                    "text": "Radar de abertura sintética",
+                    "isCorrect": false,
+                    "explanation": "Errado! Radar SAR faz mapas,\nplaneta é com Doppler."
+                },
+                {
+                    "text": "Câmera selfie",
+                    "isCorrect": false,
+                    "explanation": "Não! Selfie só mostra a cara,\nplaneta é com espectrômetro."
+                },
+                {
+                    "text": "Painel solar",
+                    "isCorrect": false,
+                    "explanation": "Errado! Painel só gera energia,\nespectrômetro é que detecta planetas."
+                }
+            ]
+        },
+        {
+            "id": "81",
+            "question": "Qual dessas missões foi a primeira a pousar em solo de Mercúrio?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "MESSENGER",
+                    "isCorrect": false,
+                    "explanation": "Errado! A MESSENGER orbitou Mercúrio,\nmas nunca pousou por lá."
+                },
+                {
+                    "text": "Nenhuma missão pousou em Mercúrio até hoje",
+                    "isCorrect": true,
+                    "explanation": "Correto! Mercúrio é tão quente e difícil\nque ninguém conseguiu pousar ainda!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/messenger_mercury.jpg",
+                    "imageDescription": "Imagem de Mercúrio feita pela sonda MESSENGER"
+                },
+                {
+                    "text": "Mariner 10",
+                    "isCorrect": false,
+                    "explanation": "Errado! Mariner 10 só fez sobrevoos,\nnada de pouso em Mercúrio."
+                },
+                {
+                    "text": "BepiColombo",
+                    "isCorrect": false,
+                    "explanation": "Não! BepiColombo está a caminho,\nmas só vai orbitar, não pousar."
+                }
+            ]
+        },
+        {
+            "id": "82",
+            "question": "Qual dessas tecnologias é fundamental para a propulsão de naves interestelares no futuro?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Velas solares",
+                    "isCorrect": true,
+                    "explanation": "Correto! Velas solares usam a luz do Sol\npara acelerar naves rumo às estrelas!\n",
+                    "imageUrl": "https://www.planetary.org/space-images/light-sail-2-deploy",
+                    "imageDescription": "Ilustração de uma vela solar no espaço"
+                },
+                {
+                    "text": "Propulsor a gasolina",
+                    "isCorrect": false,
+                    "explanation": "Errado! Gasolina é só para carros,\nas estrelas exigem inovação."
+                },
+                {
+                    "text": "Chuveiro de plasma",
+                    "isCorrect": false,
+                    "explanation": "Não! Plasma pode ser usado em propulsão,\nmas chuveiro não acelera nave."
+                },
+                {
+                    "text": "Painéis de LED",
+                    "isCorrect": false,
+                    "explanation": "Errado! LED ilumina,\nquem empurra nave é a vela solar."
+                }
+            ]
+        },
+        {
+            "id": "83",
+            "question": "Qual dessas missões foi a primeira a detectar moléculas de água na atmosfera de um exoplaneta?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Hubble",
+                    "isCorrect": true,
+                    "explanation": "Correto! O Hubble detectou vapor d'água\nem exoplanetas distantes usando espectroscopia!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/hubble_exoplanet.jpg",
+                    "imageDescription": "Ilustração do Hubble estudando exoplaneta"
+                },
+                {
+                    "text": "Kepler",
+                    "isCorrect": false,
+                    "explanation": "Errado! Kepler achou muitos exoplanetas,\nmas a água ficou para o Hubble."
+                },
+                {
+                    "text": "TESS",
+                    "isCorrect": false,
+                    "explanation": "Não! TESS busca planetas,\nquem detecta água é o Hubble."
+                },
+                {
+                    "text": "Gaia",
+                    "isCorrect": false,
+                    "explanation": "Errado! Gaia faz mapas estelares,\nquem vê água é o Hubble."
+                }
+            ]
+        },
+        {
+            "id": "84",
+            "question": "Qual dessas tecnologias é usada para detectar vida microbiana em outros planetas?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Espectrômetro de massa",
+                    "isCorrect": true,
+                    "explanation": "Correto! Espectrômetros de massa analisam moléculas\nem busca de sinais de vida alienígena!\n",
+                    "imageUrl": "https://mars.nasa.gov/system/news_items/main_images/8727_PIA22487-MarsCuriositySelfie2018.jpg",
+                    "imageDescription": "Espectrômetro de massa a bordo do rover Curiosity"
+                },
+                {
+                    "text": "Câmera selfie",
+                    "isCorrect": false,
+                    "explanation": "Errado! Selfie só mostra a cara,\nvida microbiana é com espectrômetro."
+                },
+                {
+                    "text": "Painel solar",
+                    "isCorrect": false,
+                    "explanation": "Não! Painel só gera energia,\nespectrômetro é que detecta vida."
+                },
+                {
+                    "text": "Sensor de fumaça",
+                    "isCorrect": false,
+                    "explanation": "Errado! Fumaça só na Terra,\nvida é com espectrômetro."
+                }
+            ]
+        },
+        {
+            "id": "85",
+            "question": "Qual dessas missões foi a primeira a fotografar um buraco negro?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Event Horizon Telescope",
+                    "isCorrect": true,
+                    "explanation": "Correto! O EHT fez história em 2019,\nmostrando o 'coração escuro' de M87!\n",
+                    "imageUrl": "https://www.eso.org/public/images/eso1907a/",
+                    "imageDescription": "Primeira imagem real de um buraco negro (EHT, 2019)"
+                },
+                {
+                    "text": "Hubble",
+                    "isCorrect": false,
+                    "explanation": "Errado! Hubble vê longe,\nmas buraco negro de verdade só com o EHT."
+                },
+                {
+                    "text": "Chandra",
+                    "isCorrect": false,
+                    "explanation": "Não! Chandra vê raios-X,\nmas imagem real só com o EHT."
+                },
+                {
+                    "text": "Kepler",
+                    "isCorrect": false,
+                    "explanation": "Errado! Kepler caça planetas,\nburaco negro é outra missão."
+                }
+            ]
+        },
+        {
+            "id": "86",
+            "question": "Qual dessas tecnologias é usada para captar sinais de rádio de civilizações extraterrestres?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Radiotelescópios",
+                    "isCorrect": true,
+                    "explanation": "Correto! Radiotelescópios gigantes escutam o universo\nem busca de um 'alô' alienígena!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/arecibo_observatory.jpg",
+                    "imageDescription": "Radiotelescópio de Arecibo (já desativado)"
+                },
+                {
+                    "text": "Câmera selfie",
+                    "isCorrect": false,
+                    "explanation": "Errado! Selfie só mostra o rosto,\nalienígena é com radiotelescópio."
+                },
+                {
+                    "text": "Painel solar",
+                    "isCorrect": false,
+                    "explanation": "Não! Painel só gera energia,\nsinal alien é com rádio."
+                },
+                {
+                    "text": "Sensor de fumaça",
+                    "isCorrect": false,
+                    "explanation": "Errado! Fumaça só na Terra,\nsinal alien é com rádio."
+                }
+            ]
+        },
+        {
+            "id": "87",
+            "question": "Qual dessas missões foi a primeira a detectar um planeta do tamanho da Terra na zona habitável?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Kepler",
+                    "isCorrect": true,
+                    "explanation": "Correto! O Kepler achou planetas do tamanho da Terra\nem zonas habitáveis, animando os caçadores de ETs!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/kepler186f_artistconcept.jpg",
+                    "imageDescription": "Ilustração artística do exoplaneta Kepler-186f"
+                },
+                {
+                    "text": "TESS",
+                    "isCorrect": false,
+                    "explanation": "Errado! TESS também busca planetas,\nmas Kepler foi pioneiro."
+                },
+                {
+                    "text": "Hubble",
+                    "isCorrect": false,
+                    "explanation": "Não! Hubble vê longe,\nmas exoplaneta na zona habitável é com Kepler."
+                },
+                {
+                    "text": "Gaia",
+                    "isCorrect": false,
+                    "explanation": "Errado! Gaia faz mapas estelares,\nquem acha planeta é Kepler."
+                }
+            ]
+        },
+        {
+            "id": "88",
+            "question": "Qual dessas tecnologias é usada para criar gravidade artificial em espaçonaves?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Roda giratória (centrífuga)",
+                    "isCorrect": true,
+                    "explanation": "Correto! Roda giratória cria gravidade artificial\npela força centrífuga, igual parque de diversões!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/artificial_gravity_concept.jpg",
+                    "imageDescription": "Conceito artístico de nave com roda giratória"
+                },
+                {
+                    "text": "Painel solar",
+                    "isCorrect": false,
+                    "explanation": "Errado! Painel só gera energia,\ngravidade é com roda giratória."
+                },
+                {
+                    "text": "Chuveiro de plasma",
+                    "isCorrect": false,
+                    "explanation": "Não! Plasma pode ser usado em propulsão,\ngravidade artificial é outra história."
+                },
+                {
+                    "text": "Micro-ondas espacial",
+                    "isCorrect": false,
+                    "explanation": "Errado! Micro-ondas só esquenta comida,\ngravidade é com roda giratória."
+                }
+            ]
+        },
+        {
+            "id": "89",
+            "question": "Qual dessas missões foi a primeira a detectar um sistema planetário em torno de uma estrela pulsar?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "PSR B1257+12",
+                    "isCorrect": true,
+                    "explanation": "Correto! O sistema PSR B1257+12 foi o primeiro\ncom planetas detectados ao redor de uma pulsar!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/psr_b1257_12.jpg",
+                    "imageDescription": "Ilustração do sistema planetário PSR B1257+12"
+                },
+                {
+                    "text": "Kepler-16b",
+                    "isCorrect": false,
+                    "explanation": "Errado! Kepler-16b orbita duas estrelas normais,\npulsar ficou para PSR B1257+12."
+                },
+                {
+                    "text": "TRAPPIST-1",
+                    "isCorrect": false,
+                    "explanation": "Não! TRAPPIST-1 é estrela anã,\npulsar é outra história."
+                },
+                {
+                    "text": "Hubble",
+                    "isCorrect": false,
+                    "explanation": "Errado! Hubble vê longe,\nmas pulsar planetário foi com rádio."
+                }
+            ]
+        },
+        {
+            "id": "90",
+            "question": "Qual dessas tecnologias é usada para proteger sondas de temperaturas extremas?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Escudo térmico ablativo",
+                    "isCorrect": true,
+                    "explanation": "Correto! Escudos térmicos ablatam (derretem) para proteger a sonda,\num verdadeiro 'casaco' espacial!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/heat_shield.jpg",
+                    "imageDescription": "Escudo térmico ablativo em nave espacial"
+                },
+                {
+                    "text": "Painel solar",
+                    "isCorrect": false,
+                    "explanation": "Errado! Painel só gera energia,\nproteção térmica é com escudo."
+                },
+                {
+                    "text": "Câmera selfie",
+                    "isCorrect": false,
+                    "explanation": "Não! Selfie só mostra a cara,\nescudo térmico é que protege."
+                },
+                {
+                    "text": "Chuveiro de gelo seco",
+                    "isCorrect": false,
+                    "explanation": "Errado! Gelo seco só em festas,\nproteção é com escudo térmico."
+                }
+            ]
+        },
+        {
+            "id": "91",
+            "question": "Qual dessas missões foi a primeira a detectar atmosferas em exoluas?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Hubble",
+                    "isCorrect": true,
+                    "explanation": "Correto! O Hubble detectou sinais de atmosfera\nem possíveis exoluas distantes!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/hubble_exoplanet.jpg",
+                    "imageDescription": "Ilustração do Hubble estudando exoluas"
+                },
+                {
+                    "text": "Kepler",
+                    "isCorrect": false,
+                    "explanation": "Errado! Kepler acha planetas,\natmosfera de lua é com Hubble."
+                },
+                {
+                    "text": "TESS",
+                    "isCorrect": false,
+                    "explanation": "Não! TESS busca planetas,\nquem vê atmosfera de lua é Hubble."
+                },
+                {
+                    "text": "Gaia",
+                    "isCorrect": false,
+                    "explanation": "Errado! Gaia faz mapas estelares,\nquem vê atmosfera é Hubble."
+                }
+            ]
+        },
+        {
+            "id": "92",
+            "question": "Qual dessas tecnologias é usada para detectar ondas de rádio de pulsares?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Radiotelescópios",
+                    "isCorrect": true,
+                    "explanation": "Correto! Radiotelescópios captam os sinais regulares\ndos pulsares, como relógios cósmicos!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/arecibo_observatory.jpg",
+                    "imageDescription": "Radiotelescópio de Arecibo"
+                },
+                {
+                    "text": "Painel solar",
+                    "isCorrect": false,
+                    "explanation": "Errado! Painel só gera energia,\npulsar é com rádio."
+                },
+                {
+                    "text": "Câmera selfie",
+                    "isCorrect": false,
+                    "explanation": "Não! Selfie só mostra o rosto,\npulsar é com rádio."
+                },
+                {
+                    "text": "Sensor de fumaça",
+                    "isCorrect": false,
+                    "explanation": "Errado! Fumaça só na Terra,\npulsar é com rádio."
+                }
+            ]
+        },
+        {
+            "id": "93",
+            "question": "Qual dessas missões foi a primeira a detectar um planeta em trânsito em uma estrela brilhante?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "CoRoT",
+                    "isCorrect": true,
+                    "explanation": "Correto! O satélite CoRoT detectou o primeiro trânsito planetário\nem uma estrela brilhante em 2007!\n",
+                    "imageUrl": "https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2006/12/corot/10195018-1-eng-GB/CoRoT_pillars.jpg",
+                    "imageDescription": "Satélite CoRoT em órbita"
+                },
+                {
+                    "text": "Kepler",
+                    "isCorrect": false,
+                    "explanation": "Errado! Kepler achou muitos trânsitos,\nmas CoRoT foi pioneiro."
+                },
+                {
+                    "text": "Hubble",
+                    "isCorrect": false,
+                    "explanation": "Não! Hubble vê longe,\ntrânsito planetário é com CoRoT."
+                },
+                {
+                    "text": "TESS",
+                    "isCorrect": false,
+                    "explanation": "Errado! TESS é moderno,\nmas CoRoT foi o primeiro."
+                }
+            ]
+        },
+        {
+            "id": "94",
+            "question": "Qual dessas tecnologias é usada para detectar campos magnéticos em exoplanetas?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Rádio polarimetria",
+                    "isCorrect": true,
+                    "explanation": "Correto! Rádio polarimetria pode revelar campos magnéticos\nem exoplanetas distantes!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/radio_telescope.jpg",
+                    "imageDescription": "Radiotelescópio usado para polarimetria"
+                },
+                {
+                    "text": "Painel solar",
+                    "isCorrect": false,
+                    "explanation": "Errado! Painel só gera energia,\ncampo magnético é com rádio."
+                },
+                {
+                    "text": "Câmera selfie",
+                    "isCorrect": false,
+                    "explanation": "Não! Selfie só mostra o rosto,\ncampo magnético é com rádio."
+                },
+                {
+                    "text": "Termômetro digital",
+                    "isCorrect": false,
+                    "explanation": "Errado! Termômetro mede calor,\ncampo magnético é com rádio."
+                }
+            ]
+        },
+        {
+            "id": "95",
+            "question": "Qual dessas missões foi a primeira a detectar um planeta do tipo 'Júpiter quente'?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "51 Pegasi b",
+                    "isCorrect": true,
+                    "explanation": "Correto! 51 Pegasi b foi o primeiro 'Júpiter quente'\ndescoberto em 1995, revolucionando a astronomia!\n",
+                    "imageUrl": "https://www.eso.org/public/images/eso0727a/",
+                    "imageDescription": "Ilustração artística de 51 Pegasi b"
+                },
+                {
+                    "text": "Kepler-22b",
+                    "isCorrect": false,
+                    "explanation": "Errado! Kepler-22b é planeta habitável,\nJúpiter quente é 51 Pegasi b."
+                },
+                {
+                    "text": "HD 209458 b",
+                    "isCorrect": false,
+                    "explanation": "Não! HD 209458 b foi o primeiro trânsito,\nmas não o primeiro Júpiter quente."
+                },
+                {
+                    "text": "HAT-P-7b",
+                    "isCorrect": false,
+                    "explanation": "Errado! HAT-P-7b é moderno,\nJúpiter quente é 51 Pegasi b."
+                }
+            ]
+        },
+        {
+            "id": "96",
+            "question": "Qual dessas tecnologias é usada para detectar atmosferas em planetas fora do Sistema Solar?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Espectroscopia de trânsito",
+                    "isCorrect": true,
+                    "explanation": "Correto! Espectroscopia de trânsito analisa a luz das estrelas\nquando o planeta passa na frente!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/exoplanet_transit_spectroscopy.jpg",
+                    "imageDescription": "Ilustração de espectroscopia de trânsito"
+                },
+                {
+                    "text": "Painel solar",
+                    "isCorrect": false,
+                    "explanation": "Errado! Painel só gera energia,\natmosfera é com espectroscopia."
+                },
+                {
+                    "text": "Câmera selfie",
+                    "isCorrect": false,
+                    "explanation": "Não! Selfie só mostra a cara,\natmosfera é com espectroscopia."
+                },
+                {
+                    "text": "Radar SAR",
+                    "isCorrect": false,
+                    "explanation": "Errado! Radar SAR faz mapas,\natmosfera é com espectroscopia."
+                }
+            ]
+        },
+        {
+            "id": "97",
+            "question": "Qual dessas missões foi a primeira a detectar anéis ao redor de um planeta que não Saturno?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Voyager 1 (Júpiter)",
+                    "isCorrect": true,
+                    "explanation": "Correto! Voyager 1 detectou anéis em Júpiter em 1979,\nsurpreendendo os cientistas!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/jupiter_rings_voyager1.jpg",
+                    "imageDescription": "Anéis de Júpiter vistos pela Voyager 1"
+                },
+                {
+                    "text": "Galileo (Júpiter)",
+                    "isCorrect": false,
+                    "explanation": "Errado! Galileo estudou os anéis depois,\nmas Voyager 1 foi pioneira."
+                },
+                {
+                    "text": "Cassini (Urano)",
+                    "isCorrect": false,
+                    "explanation": "Não! Cassini ficou em Saturno,\nanéis de Urano foram vistos antes."
+                },
+                {
+                    "text": "Hubble (Netuno)",
+                    "isCorrect": false,
+                    "explanation": "Errado! Hubble viu anéis em Netuno,\nmas Voyager 1 foi a primeira fora de Saturno."
+                }
+            ]
+        },
+        {
+            "id": "98",
+            "question": "Qual dessas tecnologias é usada para detectar gelo de água em asteroides?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Espectrômetro infravermelho",
+                    "isCorrect": true,
+                    "explanation": "Correto! Espectrômetros infravermelhos identificam gelo de água\nem asteroides e cometas!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/infrared_spectrometer.jpg",
+                    "imageDescription": "Espectrômetro infravermelho em sonda espacial"
+                },
+                {
+                    "text": "Painel solar",
+                    "isCorrect": false,
+                    "explanation": "Errado! Painel só gera energia,\ngelo é com espectrômetro."
+                },
+                {
+                    "text": "Câmera selfie",
+                    "isCorrect": false,
+                    "explanation": "Não! Selfie só mostra a cara,\ngelo é com espectrômetro."
+                },
+                {
+                    "text": "Radar SAR",
+                    "isCorrect": false,
+                    "explanation": "Errado! Radar SAR faz mapas,\ngelo é com espectrômetro."
+                }
+            ]
+        },
+        {
+            "id": "99",
+            "question": "Qual dessas missões foi a primeira a detectar uma atmosfera em Plutão?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "New Horizons",
+                    "isCorrect": true,
+                    "explanation": "Correto! A New Horizons detectou atmosfera tênue em Plutão\nem 2015, surpreendendo os cientistas!\n",
+                    "imageUrl": "https://www.nasa.gov/sites/default/files/thumbnails/image/new_horizons_pluto.jpg",
+                    "imageDescription": "Imagem de Plutão feita pela New Horizons"
+                },
+                {
+                    "text": "Voyager 2",
+                    "isCorrect": false,
+                    "explanation": "Errado! Voyager 2 nunca passou por Plutão,\natmosfera foi com a New Horizons."
+                },
+                {
+                    "text": "Hubble",
+                    "isCorrect": false,
+                    "explanation": "Não! Hubble vê longe,\natmosfera de Plutão é com New Horizons."
+                },
+                {
+                    "text": "Pioneer 10",
+                    "isCorrect": false,
+                    "explanation": "Errado! Pioneer 10 saiu do Sistema Solar,\nPlutão ficou para a New Horizons."
+                }
+            ]
+        },
+        {
+            "id": "100",
+            "question": "Qual dessas tecnologias é usada para detectar terremotos em Marte?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Sismógrafo",
+                    "isCorrect": true,
+                    "explanation": "Correto! Sismógrafos detectam 'martemotos',\nrevelando o interior do planeta vermelho!\n",
+                    "imageUrl": "https://mars.nasa.gov/system/news_items/main_images/8733_insight_seismometer.jpg",
+                    "imageDescription": "Sismógrafo da missão InSight em Marte"
+                },
+                {
+                    "text": "Painel solar",
+                    "isCorrect": false,
+                    "explanation": "Errado! Painel só gera energia,\nterremoto é com sismógrafo."
+                },
+                {
+                    "text": "Câmera selfie",
+                    "isCorrect": false,
+                    "explanation": "Não! Selfie só mostra a cara,\nterremoto é com sismógrafo."
+                },
+                {
+                    "text": "Radar SAR",
+                    "isCorrect": false,
+                    "explanation": "Errado! Radar SAR faz mapas,\nterremoto é com sismógrafo."
                 }
             ]
         }

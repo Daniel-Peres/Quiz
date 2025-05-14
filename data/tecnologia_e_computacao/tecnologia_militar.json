@@ -1,149 +1,2909 @@
 {
-    "config": {
-      "theme": "Tecnologia Militar",
-      "totalPoints": 1000,
-      "scoring": "points"
+  "config": {
+    "theme": "Tecnologia Militar",
+    "totalPoints": 1000,
+    "scoring": "points"
+  },
+  "data": [
+    {
+      "id": "01",
+      "question": "Qual país criou a primeira força militar dedicada exclusivamente ao uso de sistemas não tripulados (robóticos) em operações de guerra?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Estados Unidos",
+          "isCorrect": false,
+          "explanation": "Os EUA investem pesado em robótica, mas não foram os pioneiros em criar uma força dedicada só a sistemas não tripulados.\nTalvez estejam esperando os robôs fazerem café também."
+        },
+        {
+          "text": "Ucrânia",
+          "isCorrect": true,
+          "explanation": "A Ucrânia inovou ao criar a primeira força dedicada a sistemas não tripulados.\nAgora, até os drones têm patente militar!\nRobôs, preparem-se para a inspeção.",
+          "imageUrl": "https://www.janes.com/images/default-source/news-images/2024/ukraine-unmanned-force.jpg",
+          "imageDescription": "Soldados ucranianos operando drones militares em campo."
+        },
+        {
+          "text": "China",
+          "isCorrect": false,
+          "explanation": "A China está na corrida dos drones, mas ainda não criou uma força só para eles.\nTalvez estejam esperando os robôs aprenderem kung fu."
+        },
+        {
+          "text": "Rússia",
+          "isCorrect": false,
+          "explanation": "A Rússia adora tecnologia militar, mas ainda não lançou uma força só de robôs.\nQuem sabe no próximo desfile militar?"
+        }
+      ]
     },
-    "data": [
-      {
-        "question": "Qual arma, introduzida na Primeira Guerra Mundial, foi a primeira a usar ataques químicos em larga escala?",
-        "level": "fácil",
-        "options": [
-          {
-            "text": "Metralhadora",
-            "isCorrect": false,
-            "explanation": "Nããão, metralhadoras cuspiam balas, não produtos químicos! Elas mudaram a guerra, mas o terror que buscamos é mais... gasoso e assustador!"
-          },
-          {
-            "text": "Gás venenoso",
-            "isCorrect": true,
-            "explanation": "Você sobreviveu ao ataque! Gás venenoso, como cloro e mostarda, foi usado na Primeira Guerra, causando pânico nas trincheiras. Máscaras de gás viraram item de sobrevivência, mas o medo era real. Boa, soldado!",
-            "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero/public/2020-07/gas-attack.jpg",
-            "imageDescription": "Imagem de soldados com máscaras de gás em uma trincheira durante a Primeira Guerra Mundial, protegendo-se de um ataque de gás venenoso."
-          },
-          {
-            "text": "Tanque",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! Tanques esmagavam arames farpados, mas não eram químicos. Tente algo mais invisível e letal!"
-          },
-          {
-            "text": "Submarino",
-            "isCorrect": false,
-            "explanation": "Nããão, submarinos afundavam navios, não lançavam gases. Tente algo que flutua no ar e causa pavor!"
-          }
-        ]
-      },
-      {
-        "question": "Qual aeronave stealth, introduzida nos anos 1980, foi a primeira a usar tecnologia de invisibilidade ao radar?",
-        "level": "médio",
-        "options": [
-          {
-            "text": "F-22 Raptor",
-            "isCorrect": false,
-            "explanation": "Nããão, o F-22 é de 2005, bem mais novo! Ele é stealth, mas não o pioneiro. Tente um caça mais velho, que voou escondido nos anos 80!"
-          },
-          {
-            "text": "F-117 Nighthawk",
-            "isCorrect": true,
-            "explanation": "Você é um ás dos céus! O F-117 Nighthawk, introduzido em 1983, foi o primeiro caça stealth, com design angular que desviava radares. Usado na Guerra do Golfo, ele era tipo um ninja voador. Parabéns, piloto!",
-            "imageUrl": "https://www.lockheedmartin.com/content/dam/lockheed-martin/aero/photo/f117/f117-inflight.jpg",
-            "imageDescription": "Imagem do F-117 Nighthawk voando, com seu design angular preto, destacando sua tecnologia stealth pioneira dos anos 1980."
-          },
-          {
-            "text": "B-2 Spirit",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! O B-2, de 1989, é um bombardeiro stealth, mas veio depois. Tente o caça que abriu caminho pra invisibilidade!"
-          },
-          {
-            "text": "F-15 Eagle",
-            "isCorrect": false,
-            "explanation": "Nããão, o F-15, de 1976, é um caça clássico, mas não stealth. Tente algo mais... escondido e futurista!"
-          }
-        ]
-      },
-      {
-        "question": "Qual tipo de navio, usado na Segunda Guerra Mundial, foi essencial para lançar aviões no mar?",
-        "level": "fácil",
-        "options": [
-          {
-            "text": "Submarino",
-            "isCorrect": false,
-            "explanation": "Nããão, submarinos caçavam debaixo d’água, não lançavam aviões! Tente algo que flutua e serve de pista de pouso flutuante!"
-          },
-          {
-            "text": "Porta-aviões",
-            "isCorrect": true,
-            "explanation": "Naveguei direitinho! Porta-aviões, como o USS Enterprise, foram cruciais na Segunda Guerra, lançando caças no Pacífico e mudando batalhas navais. Eles são tipo shoppings flutuantes, mas com jatos e canhões. Boa, almirante!",
-            "imageUrl": "https://www.navalhistory.org/wp-content/uploads/2020/05/USS-Enterprise.jpg",
-            "imageDescription": "Imagem de um porta-aviões da Segunda Guerra Mundial, com aviões no convés e o mar ao fundo, destacando sua importância em batalhas navais."
-          },
-          {
-            "text": "Cruzador",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! Cruzadores tinham canhões potentes, mas não pistas de voo. Tente algo mais... aeronáutico!"
-          },
-          {
-            "text": "Destroyer",
-            "isCorrect": false,
-            "explanation": "Nããão, destroyers caçavam submarinos, não aviões. Tente um navio que é praticamente um aeroporto flutuante!"
-          }
-        ]
-      },
-      {
-        "question": "Qual tecnologia de mísseis, desenvolvida durante a Guerra Fria, permitiu ataques de longo alcance com precisão?",
-        "level": "difícil",
-        "options": [
-          {
-            "text": "Mísseis balísticos intercontinentais",
-            "isCorrect": true,
-            "explanation": "Kaboom, acertou na ogiva! Mísseis balísticos intercontinentais (ICBMs), como o Minuteman, surgiram na Guerra Fria, capazes de cruzar continentes com precisão mortal. Eles eram o pesadelo da Guerra Fria, prontos pra voar em minutos. Você é um estrategista!",
-            "imageUrl": "https://www.af.mil/Portals/1/images/fact-sheets/ICBM.jpg",
-            "imageDescription": "Imagem de um míssil balístico intercontinental sendo lançado, com chamas na base e céu ao fundo, representando sua potência na Guerra Fria."
-          },
-          {
-            "text": "Mísseis de cruzeiro",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! Mísseis de cruzeiro, como o Tomahawk, são precisos, mas não tão de longo alcance. Tente algo mais... global e assustador!"
-          },
-          {
-            "text": "Mísseis antitanque",
-            "isCorrect": false,
-            "explanation": "Nããão, antitanques são pra blindados, não longas distâncias. Tente algo que voa milhares de quilômetros!"
-          },
-          {
-            "text": "Mísseis superfície-ar",
-            "isCorrect": false,
-            "explanation": "Ops, esses derrubam aviões, não cruzam continentes! Tente algo mais estratégico e de longo alcance!"
-          }
-        ]
-      },
-      {
-        "question": "Qual sistema de defesa antimísseis, introduzido pelos EUA nos anos 2000, protege contra ataques balísticos?",
-        "level": "difícil",
-        "options": [
-          {
-            "text": "Iron Dome",
-            "isCorrect": false,
-            "explanation": "Nããão, Iron Dome, de Israel, é pra foguetes de curto alcance. Tente algo mais global, que caça mísseis balísticos!"
-          },
-          {
-            "text": "Aegis Ballistic Missile Defense",
-            "isCorrect": true,
-            "explanation": "Você é um escudo humano! O Aegis BMD, introduzido nos anos 2000, é um sistema naval dos EUA que intercepta mísseis balísticos com radares e mísseis SM-3. É como um guarda-chuva high-tech contra ogivas! Parabéns, comandante!",
-            "imageUrl": "https://www.mda.mil/global/images/system/aegis/Aegis_BMD.jpg",
-            "imageDescription": "Imagem de um navio lançando um míssil do sistema Aegis BMD, com o mar ao fundo, destacando sua tecnologia de defesa antimísseis."
-          },
-          {
-            "text": "Patriot System",
-            "isCorrect": false,
-            "explanation": "Quase, mas não! Patriot é mais pra mísseis táticos e aviões. Tente algo mais focado em balísticos intercontinentais!"
-          },
-          {
-            "text": "THAAD",
-            "isCorrect": false,
-            "explanation": "Nããão, THAAD é parte da defesa, mas mais específica. Tente o sistema naval que é a espinha dorsal da defesa antimísseis!"
-          }
-        ]
-      }
-    ]
-  }
+    {
+      "id": "02",
+      "question": "Qual é o nome do caça furtivo de quinta geração desenvolvido pela China e já em uso operacional?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Sukhoi Su-57",
+          "isCorrect": false,
+          "explanation": "O Su-57 é russo, não chinês.\nParece que alguém confundiu as asas."
+        },
+        {
+          "text": "J-20 Mighty Dragon",
+          "isCorrect": true,
+          "explanation": "O J-20 é o dragão chinês dos céus!\nFurtivo, moderno e com nome de filme de ação.\nCuidado, Top Gun!",
+          "imageUrl": "https://www.janes.com/images/default-source/news-images/2023/china-j20-stealth-fighter.jpg",
+          "imageDescription": "Caça furtivo J-20 da Força Aérea da China em voo."
+        },
+        {
+          "text": "F-22 Raptor",
+          "isCorrect": false,
+          "explanation": "O F-22 é americano.\nMas quem nunca confundiu dragão com águia?"
+        },
+        {
+          "text": "Dassault Rafale",
+          "isCorrect": false,
+          "explanation": "O Rafale é francês, elegante e rápido, mas não chinês.\nBonjour, mas não é a resposta!"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "question": "Qual tecnologia emergente promete revolucionar a defesa contra ameaças rápidas, como drones e mísseis, utilizando feixes de energia concentrada?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Armas de pólvora convencional",
+          "isCorrect": false,
+          "explanation": "Pólvora é clássica, mas não tão futurista assim.\nAinda faz barulho e fumaça."
+        },
+        {
+          "text": "Armas de energia direcionada (lasers)",
+          "isCorrect": true,
+          "explanation": "Lasers: agora não só em filmes de ficção!\nPrometem derrubar drones e mísseis com estilo Jedi.\nCuidado com os óculos escuros.",
+          "imageUrl": "https://www.rand.org/content/dam/rand/pubs/commentary/2024/01/laser-weapon-us-navy.jpg",
+          "imageDescription": "Sistema de arma laser montado em navio militar."
+        },
+        {
+          "text": "Armas químicas",
+          "isCorrect": false,
+          "explanation": "Armas químicas são perigosas, mas não têm nada de Star Wars.\nE ainda são proibidas em muitos lugares."
+        },
+        {
+          "text": "Munição guiada por GPS",
+          "isCorrect": false,
+          "explanation": "GPS é ótimo para chegar ao destino, mas não para fritar drones com luz.\nFica para a próxima atualização."
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "question": "Qual veículo blindado brasileiro está passando por um amplo programa de modernização até 2031?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Leopard 1A5",
+          "isCorrect": false,
+          "explanation": "O Leopard é famoso, mas não é o protagonista dessa reforma.\nTalvez na próxima novela militar."
+        },
+        {
+          "text": "EE-9 Cascavel",
+          "isCorrect": true,
+          "explanation": "O Cascavel vai ganhar upgrades dignos de um herói de ação!\nNovo motor, eletrônica e até ar-condicionado.\nVai rodar liso até no sertão.",
+          "imageUrl": "https://www.janes.com/images/default-source/news-images/2019/ee-9-cascavel-brazil.jpg",
+          "imageDescription": "Blindado EE-9 Cascavel do Exército Brasileiro em desfile."
+        },
+        {
+          "text": "Guarani",
+          "isCorrect": false,
+          "explanation": "O Guarani é moderno, mas não está no foco dessa reforma.\nTalvez só precise de um polimento."
+        },
+        {
+          "text": "M113",
+          "isCorrect": false,
+          "explanation": "O M113 é veterano, mas não está no pacote de modernização.\nJá viu muita poeira por aí."
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "question": "Qual país lançou em 2024 o maior número de exportações de defesa em uma década, incluindo aviões, helicópteros e armas leves?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Estados Unidos",
+          "isCorrect": false,
+          "explanation": "Os EUA exportam muito, mas não bateram recorde em 2024.\nFicaram só olhando o Brasil passar."
+        },
+        {
+          "text": "Brasil",
+          "isCorrect": true,
+          "explanation": "O Brasil bateu recorde de exportações!\nDe aviões a munição, foi um verdadeiro desfile de tecnologia.\nCarnaval militar pelo mundo.",
+          "imageUrl": "https://www.janes.com/images/default-source/news-images/2024/brazil-defense-exports.jpg",
+          "imageDescription": "Avião militar brasileiro em exposição internacional."
+        },
+        {
+          "text": "Rússia",
+          "isCorrect": false,
+          "explanation": "A Rússia vende muito, mas não foi o destaque de 2024.\nTalvez estejam guardando para a próxima temporada."
+        },
+        {
+          "text": "França",
+          "isCorrect": false,
+          "explanation": "A França exporta Rafale, mas não foi campeã do ano.\nQuem sabe no próximo leilão?"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "question": "Qual destes é um dos principais helicópteros de ataque utilizados pelas forças armadas dos Estados Unidos?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Mi-24 Hind",
+          "isCorrect": false,
+          "explanation": "O Hind é russo, famoso por sua robustez.\nMas não voa com a bandeira americana."
+        },
+        {
+          "text": "AH-64 Apache",
+          "isCorrect": true,
+          "explanation": "O Apache é o terror dos tanques e o orgulho dos EUA.\nSe ouvir o barulho das hélices, já pode correr!\nOu se esconder.",
+          "imageUrl": "https://www.army.mil/e2/c/images/2021/09/23/6c4f2e4e/original.jpg",
+          "imageDescription": "Helicóptero AH-64 Apache em voo armado."
+        },
+        {
+          "text": "Tiger",
+          "isCorrect": false,
+          "explanation": "O Tiger é europeu, elegante e letal.\nMas não é o escolhido dos EUA."
+        },
+        {
+          "text": "Ka-52 Alligator",
+          "isCorrect": false,
+          "explanation": "O Ka-52 é russo, com hélices gêmeas.\nMas não faz parte do arsenal americano."
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "question": "Qual destas tecnologias é fundamental para a guerra eletrônica moderna?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Radares de varredura mecânica",
+          "isCorrect": false,
+          "explanation": "Radares mecânicos são clássicos, mas já estão ficando vintage.\nHora de atualizar o firmware!"
+        },
+        {
+          "text": "Jammers (bloqueadores de sinal)",
+          "isCorrect": true,
+          "explanation": "Jammers são o pesadelo das comunicações inimigas.\nÉ só ligar e pronto: silêncio absoluto!\nOu quase isso.",
+          "imageUrl": "https://www.janes.com/images/default-source/news-images/2023/electronic-warfare-jammer.jpg",
+          "imageDescription": "Veículo militar equipado com jammer de guerra eletrônica."
+        },
+        {
+          "text": "Granadas de fumaça",
+          "isCorrect": false,
+          "explanation": "Fumaça é boa para esconder, mas não para confundir eletrônicos.\nSó confunde quem esqueceu os óculos."
+        },
+        {
+          "text": "Binóculos noturnos",
+          "isCorrect": false,
+          "explanation": "Ótimos para enxergar no escuro, mas não para travar sinais.\nNo máximo, você vê o jammer funcionando."
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "question": "Qual destes países é reconhecido por desenvolver o tanque Leopard 2, um dos mais avançados do mundo?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Estados Unidos",
+          "isCorrect": false,
+          "explanation": "Os EUA têm o Abrams, não o Leopard.\nConfundir felinos é normal."
+        },
+        {
+          "text": "Alemanha",
+          "isCorrect": true,
+          "explanation": "O Leopard 2 é o orgulho alemão!\nRápido, resistente e com nome de felino.\nCuidado com as garras.",
+          "imageUrl": "https://www.bundeswehr.de/resource/image/1668430/landscape_ratio16x9/1920/1080/5d5a7e6e9f2c7e8b8d7e2b9e3b7c8e2c/EC/leopard-2a7v.jpg",
+          "imageDescription": "Tanque Leopard 2A7V do Exército Alemão em campo."
+        },
+        {
+          "text": "França",
+          "isCorrect": false,
+          "explanation": "A França tem o Leclerc, elegante como um desfile em Paris.\nMas não é o Leopard!"
+        },
+        {
+          "text": "Itália",
+          "isCorrect": false,
+          "explanation": "Os italianos preferem pizzas e tanques Ariete.\nLeopard só no zoológico."
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "question": "Qual destes sistemas de defesa antimísseis é famoso por proteger cidades israelenses de foguetes e mísseis de curto alcance?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Patriot",
+          "isCorrect": false,
+          "explanation": "O Patriot é americano e protege grandes áreas.\nMas não é o escudo preferido de Israel."
+        },
+        {
+          "text": "Iron Dome",
+          "isCorrect": true,
+          "explanation": "O Iron Dome é o guarda-chuva de Israel!\nIntercepta foguetes como quem pega pipoca no ar.\nChuva de mísseis? Só se for de confete.",
+          "imageUrl": "https://www.janes.com/images/default-source/news-images/2022/iron-dome-israel.jpg",
+          "imageDescription": "Sistema Iron Dome lançando míssil interceptador."
+        },
+        {
+          "text": "S-400",
+          "isCorrect": false,
+          "explanation": "O S-400 é russo e protege grandes áreas.\nEm Israel, só de visita."
+        },
+        {
+          "text": "THAAD",
+          "isCorrect": false,
+          "explanation": "O THAAD é americano e caça mísseis balísticos.\nMas não é o escudo urbano de Israel."
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "question": "Qual destes aviões é considerado o bombardeiro estratégico mais avançado atualmente em operação nos EUA?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "B-52 Stratofortress",
+          "isCorrect": false,
+          "explanation": "O B-52 é veterano e resistente.\nMas não é o mais avançado do arsenal."
+        },
+        {
+          "text": "B-2 Spirit",
+          "isCorrect": true,
+          "explanation": "O B-2 parece um disco voador de filme!\nFurtivo, elegante e caríssimo.\nSó falta tocar música de suspense.",
+          "imageUrl": "https://www.northropgrumman.com/wp-content/uploads/B-2-Spirit-Stealth-Bomber.jpg",
+          "imageDescription": "Bombardeiro B-2 Spirit em voo."
+        },
+        {
+          "text": "F-15E Strike Eagle",
+          "isCorrect": false,
+          "explanation": "O F-15E é caçador, não bombardeiro.\nMas voa bonito!"
+        },
+        {
+          "text": "B-1B Lancer",
+          "isCorrect": false,
+          "explanation": "O B-1B é rápido, mas não é o mais furtivo.\nFica para a próxima missão secreta."
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "question": "Qual destas armas é famosa por ser o fuzil padrão das forças armadas russas desde a década de 1940?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "M16",
+          "isCorrect": false,
+          "explanation": "O M16 é americano e adora filmes de ação.\nNa Rússia, só como souvenir."
+        },
+        {
+          "text": "AK-47",
+          "isCorrect": true,
+          "explanation": "O AK-47 é robusto, simples e já virou lenda.\nSe você nunca viu um, precisa assistir mais filmes de guerra.",
+          "imageUrl": "https://topwar.ru/uploads/posts/2020-10/1603170173_ak-47.jpg",
+          "imageDescription": "Fuzil AK-47 em exposição."
+        },
+        {
+          "text": "FAMAS",
+          "isCorrect": false,
+          "explanation": "O FAMAS é francês, com design futurista.\nMas não faz parte do arsenal russo."
+        },
+        {
+          "text": "G36",
+          "isCorrect": false,
+          "explanation": "O G36 é alemão, moderno e elegante.\nNa Rússia, só no museu."
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "question": "Qual destes submarinos é conhecido por sua capacidade de lançar mísseis balísticos intercontinentais (ICBM)?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Classe Los Angeles",
+          "isCorrect": false,
+          "explanation": "A Classe Los Angeles é ótima em espionagem, mas não lança ICBM.\nSó torpedos mesmo."
+        },
+        {
+          "text": "Classe Ohio",
+          "isCorrect": true,
+          "explanation": "A Classe Ohio é o terror das profundezas!\nCapaz de lançar mísseis que atravessam continentes.\nSubmarino ou base secreta?",
+          "imageUrl": "https://www.navy.mil/management/photodb/photos/210217-N-NO901-0001.jpg",
+          "imageDescription": "Submarino Classe Ohio navegando em superfície."
+        },
+        {
+          "text": "Classe Scorpène",
+          "isCorrect": false,
+          "explanation": "A Classe Scorpène é francesa e discreta.\nMas não carrega ICBM, só charme."
+        },
+        {
+          "text": "Classe Type 212",
+          "isCorrect": false,
+          "explanation": "O Type 212 é alemão e ecológico.\nMas não lança mísseis intercontinentais."
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "question": "Qual destes sistemas é considerado o principal míssil antiaéreo de longo alcance da Rússia?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Patriot",
+          "isCorrect": false,
+          "explanation": "O Patriot é americano e adora festas nos EUA.\nNa Rússia, só de visita."
+        },
+        {
+          "text": "S-400 Triumf",
+          "isCorrect": true,
+          "explanation": "O S-400 é o orgulho russo!\nDizem que até os pássaros mudam de rota quando ele está ligado.",
+          "imageUrl": "https://ria.ru/images/07e5/0c/1c/1765436922_0:0:3072:2048_1920x0_80_0_0_7e2d5e5d7a9e3b7c8e2c.jpg",
+          "imageDescription": "Lançador de mísseis S-400 em posição."
+        },
+        {
+          "text": "NASAMS",
+          "isCorrect": false,
+          "explanation": "O NASAMS é norueguês-americano.\nNa Rússia, só nos noticiários."
+        },
+        {
+          "text": "Iron Dome",
+          "isCorrect": false,
+          "explanation": "O Iron Dome é israelense, ideal para mísseis curtos.\nNa Rússia, só como inspiração."
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "question": "Qual destas aeronaves foi projetada para pousar e decolar verticalmente, sendo amplamente usada pela Marinha britânica?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "F-16 Fighting Falcon",
+          "isCorrect": false,
+          "explanation": "O F-16 é ágil, mas precisa de pista.\nNada de decolagem vertical por aqui."
+        },
+        {
+          "text": "Harrier Jump Jet",
+          "isCorrect": true,
+          "explanation": "O Harrier é o mestre do pula-pula!\nDecola na vertical e faz inveja até a helicóptero.",
+          "imageUrl": "https://www.history.com/.image/t_share/MTYyNzY4NzA2NjU0MTc1NjQy/harrier-jump-jet.jpg",
+          "imageDescription": "Avião Harrier Jump Jet decolando verticalmente."
+        },
+        {
+          "text": "A-10 Thunderbolt II",
+          "isCorrect": false,
+          "explanation": "O A-10 é famoso pelo canhão, mas não pula nem de trampolim."
+        },
+        {
+          "text": "Su-27 Flanker",
+          "isCorrect": false,
+          "explanation": "O Su-27 é ágil, mas só decola do jeito tradicional.\nNada de acrobacias verticais."
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "question": "Qual destas inovações tecnológicas foi fundamental para a vitória dos Aliados na Batalha do Atlântico durante a Segunda Guerra Mundial?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Camuflagem de navios",
+          "isCorrect": false,
+          "explanation": "Camuflagem ajudou, mas não foi o divisor de águas.\nNavio pintado não afunda submarino."
+        },
+        {
+          "text": "Radar",
+          "isCorrect": true,
+          "explanation": "O radar virou o pesadelo dos submarinos nazistas!\nAgora, até nevoeiro tinha medo dos Aliados.",
+          "imageUrl": "https://www.history.com/.image/t_share/MTU3ODc4NjAzNjY4NzU5OTY0/radar-wwii.jpg",
+          "imageDescription": "Operadores aliados utilizando radar durante a Segunda Guerra Mundial."
+        },
+        {
+          "text": "Minas navais",
+          "isCorrect": false,
+          "explanation": "Minas explodiram muito, mas não salvaram tantos comboios assim."
+        },
+        {
+          "text": "Pombos-correio",
+          "isCorrect": false,
+          "explanation": "Pombos são fofos, mas não detectam submarinos.\nNo máximo, entregam cartas de amor."
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "question": "Qual destes veículos é considerado o principal carro de combate da França atualmente?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Leopard 2",
+          "isCorrect": false,
+          "explanation": "O Leopard é alemão e adora passear pela Europa.\nNa França, só de visita turística."
+        },
+        {
+          "text": "Leclerc",
+          "isCorrect": true,
+          "explanation": "O Leclerc é o orgulho francês!\nRápido, moderno e com nome de general.\nChique até no campo de batalha.",
+          "imageUrl": "https://www.defense.gouv.fr/sites/default/files/styles/width_1200/public/2021-02/Leclerc.jpg",
+          "imageDescription": "Carro de combate Leclerc do Exército Francês em campo."
+        },
+        {
+          "text": "Abrams",
+          "isCorrect": false,
+          "explanation": "O Abrams é americano e adora desfiles nos EUA.\nNa França, só no cinema."
+        },
+        {
+          "text": "Challenger 2",
+          "isCorrect": false,
+          "explanation": "O Challenger 2 é britânico, toma chá às 5.\nNa França, só como convidado."
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "question": "Qual destas armas é conhecida por ser o fuzil padrão das forças armadas alemãs?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "AK-74",
+          "isCorrect": false,
+          "explanation": "O AK-74 é russo e adora o frio.\nNa Alemanha, só nos museus."
+        },
+        {
+          "text": "G36",
+          "isCorrect": true,
+          "explanation": "O G36 é alemão, moderno e cheio de estilo.\nSe fosse carro, seria uma BMW.",
+          "imageUrl": "https://www.bundeswehr.de/resource/image/1631706/landscape_ratio16x9/1920/1080/7e2d5e5d7a9e3b7c8e2c.jpg",
+          "imageDescription": "Soldado alemão com fuzil G36."
+        },
+        {
+          "text": "M4A1",
+          "isCorrect": false,
+          "explanation": "O M4A1 é americano, famoso em filmes de ação.\nNa Alemanha, só como lembrança."
+        },
+        {
+          "text": "FAMAS",
+          "isCorrect": false,
+          "explanation": "O FAMAS é francês, parece um bumerangue.\nAlemães preferem linhas retas."
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "question": "Qual destes aviões é um bombardeiro estratégico russo com asas de geometria variável?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "B-2 Spirit",
+          "isCorrect": false,
+          "explanation": "O B-2 é americano e adora voar furtivo.\nNa Rússia, só nos sonhos."
+        },
+        {
+          "text": "Tu-160 Blackjack",
+          "isCorrect": true,
+          "explanation": "O Tu-160 é o maior bombardeiro supersônico do mundo!\nAsas que mudam de forma e nome de cassino.\nAposte nele!",
+          "imageUrl": "https://topwar.ru/uploads/posts/2021-12/1639404842_tu-160.jpg",
+          "imageDescription": "Bombardeiro estratégico russo Tu-160 Blackjack em voo."
+        },
+        {
+          "text": "F-111 Aardvark",
+          "isCorrect": false,
+          "explanation": "O F-111 é americano e já se aposentou.\nNo Blackjack, só como espectador."
+        },
+        {
+          "text": "Mirage 2000",
+          "isCorrect": false,
+          "explanation": "O Mirage 2000 é francês e adora voar alto.\nMas não muda de asas como o Tu-160."
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "question": "Qual destes países é famoso por fabricar o caça Gripen?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Estados Unidos",
+          "isCorrect": false,
+          "explanation": "Os EUA têm o F-16, F-22 e companhia.\nGripen só no catálogo internacional."
+        },
+        {
+          "text": "Suécia",
+          "isCorrect": true,
+          "explanation": "O Gripen é sueco, discreto e eficiente.\nQuase um Volvo com asas!",
+          "imageUrl": "https://www.saab.com/globalassets/products/gripen-e/facts/gripen-e-air-to-air.jpg",
+          "imageDescription": "Caça sueco Gripen E em voo."
+        },
+        {
+          "text": "Itália",
+          "isCorrect": false,
+          "explanation": "A Itália faz ótimos caças, mas o Gripen não é deles.\nTalvez um dia, com molho de tomate."
+        },
+        {
+          "text": "Índia",
+          "isCorrect": false,
+          "explanation": "A Índia compra caças, mas não fabrica o Gripen.\nPor enquanto, só no simulador."
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "question": "Qual destes veículos blindados é conhecido por sua capacidade anfíbia e uso em operações de fuzileiros navais dos EUA?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Bradley",
+          "isCorrect": false,
+          "explanation": "O Bradley é ótimo em terra, mas não gosta de nadar.\nSó pega onda no asfalto."
+        },
+        {
+          "text": "AAV7",
+          "isCorrect": true,
+          "explanation": "O AAV7 é o pato dos blindados: nada, anda e transporta tropas.\nFuzileiro sente até saudade da água.",
+          "imageUrl": "https://www.military.com/sites/default/files/styles/full/public/2020-07/aav7-usmc.jpg",
+          "imageDescription": "AAV7 dos Fuzileiros Navais dos EUA em operação anfíbia."
+        },
+        {
+          "text": "Leopard 1",
+          "isCorrect": false,
+          "explanation": "O Leopard 1 é alemão e só nada em lama.\nPiscina não é com ele."
+        },
+        {
+          "text": "BMP-1",
+          "isCorrect": false,
+          "explanation": "O BMP-1 é russo e gosta de água, mas o destaque aqui é americano."
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "question": "Qual destes países desenvolveu o sistema de defesa antiaérea NASAMS?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Noruega",
+          "isCorrect": true,
+          "explanation": "A Noruega criou o NASAMS em parceria com os EUA.\nFrio, mas com defesa quente!",
+          "imageUrl": "https://www.raytheonmissilesanddefense.com/sites/default/files/styles/media_crop/public/2022-06/NASAMS%20Norway.jpg",
+          "imageDescription": "Sistema NASAMS em operação na Noruega."
+        },
+        {
+          "text": "Estados Unidos",
+          "isCorrect": false,
+          "explanation": "Os EUA são parceiros, mas o cérebro é norueguês.\nVikings tecnológicos!"
+        },
+        {
+          "text": "Alemanha",
+          "isCorrect": false,
+          "explanation": "A Alemanha faz ótimos sistemas, mas NASAMS não é deles.\nTalvez na próxima Oktoberfest."
+        },
+        {
+          "text": "Japão",
+          "isCorrect": false,
+          "explanation": "O Japão adora tecnologia, mas NASAMS não é deles.\nSamurais preferem katanas."
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "question": "Qual destes navios é um porta-aviões nuclear da Marinha dos Estados Unidos?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "USS Nimitz",
+          "isCorrect": true,
+          "explanation": "O USS Nimitz é uma cidade flutuante movida a energia nuclear.\nCabe até pista de corrida!",
+          "imageUrl": "https://www.navy.mil/management/photodb/photos/200624-N-AC117-001.jpg",
+          "imageDescription": "Porta-aviões nuclear USS Nimitz navegando no oceano."
+        },
+        {
+          "text": "HMS Queen Elizabeth",
+          "isCorrect": false,
+          "explanation": "O HMS Queen Elizabeth é britânico e elegante.\nMas não tem reator nuclear."
+        },
+        {
+          "text": "Charles de Gaulle",
+          "isCorrect": false,
+          "explanation": "O Charles de Gaulle é francês, também nuclear, mas não americano.\nBonjour, mas não é a resposta."
+        },
+        {
+          "text": "Admiral Kuznetsov",
+          "isCorrect": false,
+          "explanation": "O Kuznetsov é russo e gosta de soltar fumaça.\nNuclear, só no nome."
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "question": "Qual destas armas foi considerada revolucionária na Primeira Guerra Mundial por permitir disparos automáticos contínuos?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Mosquete",
+          "isCorrect": false,
+          "explanation": "Mosquete é coisa de pirata.\nDemora tanto para recarregar que dá tempo de tomar um chá."
+        },
+        {
+          "text": "Metralhadora Maxim",
+          "isCorrect": true,
+          "explanation": "A Maxim mudou o jogo: disparo contínuo e muita fumaça!\nFoi o terror das trincheiras.",
+          "imageUrl": "https://www.history.com/.image/t_share/MTYyNzY4NzA2NjU0MTc1NjQy/maxim-machine-gun.jpg",
+          "imageDescription": "Metralhadora Maxim sendo operada na Primeira Guerra Mundial."
+        },
+        {
+          "text": "Espingarda Winchester",
+          "isCorrect": false,
+          "explanation": "A Winchester é clássica, mas não automática.\nCowboys preferem assim."
+        },
+        {
+          "text": "Fuzil Lee-Enfield",
+          "isCorrect": false,
+          "explanation": "O Lee-Enfield é britânico e rápido, mas não automático.\nSó no modo manual."
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "question": "Qual destes países desenvolveu o míssil balístico intercontinental DF-41?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Estados Unidos",
+          "isCorrect": false,
+          "explanation": "Os EUA têm seus próprios mísseis, mas DF-41 não está na lista.\nTalvez na próxima atualização."
+        },
+        {
+          "text": "China",
+          "isCorrect": true,
+          "explanation": "O DF-41 é chinês e pode dar a volta ao mundo.\nSe perder o alvo, faz turismo internacional.",
+          "imageUrl": "http://www.81.cn/jfjbmap/content/2020-10/02/content_271173.htm",
+          "imageDescription": "Lançador móvel chinês do míssil balístico DF-41."
+        },
+        {
+          "text": "Rússia",
+          "isCorrect": false,
+          "explanation": "A Rússia tem o Satan e o Yars, mas DF-41 é chinês.\nNada de vodka nesse míssil."
+        },
+        {
+          "text": "Índia",
+          "isCorrect": false,
+          "explanation": "A Índia está evoluindo, mas DF-41 é só na vizinhança."
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "question": "Qual destas aeronaves é um bombardeiro estratégico nuclear francês?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Mirage 2000",
+          "isCorrect": false,
+          "explanation": "O Mirage 2000 é ágil, mas não é bombardeiro nuclear.\nSó faz barulho supersônico."
+        },
+        {
+          "text": "Rafale",
+          "isCorrect": false,
+          "explanation": "O Rafale é multirole, mas não é bombardeiro nuclear dedicado.\nChique, mas não radioativo."
+        },
+        {
+          "text": "Mirage IV",
+          "isCorrect": true,
+          "explanation": "O Mirage IV era o mensageiro nuclear francês.\nVoava alto e rápido, assustando até o relógio.",
+          "imageUrl": "https://www.air-cosmos.com/medias/2023/05/26/20230526113002-mirage-iv.jpg",
+          "imageDescription": "Bombardeiro estratégico francês Mirage IV em voo."
+        },
+        {
+          "text": "F-35 Lightning II",
+          "isCorrect": false,
+          "explanation": "O F-35 é americano, adora selfies furtivas.\nNa França, só de passagem."
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "question": "Qual destes sistemas de defesa é considerado o principal escudo antimíssil dos EUA contra ameaças balísticas de longo alcance?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Iron Dome",
+          "isCorrect": false,
+          "explanation": "O Iron Dome é israelense e adora mísseis curtos.\nNos EUA, só como inspiração."
+        },
+        {
+          "text": "THAAD",
+          "isCorrect": true,
+          "explanation": "O THAAD caça mísseis balísticos como se fossem mosquitos.\nAlvo voando alto? Ele resolve.",
+          "imageUrl": "https://www.defensenews.com/resizer/THAAD-missile-test.jpg",
+          "imageDescription": "Sistema THAAD disparando míssil interceptador."
+        },
+        {
+          "text": "NASAMS",
+          "isCorrect": false,
+          "explanation": "O NASAMS é ótimo, mas para ameaças menores.\nTHAAD é o grandalhão da turma."
+        },
+        {
+          "text": "S-300",
+          "isCorrect": false,
+          "explanation": "O S-300 é russo, não americano.\nNos EUA, só no videogame."
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "question": "Qual destes submarinos é famoso por sua propulsão independente de ar (AIP), permitindo longos períodos submerso sem energia nuclear?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Classe Typhoon",
+          "isCorrect": false,
+          "explanation": "O Typhoon é gigante e nuclear.\nAIP é coisa de submarino ecológico."
+        },
+        {
+          "text": "Classe Type 212",
+          "isCorrect": true,
+          "explanation": "O Type 212 alemão é o ninja dos mares.\nSilencioso, ecológico e quase invisível.",
+          "imageUrl": "https://www.naval.com.br/blog/wp-content/uploads/2021/09/type-212.jpg",
+          "imageDescription": "Submarino alemão Type 212 navegando em superfície."
+        },
+        {
+          "text": "Classe Ohio",
+          "isCorrect": false,
+          "explanation": "O Ohio é nuclear e adora longas viagens.\nAIP? Só se for aplicativo novo."
+        },
+        {
+          "text": "Classe Los Angeles",
+          "isCorrect": false,
+          "explanation": "O Los Angeles é rápido, mas só com energia nuclear.\nAIP ficou para os europeus."
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "question": "Qual destas empresas é famosa por desenvolver o caça F-35 Lightning II?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Boeing",
+          "isCorrect": false,
+          "explanation": "A Boeing faz aviões incríveis, mas o F-35 não é dela.\nTalvez na próxima geração."
+        },
+        {
+          "text": "Lockheed Martin",
+          "isCorrect": true,
+          "explanation": "A Lockheed Martin é a mãe do F-35!\nFurtivo, caro e cheio de tecnologia.",
+          "imageUrl": "https://www.lockheedmartin.com/content/dam/lockheed-martin/aero/photo/f35/f-35-lightning-ii.jpg",
+          "imageDescription": "Caça F-35 Lightning II em voo."
+        },
+        {
+          "text": "Northrop Grumman",
+          "isCorrect": false,
+          "explanation": "A Northrop Grumman ajudou, mas o projeto é da Lockheed.\nEquipe boa, mas só um leva o troféu."
+        },
+        {
+          "text": "Dassault Aviation",
+          "isCorrect": false,
+          "explanation": "A Dassault faz o Rafale, não o F-35.\nFurtividade só no sotaque."
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "question": "Qual destes sistemas foi pioneiro em defesa antimíssil naval, utilizando mísseis guiados por radar desde a década de 1960?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Aegis",
+          "isCorrect": false,
+          "explanation": "O Aegis é moderno e poderoso, mas não foi o pioneiro.\nChegou depois para dominar."
+        },
+        {
+          "text": "Sea Sparrow",
+          "isCorrect": true,
+          "explanation": "O Sea Sparrow foi um dos primeiros a proteger navios com mísseis guiados.\nMarinheiro dorme até mais tranquilo.",
+          "imageUrl": "https://www.naval.com.br/blog/wp-content/uploads/2019/09/sea-sparrow.jpg",
+          "imageDescription": "Lançamento de míssil Sea Sparrow de navio de guerra."
+        },
+        {
+          "text": "RAM",
+          "isCorrect": false,
+          "explanation": "O RAM é mais novo e rápido.\nSea Sparrow abriu o caminho."
+        },
+        {
+          "text": "Phalanx CIWS",
+          "isCorrect": false,
+          "explanation": "O Phalanx é um canhão giratório.\nMísseis? Só se for de brinquedo."
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "question": "Qual destas tecnologias de comunicação militar é considerada a mais segura contra interceptação atualmente?",
+      "level": "médio",
+      "options": [
+        {
+          "text": "Rádio AM",
+          "isCorrect": false,
+          "explanation": "Rádio AM é ótimo para ouvir futebol.\nMas segurança? Só se for segredo de estado."
+        },
+        {
+          "text": "Comunicação via satélite criptografada",
+          "isCorrect": true,
+          "explanation": "Satélite criptografado é quase um cofre voador.\nSó espião ninja consegue ouvir.",
+          "imageUrl": "https://www.rand.org/content/dam/rand/pubs/commentary/2024/01/military-satellite.jpg",
+          "imageDescription": "Satélite militar de comunicação em órbita."
+        },
+        {
+          "text": "Telefone fixo",
+          "isCorrect": false,
+          "explanation": "Telefone fixo é vintage.\nSó serve para ligar para a vovó."
+        },
+        {
+          "text": "Fax",
+          "isCorrect": false,
+          "explanation": "Fax é tão seguro que ninguém mais usa.\nSó falta voltar a usar pombo-correio."
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "question": "Qual destes países é reconhecido pelo desenvolvimento do sistema de defesa aérea Iron Dome?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Estados Unidos",
+          "isCorrect": false,
+          "explanation": "Os EUA são parceiros, mas não criaram o Iron Dome.\nEles preferem sistemas maiores."
+        },
+        {
+          "text": "Israel",
+          "isCorrect": true,
+          "explanation": "O Iron Dome é o guarda-chuva de Israel!\nIntercepta foguetes como quem pega pipoca no ar.",
+          "imageUrl": "https://www.defensenews.com/resizer/iron-dome.jpg",
+          "imageDescription": "Sistema Iron Dome lançando míssil interceptador."
+        },
+        {
+          "text": "Rússia",
+          "isCorrect": false,
+          "explanation": "A Rússia tem o S-400, mas Iron Dome só no noticiário.\nFoguetes russos, cuidado!"
+        },
+        {
+          "text": "Índia",
+          "isCorrect": false,
+          "explanation": "A Índia compra tecnologia, mas Iron Dome é só importado.\nQuem sabe um dia?"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "question": "Qual destes caças foi projetado para operações embarcadas em porta-aviões e tem decolagem vertical?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "F-16 Fighting Falcon",
+          "isCorrect": false,
+          "explanation": "O F-16 é ágil, mas precisa de pista longa.\nNada de decolagem vertical aqui."
+        },
+        {
+          "text": "Harrier Jump Jet",
+          "isCorrect": true,
+          "explanation": "O Harrier é mestre do pula-pula!\nDecola na vertical e faz inveja até a helicóptero.",
+          "imageUrl": "https://www.history.com/.image/t_share/MTYyNzY4NzA2NjU0MTc1NjQy/harrier-jump-jet.jpg",
+          "imageDescription": "Avião Harrier Jump Jet decolando verticalmente."
+        },
+        {
+          "text": "Su-35",
+          "isCorrect": false,
+          "explanation": "O Su-35 é russo e rápido, mas só decola do jeito tradicional.\nNada de acrobacias verticais."
+        },
+        {
+          "text": "Mirage 2000",
+          "isCorrect": false,
+          "explanation": "O Mirage 2000 é francês e elegante.\nMas não pula nem de trampolim."
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "question": "Qual destes fuzis é famoso por ser o padrão das forças armadas britânicas desde os anos 1980?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "M16",
+          "isCorrect": false,
+          "explanation": "O M16 é americano e adora filmes de ação.\nNo Reino Unido, só como lembrança."
+        },
+        {
+          "text": "SA80",
+          "isCorrect": true,
+          "explanation": "O SA80 é britânico, compacto e cheio de sotaque!\nSe fosse chá, seria Earl Grey com munição.",
+          "imageUrl": "https://www.army.mod.uk/media/15307/sa80.jpg",
+          "imageDescription": "Fuzil SA80 em uso por soldado britânico."
+        },
+        {
+          "text": "G36",
+          "isCorrect": false,
+          "explanation": "O G36 é alemão, moderno e elegante.\nNo Reino Unido, só no museu."
+        },
+        {
+          "text": "FAMAS",
+          "isCorrect": false,
+          "explanation": "O FAMAS é francês, parece um bumerangue.\nBritânicos preferem linhas retas."
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "question": "Qual destes sistemas é considerado o principal míssil antinavio dos EUA?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Exocet",
+          "isCorrect": false,
+          "explanation": "O Exocet é francês e adora navegar pelo mundo.\nNos EUA, só em filme."
+        },
+        {
+          "text": "Harpoon",
+          "isCorrect": true,
+          "explanation": "O Harpoon é o tubarão dos mares americanos!\nSe ouvir o nome, é melhor correr.",
+          "imageUrl": "https://www.boeing.com/resources/boeingdotcom/defense/harpoon/harpoon-launch-960x600.jpg",
+          "imageDescription": "Lançamento de míssil Harpoon de navio dos EUA."
+        },
+        {
+          "text": "Yakhont",
+          "isCorrect": false,
+          "explanation": "O Yakhont é russo, rápido como vodka gelada.\nNos EUA, só no noticiário."
+        },
+        {
+          "text": "BrahMos",
+          "isCorrect": false,
+          "explanation": "O BrahMos é indiano-russo e veloz.\nNos EUA, só no catálogo internacional."
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "question": "Qual destes veículos é um blindado de transporte de tropas sobre rodas, amplamente utilizado por países da OTAN?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "BMP-3",
+          "isCorrect": false,
+          "explanation": "O BMP-3 é russo e prefere trilhos.\nNa OTAN, só como alvo de estudo."
+        },
+        {
+          "text": "Stryker",
+          "isCorrect": true,
+          "explanation": "O Stryker é o ônibus blindado da OTAN!\nCabe tropa, bagagem e até piada interna.",
+          "imageUrl": "https://www.army.mil/e2/c/images/2021/09/23/stryker.jpg",
+          "imageDescription": "Blindado Stryker em operação."
+        },
+        {
+          "text": "Leopard 1",
+          "isCorrect": false,
+          "explanation": "O Leopard 1 é tanque, não leva carona.\nTransporte só se for de munição."
+        },
+        {
+          "text": "M113",
+          "isCorrect": false,
+          "explanation": "O M113 é clássico, mas sobre trilhos.\nStryker prefere o asfalto."
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "question": "Qual destes submarinos é nuclear e pertence à classe mais numerosa em operação nos EUA?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Classe Typhoon",
+          "isCorrect": false,
+          "explanation": "O Typhoon é russo, gigante e barulhento.\nNos EUA, só em documentário."
+        },
+        {
+          "text": "Classe Los Angeles",
+          "isCorrect": true,
+          "explanation": "A Classe Los Angeles é a frota invisível dos EUA!\nTão silenciosa que até o peixe se assusta.",
+          "imageUrl": "https://www.navy.mil/management/photodb/photos/210217-N-NO901-0001.jpg",
+          "imageDescription": "Submarino Classe Los Angeles navegando."
+        },
+        {
+          "text": "Classe Scorpène",
+          "isCorrect": false,
+          "explanation": "A Scorpène é francesa e discreta.\nNos EUA, só no catálogo internacional."
+        },
+        {
+          "text": "Classe Type 212",
+          "isCorrect": false,
+          "explanation": "O Type 212 é alemão e ecológico.\nNos EUA, só como inspiração."
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "question": "Qual destes países desenvolveu o míssil balístico intercontinental Minuteman III?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Rússia",
+          "isCorrect": false,
+          "explanation": "A Rússia tem o Satan e o Yars, mas Minuteman só no relógio."
+        },
+        {
+          "text": "Estados Unidos",
+          "isCorrect": true,
+          "explanation": "O Minuteman III é o mensageiro nuclear dos EUA!\nSe atrasar, é porque está em órbita.",
+          "imageUrl": "https://www.afgsc.af.mil/Portals/52/Images/Minuteman-III.jpg",
+          "imageDescription": "Lançamento de míssil Minuteman III."
+        },
+        {
+          "text": "China",
+          "isCorrect": false,
+          "explanation": "A China tem o DF-41, mas Minuteman só no filme."
+        },
+        {
+          "text": "França",
+          "isCorrect": false,
+          "explanation": "A França prefere o M51.\nMinuteman só no dicionário."
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "question": "Qual destas aeronaves é famosa por sua capacidade de reabastecimento em voo e uso global?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "C-130 Hercules",
+          "isCorrect": false,
+          "explanation": "O C-130 é o caminhão do céu, mas não reabastece em voo.\nSó leva carga e histórias."
+        },
+        {
+          "text": "KC-135 Stratotanker",
+          "isCorrect": true,
+          "explanation": "O KC-135 é o posto de gasolina voador!\nSe faltar combustível, é só chamar.",
+          "imageUrl": "https://www.af.mil/Portals/1/images/kc135.jpg",
+          "imageDescription": "Avião KC-135 reabastecendo caça em voo."
+        },
+        {
+          "text": "F-15 Eagle",
+          "isCorrect": false,
+          "explanation": "O F-15 é caçador, não tanqueiro.\nSó bebe combustível, não serve."
+        },
+        {
+          "text": "B-2 Spirit",
+          "isCorrect": false,
+          "explanation": "O B-2 é bombardeiro furtivo.\nReabastecimento só se for secreto."
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "question": "Qual destes sistemas é considerado um dos principais lançadores múltiplos de foguetes da Rússia?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "HIMARS",
+          "isCorrect": false,
+          "explanation": "O HIMARS é americano, rápido e preciso.\nNa Rússia, só no noticiário."
+        },
+        {
+          "text": "BM-21 Grad",
+          "isCorrect": true,
+          "explanation": "O BM-21 Grad é o trovão russo!\nLança foguetes como quem solta fogos de artifício.",
+          "imageUrl": "https://topwar.ru/uploads/posts/2021-01/1610641056_bm-21-grad.jpg",
+          "imageDescription": "BM-21 Grad lançando foguetes em campo."
+        },
+        {
+          "text": "ASTROS II",
+          "isCorrect": false,
+          "explanation": "O ASTROS II é brasileiro, orgulho nacional.\nNa Rússia, só de visita."
+        },
+        {
+          "text": "M270 MLRS",
+          "isCorrect": false,
+          "explanation": "O M270 é americano, gosta de rock.\nNa Rússia, só na playlist."
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "question": "Qual destes navios é um cruzador de mísseis guiados da Marinha dos EUA?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "USS Ticonderoga",
+          "isCorrect": true,
+          "explanation": "O Ticonderoga é o maestro dos mísseis!\nSe fosse DJ, só tocaria trilha épica.",
+          "imageUrl": "https://www.navy.mil/management/photodb/photos/210217-N-NO901-0001.jpg",
+          "imageDescription": "Cruzador USS Ticonderoga navegando."
+        },
+        {
+          "text": "HMS Daring",
+          "isCorrect": false,
+          "explanation": "O Daring é britânico e elegante.\nNos EUA, só no chá das cinco."
+        },
+        {
+          "text": "Charles de Gaulle",
+          "isCorrect": false,
+          "explanation": "O Charles de Gaulle é francês, porta-aviões nuclear.\nCruzador só no nome."
+        },
+        {
+          "text": "Admiral Kuznetsov",
+          "isCorrect": false,
+          "explanation": "O Kuznetsov é russo, adora soltar fumaça.\nCruzador só no catálogo."
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "question": "Qual destes países desenvolveu o caça multifunção Tejas?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Índia",
+          "isCorrect": true,
+          "explanation": "O Tejas é o orgulho indiano!\nLeve, ágil e com tempero local.",
+          "imageUrl": "https://hal-india.co.in/images/tejas.jpg",
+          "imageDescription": "Caça Tejas da Força Aérea Indiana em voo."
+        },
+        {
+          "text": "China",
+          "isCorrect": false,
+          "explanation": "A China tem o J-10 e o J-20.\nTejas só no cardápio."
+        },
+        {
+          "text": "Japão",
+          "isCorrect": false,
+          "explanation": "O Japão tem o F-2, mas Tejas só como visitante."
+        },
+        {
+          "text": "Paquistão",
+          "isCorrect": false,
+          "explanation": "O Paquistão tem o JF-17.\nTejas só no noticiário."
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "question": "Qual destes sistemas de defesa antimíssil é operado por vários países da OTAN e utiliza mísseis guiados por radar?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "S-400",
+          "isCorrect": false,
+          "explanation": "O S-400 é russo e gosta de frio.\nNa OTAN, só como alvo de estudo."
+        },
+        {
+          "text": "Patriot",
+          "isCorrect": true,
+          "explanation": "O Patriot é o escudo da OTAN!\nSe ouvir o alarme, é melhor se proteger.",
+          "imageUrl": "https://www.raytheonmissilesanddefense.com/sites/default/files/styles/media_crop/public/2022-06/patriot.jpg",
+          "imageDescription": "Sistema Patriot disparando míssil interceptador."
+        },
+        {
+          "text": "Iron Dome",
+          "isCorrect": false,
+          "explanation": "O Iron Dome é israelense e adora mísseis curtos.\nNa OTAN, só de férias."
+        },
+        {
+          "text": "NASAMS",
+          "isCorrect": false,
+          "explanation": "O NASAMS é bom, mas o Patriot é o mais famoso.\nEscudo global!"
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "question": "Qual destes veículos blindados é conhecido por sua capacidade de operar em terrenos extremos e foi desenvolvido na Rússia?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "VBCI",
+          "isCorrect": false,
+          "explanation": "O VBCI é francês, gosta de desfile militar.\nNa Rússia, só no inverno."
+        },
+        {
+          "text": "BTR-80",
+          "isCorrect": true,
+          "explanation": "O BTR-80 é o 4x4 russo dos campos de batalha!\nSe fosse Lada, seria blindado.",
+          "imageUrl": "https://topwar.ru/uploads/posts/2021-01/1610641056_btr-80.jpg",
+          "imageDescription": "Blindado russo BTR-80 em terreno acidentado."
+        },
+        {
+          "text": "Boxer",
+          "isCorrect": false,
+          "explanation": "O Boxer é alemão, robusto e moderno.\nNa Rússia, só no catálogo."
+        },
+        {
+          "text": "Stryker",
+          "isCorrect": false,
+          "explanation": "O Stryker é americano, gosta de rodar pelo Texas.\nNa Rússia, só de férias."
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "question": "Qual destes aviões foi o bombardeiro estratégico mais produzido durante a Segunda Guerra Mundial?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Lancaster",
+          "isCorrect": false,
+          "explanation": "O Lancaster é britânico, voou muito.\nMas não bateu recorde de produção."
+        },
+        {
+          "text": "B-17 Flying Fortress",
+          "isCorrect": false,
+          "explanation": "O B-17 é lendário, mas ficou atrás em números."
+        },
+        {
+          "text": "B-24 Liberator",
+          "isCorrect": true,
+          "explanation": "O B-24 foi produzido como pão quente!\nBombardeiro em série, quase fast-food.",
+          "imageUrl": "https://www.history.com/.image/t_share/MTU3ODc4NjAzNjY4NzU5OTY0/b-24-liberator.jpg",
+          "imageDescription": "Bombardeiro B-24 Liberator em voo."
+        },
+        {
+          "text": "He 111",
+          "isCorrect": false,
+          "explanation": "O He 111 é alemão, mas não liderou a produção.\nSó na criatividade."
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "question": "Qual destes sistemas é considerado o principal míssil de cruzeiro lançado de submarino dos EUA?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Tomahawk",
+          "isCorrect": true,
+          "explanation": "O Tomahawk é o carteiro dos mares!\nEntrega rápida e precisa, sem rastreamento.",
+          "imageUrl": "https://www.navy.mil/management/photodb/photos/210217-N-NO901-0001.jpg",
+          "imageDescription": "Lançamento de míssil Tomahawk de submarino."
+        },
+        {
+          "text": "Exocet",
+          "isCorrect": false,
+          "explanation": "O Exocet é francês, gosta de navio na superfície.\nNo sub, só se for de visita."
+        },
+        {
+          "text": "BrahMos",
+          "isCorrect": false,
+          "explanation": "O BrahMos é indiano-russo, rápido e elegante.\nNos EUA, só no noticiário."
+        },
+        {
+          "text": "Harpoon",
+          "isCorrect": false,
+          "explanation": "O Harpoon é antinavio, mas Tomahawk é o rei dos subs."
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "question": "Qual destes helicópteros é famoso por suas missões de busca e salvamento em combate?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "AH-64 Apache",
+          "isCorrect": false,
+          "explanation": "O Apache é ataque puro, não faz resgate.\nSó salva o dia nos filmes."
+        },
+        {
+          "text": "HH-60 Pave Hawk",
+          "isCorrect": true,
+          "explanation": "O Pave Hawk é o anjo da guarda das tropas!\nSe ouvir o rotor, pode sorrir.",
+          "imageUrl": "https://www.af.mil/Portals/1/images/hh60.jpg",
+          "imageDescription": "Helicóptero HH-60 Pave Hawk em missão de resgate."
+        },
+        {
+          "text": "CH-53 Sea Stallion",
+          "isCorrect": false,
+          "explanation": "O CH-53 é gigante, mas prefere carga pesada.\nResgate só se sobrar espaço."
+        },
+        {
+          "text": "Mi-8 Hip",
+          "isCorrect": false,
+          "explanation": "O Mi-8 é russo, faz de tudo um pouco.\nMas Pave Hawk é o herói do resgate."
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "question": "Qual destes países desenvolveu o veículo blindado Boxer?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Alemanha",
+          "isCorrect": true,
+          "explanation": "O Boxer é alemão, robusto e moderno.\nSe fosse carro, seria um SUV blindado.",
+          "imageUrl": "https://www.bundeswehr.de/resource/image/1668430/landscape_ratio16x9/1920/1080/5d5a7e6e9f2c7e8b8d7e2b9e3b7c8e2c/EC/boxer.jpg",
+          "imageDescription": "Blindado Boxer do Exército Alemão em campo."
+        },
+        {
+          "text": "França",
+          "isCorrect": false,
+          "explanation": "A França tem o VBCI, elegante e eficiente.\nBoxer só no ringue."
+        },
+        {
+          "text": "Estados Unidos",
+          "isCorrect": false,
+          "explanation": "Os EUA têm o Stryker, mas Boxer só na academia."
+        },
+        {
+          "text": "Itália",
+          "isCorrect": false,
+          "explanation": "A Itália faz ótimos blindados, mas Boxer é só na pizza."
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "question": "Qual destes sistemas de artilharia autopropulsada é considerado um dos mais modernos da Alemanha?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "PzH 2000",
+          "isCorrect": true,
+          "explanation": "O PzH 2000 é o canhão alemão dos tempos modernos!\nDispara longe e com precisão de relógio.",
+          "imageUrl": "https://www.bundeswehr.de/resource/image/1631706/landscape_ratio16x9/1920/1080/7e2d5e5d7a9e3b7c8e2c.jpg",
+          "imageDescription": "Artilharia autopropulsada PzH 2000 em campo."
+        },
+        {
+          "text": "M109 Paladin",
+          "isCorrect": false,
+          "explanation": "O Paladin é americano, veterano de muitas guerras.\nNa Alemanha, só como hóspede."
+        },
+        {
+          "text": "Caesar",
+          "isCorrect": false,
+          "explanation": "O Caesar é francês, gosta de baguete e precisão.\nNa Alemanha, só de férias."
+        },
+        {
+          "text": "K9 Thunder",
+          "isCorrect": false,
+          "explanation": "O K9 Thunder é sul-coreano, exportado para o mundo.\nNa Alemanha, só como visitante."
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "question": "Qual destes aviões é um bombardeiro estratégico russo com asas de geometria variável?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "B-2 Spirit",
+          "isCorrect": false,
+          "explanation": "O B-2 é americano e adora voar furtivo.\nNa Rússia, só nos sonhos."
+        },
+        {
+          "text": "Tu-160 Blackjack",
+          "isCorrect": true,
+          "explanation": "O Tu-160 é o maior bombardeiro supersônico do mundo!\nAsas que mudam de forma e nome de cassino.",
+          "imageUrl": "https://topwar.ru/uploads/posts/2021-12/1639404842_tu-160.jpg",
+          "imageDescription": "Bombardeiro estratégico russo Tu-160 Blackjack em voo."
+        },
+        {
+          "text": "F-111 Aardvark",
+          "isCorrect": false,
+          "explanation": "O F-111 é americano e já se aposentou.\nNo Blackjack, só como espectador."
+        },
+        {
+          "text": "Mirage 2000",
+          "isCorrect": false,
+          "explanation": "O Mirage 2000 é francês e adora voar alto.\nMas não muda de asas como o Tu-160."
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "question": "Qual destes sistemas é considerado o principal míssil superfície-ar de longo alcance da China?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "HQ-9",
+          "isCorrect": true,
+          "explanation": "O HQ-9 é o escudo chinês dos céus!\nSe passar voando, melhor pedir licença.",
+          "imageUrl": "http://military.people.com.cn/NMediaFile/2017/0908/MAIN201709081005000431142290771.jpg",
+          "imageDescription": "Sistema HQ-9 chinês em posição de disparo."
+        },
+        {
+          "text": "Patriot",
+          "isCorrect": false,
+          "explanation": "O Patriot é americano, adora festas na OTAN.\nNa China, só de visita."
+        },
+        {
+          "text": "S-400",
+          "isCorrect": false,
+          "explanation": "O S-400 é russo, poderoso e imponente.\nNa China, só como inspiração."
+        },
+        {
+          "text": "Iron Dome",
+          "isCorrect": false,
+          "explanation": "O Iron Dome é israelense, ideal para mísseis curtos.\nNa China, só no museu."
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "question": "Qual destes países desenvolveu o caça multifunção F/A-18 Hornet?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Estados Unidos",
+          "isCorrect": true,
+          "explanation": "O F/A-18 Hornet é americano, famoso nos porta-aviões e nos filmes de ação!\nSe fosse animal, seria uma abelha com turbo.",
+          "imageUrl": "https://www.boeing.com/resources/boeingdotcom/defense/fa-18-super-hornet/fa-18-super-hornet_960x600.jpg",
+          "imageDescription": "Caça F/A-18 Hornet em decolagem de porta-aviões."
+        },
+        {
+          "text": "Rússia",
+          "isCorrect": false,
+          "explanation": "Rússia tem o Su-27 e o MiG-29.\nHornet só no jardim."
+        },
+        {
+          "text": "França",
+          "isCorrect": false,
+          "explanation": "A França voa de Rafale.\nHornet só se for para polinizar flores."
+        },
+        {
+          "text": "Suécia",
+          "isCorrect": false,
+          "explanation": "Os suecos preferem o Gripen.\nHornet só no verão."
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "question": "Qual destes sistemas é considerado um dos principais radares de defesa aérea naval do mundo ocidental?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Aegis",
+          "isCorrect": true,
+          "explanation": "O Aegis é o cérebro dos navios modernos!\nCapaz de detectar até mosquito voando baixo.",
+          "imageUrl": "https://www.lockheedmartin.com/content/dam/lockheed-martin/rms/photo/aegis/aegis.jpg",
+          "imageDescription": "Radar Aegis instalado em navio de guerra."
+        },
+        {
+          "text": "Zaslon",
+          "isCorrect": false,
+          "explanation": "O Zaslon é russo e inovador, mas não domina os mares do Ocidente."
+        },
+        {
+          "text": "S-400",
+          "isCorrect": false,
+          "explanation": "O S-400 é terrestre e russo.\nNo mar, só de barco."
+        },
+        {
+          "text": "Green Pine",
+          "isCorrect": false,
+          "explanation": "O Green Pine é israelense, ótimo para defesa antimíssil.\nNo mar, prefere ficar na praia."
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "question": "Qual destes veículos blindados foi desenvolvido na Itália e é amplamente utilizado em missões de paz?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Centauro",
+          "isCorrect": true,
+          "explanation": "O Centauro é italiano, rápido e elegante.\nSe fosse pizza, seria quatro queijos blindada.",
+          "imageUrl": "https://www.rid.it/wp-content/uploads/2020/03/centauro.jpg",
+          "imageDescription": "Blindado Centauro em operação."
+        },
+        {
+          "text": "Guarani",
+          "isCorrect": false,
+          "explanation": "O Guarani é brasileiro, roda até no Pantanal.\nNa Itália, só como visitante."
+        },
+        {
+          "text": "Stryker",
+          "isCorrect": false,
+          "explanation": "O Stryker é americano, gosta de rodar pelo Texas.\nNa Itália, só de férias."
+        },
+        {
+          "text": "Boxer",
+          "isCorrect": false,
+          "explanation": "O Boxer é alemão, robusto e moderno.\nNa Itália, só no catálogo."
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "question": "Qual destes bombardeiros foi o primeiro a lançar uma bomba nuclear em combate?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "B-24 Liberator",
+          "isCorrect": false,
+          "explanation": "O B-24 voou muito, mas nunca lançou bomba nuclear.\nSó explosão de combustível."
+        },
+        {
+          "text": "B-29 Superfortress",
+          "isCorrect": true,
+          "explanation": "O B-29 fez história (e muita fumaça) em Hiroshima e Nagasaki.\nSe fosse filme, seria drama e ação.",
+          "imageUrl": "https://www.history.com/.image/t_share/MTU3ODc4NjAzNjY4NzU5OTY0/b-29-superfortress.jpg",
+          "imageDescription": "Bombardeiro B-29 Superfortress em voo."
+        },
+        {
+          "text": "B-17 Flying Fortress",
+          "isCorrect": false,
+          "explanation": "O B-17 é lendário, mas nunca lançou bomba atômica.\nSó bombardeio clássico."
+        },
+        {
+          "text": "Tu-95 Bear",
+          "isCorrect": false,
+          "explanation": "O Tu-95 é russo, barulhento e resistente.\nBomba nuclear só em teste."
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "question": "Qual destas armas é famosa por ser o fuzil padrão das forças armadas indianas?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "INSAS",
+          "isCorrect": true,
+          "explanation": "O INSAS é o arroz com curry do exército indiano!\nSe fosse música, seria Bollywood com rajadas.",
+          "imageUrl": "https://www.hal-india.co.in/images/insas.jpg",
+          "imageDescription": "Fuzil INSAS em uso por soldado indiano."
+        },
+        {
+          "text": "AK-47",
+          "isCorrect": false,
+          "explanation": "O AK-47 é russo, robusto e global.\nNa Índia, só como reserva."
+        },
+        {
+          "text": "FAMAS",
+          "isCorrect": false,
+          "explanation": "O FAMAS é francês, elegante e futurista.\nNa Índia, só no catálogo."
+        },
+        {
+          "text": "M16",
+          "isCorrect": false,
+          "explanation": "O M16 é americano, famoso em filmes de ação.\nNa Índia, só nos noticiários."
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "question": "Qual destes tanques foi projetado e fabricado na Coreia do Sul?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "K2 Black Panther",
+          "isCorrect": true,
+          "explanation": "O K2 Black Panther é o ninja dos tanques sul-coreanos!\nSe fosse carro, seria esportivo blindado.",
+          "imageUrl": "https://www.koreaaero.com/images/k2-black-panther.jpg",
+          "imageDescription": "Tanque sul-coreano K2 Black Panther em campo."
+        },
+        {
+          "text": "Leopard 2",
+          "isCorrect": false,
+          "explanation": "O Leopard 2 é alemão, adora rodar pela Europa.\nNa Coreia, só de visita."
+        },
+        {
+          "text": "Abrams",
+          "isCorrect": false,
+          "explanation": "O Abrams é americano, gosta de hambúrguer e ação.\nNa Coreia, só em filme."
+        },
+        {
+          "text": "Challenger 2",
+          "isCorrect": false,
+          "explanation": "O Challenger 2 é britânico, toma chá às 5.\nNa Coreia, só como inspiração."
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "question": "Qual destes aviões é um bombardeiro estratégico francês aposentado, famoso durante a Guerra Fria?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Mirage IV",
+          "isCorrect": true,
+          "explanation": "O Mirage IV era o mensageiro nuclear francês.\nVoava alto e rápido, assustando até o relógio.",
+          "imageUrl": "https://www.air-cosmos.com/medias/2023/05/26/20230526113002-mirage-iv.jpg",
+          "imageDescription": "Bombardeiro estratégico francês Mirage IV em voo."
+        },
+        {
+          "text": "B-52 Stratofortress",
+          "isCorrect": false,
+          "explanation": "O B-52 é americano, veterano e resistente.\nNa França, só de passagem."
+        },
+        {
+          "text": "Tu-160",
+          "isCorrect": false,
+          "explanation": "O Tu-160 é russo, gigante e supersônico.\nNa França, só no radar."
+        },
+        {
+          "text": "Vulcan",
+          "isCorrect": false,
+          "explanation": "O Vulcan é britânico, elegante e aposentado.\nNa França, só no museu."
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "question": "Qual destes sistemas de defesa aérea é de origem norueguesa e amplamente utilizado em parcerias internacionais?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "NASAMS",
+          "isCorrect": true,
+          "explanation": "O NASAMS é norueguês, eficiente e global!\nSe fosse aplicativo, teria 5 estrelas.",
+          "imageUrl": "https://www.raytheonmissilesanddefense.com/sites/default/files/styles/media_crop/public/2022-06/NASAMS%20Norway.jpg",
+          "imageDescription": "Sistema NASAMS em operação na Noruega."
+        },
+        {
+          "text": "S-300",
+          "isCorrect": false,
+          "explanation": "O S-300 é russo, robusto e imponente.\nNa Noruega, só como inspiração."
+        },
+        {
+          "text": "Patriot",
+          "isCorrect": false,
+          "explanation": "O Patriot é americano, adora festas na OTAN.\nNa Noruega, só de visita."
+        },
+        {
+          "text": "Iron Dome",
+          "isCorrect": false,
+          "explanation": "O Iron Dome é israelense, ideal para mísseis curtos.\nNa Noruega, só no museu."
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "question": "Qual destes helicópteros é famoso por sua função de ataque e reconhecimento na Rússia?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Ka-52 Alligator",
+          "isCorrect": true,
+          "explanation": "O Ka-52 é o tubarão dos céus russos!\nSe ouvir o barulho, melhor se esconder.",
+          "imageUrl": "https://www.mil.ru/images/ka-52.jpg",
+          "imageDescription": "Helicóptero russo Ka-52 Alligator em voo."
+        },
+        {
+          "text": "AH-64 Apache",
+          "isCorrect": false,
+          "explanation": "O Apache é americano, terror dos tanques.\nNa Rússia, só no cinema."
+        },
+        {
+          "text": "Tiger",
+          "isCorrect": false,
+          "explanation": "O Tiger é europeu, elegante e letal.\nNa Rússia, só de visita."
+        },
+        {
+          "text": "AW129 Mangusta",
+          "isCorrect": false,
+          "explanation": "O Mangusta é italiano, ágil e eficiente.\nNa Rússia, só no noticiário."
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "question": "Qual destes veículos blindados é conhecido por sua capacidade de operar em terrenos extremos e foi desenvolvido na Rússia?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "BTR-80",
+          "isCorrect": true,
+          "explanation": "O BTR-80 é o 4x4 russo dos campos de batalha!\nSe fosse Lada, seria blindado.",
+          "imageUrl": "https://topwar.ru/uploads/posts/2021-01/1610641056_btr-80.jpg",
+          "imageDescription": "Blindado russo BTR-80 em terreno acidentado."
+        },
+        {
+          "text": "VBCI",
+          "isCorrect": false,
+          "explanation": "O VBCI é francês, gosta de desfile militar.\nNa Rússia, só no inverno."
+        },
+        {
+          "text": "Boxer",
+          "isCorrect": false,
+          "explanation": "O Boxer é alemão, robusto e moderno.\nNa Rússia, só no catálogo."
+        },
+        {
+          "text": "Stryker",
+          "isCorrect": false,
+          "explanation": "O Stryker é americano, gosta de rodar pelo Texas.\nNa Rússia, só de férias."
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "question": "Qual destes países desenvolveu o caça multifunção JF-17 Thunder?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Paquistão",
+          "isCorrect": true,
+          "explanation": "O JF-17 é o orgulho paquistanês!\nVoando alto com parceria chinesa.",
+          "imageUrl": "https://www.defensenews.com/resizer/jf17.jpg",
+          "imageDescription": "Caça JF-17 Thunder em voo."
+        },
+        {
+          "text": "Índia",
+          "isCorrect": false,
+          "explanation": "A Índia tem o Tejas.\nJF-17 só no noticiário."
+        },
+        {
+          "text": "China",
+          "isCorrect": false,
+          "explanation": "A China é parceira, mas quem opera é o Paquistão."
+        },
+        {
+          "text": "Irã",
+          "isCorrect": false,
+          "explanation": "O Irã tem seus próprios projetos.\nJF-17 só como inspiração."
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "question": "Qual destes sistemas de defesa antimíssil é famoso por sua mobilidade e uso em vários países europeus?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "NASAMS",
+          "isCorrect": true,
+          "explanation": "O NASAMS é o escudo móvel da Europa!\nSe fosse aplicativo, teria 5 estrelas.",
+          "imageUrl": "https://www.raytheonmissilesanddefense.com/sites/default/files/styles/media_crop/public/2022-06/NASAMS%20Norway.jpg",
+          "imageDescription": "Sistema NASAMS em operação na Noruega."
+        },
+        {
+          "text": "S-400",
+          "isCorrect": false,
+          "explanation": "O S-400 é russo, robusto e imponente.\nNa Europa, só como inspiração."
+        },
+        {
+          "text": "Patriot",
+          "isCorrect": false,
+          "explanation": "O Patriot é americano, adora festas na OTAN.\nNa Europa, só de visita."
+        },
+        {
+          "text": "Iron Dome",
+          "isCorrect": false,
+          "explanation": "O Iron Dome é israelense, ideal para mísseis curtos.\nNa Europa, só no museu."
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "question": "Qual destes bombardeiros é conhecido por ser supersônico e de fabricação russa?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Tu-22M Backfire",
+          "isCorrect": true,
+          "explanation": "O Tu-22M é o relâmpago russo dos céus!\nSupersônico e com nome de vingança.",
+          "imageUrl": "https://ria.ru/images/07e5/0c/1c/1765436922_0:0:3072:2048_1920x0_80_0_0_7e2d5e5d7a9e3b7c8e2c.jpg",
+          "imageDescription": "Bombardeiro russo Tu-22M Backfire em voo."
+        },
+        {
+          "text": "B-1B Lancer",
+          "isCorrect": false,
+          "explanation": "O B-1B é americano, rápido e barulhento.\nNa Rússia, só por foto."
+        },
+        {
+          "text": "Vulcan",
+          "isCorrect": false,
+          "explanation": "O Vulcan é britânico, elegante e aposentado.\nNa Rússia, só no museu."
+        },
+        {
+          "text": "Mirage IV",
+          "isCorrect": false,
+          "explanation": "O Mirage IV é francês, voa alto e rápido.\nNa Rússia, só no radar."
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "question": "Qual destes veículos é um blindado de transporte de tropas fabricado na Suíça?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Piranha",
+          "isCorrect": true,
+          "explanation": "O Piranha é suíço, discreto e eficiente.\nSe fosse chocolate, seria amargo e blindado.",
+          "imageUrl": "https://www.gdls.com/wp-content/uploads/2020/01/piranha.jpg",
+          "imageDescription": "Blindado suíço Piranha em campo."
+        },
+        {
+          "text": "Guarani",
+          "isCorrect": false,
+          "explanation": "O Guarani é brasileiro, roda até no Pantanal.\nNa Suíça, só como visitante."
+        },
+        {
+          "text": "Boxer",
+          "isCorrect": false,
+          "explanation": "O Boxer é alemão, robusto e moderno.\nNa Suíça, só no catálogo."
+        },
+        {
+          "text": "Stryker",
+          "isCorrect": false,
+          "explanation": "O Stryker é americano, gosta de rodar pelo Texas.\nNa Suíça, só de férias."
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "question": "Qual destes sistemas foi pioneiro em defesa antimíssil naval, utilizando mísseis guiados por radar desde a década de 1960?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Sea Sparrow",
+          "isCorrect": true,
+          "explanation": "O Sea Sparrow foi um dos primeiros a proteger navios com mísseis guiados.\nMarinheiro dorme até mais tranquilo.",
+          "imageUrl": "https://www.naval.com.br/blog/wp-content/uploads/2019/09/sea-sparrow.jpg",
+          "imageDescription": "Lançamento de míssil Sea Sparrow de navio de guerra."
+        },
+        {
+          "text": "RAM",
+          "isCorrect": false,
+          "explanation": "O RAM é mais novo e rápido.\nSea Sparrow abriu o caminho."
+        },
+        {
+          "text": "Aegis",
+          "isCorrect": false,
+          "explanation": "O Aegis é moderno e poderoso, mas não foi o pioneiro.\nChegou depois para dominar."
+        },
+        {
+          "text": "Phalanx CIWS",
+          "isCorrect": false,
+          "explanation": "O Phalanx é um canhão giratório.\nMísseis? Só se for de brinquedo."
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "question": "Qual destes países é reconhecido pelo desenvolvimento do sistema de defesa aérea SAMP/T?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Itália e França",
+          "isCorrect": true,
+          "explanation": "O SAMP/T é resultado de uma parceria de pizza e baguete!\nDefesa aérea com sabor europeu.",
+          "imageUrl": "https://www.defense.gouv.fr/sites/default/files/styles/width_1200/public/2021-02/samp-t.jpg",
+          "imageDescription": "Sistema SAMP/T em operação."
+        },
+        {
+          "text": "Alemanha",
+          "isCorrect": false,
+          "explanation": "A Alemanha faz ótimos sistemas, mas SAMP/T não é deles.\nTalvez na próxima Oktoberfest."
+        },
+        {
+          "text": "Estados Unidos",
+          "isCorrect": false,
+          "explanation": "Os EUA preferem o Patriot.\nSAMP/T só no intercâmbio."
+        },
+        {
+          "text": "Rússia",
+          "isCorrect": false,
+          "explanation": "A Rússia tem S-300 e S-400.\nSAMP/T só no noticiário."
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "question": "Qual destes aviões é um caça multifunção de fabricação japonesa?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "F-2",
+          "isCorrect": true,
+          "explanation": "O F-2 é japonês, rápido e cheio de tecnologia!\nSe fosse sushi, seria supersônico.",
+          "imageUrl": "https://www.mod.go.jp/e/publ/w_paper/2018/html/nc020200.html",
+          "imageDescription": "Caça japonês F-2 em voo."
+        },
+        {
+          "text": "F-16",
+          "isCorrect": false,
+          "explanation": "O F-16 é americano, adora voar pelo mundo.\nNo Japão, só de visita."
+        },
+        {
+          "text": "Gripen",
+          "isCorrect": false,
+          "explanation": "O Gripen é sueco, econômico e eficiente.\nNo Japão, só no catálogo."
+        },
+        {
+          "text": "Rafale",
+          "isCorrect": false,
+          "explanation": "O Rafale é francês, elegante e veloz.\nNo Japão, só de passagem."
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "question": "Qual destes helicópteros é famoso por suas missões de transporte pesado na OTAN?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "CH-47 Chinook",
+          "isCorrect": true,
+          "explanation": "O Chinook é o caminhão dos céus da OTAN!\nSe precisar levar a casa, ele carrega.",
+          "imageUrl": "https://www.army.mil/e2/c/images/2021/09/23/chinook.jpg",
+          "imageDescription": "Helicóptero CH-47 Chinook em operação."
+        },
+        {
+          "text": "UH-1 Huey",
+          "isCorrect": false,
+          "explanation": "O Huey é famoso no Vietnã, mas carga pesada não é seu forte."
+        },
+        {
+          "text": "AW101 Merlin",
+          "isCorrect": false,
+          "explanation": "O Merlin é britânico, elegante e eficiente.\nCarga pesada só se for chá."
+        },
+        {
+          "text": "Ka-52 Alligator",
+          "isCorrect": false,
+          "explanation": "O Ka-52 é russo, adora combate.\nTransporte pesado não é com ele."
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "question": "Qual destes sistemas de defesa é considerado o principal escudo antimíssil de Israel?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Iron Dome",
+          "isCorrect": true,
+          "explanation": "O Iron Dome é o guarda-chuva de Israel!\nIntercepta foguetes como quem pega pipoca no ar.",
+          "imageUrl": "https://www.defensenews.com/resizer/iron-dome.jpg",
+          "imageDescription": "Sistema Iron Dome lançando míssil interceptador."
+        },
+        {
+          "text": "Patriot",
+          "isCorrect": false,
+          "explanation": "O Patriot é americano, adora festas na OTAN.\nEm Israel, só como reforço."
+        },
+        {
+          "text": "S-400",
+          "isCorrect": false,
+          "explanation": "O S-400 é russo, robusto e imponente.\nEm Israel, só no noticiário."
+        },
+        {
+          "text": "NASAMS",
+          "isCorrect": false,
+          "explanation": "O NASAMS é norueguês, eficiente e global.\nEm Israel, só de férias."
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "question": "Qual destes veículos blindados foi desenvolvido na África do Sul e é famoso por sua resistência a minas?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Casspir",
+          "isCorrect": true,
+          "explanation": "O Casspir é o tanque anti-minas africano!\nSe fosse bicho, seria tatu blindado.",
+          "imageUrl": "https://www.army.mil/e2/c/images/2021/09/23/casspir.jpg",
+          "imageDescription": "Blindado Casspir em terreno africano."
+        },
+        {
+          "text": "Piranha",
+          "isCorrect": false,
+          "explanation": "O Piranha é suíço, discreto e eficiente.\nNa África, só no rio."
+        },
+        {
+          "text": "Stryker",
+          "isCorrect": false,
+          "explanation": "O Stryker é americano, gosta de rodar pelo Texas.\nNa África, só de férias."
+        },
+        {
+          "text": "Guarani",
+          "isCorrect": false,
+          "explanation": "O Guarani é brasileiro, roda até no Pantanal.\nNa África, só como visitante."
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "question": "Qual destes aviões é um caça multifunção de fabricação turca?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "TF-X Kaan",
+          "isCorrect": true,
+          "explanation": "O TF-X Kaan é o orgulho turco dos céus!\nSe fosse kebab, seria supersônico.",
+          "imageUrl": "https://www.tusas.com.tr/uploads/tfx.jpg",
+          "imageDescription": "Caça turco TF-X Kaan em voo conceitual."
+        },
+        {
+          "text": "Gripen",
+          "isCorrect": false,
+          "explanation": "O Gripen é sueco, econômico e eficiente.\nNa Turquia, só no catálogo."
+        },
+        {
+          "text": "Rafale",
+          "isCorrect": false,
+          "explanation": "O Rafale é francês, elegante e veloz.\nNa Turquia, só de passagem."
+        },
+        {
+          "text": "F-16",
+          "isCorrect": false,
+          "explanation": "O F-16 é americano, adora voar pelo mundo.\nNa Turquia, só como hóspede."
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "question": "Qual destes sistemas de defesa aérea é famoso por sua mobilidade e uso no exército russo?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "S-300",
+          "isCorrect": true,
+          "explanation": "O S-300 é o escudo móvel russo!\nSe fosse carro, seria um caminhão blindado com superpoderes.",
+          "imageUrl": "https://ria.ru/images/07e5/0c/1c/1765436922_0:0:3072:2048_1920x0_80_0_0_7e2d5e5d7a9e3b7c8e2c.jpg",
+          "imageDescription": "Lançador de mísseis S-300 em posição."
+        },
+        {
+          "text": "Patriot",
+          "isCorrect": false,
+          "explanation": "O Patriot é americano, adora festas na OTAN.\nNa Rússia, só como alvo de piada."
+        },
+        {
+          "text": "NASAMS",
+          "isCorrect": false,
+          "explanation": "O NASAMS é norueguês-americano.\nNa Rússia, só em documentário."
+        },
+        {
+          "text": "Iron Dome",
+          "isCorrect": false,
+          "explanation": "O Iron Dome é israelense e adora mísseis pequenos.\nNa Rússia, só de férias."
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "question": "Qual destes bombardeiros é conhecido por ser supersônico e de fabricação americana?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "B-1B Lancer",
+          "isCorrect": true,
+          "explanation": "O B-1B é o relâmpago americano dos céus!\nSupersônico e com nome de dançarino.",
+          "imageUrl": "https://www.af.mil/Portals/1/images/b1b.jpg",
+          "imageDescription": "Bombardeiro B-1B Lancer em voo."
+        },
+        {
+          "text": "Tu-22M Backfire",
+          "isCorrect": false,
+          "explanation": "O Tu-22M é russo, rápido e barulhento.\nNos EUA, só por foto."
+        },
+        {
+          "text": "Vulcan",
+          "isCorrect": false,
+          "explanation": "O Vulcan é britânico, elegante e aposentado.\nNos EUA, só no museu."
+        },
+        {
+          "text": "Mirage IV",
+          "isCorrect": false,
+          "explanation": "O Mirage IV é francês, voa alto e rápido.\nNos EUA, só no radar."
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "question": "Qual destes sistemas de defesa aérea é considerado o principal escudo antimíssil da Índia?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Akash",
+          "isCorrect": true,
+          "explanation": "O Akash é o escudo dos céus indianos!\nSe passar voando, melhor pedir permissão.",
+          "imageUrl": "https://www.drdo.gov.in/sites/default/files/styles/large/public/2020-06/akash.jpg",
+          "imageDescription": "Sistema Akash em posição de disparo."
+        },
+        {
+          "text": "Patriot",
+          "isCorrect": false,
+          "explanation": "O Patriot é americano, adora festas na OTAN.\nNa Índia, só de visita."
+        },
+        {
+          "text": "S-400",
+          "isCorrect": false,
+          "explanation": "O S-400 é russo, robusto e imponente.\nNa Índia, só como inspiração."
+        },
+        {
+          "text": "Iron Dome",
+          "isCorrect": false,
+          "explanation": "O Iron Dome é israelense, ideal para mísseis curtos.\nNa Índia, só no museu."
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "question": "Qual destes radares é pioneiro em varredura eletrônica ativa (AESA) em caças de produção em série?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "AN/APG-77",
+          "isCorrect": true,
+          "explanation": "O AN/APG-77 equipou o F-22 e mudou o jogo dos radares!\nAgora, até o inimigo fica confuso.",
+          "imageUrl": "https://www.lockheedmartin.com/content/dam/lockheed-martin/aero/photo/f22/f-22-radar.jpg",
+          "imageDescription": "Radar AN/APG-77 instalado em caça F-22."
+        },
+        {
+          "text": "Zaslon",
+          "isCorrect": false,
+          "explanation": "O Zaslon é russo e inovador, mas AESA só depois.\nFicou na fila da evolução."
+        },
+        {
+          "text": "PS-05/A",
+          "isCorrect": false,
+          "explanation": "O PS-05/A é sueco, mas AESA só no futuro.\nGripen ainda estava aprendendo."
+        },
+        {
+          "text": "Blue Vixen",
+          "isCorrect": false,
+          "explanation": "O Blue Vixen é britânico, mas AESA não era seu talento.\nSó charme."
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "question": "Qual destes mísseis é considerado o principal míssil ar-ar de longo alcance das forças aéreas da OTAN?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "AIM-120 AMRAAM",
+          "isCorrect": true,
+          "explanation": "O AMRAAM é o terror dos céus!\nSe o radar travar, pode apostar que vem foguete.",
+          "imageUrl": "https://www.raytheonmissilesanddefense.com/sites/default/files/styles/media_crop/public/2022-06/amraam.jpg",
+          "imageDescription": "Lançamento de míssil AIM-120 AMRAAM por caça."
+        },
+        {
+          "text": "R-77",
+          "isCorrect": false,
+          "explanation": "O R-77 é russo, gosta de frio e vodka.\nNa OTAN, só como alvo."
+        },
+        {
+          "text": "Meteor",
+          "isCorrect": false,
+          "explanation": "O Meteor é europeu, moderno, mas não é o mais difundido na OTAN."
+        },
+        {
+          "text": "PL-15",
+          "isCorrect": false,
+          "explanation": "O PL-15 é chinês, voa longe.\nNa OTAN, só nos relatórios."
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "question": "Qual destes tanques é considerado o principal carro de combate da Índia?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Arjun",
+          "isCorrect": true,
+          "explanation": "O Arjun é o orgulho blindado indiano!\nSe fosse animal, seria um elefante com canhão.",
+          "imageUrl": "https://www.drdo.gov.in/sites/default/files/styles/large/public/2020-06/arjun.jpg",
+          "imageDescription": "Tanque indiano Arjun em campo."
+        },
+        {
+          "text": "Leopard 2",
+          "isCorrect": false,
+          "explanation": "O Leopard 2 é alemão, adora rodar pela Europa.\nNa Índia, só de visita."
+        },
+        {
+          "text": "Abrams",
+          "isCorrect": false,
+          "explanation": "O Abrams é americano, gosta de hambúrguer e ação.\nNa Índia, só em filme."
+        },
+        {
+          "text": "Challenger 2",
+          "isCorrect": false,
+          "explanation": "O Challenger 2 é britânico, toma chá às 5.\nNa Índia, só como inspiração."
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "question": "Qual destes helicópteros é conhecido por sua capacidade de ataque e uso pelo Exército Brasileiro?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "AH-2 Sabre (Mi-35)",
+          "isCorrect": true,
+          "explanation": "O AH-2 Sabre é o Mi-35 com sotaque brasileiro!\nSe ouvir o barulho, é melhor se esconder.",
+          "imageUrl": "https://www.aereo.jor.br/wp-content/uploads/2017/12/mi-35-ah-2-sabre.jpg",
+          "imageDescription": "Helicóptero AH-2 Sabre do Exército Brasileiro."
+        },
+        {
+          "text": "Apache",
+          "isCorrect": false,
+          "explanation": "O Apache é americano, terror dos tanques.\nNo Brasil, só nos filmes."
+        },
+        {
+          "text": "Tiger",
+          "isCorrect": false,
+          "explanation": "O Tiger é europeu, elegante e letal.\nNo Brasil, só de visita."
+        },
+        {
+          "text": "Ka-52 Alligator",
+          "isCorrect": false,
+          "explanation": "O Ka-52 é russo, adora combate.\nNo Brasil, só no noticiário."
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "question": "Qual destes países desenvolveu o caça multifunção HAL Tejas?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Índia",
+          "isCorrect": true,
+          "explanation": "O Tejas é o orgulho indiano!\nLeve, ágil e com tempero local.",
+          "imageUrl": "https://hal-india.co.in/images/tejas.jpg",
+          "imageDescription": "Caça Tejas da Força Aérea Indiana em voo."
+        },
+        {
+          "text": "China",
+          "isCorrect": false,
+          "explanation": "A China tem o J-10 e o J-20.\nTejas só no cardápio."
+        },
+        {
+          "text": "Japão",
+          "isCorrect": false,
+          "explanation": "O Japão tem o F-2, mas Tejas só como visitante."
+        },
+        {
+          "text": "Paquistão",
+          "isCorrect": false,
+          "explanation": "O Paquistão tem o JF-17.\nTejas só no noticiário."
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "question": "Qual destes sistemas é considerado o principal míssil antitanque da França?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "HOT",
+          "isCorrect": true,
+          "explanation": "O HOT é o míssil francês que esquenta o campo de batalha!\nSe fosse queijo, seria derretido e letal.",
+          "imageUrl": "https://www.defense.gouv.fr/sites/default/files/styles/width_1200/public/2021-02/hot-missile.jpg",
+          "imageDescription": "Lançamento de míssil HOT por helicóptero francês."
+        },
+        {
+          "text": "Javelin",
+          "isCorrect": false,
+          "explanation": "O Javelin é americano, terror dos tanques.\nNa França, só no noticiário."
+        },
+        {
+          "text": "Spike",
+          "isCorrect": false,
+          "explanation": "O Spike é israelense, eficiente e global.\nNa França, só de férias."
+        },
+        {
+          "text": "Kornet",
+          "isCorrect": false,
+          "explanation": "O Kornet é russo, gosta de frio.\nNa França, só no inverno."
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "question": "Qual destes navios é um porta-aviões de propulsão convencional da Marinha Brasileira?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "NAe São Paulo",
+          "isCorrect": true,
+          "explanation": "O NAe São Paulo foi o gigante dos mares brasileiros!\nSe fosse estádio, caberia até torcida.",
+          "imageUrl": "https://www.naval.com.br/blog/wp-content/uploads/2018/08/nae-sao-paulo.jpg",
+          "imageDescription": "Porta-aviões NAe São Paulo navegando."
+        },
+        {
+          "text": "Charles de Gaulle",
+          "isCorrect": false,
+          "explanation": "O Charles de Gaulle é francês, movido a energia nuclear.\nNo Brasil, só de visita."
+        },
+        {
+          "text": "HMS Queen Elizabeth",
+          "isCorrect": false,
+          "explanation": "O Queen Elizabeth é britânico, elegante e moderno.\nNo Brasil, só no noticiário."
+        },
+        {
+          "text": "USS Nimitz",
+          "isCorrect": false,
+          "explanation": "O Nimitz é americano, gigante e nuclear.\nNo Brasil, só nos sonhos."
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "question": "Qual destes sistemas de defesa aérea é considerado o principal escudo antimíssil da Coreia do Sul?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "KM-SAM Cheongung",
+          "isCorrect": true,
+          "explanation": "O KM-SAM é o guarda-chuva sul-coreano!\nSe chover míssil, ele resolve.",
+          "imageUrl": "https://www.koreaaero.com/images/km-sam.jpg",
+          "imageDescription": "Sistema de defesa KM-SAM Cheongung em posição."
+        },
+        {
+          "text": "Patriot",
+          "isCorrect": false,
+          "explanation": "O Patriot é americano, adora festas na OTAN.\nNa Coreia, só de visita."
+        },
+        {
+          "text": "S-400",
+          "isCorrect": false,
+          "explanation": "O S-400 é russo, robusto e imponente.\nNa Coreia, só como inspiração."
+        },
+        {
+          "text": "Iron Dome",
+          "isCorrect": false,
+          "explanation": "O Iron Dome é israelense, ideal para mísseis curtos.\nNa Coreia, só no museu."
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "question": "Qual destes veículos blindados é considerado o principal transporte de tropas do Exército Argentino?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "TAM VCTP",
+          "isCorrect": true,
+          "explanation": "O TAM VCTP é argentino, robusto e pronto para o pampa!\nSe fosse churrasco, seria bem passado.",
+          "imageUrl": "https://www.zona-militar.com/wp-content/uploads/2020/06/tam-vctp.jpg",
+          "imageDescription": "Blindado TAM VCTP do Exército Argentino."
+        },
+        {
+          "text": "Piranha",
+          "isCorrect": false,
+          "explanation": "O Piranha é suíço, discreto e eficiente.\nNa Argentina, só no rio."
+        },
+        {
+          "text": "Boxer",
+          "isCorrect": false,
+          "explanation": "O Boxer é alemão, robusto e moderno.\nNa Argentina, só no catálogo."
+        },
+        {
+          "text": "Stryker",
+          "isCorrect": false,
+          "explanation": "O Stryker é americano, gosta de rodar pelo Texas.\nNa Argentina, só de férias."
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "question": "Qual destes radares é famoso por ser utilizado em sistemas de defesa aérea russos de última geração?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Nebo-M",
+          "isCorrect": true,
+          "explanation": "O Nebo-M é o olho eletrônico russo!\nSe passar voando, ele vê até passarinho.",
+          "imageUrl": "https://ria.ru/images/07e5/0c/1c/1765436922_0:0:3072:2048_1920x0_80_0_0_7e2d5e5d7a9e3b7c8e2c.jpg",
+          "imageDescription": "Radar Nebo-M em operação na Rússia."
+        },
+        {
+          "text": "Green Pine",
+          "isCorrect": false,
+          "explanation": "O Green Pine é israelense, ótimo para defesa antimíssil.\nNa Rússia, só no inverno."
+        },
+        {
+          "text": "Aegis",
+          "isCorrect": false,
+          "explanation": "O Aegis é americano, domina os mares.\nNa Rússia, só como alvo."
+        },
+        {
+          "text": "SAMP/T",
+          "isCorrect": false,
+          "explanation": "O SAMP/T é europeu, parceria de baguete e pizza.\nNa Rússia, só no noticiário."
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "question": "Qual destes caças é considerado o principal caça de superioridade aérea da Rússia atualmente?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Su-35",
+          "isCorrect": true,
+          "explanation": "O Su-35 é o tubarão dos céus russos!\nÁgil, armado e com manobras de circo.",
+          "imageUrl": "https://www.sukhoi.org/media/su-35.jpg",
+          "imageDescription": "Caça Su-35 em voo."
+        },
+        {
+          "text": "MiG-29",
+          "isCorrect": false,
+          "explanation": "O MiG-29 é clássico, mas o Su-35 é o chefão.\nNa fila do hangar, ele passa na frente."
+        },
+        {
+          "text": "Su-27",
+          "isCorrect": false,
+          "explanation": "O Su-27 é veterano, mas o Su-35 já tomou o lugar.\nAtualização é tudo."
+        },
+        {
+          "text": "Su-57",
+          "isCorrect": false,
+          "explanation": "O Su-57 é furtivo e moderno, mas ainda em poucos números.\nO Su-35 domina os céus."
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "question": "Qual destes sistemas de defesa aérea é considerado o principal escudo antimíssil da Turquia?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Hisar",
+          "isCorrect": true,
+          "explanation": "O Hisar é o escudo turco!\nSe passar voando, melhor pedir licença.",
+          "imageUrl": "https://www.tusas.com.tr/uploads/hisar.jpg",
+          "imageDescription": "Sistema Hisar em posição de disparo."
+        },
+        {
+          "text": "Patriot",
+          "isCorrect": false,
+          "explanation": "O Patriot é americano, adora festas na OTAN.\nNa Turquia, só de visita."
+        },
+        {
+          "text": "S-400",
+          "isCorrect": false,
+          "explanation": "O S-400 é russo, robusto e imponente.\nNa Turquia, só como inspiração."
+        },
+        {
+          "text": "Iron Dome",
+          "isCorrect": false,
+          "explanation": "O Iron Dome é israelense, ideal para mísseis curtos.\nNa Turquia, só no museu."
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "question": "Qual destes bombardeiros é conhecido por ser o principal bombardeiro estratégico da China?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "H-6",
+          "isCorrect": true,
+          "explanation": "O H-6 é o bombardeiro clássico da China!\nSe fosse carro, seria um sedã com porta-mísseis.",
+          "imageUrl": "http://www.81.cn/jfjbmap/content/2020-10/02/content_271173.htm",
+          "imageDescription": "Bombardeiro estratégico chinês H-6 em voo."
+        },
+        {
+          "text": "Tu-160",
+          "isCorrect": false,
+          "explanation": "O Tu-160 é russo, gigante e supersônico.\nNa China, só no radar."
+        },
+        {
+          "text": "B-52",
+          "isCorrect": false,
+          "explanation": "O B-52 é americano, veterano e resistente.\nNa China, só de passagem."
+        },
+        {
+          "text": "Vulcan",
+          "isCorrect": false,
+          "explanation": "O Vulcan é britânico, elegante e aposentado.\nNa China, só no museu."
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "question": "Qual destes sistemas é considerado o principal míssil superfície-ar de longo alcance da Índia?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Akash",
+          "isCorrect": true,
+          "explanation": "O Akash é o escudo dos céus indianos!\nSe passar voando, melhor pedir permissão.",
+          "imageUrl": "https://www.drdo.gov.in/sites/default/files/styles/large/public/2020-06/akash.jpg",
+          "imageDescription": "Sistema Akash em posição de disparo."
+        },
+        {
+          "text": "Patriot",
+          "isCorrect": false,
+          "explanation": "O Patriot é americano, adora festas na OTAN.\nNa Índia, só de visita."
+        },
+        {
+          "text": "S-400",
+          "isCorrect": false,
+          "explanation": "O S-400 é russo, robusto e imponente.\nNa Índia, só como inspiração."
+        },
+        {
+          "text": "Iron Dome",
+          "isCorrect": false,
+          "explanation": "O Iron Dome é israelense, ideal para mísseis curtos.\nNa Índia, só no museu."
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "question": "Qual destes veículos blindados é famoso por ser utilizado pela infantaria mecanizada russa desde os anos 1960?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "BMP-1",
+          "isCorrect": true,
+          "explanation": "O BMP-1 é o 'carrinho de combate' russo desde a Guerra Fria!\nSe fosse carro, seria um Lada blindado.",
+          "imageUrl": "https://topwar.ru/uploads/posts/2021-01/1610641056_bmp-1.jpg",
+          "imageDescription": "Blindado russo BMP-1 em campo."
+        },
+        {
+          "text": "M113",
+          "isCorrect": false,
+          "explanation": "O M113 é americano, veterano de muitas guerras.\nNa Rússia, só como visitante."
+        },
+        {
+          "text": "Warrior",
+          "isCorrect": false,
+          "explanation": "Warrior é britânico, gosta de chá e disciplina.\nNa Rússia, só de passagem."
+        },
+        {
+          "text": "Piranha",
+          "isCorrect": false,
+          "explanation": "Piranha é suíço, famoso por ser neutro e eficiente.\nNa Rússia, só no aquário."
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "question": "Qual destes radares é famoso por ser utilizado em sistemas de defesa aérea de última geração dos EUA?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "AN/TPY-2",
+          "isCorrect": true,
+          "explanation": "O AN/TPY-2 é o olho eletrônico americano!\nSe passar voando, ele vê até drone de papel.",
+          "imageUrl": "https://www.raytheonmissilesanddefense.com/sites/default/files/styles/media_crop/public/2022-06/an-tpy2.jpg",
+          "imageDescription": "Radar AN/TPY-2 em operação nos EUA."
+        },
+        {
+          "text": "Nebo-M",
+          "isCorrect": false,
+          "explanation": "O Nebo-M é russo, olho eletrônico do leste.\nNos EUA, só nos relatórios."
+        },
+        {
+          "text": "Green Pine",
+          "isCorrect": false,
+          "explanation": "O Green Pine é israelense, ótimo para defesa antimíssil.\nNos EUA, só no intercâmbio."
+        },
+        {
+          "text": "SAMP/T",
+          "isCorrect": false,
+          "explanation": "O SAMP/T é europeu, parceria de baguete e pizza.\nNos EUA, só como inspiração."
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "question": "Qual destes caças foi o primeiro do mundo a ser considerado de quinta geração?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "F-22 Raptor",
+          "isCorrect": true,
+          "explanation": "O F-22 foi o pioneiro da quinta geração!\nFurtivo, ágil e quase invisível até para o radar.",
+          "imageUrl": "https://www.lockheedmartin.com/content/dam/lockheed-martin/aero/photo/f22/f-22-raptor.jpg",
+          "imageDescription": "Caça F-22 Raptor em voo."
+        },
+        {
+          "text": "Su-57",
+          "isCorrect": false,
+          "explanation": "O Su-57 é russo e moderno, mas chegou depois.\nF-22 já estava na pista."
+        },
+        {
+          "text": "J-20",
+          "isCorrect": false,
+          "explanation": "O J-20 é chinês e furtivo, mas entrou depois do F-22.\nNa fila da quinta geração."
+        },
+        {
+          "text": "F-35 Lightning II",
+          "isCorrect": false,
+          "explanation": "O F-35 é famoso, mas o F-22 foi o pioneiro.\nChegou primeiro na festa."
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "question": "Qual destes sistemas de defesa antimísseis é considerado o principal escudo móvel da Alemanha?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "IRIS-T SLM",
+          "isCorrect": true,
+          "explanation": "O IRIS-T SLM é o escudo alemão!\nSe fosse carro, seria um sedã blindado.",
+          "imageUrl": "https://esut.de/wp-content/uploads/2022/10/iris-t-slm.jpg",
+          "imageDescription": "Sistema IRIS-T SLM em operação na Alemanha."
+        },
+        {
+          "text": "Patriot",
+          "isCorrect": false,
+          "explanation": "O Patriot é americano, adora festas na OTAN.\nNa Alemanha, só como reforço."
+        },
+        {
+          "text": "S-400",
+          "isCorrect": false,
+          "explanation": "O S-400 é russo, robusto e imponente.\nNa Alemanha, só no noticiário."
+        },
+        {
+          "text": "NASAMS",
+          "isCorrect": false,
+          "explanation": "O NASAMS é norueguês, eficiente e global.\nNa Alemanha, só de férias."
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "question": "Qual destes bombardeiros é conhecido por ser o mais produzido da história da aviação militar?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "B-24 Liberator",
+          "isCorrect": true,
+          "explanation": "O B-24 foi produzido como pão quente!\nBombardeiro em série, quase fast-food.",
+          "imageUrl": "https://www.history.com/.image/t_share/MTU3ODc4NjAzNjY4NzU5OTY0/b-24-liberator.jpg",
+          "imageDescription": "Bombardeiro B-24 Liberator em voo."
+        },
+        {
+          "text": "B-17 Flying Fortress",
+          "isCorrect": false,
+          "explanation": "O B-17 é lendário, mas ficou atrás em números."
+        },
+        {
+          "text": "Lancaster",
+          "isCorrect": false,
+          "explanation": "O Lancaster é britânico, voou muito.\nMas não bateu recorde de produção."
+        },
+        {
+          "text": "He 111",
+          "isCorrect": false,
+          "explanation": "O He 111 é alemão, mas não liderou a produção.\nSó na criatividade."
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "question": "Qual destes sistemas de defesa aérea é considerado o principal escudo antimíssil do Japão?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Aegis Ashore",
+          "isCorrect": true,
+          "explanation": "O Aegis Ashore é o guarda-chuva japonês!\nSe chover míssil, ele resolve.",
+          "imageUrl": "https://www.mod.go.jp/msdf/formal/gallery/ships/ddg/aegis-ashore.jpg",
+          "imageDescription": "Sistema Aegis Ashore em instalação no Japão."
+        },
+        {
+          "text": "Patriot",
+          "isCorrect": false,
+          "explanation": "O Patriot é americano, adora festas na OTAN.\nNo Japão, só como reforço."
+        },
+        {
+          "text": "S-400",
+          "isCorrect": false,
+          "explanation": "O S-400 é russo, robusto e imponente.\nNo Japão, só no noticiário."
+        },
+        {
+          "text": "Iron Dome",
+          "isCorrect": false,
+          "explanation": "O Iron Dome é israelense, ideal para mísseis curtos.\nNo Japão, só no museu."
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "question": "Qual destes caças é considerado o principal caça de superioridade aérea do Japão atualmente?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "F-15J",
+          "isCorrect": true,
+          "explanation": "O F-15J é o tubarão dos céus japoneses!\nÁgil, armado e com disciplina samurai.",
+          "imageUrl": "https://www.mod.go.jp/e/publ/w_paper/2018/html/nc020200.html",
+          "imageDescription": "Caça F-15J da Força Aérea Japonesa."
+        },
+        {
+          "text": "F-2",
+          "isCorrect": false,
+          "explanation": "O F-2 é multifunção, mas o F-15J é o chefão.\nNa fila do hangar, ele passa na frente."
+        },
+        {
+          "text": "Su-35",
+          "isCorrect": false,
+          "explanation": "O Su-35 é russo, domina os céus do leste.\nNo Japão, só no radar."
+        },
+        {
+          "text": "Rafale",
+          "isCorrect": false,
+          "explanation": "O Rafale é francês, elegante e veloz.\nNo Japão, só de passagem."
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "question": "Qual destes veículos blindados é famoso por sua resistência e uso em conflitos no Oriente Médio?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Merkava",
+          "isCorrect": true,
+          "explanation": "O Merkava é o escudo de Israel!\nSe fosse tartaruga, seria de aço.",
+          "imageUrl": "https://www.defensenews.com/resizer/merkava.jpg",
+          "imageDescription": "Tanque Merkava do Exército Israelense."
+        },
+        {
+          "text": "Abrams",
+          "isCorrect": false,
+          "explanation": "O Abrams é americano, gosta de hambúrguer e ação.\nNo Oriente Médio, só como reforço."
+        },
+        {
+          "text": "Leopard 2",
+          "isCorrect": false,
+          "explanation": "O Leopard 2 é alemão, adora rodar pela Europa.\nNo Oriente Médio, só de visita."
+        },
+        {
+          "text": "Challenger 2",
+          "isCorrect": false,
+          "explanation": "O Challenger 2 é britânico, toma chá às 5.\nNo Oriente Médio, só como inspiração."
+        }
+      ]
+    },
+    {
+      "id": "97",
+      "question": "Qual destes sistemas de defesa aérea é considerado o principal escudo antimíssil da Arábia Saudita?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Patriot",
+          "isCorrect": true,
+          "explanation": "O Patriot é o guarda-chuva da Arábia Saudita!\nSe chover míssil, ele resolve.",
+          "imageUrl": "https://www.raytheonmissilesanddefense.com/sites/default/files/styles/media_crop/public/2022-06/patriot.jpg",
+          "imageDescription": "Sistema Patriot em operação na Arábia Saudita."
+        },
+        {
+          "text": "S-400",
+          "isCorrect": false,
+          "explanation": "O S-400 é russo, robusto e imponente.\nNa Arábia, só no noticiário."
+        },
+        {
+          "text": "Iron Dome",
+          "isCorrect": false,
+          "explanation": "O Iron Dome é israelense, ideal para mísseis curtos.\nNa Arábia, só no museu."
+        },
+        {
+          "text": "NASAMS",
+          "isCorrect": false,
+          "explanation": "O NASAMS é norueguês, eficiente e global.\nNa Arábia, só de férias."
+        }
+      ]
+    },
+    {
+      "id": "98",
+      "question": "Qual destes bombardeiros é conhecido por ser o principal bombardeiro estratégico do Reino Unido atualmente?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Vulcan",
+          "isCorrect": false,
+          "explanation": "O Vulcan foi lendário, mas já aposentou as asas.\nNo Reino Unido, só em museu."
+        },
+        {
+          "text": "Tornado GR4",
+          "isCorrect": true,
+          "explanation": "O Tornado GR4 é o bombardeiro britânico dos tempos modernos!\nSe fosse tempestade, seria de precisão.",
+          "imageUrl": "https://www.raf.mod.uk/images/tornado-gr4.jpg",
+          "imageDescription": "Bombardeiro Tornado GR4 da RAF em voo."
+        },
+        {
+          "text": "B-1B Lancer",
+          "isCorrect": false,
+          "explanation": "O B-1B é americano, rápido e barulhento.\nNo Reino Unido, só por foto."
+        },
+        {
+          "text": "Mirage IV",
+          "isCorrect": false,
+          "explanation": "O Mirage IV é francês, voa alto e rápido.\nNo Reino Unido, só como inspiração."
+        }
+      ]
+    },
+    {
+      "id": "99",
+      "question": "Qual destes sistemas de defesa aérea é considerado o principal escudo antimíssil da Austrália?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "NASAMS",
+          "isCorrect": true,
+          "explanation": "O NASAMS protege até canguru!\nSe chover míssil, ele resolve.",
+          "imageUrl": "https://www.raytheonmissilesanddefense.com/sites/default/files/styles/media_crop/public/2022-06/NASAMS%20Norway.jpg",
+          "imageDescription": "Sistema NASAMS em operação na Austrália."
+        },
+        {
+          "text": "Patriot",
+          "isCorrect": false,
+          "explanation": "O Patriot é americano, adora festas na OTAN.\nNa Austrália, só de visita."
+        },
+        {
+          "text": "S-400",
+          "isCorrect": false,
+          "explanation": "O S-400 é russo, robusto e imponente.\nNa Austrália, só no noticiário."
+        },
+        {
+          "text": "Iron Dome",
+          "isCorrect": false,
+          "explanation": "O Iron Dome é israelense, ideal para mísseis curtos.\nNa Austrália, só no museu."
+        }
+      ]
+    },
+    {
+      "id": "100",
+      "question": "Qual destes caças é considerado o principal caça de superioridade aérea da França atualmente?",
+      "level": "fácil",
+      "options": [
+        {
+          "text": "Rafale",
+          "isCorrect": true,
+          "explanation": "O Rafale é o tubarão dos céus franceses!\nÁgil, armado e com sotaque elegante.",
+          "imageUrl": "https://www.dassault-aviation.com/wp-content/blogs.dir/2/files/2012/09/RAFALE-1.jpg",
+          "imageDescription": "Caça Dassault Rafale em voo."
+        },
+        {
+          "text": "Mirage 2000",
+          "isCorrect": false,
+          "explanation": "O Mirage 2000 é veterano, mas o Rafale já tomou o lugar.\nAtualização é tudo."
+        },
+        {
+          "text": "F-16",
+          "isCorrect": false,
+          "explanation": "O F-16 é americano, gosta de voar pelo mundo.\nNa França, só como hóspede."
+        },
+        {
+          "text": "Eurofighter Typhoon",
+          "isCorrect": false,
+          "explanation": "O Typhoon é europeu, moderno e veloz.\nNa França, só de passagem."
+        }
+      ]
+    }
+  ]
+}

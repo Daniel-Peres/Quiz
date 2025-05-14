@@ -1,0 +1,2984 @@
+{
+    "config": {
+        "theme": "Cavaleiros do Zodíaco (Série Completa)",
+        "totalPoints": 1000,
+        "scoring": "points"
+    },
+    "data": [
+        {
+            "id": "01",
+            "question": "Qual Cavaleiro usa a Armadura de Cisne?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Ikki",
+                    "isCorrect": false,
+                    "explanation": "Errou feio! Ikki é do Fênix. Cisne é do Hyoga, o russo que adora um gelo. ❄️"
+                },
+                {
+                    "text": "Hyoga",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Hyoga de Cisne faz até o inverno russo parecer caloroso. 🦢",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/hyoga_cygnus.jpg",
+                    "imageDescription": "Hyoga usando a Armadura de Cisne"
+                },
+                {
+                    "text": "Shun",
+                    "isCorrect": false,
+                    "explanation": "Shun é de Andrômeda! Suas correntes são mais eficazes que puxões de orelha. ⛓️"
+                },
+                {
+                    "text": "Jabu",
+                    "isCorrect": false,
+                    "explanation": "Jabu é de Unicórnio! Cavaleiro esquecido até pelos fãs hardcore. 🦄"
+                }
+            ]
+        },
+        {
+            "id": "02",
+            "question": "Qual é o nome da irmã de Seiya?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Saori",
+                    "isCorrect": false,
+                    "explanation": "Saori é a reencarnação de Athena! Quase acertou... quase. 🏛️"
+                },
+                {
+                    "text": "Miho",
+                    "isCorrect": false,
+                    "explanation": "Miho é a amiga do colégio. Ela prefere balé a batalhas cósmicas. 💃"
+                },
+                {
+                    "text": "Seika",
+                    "isCorrect": true,
+                    "explanation": "Isso! Seiya passou 114 episódios procurando ela. Irmão dedicado! 👧",
+                    "imageUrl": "https://m.cavzodiaco.com.br/imagens/seiya-seika.jpg",
+                    "imageDescription": "Seiya abraçando Seika em cena emocionante"
+                },
+                {
+                    "text": "Marin",
+                    "isCorrect": false,
+                    "explanation": "Marin é sua mentora! E também mestra em dar esporro. 🦉"
+                }
+            ]
+        },
+        {
+            "id": "03",
+            "question": "Qual é a constelação de Seiya?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Dragão",
+                    "isCorrect": false,
+                    "explanation": "Quase confundiu o meteoro com uma nadada! Shiryu é o Cavaleiro de Dragão, não o Seiya. 🐉"
+                },
+                {
+                    "text": "Pégaso",
+                    "isCorrect": true,
+                    "explanation": "Correto! Seiya é o Cavaleiro de Pégaso. Sua técnica de meteoro deixaria até um cometa com inveja. 🌠",
+                    "imageUrl": "https://m.cavzodiaco.com.br/imagens/seiya-armadura-pegaso.jpg",
+                    "imageDescription": "Seiya usando a Armadura de Bronze de Pégaso."
+                },
+                {
+                    "text": "Cisne",
+                    "isCorrect": false,
+                    "explanation": "Hyoga é o Cavaleiro de Cisne. Seiya prefere chutes rápidos a patins no gelo. ❄️"
+                },
+                {
+                    "text": "Fênix",
+                    "isCorrect": false,
+                    "explanation": "Ikki é o Cavaleiro de Fênix. Seiya não revive das cinzas, mas quase morre 114 vezes. 🔥"
+                }
+            ]
+        },
+        {
+            "id": "04",
+            "question": "Qual Cavaleiro de Ouro protege a Casa de Libra?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Shaka",
+                    "isCorrect": false,
+                    "explanation": "Shaka é de Virgem! Ele medita tanto que esqueceu a própria casa. 🧘"
+                },
+                {
+                    "text": "Dohko",
+                    "isCorrect": true,
+                    "explanation": "Exato! Dohko é o mestre da balança... e de fazer caretas épicas. ⚖️",
+                    "imageUrl": "https://m.cavzodiaco.com.br/imagens/dohko-libra.jpg",
+                    "imageDescription": "Dohko com a Armadura de Libra"
+                },
+                {
+                    "text": "Milo",
+                    "isCorrect": false,
+                    "explanation": "Milo é de Escorpião! Suas agulhas são mais afiadas que seu QI. 🦂"
+                },
+                {
+                    "text": "Aioria",
+                    "isCorrect": false,
+                    "explanation": "Aioria é de Leão! Ele brilha mais que o sol do meio-dia. 🦁"
+                }
+            ]
+        },
+        {
+            "id": "05",
+            "question": "Quem é o Cavaleiro de Andrômeda?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Shun",
+                    "isCorrect": true,
+                    "explanation": "Sim! Shun, com suas correntes, é mais sensível que novela das 9. ⛓️",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/shun_andromeda.jpg",
+                    "imageDescription": "Shun com a Armadura de Andrômeda"
+                },
+                {
+                    "text": "Hyoga",
+                    "isCorrect": false,
+                    "explanation": "Hyoga prefere gelo ao invés de correntes. ❄️"
+                },
+                {
+                    "text": "Ikki",
+                    "isCorrect": false,
+                    "explanation": "Ikki é o irmão durão, mas é o Fênix! 🔥"
+                },
+                {
+                    "text": "Jabu",
+                    "isCorrect": false,
+                    "explanation": "Jabu só queria ser protagonista, mas nem isso conseguiu. 🦄"
+                }
+            ]
+        },
+        {
+            "id": "06",
+            "question": "Qual é o principal golpe de Shiryu?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Meteoro de Pégaso",
+                    "isCorrect": false,
+                    "explanation": "Esse é do Seiya! Shiryu prefere dragões a meteoros. 🐉"
+                },
+                {
+                    "text": "Cólera do Dragão",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Se ouvir um rugido, corra: é o Shiryu! 🐲",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/shiryu_dragon.jpg",
+                    "imageDescription": "Shiryu com a Armadura de Dragão"
+                },
+                {
+                    "text": "Trovão Aurora",
+                    "isCorrect": false,
+                    "explanation": "Hyoga te daria um abraço gelado por esse erro. ❄️"
+                },
+                {
+                    "text": "Corrente de Andrômeda",
+                    "isCorrect": false,
+                    "explanation": "Essa corrente é do Shun, não do Shiryu! ⛓️"
+                }
+            ]
+        },
+        {
+            "id": "07",
+            "question": "Quem é a reencarnação de Athena?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Saori Kido",
+                    "isCorrect": true,
+                    "explanation": "Correto! Saori é Athena, mas também manda muito bem no xadrez. ♟️",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/saori_athena.jpg",
+                    "imageDescription": "Saori Kido, a Athena"
+                },
+                {
+                    "text": "Marin",
+                    "isCorrect": false,
+                    "explanation": "Marin é mestra do Seiya, mas Athena mesmo só no cosplay. 🦉"
+                },
+                {
+                    "text": "Shina",
+                    "isCorrect": false,
+                    "explanation": "Shina é a amazona de Cobra. Athena mesmo, só no sonho! 🐍"
+                },
+                {
+                    "text": "Miho",
+                    "isCorrect": false,
+                    "explanation": "Miho é a cuidadora do orfanato. Athena é só no próximo episódio. 🍼"
+                }
+            ]
+        },
+        {
+            "id": "08",
+            "question": "Qual Cavaleiro de Ouro é conhecido como 'O Homem Mais Próximo de Deus'?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Saga de Gêmeos",
+                    "isCorrect": false,
+                    "explanation": "Saga é quase um deus... mas também quase um vilão. ♊"
+                },
+                {
+                    "text": "Shaka de Virgem",
+                    "isCorrect": true,
+                    "explanation": "Exatamente! Shaka medita tanto que até Buda pede dicas. 🧘",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/shaka_virgo.jpg",
+                    "imageDescription": "Shaka de Virgem em posição de meditação"
+                },
+                {
+                    "text": "Aioros de Sagitário",
+                    "isCorrect": false,
+                    "explanation": "Aioros é nobre, mas não chega a tanto. 🏹"
+                },
+                {
+                    "text": "Aldebaran de Touro",
+                    "isCorrect": false,
+                    "explanation": "Aldebaran é forte, mas não ilumina tanto! 🐂"
+                }
+            ]
+        },
+        {
+            "id": "09",
+            "question": "Qual é o nome do irmão de Shun?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Hyoga",
+                    "isCorrect": false,
+                    "explanation": "Hyoga é amigo, mas irmão só no coração. ❄️"
+                },
+                {
+                    "text": "Ikki",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Ikki, o Fênix, sempre aparece quando o Shun chora. 🔥",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/ikki_phoenix.jpg",
+                    "imageDescription": "Ikki com a Armadura de Fênix"
+                },
+                {
+                    "text": "Seiya",
+                    "isCorrect": false,
+                    "explanation": "Seiya é o protagonista, mas não é irmão do Shun. 🌠"
+                },
+                {
+                    "text": "Jabu",
+                    "isCorrect": false,
+                    "explanation": "Jabu só queria ser relevante, mas não é irmão de ninguém. 🦄"
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "question": "Qual destes NÃO é um Cavaleiro de Bronze?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Seiya",
+                    "isCorrect": false,
+                    "explanation": "Seiya é o Bronze raiz! Meteoro neles! 🌠"
+                },
+                {
+                    "text": "Shiryu",
+                    "isCorrect": false,
+                    "explanation": "Shiryu é Bronze, mas tem coração de Ouro. 🐉"
+                },
+                {
+                    "text": "Aioria",
+                    "isCorrect": true,
+                    "explanation": "Correto! Aioria é Cavaleiro de Leão, e de Ouro! 🦁",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/aiolia_leo.jpg",
+                    "imageDescription": "Aioria de Leão com armadura dourada"
+                },
+                {
+                    "text": "Hyoga",
+                    "isCorrect": false,
+                    "explanation": "Hyoga é Bronze, mas congela até sua dúvida. ❄️"
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "question": "Quem é o mestre do Santuário no início da série?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Dohko",
+                    "isCorrect": false,
+                    "explanation": "Dohko é mestre, mas só em Rozan. No Santuário, ele só observa. 🐢"
+                },
+                {
+                    "text": "Saga",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Saga de Gêmeos se disfarçou e quase enganou todo mundo. 🎭",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/saga_gemini.jpg",
+                    "imageDescription": "Saga de Gêmeos com armadura dourada"
+                },
+                {
+                    "text": "Shion",
+                    "isCorrect": false,
+                    "explanation": "Shion foi mestre antes, mas virou história antiga. 🧓"
+                },
+                {
+                    "text": "Mu",
+                    "isCorrect": false,
+                    "explanation": "Mu é bom de conserto de armadura, mas não manda no pedaço. 🐏"
+                }
+            ]
+        },
+        {
+            "id": "12",
+            "question": "Qual é a principal arma da Armadura de Libra?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Correntes",
+                    "isCorrect": false,
+                    "explanation": "Correntes são do Shun! Libra gosta de variedade. ⛓️"
+                },
+                {
+                    "text": "Escudo e espadas",
+                    "isCorrect": true,
+                    "explanation": "Correto! Libra é tipo um arsenal ambulante. ⚖️",
+                    "imageUrl": "https://m.cavzodiaco.com.br/imagens/armadura-libra.jpg",
+                    "imageDescription": "Armadura de Libra com armas"
+                },
+                {
+                    "text": "Flechas",
+                    "isCorrect": false,
+                    "explanation": "Flechas são de Sagitário! Libra prefere espadas e escudos. 🏹"
+                },
+                {
+                    "text": "Tridente",
+                    "isCorrect": false,
+                    "explanation": "Tridente é coisa de Poseidon! Libra não gosta de frutos do mar. 🦑"
+                }
+            ]
+        },
+        {
+            "id": "13",
+            "question": "Qual desses Cavaleiros de Ouro tem personalidade dividida?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Camus",
+                    "isCorrect": false,
+                    "explanation": "Camus é frio, mas só no coração. ❄️"
+                },
+                {
+                    "text": "Saga",
+                    "isCorrect": true,
+                    "explanation": "Correto! Saga de Gêmeos é quase dois em um. 👥",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/saga_gemini.jpg",
+                    "imageDescription": "Saga de Gêmeos, mostrando suas duas faces"
+                },
+                {
+                    "text": "Milo",
+                    "isCorrect": false,
+                    "explanation": "Milo só tem agulhas, não personalidades. 🦂"
+                },
+                {
+                    "text": "Aldebaran",
+                    "isCorrect": false,
+                    "explanation": "Aldebaran é grandão, mas só tem uma personalidade: comer. 🥩"
+                }
+            ]
+        },
+        {
+            "id": "14",
+            "question": "Qual destes é um General Mariner de Poseidon?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Isaac de Kraken",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Isaac tem tentáculos e drama de novela mexicana. 🦑",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/isaac_kraken.jpg",
+                    "imageDescription": "Isaac com a Escama de Kraken"
+                },
+                {
+                    "text": "Shaka de Virgem",
+                    "isCorrect": false,
+                    "explanation": "Shaka é zen demais pra ser Mariner. 🧘"
+                },
+                {
+                    "text": "Aioros de Sagitário",
+                    "isCorrect": false,
+                    "explanation": "Aioros só nada no cosmos, não no mar. 🏹"
+                },
+                {
+                    "text": "Shiryu de Dragão",
+                    "isCorrect": false,
+                    "explanation": "Shiryu gosta de cachoeira, não de oceano. 🐉"
+                }
+            ]
+        },
+        {
+            "id": "15",
+            "question": "Qual é o nome da técnica de socos supersônicos de Seiya?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Trovão Aurora",
+                    "isCorrect": false,
+                    "explanation": "Errou! Trovão Aurora é do Hyoga. Seiya prefere socos que desafiam a física. ❄️"
+                },
+                {
+                    "text": "Meteoro de Pégaso",
+                    "isCorrect": true,
+                    "explanation": "Isso! Seus socos são tão rápidos que até o Flash pediria autógrafo. 🌠",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/pegasus_ryuseiken.jpg",
+                    "imageDescription": "Seiya executando o Meteoro de Pégaso"
+                },
+                {
+                    "text": "Cólera do Dragão",
+                    "isCorrect": false,
+                    "explanation": "Shiryu ficaria orgulhoso, mas essa é dele. 🐉"
+                },
+                {
+                    "text": "Garra do Fênix",
+                    "isCorrect": false,
+                    "explanation": "Ikki riu da sua cara. Essa técnica queima até a alma! 🔥"
+                }
+            ]
+        },
+        {
+            "id": "16",
+            "question": "Qual Cavaleiro de Ouro é irmão de Kanon?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Shura",
+                    "isCorrect": false,
+                    "explanation": "Shura é de Capricórnio e só corta armaduras, não laços familiares. 🗡️"
+                },
+                {
+                    "text": "Saga",
+                    "isCorrect": true,
+                    "explanation": "Correto! Saga e Kanon são gêmeos, mas só um tem crise existencial. 👬",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/saga_gemini.jpg",
+                    "imageDescription": "Saga de Gêmeos, irmão de Kanon"
+                },
+                {
+                    "text": "Aioria",
+                    "isCorrect": false,
+                    "explanation": "Aioria só tem irmão chamado Aioros. 🦁"
+                },
+                {
+                    "text": "Camus",
+                    "isCorrect": false,
+                    "explanation": "Camus é frio, mas não é irmão de Kanon. ❄️"
+                }
+            ]
+        },
+        {
+            "id": "17",
+            "question": "Qual destes NÃO é um Cavaleiro de Ouro?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Mu",
+                    "isCorrect": false,
+                    "explanation": "Mu é de Áries, e conserta armaduras como ninguém. 🐏"
+                },
+                {
+                    "text": "Camus",
+                    "isCorrect": false,
+                    "explanation": "Camus é de Aquário, e congela até pensamento. ❄️"
+                },
+                {
+                    "text": "Shun",
+                    "isCorrect": true,
+                    "explanation": "Correto! Shun é de Andrômeda, só vira dourado em spin-off. ⛓️",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/shun_andromeda.jpg",
+                    "imageDescription": "Shun com a Armadura de Andrômeda"
+                },
+                {
+                    "text": "Aldebaran",
+                    "isCorrect": false,
+                    "explanation": "Aldebaran é de Touro, e de ouro! 🐂"
+                }
+            ]
+        },
+        {
+            "id": "18",
+            "question": "Qual destes personagens é um Cavaleiro de Prata?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Marin de Águia",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Marin é a sensei mais misteriosa do universo. 🦅",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/marin_eagle.jpg",
+                    "imageDescription": "Marin de Águia com armadura prateada"
+                },
+                {
+                    "text": "Shina de Cobra",
+                    "isCorrect": false,
+                    "explanation": "Shina é de Prata também, mas só uma resposta correta por vez! 🐍"
+                },
+                {
+                    "text": "Seiya de Pégaso",
+                    "isCorrect": false,
+                    "explanation": "Seiya é Bronze, mas sonha alto. 🌠"
+                },
+                {
+                    "text": "Saga de Gêmeos",
+                    "isCorrect": false,
+                    "explanation": "Saga é de Ouro, e de personalidade dupla. 👥"
+                }
+            ]
+        },
+        {
+            "id": "19",
+            "question": "Qual é o nome do documentário brasileiro sobre Cavaleiros do Zodíaco lançado em 2024?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "12 Casas de um Fenômeno",
+                    "isCorrect": true,
+                    "explanation": "Correto! Esse documentário é mais nostálgico que reprise na TV Manchete. 📺",
+                    "imageUrl": "https://m.cavzodiaco.com.br/imagens/12-casas-fenomeno.jpg",
+                    "imageDescription": "Poster do documentário 12 Casas de um Fenômeno"
+                },
+                {
+                    "text": "O Retorno de Athena",
+                    "isCorrect": false,
+                    "explanation": "Esse título ficou só na imaginação dos fãs. 🏛️"
+                },
+                {
+                    "text": "Saga de Ouro",
+                    "isCorrect": false,
+                    "explanation": "Parece nome de spin-off, mas não é documentário. ✨"
+                },
+                {
+                    "text": "Lenda do Santuário",
+                    "isCorrect": false,
+                    "explanation": "Esse é filme, não documentário! 🎬"
+                }
+            ]
+        },
+        {
+            "id": "20",
+            "question": "Qual Cavaleiro de Bronze é considerado o mais resistente?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Ikki de Fênix",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Ikki volta até depois de churrasco. 🔥",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/ikki_phoenix.jpg",
+                    "imageDescription": "Ikki de Fênix ressurgindo das cinzas"
+                },
+                {
+                    "text": "Jabu de Unicórnio",
+                    "isCorrect": false,
+                    "explanation": "Jabu é resistente... a ser esquecido. 🦄"
+                },
+                {
+                    "text": "Shun de Andrômeda",
+                    "isCorrect": false,
+                    "explanation": "Shun é sensível, não resistente. ⛓️"
+                },
+                {
+                    "text": "Hyoga de Cisne",
+                    "isCorrect": false,
+                    "explanation": "Hyoga resiste ao frio, mas não à emoção. ❄️"
+                }
+            ]
+        },
+        {
+            "id": "21",
+            "question": "Qual Cavaleiro de Ouro é conhecido por sua velocidade quase igual à da luz?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Aioria de Leão",
+                    "isCorrect": false,
+                    "explanation": "Aioria é rápido, mas não chega a ser um flash dourado. 🦁"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu é rápido no conserto de armaduras, mas não na velocidade da luz. 🐏"
+                },
+                {
+                    "text": "Afrodite de Peixes",
+                    "isCorrect": false,
+                    "explanation": "Afrodite é mais rápido no salão de beleza do que em combate. 🌹"
+                },
+                {
+                    "text": "Aiolia de Gêmeos",
+                    "isCorrect": false,
+                    "explanation": "Aiolia não existe! Você misturou Leão e Gêmeos. 😅"
+                },
+                {
+                    "text": "Milo de Escorpião",
+                    "isCorrect": false,
+                    "explanation": "Milo é rápido nas agulhadas, mas não tanto assim. 🦂"
+                },
+                {
+                    "text": "Shaka de Virgem",
+                    "isCorrect": false,
+                    "explanation": "Shaka é iluminado, mas não corre tanto. 🧘"
+                },
+                {
+                    "text": "Camus de Aquário",
+                    "isCorrect": false,
+                    "explanation": "Camus prefere congelar o tempo do que correr. ❄️"
+                },
+                {
+                    "text": "Saga de Gêmeos",
+                    "isCorrect": false,
+                    "explanation": "Saga é misterioso, mas não tão veloz. 👥"
+                },
+                {
+                    "text": "Aioros de Sagitário",
+                    "isCorrect": false,
+                    "explanation": "Aioros voa com flechas, mas não é o mais rápido. 🏹"
+                },
+                {
+                    "text": "Aldebaran de Touro",
+                    "isCorrect": false,
+                    "explanation": "Aldebaran é forte, mas não é conhecido pela velocidade. 🐂"
+                },
+                {
+                    "text": "Shura de Capricórnio",
+                    "isCorrect": false,
+                    "explanation": "Shura corta rápido, mas não corre rápido. 🗡️"
+                },
+                {
+                    "text": "Máscara da Morte de Câncer",
+                    "isCorrect": false,
+                    "explanation": "Ele é rápido para fugir das encrencas. ☠️"
+                },
+                {
+                    "text": "Aiolos de Sagitário",
+                    "isCorrect": false,
+                    "explanation": "Aiolos é nobre, mas não é o mais veloz. 🏹"
+                },
+                {
+                    "text": "Saga de Gêmeos",
+                    "isCorrect": false,
+                    "explanation": "Saga é misterioso, mas não tão veloz. 👥"
+                },
+                {
+                    "text": "Shiryu de Dragão",
+                    "isCorrect": false,
+                    "explanation": "Shiryu é resistente, mas não é o mais rápido. 🐉"
+                },
+                {
+                    "text": "Afrodite de Peixes",
+                    "isCorrect": false,
+                    "explanation": "Afrodite é mais rápido no salão de beleza do que em combate. 🌹"
+                },
+                {
+                    "text": "Aiolia de Leão",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Aiolia é tão rápido que até o relógio do Santuário fica tonto. ⚡",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/aiolia_leo.jpg",
+                    "imageDescription": "Aiolia de Leão em pose de ataque"
+                }
+            ]
+        },
+        {
+            "id": "22",
+            "question": "Qual é o nome do Cavaleiro de Ouro que protege a Casa de Peixes?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Afrodite",
+                    "isCorrect": true,
+                    "explanation": "Correto! Afrodite é tão bonito que até as flores sentem inveja. 🌹",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/aphrodite_pisces.jpg",
+                    "imageDescription": "Afrodite de Peixes com rosas em mãos"
+                },
+                {
+                    "text": "Milo",
+                    "isCorrect": false,
+                    "explanation": "Milo é de Escorpião! Rosas não combinam com agulhas. 🦂"
+                },
+                {
+                    "text": "Mu",
+                    "isCorrect": false,
+                    "explanation": "Mu é de Áries! Ele prefere lã a pétalas. 🐏"
+                },
+                {
+                    "text": "Camus",
+                    "isCorrect": false,
+                    "explanation": "Camus é de Aquário! Prefere gelo a flores. ❄️"
+                }
+            ]
+        },
+        {
+            "id": "23",
+            "question": "Qual destes personagens é o Cavaleiro de Capricórnio?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Shura",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Shura corta até a dúvida com Excalibur. 🗡️",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/shura_capricorn.jpg",
+                    "imageDescription": "Shura de Capricórnio com Excalibur"
+                },
+                {
+                    "text": "Mu",
+                    "isCorrect": false,
+                    "explanation": "Mu é de Áries! Ele só corta custos de manutenção de armaduras. 🐏"
+                },
+                {
+                    "text": "Aldebaran",
+                    "isCorrect": false,
+                    "explanation": "Aldebaran é de Touro! Só corta fila no rodízio. 🐂"
+                },
+                {
+                    "text": "Aiolia",
+                    "isCorrect": false,
+                    "explanation": "Aiolia é de Leão! Corta só a juba mesmo. 🦁"
+                }
+            ]
+        },
+        {
+            "id": "24",
+            "question": "Quem é o Cavaleiro de Ouro de Aquário?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Camus",
+                    "isCorrect": true,
+                    "explanation": "Correto! Camus congela até a vontade de errar. ❄️",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/camus_aquarius.jpg",
+                    "imageDescription": "Camus de Aquário com armadura dourada"
+                },
+                {
+                    "text": "Shaka",
+                    "isCorrect": false,
+                    "explanation": "Shaka é de Virgem! Só congela na meditação. 🧘"
+                },
+                {
+                    "text": "Saga",
+                    "isCorrect": false,
+                    "explanation": "Saga é de Gêmeos! Só congela a cara de pau. 👥"
+                },
+                {
+                    "text": "Milo",
+                    "isCorrect": false,
+                    "explanation": "Milo é de Escorpião! Só congela o olhar. 🦂"
+                }
+            ]
+        },
+        {
+            "id": "25",
+            "question": "Qual é o nome do ataque mais famoso de Hyoga?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Pó de Diamante",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Hyoga joga mais pó que confeiteiro em bolo. ❄️",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/hyoga_cygnus.jpg",
+                    "imageDescription": "Hyoga de Cisne lançando Pó de Diamante"
+                },
+                {
+                    "text": "Cólera do Dragão",
+                    "isCorrect": false,
+                    "explanation": "Esse rugido é do Shiryu, não do Hyoga! 🐉"
+                },
+                {
+                    "text": "Corrente de Andrômeda",
+                    "isCorrect": false,
+                    "explanation": "Shun é quem faz barulho de corrente. ⛓️"
+                },
+                {
+                    "text": "Garra do Fênix",
+                    "isCorrect": false,
+                    "explanation": "Ikki é quem gosta de fogo, não de gelo! 🔥"
+                }
+            ]
+        },
+        {
+            "id": "26",
+            "question": "Qual Cavaleiro de Ouro é conhecido por usar rosas como arma?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Afrodite",
+                    "isCorrect": true,
+                    "explanation": "Correto! Afrodite é tão letal quanto perfumado. 🌹",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/aphrodite_pisces.jpg",
+                    "imageDescription": "Afrodite de Peixes com rosas vermelhas"
+                },
+                {
+                    "text": "Milo",
+                    "isCorrect": false,
+                    "explanation": "Milo prefere agulhas a flores. 🦂"
+                },
+                {
+                    "text": "Camus",
+                    "isCorrect": false,
+                    "explanation": "Camus prefere gelo a perfume. ❄️"
+                },
+                {
+                    "text": "Shura",
+                    "isCorrect": false,
+                    "explanation": "Shura corta rosas, mas não usa. 🗡️"
+                }
+            ]
+        },
+        {
+            "id": "27",
+            "question": "Qual é o nome do Cavaleiro de Ouro de Touro?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Aldebaran",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Aldebaran é grande, forte e adora churrasco. 🐂",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/aldebaran_taurus.jpg",
+                    "imageDescription": "Aldebaran de Touro com armadura dourada"
+                },
+                {
+                    "text": "Mu",
+                    "isCorrect": false,
+                    "explanation": "Mu é de Áries! Só tem chifres no capacete. 🐏"
+                },
+                {
+                    "text": "Shura",
+                    "isCorrect": false,
+                    "explanation": "Shura é de Capricórnio! Só corta carne no churrasco. 🗡️"
+                },
+                {
+                    "text": "Saga",
+                    "isCorrect": false,
+                    "explanation": "Saga é de Gêmeos! Só faz churrasco mental. 👥"
+                }
+            ]
+        },
+        {
+            "id": "28",
+            "question": "Qual Cavaleiro de Ouro é chamado de 'Cavaleiro do Silêncio'?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu é calmo, mas não é o mais silencioso. 🐏"
+                },
+                {
+                    "text": "Aldebaran de Touro",
+                    "isCorrect": false,
+                    "explanation": "Aldebaran faz barulho até quando respira. 🐂"
+                },
+                {
+                    "text": "Shaka de Virgem",
+                    "isCorrect": false,
+                    "explanation": "Shaka medita, mas não é o Cavaleiro do Silêncio. 🧘"
+                },
+                {
+                    "text": "Afrodite de Peixes",
+                    "isCorrect": false,
+                    "explanation": "Afrodite fala até com as flores. 🌹"
+                },
+                {
+                    "text": "Shura de Capricórnio",
+                    "isCorrect": false,
+                    "explanation": "Shura é discreto, mas não é o do Silêncio. 🗡️"
+                },
+                {
+                    "text": "Máscara da Morte de Câncer",
+                    "isCorrect": true,
+                    "explanation": "Correto! Ele manda até as vozes pro outro mundo. ☠️",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/deathmask_cancer.jpg",
+                    "imageDescription": "Máscara da Morte de Câncer com armadura dourada"
+                }
+            ]
+        },
+        {
+            "id": "29",
+            "question": "Qual Cavaleiro de Ouro é irmão de Aioria?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Aioros",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Aioros é o irmão herói de Sagitário. 🏹",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/aiolos_sagittarius.jpg",
+                    "imageDescription": "Aioros de Sagitário com armadura dourada"
+                },
+                {
+                    "text": "Mu",
+                    "isCorrect": false,
+                    "explanation": "Mu só é irmão da paciência. 🐏"
+                },
+                {
+                    "text": "Shura",
+                    "isCorrect": false,
+                    "explanation": "Shura só tem Excalibur de parente. 🗡️"
+                },
+                {
+                    "text": "Milo",
+                    "isCorrect": false,
+                    "explanation": "Milo só é irmão das agulhas. 🦂"
+                }
+            ]
+        },
+        {
+            "id": "30",
+            "question": "Qual destes Cavaleiros de Ouro é considerado o mais bondoso?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Aioros de Sagitário",
+                    "isCorrect": true,
+                    "explanation": "Correto! Aioros é quase um santo dourado. 🏹",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/aiolos_sagittarius.jpg",
+                    "imageDescription": "Aioros de Sagitário sorrindo"
+                },
+                {
+                    "text": "Máscara da Morte de Câncer",
+                    "isCorrect": false,
+                    "explanation": "Bondade não faz parte do vocabulário dele. ☠️"
+                },
+                {
+                    "text": "Afrodite de Peixes",
+                    "isCorrect": false,
+                    "explanation": "Afrodite é bonito, mas não é bonzinho. 🌹"
+                },
+                {
+                    "text": "Aldebaran de Touro",
+                    "isCorrect": false,
+                    "explanation": "Aldebaran é gente boa, mas não chega a tanto. 🐂"
+                }
+            ]
+        },
+        {
+            "id": "31",
+            "question": "Qual destes Cavaleiros de Ouro é conhecido por sua justiça?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Dohko de Libra",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Dohko pesa até a pipoca antes de comer. ⚖️",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/dohko_libra.jpg",
+                    "imageDescription": "Dohko de Libra com balança"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu é justo, mas só com armaduras. 🐏"
+                },
+                {
+                    "text": "Camus de Aquário",
+                    "isCorrect": false,
+                    "explanation": "Camus é frio até na justiça. ❄️"
+                },
+                {
+                    "text": "Shaka de Virgem",
+                    "isCorrect": false,
+                    "explanation": "Shaka prefere meditar sobre justiça. 🧘"
+                }
+            ]
+        },
+        {
+            "id": "32",
+            "question": "Qual Cavaleiro de Ouro é o mais velho?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Dohko de Libra",
+                    "isCorrect": true,
+                    "explanation": "Correto! Dohko tem mais rugas que armaduras. ⚖️",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/dohko_libra.jpg",
+                    "imageDescription": "Dohko de Libra, o Mestre Ancião"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu é velho só na paciência. 🐏"
+                },
+                {
+                    "text": "Aioria de Leão",
+                    "isCorrect": false,
+                    "explanation": "Aioria é jovem e impetuoso. 🦁"
+                },
+                {
+                    "text": "Camus de Aquário",
+                    "isCorrect": false,
+                    "explanation": "Camus é frio, mas não velho. ❄️"
+                }
+            ]
+        },
+        {
+            "id": "33",
+            "question": "Qual Cavaleiro de Ouro é considerado o mais frio?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Camus de Aquário",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Camus congela até piada ruim. ❄️",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/camus_aquarius.jpg",
+                    "imageDescription": "Camus de Aquário lançando Aurora Execution"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu só é frio quando a conta de luz atrasa. 🐏"
+                },
+                {
+                    "text": "Dohko de Libra",
+                    "isCorrect": false,
+                    "explanation": "Dohko é quente igual chá de avô. ⚖️"
+                },
+                {
+                    "text": "Aioria de Leão",
+                    "isCorrect": false,
+                    "explanation": "Aioria é quente como o sol! 🦁"
+                }
+            ]
+        },
+        {
+            "id": "34",
+            "question": "Qual Cavaleiro de Ouro é mestre de Mu?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Shion de Áries",
+                    "isCorrect": true,
+                    "explanation": "Correto! Shion passou o manual de armaduras para Mu. 🐏",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/shion_aries.jpg",
+                    "imageDescription": "Shion de Áries, mestre de Mu"
+                },
+                {
+                    "text": "Dohko de Libra",
+                    "isCorrect": false,
+                    "explanation": "Dohko é mestre, mas só em Rozan. ⚖️"
+                },
+                {
+                    "text": "Aioros de Sagitário",
+                    "isCorrect": false,
+                    "explanation": "Aioros é mestre só no arco e flecha. 🏹"
+                },
+                {
+                    "text": "Shaka de Virgem",
+                    "isCorrect": false,
+                    "explanation": "Shaka é mestre na meditação. 🧘"
+                }
+            ]
+        },
+        {
+            "id": "35",
+            "question": "Qual Cavaleiro de Ouro é o guardião da Casa de Escorpião?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Milo",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Milo aplica agulhada até em formiga. 🦂",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/milo_scorpio.jpg",
+                    "imageDescription": "Milo de Escorpião pronto para atacar"
+                },
+                {
+                    "text": "Camus",
+                    "isCorrect": false,
+                    "explanation": "Camus é de Aquário, só fura gelo. ❄️"
+                },
+                {
+                    "text": "Aldebaran",
+                    "isCorrect": false,
+                    "explanation": "Aldebaran é de Touro, só fura rodízio. 🐂"
+                },
+                {
+                    "text": "Shura",
+                    "isCorrect": false,
+                    "explanation": "Shura é de Capricórnio, só fura armadura. 🗡️"
+                }
+            ]
+        },
+        {
+            "id": "36",
+            "question": "Qual Cavaleiro de Ouro é conhecido por sua ligação com a morte?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Máscara da Morte de Câncer",
+                    "isCorrect": true,
+                    "explanation": "Correto! Ele manda até as piadas pro outro mundo. ☠️",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/deathmask_cancer.jpg",
+                    "imageDescription": "Máscara da Morte de Câncer com armadura dourada"
+                },
+                {
+                    "text": "Aioria de Leão",
+                    "isCorrect": false,
+                    "explanation": "Aioria só mata no rugido. 🦁"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu só mata o tempo. 🐏"
+                },
+                {
+                    "text": "Camus de Aquário",
+                    "isCorrect": false,
+                    "explanation": "Camus só mata de frio. ❄️"
+                }
+            ]
+        },
+        {
+            "id": "37",
+            "question": "Qual Cavaleiro de Ouro é conhecido por sua ligação com flores venenosas?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Afrodite de Peixes",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Ele é letal até no jardim. 🌹",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/aphrodite_pisces.jpg",
+                    "imageDescription": "Afrodite de Peixes com rosas venenosas"
+                },
+                {
+                    "text": "Aioros de Sagitário",
+                    "isCorrect": false,
+                    "explanation": "Aioros só cultiva esperança. 🏹"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu só cultiva paciência. 🐏"
+                },
+                {
+                    "text": "Aldebaran de Touro",
+                    "isCorrect": false,
+                    "explanation": "Aldebaran só cultiva músculos. 🐂"
+                }
+            ]
+        },
+        {
+            "id": "38",
+            "question": "Qual Cavaleiro de Ouro é famoso por sua técnica Excalibur?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Shura de Capricórnio",
+                    "isCorrect": true,
+                    "explanation": "Correto! Shura corta até pão com Excalibur. 🗡️",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/shura_capricorn.jpg",
+                    "imageDescription": "Shura de Capricórnio usando Excalibur"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu só corta conversa fiada. 🐏"
+                },
+                {
+                    "text": "Dohko de Libra",
+                    "isCorrect": false,
+                    "explanation": "Dohko pesa as espadas, não corta. ⚖️"
+                },
+                {
+                    "text": "Aioria de Leão",
+                    "isCorrect": false,
+                    "explanation": "Aioria só corta o vento com soco. 🦁"
+                }
+            ]
+        },
+        {
+            "id": "39",
+            "question": "Qual Cavaleiro de Ouro é conhecido por sua ligação com o submundo?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Máscara da Morte de Câncer",
+                    "isCorrect": true,
+                    "explanation": "Correto! Ele faz turismo astral no Yomotsu Hirasaka. ☠️",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/deathmask_cancer.jpg",
+                    "imageDescription": "Máscara da Morte de Câncer no portal do submundo"
+                },
+                {
+                    "text": "Aioria de Leão",
+                    "isCorrect": false,
+                    "explanation": "Aioria só vai até o portão da casa. 🦁"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu só vai até Jamiel. 🐏"
+                },
+                {
+                    "text": "Aldebaran de Touro",
+                    "isCorrect": false,
+                    "explanation": "Aldebaran só vai até o rodízio. 🐂"
+                }
+            ]
+        },
+        {
+            "id": "40",
+            "question": "Qual Cavaleiro de Ouro é conhecido por sua ligação com o budismo?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Shaka de Virgem",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Shaka medita mais que monge em retiro. 🧘",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/shaka_virgo.jpg",
+                    "imageDescription": "Shaka de Virgem meditando"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu só medita para consertar armadura. 🐏"
+                },
+                {
+                    "text": "Dohko de Libra",
+                    "isCorrect": false,
+                    "explanation": "Dohko só medita para não dormir. ⚖️"
+                },
+                {
+                    "text": "Aioria de Leão",
+                    "isCorrect": false,
+                    "explanation": "Aioria só medita para não rugir. 🦁"
+                }
+            ]
+        },
+        {
+            "id": "41",
+            "question": "Qual é o nome do Cavaleiro de Prata que é mestre de Seiya?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Marin de Águia",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Marin é tão misteriosa que até o Seiya desconfia. 🦅",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/marin_eagle.jpg",
+                    "imageDescription": "Marin de Águia com armadura prateada"
+                },
+                {
+                    "text": "Shina de Cobra",
+                    "isCorrect": false,
+                    "explanation": "Shina é brava, mas não é a sensei do Seiya. 🐍"
+                },
+                {
+                    "text": "Algol de Perseu",
+                    "isCorrect": false,
+                    "explanation": "Algol petrifica, mas não ensina. 🗿"
+                },
+                {
+                    "text": "Docrates",
+                    "isCorrect": false,
+                    "explanation": "Docrates só ensina a apanhar bonito. 💪"
+                }
+            ]
+        },
+        {
+            "id": "42",
+            "question": "Qual Cavaleiro de Bronze é conhecido por sua ligação com correntes?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Shun de Andrômeda",
+                    "isCorrect": true,
+                    "explanation": "Correto! Shun faz até corrente de WhatsApp parecer fraca. ⛓️",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/shun_andromeda.jpg",
+                    "imageDescription": "Shun de Andrômeda com as correntes"
+                },
+                {
+                    "text": "Seiya de Pégaso",
+                    "isCorrect": false,
+                    "explanation": "Seiya prefere socos a correntes. 🌠"
+                },
+                {
+                    "text": "Hyoga de Cisne",
+                    "isCorrect": false,
+                    "explanation": "Hyoga só prende no gelo. ❄️"
+                },
+                {
+                    "text": "Ikki de Fênix",
+                    "isCorrect": false,
+                    "explanation": "Ikki só prende fogo! 🔥"
+                }
+            ]
+        },
+        {
+            "id": "43",
+            "question": "Qual Cavaleiro de Prata tem o escudo da Medusa?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Algol de Perseu",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Olhou, virou pedra. 🗿",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/algol_perseus.jpg",
+                    "imageDescription": "Algol de Perseu com o escudo da Medusa"
+                },
+                {
+                    "text": "Misty de Lagarto",
+                    "isCorrect": false,
+                    "explanation": "Misty prefere bronzeador a escudo. 🦎"
+                },
+                {
+                    "text": "Babel de Centauro",
+                    "isCorrect": false,
+                    "explanation": "Babel só lança fogo, não petrifica. 🔥"
+                },
+                {
+                    "text": "Asterion de Cães de Caça",
+                    "isCorrect": false,
+                    "explanation": "Asterion só lê mentes, não petrifica. 🐕"
+                }
+            ]
+        },
+        {
+            "id": "44",
+            "question": "Qual Cavaleiro de Prata é famoso por manipular o vento?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Misty de Lagarto",
+                    "isCorrect": true,
+                    "explanation": "Correto! Misty faz até ventania parecer brisa. 💨",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/misty_lizard.jpg",
+                    "imageDescription": "Misty de Lagarto manipulando o vento"
+                },
+                {
+                    "text": "Algol de Perseu",
+                    "isCorrect": false,
+                    "explanation": "Algol só manipula estátuas. 🗿"
+                },
+                {
+                    "text": "Daidalos de Cefeu",
+                    "isCorrect": false,
+                    "explanation": "Daidalos só manipula pupilos. 🧙"
+                },
+                {
+                    "text": "Moses de Baleia",
+                    "isCorrect": false,
+                    "explanation": "Moses só manipula ondas. 🐋"
+                }
+            ]
+        },
+        {
+            "id": "45",
+            "question": "Qual Cavaleiro de Prata é conhecido como 'O Espadachim Fantasma'?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Daidalos de Cefeu",
+                    "isCorrect": false,
+                    "explanation": "Daidalos é mestre, mas não é fantasma. 🧙"
+                },
+                {
+                    "text": "Shiva de Pavão",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Shiva faz espada aparecer até em pesadelo. 🗡️",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/shiva_peacock.jpg",
+                    "imageDescription": "Shiva de Pavão com espadas"
+                },
+                {
+                    "text": "Asterion de Cães de Caça",
+                    "isCorrect": false,
+                    "explanation": "Asterion só caça pensamentos. 🐕"
+                },
+                {
+                    "text": "Babel de Centauro",
+                    "isCorrect": false,
+                    "explanation": "Babel só lança fogo, não espadas. 🔥"
+                }
+            ]
+        },
+        {
+            "id": "46",
+            "question": "Qual Cavaleiro de Prata é mestre de Shun?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Daidalos de Cefeu",
+                    "isCorrect": true,
+                    "explanation": "Correto! Daidalos treinou o Shun para não chorar tanto. 🧙",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/daidalos_cepheus.jpg",
+                    "imageDescription": "Daidalos de Cefeu, mestre de Shun"
+                },
+                {
+                    "text": "Marin de Águia",
+                    "isCorrect": false,
+                    "explanation": "Marin é mestre do Seiya, não do Shun. 🦅"
+                },
+                {
+                    "text": "Shina de Cobra",
+                    "isCorrect": false,
+                    "explanation": "Shina só treina o Seiya... na porrada. 🐍"
+                },
+                {
+                    "text": "Algol de Perseu",
+                    "isCorrect": false,
+                    "explanation": "Algol só treina estátuas. 🗿"
+                }
+            ]
+        },
+        {
+            "id": "47",
+            "question": "Qual Cavaleiro de Prata é conhecido por lançar fogo?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Babel de Centauro",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Babel faz churrasco até em chuva. 🔥",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/babel_centaurus.jpg",
+                    "imageDescription": "Babel de Centauro lançando fogo"
+                },
+                {
+                    "text": "Moses de Baleia",
+                    "isCorrect": false,
+                    "explanation": "Moses só lança baleias. 🐋"
+                },
+                {
+                    "text": "Asterion de Cães de Caça",
+                    "isCorrect": false,
+                    "explanation": "Asterion só lança indiretas. 🐕"
+                },
+                {
+                    "text": "Algol de Perseu",
+                    "isCorrect": false,
+                    "explanation": "Algol só lança olhares petrificantes. 🗿"
+                }
+            ]
+        },
+        {
+            "id": "48",
+            "question": "Qual o nome do Cavaleiro de Prata que enfrenta Shun e Ikki no Coliseu?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Asterion de Cães de Caça",
+                    "isCorrect": false,
+                    "explanation": "Asterion só caça pensamentos, não luta no Coliseu. 🐕"
+                },
+                {
+                    "text": "Moses de Baleia",
+                    "isCorrect": true,
+                    "explanation": "Correto! Moses tenta afogar até o Coliseu. 🐋",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/moses_whale.jpg",
+                    "imageDescription": "Moses de Baleia em combate"
+                },
+                {
+                    "text": "Algol de Perseu",
+                    "isCorrect": false,
+                    "explanation": "Algol prefere petrificar plateia. 🗿"
+                },
+                {
+                    "text": "Marin de Águia",
+                    "isCorrect": false,
+                    "explanation": "Marin só assiste de longe. 🦅"
+                }
+            ]
+        },
+        {
+            "id": "49",
+            "question": "Qual Cavaleiro de Prata é famoso por ler mentes?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Asterion de Cães de Caça",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Asterion lê até pensamento de peixe. 🐕",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/asterion_hounds.jpg",
+                    "imageDescription": "Asterion de Cães de Caça usando telepatia"
+                },
+                {
+                    "text": "Misty de Lagarto",
+                    "isCorrect": false,
+                    "explanation": "Misty só lê rótulo de bronzeador. 🦎"
+                },
+                {
+                    "text": "Daidalos de Cefeu",
+                    "isCorrect": false,
+                    "explanation": "Daidalos só lê manual de armadura. 🧙"
+                },
+                {
+                    "text": "Shiva de Pavão",
+                    "isCorrect": false,
+                    "explanation": "Shiva só lê sinais de trânsito. 🗡️"
+                }
+            ]
+        },
+        {
+            "id": "50",
+            "question": "Qual Cavaleiro de Prata é conhecido por manipular ilusões?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Dio de Mosca",
+                    "isCorrect": true,
+                    "explanation": "Correto! Dio faz ilusão até de inseticida. 🪰",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/dio_fly.jpg",
+                    "imageDescription": "Dio de Mosca manipulando ilusões"
+                },
+                {
+                    "text": "Algol de Perseu",
+                    "isCorrect": false,
+                    "explanation": "Algol só ilude quem olha pra ele. 🗿"
+                },
+                {
+                    "text": "Babel de Centauro",
+                    "isCorrect": false,
+                    "explanation": "Babel só ilude churrasqueiro. 🔥"
+                },
+                {
+                    "text": "Misty de Lagarto",
+                    "isCorrect": false,
+                    "explanation": "Misty só ilude espelho. 🦎"
+                }
+            ]
+        },
+        {
+            "id": "51",
+            "question": "Qual Cavaleiro de Prata é derrotado por Seiya usando a Armadura de Ouro de Sagitário?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Phaeton de Unicórnio",
+                    "isCorrect": false,
+                    "explanation": "Phaeton é só figurante. 🦄"
+                },
+                {
+                    "text": "Jamian de Corvo",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Jamian voou longe com a flechada. 🦅",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/jamian_crow.jpg",
+                    "imageDescription": "Jamian de Corvo em batalha"
+                },
+                {
+                    "text": "Moses de Baleia",
+                    "isCorrect": false,
+                    "explanation": "Moses só nada, não voa. 🐋"
+                },
+                {
+                    "text": "Shiva de Pavão",
+                    "isCorrect": false,
+                    "explanation": "Shiva só dança, não voa. 🗡️"
+                }
+            ]
+        },
+        {
+            "id": "52",
+            "question": "Qual Cavaleiro de Prata é conhecido por manipular insetos?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Dio de Mosca",
+                    "isCorrect": true,
+                    "explanation": "Correto! Dio faz até mosca de fruta parecer perigosa. 🪰",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/dio_fly.jpg",
+                    "imageDescription": "Dio de Mosca cercado por insetos"
+                },
+                {
+                    "text": "Algol de Perseu",
+                    "isCorrect": false,
+                    "explanation": "Algol só manipula estátuas. 🗿"
+                },
+                {
+                    "text": "Misty de Lagarto",
+                    "isCorrect": false,
+                    "explanation": "Misty só manipula vento. 💨"
+                },
+                {
+                    "text": "Babel de Centauro",
+                    "isCorrect": false,
+                    "explanation": "Babel só manipula fogo. 🔥"
+                }
+            ]
+        },
+        {
+            "id": "53",
+            "question": "Qual Cavaleiro de Prata é derrotado por Hyoga na saga do Santuário?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Algol de Perseu",
+                    "isCorrect": false,
+                    "explanation": "Algol petrifica, mas não congela. 🗿"
+                },
+                {
+                    "text": "Babel de Centauro",
+                    "isCorrect": false,
+                    "explanation": "Babel só derrete gelo. 🔥"
+                },
+                {
+                    "text": "Misty de Lagarto",
+                    "isCorrect": true,
+                    "explanation": "Correto! Misty ficou gelado de tanto apanhar. ❄️",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/misty_lizard.jpg",
+                    "imageDescription": "Misty de Lagarto derrotado por Hyoga"
+                },
+                {
+                    "text": "Asterion de Cães de Caça",
+                    "isCorrect": false,
+                    "explanation": "Asterion só lê mentes, não congela. 🐕"
+                }
+            ]
+        },
+        {
+            "id": "54",
+            "question": "Qual Cavaleiro de Prata é derrotado por Shiryu usando o Escudo do Dragão?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Algol de Perseu",
+                    "isCorrect": true,
+                    "explanation": "Acertou! O escudo salvou geral dessa vez. 🛡️",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/algol_perseus.jpg",
+                    "imageDescription": "Algol de Perseu sendo derrotado por Shiryu"
+                },
+                {
+                    "text": "Moses de Baleia",
+                    "isCorrect": false,
+                    "explanation": "Moses só apanha do Ikki. 🐋"
+                },
+                {
+                    "text": "Babel de Centauro",
+                    "isCorrect": false,
+                    "explanation": "Babel só derrete gelo. 🔥"
+                },
+                {
+                    "text": "Shiva de Pavão",
+                    "isCorrect": false,
+                    "explanation": "Shiva só dança. 🗡️"
+                }
+            ]
+        },
+        {
+            "id": "55",
+            "question": "Qual Cavaleiro de Prata é derrotado por Shun usando a Nebulosa de Andrômeda?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Moses de Baleia",
+                    "isCorrect": true,
+                    "explanation": "Correto! Moses foi levado pela correnteza da nebulosa. 🐋",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/moses_whale.jpg",
+                    "imageDescription": "Moses de Baleia sendo derrotado por Shun"
+                },
+                {
+                    "text": "Algol de Perseu",
+                    "isCorrect": false,
+                    "explanation": "Algol só vira pedra, não nebulosa. 🗿"
+                },
+                {
+                    "text": "Babel de Centauro",
+                    "isCorrect": false,
+                    "explanation": "Babel só vira churrasco. 🔥"
+                },
+                {
+                    "text": "Misty de Lagarto",
+                    "isCorrect": false,
+                    "explanation": "Misty só vira poeira. 💨"
+                }
+            ]
+        },
+        {
+            "id": "56",
+            "question": "Qual Cavaleiro de Prata é derrotado por Ikki de Fênix na saga do Santuário?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Asterion de Cães de Caça",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Ikki queimou até os pensamentos do Asterion. 🔥",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/asterion_hounds.jpg",
+                    "imageDescription": "Asterion de Cães de Caça derrotado por Ikki"
+                },
+                {
+                    "text": "Moses de Baleia",
+                    "isCorrect": false,
+                    "explanation": "Moses só apanha do Shun. 🐋"
+                },
+                {
+                    "text": "Algol de Perseu",
+                    "isCorrect": false,
+                    "explanation": "Algol só apanha do Shiryu. 🗿"
+                },
+                {
+                    "text": "Babel de Centauro",
+                    "isCorrect": false,
+                    "explanation": "Babel só apanha do Hyoga. 🔥"
+                }
+            ]
+        },
+        {
+            "id": "57",
+            "question": "Qual Cavaleiro de Prata é derrotado por Seiya com ajuda da Armadura de Ouro?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Jamian de Corvo",
+                    "isCorrect": true,
+                    "explanation": "Correto! Jamian voou tão longe que nem GPS acha. 🦅",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/jamian_crow.jpg",
+                    "imageDescription": "Jamian de Corvo sendo derrotado por Seiya"
+                },
+                {
+                    "text": "Moses de Baleia",
+                    "isCorrect": false,
+                    "explanation": "Moses só nada, não voa. 🐋"
+                },
+                {
+                    "text": "Shiva de Pavão",
+                    "isCorrect": false,
+                    "explanation": "Shiva só dança, não voa. 🗡️"
+                },
+                {
+                    "text": "Babel de Centauro",
+                    "isCorrect": false,
+                    "explanation": "Babel só faz churrasco. 🔥"
+                }
+            ]
+        },
+        {
+            "id": "58",
+            "question": "Qual Cavaleiro de Prata é derrotado por Seiya e Marin juntos?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Phaeton de Unicórnio",
+                    "isCorrect": false,
+                    "explanation": "Phaeton só aparece pra encher linguiça. 🦄"
+                },
+                {
+                    "text": "Jamian de Corvo",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Jamian não esperava dupla sertaneja. 🦅",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/jamian_crow.jpg",
+                    "imageDescription": "Jamian de Corvo enfrentando Seiya e Marin"
+                },
+                {
+                    "text": "Algol de Perseu",
+                    "isCorrect": false,
+                    "explanation": "Algol só enfrenta estátua. 🗿"
+                },
+                {
+                    "text": "Misty de Lagarto",
+                    "isCorrect": false,
+                    "explanation": "Misty só enfrenta bronzeador. 🦎"
+                }
+            ]
+        },
+        {
+            "id": "59",
+            "question": "Qual Cavaleiro de Prata é derrotado por Hyoga usando o Pó de Diamante?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Babel de Centauro",
+                    "isCorrect": true,
+                    "explanation": "Correto! Babel virou churrasquinho congelado. ❄️",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/babel_centaurus.jpg",
+                    "imageDescription": "Babel de Centauro congelado por Hyoga"
+                },
+                {
+                    "text": "Moses de Baleia",
+                    "isCorrect": false,
+                    "explanation": "Moses só vira sushi. 🐋"
+                },
+                {
+                    "text": "Algol de Perseu",
+                    "isCorrect": false,
+                    "explanation": "Algol só vira pedra. 🗿"
+                },
+                {
+                    "text": "Asterion de Cães de Caça",
+                    "isCorrect": false,
+                    "explanation": "Asterion só vira pensamento. 🐕"
+                }
+            ]
+        },
+        {
+            "id": "60",
+            "question": "Qual Cavaleiro de Prata é derrotado por Shiryu usando a Última Chance do Dragão?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Algol de Perseu",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Algol virou pedra e depois poeira. 🗿",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/algol_perseus.jpg",
+                    "imageDescription": "Algol de Perseu enfrentando Shiryu"
+                },
+                {
+                    "text": "Moses de Baleia",
+                    "isCorrect": false,
+                    "explanation": "Moses só vira sushi. 🐋"
+                },
+                {
+                    "text": "Babel de Centauro",
+                    "isCorrect": false,
+                    "explanation": "Babel só vira churrasco. 🔥"
+                },
+                {
+                    "text": "Shiva de Pavão",
+                    "isCorrect": false,
+                    "explanation": "Shiva só vira dança. 🗡️"
+                }
+            ]
+        },
+        {
+            "id": "61",
+            "question": "Qual Cavaleiro de Prata é derrotado por Shun usando a Tempestade Nebulosa?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Moses de Baleia",
+                    "isCorrect": true,
+                    "explanation": "Correto! Moses foi levado pelo vento da nebulosa. 🐋",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/moses_whale.jpg",
+                    "imageDescription": "Moses de Baleia sendo derrotado por Shun"
+                },
+                {
+                    "text": "Algol de Perseu",
+                    "isCorrect": false,
+                    "explanation": "Algol só vira pedra. 🗿"
+                },
+                {
+                    "text": "Babel de Centauro",
+                    "isCorrect": false,
+                    "explanation": "Babel só vira churrasco. 🔥"
+                },
+                {
+                    "text": "Misty de Lagarto",
+                    "isCorrect": false,
+                    "explanation": "Misty só vira poeira. 💨"
+                }
+            ]
+        },
+        {
+            "id": "62",
+            "question": "Qual Cavaleiro de Prata é derrotado por Ikki usando as Chamas do Fênix?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Asterion de Cães de Caça",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Ikki queimou até o pensamento do Asterion. 🔥",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/asterion_hounds.jpg",
+                    "imageDescription": "Asterion de Cães de Caça enfrentando Ikki"
+                },
+                {
+                    "text": "Moses de Baleia",
+                    "isCorrect": false,
+                    "explanation": "Moses só vira sushi. 🐋"
+                },
+                {
+                    "text": "Algol de Perseu",
+                    "isCorrect": false,
+                    "explanation": "Algol só vira pedra. 🗿"
+                },
+                {
+                    "text": "Babel de Centauro",
+                    "isCorrect": false,
+                    "explanation": "Babel só vira churrasco. 🔥"
+                }
+            ]
+        },
+        {
+            "id": "63",
+            "question": "Qual Cavaleiro de Prata é derrotado por Seiya na luta final do Torneio Galáctico?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Jabu de Unicórnio",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Jabu só ganhou mesmo na abertura. 🦄",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/jabu_unicorn.jpg",
+                    "imageDescription": "Jabu de Unicórnio enfrentando Seiya"
+                },
+                {
+                    "text": "Ban de Leão Menor",
+                    "isCorrect": false,
+                    "explanation": "Ban só ganha em força, não em vitória. 🦁"
+                },
+                {
+                    "text": "Nachi de Lobo",
+                    "isCorrect": false,
+                    "explanation": "Nachi só uiva. 🐺"
+                },
+                {
+                    "text": "Ichi de Hidra",
+                    "isCorrect": false,
+                    "explanation": "Ichi só regenera. 🐍"
+                }
+            ]
+        },
+        {
+            "id": "64",
+            "question": "Qual Cavaleiro de Prata é derrotado por Hyoga no Torneio Galáctico?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Ichi de Hidra",
+                    "isCorrect": true,
+                    "explanation": "Correto! Ichi ficou congelado até o próximo torneio. 🐍",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/ichi_hydra.jpg",
+                    "imageDescription": "Ichi de Hidra enfrentando Hyoga"
+                },
+                {
+                    "text": "Ban de Leão Menor",
+                    "isCorrect": false,
+                    "explanation": "Ban só ganha em força, não em vitória. 🦁"
+                },
+                {
+                    "text": "Nachi de Lobo",
+                    "isCorrect": false,
+                    "explanation": "Nachi só uiva. 🐺"
+                },
+                {
+                    "text": "Jabu de Unicórnio",
+                    "isCorrect": false,
+                    "explanation": "Jabu só ganha na abertura. 🦄"
+                }
+            ]
+        },
+        {
+            "id": "65",
+            "question": "Qual Cavaleiro de Prata é derrotado por Shiryu no Torneio Galáctico?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Ban de Leão Menor",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Ban só ganhou músculos. 🦁",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/ban_lionet.jpg",
+                    "imageDescription": "Ban de Leão Menor enfrentando Shiryu"
+                },
+                {
+                    "text": "Ichi de Hidra",
+                    "isCorrect": false,
+                    "explanation": "Ichi só regenera, não vence. 🐍"
+                },
+                {
+                    "text": "Nachi de Lobo",
+                    "isCorrect": false,
+                    "explanation": "Nachi só uiva. 🐺"
+                },
+                {
+                    "text": "Jabu de Unicórnio",
+                    "isCorrect": false,
+                    "explanation": "Jabu só ganha na abertura. 🦄"
+                }
+            ]
+        },
+        {
+            "id": "66",
+            "question": "Qual Cavaleiro de Prata é derrotado por Shun no Torneio Galáctico?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Nachi de Lobo",
+                    "isCorrect": true,
+                    "explanation": "Correto! Nachi só uivou de dor. 🐺",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/nachi_wolf.jpg",
+                    "imageDescription": "Nachi de Lobo enfrentando Shun"
+                },
+                {
+                    "text": "Ban de Leão Menor",
+                    "isCorrect": false,
+                    "explanation": "Ban só ganha em força, não em vitória. 🦁"
+                },
+                {
+                    "text": "Ichi de Hidra",
+                    "isCorrect": false,
+                    "explanation": "Ichi só regenera. 🐍"
+                },
+                {
+                    "text": "Jabu de Unicórnio",
+                    "isCorrect": false,
+                    "explanation": "Jabu só ganha na abertura. 🦄"
+                }
+            ]
+        },
+        {
+            "id": "67",
+            "question": "Qual Cavaleiro de Bronze é considerado o mais sensível?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Shun de Andrômeda",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Shun chora até em comercial de margarina. ⛓️",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/shun_andromeda.jpg",
+                    "imageDescription": "Shun de Andrômeda emocionado"
+                },
+                {
+                    "text": "Ikki de Fênix",
+                    "isCorrect": false,
+                    "explanation": "Ikki só sente raiva. 🔥"
+                },
+                {
+                    "text": "Hyoga de Cisne",
+                    "isCorrect": false,
+                    "explanation": "Hyoga só sente frio. ❄️"
+                },
+                {
+                    "text": "Seiya de Pégaso",
+                    "isCorrect": false,
+                    "explanation": "Seiya só sente vontade de lutar. 🌠"
+                }
+            ]
+        },
+        {
+            "id": "68",
+            "question": "Qual Cavaleiro de Bronze é o mais explosivo?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Ikki de Fênix",
+                    "isCorrect": true,
+                    "explanation": "Correto! Ikki explode até a paciência do vilão. 🔥",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/ikki_phoenix.jpg",
+                    "imageDescription": "Ikki de Fênix em chamas"
+                },
+                {
+                    "text": "Shun de Andrômeda",
+                    "isCorrect": false,
+                    "explanation": "Shun só explode de emoção. ⛓️"
+                },
+                {
+                    "text": "Hyoga de Cisne",
+                    "isCorrect": false,
+                    "explanation": "Hyoga só explode gelo. ❄️"
+                },
+                {
+                    "text": "Seiya de Pégaso",
+                    "isCorrect": false,
+                    "explanation": "Seiya só explode meteoros. 🌠"
+                }
+            ]
+        },
+        {
+            "id": "69",
+            "question": "Qual Cavaleiro de Bronze é o mais racional?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Hyoga de Cisne",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Hyoga pensa antes de congelar. ❄️",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/hyoga_cygnus.jpg",
+                    "imageDescription": "Hyoga de Cisne pensativo"
+                },
+                {
+                    "text": "Shun de Andrômeda",
+                    "isCorrect": false,
+                    "explanation": "Shun só pensa em salvar o Ikki. ⛓️"
+                },
+                {
+                    "text": "Ikki de Fênix",
+                    "isCorrect": false,
+                    "explanation": "Ikki só pensa em lutar. 🔥"
+                },
+                {
+                    "text": "Seiya de Pégaso",
+                    "isCorrect": false,
+                    "explanation": "Seiya só pensa em Saori. 🌠"
+                }
+            ]
+        },
+        {
+            "id": "70",
+            "question": "Qual Cavaleiro de Bronze é o líder do grupo?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Seiya de Pégaso",
+                    "isCorrect": true,
+                    "explanation": "Correto! Seiya lidera até fila de banco. 🌠",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/seiya_pegasus.jpg",
+                    "imageDescription": "Seiya de Pégaso liderando o grupo"
+                },
+                {
+                    "text": "Shun de Andrômeda",
+                    "isCorrect": false,
+                    "explanation": "Shun só lidera torcida organizada. ⛓️"
+                },
+                {
+                    "text": "Hyoga de Cisne",
+                    "isCorrect": false,
+                    "explanation": "Hyoga só lidera patinação no gelo. ❄️"
+                },
+                {
+                    "text": "Ikki de Fênix",
+                    "isCorrect": false,
+                    "explanation": "Ikki só lidera rebelião. 🔥"
+                }
+            ]
+        },
+        {
+            "id": "71",
+            "question": "Qual Cavaleiro de Ouro é o guardião da Casa de Áries?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Mu",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Mu é o mestre das armaduras e da paciência. 🐏",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/mu_aries.jpg",
+                    "imageDescription": "Mu de Áries com armadura dourada"
+                },
+                {
+                    "text": "Aldebaran",
+                    "isCorrect": false,
+                    "explanation": "Aldebaran é de Touro, não de Áries! 🐂"
+                },
+                {
+                    "text": "Shion",
+                    "isCorrect": false,
+                    "explanation": "Shion já foi, mas agora só no flashback. 👴"
+                },
+                {
+                    "text": "Dohko",
+                    "isCorrect": false,
+                    "explanation": "Dohko só guarda segredo em Rozan. ⚖️"
+                }
+            ]
+        },
+        {
+            "id": "72",
+            "question": "Qual Cavaleiro de Ouro é famoso por consertar armaduras?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": true,
+                    "explanation": "Correto! Mu é o mecânico oficial do Santuário. 🛠️",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/mu_aries.jpg",
+                    "imageDescription": "Mu de Áries consertando uma armadura"
+                },
+                {
+                    "text": "Shaka de Virgem",
+                    "isCorrect": false,
+                    "explanation": "Shaka prefere consertar o karma. 🧘"
+                },
+                {
+                    "text": "Aioria de Leão",
+                    "isCorrect": false,
+                    "explanation": "Aioria só conserta brigas. 🦁"
+                },
+                {
+                    "text": "Milo de Escorpião",
+                    "isCorrect": false,
+                    "explanation": "Milo só conserta agulha. 🦂"
+                }
+            ]
+        },
+        {
+            "id": "73",
+            "question": "Qual Cavaleiro de Ouro é conhecido como o 'Cavaleiro do Fogo'?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Aioria de Leão",
+                    "isCorrect": false,
+                    "explanation": "Aioria é quente, mas não é o do fogo. 🦁"
+                },
+                {
+                    "text": "Milo de Escorpião",
+                    "isCorrect": false,
+                    "explanation": "Milo só esquenta a agulha. 🦂"
+                },
+                {
+                    "text": "Shura de Capricórnio",
+                    "isCorrect": false,
+                    "explanation": "Shura só esquenta a Excalibur. 🗡️"
+                },
+                {
+                    "text": "Regulus de Leão (Lost Canvas)",
+                    "isCorrect": true,
+                    "explanation": "Correto! Regulus é o verdadeiro Cavaleiro do Fogo! 🔥",
+                    "imageUrl": "https://static.wikia.nocookie.net/saintseiya/images/1/1d/Regulus_de_Le%C3%A3o.jpg",
+                    "imageDescription": "Regulus de Leão com aura flamejante"
+                }
+            ]
+        },
+        {
+            "id": "74",
+            "question": "Qual Cavaleiro de Ouro é conhecido por sua ligação com o tempo?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Kardia de Escorpião",
+                    "isCorrect": false,
+                    "explanation": "Kardia só liga para o próprio coração. 🦂"
+                },
+                {
+                    "text": "Shion de Áries",
+                    "isCorrect": false,
+                    "explanation": "Shion só liga para armaduras. 🐏"
+                },
+                {
+                    "text": "Khronos de Cronos (Next Dimension)",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Khronos é o senhor do tempo, literalmente. ⏳",
+                    "imageUrl": "https://static.wikia.nocookie.net/saintseiya/images/7/7e/Cronos_ND.jpg",
+                    "imageDescription": "Khronos/Cronos em Next Dimension"
+                },
+                {
+                    "text": "Dohko de Libra",
+                    "isCorrect": false,
+                    "explanation": "Dohko só liga para a balança do tempo. ⚖️"
+                }
+            ]
+        },
+        {
+            "id": "75",
+            "question": "Qual Cavaleiro de Ouro é o mais jovem no início da saga clássica?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu é jovem de espírito, mas não de idade. 🐏"
+                },
+                {
+                    "text": "Milo de Escorpião",
+                    "isCorrect": false,
+                    "explanation": "Milo é jovem, mas não o mais novo. 🦂"
+                },
+                {
+                    "text": "Aioria de Leão",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Aioria é o novato dourado do Santuário. 🦁",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/aiolia_leo.jpg",
+                    "imageDescription": "Aioria de Leão, o mais jovem dos dourados"
+                },
+                {
+                    "text": "Aldebaran de Touro",
+                    "isCorrect": false,
+                    "explanation": "Aldebaran é jovem só no apetite. 🐂"
+                }
+            ]
+        },
+        {
+            "id": "76",
+            "question": "Qual Cavaleiro de Ouro é o mais velho?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Dohko de Libra",
+                    "isCorrect": true,
+                    "explanation": "Correto! Dohko tem mais rugas que armaduras. ⚖️",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/dohko_libra.jpg",
+                    "imageDescription": "Dohko de Libra, o Mestre Ancião"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu é velho só na paciência. 🐏"
+                },
+                {
+                    "text": "Aioria de Leão",
+                    "isCorrect": false,
+                    "explanation": "Aioria é jovem e impetuoso. 🦁"
+                },
+                {
+                    "text": "Camus de Aquário",
+                    "isCorrect": false,
+                    "explanation": "Camus é frio, mas não velho. ❄️"
+                }
+            ]
+        },
+        {
+            "id": "77",
+            "question": "Qual Cavaleiro de Ouro é o mestre de Mu?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Shion de Áries",
+                    "isCorrect": true,
+                    "explanation": "Correto! Shion passou o manual de armaduras para Mu. 🐏",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/shion_aries.jpg",
+                    "imageDescription": "Shion de Áries, mestre de Mu"
+                },
+                {
+                    "text": "Dohko de Libra",
+                    "isCorrect": false,
+                    "explanation": "Dohko é mestre, mas só em Rozan. ⚖️"
+                },
+                {
+                    "text": "Aioros de Sagitário",
+                    "isCorrect": false,
+                    "explanation": "Aioros é mestre só no arco e flecha. 🏹"
+                },
+                {
+                    "text": "Shaka de Virgem",
+                    "isCorrect": false,
+                    "explanation": "Shaka é mestre na meditação. 🧘"
+                }
+            ]
+        },
+        {
+            "id": "78",
+            "question": "Qual Cavaleiro de Ouro é conhecido por sua ligação com o submundo?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Máscara da Morte de Câncer",
+                    "isCorrect": true,
+                    "explanation": "Correto! Ele faz turismo astral no Yomotsu Hirasaka. ☠️",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/deathmask_cancer.jpg",
+                    "imageDescription": "Máscara da Morte de Câncer no portal do submundo"
+                },
+                {
+                    "text": "Aioria de Leão",
+                    "isCorrect": false,
+                    "explanation": "Aioria só vai até o portão da casa. 🦁"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu só vai até Jamiel. 🐏"
+                },
+                {
+                    "text": "Aldebaran de Touro",
+                    "isCorrect": false,
+                    "explanation": "Aldebaran só vai até o rodízio. 🐂"
+                }
+            ]
+        },
+        {
+            "id": "79",
+            "question": "Qual Cavaleiro de Ouro é conhecido por sua ligação com flores venenosas?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Afrodite de Peixes",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Ele é letal até no jardim. 🌹",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/aphrodite_pisces.jpg",
+                    "imageDescription": "Afrodite de Peixes com rosas venenosas"
+                },
+                {
+                    "text": "Aioros de Sagitário",
+                    "isCorrect": false,
+                    "explanation": "Aioros só cultiva esperança. 🏹"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu só cultiva paciência. 🐏"
+                },
+                {
+                    "text": "Aldebaran de Touro",
+                    "isCorrect": false,
+                    "explanation": "Aldebaran só cultiva músculos. 🐂"
+                }
+            ]
+        },
+        {
+            "id": "80",
+            "question": "Qual Cavaleiro de Ouro é famoso por sua técnica Excalibur?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Shura de Capricórnio",
+                    "isCorrect": true,
+                    "explanation": "Correto! Shura corta até pão com Excalibur. 🗡️",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/shura_capricorn.jpg",
+                    "imageDescription": "Shura de Capricórnio usando Excalibur"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu só corta conversa fiada. 🐏"
+                },
+                {
+                    "text": "Dohko de Libra",
+                    "isCorrect": false,
+                    "explanation": "Dohko pesa as espadas, não corta. ⚖️"
+                },
+                {
+                    "text": "Aioria de Leão",
+                    "isCorrect": false,
+                    "explanation": "Aioria só corta o vento com soco. 🦁"
+                }
+            ]
+        },
+        {
+            "id": "81",
+            "question": "Qual Cavaleiro de Ouro é conhecido por sua ligação com o budismo?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Shaka de Virgem",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Shaka medita mais que monge em retiro. 🧘",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/shaka_virgo.jpg",
+                    "imageDescription": "Shaka de Virgem meditando"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu só medita para consertar armadura. 🐏"
+                },
+                {
+                    "text": "Dohko de Libra",
+                    "isCorrect": false,
+                    "explanation": "Dohko só medita para não dormir. ⚖️"
+                },
+                {
+                    "text": "Aioria de Leão",
+                    "isCorrect": false,
+                    "explanation": "Aioria só medita para não rugir. 🦁"
+                }
+            ]
+        },
+        {
+            "id": "82",
+            "question": "Qual Cavaleiro de Ouro é o guardião da Casa de Sagitário?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Aioros",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Aioros é o arqueiro dourado do Santuário. 🏹",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/aiolos_sagittarius.jpg",
+                    "imageDescription": "Aioros de Sagitário com armadura dourada"
+                },
+                {
+                    "text": "Milo",
+                    "isCorrect": false,
+                    "explanation": "Milo é de Escorpião! 🦂"
+                },
+                {
+                    "text": "Shura",
+                    "isCorrect": false,
+                    "explanation": "Shura é de Capricórnio! 🗡️"
+                },
+                {
+                    "text": "Camus",
+                    "isCorrect": false,
+                    "explanation": "Camus é de Aquário! ❄️"
+                }
+            ]
+        },
+        {
+            "id": "83",
+            "question": "Qual Cavaleiro de Ouro é conhecido por sua justiça e equilíbrio?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Dohko de Libra",
+                    "isCorrect": true,
+                    "explanation": "Correto! Dohko pesa até a pipoca antes de comer. ⚖️",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/dohko_libra.jpg",
+                    "imageDescription": "Dohko de Libra com balança"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu é justo, mas só com armaduras. 🐏"
+                },
+                {
+                    "text": "Camus de Aquário",
+                    "isCorrect": false,
+                    "explanation": "Camus é frio até na justiça. ❄️"
+                },
+                {
+                    "text": "Shaka de Virgem",
+                    "isCorrect": false,
+                    "explanation": "Shaka prefere meditar sobre justiça. 🧘"
+                }
+            ]
+        },
+        {
+            "id": "84",
+            "question": "Qual Cavaleiro de Ouro é conhecido por sua frieza?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Camus de Aquário",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Camus congela até piada ruim. ❄️",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/camus_aquarius.jpg",
+                    "imageDescription": "Camus de Aquário lançando Aurora Execution"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu só é frio quando a conta de luz atrasa. 🐏"
+                },
+                {
+                    "text": "Dohko de Libra",
+                    "isCorrect": false,
+                    "explanation": "Dohko é quente igual chá de avô. ⚖️"
+                },
+                {
+                    "text": "Aioria de Leão",
+                    "isCorrect": false,
+                    "explanation": "Aioria é quente como o sol! 🦁"
+                }
+            ]
+        },
+        {
+            "id": "85",
+            "question": "Qual Cavaleiro de Ouro é conhecido por sua ligação com rosas demoníacas?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Afrodite de Peixes",
+                    "isCorrect": true,
+                    "explanation": "Correto! Afrodite é o jardineiro mais perigoso do Santuário. 🌹",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/aphrodite_pisces.jpg",
+                    "imageDescription": "Afrodite de Peixes com rosas demoníacas"
+                },
+                {
+                    "text": "Aioria de Leão",
+                    "isCorrect": false,
+                    "explanation": "Aioria só cultiva coragem. 🦁"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu só cultiva paciência. 🐏"
+                },
+                {
+                    "text": "Dohko de Libra",
+                    "isCorrect": false,
+                    "explanation": "Dohko só cultiva sabedoria. ⚖️"
+                }
+            ]
+        },
+        {
+            "id": "86",
+            "question": "Qual Cavaleiro de Ouro é conhecido por sua ligação com o gelo?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Camus de Aquário",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Camus congela até a internet. ❄️",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/camus_aquarius.jpg",
+                    "imageDescription": "Camus de Aquário em ataque congelante"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu só congela a conversa. 🐏"
+                },
+                {
+                    "text": "Dohko de Libra",
+                    "isCorrect": false,
+                    "explanation": "Dohko só congela a balança. ⚖️"
+                },
+                {
+                    "text": "Aioria de Leão",
+                    "isCorrect": false,
+                    "explanation": "Aioria só congela o vilão de medo. 🦁"
+                }
+            ]
+        },
+        {
+            "id": "87",
+            "question": "Qual Cavaleiro de Ouro é conhecido por sua ligação com o cosmos?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Shaka de Virgem",
+                    "isCorrect": true,
+                    "explanation": "Correto! Shaka sente o cosmos até de olhos fechados. 🌌",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/shaka_virgo.jpg",
+                    "imageDescription": "Shaka de Virgem em meditação cósmica"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu só sente o cosmos das armaduras. 🐏"
+                },
+                {
+                    "text": "Dohko de Libra",
+                    "isCorrect": false,
+                    "explanation": "Dohko só sente o cosmos da balança. ⚖️"
+                },
+                {
+                    "text": "Aioria de Leão",
+                    "isCorrect": false,
+                    "explanation": "Aioria só sente o cosmos da coragem. 🦁"
+                }
+            ]
+        },
+        {
+            "id": "88",
+            "question": "Qual Cavaleiro de Ouro é conhecido por sua ligação com a luz?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Aiolia de Leão",
+                    "isCorrect": true,
+                    "explanation": "Correto! Aiolia brilha mais que farol alto. ✨",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/aiolia_leo.jpg",
+                    "imageDescription": "Aiolia de Leão emitindo luz"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu só ilumina a oficina. 🐏"
+                },
+                {
+                    "text": "Dohko de Libra",
+                    "isCorrect": false,
+                    "explanation": "Dohko só ilumina a sabedoria. ⚖️"
+                },
+                {
+                    "text": "Camus de Aquário",
+                    "isCorrect": false,
+                    "explanation": "Camus só ilumina a geladeira. ❄️"
+                }
+            ]
+        },
+        {
+            "id": "89",
+            "question": "Qual Cavaleiro de Ouro é conhecido por sua ligação com a justiça divina?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Shaka de Virgem",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Shaka julga até com os olhos fechados. ⚖️",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/shaka_virgo.jpg",
+                    "imageDescription": "Shaka de Virgem em julgamento divino"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu só julga armadura. 🐏"
+                },
+                {
+                    "text": "Dohko de Libra",
+                    "isCorrect": false,
+                    "explanation": "Dohko só julga pipoca. ⚖️"
+                },
+                {
+                    "text": "Aioria de Leão",
+                    "isCorrect": false,
+                    "explanation": "Aioria só julga vilão. 🦁"
+                }
+            ]
+        },
+        {
+            "id": "90",
+            "question": "Qual Cavaleiro de Ouro é conhecido por sua ligação com o relâmpago?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Aiolia de Leão",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Aiolia solta raio até em dia de sol. ⚡",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/aiolia_leo.jpg",
+                    "imageDescription": "Aiolia de Leão usando Relâmpago de Plasma"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu só relampeja no olhar. 🐏"
+                },
+                {
+                    "text": "Dohko de Libra",
+                    "isCorrect": false,
+                    "explanation": "Dohko só relampeja na balança. ⚖️"
+                },
+                {
+                    "text": "Camus de Aquário",
+                    "isCorrect": false,
+                    "explanation": "Camus só relampeja no gelo. ❄️"
+                }
+            ]
+        },
+        {
+            "id": "91",
+            "question": "Qual Cavaleiro de Ouro é conhecido por sua ligação com o veneno?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Afrodite de Peixes",
+                    "isCorrect": true,
+                    "explanation": "Correto! Afrodite é venenoso até no olhar. 🌹",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/aphrodite_pisces.jpg",
+                    "imageDescription": "Afrodite de Peixes com rosas venenosas"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu só é venenoso com quem atrasa armadura. 🐏"
+                },
+                {
+                    "text": "Aioria de Leão",
+                    "isCorrect": false,
+                    "explanation": "Aioria só é venenoso no rugido. 🦁"
+                },
+                {
+                    "text": "Dohko de Libra",
+                    "isCorrect": false,
+                    "explanation": "Dohko só é venenoso no chá. ⚖️"
+                }
+            ]
+        },
+        {
+            "id": "92",
+            "question": "Qual Cavaleiro de Ouro é conhecido por sua ligação com o sacrifício?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Aioros de Sagitário",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Aioros se sacrificou por Athena e pelo roteiro. 🏹",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/aiolos_sagittarius.jpg",
+                    "imageDescription": "Aioros de Sagitário em sacrifício"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu só se sacrifica por armadura. 🐏"
+                },
+                {
+                    "text": "Dohko de Libra",
+                    "isCorrect": false,
+                    "explanation": "Dohko só se sacrifica por chá. ⚖️"
+                },
+                {
+                    "text": "Camus de Aquário",
+                    "isCorrect": false,
+                    "explanation": "Camus só se sacrifica no gelo. ❄️"
+                }
+            ]
+        },
+        {
+            "id": "93",
+            "question": "Qual Cavaleiro de Ouro é conhecido por sua ligação com o orgulho?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Aldebaran de Touro",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Aldebaran tem orgulho até do bigode. 🐂",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/aldebaran_taurus.jpg",
+                    "imageDescription": "Aldebaran de Touro orgulhoso"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu só tem orgulho da oficina. 🐏"
+                },
+                {
+                    "text": "Dohko de Libra",
+                    "isCorrect": false,
+                    "explanation": "Dohko só tem orgulho da balança. ⚖️"
+                },
+                {
+                    "text": "Aioria de Leão",
+                    "isCorrect": false,
+                    "explanation": "Aioria só tem orgulho do irmão. 🦁"
+                }
+            ]
+        },
+        {
+            "id": "94",
+            "question": "Qual Cavaleiro de Ouro é conhecido por sua ligação com o perdão?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Shaka de Virgem",
+                    "isCorrect": true,
+                    "explanation": "Correto! Shaka perdoa até quem não merece. 🧘",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/shaka_virgo.jpg",
+                    "imageDescription": "Shaka de Virgem demonstrando perdão"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu só perdoa atraso na armadura. 🐏"
+                },
+                {
+                    "text": "Dohko de Libra",
+                    "isCorrect": false,
+                    "explanation": "Dohko só perdoa chá derramado. ⚖️"
+                },
+                {
+                    "text": "Aioria de Leão",
+                    "isCorrect": false,
+                    "explanation": "Aioria só perdoa quem não mexe com o irmão. 🦁"
+                }
+            ]
+        },
+        {
+            "id": "95",
+            "question": "Qual Cavaleiro de Ouro é conhecido por sua ligação com o destino?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Saga de Gêmeos",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Saga vive brigando com o próprio destino. 👥",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/saga_gemini.jpg",
+                    "imageDescription": "Saga de Gêmeos encarando o destino"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu só acredita no destino das armaduras. 🐏"
+                },
+                {
+                    "text": "Dohko de Libra",
+                    "isCorrect": false,
+                    "explanation": "Dohko só acredita no destino do chá. ⚖️"
+                },
+                {
+                    "text": "Aioria de Leão",
+                    "isCorrect": false,
+                    "explanation": "Aioria só acredita no destino do irmão. 🦁"
+                }
+            ]
+        },
+        {
+            "id": "96",
+            "question": "Qual Cavaleiro de Ouro é conhecido por sua ligação com a reencarnação?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Shion de Áries",
+                    "isCorrect": true,
+                    "explanation": "Correto! Shion já voltou mais vezes que reprise de novela. 🐏",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/shion_aries.jpg",
+                    "imageDescription": "Shion de Áries reencarnado"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu só reencarna armadura. 🐏"
+                },
+                {
+                    "text": "Dohko de Libra",
+                    "isCorrect": false,
+                    "explanation": "Dohko só reencarna chá. ⚖️"
+                },
+                {
+                    "text": "Aioria de Leão",
+                    "isCorrect": false,
+                    "explanation": "Aioria só reencarna coragem. 🦁"
+                }
+            ]
+        },
+        {
+            "id": "97",
+            "question": "Qual Cavaleiro de Ouro é conhecido por sua ligação com o renascimento?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Shaka de Virgem",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Shaka renasce até no final da luta. 🧘",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/shaka_virgo.jpg",
+                    "imageDescription": "Shaka de Virgem renascendo"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu só renasce armadura. 🐏"
+                },
+                {
+                    "text": "Dohko de Libra",
+                    "isCorrect": false,
+                    "explanation": "Dohko só renasce chá. ⚖️"
+                },
+                {
+                    "text": "Aioria de Leão",
+                    "isCorrect": false,
+                    "explanation": "Aioria só renasce esperança. 🦁"
+                }
+            ]
+        },
+        {
+            "id": "98",
+            "question": "Qual Cavaleiro de Ouro é conhecido por sua ligação com o amor?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Afrodite de Peixes",
+                    "isCorrect": true,
+                    "explanation": "Correto! Afrodite ama até as próprias rosas. 🌹",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/aphrodite_pisces.jpg",
+                    "imageDescription": "Afrodite de Peixes cercado de rosas"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu só ama armadura. 🐏"
+                },
+                {
+                    "text": "Dohko de Libra",
+                    "isCorrect": false,
+                    "explanation": "Dohko só ama chá. ⚖️"
+                },
+                {
+                    "text": "Aioria de Leão",
+                    "isCorrect": false,
+                    "explanation": "Aioria só ama o irmão. 🦁"
+                }
+            ]
+        },
+        {
+            "id": "99",
+            "question": "Qual Cavaleiro de Ouro é conhecido por sua ligação com o sacrifício pelo bem maior?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Aioros de Sagitário",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Aioros é o mártir dourado do Santuário. 🏹",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/aiolos_sagittarius.jpg",
+                    "imageDescription": "Aioros de Sagitário em sacrifício"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu só se sacrifica por armadura. 🐏"
+                },
+                {
+                    "text": "Dohko de Libra",
+                    "isCorrect": false,
+                    "explanation": "Dohko só se sacrifica por chá. ⚖️"
+                },
+                {
+                    "text": "Camus de Aquário",
+                    "isCorrect": false,
+                    "explanation": "Camus só se sacrifica no gelo. ❄️"
+                }
+            ]
+        },
+        {
+            "id": "100",
+            "question": "Qual Cavaleiro de Ouro é conhecido por sua ligação com o perdão universal?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Shaka de Virgem",
+                    "isCorrect": true,
+                    "explanation": "Correto! Shaka perdoa até o roteirista. 🧘",
+                    "imageUrl": "https://www.saintseiya-anime.com/en/history/images/shaka_virgo.jpg",
+                    "imageDescription": "Shaka de Virgem perdoando"
+                },
+                {
+                    "text": "Mu de Áries",
+                    "isCorrect": false,
+                    "explanation": "Mu só perdoa atraso na armadura. 🐏"
+                },
+                {
+                    "text": "Dohko de Libra",
+                    "isCorrect": false,
+                    "explanation": "Dohko só perdoa chá derramado. ⚖️"
+                },
+                {
+                    "text": "Aioria de Leão",
+                    "isCorrect": false,
+                    "explanation": "Aioria só perdoa quem não mexe com o irmão. 🦁"
+                }
+            ]
+        }
+    ]
+}

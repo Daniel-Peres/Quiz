@@ -1,0 +1,2909 @@
+{
+    "config": {
+        "theme": "Tecnologia Militar - Força Aérea",
+        "totalPoints": 1000,
+        "scoring": "points"
+    },
+    "data": [
+        {
+            "id": "01",
+            "question": "Qual foi a principal função dos primeiros aviões militares durante a Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Transporte de tropas para o campo de batalha.",
+                    "isCorrect": false,
+                    "explanation": "Imagina só: avião lotado de soldados e sem ar-condicionado! Mas não, o transporte de tropas veio depois.\nNa Primeira Guerra, os aviões tinham outro papel mais espião."
+                },
+                {
+                    "text": "Reconhecimento e observação do inimigo.",
+                    "isCorrect": true,
+                    "explanation": "A função inicial era espiar o inimigo do alto,\ncomo um pombo-correio high-tech.\nSó depois vieram as metralhadoras e as acrobacias de combate.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Farman_MF.11_Shablinskaya.jpg",
+                    "imageDescription": "Avião de reconhecimento Farman MF.11 usado na Primeira Guerra Mundial."
+                },
+                {
+                    "text": "Bombardeio estratégico de cidades.",
+                    "isCorrect": false,
+                    "explanation": "Bombardear cidades virou moda mais tarde.\nNo início, o foco era descobrir onde o inimigo estava escondido."
+                },
+                {
+                    "text": "Combate aéreo com caças modernos.",
+                    "isCorrect": false,
+                    "explanation": "Combate aéreo só depois que perceberam que espiar não era tão seguro assim.\nPrimeiro, era só reconhecimento mesmo."
+                }
+            ]
+        },
+        {
+            "id": "02",
+            "question": "Qual aeronave ficou famosa como o primeiro caça a jato operacional da história?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Supermarine Spitfire",
+                    "isCorrect": false,
+                    "explanation": "O Spitfire era rápido, mas ainda dependia de hélice.\nNada de turbina, só barulho de motor mesmo."
+                },
+                {
+                    "text": "Messerschmitt Me 262",
+                    "isCorrect": true,
+                    "explanation": "O Me 262 foi o primeiro caça a jato operacional do mundo,\nsurpreendendo os aliados com sua velocidade turbo.\nEle parecia um foguete com asas!",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Messerschmitt_Me_262A_at_the_National_Museum_of_the_USAF.jpg",
+                    "imageDescription": "Messerschmitt Me 262A exposto em museu."
+                },
+                {
+                    "text": "North American P-51 Mustang",
+                    "isCorrect": false,
+                    "explanation": "O Mustang era famoso, mas ainda queimava gasolina como qualquer carro antigo.\nNada de jato por aqui."
+                },
+                {
+                    "text": "Focke-Wulf Fw 190",
+                    "isCorrect": false,
+                    "explanation": "O Fw 190 era ágil, mas não tinha turbina.\nO Me 262 foi quem inaugurou a era dos jatos."
+                }
+            ]
+        },
+        {
+            "id": "03",
+            "question": "Qual helicóptero ficou conhecido como símbolo da Guerra do Vietnã?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "AH-64 Apache",
+                    "isCorrect": false,
+                    "explanation": "O Apache é fera, mas só apareceu nos anos 80.\nNo Vietnã, nem sonhavam com tanta tecnologia."
+                },
+                {
+                    "text": "Bell UH-1 'Huey'",
+                    "isCorrect": true,
+                    "explanation": "O 'Huey' virou estrela de cinema e trilha sonora de rock.\nEra o táxi aéreo oficial do Vietnã, levando de soldados a guitarras imaginárias.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Bell_UH-1H_Huey_II.jpg",
+                    "imageDescription": "Bell UH-1 'Huey' em operação militar."
+                },
+                {
+                    "text": "Mil Mi-24 Hind",
+                    "isCorrect": false,
+                    "explanation": "O Hind é russo e só brilhou no Afeganistão.\nNo Vietnã, era só Huey voando baixo."
+                },
+                {
+                    "text": "Sikorsky CH-53",
+                    "isCorrect": false,
+                    "explanation": "O CH-53 é gigante, mas não foi o astro do Vietnã.\nO Huey roubou a cena com seu barulho inconfundível."
+                }
+            ]
+        },
+        {
+            "id": "04",
+            "question": "O que são MANPADS no contexto da defesa aérea?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Aviões de combate de decolagem vertical.",
+                    "isCorrect": false,
+                    "explanation": "Seria legal um avião de bolso, mas MANPADS não voam.\nEles preferem ficar no ombro de alguém."
+                },
+                {
+                    "text": "Mísseis portáteis lançados do ombro.",
+                    "isCorrect": true,
+                    "explanation": "MANPADS são mísseis portáteis lançados do ombro,\nperfeitos para quem quer derrubar helicóptero sem sair do chão.\nÉ tipo videogame, só que real e perigoso.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Stinger_missile_launch.jpg",
+                    "imageDescription": "Soldado disparando um míssil MANPADS."
+                },
+                {
+                    "text": "Sistemas de radar embarcados.",
+                    "isCorrect": false,
+                    "explanation": "Radar portátil seria interessante, mas MANPADS gostam mesmo é de explosão."
+                },
+                {
+                    "text": "Bombas guiadas por laser.",
+                    "isCorrect": false,
+                    "explanation": "Bombas guiadas são legais, mas MANPADS preferem voar atrás de helicópteros."
+                }
+            ]
+        },
+        {
+            "id": "05",
+            "question": "Qual destas funções NÃO é típica dos drones militares modernos?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Reconhecimento e vigilância.",
+                    "isCorrect": false,
+                    "explanation": "Drones adoram espiar tudo e todos.\nEles são os olhos eletrônicos do campo de batalha."
+                },
+                {
+                    "text": "Entrega de pizzas em zonas de guerra.",
+                    "isCorrect": true,
+                    "explanation": "Por mais que soldados sonhem com pizza quente,\ndrones militares ainda não fazem delivery.\nEles preferem entregar... mísseis.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/MQ-9_Reaper_in_flight_%282017%29.jpg",
+                    "imageDescription": "Drone MQ-9 Reaper em voo operacional."
+                },
+                {
+                    "text": "Ataques de precisão com mísseis.",
+                    "isCorrect": false,
+                    "explanation": "Drones são ótimos em acertar alvos com precisão cirúrgica.\nNada de pepperoni, só explosivos."
+                },
+                {
+                    "text": "Aquisição de alvos para artilharia.",
+                    "isCorrect": false,
+                    "explanation": "Drones são ótimos em apontar onde a festa (ou o alvo) está acontecendo."
+                }
+            ]
+        },
+        {
+            "id": "06",
+            "question": "O caça F-35 Lightning II é conhecido por qual característica marcante?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Capacidade de voar submerso.",
+                    "isCorrect": false,
+                    "explanation": "Voar debaixo d'água? Só se for peixe supersônico!\nO F-35 prefere voar alto e ser furtivo."
+                },
+                {
+                    "text": "Tecnologia stealth e multifunção.",
+                    "isCorrect": true,
+                    "explanation": "O F-35 é o canivete suíço dos caças: invisível ao radar,\npode atacar, espionar e até decolar verticalmente (na versão B).\nSó falta fazer café!",
+                    "imageUrl": "https://www.lockheedmartin.com/content/dam/lockheed-martin/aero/photo/f35/f-35-lightning-ii-gallery-1.jpg",
+                    "imageDescription": "F-35 Lightning II em voo furtivo."
+                },
+                {
+                    "text": "Primeiro caça a hélice da OTAN.",
+                    "isCorrect": false,
+                    "explanation": "A hélice ficou no passado. O F-35 é pura turbina e tecnologia."
+                },
+                {
+                    "text": "Capacidade de lançar torpedos.",
+                    "isCorrect": false,
+                    "explanation": "Torpedos são para submarinos e aviões navais.\nO F-35 prefere mísseis e bombas inteligentes."
+                }
+            ]
+        },
+        {
+            "id": "07",
+            "question": "O que diferencia um míssil ar-ar de curto alcance de um de longo alcance?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "O peso da ogiva explosiva.",
+                    "isCorrect": false,
+                    "explanation": "O que importa mesmo é a distância que ele voa,\nnão o tamanho do estrago."
+                },
+                {
+                    "text": "O alcance efetivo e o tipo de guiagem.",
+                    "isCorrect": true,
+                    "explanation": "Curto alcance: briga de cachorro, mira no calor.\nLongo alcance: tiro de sniper, radar embarcado.\nCada um com seu estilo de caçada.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0b/AIM-9_Sidewinder_and_AIM-120_AMRAAM.jpg",
+                    "imageDescription": "AIM-9 Sidewinder (curto) e AIM-120 AMRAAM (longo) lado a lado."
+                },
+                {
+                    "text": "A cor da pintura do míssil.",
+                    "isCorrect": false,
+                    "explanation": "Se fosse pela cor, seria fácil identificar!\nMas o segredo está na tecnologia embarcada."
+                },
+                {
+                    "text": "A quantidade de asas do míssil.",
+                    "isCorrect": false,
+                    "explanation": "Mais asas não significa mais alcance.\nO que manda é o motor e o sistema de guiagem."
+                }
+            ]
+        },
+        {
+            "id": "08",
+            "question": "Qual destes aviões foi um bombardeiro estratégico da Guerra Fria?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "F-16 Fighting Falcon",
+                    "isCorrect": false,
+                    "explanation": "O F-16 é um caça leve, não carrega bombas nucleares.\nBombardeiro estratégico é coisa de gigante!"
+                },
+                {
+                    "text": "B-52 Stratofortress",
+                    "isCorrect": true,
+                    "explanation": "O B-52 é o vovô dos bombardeiros: enorme,\ncheio de bombas e ainda voando desde a Guerra Fria.\nÉ praticamente um dinossauro voador.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/B-52_Stratofortress.jpg",
+                    "imageDescription": "B-52 Stratofortress em voo."
+                },
+                {
+                    "text": "Mirage 2000",
+                    "isCorrect": false,
+                    "explanation": "O Mirage 2000 é ágil, mas bombardeiro estratégico não é com ele."
+                },
+                {
+                    "text": "A-10 Thunderbolt II",
+                    "isCorrect": false,
+                    "explanation": "O A-10 prefere destruir tanques no solo.\nBombardeiro estratégico é missão para o B-52."
+                }
+            ]
+        },
+        {
+            "id": "09",
+            "question": "O que caracteriza um drone do tipo MALE?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "É um drone disfarçado de pássaro.",
+                    "isCorrect": false,
+                    "explanation": "Seria genial, mas MALE significa outra coisa.\nNada de penas ou bico aqui."
+                },
+                {
+                    "text": "Média altitude e longa autonomia.",
+                    "isCorrect": true,
+                    "explanation": "MALE: Medium Altitude Long Endurance.\nOu seja, voa alto e por muito tempo.\nIdeal para vigiar sem pressa.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/General_Atomics_MQ-9_Reaper.jpg",
+                    "imageDescription": "MQ-9 Reaper, exemplo clássico de drone MALE."
+                },
+                {
+                    "text": "Capaz de carregar apenas armas nucleares.",
+                    "isCorrect": false,
+                    "explanation": "Drones MALE são mais discretos.\nNada de explosões nucleares por aqui."
+                },
+                {
+                    "text": "Usado apenas para fins civis.",
+                    "isCorrect": false,
+                    "explanation": "MALE é militar na essência, mas já pensou vigiar trânsito com um desses?"
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "question": "O míssil Tomahawk é famoso por ser utilizado em qual tipo de missão?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Combate aéreo entre caças.",
+                    "isCorrect": false,
+                    "explanation": "Tomahawk não gosta de altitude.\nPrefere voar rente ao solo, longe de dogfights."
+                },
+                {
+                    "text": "Ataques de longo alcance contra alvos terrestres.",
+                    "isCorrect": true,
+                    "explanation": "O Tomahawk é o carteiro das forças armadas:\nentrega explosivos a centenas de quilômetros de distância!\nDiscreto e eficiente.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Tomahawk_Block_IV_cruise_missile.jpg",
+                    "imageDescription": "Míssil Tomahawk sendo lançado de navio."
+                },
+                {
+                    "text": "Interceptação de mísseis balísticos.",
+                    "isCorrect": false,
+                    "explanation": "Interceptar mísseis é missão para Patriots e THAADs.\nTomahawk gosta mesmo é de atacar alvos fixos."
+                },
+                {
+                    "text": "Busca e salvamento marítimo.",
+                    "isCorrect": false,
+                    "explanation": "Nada de resgate para o Tomahawk.\nEle só entrega presentes explosivos."
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "question": "Qual destes países NÃO desenvolveu um caça de quinta geração?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Estados Unidos",
+                    "isCorrect": false,
+                    "explanation": "F-22 e F-35 já estão nos céus há anos.\nOs EUA são pioneiros nessa geração."
+                },
+                {
+                    "text": "Brasil",
+                    "isCorrect": true,
+                    "explanation": "O Brasil voa alto com o Gripen, mas ainda não chegou na quinta geração.\nQuem sabe no futuro, com muito café e tecnologia!",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Embraer_KC-390_and_Gripen_E.jpg",
+                    "imageDescription": "Gripen E brasileiro, considerado geração 4.5."
+                },
+                {
+                    "text": "China",
+                    "isCorrect": false,
+                    "explanation": "O J-20 já está assustando vizinhos pelo leste asiático."
+                },
+                {
+                    "text": "Rússia",
+                    "isCorrect": false,
+                    "explanation": "O Su-57 russo é o representante local da quinta geração."
+                }
+            ]
+        },
+        {
+            "id": "12",
+            "question": "O que foi a 'Batalha da Grã-Bretanha'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Uma competição de aviões civis.",
+                    "isCorrect": false,
+                    "explanation": "Competição? Só se for de quem voa mais rápido para longe dos bombardeios!"
+                },
+                {
+                    "text": "Uma campanha aérea decisiva da Segunda Guerra Mundial.",
+                    "isCorrect": true,
+                    "explanation": "Foi o maior duelo aéreo da história,\ncom Spitfires e Hurricanes defendendo o Reino Unido dos bombardeiros alemães.\nUm verdadeiro 'game over' para a Luftwaffe.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Spitfire_Mk_VB_Battle_of_Britain.jpg",
+                    "imageDescription": "Spitfire Mk VB voando sobre a Inglaterra."
+                },
+                {
+                    "text": "Uma operação de resgate marítimo.",
+                    "isCorrect": false,
+                    "explanation": "Nada de salva-vidas aqui, só aviões e muita fumaça."
+                },
+                {
+                    "text": "Um exercício militar da OTAN.",
+                    "isCorrect": false,
+                    "explanation": "A OTAN nem existia ainda!\nEra guerra de verdade, sem simulação."
+                }
+            ]
+        },
+        {
+            "id": "13",
+            "question": "Qual o principal objetivo do sistema S-400 russo?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Atacar navios inimigos.",
+                    "isCorrect": false,
+                    "explanation": "Navios não são o foco do S-400.\nEle prefere caçar aviões e mísseis no céu."
+                },
+                {
+                    "text": "Defesa aérea contra ameaças de aeronaves e mísseis.",
+                    "isCorrect": true,
+                    "explanation": "O S-400 é o guarda-costas dos céus russos,\nderrubando tudo que voa sem convite.\nRadar potente e mísseis de longo alcance.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/S-400_Triumf_2015.jpg",
+                    "imageDescription": "Bateria de lançamento do sistema S-400."
+                },
+                {
+                    "text": "Interceptação de satélites em órbita.",
+                    "isCorrect": false,
+                    "explanation": "Satélites ainda estão fora do cardápio.\nO S-400 mira mais baixo."
+                },
+                {
+                    "text": "Ataques eletrônicos a radares.",
+                    "isCorrect": false,
+                    "explanation": "Ataque eletrônico é missão para outros sistemas.\nO S-400 prefere explosão física mesmo."
+                }
+            ]
+        },
+        {
+            "id": "14",
+            "question": "Qual foi o primeiro helicóptero de ataque dedicado do mundo?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Sikorsky UH-60 Black Hawk",
+                    "isCorrect": false,
+                    "explanation": "O Black Hawk é versátil, mas não nasceu para atacar.\nEle leva tropas, não lança mísseis."
+                },
+                {
+                    "text": "Bell AH-1 Cobra",
+                    "isCorrect": true,
+                    "explanation": "O AH-1 Cobra chegou para revolucionar:\nfino, armado e pronto para combate.\nPrimeiro helicóptero feito só para atacar!",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Bell_AH-1_Cobra_in_flight.jpg",
+                    "imageDescription": "Bell AH-1 Cobra em voo armado."
+                },
+                {
+                    "text": "Mil Mi-8 Hip",
+                    "isCorrect": false,
+                    "explanation": "O Mi-8 é transporte raiz.\nAtaque? Só se for com muita criatividade."
+                },
+                {
+                    "text": "Eurocopter Tiger",
+                    "isCorrect": false,
+                    "explanation": "O Tiger é moderno, mas chegou décadas depois do Cobra."
+                }
+            ]
+        },
+        {
+            "id": "15",
+            "question": "Qual a principal vantagem do radar AESA em caças modernos?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Permitir decolagens mais curtas.",
+                    "isCorrect": false,
+                    "explanation": "Radar não ajuda a decolar, só a enxergar melhor o inimigo."
+                },
+                {
+                    "text": "Maior capacidade de rastrear múltiplos alvos simultaneamente.",
+                    "isCorrect": true,
+                    "explanation": "O AESA é o 'olho de águia' dos caças:\nsegue vários alvos ao mesmo tempo e ainda é difícil de ser detectado.\nMultitarefa de verdade!",
+                    "imageUrl": "https://www.raytheon.com/sites/default/files/styles/standard_resolution/public/2022-08/APG-79_AESA_Radar.jpg",
+                    "imageDescription": "Radar AESA APG-79 em bancada de testes."
+                },
+                {
+                    "text": "Reduzir o consumo de combustível.",
+                    "isCorrect": false,
+                    "explanation": "Radar não faz milagre na bomba de combustível."
+                },
+                {
+                    "text": "Permitir voos supersônicos sustentados.",
+                    "isCorrect": false,
+                    "explanation": "Voar rápido é mérito do motor, não do radar."
+                }
+            ]
+        },
+        {
+            "id": "16",
+            "question": "O que significa o termo 'dogfight'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Combate aéreo próximo entre aeronaves.",
+                    "isCorrect": true,
+                    "explanation": "Dogfight é briga de cachorro voador:\ncaças rodopiando, mísseis zunindo e pilotos suando frio.\nSó falta a coleira!",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Dogfight_over_Germany.jpg",
+                    "imageDescription": "Dogfight entre caças durante a Segunda Guerra Mundial."
+                },
+                {
+                    "text": "Treinamento de cães militares.",
+                    "isCorrect": false,
+                    "explanation": "Aqui não tem cachorro de verdade.\nSó aviões brigando no céu."
+                },
+                {
+                    "text": "Disputa de drones em arenas.",
+                    "isCorrect": false,
+                    "explanation": "Drones até podem brigar, mas dogfight é coisa de piloto raiz."
+                },
+                {
+                    "text": "Ataque surpresa a bases inimigas.",
+                    "isCorrect": false,
+                    "explanation": "Ataque surpresa é emboscada.\nDogfight é duelo aéreo mesmo."
+                }
+            ]
+        },
+        {
+            "id": "17",
+            "question": "Qual foi o primeiro bombardeiro furtivo operacional?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "B-1 Lancer",
+                    "isCorrect": false,
+                    "explanation": "O B-1 é rápido, mas não é invisível.\nO pioneiro do stealth é outro."
+                },
+                {
+                    "text": "B-2 Spirit",
+                    "isCorrect": true,
+                    "explanation": "O B-2 é o Batman dos ares:\nvoa em silêncio, some no radar e assusta até supervilão.\nPrimeiro bombardeiro furtivo operacional do mundo.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/B-2_Spirit_bomber.jpg",
+                    "imageDescription": "B-2 Spirit em voo furtivo."
+                },
+                {
+                    "text": "B-52 Stratofortress",
+                    "isCorrect": false,
+                    "explanation": "O B-52 é gigante e barulhento.\nStealth? Só se for na imaginação."
+                },
+                {
+                    "text": "Tu-160 Blackjack",
+                    "isCorrect": false,
+                    "explanation": "O Blackjack é rápido, mas não é invisível.\nO B-2 foi o pioneiro no stealth."
+                }
+            ]
+        },
+        {
+            "id": "18",
+            "question": "O que significa a sigla AWACS?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Avião de combate supersônico.",
+                    "isCorrect": false,
+                    "explanation": "AWACS não gosta de velocidade,\ngosta mesmo é de ver tudo de longe."
+                },
+                {
+                    "text": "Sistema aerotransportado de alerta e controle.",
+                    "isCorrect": true,
+                    "explanation": "AWACS é o 'Big Brother' dos céus:\nradar voador que controla o show aéreo.\nNada escapa do seu olhar atento.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/E-3_Sentry_AWACS.jpg",
+                    "imageDescription": "E-3 Sentry AWACS da OTAN."
+                },
+                {
+                    "text": "Armas de ataque de precisão.",
+                    "isCorrect": false,
+                    "explanation": "AWACS não atira, só observa.\nÉ o juiz da partida aérea."
+                },
+                {
+                    "text": "Avião de transporte de cargas.",
+                    "isCorrect": false,
+                    "explanation": "AWACS não carrega caixas, carrega radares gigantes."
+                }
+            ]
+        },
+        {
+            "id": "19",
+            "question": "Qual o principal diferencial do F-117 Nighthawk?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Velocidade hipersônica.",
+                    "isCorrect": false,
+                    "explanation": "O F-117 nem era tão rápido assim.\nSeu segredo era ser invisível, não veloz."
+                },
+                {
+                    "text": "Design furtivo para evitar detecção por radar.",
+                    "isCorrect": true,
+                    "explanation": "O F-117 era o 'fantasma' dos céus:\ncheio de ângulos estranhos para sumir do radar.\nPrimeiro avião operacional stealth do mundo.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/F-117_Nighthawk_Front_View.jpg",
+                    "imageDescription": "F-117 Nighthawk com seu design angular."
+                },
+                {
+                    "text": "Capacidade de voar sem piloto.",
+                    "isCorrect": false,
+                    "explanation": "Drone? Ainda não era moda.\nO F-117 tinha piloto e muita coragem."
+                },
+                {
+                    "text": "Armamento nuclear exclusivo.",
+                    "isCorrect": false,
+                    "explanation": "O F-117 podia levar bombas, mas seu diferencial era sumir dos radares."
+                }
+            ]
+        },
+        {
+            "id": "20",
+            "question": "O que caracteriza o míssil russo Kinzhal?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Ser lançado apenas de submarinos.",
+                    "isCorrect": false,
+                    "explanation": "Submarinos lançam outros mísseis.\nO Kinzhal prefere voar debaixo de caças."
+                },
+                {
+                    "text": "Ser um míssil hipersônico lançado por aeronaves.",
+                    "isCorrect": true,
+                    "explanation": "O Kinzhal é o velocista russo:\nvoa a mais de 10 vezes a velocidade do som,\nliteralmente impossível de pegar no trânsito aéreo.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/MiG-31K_with_Kinzhal_missile.jpg",
+                    "imageDescription": "MiG-31K russo carregando míssil Kinzhal."
+                },
+                {
+                    "text": "Ser guiado apenas por laser.",
+                    "isCorrect": false,
+                    "explanation": "Guiagem por laser é para bombas inteligentes.\nO Kinzhal é hipersônico e multifuncional."
+                },
+                {
+                    "text": "Ser usado exclusivamente contra navios.",
+                    "isCorrect": false,
+                    "explanation": "O Kinzhal pode atacar vários alvos, não só navios."
+                }
+            ]
+        },
+        {
+            "id": "21",
+            "question": "Qual foi o principal avião de caça aliado durante a Batalha da Inglaterra?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Focke-Wulf Fw 190",
+                    "isCorrect": false,
+                    "explanation": "Esse era alemão e não estava do lado dos aliados.\nNa Batalha da Inglaterra, ele era o vilão da história."
+                },
+                {
+                    "text": "Supermarine Spitfire",
+                    "isCorrect": true,
+                    "explanation": "O Spitfire virou lenda defendendo o Reino Unido.\nÁgil, elegante e com bigode britânico imaginário.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0f/Supermarine_Spitfire_Mk_VB_in_flight_c1941.jpg",
+                    "imageDescription": "Supermarine Spitfire Mk VB em voo durante a Segunda Guerra."
+                },
+                {
+                    "text": "P-51 Mustang",
+                    "isCorrect": false,
+                    "explanation": "O Mustang brilhou mais tarde, escoltando bombardeiros.\nNa Batalha da Inglaterra, ele nem tinha chegado ainda."
+                },
+                {
+                    "text": "Mitsubishi Zero",
+                    "isCorrect": false,
+                    "explanation": "O Zero era japonês e estava do outro lado do mundo.\nAqui, só Spitfire e Hurricane mesmo."
+                }
+            ]
+        },
+        {
+            "id": "22",
+            "question": "Qual a principal função do sistema Phalanx CIWS?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Interceptar mísseis e aeronaves a curta distância.",
+                    "isCorrect": true,
+                    "explanation": "O Phalanx é o goleiro automático dos navios.\nDispara tanto que parece até videogame de arcade!",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Phalanx_CIWS_test_fire_-_081107-N-5416W-003.jpg",
+                    "imageDescription": "Sistema Phalanx CIWS disparando em teste naval."
+                },
+                {
+                    "text": "Detectar submarinos inimigos.",
+                    "isCorrect": false,
+                    "explanation": "Submarino é missão para sonar.\nO Phalanx só gosta de alvos voadores."
+                },
+                {
+                    "text": "Reabastecer aeronaves em voo.",
+                    "isCorrect": false,
+                    "explanation": "Imagina o Phalanx tentando servir combustível?\nSeria um desastre explosivo!"
+                },
+                {
+                    "text": "Lançar satélites em órbita.",
+                    "isCorrect": false,
+                    "explanation": "O Phalanx só lança balas, não satélites.\nNASA, pode ficar tranquila."
+                }
+            ]
+        },
+        {
+            "id": "23",
+            "question": "O Sukhoi Su-57 é um caça de qual geração?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Terceira",
+                    "isCorrect": false,
+                    "explanation": "Terceira geração é coisa do passado.\nO Su-57 é bem mais moderno."
+                },
+                {
+                    "text": "Quinta",
+                    "isCorrect": true,
+                    "explanation": "O Su-57 é o ninja russo da quinta geração.\nStealth, supermanobrável e cheio de tecnologia.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Sukhoi_Su-57_Maksimov.jpg",
+                    "imageDescription": "Sukhoi Su-57 em voo de demonstração."
+                },
+                {
+                    "text": "Quarta",
+                    "isCorrect": false,
+                    "explanation": "Quarta geração é para o Su-27 e família.\nO Su-57 é geração nova."
+                },
+                {
+                    "text": "Segunda",
+                    "isCorrect": false,
+                    "explanation": "Segunda geração? Só nos livros de história.\nO Su-57 é high-tech!"
+                }
+            ]
+        },
+        {
+            "id": "24",
+            "question": "Qual a principal característica do míssil ar-ar AIM-9 Sidewinder?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Guiagem por radar ativo.",
+                    "isCorrect": false,
+                    "explanation": "Radar é coisa do AMRAAM.\nO Sidewinder prefere seguir o calor."
+                },
+                {
+                    "text": "Guiagem por infravermelho.",
+                    "isCorrect": true,
+                    "explanation": "O Sidewinder é o míssil 'caçador de calor'.\nVai atrás do escapamento do inimigo como um mosquito na luz!",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/AIM-9_Sidewinder_missile.jpg",
+                    "imageDescription": "AIM-9 Sidewinder montado em caça."
+                },
+                {
+                    "text": "Propulsão nuclear.",
+                    "isCorrect": false,
+                    "explanation": "Nuclear? Só se for para explodir o orçamento.\nO Sidewinder é convencional."
+                },
+                {
+                    "text": "Uso exclusivo em helicópteros.",
+                    "isCorrect": false,
+                    "explanation": "Helicóptero até pode, mas o Sidewinder gosta mesmo é de caças rápidos."
+                }
+            ]
+        },
+        {
+            "id": "25",
+            "question": "Qual destes helicópteros é famoso por sua blindagem e poder de fogo na Rússia?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Bell 206 JetRanger",
+                    "isCorrect": false,
+                    "explanation": "O JetRanger é pacato, só faz turismo e transporte leve.\nNada de blindagem pesada."
+                },
+                {
+                    "text": "Mil Mi-24 Hind",
+                    "isCorrect": true,
+                    "explanation": "O Mi-24 é o tanque voador russo:\nleva tropas, lança foguetes e aguenta tiro como poucos.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Mil_Mi-24P_in_flight.jpg",
+                    "imageDescription": "Mil Mi-24 Hind armado em voo."
+                },
+                {
+                    "text": "NH90",
+                    "isCorrect": false,
+                    "explanation": "O NH90 é europeu e mais comportado.\nNada de Hind aqui."
+                },
+                {
+                    "text": "AgustaWestland AW139",
+                    "isCorrect": false,
+                    "explanation": "O AW139 é VIP, leva executivos, não lança foguetes."
+                }
+            ]
+        },
+        {
+            "id": "26",
+            "question": "Qual o principal objetivo do bombardeiro B-1B Lancer?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Ataques nucleares e convencionais de longo alcance.",
+                    "isCorrect": true,
+                    "explanation": "O B-1B é o velocista dos bombardeiros:\nvoa baixo, rápido e leva bombas para todo gosto.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/B-1B_Lancer_flying.jpg",
+                    "imageDescription": "B-1B Lancer em voo rasante."
+                },
+                {
+                    "text": "Transporte de tropas.",
+                    "isCorrect": false,
+                    "explanation": "Imagina o B-1B como ônibus escolar?\nSó se for para entregar bombas!"
+                },
+                {
+                    "text": "Busca e salvamento marítimo.",
+                    "isCorrect": false,
+                    "explanation": "Nada de resgate para o B-1B.\nEle é especialista em ataque pesado."
+                },
+                {
+                    "text": "Patrulha de fronteiras.",
+                    "isCorrect": false,
+                    "explanation": "Patrulhar fronteira com bombardeiro?\nSeria intimidador, mas nada prático."
+                }
+            ]
+        },
+        {
+            "id": "27",
+            "question": "Qual destes países desenvolveu o caça stealth Chengdu J-20?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Índia",
+                    "isCorrect": false,
+                    "explanation": "A Índia tem o Tejas, mas stealth mesmo só na China."
+                },
+                {
+                    "text": "China",
+                    "isCorrect": true,
+                    "explanation": "O J-20 é o dragão invisível chinês.\nCheio de tecnologia e pronto para surpreender.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Chengdu_J-20_at_Airshow_China_2016.jpg",
+                    "imageDescription": "Chengdu J-20 em demonstração aérea."
+                },
+                {
+                    "text": "Japão",
+                    "isCorrect": false,
+                    "explanation": "O Japão tem projetos próprios, mas o J-20 é chinês."
+                },
+                {
+                    "text": "Coreia do Sul",
+                    "isCorrect": false,
+                    "explanation": "A Coreia do Sul tem o KF-21, mas o J-20 é made in China."
+                }
+            ]
+        },
+        {
+            "id": "28",
+            "question": "O que diferencia o drone Bayraktar TB2 no cenário moderno?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Ser tripulado por dois pilotos.",
+                    "isCorrect": false,
+                    "explanation": "Drone tripulado? Só se for por Wi-Fi!\nO TB2 é 100% sem piloto a bordo."
+                },
+                {
+                    "text": "Ser amplamente usado em conflitos recentes.",
+                    "isCorrect": true,
+                    "explanation": "O TB2 virou celebridade em vários conflitos recentes.\nBarato, eficiente e viral até nas redes sociais.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Bayraktar_TB2_SIAE_2019.jpg",
+                    "imageDescription": "Bayraktar TB2 exposto em feira internacional."
+                },
+                {
+                    "text": "Voar acima de 20 mil metros.",
+                    "isCorrect": false,
+                    "explanation": "O TB2 não chega tão alto assim.\nPrefere voar baixo e filmar tudo."
+                },
+                {
+                    "text": "Ser equipado com ogivas nucleares.",
+                    "isCorrect": false,
+                    "explanation": "Nuclear? Só se for na imaginação.\nO TB2 carrega mísseis leves."
+                }
+            ]
+        },
+        {
+            "id": "29",
+            "question": "O que é um míssil 'cruise'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Míssil que voa baixo e segue o terreno até o alvo.",
+                    "isCorrect": true,
+                    "explanation": "O míssil cruise é o mestre do esconde-esconde:\nvoa rente ao solo e surpreende o alvo.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Tomahawk_Block_IV_cruise_missile.jpg",
+                    "imageDescription": "Míssil cruise Tomahawk em lançamento."
+                },
+                {
+                    "text": "Míssil lançado de submarino nuclear.",
+                    "isCorrect": false,
+                    "explanation": "Submarino pode lançar, mas cruise é pelo voo baixo."
+                },
+                {
+                    "text": "Míssil guiado por laser exclusivamente.",
+                    "isCorrect": false,
+                    "explanation": "Guiagem por laser é só uma das opções.\nO segredo é voar baixo e longe."
+                },
+                {
+                    "text": "Míssil usado apenas em aviões de caça.",
+                    "isCorrect": false,
+                    "explanation": "Cruise pode ser lançado de navio, terra ou avião.\nVersatilidade é seu sobrenome."
+                }
+            ]
+        },
+        {
+            "id": "30",
+            "question": "Qual destes aviões foi desenvolvido na Suécia?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Saab JAS 39 Gripen",
+                    "isCorrect": true,
+                    "explanation": "O Gripen é o orgulho sueco: moderno, leve e eficiente.\nE ainda tem nome de animal feroz.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Saab_JAS_39_Gripen_in_flight_%28cropped%29.jpg",
+                    "imageDescription": "Saab JAS 39 Gripen em voo."
+                },
+                {
+                    "text": "Dassault Rafale",
+                    "isCorrect": false,
+                    "explanation": "O Rafale é francês, cheio de charme e sotaque."
+                },
+                {
+                    "text": "Eurofighter Typhoon",
+                    "isCorrect": false,
+                    "explanation": "O Typhoon é europeu, mas não sueco.\nTem DNA britânico, alemão, italiano e espanhol."
+                },
+                {
+                    "text": "F-15 Eagle",
+                    "isCorrect": false,
+                    "explanation": "O F-15 é americano e gosta de voar alto nos EUA."
+                }
+            ]
+        },
+        {
+            "id": "31",
+            "question": "Qual o principal diferencial do drone RQ-170 Sentinel?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Capacidade de combate aéreo.",
+                    "isCorrect": false,
+                    "explanation": "O RQ-170 prefere espiar do que brigar.\nNada de dogfight para ele."
+                },
+                {
+                    "text": "Design furtivo para missões de reconhecimento.",
+                    "isCorrect": true,
+                    "explanation": "O RQ-170 é o espião fantasma dos drones:\ninvisível ao radar e sempre curioso.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/RQ-170_Sentinel.jpg",
+                    "imageDescription": "Drone RQ-170 Sentinel em exposição."
+                },
+                {
+                    "text": "Lançamento de satélites em órbita.",
+                    "isCorrect": false,
+                    "explanation": "Satélite? Só se for selfie do espaço.\nO RQ-170 só espiona."
+                },
+                {
+                    "text": "Capacidade de voar submerso.",
+                    "isCorrect": false,
+                    "explanation": "Drone submarino? Só em filme de ficção!"
+                }
+            ]
+        },
+        {
+            "id": "32",
+            "question": "Qual foi o primeiro caça a operar em porta-aviões?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "F6F Hellcat",
+                    "isCorrect": false,
+                    "explanation": "O Hellcat foi importante, mas veio depois.\nO pioneiro foi mais antigo ainda."
+                },
+                {
+                    "text": "Sopwith Camel",
+                    "isCorrect": false,
+                    "explanation": "O Camel era famoso, mas não foi o primeiro dos porta-aviões."
+                },
+                {
+                    "text": "Sopwith Pup",
+                    "isCorrect": true,
+                    "explanation": "O Sopwith Pup foi o primeiro a pousar num convés em movimento.\nCoragem e equilíbrio de sobra!",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Sopwith_Pup_N6453_Landing_on_HMS_Furious_1917.jpg",
+                    "imageDescription": "Sopwith Pup pousando no HMS Furious em 1917."
+                },
+                {
+                    "text": "F4U Corsair",
+                    "isCorrect": false,
+                    "explanation": "O Corsair é lendário, mas chegou bem depois do Pup."
+                }
+            ]
+        },
+        {
+            "id": "33",
+            "question": "O que diferencia o míssil Meteor dos demais ar-ar de longo alcance?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Propulsão ramjet para maior alcance sustentado.",
+                    "isCorrect": true,
+                    "explanation": "O Meteor é o maratonista dos mísseis:\nramjet garante velocidade alta até o fim do percurso.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3c/MBDA_Meteor_missile.jpg",
+                    "imageDescription": "Míssil MBDA Meteor em exposição."
+                },
+                {
+                    "text": "Guiagem exclusivamente por infravermelho.",
+                    "isCorrect": false,
+                    "explanation": "Guiagem IR é coisa de curto alcance.\nO Meteor usa radar e ramjet."
+                },
+                {
+                    "text": "Uso exclusivo em caças americanos.",
+                    "isCorrect": false,
+                    "explanation": "O Meteor é europeu, voa em Gripen, Rafale e Typhoon."
+                },
+                {
+                    "text": "Capacidade de voar submerso.",
+                    "isCorrect": false,
+                    "explanation": "Míssil submarino? Só em pesadelo do inimigo."
+                }
+            ]
+        },
+        {
+            "id": "34",
+            "question": "Qual destes sistemas é dedicado à guerra eletrônica aérea?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "EA-18G Growler",
+                    "isCorrect": true,
+                    "explanation": "O Growler é o DJ do campo de batalha:\nconfunde radares, embaralha comunicações e faz barulho eletrônico.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/EA-18G_Growler_in_flight.jpg",
+                    "imageDescription": "EA-18G Growler em voo com pods de guerra eletrônica."
+                },
+                {
+                    "text": "A-10 Thunderbolt II",
+                    "isCorrect": false,
+                    "explanation": "O A-10 gosta de destruir tanques, não de fazer barulho eletrônico."
+                },
+                {
+                    "text": "F-15E Strike Eagle",
+                    "isCorrect": false,
+                    "explanation": "O F-15E é bombardeiro tático, não DJ de guerra."
+                },
+                {
+                    "text": "KC-135 Stratotanker",
+                    "isCorrect": false,
+                    "explanation": "O KC-135 só abastece, não atrapalha comunicações."
+                }
+            ]
+        },
+        {
+            "id": "35",
+            "question": "Qual destes caças foi projetado para decolagem e pouso vertical (VTOL)?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "F-22 Raptor",
+                    "isCorrect": false,
+                    "explanation": "O F-22 é rápido, mas precisa de pista longa."
+                },
+                {
+                    "text": "Harrier Jump Jet",
+                    "isCorrect": true,
+                    "explanation": "O Harrier é o mestre do pula-pula:\ndecola e pousa na vertical como um helicóptero.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Harrier_GR9_ZD406_2008.jpg",
+                    "imageDescription": "Harrier GR9 decolando verticalmente."
+                },
+                {
+                    "text": "F-16 Fighting Falcon",
+                    "isCorrect": false,
+                    "explanation": "O F-16 é ágil, mas VTOL não é com ele."
+                },
+                {
+                    "text": "MiG-29 Fulcrum",
+                    "isCorrect": false,
+                    "explanation": "O MiG-29 gosta de pista, não de verticalidade."
+                }
+            ]
+        },
+        {
+            "id": "36",
+            "question": "Qual destes aviões é conhecido como 'Warthog'?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "A-10 Thunderbolt II",
+                    "isCorrect": true,
+                    "explanation": "O A-10 é o javali voador:\nforte, feio e destruidor de tanques.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/A-10_Thunderbolt_II_in_flight.jpg",
+                    "imageDescription": "A-10 Thunderbolt II, o famoso 'Warthog'."
+                },
+                {
+                    "text": "F-14 Tomcat",
+                    "isCorrect": false,
+                    "explanation": "O Tomcat é Top Gun, mas não é javali."
+                },
+                {
+                    "text": "F-117 Nighthawk",
+                    "isCorrect": false,
+                    "explanation": "O Nighthawk é furtivo, não javali."
+                },
+                {
+                    "text": "Su-25 Frogfoot",
+                    "isCorrect": false,
+                    "explanation": "O Su-25 é o primo russo, mas o Warthog é americano."
+                }
+            ]
+        },
+        {
+            "id": "37",
+            "question": "O que caracteriza o sistema Iron Dome israelense?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Interceptação de foguetes e mísseis de curto alcance.",
+                    "isCorrect": true,
+                    "explanation": "O Iron Dome é o guarda-chuva de Israel:\nintercepta foguetes antes que causem estrago.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Iron_Dome_battery_deployed.jpg",
+                    "imageDescription": "Bateria do sistema Iron Dome em operação."
+                },
+                {
+                    "text": "Ataque a alvos navais.",
+                    "isCorrect": false,
+                    "explanation": "Navios não são o foco do Iron Dome.\nEle gosta de caçar foguetes no ar."
+                },
+                {
+                    "text": "Bombardeio estratégico de longa distância.",
+                    "isCorrect": false,
+                    "explanation": "O Iron Dome defende, não ataca."
+                },
+                {
+                    "text": "Detecção de submarinos.",
+                    "isCorrect": false,
+                    "explanation": "Submarino é missão para sonar, não para Iron Dome."
+                }
+            ]
+        },
+        {
+            "id": "38",
+            "question": "Qual destes aviões foi o principal bombardeiro dos EUA na Segunda Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "B-17 Flying Fortress",
+                    "isCorrect": true,
+                    "explanation": "O B-17 era o caminhão de bombas dos EUA:\nresistente, cheio de metralhadoras e muito barulho.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/B-17_Flying_Fortress_in_flight_1942.jpg",
+                    "imageDescription": "B-17 Flying Fortress em voo durante a Segunda Guerra."
+                },
+                {
+                    "text": "F-4 Phantom II",
+                    "isCorrect": false,
+                    "explanation": "O Phantom é da Guerra do Vietnã, não da Segunda Guerra."
+                },
+                {
+                    "text": "B-2 Spirit",
+                    "isCorrect": false,
+                    "explanation": "O B-2 é furtivo e moderno.\nNa Segunda Guerra, nem sonhavam com isso."
+                },
+                {
+                    "text": "F-22 Raptor",
+                    "isCorrect": false,
+                    "explanation": "O Raptor é do século XXI.\nNa Segunda Guerra, só nos sonhos dos engenheiros."
+                }
+            ]
+        },
+        {
+            "id": "39",
+            "question": "Qual destes caças foi projetado para combate naval embarcado?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "F/A-18 Hornet",
+                    "isCorrect": true,
+                    "explanation": "O Hornet é o queridinho dos porta-aviões:\ndecola, pousa e até dança no convés.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/F-A-18_Hornet_landing_on_carrier.jpg",
+                    "imageDescription": "F/A-18 Hornet pousando em porta-aviões."
+                },
+                {
+                    "text": "F-104 Starfighter",
+                    "isCorrect": false,
+                    "explanation": "O Starfighter era rápido, mas não gostava de navio."
+                },
+                {
+                    "text": "Su-35 Flanker-E",
+                    "isCorrect": false,
+                    "explanation": "O Su-35 é terrestre, não gosta de água salgada."
+                },
+                {
+                    "text": "MiG-21 Fishbed",
+                    "isCorrect": false,
+                    "explanation": "O MiG-21 é clássico, mas só voa em terra firme."
+                }
+            ]
+        },
+        {
+            "id": "40",
+            "question": "Qual destes mísseis é especializado em destruir radares inimigos?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "AGM-88 HARM",
+                    "isCorrect": true,
+                    "explanation": "O HARM é o terror dos radares:\nsegue o feixe e explode bem no alvo.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1d/AGM-88_HARM_missile.jpg",
+                    "imageDescription": "Míssil AGM-88 HARM pronto para lançamento."
+                },
+                {
+                    "text": "AIM-9 Sidewinder",
+                    "isCorrect": false,
+                    "explanation": "O Sidewinder gosta de calor, não de ondas de rádio."
+                },
+                {
+                    "text": "Tomahawk",
+                    "isCorrect": false,
+                    "explanation": "O Tomahawk ataca alvos fixos, não radares móveis."
+                },
+                {
+                    "text": "Patriot PAC-3",
+                    "isCorrect": false,
+                    "explanation": "O Patriot defende, não caça radares."
+                }
+            ]
+        },
+        {
+            "id": "41",
+            "question": "Qual destes aviões é considerado um dos mais manobráveis do mundo?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "B-52 Stratofortress",
+                    "isCorrect": false,
+                    "explanation": "O B-52 é gigante e faz curvas largas.\nManobras radicais? Só no chão mesmo."
+                },
+                {
+                    "text": "Su-35 Flanker-E",
+                    "isCorrect": true,
+                    "explanation": "O Su-35 faz acrobacias que até piloto de circo ficaria com inveja.\nSupermanobrabilidade é seu sobrenome!",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Sukhoi_Su-35S_at_MAKS-2011_airshow.jpg",
+                    "imageDescription": "Su-35 Flanker-E demonstrando manobra em show aéreo."
+                },
+                {
+                    "text": "KC-135 Stratotanker",
+                    "isCorrect": false,
+                    "explanation": "O KC-135 abastece no ar, mas manobra mesmo só para alinhar a mangueira."
+                },
+                {
+                    "text": "C-130 Hercules",
+                    "isCorrect": false,
+                    "explanation": "O Hercules é forte, mas não faz piruetas.\nDeixa isso para os caças."
+                }
+            ]
+        },
+        {
+            "id": "42",
+            "question": "Qual desses sistemas é um míssil balístico intercontinental?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Trident II D5",
+                    "isCorrect": true,
+                    "explanation": "O Trident II D5 é o carteiro intercontinental dos oceanos.\nVai de um continente ao outro sem escala.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Trident_II_missile_launch.jpg",
+                    "imageDescription": "Lançamento de míssil balístico Trident II D5."
+                },
+                {
+                    "text": "AIM-120 AMRAAM",
+                    "isCorrect": false,
+                    "explanation": "O AMRAAM é rápido, mas só caça aviões.\nNada de viagens intercontinentais."
+                },
+                {
+                    "text": "AGM-65 Maverick",
+                    "isCorrect": false,
+                    "explanation": "O Maverick ataca tanques, não atravessa oceanos."
+                },
+                {
+                    "text": "Hellfire",
+                    "isCorrect": false,
+                    "explanation": "O Hellfire é para helicóptero.\nIntercontinental? Nem com carona."
+                }
+            ]
+        },
+        {
+            "id": "43",
+            "question": "O que caracteriza o helicóptero Apache AH-64?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Ser um helicóptero de ataque pesado.",
+                    "isCorrect": true,
+                    "explanation": "O Apache é o tanque voador dos EUA.\nCheio de mísseis e blindagem, mete medo até em tanque de guerra.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/AH-64_Apache_Helicopter.jpg",
+                    "imageDescription": "AH-64 Apache armado em voo."
+                },
+                {
+                    "text": "Transporte de tropas VIP.",
+                    "isCorrect": false,
+                    "explanation": "VIP? Só se for para transportar susto.\nO Apache é feito para atacar."
+                },
+                {
+                    "text": "Helicóptero de combate naval.",
+                    "isCorrect": false,
+                    "explanation": "Navio não é com ele.\nO Apache gosta de poeira e tanques no chão."
+                },
+                {
+                    "text": "Helicóptero de resgate marítimo.",
+                    "isCorrect": false,
+                    "explanation": "Resgate só se for do inimigo fugindo.\nO Apache é ofensivo."
+                }
+            ]
+        },
+        {
+            "id": "44",
+            "question": "Qual destas aeronaves é especializada em reabastecimento em voo?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "KC-135 Stratotanker",
+                    "isCorrect": true,
+                    "explanation": "O KC-135 é o posto de gasolina do céu.\nSem ele, muito caça ficaria sem combustível no meio do caminho.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/KC-135_Stratotanker_refueling_F-16.jpg",
+                    "imageDescription": "KC-135 reabastecendo F-16 em voo."
+                },
+                {
+                    "text": "F-22 Raptor",
+                    "isCorrect": false,
+                    "explanation": "O F-22 só consome, não abastece ninguém."
+                },
+                {
+                    "text": "A-10 Thunderbolt II",
+                    "isCorrect": false,
+                    "explanation": "O A-10 gosta de destruir tanques, não de abastecer aviões."
+                },
+                {
+                    "text": "C-17 Globemaster III",
+                    "isCorrect": false,
+                    "explanation": "O C-17 carrega carga, não combustível para outros aviões."
+                }
+            ]
+        },
+        {
+            "id": "45",
+            "question": "Qual destes aviões é um bombardeiro estratégico russo?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Tu-160 Blackjack",
+                    "isCorrect": true,
+                    "explanation": "O Tu-160 é o supersônico russo:\ncarrega bombas, voa rápido e faz barulho de trovão.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Tupolev_Tu-160_in_flight_2005.jpg",
+                    "imageDescription": "Tu-160 Blackjack em voo."
+                },
+                {
+                    "text": "Su-25 Frogfoot",
+                    "isCorrect": false,
+                    "explanation": "O Su-25 é para ataque ao solo, não bombardeio estratégico."
+                },
+                {
+                    "text": "Yak-130",
+                    "isCorrect": false,
+                    "explanation": "O Yak-130 é treinador, não bombardeiro."
+                },
+                {
+                    "text": "MiG-29 Fulcrum",
+                    "isCorrect": false,
+                    "explanation": "O MiG-29 é caça, não bombardeiro."
+                }
+            ]
+        },
+        {
+            "id": "46",
+            "question": "Qual destes aviões foi usado como bombardeiro nuclear na Segunda Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "B-29 Superfortress",
+                    "isCorrect": true,
+                    "explanation": "O B-29 lançou as bombas nucleares em Hiroshima e Nagasaki.\nEntrou para a história (e para os livros de física).",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1e/B-29_Superfortress_Enola_Gay.jpg",
+                    "imageDescription": "B-29 Superfortress Enola Gay, responsável pelo bombardeio nuclear."
+                },
+                {
+                    "text": "B-17 Flying Fortress",
+                    "isCorrect": false,
+                    "explanation": "O B-17 era resistente, mas nuclear era missão do B-29."
+                },
+                {
+                    "text": "B-2 Spirit",
+                    "isCorrect": false,
+                    "explanation": "O B-2 nem existia na Segunda Guerra."
+                },
+                {
+                    "text": "F-4 Phantom II",
+                    "isCorrect": false,
+                    "explanation": "O Phantom veio décadas depois."
+                }
+            ]
+        },
+        {
+            "id": "47",
+            "question": "Qual destes caças é famoso pelo uso extensivo na Guerra da Coreia?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "F-86 Sabre",
+                    "isCorrect": true,
+                    "explanation": "O F-86 Sabre duelou com MiGs no céu coreano.\nVirou sinônimo de combate a jato nos anos 50.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/F-86F_Sabre_in_flight_Korea.jpg",
+                    "imageDescription": "F-86 Sabre em voo durante a Guerra da Coreia."
+                },
+                {
+                    "text": "F-15 Eagle",
+                    "isCorrect": false,
+                    "explanation": "O F-15 só apareceu nos anos 70.\nNa Coreia, era Sabre e MiG-15."
+                },
+                {
+                    "text": "F-22 Raptor",
+                    "isCorrect": false,
+                    "explanation": "O Raptor é do século XXI.\nNa Coreia, só nos sonhos."
+                },
+                {
+                    "text": "F-4 Phantom II",
+                    "isCorrect": false,
+                    "explanation": "O Phantom veio depois, na Guerra do Vietnã."
+                }
+            ]
+        },
+        {
+            "id": "48",
+            "question": "Qual destes drones é famoso por ataques de precisão dos EUA?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "MQ-9 Reaper",
+                    "isCorrect": true,
+                    "explanation": "O MQ-9 Reaper é o predador dos céus:\ncaça, filma e ataca com precisão cirúrgica.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/MQ-9_Reaper_in_flight_%282017%29.jpg",
+                    "imageDescription": "MQ-9 Reaper em voo operacional."
+                },
+                {
+                    "text": "RQ-4 Global Hawk",
+                    "isCorrect": false,
+                    "explanation": "O Global Hawk só espiona, não ataca."
+                },
+                {
+                    "text": "Bayraktar TB2",
+                    "isCorrect": false,
+                    "explanation": "O TB2 é turco e ficou famoso em outros conflitos."
+                },
+                {
+                    "text": "Heron",
+                    "isCorrect": false,
+                    "explanation": "O Heron é israelense e prefere missões de vigilância."
+                }
+            ]
+        },
+        {
+            "id": "49",
+            "question": "Qual destes caças foi o principal rival do F-86 Sabre na Guerra da Coreia?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "MiG-15",
+                    "isCorrect": true,
+                    "explanation": "O MiG-15 era o vilão vermelho dos céus coreanos.\nDuelo clássico de Leste contra Oeste.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/MiG-15_in_flight_%28cropped%29.jpg",
+                    "imageDescription": "MiG-15 em voo, rival do F-86 Sabre."
+                },
+                {
+                    "text": "Su-27 Flanker",
+                    "isCorrect": false,
+                    "explanation": "O Su-27 é bem mais moderno.\nNa Coreia, era MiG-15 na cabeça."
+                },
+                {
+                    "text": "F-4 Phantom II",
+                    "isCorrect": false,
+                    "explanation": "O Phantom só veio depois."
+                },
+                {
+                    "text": "F-35 Lightning II",
+                    "isCorrect": false,
+                    "explanation": "O F-35 nem existia naquela época."
+                }
+            ]
+        },
+        {
+            "id": "50",
+            "question": "Qual destes aviões foi desenvolvido para guerra antissubmarino?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "P-3 Orion",
+                    "isCorrect": true,
+                    "explanation": "O P-3 Orion caça submarinos como quem procura Wi-Fi:\nlento, persistente e com sensores por todo lado.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Lockheed_P-3C_Orion_in_flight.jpg",
+                    "imageDescription": "P-3 Orion em voo de patrulha marítima."
+                },
+                {
+                    "text": "F-16 Fighting Falcon",
+                    "isCorrect": false,
+                    "explanation": "O F-16 é caça, não curte água salgada."
+                },
+                {
+                    "text": "C-130 Hercules",
+                    "isCorrect": false,
+                    "explanation": "O Hercules é transporte, não caça submarinos."
+                },
+                {
+                    "text": "A-10 Thunderbolt II",
+                    "isCorrect": false,
+                    "explanation": "O A-10 prefere tanques no deserto a submarinos no mar."
+                }
+            ]
+        },
+        {
+            "id": "51",
+            "question": "Qual destes helicópteros é famoso por operar em porta-aviões?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "SH-60 Seahawk",
+                    "isCorrect": true,
+                    "explanation": "O Seahawk é o marinheiro dos helicópteros:\npatrulha, resgata e caça submarinos no mar.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/SH-60_Seahawk_landing_on_USS_Dwight_D._Eisenhower.jpg",
+                    "imageDescription": "SH-60 Seahawk pousando em porta-aviões."
+                },
+                {
+                    "text": "AH-64 Apache",
+                    "isCorrect": false,
+                    "explanation": "O Apache prefere poeira e tanques, não água salgada."
+                },
+                {
+                    "text": "Mi-24 Hind",
+                    "isCorrect": false,
+                    "explanation": "O Hind é russo e não gosta de navio."
+                },
+                {
+                    "text": "UH-1 Huey",
+                    "isCorrect": false,
+                    "explanation": "O Huey é famoso, mas não é do mar."
+                }
+            ]
+        },
+        {
+            "id": "52",
+            "question": "Qual destes caças é conhecido por sua capacidade de supercruzeiro?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "F-22 Raptor",
+                    "isCorrect": true,
+                    "explanation": "O F-22 voa supersônico sem precisar de pós-combustão.\nÉ o Usain Bolt dos caças stealth.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/F-22_Raptor_in_flight_%28cropped%29.jpg",
+                    "imageDescription": "F-22 Raptor em voo supersônico."
+                },
+                {
+                    "text": "F-16 Fighting Falcon",
+                    "isCorrect": false,
+                    "explanation": "O F-16 é ágil, mas precisa de pós-combustão para voar supersônico."
+                },
+                {
+                    "text": "Su-25 Frogfoot",
+                    "isCorrect": false,
+                    "explanation": "O Su-25 é lento, mas resistente."
+                },
+                {
+                    "text": "A-10 Thunderbolt II",
+                    "isCorrect": false,
+                    "explanation": "O A-10 só voa rápido na descida."
+                }
+            ]
+        },
+        {
+            "id": "53",
+            "question": "Qual destes aviões é especializado em alerta aéreo antecipado (AEW)?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "E-3 Sentry",
+                    "isCorrect": true,
+                    "explanation": "O E-3 é o radar voador:\nvê tudo e todos, controla o campo de batalha do alto.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/E-3_Sentry_AWACS.jpg",
+                    "imageDescription": "E-3 Sentry AWACS em voo."
+                },
+                {
+                    "text": "F-35 Lightning II",
+                    "isCorrect": false,
+                    "explanation": "O F-35 é furtivo, mas não é radar ambulante."
+                },
+                {
+                    "text": "B-2 Spirit",
+                    "isCorrect": false,
+                    "explanation": "O B-2 prefere sumir do radar, não operar um."
+                },
+                {
+                    "text": "C-130 Hercules",
+                    "isCorrect": false,
+                    "explanation": "O Hercules transporta, não espiona."
+                }
+            ]
+        },
+        {
+            "id": "54",
+            "question": "Qual destes aviões é conhecido por sua participação na Guerra das Malvinas?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Dassault-Breguet Super Étendard",
+                    "isCorrect": true,
+                    "explanation": "O Super Étendard ficou famoso lançando Exocet nos navios britânicos.\nVirou lenda nas Malvinas.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Super_Etendard_Argentinian_Navy.jpg",
+                    "imageDescription": "Super Étendard da Marinha Argentina."
+                },
+                {
+                    "text": "F-117 Nighthawk",
+                    "isCorrect": false,
+                    "explanation": "O Nighthawk só apareceu anos depois."
+                },
+                {
+                    "text": "F-15 Eagle",
+                    "isCorrect": false,
+                    "explanation": "O F-15 não participou das Malvinas."
+                },
+                {
+                    "text": "Su-27 Flanker",
+                    "isCorrect": false,
+                    "explanation": "O Su-27 só existia nos desenhos dos engenheiros."
+                }
+            ]
+        },
+        {
+            "id": "55",
+            "question": "Qual destes caças é projetado para operar em pistas curtas e improvisadas?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Saab Viggen",
+                    "isCorrect": true,
+                    "explanation": "O Viggen pousa até em rodovia sueca!\nIdeal para fugir de bombardeio surpresa.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Saab_AJ-37_Viggen_in_flight.jpg",
+                    "imageDescription": "Saab Viggen em voo sobre a Suécia."
+                },
+                {
+                    "text": "F-22 Raptor",
+                    "isCorrect": false,
+                    "explanation": "O Raptor precisa de pista de verdade."
+                },
+                {
+                    "text": "F-15E Strike Eagle",
+                    "isCorrect": false,
+                    "explanation": "O Strike Eagle gosta de conforto na pista."
+                },
+                {
+                    "text": "Su-57 Felon",
+                    "isCorrect": false,
+                    "explanation": "O Su-57 é moderno, mas não gosta de pista improvisada."
+                }
+            ]
+        },
+        {
+            "id": "56",
+            "question": "Qual destes drones é famoso por voar em grandes altitudes e por longos períodos?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "RQ-4 Global Hawk",
+                    "isCorrect": true,
+                    "explanation": "O Global Hawk é o satélite com asas:\nvoa alto, longe e vigia tudo por dias.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/RQ-4_Global_Hawk_in_flight.jpg",
+                    "imageDescription": "RQ-4 Global Hawk em voo de reconhecimento."
+                },
+                {
+                    "text": "MQ-1 Predator",
+                    "isCorrect": false,
+                    "explanation": "O Predator voa alto, mas não tanto quanto o Global Hawk."
+                },
+                {
+                    "text": "Bayraktar TB2",
+                    "isCorrect": false,
+                    "explanation": "O TB2 voa baixo e gosta de ação rápida."
+                },
+                {
+                    "text": "Heron",
+                    "isCorrect": false,
+                    "explanation": "O Heron é persistente, mas o Global Hawk domina as alturas."
+                }
+            ]
+        },
+        {
+            "id": "57",
+            "question": "Qual destes sistemas é uma arma antiaérea de canhão autopropulsado?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Gepard",
+                    "isCorrect": true,
+                    "explanation": "O Gepard é o caçador alemão:\ncanhões duplos e radar para caçar aviões e helicópteros.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Gepard_AA_tank.jpg",
+                    "imageDescription": "Gepard antiaéreo alemão em posição de tiro."
+                },
+                {
+                    "text": "Patriot PAC-3",
+                    "isCorrect": false,
+                    "explanation": "O Patriot prefere mísseis a canhões."
+                },
+                {
+                    "text": "S-400 Triumf",
+                    "isCorrect": false,
+                    "explanation": "O S-400 só lança mísseis."
+                },
+                {
+                    "text": "NASAMS",
+                    "isCorrect": false,
+                    "explanation": "O NASAMS é só míssil, nada de canhão."
+                }
+            ]
+        },
+        {
+            "id": "58",
+            "question": "Qual destes caças foi o primeiro a usar radar de pulso-Doppler?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "F-14 Tomcat",
+                    "isCorrect": true,
+                    "explanation": "O F-14 trouxe o radar AWG-9, capaz de rastrear vários alvos a longa distância.\nEra o 'Google Maps' dos caças nos anos 70.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/F-14_Tomcat_VF-84.jpg",
+                    "imageDescription": "F-14 Tomcat em voo com pintura da VF-84."
+                },
+                {
+                    "text": "F-4 Phantom II",
+                    "isCorrect": false,
+                    "explanation": "O Phantom tinha radar, mas não era pulso-Doppler avançado."
+                },
+                {
+                    "text": "MiG-29 Fulcrum",
+                    "isCorrect": false,
+                    "explanation": "O MiG-29 veio depois, já com tecnologia aprimorada."
+                },
+                {
+                    "text": "F-15 Eagle",
+                    "isCorrect": false,
+                    "explanation": "O F-15 também usou, mas o F-14 foi pioneiro."
+                }
+            ]
+        },
+        {
+            "id": "59",
+            "question": "Qual destes aviões é famoso por sua asa de geometria variável?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "F-111 Aardvark",
+                    "isCorrect": true,
+                    "explanation": "O F-111 mudava a asa conforme a velocidade.\nEra o Transformer dos anos 60!",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/F-111F_Aardvark_in_flight.jpg",
+                    "imageDescription": "F-111 Aardvark com asas em posição intermediária."
+                },
+                {
+                    "text": "F-16 Fighting Falcon",
+                    "isCorrect": false,
+                    "explanation": "O F-16 é fixo, nada de asas móveis."
+                },
+                {
+                    "text": "Mirage 2000",
+                    "isCorrect": false,
+                    "explanation": "O Mirage é delta, não tem geometria variável."
+                },
+                {
+                    "text": "Su-35 Flanker-E",
+                    "isCorrect": false,
+                    "explanation": "O Su-35 é manobrável, mas não tem asa móvel."
+                }
+            ]
+        },
+        {
+            "id": "60",
+            "question": "Qual destes aviões foi projetado para missões de ataque ao solo e apoio aéreo aproximado?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Su-25 Frogfoot",
+                    "isCorrect": true,
+                    "explanation": "O Su-25 é o trator voador russo:\nresistente, armado e adora voar baixo para assustar tanques.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Sukhoi_Su-25_in_flight.jpg",
+                    "imageDescription": "Su-25 Frogfoot em voo baixo."
+                },
+                {
+                    "text": "Tu-160 Blackjack",
+                    "isCorrect": false,
+                    "explanation": "O Blackjack só faz ataque estratégico, não apoio próximo."
+                },
+                {
+                    "text": "Su-27 Flanker",
+                    "isCorrect": false,
+                    "explanation": "O Su-27 é caça de superioridade aérea."
+                },
+                {
+                    "text": "MiG-31 Foxhound",
+                    "isCorrect": false,
+                    "explanation": "O MiG-31 caça bombardeiros, não tanques."
+                }
+            ]
+        },
+        {
+            "id": "61",
+            "question": "Qual destes caças ficou famoso pelo uso de canards para aumentar a manobrabilidade?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Eurofighter Typhoon",
+                    "isCorrect": true,
+                    "explanation": "O Typhoon usa canards como bigodinhos de gato:\nmais agilidade, mais estilo e muita manobra!",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Eurofighter_Typhoon_in_flight_%28cropped%29.jpg",
+                    "imageDescription": "Eurofighter Typhoon em voo, destacando seus canards."
+                },
+                {
+                    "text": "F-16 Fighting Falcon",
+                    "isCorrect": false,
+                    "explanation": "O F-16 é ágil, mas não tem canards.\nSó asas e muita coragem."
+                },
+                {
+                    "text": "F-22 Raptor",
+                    "isCorrect": false,
+                    "explanation": "O F-22 é furtivo e manobrável, mas sem canards."
+                },
+                {
+                    "text": "MiG-21 Fishbed",
+                    "isCorrect": false,
+                    "explanation": "O MiG-21 é clássico, mas canards só no futuro."
+                }
+            ]
+        },
+        {
+            "id": "62",
+            "question": "Qual destes sistemas é especializado em defesa antimíssil balístico?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "THAAD",
+                    "isCorrect": true,
+                    "explanation": "O THAAD é o escudo contra mísseis balísticos:\ndetona ameaças antes que elas estraguem a festa.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/THAAD_missile_launch.jpg",
+                    "imageDescription": "Lançamento de míssil THAAD em teste."
+                },
+                {
+                    "text": "NASAMS",
+                    "isCorrect": false,
+                    "explanation": "O NASAMS é bom contra aviões e mísseis de cruzeiro,\nmas balístico é com o THAAD."
+                },
+                {
+                    "text": "Phalanx CIWS",
+                    "isCorrect": false,
+                    "explanation": "O Phalanx só pega alvos bem pertinho.\nNada de balística intercontinental."
+                },
+                {
+                    "text": "Iron Dome",
+                    "isCorrect": false,
+                    "explanation": "O Iron Dome é ótimo para foguetes curtos, mas balístico pesado é para o THAAD."
+                }
+            ]
+        },
+        {
+            "id": "63",
+            "question": "Qual destes aviões foi pioneiro no uso de fly-by-wire digital?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "F-16 Fighting Falcon",
+                    "isCorrect": true,
+                    "explanation": "O F-16 trocou cabos por computadores:\nprimeiro caça digital, voando como videogame!",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/F-16_Fighting_Falcon_in_flight.jpg",
+                    "imageDescription": "F-16 Fighting Falcon, pioneiro em fly-by-wire digital."
+                },
+                {
+                    "text": "F-4 Phantom II",
+                    "isCorrect": false,
+                    "explanation": "O Phantom é analógico raiz.\nNada de fly-by-wire digital."
+                },
+                {
+                    "text": "MiG-29 Fulcrum",
+                    "isCorrect": false,
+                    "explanation": "O MiG-29 já nasceu digital, mas o F-16 chegou antes."
+                },
+                {
+                    "text": "F-104 Starfighter",
+                    "isCorrect": false,
+                    "explanation": "O Starfighter era rápido, mas só no braço mesmo."
+                }
+            ]
+        },
+        {
+            "id": "64",
+            "question": "Qual destes caças é famoso por suas asas em delta?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Dassault Mirage III",
+                    "isCorrect": true,
+                    "explanation": "O Mirage III voa com asas delta tão afiadas quanto uma lâmina suíça.\nElegância francesa e muita velocidade.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Dassault_Mirage_III_in_flight.jpg",
+                    "imageDescription": "Dassault Mirage III em voo com asas delta."
+                },
+                {
+                    "text": "F-15 Eagle",
+                    "isCorrect": false,
+                    "explanation": "O F-15 é águia, mas prefere asas tradicionais."
+                },
+                {
+                    "text": "Su-27 Flanker",
+                    "isCorrect": false,
+                    "explanation": "O Su-27 é elegante, mas não tem delta."
+                },
+                {
+                    "text": "F-22 Raptor",
+                    "isCorrect": false,
+                    "explanation": "O Raptor é stealth, mas asas delta não fazem parte do visual."
+                }
+            ]
+        },
+        {
+            "id": "65",
+            "question": "Qual destes helicópteros é especializado em busca e salvamento em combate (CSAR)?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "HH-60 Pave Hawk",
+                    "isCorrect": true,
+                    "explanation": "O Pave Hawk é o anjo da guarda dos pilotos:\nresgata até em zona quente, com muito estilo.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/HH-60_Pave_Hawk_in_flight.jpg",
+                    "imageDescription": "HH-60 Pave Hawk em missão de resgate."
+                },
+                {
+                    "text": "CH-47 Chinook",
+                    "isCorrect": false,
+                    "explanation": "O Chinook carrega tudo, mas CSAR é para o Pave Hawk."
+                },
+                {
+                    "text": "AH-1 Cobra",
+                    "isCorrect": false,
+                    "explanation": "O Cobra ataca, não resgata."
+                },
+                {
+                    "text": "Mi-8 Hip",
+                    "isCorrect": false,
+                    "explanation": "O Mi-8 faz de tudo, mas CSAR especializado é americano."
+                }
+            ]
+        },
+        {
+            "id": "66",
+            "question": "Qual destes caças é famoso por sua participação na Guerra do Vietnã?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "F-4 Phantom II",
+                    "isCorrect": true,
+                    "explanation": "O Phantom II virou estrela no Vietnã:\nbarulhento, rápido e cheio de mísseis.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/F-4_Phantom_II_in_flight.jpg",
+                    "imageDescription": "F-4 Phantom II em voo durante a Guerra do Vietnã."
+                },
+                {
+                    "text": "F-35 Lightning II",
+                    "isCorrect": false,
+                    "explanation": "O F-35 nem existia na época do Vietnã."
+                },
+                {
+                    "text": "F-14 Tomcat",
+                    "isCorrect": false,
+                    "explanation": "O Tomcat entrou em cena depois da guerra."
+                },
+                {
+                    "text": "F-22 Raptor",
+                    "isCorrect": false,
+                    "explanation": "O Raptor só nasceu no século XXI."
+                }
+            ]
+        },
+        {
+            "id": "67",
+            "question": "Qual destes aviões é famoso por sua capacidade de decolagem curta e pouso vertical (STOVL)?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "F-35B Lightning II",
+                    "isCorrect": true,
+                    "explanation": "O F-35B faz mágica: decola curto e pousa na vertical.\nIdeal para navios pequenos e pistas improvisadas.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/09/F-35B_STOVL_test.jpg",
+                    "imageDescription": "F-35B em teste de decolagem vertical."
+                },
+                {
+                    "text": "F-16 Fighting Falcon",
+                    "isCorrect": false,
+                    "explanation": "O F-16 precisa de pista normal.\nNada de pouso vertical."
+                },
+                {
+                    "text": "F-22 Raptor",
+                    "isCorrect": false,
+                    "explanation": "O Raptor é stealth, mas não faz pouso vertical."
+                },
+                {
+                    "text": "Su-27 Flanker",
+                    "isCorrect": false,
+                    "explanation": "O Su-27 gosta de pista longa e espaço."
+                }
+            ]
+        },
+        {
+            "id": "68",
+            "question": "Qual destes aviões foi fundamental para o bombardeio estratégico aliado na Segunda Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Avro Lancaster",
+                    "isCorrect": true,
+                    "explanation": "O Lancaster era o caminhão de bombas britânico:\nvoava à noite e assustava até alemão dormindo.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Avro_Lancaster_Bomber_in_flight.jpg",
+                    "imageDescription": "Avro Lancaster em voo durante a Segunda Guerra."
+                },
+                {
+                    "text": "F-16 Fighting Falcon",
+                    "isCorrect": false,
+                    "explanation": "O F-16 só apareceu décadas depois."
+                },
+                {
+                    "text": "F-22 Raptor",
+                    "isCorrect": false,
+                    "explanation": "O Raptor só nos sonhos dos engenheiros da época."
+                },
+                {
+                    "text": "Su-25 Frogfoot",
+                    "isCorrect": false,
+                    "explanation": "O Su-25 é russo e moderno, nada de Segunda Guerra."
+                }
+            ]
+        },
+        {
+            "id": "69",
+            "question": "Qual destes caças é famoso por sua participação na Guerra do Golfo (1991)?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "F-117 Nighthawk",
+                    "isCorrect": true,
+                    "explanation": "O F-117 foi o fantasma da Guerra do Golfo:\ninvisível, preciso e assustador.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/F-117_Nighthawk_Front_View.jpg",
+                    "imageDescription": "F-117 Nighthawk em voo furtivo."
+                },
+                {
+                    "text": "F-35 Lightning II",
+                    "isCorrect": false,
+                    "explanation": "O F-35 só entrou em cena no século XXI."
+                },
+                {
+                    "text": "F-22 Raptor",
+                    "isCorrect": false,
+                    "explanation": "O Raptor ainda era segredo de laboratório."
+                },
+                {
+                    "text": "F-4 Phantom II",
+                    "isCorrect": false,
+                    "explanation": "O Phantom já estava se aposentando."
+                }
+            ]
+        },
+        {
+            "id": "70",
+            "question": "Qual destes mísseis é especializado em ataque antinavio?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Exocet",
+                    "isCorrect": true,
+                    "explanation": "O Exocet é o pesadelo dos navios:\npequeno, rápido e explosivo.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Exocet_MM40_Block_3.jpg",
+                    "imageDescription": "Míssil antinavio Exocet MM40 Block 3."
+                },
+                {
+                    "text": "AIM-9 Sidewinder",
+                    "isCorrect": false,
+                    "explanation": "O Sidewinder só gosta de aviões."
+                },
+                {
+                    "text": "Patriot PAC-3",
+                    "isCorrect": false,
+                    "explanation": "O Patriot prefere mísseis balísticos."
+                },
+                {
+                    "text": "Hellfire",
+                    "isCorrect": false,
+                    "explanation": "O Hellfire é para tanques e alvos terrestres."
+                }
+            ]
+        },
+        {
+            "id": "71",
+            "question": "Qual destes caças é famoso por seu radar de varredura eletrônica ativa (AESA)?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "F-35 Lightning II",
+                    "isCorrect": true,
+                    "explanation": "O F-35 vê tudo com seu radar AESA:\nalvos, ameaças e até o Wi-Fi do vizinho.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/F-35A_Lightning_II_in_flight.jpg",
+                    "imageDescription": "F-35 Lightning II em voo com sensores AESA."
+                },
+                {
+                    "text": "F-4 Phantom II",
+                    "isCorrect": false,
+                    "explanation": "O Phantom é analógico, nada de AESA."
+                },
+                {
+                    "text": "Su-25 Frogfoot",
+                    "isCorrect": false,
+                    "explanation": "O Frogfoot gosta de voar baixo, não de radar avançado."
+                },
+                {
+                    "text": "MiG-21 Fishbed",
+                    "isCorrect": false,
+                    "explanation": "O MiG-21 é clássico, mas sem radar AESA."
+                }
+            ]
+        },
+        {
+            "id": "72",
+            "question": "Qual destes aviões é famoso por sua função de reabastecimento aéreo estratégico?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "KC-10 Extender",
+                    "isCorrect": true,
+                    "explanation": "O KC-10 é o caminhão-pipa do céu:\nabastece bombardeiros e caças sem sair da rota.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/KC-10_Extender_in_flight.jpg",
+                    "imageDescription": "KC-10 Extender em voo de reabastecimento."
+                },
+                {
+                    "text": "F-15 Eagle",
+                    "isCorrect": false,
+                    "explanation": "O F-15 só consome combustível, não abastece ninguém."
+                },
+                {
+                    "text": "A-10 Thunderbolt II",
+                    "isCorrect": false,
+                    "explanation": "O A-10 gosta de destruir tanques, não de abastecer aviões."
+                },
+                {
+                    "text": "C-130 Hercules",
+                    "isCorrect": false,
+                    "explanation": "O C-130 transporta carga, não combustível para outros aviões."
+                }
+            ]
+        },
+        {
+            "id": "73",
+            "question": "Qual destes caças é conhecido por sua supermanobrabilidade graças ao empuxo vetorado?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Su-30MKI",
+                    "isCorrect": true,
+                    "explanation": "O Su-30MKI dança no ar com empuxo vetorado:\nfaz piruetas que até piloto de caça fica tonto.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Su-30MKI_in_flight.jpg",
+                    "imageDescription": "Su-30MKI demonstrando manobra com empuxo vetorado."
+                },
+                {
+                    "text": "F-16 Fighting Falcon",
+                    "isCorrect": false,
+                    "explanation": "O F-16 é ágil, mas não tem empuxo vetorado."
+                },
+                {
+                    "text": "F-15 Eagle",
+                    "isCorrect": false,
+                    "explanation": "O F-15 é forte, mas não faz acrobacias com empuxo vetorado."
+                },
+                {
+                    "text": "MiG-21 Fishbed",
+                    "isCorrect": false,
+                    "explanation": "O MiG-21 é clássico, mas não faz manobras radicais."
+                }
+            ]
+        },
+        {
+            "id": "74",
+            "question": "Qual destes caças foi desenvolvido em parceria entre vários países europeus?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Eurofighter Typhoon",
+                    "isCorrect": true,
+                    "explanation": "O Typhoon é o filho da união europeia:\nDNA britânico, alemão, espanhol e italiano.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Eurofighter_Typhoon_in_flight_%28cropped%29.jpg",
+                    "imageDescription": "Eurofighter Typhoon em voo."
+                },
+                {
+                    "text": "Dassault Rafale",
+                    "isCorrect": false,
+                    "explanation": "O Rafale é francês, só francês."
+                },
+                {
+                    "text": "Gripen E",
+                    "isCorrect": false,
+                    "explanation": "O Gripen é sueco, mas tem participação brasileira."
+                },
+                {
+                    "text": "F-16 Fighting Falcon",
+                    "isCorrect": false,
+                    "explanation": "O F-16 é americano, puro sangue."
+                }
+            ]
+        },
+        {
+            "id": "75",
+            "question": "Qual destes aviões é especializado em missões de guerra eletrônica?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "EA-18G Growler",
+                    "isCorrect": true,
+                    "explanation": "O Growler é o DJ do campo de batalha:\nconfunde radares e deixa o inimigo surdo.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/EA-18G_Growler_in_flight.jpg",
+                    "imageDescription": "EA-18G Growler em voo com pods de guerra eletrônica."
+                },
+                {
+                    "text": "F-15E Strike Eagle",
+                    "isCorrect": false,
+                    "explanation": "O Strike Eagle é bombardeiro tático, não DJ de guerra."
+                },
+                {
+                    "text": "A-10 Thunderbolt II",
+                    "isCorrect": false,
+                    "explanation": "O A-10 prefere destruir tanques a fazer barulho eletrônico."
+                },
+                {
+                    "text": "C-130 Hercules",
+                    "isCorrect": false,
+                    "explanation": "O Hercules transporta tudo, menos ondas de rádio."
+                }
+            ]
+        },
+        {
+            "id": "76",
+            "question": "Qual destes caças é famoso por sua participação na Guerra das Malvinas?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Sea Harrier",
+                    "isCorrect": true,
+                    "explanation": "O Sea Harrier virou lenda no Atlântico Sul:\ndecolava de navio e enfrentava tudo.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Sea_Harrier_FRS1_in_flight.jpg",
+                    "imageDescription": "Sea Harrier FRS1 britânico em voo."
+                },
+                {
+                    "text": "F-16 Fighting Falcon",
+                    "isCorrect": false,
+                    "explanation": "O F-16 ficou só assistindo de longe."
+                },
+                {
+                    "text": "Su-27 Flanker",
+                    "isCorrect": false,
+                    "explanation": "O Su-27 não participou desse conflito."
+                },
+                {
+                    "text": "F-22 Raptor",
+                    "isCorrect": false,
+                    "explanation": "O Raptor só nasceu muito depois."
+                }
+            ]
+        },
+        {
+            "id": "77",
+            "question": "Qual destes sistemas é um míssil de defesa aérea de médio alcance europeu?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "MBDA CAMM",
+                    "isCorrect": true,
+                    "explanation": "O CAMM é o guarda-costas europeu:\ndefende navios e bases com precisão.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/MBDA_CAMM_missile.jpg",
+                    "imageDescription": "Míssil MBDA CAMM em exposição."
+                },
+                {
+                    "text": "Patriot PAC-3",
+                    "isCorrect": false,
+                    "explanation": "O Patriot é americano, não europeu."
+                },
+                {
+                    "text": "S-400 Triumf",
+                    "isCorrect": false,
+                    "explanation": "O S-400 é russo, nada de Europa ocidental."
+                },
+                {
+                    "text": "Iron Dome",
+                    "isCorrect": false,
+                    "explanation": "O Iron Dome é israelense, não europeu."
+                }
+            ]
+        },
+        {
+            "id": "78",
+            "question": "Qual destes aviões é famoso por seu uso como avião espião de alta altitude?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Lockheed U-2",
+                    "isCorrect": true,
+                    "explanation": "O U-2 voa tão alto que quase conversa com astronauta.\nEspionou até a União Soviética no auge da Guerra Fria.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Lockheed_U-2S_in_flight.jpg",
+                    "imageDescription": "Lockheed U-2S em voo de reconhecimento."
+                },
+                {
+                    "text": "F-117 Nighthawk",
+                    "isCorrect": false,
+                    "explanation": "O Nighthawk é furtivo, mas não voa tão alto."
+                },
+                {
+                    "text": "F-15 Eagle",
+                    "isCorrect": false,
+                    "explanation": "O F-15 é caça, não espião."
+                },
+                {
+                    "text": "B-1B Lancer",
+                    "isCorrect": false,
+                    "explanation": "O B-1B voa rápido, mas não é espião."
+                }
+            ]
+        },
+        {
+            "id": "79",
+            "question": "Qual destes caças foi o primeiro a ser produzido em massa com tecnologia stealth?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "F-117 Nighthawk",
+                    "isCorrect": true,
+                    "explanation": "O F-117 foi o pioneiro do stealth:\ncheio de ângulos e sumia do radar.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/F-117_Nighthawk_Front_View.jpg",
+                    "imageDescription": "F-117 Nighthawk em solo, destacando seu design furtivo."
+                },
+                {
+                    "text": "F-22 Raptor",
+                    "isCorrect": false,
+                    "explanation": "O Raptor veio depois, mas o F-117 foi o pioneiro."
+                },
+                {
+                    "text": "B-2 Spirit",
+                    "isCorrect": false,
+                    "explanation": "O B-2 é bombardeiro, não caça."
+                },
+                {
+                    "text": "Su-57 Felon",
+                    "isCorrect": false,
+                    "explanation": "O Su-57 é russo e moderno, mas não foi o primeiro."
+                }
+            ]
+        },
+        {
+            "id": "80",
+            "question": "Qual destes mísseis é famoso por sua capacidade de voar a velocidades hipersônicas?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Kinzhal",
+                    "isCorrect": true,
+                    "explanation": "O Kinzhal é o velocista russo:\nvoa a mais de 10 vezes a velocidade do som, impossível de pegar no trânsito aéreo.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6b/MiG-31K_with_Kinzhal_missile.jpg",
+                    "imageDescription": "MiG-31K russo carregando míssil hipersônico Kinzhal."
+                },
+                {
+                    "text": "Tomahawk",
+                    "isCorrect": false,
+                    "explanation": "O Tomahawk é rápido, mas não chega a hipersônico."
+                },
+                {
+                    "text": "Hellfire",
+                    "isCorrect": false,
+                    "explanation": "O Hellfire é ágil, mas só em baixa velocidade."
+                },
+                {
+                    "text": "Exocet",
+                    "isCorrect": false,
+                    "explanation": "O Exocet é antinavio, mas não é hipersônico."
+                }
+            ]
+        },
+        {
+            "id": "81",
+            "question": "Qual destes caças foi projetado para operar em ambientes árticos e pistas não preparadas?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Saab J 35 Draken",
+                    "isCorrect": true,
+                    "explanation": "O Draken é sueco, feito para pousar até em estrada coberta de neve.\nFrio? Só um detalhe para ele!",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Saab_J_35_Draken_in_flight.jpg",
+                    "imageDescription": "Saab J 35 Draken em voo sobre paisagem nevada."
+                },
+                {
+                    "text": "F-22 Raptor",
+                    "isCorrect": false,
+                    "explanation": "O Raptor gosta de pistas limpas e clima controlado.\nNada de gelo no radar."
+                },
+                {
+                    "text": "MiG-29 Fulcrum",
+                    "isCorrect": false,
+                    "explanation": "O MiG-29 é robusto, mas o Draken é o rei do frio."
+                },
+                {
+                    "text": "F-4 Phantom II",
+                    "isCorrect": false,
+                    "explanation": "O Phantom voa em qualquer lugar, mas não foi feito para a neve sueca."
+                }
+            ]
+        },
+        {
+            "id": "82",
+            "question": "Qual destes sistemas é um míssil ar-ar de curto alcance russo?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "R-73",
+                    "isCorrect": true,
+                    "explanation": "O R-73 é o Sidewinder russo:\nsegue o calor e faz curva que até piloto fica tonto.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/R-73_missile.jpg",
+                    "imageDescription": "Míssil R-73 russo em exposição."
+                },
+                {
+                    "text": "AIM-120 AMRAAM",
+                    "isCorrect": false,
+                    "explanation": "O AMRAAM é americano e de longo alcance."
+                },
+                {
+                    "text": "Meteor",
+                    "isCorrect": false,
+                    "explanation": "O Meteor é europeu e de longo alcance."
+                },
+                {
+                    "text": "Exocet",
+                    "isCorrect": false,
+                    "explanation": "O Exocet é antinavio, não ar-ar."
+                }
+            ]
+        },
+        {
+            "id": "83",
+            "question": "Qual destes aviões foi o primeiro bombardeiro a jato operacional?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Arado Ar 234",
+                    "isCorrect": true,
+                    "explanation": "O Ar 234 foi o pioneiro dos bombardeiros a jato.\nVoou tão rápido que quase sumiu da história.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Arado_Ar_234_B-2_Blitz_USAF.jpg",
+                    "imageDescription": "Arado Ar 234 B-2 Blitz em museu."
+                },
+                {
+                    "text": "B-47 Stratojet",
+                    "isCorrect": false,
+                    "explanation": "O B-47 veio depois, já na era da Guerra Fria."
+                },
+                {
+                    "text": "B-52 Stratofortress",
+                    "isCorrect": false,
+                    "explanation": "O B-52 é clássico, mas não foi o primeiro a jato."
+                },
+                {
+                    "text": "B-29 Superfortress",
+                    "isCorrect": false,
+                    "explanation": "O B-29 era a pistão, nada de turbina."
+                }
+            ]
+        },
+        {
+            "id": "84",
+            "question": "Qual destes caças é famoso por sua origem naval e asas dobráveis?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "F-14 Tomcat",
+                    "isCorrect": true,
+                    "explanation": "O Tomcat dobra as asas como quem dobra camisa:\npronto para caber em qualquer porta-aviões.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/F-14D_Tomcat_VF-31.jpg",
+                    "imageDescription": "F-14 Tomcat com asas dobradas em porta-aviões."
+                },
+                {
+                    "text": "F-15 Eagle",
+                    "isCorrect": false,
+                    "explanation": "O F-15 é terrestre e não gosta de dobrar asas."
+                },
+                {
+                    "text": "F-16 Fighting Falcon",
+                    "isCorrect": false,
+                    "explanation": "O F-16 é compacto, mas não dobra nada."
+                },
+                {
+                    "text": "Su-27 Flanker",
+                    "isCorrect": false,
+                    "explanation": "O Su-27 é gigante e não cabe em porta-aviões comum."
+                }
+            ]
+        },
+        {
+            "id": "85",
+            "question": "Qual destes drones é famoso por sua autonomia e uso em vigilância estratégica global?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "RQ-4 Global Hawk",
+                    "isCorrect": true,
+                    "explanation": "O Global Hawk é o satélite com asas:\nvigia tudo por dias sem cansar.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/RQ-4_Global_Hawk_in_flight.jpg",
+                    "imageDescription": "RQ-4 Global Hawk em voo de reconhecimento."
+                },
+                {
+                    "text": "MQ-1 Predator",
+                    "isCorrect": false,
+                    "explanation": "O Predator é persistente, mas não chega tão alto nem tão longe."
+                },
+                {
+                    "text": "Bayraktar TB2",
+                    "isCorrect": false,
+                    "explanation": "O TB2 é estrela local, mas não global."
+                },
+                {
+                    "text": "Heron",
+                    "isCorrect": false,
+                    "explanation": "O Heron é bom, mas o Global Hawk é o rei da vigilância."
+                }
+            ]
+        },
+        {
+            "id": "86",
+            "question": "Qual destes helicópteros é famoso por sua função de ataque e transporte de tropas?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Mil Mi-24 Hind",
+                    "isCorrect": true,
+                    "explanation": "O Mi-24 é o tanque voador russo:\nleva soldados e dispara foguetes como se não houvesse amanhã.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Mil_Mi-24P_in_flight.jpg",
+                    "imageDescription": "Mil Mi-24 Hind armado em voo."
+                },
+                {
+                    "text": "AH-64 Apache",
+                    "isCorrect": false,
+                    "explanation": "O Apache só ataca, não leva tropa."
+                },
+                {
+                    "text": "CH-47 Chinook",
+                    "isCorrect": false,
+                    "explanation": "O Chinook transporta, mas não ataca como o Hind."
+                },
+                {
+                    "text": "UH-1 Huey",
+                    "isCorrect": false,
+                    "explanation": "O Huey é transporte raiz, ataque só com criatividade."
+                }
+            ]
+        },
+        {
+            "id": "87",
+            "question": "Qual destes aviões foi projetado para reconhecimento estratégico em altíssima velocidade?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "SR-71 Blackbird",
+                    "isCorrect": true,
+                    "explanation": "O SR-71 era tão rápido que até o radar ficava cansado.\nEspionava e sumia antes do café esfriar.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Lockheed_SR-71_Blackbird.jpg",
+                    "imageDescription": "SR-71 Blackbird em exposição."
+                },
+                {
+                    "text": "U-2 Dragon Lady",
+                    "isCorrect": false,
+                    "explanation": "O U-2 voa alto, mas não tão rápido."
+                },
+                {
+                    "text": "B-1B Lancer",
+                    "isCorrect": false,
+                    "explanation": "O B-1B é bombardeiro, não espião supersônico."
+                },
+                {
+                    "text": "F-111 Aardvark",
+                    "isCorrect": false,
+                    "explanation": "O F-111 é rápido, mas não chega perto do SR-71."
+                }
+            ]
+        },
+        {
+            "id": "88",
+            "question": "Qual destes caças foi o principal rival do F-15 Eagle durante a Guerra Fria?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "MiG-29 Fulcrum",
+                    "isCorrect": true,
+                    "explanation": "O MiG-29 era o desafiante soviético:\nágil, robusto e pronto para duelar com o F-15.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5c/MiG-29_in_flight_%28cropped%29.jpg",
+                    "imageDescription": "MiG-29 Fulcrum em voo."
+                },
+                {
+                    "text": "Su-25 Frogfoot",
+                    "isCorrect": false,
+                    "explanation": "O Su-25 é ataque ao solo, não caça de duelo."
+                },
+                {
+                    "text": "Su-24 Fencer",
+                    "isCorrect": false,
+                    "explanation": "O Su-24 é bombardeiro tático, não caça."
+                },
+                {
+                    "text": "Yak-38 Forger",
+                    "isCorrect": false,
+                    "explanation": "O Yak-38 era VTOL, mas não rivalizava com o F-15."
+                }
+            ]
+        },
+        {
+            "id": "89",
+            "question": "Qual destes sistemas é famoso por sua função de defesa antiaérea embarcada em navios?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Phalanx CIWS",
+                    "isCorrect": true,
+                    "explanation": "O Phalanx é o goleiro automático dos navios:\ndispara tanto que parece videogame de arcade.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Phalanx_CIWS_test_fire_-_081107-N-5416W-003.jpg",
+                    "imageDescription": "Sistema Phalanx CIWS disparando em teste naval."
+                },
+                {
+                    "text": "Patriot PAC-3",
+                    "isCorrect": false,
+                    "explanation": "O Patriot é para terra firme, não navio."
+                },
+                {
+                    "text": "S-400 Triumf",
+                    "isCorrect": false,
+                    "explanation": "O S-400 é terrestre, nada de navio."
+                },
+                {
+                    "text": "Iron Dome",
+                    "isCorrect": false,
+                    "explanation": "O Iron Dome é para proteger cidades, não navios."
+                }
+            ]
+        },
+        {
+            "id": "90",
+            "question": "Qual destes aviões foi desenvolvido para ser bombardeiro estratégico furtivo?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "B-2 Spirit",
+                    "isCorrect": true,
+                    "explanation": "O B-2 é o Batman dos bombardeiros:\ninvisível, silencioso e assustador.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/B-2_Spirit_bomber.jpg",
+                    "imageDescription": "B-2 Spirit em voo furtivo."
+                },
+                {
+                    "text": "B-1B Lancer",
+                    "isCorrect": false,
+                    "explanation": "O B-1B é rápido, mas não é stealth como o B-2."
+                },
+                {
+                    "text": "B-52 Stratofortress",
+                    "isCorrect": false,
+                    "explanation": "O B-52 é clássico, mas nada de furtividade."
+                },
+                {
+                    "text": "Tu-95 Bear",
+                    "isCorrect": false,
+                    "explanation": "O Tu-95 faz barulho que até urso acorda."
+                }
+            ]
+        },
+        {
+            "id": "91",
+            "question": "Qual destes caças foi desenvolvido para missões de superioridade aérea e ataque ao solo?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "F-15E Strike Eagle",
+                    "isCorrect": true,
+                    "explanation": "O Strike Eagle é o F-15 bombado:\ncaça, ataca e até faz café (quase).",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/F-15E_Strike_Eagle_in_flight.jpg",
+                    "imageDescription": "F-15E Strike Eagle em voo armado."
+                },
+                {
+                    "text": "F-104 Starfighter",
+                    "isCorrect": false,
+                    "explanation": "O Starfighter só pensa em velocidade."
+                },
+                {
+                    "text": "MiG-21 Fishbed",
+                    "isCorrect": false,
+                    "explanation": "O MiG-21 é caça puro sangue, nada de ataque ao solo."
+                },
+                {
+                    "text": "Su-25 Frogfoot",
+                    "isCorrect": false,
+                    "explanation": "O Su-25 só gosta de destruir tanques."
+                }
+            ]
+        },
+        {
+            "id": "92",
+            "question": "Qual destes drones é famoso por seu uso em ataques de precisão e vigilância pelos EUA?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "MQ-9 Reaper",
+                    "isCorrect": true,
+                    "explanation": "O MQ-9 Reaper caça, filma e ataca com precisão cirúrgica.\nÉ o predador dos céus modernos.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7d/MQ-9_Reaper_in_flight_%282017%29.jpg",
+                    "imageDescription": "MQ-9 Reaper em voo operacional."
+                },
+                {
+                    "text": "RQ-4 Global Hawk",
+                    "isCorrect": false,
+                    "explanation": "O Global Hawk só espiona, não ataca."
+                },
+                {
+                    "text": "Bayraktar TB2",
+                    "isCorrect": false,
+                    "explanation": "O TB2 é estrela turca, não americana."
+                },
+                {
+                    "text": "Heron",
+                    "isCorrect": false,
+                    "explanation": "O Heron é israelense e prefere missões de vigilância."
+                }
+            ]
+        },
+        {
+            "id": "93",
+            "question": "Qual destes caças foi o principal rival do F-14 Tomcat durante a Guerra Fria?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Su-27 Flanker",
+                    "isCorrect": true,
+                    "explanation": "O Su-27 era o desafiante soviético dos mares:\nágil, potente e pronto para duelar com o Tomcat.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Sukhoi_Su-27_in_flight.jpg",
+                    "imageDescription": "Su-27 Flanker em voo."
+                },
+                {
+                    "text": "MiG-15",
+                    "isCorrect": false,
+                    "explanation": "O MiG-15 é da era do Sabre, não do Tomcat."
+                },
+                {
+                    "text": "MiG-29 Fulcrum",
+                    "isCorrect": false,
+                    "explanation": "O MiG-29 é rival do F-15, não do Tomcat naval."
+                },
+                {
+                    "text": "Yak-38 Forger",
+                    "isCorrect": false,
+                    "explanation": "O Yak-38 era VTOL, mas não rivalizava com o F-14."
+                }
+            ]
+        },
+        {
+            "id": "94",
+            "question": "Qual destes sistemas é especializado em defesa aérea de curto alcance baseada em terra?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "NASAMS",
+                    "isCorrect": true,
+                    "explanation": "O NASAMS é o guarda-costas das cidades:\ndefende contra aviões e mísseis de cruzeiro.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4a/NASAMS_firing.jpg",
+                    "imageDescription": "Sistema NASAMS disparando míssil."
+                },
+                {
+                    "text": "THAAD",
+                    "isCorrect": false,
+                    "explanation": "O THAAD é para mísseis balísticos, não curto alcance."
+                },
+                {
+                    "text": "Patriot PAC-3",
+                    "isCorrect": false,
+                    "explanation": "O Patriot cobre médio a longo alcance."
+                },
+                {
+                    "text": "Iron Dome",
+                    "isCorrect": false,
+                    "explanation": "O Iron Dome é israelense e cobre foguetes curtos, mas NASAMS é europeu."
+                }
+            ]
+        },
+        {
+            "id": "95",
+            "question": "Qual destes aviões foi desenvolvido para substituir o F-111 em missões de ataque tático?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "F-15E Strike Eagle",
+                    "isCorrect": true,
+                    "explanation": "O Strike Eagle herdou a missão do F-111:\nvelocidade, precisão e muita bomba inteligente.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4e/F-15E_Strike_Eagle_in_flight.jpg",
+                    "imageDescription": "F-15E Strike Eagle em voo armado."
+                },
+                {
+                    "text": "F-16 Fighting Falcon",
+                    "isCorrect": false,
+                    "explanation": "O F-16 é multifunção, mas não substituiu o F-111."
+                },
+                {
+                    "text": "F-22 Raptor",
+                    "isCorrect": false,
+                    "explanation": "O Raptor é caça de superioridade, não ataque tático."
+                },
+                {
+                    "text": "B-1B Lancer",
+                    "isCorrect": false,
+                    "explanation": "O B-1B é bombardeiro estratégico, não tático."
+                }
+            ]
+        },
+        {
+            "id": "96",
+            "question": "Qual destes caças é famoso por sua participação na Guerra da Síria?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Su-34 Fullback",
+                    "isCorrect": true,
+                    "explanation": "O Su-34 virou manchete na Síria:\nbombardeiro tático russo com cara de tubarão.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Su-34_Fullback_in_flight.jpg",
+                    "imageDescription": "Su-34 Fullback em voo sobre a Síria."
+                },
+                {
+                    "text": "F-22 Raptor",
+                    "isCorrect": false,
+                    "explanation": "O Raptor esteve na região, mas o Su-34 virou notícia."
+                },
+                {
+                    "text": "F-35 Lightning II",
+                    "isCorrect": false,
+                    "explanation": "O F-35 é moderno, mas não foi destaque na Síria."
+                },
+                {
+                    "text": "F-16 Fighting Falcon",
+                    "isCorrect": false,
+                    "explanation": "O F-16 participou, mas o Su-34 roubou a cena."
+                }
+            ]
+        },
+        {
+            "id": "97",
+            "question": "Qual destes sistemas é um míssil de cruzeiro lançado do ar?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "AGM-86 ALCM",
+                    "isCorrect": true,
+                    "explanation": "O AGM-86 é o carteiro voador:\nlongo alcance, precisão e lançamento aéreo.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/AGM-86_ALCM_underwing_B-52.jpg",
+                    "imageDescription": "AGM-86 ALCM sob a asa de um B-52."
+                },
+                {
+                    "text": "Patriot PAC-3",
+                    "isCorrect": false,
+                    "explanation": "O Patriot é lançado do solo, não do ar."
+                },
+                {
+                    "text": "Hellfire",
+                    "isCorrect": false,
+                    "explanation": "O Hellfire é míssil tático, não cruzeiro de longo alcance."
+                },
+                {
+                    "text": "Iron Dome",
+                    "isCorrect": false,
+                    "explanation": "O Iron Dome só defende, não ataca do ar."
+                }
+            ]
+        },
+        {
+            "id": "98",
+            "question": "Qual destes caças é famoso por sua capacidade de combate além do alcance visual (BVR)?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "F-15 Eagle",
+                    "isCorrect": true,
+                    "explanation": "O F-15 é o sniper dos céus:\nmísseis BVR e radar de longo alcance.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/F-15C_Eagle_in_flight.jpg",
+                    "imageDescription": "F-15C Eagle em voo armado."
+                },
+                {
+                    "text": "A-10 Thunderbolt II",
+                    "isCorrect": false,
+                    "explanation": "O A-10 gosta de ver o inimigo de perto (bem de perto)."
+                },
+                {
+                    "text": "F-16 Fighting Falcon",
+                    "isCorrect": false,
+                    "explanation": "O F-16 é multifunção, mas o F-15 domina o BVR."
+                },
+                {
+                    "text": "Su-25 Frogfoot",
+                    "isCorrect": false,
+                    "explanation": "O Su-25 prefere voar baixo e atacar tanques."
+                }
+            ]
+        },
+        {
+            "id": "99",
+            "question": "Qual destes aviões é famoso por sua função de alerta aéreo antecipado embarcado em navio?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "E-2 Hawkeye",
+                    "isCorrect": true,
+                    "explanation": "O E-2 é o radar voador dos porta-aviões:\nvê longe e avisa antes do perigo chegar.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3a/E-2C_Hawkeye_on_carrier.jpg",
+                    "imageDescription": "E-2C Hawkeye em operação em porta-aviões."
+                },
+                {
+                    "text": "KC-135 Stratotanker",
+                    "isCorrect": false,
+                    "explanation": "O KC-135 só abastece, não espiona."
+                },
+                {
+                    "text": "C-130 Hercules",
+                    "isCorrect": false,
+                    "explanation": "O Hercules transporta tudo, menos radar embarcado."
+                },
+                {
+                    "text": "F-35B Lightning II",
+                    "isCorrect": false,
+                    "explanation": "O F-35B pousa em navio, mas não faz alerta antecipado."
+                }
+            ]
+        },
+        {
+            "id": "100",
+            "question": "Qual destes sistemas é um míssil balístico hipersônico chinês?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "DF-17",
+                    "isCorrect": true,
+                    "explanation": "O DF-17 é o foguete chinês supersônico:\nvoa tão rápido que até o tempo pede carona.",
+                    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3d/DF-17_missile_on_parade.jpg",
+                    "imageDescription": "DF-17 chinês em desfile militar."
+                },
+                {
+                    "text": "Tomahawk",
+                    "isCorrect": false,
+                    "explanation": "O Tomahawk é americano e subsônico."
+                },
+                {
+                    "text": "Kinzhal",
+                    "isCorrect": false,
+                    "explanation": "O Kinzhal é russo, não chinês."
+                },
+                {
+                    "text": "Patriot PAC-3",
+                    "isCorrect": false,
+                    "explanation": "O Patriot é americano e nem hipersônico é."
+                }
+            ]
+        }
+    ]
+}

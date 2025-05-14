@@ -73,6 +73,18 @@
                 "description": "Eleve seu Ki ao máximo! Teste seus conhecimentos sobre as sagas épicas, personagens poderosos e as Esferas do Dragão em Dragon Ball Z."
             },
             {
+                "id": "cavaleiros_do_zodiaco",
+                "name": "Cavaleiros do Zodíaco",
+                "file": "desenhos_e_animes/cavaleiros_do_zodiaco.json",
+                "description": "Desperte seu cosmos! Prove que você é um verdadeiro Cavaleiro de Atena com este quiz sobre as constelações e batalhas épicas."
+            },
+            {
+                "id": "dragon_ball_z",
+                "name": "Dragon Ball Z",
+                "file": "desenhos_e_animes/dragon_ball_z.json",
+                "description": "Eleve seu Ki ao máximo! Teste seus conhecimentos sobre as sagas épicas, personagens poderosos e as Esferas do Dragão em Dragon Ball Z."
+            },
+            {
                 "id": "naruto",
                 "name": "Naruto",
                 "file": "desenhos_e_animes/naruto.json",
@@ -166,7 +178,7 @@
             },
             {
                 "id": "game_of_thrones",
-                "name": "Game of Thrones",
+                "name": "Game of Thrones e A Casa do Dragão",
                 "file": "filmes_e_series/game_of_thrones.json",
                 "description": "Valar Morghulis! Prove seu conhecimento sobre as nobres casas, as batalhas sangrentas e as intrigas pelo Trono de Ferro de Westeros."
             },
@@ -184,7 +196,7 @@
             },
             {
                 "id": "senhor_dos_aneis",
-                "name": "O Senhor dos Anéis",
+                "name": "O Senhor dos Anéis e O Hobbit",
                 "file": "filmes_e_series/senhor_dos_aneis.json",
                 "description": "Uma jornada épica pela Terra-média! Mostre que você é um verdadeiro portador do anel com este quiz sobre a obra de Tolkien."
             },
@@ -256,6 +268,12 @@
                 "name": "Tecnologia Militar",
                 "file": "tecnologia_e_computacao/tecnologia_militar.json",
                 "description": "Estratégia e inovação no campo de batalha! Explore os avanços tecnológicos, desde drones a sistemas de defesa, que definem a guerra moderna."
+            },
+            {
+                "id": "tecnologia_militar_forca_aerea",
+                "name": "Tecnologia Militar - Força Aérea",
+                "file": "tecnologia_e_computacao/tecnologia_militar_forca_aerea.json",
+                "description": "Domine os céus! Teste seus conhecimentos sobre aviões, helicópteros e a evolução da aviação militar."
             }
         ]
     }

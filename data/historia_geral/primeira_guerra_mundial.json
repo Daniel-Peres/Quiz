@@ -6,142 +6,2902 @@
     },
     "data": [
         {
-            "question": "Qual evento de 1914 desencadeou a Primeira Guerra Mundial?",
+            "id": "01",
+            "question": "Qual evento é considerado o estopim imediato para o início da Primeira Guerra Mundial?",
             "level": "fácil",
             "options": [
                 {
-                    "text": "Invasão da Polônia",
+                    "text": "Invasão da Polônia pela Alemanha",
                     "isCorrect": false,
-                    "explanation": "Nããão, tá na guerra errada! A invasão da Polônia foi em 1939, estopim da Segunda Guerra. A Primeira começou com algo bem mais... dramático e inesperado!"
+                    "explanation": "Errou feio! Isso foi na Segunda Guerra.\nAprenda a diferenciar suas guerras mundiais!"
                 },
                 {
-                    "text": "Assassinato de Franz Ferdinand",
+                    "text": "Assassinato do Arquiduque Franz Ferdinand",
                     "isCorrect": true,
-                    "explanation": "Kaboom, acertou! O assassinato do arquiduque Franz Ferdinand, em 28 de junho de 1914, em Sarajevo, por Gavrilo Princip, foi a faísca que botou fogo nas alianças europeias, começando a Primeira Guerra. Um tiro que ecoou pelo mundo!",
-                    "imageUrl": "https://www.history.com/.image/t_share/MTU3ODc5MDgyNjM4NzYwNzQ3/archduke-franz-ferdinand.jpg",
-                    "imageDescription": "Imagem histórica do arquiduque Franz Ferdinand e sua esposa Sophie em Sarajevo, pouco antes do assassinato que desencadeou a Primeira Guerra Mundial."
+                    "explanation": "Acertou! Um tiro em Sarajevo que mudou o mundo.\nEssa bala mudou a história de todos.",
+                    "imageUrl": "https://www.loc.gov/photos/item/2017660678/",
+                    "imageDescription": "Carro do Arquiduque Franz Ferdinand após o atentado"
+                },
+                {
+                    "text": "Queda da Bolsa de Nova York",
+                    "isCorrect": false,
+                    "explanation": "Nada a ver! Isso foi em 1929.\nVocê está em 1914, não nos anos 30!"
                 },
                 {
                     "text": "Revolução Russa",
                     "isCorrect": false,
-                    "explanation": "Ops, errou o ano! A Revolução Russa foi em 1917, no meio da guerra. O estopim da Primeira Guerra foi algo bem mais... explosivo e nobre!"
-                },
-                {
-                    "text": "Tratado de Versalhes",
-                    "isCorrect": false,
-                    "explanation": "Nããão, tá no fim da história! O Tratado de Versalhes, de 1919, encerrou a guerra. O começo foi com um evento bem mais trágico e caótico!"
+                    "explanation": "Quase... mas isso aconteceu DURANTE a guerra.\nFoque nos eventos de julho de 1914!"
                 }
             ]
         },
         {
-            "question": "Qual era o nome do sistema de fortificações onde soldados lutavam em condições brutais durante a Primeira Guerra?",
-            "level": "fácil",
+            "id": "02",
+            "question": "Qual dessas armas foi usada pela primeira vez em larga escala na Primeira Guerra Mundial?",
+            "level": "médio",
             "options": [
                 {
-                    "text": "Muralha de Berlim",
+                    "text": "Arco e flecha",
                     "isCorrect": false,
-                    "explanation": "Nããão, tá no século errado! A Muralha de Berlim é da Guerra Fria, anos 60. Na Primeira Guerra, a luta era em algo bem mais lamacento e perigoso!"
+                    "explanation": "Errado! Isso é para Idade Média.\nAqui a tecnologia estava a todo vapor!"
                 },
                 {
-                    "text": "Trincheiras",
+                    "text": "Gás mostarda",
                     "isCorrect": true,
-                    "explanation": "Bingo, soldado! As trincheiras foram o palco da Primeira Guerra, onde soldados viviam em buracos lamacentos, enfrentando tiros, frio e até ratos. Um pesadelo que virou símbolo do conflito. Você merece uma medalha!",
-                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero/public/2020-07/trench-warfare.jpg",
-                    "imageDescription": "Imagem de soldados em uma trincheira lamacenta durante a Primeira Guerra Mundial, com equipamentos e arames farpados ao fundo, mostrando as condições brutais."
+                    "explanation": "Correto! Guerra química entrou em cena.\nSoldados precisavam de máscaras para sobreviver.",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/205022031",
+                    "imageDescription": "Soldados britânicos usando máscaras antigás em trincheira"
                 },
                 {
-                    "text": "Maginot Line",
+                    "text": "Bomba atômica",
                     "isCorrect": false,
-                    "explanation": "Quase, mas não! A Linha Maginot foi construída pela França após a Primeira Guerra, para a Segunda. Na Primeira, o negócio era mais... improvisado e sujo!"
+                    "explanation": "Muito cedo! Isso foi em 1945.\nVocê pulou 30 anos de história!"
                 },
                 {
-                    "text": "Grande Muralha",
+                    "text": "Drones aéreos",
                     "isCorrect": false,
-                    "explanation": "Nããão, viajou pra China! A Grande Muralha é de séculos atrás e não tem nada a ver com 1914. Tente algo mais europeu e enlameado!"
+                    "explanation": "Século errado! Drones são do século XXI.\nPense em tecnologia de 1914-1918!"
                 }
             ]
         },
         {
-            "question": "Qual país saiu da Primeira Guerra Mundial em 1917 após a Revolução Bolchevique?",
-            "level": "médio",
+            "id": "03",
+            "question": "Qual país fazia parte da Tríplice Entente?",
+            "level": "fácil",
             "options": [
                 {
                     "text": "Alemanha",
                     "isCorrect": false,
-                    "explanation": "Nããão, a Alemanha ficou até o fim! Eles lutaram até 1918, quando assinaram o armistício. Outro país teve uma revolução que mudou tudo antes disso!"
-                },
-                {
-                    "text": "Rússia",
-                    "isCorrect": true,
-                    "explanation": "Viva, camarada! A Rússia saiu da Primeira Guerra em 1917 após a Revolução Bolchevique, que derrubou o czar e levou ao Tratado de Brest-Litovsk com a Alemanha. Lenin e cia. disseram 'tchau' ao front e focaram na revolução!",
-                    "imageUrl": "https://www.historyextra.com/wp-content/uploads/2020/10/russian-revolution.jpg",
-                    "imageDescription": "Imagem de uma multidão durante a Revolução Bolchevique de 1917, com bandeiras vermelhas e soldados, marcando a saída da Rússia da Primeira Guerra."
+                    "explanation": "Alemanha era do outro lado, com a Tríplice Aliança.\nTente de novo!"
                 },
                 {
                     "text": "França",
-                    "isCorrect": false,
-                    "explanation": "Non, non, non! A França lutou até o final, defendendo suas trincheiras com unhas e dentes. Outro país teve um caos interno que o tirou do jogo!"
+                    "isCorrect": true,
+                    "explanation": "Isso aí! França, Reino Unido e Rússia formavam a Entente.\nUnidos contra a galera da Aliança.",
+                    "imageUrl": "https://commons.wikimedia.org/wiki/File:French_infantry_WWI.png",
+                    "imageDescription": "Infantaria francesa durante a Primeira Guerra Mundial"
                 },
                 {
                     "text": "Itália",
                     "isCorrect": false,
-                    "explanation": "Nada disso! A Itália ficou na guerra, mesmo com suas batalhas duras nos Alpes. Tente um país com uma revolução vermelha no currículo!"
+                    "explanation": "A Itália mudou de lado, mas começou na Aliança.\nHistória cheia de reviravoltas!"
+                },
+                {
+                    "text": "Turquia",
+                    "isCorrect": false,
+                    "explanation": "Turquia era parte do Império Otomano, do outro lado.\nNada de Entente por aqui!"
                 }
             ]
         },
         {
-            "question": "Qual batalha de 1916, uma das mais sangrentas da Primeira Guerra, foi travada na França e durou meses com milhões de baixas?",
-            "level": "difícil",
+            "id": "04",
+            "question": "Qual era o nome das trincheiras alemãs fortificadas na frente ocidental?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Linha Maginot",
+                    "isCorrect": false,
+                    "explanation": "Essa foi construída pelos franceses depois da guerra.\nA Alemanha estava do outro lado!"
+                },
+                {
+                    "text": "Linha Hindenburg",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Linha Hindenburg era o terror dos aliados.\nParecia impossível de atravessar.",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/205022049",
+                    "imageDescription": "Soldados alemães em trincheira da Linha Hindenburg"
+                },
+                {
+                    "text": "Linha Siegfried",
+                    "isCorrect": false,
+                    "explanation": "Quase! Siegfried foi da Segunda Guerra.\nAqui é a Primeira, lembre-se!"
+                },
+                {
+                    "text": "Linha Gustav",
+                    "isCorrect": false,
+                    "explanation": "Linha Gustav? Essa é da Itália na Segunda Guerra.\nMisturou as linhas!"
+                }
+            ]
+        },
+        {
+            "id": "05",
+            "question": "Em que ano os Estados Unidos entraram oficialmente na Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "1914",
+                    "isCorrect": false,
+                    "explanation": "Calma lá, os EUA só chegaram depois.\n1914 foi só o começo europeu!"
+                },
+                {
+                    "text": "1917",
+                    "isCorrect": true,
+                    "explanation": "Correto! Os americanos entraram em 1917.\nChegaram para dar aquele empurrão final.",
+                    "imageUrl": "https://www.loc.gov/photos/item/2016882384/",
+                    "imageDescription": "Tropas americanas desembarcando na Europa em 1917"
+                },
+                {
+                    "text": "1918",
+                    "isCorrect": false,
+                    "explanation": "Quase! Mas já estavam lutando em 1918.\nA entrada foi um ano antes."
+                },
+                {
+                    "text": "1920",
+                    "isCorrect": false,
+                    "explanation": "Não, 1920 já era pós-guerra.\nA guerra acabou em 1918!"
+                }
+            ]
+        },
+        {
+            "id": "06",
+            "question": "Qual era o nome do famoso avião de combate alemão pilotado por Manfred von Richthofen?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Spitfire",
+                    "isCorrect": false,
+                    "explanation": "Esse é britânico e da Segunda Guerra.\nRichthofen voava em outro avião!"
+                },
+                {
+                    "text": "Fokker Dr.I",
+                    "isCorrect": true,
+                    "explanation": "Isso mesmo! O Barão Vermelho voava num Fokker Dr.I.\nTriplano vermelho virou lenda.",
+                    "imageUrl": "https://commons.wikimedia.org/wiki/File:Fokker_DR1_Red_Baron.jpg",
+                    "imageDescription": "Fokker Dr.I vermelho do Barão Vermelho"
+                },
+                {
+                    "text": "Zero",
+                    "isCorrect": false,
+                    "explanation": "Zero é japonês e da Segunda Guerra.\nAqui é Alemanha e Primeira Guerra!"
+                },
+                {
+                    "text": "Biplano Camel",
+                    "isCorrect": false,
+                    "explanation": "O Camel era britânico, não alemão.\nRichthofen era o terror dos Camels!"
+                }
+            ]
+        },
+        {
+            "id": "07",
+            "question": "Qual destes países NÃO existia como nação independente durante a Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Polônia",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Polônia só voltou ao mapa depois da guerra.\nAntes era só saudade.",
+                    "imageUrl": "https://www.europeana.eu/en/item/9200579/rs7v6v5k",
+                    "imageDescription": "Mapa da Europa em 1914 sem Polônia independente"
+                },
+                {
+                    "text": "França",
+                    "isCorrect": false,
+                    "explanation": "França estava lá firme e forte.\nNada de sumiço francês!"
+                },
+                {
+                    "text": "Sérvia",
+                    "isCorrect": false,
+                    "explanation": "Sérvia existia, inclusive foi pivô do conflito.\nO atentado foi em Sarajevo!"
+                },
+                {
+                    "text": "Itália",
+                    "isCorrect": false,
+                    "explanation": "Itália era independente e participava da guerra.\nNada de sumiço italiano!"
+                }
+            ]
+        },
+        {
+            "id": "08",
+            "question": "Quem foi o líder da Rússia que abdicou do trono durante a Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Lenin",
+                    "isCorrect": false,
+                    "explanation": "Lenin chegou depois, com a Revolução.\nO czar ainda estava no comando!"
+                },
+                {
+                    "text": "Nicolau II",
+                    "isCorrect": true,
+                    "explanation": "Correto! O último czar da Rússia perdeu o trono.\nFim de uma era imperial.",
+                    "imageUrl": "https://www.loc.gov/photos/item/2001696015/",
+                    "imageDescription": "Retrato do Czar Nicolau II da Rússia"
+                },
+                {
+                    "text": "Stalin",
+                    "isCorrect": false,
+                    "explanation": "Stalin só virou líder depois da guerra.\nAqui é o tempo dos czares!"
+                },
+                {
+                    "text": "Trotsky",
+                    "isCorrect": false,
+                    "explanation": "Trotsky era revolucionário, não czar.\nO trono era de Nicolau II!"
+                }
+            ]
+        },
+        {
+            "id": "09",
+            "question": "Qual era o nome do navio britânico afundado por um submarino alemão em 1915, influenciando a entrada dos EUA na guerra?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Titanic",
+                    "isCorrect": false,
+                    "explanation": "Titanic afundou por iceberg, não por torpedo!\nE foi em 1912."
+                },
+                {
+                    "text": "Lusitania",
+                    "isCorrect": true,
+                    "explanation": "Certo! O Lusitania foi torpedeado e virou notícia mundial.\nIsso deixou os americanos bem irritados.",
+                    "imageUrl": "https://www.loc.gov/photos/item/2016647360/",
+                    "imageDescription": "Navio RMS Lusitania"
+                },
+                {
+                    "text": "Britannic",
+                    "isCorrect": false,
+                    "explanation": "Britannic afundou, mas não foi o caso famoso.\nProcure pelo Lusitania!"
+                },
+                {
+                    "text": "Queen Mary",
+                    "isCorrect": false,
+                    "explanation": "Queen Mary sobreviveu à guerra.\nNada de torpedo para ela!"
+                }
+            ]
+        },
+        {
+            "id": "10",
+            "question": "O que era a 'terra de ninguém' nas trincheiras da Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Uma terra fértil e cheia de flores",
+                    "isCorrect": false,
+                    "explanation": "Só se fossem flores de arame farpado!\nEra o oposto de jardim."
+                },
+                {
+                    "text": "O espaço entre as trincheiras inimigas",
+                    "isCorrect": true,
+                    "explanation": "Exatamente! Lugar perigoso, cheio de lama e perigo.\nNinguém queria dar um passeio por lá.",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/205022052",
+                    "imageDescription": "Paisagem devastada da terra de ninguém"
+                },
+                {
+                    "text": "Uma cidade ocupada",
+                    "isCorrect": false,
+                    "explanation": "Cidade? Era só lama, crateras e perigo.\nNada de urbanização!"
+                },
+                {
+                    "text": "Uma ilha no Pacífico",
+                    "isCorrect": false,
+                    "explanation": "A guerra foi na Europa, não no Pacífico.\nNada de ilha aqui!"
+                }
+            ]
+        },
+        {
+            "id": "11",
+            "question": "Qual destes países fazia parte da Tríplice Aliança?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Reino Unido",
+                    "isCorrect": false,
+                    "explanation": "Reino Unido era da Entente, não da Aliança.\nTente de novo!"
+                },
+                {
+                    "text": "Áustria-Hungria",
+                    "isCorrect": true,
+                    "explanation": "Correto! Alemanha, Áustria-Hungria e Itália começaram juntos.\nDepois a Itália mudou de lado.",
+                    "imageUrl": "https://commons.wikimedia.org/wiki/File:Austria-Hungary_1914.png",
+                    "imageDescription": "Mapa do Império Austro-Húngaro em 1914"
+                },
+                {
+                    "text": "Estados Unidos",
+                    "isCorrect": false,
+                    "explanation": "EUA só entraram em 1917 e do lado da Entente.\nNada de Aliança por aqui!"
+                },
+                {
+                    "text": "Rússia",
+                    "isCorrect": false,
+                    "explanation": "Rússia era inimiga da Aliança.\nNada de confusão!"
+                }
+            ]
+        },
+        {
+            "id": "12",
+            "question": "Qual foi o principal motivo da entrada do Brasil na Primeira Guerra Mundial?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Aliança com a Alemanha",
+                    "isCorrect": false,
+                    "explanation": "Brasil não era amigo da Alemanha.\nPelo contrário!"
+                },
+                {
+                    "text": "Afundamento de navios brasileiros por submarinos alemães",
+                    "isCorrect": true,
+                    "explanation": "Isso mesmo! Submarinos alemães afundaram navios brasileiros.\nAí o Brasil entrou na briga.",
+                    "imageUrl": "https://memoria.bn.br/DocReader/DocReader.aspx?bib=348970_04&pagfis=110",
+                    "imageDescription": "Jornal brasileiro noticiando ataques alemães a navios"
+                },
+                {
+                    "text": "Desejo de conquistar a Argentina",
+                    "isCorrect": false,
+                    "explanation": "Imagina só! Brasil e Argentina são rivais, mas não foi por isso.\nNada de invasão sul-americana."
+                },
+                {
+                    "text": "Vontade de mostrar a força do café",
+                    "isCorrect": false,
+                    "explanation": "O café era forte, mas não tanto assim!\nMotivo era bem mais sério."
+                }
+            ]
+        },
+        {
+            "id": "13",
+            "question": "Que tratado pôs oficialmente fim à Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Tratado de Tordesilhas",
+                    "isCorrect": false,
+                    "explanation": "Esse dividiu Brasil e Portugal, não Europa pós-guerra.\nSéculo errado!"
+                },
+                {
+                    "text": "Tratado de Versalhes",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Versalhes selou a paz (e muitos ressentimentos).\nA Alemanha não gostou nada.",
+                    "imageUrl": "https://www.loc.gov/photos/item/2003668004/",
+                    "imageDescription": "Assinatura do Tratado de Versalhes em 1919"
+                },
+                {
+                    "text": "Tratado de Paris (1783)",
+                    "isCorrect": false,
+                    "explanation": "Esse foi para a independência dos EUA.\nNada a ver com a Primeira Guerra!"
+                },
+                {
+                    "text": "Tratado de Utrecht",
+                    "isCorrect": false,
+                    "explanation": "Século XVIII, amigo!\nAqui é 1919 e Versalhes."
+                }
+            ]
+        },
+        {
+            "id": "14",
+            "question": "Qual foi o principal teatro de operações da Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Oceano Pacífico",
+                    "isCorrect": false,
+                    "explanation": "A guerra rolou mesmo foi na Europa.\nNada de praias paradisíacas!"
+                },
+                {
+                    "text": "Frente Ocidental",
+                    "isCorrect": true,
+                    "explanation": "Correto! A Frente Ocidental foi palco das trincheiras.\nMuita lama, pouca diversão.",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/205022055",
+                    "imageDescription": "Trincheiras na Frente Ocidental"
+                },
+                {
+                    "text": "Deserto do Saara",
+                    "isCorrect": false,
+                    "explanation": "Só areia e camelos por lá.\nA guerra foi mais ao norte!"
+                },
+                {
+                    "text": "Antártida",
+                    "isCorrect": false,
+                    "explanation": "Pinguins ficaram fora dessa!\nNada de guerra no gelo."
+                }
+            ]
+        },
+        {
+            "id": "15",
+            "question": "Quem era o imperador da Alemanha durante a Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Frederico II",
+                    "isCorrect": false,
+                    "explanation": "Frederico II era do século XVIII.\nA guerra era com outro kaiser!"
+                },
+                {
+                    "text": "Guilherme II",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Guilherme II era o kaiser alemão.\nSaiu do trono no final da guerra.",
+                    "imageUrl": "https://www.bundesarchiv.de/bild/183-R05148",
+                    "imageDescription": "Retrato do Kaiser Guilherme II"
+                },
+                {
+                    "text": "Otto von Bismarck",
+                    "isCorrect": false,
+                    "explanation": "Bismarck foi o chanceler, não o imperador.\nE já tinha se aposentado!"
+                },
+                {
+                    "text": "Adolf Hitler",
+                    "isCorrect": false,
+                    "explanation": "Hitler era só um soldado raso na época!\nNada de Führer ainda."
+                }
+            ]
+        },
+        {
+            "id": "16",
+            "question": "Qual destes países declarou neutralidade durante toda a Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Bélgica",
+                    "isCorrect": false,
+                    "explanation": "A Bélgica tentou, mas foi invadida logo no começo.\nNeutralidade não durou nada!"
+                },
+                {
+                    "text": "Suíça",
+                    "isCorrect": true,
+                    "explanation": "Correto! A Suíça ficou neutra, como sempre.\nNem guerra tira a paz dos chocolates.",
+                    "imageUrl": "https://commons.wikimedia.org/wiki/File:Swiss_border_WWI.jpg",
+                    "imageDescription": "Soldados suíços patrulhando a fronteira na Primeira Guerra"
+                },
+                {
+                    "text": "Sérvia",
+                    "isCorrect": false,
+                    "explanation": "Sérvia foi o estopim da guerra!\nNeutralidade passou longe."
+                },
+                {
+                    "text": "Grécia",
+                    "isCorrect": false,
+                    "explanation": "A Grécia entrou na guerra em 1917.\nNeutralidade só no começo!"
+                }
+            ]
+        },
+        {
+            "id": "17",
+            "question": "Como era chamado o famoso capacete alemão usado na Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Pickelhaube",
+                    "isCorrect": true,
+                    "explanation": "Acertou! O capacete pontudo virou símbolo alemão.\nMais estiloso do que prático.",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/30005912",
+                    "imageDescription": "Capacete Pickelhaube alemão da Primeira Guerra"
+                },
+                {
+                    "text": "Brodie",
+                    "isCorrect": false,
+                    "explanation": "Esse era britânico, em formato de tigela.\nNada de pontinha no topo!"
+                },
+                {
+                    "text": "Adrian",
+                    "isCorrect": false,
+                    "explanation": "Adrian era o capacete francês.\nOs alemães preferiam o visual pontudo."
+                },
+                {
+                    "text": "M1",
+                    "isCorrect": false,
+                    "explanation": "M1 só apareceu na Segunda Guerra.\nAqui é Primeira Guerra e Pickelhaube!"
+                }
+            ]
+        },
+        {
+            "id": "18",
+            "question": "Qual destas batalhas foi uma das mais longas e sangrentas da Primeira Guerra Mundial?",
+            "level": "médio",
             "options": [
                 {
                     "text": "Batalha de Stalingrado",
                     "isCorrect": false,
-                    "explanation": "Nããão, tá na Segunda Guerra! Stalingrado foi em 1942-43, um inferno na neve. A Primeira Guerra teve sua própria carnificina, bem mais cedo!"
+                    "explanation": "Stalingrado foi na Segunda Guerra.\nAqui estamos falando de 1916!"
                 },
                 {
-                    "text": "Batalha do Somme",
+                    "text": "Batalha de Verdun",
                     "isCorrect": true,
-                    "explanation": "Você é um historiador de trincheira! A Batalha do Somme, em 1916, foi um massacre na França, com mais de 1 milhão de baixas em meses de luta. Tanques apareceram pela primeira vez, mas a lama e o sangue marcaram a história. Parabéns, general!",
-                    "imageUrl": "https://www.nam.ac.uk/sites/default/files/2020-07/battle-of-the-somme.jpg",
-                    "imageDescription": "Imagem de soldados britânicos avançando na Batalha do Somme, com fumaça e arames farpados, retratando a intensidade do conflito de 1916."
+                    "explanation": "Correto! Verdun foi um pesadelo sem fim.\nMuitos meses e muitos soldados.",
+                    "imageUrl": "https://gallica.bnf.fr/ark:/12148/btv1b53085553s",
+                    "imageDescription": "Soldados franceses em Verdun, 1916"
                 },
                 {
-                    "text": "Batalha de Waterloo",
+                    "text": "Batalha de Midway",
                     "isCorrect": false,
-                    "explanation": "Ops, voltou um século! Waterloo foi em 1815, com Napoleão. A Primeira Guerra teve batalhas mais modernas, com metralhadoras e tudo!"
+                    "explanation": "Midway foi no Pacífico, na Segunda Guerra.\nAqui é lama e trincheira!"
                 },
                 {
-                    "text": "Batalha de Gallipoli",
+                    "text": "Batalha de Gettysburg",
                     "isCorrect": false,
-                    "explanation": "Quase, mas não! Gallipoli, em 1915, foi um desastre na Turquia. A batalha que queremos é na França, com meses de carnificina!"
+                    "explanation": "Gettysburg foi na Guerra Civil Americana.\nSéculo XIX, não XX!"
                 }
             ]
         },
         {
-            "question": "Qual arma inovadora, usada amplamente na Primeira Guerra, causava terror com ataques químicos letais?",
+            "id": "19",
+            "question": "Qual era o nome do telegrama interceptado que prometia o retorno de territórios mexicanos caso o México entrasse na guerra contra os EUA?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Telegrama de Zimmermann",
+                    "isCorrect": true,
+                    "explanation": "Isso mesmo! O Telegrama de Zimmermann quase botou México na briga.\nOs EUA não gostaram nada dessa ideia.",
+                    "imageUrl": "https://www.archives.gov/historical-docs/document/zimmermann-telegram",
+                    "imageDescription": "Telegrama de Zimmermann original"
+                },
+                {
+                    "text": "Telegrama de Brest-Litovsk",
+                    "isCorrect": false,
+                    "explanation": "Brest-Litovsk foi um tratado, não um telegrama.\nConfundiu os papéis!"
+                },
+                {
+                    "text": "Telegrama de Paris",
+                    "isCorrect": false,
+                    "explanation": "Paris mandou muitos telegramas, mas não esse.\nO nome é alemão!"
+                },
+                {
+                    "text": "Telegrama de Sarajevo",
+                    "isCorrect": false,
+                    "explanation": "Sarajevo é o estopim, mas não tem telegrama famoso.\nProcure por um nome alemão!"
+                }
+            ]
+        },
+        {
+            "id": "20",
+            "question": "Qual era o nome da política naval alemã de atacar qualquer navio, inclusive civis, sem aviso prévio?",
             "level": "médio",
             "options": [
                 {
-                    "text": "Metralhadora",
+                    "text": "Blitzkrieg",
                     "isCorrect": false,
-                    "explanation": "Nããão, as metralhadoras eram mortais, mas não químicas! Elas cuspiam balas sem parar, mudando a guerra, mas o terror que buscamos é mais... gasoso!"
+                    "explanation": "Blitzkrieg é da Segunda Guerra e é ataque rápido em terra.\nAqui é guerra submarina!"
                 },
                 {
-                    "text": "Gás venenoso",
+                    "text": "Guerra submarina irrestrita",
                     "isCorrect": true,
-                    "explanation": "Respire fundo... e acertou! O gás venenoso, como cloro e mostarda, foi usado na Primeira Guerra, causando pânico nas trincheiras. Máscaras de gás viraram moda, mas o medo era real. Você sobreviveu a esse ataque químico!",
-                    "imageUrl": "https://www.iwm.org.uk/sites/default/files/styles/hero/public/2020-07/gas-attack.jpg",
-                    "imageDescription": "Imagem de soldados usando máscaras de gás em uma trincheira durante a Primeira Guerra Mundial, protegendo-se de um ataque de gás venenoso."
+                    "explanation": "Correto! Submarinos atacavam tudo que se movia.\nNinguém estava seguro no mar.",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/205022071",
+                    "imageDescription": "Submarino alemão U-boat na Primeira Guerra"
                 },
                 {
-                    "text": "Tanque",
+                    "text": "Bloqueio continental",
                     "isCorrect": false,
-                    "explanation": "Quase, mas não! Tanques eram novidade, esmagando arames farpados, mas não químicos. Tente algo mais invisível e assustador!"
+                    "explanation": "Bloqueio continental é coisa das Guerras Napoleônicas.\nAqui é submarino na área!"
+                },
+                {
+                    "text": "Operação Barbarossa",
+                    "isCorrect": false,
+                    "explanation": "Barbarossa é invasão da URSS na Segunda Guerra.\nAqui é Primeira Guerra e mar!"
+                }
+            ]
+        },
+        {
+            "id": "21",
+            "question": "Qual país foi o principal rival do Império Otomano na campanha de Gallipoli?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Estados Unidos",
+                    "isCorrect": false,
+                    "explanation": "EUA nem estavam na guerra nesse momento.\nProcure por aliados do outro lado do mundo!"
+                },
+                {
+                    "text": "Reino Unido",
+                    "isCorrect": true,
+                    "explanation": "Correto! Britânicos (e ANZACs) tentaram invadir Gallipoli.\nMas o Império Otomano deu o troco.",
+                    "imageUrl": "https://www.awm.gov.au/collection/C55051",
+                    "imageDescription": "Soldados ANZAC em Gallipoli, 1915"
+                },
+                {
+                    "text": "França",
+                    "isCorrect": false,
+                    "explanation": "Franceses participaram, mas não eram os principais.\nO comando era britânico!"
+                },
+                {
+                    "text": "Rússia",
+                    "isCorrect": false,
+                    "explanation": "Rússia queria acesso ao mar, mas não lutou em Gallipoli.\nProcure quem veio pelo mar!"
+                }
+            ]
+        },
+        {
+            "id": "22",
+            "question": "Qual foi o papel das mulheres nas indústrias dos países em guerra?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Ficaram em casa esperando cartas",
+                    "isCorrect": false,
+                    "explanation": "Nada disso! As mulheres foram para as fábricas.\nGuerra mudou tudo para elas."
+                },
+                {
+                    "text": "Trabalharam em fábricas de munição e suprimentos",
+                    "isCorrect": true,
+                    "explanation": "Correto! Elas botaram a mão na massa (e na pólvora).\nSem elas, faltava bala até para o general.",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/205022073",
+                    "imageDescription": "Mulheres britânicas trabalhando em fábrica de munição"
+                },
+                {
+                    "text": "Foram proibidas de trabalhar",
+                    "isCorrect": false,
+                    "explanation": "Pelo contrário! Era tanto trabalho que precisaram delas.\nNada de proibição, só convite!"
+                },
+                {
+                    "text": "Foram enviadas para a linha de frente",
+                    "isCorrect": false,
+                    "explanation": "Linha de frente não, mas fábrica sim!\nElas ajudaram muito, mas sem trincheira."
+                }
+            ]
+        },
+        {
+            "id": "23",
+            "question": "Qual destas inovações tecnológicas foi desenvolvida para superar as trincheiras?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Tanque de guerra",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Os tanques foram criados para atravessar lama e arame farpado.\nPareciam tratores de outro planeta.",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/205022074",
+                    "imageDescription": "Tanque britânico Mark I em ação"
+                },
+                {
+                    "text": "Balão de ar quente",
+                    "isCorrect": false,
+                    "explanation": "Balão era bom para observar, não para atacar trincheira.\nTanque é que fazia estrago!"
+                },
+                {
+                    "text": "Catapulta",
+                    "isCorrect": false,
+                    "explanation": "Catapulta ficou na Idade Média.\nAqui é motor e lagarta!"
                 },
                 {
                     "text": "Submarino",
                     "isCorrect": false,
-                    "explanation": "Nããão, tá no mar! Submarinos, como os U-boats, afundavam navios, mas o terror químico era em terra. Tente algo que flutua no ar!"
+                    "explanation": "Submarino era para o mar, não para lama.\nTrincheira se vence com tanque!"
+                }
+            ]
+        },
+        {
+            "id": "24",
+            "question": "Qual destes países fazia parte do Império Austro-Húngaro?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Hungria",
+                    "isCorrect": true,
+                    "explanation": "Correto! O nome já entrega: Áustria-Hungria.\nDois impérios em um só.",
+                    "imageUrl": "https://www.nationalarchives.gov.uk/education/worldwarone/g4/cs3/g4cs3s3a.htm",
+                    "imageDescription": "Mapa do Império Austro-Húngaro"
+                },
+                {
+                    "text": "Noruega",
+                    "isCorrect": false,
+                    "explanation": "Noruega estava bem longe da confusão.\nNada de império por lá!"
+                },
+                {
+                    "text": "Suécia",
+                    "isCorrect": false,
+                    "explanation": "Suécia ficou neutra e fora do império.\nSó Hungria mesmo!"
+                },
+                {
+                    "text": "Bélgica",
+                    "isCorrect": false,
+                    "explanation": "Bélgica foi invadida, mas não fazia parte do império.\nSó Hungria era sócia!"
+                }
+            ]
+        },
+        {
+            "id": "25",
+            "question": "Quem era o comandante supremo das forças aliadas no final da Primeira Guerra Mundial?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Douglas Haig",
+                    "isCorrect": false,
+                    "explanation": "Haig era britânico, mas não comandava todos os aliados.\nProcure um francês!"
+                },
+                {
+                    "text": "Ferdinand Foch",
+                    "isCorrect": true,
+                    "explanation": "Isso mesmo! Foch era o chefe dos chefes.\nMandava até no general britânico.",
+                    "imageUrl": "https://gallica.bnf.fr/ark:/12148/btv1b53085553s/f1.item",
+                    "imageDescription": "Retrato do Marechal Ferdinand Foch"
+                },
+                {
+                    "text": "John Pershing",
+                    "isCorrect": false,
+                    "explanation": "Pershing era o chefe americano.\nMas o comando geral era francês!"
+                },
+                {
+                    "text": "Paul von Hindenburg",
+                    "isCorrect": false,
+                    "explanation": "Hindenburg era alemão, do outro lado!\nProcure um aliado."
+                }
+            ]
+        },
+        {
+            "id": "26",
+            "question": "Qual foi o principal objetivo do bloqueio naval britânico contra a Alemanha?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Evitar a fuga do Kaiser",
+                    "isCorrect": false,
+                    "explanation": "O Kaiser até fugiu, mas não era esse o objetivo.\nO bloqueio era para sufocar a Alemanha!"
+                },
+                {
+                    "text": "Impedir o abastecimento de suprimentos",
+                    "isCorrect": true,
+                    "explanation": "Correto! Faltou comida e combustível na Alemanha.\nO bloqueio apertou o cerco.",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/205022075",
+                    "imageDescription": "Navios britânicos patrulhando o Mar do Norte"
+                },
+                {
+                    "text": "Proteger a França",
+                    "isCorrect": false,
+                    "explanation": "Proteger a França era importante, mas o bloqueio era para sufocar a Alemanha.\nNada de proteção aqui!"
+                },
+                {
+                    "text": "Atacar submarinos alemães",
+                    "isCorrect": false,
+                    "explanation": "Os submarinos eram um problema, mas o bloqueio era para cortar suprimentos.\nNada de caça ao submarino!"
+                }
+            ]
+        },
+        {
+            "id": "27",
+            "question": "O que foi a 'Ofensiva dos Cem Dias'?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Uma ofensiva alemã que quase venceu a guerra",
+                    "isCorrect": false,
+                    "explanation": "Foi o contrário! A ofensiva foi dos aliados.\nA Alemanha só correu!"
+                },
+                {
+                    "text": "A série de ataques aliados que levou ao fim da guerra",
+                    "isCorrect": true,
+                    "explanation": "Correto! Cem dias de pressão e a Alemanha não aguentou.\nFim de jogo para os impérios centrais.",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/205022076",
+                    "imageDescription": "Tropas aliadas avançando na Ofensiva dos Cem Dias"
+                },
+                {
+                    "text": "O período de trégua entre as batalhas",
+                    "isCorrect": false,
+                    "explanation": "Trégua? Aqui foi só tiro, porrada e bomba.\nNada de descanso!"
+                },
+                {
+                    "text": "O tempo que o Kaiser ficou no poder após a guerra",
+                    "isCorrect": false,
+                    "explanation": "O Kaiser não durou cem dias depois da guerra.\nFoi embora rapidinho!"
+                }
+            ]
+        },
+        {
+            "id": "28",
+            "question": "Qual foi o impacto da gripe espanhola no final da Primeira Guerra Mundial?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Nenhum, a gripe só apareceu depois da guerra",
+                    "isCorrect": false,
+                    "explanation": "A gripe explodiu no finalzinho da guerra.\nSoldados já estavam cansados!"
+                },
+                {
+                    "text": "Matou milhões de pessoas, inclusive soldados",
+                    "isCorrect": true,
+                    "explanation": "Correto! A gripe matou mais que muita batalha.\nNem máscara de gás ajudava!",
+                    "imageUrl": "https://www.loc.gov/photos/item/2016869453/",
+                    "imageDescription": "Hospital de campanha durante a gripe espanhola"
+                },
+                {
+                    "text": "Foi restrita só à Espanha",
+                    "isCorrect": false,
+                    "explanation": "O nome é espanhol, mas a gripe foi global.\nNada de fronteiras para vírus!"
+                },
+                {
+                    "text": "Só afetou civis, não soldados",
+                    "isCorrect": false,
+                    "explanation": "Soldado também pegava gripe!\nNinguém escapou dessa."
+                }
+            ]
+        },
+        {
+            "id": "29",
+            "question": "Qual destes impérios deixou de existir após a Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Império Otomano",
+                    "isCorrect": true,
+                    "explanation": "Acertou! O Império Otomano virou história.\nNasceram vários países novos.",
+                    "imageUrl": "https://www.theworldwar.org/explore/collections/ottoman-empire",
+                    "imageDescription": "Mapa do Império Otomano antes da dissolução"
+                },
+                {
+                    "text": "Império Britânico",
+                    "isCorrect": false,
+                    "explanation": "Britânico sobreviveu por mais algumas décadas.\nO otomano é que caiu!"
+                },
+                {
+                    "text": "Império Japonês",
+                    "isCorrect": false,
+                    "explanation": "O Japão ficou de pé até 1945.\nO otomano caiu em 1918!"
+                },
+                {
+                    "text": "Império Mongol",
+                    "isCorrect": false,
+                    "explanation": "O Império Mongol já era passado há séculos.\nAqui é século XX!"
+                }
+            ]
+        },
+        {
+            "id": "30",
+            "question": "Qual foi o nome da conferência que redesenhou o mapa da Europa após a guerra?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Conferência de Potsdam",
+                    "isCorrect": false,
+                    "explanation": "Potsdam foi depois da Segunda Guerra.\nAqui é logo após a Primeira!"
+                },
+                {
+                    "text": "Conferência de Paris",
+                    "isCorrect": true,
+                    "explanation": "Correto! Paris decidiu o destino de muitos países.\nTeve tratado para todo gosto.",
+                    "imageUrl": "https://www.loc.gov/photos/item/2003668004/",
+                    "imageDescription": "Delegados na Conferência de Paz de Paris, 1919"
+                },
+                {
+                    "text": "Conferência de Berlim",
+                    "isCorrect": false,
+                    "explanation": "Berlim foi palco de outras conferências.\nAqui é Paris mesmo!"
+                },
+                {
+                    "text": "Conferência de Yalta",
+                    "isCorrect": false,
+                    "explanation": "Yalta foi na Segunda Guerra.\nParis é a resposta certa!"
+                }
+            ]
+        },
+        {
+            "id": "31",
+            "question": "Qual foi a principal causa do início da Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "A queda da Bastilha",
+                    "isCorrect": false,
+                    "explanation": "Isso foi lá na Revolução Francesa!\nAqui estamos falando de 1914, não 1789."
+                },
+                {
+                    "text": "O assassinato do arquiduque Francisco Ferdinando",
+                    "isCorrect": true,
+                    "explanation": "Correto! Um atentado em Sarajevo virou faísca para a guerra.\nQuando um tiro faz o mundo pegar fogo.",
+                    "imageUrl": "https://www.loc.gov/photos/item/2017660678/",
+                    "imageDescription": "Carro do arquiduque Franz Ferdinand após o atentado em Sarajevo"
+                },
+                {
+                    "text": "A crise dos mísseis de Cuba",
+                    "isCorrect": false,
+                    "explanation": "Essa crise foi bem depois, já no século XX.\nNada de trincheira aqui!"
+                },
+                {
+                    "text": "O ataque a Pearl Harbor",
+                    "isCorrect": false,
+                    "explanation": "Pearl Harbor é da Segunda Guerra.\nAqui é Europa, 1914!"
+                }
+            ]
+        },
+        {
+            "id": "32",
+            "question": "Qual destas batalhas ficou famosa pelo uso massivo de tanques de guerra pela primeira vez?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Batalha de Stalingrado",
+                    "isCorrect": false,
+                    "explanation": "Stalingrado foi na Segunda Guerra Mundial.\nTanques na Primeira? Procure outra batalha!"
+                },
+                {
+                    "text": "Batalha do Somme",
+                    "isCorrect": true,
+                    "explanation": "Correto! O Somme viu os primeiros tanques Mark I.\nPareciam tratores com armadura.",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/205022074",
+                    "imageDescription": "Tanque britânico Mark I na Batalha do Somme"
+                },
+                {
+                    "text": "Batalha de Midway",
+                    "isCorrect": false,
+                    "explanation": "Midway foi no Pacífico, e só tinha navio e avião.\nTanque ficou na lama da Europa!"
+                },
+                {
+                    "text": "Batalha de Gettysburg",
+                    "isCorrect": false,
+                    "explanation": "Gettysburg foi na Guerra Civil Americana.\nTanques nem existiam ainda!"
+                }
+            ]
+        },
+        {
+            "id": "33",
+            "question": "Qual país mudou de lado durante a Primeira Guerra Mundial, saindo da Tríplice Aliança para juntar-se à Entente?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Itália",
+                    "isCorrect": true,
+                    "explanation": "Acertou! A Itália trocou de time no meio do jogo.\nPolítica internacional é cheia de surpresas.",
+                    "imageUrl": "https://commons.wikimedia.org/wiki/File:Italian_troops_WWI.jpg",
+                    "imageDescription": "Soldados italianos durante a Primeira Guerra Mundial"
+                },
+                {
+                    "text": "Alemanha",
+                    "isCorrect": false,
+                    "explanation": "Alemanha ficou firme na Aliança até o fim.\nNada de troca de lado!"
+                },
+                {
+                    "text": "Rússia",
+                    "isCorrect": false,
+                    "explanation": "Rússia saiu da Entente, mas não mudou para o outro lado.\nSaiu da guerra mesmo!"
+                },
+                {
+                    "text": "Turquia",
+                    "isCorrect": false,
+                    "explanation": "Turquia (Império Otomano) ficou com a Aliança até o fim.\nNada de mudança!"
+                }
+            ]
+        },
+        {
+            "id": "34",
+            "question": "Qual destas armas NÃO foi uma novidade tecnológica da Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Metralhadora",
+                    "isCorrect": false,
+                    "explanation": "Metralhadora foi novidade e mudou tudo!\nEra tiro para todo lado."
+                },
+                {
+                    "text": "Lança-chamas",
+                    "isCorrect": false,
+                    "explanation": "Lança-chamas assustou muita gente nas trincheiras.\nEra novidade sim!"
+                },
+                {
+                    "text": "Espada longa",
+                    "isCorrect": true,
+                    "explanation": "Correto! Espada longa já era coisa antiga.\nAqui era pólvora e tecnologia.",
+                    "imageUrl": "https://commons.wikimedia.org/wiki/File:WWI_Machine_gun.jpg",
+                    "imageDescription": "Soldados operando metralhadora na Primeira Guerra"
+                },
+                {
+                    "text": "Gás tóxico",
+                    "isCorrect": false,
+                    "explanation": "Gás tóxico foi uma das armas mais temidas.\nNovidade mortal!"
+                }
+            ]
+        },
+        {
+            "id": "35",
+            "question": "Qual foi o principal motivo para a Rússia sair da Primeira Guerra Mundial?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Revolução socialista interna",
+                    "isCorrect": true,
+                    "explanation": "Correto! A Revolução Russa tirou o país do front.\nTrocaram as armas pelo martelo e foice.",
+                    "imageUrl": "https://commons.wikimedia.org/wiki/File:Russian_Revolution_1917.jpg",
+                    "imageDescription": "Manifestantes durante a Revolução Russa de 1917"
+                },
+                {
+                    "text": "Falta de soldados",
+                    "isCorrect": false,
+                    "explanation": "Faltava muita coisa, mas o principal foi a revolução.\nSoldado até tinha, mas sem comando!"
+                },
+                {
+                    "text": "Invasão japonesa",
+                    "isCorrect": false,
+                    "explanation": "Japão estava do outro lado do mundo.\nNada de invasão japonesa aqui!"
+                },
+                {
+                    "text": "Ataque nuclear",
+                    "isCorrect": false,
+                    "explanation": "Nuclear só na Segunda Guerra.\nAqui era trincheira e baioneta!"
+                }
+            ]
+        },
+        {
+            "id": "36",
+            "question": "Qual destes impérios NÃO existia mais ao final da Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Império Otomano",
+                    "isCorrect": true,
+                    "explanation": "Acertou! O Império Otomano virou história.\nNasceram vários países novos.",
+                    "imageUrl": "https://www.theworldwar.org/explore/collections/ottoman-empire",
+                    "imageDescription": "Mapa do Império Otomano antes da dissolução"
+                },
+                {
+                    "text": "Império Britânico",
+                    "isCorrect": false,
+                    "explanation": "Britânico sobreviveu por mais algumas décadas.\nO otomano é que caiu!"
+                },
+                {
+                    "text": "Império Japonês",
+                    "isCorrect": false,
+                    "explanation": "O Japão ficou de pé até 1945.\nO otomano caiu em 1918!"
+                },
+                {
+                    "text": "Império Mongol",
+                    "isCorrect": false,
+                    "explanation": "O Império Mongol já era passado há séculos.\nAqui é século XX!"
+                }
+            ]
+        },
+        {
+            "id": "37",
+            "question": "Qual foi a principal frente de batalha da Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Frente Ocidental",
+                    "isCorrect": true,
+                    "explanation": "Correto! A Frente Ocidental foi palco das trincheiras.\nMuita lama, pouca diversão.",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/205022055",
+                    "imageDescription": "Trincheiras na Frente Ocidental"
+                },
+                {
+                    "text": "Frente do Pacífico",
+                    "isCorrect": false,
+                    "explanation": "O Pacífico ficou para a Segunda Guerra.\nAqui é Europa e lama!"
+                },
+                {
+                    "text": "Frente do Saara",
+                    "isCorrect": false,
+                    "explanation": "Só areia e camelos por lá.\nA guerra foi mais ao norte!"
+                },
+                {
+                    "text": "Frente Antártica",
+                    "isCorrect": false,
+                    "explanation": "Pinguins ficaram fora dessa!\nNada de guerra no gelo."
+                }
+            ]
+        },
+        {
+            "id": "38",
+            "question": "Qual destes países NÃO fazia parte da Tríplice Entente?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Alemanha",
+                    "isCorrect": true,
+                    "explanation": "Correto! Alemanha era rival da Entente.\nNada de amizade aqui.",
+                    "imageUrl": "https://commons.wikimedia.org/wiki/File:Triple_Entente_vs_Triple_Alliance.png",
+                    "imageDescription": "Mapa das alianças na Primeira Guerra Mundial"
+                },
+                {
+                    "text": "França",
+                    "isCorrect": false,
+                    "explanation": "França era um dos pilares da Entente.\nNada de confusão!"
+                },
+                {
+                    "text": "Rússia",
+                    "isCorrect": false,
+                    "explanation": "Rússia era aliada de França e Reino Unido.\nEntente na veia!"
+                },
+                {
+                    "text": "Reino Unido",
+                    "isCorrect": false,
+                    "explanation": "Reino Unido era Entente desde o começo.\nNada de neutralidade!"
+                }
+            ]
+        },
+        {
+            "id": "39",
+            "question": "Que país foi palco do atentado que deu início à Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Sérvia",
+                    "isCorrect": false,
+                    "explanation": "A Sérvia foi envolvida, mas o atentado foi em outro país.\nProcure por Sarajevo!"
+                },
+                {
+                    "text": "Bósnia",
+                    "isCorrect": true,
+                    "explanation": "Correto! O atentado ocorreu em Sarajevo, Bósnia.\nUm tiro que mudou o mundo.",
+                    "imageUrl": "https://www.europeana.eu/en/item/9200579/rs7v6v5k",
+                    "imageDescription": "Mapa da Europa em 1914 destacando a Bósnia"
+                },
+                {
+                    "text": "Áustria",
+                    "isCorrect": false,
+                    "explanation": "Áustria era o país do arquiduque, mas o crime foi em Sarajevo.\nAtenção ao local!"
+                },
+                {
+                    "text": "França",
+                    "isCorrect": false,
+                    "explanation": "França só entrou na guerra depois.\nO atentado foi bem mais a leste!"
+                }
+            ]
+        },
+        {
+            "id": "40",
+            "question": "Qual foi o nome do tratado que impôs duras penalidades à Alemanha após a guerra?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Tratado de Tordesilhas",
+                    "isCorrect": false,
+                    "explanation": "Esse dividiu Brasil e Portugal, não Europa pós-guerra.\nSéculo errado!"
+                },
+                {
+                    "text": "Tratado de Versalhes",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Versalhes selou a paz (e muitos ressentimentos).\nA Alemanha não gostou nada.",
+                    "imageUrl": "https://www.loc.gov/photos/item/2003668004/",
+                    "imageDescription": "Assinatura do Tratado de Versalhes em 1919"
+                },
+                {
+                    "text": "Tratado de Paris (1783)",
+                    "isCorrect": false,
+                    "explanation": "Esse foi para a independência dos EUA.\nNada a ver com a Primeira Guerra!"
+                },
+                {
+                    "text": "Tratado de Utrecht",
+                    "isCorrect": false,
+                    "explanation": "Século XVIII, amigo!\nAqui é 1919 e Versalhes."
+                }
+            ]
+        },
+        {
+            "id": "41",
+            "question": "Qual destas batalhas foi a maior batalha naval da Primeira Guerra Mundial?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Batalha de Jutlândia",
+                    "isCorrect": true,
+                    "explanation": "Correto! Jutlândia foi a maior batalha naval do conflito.\nNavios para todo lado no Mar do Norte.",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/205022079",
+                    "imageDescription": "Navios britânicos na Batalha da Jutlândia"
+                },
+                {
+                    "text": "Batalha de Verdun",
+                    "isCorrect": false,
+                    "explanation": "Verdun foi batalha terrestre, não naval.\nAqui é navio e mar!"
+                },
+                {
+                    "text": "Batalha de Gallipoli",
+                    "isCorrect": false,
+                    "explanation": "Gallipoli foi importante, mas não foi a maior batalha naval.\nProcure no Mar do Norte!"
+                },
+                {
+                    "text": "Batalha de Somme",
+                    "isCorrect": false,
+                    "explanation": "Somme foi lama e trincheira.\nNada de navio por lá!"
+                }
+            ]
+        },
+        {
+            "id": "42",
+            "question": "Qual foi o impacto do uso de gás tóxico nas trincheiras?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Aumentou o pânico e as baixas entre soldados",
+                    "isCorrect": true,
+                    "explanation": "Correto! O gás trouxe terror e máscaras para as trincheiras.\nNinguém queria respirar fundo.",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/205022031",
+                    "imageDescription": "Soldados com máscaras antigás na Primeira Guerra"
+                },
+                {
+                    "text": "Fez as batalhas ficarem mais rápidas",
+                    "isCorrect": false,
+                    "explanation": "Na verdade, só aumentou o sofrimento.\nNada de agilidade aqui!"
+                },
+                {
+                    "text": "Acabou com a guerra rapidamente",
+                    "isCorrect": false,
+                    "explanation": "A guerra continuou por anos, mesmo com gás.\nNada de solução milagrosa!"
+                },
+                {
+                    "text": "Só foi usado na Segunda Guerra",
+                    "isCorrect": false,
+                    "explanation": "O gás foi estreia da Primeira Guerra.\nSegunda só repetiu a dose!"
+                }
+            ]
+        },
+        {
+            "id": "43",
+            "question": "Qual destes países NÃO fazia parte das Potências Centrais?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "França",
+                    "isCorrect": true,
+                    "explanation": "Correto! França era rival das Potências Centrais.\nNada de amizade aqui.",
+                    "imageUrl": "https://commons.wikimedia.org/wiki/File:Triple_Entente_vs_Triple_Alliance.png",
+                    "imageDescription": "Mapa das alianças na Primeira Guerra Mundial"
+                },
+                {
+                    "text": "Alemanha",
+                    "isCorrect": false,
+                    "explanation": "Alemanha era Potência Central desde o início.\nNada de Entente!"
+                },
+                {
+                    "text": "Áustria-Hungria",
+                    "isCorrect": false,
+                    "explanation": "Áustria-Hungria era Potência Central.\nNada de confusão!"
+                },
+                {
+                    "text": "Império Otomano",
+                    "isCorrect": false,
+                    "explanation": "Otomano era do lado das Potências Centrais.\nNada de neutralidade!"
+                }
+            ]
+        },
+        {
+            "id": "44",
+            "question": "Qual foi o papel dos Estados Unidos na Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Entraram em 1917 e reforçaram os Aliados",
+                    "isCorrect": true,
+                    "explanation": "Correto! Os EUA chegaram em 1917 e mudaram o rumo da guerra.\nQuando o Tio Sam entra, o jogo vira.",
+                    "imageUrl": "https://www.loc.gov/photos/item/2016882384/",
+                    "imageDescription": "Tropas americanas desembarcando na Europa em 1917"
+                },
+                {
+                    "text": "Lutaram ao lado da Alemanha",
+                    "isCorrect": false,
+                    "explanation": "Nada disso! Os EUA foram contra a Alemanha.\nNada de parceria germânica!"
+                },
+                {
+                    "text": "Foram neutros até o fim",
+                    "isCorrect": false,
+                    "explanation": "Neutros só até 1917.\nDepois entraram com força!"
+                },
+                {
+                    "text": "Declararam guerra ao Brasil",
+                    "isCorrect": false,
+                    "explanation": "Brasil e EUA eram aliados, não inimigos.\nNada de guerra entre amigos!"
+                }
+            ]
+        },
+        {
+            "id": "45",
+            "question": "Qual destes fatores NÃO foi uma causa da Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Corrida armamentista",
+                    "isCorrect": false,
+                    "explanation": "A corrida armamentista foi um dos grandes motivos.\nTodo mundo queria um canhão maior!"
+                },
+                {
+                    "text": "Imperialismo",
+                    "isCorrect": false,
+                    "explanation": "Imperialismo criou muita tensão entre as potências.\nFoi causa sim!"
+                },
+                {
+                    "text": "Nacionalismo exacerbado",
+                    "isCorrect": false,
+                    "explanation": "Nacionalismo foi combustível para a guerra.\nTodo mundo se achando melhor!"
+                },
+                {
+                    "text": "Crise dos mísseis de Cuba",
+                    "isCorrect": true,
+                    "explanation": "Correto! Crise dos mísseis é da Guerra Fria.\nAqui é pólvora, não míssil nuclear.",
+                    "imageUrl": "https://commons.wikimedia.org/wiki/File:WWI_Machine_gun.jpg",
+                    "imageDescription": "Soldados operando metralhadora na Primeira Guerra"
+                }
+            ]
+        },
+        {
+            "id": "46",
+            "question": "Qual destes países NÃO participou diretamente da Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Espanha",
+                    "isCorrect": true,
+                    "explanation": "Correto! Espanha ficou só assistindo de longe.\nNem trincheira, nem paella na guerra.",
+                    "imageUrl": "https://commons.wikimedia.org/wiki/File:Europe_1914_map.png",
+                    "imageDescription": "Mapa da Europa em 1914 destacando países neutros"
+                },
+                {
+                    "text": "França",
+                    "isCorrect": false,
+                    "explanation": "França foi palco de batalhas e trincheiras.\nNada de neutralidade por lá!"
+                },
+                {
+                    "text": "Alemanha",
+                    "isCorrect": false,
+                    "explanation": "Alemanha estava no centro da confusão.\nNada de ficar de fora!"
+                },
+                {
+                    "text": "Reino Unido",
+                    "isCorrect": false,
+                    "explanation": "Reino Unido mandou tropas para todo lado.\nNada de assistir de camarote!"
+                }
+            ]
+        },
+        {
+            "id": "47",
+            "question": "Qual era o nome da aliança formada por Alemanha, Áustria-Hungria e Itália antes da guerra?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Tríplice Aliança",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Três países, uma aliança.\nDepois a Itália mudou de lado.",
+                    "imageUrl": "https://commons.wikimedia.org/wiki/File:Triple_Alliance_1913.png",
+                    "imageDescription": "Mapa da Tríplice Aliança em 1913"
+                },
+                {
+                    "text": "Tríplice Entente",
+                    "isCorrect": false,
+                    "explanation": "Essa era a aliança dos rivais.\nAqui é a turma da Alemanha!"
+                },
+                {
+                    "text": "Liga das Nações",
+                    "isCorrect": false,
+                    "explanation": "Liga das Nações veio só depois da guerra.\nNada de aliança militar!"
+                },
+                {
+                    "text": "OTAN",
+                    "isCorrect": false,
+                    "explanation": "OTAN só surgiu no século XX, pós-Segunda Guerra.\nAqui é pré-1914!"
+                }
+            ]
+        },
+        {
+            "id": "48",
+            "question": "Qual destes escritores ficou famoso por seus poemas sobre as trincheiras da Primeira Guerra Mundial?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Wilfred Owen",
+                    "isCorrect": true,
+                    "explanation": "Correto! Owen escreveu sobre o horror das trincheiras.\nSeus poemas são de arrepiar.",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/1030018747",
+                    "imageDescription": "Retrato de Wilfred Owen, poeta da Primeira Guerra"
+                },
+                {
+                    "text": "Ernest Hemingway",
+                    "isCorrect": false,
+                    "explanation": "Hemingway lutou, mas ficou famoso depois.\nOwen é o poeta das trincheiras!"
+                },
+                {
+                    "text": "George Orwell",
+                    "isCorrect": false,
+                    "explanation": "Orwell escreveu sobre outras guerras.\nProcure um poeta do front!"
+                },
+                {
+                    "text": "Gabriel García Márquez",
+                    "isCorrect": false,
+                    "explanation": "Márquez escreveu realismo mágico, não poesia de guerra.\nNada de trincheira colombiana!"
+                }
+            ]
+        },
+        {
+            "id": "49",
+            "question": "Qual foi o principal motivo para o uso de propaganda pelos governos durante a Primeira Guerra Mundial?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Mobilizar a população e manter o moral",
+                    "isCorrect": true,
+                    "explanation": "Correto! Propaganda servia para animar e convencer.\nAté cartaz virou arma de guerra.",
+                    "imageUrl": "https://www.loc.gov/photos/item/2003668006/",
+                    "imageDescription": "Cartaz de propaganda britânico da Primeira Guerra"
+                },
+                {
+                    "text": "Vender carros de luxo",
+                    "isCorrect": false,
+                    "explanation": "Carro de luxo? Só se fosse tanque!\nPropaganda era para guerra, não para vendas."
+                },
+                {
+                    "text": "Promover turismo nas trincheiras",
+                    "isCorrect": false,
+                    "explanation": "Turismo de trincheira? Só para rato e lama.\nNada de viagem de férias!"
+                },
+                {
+                    "text": "Divulgar receitas de guerra",
+                    "isCorrect": false,
+                    "explanation": "Receita só de sopa rala.\nPropaganda era para manter o moral!"
+                }
+            ]
+        },
+        {
+            "id": "50",
+            "question": "Qual destas invenções teve grande impacto na comunicação durante a Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Rádio",
+                    "isCorrect": true,
+                    "explanation": "Correto! O rádio ajudou a coordenar tropas e ataques.\nSem WhatsApp, era no radinho mesmo.",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/205022081",
+                    "imageDescription": "Soldados usando rádio de campanha na Primeira Guerra"
+                },
+                {
+                    "text": "Telefone celular",
+                    "isCorrect": false,
+                    "explanation": "Celular só no século XXI.\nAqui era rádio pesado e fio enrolado!"
+                },
+                {
+                    "text": "Internet",
+                    "isCorrect": false,
+                    "explanation": "Internet? Só se fosse teia de aranha nas trincheiras.\nNada de Wi-Fi!"
+                },
+                {
+                    "text": "Telegrama de voz",
+                    "isCorrect": false,
+                    "explanation": "Telegrama era escrito, não falado.\nRádio era a novidade!"
+                }
+            ]
+        },
+        {
+            "id": "51",
+            "question": "Qual destes países fazia parte das Potências Centrais?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Alemanha",
+                    "isCorrect": true,
+                    "explanation": "Correto! Alemanha era o motor das Potências Centrais.\nNada de neutralidade por aqui.",
+                    "imageUrl": "https://commons.wikimedia.org/wiki/File:Triple_Entente_vs_Triple_Alliance.png",
+                    "imageDescription": "Mapa das alianças na Primeira Guerra Mundial"
+                },
+                {
+                    "text": "Estados Unidos",
+                    "isCorrect": false,
+                    "explanation": "EUA eram aliados, não centrais.\nNada de confusão!"
+                },
+                {
+                    "text": "França",
+                    "isCorrect": false,
+                    "explanation": "França era rival das Potências Centrais.\nNada de amizade aqui."
+                },
+                {
+                    "text": "Reino Unido",
+                    "isCorrect": false,
+                    "explanation": "Reino Unido era Entente.\nNada de centralidade!"
+                }
+            ]
+        },
+        {
+            "id": "52",
+            "question": "O que foi a 'paz sem anexações' proposta por Woodrow Wilson?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Paz sem tomar territórios dos derrotados",
+                    "isCorrect": true,
+                    "explanation": "Correto! Wilson queria paz sem humilhar ninguém.\nNa prática, não foi bem assim.",
+                    "imageUrl": "https://www.loc.gov/photos/item/2016869453/",
+                    "imageDescription": "Woodrow Wilson discursando sobre a paz"
+                },
+                {
+                    "text": "Paz só para os Estados Unidos",
+                    "isCorrect": false,
+                    "explanation": "Wilson pensava globalmente, não só nos EUA.\nEra paz para todos!"
+                },
+                {
+                    "text": "Paz com anexação de todos os territórios",
+                    "isCorrect": false,
+                    "explanation": "O contrário! Ele queria evitar anexações.\nNada de expansão territorial!"
+                },
+                {
+                    "text": "Paz apenas entre Alemanha e França",
+                    "isCorrect": false,
+                    "explanation": "A ideia era paz geral, não só entre dois países.\nWilson era internacionalista!"
+                }
+            ]
+        },
+        {
+            "id": "53",
+            "question": "Qual foi o papel dos pombos-correio na Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Transmitir mensagens importantes entre as linhas",
+                    "isCorrect": true,
+                    "explanation": "Correto! Pombos eram os correios mais rápidos do front.\nVoavam onde o rádio não chegava.",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/205022082",
+                    "imageDescription": "Pombo-correio militar durante a Primeira Guerra"
+                },
+                {
+                    "text": "Espionar o inimigo",
+                    "isCorrect": false,
+                    "explanation": "Pombo com binóculo? Só em desenho animado.\nAqui era só correio mesmo!"
+                },
+                {
+                    "text": "Atacar trincheiras",
+                    "isCorrect": false,
+                    "explanation": "Imagina um pombo atacando trincheira!\nSó mensagem mesmo."
+                },
+                {
+                    "text": "Levar suprimentos",
+                    "isCorrect": false,
+                    "explanation": "Pombo não carrega marmita.\nSó recado urgente!"
+                }
+            ]
+        },
+        {
+            "id": "54",
+            "question": "Qual destes países declarou guerra à Alemanha em 1917?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Estados Unidos",
+                    "isCorrect": true,
+                    "explanation": "Correto! Os EUA entraram na guerra em 1917.\nQuando chegaram, o jogo virou.",
+                    "imageUrl": "https://www.loc.gov/photos/item/2016882384/",
+                    "imageDescription": "Tropas americanas desembarcando na Europa em 1917"
+                },
+                {
+                    "text": "Espanha",
+                    "isCorrect": false,
+                    "explanation": "Espanha ficou neutra e só assistiu.\nNada de guerra para eles!"
+                },
+                {
+                    "text": "Suíça",
+                    "isCorrect": false,
+                    "explanation": "Suíça ficou neutra, como sempre.\nNada de guerra para os chocolates!"
+                },
+                {
+                    "text": "Holanda",
+                    "isCorrect": false,
+                    "explanation": "Holanda também ficou neutra.\nNada de batalha por lá!"
+                }
+            ]
+        },
+        {
+            "id": "55",
+            "question": "Qual foi o principal objetivo do Tratado de Versalhes?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Impor punições à Alemanha",
+                    "isCorrect": true,
+                    "explanation": "Correto! O tratado pegou pesado com a Alemanha.\nFoi paz com gosto de revanche.",
+                    "imageUrl": "https://www.loc.gov/photos/item/2003668004/",
+                    "imageDescription": "Assinatura do Tratado de Versalhes em 1919"
+                },
+                {
+                    "text": "Dividir a África entre os aliados",
+                    "isCorrect": false,
+                    "explanation": "A divisão da África foi antes, na Conferência de Berlim.\nAqui era castigo para alemão!"
+                },
+                {
+                    "text": "Unir Alemanha e França",
+                    "isCorrect": false,
+                    "explanation": "Unir? Eles estavam se separando cada vez mais!\nNada de amizade no pós-guerra."
+                },
+                {
+                    "text": "Criar a União Europeia",
+                    "isCorrect": false,
+                    "explanation": "A União Europeia só veio muito depois.\nAqui era cada um por si!"
+                }
+            ]
+        },
+        {
+            "id": "56",
+            "question": "Qual destes grupos étnicos buscou independência após o fim do Império Otomano?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Curdos",
+                    "isCorrect": true,
+                    "explanation": "Correto! Os curdos tentam até hoje.\nO fim do império abriu espaço para novas lutas.",
+                    "imageUrl": "https://www.theworldwar.org/explore/collections/ottoman-empire",
+                    "imageDescription": "Mapa das etnias do Império Otomano"
+                },
+                {
+                    "text": "Suecos",
+                    "isCorrect": false,
+                    "explanation": "Suecos já eram independentes há séculos.\nNada de luta por lá!"
+                },
+                {
+                    "text": "Italianos",
+                    "isCorrect": false,
+                    "explanation": "Itália já era independente.\nAqui é luta no Oriente Médio!"
+                },
+                {
+                    "text": "Chineses",
+                    "isCorrect": false,
+                    "explanation": "China estava longe do Império Otomano.\nAqui é Oriente Médio!"
+                }
+            ]
+        },
+        {
+            "id": "57",
+            "question": "Qual foi a importância do armistício de 11 de novembro de 1918?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Marcou o fim dos combates na Primeira Guerra Mundial",
+                    "isCorrect": true,
+                    "explanation": "Correto! Às 11h do dia 11/11/1918, silêncio nas trincheiras.\nFinalmente, paz (pelo menos por um tempo).",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/205022085",
+                    "imageDescription": "Soldados comemorando o armistício de 1918"
+                },
+                {
+                    "text": "Iniciou a Segunda Guerra Mundial",
+                    "isCorrect": false,
+                    "explanation": "A Segunda só veio 21 anos depois.\nAqui é o fim da Primeira!"
+                },
+                {
+                    "text": "Foi um tratado de paz definitivo",
+                    "isCorrect": false,
+                    "explanation": "O armistício foi só uma pausa.\nO tratado veio depois!"
+                },
+                {
+                    "text": "Dividiu a Alemanha em dois países",
+                    "isCorrect": false,
+                    "explanation": "Divisão da Alemanha só depois de 1945.\nAqui é só o fim do tiroteio!"
+                }
+            ]
+        },
+        {
+            "id": "58",
+            "question": "Qual destes artistas pintou cenas da Primeira Guerra Mundial?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Otto Dix",
+                    "isCorrect": true,
+                    "explanation": "Correto! Otto Dix retratou o horror das trincheiras.\nQuadros que assustam até hoje.",
+                    "imageUrl": "https://www.bundesarchiv.de/bild/183-R05148",
+                    "imageDescription": "Autorretrato de Otto Dix, veterano e artista da Primeira Guerra"
+                },
+                {
+                    "text": "Pablo Picasso",
+                    "isCorrect": false,
+                    "explanation": "Picasso pintou guerras, mas não a Primeira.\nProcure um alemão traumatizado!"
+                },
+                {
+                    "text": "Claude Monet",
+                    "isCorrect": false,
+                    "explanation": "Monet pintava jardins e nenúfares.\nNada de trincheira!"
+                },
+                {
+                    "text": "Salvador Dalí",
+                    "isCorrect": false,
+                    "explanation": "Dalí era surreal, mas não pintou a guerra.\nOtto Dix é o nome!"
+                }
+            ]
+        },
+        {
+            "id": "59",
+            "question": "Qual destas cidades foi palco de uma importante conferência de paz após a Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Paris",
+                    "isCorrect": true,
+                    "explanation": "Correto! Paris recebeu os líderes do mundo.\nTeve tratado para todo gosto.",
+                    "imageUrl": "https://www.loc.gov/photos/item/2003668004/",
+                    "imageDescription": "Delegados na Conferência de Paz de Paris, 1919"
+                },
+                {
+                    "text": "Berlim",
+                    "isCorrect": false,
+                    "explanation": "Berlim só recebeu problemas depois da guerra.\nNada de conferência por lá!"
+                },
+                {
+                    "text": "Londres",
+                    "isCorrect": false,
+                    "explanation": "Londres ficou só assistindo.\nParis foi o palco!"
+                },
+                {
+                    "text": "Moscou",
+                    "isCorrect": false,
+                    "explanation": "Moscou estava ocupada com revolução.\nNada de conferência por lá!"
+                }
+            ]
+        },
+        {
+            "id": "60",
+            "question": "Qual era o nome do exército britânico composto por voluntários dos domínios do Império?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Exército Imperial Britânico",
+                    "isCorrect": true,
+                    "explanation": "Correto! Soldados do Canadá, Austrália e outros lutaram juntos.\nO império mandou gente de todo canto.",
+                    "imageUrl": "https://www.awm.gov.au/collection/C55051",
+                    "imageDescription": "Tropas ANZAC do Império Britânico em Gallipoli"
+                },
+                {
+                    "text": "Legião Estrangeira",
+                    "isCorrect": false,
+                    "explanation": "A Legião é francesa, não britânica.\nProcure pelo império!"
+                },
+                {
+                    "text": "Força Expedicionária Brasileira",
+                    "isCorrect": false,
+                    "explanation": "Brasileira só na Segunda Guerra.\nAqui é império britânico!"
+                },
+                {
+                    "text": "Guarda Vermelha",
+                    "isCorrect": false,
+                    "explanation": "Guarda Vermelha era russa e revolucionária.\nNada de império aqui!"
+                }
+            ]
+        },
+        {
+            "id": "61",
+            "question": "Qual foi o estopim imediato da Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Assassinato do arquiduque Francisco Ferdinando",
+                    "isCorrect": true,
+                    "explanation": "Correto! Um tiro em Sarajevo e o mundo pegou fogo.\nQuando um atentado vira guerra global.",
+                    "imageUrl": "https://www.loc.gov/photos/item/2017660678/",
+                    "imageDescription": "Carro do arquiduque Franz Ferdinand após o atentado em Sarajevo"
+                },
+                {
+                    "text": "Queda da Bastilha",
+                    "isCorrect": false,
+                    "explanation": "Bastilha é da Revolução Francesa.\nAqui é início do século XX!"
+                },
+                {
+                    "text": "Ataque a Pearl Harbor",
+                    "isCorrect": false,
+                    "explanation": "Pearl Harbor é da Segunda Guerra.\nFoco em 1914!"
+                },
+                {
+                    "text": "Invasão da Polônia",
+                    "isCorrect": false,
+                    "explanation": "Polônia foi invadida na Segunda Guerra.\nO início aqui foi em Sarajevo!"
+                }
+            ]
+        },
+        {
+            "id": "62",
+            "question": "Qual país era aliado da Áustria-Hungria no início da Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Alemanha",
+                    "isCorrect": true,
+                    "explanation": "Correto! Alemanha e Áustria-Hungria eram unha e carne.\nNada de neutralidade por aqui.",
+                    "imageUrl": "https://commons.wikimedia.org/wiki/File:Triple_Entente_vs_Triple_Alliance.png",
+                    "imageDescription": "Mapa das alianças na Primeira Guerra Mundial"
+                },
+                {
+                    "text": "França",
+                    "isCorrect": false,
+                    "explanation": "França era rival, não aliada.\nNada de amizade aqui!"
+                },
+                {
+                    "text": "Rússia",
+                    "isCorrect": false,
+                    "explanation": "Rússia defendia a Sérvia.\nNada de aliança com Viena!"
+                },
+                {
+                    "text": "Reino Unido",
+                    "isCorrect": false,
+                    "explanation": "O Reino Unido estava do lado oposto.\nNada de parceria com Viena!"
+                }
+            ]
+        },
+        {
+            "id": "63",
+            "question": "Qual foi o principal motivo para a entrada dos Estados Unidos na Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Ataques de submarinos alemães a navios civis",
+                    "isCorrect": true,
+                    "explanation": "Correto! Submarinos alemães afundaram até navio de passageiro.\nOs EUA não gostaram nada disso.",
+                    "imageUrl": "https://www.loc.gov/photos/item/2016647360/",
+                    "imageDescription": "Navio RMS Lusitania, afundado por submarino alemão"
+                },
+                {
+                    "text": "Aliança com a Alemanha",
+                    "isCorrect": false,
+                    "explanation": "EUA nunca foram aliados da Alemanha.\nEntraram para derrotá-la!"
+                },
+                {
+                    "text": "Desejo de conquistar o Canadá",
+                    "isCorrect": false,
+                    "explanation": "Canadá era aliado dos EUA.\nNada de conquista por aqui!"
+                },
+                {
+                    "text": "Revolução Russa",
+                    "isCorrect": false,
+                    "explanation": "A Revolução Russa tirou a Rússia da guerra.\nEUA entraram por outro motivo!"
+                }
+            ]
+        },
+        {
+            "id": "64",
+            "question": "Qual destas batalhas ficou marcada pelo uso de gás tóxico pela primeira vez?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Batalha de Ypres",
+                    "isCorrect": true,
+                    "explanation": "Correto! Ypres viu o primeiro ataque com gás cloro.\nMáscaras viraram item de sobrevivência.",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/205022031",
+                    "imageDescription": "Soldados com máscaras antigás na Primeira Guerra"
+                },
+                {
+                    "text": "Batalha de Verdun",
+                    "isCorrect": false,
+                    "explanation": "Verdun foi sangrenta, mas o gás estreou em Ypres.\nProcure na Bélgica!"
+                },
+                {
+                    "text": "Batalha do Somme",
+                    "isCorrect": false,
+                    "explanation": "Somme teve muita lama e tanque, mas gás foi em Ypres.\nFique de olho nas inovações!"
+                },
+                {
+                    "text": "Batalha de Gallipoli",
+                    "isCorrect": false,
+                    "explanation": "Gallipoli foi na Turquia, sem gás tóxico de estreia.\nProcure na frente ocidental!"
+                }
+            ]
+        },
+        {
+            "id": "65",
+            "question": "Qual destes impérios deixou de existir após a Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Império Austro-Húngaro",
+                    "isCorrect": true,
+                    "explanation": "Correto! O império virou vários países novos.\nFim de uma era na Europa Central.",
+                    "imageUrl": "https://www.nationalarchives.gov.uk/education/worldwarone/g4/cs3/g4cs3s3a.htm",
+                    "imageDescription": "Mapa do Império Austro-Húngaro antes da dissolução"
+                },
+                {
+                    "text": "Império Britânico",
+                    "isCorrect": false,
+                    "explanation": "O britânico sobreviveu até depois da Segunda Guerra.\nO austro-húngaro caiu em 1918!"
+                },
+                {
+                    "text": "Império Japonês",
+                    "isCorrect": false,
+                    "explanation": "O Japão ficou de pé até 1945.\nO austro-húngaro caiu antes!"
+                },
+                {
+                    "text": "Império Mongol",
+                    "isCorrect": false,
+                    "explanation": "O Império Mongol já era passado há séculos.\nAqui é século XX!"
+                }
+            ]
+        },
+        {
+            "id": "66",
+            "question": "Qual destas armas foi uma das grandes novidades tecnológicas da Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Tanque de guerra",
+                    "isCorrect": true,
+                    "explanation": "Correto! Tanques foram criados para vencer trincheiras.\nPareciam tratores blindados.",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/205022074",
+                    "imageDescription": "Tanque britânico Mark I em ação"
+                },
+                {
+                    "text": "Espada longa",
+                    "isCorrect": false,
+                    "explanation": "Espada longa já era coisa do passado.\nAqui é motor e lagarta!"
+                },
+                {
+                    "text": "Besta medieval",
+                    "isCorrect": false,
+                    "explanation": "Besta era arma da Idade Média.\nAqui é tecnologia moderna!"
+                },
+                {
+                    "text": "Catapulta",
+                    "isCorrect": false,
+                    "explanation": "Catapulta ficou para trás há séculos.\nTanque é que era novidade!"
+                }
+            ]
+        },
+        {
+            "id": "67",
+            "question": "Qual era o nome do plano alemão para invadir a França rapidamente pelo norte?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Plano Schlieffen",
+                    "isCorrect": true,
+                    "explanation": "Correto! O plano era dar a volta pela Bélgica.\nMas acabou virando guerra de trincheiras.",
+                    "imageUrl": "https://www.nationalarchives.gov.uk/education/worldwarone/g3/cs1/g3cs1s2a.htm",
+                    "imageDescription": "Mapa do Plano Schlieffen de invasão pela Bélgica"
+                },
+                {
+                    "text": "Plano Marshall",
+                    "isCorrect": false,
+                    "explanation": "Plano Marshall foi para reconstrução pós-Segunda Guerra.\nAqui é plano de ataque rápido!"
+                },
+                {
+                    "text": "Plano Molotov",
+                    "isCorrect": false,
+                    "explanation": "Molotov é pacto com a Alemanha na Segunda Guerra.\nAqui é plano alemão de 1914!"
+                },
+                {
+                    "text": "Plano Barbarossa",
+                    "isCorrect": false,
+                    "explanation": "Barbarossa foi invasão da URSS em 1941.\nAqui é Primeira Guerra!"
+                }
+            ]
+        },
+        {
+            "id": "68",
+            "question": "Qual destas cidades foi palco da assinatura do tratado que pôs fim à guerra?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Versalhes",
+                    "isCorrect": true,
+                    "explanation": "Correto! O Tratado de Versalhes encerrou oficialmente a guerra.\nMas deixou muita gente insatisfeita.",
+                    "imageUrl": "https://www.loc.gov/photos/item/2003668004/",
+                    "imageDescription": "Assinatura do Tratado de Versalhes em 1919"
+                },
+                {
+                    "text": "Berlim",
+                    "isCorrect": false,
+                    "explanation": "Berlim só recebeu problemas depois da guerra.\nO tratado foi assinado na França!"
+                },
+                {
+                    "text": "Londres",
+                    "isCorrect": false,
+                    "explanation": "Londres ficou só assistindo.\nVersalhes foi o palco!"
+                },
+                {
+                    "text": "Moscou",
+                    "isCorrect": false,
+                    "explanation": "Moscou estava ocupada com revolução.\nNada de tratado por lá!"
+                }
+            ]
+        },
+        {
+            "id": "69",
+            "question": "Qual destes países NÃO fazia parte da Tríplice Entente?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Alemanha",
+                    "isCorrect": true,
+                    "explanation": "Correto! Alemanha era rival da Entente.\nNada de amizade aqui.",
+                    "imageUrl": "https://commons.wikimedia.org/wiki/File:Triple_Entente_vs_Triple_Alliance.png",
+                    "imageDescription": "Mapa das alianças na Primeira Guerra Mundial"
+                },
+                {
+                    "text": "França",
+                    "isCorrect": false,
+                    "explanation": "França era um dos pilares da Entente.\nNada de confusão!"
+                },
+                {
+                    "text": "Rússia",
+                    "isCorrect": false,
+                    "explanation": "Rússia era aliada de França e Reino Unido.\nEntente na veia!"
+                },
+                {
+                    "text": "Reino Unido",
+                    "isCorrect": false,
+                    "explanation": "Reino Unido era Entente desde o começo.\nNada de neutralidade!"
+                }
+            ]
+        },
+        {
+            "id": "70",
+            "question": "Qual destas batalhas foi a maior batalha naval da Primeira Guerra Mundial?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Batalha da Jutlândia",
+                    "isCorrect": true,
+                    "explanation": "Correto! Jutlândia foi a maior batalha naval do conflito.\nNavios para todo lado no Mar do Norte.",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/205022079",
+                    "imageDescription": "Navios britânicos na Batalha da Jutlândia"
+                },
+                {
+                    "text": "Batalha de Verdun",
+                    "isCorrect": false,
+                    "explanation": "Verdun foi batalha terrestre, não naval.\nAqui é navio e mar!"
+                },
+                {
+                    "text": "Batalha de Gallipoli",
+                    "isCorrect": false,
+                    "explanation": "Gallipoli foi importante, mas não foi a maior batalha naval.\nProcure no Mar do Norte!"
+                },
+                {
+                    "text": "Batalha de Somme",
+                    "isCorrect": false,
+                    "explanation": "Somme foi lama e trincheira.\nNada de navio por lá!"
+                }
+            ]
+        },
+        {
+            "id": "71",
+            "question": "Qual destas frases descreve melhor a guerra de trincheiras?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Combate estático, lama e muita espera",
+                    "isCorrect": true,
+                    "explanation": "Correto! Trincheira era sinônimo de lama, rato e tédio.\nNada de avanço rápido!",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/205022052",
+                    "imageDescription": "Soldados em trincheiras na Frente Ocidental"
+                },
+                {
+                    "text": "Ataques rápidos e grandes avanços",
+                    "isCorrect": false,
+                    "explanation": "Isso foi só no começo.\nDepois, o ritmo caiu e a lama reinou!"
+                },
+                {
+                    "text": "Batalhas navais constantes",
+                    "isCorrect": false,
+                    "explanation": "Trincheira era terra firme, nada de mar.\nProcure por lama e arame farpado!"
+                },
+                {
+                    "text": "Conflito apenas aéreo",
+                    "isCorrect": false,
+                    "explanation": "Avião era novidade, mas trincheira era o palco principal.\nNada de céu aberto!"
+                }
+            ]
+        },
+        {
+            "id": "72",
+            "question": "Qual destas inovações facilitou a comunicação entre as tropas na Primeira Guerra?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Rádio",
+                    "isCorrect": true,
+                    "explanation": "Correto! O rádio ajudou a coordenar tropas e ataques.\nSem WhatsApp, era no radinho mesmo.",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/205022081",
+                    "imageDescription": "Soldados usando rádio de campanha na Primeira Guerra"
+                },
+                {
+                    "text": "Internet",
+                    "isCorrect": false,
+                    "explanation": "Internet? Só se fosse teia de aranha nas trincheiras.\nNada de Wi-Fi!"
+                },
+                {
+                    "text": "Telefone celular",
+                    "isCorrect": false,
+                    "explanation": "Celular só no século XXI.\nAqui era rádio pesado e fio enrolado!"
+                },
+                {
+                    "text": "Telegrama de voz",
+                    "isCorrect": false,
+                    "explanation": "Telegrama era escrito, não falado.\nRádio era a novidade!"
+                }
+            ]
+        },
+        {
+            "id": "73",
+            "question": "Qual foi o principal objetivo do bloqueio naval britânico contra a Alemanha?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Impedir o abastecimento de suprimentos",
+                    "isCorrect": true,
+                    "explanation": "Correto! Faltou comida e combustível na Alemanha.\nO bloqueio apertou o cerco.",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/205022075",
+                    "imageDescription": "Navios britânicos patrulhando o Mar do Norte"
+                },
+                {
+                    "text": "Evitar a fuga do Kaiser",
+                    "isCorrect": false,
+                    "explanation": "O Kaiser até fugiu, mas não era esse o objetivo.\nO bloqueio era para sufocar a Alemanha!"
+                },
+                {
+                    "text": "Proteger a França",
+                    "isCorrect": false,
+                    "explanation": "Proteger a França era importante, mas o bloqueio era para sufocar a Alemanha.\nNada de proteção aqui!"
+                },
+                {
+                    "text": "Atacar submarinos alemães",
+                    "isCorrect": false,
+                    "explanation": "Os submarinos eram um problema, mas o bloqueio era para cortar suprimentos.\nNada de caça ao submarino!"
+                }
+            ]
+        },
+        {
+            "id": "74",
+            "question": "Qual destes países permaneceu neutro durante toda a Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Suíça",
+                    "isCorrect": true,
+                    "explanation": "Correto! A Suíça ficou neutra, como sempre.\nNem guerra tira a paz dos chocolates.",
+                    "imageUrl": "https://commons.wikimedia.org/wiki/File:Swiss_border_WWI.jpg",
+                    "imageDescription": "Soldados suíços patrulhando a fronteira na Primeira Guerra"
+                },
+                {
+                    "text": "Bélgica",
+                    "isCorrect": false,
+                    "explanation": "A Bélgica tentou, mas foi invadida logo no começo.\nNeutralidade não durou nada!"
+                },
+                {
+                    "text": "Grécia",
+                    "isCorrect": false,
+                    "explanation": "A Grécia entrou na guerra em 1917.\nNeutralidade só no começo!"
+                },
+                {
+                    "text": "Sérvia",
+                    "isCorrect": false,
+                    "explanation": "Sérvia foi o estopim da guerra!\nNeutralidade passou longe."
+                }
+            ]
+        },
+        {
+            "id": "75",
+            "question": "Qual destas consequências foi direta da Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Criação da Liga das Nações",
+                    "isCorrect": true,
+                    "explanation": "Correto! A Liga foi criada para evitar outra guerra.\nSpoiler: não deu muito certo.",
+                    "imageUrl": "https://www.loc.gov/photos/item/2003668004/",
+                    "imageDescription": "Delegados da Liga das Nações após a Primeira Guerra"
+                },
+                {
+                    "text": "Invenção da internet",
+                    "isCorrect": false,
+                    "explanation": "Internet só veio quase um século depois.\nAqui foi Liga das Nações!"
+                },
+                {
+                    "text": "Construção do Muro de Berlim",
+                    "isCorrect": false,
+                    "explanation": "O muro é da Guerra Fria.\nAqui é paz (ou quase) em 1919!"
+                },
+                {
+                    "text": "Primeiro pouso na Lua",
+                    "isCorrect": false,
+                    "explanation": "Lua só em 1969.\nAqui é Liga das Nações e tratados!"
+                }
+            ]
+        },
+        {
+            "id": "76",
+            "question": "Qual destas batalhas foi uma das mais sangrentas da Primeira Guerra Mundial, com uso inédito de tanques?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Batalha do Somme",
+                    "isCorrect": true,
+                    "explanation": "Correto! O Somme foi lama, sangue e estreia dos tanques.\nSó no primeiro dia, 19 mil britânicos morreram.",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/205022074",
+                    "imageDescription": "Tanque Mark I britânico na Batalha do Somme"
+                },
+                {
+                    "text": "Batalha de Stalingrado",
+                    "isCorrect": false,
+                    "explanation": "Stalingrado é da Segunda Guerra.\nAqui é trincheira e lama em 1916!"
+                },
+                {
+                    "text": "Batalha de Midway",
+                    "isCorrect": false,
+                    "explanation": "Midway foi no Pacífico, só navio e avião.\nNada de tanque por lá!"
+                },
+                {
+                    "text": "Batalha de Caporetto",
+                    "isCorrect": false,
+                    "explanation": "Caporetto foi importante, mas tanques estrearam no Somme.\nProcure pela lama francesa!"
+                }
+            ]
+        },
+        {
+            "id": "77",
+            "question": "Qual país saiu da guerra após a Revolução de 1917?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Rússia",
+                    "isCorrect": true,
+                    "explanation": "Correto! A Revolução Russa tirou o país da guerra.\nTrocaram as armas pelo martelo e foice.",
+                    "imageUrl": "https://commons.wikimedia.org/wiki/File:Russian_Revolution_1917.jpg",
+                    "imageDescription": "Manifestantes durante a Revolução Russa de 1917"
+                },
+                {
+                    "text": "França",
+                    "isCorrect": false,
+                    "explanation": "França ficou até o fim na guerra.\nNada de revolução em Paris!"
+                },
+                {
+                    "text": "Alemanha",
+                    "isCorrect": false,
+                    "explanation": "Alemanha só saiu no final, já derrotada.\nAqui é saída revolucionária!"
+                },
+                {
+                    "text": "Itália",
+                    "isCorrect": false,
+                    "explanation": "Itália ficou até o fim, apesar dos sustos.\nNada de revolução por lá!"
+                }
+            ]
+        },
+        {
+            "id": "78",
+            "question": "Qual foi o nome do plano alemão para invadir rapidamente a França pelo território belga?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Plano Schlieffen",
+                    "isCorrect": true,
+                    "explanation": "Correto! O plano era dar a volta pela Bélgica.\nMas acabou em guerra de trincheiras.",
+                    "imageUrl": "https://www.nationalarchives.gov.uk/education/worldwarone/g3/cs1/g3cs1s2a.htm",
+                    "imageDescription": "Mapa do Plano Schlieffen de invasão pela Bélgica"
+                },
+                {
+                    "text": "Plano Molotov",
+                    "isCorrect": false,
+                    "explanation": "Molotov é pacto da Segunda Guerra.\nAqui é plano alemão de 1914!"
+                },
+                {
+                    "text": "Plano Marshall",
+                    "isCorrect": false,
+                    "explanation": "Marshall foi plano de reconstrução, não de invasão.\nAqui é estratégia militar!"
+                },
+                {
+                    "text": "Plano Barbarossa",
+                    "isCorrect": false,
+                    "explanation": "Barbarossa é invasão da URSS em 1941.\nAqui é Primeira Guerra!"
+                }
+            ]
+        },
+        {
+            "id": "79",
+            "question": "O que foi a 'terra de ninguém' durante a Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Espaço entre as trincheiras inimigas",
+                    "isCorrect": true,
+                    "explanation": "Correto! Era o pedaço mais perigoso do front.\nPouca vida, muita lama e arame farpado.",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/205022052",
+                    "imageDescription": "Paisagem devastada da terra de ninguém"
+                },
+                {
+                    "text": "Uma cidade ocupada",
+                    "isCorrect": false,
+                    "explanation": "Cidade? Era só lama e crateras.\nNada de urbanização!"
+                },
+                {
+                    "text": "Uma ilha no Pacífico",
+                    "isCorrect": false,
+                    "explanation": "A guerra foi na Europa, não no Pacífico.\nNada de ilha aqui!"
+                },
+                {
+                    "text": "Uma base secreta",
+                    "isCorrect": false,
+                    "explanation": "Base secreta só em filme de espião.\nAqui era só perigo e lama!"
+                }
+            ]
+        },
+        {
+            "id": "80",
+            "question": "Qual foi o principal motivo para o Brasil entrar na Primeira Guerra Mundial?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Afundamento de navios brasileiros por submarinos alemães",
+                    "isCorrect": true,
+                    "explanation": "Correto! Submarinos alemães afundaram navios brasileiros.\nAí o Brasil entrou na briga.",
+                    "imageUrl": "https://memoria.bn.br/DocReader/DocReader.aspx?bib=348970_04&pagfis=110",
+                    "imageDescription": "Jornal brasileiro noticiando ataques alemães a navios"
+                },
+                {
+                    "text": "Desejo de conquistar a Argentina",
+                    "isCorrect": false,
+                    "explanation": "Imagina só! Brasil e Argentina são rivais, mas não foi por isso.\nNada de invasão sul-americana."
+                },
+                {
+                    "text": "Aliança com a Alemanha",
+                    "isCorrect": false,
+                    "explanation": "Brasil não era amigo da Alemanha.\nPelo contrário!"
+                },
+                {
+                    "text": "Vontade de mostrar a força do café",
+                    "isCorrect": false,
+                    "explanation": "O café era forte, mas não tanto assim!\nMotivo era bem mais sério."
+                }
+            ]
+        },
+        {
+            "id": "81",
+            "question": "Qual destas frentes de batalha ficou marcada por combates de trincheira e impasse prolongado?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Frente Ocidental",
+                    "isCorrect": true,
+                    "explanation": "Correto! Na Frente Ocidental, trincheira era rotina.\nLama, rato e tédio para todo lado.",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/205022055",
+                    "imageDescription": "Trincheiras na Frente Ocidental"
+                },
+                {
+                    "text": "Frente do Pacífico",
+                    "isCorrect": false,
+                    "explanation": "O Pacífico ficou para a Segunda Guerra.\nAqui é Europa e lama!"
+                },
+                {
+                    "text": "Frente do Saara",
+                    "isCorrect": false,
+                    "explanation": "Só areia e camelos por lá.\nA guerra foi mais ao norte!"
+                },
+                {
+                    "text": "Frente Antártica",
+                    "isCorrect": false,
+                    "explanation": "Pinguins ficaram fora dessa!\nNada de guerra no gelo."
+                }
+            ]
+        },
+        {
+            "id": "82",
+            "question": "Quem era o imperador da Alemanha durante a Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Guilherme II",
+                    "isCorrect": true,
+                    "explanation": "Acertou! Guilherme II era o kaiser alemão.\nSaiu do trono no final da guerra.",
+                    "imageUrl": "https://www.bundesarchiv.de/bild/183-R05148",
+                    "imageDescription": "Retrato do Kaiser Guilherme II"
+                },
+                {
+                    "text": "Frederico II",
+                    "isCorrect": false,
+                    "explanation": "Frederico II era do século XVIII.\nA guerra era com outro kaiser!"
+                },
+                {
+                    "text": "Otto von Bismarck",
+                    "isCorrect": false,
+                    "explanation": "Bismarck foi o chanceler, não o imperador.\nE já tinha se aposentado!"
+                },
+                {
+                    "text": "Adolf Hitler",
+                    "isCorrect": false,
+                    "explanation": "Hitler era só um soldado raso na época!\nNada de Führer ainda."
+                }
+            ]
+        },
+        {
+            "id": "83",
+            "question": "Qual destas batalhas marcou o início do recuo alemão em 1918?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Segunda Batalha do Marne",
+                    "isCorrect": true,
+                    "explanation": "Correto! O Marne foi o começo do fim para os alemães.\nDepois disso, só recuo.",
+                    "imageUrl": "https://www.loc.gov/photos/item/2003668004/",
+                    "imageDescription": "Soldados aliados na Segunda Batalha do Marne"
+                },
+                {
+                    "text": "Batalha de Caporetto",
+                    "isCorrect": false,
+                    "explanation": "Caporetto foi vitória alemã/áustro-húngara sobre a Itália.\nAqui é recuo alemão!"
+                },
+                {
+                    "text": "Batalha de Verdun",
+                    "isCorrect": false,
+                    "explanation": "Verdun foi sangrenta, mas não o início do recuo.\nProcure pelo Marne!"
+                },
+                {
+                    "text": "Batalha de Tannenberg",
+                    "isCorrect": false,
+                    "explanation": "Tannenberg foi vitória alemã sobre os russos.\nAqui é derrota alemã!"
+                }
+            ]
+        },
+        {
+            "id": "84",
+            "question": "O que foi o Armistício de Compiègne?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Acordo que encerrou os combates da Primeira Guerra Mundial",
+                    "isCorrect": true,
+                    "explanation": "Correto! O armistício foi assinado em 11 de novembro de 1918.\nSilêncio nas trincheiras, finalmente.",
+                    "imageUrl": "https://www.loc.gov/photos/item/2003668004/",
+                    "imageDescription": "Assinatura do Armistício de Compiègne em 1918"
+                },
+                {
+                    "text": "Tratado de paz definitivo com a Alemanha",
+                    "isCorrect": false,
+                    "explanation": "O tratado definitivo foi o de Versalhes.\nO armistício só pausou os tiros!"
+                },
+                {
+                    "text": "Acordo entre Rússia e Alemanha",
+                    "isCorrect": false,
+                    "explanation": "Esse foi o Tratado de Brest-Litovsk.\nCompiègne foi com todos os aliados!"
+                },
+                {
+                    "text": "Aliança militar entre França e Reino Unido",
+                    "isCorrect": false,
+                    "explanation": "A aliança já existia antes.\nO armistício foi para parar a guerra!"
+                }
+            ]
+        },
+        {
+            "id": "85",
+            "question": "Qual destes tratados impôs pesadas sanções à Alemanha após a guerra?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Tratado de Versalhes",
+                    "isCorrect": true,
+                    "explanation": "Correto! Versalhes pegou pesado com a Alemanha.\nPaz com gosto de revanche.",
+                    "imageUrl": "https://www.loc.gov/photos/item/2003668004/",
+                    "imageDescription": "Assinatura do Tratado de Versalhes em 1919"
+                },
+                {
+                    "text": "Tratado de Tordesilhas",
+                    "isCorrect": false,
+                    "explanation": "Esse dividiu Brasil e Portugal, não Europa pós-guerra.\nSéculo errado!"
+                },
+                {
+                    "text": "Tratado de Paris (1783)",
+                    "isCorrect": false,
+                    "explanation": "Esse foi para a independência dos EUA.\nNada a ver com a Primeira Guerra!"
+                },
+                {
+                    "text": "Tratado de Utrecht",
+                    "isCorrect": false,
+                    "explanation": "Século XVIII, amigo!\nAqui é 1919 e Versalhes."
+                }
+            ]
+        },
+        {
+            "id": "86",
+            "question": "Quem foi o comandante supremo das forças aliadas no final da Primeira Guerra Mundial?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Ferdinand Foch",
+                    "isCorrect": true,
+                    "explanation": "Correto! Foch era o chefe dos chefes.\nMandava até no general britânico.",
+                    "imageUrl": "https://gallica.bnf.fr/ark:/12148/btv1b53085553s/f1.item",
+                    "imageDescription": "Retrato do Marechal Ferdinand Foch"
+                },
+                {
+                    "text": "Douglas Haig",
+                    "isCorrect": false,
+                    "explanation": "Haig era britânico, mas não comandava todos os aliados.\nProcure um francês!"
+                },
+                {
+                    "text": "John Pershing",
+                    "isCorrect": false,
+                    "explanation": "Pershing era o chefe americano.\nMas o comando geral era francês!"
+                },
+                {
+                    "text": "Paul von Hindenburg",
+                    "isCorrect": false,
+                    "explanation": "Hindenburg era alemão, do outro lado!\nProcure um aliado."
+                }
+            ]
+        },
+        {
+            "id": "87",
+            "question": "Qual destas consequências foi direta da Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Criação da Liga das Nações",
+                    "isCorrect": true,
+                    "explanation": "Correto! A Liga foi criada para evitar outra guerra.\nSpoiler: não deu muito certo.",
+                    "imageUrl": "https://www.loc.gov/photos/item/2003668004/",
+                    "imageDescription": "Delegados da Liga das Nações após a Primeira Guerra"
+                },
+                {
+                    "text": "Construção do Muro de Berlim",
+                    "isCorrect": false,
+                    "explanation": "O muro é da Guerra Fria.\nAqui é paz (ou quase) em 1919!"
+                },
+                {
+                    "text": "Primeiro pouso na Lua",
+                    "isCorrect": false,
+                    "explanation": "Lua só em 1969.\nAqui é Liga das Nações e tratados!"
+                },
+                {
+                    "text": "Invenção da internet",
+                    "isCorrect": false,
+                    "explanation": "Internet só veio quase um século depois.\nAqui foi Liga das Nações!"
+                }
+            ]
+        },
+        {
+            "id": "88",
+            "question": "Qual destes países fazia parte das Potências Centrais?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Império Otomano",
+                    "isCorrect": true,
+                    "explanation": "Correto! O Império Otomano lutou ao lado da Alemanha.\nNada de neutralidade por aqui.",
+                    "imageUrl": "https://www.theworldwar.org/explore/collections/ottoman-empire",
+                    "imageDescription": "Mapa do Império Otomano antes da dissolução"
+                },
+                {
+                    "text": "França",
+                    "isCorrect": false,
+                    "explanation": "França era rival das Potências Centrais.\nNada de amizade aqui."
+                },
+                {
+                    "text": "Reino Unido",
+                    "isCorrect": false,
+                    "explanation": "Reino Unido era Entente.\nNada de centralidade!"
+                },
+                {
+                    "text": "Estados Unidos",
+                    "isCorrect": false,
+                    "explanation": "EUA eram aliados, não centrais.\nNada de confusão!"
+                }
+            ]
+        },
+        {
+            "id": "89",
+            "question": "Qual destas batalhas foi decisiva para a derrota do Império Austro-Húngaro?",
+            "level": "difícil",
+            "options": [
+                {
+                    "text": "Batalha de Vittorio Veneto",
+                    "isCorrect": true,
+                    "explanation": "Correto! Vittorio Veneto foi o golpe final nos austro-húngaros.\nDepois disso, só rendição.",
+                    "imageUrl": "https://www.nationalarchives.gov.uk/education/worldwarone/g4/cs3/g4cs3s3a.htm",
+                    "imageDescription": "Mapa do avanço italiano em Vittorio Veneto"
+                },
+                {
+                    "text": "Batalha do Somme",
+                    "isCorrect": false,
+                    "explanation": "Somme foi contra os alemães.\nProcure uma batalha na Itália!"
+                },
+                {
+                    "text": "Batalha de Verdun",
+                    "isCorrect": false,
+                    "explanation": "Verdun foi França x Alemanha.\nAqui é Itália x Áustria-Hungria!"
+                },
+                {
+                    "text": "Batalha de Gallipoli",
+                    "isCorrect": false,
+                    "explanation": "Gallipoli foi no Império Otomano.\nAqui é derrota austro-húngara!"
+                }
+            ]
+        },
+        {
+            "id": "90",
+            "question": "Qual foi o impacto da entrada dos Estados Unidos na Primeira Guerra Mundial?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Reforçou os Aliados e acelerou o fim da guerra",
+                    "isCorrect": true,
+                    "explanation": "Correto! Os EUA trouxeram recursos frescos e ânimo novo.\nQuando o Tio Sam entra, o jogo vira.",
+                    "imageUrl": "https://www.loc.gov/photos/item/2016882384/",
+                    "imageDescription": "Tropas americanas desembarcando na Europa em 1917"
+                },
+                {
+                    "text": "Aumentou o número de batalhas navais",
+                    "isCorrect": false,
+                    "explanation": "Os EUA ajudaram em terra e ar.\nBatalha naval já era intensa antes!"
+                },
+                {
+                    "text": "Levou à rendição da Rússia",
+                    "isCorrect": false,
+                    "explanation": "A Rússia saiu por causa da Revolução.\nEUA entraram depois!"
+                },
+                {
+                    "text": "Fez a Alemanha conquistar Paris",
+                    "isCorrect": false,
+                    "explanation": "Pelo contrário! A Alemanha recuou.\nParis ficou segura!"
+                }
+            ]
+        },
+        {
+            "id": "91",
+            "question": "Qual foi uma das principais consequências demográficas da Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Milhões de mortos e feridos entre civis e militares",
+                    "isCorrect": true,
+                    "explanation": "Correto! Foram cerca de 13 milhões de mortos e 20 milhões de feridos.\nA Europa ficou marcada por perdas irreparáveis.",
+                    "imageUrl": "https://commons.wikimedia.org/wiki/File:WWI_Machine_gun.jpg",
+                    "imageDescription": "Soldados operando metralhadora na Primeira Guerra"
+                },
+                {
+                    "text": "Aumento da natalidade em todos os países",
+                    "isCorrect": false,
+                    "explanation": "Nada disso! O saldo foi negativo, com menos jovens e famílias desfeitas.\nA guerra não animou ninguém a ter filhos."
+                },
+                {
+                    "text": "População mundial dobrou em poucos anos",
+                    "isCorrect": false,
+                    "explanation": "Pelo contrário! O crescimento populacional foi freado.\nA guerra só trouxe perdas."
+                },
+                {
+                    "text": "Imigração em massa para a Europa",
+                    "isCorrect": false,
+                    "explanation": "Durante e após a guerra, muitos fugiram da Europa.\nImigração foi o contrário!"
+                }
+            ]
+        },
+        {
+            "id": "92",
+            "question": "Qual destas doenças se espalhou pelo mundo logo após a Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Gripe espanhola",
+                    "isCorrect": true,
+                    "explanation": "Correto! A pandemia matou milhões logo após a guerra.\nNem máscara de gás ajudava!",
+                    "imageUrl": "https://www.loc.gov/photos/item/2016869453/",
+                    "imageDescription": "Hospital de campanha durante a gripe espanhola"
+                },
+                {
+                    "text": "Varíola",
+                    "isCorrect": false,
+                    "explanation": "Varíola já era conhecida, mas a pandemia foi de gripe.\nProcure por algo 'espanhol' no nome!"
+                },
+                {
+                    "text": "Covid-19",
+                    "isCorrect": false,
+                    "explanation": "Covid é do século XXI.\nAqui é gripe do começo do século XX!"
+                },
+                {
+                    "text": "Peste bubônica",
+                    "isCorrect": false,
+                    "explanation": "A peste foi na Idade Média.\nAqui é vírus novo e mortal!"
+                }
+            ]
+        },
+        {
+            "id": "93",
+            "question": "O que o Tratado de Versalhes impôs à Alemanha?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Perda de territórios e pagamento de indenizações",
+                    "isCorrect": true,
+                    "explanation": "Correto! O tratado tirou terras, colônias e dinheiro da Alemanha.\nPaz amarga e cheia de contas.",
+                    "imageUrl": "https://www.loc.gov/photos/item/2003668004/",
+                    "imageDescription": "Assinatura do Tratado de Versalhes em 1919"
+                },
+                {
+                    "text": "Domínio sobre a França",
+                    "isCorrect": false,
+                    "explanation": "Nada disso! A Alemanha saiu perdendo.\nNada de domínio, só prejuízo."
+                },
+                {
+                    "text": "Aumento do exército alemão",
+                    "isCorrect": false,
+                    "explanation": "O exército foi reduzido a cem mil soldados.\nNada de crescimento militar!"
+                },
+                {
+                    "text": "Aliança com a Inglaterra",
+                    "isCorrect": false,
+                    "explanation": "Inglaterra era rival.\nNada de aliança, só rivalidade!"
+                }
+            ]
+        },
+        {
+            "id": "94",
+            "question": "Qual destas organizações internacionais foi criada após a Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Liga das Nações",
+                    "isCorrect": true,
+                    "explanation": "Correto! A Liga tentou evitar novas guerras.\nSpoiler: não conseguiu muito bem.",
+                    "imageUrl": "https://www.loc.gov/photos/item/2003668004/",
+                    "imageDescription": "Delegados da Liga das Nações após a Primeira Guerra"
+                },
+                {
+                    "text": "ONU",
+                    "isCorrect": false,
+                    "explanation": "A ONU só veio depois da Segunda Guerra.\nAqui é Liga das Nações!"
+                },
+                {
+                    "text": "União Europeia",
+                    "isCorrect": false,
+                    "explanation": "A União Europeia só surgiu décadas depois.\nAqui é Liga das Nações!"
+                },
+                {
+                    "text": "OTAN",
+                    "isCorrect": false,
+                    "explanation": "OTAN é do pós-Segunda Guerra.\nProcure uma organização de 1919!"
+                }
+            ]
+        },
+        {
+            "id": "95",
+            "question": "Qual destes impérios deixou de existir após a Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Império Russo",
+                    "isCorrect": true,
+                    "explanation": "Correto! O império virou União Soviética após a revolução.\nFim dos czares e começo dos sovietes.",
+                    "imageUrl": "https://commons.wikimedia.org/wiki/File:Europe_1923_map.png",
+                    "imageDescription": "Mapa da Europa após a Primeira Guerra Mundial"
+                },
+                {
+                    "text": "Império Britânico",
+                    "isCorrect": false,
+                    "explanation": "Britânico sobreviveu até depois da Segunda Guerra.\nO russo caiu em 1917!"
+                },
+                {
+                    "text": "Império Japonês",
+                    "isCorrect": false,
+                    "explanation": "O Japão ficou de pé até 1945.\nO russo caiu antes!"
+                },
+                {
+                    "text": "Império Mongol",
+                    "isCorrect": false,
+                    "explanation": "O Império Mongol já era passado há séculos.\nAqui é século XX!"
+                }
+            ]
+        },
+        {
+            "id": "96",
+            "question": "Qual destas transformações sociais ocorreu durante e após a Primeira Guerra Mundial?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Aumento da participação das mulheres no mercado de trabalho",
+                    "isCorrect": true,
+                    "explanation": "Correto! Mulheres assumiram fábricas e campos.\nA guerra mudou o papel feminino na sociedade.",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/205022073",
+                    "imageDescription": "Mulheres britânicas trabalhando em fábrica de munição"
+                },
+                {
+                    "text": "Redução dos direitos civis",
+                    "isCorrect": false,
+                    "explanation": "Em muitos lugares, as mulheres ganharam mais direitos.\nO caminho para o voto feminino acelerou!"
+                },
+                {
+                    "text": "Fim do trabalho infantil",
+                    "isCorrect": false,
+                    "explanation": "O trabalho infantil continuou em muitos países.\nA mudança foi maior para as mulheres."
+                },
+                {
+                    "text": "Proibição do voto feminino",
+                    "isCorrect": false,
+                    "explanation": "Pelo contrário! Em vários países, o voto feminino avançou.\nA guerra impulsionou conquistas."
+                }
+            ]
+        },
+        {
+            "id": "97",
+            "question": "Qual destas consequências econômicas afetou a Europa após a Primeira Guerra Mundial?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Crise econômica, desemprego e inflação",
+                    "isCorrect": true,
+                    "explanation": "Correto! A Europa ficou devastada, com desemprego e fome.\nA crise abriu caminho para regimes radicais.",
+                    "imageUrl": "https://www.iwm.org.uk/collections/item/object/205022075",
+                    "imageDescription": "Fila de desempregados na Europa pós-guerra"
+                },
+                {
+                    "text": "Expansão industrial sem dificuldades",
+                    "isCorrect": false,
+                    "explanation": "A indústria sofreu com falta de recursos e destruição.\nNada de expansão fácil!"
+                },
+                {
+                    "text": "Redução do custo de vida",
+                    "isCorrect": false,
+                    "explanation": "O custo de vida disparou.\nInflação virou rotina!"
+                },
+                {
+                    "text": "Estabilidade financeira imediata",
+                    "isCorrect": false,
+                    "explanation": "Nada de estabilidade! Só crise e mais crise.\nA Europa demorou a se recuperar."
+                }
+            ]
+        },
+        {
+            "id": "98",
+            "question": "O que aconteceu com o mapa político da Europa após a Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Surgiram novos países nos escombros dos impérios",
+                    "isCorrect": true,
+                    "explanation": "Correto! Polônia, Iugoslávia e outros nasceram dos antigos impérios.\nO mapa europeu virou um quebra-cabeça novo.",
+                    "imageUrl": "https://commons.wikimedia.org/wiki/File:Europe_1923_map.png",
+                    "imageDescription": "Mapa da Europa após a Primeira Guerra Mundial"
+                },
+                {
+                    "text": "Todos os países ficaram maiores",
+                    "isCorrect": false,
+                    "explanation": "Muitos ficaram menores ou sumiram.\nO mapa mudou bastante!"
+                },
+                {
+                    "text": "Não houve mudanças",
+                    "isCorrect": false,
+                    "explanation": "O mapa mudou muito!\nNovos países surgiram, impérios sumiram."
+                },
+                {
+                    "text": "Apenas a Alemanha foi dividida",
+                    "isCorrect": false,
+                    "explanation": "A divisão da Alemanha foi só depois da Segunda Guerra.\nAqui vários países novos apareceram!"
+                }
+            ]
+        },
+        {
+            "id": "99",
+            "question": "Qual destas consequências políticas foi observada após a Primeira Guerra Mundial?",
+            "level": "médio",
+            "options": [
+                {
+                    "text": "Ascensão de regimes totalitários na Europa",
+                    "isCorrect": true,
+                    "explanation": "Correto! A crise abriu caminho para nazismo, fascismo e outros.\nA democracia ficou abalada.",
+                    "imageUrl": "https://commons.wikimedia.org/wiki/File:Europe_1923_map.png",
+                    "imageDescription": "Mapa político da Europa pós-guerra, cenário de instabilidade"
+                },
+                {
+                    "text": "Fortalecimento da monarquia russa",
+                    "isCorrect": false,
+                    "explanation": "A monarquia russa acabou com a revolução.\nNada de fortalecimento, só queda!"
+                },
+                {
+                    "text": "Estabilidade política imediata",
+                    "isCorrect": false,
+                    "explanation": "A instabilidade foi a regra.\nNada de calmaria!"
+                },
+                {
+                    "text": "Unificação da Europa em um só país",
+                    "isCorrect": false,
+                    "explanation": "Europa ficou ainda mais dividida.\nNada de unificação!"
+                }
+            ]
+        },
+        {
+            "id": "100",
+            "question": "Qual país emergiu como grande potência mundial após a Primeira Guerra Mundial?",
+            "level": "fácil",
+            "options": [
+                {
+                    "text": "Estados Unidos",
+                    "isCorrect": true,
+                    "explanation": "Correto! Os EUA saíram fortalecidos e viraram potência global.\nEuropa em crise, América em alta.",
+                    "imageUrl": "https://www.loc.gov/photos/item/2016882384/",
+                    "imageDescription": "Tropas americanas na Europa, símbolo do novo poder global"
+                },
+                {
+                    "text": "Alemanha",
+                    "isCorrect": false,
+                    "explanation": "Alemanha saiu enfraquecida e cheia de dívidas.\nNada de potência aqui!"
+                },
+                {
+                    "text": "Áustria",
+                    "isCorrect": false,
+                    "explanation": "Áustria perdeu o império e ficou pequena.\nNada de potência mundial!"
+                },
+                {
+                    "text": "Rússia",
+                    "isCorrect": false,
+                    "explanation": "A Rússia virou União Soviética, mas só virou potência depois.\nOs EUA já estavam lá!"
                 }
             ]
         }
